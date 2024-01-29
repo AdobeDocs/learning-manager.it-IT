@@ -1,0 +1,93 @@
+---
+description: Gli amministratori possono avviare una sessione impersonata, vale a dire una sessione in cui possono accedere nel proprio account per conto di qualsiasi utente nei ruoli Allievo e Manager.
+jcr-language: en_us
+title: Impersonificazione dell’Allievo e del Manager
+contentowner: saghosh
+source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 0%
+
+---
+
+
+
+# Impersonificazione dell’Allievo e del Manager {#impersonation-of-learner-and-manager}
+
+Nelle grandi organizzazioni, il personale dell’assistenza clienti necessita della capacità di impersonificazione per risolvere i problemi riscontrati dagli Allievi.
+
+Grazie a questa capacità di impersonare altri utenti, gli Amministratori e gli Amministratori personalizzati possono identificare ed eseguire tutte le attività svolte da Allievi e Manager della propria organizzazione.
+
+## Come funziona
+
+Gli amministratori (e/o gli amministratori personalizzati) possono cercare un utente (interno o esterno) e quindi impersonarlo. L’Amministratore viene quindi reindirizzato alla pagina dell’utente (se applicabile, app di gestione o altra app per Allievi) e disconnesso dalla propria sessione. L’Amministratore viene quindi reindirizzato alla pagina Completa il tuo profilo, nel caso in cui questa sia impostata per l’utente che è stato impersonato dall’Amministratore.
+
+Se un Amministratore personalizzato dispone dell’autorizzazione per accedere alla pagina di un utente, può cercare gli utenti che desidera rappresentare.
+
+Ecco cosa devi tenere a mente quando impersoni un utente:
+
+* Tutti gli amministratori visualizzano questa funzione per impostazione predefinita.
+* Possono essere impersonati solo gli utenti attivi nell’account.
+* Un Amministratore non può impersonare se stesso.
+* Un amministratore personalizzato che ha accesso alla pagina Utenti può impersonare gli utenti.
+* Un amministratore/amministratore personalizzato può impersonare un utente solo per 60 minuti.
+
+## Impersonare un utente
+
+Per impersonare un utente, procedi come segue:
+
+1. Accedi all’app come amministratore.
+1. Seleziona Profilo > Impersona utente.
+
+   Puoi impersonare un solo utente alla volta.
+
+1. Cerca un utente (interno/esterno) nella casella di ricerca presente nel modale. Puoi impersonare un solo utente alla volta. Seleziona Procedi.
+
+   Puoi anche eseguire ricerche tramite e-mail utente, UUID e così via.
+
+1. Viene visualizzato un messaggio con la conferma che impersonerai un utente.
+
+   Seleziona Procedi.
+
+   Un messaggio di conferma, &quot;Modalità di rappresentazione: Hai effettuato l’accesso come &quot;nome utente (e-mail utente)&quot;. Disconnetti&quot; viene visualizzato nell&#39;intestazione della pagina.
+
+**Una sessione impersonata dura 60 minuti.**
+
+Quando si passa a un ruolo di Allievo o Manager, viene visualizzato un messaggio che indica che l’Amministratore/Amministratore personalizzato è in modalità di rappresentazione dell’utente.
+
+## Report di accesso
+
+Gli accessi e gli accessi di un Amministratore vengono acquisiti in un report di accesso. Per ogni utente che viene impersonato dall’Amministratore, viene creato un record nel report.
+
+Le colonne che fanno parte di questa funzione sono:
+
+* Impersonato da nome utente
+* Impersonato tramite e-mail utente
+
+Queste colonne vengono aggiunte alla fine del report.
+
+Ogni accesso viene conteggiato separatamente nel report.
+
+## Elementi non supportati
+
+* Rappresentazione dei componenti AEM.
+* Impersonificazione nell’app mobile.
+* Impersonificazione in ambiente mobile immersivo.
+* Impersonificazione di app immersive. È applicabile solo alle app ALM.
+
+## Domande frequenti
+
++++È possibile accedere ad Adobe Learning Manager anche quando si è impersonati?
+
+Sì, l’accesso di un utente è indipendente dall’impersonificazione.
++++
+
++++Gli eventi di rappresentazione vengono conteggiati in modo univoco?
+
+Sì, ogni accesso/visita da parte dell’amministratore durante la rappresentazione verrà conteggiato/a separatamente.
++++
+
++++Qual è il timeout dell’impersonificazione?
+
+Sono 60 minuti. Se un utente che esegue l’impersonificazione chiude la finestra del browser e passa a un URL principale entro 60 minuti, l’attività di impersonificazione continua e il messaggio del banner deve essere visualizzato.
++++
