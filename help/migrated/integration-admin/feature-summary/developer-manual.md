@@ -728,7 +728,7 @@ ID\
 name\
 pointsEarned\
 profilo\
-|||ROLE|||\
+ROLE\
 stato \
 timeZoneCode\
 uiLocale
@@ -783,7 +783,7 @@ modelIds\
 modelNames\
 modelTypes\
 leggi\
-||ROLE||
+ROLE
 
 +++
 
