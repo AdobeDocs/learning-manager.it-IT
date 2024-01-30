@@ -12,7 +12,7 @@ ht-degree: 0%
 
 
 
-# Report
+# Report {#report-0}
 
 Scopri i report associati al ruolo di Amministratore nell’applicazione Learning Manager.
 
