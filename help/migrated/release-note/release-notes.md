@@ -3,7 +3,7 @@ description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manage
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
-source-git-commit: 253cc73b4ee1cf4a11a82a5716611133d68d2031
+source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '26196'
 ht-degree: 72%
@@ -1345,7 +1345,7 @@ Per ulteriori informazioni, consulta  [***Novità della versione di agosto 2020 
 
 **Annunci**
 
-* Se un annuncio contiene il tag `<a>`, l’annuncio non viene creato come previsto.
+* Se un annuncio contiene il tag <a>, l’annuncio non viene creato come previsto.
 
 **Account**
 
