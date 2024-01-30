@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -14,53 +14,53 @@ ht-degree: 0%
 
 # Tag
 
-Gli Amministratori ora possono gestire i tag in Learning Manager. Utilizza tag migliori e un database gestibile per consentire agli Allievi di effettuare ricerche migliori e ottenere rapidamente i risultati di ricerca appropriati. Con questa funzione potete gestire i tag ridondanti, errati e irrilevanti. Potete anche aggiungere, modificare, eliminare, accodare o sostituire i tag.
+Gli Amministratori ora possono gestire i tag su Learning Manager. Utilizza una migliore codifica e una base di dati gestibile per aiutare gli allievi a effettuare ricerche migliori e ottenere rapidamente i risultati appropriati. Puoi gestire le etichette ridondanti, errate e irrilevanti utilizzando questa funzione. Puoi anche aggiungere, modificare, eliminare, accodare o sostituire le etichette.
 
-L’elenco degli oggetti di apprendimento associati al tag può essere visualizzato facendo clic sul conteggio fornito accanto a ciascun tag. L’elenco mostra il numero di corsi, programmi di apprendimento, certificati, risorse formative e gruppi di contenuti. Fare clic su una di queste opzioni per visualizzare l&#39;elenco.
+L’elenco di oggetti di apprendimento associati al tag può essere visualizzato facendo clic sul numero fornito accanto a ogni tag. L’elenco mostra il numero di corsi, programmi di apprendimento, certificati, risorse formative e gruppi di contenuto. Fai clic su una di queste opzioni per visualizzare l’elenco.
 
-È possibile ordinare i tag in base all&#39;utilizzo o all&#39;ordine alfabetico utilizzando la **[!UICONTROL Ordina per]** opzione.
+Puoi ordinare i tag in base all’utilizzo o all’ordine alfabetico tramite l’opzione **[!UICONTROL Ordina per]**.
 
 ## Aggiungere/eliminare/modificare i tag {#adddeleteedittags}
 
-1. Come Amministratore, nel pannello di navigazione a sinistra fai clic su **[!UICONTROL Tag]**. La **[!UICONTROL Tag Management]** pagina.
-1. Per aggiungere un nuovo tag, fai clic su **[!UICONTROL Aggiungi]**. Il pulsante Aggiungi si trova in alto a destra. Se non sono presenti tag, il **[!UICONTROL Aggiungi]** sarà disponibile anche al centro del **[!UICONTROL Tag Management]** pagina.
+1. Come amministratore, nel pannello di navigazione a sinistra fai clic su **[!UICONTROL Tag]**. Si apre la pagina **[!UICONTROL Gestione tag]**.
+1. Per aggiungere un nuovo tag, fai clic su **[!UICONTROL Aggiungi]**. Il pulsante Aggiungi è disponibile nell’angolo in alto a destra della pagina. Se non sono presenti tag, il pulsante **[!UICONTROL Aggiungi]** sarà disponibile anche nella parte centrale della pagina **[!UICONTROL Gestione tag]**.
 
-   Quando aggiungete più tag, separateli usando (,) o (;). Il nome di un tag può contenere un massimo di 50 caratteri.
+   Quando aggiungi più tag, separali usando (,) o (;). Un nome di tag può contenere un massimo di 50 caratteri.
 
-1. Per eliminare un tag esistente, selezionalo facendo clic sulla casella di controllo. Puoi selezionare più tag, fino a cinquanta, da eliminare contemporaneamente. Per eliminarli, procedi come segue:
+1. Per eliminare un tag esistente, seleziona il tag facendo clic sulla casella di controllo. Puoi selezionare più tag, fino a cinquanta, da eliminare contemporaneamente. Per eliminarli, procedi come segue:
 
-   * Seleziona i tag da eliminare > apri il **[!UICONTROL Azione]** menu a discesa > seleziona **[!UICONTROL Elimina]**.
+   * Seleziona i tag da eliminare > apri il menu a discesa **[!UICONTROL Azioni]** > seleziona **[!UICONTROL Elimina]**.
 
-1. Puoi modificare solo un tag alla volta. Per modificare un tag, segui questo passaggio:
+1. Puoi modificare solo un tag alla volta. Per modificare un tag, procedi come segue:
 
    * Seleziona il tag da modificare > apri il **[!UICONTROL Azioni]**menu a discesa > clic su **[!UICONTROL Modifica]**.
 
-   La **[!UICONTROL Modifica tag]** viene visualizzata la finestra di dialogo. Immetti il nuovo nome del tag e fai clic su **[!UICONTROL Salva]**.
+   Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica tag]**. Inserisci il nuovo nome del tag e fai clic su **[!UICONTROL Salva]**.
 
    Se il nome del tag immesso esiste già, in Learning Manager viene visualizzato un messaggio di Adobe. Non possono esistere due tag con lo stesso nome.
 
 ## Sostituire i tag {#replacetags}
 
-1. Selezionate i tag da sostituire. Puoi selezionare fino a 50 tag contemporaneamente. Apri il pannello **[!UICONTROL Azioni]** menu a discesa e selezionare **[!UICONTROL Sostituisci]**.
+1. Seleziona i tag da sostituire. Puoi selezionare fino a 50 tag contemporaneamente. Apri il pannello **[!UICONTROL Azioni]** menu a discesa e selezionare **[!UICONTROL Sostituisci]**.
 1. La **[!UICONTROL Sostituisci tag]** viene visualizzata una finestra di dialogo che mostra i tag selezionati.
 
-1. Nella **[!UICONTROL Nome dei tag sostituiti]** , immetti il nome del nuovo tag da sostituire con i tag selezionati. Puoi sostituirli con un tag esistente dal menu a discesa o aggiungere un nuovo tag.
+1. Nell’opzione **[!UICONTROL Nome per tag sostituiti]**, inserisci il nome del nuovo tag da sostituire con i tag selezionati. Puoi sostituirli con un tag esistente dal menu a discesa o aggiungere un nuovo tag.
 
-   Il nome del tag non può contenere virgola o punto e virgola.  I tag senza punto e virgola e la visualizzazione dei messaggi di errore durante l’utilizzo di tali tag come parte di alcuni oggetti di apprendimento non verranno gestiti per gli scenari di migrazione.
+   Il nome del tag non può contenere virgola o punto e virgola.  I tag senza punto e virgola e i messaggi di errore visualizzati quando si usano tali tag all’interno di qualche oggetto di apprendimento non saranno gestiti per gli scenari di migrazione.
 
-1. Fai clic **[!UICONTROL Sostituisci]**.
+1. Fai clic su **[!UICONTROL Sostituisci]**.
 
-## Aggiungi tag {#appendtags}
+## Accodare i tag {#appendtags}
 
 In caso di operazione Accoda per i tag, il tag nuovo/esistente verrà accodato a tutti gli oggetti di apprendimento e i gruppi di contenuti associati ai tag selezionati.
 
 1. Seleziona i tag da accodare. Puoi selezionare fino a 50 tag contemporaneamente. Apri il menu a discesa Azioni e seleziona **[!UICONTROL Aggiungi]**.
 1. La  **[!UICONTROL Aggiungi tag]** viene visualizzata una finestra di dialogo che mostra i tag selezionati.
-1. Puoi accodare un tag aggiuntivo a tutto il corso con i tag selezionati inserendo il nome del **[!UICONTROL Nuovo tag]** o dall&#39;elenco a discesa dei tag esistenti. Il nuovo tag verrà accodato a tutto il corso associato in Learning Manager.
+1. Puoi accodare un tag aggiuntivo a tutto il corso con i tag selezionati inserendo il nome del **[!UICONTROL nuovo tag]** o dall’elenco a discesa dei tag esistenti. Il nuovo tag verrà accodato a tutto il corso associato in Learning Manager.
 
-   Il nome del tag non può contenere virgola o punto e virgola. Se utilizzato, Prime mostrerà un messaggio di errore. I tag senza punto e virgola e la visualizzazione dei messaggi di errore durante l’utilizzo di tali tag come parte di alcuni oggetti di apprendimento non verranno gestiti per gli scenari di migrazione.
+   Il nome del tag non può contenere virgola o punto e virgola. Se utilizzati, Prime mostrerà un messaggio di errore. I tag senza punto e virgola e i messaggi di errore visualizzati quando si usano tali tag all’interno di qualche oggetto di apprendimento non saranno gestiti per gli scenari di migrazione.
 
-1. Fai clic **[!UICONTROL Aggiungi]**.
+1. Fai clic su **[!UICONTROL Accoda]**.
 
 ## Impostazioni {#settings}
 
@@ -72,7 +72,7 @@ In qualità di Amministratore, puoi autorizzare l’Autore a creare tag facendo 
 
 * Quando un utente è autorizzato a creare tag e seleziona tag esistenti che al momento non sono validi,
 
-  Viene visualizzato un messaggio di errore che indica che il tag selezionato non è più valido. I nuovi tag verranno creati rimuovendo i caratteri non supportati. In questo caso, l’Autore dovrebbe essere in grado di visualizzare i suoi tag precedenti trasformati in nuovi tag prima di salvarli.
+  Viene visualizzato un messaggio di errore che indica che il tag selezionato non è più valido. I nuovi tag verranno creati rimuovendo i caratteri non supportati. In questo caso, l’autore dovrebbe visualizzare i suoi tag precedenti trasformati nei nuovi tag prima di salvarli.
 
 * Se l’utente non dispone delle autorizzazioni necessarie per creare nuovi tag, viene visualizzato un messaggio di errore che indica che il tag selezionato non è più valido. Gli autori possono contattare gli amministratori per modificare i tag non validi.
 

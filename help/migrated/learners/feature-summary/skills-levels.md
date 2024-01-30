@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
@@ -16,30 +16,30 @@ ht-degree: 0%
 
 Leggi questo articolo per scoprire come ottenere abilità in Learning Manager, come Allievo.
 
-La mappa delle abilità è un raggruppamento di set di abilità, conoscenze e tratti di un dipendente di un&#39;organizzazione. Queste competenze aiutano le aziende/organizzazioni a stabilire o aumentare le aspettative di prestazioni per i propri dipendenti. Le abilità consentono ai dipendenti di allineare i propri comportamenti alle aspettative dell&#39;organizzazione.
+La mappa delle abilità racchiude i set di abilità, le conoscenze e le caratteristiche di un dipendente in un’organizzazione. Queste abilità aiutano le aziende/organizzazioni a impostare o incrementare le prestazioni previste per i dipendenti. Le abilità consentono ai dipendenti di allineare i loro comportamenti alle aspettative dell’organizzazione.
 
-Adobe Learning Manager ti consente di mappare le prestazioni degli Allievi in base alle loro competenze mediante il widget Abilità. Quando gli Allievi completano l’accettazione di alcuni corsi, possono verificare la loro posizione rispetto a ciascuna abilità facendo clic su Abilità nella home page Allievi.
+Adobe Learning Manager consente di mappare le prestazioni degli Allievi in base ai relativi set di abilità tramite il widget delle abilità. Quando gli Allievi completano l’accettazione di alcuni corsi, possono verificare la loro posizione rispetto a ciascuna abilità facendo clic su Abilità nella home page Allievi.
 
-## Visualizza abilità {#viewskills}
+## Visualizzazione delle abilità {#viewskills}
 
-Per visualizzare le abilità, fai clic su uno dei nomi delle abilità nel widget Abilità nella pagina Allievo. Le abilità vengono visualizzate insieme ai relativi livelli adiacenti.
+Per visualizzare le abilità, fai clic su uno dei nomi delle abilità nel widget relativo della pagina Allievo. Le abilità sono visualizzate con i relativi livelli adiacenti.
 
 ![](assets/learner-skills1.png)
 
 *Visualizza tutte le abilità*
 
-La percentuale di completamento per ogni abilità è disponibile accanto all’abilità sul widget. Quando fai clic su ciascuna abilità, l’app ti reindirizza alla pagina Abilità, in cui puoi visualizzare i dettagli dell’abilità su cui hai fatto clic.
+La percentuale di completamento di ogni abilità è disponibile accanto all’abilità nel widget. Quando fai clic su ogni abilità, l’applicazione ti porta alla pagina Abilità dove è possibile visualizzare i dettagli dell’abilità selezionata.
 
-Nella pagina Abilità viene visualizzato lo Stato dell’abilità su cui hai fatto clic. Ad esempio, Java. La pagina Abilità visualizza lo Stato, ad esempio &quot;In corso&quot;, e i crediti, ad esempio &quot;2 su 10 acquisiti&quot;.
+Nella pagina Abilità viene visualizzato lo stato dell’abilità selezionata. Ad esempio, Java. Nella pagina Abilità viene visualizzato lo stato, ad esempio “In corso” e i crediti, ad esempio “2 di 10 ottenuti”.
 
-In questa pagina puoi fare clic su ciascuna abilità per visualizzare i dati corrispondenti.
+In questa pagina, puoi fare clic su ogni abilità per visualizzare i dati corrispondenti.
 
 ![](assets/learner-skills2.png)
 
 *Visualizza ogni abilità*
 
-Solo gli Amministratori possono creare e assegnare abilità agli Allievi. Gli Allievi vengono assegnati automaticamente all’abilità corrispondente ai corsi/programmi di apprendimento a cui sono stati iscritti.
+Solo gli Amministratori possono creare e assegnare abilità agli Allievi. Gli Allievi vengono automaticamente assegnati all’abilità corrispondente ai programmi di apprendimento/corsi iscritti.
 
 ## Ottieni abilità {#achieveskill}
 
-Un Allievo può ottenere abilità man mano che completa i corsi o i programmi di apprendimento assegnati con i crediti di abilità assegnati. Gli Allievi possono inoltre raggiungere le abilità iscrivendosi autonomamente ai corsi che appartengono a una determinata abilità e completandola.
+Un Allievo può ottenere abilità al momento del completamento dei programmi di apprendimento/corsi assegnati a cui sono associati crediti di abilità. Gli allievi possono inoltre ottenere abilità iscrivendosi autonomamente ai corsi che appartengono a una specifica abilità e completandoli.

@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -31,7 +31,7 @@ Risoluzione minima supportata: 1024 x 720.
 
 ## Spazio su disco
 
-Almeno 5 GB di spazio disponibile su disco rigido.
+Almeno 5 GB di spazio disponibile sul disco rigido.
 
 ## Registrazione
 
@@ -40,19 +40,19 @@ Almeno 5 GB di spazio disponibile su disco rigido.
 
 ## Varie
 
-Per utilizzare l’applicazione, è necessario disporre di una connessione Internet attiva e un account Allievo Adobe Learning Manager.
+Per utilizzare l’applicazione, è necessario disporre di una connessione Internet attiva e un account Allievo di Adobe Learning Manager.
 
 ## Specifiche del browser
 
-La home page del layout immersivo non è supportata sui browser IE 11.
+La pagina principale del layout immersivo non è supportata sul browser IE 11.
 
 * Google Chrome versione 43 e successive.
-* Versioni più recenti di Edge, Safari (versione 13 e successive) e Firefox.
+* Ultime versioni di Edge, Safari (versione 13 e successive) e Firefox.
 * Internet Explorer versione 11 e successive
 
 ## Dimensioni immagini consigliate {#recommendedsizeofimages}
 
-* Titolo: 1280 x 360 px.
+* Masthead: 1280 x 360 px.
 * Immagine nella scheda del catalogo: 280 x 100 px
 * Dimensioni della scheda di formazione: 300 x 240 px
 * Banner social: 1600 x 240 px
@@ -69,7 +69,7 @@ Intel® CoreTM i5 o più veloce.
 
 ### RAM
 
-Sono richiesti almeno 8 GB.
+È necessario un minimo di 8 GB.
 
 ### Risoluzione schermo
 
@@ -77,7 +77,7 @@ Sono richiesti almeno 8 GB.
 
 ### Spazio su disco
 
-Almeno 5 GB di spazio disponibile su disco rigido.
+Almeno 5 GB di spazio disponibile sul disco rigido.
 
 ### Registrazione
 
@@ -105,7 +105,7 @@ Per la registrazione audio è necessario un microfono; per la registrazione vide
 
 ### Spazio su disco/scanner di codici QR richiesto
 
-* 250 MB
+* 250 MB
 
 >[!NOTE]
 >
@@ -117,18 +117,18 @@ Per la registrazione audio è necessario un microfono; per la registrazione vide
 
 ## Dimensione massima del contenuto {#maximumcontentsize}
 
-La dimensione massima del file che può essere caricato è di 600 MB.
+La dimensione massima che può essere caricato è pari a 600 MB.
 
 >[!NOTE]
 >
->Se le dimensioni del *user.csv* supera i 100 MB. L&#39;importazione di questo file può causare un funzionamento imprevisto del browser. Il problema si verifica perché la memoria del browser è esaurita.
+>Se le dimensioni del file *user.csv* superano i 100 MB, l’importazione di questo file può causare un funzionamento imprevisto del browser. Il problema si verifica perché la memoria del browser è esaurita.
 
 Si consiglia di importare file di grandi dimensioni *user.csv* file mediante il flusso di lavoro automatico Box/Exavault. Per ulteriori informazioni, consulta [Migrazione dei file](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
-## Formati di contenuto supportati
+## Formati contenuto supportati
 
-### Caricamento modulo {#moduleupload}
+### Caricamento del modulo {#moduleupload}
 
 <table>
  <tbody>
@@ -142,49 +142,49 @@ Si consiglia di importare file di grandi dimensioni *user.csv* file mediante il 
    <td>
     <p>Documenti</p></td>
    <td>
-    <p>"pdf", "docx", "doc", "xls", "xlsx"</p></td>
+    <p>“pdf”, “docx”, “doc”, “xls”, “xlsx”</p></td>
   </tr>
   <tr>
    <td>
-    <p>Presentazioni di PowerPoint</p></td>
+    <p>Presentazioni PowerPoint</p></td>
    <td>
-    <p>"pptx", "ppt"</p></td>
+    <p>“pptx”, “ppt”</p></td>
   </tr>
   <tr>
    <td>
     <p>Video</p></td>
    <td>
-    <p>"mp4", "wmv", "3gp", "3g2", "3gp2", "asf", "avi", "f4v", "h264", "mpe", "mpeg", "mpg", "mpg2", "m4v", "mov", "wmv"</p></td>
+    <p>“mp4”, “wmv”, “3gp”, “3g2”, “3gp2”, “asf”, “avi”, “f4v”, “h264”, “mpe”, “mpeg”, “mpg”, “mpg2”, “m4v”, “mov”, “wmv”</p></td>
   </tr>
   <tr>
    <td>
-    <p>SCORM 1,2</p></td>
+    <p>SCORM 1.2</p></td>
    <td>
-    <p>"zip"</p></td>
+    <p>“zip”</p></td>
   </tr>
   <tr>
    <td>
     <p>SCORM 2004</p></td>
    <td>
-    <p>"zip"</p></td>
+    <p>“zip”</p></td>
   </tr>
   <tr>
    <td>
     <p>CAPI</p></td>
    <td>
-    <p>"zip"</p></td>
+    <p>“zip”</p></td>
   </tr>
   <tr>
    <td>
     <p>AICC</p></td>
    <td>
-    <p>"zip"</p></td>
+    <p>“zip”</p></td>
   </tr>
   <tr>
    <td>
     <p>Audio</p></td>
    <td>
-    <p>"mp3", "wav", "aac", "m4a", "wma", "vorbis", "pcm", "eac3", "amr", "ac3"</p></td>
+    <p>“mp3”, “wav”, “aac”, “m4a”, “wma”, “vorbis”, “pcm”, “eac3”, “amr”, “ac3”</p></td>
   </tr>
  </tbody>
 </table>
@@ -205,13 +205,13 @@ Si consiglia di importare file di grandi dimensioni *user.csv* file mediante il 
   </tr>
   <tr>
    <td>
-    <p><strong>Company Logo</strong></p></td>
+    <p><strong>Logo aziendale</strong></p></td>
    <td>
     <p>"png", "jpg", "jpeg", "bmp", "gif"</p></td>
   </tr>
   <tr>
    <td>
-    <p><strong>Caricamento certificazioni</strong></p></td>
+    <p><strong>Caricamento delle certificazioni</strong></p></td>
    <td>
     <p> "png", "jpg", "jpeg", "pdf", "doc", "docx", "gif"</p></td>
   </tr>
@@ -224,7 +224,7 @@ Si consiglia di importare file di grandi dimensioni *user.csv* file mediante il 
  </tbody>
 </table>
 
-## Specifiche di altezza e larghezza per il caricamento degli elementi {#heightandwidthspecificationforuploadingelements}
+## Specifiche altezza e larghezza per il caricamento di elementi {#heightandwidthspecificationforuploadingelements}
 
 <table>
  <tbody>
@@ -236,31 +236,31 @@ Si consiglia di importare file di grandi dimensioni *user.csv* file mediante il 
   </tr>
   <tr>
    <td>
-    <p>Badge nella bacheca dei risultati raggiunti dall’Allievo</p></td>
+    <p>Distintivo sul tabellone degli obiettivi Allievo</p></td>
    <td>
     <p>40x40 pixel</p></td>
   </tr>
   <tr>
    <td>
-    <p>Badge esteso nell’applicazione per allievi</p></td>
+    <p>Distintivo esteso nell’applicazione Allievo</p></td>
    <td>
     <p>90 x 90 pixel</p></td>
   </tr>
   <tr>
    <td>
-    <p>Immagine del profilo utente sui risultati degli Allievi</p></td>
+    <p>Immagine del profilo utente negli obiettivi Allievo</p></td>
    <td>
     <p>100 x 100 pixel</p></td>
   </tr>
   <tr>
    <td>
-    <p>Immagine del profilo utente al menu a discesa Esci</p></td>
+    <p>Immagine del profilo utente nel menu a discesa di disconnessione</p></td>
    <td>
     <p>42x42 pixel</p></td>
   </tr>
   <tr>
    <td>
-    <p>Logo aziendale sull'intestazione</p></td>
+    <p>Logo aziendale nell’intestazione</p></td>
    <td>
     <p>45 pixel in altezza, la larghezza viene calcolata di conseguenza.</p></td>
   </tr>
@@ -285,14 +285,14 @@ Sono supportate le seguenti combinazioni:
 
 ### Supporto per dispositivi mobili immersivi
 
-Sono supportati i seguenti elementi:
+Sono supportate le seguenti combinazioni:
 
 * Android + Talkback
-* iOS+voiceOver
+* iOS + VoiceOver
 
 ## Requisiti di rete {#networkrequirements}
 
-Assicurati che i seguenti domini di terze parti siano autorizzati se utilizzi una rete con restrizioni.
+Assicurati che i seguenti domini di terze parti siano autorizzati nella whitelist se utilizzi una rete con restrizioni.
 
 * &#42;.adobe.com
 * &#42;.boltdns.net
@@ -308,7 +308,7 @@ Assicurati che i seguenti domini di terze parti siano autorizzati se utilizzi un
 * &#42;.akamaihd.net
 
 
-### Casi specifici estesi {#specificextendedcases}
+### Casi estesi specifici {#specificextendedcases}
 
 <table>
  <tbody>
@@ -333,16 +333,16 @@ Assicurati che i seguenti domini di terze parti siano autorizzati se utilizzi un
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://myhbp.org" target="_blank">www.myhbp.org</a></td>
   </tr>
   <tr>
-   <td>Connettore GetAbstracts</td>
+   <td>Connettore getAbstract</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
   </tr>
   <tr>
    <td>Connettore Box</td>
-   <td>Box zone situate a Francoforte</td>
+   <td>Box Zones a Francoforte</td>
   </tr>
   <tr>
    <td>Connettore Mini Orange</td>
-   <td>Mini arancione</td>
+   <td>Mini Orange</td>
   </tr>
   <tr>
    <td>Connettore Workday</td>
@@ -361,4 +361,4 @@ Assicurati che i seguenti domini di terze parti siano autorizzati se utilizzi un
 
 ## Panoramica tecnica {#technicaloverview}
 
-[Panoramica tecnica di Learning Manager](assets/learning-manager-technicaloverview.pdf)
+[Panoramica tecnica Learning Manager](assets/learning-manager-technicaloverview.pdf)

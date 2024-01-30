@@ -1,21 +1,21 @@
 ---
 jcr-language: en_us
-title: Personalizza il tema per i componenti AEM
-description: Personalizza il tema per i componenti AEM
+title: Personalizza il tema dei componenti AEM
+description: Personalizza il tema dei componenti AEM
 contentowner: saghosh
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '24'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# Personalizza il tema per i componenti AEM
+# Personalizza il tema dei componenti AEM
 
-Utilizza il codice JSON seguente per personalizzare il widget del catalogo.
+Utilizza il codice JSON riportato di seguito per personalizzare il widget del catalogo.
 
 ```
 \{ 

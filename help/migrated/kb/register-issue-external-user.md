@@ -1,26 +1,26 @@
 ---
 jcr-language: en_us
-title: Impossibile eseguire la registrazione come utente esterno
+title: Impossibile effettuare la registrazione come utente esterno
 description: Gli Allievi esterni non possono effettuare la registrazione a un profilo in Adobe Learning Manager.
 contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
 
 
-# Impossibile eseguire la registrazione come utente esterno
+# Impossibile effettuare la registrazione come utente esterno
 
 ## Problema
 
-Gli Allievi esterni non possono effettuare la registrazione a un profilo.
+Gli Allievi esterni non possono effettuare la registrazione con un profilo.
 
 ## Errore
 
-ID e-mail già registrato. Utilizza un indirizzo e-mail diverso.
+L’ID e-mail è già registrato. Utilizza un indirizzo e-mail diverso.
 
 ![](assets/cp-register-profile.png)
 
@@ -28,7 +28,7 @@ ID e-mail già registrato. Utilizza un indirizzo e-mail diverso.
 
 ## Descrizione
 
-Ci sono scenari in cui un utente non è in grado di registrarsi a un profilo esterno. Durante la registrazione, l’utente riceve il messaggio di errore di cui sopra.
+Ci sono scenari in cui un utente non può registrarsi con un profilo esterno. Durante la registrazione, l’utente riceve il messaggio d’errore di cui sopra.
 
 ## Causa
 
@@ -36,7 +36,7 @@ Questo problema si verifica in uno dei seguenti scenari:
 
 * L’utente è già registrato con un altro profilo esterno.
 * L’utente è già un Allievo interno.
-* L’utente è in stato Eliminato.
+* All’utente è attribuito lo stato Eliminato.
 
 ## Risoluzione:
 
@@ -44,7 +44,7 @@ Questo problema si verifica in uno dei seguenti scenari:
 
 1. Accedi come Amministratore.
 1. Sotto **Gestisci**, fare clic su **[!UICONTROL Utenti]** > **[!UICONTROL Esterno]**.
-1. Apri il profilo di cui l’utente fa già parte facendo clic su Postazioni utilizzate.
+1. Apri il profilo di cui l’utente fa già parte facendo clic su Postazioni utilizzate
 
    ![](assets/cp-seats-used.png)
 
@@ -56,7 +56,7 @@ Questo problema si verifica in uno dei seguenti scenari:
 
    *Modifica profilo utente*
 
-   Viene aperta una finestra per selezionare un nuovo profilo come indicato di seguito.
+   Viene visualizzata una finestra per selezionare un nuovo profilo come indicato di seguito.
 
    ![](assets/cp-select-profiles.png)
 
@@ -68,7 +68,7 @@ Questo problema si verifica in uno dei seguenti scenari:
 
 1. Accedi come Amministratore.
 1. Sotto **Gestisci**, fare clic su **[!UICONTROL Utenti]** > **[!UICONTROL Interno]**.
-1. Fai clic per aprire un profilo Allievo e fai clic sull’icona Modifica.
+1. Fai clic per aprire un profilo Allievo e fai clic sull&#39;icona Modifica.
 
    ![](assets/cp-internal-learner.png)
 
@@ -80,7 +80,7 @@ Questo problema si verifica in uno dei seguenti scenari:
 
 1. Fai clic **Salva** per mantenere le modifiche apportate.
 
-**Scenario 3**: all&#39;utente è attribuito lo stato Eliminato.
+**Scenario 3**: all’utente è attribuito lo stato Eliminato.
 
 1. Accedi come Amministratore.
 1. Sotto **Gestisci**, fare clic su **[!UICONTROL Utenti]** > **[!UICONTROL Pulizia utente]**.

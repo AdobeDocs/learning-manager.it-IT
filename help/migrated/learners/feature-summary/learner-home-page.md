@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Home page Allievo
+title: Pagina principale dell’Allievo
 description: Dopo che l’Amministratore ha abilitato il layout immersivo, l’Allievo, dopo aver effettuato l’accesso all’app, viene accolto con un’interfaccia utente completamente rinnovata.
 contentowner: saghosh
 source-git-commit: 021a5eaa979be241faa2cf2b372731afc157ea9b
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
 
 
-# Home page Allievo
+# Pagina principale dell’Allievo
 
 ## Panoramica {#overview}
 
@@ -24,7 +24,7 @@ Dopo che l’Amministratore ha abilitato il layout immersivo, l’Allievo, dopo 
 
 A seconda che un widget sia stato abilitato o meno, l’Allievo rileva quanto segue:
 
-## Titolo {#masthead}
+## Masthead {#masthead}
 
 Presenta un carosello di video o immagini con un URL incorporato. La [L’Amministratore può caricare qualsiasi immagine o video](../../administrators/feature-summary/announcements.md#masthead) risorsa come masthead e impostarne la visibilità per un gruppo di allievi.
 
@@ -46,23 +46,23 @@ Per riprendere un corso, fai clic su **[!UICONTROL Continua]** su una scheda e i
 
 La visualizzazione delle icone su ogni scheda di formazione può essere abilitata/disabilitata dall&#39;Amministratore tramite l&#39;app Amministratore (**Impostazioni** > **Generale** > **Attiva icone per la scheda di formazione**).
 
-**Aggiungi all’elenco Il mio apprendimento**
+**Aggiunta all’elenco Il mio apprendimento**
 
-Se passi con il mouse su una scheda del corso nella **Consigliato in base alle tue aree di interesse** e **Consigliato in base agli elenchi di attività dei colleghi**, è disponibile un’opzione per aggiungere il corso al **Elenco Il mio apprendimento**. Fai clic **[!UICONTROL +]** nella scheda del corso e il corso verrà aggiunto al **Elenco Il mio apprendimento**.
+Passando con il mouse sulla scheda di un corso nelle sezioni **Consigliato in base alle tue aree di interesse** e **Consigliato in base agli elenchi delle attività dei colleghi**, puoi vedere l’opzione per aggiungere il corso all’**elenco Il mio apprendimento**. Fai clic **[!UICONTROL +]** nella scheda del corso e il corso verrà aggiunto al **Elenco Il mio apprendimento**.
 
 ![](assets/add-my-learning.png)
 
-*Aggiungi all’elenco Il mio apprendimento*
+*Aggiunta all’elenco Il mio apprendimento*
 
-## Scegli i livelli di abilità {#chooseskilllevels}
+## Scegliere i livelli di abilità {#chooseskilllevels}
 
 In qualità di Allievo, puoi filtrare il catalogo dei corsi in base ai seguenti livelli:
 
 * Principiante
 * Intermedio
-* Avanzate
+* Avanzato
 
-Scegli un’opzione e vedrai il catalogo dei corsi in base a questa selezione.
+Scegli un&#39;opzione e potrai quindi visualizzare il catalogo del corso in base alla selezione.
 
 ![](assets/skill-levels.png)
 
@@ -76,11 +76,11 @@ Mostra le sessioni e i corsi di formazione pianificati. Esplora il calendario pe
 
 *Visualizza calendario per sessioni pianificate*
 
-Il widget Calendario dispone delle seguenti funzionalità. Puoi visualizzare:
+Il widget Calendario ha le seguenti funzioni. È possibile visualizzare:
 
-* I corsi di formazione vengono organizzati per mese. Scorri verso sinistra o verso destra.
+* I corsi di formazione raggruppati per mese. Scorri a destra o a sinistra.
 * I prossimi corsi in aula o virtuali disponibili per l&#39;iscrizione.
-* I prossimi corsi in aula o virtuali a cui ti sei iscritto.
+* I prossimi corsi in aula o virtuali ai quali sei iscritto.
 * I corsi in aula o virtuali approvati dal Manager.
 
 ## Feed dei social {#socialfeed}
@@ -91,23 +91,23 @@ Il widget Calendario dispone delle seguenti funzionalità. Puoi visualizzare:
 
 Scopri di cosa stanno parlando gli altri utenti.
 
-Il widget riepiloga l&#39;attività per un periodo. In particolare:
+Il widget riepiloga l&#39;attività di un determinato periodo. In particolare:
 
-* Visualizza gli utenti attivi e le loro attività degli utenti che si trovano nel tuo ambito o gruppo.
-* Visualizza i post creati nelle ultime due settimane.
+* Mostra, tra gli utenti che sono nella tua area di riferimento o nel tuo gruppo, quelli attivi e le loro attività.
+* Mostra i post creati nelle ultime due settimane.
 
-## Abilità profilo {#profileskills}
+## Abilità di profilo {#profileskills}
 
-Le abilità di profilo vengono utilizzate per i consigli sui corsi. Se l’Amministratore assegna un’abilità a un utente o a un gruppo di utenti, questa viene aggiunta alle abilità di profilo dell’Allievo. Se l’Allievo aggiunge un’abilità al suo profilo, tutti i livelli dell’abilità vengono aggiunti alle abilità di profilo dell’Allievo. Quando un Allievo passa il mouse su un’abilità, può visualizzarne nome, metodo di aggiunta, livello, percentuale di completamento e crediti.
+Le abilità di profilo vengono usate per i suggerimenti sui corsi. Se l’Amministratore assegna un’abilità a un utente o a un gruppo di utenti, questa viene aggiunta alle abilità di profilo dell’Allievo. Se l’Allievo aggiunge un’abilità al suo profilo, tutti i livelli dell&#39;abilità verranno aggiunti alle abilità di profilo dell’Allievo. Se l’Allievo passa il mouse su un’abilità, può visualizzarne nome, metodo di aggiunta, livello, percentuale di completamento e crediti.
 
 ![](assets/profile-skills.png)
 *Visualizzare le abilità di profilo*
 
-Se un Allievo si iscrive a un corso, solo le abilità esterne basate su un punteggio vengono aggiunte alle abilità di profilo. Inoltre, un Allievo può cercare, selezionare e aggiungere abilità esterne al proprio profilo.Se un Allievo accede all’app per Allievi per la prima volta e se le sue abilità sono già presenti, le abilità verranno visualizzate in Profilo personale.
+Se un Allievo si iscrive a un corso, solo le abilità esterne basate su un punteggio verranno aggiunte alle abilità di profilo. Inoltre, un Allievo può cercare, selezionare e aggiungere abilità esterne al proprio profilo.Se un Allievo accede all’app per Allievi per la prima volta e se le sue abilità sono già presenti, le abilità verranno visualizzate in Profilo personale.
 
 ## Consiglio in base alla tua area di interesse {#recommendationbasedonyourareaofinterest}
 
-Visualizza i corsi di formazione in base all’area di interesse selezionata. Il consiglio è guidato da un algoritmo di apprendimento automatico.
+Visualizza i corsi di formazione in base all’area di interesse prescelta. Il consiglio è guidato da un algoritmo di apprendimento automatico.
 
 ![](assets/learner-recommendation.png)
 
@@ -115,21 +115,21 @@ Visualizza i corsi di formazione in base all’area di interesse selezionata. Il
 
 Per suggerimenti più mirati, puoi aggiornare le tue competenze facendo clic su **Visualizza/Aggiorna**.
 
-Dopo aver aggiunto un’abilità, i consigli futuri saranno più mirati e focalizzati in base alle tue preferenze.
+Dopo aver aggiunto un’abilità, i consigli futuri diventeranno più mirati e saranno basati sulle tue preferenze.
 
-Se l’Amministratore ha disattivato l’opzione **Esplora abilità**, potresti aggiungere interesse alle tue abilità.
+Se l’Amministratore ha disattivato l’opzione **Esplora abilità**, è possibile aggiungere interessi alle proprie abilità.
 
-I corsi consigliati vengono visualizzati come schede. Quando passi il mouse su una scheda, puoi visualizzare ulteriori dettagli del corso.
+I corsi di formazione vengono visualizzati come schede. Quando passi il mouse su una scheda, puoi visualizzare ulteriori dettagli del corso.
 
 È supportata anche la terminologia del prodotto.
 
 **Abilità allineate al settore**
 
-Potrai visualizzare il grafico delle abilità se l’Amministratore ha abilitato l’opzione **Allineato al settore** nell’app di amministrazione.
+Potrai vedere il grafico delle abilità se l’Amministratore ha abilitato l’opzione **Abilità allineate al settore** nell&#39;app Amministratore.
 
-Queste abilità possono essere visualizzate solo quando l’Amministratore imposta il tipo di corso di formazione su Abilità allineate al settore.
+Queste abilità sono visibili solo quando l’Amministratore imposta il tipo di corso di formazione su Abilità allineate al settore.
 
-Nella visualizzazione Mappa abilità, puoi cercare una o più abilità e aggiungerle.
+Nella visualizzazione Mappa abilità, puoi cercare le abilità e aggiungerle.
 
 ![](assets/learner-add-industry-skills.png)
 
@@ -137,9 +137,9 @@ Nella visualizzazione Mappa abilità, puoi cercare una o più abilità e aggiung
 
 Abilita l’opzione **Mostra le abilità per le quali sono presenti corsi di formazione nel mio account**, se desideri visualizzare tutte le abilità presenti nel tuo account.
 
-Dopo aver aggiunto un’abilità, puoi visualizzare il grafico forza diretta con l’abilità selezionata come vertice principale e le abilità associate come vertici più piccoli.
+Dopo aver aggiunto un’abilità, puoi vedere il grafico con l’abilità selezionata come vertice primario e le abilità associate come vertici più piccoli.
 
-Le abilità selezionate vengono visualizzate anche nel **Abilità selezionate** sezione.
+L’abilità che hai scelto viene visualizzata anche nella sezione **Abilità selezionate**
 
 ![](assets/learner-add-industry-skills-1.png)
 
@@ -147,6 +147,6 @@ Le abilità selezionate vengono visualizzate anche nel **Abilità selezionate** 
 
 Per aggiungere le abilità, fai clic su **[!UICONTROL Aggiungi]**.
 
-## Consiglio basato sull’attività dei colleghi {#recommendationbasedonpeeractivity}
+## Consiglio in base all’attività dei colleghi {#recommendationbasedonpeeractivity}
 
-Visualizza i corsi di formazione in base a ciò che stanno seguendo i colleghi. Anche questo è guidato da un algoritmo di apprendimento automatico. I consigli si basano sulla formazione per Allievi personalizzati e allineati al settore.
+Visualizza i corsi di formazione in base a ciò che stanno seguendo i colleghi. Anche questo consiglio è generato da un algoritmo di apprendimento automatico. I consigli si basano sulla formazione per Allievi personalizzati e allineati al settore.

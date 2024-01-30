@@ -1,71 +1,71 @@
 ---
 jcr-language: en_us
-title: Abilita il controllo completo del catalogo condiviso
+title: Abilitare il controllo completo del catalogo condiviso
 description: Abilita il controllo completo del catalogo condiviso in Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
 
 
-# Abilita il controllo completo del catalogo condiviso
+# Abilitare il controllo completo del catalogo condiviso
 
 ## Crea catalogo {#createcatalog}
 
-In qualità di Amministratore, puoi creare un catalogo di corsi, programmi di apprendimento, risorse formative e certificazioni.
+In qualità di amministratore, puoi creare un catalogo di corsi, programmi di apprendimento, risorse formative e certificazioni.
 
-Per ulteriori informazioni, consulta [Cataloghi](/help/migrated/administrators/feature-summary/catalogs.md).
+Per ulteriori informazioni, consulta [Cataloghi](/help/migrated/administrators/feature-summary/catalogs.md).
 
 ## Condividi catalogo {#sharecatalog}
 
-Puoi condividere i cataloghi con gli utenti interni di un’organizzazione o con qualsiasi utente esterno. Tuttavia, la condivisione è esclusiva. In altre parole, un catalogo condiviso internamente non può essere condiviso con gruppi esterni e viceversa.
+Puoi condividere i cataloghi con gli utenti interni di un’organizzazione o con utenti esterni. Tuttavia, la condivisione è esclusiva. In altre parole, un catalogo condiviso internamente non può essere condiviso con gruppi esterni e viceversa.
 
 Corsi, programmi di apprendimento, risorse formative e certificazioni sono gli oggetti di apprendimento supportati per il catalogo condiviso.
 
-Per ulteriori informazioni, consulta [Condividere i cataloghi](/help/migrated/administrators/feature-summary/catalogs.md).
+Per ulteriori informazioni, consulta [Cataloghi condivisi](/help/migrated/administrators/feature-summary/catalogs.md).
 
-## Abilita il controllo completo del catalogo condiviso {#fullcontrol}
+## Abilitare il controllo completo del catalogo condiviso {#fullcontrol}
 
-Puoi concedere l’accesso completo al catalogo ad account esterni. L’Amministratore dell’account può quindi accettare il catalogo e aggiungere o eliminare eventuali corsi di formazione o moduli.
+Puoi concedere l’accesso completo al catalogo ad account esterni. L’amministratore dell’account può quindi accettare il catalogo e aggiungere o eliminare apprendimenti o moduli di conseguenza.
 
-Per concedere il pieno controllo a un account esterno,
+Per concedere il controllo completo a un account esterno,
 
-1. Dopo aver aggiunto uno o più corsi di formazione a un catalogo, è necessario condividerlo con utenti esterni.
-1. Nella finestra di dialogo Account esterno, aggiungi il sottodominio e l&#39;ID e-mail dell&#39;amministratore dell&#39;organizzazione esterna.
-1. Nell’opzione Controllo catalogo, attiva/disattiva il pulsante per consentire agli utenti esterni il controllo completo del catalogo.
+1. dopo aver aggiunto apprendimenti a un catalogo, devi condividere il catalogo con utenti esterni.
+1. Nella finestra di dialogo Account esterno, aggiungi il sottodominio e l’ID e-mail dell’amministratore dell’organizzazione esterna.
+1. Nell’opzione Controllo catalogo, attiva il pulsante per consentire a utenti esterni di controllare completamente il catalogo.
 
    ![](assets/catalog-control.png)
 
    *Consenti il controllo completo del catalogo condiviso*
 
-   Quando si consente il controllo completo del catalogo, l&#39;amministratore dell&#39;organizzazione esterna accetta la richiesta di consentire le modifiche al catalogo. L’Autore dell’organizzazione esterna può quindi modificare i corsi o aggiungere moduli.
+   Quando consenti il controllo completo del catalogo, l’amministratore dell’organizzazione esterna accetta la richiesta di consentire modifiche al catalogo. L’autore dell’organizzazione esterna può quindi modificare i corsi o aggiungere moduli.
 
-   Per ulteriori informazioni, consulta le sezioni seguenti.
+   Per ulteriori informazioni consulta le sezioni seguenti.
 
-## Amministratore dell’organizzazione esterna {#administratorofexternalorganization}
+## Amministratore di organizzazione esterna {#administratorofexternalorganization}
 
-Una volta che l’Amministratore dell’organizzazione precedente abilita il controllo completo del catalogo, l’Amministratore dell’organizzazione esterna accetta la richiesta e la visualizza.
+Quando l’amministratore dell’organizzazione precedente abilita il controllo completo del catalogo, l’amministratore dell’organizzazione esterna accetta la richiesta, quindi accetta il catalogo e lo visualizza.
 
-1. Fate clic sull’icona di notifica per visualizzare la notifica di accettazione del catalogo.
+1. Fai clic sull’icona di notifica per visualizzare la notifica per accettare il catalogo.
 
    <!--![](assets/notification-to-acceptcatalog.png)-->
 
 1. Per accettare l’invito per il catalogo, fai clic su Accetta.
-1. Nell’elenco dei cataloghi, se avvii il catalogo condiviso, viene visualizzato un messaggio che indica che il catalogo ha ora il controllo completo.
+1. Nell’elenco dei cataloghi, se avvii il catalogo che è stato condiviso con te, viene visualizzato un messaggio che indica che il catalogo ora ha il controllo completo.
 
    ![](assets/catalog-details.png)
 
    *Visualizzare i dettagli del catalogo*
 
-1. Potete modificare il nome del catalogo e la descrizione.
+1. Puoi modificare il nome del catalogo e la descrizione.
 
-## Condividere il catalogo per il programma di apprendimento, la certificazione e le risorse formative {#sharecatalogforlearningprogramcertificationandjobaids}
+## Condividi un catalogo per programmi di apprendimento, certificazioni e risorse formative {#sharecatalogforlearningprogramcertificationandjobaids}
 
-Allo stesso modo della concessione del controllo completo del catalogo per i corsi, l’Amministratore può anche concedere il controllo completo del catalogo per:
+Così come può concedere il controllo completo del catalogo per i corsi, l’amministratore può anche concedere il controllo completo del catalogo per quanto indicato di seguito:
 
 * Programmi di apprendimento
 * Certificazioni
@@ -77,51 +77,51 @@ Allo stesso modo della concessione del controllo completo del catalogo per i cor
 
 <!-- ![](assets/reset-course.png)-->
 
-1. Dopo aver fatto clic sul pulsante Ripristina, viene visualizzato un messaggio di avviso. Reimpostazione del corso:
+1. Dopo aver fatto clic sul pulsante Ripristina, viene visualizzato un messaggio di avviso. Ripristino del corso:
 
-   * Rimuove tutto il contenuto appena aggiunto dal catalogo.
+   * Rimuove tutti i nuovi contenuti aggiunti dal catalogo.
    * Aggiorna il catalogo sincronizzato con il catalogo condiviso originale.
-   * Ripristina la relazione con l’oggetto di apprendimento principale.
+   * Ripristina la relazione con l’oggetto di apprendimento superiore.
 
-   Il ripristino del catalogo è irreversibile. Non è possibile annullare le modifiche apportate al catalogo.
+   Il ripristino del catalogo è un processo irreversibile. Non è possibile annullare le modifiche apportate al catalogo.
 
-1. Per accettare le modifiche, fare clic su Sì.
-1. Nel catalogo del corso, noterai che non è presente il messaggio *Collegamento interrotto* più.
+1. Per accettare le modifiche, fai clic su Sì.
+1. Nel catalogo del corso, noterai che non è più presente il messaggio *Collegamento interrotto*.
 
-   Quando visualizzi i dettagli del catalogo, puoi notare che ora è stato ripristinato lo stato originale del catalogo.
+   Nei dettagli del catalogo, risulterà che il catalogo è stato ripristinato allo stato originale.
 
-## Aggiungere di nuovo un oggetto di apprendimento {#readdalearningobject}
+## Aggiungere nuovamente un oggetto di apprendimento {#readdalearningobject}
 
-Se hai rimosso inavvertitamente un corso, un programma di apprendimento, una certificazione o una risorsa formativa, puoi ripristinarlo.
+Se hai rimosso un corso, un programma di apprendimento, una certificazione o una risorsa formativa inavvertitamente, puoi eseguire un ripristino.
 
-Per ripristinare un oggetto di apprendimento eliminato, fai clic su Aggiungi di nuovo.
+Per ripristinare un oggetto di apprendimento eliminato, fai clic su Riaggiungi.
 
-Questa azione annulla l’azione e ripristina l’oggetto di apprendimento nella vista catalogo.
+Questo comando inverte l’azione e ripristina l’oggetto di apprendimento nella vista catalogo.
 
 ![](assets/re-add-button.png)
 
 *Aggiungi nuovamente un oggetto di apprendimento*
 
-Dopo aver fatto clic sul pulsante Aggiungi di nuovo, viene visualizzato un messaggio di conferma che l’oggetto di apprendimento è stato aggiunto correttamente al catalogo.
+Dopo aver fatto clic sul pulsante Riaggiungi, viene confermato che l’oggetto di apprendimento è stato aggiunto correttamente al catalogo.
 
 ## Organizzazione esterna {#externalorganization}
 
-Una volta che l’Amministratore dell’account esterno ha accettato il catalogo, l’Autore può ora aggiungere corsi e programmi di apprendimento.
+Dopo che l’amministratore dell’account esterno ha accettato il catalogo, l’autore può aggiungere corsi e programmi di apprendimento.
 
-1. Come utente, riceverai una notifica che avvisa che il catalogo è ora disponibile nel tuo account.
-1. Per visualizzare l’elenco dei corsi, fai clic su **[!UICONTROL Corsi]** nel riquadro di navigazione sinistro. Puoi visualizzare tutti i corsi creati da te e condivisi con te.
-1. Per visualizzare i dettagli del corso, fai clic su **[!UICONTROL Visualizza corso]** sulla scheda del corso.
+1. In qualità di utente, riceverai una notifica che avvisa che il catalogo è ora disponibile nel tuo account.
+1. Per visualizzare l’elenco dei corsi, fai clic su **[!UICONTROL Corsi]** nel riquadro di navigazione sinistro. Puoi vedere tutti i corsi creati da te e condivisi con te.
+1. Per visualizzare i dettagli del corso, fai clic su **[!UICONTROL Visualizza corso]** nella scheda del corso.
 
    <!--![](assets/view-course.png)-->
 
-1. Nella pagina dei dettagli del corso, puoi visualizzare le informazioni sul corso e sui moduli condivisi. Per aggiungere un modulo, fai clic su Aggiungi moduli. Quando aggiungi moduli ai moduli esistenti, i nuovi moduli vengono visualizzati alla fine dei moduli esistenti. Puoi sempre riorganizzare i moduli.
+1. Nella pagina di dettagli del corso puoi vedere informazioni sul corso e sui moduli condivisi. Per aggiungere un modulo, fai clic su Aggiungi moduli. Quando aggiungi moduli a quelli esistenti, i nuovi moduli vengono visualizzati alla fine dei moduli esistenti. È sempre possibile riordinare i moduli.
 1. Dopo aver aggiunto i moduli, fai clic su Ripubblica.
 
-   Dopo aver ripubblicato i moduli, nella scheda del catalogo viene visualizzato un messaggio *Collegamento interrotto*.
+   Una volta ripubblicati i moduli, sulla scheda del catalogo viene visualizzato un messaggio di *Collegamento interrotto*.
 
    Poiché hai aggiornato il catalogo originale con nuovi moduli, la relazione esistente con il corso acquisito non esiste più.
 
-   L’oggetto di apprendimento non sarà sincronizzato con l’account di origine poiché il contenuto dell’oggetto di apprendimento è stato modificato.
+   L’oggetto di apprendimento non sarà sincronizzato con l’account di origine perché il contenuto dell’oggetto di apprendimento è stato modificato.
 
    <!--![](assets/link-broken.png)-->
 

@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
@@ -16,32 +16,32 @@ ht-degree: 0%
 
 Abbiamo **rimosso** **Slack** come connettore in Learning Manager. Non sarà più possibile accedere al connettore di Slack.
 
-Come utente di Slack, puoi installare l’app di Adobe Learning Manager dalla directory dell’app di Slack nei team di Slack ed esplorare il contenuto di Learning Manager da destra all’interno dello Slack. Puoi interagire con Primebot per cercare nuovi corsi, visualizzare i consigli e ricevere notifiche sulle scadenze imminenti in Learning Manager. Puoi anche iscriverti e passare direttamente all’apprendimento dall’interno di Slack.
+Come utente Slack, puoi installare l’app Adobe Learning Manager dalla directory dell’app Slack nei team Slack ed esplorare il contenuto di Learning Manager direttamente da Slack. Puoi interagire con Primebot per cercare nuovi corsi, visualizzare i consigli e ricevere notifiche sulle scadenze imminenti in Learning Manager. Puoi anche iscriverti e passare direttamente all’apprendimento dall’interno di Slack.
 
 L’app Learning Manager per lo Slack non è supportata in un’istanza Azure di Learning Manager.
 
 ## Installazione dell’app Adobe Learning Manager {#installingadobecaptivateprimeapp}
 
-Come Allievo, puoi installare l’app CP Prime nel tuo account di Slack. Per installare l’app, apri la directory dell’app dal tuo account di Slack e cerca Learning Manager. Scarica e installa l’app. Se l’app non è approvata nel tuo account, contatta l’Amministratore dell’integrazione per l’approvazione. Se è già stato approvato, potrai accedere.
+Come Allievo, puoi installare l’app CP Prime nel tuo account di Slack. Per installare l’app, apri la directory dell’app dal tuo account Slack e cerca Learning Manager. Scarica e installa l’app. Se l’app non è approvata nel tuo account, contatta l’Amministratore dell’integrazione per l’approvazione. Se è già stata approvata, potrai accedere.
 
-## Approvazione dell’accesso dell’Allievo come Amministratore dell’integrazione {#approvinglearnersigninasanintegrationadmin}
+## Come approvare l’accesso dell’Allievo se sei un Amministratore dell’integrazione {#approvinglearnersigninasanintegrationadmin}
 
 In qualità di Amministratore dell’integrazione, segui questi passaggi per approvare l’autorizzazione di un Allievo a utilizzare l’applicazione Prime durante lo Slack.
 
-1. Seleziona **[!UICONTROL Applicazioni]** dal riquadro sinistro e fare clic sul pulsante **[!UICONTROL App in primo piano]** scheda.
+1. Seleziona **[!UICONTROL Applicazioni]** dal riquadro sinistro e fai clic sulla scheda **[!UICONTROL App in primo piano]**.
 
    ![](assets/featuredapps.jpg)
 
-1. Fare clic sul pulsante **[!UICONTROL Slack]** riquadro > viene visualizzata la pagina di integrazione slack. Fai clic **[!UICONTROL Approva]** nell’angolo in alto a destra per approvare l’applicazione.
+1. Fai clic sul riquadro **[!UICONTROL Slack]**. Si aprirà la pagina di integrazione Slack. Fai clic **[!UICONTROL Approva]** nell’angolo in alto a destra per approvare l’applicazione.
 
    ![](assets/approval.png)
 
 1. Torna al **[!UICONTROL Applicazioni]** pagina. Una volta approvato, lo Slack deve apparire nel **[!UICONTROL App esterne]** scheda.
-1. Gli Allievi ora possono accedere al proprio account Prime utilizzando Slack.
+1. Ora gli Allievi possono accedere al proprio account Prime utilizzando Slack.
 
-## Funzionalità Primebot {#primebotfunctionalities}
+## Funzionalità di Primebot {#primebotfunctionalities}
 
-Ora puoi iniziare a interagire con Primebot. Di seguito sono riportate le funzionalità del bot.
+Ora puoi iniziare a interagire con Primebot. Di seguito vengono riportate le funzionalità del bot.
 
 1 - Comando
 
@@ -67,9 +67,9 @@ I sottocomandi disponibili sono:
 
 /prime profile: mostra profilo
 
-/prime logout: esci dall’account Prime in questo team di Slack
+/primo logout: esci dall’account Prime di questo team Slack
 
-/prime help: mostra messaggio della Guida
+/prime help: mostra messaggio di aiuto
 
 2 - Consigliato
 

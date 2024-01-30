@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Aggiungere aule
-description: Gli amministratori ora possono configurare una libreria di aule. Per ogni aula, gli amministratori possono impostare i metadati che includono il nome della posizione, il limite di partecipanti e altre informazioni come l’URL. Autori e Amministratori possono quindi utilizzare questi percorsi preconfigurati per configurare eventi di formazione guidati da istruttori (moduli classe).
+description: Gli amministratori possono ora creare una libreria di aule. Per ogni aula, gli amministratori possono configurare i metadati che includono nome della posizione, limite di partecipanti e informazioni aggiuntive come l’URL. Autori e gli Amministratori possono quindi utilizzare questi percorsi preconfigurati per configurare di eventi di formazione guidati da istruttori (moduli aula).
 contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## Panoramica
 
-Gli amministratori ora possono configurare una libreria di aule. Per ogni aula, gli amministratori possono impostare i metadati che includono il nome della posizione, il limite di partecipanti e altre informazioni come l’URL. Autori e Amministratori possono quindi utilizzare questi percorsi preconfigurati per configurare eventi di formazione guidati da istruttori (moduli classe).
+Gli amministratori possono ora creare una libreria di aule. Per ogni aula, gli amministratori possono configurare i metadati che includono nome della posizione, limite di partecipanti e informazioni aggiuntive come l’URL. Autori e gli Amministratori possono quindi utilizzare questi percorsi preconfigurati per configurare di eventi di formazione guidati da istruttori (moduli aula).
 
-Per aggiungere un’aula, puoi usare i due modi seguenti.
+È possibile aggiungere un’aula nei due modi riportati di seguito.
 
-## Aggiungere un’aula mediante l’interfaccia utente
+## Aggiungere un’aula a partire dall’interfaccia utente
 
 È possibile aggiungere un’aula utilizzando l’interfaccia utente:
 
@@ -28,12 +28,12 @@ Per aggiungere un’aula, puoi usare i due modi seguenti.
 
 1. Fare clic sul pulsante **[!UICONTROL Aggiungi altro]** pulsante.
 
-1. Nella **[!UICONTROL Posizione classe]** immetti i seguenti dettagli:
+1. Nella finestra di dialogo **[!UICONTROL Aula]**, inserisci le informazioni seguenti:
 
-   * Digita il **[!UICONTROL Nome aula]**. Utilizzare un nome univoco. In caso contrario, Learning Manager visualizza un messaggio di errore.
-   * Digitare la descrizione dell&#39;ubicazione in **[!UICONTROL Informazioni sulla posizione]** campo. Questo campo è facoltativo.
-   * Digita il **[!UICONTROL URL percorso]**. Gli Allievi possono visualizzare queste informazioni nei dettagli dell’aula. L’URL può anche essere un URL di posizione delle mappe, se necessario. Questo campo è facoltativo.
-   * Digita il numero di posti disponibili nel **[!UICONTROL Posti limitati]** campo. Indica la capacità dell’aula. Questo valore può essere modificato durante la creazione dell’evento di formazione vero e proprio guidato da un istruttore.
+   * Digita il **[!UICONTROL nome della posizione dell’aula]**. Usa un nome unico. In caso contrario, ti verrà mostrato un messaggio di errore in Learning Manager.
+   * Inserisci la descrizione dell’aula nel campo **[!UICONTROL Informazioni aula]**. Questo campo è facoltativo.
+   * Inserisci l’**[!UICONTROL URL dell’aula]**. Gli Allievi possono visualizzare queste informazioni nei dettagli dell’aula. L’URL può anche essere una posizione su una mappa, se necessario. Questo campo è opzionale.
+   * Inserisci il numero di posti disponibili nel campo **[!UICONTROL Limite partecipanti]**. Quest’informazione si riferisce al numero di posti a sedere disponibili nell’aula. Quando si crea l’evento di formazione vero e proprio, questo valore può essere modificato.
 
    ![](assets/add-classroom-location.png)
 
@@ -49,13 +49,13 @@ L’elenco contiene i seguenti campi:
 
 **[!UICONTROL Nome ubicazione]** - Nome dell’aula.
 
-**[!UICONTROL Sessioni future]** - Numero di eventi che si verificheranno nel percorso corrispondente. Fare clic sul numero per visualizzare i dettagli in una finestra di dialogo.
+**[!UICONTROL Sessioni future]** - Numero di eventi che si verificheranno nel percorso corrispondente. Fai clic sul numero per visualizzare i dettagli in una finestra di dialogo.
 
 ![](assets/sessions-list.png)
 
 *Visualizza sessioni future*
 
-Nella finestra di dialogo vengono visualizzati i dettagli di ogni sessione, inclusi il nome della sessione, il nome del corso di formazione che include la sessione e la pianificazione. L’ora visualizzata si allinea al fuso orario di sistema dell’Allievo.
+Nella finestra di dialogo vengono visualizzati i dettagli di ogni sessione, come il nome, il nome del corso di formazione che include la sessione e il programma. L’ora visualizzata si adatta al fuso orario di sistema dell’Allievo.
 
 La **[!UICONTROL Sessioni future]** visualizzazioni dei campi **zero** quando l’aula non viene utilizzata per alcuna sessione o quando è associata a sessioni passate.
 
@@ -71,32 +71,32 @@ Ingresso **[!UICONTROL App per amministratori]** > **[!UICONTROL Impostazioni]**
 
 Il file CSV utilizza questi campi per memorizzare i dettagli relativi a una o più aule:
 
-* nome
+* name
 * info
 * url
 * seatLimit
 
-È possibile personalizzare le intestazioni.
+I titoli possono essere personalizzati.
 
 Il file CSV deve contenere obbligatoriamente tutte le colonne nello stesso ordine specificato qui.
 
-Dopo che il sistema ha importato il file CSV, le posizioni vengono aggiunte alla libreria.
+Dopo l’importazione del file CSV da parte del sistema, le aule vengono aggiunte alla libreria.
 
-## Cercare le classi
+## Cercare le aule
 
-Un Autore o un Amministratore può iniziare a digitare il nome della posizione per visualizzare i risultati pertinenti che iniziano a essere visualizzati. Dai risultati visualizzati, l’Autore o l’Amministratore può quindi selezionare un percorso. Se nei risultati del completamento automatico non viene visualizzata alcuna aula, l’utente può comunque aggiungere il nome della nuova aula. Tieni presente che questo nome di posizione creato utilizzando il flusso di lavoro di creazione della sessione non viene aggiunto alla libreria di posizioni creata dall’Amministratore.
+Gli Autori e gli Amministratori possono iniziare a digitare il nome dell’aula, e vedranno apparire i risultati pertinenti. Dai risultati elencati è quindi possibile selezionare un’aula. Se non ci sono risultati, l’utente può comunque aggiungere il nome della nuova aula. Tieni presente che l’aula che crei in questo modo, usando il flusso di creazione di una sessione, non viene aggiunta alla libreria di aule creata dall’Amministratore.
 
-Quando si aggiunge un’aula, la piattaforma di apprendimento indica anche se l’aula è già stata prenotata per il periodo di tempo indicato. Fornisce anche fasce orarie alternative come suggerimenti. In questo modo, se decide di utilizzare la stessa aula, l’Autore può modificare l’orario della riunione.
+Quando aggiungi un’aula, la piattaforma di apprendimento ti fa sapere anche se l’aula è già stata prenotata nella fascia oraria selezionata. Fornisce anche dei suggerimenti con fasce orarie alternative. In questo modo, se decide di utilizzare la stessa aula, l’Autore può modificare l’orario della riunione.
 
 ![](assets/classroom-search.png)
 
 *Cercare le classi*
 
-## Limita a un elenco predeterminato di istruttori
+## Limitare l’elenco di possibili istruttori
 
-Al momento, gli utenti possono aggiungere qualsiasi utente registrato come istruttore durante la creazione di un’aula o di una sessione in aula virtuale. Questa funzionalità rimane invariata in questa versione.
+Al momento, gli utenti possono aggiungere qualsiasi utente registrato nel campo “Istruttore” durante la creazione di un’aula o di una sessione in aula virtuale. Questo è possibile anche su questa versione.
 
-Tuttavia, gli Amministratori ora dispongono di un’opzione aggiuntiva per controllare ulteriormente chi viene assegnato come Istruttore sulla piattaforma di apprendimento. In questo modo si evita che vengano aggiunti nuovi istruttori per errore durante la creazione di una sessione.
+Tuttavia, gli amministratori dispongono ora di un’opzione aggiuntiva per limitare il numero di utenti che possono essere inseriti come istruttori sulla piattaforma. In questo modo, è possibile evitare che vengano aggiunti nuovi istruttori per errore durante la creazione di una sessione.
 
 ## Amministratore
 
@@ -106,43 +106,43 @@ Per configurare un Istruttore, l’Amministratore può selezionare **[!UICONTROL
 
 ## Autore
 
-Se l’Amministratore seleziona **[!UICONTROL Gestione Istruttori]** , un autore può cercare e aggiungere solo utenti con il ruolo di Istruttore alle sessioni in aula, in aula virtuale, agli elenchi di controllo e ai moduli per l’invio dei file.
+Se l’amministratore seleziona l’opzione **[!UICONTROL Gestione Istruttori]**, l’autore può cercare e aggiungere solo utenti con il ruolo di istruttore alle sessioni in aula, in aula virtuale, agli elenchi di controllo e ai moduli che richiedono l’invio di materiali.
 
 Inoltre, l’autore può:
 
-* Aggiungi e rimuovi istruttori dalle sessioni esistenti.
-* Aggiungi istruttori alle sessioni esistenti che già dispongono di uno o più istruttori.
+* Aggiungere e rimuovere istruttori dalle sessioni esistenti.
+* Aggiungere istruttori alle sessioni esistenti che dispongono già di uno o più istruttori.
 
-Pertanto, dopo che un Amministratore ha abilitato **[!UICONTROL Gestione Istruttori]** , solo gli utenti con il ruolo di Istruttore possono essere aggiunti come tali.
+Quindi, se l’opzione **[!UICONTROL Gestione Istruttori]** è stata abilitata dall’Amministratore, è possibile aggiungere come tali solo gli utenti con il ruolo Istruttore.
 
 >[!NOTE]
 >
->Questo non si applica alla migrazione delle sessioni tramite il file CSV. In questo caso, un utente che non dispone del ruolo di istruttore può essere aggiunto come istruttore.
+>Questo non si applica alla migrazione delle sessioni tramite il file CSV. In questo caso, anche un utente che non dispone del ruolo di Istruttore può essere aggiunto come tale.
 
-## Annulla sessione esistente
+## Annullare una sessione esistente
 
-Un Autore o un Amministratore può annullare una sessione e riprogrammarla, se necessario.
+Gli Autori e gli Amministratori possono annullare una sessione e riprogrammarla, se necessario.
 
-Quando un utente annulla una sessione, il sistema invia un’e-mail con l’annullamento della riunione a tutti gli Allievi e gli Istruttori iscritti. L’e-mail include i dettagli della sessione aggiornata.
+Quando una sessione viene annullata, il sistema invia un’e-mail con la notifica dell’annullamento della riunione a tutti gli Allievi e gli Istruttori iscritti. L’e-mail include i dettagli della sessione aggiornata.
 
-È disponibile un modello denominato **[!UICONTROL Annullamento della sessione]** che consente di annullare una sessione.
+Il modello **[!UICONTROL Annullamento della sessione]** ti aiuta ad annullare una sessione.
 
-Nella **[!UICONTROL Istanza del corso]** ogni sessione elencata in un’istanza di corso include un’opzione per annullare la sessione.
+Sulla pagina **[!UICONTROL Istanza del corso]**, ogni sessione elencata in un’istanza di corso include un’opzione per annullare la sessione.
 
 ![](assets/cancel-session.png)
 
 *Annullare una sessione esistente*
 
-Quando si fa clic sul pulsante **[!UICONTROL Annulla sessione]** , viene visualizzato un messaggio di avviso.
+Cliccando sul link **[!UICONTROL Annulla sessione]**, visualizzerai un avviso.
 
-Nella finestra di dialogo del messaggio di avviso, se si fa clic su **[!UICONTROL Procedi]**, il sistema annulla la sessione.
+Nella finestra di dialogo dell’avviso, cliccando sul pulsante **[!UICONTROL Procedi]**, il sistema annullerà la sessione.
 
-Il sistema cancella anche i seguenti dettagli dopo aver annullato una sessione:
+Il sistema annulla anche i seguenti dettagli dopo l’annullamento di una sessione:
 
 * Data di inizio della sessione
-* Data di fine della sessione
-* Ora di inizio della sessione
-* Ora di fine della sessione
+* Data finale della sessione
+* Orario di inizio della sessione
+* Orario finale della sessione
 * Istruttori aggiunti alla sessione
 * URL aula virtuale
 * Posizione/luogo aggiunti alla sessione
@@ -150,21 +150,21 @@ Il sistema cancella anche i seguenti dettagli dopo aver annullato una sessione:
 
 ## Amministratore
 
-Nella **[!UICONTROL Istanza del corso]** un amministratore può annullare una o più sessioni. Dopo che l’Amministratore ha annullato una sessione, il sistema cancella tutti i dettagli della sessione ad eccezione del limite di partecipanti.
+Sulla pagina **[!UICONTROL Istanza del corso]** l’Amministratore può annullare una o più sessioni. Quando l’Amministratore annulla una sessione, il sistema cancella tutti i dettagli della sessione ad eccezione del limite di partecipanti.
 
 Inoltre, un Amministratore può:
 
 * Visualizzare gli allievi iscritti e gli allievi nella lista d’attesa di una sessione.
-* Annullare l’iscrizione degli Allievi a un corso con una o più sessioni annullate.
-* Contrassegna la partecipazione per le sessioni annullate.
-* Contrassegnare come completato un corso che contiene una o più sessioni annullate.
+* Annullare l’iscrizione degli allievi a un corso con una o più sessioni annullate.
+* Prendere le presenze per le sessioni annullate.
+* Contrassegnare come completato un corso con una o più sessioni annullate.
 * Riprogrammare una sessione annullata.
-* Aggiungi un Istruttore a una sessione annullata durante la sua riprogrammazione.
+* Aggiungere un istruttore a una sessione annullata durante la sua riprogrammazione.
 
-Tieni presente che anche dopo l’annullamento, gli Allievi iscritti all’istanza di formazione continuano a rimanere iscritti. Lo stato delle loro iscrizioni, incluse le iscrizioni confermate, in lista d’attesa e in attesa di approvazione del manager, non cambia. Ciò è utile perché l’Amministratore può configurare e riprogrammare la sessione annullata in futuro.
+Tieni presente che anche dopo l’annullamento, gli Allievi iscritti all’istanza di formazione continuano a rimanere iscritti. Lo stato delle loro iscrizioni, incluse le iscrizioni confermate, in lista d’attesa e in attesa di approvazione del manager, non cambia. Questo è utile perché l’Amministratore può configurare e riprogrammare la sessione annullata in futuro.
 
 ## Autore
 
-Nella **[!UICONTROL Istanza del corso]** un Autore può annullare una o più sessioni. Una volta che l’Autore annulla una sessione, il sistema cancella tutti i dettagli della sessione ad eccezione del limite di partecipanti.
+Sulla pagina **[!UICONTROL Istanza del corso]**, l’Autore può annullare una o più sessioni. Quando l’Autore annulla una sessione, il sistema cancella tutti i dettagli della sessione, ad eccezione del limite di partecipanti.
 
 Pertanto, un Autore può utilizzare il **[!UICONTROL Annulla sessione]** collegamenti per annullare una o più sessioni in aula o in aula virtuale disponibili nella stessa istanza del corso o in istanze diverse.

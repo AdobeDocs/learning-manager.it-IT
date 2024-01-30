@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 7f34a1781e009b8255530111e3cbec4df3ed28c1
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Accesso utente come Manager in Learning Manager.
 
-Quando utilizzi Adobe Learning Manager per la prima volta, devi creare il tuo account seguendo i passaggi riportati di seguito:
+Quando utilizzi Adobe Learning Manager per la prima volta, devi creare l’account procedendo come segue:
 
-1. Avvia Adobe Learning Manager utilizzando il collegamento sicuro ricevuto nell’e-mail di benvenuto dell’Amministratore.
+1. Avvia Adobe Learning Manager tramite il collegamento sicuro ricevuto nell’e-mail di benvenuto dell’Amministratore.
 
    Viene visualizzata la schermata di accesso.
 
@@ -36,4 +36,4 @@ Quando utilizzi Adobe Learning Manager per la prima volta, devi creare il tuo ac
 
 >[!NOTE]
 >
->Una volta effettuato l’accesso per la prima volta, il tuo Adobe ID è associato al tuo account aziendale. Per qualsiasi accesso successivo, puoi aggiungere un segnalibro all’URL dell’account (secondo URL) ricevuto nell’e-mail di benvenuto.
+>Una volta effettuato l’accesso per la prima volta, il tuo Adobe ID è associato al tuo account aziendale. Per tutti i successivi accessi, puoi assegnare un segnalibro all’URL dell’account (secondo url) ricevuto nell’e-mail di benvenuto.

@@ -6,7 +6,7 @@ preview: true
 source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 0%
+ht-degree: 51%
 
 ---
 
@@ -152,7 +152,7 @@ Nella tabella seguente vengono indicati i limiti per i vari endpoint V2. Attualm
   </tr> 
   <tr> 
    <td><p>PATCH</p></td> 
-   <td><p>60, 20</p></td> 
+   <td><p>(60, 20)</p></td> 
    <td><p>(15, 5) <br></p></td> 
   </tr> 
   <tr> 

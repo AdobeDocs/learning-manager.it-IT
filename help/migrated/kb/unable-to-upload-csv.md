@@ -1,12 +1,12 @@
 ---
-description: Durante il caricamento di un file CSV, viene visualizzato un errore. Continua a leggere per risolvere il problema.
+description: Durante il caricamento di un file CSV, viene visualizzato un errore. Per risolvere il problema, continua a leggere.
 jcr-language: en_us
 title: Impossibile caricare il file CSV
 contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Impossibile caricare il file CSV
 
-## Errore: dati troncati: dati troppo lunghi per la colonna
+## Errore: dati troncati (lunghezza dei dati eccessiva per la colonna specificata)
 
-Quando tenti di caricare un file CSV in Adobe Learning Manager, visualizzi il seguente messaggio di errore.
+Durante il tentativo di caricamento di un file CSV in Adobe Learning Manager, visualizzi il seguente messaggio di errore.
 
 ![](assets/csv-upload-failed.png)
 
@@ -24,17 +24,17 @@ Quando tenti di caricare un file CSV in Adobe Learning Manager, visualizzi il se
 
 ## Causa
 
-L&#39;errore si verifica se i dati presenti nella colonna specificata superano il limite di caratteri definito per la colonna.
+L’errore si verifica se i dati presenti nella colonna specificata superano il limite di caratteri definito per la colonna.
 
 ## Risoluzione
 
 * Apri il file CSV.
 * Controlla i dati nella colonna indicata nell’errore.
-* Se esiste un valore grande, ad esempio maggiore di 60 caratteri, modificalo per correggere i dati.
+* Se è presente un valore grande (ad esempio superiore a 60 caratteri), modificalo per correggere i dati.
 
 ## Errore: nella prima colonna del file CSV viene visualizzato un carattere speciale
 
-Impossibile caricare un file CSV perché nella prima colonna viene visualizzato un carattere speciale durante la mappatura delle colonne.
+Non puoi caricare un file CSV perché nella prima colonna viene visualizzato un carattere speciale durante la mappatura delle colonne.
 
 ![](assets/csv-2.png)
 
@@ -42,11 +42,11 @@ Impossibile caricare un file CSV perché nella prima colonna viene visualizzato 
 
 ## Causa
 
-Il problema si verifica quando il file CSV viene salvato in formato UTF-8 in Excel. Quando salvi un file CSV in Excel come UTF-8, il file viene salvato in formato UTF-BOM. Puoi verificarlo utilizzando Blocco note++ o quando carichi un file CSV in Learning Manager, durante la mappatura delle colonne, nella prima colonna viene visualizzato un carattere speciale.
+Il problema si verifica quando il file CSV viene salvato in formato UTF-8 in Excel. Quando salvi un file CSV in Excel come UTF-8, il file viene salvato in formato UTF-BOM. Puoi verificarlo utilizzando Notepad++ o quando carichi un file CSV su Learning Manager, durante la mappatura delle colonne, nella prima colonna viene visualizzato un carattere speciale.
 
 ## Risoluzione
 
-* **R:** Salvataggio tramite Excel:
+* **A:** Salvataggio tramite Excel:
 
    1. Apri il file CSV in Excel.
    1. Salva il file come file CSV normale.
@@ -54,11 +54,11 @@ Il problema si verifica quando il file CSV viene salvato in formato UTF-8 in Exc
 * **B:** Salvataggio tramite Notepad o Notepad++:
 
    * Apri il file CSV in Notepad o Notepad++.
-   * Salvate il file in formato UTF-8.
+   * Salva il file in formato UTF-8.
 
 ## Errore: indirizzo e-mail dell’utente già presente nel sistema
 
-Impossibile caricare un file CSV perché l’elaborazione CSV non è riuscita. Viene visualizzato il messaggio di errore riportato di seguito:
+Non puoi caricare un file CSV perché l’elaborazione CSV non è stata completata. Puoi visualizzare il messaggio di errore riportato:
 
 ![](assets/csv-3.png)
 
@@ -74,16 +74,16 @@ Questo problema si verifica se un utente è già presente nel sistema con lo ste
 
 **Account per i quali l’UUID non è abilitato.**
 
-In questo scenario, l&#39;errore può essere dovuto a due motivi:
+In questo scenario, l’errore può essere dovuto a due motivi:
 
 1. L’utente che stai tentando di aggiungere è un Manager di un profilo esterno. Per risolvere questo problema, apri il profilo esterno di cui fa parte l’utente, selezionalo e fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Assegna ruolo]** > **[!UICONTROL Manager]** e modificare il Manager del profilo.
-1. L’utente che stai tentando di aggiungere è stato eliminato. In questo scenario, non potrai aggiungere l’utente con lo stesso indirizzo e-mail fino al completamento del processo di rimozione. Come soluzione alternativa**, a**ggiungi all’utente un indirizzo e-mail secondario per fornire accesso alla piattaforma. Al termine del processo di rimozione, modifica l’utente e modifica l’indirizzo e-mail con l’indirizzo e-mail corretto.
+1. L’utente che stai tentando di aggiungere è stato eliminato. In questo scenario, non potrai aggiungere l’utente con lo stesso indirizzo e-mail fino al completamento del processo di rimozione. Come soluzione alternativa**, a**ggiungi all’utente un indirizzo e-mail secondario per fornire accesso alla piattaforma. Una volta completata la procedura di eliminazione, modifica l’utente e modifica l’indirizzo e-mail con l’indirizzo e-mail corretto.
 
 ### Scenario 2
 
 **Account abilitati per UUID.**
 
-Per gli account abilitati per UUID, questo problema può verificarsi se a un utente è stato assegnato un UUID già utilizzato da un altro utente nell’account o se l’utente ha un indirizzo e-mail diverso.
+Negli account abilitati per UUID, questo problema può verificarsi se a un utente è stato assegnato un UUID già utilizzato da un altro utente nell’account o se l’utente dispone di un indirizzo e-mail diverso.
 
 Ad esempio, consideriamo due utenti, A e B, con indirizzi e-mail,  <a@xyz.com> e <b@xyz.com> con UUID 1 e 2 rispettivamente.
 

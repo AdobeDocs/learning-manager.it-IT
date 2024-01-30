@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -26,14 +26,14 @@ Per accedere alle funzionalità di apprendimento e del catalogo, tocca il **Menu
 
 ## Accesso all’app non in linea {#accesstheappoffline}
 
-Puoi accedere all’app di Learning Manager offline in iPad e tablet Android Google Nexus 9. Scarica e segui i corsi in modalità offline e sincronizza il contenuto con l’app online quando ti connetti alla rete.
+Puoi accedere all’app di Learning Manager offline in iPad e tablet Android Google Nexus 9. Scarica e segui i corsi in modalità non in linea e sincronizza il contenuto nell’app online appena sei connesso alla rete.
 
-1. Tocca **Menu** menu a discesa in alto e tocca **Apprendimento** opzione. Un elenco di tutti i corsi disponibili viene visualizzato nei riquadri.
-1. Tocca l’icona di download nella parte inferiore di ogni riquadro degli oggetti di apprendimento per scaricare i contenuti di apprendimento.
+1. Tocca **Menu** menu a discesa in alto e tocca **Apprendimento** opzione. Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
+1. Tocca l’icona di download nella parte inferiore di ogni riquadro relativo agli oggetti di apprendimento per scaricare il contenuto di apprendimento.
 
    <!--![](assets/download-ipad.png)-->
 
-1. Quando sei online, viene visualizzato un messaggio in una barra nella parte superiore dell’app per verificare se desideri sincronizzare i contenuti online. Se la risposta è sì, tocca la barra rossa. Una barra verde colorata indica che il contenuto è sincronizzato con l&#39;app online.
+1. Quando sei online, viene visualizzato un messaggio in una barra nella parte superiore dell’app in cui ti viene chiesto se desideri sincronizzare i contenuti online. Tocca la barra colorata rossa se la risposta è sì. Una barra colorata verde indica che il contenuto è sincronizzato con l’app online.
 
 <!--## Track device storage {#trackdevicestorage}
 

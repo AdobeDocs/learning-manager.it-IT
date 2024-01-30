@@ -1,12 +1,12 @@
 ---
-description: Risorse formative per Amministratori in Learning Manager.
+description: Risorse formative per gli Amministratori in Learning Manager.
 jcr-language: en_us
 title: Risorse formative
 contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Risorse formative
 
-Risorse formative per Amministratori in Learning Manager.
+Risorse formative per gli Amministratori in Learning Manager.
 
-Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli Allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
+Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
 
-Le risorse formative possono essere utilizzate in modo indipendente o insieme all’utilizzo dei corsi in Learning Manager.
+Le risorse formative possono essere utilizzate in modo indipendente o mentre segui un corso in Learning Manager.
 
-Gli Amministratori di un’organizzazione possono gestire l’assegnazione delle risorse formative agli Allievi e inoltre ritirare o ripubblicare le risorse formative.
+Gli Amministratori di un’organizzazione possono gestire attività di assegnazione, ritiro o ripubblicazione delle risorse formative per gli Allievi.
 
-## Ritira/ripubblica risorse formative {#withdrawrepublishjobaids}
+## Ritiro/ripubblicazione di risorse formative {#withdrawrepublishjobaids}
 
 In Accesso come amministratore, fai clic su **[!UICONTROL Risorse formative]** nel riquadro a sinistra per accedere alle risorse formative.
 
@@ -32,9 +32,9 @@ Puoi ritirare una risorsa formativa pubblicata facendo clic sull’icona delle i
 
 *Gestione risorse formative*
 
-Per visualizzare le risorse formative ritirate, fai clic sulla scheda Ritirato. È possibile ripubblicare i processi ritirati facendo clic sull&#39;icona delle impostazioni e scegliendo Pubblica. Fai clic su Anteprima in impostazioni per visualizzare in anteprima la risorsa formativa nel lettore.
+Per visualizzare le risorse formative ritirate, fai clic sulla scheda Ritirato. È possibile ripubblicare i processi ritirati facendo clic sull&#39;icona delle impostazioni e scegliendo Pubblica. Fai clic su Anteprima nelle impostazioni per visualizzare in anteprima la risorsa formativa nel lettore.
 
-## Gestisci assegnazioni risorsa formativa {#managejobaidassignments}
+## Gestione dell’assegnazione delle risorse formative {#managejobaidassignments}
 
 1. Nella scheda Pubblicato, fai clic sull&#39;icona delle impostazioni accanto a una risorsa formativa.
 
@@ -49,7 +49,7 @@ Per visualizzare le risorse formative ritirate, fai clic sulla scheda Ritirato. 
 
 1. Nella **[!UICONTROL Allievi]** inizia a digitare il nome degli allievi e scegli gli allievi dall’elenco a discesa. Puoi anche trovare gli Allievi per nome, profilo e così via.
 1. Fai clic **[!UICONTROL Aggiungi].**
-1. Fai clic **[!UICONTROL Salva]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
@@ -67,6 +67,6 @@ Ingresso **[!UICONTROL Pubblicato]** fai clic sull’icona delle impostazioni ac
 
 +++Come si ritira una risorsa formativa?
 
-Ingresso **[!UICONTROL Pubblicato]** fai clic sull’icona delle impostazioni accanto a una risorsa formativa. Fai clic **[!UICONTROL Ritiro]**. La risorsa formativa non è più visualizzata nella scheda Pubblicato. Per visualizzare la risorsa formativa ritirata, fai clic sulla scheda Ritirata.
+Ingresso **[!UICONTROL Pubblicato]** fai clic sull’icona delle impostazioni accanto a una risorsa formativa. Fai clic su **[!UICONTROL Ritira]**. L’opzione Risorse formative non sarà più visualizzata nella scheda Pubblicato. Per visualizzare la risorsa formativa ritirata, fai clic sulla scheda Ritirate.
 
 +++

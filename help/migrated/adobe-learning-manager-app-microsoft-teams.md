@@ -1,37 +1,37 @@
 ---
-description: Adobe dell’app Learning Manager per Microsoft Teams
+description: App Adobe Learning Manager per Microsoft Teams
 jcr-language: en_us
-title: Adobe dell’app Learning Manager per Microsoft Teams
+title: App Adobe Learning Manager per Microsoft Teams
 contentowner: saghosh
 source-git-commit: 81dd3cecf7393c08434a70e15457d967a56df8d3
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
 
-# Adobe dell’app Learning Manager per Microsoft Teams
+# App Adobe Learning Manager per Microsoft Teams
 
 ## Come configurare
 
-La configurazione di ALM in MS Teams prevede tre passaggi e richiede l&#39;assistenza dell&#39;amministratore ALM e dell&#39;amministratore di Microsoft Azure. In alcune organizzazioni, l’Amministratore di Azure e gli Amministratori di MS Teams non sono la stessa cosa e pertanto richiedono anche altri Amministratori di MS Teams.
+La configurazione di ALM su MS Teams consiste di tre passaggi e richiede assistenza da parte dell’amministratore di ALM e dell’amministratore di Microsoft Azure. In alcune organizzazioni, l’amministratore di Azure e quelli di MS Teams non sono le stesse persone e pertanto sono necessari amministratori di MS Teams aggiuntivi.
 
 **Amministratore ALM: il ruolo Amministratore di integrazione approva l’app Teams**
 
-Una volta che l’Amministratore dell’integrazione avrà approvato l’app MS Teams, l’app Adobe Learning Manager sarà disponibile nell’app store di MS Teams e gli Allievi potranno accedervi. Tuttavia, l’app non avrà notifiche, accesso invisibile e non verrà aggiunta per gli Allievi in MS Teams.
+Una volta che l’Amministratore dell’integrazione avrà approvato l’app MS Teams, l’app Adobe Learning Manager sarà disponibile nell’app store di MS Teams e gli Allievi potranno accedervi. Tuttavia, l’app non avrà notifiche, accesso in modalità invisibile né sarà fissata per gli Allievi in MS Teams.
 
 **L&#39;amministratore di Microsoft Azure approva l&#39;autorizzazione per l&#39;app ALM nel dashboard di Azure**
 
-L&#39;amministratore di Azure dovrà approvare le autorizzazioni richieste per l&#39;app ALM. Ciò consentirà all&#39;app ALM di inviare notifiche a MS Teams e di effettuare l&#39;accesso in modalità invisibile. In caso di accesso invisibile, gli utenti non devono accedere separatamente all’Adobe Learning Manager sul browser.
+L’amministratore di Azure dovrà approvare le autorizzazioni necessarie per l’app ALM. Questo consentirà all’app ALM di inviare notifiche a MS Teams e di effettuare l’accesso in modalità invisibile. Nell’accesso in modalità invisibile, gli utenti non devono accedere separatamente ad Adobe Learning Manager nel browser.
 
 **L’amministratore di MS Teams crea una policy per i team ALM**
 
-L’Amministratore MS Teams nel suo Admin Center deve bloccare l’app ALM per tutti gli utenti e consentirla come policy globale. Nel caso in cui ALM venga utilizzato solo da un determinato gruppo dell’azienda, l’amministratore di MS Teams deve scegliere un criterio personalizzato e applicarlo solo a quel gruppo specifico.
+L’amministratore di MS Teams nel proprio Centro di amministrazione deve bloccare l’app ALM per tutti i propri utenti e consentirla come policy globale. Se ALM è utilizzato solo da un determinato gruppo dell’azienda, l’amministratore di MS Teams deve scegliere una policy personalizzata e applicarla solo a quello specifico gruppo.
 
 ## Il ruolo di Amministratore di integrazione approva l’app Teams
 
-Segui i passaggi riportati di seguito:
+Effettua le seguenti operazioni:
 
 1. Nell’app Amministratore di integrazione, seleziona **[!UICONTROL Applicazioni]** > **[!UICONTROL App in primo piano]** e seleziona **[!UICONTROL App ALM Teams]**.
 
@@ -55,9 +55,9 @@ Segui i passaggi riportati di seguito:
 
 Ora gli utenti possono accedere all’app ALM su MS Teams.
 
-## L&#39;amministratore di Microsoft Azure approva l&#39;autorizzazione per l&#39;app ALM nel dashboard di Azure
+## L’amministratore di Microsoft Azure approva l’autorizzazione per l’app ALM nel dashboard di Azure
 
-Segui i passaggi riportati di seguito:
+Effettua le seguenti operazioni:
 
 1. In qualità di amministratore di Azure, vai alla sezione Gestisci Azure Active Directory nel dashboard di Azure.
 
@@ -75,7 +75,7 @@ Segui i passaggi riportati di seguito:
    ![](assets/microsoft_azure_dashboard.jpg)
    *Aggiungi ad Azure*
 
-1. Selezionare la scheda Applicazioni aziendali e selezionare Tutte le applicazioni. Vedrai ALMTeamsApp elencato lì.
+1. Seleziona la scheda Applicazioni aziendali e seleziona Tutte le applicazioni. Vedrai ALMTeamsApp elencato lì.
 
    ![](assets/microsoft_azure_enterprise_applications.jpg)
    *Visualizza l&#39;app ALM*
@@ -100,25 +100,25 @@ Segui i passaggi riportati di seguito:
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request_granted.jpg)
    *L&#39;accesso è concesso*
 
-## L’amministratore di MS Teams crea un criterio per l’app Teams
+## L’amministratore di MS Teams crea una policy per l’app Teams
 
-Segui i passaggi riportati di seguito:
+Effettua le seguenti operazioni:
 
 1. In qualità di amministratore di MS Teams, nell’interfaccia di amministrazione, crea un criterio per aggiungere l’app Teams all’app Teams degli Allievi.
 
    ![](assets/microsoft_teams_admin_center.png)
    *Creare una policy*
 
-1. Passa alla sezione Criteri di configurazione. Crea una policy globale e seleziona **[!UICONTROL Aggiungi app]** nella sottosezione App bloccate.
+1. Passa alla sezione Policy di configurazione. Crea una policy globale e seleziona **[!UICONTROL Aggiungi app]** nella sottosezione App bloccate.
 
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
    *Aggiungere la policy*
 
-1. Nella finestra di dialogo che segue, cerca **[!UICONTROL Adobe di Learning Manager]** e aggiungi l’app. In questo modo viene aggiunto un Adobe di Learning Manager nella sezione App installate.
+1. Nella finestra di dialogo seguente, cerca **[!UICONTROL Adobe Learning Manager]** e aggiungi l’app. In questo modo viene aggiunto un Adobe di Learning Manager nella sezione App installate.
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
    *Installa l’app*
 
 1. Salva questa policy. In questo modo l&#39;app è disponibile per tutti gli utenti dell&#39;organizzazione.
 
-In alternativa, gli amministratori possono creare un criterio personalizzato anziché globale. Aggiungi Learning Manager di Adobe a tale policy personalizzata, quindi applica la policy personalizzata solo agli utenti che devono accedere a Learning Manager di Adobe.
+In alternativa, gli amministratori possono creare una policy personalizzata anziché globale. Aggiungi Learning Manager di Adobe a tale policy personalizzata, quindi applica la policy personalizzata solo agli utenti che devono accedere a Learning Manager di Adobe.

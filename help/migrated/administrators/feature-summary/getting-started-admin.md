@@ -1,20 +1,20 @@
 ---
 jcr-language: en_us
-title: Guida introduttiva come amministratore
+title: Guida introduttiva come Amministratore
 description: Utilizza la pagina introduttiva per sfogliare le funzionalità chiave di amministratore di Learning Manager di Adobe.
 contentowner: manochan
 source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
 
 
-# Guida introduttiva come amministratore
+# Guida introduttiva come Amministratore
 
-La pagina della guida introduttiva consente di sfogliare le funzionalità principali dell’applicazione.
+La pagina della guida introduttiva illustra le funzionalità principali dell’applicazione.
 
 Non appena accedi come Amministratore, puoi visualizzare la finestra a comparsa con un elenco di video.
 
@@ -30,10 +30,10 @@ Fai clic **[!UICONTROL Chiudi finestra]** per chiudere la finestra a comparsa.
 
 Dalla pagina iniziale, puoi eseguire le seguenti attività:
 
-* Creazione di corsi
+* Creare corsi
 * Aggiungere utenti
-* Gestione degli utenti
-* Visualizza report
+* Gestire utenti
+* Visualizzare report
 
 Puoi inoltre ottenere ulteriori informazioni sull’applicazione Learning Manager scegliendo di visualizzare video di esercitazione, contenuti della guida e informazioni sui diversi ruoli.
 

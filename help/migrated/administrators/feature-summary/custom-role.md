@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '2224'
-ht-degree: 0%
+ht-degree: 63%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Questa funzione consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell&#39;ambito del ruolo esistente della persona.
 
-È possibile creare un ruolo personalizzato per fornire funzionalità di creazione limitate a un determinato catalogo. È inoltre possibile creare un ruolo dedicato alla gestione dei report. Tali ruoli possono poi essere assegnati a individui che dovrebbero assumersi queste responsabilità specifiche.
+È possibile creare un ruolo personalizzato per fornire funzionalità di creazione limitate a un determinato catalogo. Puoi anche creare un ruolo dedicato alla gestione dei rapporti. Tali ruoli possono quindi essere assegnati a singoli utenti che dovrebbero assumere queste responsabilità specifiche.
 
-## Creare un ruolo personalizzato {#create-role}
+## Creazione di un ruolo personalizzato {#create-role}
 
 1. Accedi come Amministratore. Apri **[!UICONTROL Utenti]** > **[!UICONTROL Ruolo personalizzato]**.
 1. Seleziona **[!UICONTROL Crea ruolo]**. La **[!UICONTROL Crea nuovo ruolo]** viene aperta la scheda.
@@ -28,7 +28,7 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
    *Creare un ruolo personalizzato*
 
 1. Immetti il nome nella casella **[!UICONTROL Nome del ruolo]** campo.
-1. **[!UICONTROL Privilegi dell’account]**: questi privilegi consentono ai proprietari dei ruoli di accedere ad aspetti specifici della configurazione del sistema e che agiscono sull&#39;intero account. Scegli le autorizzazioni di accesso. L’utente ottiene il controllo completo sulle autorizzazioni assegnate.
+1. **[!UICONTROL Privilegi dell’account]**: questi privilegi consentono ai proprietari dei ruoli di accedere ad aspetti specifici della configurazione del sistema e che agiscono sull&#39;intero account. Scegli le autorizzazioni di accesso. L’utente ottiene il pieno controllo sulle autorizzazioni assegnate.
 
 >[!NOTE]
 >
@@ -39,10 +39,10 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 
 *Imposta l’ambito*
 
-1. **Privilegi di funzionalità - Funzionalità principali**: utilizzato per concedere l&#39;accesso a funzionalità specifiche per la gestione delle attività di apprendimento. Con questa opzione è possibile assegnare le autorizzazioni per le funzionalità seguenti.
+1. **Privilegi di funzionalità - Funzionalità principali**: utilizzato per concedere l&#39;accesso a funzionalità specifiche per la gestione delle attività di apprendimento. tramite questa opzione possono essere concesse le autorizzazioni per le seguenti funzionalità.
 
    * Cataloghi
-   * Report
+   * Rapporti
    * Tag
 
    ![](assets/core-features.png)
@@ -56,7 +56,7 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
    * Risorse formative
    * Programmi di apprendimento
 
-   È inoltre possibile concedere un controllo operativo specifico per gli LO. L&#39;autorizzazione può essere una delle seguenti:
+   È inoltre possibile concedere un controllo operativo specifico per gli LO. L’autorizzazione può essere una delle seguenti:
 
    * Controllo completo
    * Modifica ed elimina
@@ -69,15 +69,15 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 
 1. **Ambito per i privilegi di funzionalità:** L’ambito dei privilegi di funzionalità assegnati a questo ruolo può essere limitato a un gruppo di utenti specifico o a uno o più cataloghi.
 
-   Cataloghi: utilizza il pulsante di scelta per controllare i **[!UICONTROL Tutti i cataloghi]** oppure utilizza il **[!UICONTROL Imposta accesso per catalogo]** opzione per consentire l’accesso a cataloghi specifici. Potete anche selezionare più cataloghi.
+   Cataloghi: utilizza il pulsante di opzione per fornire controllo su **[!UICONTROL Tutti i cataloghi]** o utilizza l’opzione **[!UICONTROL Imposta accesso per catalogo]** per fornire l’accesso a cataloghi specifici. Puoi anche selezionare più cataloghi.
 
-   Gruppi di utenti: Fornisci accesso a **[!UICONTROL Tutti i gruppi di utenti]** oppure utilizza il **[!UICONTROL Imposta accesso per gruppo di utenti]** per fornire l’accesso a gruppi di utenti specifici. È possibile specificare un solo gruppo di utenti.
+   Gruppi di utenti: fornisci l’accesso a **[!UICONTROL Tutti i gruppi di utenti]** o utilizza l’opzione **[!UICONTROL Imposta accesso per gruppo di utenti]** per fornire l’accesso a gruppi di utenti specifici. È possibile specificare un solo gruppo utenti.
 
    >[!NOTE]
    >
    >Se in Privilegi account hai selezionato Annuncio, Gamification, Modelli e-mail, Abilità e Utenti, l’accesso al gruppo di utenti viene fornito a tutti i gruppi di utenti per impostazione predefinita e questa opzione è disabilitata.
 
-   Se hai selezionato Piani di apprendimento in Privilegi account, l’accesso a tutti i cataloghi e i gruppi di utenti è fornito per impostazione predefinita e queste opzioni in Ambito sono disabilitate.
+   Se hai selezionato Piani di apprendimento in Privilegi account, per impostazione predefinita è fornito l’accesso a tutti i cataloghi e gruppi di utenti e queste opzioni sono disabilitate in Ambito.
 
    ![](assets/define-scope-of-privileges.png)
 
@@ -85,13 +85,13 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 
 >[!NOTE]
 >
->   In Learning Manager 27.6 puoi creare un ruolo personalizzato con un’area di validità di più cataloghi e fare in modo che vengano assegnate autorizzazioni diverse per ogni catalogo.
+>   In Learning Manager 27.6, puoi creare un ruolo personalizzato con un’area di validità di più cataloghi e fare in modo che vengano assegnate autorizzazioni diverse per ogni catalogo.
 
 
-Per concedere varie autorizzazioni ai cataloghi, effettuate le seguenti operazioni:
+Per concedere varie autorizzazioni ai cataloghi, attieniti alla seguente procedura:
 
 1. Fai clic sull’opzione **[!UICONTROL Imposta accesso per catalogo]**.
-1. Scegli i cataloghi e visualizza il livello di autorizzazione per ogni catalogo. Le autorizzazioni sono le seguenti:
+1. Scegli i cataloghi. Puoi vedere il livello di autorizzazione per ciascun catalogo. Le autorizzazioni sono le seguenti:
 
    <table>
         <tbody>
@@ -105,51 +105,51 @@ Per concedere varie autorizzazioni ai cataloghi, effettuate le seguenti operazio
           <td>
           <p>Controllo completo</p></td>
           <td>
-          <p>Concede il controllo completo su tutti gli oggetti di apprendimento. Le autorizzazioni includono Aggiungi, Modifica, Elimina, Lettura, Iscrizione e Report.<br></p></td>
+          <p>Garantisce il controllo completo su tutti gli oggetti di apprendimento. Le autorizzazioni includono Aggiungi, Modifica, Elimina, Lettura, Iscrivimi e Report.<br></p></td>
         </tr>
         <tr>
           <td>
           <p>Report</p></td>
           <td>
-          <p>Concede l’accesso alla scheda Report solo per l’oggetto di apprendimento.</p></td>
+          <p>Concede solo l’accesso alla scheda Report dell’oggetto di apprendimento.</p></td>
         </tr>
         <tr>
           <td>
-          <p>Iscrizione</p></td>
+          <p>Iscrivimi</p></td>
           <td>
-          <p>Concede l’autorizzazione all’iscrizione solo per l’oggetto di apprendimento.</p></td>
+          <p>Concede solo l’autorizzazione a iscriversi per l’oggetto di apprendimento.</p></td>
         </tr>
         <tr>
           <td>
           <p>Sola lettura</p></td>
           <td>
-          <p>Concede l’autorizzazione per visualizzare solo gli oggetti di apprendimento nel catalogo.</p></td>
+          <p>Concede solo l’autorizzazione per visualizzare gli oggetti di apprendimento nel catalogo.</p></td>
         </tr>
         </tbody>
       </table>
 
-1. Abilita o disabilita le autorizzazioni in base alle tue esigenze.
-1. Per salvare le modifiche, fai clic su **[!UICONTROL OK]**. Per salvare le modifiche apportate al ruolo personalizzato, fare clic su **[!UICONTROL Salva]**.
+1. Attiva o disattiva le autorizzazioni in base alle tue esigenze.
+1. Per salvare le modifiche, fai clic su **[!UICONTROL OK]**. Quindi, per salvare le modifiche per il ruolo personalizzato, fai clic su **[!UICONTROL Salva]**.
 
 Ad esempio, considera il seguente scenario.
 
-L’autorizzazione risultante, che un utente personalizzato avrebbe su un oggetto di apprendimento, è un’intersezione tra l’autorizzazione Oggetto di apprendimento e l’autorizzazione Catalogo.
+L’autorizzazione risultante che un utente personalizzato avrebbe su un oggetto di apprendimento è un’intersezione tra l’autorizzazione dell’oggetto di apprendimento e l’autorizzazione del catalogo.
 
-Un utente personalizzato ha l’autorizzazione completa sui corsi e l’accesso in sola lettura sul catalogo A, ma l’autorizzazione completa sul catalogo B. I risultati sono un accesso in sola lettura sui corsi del catalogo A e il controllo completo sui corsi del catalogo B.
+Un utente personalizzato ha l’autorizzazione completa sui corsi e l’accesso in sola lettura sul catalogo A ma l’autorizzazione completa sul catalogo B. I risultati sono un accesso in sola lettura sui corsi del catalogo A e il controllo completo sui corsi del catalogo B.
 
 Un utente con un ruolo personalizzato può:
 
-* Visualizza solo i contenuti dei cataloghi a cui ha accesso.
-* Accedi a qualsiasi oggetto di apprendimento in base alle autorizzazioni del catalogo di cui fa parte l’oggetto di apprendimento.
+* visualizzare solo i contenuti dei cataloghi a cui ha accesso;
+* accedere a qualsiasi oggetto di apprendimento in base alle autorizzazioni del catalogo di cui esso fa parte.
 
-In qualità di Amministratore, puoi:
+Come Amministratore, puoi:
 
-* Scegli più di un catalogo per un ruolo personalizzato.
-* Modificare le autorizzazioni di un catalogo in qualsiasi momento.
-* Rimuovi i cataloghi da un ambito a cui non desideri più concedere autorizzazioni.
-* Concedere implicitamente l’autorizzazione di sola lettura a un catalogo quando si concedono le autorizzazioni al catalogo.
+* scegliere più di un catalogo per un ruolo personalizzato;
+* modificare le autorizzazioni di un catalogo in qualsiasi momento;
+* rimuovere i cataloghi da un ambito a cui non desideri più concedere autorizzazioni;
+* concedere implicitamente l’autorizzazione di sola lettura a un catalogo quando concedi le autorizzazioni al catalogo.
 
-La tabella seguente illustra come vengono concesse le autorizzazioni.
+La tabella seguente mostra come vengono concesse le autorizzazioni.
 
 <table>
     <tbody>
@@ -166,7 +166,7 @@ La tabella seguente illustra come vengono concesse le autorizzazioni.
       <td>
        <p>Controllo completo</p></td>
       <td>
-       <p>Iscrizione</p></td>
+       <p>Iscrivimi</p></td>
       <td>
        <p>Report</p></td>
       <td>
@@ -178,7 +178,7 @@ La tabella seguente illustra come vengono concesse le autorizzazioni.
       <td>
        <p>Controllo completo</p></td>
       <td>
-       <p>Iscrizione</p></td>
+       <p>Iscrivimi</p></td>
       <td>
        <p>Report</p></td>
       <td>
@@ -186,11 +186,11 @@ La tabella seguente illustra come vengono concesse le autorizzazioni.
      </tr>
      <tr>
       <td>
-       <p>Iscrizione</p></td>
+       <p>Iscrivimi</p></td>
       <td>
-       <p>Iscrizione</p></td>
+       <p>Iscrivimi</p></td>
       <td>
-       <p>Iscrizione</p></td>
+       <p>Iscrivimi</p></td>
       <td>
        <p>Sola lettura</p></td>
       <td>
@@ -235,21 +235,21 @@ Colonna CustomRoleNota:
 <!--![](assets/users.png)-->
 
 * Un amministratore personalizzato che dispone dell&#39;autorizzazione per Impostazioni potrà configurare la pianificazione per la sincronizzazione o la sincronizzazione degli utenti dall&#39;origine dati anche se non dispone dell&#39;autorizzazione per l&#39;entità Utenti.
-* Se un amministratore personalizzato dispone dell’autorizzazione per l’entità Utenti, può assegnare il ruolo di amministratore a se stesso e diventare un amministratore standard.
+* Se un Amministratore personalizzato dispone dell’autorizzazione per l’entità Utenti, può assegnare il ruolo di Amministratore a se stesso e diventare Amministratore standard.
 
-## Limitazione dell’accesso alle cartelle per gli autori personalizzati {#folder-custom-author}
+## Limitare l’accesso alle cartelle per gli Autori personalizzati {#folder-custom-author}
 
-Learning Manager supporta già la possibilità di concedere l’accesso alla libreria dei contenuti utilizzando ruoli personalizzati. Tutti gli autori personalizzati che hanno già accesso alla raccolta di contenuti continueranno ad avere accesso a tutti i file di contenuto anche dopo la configurazione delle cartelle dei contenuti. In questo modo si mantiene il comportamento precedente. Gli amministratori non devono apportare modifiche nel caso in cui desiderano continuare a utilizzare il comportamento corrente.
+Learning Manager supporta già la possibilità di concedere l’accesso alla libreria dei contenuti utilizzando ruoli personalizzati. Tutti gli autori personalizzati che hanno già accesso alla raccolta di contenuti continueranno ad avere accesso a tutti i file di contenuto anche dopo la configurazione delle cartelle dei contenuti. Ciò consente di mantenere il comportamento precedente. Gli amministratori non devono apportare modifiche nel caso in cui desiderano continuare a utilizzare il comportamento corrente.
 
 Nel caso in cui desiderino limitare l’accesso a questi autori personalizzati, gli amministratori devono modificare il ruolo personalizzato esistente e configurarlo fornendo l’accesso solo a specifiche cartelle di contenuti.
 
 ![](assets/folder-access-forcustomauthors.png)
 
-*Limitazione dell’accesso alle cartelle per gli autori personalizzati*
+*Limitare l’accesso alle cartelle per autori personalizzati*
 
-Durante la creazione di un autore personalizzato, è ora possibile assegnare cartelle dei contenuti all’autore. Scegli l’opzione **Cartelle selezionate**.
+Durante la creazione di un Autore personalizzato, ora puoi assegnare all’Autore le cartelle dei contenuti. Scegli l’opzione **Cartelle selezionate**.
 
-Dopo aver fatto clic sull’opzione, si apre una nuova finestra di dialogo in cui è possibile assegnare le cartelle all’autore personalizzato.
+Dopo aver fatto clic su questa opzione, si apre una nuova finestra di dialogo in cui puoi assegnare le cartelle all’Autore personalizzato.
 
 ![](assets/choose-folder.png)
 
@@ -279,22 +279,22 @@ Quando a un utente viene assegnato un ruolo con un&#39;entità specifica, potreb
  <tbody>
   <tr>
    <th>Tipo di accesso</th>
-   <th>Autorizzazione entità concessa dall'amministratore</th>
+   <th>Autorizzazione dell’entità assegnata dall’Amministratore</th>
    <th>Autorizzazione entità implicita</th>
    <th>Accesso implicito</th>
   </tr>
   <tr>
    <td>Gestisci</td>
    <td>Utente</td>
-   <td>Raggruppamento</td>
-   <td>Grezzo</td>
+   <td>Gruppo</td>
+   <td>Crud</td>
   </tr>
   <tr>
-   <td>Iscrizione</td>
-   <td>Tutti i persi (corso, risorsa formativa, programma di apprendimento, certificazione)</td>
+   <td>Iscrivimi</td>
+   <td>Tutti gli oggetti di apprendimento (corso, risorsa formativa, programma di apprendimento, certificazione)</td>
    <td>Utente<br>
      Piano di apprendimento</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
   <tr>
    <td>Crea</td>
@@ -302,7 +302,7 @@ Quando a un utente viene assegnato un ruolo con un&#39;entità specifica, potreb
     <p>Gruppo di contenuti<br>
       Risorsa formativa<br></p></td>
    <td>Tag</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
   <tr>
    <td>Crea</td>
@@ -312,7 +312,7 @@ Quando a un utente viene assegnato un ruolo con un&#39;entità specifica, potreb
      Abilità<br>
      Badge<br>
      Risorsa formativa</td>
-   <td>Continua a leggere</td>
+   <td>Lettura su tutti</td>
   </tr>
   <tr>
    <td>Crea</td>
@@ -322,7 +322,7 @@ Quando a un utente viene assegnato un ruolo con un&#39;entità specifica, potreb
      Tag<br>
      Abilità<br>
      Badge</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
   <tr>
    <td>Crea</td>
@@ -331,7 +331,7 @@ Quando a un utente viene assegnato un ruolo con un&#39;entità specifica, potreb
      Raggruppamento<br>
      Abilità<br>
      Tutti i persi (corso, risorsa formativa, programma di apprendimento, certificazione)</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
   <tr>
    <td>Crea</td>
@@ -339,77 +339,77 @@ Quando a un utente viene assegnato un ruolo con un&#39;entità specifica, potreb
    <td>Utente<br>
      Raggruppamento<br>
      Tutti i persi (corso, risorsa formativa, programma di apprendimento, certificazione)</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
   <tr>
    <td>Crea</td>
    <td>Gamification</td>
    <td>Branding</td>
-   <td>Scrivi</td>
+   <td>Scrittura</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Utente</td>
    <td>Fatturazione</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Catalogo</td>
    <td>Raggruppamento<br>
      Tutti i persi (corso, risorsa formativa, programma di apprendimento, certificazione)</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Impostazione</td>
    <td>Branding<br>
      Utente</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Branding</td>
    <td>Impostazione</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Fatturazione<br>
      Gamification</td>
    <td>Utente</td>
-   <td>Leggi</td>
+   <td>Lettura</td>
   </tr>
  </tbody>
 </table>
 
-## Accedere a un ruolo personalizzato {#accessacustomrole}
+## Accedi a un ruolo personalizzato {#accessacustomrole}
 
-Quando un Amministratore assegna un ruolo personalizzato, si riceve una notifica tramite e-mail.
+Quando un Amministratore assegna un ruolo personalizzato, ricevi una notifica via e-mail.
 
-Nota: se hai già effettuato l’accesso a Learning Manager con un ruolo personalizzato, per accedere al nuovo ruolo dovrai eseguire nuovamente l’accesso a Learning Manager.
+Nota: se hai già effettuato l’accesso a Learning Manager con un ruolo personalizzato, dovrai accedere nuovamente a Learning Manager per assumere il nuovo ruolo.
 
-Per passare da un ruolo all’altro, fai clic sull’icona del profilo nell’angolo superiore destro di Learning Manager e seleziona il ruolo.
+Per passare da un ruolo all’altro, fai clic sull’icona del tuo profilo nell’angolo in alto a destra di Learning Manager e seleziona il ruolo.
 
 ## Piani di apprendimento con ambito di validità per ruoli configurabili {#scopeconfigure}
 
-Nelle versioni precedenti di Learning Manager, qualsiasi Ruolo personalizzato con autorizzazione per la creazione di piani di apprendimento poteva includere il piano di apprendimento per tutti i tipi di gruppi di utenti e oggetti di apprendimento.
+Nelle versioni precedenti di Learning Manager, qualsiasi ruolo personalizzato con l’autorizzazione per la creazione di piani di apprendimento poteva definire l’ambito del piano di apprendimento per tutti i tipi di gruppi di utenti e oggetti di apprendimento.
 
 L’impostazione dell’ambito veniva disabilitata quando veniva concesso l’accesso al piano di apprendimento, consentendo all’utente di accedere per impostazione predefinita a Tutti i cataloghi e a Tutti i gruppi di utenti.
 
-Tutti i piani di apprendimento creati da un Amministratore, per impostazione predefinita, sono applicabili a tutti gli utenti. Agli utenti può anche essere assegnato qualsiasi oggetto di apprendimento. D’altro canto, gli utenti con ruoli personalizzati hanno accesso a ambiti completi, ad esempio, a tutti i cataloghi, agli oggetti di apprendimento o ai gruppi di utenti. Ciò significa che gli amministratori non erano in grado di creare ruoli personalizzati come previsto che consentivano l’accesso ai piani di apprendimento per gli utenti con ambito limitato.
+Per impostazione predefinita, tutti i piani di apprendimento creati da un Amministratore si applicano a tutti gli utenti. Gli utenti possono inoltre essere assegnati a qualsiasi oggetto di apprendimento. Per contro, gli utenti con ruoli personalizzati hanno accesso a tutti gli ambiti, ad esempio a tutti i cataloghi, gli oggetti di apprendimento o i gruppi di utenti. Ciò significa che gli Amministratori non potevano creare ruoli personalizzati come previsto per consentire l’accesso ai piani di apprendimento per gli utenti con ambito limitato.
 
-In questo aggiornamento di Learning Manager puoi creare ruoli personalizzati per piani di apprendimento che consentono di definire l’ambito di utenti e oggetti di apprendimento. In altre parole, i piani di apprendimento possono essere creati con un ambito limitato derivato dall’ambito di un ruolo di amministratore personalizzato.
+In questo aggiornamento di Learning Manager è possibile creare ruoli personalizzati per piani di apprendimento che consentono di definire l’ambito degli utenti e degli oggetti di apprendimento. In altre parole, i piani di apprendimento possono essere creati con un ambito limitato derivato dall’ambito di un ruolo dell’Amministratore personalizzato.
 
-Ora un Amministratore può definire o limitare l’ambito, garantendo al contempo l’accesso alla gestione del piano di apprendimento.
+A questo punto, un Amministratore può definire o limitare l’ambito, garantendo allo stesso tempo l’accesso alla gestione del piano di apprendimento.
 
-Gli amministratori personalizzati possono creare piani di apprendimento con un ambito limitato, determinato dall’ambito del ruolo configurabile dell’amministratore personalizzato. Tali piani di apprendimento sono accessibili solo agli amministratori personalizzati con lo stesso ruolo, oltre a essere accessibili agli amministratori regolari. Inoltre, gli amministratori personalizzati non possono visualizzare altri piani di apprendimento nell’account.
+Gli Amministratori personalizzati possono creare piani di apprendimento con un ambito limitato, determinato dall’ambito del ruolo configurabile dell’Amministratore personalizzato. Tali piani di apprendimento sono accessibili solo agli Amministratori personalizzati con lo stesso ruolo, oltre ad essere accessibili agli Amministratori normali. Inoltre, gli Amministratori personalizzati non possono visualizzare altri piani di apprendimento nell’account.
 
-Gli amministratori personalizzati esistenti, che hanno accesso ai piani di apprendimento, avranno sempre un ambito completo (per definizione). Avranno accesso a tutti i piani di apprendimento nell’account proprio come fanno gli amministratori regolari. I nuovi ruoli personalizzati creati con ambito completo e i nuovi amministratori personalizzati aggiunti a tali ruoli continueranno ad avere accesso a tutti i piani di apprendimento.
+Gli Amministratori personalizzati esistenti, che hanno accesso ai piani di apprendimento, avranno sempre un ambito completo (per definizione). Avranno accesso a tutti i piani di apprendimento dell’account, proprio come gli Amministratori normali. I nuovi ruoli personalizzati creati con l’ambito completo e i nuovi Amministratori personalizzati aggiunti a tali ruoli continueranno ad avere accesso a tutti i piani di apprendimento.
 
-I piani di apprendimento creati dagli Amministratori e dagli Amministratori personalizzati con ambito completo verranno creati come di consueto e non saranno limitati dall’ambito.
+I piani di apprendimento creati dagli Amministratori e dagli Amministratori personalizzati con ambito completo verranno creati come al solito e non saranno limitati dall’ambito.
 
-Nella sezione **Ambito dei privilegi di funzionalità**, concedi l’accesso a gruppi di utenti e/o cataloghi per il ruolo personalizzato.
+Nella sezione **Ambito dei privilegi di funzionalità**, concedi l’accesso ai gruppi di utenti e/o al catalogo per il ruolo personalizzato.
 
 ![](assets/scope-for-featureprivileges.png)
 
@@ -421,47 +421,47 @@ Assegna un utente al ruolo personalizzato.
 
 *Assegnare un utente a un ruolo personalizzato*
 
-L’utente ora accede a Learning Manager come Amministratore personalizzato e aggiunge un Piano di apprendimento.
+L’utente ora accede a Learning Manager come Amministratore personalizzato e aggiunge un piano di apprendimento.
 
 Quando viene aggiunto un nuovo Allievo, l’Amministratore personalizzato può selezionare un corso di formazione solo dai cataloghi con ambito del ruolo configurabile.
 
-Questo piano di apprendimento ora è applicabile all’Allievo solo se l’utente è stato aggiunto anche al gruppo all’interno del gruppo di utenti con ambito del piano di apprendimento. Tutti gli altri Allievi vengono esentati da questo piano di apprendimento.
+Questo piano di apprendimento ora è applicabile all’Allievo solo se l’utente è stato aggiunto anche al gruppo all’interno del gruppo di utenti con ambito del piano di apprendimento. Tutti gli altri Allievi sono esentati da questo piano di apprendimento.
 
 ## L’Allievo viene aggiunto al gruppo {#learnergetsaddedtothegroup}
 
 <!--![](assets/add-learner-to-thegroup.png)-->
 
-L’amministratore personalizzato può selezionare qualsiasi gruppo di utenti che abbia utenti all’interno del gruppo di utenti con ambito del ruolo.
+L’Amministratore personalizzato può selezionare qualsiasi gruppo di utenti che include utenti appartenenti al gruppo di utenti con ambito del ruolo.
 
-Quando un utente viene aggiunto al gruppo specificato, solo agli utenti che fanno già parte del gruppo di utenti con ambito del piano di apprendimento e sono stati aggiunti al gruppo di utenti specificato verrà assegnato l’oggetto di apprendimento.
+Quando un utente viene aggiunto al gruppo specificato, all’oggetto di apprendimento vengono assegnati solo gli utenti che fanno già parte del gruppo di utenti con ambito del piano di apprendimento e che sono stati aggiunti al gruppo di utenti specificato.
 
-## Modifica dell&#39;ambito {#changeinscope}
+## Modifica dell’ambito {#changeinscope}
 
-Quando l’Amministratore modifica l’ambito del ruolo personalizzato, la modifica si applica anche in cascata all’Amministratore personalizzato. Quando l’Amministratore personalizzato sceglie un piano di apprendimento che rientrava già nell’ambito di un ruolo personalizzato precedente, viene visualizzato un messaggio, come illustrato di seguito:
+Quando l’Amministratore modifica l’ambito del ruolo personalizzato, la modifica viene applicata anche all’Amministratore personalizzato. Quando l’Amministratore personalizzato sceglie un piano di apprendimento il cui ambito era già definito da un ruolo personalizzato precedente, viene visualizzato un messaggio, come illustrato di seguito:
 
 ![](assets/change-scope.png)
 
 *Messaggio dopo le modifiche dell&#39;ambito*
 
-L’Amministratore personalizzato ora deve aggiornare l’ambito precedente al nuovo ambito.
+L’Amministratore personalizzato deve ora aggiornare l’ambito precedente al nuovo ambito.
 
-Fare clic su **[!UICONTROL Ambito aggiornamento]** aggiorna l&#39;ambito. Viene visualizzato un messaggio di avviso.
+Facendo clic su **[!UICONTROL Aggiorna ambito]**, l’ambito viene aggiornato. Viene visualizzato un messaggio di avviso.
 
 ![](assets/refresh-scope-message.png)
 
 *Messaggio di avviso dopo l&#39;aggiornamento di un ambito*
 
-Fare clic su **[!UICONTROL Sì]** aggiorna l&#39;ambito.
+Facendo clic su **[!UICONTROL Sì]**, l’ambito viene aggiornato.
 
-## Aggiungere un report di gamification a un ruolo personalizzato {#gamification-custom}
+## Aggiunta di un report gamification a un ruolo personalizzato {#gamification-custom}
 
-Un amministratore può abilitare i report di gamification per un utente personalizzato.
+Un Amministratore può abilitare i report gamification per un utente personalizzato.
 
-1. Nella **[!UICONTROL Ruoli personalizzati]** immettere il nome del ruolo personalizzato.
+1. Nella pagina **[!UICONTROL Ruoli personalizzati]**, immetti il nome del ruolo personalizzato.
 1. Nella **[!UICONTROL Privilegi di funzionalità: funzionalità principali]** , abilita l&#39;opzione **[!UICONTROL Controllo completo]** per la categoria **[!UICONTROL Report]**.
 
 1. Nella sezione **[!UICONTROL Utenti]**, seleziona l’utente a cui verrà assegnato il ruolo personalizzato appena creato.
-1. Fai clic **[!UICONTROL Salva]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 Quando un utente accede come Amministratore personalizzato e fa clic su **[!UICONTROL Report]** nel riquadro a sinistra, vengono visualizzate le trascrizioni, come illustrato di seguito:
 
@@ -469,11 +469,11 @@ Quando un utente accede come Amministratore personalizzato e fa clic su **[!UICO
 
 *Scarica le trascrizioni della gamification*
 
-Fai clic **[!UICONTROL Trascrizioni gamification]**, scegli un utente e genera il report.
+Fai clic su **[!UICONTROL Trascrizioni gamification]**, scegli un utente e genera il report.
 
-Se un Amministratore modifica i punti di livello, i rapporti mostrano i livelli in base ai punti correnti.
+Se un amministratore modifica i punti del livello, i report mostrano i livelli in base ai punti correnti.
 
-La reimpostazione della gamification non reimposta la data di raggiungimento del livello.
+Il ripristino della gamification non ripristina la data di raggiungimento del livello.
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
@@ -481,5 +481,5 @@ La reimpostazione della gamification non reimposta la data di raggiungimento del
 
 Un ruolo personalizzato è simile a un sottoinsieme di un ruolo Autore o Amministratore. Consenti uno o più privilegi, definisci l’ambito e assegna il ruolo a un utente.
 
-Fai clic **[!UICONTROL Utenti]** > **[!UICONTROL Ruoli personalizzati]**. Nella pagina Ruoli personalizzati fare clic su **[!UICONTROL Crea ruolo]**. Immettere il nome del ruolo personalizzato e impostare i privilegi per il ruolo. Per ulteriori informazioni, consulta [Creare un ruolo personalizzato](custom-role.md#create-role).
+Fai clic **[!UICONTROL Utenti]** > **[!UICONTROL Ruoli personalizzati]**. Nella pagina Ruoli personalizzati fai clic su **[!UICONTROL Crea ruolo]**. Immetti il nome del ruolo personalizzato e imposta i privilegi per tale ruolo. Per ulteriori informazioni, consulta [Creazione di un ruolo personalizzato](custom-role.md#create-role).
 +++

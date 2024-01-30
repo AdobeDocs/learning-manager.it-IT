@@ -1,12 +1,12 @@
 ---
-description: Per gamification si intende l’utilizzo di meccaniche e valutazioni proprie dei giochi in contesti diversi dai giochi per coinvolgere gli utenti a guadagnare punti durante l’apprendimento.
+description: Per “gamification” si intende l’utilizzo di meccaniche e valutazioni proprie dei giochi in contesti diversi dai giochi per coinvolgere gli utenti a guadagnare punti durante l’apprendimento.
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1418'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Gamification
 
-Per gamification si intende l’utilizzo di meccaniche e valutazioni proprie dei giochi in contesti diversi dai giochi per coinvolgere gli utenti a guadagnare punti durante l’apprendimento.
+Per “gamification” si intende l’utilizzo di meccaniche e valutazioni proprie dei giochi in contesti diversi dai giochi per coinvolgere gli utenti a guadagnare punti durante l’apprendimento.
 
 ## Panoramica {#overview}
 
-Learning Manager consente di applicare un livello di gamification strutturale ai contenuti per coinvolgere gli Allievi e motivarli a raggiungere i loro obiettivi di apprendimento. Consente agli Allievi di guadagnare punti per varie attività di apprendimento e raggiungere livelli bronzo, argento, oro e platino.
+Learning Manager consente di applicare un livello di gamification strutturale ai contenuti per coinvolgere gli Allievi e motivarli a raggiungere i loro obiettivi di apprendimento. Permette agli Allievi di guadagnare punti per diverse attività di apprendimento e raggiungere livelli bronzo, argento, oro e platino.
 
-Per impostazione predefinita, sono disponibili alcuni punti e dati di gamification di esempio per consentire agli utenti di comprendere il pattern. Potete modificare i punti di conseguenza.
+Per impostazione predefinita, sono disponibili alcuni punti e dati di gamification di esempio per consentire agli utenti di comprendere il modello. Puoi modificare i punti di conseguenza.
 
 <!--A sample illustration is provided below that shows all the tasks and points.
 
@@ -30,8 +30,8 @@ Per impostazione predefinita, sono disponibili alcuni punti e dati di gamificati
 
 Per accedere alle impostazioni, procedi come segue:
 
-1. Accedi come Amministratore e fai clic su nel riquadro a sinistra. **[!UICONTROL Gamification]**.
-1. Quando crei un nuovo account Learning Manager, la funzionalità Gamification è disattivata per impostazione predefinita. Per attivarla, fai clic su **[!UICONTROL Abilita]** nell&#39;angolo superiore destro della pagina.
+1. Effettua l’accesso come Amministratore e, nel riquadro a sinistra, fai clic su **[!UICONTROL Gamification]**.
+1. Quando crei un nuovo account Learning Manager, la funzionalità Gamification è disattivata per impostazione predefinita. Per attivarla, fai clic su **[!UICONTROL Abilita]** nell’angolo superiore destro della pagina.
 
 ## Azioni dell’amministratore {#administratoractions}
 
@@ -53,18 +53,18 @@ Le impostazioni di riservatezza possono essere applicate agli utenti interni ed 
 
 *Visualizza impostazioni di riservatezza*
 
-1. Dagli utenti elencati, fai clic sulla casella di controllo accanto al nome dell&#39;utente e su Nascondi per rendere l&#39;utente riservato.
+1. Dagli utenti elencati, fai clic sulla casella di controllo accanto al nome dell’utente e su Nascondi per rendere l’utente riservato.
 
    >[!NOTE]
    >
    >Puoi identificare gli utenti riservati tra gli utenti elencati grazie al segno di spunta nella casella di controllo accanto al nome utente.
 
-1. Fai clic sulla scheda Utenti riservati per visualizzare l’elenco degli utenti riservati. Per impostazione predefinita, non sono visibili. Fare clic sull&#39;icona della freccia a discesa per visualizzare l&#39;elenco.
-1. Fai clic sulla casella di controllo accanto al nome utente nell&#39;elenco degli utenti riservati e seleziona Aggiungi per rimuovere gli utenti dall&#39;elenco riservato.
+1. Fai clic sulla scheda Utenti riservati per visualizzare l’elenco degli utenti riservati. Per impostazione predefinita, non sono visibili. Fai clic sull’icona della freccia a discesa per visualizzare l’elenco.
+1. Fai clic sulla casella di controllo accanto al nome utente nell’elenco degli utenti riservati, quindi seleziona Aggiungi per rimuovere gli utenti dall’elenco riservato.
 
-## Reimposta gamification {#resetgamification}
+## Ripristino della funzionalità Gamification {#resetgamification}
 
-Puoi ripristinare i punti di gamification guadagnati dall’Allievo e le impostazioni di configurazione. Se scegli di ripristinare i punteggi utente, tutti i punti guadagnati dagli utenti vengono cancellati e azzerati. Se scegli di ripristinare i punteggi utente e le impostazioni di configurazione, tutti i punti predefiniti assegnati ai livelli e alle attività vengono azzerati.
+Puoi ripristinare i punti di gamification guadagnati dall’Allievo, nonché le impostazioni di configurazione. Se scegli di ripristinare i punteggi utente, tutti i punti guadagnati dagli utenti vengono cancellati e azzerati. Se scegli di ripristinare i punteggi utente e le impostazioni di configurazione, tutti i punti predefiniti assegnati ai livelli e alle attività vengono azzerati.
 
 È possibile ripristinare le impostazioni di gamification per utenti interni ed esterni.
 
@@ -74,7 +74,7 @@ Per ripristinare il punteggio e la configurazione dell’Allievo, fai clic su Ri
 
 *Reimpostare i punti di gamification*
 
-## Disabilita gamification {#disablegamification}
+## Disattivazione della funzionalità Gamification {#disablegamification}
 
 Fai clic [!UICONTROL **Gamification**] > [!UICONTROL **Funzionalità Gamification**]. Ciò consente di abilitare la funzionalità Gamification e la classifica separatamente per gli Allievi. Seleziona tra Abilita per Allievi interni e Abilita per Allievi esterni in base alle esigenze, quindi fai clic su OK. Tutti i punti vengono mantenuti quando attivi nuovamente la funzionalità Gamification.
 
@@ -82,27 +82,27 @@ Fai clic [!UICONTROL **Gamification**] > [!UICONTROL **Funzionalità Gamificatio
 
 *Disabilita gamification*
 
-Puoi disabilitare la gamification per utenti interni ed esterni.
+Puoi disattivare la funzionalità Gamification per utenti interni ed esterni.
 
-## Impostare i punti {#setuppoints}
+## Configurazione dei punti {#setuppoints}
 
-Gli Amministratori possono configurare punti Gamification per gli Allievi seguendo i passaggi riportati di seguito:
+Gli Amministratori possono configurare punti di gamification per gli Allievi, procedendo come segue:
 
 1. Fai clic **[!UICONTROL Gamification]** dopo aver effettuato l’accesso come Amministratore.\
    Viene visualizzata una pagina con un elenco di livelli bronzo, argento, oro e platino e i punti necessari per raggiungere ciascuno di essi. Viene visualizzato un elenco di attività e punti corrispondenti.
-1. Fai clic sull’icona Modifica accanto a ogni attività per impostare i punti.
-1. Modifica la frequenza delle attività come il completamento di un numero specifico di corsi al mese, al trimestre o all’anno.
-1. Fai clic **[!UICONTROL Salva]**.
+1. Per configurare i punti, fai clic sull’icona Modifica accanto a ogni attività.
+1. Modifica la frequenza delle attività quali il completamento di un numero specifico di corsi al mese, al trimestre o all’anno.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Attività {#tasks}
 
-Sono disponibili cinque attività di gamification degli Allievi per le quali l’Amministratore può impostare i punti. Di seguito è riportata un’illustrazione che descrive tutte le attività e i punti degli Allievi:
+Sono disponibili cinque attività di gamification degli Allievi per le quali l’Amministratore può impostare i punti. Un’illustrazione che descrive tutte le attività e i punti degli Allievi è riportata di seguito:
 
 >[!NOTE]
 >
 >I punti di gamification per gli Allievi all’interno di un’attività particolare non sono cumulabili. Tuttavia, i punti vengono aggiunti all’account degli Allievi in modo cumulativo se gli Allievi ottengono questi punti in diverse attività.
 
-Durante l’assegnazione dei corsi ai punti, l’Amministratore deve assicurarsi che gli Allievi ottengano i punti in modo progressivo.
+Durante l’assegnazione dei corsi ai punti, l’Amministratore deve assicurarsi che gli Allievi ottengano i punti in maniera progressiva.
 
 **Per Allievo rapido**
 
@@ -119,7 +119,7 @@ Puoi visualizzare i seguenti possibili scenari:
 >
 >L’Amministratore può modificare il periodo di tempo e il numero di corsi da completare per ottenere i punti corrispondenti.
 
-All’interno di un’attività, i punti non sono assegnati agli Allievi in maniera cumulativa. Ad esempio, supponiamo che un Allievo completi un paio di corsi e ottenga 20 punti. Quando gli Allievi completano quattro corsi, ottengono 100 punti ma i 20 punti esistenti non vengono considerati.
+All’interno di un’attività, i punti non sono assegnati agli Allievi in maniera cumulativa. Ad esempio, poniamo che un Allievo completi un paio di corsi e ottenga 20 punti. Quando gli Allievi completano quattro corsi, ottengono 100 punti ma i 20 punti esistenti non vengono considerati.
 
 **Per Allievi proattivi (a)**
 
@@ -136,9 +136,9 @@ Possibili scenari:
 
 **Per Allievi proattivi (b)**
 
-Questa attività è applicabile quando gli Allievi si registrano e completano un numero maggiore di corsi rispetto a quello richiesto per completarli in un mese/trimestre/anno. In questi casi, l’Amministratore può abilitare questa attività per assegnare punti e incoraggiarli.
+Questa attività è applicabile quando gli Allievi si registrano e completano un numero maggiore di corsi rispetto a quello previsto in un mese/trimestre/anno. In questi casi, l’Amministratore può attivare questa attività per assegnare punti e incoraggiarli.
 
-Possibili scenari per l’iscrizione degli Allievi ai corsi aggiuntivi a quelli assegnati:
+Possibili scenari per la registrazione degli Allievi ai corsi aggiuntivi a quelli assegnati:
 
 1. Quando gli Allievi si registrano a un corso entro un mese/trimestre/anno, ottengono 20 punti.
 1. Quando gli Allievi si registrano a due corsi entro un mese/trimestre/anno, ottengono 100 punti.
@@ -151,7 +151,7 @@ Possibili scenari per l’iscrizione degli Allievi ai corsi aggiuntivi a quelli 
 
 **Per il perfezionamento (a)**
 
-Questa attività è applicabile quando gli Allievi acquisiscono un determinato numero di competenze. L’Amministratore può scegliere questa attività per incoraggiare gli Allievi a ottenere il maggior numero di competenze possibile.
+Questa attività è applicabile quando gli Allievi acquisiscono un dato numero di competenze. L’Amministratore può scegliere questa attività per incoraggiare gli Allievi a ottenere il maggior numero di competenze possibile.
 
 Possibili scenari per il perfezionamento delle competenze:
 
@@ -166,9 +166,9 @@ Possibili scenari per il perfezionamento delle competenze:
 
 **Per il perfezionamento (b)**
 
-Questa attività è applicabile ogni volta che gli Allievi completano un livello superiore all’interno di una competenza.
+Questa attività è applicabile quando gli Allievi completano ogni livello superiore di una competenza.
 
-Possibili scenari per il perfezionamento dei livelli all’interno di una determinata competenza:
+Possibili scenari per il perfezionamento dei livelli in una specifica competenza:
 
 1. Quando gli Allievi ottengono un livello, guadagnano 100 punti.
 1. Quando gli Allievi ottengono due livelli, guadagnano 200 punti.
@@ -176,9 +176,9 @@ Possibili scenari per il perfezionamento dei livelli all’interno di una determ
 
 >[!NOTE]
 >
->Periodo di tempo non applicabile per questa attività. Se gli Allievi raggiungono un livello superiore e quindi un livello inferiore di una competenza, guadagnano punti solo per il livello superiore.
+>Periodo di tempo non applicabile per questa attività. Se gli Allievi raggiungono un livello superiore e quindi uno inferiore di una competenza, guadagnano punti solo per il livello superiore.
 
-**Punti per il completamento anticipato**
+**Punti per il completamento rapido**
 
 Questa attività è applicabile agli Allievi nel momento in cui completano per primi il corso.
 
@@ -194,7 +194,7 @@ Quando gli Allievi completano un corso entro 10 giorni dall’inizio, guadagnano
 
 ## Gamification a livello di gruppo {#grouplevelgamification}
 
-Gli amministratori possono definire l’ambito della gamification modificando le impostazioni dell’ambito. Puoi abilitare la gamification in modo selettivo tra utenti, gruppi o posizioni di profilo simili.
+Gli Amministratori possono definire l’area di validità della gamification modificando le impostazioni per l’area di validità. Puoi abilitare la gamification in modo selettivo tra utenti, gruppi o posizioni di profilo simili.
 
 1. Nell’accesso come Amministratore, fai clic su **[!UICONTROL Gamification]** nel riquadro sinistro.
 1. Apri **[!UICONTROL Gamification]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni ambito]**. La [!UICONTROL Impostazioni ambito di gamification] viene visualizzata la finestra di dialogo.
@@ -209,7 +209,7 @@ Gli amministratori possono definire l’ambito della gamification modificando le
 
    <!--![](assets/user-charecteristic.png)-->
 
-1. Selezionare il valore corrispondente alla caratteristica utente scelta. Ad esempio, se hai selezionato la caratteristica utente come profilo, devi selezionare il valore dall’elenco a discesa. I valori di profilo di esempio sono mostrati nella schermata seguente come riferimento.
+1. Seleziona il valore corrispondente alla caratteristica utente scelta. Ad esempio, se hai selezionato la caratteristica utente come profilo, devi selezionare il valore dall’elenco a discesa. I valori di profilo di esempio sono mostrati nella schermata seguente come riferimento.
 
    <!--![](assets/value.png)-->
 

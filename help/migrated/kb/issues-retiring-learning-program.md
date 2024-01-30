@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -20,15 +20,15 @@ Un programma di apprendimento viene automaticamente ritirato.
 
 ## Causa
 
-In alcune situazioni un programma di apprendimento è stato ritirato senza che un Amministratore/Autore abbia esplicitamente ritirato il programma.
+In alcuni casi un programma di apprendimento è stato ritirato senza che un amministratore/autore abbia esplicitamente ritirato il programma.
 
-Questo problema si verifica perché un programma di apprendimento è una raccolta di corsi. I corsi di formazione di ordine superiore vengono ritirati se uno dei corsi al loro interno contiene un’istanza ritirata o se l’istanza del corso viene ritirata.
+Questo problema si verifica perché un programma di apprendimento è una raccolta di corsi. I corsi di formazione di ordine superiore vengono ritirati se uno dei corsi in essi contenuti include un&#39;istanza ritirata o se l&#39;istanza del corso viene ritirata.
 
 ## Risoluzione
 
-Per controllare il corso che contiene un&#39;istanza ritirata, segui i passaggi riportati di seguito:
+Per controllare il corso che include un&#39;istanza ritirata, procedi come segue:
 
-1. Accedi come Amministratore e avvia il programma di apprendimento pertinente.
+1. Accedi come amministratore e avvia il programma di apprendimento pertinente.
 
 1. Fai clic **[!UICONTROL Istanze]** > **Ccorsi**. Nella pagina sono elencati tutti i corsi inclusi in questo programma di apprendimento. Potrai visualizzare il corso che contiene un’istanza ritirata.
 
@@ -44,7 +44,7 @@ Per controllare il corso che contiene un&#39;istanza ritirata, segui i passaggi 
 
    *Modificare la data di completamento di un corso*
 
-1. Al termine, fai clic sul menu a discesa come illustrato nell’immagine seguente. Quindi fai clic su **[!UICONTROL Riapri istanza]**.
+1. Al termine, fai clic sul menu a discesa come illustrato nell&#39;immagine seguente. Fai quindi clic su **[!UICONTROL Riapri istanza]**.
 
    ![](assets/re-open-instance.png)
 

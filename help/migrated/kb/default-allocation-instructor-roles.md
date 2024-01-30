@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
@@ -17,26 +17,26 @@ ht-degree: 0%
 
 ## Problema
 
-A tutti gli utenti assegnati a una sessione viene assegnato il ruolo di istruttore.
+A tutti gli utenti che partecipano a una sessione viene assegnato il ruolo di istruttore.
 
 ## Descrizione
 
-Ci sono scenari in cui una sessione potrebbe richiedere più istruttori o in cui un Amministratore/Autore potrebbe assegnare un gruppo di utenti a una sessione. In questo modo, a tutti gli utenti del gruppo viene assegnato il ruolo di istruttore.
+Esistono scenari in cui una sessione potrebbe richiedere più istruttori o altri in cui un Amministratore/Autore potrebbe assegnare un gruppo di utenti a una sessione. In questi casi, a tutti gli utenti del gruppo viene assegnato il ruolo di istruttore.
 
 ## Causa
 
-Poiché i ruoli non possono essere suddivisi durante l’assegnazione in blocco degli utenti in un gruppo di utenti, il ruolo di istruttore viene assegnato a tutti gli utenti.
+Poiché i ruoli non possono essere suddivisi durante l’assegnazione in blocco degli utenti in un gruppo, il ruolo di istruttore viene assegnato a tutti gli utenti.
 
 ## Soluzione
 
-Crea gruppi di utenti personalizzati per filtrare i ruoli utente assegnati a una sessione. Per rimuovere i ruoli di istruttore assegnati in un gruppo di utenti, effettua le operazioni riportate di seguito:
+Crea gruppi di utenti personalizzati per filtrare i ruoli utente assegnati a una sessione. Per rimuovere i ruoli di istruttore assegnati a un gruppo di utenti, effettua le seguenti operazioni:
 
 1. Accedi come Amministratore. Nel pannello a sinistra, fai clic su **[!UICONTROL Modelli e-mail]**.
 1. Per evitare che vengano attivati i messaggi e-mail per le modifiche da apportare, fai clic su **[!UICONTROL Disattiva tutto]**.
 
    ![](assets/instructor-disable-all.png)
 
-1. Passa a **Utenti** > **Gruppo di utenti**. Fai clic **[!UICONTROL Aggiungi]**.
+1. Passa a **Utenti** > **Gruppo di utenti**. Fai clic su **[!UICONTROL Aggiungi]**.
 
    ![](assets/instructor-usergroups.png)
 

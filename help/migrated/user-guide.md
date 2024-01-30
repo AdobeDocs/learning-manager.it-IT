@@ -1,16 +1,16 @@
 ---
-title: Ti diamo il benvenuto nella guida utente di Learning Manager di Adobe
+title: Ti diamo il benvenuto nella guida utente di Adobe Learning Manager
 description: Scopri le offerte più recenti di Learning Manager (in precedenza Adobe Captivate Prime) di Adobe. Partendo dall’inizio, visita ogni sezione oppure entra nella Community per seguire un progetto.
 contentowner: dhv
 source-git-commit: 73a1fe972eb8d399dd9ae53b6b1128bb11561924
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
 
-# Ti diamo il benvenuto nella guida utente di Learning Manager di Adobe
+# Ti diamo il benvenuto nella guida utente di Adobe Learning Manager
 
 Continua a leggere per scoprire cosa ti offre Adobe Learning Manager (in precedenza Adobe Captivate Prime). Partendo dall’inizio, visita ogni sezione oppure entra nella Community per seguire un progetto.
 
@@ -18,7 +18,7 @@ Continua a leggere per scoprire cosa ti offre Adobe Learning Manager (in precede
 
 Visita il sito [Adobe della community degli utenti di Learning Manager](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) per trarre ispirazione e ottenere le risposte alle domande più frequenti.
 
-## Argomenti utili {#populartopics}
+## Argomenti principali {#populartopics}
 
 <table style="table-layout:fixed">
  <tbody>
@@ -40,7 +40,7 @@ Visita il sito [Adobe della community degli utenti di Learning Manager](https://
    </td>
    <td>
     <a href="integration-admin/feature-summary/connectors.md">
-    <img alt="connettore" src="assets/prime-connector.jpeg">
+    <img alt="ADFS" src="assets/prime-connector.jpeg">
     </a>
     <div>
     <a href="integration-admin/feature-summary/connectors.md"><strong>Connettori Learning Manager</strong></a>

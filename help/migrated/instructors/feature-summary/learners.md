@@ -1,12 +1,12 @@
 ---
-description: Leggi questo articolo per sapere come gestire i partecipanti, inviare e-mail relative al corso e promemoria delle sessioni.
+description: Leggi questo articolo per scoprire come gestire i partecipanti, inviare e-mail relative al corso e promemoria delle sessioni.
 jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
 source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
@@ -14,109 +14,109 @@ ht-degree: 0%
 
 # Gestione degli Allievi per la sessione
 
-Leggi questo articolo per sapere come gestire i partecipanti, inviare e-mail relative al corso e promemoria delle sessioni.
+Leggi questo articolo per scoprire come gestire i partecipanti, inviare e-mail relative al corso e promemoria delle sessioni.
 
-## Visualizza sessioni o moduli con revisioni in sospeso {#pending}
+## Visualizzazione di sessioni o moduli con revisioni in sospeso {#pending}
 
-In qualità di Istruttore, puoi visualizzare le sessioni o i moduli con revisioni in sospeso.
+In qualità di istruttore, puoi vedere le sessioni o i moduli con revisioni in sospeso.
 
 Nella pagina Sessioni/Moduli è disponibile una colonna **Revisioni in sospeso** che mostra il numero di revisioni in sospeso per la sessione/attività corrispondente.
 
 ## Gestione della lista d’attesa per la sessione {#managewaitlistforyoursession}
 
-Man mano che gli Allievi si registrano al modulo, lo stato più recente dell’iscrizione e della lista d’attesa viene visualizzato nella pagina Lista d’attesa.
+Quando gli Allievi si registrano al modulo, puoi visualizzare lo stato più recente della registrazione e della lista d’attesa dalla pagina Lista d’attesa.
 
-1. Nell’app dell’Istruttore, seleziona Sessioni imminenti > Lista di attesa nel riquadro di navigazione a sinistra.
+1. Dall’applicazione dell’Istruttore, seleziona Sessioni pianificate > Lista d’attesa nel riquadro di navigazione a sinistra.
 
-   Puoi visualizzare il Limite di posti, il numero di posti attualmente occupati e il numero di posti vacanti. Nella tabella sono inoltre elencati gli Allievi inseriti in lista d’attesa. Questo campo è vuoto se non sono presenti code in lista d&#39;attesa.
+   Puoi visualizzare il limite di posti, il numero di posti attualmente occupati e quello dei posti vacanti. In una tabella sono inoltre elencati gli Allievi inseriti in lista d’attesa. Il campo è vuoto se non vi sono code di lista d’attesa.
 
    ![](assets/waitlist.png)
    *Visualizza Allievi in lista d’attesa*
 
-1. Nella tabella Lista di attesa selezionare gli Allievi che si desidera confermare.
-1. Seleziona Azioni > Conferma allievi.
+1. Nella tabella Lista d’attesa, seleziona l’Allievo o gli Allievi da confermare.
+1. Seleziona Azioni > Conferma Allievi.
 
-   Gli Allievi che hai confermato vengono aggiunti all’elenco Allievi confermati.
+   Gli Allievi confermati sono aggiunti all’elenco di Allievi confermati.
 
-Gli istruttori hanno la possibilità di annullare l’iscrizione degli allievi alle sessioni. Viene inoltre annullata l’iscrizione agli Allievi corrispondenti. Seleziona **[!UICONTROL Lista d&#39;attesa]** scheda. Seleziona gli Allievi a cui annullare l’iscrizione utilizzando la casella di controllo. Per annullare l’iscrizione, seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Annullamento dell’iscrizione degli Allievi]**.
+Gli istruttori hanno la possibilità di annullare l’iscrizione degli Allievi alle sessioni. In questo modo viene annullata l’iscrizione dagli apprendimenti corrispondenti. Seleziona la scheda **[!UICONTROL Lista d’attesa]**. Seleziona gli Allievi di cui annullare l’iscrizione tramite la casella di controllo. Per annullare l’iscrizione, seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Annullamento dell’iscrizione degli Allievi]**.
 
 ![](assets/unenroll-learners.png)
 *Annullamento dell’iscrizione degli Allievi*
 
-## Contrassegna la partecipazione per la sessione {#markattendanceforyoursession}
+## Partecipazione alla sessione {#markattendanceforyoursession}
 
-Puoi visualizzare il numero di Allievi confermati che partecipano alla sessione, i loro nomi, lo stato di partecipazione degli Allievi e altri dettagli dalla pagina Allievi.
+Puoi visualizzare il numero di Allievi confermati che stanno partecipando alla sessione, i nomi, lo stato di partecipazione degli Allievi e altri dettagli dalla pagina Allievi.
 
-1. Nel riquadro di navigazione a sinistra, fai clic su Sessioni successive > Allievi.
-1. Seleziona l’Allievo o gli allievi dall’elenco dei partecipanti ed effettua una delle seguenti operazioni:
+1. Nel riquadro di navigazione a sinistra, fai clic su Sessioni pianificate > Allievi.
+1. Seleziona gli Allievi dall’elenco di partecipanti ed effettua quanto segue:
 
-   * Per contrassegnare una partecipazione, fai clic su Azioni > Contrassegna partecipazione. Una volta che lo stato è stato contrassegnato come Partecipato, non è possibile modificarlo.
-   * Per segnalare la mancata partecipazione, fai clic su Azioni > Non partecipato.
+   * Per contrassegnare la partecipazione, fai clic su Azioni > Contrassegna partecipazione. Quando lo stato viene modificato per confermare la partecipazione, non puoi modificarlo.
+   * Per contrassegnare la mancata partecipazione, fai clic su Azioni > Partecipazione non avvenuta.
    * Per eliminare un Allievo a causa dell’annullamento o per altri motivi, fai clic su Azioni > Elimina Allievi.
 
-   Un Allievo non può completare un modulo finché lo stato della partecipazione non legge Partecipazione avvenuta.
+   Un Allievo non può completare un modulo fino a quando lo stato di partecipazione non è confermato.
 
    ![](assets/markattendance.png)
    *Contrassegna partecipazione Allievo*
 
-## Invia e-mail agli Allievi {#sendemailstolearners}
+## Invio di e-mail agli Allievi {#sendemailstolearners}
 
-Puoi inviare e-mail a partecipanti specifici o a tutti i partecipanti per la tua sessione. La funzione Invia e-mail è molto utile se desideri confermare la partecipazione degli Allievi o se desideri inviare comunicazioni relative alla sessione. Puoi anche utilizzare l’opzione Invia e-mail a tutti per inviare tramite e-mail il materiale su compiti e sessioni o per inviare comunicazioni generali a tutti gli Allievi.
+Puoi inviare e-mail a tutti o a uno specifico partecipante per la sessione. La funzionalità di invio e-mail è molto utile se desideri confermare la partecipazione degli Allievi o se desideri inviare comunicazioni relative alla sessione. Puoi inoltre utilizzare l’opzione di invio a tutti tramite e-mail per inviare l’assegnazione e il materiale della sessione o comunicazioni generali a tutti gli Allievi.
 
-Per inviare e-mail agli Allievi, dalla pagina Allievi nell’app dell’Istruttore, effettua una delle seguenti operazioni:
+Per inviare e-mail agli Allievi, nella pagina Allievi dell’applicazione Istruttore effettua quanto segue:
 
-* Per inviare e-mail a partecipanti specifici, seleziona il partecipante e fai clic su Azioni > Invia e-mail a selezionati.
-* Per inviare e-mail a tutti i partecipanti e richiedere l’invio di materiale per un corso o un compito, fai clic su Azioni > Invia e-mail a tutti.
+* Per inviare e-mail a partecipanti specifici, seleziona il partecipante e fai clic su Azioni > Invia e-mail a soggetti selezionati.
+* Per inviare a tutti i partecipanti e-mail contenenti il materiale del corso o un’assegnazione, fai clic su Azioni > Invia e-mail a tutti.
 
-## Esportazione dell’elenco degli Allievi {#exportinglearnerslist}
+## Esportazione dell’elenco di Allievi {#exportinglearnerslist}
 
-In qualità di Istruttore, puoi contrassegnare facilmente la partecipazione di tutti gli Allievi esportando l’elenco dei partecipanti come PDF. Per esportare l’elenco dei partecipanti, dall’Allievo nel riquadro a sinistra. Fai clic su Azioni > Esporta elenco Allievi (PDF).
+In qualità di istruttore, puoi contrassegnare facilmente la partecipazione per tutti gli studenti esportando l’elenco dei partecipanti come pdf. Per esportare l’elenco dei partecipanti, dall’Allievo dal riquadro sinistro: fai clic su Azioni > Esporta elenco utenti (PDF).
 
-Una volta confermato l’elenco dei partecipanti per la sessione, puoi esportarlo come PDF. Questo PDF di facile stampa mostra gli Allievi come una tabella. Puoi quindi contrassegnare la partecipazione o fornire punteggi e creare o fornire note per l’Allievo, tutto nello stesso PDF.
+Dopo che l’elenco dei partecipanti è stato confermato per la sessione, puoi esportarlo come PDF. Questo PDF facilmente stampabile visualizza gli Allievi in una tabella. Puoi quindi contrassegnare la partecipazione o fornire punteggi, nonché creare o fornire note per gli studenti, tutto nello stesso PDF.
 
-Nota un codice QR nell’angolo in alto a destra di questo PDF. Questa funzionalità consente ai singoli Allievi di scansionare il codice utilizzando l’app mobile Learning Manager per contrassegnare la propria partecipazione.
+Un codice QR è presente nell’angolo superiore destro del PDF. Questa funzionalità consente ai singoli Allievi di scansionare il codice utilizzando l’app mobile Learning Manager per contrassegnare la propria partecipazione.
 
 ![](assets/exportpdf.png)
 *Scansiona il codice QR per contrassegnare la partecipazione*
 
-## Approva o rifiuta gli invii {#approveorrejectsubmissions}
+## Approvazione o rifiuto di invii {#approveorrejectsubmissions}
 
-Se gli Allievi hanno caricato documenti come assegnazioni, report o valutazioni per la sessione, puoi visualizzare i documenti nella pagina Invii. È possibile utilizzare i materiali per la valutazione dell’Allievo e approvare o rifiutare l’invio.
+Se gli Allievi hanno caricato documenti come assegnazioni, report o valutazioni per la sessione, puoi visualizzare i documenti nella pagina degli invii. Puoi utilizzare i materiali per la classificazione dell’Allievo e approvare o rifiutare l’invio.
 
-1. Nel riquadro a sinistra, fai clic su Sessioni in arrivo o Sessioni passate, in base alla pianificazione della sessione.
+1. Nel riquadro a sinistra, fai clic su Sessioni pianificate o Sessioni passate, in base alla pianificazione della sessione.
 1. Fai clic sul corso per il quale desideri visualizzare gli invii.
 
-   Nel riquadro a sinistra, fai clic su Invii.
+   Nel riquadro a sinistra, fai clic sull’opzione di invio.
 
-1. Puoi visualizzare gli invii degli Allievi per la sessione selezionata. Selezionare l&#39;inoltro che si desidera approvare o rifiutare e fare clic su Approva o Rifiuta.
+1. Puoi visualizzare gli invii dagli Allievi per la sessione selezionata. Seleziona l’invio da approvare o rifiutare e fai clic su Approva o Rifiuta.
 
-   Lo stato dell&#39;invio cambia in Approvato o Rifiutato, in base all&#39;azione eseguita.
+   Lo stato dell’invio viene modificato in approvato o rifiutato, in base all’azione.
 
-## Configurare i promemoria per la sessione {#configureremindersforyoursession}
+## Configurazione di promemoria per la sessione {#configureremindersforyoursession}
 
 1. Nel riquadro a sinistra, fai clic su Sessioni pianificate.
-1. Fai clic sul corso per il quale desideri impostare il promemoria. Nel riquadro a sinistra, fai clic su Promemoria.
-1. Nella sezione Seleziona promemoria fare clic su Imposta promemoria.
+1. Fai clic sul corso per il quale impostare il promemoria. Nel riquadro a sinistra, fai clic su Promemoria.
+1. Nella sezione Seleziona promemoria, fai clic su Imposta promemoria.
 
    ![](assets/setreminder.png)
    *Configurare i promemoria per la sessione*
 
 1. Effettuate una delle seguenti operazioni:
 
-   * Nella finestra di dialogo Impostazioni promemoria, imposta l’opzione su quando inviare il promemoria agli Allievi: Prima della scadenza, Alla scadenza o Dopo la scadenza.
-   * Nel campo giorni prima della scadenza, imposta il numero di giorni precedenti alla scadenza in cui desideri inviare il promemoria agli Allievi.
+   * Nella finestra di dialogo di impostazioni del promemoria, imposta l’opzione di invio del promemoria agli Allievi: Prima della scadenza, Alla scadenza o Dopo la scadenza.
+   * Nel campo relativo ai giorni prima della scadenza, imposta il numero di giorni rimanenti alla scadenza in cui desideri inviare il promemoria agli Allievi.
    * Imposta la ricorrenza per il promemoria.
 
    ![](assets/remindersettings.png)
    *Visualizza impostazioni promemoria*
 
-1. Effettuate una delle seguenti operazioni:
+1. Effettua una delle seguenti operazioni:
 
    * Fai clic sul segno di spunta per salvare il promemoria.
-   * Fai clic sulla crocetta per annullare il promemoria.
+   * Fai clic sulla croce per annullare il promemoria.
 
-   Un promemoria del corso automatico viene inviato a tutti gli allievi alla data impostata indicata nelle impostazioni del promemoria.
+   Un promemoria automatico del corso viene inviato a tutti gli Allievi alla data indicata nelle impostazioni del promemoria.
 
-   Se hai già impostato promemoria per le sessioni, puoi visualizzarli nelle sezioni Promemoria esistenti. Inoltre, puoi anche aggiungere ulteriori promemoria ai promemoria esistenti.
+   Se hai già impostato promemoria per le sessioni, puoi visualizzarli nelle sezioni relative ai promemoria esistenti. Inoltre, puoi aggiungere ulteriori promemoria ai promemoria esistenti.
 
-   Per eliminare un promemoria esistente, fai clic sul promemoria. Dal pop-up visualizzato, fai clic sull&#39;icona Elimina (icona Cestino) per eliminare il promemoria.
+   Per eliminare un promemoria esistente, selezionalo. Nella finestra a comparsa visualizzata, fai clic sull’icona di eliminazione (icona del cestino) per eliminare il promemoria.

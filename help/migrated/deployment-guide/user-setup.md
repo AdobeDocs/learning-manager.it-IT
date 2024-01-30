@@ -6,7 +6,7 @@ preview: true
 source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 0%
+ht-degree: 63%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ## Utenti interni ed esterni {#internalandexternalusers}
 
-In qualsiasi LMS, incluso Learning Manager, la gestione degli utenti è un aspetto importante. Learning Manager consente di classificare gli utenti come interni ed esterni. Gli utenti interni sono gli utenti che appartengono a un&#39;organizzazione specifica o a un gruppo. In genere, gli utenti di un&#39;azienda sono utenti interni. Questi utenti dispongono di oggetti di apprendimento specifici con scadenze specifiche, assegnate dai loro manager o dall’amministratore.
+In qualsiasi LMS, incluso Learning Manager, la gestione degli utenti è un aspetto importante. Learning Manager consente di classificare gli utenti come interni ed esterni. Gli utenti interni sono gli utenti che appartengono a un&#39;organizzazione specifica o a un gruppo. In genere, gli utenti di un&#39;azienda sono utenti interni. Questi utenti dispongono di oggetti di apprendimento specifici con scadenze specifiche, assegnati dai loro manager o dall’amministratore.
 
 Al contrario, gli utenti esterni sono in genere utenti temporanei di uno specifico account Learning Manager. Questi utenti possono accedere a oggetti di apprendimento specifici facendo clic su un collegamento esterno temporaneo ricevuto tramite e-mail. I profili utente esterni hanno in genere una data di scadenza. Ad esempio, un’organizzazione che conduce certificazioni per Java può avere qualsiasi utente che accede temporaneamente ai corsi pertinenti e quindi tenta la certificazione. Di solito, anche i corsi di formazione in aula e i corsi destinati a utenti esterni hanno una capacità limitata.
 
 Continua a leggere per scoprire come aggiungere utenti interni ed esterni in Learning Manager.
 
-## Configurazione di utenti esterni {#setupexternalusers}
+## Configurare gli utenti esterni {#setupexternalusers}
 
 In qualità di Amministratore, puoi aggiungere utenti esterni, ad esempio dipendenti di organizzazioni partner, all’account Learning Manager. Per aggiungere utenti esterni:
 
@@ -42,14 +42,14 @@ In qualità di Amministratore, puoi aggiungere utenti esterni, ad esempio dipend
 1. Fai clic **[!UICONTROL ** Impostazioni avanzate **.]**
 1. Facoltativamente, imposta le seguenti opzioni quando crei un profilo esterno:
 
-   * **[!UICONTROL ** Aggiungi immagine **:]** Trascinare l&#39;immagine desiderata. Questa immagine viene visualizzata nella pagina Allievo per gli utenti.
+   * **[!UICONTROL ** Aggiungi immagine **:]** Trascinare l&#39;immagine desiderata. Questa immagine viene visualizzata agli utenti nella pagina Allievo.
    * **[!UICONTROL ** Requisiti di accesso **:]** Specifica il numero di giorni entro cui l&#39;utente deve accedere. Se l’utente esterno supera questo periodo di accesso, l’Allievo non può accedere né utilizzare l’oggetto di apprendimento.
    * **[!UICONTROL ** Domini consentiti **:]** Specifica i domini separati da una virgola. Solo gli utenti con i domini specificati possono registrarsi all&#39;account.
    * **[!UICONTROL ** Verifica e-mail richiesta **:]** Seleziona questa casella di controllo se desideri inviare un’e-mail di verifica agli utenti
 
 
 
-1. Fai clic **[!UICONTROL Risparmia.]**
+1. Fai clic su **[!UICONTROL Salva.]**
 
 
 
@@ -58,32 +58,32 @@ In qualità di Amministratore, puoi aggiungere utenti esterni, ad esempio dipend
    Viene visualizzata una finestra a comparsa con l’URL. Puoi copiare questo URL e inviarlo agli utenti esterni. Per impostazione predefinita, all’utente viene inviato un messaggio e-mail con questo URL.
 
 1. Quando si aggiungono profili esterni, questi vengono visualizzati nel **[!UICONTROL ** Pagina Utenti esterni **(** Amministratore **>** Utenti **>** Esterno **).]** Per questi utenti vengono visualizzati anche il limite di partecipanti, la data di scadenza e il requisito di accesso.
-1. Per modificare le impostazioni di un utente esterno in qualsiasi momento, fai clic sul nome dell’utente. La **[!UICONTROL Modifica iscrizione esterna]** viene visualizzata la finestra di dialogo. Modificate le impostazioni e fate clic su **[!UICONTROL ** Salva **.]**
+1. Per modificare le impostazioni di un utente esterno in qualsiasi momento, fai clic sul nome dell’utente. Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica iscrizione esterna]**. Modificate le impostazioni e fate clic su **[!UICONTROL ** Salva **.]**
 1. Puoi anche inviare nuovamente l’e-mail di benvenuto o copiare l’URL in qualsiasi momento facendo clic sulle icone dell’URL di copia/e-mail accanto al profilo esterno.
 
    ![](assets/set-up-external-users-step10.png)
 
-## Metti in pausa il profilo utente esterno {#pausetheexternaluserprofile}
+## Mettere in pausa il profilo utente esterno {#pausetheexternaluserprofile}
 
-Dopo aver aggiunto un gruppo di utenti esterni a Learning Manager, puoi anche mettere in pausa la procedura di registrazione degli utenti esterni. Quando si effettua una pausa, il processo di registrazione degli utenti esterni viene bloccato. Tuttavia, questo processo funziona solo quando gli utenti non si sono ancora registrati accettando l&#39;invito.
+Dopo l’aggiunta di un gruppo utenti esterni a Learning Manager, puoi inoltre mettere in pausa la procedura di registrazione degli utenti esterni. Quando la metti in pausa, la procedura di registrazione degli utenti esterni viene bloccata. Tuttavia, questo processo funziona solo quando gli utenti non sono ancora stati registrati accettando l’invito.
 
 Per sospendere i gruppi di utenti esterni, fai clic su **[!UICONTROL **Azioni**]**dall’angolo superiore destro della pagina, quindi scegli **[!UICONTROL Pausa]**.
 
-## Riprendi profilo utente esterno {#resumeexternaluserprofile}
+## Riprendere il profilo utente esterno {#resumeexternaluserprofile}
 
-In qualsiasi momento, puoi sempre revocare il blocco (pausa) scegliendo un&#39;opzione Riprendi. Fai clic su **[!UICONTROL **Azioni**]**nell’angolo in alto a destra della pagina, quindi scegli **[!UICONTROL Riprendi]**.
+Puoi sempre revocare il blocco (pausa) in qualsiasi momento scegliendo l’opzione Riprendi. Fai clic su **[!UICONTROL **Azioni**]**nell’angolo in alto a destra della pagina, quindi scegli **[!UICONTROL Riprendi]**.
 
 **[!UICONTROL Stati utente esterno]**
 
 In Learning Manager, i seguenti stati sono applicabili agli utenti esterni:
 
-* **Stato inattivo** - In questo stato, la registrazione degli utenti esterni è scaduta. Gli amministratori impostano la data di scadenza per gli utenti esterni mentre li aggiungono tramite il flusso di lavoro Aggiungi utente.
+* **Stato inattivo** - In questo stato, la registrazione degli utenti esterni è scaduta. Gli Amministratori impostano la data di scadenza per gli utenti esterni durante l’aggiunta mediante il flusso di lavoro dell’utente.
 * **Stato attivo** - In questo stato, gli utenti esterni possono registrarsi all’applicazione Learning Manager ed effettuare l’accesso.
-* **Pausa** - In questo stato, il processo di registrazione per gli utenti esterni viene bloccato. Tuttavia, gli utenti esistenti possono continuare ad accedere.
+* **Pausa**: in questo stato, il processo di registrazione per gli utenti esterni viene bloccato. Tuttavia, gli utenti esistenti possono continuare ad accedere.
 
-## Configurazione degli utenti interni {#setupinternalusers}
+## Configurare gli utenti interni {#setupinternalusers}
 
-In qualità di amministratore, potresti voler configurare gli utenti per la tua azienda o organizzazione. Questi utenti sono anche chiamati utenti interni. Gli utenti interni possono accedere all’applicazione utilizzando l’accesso unico o Adobe ID. Questi utenti possono quindi accedere e utilizzare gli oggetti di apprendimento in base alle loro esigenze. Per configurare utenti interni per un&#39;organizzazione, sono disponibili tre metodi:
+In qualità di amministratore, potresti voler configurare gli utenti per la tua azienda o organizzazione. Questi utenti sono anche chiamati utenti interni. Gli utenti interni possono accedere all’applicazione utilizzando il Single Sign-On o l’ID Adobe. Questi utenti possono quindi accedere e utilizzare gli oggetti di apprendimento in base alle loro esigenze. Per configurare utenti interni per un&#39;organizzazione, sono disponibili tre metodi:
 
 * Aggiunta di utenti in blocco mediante un file CSV
 * Aggiunta di utenti tramite registrazione autonoma
@@ -98,12 +98,12 @@ Puoi scegliere questo metodo per aggiungere utenti interni se il numero di utent
 1. Nella **[!UICONTROL Home page Amministratore]** , fare clic su **[!UICONTROL **Utenti**]**nel riquadro di navigazione a sinistra.
 1. Fai clic **[!UICONTROL ** Aggiungi **>** Caricare un file CSV **.]**
 1. Nella finestra a comparsa, fai clic su **[!UICONTROL ** Importa **.]**
-1. Individua il percorso in cui hai salvato il file CSV. Fai clic **[!UICONTROL Apri]**.
-1. Importa il file CSV e mappa il contenuto del file CSV con le etichette dell’applicazione. Questo passaggio è applicabile solo quando carichi il file CSV per la prima volta.
+1. Trova il percorso in cui hai salvato il file CSV. Fai clic su **[!UICONTROL Apri]**.
+1. Importa il file CSV e mappa il contenuto del file CSV alle etichette dell’applicazione. Questo passaggio deve essere eseguito solo quando carichi il file CSV per la prima volta.
 1. Fai clic su **[!UICONTROL **Salva**]**per salvare la mappatura.
 1. Fai clic su **[!UICONTROL **Aggiungi**]**per caricare il file CSV già mappato ai dati dell’applicazione.
 
-### Considerazioni da tenere in considerazione per la creazione del file CSV da caricare: {#considerationswhencreatingthecsvfileforupload}
+### Considerazioni da fare durante la creazione del file CSV da caricare: {#considerationswhencreatingthecsvfileforupload}
 
 Quando crei il file CSV per caricare gli utenti interni, i seguenti sono alcuni dei campi obbligatori per i quali devi inserire i dati: Nome del dipendente, E-mail del dipendente, Profilo o designazione del dipendente e Gerarchia dei manager.
 
@@ -121,59 +121,59 @@ Per scaricare un file CSV di esempio `<give link to zip file>`.
 
 <!--Zip file reference, no source file-->
 
-### Impostazione dell&#39;utente ROOT {#settinguprootuser}
+### Configurazione dell&#39;utente root {#settinguprootuser}
 
 Automazione dell’importazione in blocco degli utenti.
 
 ## Aggiunta di utenti tramite registrazione autonoma {#addingusersthroughselfregistration}
 
-Oltre ad aggiungere utenti interni in blocco, puoi anche aggiungere utenti tramite registrazione autonoma. Puoi utilizzare la registrazione autonoma per consentire ai dipendenti di registrarsi come Allievi all’account Learning Manager. Quando crei un profilo di registrazione autonoma, viene creato un URL univoco. Condividi questo URL con il dipendente per consentire la registrazione in Learning Manager.
+Oltre ad aggiungere utenti interni in blocco, puoi anche aggiungere utenti tramite registrazione autonoma. Puoi utilizzare la registrazione autonoma per consentire ai dipendenti di registrarsi come Allievi all’account Learning Manager. Quando crei un profilo di registrazione autonoma, viene creato un URL univoco. Condividi questo URL con il dipendente per consentirgli la registrazione in Learning Manager.
 
 1. Nella **[!UICONTROL Home page Amministratore]** pagina, fare clic su **[!UICONTROL Utenti]** nel riquadro di navigazione sinistro.
 1. Fai clic **[!UICONTROL ** Aggiungi **>** Registrazione autonoma **.]**
 
    ![](assets/adding-users-throughself-registration-step2.png)
 
-1. Nella **[!UICONTROL Aggiungi utente]** finestra di dialogo a comparsa, specificare il nome del dipendente nella **[!UICONTROL Nome profilo]** campo.
+1. Nella finestra di dialogo a comparsa **[!UICONTROL Aggiungi utente]**, specifica il nome del dipendente nel campo **[!UICONTROL Nome profilo]**.
 1. Nella **[!UICONTROL Nome del manager]** immettere il nome del responsabile del dipendente.
-1. Facoltativamente, è possibile aggiungere l&#39;immagine del profilo del dipendente utilizzando il **[!UICONTROL Aggiungi immagine]** campo.
-1. Fai clic **[!UICONTROL Salva]**.
+1. Facoltativamente, è possibile aggiungere l&#39;immagine del profilo del dipendente utilizzando il campo **[!UICONTROL Aggiungi immagine]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/adding-users-throughself-registration-step6.png)
 
-   Il sistema visualizza un&#39;altra finestra a comparsa con il messaggio che il profilo è stato creato correttamente. In questa finestra di dialogo viene generato anche un URL univoco.
+   Il sistema visualizza un&#39;altra finestra a comparsa contenente il messaggio che il profilo è stato creato correttamente. In questa finestra di dialogo viene generato anche un URL univoco.
 
 1. Condividi questo URL con il dipendente per consentire al dipendente di registrarsi autonomamente come Allievo.
 
    ![](assets/adding-users-throughself-registration-step7.png)
 
-## Aggiunta di singoli utenti in Learning Manager {#addsingleusersincaptivateprime}
+## Aggiungere i singoli utenti in Learning Manager {#addsingleusersincaptivateprime}
 
-L’aggiunta di utenti singoli è il terzo metodo che consente di aggiungere utenti interni all’account. Se si desidera aggiungere alcuni utenti, questa procedura è ideale. Per aggiungere un singolo utente:
+L’aggiunta di utenti singoli è il terzo metodo che consente di aggiungere utenti interni all’account. Se desideri aggiungere non molti utenti, questa procedura è ideale. Per aggiungere un singolo utente:
 
-1. Nella **[!UICONTROL Home page Amministratore]** pagina, fare clic su **[!UICONTROL Utenti]** nel riquadro di navigazione sinistro.
+1. Dalla pagina Home dell’**[!UICONTROL Amministratore]**, fai clic su **[!UICONTROL Utenti]** nel riquadro di navigazione sinistro.
 1. Fai clic **[!UICONTROL ** Aggiungi **>** Utente singolo **.]**
 
 
 
 1. Nella finestra di dialogo a comparsa Aggiungi utente, specifica i seguenti dettagli per gli utenti:
 
-   * **[!UICONTROL Nome]** **[!UICONTROL :]** Specificare il nome del dipendente o dell&#39;utente interno. Campo obbligatorio.
+   * **[!UICONTROL Nome]** **[!UICONTROL :]** Specificare il nome del dipendente o dell&#39;utente interno. Questo campo è obbligatorio.
 
-   * **[!UICONTROL E-mail]** **[!UICONTROL :]** Specifica l&#39;ID e-mail del dipendente. Campo obbligatorio.
+   * **[!UICONTROL E-mail]** **[!UICONTROL :]** Specifica l&#39;ID e-mail del dipendente. Questo campo è obbligatorio.
 
    * **[!UICONTROL Profilo]** **[!UICONTROL :]** Specificare la qualifica o il titolo professionale del dipendente.
 
    * **[!UICONTROL ** Nome del manager **:]** Specifica il nome del Manager. Il manager deve essere già stato aggiunto al database da specificare qui.
    * **[!UICONTROL ** DOJ **:]** Specificare la data di unione del dipendente.
-   * **[!UICONTROL **Posizione**:]**Specificare l&#39;ubicazione del dipendente. Ad esempio, se l&#39;organizzazione è ubicata in diverse località geografiche, specificare la località in cui si trova il dipendente.
+   * **[!UICONTROL **Posizione**:]**Specificare l&#39;ubicazione del dipendente. Ad esempio, se l&#39;organizzazione è ubicata in diverse località geografiche, specifica la località in cui si trova il dipendente.
 
 
 
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
-1. Fai clic **[!UICONTROL Aggiungi]**.
-1. Il sistema visualizza un messaggio che indica che l&#39;utente è stato aggiunto correttamente. L’utente riceve un collegamento di verifica nell’ID e-mail specificato. L’utente può fare clic su questo collegamento per attivare il suo account e iniziare ad accedere a Learning Manager.
+1. Fai clic su **[!UICONTROL Aggiungi]**.
+1. Il sistema visualizza un messaggio che indica che l&#39;utente è stato aggiunto correttamente. L’utente riceve un link di verifica nell’ID e-mail specificato. L’utente può fare clic su questo link per attivare il suo account e iniziare ad accedere a Learning Manager.
 
    ![](assets/add-single-usersincaptivateprime-step5.png)
 
@@ -189,12 +189,12 @@ Per visualizzare i gruppi di utenti generati automaticamente in Learning Manager
 
 Puoi anche creare gruppi personalizzati con un elenco selezionato di utenti in Learning Manager. I gruppi personalizzati consentono di specificare un nome, una descrizione e gli attributi per il gruppo di utenti. I gruppi personalizzati creati in Learning Manager sono di natura dinamica. Questo significa che se i nuovi utenti vengono aggiunti con attributi simili, vengono aggiunti automaticamente a questi gruppi di utenti.
 
-## Creazione di gruppi di utenti personalizzati {#createcustomusergroups}
+## Creare gruppi di utenti personalizzati {#createcustomusergroups}
 
-1. Nella home page di Learning Manager Administrator, fai clic su **[!UICONTROL Utenti]**.
+1. Nella pagina Home dell’Amministratore di Learning Manager, fai clic su **[!UICONTROL Utenti]**.
 1. Nella pagina Gruppi di utenti personalizzati fare clic su **[!UICONTROL **Aggiungi**]**dall’angolo in alto a destra della pagina.
 
-   Il sistema visualizza **[!UICONTROL Aggiungi gruppo di utenti]** finestra di dialogo.
+   Il sistema visualizza la finestra di dialogo **[!UICONTROL Aggiungi gruppo di utenti]**.
 
    ![](assets/creating-custom-usergroups.png)
 

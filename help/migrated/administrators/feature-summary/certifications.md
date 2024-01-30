@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 Scopri come creare certificazioni, iscrivere Allievi e modificare le certificazioni pubblicate.
 
-Con questa funzione, puoi certificare gli Allievi una sola volta o in base a un periodo di tempo ricorrente. Solo gli Amministratori possono definire le certificazioni per gli Allievi.
+Certifica gli Allievi una sola volta oppure su base ricorrente tramite questa funzionalità. Solo gli Amministratori possono definire le certificazioni per gli Allievi.
 
-In qualità di Amministratore, puoi creare un programma di certificazione ospitato internamente o condotto da terze parti. In caso di certificazione interna, definisci i corsi che un Allievo deve completare per essere certificato. Pubblica il programma e assegnalo agli Allievi.
+In qualità di Amministratore è possibile creare un Programma di certificazione ospitato internamente o condotto da terze parti. In caso di certificazione interna, definisci i corsi che un Allievo deve completare per essere certificato. Pubblica il programma, quindi assegnalo agli Allievi.
 
-## Creare una certificazione {#createacertification}
+## Creazione una certificazione {#createacertification}
 
 1. Fai clic **[!UICONTROL Certificazione]** nel riquadro sinistro.\
    Viene visualizzata una pagina con un elenco di tutte le bozze e lo stato delle certificazioni pubblicate.
 
 1. Visualizza le certificazioni in varie modalità:
 
-   1. Fai clic **[!UICONTROL Bozza]** per visualizzare tutte le certificazioni con lo stato di bozza. Devi completare la creazione.
+   1. Fai clic **[!UICONTROL Bozza]** per visualizzare tutte le certificazioni con lo stato di bozza. Devi completarne la creazione.
    1. Fai clic **[!UICONTROL Pubblicato]** per vedere tutte le certificazioni pubblicate.
    1. Fai clic **[!UICONTROL Tutti]** per visualizzare le certificazioni in tutti gli stati.
    1. Ordina e visualizza l’elenco delle certificazioni in ordine crescente o decrescente oppure in base alla data di aggiornamento.
 
-1. Fai clic **[!UICONTROL Aggiungi]**.
+1. Fai clic su **[!UICONTROL Aggiungi]**.
 
    Viene visualizzata una nuova pagina di certificazione.
 
@@ -50,15 +50,15 @@ In qualità di Amministratore, puoi creare un programma di certificazione ospita
   </tr>
   <tr>
    <td>Giorni per il completamento</td>
-   <td>Scadenza per la certificazione. Immettere un valore numerico.</td>
+   <td>La scadenza per completare la certificazione. Immetti un valore numerico.</td>
   </tr>
   <tr>
    <td>Tipo</td>
    <td>
     <p>Tipo di certificazione:</p>
     <ul>
-     <li><b>Ricorrente</b>- Scegli questa opzione se la certificazione deve essere rilasciata dopo ogni anno, due anni o tre anni.</li>
-     <li><b>Perpetuo</b>- Scegli questa opzione se la certificazione deve essere un requisito una tantum.</li>
+     <li><b>Ricorrente</b> - Scegli questa opzione se la certificazione deve avvenire ogni anno, due anni o tre anni.</li>
+     <li><b>Permanente</b> - Scegli questa opzione se la certificazione è richiesta una sola volta.</li>
     </ul></td>
   </tr>
   <tr>
@@ -67,26 +67,26 @@ In qualità di Amministratore, puoi creare un programma di certificazione ospita
   </tr>
   <tr>
    <td>Validità (in mesi) <br></td>
-   <td>Specifica per quanto tempo la certificazione può rimanere valida.</td>
+   <td>Specifica per quanto tempo rimane valida la certificazione.</td>
   </tr>
   <tr>
    <td>Ordinamento dei corsi<br></td>
-   <td>Decidi se gli Allievi devono seguire i corsi in sequenza o meno.<br></td>
+   <td>Decidi se gli Allievi devono seguire i corsi in sequenza oppure no.<br></td>
   </tr>
   <tr>
-   <td>Annullamento dell’iscrizione<br></td>
-   <td>Abilita o disabilita l’opzione per consentire agli Allievi di annullare l’iscrizione.</td>
+   <td>Annullamento iscrizione<br></td>
+   <td>Attiva o disattiva l’opzione per consentire agli Allievi di annullare l’iscrizione.</td>
   </tr>
   <tr>
-   <td>Emittente certificazione<br></td>
+   <td>Soggetto emittente certificazione<br></td>
    <td>
     <p>Scegli <b>Interno</b> se appartiene alla tua organizzazione o scegli <b>Esterno</b> per le certificazioni di organizzazioni esterne.</p>
-    <p>Quando scegli <b>Certificazione esterna</b>, vengono visualizzate altre due opzioni:</p>
+    <p>Se scegli <b>Certificazione esterna</b> vedrai altre due opzioni:</p>
     <ul>
      <li>Uguale alla data di approvazione<br></li>
      <li>Inviato dall’Allievo<br></li>
     </ul>
-    <p>Gli Allievi possono specificare la data di completamento corretta per le certificazioni esterne. Nelle versioni precedenti, la data di completamento era impostata per impostazione predefinita da Prime, in base alla data di approvazione del Manager. La data di completamento fornita dall’Allievo deve essere successiva alla data di creazione del certificato<span>.</span></p></td>
+    <p>Gli allievi possono specificare la corretta data di completamento delle certificazioni esterne. Nelle versioni precedenti, la data di completamento era impostata per impostazione predefinita da Prime, in base alla data di approvazione del Manager. La data di completamento fornita dall’Allievo deve essere successiva alla data di creazione del certificato<span>.</span></p></td>
   </tr>
   <tr>
    <td>Durata</td>
@@ -94,11 +94,11 @@ In qualità di Amministratore, puoi creare un programma di certificazione ospita
   </tr>
   <tr>
    <td>Tag</td>
-   <td>Immettere i tag da associare al certificato. I tag sono utili quando si desidera cercare il certificato.</td>
+   <td>Immetti i tag da associare al certificato. I tag sono utili per cercare il certificato.</td>
   </tr>
   <tr>
    <td>Seleziona cataloghi<br></td>
-   <td>Scegliere il catalogo di cui fa parte il certificato.</td>
+   <td>Scegli il catalogo di cui fa parte il certificato.</td>
   </tr>
  </tbody>
 </table>
@@ -110,38 +110,38 @@ Passa il mouse su ogni riquadro del corso e fai clic su + per aggiungerli alla c
 1. Fai clic **[!UICONTROL Curriculum]** per visualizzare/verificare l’elenco dei corsi aggiunti.
 1. Fai clic **[!UICONTROL Pubblica]**.
 
-## Mappatura dell’istanza del corso per le certificazioni {#courseinstancemappingforcertifications}
+## Mappatura delle istanze del corso per le certificazioni {#courseinstancemappingforcertifications}
 
 Per mappare il corso e l’istanza per le certificazioni:
 
 1. Fai clic su Certificazioni nel riquadro a sinistra.
-1. Dall’elenco delle certificazioni, seleziona Visualizza certificazione della certificazione a cui desideri associare il corso e l’istanza.
+1. Dall’elenco delle certificazioni, seleziona Visualizza certificazione in corrispondenza della certificazione a cui vuoi mappare il corso e l’istanza.
 1. Nel riquadro a sinistra, fai clic su Corsi. Vengono visualizzati i corsi per la certificazione. Fai clic su Modifica.
-1. Passa con il mouse sul corso per cui desideri impostare la mappatura delle istanze, e seleziona Mappatura istanze del corso.
-1. Nella finestra a comparsa visualizzata, seleziona l’istanza del corso da inviare per la certificazione scelta.
+1. Passa il cursore del mouse sul corso in cui vuoi impostare la mappatura dell’istanza e seleziona Mappatura istanze corso.
+1. Dalla finestra a comparsa visualizzata, seleziona l’istanza del corso da consegnare per la certificazione scelta.
 1. Fai clic su Salva.
 
-Un amministratore può aggiungere corsi di tipo aula e aula virtuale a un programma di apprendimento. Qualunque sessione l’autore abbia impartito durante la creazione del corso diventa l’istanza predefinita. Quando l’Amministratore aggiunge corsi a un programma di apprendimento, per impostazione predefinita viene mappato all’istanza predefinita di tutti i corsi, ma l’Amministratore può modificare la mappatura delle istanze. Il numero di corsi aggiunti a un programma di apprendimento è visibile anche nella pagina delle istanze, come illustrato di seguito.
+Un amministratore può aggiungere corsi di tipo aula e aula virtuale a un programma di apprendimento. La sessione assegnata dall’Autore durante la creazione del corso diventa l’istanza predefinita. Quando l’Amministratore aggiunge corsi a un programma di apprendimento, esso viene mappato all’istanza predefinita di tutti i corsi per impostazione predefinita. L’Amministratore può tuttavia modificare la mappatura delle istanze. Il numero di corsi aggiunti in un programma di apprendimento è visibile anche nella pagina delle istanze, come illustrato di seguito.
 
-## Abilita controllo completo dei cataloghi {#catalog}
+## Abilitazione del controllo completo del catalogo {#catalog}
 
-Come concedere pieno [controllo catalogo per corsi o moduli](shared-catalog-full-control.md), puoi anche abilitare il controllo completo dei cataloghi per le certificazioni.
+Oltre che per gli [apprendimenti o i moduli](shared-catalog-full-control.md), è anche possibile abilitare il controllo completo dei cataloghi per le certificazioni.
 
-## Iscrizione o annullamento dell’iscrizione degli allievi alla certificazione {#enrollorunenrolllearnerstothecertification}
+## Iscrizione o annullamento dell’iscrizione degli Allievi alla certificazione {#enrollorunenrolllearnerstothecertification}
 
-Per ulteriori informazioni sull’iscrizione degli Allievi e sui passaggi da seguire, consulta [Iscrizione degli Allievi](courses.md#main-pars_header_1058138132).
+Per ulteriori informazioni sull’iscrizione degli Allievi e sui passaggi da seguire, vedi [Iscrizione degli Allievi](courses.md#main-pars_header_1058138132).
 
-## Annullamento dell’iscrizione per gli Allievi {#unenrollmentforlearners}
+## Annullamento dell’iscrizione degli Allievi {#unenrollmentforlearners}
 
-Durante la creazione delle certificazioni, l’Amministratore può selezionare se gli Allievi possono annullare l’iscrizione alla certificazione. Se l’Amministratore seleziona l’opzione, l’Allievo può annullare la propria iscrizione.
+Durante la creazione delle certificazioni, l’Amministratore dispone di un’opzione per selezionare se gli Allievi possono annullare l’iscrizione alla certificazione. Se l’Amministratore seleziona l’apposita opzione, l’Allievo può annullare l’iscrizione.
 
 ![](assets/unenrollment.png)
 
 *Scegli di annullare l’iscrizione degli Allievi*
 
-## Contrassegna completamento {#markcompletion}
+## Contrassegnare il completamento {#markcompletion}
 
-Gli amministratori possono contrassegnare una certificazione come completata utilizzando l’opzione disponibile. Per contrassegnare il completamento di una certificazione, attieniti alla procedura riportata di seguito.
+Gli Amministratori possono contrassegnare una certificazione come completa utilizzando l’opzione apposita. Per contrassegnare il completamento della certificazione, procedi come segue.
 
 1. Apri **[!UICONTROL Certificazione]** > **[!UICONTROL Allievi]**.
 
@@ -150,7 +150,7 @@ Gli amministratori possono contrassegnare una certificazione come completata uti
 1. Seleziona uno/più/tutti gli Allievi per contrassegnare il completamento della certificazione utilizzando la casella di controllo disponibile per ogni Allievo.
 1. Fai clic  **[!UICONTROL Azione]** > **[!UICONTROL Contrassegna completamento.]**
 
-   Tieni presente che se una certificazione include più corsi, il completamento verrà contrassegnato per tutti i corsi.
+   Tieni presente che se una certificazione contiene più corsi, il completamento verrà contrassegnato per tutti i corsi.
 
 ## Corsi obbligatori per la certificazione esterna {#mandatory}
 
@@ -160,15 +160,15 @@ Ora puoi rendere obbligatori i corsi attivando l’opzione **[!UICONTROL Imposta
 
 ## Modifica di una certificazione pubblicata {#editingapublishedcertification}
 
-Una certificazione può essere modificata da un Amministratore a uno stato pubblicato. A questo punto, l’Amministratore può modificare tutte le sezioni di una certificazione e ripubblicarle.
+L’Amministratore può modificare una certificazione dopo la pubblicazione. Quando lo stato del programma di apprendimento è Pubblicato, l’Amministratore può modificare tutte le sezioni della certificazione, quindi ripubblicarla.
 
 Per modificare una certificazione pubblicata, fai clic sulla scheda della certificazione e quindi su **[!UICONTROL Modifica]** nell’angolo in alto a destra della pagina.
 
-Durante la modifica delle sezioni di una certificazione, se devi uscire dalla pagina, devi ripubblicare la certificazione. Viene visualizzata una finestra di dialogo che richiede di pubblicare nuovamente la certificazione.
+Se esci dalla pagina durante la modifica delle sezioni di una certificazione, dovrai pubblicare nuovamente la certificazione. Viene visualizzata una finestra di dialogo di conferma che ti invita a ripubblicare la certificazione.
 
 ## Abbonamento {#subscription}
 
-Un amministratore può recuperare il punteggio del quiz e i report sullo stato degli allievi. Possono impostare la frequenza del report, l’oggetto e-mail e l’ID e-mail dei destinatari. A seconda della frequenza impostata, il destinatario riceverà un’e-mail con il report allegato.
+Un Amministratore può recuperare il punteggio dei quiz e i report sullo stato degli Allievi. Può inoltre impostare la frequenza dei report, l’oggetto e-mail e l’ID e-mail dei destinatari. Il destinatario riceverà un’e-mail con il report in allegato in base alla frequenza impostata.
 
 ![](assets/report-subscription.jpeg)
 

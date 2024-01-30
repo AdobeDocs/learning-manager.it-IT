@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '1718'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
@@ -16,82 +16,82 @@ ht-degree: 0%
 
 Crea, assegna e modifica abilità e livelli.
 
-La mappa delle abilità è un raggruppamento di set di abilità, conoscenze e tratti di un dipendente di un&#39;organizzazione. Queste mappe delle competenze aiutano le aziende/organizzazioni a definire o aumentare le aspettative di prestazioni per i propri dipendenti. Le abilità consentono ai dipendenti di allineare i propri comportamenti alle aspettative dell&#39;organizzazione.
+La mappa delle abilità racchiude i set di abilità, le conoscenze e le caratteristiche di un dipendente in un’organizzazione. Queste mappe delle abilità aiutano le aziende/organizzazioni a impostare o incrementare le prestazioni previste per i dipendenti. Le abilità consentono ai dipendenti di allineare i loro comportamenti alle aspettative dell’organizzazione.
 
-Adobe Learning Manager ti consente di mappare le prestazioni degli Allievi in base alle loro competenze utilizzando la mappa delle abilità. Quando gli Allievi completano l’accettazione di alcuni corsi, possono verificare la propria reputazione rispetto a ciascuna abilità visualizzando le mappe di abilità.
+Adobe Learning Manager ti consente di mappare le prestazioni degli Allievi in base alle loro abilità tramite la mappa delle abilità. Quando gli Allievi completano l’accettazione di alcuni corsi, possono verificare la propria reputazione rispetto a ciascuna abilità visualizzando le mappe di abilità.
 
-Lo scopo fondamentale delle abilità nell’LMS di Learning Manager è fornire all’Amministratore uno strumento che allinei l’apprendimento agli obiettivi aziendali.
+Lo scopo fondamentale delle abilità in Learning Manager LMS è fornire all’Amministratore uno strumento che allinei l’apprendimento agli obiettivi aziendali.
 
-## Aggiungi un’abilità {#addaskill}
+## Aggiunta di un’abilità {#addaskill}
 
-In qualità di Amministratore, puoi effettuare le seguenti operazioni:
+Come Amministratore, puoi eseguire le seguenti operazioni:
 
-* Associa un dominio a un’abilità.
-* Aggiungi più livelli di un’abilità.
-* Aggiungi un badge a un livello.
+* Mappatura di un dominio a un’abilità.
+* Aggiunta di più livelli di un’abilità.
+* Aggiunta di un distintivo a un livello.
 
-Per aggiungere un’abilità, segui i passaggi riportati di seguito:
+Per aggiungere un’abilità, attieniti ai passaggi seguenti:
 
-1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Abilità]**. Immetti un nome e una descrizione per l’abilità.
+1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Abilità]**. Assegna un nome e una descrizione all’abilità.
 
    ![](assets/add-skill-name-anddescription.png)
 
    *Aggiungi nome e descrizione di un’abilità*
 
-1. Assegna un dominio all’abilità. Durante la creazione di un’abilità, puoi mapparla ai domini di abilità più rilevanti supportati da Learning Manager. Per ulteriori informazioni, consulta [***Mappare abilità con domini***](/help/migrated/administrators/feature-summary/curation-skills.md).
+1. Assegna un dominio all’abilità. Durante la creazione di un’abilità, puoi mapparla ai domini di abilità più rilevanti supportati da Learning Manager. Per ulteriori informazioni, consulta [***Mappare abilità con domini di abilità***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
-   Inizia a digitare il dominio nel campo e potrai visualizzare i consigli. Scegli l’opzione o le opzioni che sono pertinenti per l’abilità.
+   Inizia a digitare il dominio nel campo e per visualizzare i suggerimenti. Scegli le opzioni rilevanti per l’abilità.
 
    ![](assets/map-domain-with-skills.png)
 
    *Aggiungi un dominio*
 
-1. Assegna i livelli all’abilità. Per aggiungere un livello, fare clic su **[!UICONTROL Aggiungi]**.
+1. Assegna i livelli all’abilità. Per aggiungere un livello, fai clic su **[!UICONTROL Aggiungi]**.
 
-   È possibile creare e assegnare abilità ai dipendenti. Esistono vari livelli di abilità e ogni livello richiede un certo numero di crediti da guadagnare.
+   Puoi creare abilità e assegnarle ai dipendenti. Esistono vari livelli di abilità e ciascuno di essi richiede un certo numero di crediti da guadagnare.
 
-   Puoi assegnare un massimo di tre livelli a un’abilità. Il percorso di apprendimento consiste nell’iscrizione degli Allievi a vari Oggetti di apprendimento, che si traducono quindi in un certo numero di crediti che soddisfano i requisiti per i vari livelli di un’abilità.
+   Puoi assegnare un massimo di tre livelli a un’abilità. Il percorso di apprendimento consiste nell’iscrivere gli Allievi a vari Oggetti di apprendimento, che si traducono in un certo numero di crediti che soddisfano i requisiti per i vari livelli di un’abilità.
 
-   Una volta raggiunti questi oggetti di apprendimento (LO) e livelli, l’Allievo è ora in grado di offrire prestazioni a un livello più produttivo di prima.
+   Una volta raggiunti questi Oggetti di apprendimento (LO) e livelli, l’Allievo è pronto per fornire prestazioni di produttività maggiori.
 
    ![](assets/add-skill-levels.png)
 
    *Aggiungere livelli di abilità*
 
-   Quando aggiungi un’abilità, puoi anche assegnare decimali ai crediti. I crediti vengono visualizzati fino a due cifre decimali.
+   Quando aggiungi un’abilità, puoi anche assegnare decimali ai crediti. I crediti sono visualizzati fino alla seconda cifra decimale.
 
-   Il supporto decimale è disponibile solo in lingua inglese.
+   Il supporto delle cifre decimali è disponibile solo in lingua inglese.
 
-1. Scegli un distintivo per il livello. Dal menu **[!UICONTROL Badge]** seleziona un’immagine da utilizzare come badge per tale livello.
+1. Scegli un distintivo per il livello. Dall’elenco a discesa **[!UICONTROL Distintivo]**, seleziona un’immagine da utilizzare come distintivo per il livello.
 1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**.
 
-   Una volta creata l’abilità, puoi trovarla sul **[!UICONTROL Abilità]** pagina. Puoi anche visualizzare i domini e la breve descrizione dell’abilità. È inoltre possibile visualizzare i livelli e i crediti assegnati a ciascun livello.
+   Dopo aver creato un’abilità, puoi individuarla subito nella pagina **[!UICONTROL Abilità]**. Puoi anche vedere i domini e una breve descrizione dell’abilità. Puoi anche visualizzare i livelli e i crediti assegnati a ciascun livello.
 
    ![](assets/list-of-skills.png)
 
    *Visualizza elenco di abilità oif*
 
-## Assegnare l’abilità agli Allievi {#assigntheskilltolearners}
+## Assegnazione dell’abilità agli Allievi {#assigntheskilltolearners}
 
-Gli Amministratori possono assegnare le abilità agli Allievi.
+Gli Amministratori possono assegnare abilità agli Allievi.
 
-Dopo aver creato le abilità e averle salvate, vengono elencate nella pagina delle abilità. Ora puoi iniziare ad assegnare queste abilità agli Allievi nel modo seguente:
+Una volta create e salvate, le abilità vengono elencate nella pagina delle abilità. Ora puoi iniziare ad assegnare tali abilità agli Allievi come indicato di seguito:
 
-1. Nella **[!UICONTROL Abilità]** fai clic sul collegamento ipertestuale con il numero di allievi iscritti all’abilità. Per un’abilità appena creata, il numero di Allievi per tutti i livelli è zero.
+1. Nella pagina **[!UICONTROL Abilità]**, fai clic sul collegamento ipertestuale con il numero di Allievi iscritti all’abilità. Per un’abilità appena creata, il numero di Allievi per tutti i livelli è zero.
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
 
    *Visualizzare gli Allievi assegnati a un’abilità*
 
-   Per questo esempio, aggiungi Allievi per il Livello 1. Fai clic sul collegamento ipertestuale accanto a Livello 1.
+   In questo esempio viene mostrato come aggiungere Allievi per il Livello 1. Fai clic sul collegamento ipertestuale accanto al Livello 1.
 
 1. Nella finestra di dialogo Allievi, fai clic su **[!UICONTROL Aggiungi Allievi]**.
 
    ![](assets/add-learners.png)
 
-   *Aggiungi Allievi*
+   *Aggiunta di Allievi*
 
-1. Cerca gli Allievi e aggiungi gli Allievi. Puoi anche aggiungere gruppi di utenti.
+1. Cerca e aggiungi gli Allievi. Puoi anche aggiungere gruppi di utenti.
 
    ![](assets/search-and-add-learners.png)
 
@@ -99,7 +99,7 @@ Dopo aver creato le abilità e averle salvate, vengono elencate nella pagina del
 
 1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**.
 
-   Dopo aver assegnato gli allievi, per impostazione predefinita tutti gli allievi di un gruppo di utenti vengono iscritti automaticamente all’abilità. È possibile fare in modo che gli Allievi annullino l’iscrizione automatica facendo clic sul pulsante **[!UICONTROL Iscrizione automatica]** pulsante.
+   Dopo aver assegnato gli Allievi, tutti gli Allievi di un gruppo di utenti, se presenti, vengono automaticamente iscritti all’abilità per impostazione predefinita. Puoi disabilitare l’opzione di iscrizione automatica per gli Allievi facendo clic sul pulsante **[!UICONTROL Iscrizione automatica]**.
 
    ![](assets/turn-off-auto-enrollment.png)
 
@@ -107,96 +107,96 @@ Dopo aver creato le abilità e averle salvate, vengono elencate nella pagina del
 
    I singoli Allievi possono iscriversi automaticamente o possono essere iscritti dall’Amministratore a un programma di apprendimento.
 
-1. Dopo aver fatto clic su **[!UICONTROL Chiudi]**, puoi visualizzare il numero totale di Allievi che sono stati assegnati all’abilità che hai creato.
+1. Dopo aver fatto clic su **[!UICONTROL Chiudi]**, puoi vedere il numero totale di Allievi assegnati all’abilità che hai creato.
 
-   In questo esempio, ci sono due singoli Allievi e tre Allievi in un gruppo di utenti.
+   In questo esempio ci sono due Allievi singoli e tre Allievi in un gruppo di utenti.
 
    ![](assets/learners-assignedtoaskill.png)
 
    *Numero di Allievi assegnati a un’abilità*
 
-## Assegnare l’abilità a un corso {#assignskilltocourse}
+## Assegnazione dell’abilità a un corso {#assignskilltocourse}
 
-Una volta creata l’abilità, un Autore può creare un corso e assegnarla al corso.
+Una volta creata l’abilità, l’Autore può creare un corso e assegnare l’abilità al corso.
 
 ![](assets/assign-skill-to-acourse.png)
 
 *Assegnare abilità a un corso*
 
-Dopo che l’autore ha pubblicato il corso, sul **[!UICONTROL Abilità]** pagina, puoi visualizzare il conteggio dei corsi associati a un livello di abilità, che viene incrementato quando assegni l’abilità a un nuovo corso.
+Dopo che l’Autore pubblica il corso, nella pagina **[!UICONTROL Abilità]**, puoi vedere il conteggio dei corsi associati a un livello di abilità, che cresce quando assegni l’abilità a un nuovo corso.
 
 ![](assets/skill-assigned-tothecourse.png)
 
 *Numero di corsi associati a un livello di abilità*
 
-## Assegnare una risorsa formativa all’abilità {#assignajobaidtotheskill}
+## Assegnazione di una risorsa formativa all’abilità {#assignajobaidtotheskill}
 
-Le risorse formative sono contenuti di formazione a cui un Allievo può accedere senza iscriversi a oggetti di apprendimento specifici, ad esempio un corso o un programma di apprendimento.
+Le risorse formative sono contenuti di formazione a cui un Allievo può accedere senza iscriversi a uno specifico oggetto di apprendimento come Corso o Programma di apprendimento.
 
-Durante la creazione di una risorsa formativa, un autore può associarvi un livello di abilità. La creazione di una risorsa formativa senza abilità e l’associazione a un corso con un’abilità non collega l’abilità alla risorsa formativa.
+L’Autore può associare un livello di abilità a una risorsa formativa durante la creazione della risorsa formativa. Se si crea una risorsa formativa senza abilità e la si associa a un corso con un’abilità, l’abilità non verrà collegata alla risorsa formativa.
 
 ![](assets/create-a-job-aid.png)
 
 *Crea una risorsa formativa*
 
-Nella **[!UICONTROL Abilità]** pagina, puoi visualizzare il numero di risorse formative associate a quel livello di abilità.
+Nella pagina **[!UICONTROL Abilità]**, puoi vedere il numero di risorse formative associate al livello di abilità.
 
 ![](assets/job-aid-assignedtotheskill.png)
 
 *Numero di risorse formative di un’abilità*
 
-## Cerca un’abilità {#searchskill}
+## Ricerca abilità {#searchskill}
 
-Cerca un’abilità digitandone il nome e scegliendola tra le opzioni presenti. La ricerca con completamento automatico è applicabile anche in questo caso.
+Cerca un’abilità digitandone il nome e scegliendola dalle opzioni presenti. Anche la ricerca con completamento automatico è applicabile.
 
-Puoi cercare le abilità in entrambi i **[!UICONTROL Attivo]** e **[!UICONTROL Ritirato]** sezioni della pagina Abilità.
+È possibile cercare le abilità nelle sezioni **[!UICONTROL Attive]** e **[!UICONTROL Ritirate]** della pagina Abilità.
 
-## Modificare un’abilità {#editaskill}
+## Modifica di un’abilità {#editaskill}
 
-Nella **[!UICONTROL Abilità]** fai clic sull’abilità che desideri modificare. Nella **[!UICONTROL Modifica abilità]** , effettua le modifiche necessarie, ad esempio
+Nella pagina **[!UICONTROL Abilità]**, fai clic sull’abilità che desideri modificare. Nella **[!UICONTROL Modifica abilità]** , effettua le modifiche necessarie, ad esempio
 
 * Aggiunta o eliminazione di un dominio di abilità.
 * Modifica del nome e della descrizione dell’abilità.
-* Aggiungere un livello di abilità o modificare un livello esistente.
-* Aggiunta o eliminazione di un badge per un’abilità.
+* Aggiunta di un livello di abilità o modifica di un livello esistente.
+* Aggiunta o eliminazione di un distintivo per un’abilità.
 
-Dopo aver apportato le modifiche, fai clic su **[!UICONTROL Salva]**.
+Dopo aver applicato le modifiche, fai clic su **[!UICONTROL Salva]**.
 
 ## Ritiro di un’abilità {#retireaskill}
 
-Per ritirare un’abilità, sul **[!UICONTROL Abilità]** seleziona l’abilità che desideri ritirare.
+Per ritirare un’abilità, seleziona l’abilità desiderata nella pagina **[!UICONTROL Abilità]**.
 
-Dal menu **[!UICONTROL Azioni]** nell&#39;angolo superiore destro della pagina, fare clic su **[!UICONTROL Ritiro]**.
+Dal menu **[!UICONTROL Azioni]** nell’angolo superiore destro della pagina, fai clic su **[!UICONTROL Ritira]**.
 
-Quando ritiri un’abilità, questa non viene più visualizzata nel corso.
+Quando ritiri un’abilità, essa non appare più nel corso.
 
-Quando un’abilità viene ritirata, non può essere associata a più corsi o risorse formative o assegnata agli Allievi fino a quando non viene ripubblicata. Le associazioni e le assegnazioni esistenti non sono interessate dal ritiro dell&#39;abilità.
+Quando un’abilità viene ritirata, non potrà essere associata ad altri corsi o risorse formative o assegnata agli Allievi fino a quando non verrà ripubblicata. Le associazioni e le assegnazioni esistenti non sono influenzate dal ritiro dell’abilità.
 
-## Ripubblicare un’abilità {#republishaskill}
+## Ripubblicazione di un’abilità {#republishaskill}
 
-Una volta ritirata un’abilità, questa viene visualizzata nel **[!UICONTROL Ritirato]** scheda. Nella scheda viene visualizzato l’elenco di tutte le abilità ritirate.
+Dopo aver ritirato un’abilità, essa appare nella scheda **[!UICONTROL Ritirate]**. La scheda mostra l’elenco di tutte le abilità ritirate.
 
-Per ripubblicare un’abilità ritirata, selezionala e **[!UICONTROL Azioni]** menu, fare clic su **[!UICONTROL Ripubblica]**.
+Per ripubblicare un’abilità ritirata, scegli l’abilità e fai clic su **[!UICONTROL Pubblica di nuovo]** nel menu **[!UICONTROL Azioni]**.
 
-In questo modo l’abilità viene ripristinata ed è possibile rivederla nel **[!UICONTROL Attivo]** scheda.
+Questo ripristina l’abilità potrai vederla nuovamente nella scheda **[!UICONTROL Attive]**.
 
-## Eliminare un’abilità {#deleteaskill}
+## Eliminazione di un’abilità {#deleteaskill}
 
-Puoi eliminare solo un’abilità che è stata ritirata in precedenza.
+Puoi eliminare solo un’abilità che è stata precedentemente ritirata.
 
-Nella **[!UICONTROL Ritirato]** , seleziona l’abilità che desideri eliminare e dal menu **[!UICONTROL Azioni]** menu, fare clic su **[!UICONTROL Elimina]**.
+Nella scheda **[!UICONTROL Ritirate]**, seleziona l’abilità che desideri eliminare e fai clic su **[!UICONTROL Elimina]** nel menu **[!UICONTROL Azioni]**.
 
-È possibile eliminare un’abilità solo quando non è associata ad alcun Allievo, corso o risorsa formativa.
+Un’abilità può essere eliminata solo se non è associata ad Allievi, corsi o risorse formative.
 
-## Assegnare abilità agli Istruttori
+## Assegnazione di abilità agli Istruttori
 
-Aggiungi un file CSV che riporti le competenze degli istruttori. Queste abilità vengono quindi aggiunte all’elenco delle abilità.
+Aggiungi un file CSV composto dalle abilità degli Istruttori. Tali abilità vengono quindi aggiunte al relativo elenco.
 
 1. Nell’angolo in alto a destra dello schermo, seleziona **[!UICONTROL Aggiungi]** > **[!UICONTROL Assegnare abilità all’Istruttore]**.
 1. Carica un file CSV. Le colonne del file CSV sono:
 
-   * Nome competenza
-   * Livello di competenza
+   * Nome abilità
+   * Livello di abilità
    * E-mail istruttore o UUID istruttore
 
    Per gli account abilitati per UUID, sostituisci la colonna E-mail istruttore con UUID istruttore.
@@ -217,7 +217,7 @@ Aggiungi un file CSV che riporti le competenze degli istruttori. Queste abilità
 
 ### Pagina delle abilità
 
-Nella pagina Abilità è presente una colonna denominata Istruttori che indica il numero di istruttori assegnati a un’abilità. Se fai clic sul numero di istruttori, viene visualizzata una finestra a comparsa in cui sono mostrati gli istruttori assegnati all’abilità.
+Nella pagina Abilità è presente una colonna denominata Istruttori che indica il numero di Istruttori assegnati a un’abilità. Se fai clic sul numero di istruttori, viene visualizzata una finestra a comparsa in cui sono mostrati gli istruttori assegnati all’abilità.
 
 ![Abilità assegnate agli istruttori](assets/instructor-skill-assigned.png)
 
@@ -231,57 +231,57 @@ Nella pagina Abilità è presente una colonna denominata Istruttori che indica i
 
 >[!NOTE]
 >
->Ti consigliamo di scaricare prima il file CSV per l’assegnazione di abilità, modificarlo e quindi caricare il file.
+>Ti consigliamo di scaricare prima il file CSV dell’assegnazione delle abilità, modificarlo e quindi caricare il file.
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
 +++Come posso rimuovere un Allievo da un’abilità?
 
-Non è possibile rimuovere un Allievo da un’abilità. Tuttavia, puoi aggiungere nuovi Allievi o gruppi di Allievi all’abilità.
+Non è possibile rimuovere un Allievo da un’abilità. Puoi tuttavia aggiungere nuovi Allievi o gruppi di utenti all’abilità.
 +++
 
 +++Come iscrivere automaticamente gli Allievi a un’abilità?
 
-La funzione di registrazione automatica è solo per i gruppi di utenti. Quando iscrivi un gruppo di utenti, ad esempio Tutti gli autori, a un’abilità e la salvi, per impostazione predefinita l’iscrizione automatica è abilitata. L’abilità viene assegnata a ogni nuova aggiunta al gruppo di utenti Tutti gli Autori.
+La funzione di iscrizione automatica è disponibile solo per i gruppi di utenti. Quando iscrivi un gruppo di utenti, ad esempio Tutti gli Autori, a un’abilità e salvi il gruppo, l’iscrizione automatica è attivata per impostazione predefinita. L’abilità viene assegnata a ogni nuova aggiunta al gruppo di utenti Tutti gli Autori.
 
-Se interrompi l’iscrizione automatica per quel livello di abilità per Tutti gli Autori, l’abilità non verrà assegnata ai nuovi utenti che vengono aggiunti al gruppo Tutti gli Autori.
+Se interrompi l’iscrizione automatica per quel livello di abilità per Tutti gli Autori, a tutti i nuovi utenti che vengono aggiunti al gruppo di utenti Tutti gli Autori non viene assegnata l’abilità.
 +++
 
 +++Come riavviare l’iscrizione automatica?
 
-Iscrivere nuovamente lo stesso gruppo di utenti al livello di abilità per il quale l’iscrizione automatica è stata interrotta.
+Iscrivi lo stesso gruppo di utenti al livello di abilità per il quale è stata interrotta l’iscrizione automatica.
 
-In questo modo, viene riavviata l’iscrizione automatica e ora vengono assegnati all’abilità anche gli Allievi che erano stati aggiunti al gruppo quando questa funzione era disattivata.
+In questo modo viene riavviata l’iscrizione automatica e l’abilità viene assegnata agli Allievi aggiunti al gruppo quando questa funzione era disattivata.
 
-In altre parole, ogni volta che si iscrive nuovamente un gruppo di utenti per avviare l’iscrizione automatica, questi aggiorna i membri del gruppo di utenti e assegna l’abilità a tutti i membri correnti.
+In altre parole, ogni volta che iscrivi nuovamente un gruppo di utenti per avviare l’iscrizione automatica, i membri del gruppo di utenti vengono aggiornati e l’abilità viene assegnata a tutti i membri correnti.
 +++
 
 +++Come posso assegnare un’abilità a un corso?
 
-Consulta la sezione [Assegnare abilità a un corso](skills-levels.md#assignskilltocourse) per ulteriori informazioni sulla procedura.
+Consulta la sezione [Assegnazione di abilità a un corso ](skills-levels.md#assignskilltocourse) per ulteriori informazioni sulla procedura.
 +++
 
 +++Come si modifica un livello di abilità?
 
-Per modificare uno o più livelli di un’abilità, modificane le proprietà.
+Per modificare uno o più livelli in un’abilità, modifica l’abilità e le proprietà dei livelli esistenti.
 +++
 
 +++Come posso abilitare i distintivi e le abilità in modo che siano associati al completamento del corso?
 
-Le abilità possono essere associate al completamento del corso durante la creazione di un corso come Autore. Nella sezione Impostazioni, puoi impostare i criteri di abilità per il completamento del corso.
+L’Autore può legare le abilità al completamento di un corso durante la creazione del corso. Nella sezione Impostazioni, puoi impostare i criteri dell’abilità sul completamento del corso.
 
 ![](assets/course-skills.png)
 
-Per abilitare i distintivi per il completamento del corso, nel **[!UICONTROL Istanze]** dell’app Autore, abilita il badge richiesto.
+Per impostare i distintivi sul completamento del corso, abilita il distintivo desiderato nella sezione **[!UICONTROL Istanze]** dell’app Autore.
 +++
 
 +++Un amministratore può contrassegnare un badge come completo anche se il badge mostra &quot;In corso&quot;?
 
-Un Amministratore può contrassegnare un oggetto di apprendimento come completato. Abilità e distintivi sono associati all’oggetto di apprendimento e non possono essere contrassegnati **[!UICONTROL Completato]** separatamente.
+L’Amministratore può contrassegnare un Oggetto di apprendimento come completo. Le abilità e i distintivi sono associati all’Oggetto di apprendimento e non possono essere contrassegnati separatamente come **[!UICONTROL completi]**.
 
-In altre parole, per ottenere il distintivo, **è necessario completare l’oggetto di apprendimento associato**.
+In altre parole, per ottenere il distintivo **è necessario completare l’Oggetto di apprendimento associato**.
 +++
 
-### Altri argomenti correlati
+### Altri contenuti simili
 
-* [Competenze e Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [Competenze e Adobe Learning Manager](https://elearning.adobe.com/it/2018/11/skills-captivate-prime/)

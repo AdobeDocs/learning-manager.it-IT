@@ -1,11 +1,11 @@
 ---
 jcr-language: en_us
 title: Risorse formative
-description: Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli Allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
+description: Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 0%
+ht-degree: 73%
 
 ---
 
@@ -13,32 +13,32 @@ ht-degree: 0%
 
 # Risorse formative
 
-Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli Allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
+Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
 
-Le risorse formative possono essere utilizzate in modo indipendente o insieme all’utilizzo dei corsi in Learning Manager.
+Le risorse formative possono essere utilizzate in modo indipendente o mentre segui un corso in Learning Manager.
 
 Gli Autori possono creare risorse formative per gli Allievi. Utilizza le risorse formative per fornire agli Allievi materiale di riferimento, come suggerimenti, elenchi di controllo e guide che possono utilizzare su base continuativa per completare le proprie attività.
 
-## Crea risorsa formativa {#createjobaid}
+## Creazione di risorse formative {#createjobaid}
 
 1. Nel login dell’autore, fai clic su Risorse formative nel riquadro a sinistra.
 1. Fai clic su Crea nell’angolo in alto a destra della pagina visualizzata.
-1. Fornisci il nome, la descrizione e i tag. Scegli le abilità e i livelli associati. Seleziona il contenuto come privato se non desideri che nessun altro autore acceda alla risorsa formativa per assegnarla ai rispettivi corsi.
+1. Specifica il nome, la descrizione e i tag. Scegli le abilità e i livelli associati. Seleziona l’opzione per contenuto privato se non vuoi che altri utenti possano accedere alla risorsa formativa per assegnarla ai propri corsi.
 
-   Solo le abilità esistenti possono essere utilizzate per le risorse formative. Le abilità non sono obbligatorie.
+   Per le risorse formative possono essere utilizzate solo abilità esistenti. Le abilità non sono obbligatorie.
 
-1. Carica il contenuto della risorsa formativa nella sezione dei contenuti.
+1. Carica il contenuto della risorsa formativa nella sezione Contenuto.
 
-   Video, pdf, pptx e docx sono i formati di file supportati per il caricamento. I file zip del progetto o qualsiasi contenuto interattivo non sono supportati per il caricamento.
+   I formati di file supportati per il caricamento sono video, pdf, pptx e docx. File zip di un progetto, o altro contenuto interattivo, non sono supportati per il caricamento.
 
-1. Immetti la durata in minuti della risorsa formativa.
-1. Fai clic **[!UICONTROL Salva]**.
+1. Inserisci la durata in minuti per la risorsa formativa.
+1. Fai clic su **[!UICONTROL Salva]**.
 
    La risorsa formativa viene pubblicata.
 
 ## Tipi di risorse formative supportate {#typesofsupportedjobaids}
 
-Di seguito sono riportati i formati di file supportati per le risorse formative.
+I formati di file seguenti sono supportati per le risorse formative.
 
 * PDF
 * PPT
@@ -53,21 +53,21 @@ Di seguito sono riportati i formati di file supportati per le risorse formative.
 >
 >I file ZIP e i file di immagine non sono supportati.
 
-## Ritira/ripubblica risorse formative {#withdrawrepublishjobaids}
+## Ritiro/ripubblicazione di risorse formative {#withdrawrepublishjobaids}
 
-Puoi ritirare la risorsa formativa pubblicata facendo clic sull’icona delle impostazioni accanto alla risorsa formativa e scegliendo Ritira.
+Puoi ritirare la risorsa formativa pubblicata facendo clic sull’icona delle impostazioni accanto alla risorsa formativa desiderata e scegliendo Ritira.
 
 ![](assets/job-aid-withdraw.png)
 
 *Modificare, ritirare o visualizzare in anteprima una risorsa formativa pubblicata*
 
-Visualizzare le risorse formative ritirate facendo clic sulla scheda ritirate. È possibile ripubblicare i processi ritirati facendo clic sull&#39;icona delle impostazioni e scegliendo Pubblica.
+Visualizza le risorse formative ritirate facendo clic sulla scheda Ritirate. È possibile ripubblicare i processi ritirati facendo clic sull&#39;icona delle impostazioni e scegliendo Pubblica.
 
 ## Supporto per pacchetti HTML nelle risorse formative
 
-Le risorse formative ora supportano i pacchetti standard HTML come nuovo tipo di contenuto. Con questo miglioramento, gli Allievi possono aprire la visualizzazione e scaricare il pacchetto HTML dal lettore delle risorse formative.
+Le risorse formative ora supportano i pacchetti HTML standard come nuovo tipo di contenuto. Grazie a tale funzionalità, gli studenti possono aprire la visualizzazione e scaricare il pacchetto HTML dal lettore delle risorse formative.
 
-Durante la creazione di una risorsa formativa, un Autore può caricare un pacchetto HTML standard insieme ad altri formati di file supportati.
+Quando si crea una risorsa formativa, un autore può caricare un pacchetto HTML standard insieme ad altri formati di file supportati.
 
 ![](assets/html-job-aid.png)
 
@@ -75,24 +75,24 @@ Durante la creazione di una risorsa formativa, un Autore può caricare un pacche
 
 Un pacchetto HTML deve avere le seguenti caratteristiche:
 
-* Un file Index.html.
-* Il file Index.html deve trovarsi nella cartella principale di un file zip.
+* un file Index.html;
+* questo file Index.html contenuto nella cartella principale di un file zip.
 
-Specificate il contenuto da caricare come file zip all’interno del quale si trova il file Index.html.
+Specifica il contenuto da caricare come file zip in cui si trova il file Index.html.
 
-È necessario fare riferimento a tutto il contenuto, le risorse e le risorse all&#39;interno del pacchetto HTML ed essere accessibili tramite Index.html.
+È necessario fare riferimento a tutto il contenuto, le risorse e gli asset all’interno del pacchetto HTML e questi devono essere accessibili tramite Index.html.
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
 +++Come si crea una risorsa formativa?
 
-In qualità di autore, nella pagina Risorsa formativa fai clic su **[!UICONTROL Crea]**. Aggiungi i dettagli richiesti e salva la risorsa formativa.
+Accedi come Autore e nella pagina Risorsa formativa fai clic su **[!UICONTROL Crea]**. Aggiungi i dettagli richiesti e salva la risorsa formativa.
 
-Dopo aver creato la risorsa formativa, puoi aggiungerla a un corso durante la creazione.
+Dopo aver creato la risorsa formativa, puoi aggiungerla a un corso durante la creazione del corso.
 
 +++
 
-### Altri argomenti correlati
+### Altri contenuti simili
 
-* [Risorse formative per amministratori](../../administrators/feature-summary/job-aids.md)
+* [Risorse formative per gli Amministratori](../../administrators/feature-summary/job-aids.md)
 * [Risorse formative per gli Allievi](../../learners/feature-summary/job-aids.md)

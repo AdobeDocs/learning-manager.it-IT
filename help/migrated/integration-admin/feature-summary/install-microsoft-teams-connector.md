@@ -1,40 +1,40 @@
 ---
-description: Installazione del connettore Microsoft Teams in Adobe Learning Manager
+description: Installazione del connettore Microsoft Teams su Adobe Learning Manager
 jcr-language: en_us
-title: Installazione del connettore Microsoft Teams in Adobe Learning Manager
+title: Installazione del connettore Microsoft Teams su Adobe Learning Manager
 contentowner: saghosh
 source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 
 
-# Installazione del connettore Microsoft Teams in Adobe Learning Manager
+# Installazione del connettore Microsoft Teams su Adobe Learning Manager
 
 ## Panoramica
 
-Microsoft® Teams® è una piattaforma di collaborazione persistente basata su chat che supporta completamente la condivisione di documenti, riunioni online e altre funzionalità per le comunicazioni aziendali.
+Microsoft® Teams® è una piattaforma di collaborazione persistente basata su chat che supporta in modo completo la condivisione di documenti, riunioni online e altre funzioni utili per le comunicazioni aziendali.
 
 Adobe Learning Manager utilizza un connettore per aula virtuale che può essere utilizzato per integrare le riunioni di Microsoft Teams con Learning Manager.
 
-Il connettore Microsoft Teams collega Learning Manager ai Microsoft Teams per consentire la sincronizzazione automatica delle riunioni virtuali. L&#39;elenco seguente descrive le funzionalità del connettore Microsoft Teams:
+Il connettore Microsoft Teams collega i sistemi Learning Manager e Microsoft Teams per consentire la sincronizzazione automatica delle riunioni virtuali. L’elenco riportato di seguito descrive le funzioni del connettore Microsoft Teams:
 
 **Configurazione di sessioni virtuali tramite Microsoft Teams**
 
-Questo connettore consente di integrare l’account Adobe Learning Manager con l’account di Microsoft Teams. Una volta integrato, il connettore consente a un Autore in Learning Manager di utilizzare i Microsoft Teams come fornitore di servizi tecnologici per i moduli aula virtuale creati in Learning Manager.
+Questo connettore consente di integrare l’account Adobe Learning Manager con l’account Microsoft Teams. Una volta integrato, il connettore consente a un Autore in Learning Manager di utilizzare Microsoft Teams come fornitore di servizi tecnologici per i moduli aula virtuale creati in Learning Manager.
 
 **Consenti ai Microsoft Teams di autenticare gli Allievi quando entrano in un’aula virtuale**
 
-Questo connettore aiuta a configurare l’organizzatore della riunione dei Microsoft Teams da Learning Manager durante la creazione di una riunione. L’organizzatore della riunione può gestire la sala d’attesa per limitare o ammettere l’ingresso a una riunione e controllare altre opzioni della riunione fornite dai Microsoft Teams.
+Questo connettore aiuta a configurare l’organizzatore della riunione dei Microsoft Teams da Learning Manager durante la creazione di una riunione. L’organizzatore della riunione può gestire la sala d’attesa in modo che l’accesso alla riunione sia limitato, ammettere partecipanti e controllare le altre opzioni della riunione fornite da Microsoft Teams.
 
 **Utilizzare la sincronizzazione automatizzata di completamento degli utenti**
 
 Il processo di sincronizzazione automatizzato di completamento degli utenti consente a un Amministratore Learning Manager di recuperare automaticamente i record di completamento e l’URL della registrazione della riunione di Microsoft Teams.
 
-## Ruoli nei Microsoft Teams
+## Ruoli su Microsoft Teams
 
 Se stai organizzando una riunione con più partecipanti, puoi assegnare ruoli a ciascuno di essi in modo che un partecipante possa sapere cosa può fare nella riunione.
 
@@ -54,7 +54,7 @@ Puoi accedere al connettore Microsoft Teams se hai Office 365 E3 o Office 365 E5
 
 * Visita il sito [Pagina dei piani Microsoft](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) . Sulla pagina Web, puoi acquistare un account E3 o E5 o fare clic su Prova gratuitamente.
 
-* Fornisci le informazioni richieste e crea un account.
+* Inserisci le informazioni richieste e crea un account.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Puoi accedere al connettore Microsoft Teams se hai Office 365 E3 o Office 365 E5
 1. Fai clic **[!UICONTROL Nuovo segreto client]** e aggiungi i seguenti dettagli:
 
    1. **Descrizione** - Immettere un nome qualsiasi.
-   1. **Scadenza** - Impostato su un valore qualsiasi (il valore consigliato è 24 mesi. Assicurati che vengano generate nuove credenziali client una volta scaduta quella precedente).
+   1. **Scadenza** - Impostato su un valore qualsiasi (il valore consigliato è 24 mesi. Assicurati che al momento della scadenza vengano generate nuove credenziali).
 
 Prendi nota del segreto client, che verrà utilizzato durante l’integrazione.
 
@@ -91,7 +91,7 @@ Prendi nota del segreto client, che verrà utilizzato durante l’integrazione.
 1. Accedi con il Microsoft E5 che hai creato in precedenza.
 1. Cerca **Azure Active Directory**.
 1. Fai clic **[!UICONTROL Registrazioni app]**.
-1. Fai clic sull&#39;app creata nella sezione precedente.
+1. Fai clic sull’app che hai creato nella sezione precedente.
 1. Fai clic **[!UICONTROL Autorizzazioni API]**.
 1. Fai clic **[!UICONTROL Aggiungi un&#39;autorizzazione]**.
 1. Seleziona **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Autorizzazioni applicazione]** e aggiungi le seguenti autorizzazioni:
@@ -123,7 +123,7 @@ Prendi nota del segreto client, che verrà utilizzato durante l’integrazione.
 
 Per configurare i criteri di accesso dell&#39;applicazione per il connettore Microsoft Teams eseguendo gli script PowerShell, seguire la procedura descritta in questa sezione  [documento](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
-Ciò consente al connettore di accedere alle riunioni online dei Microsoft Teams.
+Questa azione consente al connettore di accedere alle riunioni online di Microsoft Teams.
 
 >[!NOTE]
 >
@@ -157,15 +157,15 @@ Ciò consente al connettore di accedere alle riunioni online dei Microsoft Teams
 
 ## Registrare una sessione
 
-L’API utilizzata per la registrazione di una sessione è un API protetto. Per accedere all’API, è necessario richiedere l’accesso a Microsoft. Per ulteriori informazioni, consulta questo articolo  [documento](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
+L’API utilizzato per la registrazione della sessione è un API protetto. Per accedere all’API, è necessario richiedere l’accesso a Microsoft. Per ulteriori informazioni, consulta questo articolo  [documento](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
 Nel documento,
 
-*&quot;Per richiedere l’accesso a queste API protette, completa quanto segue  [modulo di richiesta](https://aka.ms/teamsgraph/requestaccess). Le richieste di accesso vengono esaminate ogni mercoledì e le approvazioni vengono distribuite ogni venerdì, ad eccezione delle settimane dei principali giorni festivi negli Stati Uniti. Le richieste inviate durante tali settimane verranno elaborate la settimana successiva. Per verificare se la tua richiesta è stata approvata, testa l&#39;accesso dell&#39;applicazione il prossimo lunedì applicabile.&quot;*
+*&quot;Per richiedere l’accesso a queste API protette, completa quanto segue  [modulo di richiesta](https://aka.ms/teamsgraph/requestaccess). Lavoriamo sulle richieste di accesso ogni mercoledì e inviamo le approvazioni ogni venerdì, a eccezione delle settimane dei principali giorni festivi degli USA. Le richieste ricevute durante queste settimane saranno elaborate durante la settimana successiva (senza giorni festivi). Per verificare se la tua richiesta è stata approvata, testa l&#39;accesso dell&#39;applicazione il prossimo lunedì applicabile.&quot;*
 
-Per gli Allievi, l’URL di registrazione viene visualizzato nella pagina con la panoramica del corso in aula virtuale.
+Per gli allievi, l’URL della registrazione è mostrato sulla pagina con la panoramica del corso in aula virtuale.
 
-Dopo 30 minuti dal completamento di un corso, la partecipazione dell’Allievo viene registrata.
+Dopo 30 minuti dal completamento di un corso, la presenza dell’allievo viene registrata.
 
 ## Domande frequenti
 
@@ -187,7 +187,7 @@ Sì, il relatore deve far parte sia di Learning Manager che di Microsoft Teams. 
 
 +++
 
-+++Microsoft Teams ha riunioni, webinar ed eventi dal vivo. Quale di questi è supportato dal connettore Teams?
++++Microsoft Teams ha riunioni, webinar ed eventi dal vivo. Quale di questi è supportato dal connettore di Teams?
 
 Al momento, il connettore Teams supporta solo le riunioni in Microsoft Teams. Per ulteriori informazioni, consulta questo articolo  [documento](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 

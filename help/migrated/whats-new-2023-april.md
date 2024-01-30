@@ -5,42 +5,42 @@ hidefromtoc: true
 source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
 workflow-type: tm+mt
 source-wordcount: '3158'
-ht-degree: 0%
+ht-degree: 61%
 
 ---
 
 # Novità di questa versione (aprile 2023)
 
-## Adobe dell’app Learning Manager per Microsoft Teams
+## App Adobe Learning Manager per Microsoft Teams
 
-La nuova app Learning Manager per Microsoft Teams di Adobe è progettata per promuovere l’apprendimento nel flusso di lavoro e aumentare l’apprendimento sociale. Gli Allievi potranno accedere ai contenuti di apprendimento all’interno della piattaforma Microsoft Teams senza dover passare a un browser. Per la versione beta dell’app Learning Manager per Adobi su MS Teams, contatta il tuo CSAM.
+La nuova app Adobe Learning Manager su Microsoft Teams è progettata per favorire l’apprendimento nel flusso di lavoro e rendere più efficiente l’apprendimento sociale. Gli Allievi potranno accedere ai contenuti di apprendimento all’interno della piattaforma Microsoft Teams senza dover passare a un browser. Contatta il CSAM per la versione beta dell’app Adobe Learning Manager su MS Teams.
 
 Per ulteriori informazioni, consulta [Adobe dell’app Learning Manager per Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
-## Miglioramento dell’esperienza di formazione con istruttore (ILT)
+## Miglioramenti apportati all’esperienza di formazione con Istruttore (ILT).
 
-Sono stati apportati diversi miglioramenti all’esperienza di formazione con istruttore (ILT). I miglioramenti principali includono: la possibilità di filtrare le sessioni in base alla posizione, la possibilità di cambiare istanza (VILT) senza perdere i progressi, un nuovo &quot;Assistente alla pianificazione&quot; per la gestione dei conflitti nelle sessioni di prenotazione, la possibilità di allegare &quot;Abilità&quot; agli Istruttori e scegliere Istruttori in base alle abilità.
+Sono stati apportati diversi miglioramenti all’esperienza di formazione con Istruttore (ILT). I miglioramenti principali includono: la possibilità di filtrare le sessioni in base alla posizione, la possibilità di cambiare istanza (VILT) senza perdere i progressi, un nuovo &quot;Assistente alla pianificazione&quot; per la gestione dei conflitti nelle sessioni di prenotazione, la possibilità di allegare &quot;Abilità&quot; agli Istruttori e scegliere Istruttori in base alle abilità.
 
 ### Cosa è cambiato
 
-* La pagina Abilità dell’app di amministrazione consente di caricare la mappatura Abilità-Istruttore.
+* La pagina Abilità dell’app dell’Amministratore consente di caricare la mappatura Abilità-Istruttore.
 * Nella pagina Abilità è disponibile una nuova colonna, Istruttori. La colonna mostra il numero di istruttori rispetto all’abilità. Se fai clic sul numero nella colonna Istruttori, verrai reindirizzato a una finestra a comparsa che mostra il numero di istruttori assegnati a un’abilità.
 
-Per ulteriori informazioni, consulta [Assegnare abilità agli Istruttori](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
+Per ulteriori informazioni, consulta [Assegnazione di abilità agli Istruttori](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
 ![CSV Istruttore](assets/instructor-csv-new.png)
 
 ### Assistente alla pianificazione
 
-Gestisci i conflitti nella prenotazione di istruttori e classi o classi virtuali. Se desideri sapere in quale data e ora è disponibile un istruttore prima di assegnarlo al corso, utilizza l’Assistente alla pianificazione.
+Gestire i conflitti nelle registrazioni di Istruttori e aule o aule virtuali. Se desideri sapere in quale data e ora è disponibile un istruttore prima di assegnarlo al corso, utilizza l’Assistente alla pianificazione.
 
-Autori, Amministratori e Amministratori/Autori personalizzati possono utilizzare l&#39;Assistente alla pianificazione.
+Gli Autori, gli Amministratori e gli Amministratori/Autori personalizzati possono utilizzare l’Assistente pianificazione.
 
 Per ulteriori informazioni, consulta [Assistente alla pianificazione](/help/migrated/authors/feature-summary/courses.md#scheduling-assistant).
 
-## Nuovo Adobe di app mobile Learning Manager
+## App per dispositivi mobili di Adobe Learning Manager
 
-La nuovissima app mobile Adobe Learning Manager per Android e iOS che offre agli Allievi un accesso senza problemi all’apprendimento in mobilità. L’app consente agli Allievi di seguire i corsi di formazione sui dispositivi mobili e di riprenderli successivamente sul desktop. Con il supporto per notifiche, caricamento di file, facilità di aggiunta di segnalibri e condivisione di contenuti di apprendimento, apprendimento sociale e altro ancora, l’app mobile offre maggiore flessibilità agli Allievi e supporta l’apprendimento just-in-time.
+Una nuovissima app per dispositivi mobili Adobe Learning Manager per Android e iOS che consente agli Allievi di accedere senza problemi all’apprendimento ovunque si trovino. Grazie all’app, gli Allievi possono seguire corsi di formazione sui propri dispositivi mobili e riprenderli in un secondo momento su un computer desktop. L’app dispone di diverse funzionalità, ad esempio supporto per notifiche, caricamento di file, creazione di segnalibri facilitata, condivisione di contenuti di apprendimento, apprendimento sociale e altro ancora; offre dunque maggiore flessibilità agli Allievi e supporta l’apprendimento just-in-time.
 
 ![Nuova immagine dell&#39;interfaccia della mappa mobile](assets/mobile-app.png)
 
@@ -48,66 +48,66 @@ Scarica il dispositivo mobile da Google Play Store e Apple App Store. Agli utent
 
 In questa versione, l’app supporta le seguenti funzioni:
 
-La nuova app per dispositivi mobili supporta le seguenti funzionalità chiave in questa versione:
+La nuova app per dispositivi mobili supporta le seguenti funzioni chiave in questa versione:
 
-* Ricerca avanzata, inclusa la visualizzazione delle ricerche recenti dell’Allievo e delle ricerche più comuni nell’organizzazione nella casella di immissione della ricerca.
-* Possibilità di scaricare le Trascrizioni Allievi.
+* Ricerca ottimizzata, inclusa la visualizzazione delle ricerche recenti degli Allievi e delle ricerche più frequenti nell’organizzazione nella casella di immissione della ricerca.
+* Possibilità di scaricare le trascrizioni degli Allievi.
 * Centro notifiche improvvisato: fornisce aggiornamenti importanti agli Allievi come notifiche all’interno dell’app
-* Possibilità di ordinare e filtrare gli oggetti di apprendimento nelle pagine Catalogo/Il mio apprendimento
+* Possibilità di ordinare e filtrare gli oggetti di apprendimento nelle pagine Catalogo/Il mio apprendimento.
 * Possibilità di aggiungere segnalibri agli oggetti di apprendimento (LO): gli LO con segnalibro saranno disponibili nella sezione &quot;Salvati da me&quot; nella pagina principale dell’Allievo.
-* Supporto per LP avanzati
-* Possibilità di cambiare la lingua dell’interfaccia mobile in qualsiasi lingua supportata da Learning Manager di Adobe.
-* Supporto per il caricamento di file in certificazioni esterne, sessioni in aula virtuale e moduli di attività.
-* Possibilità di inviare feedback sui corsi L1 all’interno dell’app.
+* Supporto per percorsi di apprendimento ottimizzati
+* Possibilità di modificare la lingua dell’interfaccia mobile in qualsiasi lingua supportata da Adobe Learning Manager.
+* Supporto per il caricamento di file per certificazioni esterne, sessioni di corsi in aula o virtuali e moduli di attività.
+* Possibilità di inviare feedback sul corso L1 all’interno dell’app.
 * Supporto per collegamenti diretti.
 * Supporto per Apprendimento sociale.
-* Supporto per i distintivi.
-* Supporto per l&#39;accesso utente esterno.
+* Supporto per i badge.
+* Supporto per l’accesso di utenti esterni.
 
 **Cosa non è supportato in questa versione**
 
 * Supporto per tentativi multipli di un modulo quiz in un corso quando viene seguito dall’app mobile.
 * Opzioni di ricerca che consentono di specificare i parametri di ricerca, ad esempio i metadati del corso, i tag e le abilità per specificare l’ambito di ricerca.
-* Annunci personalizzati abilitati per gli amministratori che vengono visualizzati come popup per l&#39;utente nell&#39;app per dispositivi mobili.
+* Annunci personalizzati abilitati all’amministratore che vengono mostrati come popup all’utente nell’app per dispositivi mobili.
 * Non puoi aggiungere abilità alla pagina delle abilità nell’app.
 * Seguire corsi in modalità offline.
 
-Per ulteriori informazioni, consulta [Adobe dell’app mobile Learning Manager](/help/migrated/learners/feature-summary/ipad-android-tablet-users.md).
+Per ulteriori informazioni, consulta [App per dispositivi mobili di Adobe Learning Manager](/help/migrated/learners/feature-summary/ipad-android-tablet-users.md).
 
-## Usa qualsiasi app di scansione di codici QR per acquisire i codici QR di Learning Manager
+## Utilizzo di qualsiasi app di scansione del codice QR per acquisire i codici QR di Learning Manager
 
-Adobe Learning Manager ora supporta un modo più intuitivo di scansionare i codici QR con l’aiuto dell’app per fotocamera nativa, senza dover scaricare un’app per la scansione di un codice QR.
+Adobe Learning Manager ora supporta un modo più intuitivo di scansionare i codici QR utilizzando l’app della fotocamera nativa senza doverne scaricare una apposita.
 
-Per supportare il flusso di lavoro precedente, in cui era possibile eseguire la scansione di un codice QR utilizzando il menu dell’app ALM, in questa versione sono state fornite informazioni su come passare al nuovo flusso di lavoro.
+Per supportare il flusso di lavoro precedente, in cui era possibile scansionare un codice QR utilizzando il menu dell’app ALM, in questa versione abbiamo fornito informazioni su come passare al nuovo flusso di lavoro.
 
-Con i miglioramenti ai flussi di lavoro basati su codici QR, i vecchi codici QR generati prima di questa versione non saranno più supportati. Pertanto, se hai generato un codice QR con una versione precedente di Learning Manager per una sessione in aula o in aula virtuale che verrà condotta dopo questa versione, devi generare un nuovo codice QR.
+Con i miglioramenti ai flussi di lavoro basati su codici QR, i vecchi codici QR generati prima di questa versione non saranno più supportati. Pertanto, se hai generato un codice QR con una versione precedente di Learning Manager per una sessione in aula o un corso virtuale che verrà eseguita dopo questa versione, devi generare un nuovo codice QR.
 
-### Miglioramenti all’annuncio dei consigli
+### Miglioramenti relativi a Consiglio come annuncio
 
 In questa versione, abbiamo aggiornato la striscia dei consigli di un’organizzazione in una raccomandazione basata sul gruppo di utenti, di cui fa parte l’Allievo, per mostrare i corsi pertinenti per l’Allievo.
 
-Gli Amministratori possono indirizzare determinati corsi o corsi di formazione agli Allievi in base ai loro profili. Gli Allievi possono quindi cercare i corsi in base al profilo di cui fanno parte.
+Gli Amministratori possono indirizzare determinati corsi o sessioni di formazione agli Allievi in base ai profili degli stessi. Gli Allievi possono quindi cercare i corsi in base al profilo di cui fanno parte.
 
 **Cosa è cambiato**
 
-Nella pagina Annuncio è disponibile un’opzione che mostra agli Allievi i motivi per cui questo corso o corso di formazione era loro consigliato.
+Nella pagina Annuncio è disponibile un’opzione che mostra all’Allievo il motivo per cui quel determinato corso o quella determinata sessione di formazione è stato/a consigliato/a.
 
 ![crea annuncio](assets/create-announcement.png)
 
 ### Nuova impostazione amministratore
 
-L’Amministratore ha una nuova opzione denominata Gruppi in Impostazioni > Mostra pannelli filtri. Quando Gruppi è abilitato, viene visualizzato il filtro Gruppi nella pagina principale dell’Allievo. L’Allievo può quindi scegliere di visualizzare i corsi in base ai gruppi di utenti.
+L’Amministratore dispone di una nuova opzione denominata Gruppi in Impostazioni > Mostra pannelli filtri. Quando l’opzione Gruppi è attivata, viene visualizzato il filtro Gruppi nella pagina principale dell’Allievo. L’Allievo può quindi scegliere di visualizzare i corsi in base ai gruppi di utenti.
 
 |   | Quando l’opzione è attivata | Quando l’opzione è disattivata |
 |--- |--- |--- |
-| L’opzione Gruppi è abilitata | <ul><li> Visualizza il gruppo di utenti nel riquadro insieme al collegamento alla pagina del catalogo.</li><li> Il gruppo di utenti viene visualizzato nel filtro del catalogo.</li></ul> | <ul><li>Il nome del gruppo di utenti non viene visualizzato nella sezione.</li><li>Il gruppo di utenti non viene elencato nel filtro del catalogo.</li></ul> |
-| L&#39;opzione Gruppi è disabilitata | <ul><li>Visualizza in testo normale il nome del gruppo di utenti nel riquadro del corso.</li><li>Il gruppo di utenti non viene elencato nel filtro del catalogo.</li></ul> | <ul><li>Nel riquadro del corso non viene visualizzato il testo o il nome del gruppo di utenti.</li><li>Il gruppo di utenti non viene elencato nel filtro del catalogo.</li></ul> |
+| L’opzione Gruppi è attivata | <ul><li> Visualizza il gruppo di utenti nella sezione insieme al collegamento alla pagina del catalogo.</li><li> Il gruppo di utenti viene visualizzato nel filtro catalogo.</li></ul> | <ul><li>Il nome del gruppo di utenti non viene visualizzato nella sezione.</li><li>Il gruppo di utenti non viene elencato nel filtro catalogo.</li></ul> |
+| L’opzione Gruppi è disattivata | <ul><li>Visualizza il nome del gruppo di utenti nella sezione del corso come testo semplice.</li><li>Il gruppo di utenti non viene elencato nel filtro catalogo.</li></ul> | <ul><li>La sezione del corso non visualizza il testo o il nome del gruppo di utenti.</li><li>Il gruppo di utenti non viene elencato nel filtro catalogo.</li></ul> |
 
 **Come funziona**
 
 L’Amministratore crea un annuncio aggiungendo il corso per qualsiasi gruppo di utenti e lo pubblica.
 
-Ciò che vede un Allievo è una striscia con i corsi consigliati nella pagina principale e un collegamento al corso nel riquadro.
+L’Allievo vede una striscia con i corsi consigliati sulla pagina principale e un collegamento al corso nella sezione.
 
 ![Allievo della striscia consigli](assets/recommendation-strip-learner.png)
 
@@ -115,11 +115,11 @@ Quando l’Allievo fa clic sul collegamento o sul pulsante Vai al catalogo, vien
 
 ![risultati della ricerca](assets/search-results.png)
 
-## Cercare sessioni utilizzando percorsi
+## Cercare le sessioni utilizzando le posizioni
 
-### Gestire le aule
+### Gestire le posizioni delle aule
 
-A volte, si desidera che un Allievo imposti un filtro su una sessione nel calendario in base alla posizione. Dopo aver aggiunto un’aula tramite la finestra di dialogo Aule o il file CSV, l’Allievo può filtrare l’iscrizione.
+A volte è necessario che un Allievo filtri una sessione nel calendario in base alla posizione. Dopo aver aggiunto un percorso utilizzando la finestra di dialogo Aule o il file CSV, l’Allievo può impostare il filtro.
 
 ![Aggiungere aule](assets/add-classroom-locations.png)
 
@@ -127,7 +127,7 @@ Per ulteriori informazioni, consulta [Aggiungere aule](/help/migrated/administra
 
 ### Widget Calendario
 
-In qualità di Allievo, puoi filtrare le sessioni assegnate all’Allievo in base alla posizione. Accedi al widget del calendario, seleziona Filtra sessioni e seleziona il percorso.
+In qualità di Allievo, puoi filtrare le sessioni che ti vengono assegnate in base alla posizione. Passa al widget del calendario, seleziona Filtra sessioni e seleziona la posizione.
 
 ![Nessun filtro applicato](assets/no-filters-applied.png)
 
@@ -139,50 +139,50 @@ In qualità di Allievo, puoi filtrare le sessioni assegnate all’Allievo in bas
 
 Inoltre, il percorso di formazione ora viene visualizzato nella pagina della panoramica del corso se viene aggiunto dall’Autore durante la creazione del corso.
 
-### Amministratore
+### L’Amministratore
 
-In qualità di Amministratore, puoi controllare se un Allievo può filtrare i corsi in base alle posizioni. In Impostazioni > Generali, abilita o disabilita i Percorsi di formazione.
+In qualità di Amministratore, puoi controllare se un Allievo può filtrare i corsi in base alle posizioni. In Impostazioni > Generali, attiva o disattiva Aule formazione.
 
-Per ulteriori informazioni, consulta [Impostazioni amministratore](/help/migrated/administrators/feature-summary/settings.md).
+Per ulteriori informazioni, consulta [Impostazioni dell’Amministratore](/help/migrated/administrators/feature-summary/settings.md).
 
 ## Modifiche all’esperienza di prova
 
-Dopo la creazione dell’account di prova, i corsi nel marketplace dei contenuti diventano disponibili senza indugio.
+Dopo aver creato l’account di prova, i corsi nel marketplace dei contenuti diventano disponibili senza alcun ritardo.
 
 ## Chatbot
 
 Parla in chat con uno o più agenti utilizzando un chatbot. Questa funzione può essere utilizzata solo dagli amministratori e dagli amministratori personalizzati degli account di prova.
 
-Il chatbot:
+Il chatbot ha le seguenti funzioni:
 
-* Benvenuto con un messaggio.
+* Dare il benvenuto con un messaggio.
 * Fornisci un&#39;opzione per informazioni sul prodotto o una demo del prodotto.
-* Trasferisci la chat a un agente dal vivo.
-* Mantieni la cronologia chat.
+* Trasferire la chat a un agente attivo.
+* Mantenere intatta la cronologia delle chat.
 
 ![chatbot](assets/chatbot-new.png)
 
-## Miglioramenti alla lista di controllo delle osservazioni
+## Miglioramenti dell’elenco di controllo di osservazione
 
-Gli Autori ora possono selezionare i Manager e i Manager dello Store/Location Manager come Revisori per gli elenchi di controllo. I Manager e i Manager punto vendita/ubicazione, se vengono selezionati come Revisori, possono inoltre visualizzare e completare gli elenchi di controllo dei propri team senza dover passare ai ruoli di Istruttore. Gli istruttori continuano a rivedere le liste di controllo. Una nuova notifica &quot;Elenco di controllo revisione&quot; viene inviata ai revisori (Istruttori/Manager) di un’istanza per l’elenco di controllo sulle iscrizioni.
+Gli Autori ora possono selezionare i Manager e i Manager dei punti vendita/delle posizioni come Revisori per elenchi di controllo. I Manager e i Manager dei punti vendita/delle posizioni, se selezionati come Revisori, possono anche visualizzare e completare le liste di controllo dei propri team senza dover passare ai ruoli di Istruttore. Gli Istruttori continuano a rivedere gli elenchi di controllo. Una nuova notifica &quot;Elenco di controllo revisione&quot; viene inviata ai revisori (Istruttori/Manager) di un’istanza per l’elenco di controllo sulle iscrizioni.
 
-Se un Manager viene aggiunto come revisore nel modulo dell’elenco di controllo, sarà in grado di rivedere l’elenco di controllo nell’app Manager. Gli istruttori continuano a rivedere la lista di controllo come previsto.
+Se un Manager viene aggiunto come revisore nel modulo dell’elenco di controllo, potrà esaminare l’elenco di controllo nell’app Manager. Gli Istruttori continuano a rivedere l’elenco di controllo come previsto.
 
 Per ulteriori informazioni, consulta [Checklist osservazione](/help/migrated/authors/feature-summary/courses.md#observation-checklist).
 
 ## Altri miglioramenti
 
-### Ricerca Allievi
+### Ricerca di un Allievo
 
-I risultati della ricerca sono anche categorizzati come:
+I risultati della ricerca sono suddivisi come indicato di seguito:
 
-* Ricerche recenti
+* Ricerche recenti effettuate da te
 * Ricerche più frequenti nella tua organizzazione
 
 La funzionalità di ricerca è stata migliorata anche per gli Allievi. Gli Allievi ora possono utilizzare le virgolette doppie &quot;...&quot;, più &quot;+&quot; e meno &quot;-&quot; operatori per trovare più rapidamente i risultati pertinenti e avere un’esperienza di ricerca di google.
 
-* Utilizza le virgolette (&quot;...&quot;) per cercare i corsi che contengono la frase o la parola esatta. Ad esempio, inserendo &quot;scienza dei dati&quot; verranno restituiti i corsi che iniziano con la frase scienza dei dati.
-* Utilizzare l&#39;operatore + per assicurarsi che vengano visualizzati solo i risultati che contengono la frase o la parola specifica. Ad esempio, Programmazione computer +pitone mostrerà solo quei corsi di programmazione computer che contengono la parola &quot;pitone&quot;.
+* Utilizza le virgolette (&quot;...&quot;) per cercare i corsi che contengono la frase o la parola esatta. Ad esempio, inserendo “data science”, i risultati conterranno solo i corsi che iniziano con la frase “data science”.
+* Utilizza l’operatore + per fare in modo che vengano visualizzati solo i risultati contenenti la frase o la parola specifica. Ad esempio, Programmazione computer +pitone mostrerà solo quei corsi di programmazione computer che contengono la parola &quot;pitone&quot;.
 * Utilizzare l&#39;operatore - per assicurarsi che vengano visualizzati solo i risultati che non contengono la frase o la parola specifica. Ad esempio, Programmazione computer -python mostrerà tutti i corsi di programmazione computer ad eccezione di quelli che contengono la parola &quot;python&quot;.
 
 ### Popup in conflitto per gli oggetti di apprendimento
@@ -191,29 +191,29 @@ Quando un Allievo ha sessioni in conflitto, nella pagina Panoramica viene visual
 
 ![avvertenza](assets/learner-pop-up.png)
 
-Tieni presente che questo messaggio è solo un avviso. Puoi comunque iscriverti a un corso.
+Nota: questo messaggio è solo un avvertenza. Puoi comunque iscriverti a un corso.
 
 ### Nuovo modello
 
-È stato aggiunto un nuovo modello e-mail denominato Sessione annullata a causa dell’annullamento dell’iscrizione. Quando un utente viene annullato dall’iscrizione a un corso di formazione, riceve l’e-mail di annullamento.
+Abbiamo aggiunto un nuovo modello e-mail denominato Sessione annullata a causa dell’annullamento dell’iscrizione. Quando un utente viene disiscritto da un corso di formazione, riceve l’e-mail di annullamento.
 
 ### Nuova funzione di determinazione dei prezzi per i corsi
 
-Gli amministratori ora possono impostare la valuta per l’account nella sezione Impostazioni amministratore > Informazioni di base. Gli amministratori possono specificare sia il simbolo che il codice valuta ISO, ad esempio USD, GBP e così via. L&#39;impostazione predefinita per tutti i nuovi account sarà $. Questa modifica è applicabile solo alle app non Allievi. Gli Amministratori possono visualizzare la modifica quando visualizzano in anteprima il corso come Allievi. Il simbolo di valuta viene visualizzato anche nelle Trascrizioni allievi e nei report sui corsi di formazione.
+Gli Amministratori ora possono impostare la valuta per l’account nella sezione Impostazioni amministratore > Informazioni di base. Gli Amministratori possono specificare sia il simbolo che il codice valuta ISO, ad esempio USD, GBP e così via. L&#39;impostazione predefinita per tutti i nuovi account sarà $. Questa modifica è applicabile solo alle app non Allievo. Gli Amministratori possono vedere la modifica quando visualizzano in anteprima il corso come Allievi. Il simbolo di valuta viene visualizzato anche nei rapporti Trascrizioni degli Allievi e Formazione.
 
-Per ulteriori informazioni, consulta [Impostazioni amministratore](/help/migrated/administrators/feature-summary/settings.md).
+Per ulteriori informazioni, consulta [Impostazioni dell’Amministratore](/help/migrated/administrators/feature-summary/settings.md).
 
-### Cambia istanze
+### Commutazione di istanze
 
-Un Allievo iscritto a una determinata istanza di un corso può visualizzare un elenco di tutte le istanze disponibili del corso e passare a un’altra istanza che funzioni meglio per lui. Il motivo del passaggio potrebbe essere che l’Allievo non ha partecipato all’istanza precedente oppure la tempistica della sessione per la nuova istanza è più adatta o può essere qualcos’altro.
+Un Allievo iscritto a una particolare istanza di un corso può visualizzare un elenco di tutte le istanze disponibili del corso e passare a un’altra istanza che trova più adatta alle sue esigenze. Il motivo del cambio potrebbe essere che l’Allievo non ha partecipato all’istanza precedente o che i tempi della sessione per la nuova istanza sono più adatti, oppure un altro motivo.
 
-Eventuali progressi compiuti dall’Allievo nell’ambito del corso, punteggi dei quiz degli Allievi, ecc., vengono riportati nella nuova istanza. Questa funzione è pensata principalmente per i corsi in aula e misti, ma supporteremo tutti i tipi di corsi, inclusi quelli di autoapprendimento.
+Tutti i progressi compiuti dall’Allievo come parte del corso, i punteggi dei quiz degli Allievi e altre informazioni vengono applicati alla nuova istanza. Questa funzione è principalmente destinata ai corsi in aula e a quelli misti, ma supporteremo tutti i tipi di corsi, compresi quelli autonomi.
 
-L’opzione Visualizza tutte le istanze viene visualizzata indipendentemente dalle impostazioni di Cambio di istanza. Gli Allievi ora visualizzeranno un’opzione per visualizzare tutte le istanze se sono presenti più istanze di un corso.
+L’opzione Visualizza tutte le istanze viene visualizzata indipendentemente dalle impostazioni di Commutazione istanza. Se sono presenti più istanze di un corso, gli Allievi visualizzeranno ora un’opzione per vedere tutte le istanze.
 
-Se l’opzione Cambio istanza è abilitata, gli allievi possono passare a varie istanze fino a quando non completano il corso. Se l’opzione è disattivata, gli allievi possono visualizzare le istanze ma non potranno iscriversi al corso.
+Se l’opzione Commutazione istanza è attivata, gli Allievi possono passare da un’istanza all’altra fino al completamento del corso. Se l’opzione è disattivata, gli Allievi possono visualizzare le istanze ma non potranno iscriversi al corso.
 
-Quando l’Allievo seleziona **Visualizza tutte le istanze**, l’allievo può visualizzare tutte le istanze del corso.
+Quando l’Allievo seleziona **Visualizza tutte le istanze**, l’Allievo può visualizzare tutte le istanze del corso.
 
 ![visualizza tutte le istanze](assets/view-all-instances-new.png)
 
@@ -225,33 +225,33 @@ Un Amministratore può cambiare le istanze per gli Allievi.
 
 Non puoi cambiare istanza finché nessuna istanza del corso non viene completata dall’app per Allievi o Amministratori.
 
-Gli Autori, durante la creazione di un corso, possono alternare l’attivazione o la disattivazione di &quot;Instance Switch&quot;. Il passaggio all’istanza è disponibile solo per i corsi gratuiti.
+Gli Autori, durante la creazione di un corso, possono alternare l’attivazione o la disattivazione di &quot;Instance Switch&quot;. Commutazione istanza è disponibile solo per i corsi gratuiti.
 
 Per ulteriori informazioni, consulta [Configurazione dell&#39;istanza](/help/migrated/authors/feature-summary/courses.md).
 
 **Allievi**
 
-Gli allievi possono passare da un’istanza del corso in lista d’attesa a un’altra istanza. Possono anche cambiare un’istanza del corso in un percorso di apprendimento o in una certificazione.
+Gli Allievi possono passare da un’istanza del corso in lista d’attesa a un’altra. Questi possono anche passare da un’istanza del corso a un percorso di apprendimento o a una certificazione.
 
 Dopo l’iscrizione al percorso di apprendimento o alla certificazione, nella pagina del corso gli allievi possono fare clic su Visualizza istanze, quindi cambiare istanza.
 
 >[!NOTE]
 >
->La configurazione dello switch di istanza non è supportata per i tipi di iscrizione nominati dal manager.
+>La configurazione di Commutazione istanza non è supportata per i tipi di iscrizione nominati dal Manager.
 >
->Se si stanno cambiando istanze da un programma di apprendimento di Flex, l&#39;avanzamento verrà trasferito all&#39;altra istanza.
+>Se stai commutando l’istanza da un programma di apprendimento Flex, l’avanzamento verrà riportato all’altra istanza.
 
-### Prova di verifica utente
+### Prova di verifica dell’utente
 
 Il report di prova di verifica dell’utente acquisirà informazioni sugli Allievi che hanno cambiato istanza, &quot;da istanza&quot; a &quot;istanza&quot;, cambiato per ora, data, ecc.
 
 ![Visualizza report audit trail dell’utente](assets/user-audit-trail.png)
 
-Per ulteriori informazioni, consulta [Report di prova di verifica dell’utente](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
+Per ulteriori informazioni, consulta [Report di verifica dell’utente](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
 
 ### Report sull’utilizzo degli istruttori
 
-Questo report acquisisce il tempo (in minuti) trascorso giornalmente da un Istruttore durante l’insegnamento delle sessioni assegnate. Il report può essere scaricato per un periodo di tre mesi dalla data di inizio selezionata.
+Questo report registra il tempo (in minuti) trascorso quotidianamente da un Istruttore che tiene le sessioni assegnate. Il report può essere scaricato per un periodo di tre mesi dalla data di inizio selezionata.
 
 Per ulteriori informazioni, consulta [Rapporto Utilizzo Istruttore](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
@@ -259,25 +259,25 @@ Per ulteriori informazioni, consulta [Rapporto Utilizzo Istruttore](/help/migrat
 
 ### Report risorse formative
 
-Un nuovo report per tenere traccia delle risorse formative presenti nell’account e di varie informazioni sulle risorse formative, come lingua, tipo, durata, autore, tag e così via.
+Un nuovo report per tenere traccia delle risorse formative presenti nell’account e varie informazioni sulle risorse formative, ad esempio lingua, tipo, durata, autore, tag e così via.
 
 Per ulteriori informazioni, consulta [Report di iscrizione risorse formative](/help/migrated/administrators/feature-summary/reports.md).
 
-### E-mail ad hoc indirizzate agli Allievi iscritti a un’istanza specifica del corso
+### E-mail ad hoc mirate agli Allievi iscritti a un’istanza di corso specifica
 
-Amministratori e Autori potranno inviare comunicazioni e-mail ad hoc agli Allievi iscritti a un’istanza specifica di un corso. L’opzione per inviare e-mail a livello di istanza è stata aggiunta per Corsi e Programmi di apprendimento.
+Amministratori e Autori potranno inviare comunicazioni e-mail mirate ad hoc agli Allievi iscritti a un’istanza specifica di un corso. L’opzione per inviare e-mail a livello di istanza è stata aggiunta per corsi e programmi di apprendimento.
 
 ![Invia e-mail a livello di istanza](assets/adhoc-email.png)
 
 *Invia e-mail a livello di istanza*
 
-Nella finestra di dialogo Crea annuncio, l’opzione Digita e-mail e formazione, insieme all’istanza, è selezionata per impostazione predefinita. Specificate l’oggetto, digitate il messaggio e fate clic su Salva.
+Nella finestra di dialogo Crea annuncio, l’opzione Digita come e-mail e Formazione sono selezionate per impostazione predefinita, insieme all’istanza. Specificate l’oggetto, digitate il messaggio e fate clic su Salva.
 
 Per ulteriori informazioni, consulta [E-mail a livello di istanza](/help/migrated/administrators/feature-summary/courses.md#send-instance-level-emails).
 
 ### E-mail ad hoc mirate agli Allievi tramite annunci dell’Amministratore
 
-Per gli Amministratori, è stato aggiunto un nuovo tipo di annuncio: &quot;Come e-mail&quot;. Questa opzione può essere utilizzata per inviare e-mail ad hoc agli Allievi di un gruppo di utenti selezionato o agli Allievi iscritti a un corso di formazione specifico.
+Per gli Amministratori, è stato aggiunto un nuovo tipo di annuncio: “Come e-mail”. Questa opzione può essere usata per inviare e-mail mirate ad hoc agli utenti in formazione di un gruppo di utenti selezionato o agli utenti in formazione iscritti a un corso di formazione specifico.
 
 Amministratore personalizzato e Autori possono anche visualizzare questa opzione a livello di istanza, se dispongono dell’accesso necessario.
 
@@ -285,14 +285,14 @@ Per ulteriori informazioni, consulta [Annunci](/help/migrated/administrators/fea
 
 ### Nuovi modelli e-mail
 
-In questa versione, sono stati aggiunti modelli e-mail per i Manager di livello occasionale. Questi modelli sono pensati per quando i Manager ricevono e-mail relative ai report di secondo livello senza alcun corso, percorso di apprendimento o scadenza di certificazione. Inoltre, riceveranno e-mail quando i loro report di secondo livello si avvicinano a qualsiasi scadenza di completamento per questi corsi, percorsi di apprendimento o certificazioni.
+In questa versione sono stati aggiunti modelli e-mail per i manager di alto livello. Questi modelli sono pensati per i manager che ricevono e-mail relative ai loro report di secondo livello che non rispettano le scadenze del corso, del percorso di apprendimento o della certificazione. Inoltre, riceveranno e-mail quando i loro report di secondo livello si avvicinano a qualsiasi scadenza di completamento per questi corsi, percorsi di apprendimento o certificazioni.
 
-* Ignora l’escalation a livello di completamento del corso - Prima della scadenza
+* Ignora l’escalation del livello per il completamento del corso - Prima della scadenza
 * Ignora l’escalation del livello per la scadenza del corso non rispettata
-* Ignora l’escalation a livello di completamento del percorso di apprendimento: prima della scadenza
-* Ignora l’escalation del livello per la scadenza del percorso di apprendimento non rispettata
-* Ignora l&#39;escalation a livello di completamento della certificazione - Prima della scadenza
-* Ignora l&#39;escalation a livello di certificazione per le scadenze non rispettate
+* Ignora l’escalation del livello per il completamento del Percorso di apprendimento - Prima della scadenza
+* Ignora l’escalation del livello per la scadenza del Percorso di apprendimento non rispettata
+* Ignora l’escalation del livello per il completamento della Certificazione - Prima della scadenza
+* Ignora l’escalation del livello per la scadenza di certificazione non rispettata
 
 Le opzioni sono attivate per impostazione predefinita.
 
@@ -300,14 +300,14 @@ Le opzioni sono attivate per impostazione predefinita.
 
 ### Nuovi report
 
-È stato aggiunto un nuovo attributo, jobType, all&#39;API dei processi. L&#39;attributo accetta i valori seguenti:
+È stato aggiunto un nuovo attributo, jobType, all&#39;API dei processi. L’attributo accetta i seguenti valori:
 
 * **generateInstructorUtilisationReport**: restituisce il report sull&#39;utilizzo di un istruttore.
 * **generateJobAidMetadataReport**: restituisce i metadati di un report Risorsa formativa.
 
 **Endpoint**: POST /primeapi/v2/jobs
 
-richiesta generateJobAidMetadataReport:
+Richiesta generateJobAidMetadataReport:
 
 ```javascript {line-numbers="true"}
 { 
@@ -387,11 +387,11 @@ risposta generateInstructorUtilisationReport:
 } 
 ```
 
-Per ulteriori informazioni, consultate [Documento di riferimento API](https://captivateprime.adobe.com/docs/primeapi/v2/).
+Per ulteriori informazioni, consulta il [documento di Riferimento API](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
-### Passaggio all’istanza dell’Allievo
+### Commutazione istanza Allievo
 
-L’API per Allievi con iscrizione consente di accedere a tutte le istanze disponibili e di passare a un’altra istanza di un corso. La nuova istanza eredita tutte le proprietà del corso precedente.
+L’API per Allievi iscritti consente di accedere a tutte le istanze disponibili e di passare a un’istanza diversa di un corso. La nuova istanza eredita tutte le proprietà del corso precedente.
 
 È stato aggiunto un nuovo parametro di query, enrollmentID, per il quale vengono richieste le informazioni.
 
@@ -400,7 +400,7 @@ L’API per Allievi con iscrizione consente di accedere a tutte le istanze dispo
 >Il corpo è necessario solo per i seguenti scenari:
 >
 >1. Piano di apprendimento flessibile
->1. Passaggio all’istanza del corso
+>1. Commutazione istanza corso
 
 ### Account
 
@@ -412,7 +412,7 @@ La risposta contiene un nuovo attributo, currencyCode.
 
 Abbiamo introdotto una nuova funzione che acquisisce l’esperienza degli istruttori, ovvero, per ogni istruttore, la sua esperienza viene mantenuta e può essere resa disponibile per operazioni a valle come la ricerca e il filtraggio.
 
-Sono aggiunti i seguenti attributi:
+Vengono aggiunti i seguenti attributi:
 
 * instructorSkills
 * instructorSkillLevel
@@ -424,15 +424,15 @@ Sono aggiunti i seguenti attributi:
 | Descrizione | Nuovo parametro/risposta | Endpoint |
 |--- |--- |--- |
 | Elenca tutte le città | filter.cityName=true/false | GET /primeapi/v2/data |
-| Cerca e filtra città | filter.cityName=city_name<br>Supporta anche un elenco di città separate da virgole |
+| Cercare e filtrare le città | filter.cityName=city_name<br>Supporta anche un elenco di città separate da virgole |
 | GET /primeapi/v2/search |
 | Dettagli sala resi | include=room | GET /primeapi/v2/users/`<id>`/calendario |
 | Oggetto di apprendimento per filtrare le città | filter.cityName=city_name <br> Supporta anche un elenco di città separate da virgole. | GET /primeapi/v2/learningObjects |
 | Aggiungi pannello Città | La risposta contiene un nuovo attributo, filterPanelSetting=true/false. | GET /primeapi/v2/account |
 
-### Sessioni degli Allievi in conflitto
+### Sessioni Allievo con conflitto
 
-Recupera un elenco di tutte le sessioni in conflitto per un&#39;istanza.
+Recuperare un elenco di tutte le sessioni in conflitto per un’istanza.
 
 Sono stati aggiunti i seguenti campi:
 
@@ -441,7 +441,7 @@ Sono stati aggiunti i seguenti campi:
 
 **Endpoint**: `GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
 
-### Aula in aula virtuale
+### Aula in videoconferenza
 
 Eseguire una ricerca basata sulla posizione per i corsi VC. Nel modello di risorse è presente un nuovo attributo roomLocation che indica la posizione a mano libera fornita durante la creazione di un corso VC.
 
@@ -455,21 +455,21 @@ Un nuovo parametro di query, filter.loFormat=Virtual Classroom per l’API learn
 
 **Calendario**
 
-Nuovo parametro di query, filter.allSessions=false per l&#39;API del calendario. Il valore predefinito del parametro è false. Se è true, l’API restituisce tutte le sessioni del calendario di un Allievo.
+Un nuovo parametro di query, filter.allSessions=false per l’API del calendario. Il valore predefinito del parametro è false. Se è true, l’API restituisce tutte le sessioni del calendario di un Allievo.
 
 **Endpoint**: `GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
 
-### Cronologia ricerche Allievi
+### Cronologia ricerche Allievo
 
 **Cerca**
 
-Nuovo parametro di query, persistSearchHistory. Il valore predefinito è true, che persiste la query per i suggerimenti di ricerca.
+Un nuovo parametro di query, persistSearchHistory. Il valore predefinito è true, che persiste nella query per i suggerimenti di ricerca.
 
 **Endpoint**: GET /primeapi/v2/search?persistSearchHistory=true
 
 **Suggerimenti**
 
-Nuovo parametro di query, sugionType. I valori accettati sono:
+Un nuovo parametro di query, sugionType. I valori accettati sono:
 
 * learnerHistory (impostazione predefinita)
 * accountHistory
@@ -478,15 +478,15 @@ Nuovo parametro di query, sugionType. I valori accettati sono:
 
 ### Filtraggio gruppo di utenti
 
-Le API di Oggetti di apprendimento e Ricerca forniranno filtri per recuperare tutti gli Oggetti di apprendimento che appartengono al gruppo di utenti tramite filtri specificati. Le API supportano i filtri come elenchi separati da virgole.
+Le API di ricerca e degli oggetti di apprendimento forniranno filtri per recuperare tutti gli oggetti di apprendimento appartenenti al gruppo di utenti tramite i filtri specificati. Le API supportano i filtri come elenco separato da virgole.
 
 È stato fornito un nuovo filtro, filter.lo.announcingGroups, per recuperare tutti gli LO che appartengono ai filtri del gruppo di utenti forniti.
 
-Questo può essere un elenco multivalore separato da virgole per la flessibilità e l&#39;elaborazione si basa sull&#39;operazione &quot;OR&quot; tra i diversi gruppi. ad esempio, ottenere tutti gli LO che rientrano nei gruppi di utenti specificati.
+Può essere un elenco con più valori separati da virgole per garantire flessibilità; l’elaborazione si basa sull’operazione “OR” tra i gruppi multipli, ovvero, puoi ottenere tutti gli oggetti di apprendimento che rientrano nei gruppi di utenti dati.
 
 ### Gruppo personalizzato
 
-Puoi aggiungere e rimuovere utenti esterni da e verso i gruppi personalizzati tramite API.
+Puoi aggiungere e rimuovere utenti esterni nei gruppi personalizzati tramite API.
 
 **POST**
 
@@ -520,11 +520,11 @@ DELETE /userGroups/{id}/users
 
 ### Annuncio filtraggio gruppi di utenti per perdite nell’app per Allievi
 
-* Il parametro GET /users/{userId}L’API /userGroups dispone di un nuovo parametro, filter.announGroupsOnly, che accetta un valore booleano (true/false). Questo filtra solo i gruppi di utenti annunciati dall’amministratore. Il valore predefinito di questo parametro è false.
+* Il parametro GET /users/{userId}L’API /userGroups dispone di un nuovo parametro, filter.announGroupsOnly, che accetta un valore booleano (true/false). Questa funzione filtra solo i gruppi di utenti annunciati dall’Amministratore. Il valore predefinito di questo parametro è false.
 * L’API GET /learningObjects include un nuovo parametro, filter.announGroups, che accetta gli ID dei gruppi di annunci per filtrare i risultati.
 * GET L’API /search dispone di un nuovo parametro, filter.announGroups, che accetta gli ID dei gruppi di annunci per filtrare i risultati.
 
-Esempio di risposta:
+Di seguito viene fornito un esempio di risposta:
 
 ```javascript {line-numbers="true"}
 {

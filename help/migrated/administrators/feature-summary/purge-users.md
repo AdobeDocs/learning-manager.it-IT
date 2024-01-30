@@ -1,38 +1,38 @@
 ---
 description: Scopri come rimuovere i dati degli utenti in Learning Manager.
 jcr-language: en_us
-title: Rimuovi utenti
+title: Rimuovere utenti
 contentowner: dvenkate
 source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 
 
 
-# Rimuovi utenti
+# Rimuovere utenti
 
 Scopri come rimuovere i dati degli utenti in Learning Manager.
 
 ## Panoramica {#overview}
 
-Utilizza la funzione di rimozione degli utenti per rimuovere da Learning Manager le informazioni di identificazione personale e i record di apprendimento dell’utente. Le funzioni Elimina e Rimuovi utente sono due funzioni diverse. Un utente eliminato può essere ripristinato, mentre non è possibile ripristinare tutti i dati utente e i record di apprendimento associati a un utente rimosso.
+Utilizza la funzione di rimozione degli utenti per rimuovere da Learning Manager le informazioni di identificazione personale e i record di apprendimento dell’utente. Le funzioni Elimina e Rimuovi utente sono due funzioni differenti. Un utente eliminato può essere ripristinato, mentre non è possibile ripristinare i dati utente e i record di apprendimento associati a un utente rimosso.
 
 L’azione di rimozione dell’utente può avere i seguenti risultati:
 
 * Se un utente viene rimosso, i collegamenti nei registri di importazione non funzionano per evitare il download dei vecchi file CSV e il ripristino dei dati utente nel sistema.
-* Se un Autore viene rimosso, il suo nome viene sostituito dal nome dell’Amministratore che ha rimosso quell’utente.
-* Se gli Istruttori vengono rimossi, vengono rimossi dalle sessioni. L’Amministratore deve sostituire/aggiungere istruttori per tali sessioni.
-* La rimozione di un utente in Learning Manager non rimuove l’utente in alcuna applicazione esterna (sistemi di terze parti o altre applicazioni scritte dall’utente). Contatta i proprietari delle applicazioni esterne per rimuovere gli utenti da tali applicazioni.
-* Se nelle impostazioni di configurazione di un connettore viene fatto riferimento a un utente rimosso, il connettore viene disattivato. Per riprenderlo, il connettore deve essere riconfigurato dall’amministratore.
+* Se un Autore viene rimosso, il suo nome viene sostituito dal nome dell’Amministratore che ha rimosso quel determinato utente.
+* Se gli Istruttori vengono rimossi, vengono rimossi anche dalle sessioni. L’Amministratore deve sostituire/aggiungere istruttori per tali sessioni.
+* La rimozione di un utente in Learning Manager non rimuove quel determinato utente da eventuali applicazioni esterne (sistemi di terze parti o altre applicazioni che hai realizzato). Contattare i proprietari delle applicazioni esterne per rimuovere gli utenti da tali applicazioni.
+* Se un utente rimosso è indicato nelle impostazioni di configurazione di un connettore, tale connettore viene disabilitato. Per riprenderlo, il connettore deve essere riconfigurato dall’amministratore.
 
 Per rimuovere gli utenti, effettua le seguenti operazioni:
 
-1. In qualità di Amministratore, seleziona **[!UICONTROL Utenti]** dal riquadro sinistro. La **[!UICONTROL Utenti interni]** pagina.
-1. Elimina gli utenti da rimuovere. Per eliminarli, seleziona uno o più utenti utilizzando la casella di controllo. Apri il pannello **[!UICONTROL Azione]** a discesa e seleziona **[!UICONTROL Elimina utente.]**
-1. Nel riquadro a sinistra, seleziona **[!UICONTROL Pulizia utente]**. La **[!UICONTROL Pulizia utente]** viene visualizzata una pagina con l’elenco degli utenti eliminati. Utilizza i pulsanti di scelta per selezionare l’utente da rimuovere. Puoi rimuovere un solo utente alla volta.
+1. In qualità di Amministratore, seleziona **[!UICONTROL Utenti]** dal riquadro a sinistra. Viene visualizzata la pagina **[!UICONTROL Utenti interni]**.
+1. Elimina gli utenti che desideri rimuovere. Per farlo, seleziona uno o più utenti mediante la casella di controllo. Apri il pannello **[!UICONTROL Azione]** a discesa e seleziona **[!UICONTROL Elimina utente.]**
+1. Nel riquadro a sinistra, seleziona **[!UICONTROL Pulizia utente]**. Verrà visualizzata la pagina **[!UICONTROL Pulizia utente]** con l’elenco degli utenti eliminati. Utilizza i pulsanti di opzione per selezionare l’utente da rimuovere. Puoi rimuovere un solo utente alla volta.
 
    ![](assets/purge-1.png)
 
@@ -44,17 +44,17 @@ Per rimuovere gli utenti, effettua le seguenti operazioni:
 
    *Seleziona l’opzione Rimuovi utente.*
 
-1. Viene visualizzata una finestra di dialogo che richiede conferma. Una volta rimossi, tutti i dati utente e i record di apprendimento associati all’utente selezionato vengono eliminati definitivamente. Una volta rimossa, l’azione non può essere annullata. Per confermare, fare clic su **[!UICONTROL Rimuovi]**.
+1. Viene visualizzata una finestra di dialogo che richiede una conferma. Una volta rimossi, tutti i dati utente e i record di apprendimento associati all’utente selezionato vengono cancellati in modo permanente. Una volta effettuata la rimozione, l’azione non può essere annullata. Per confermare, fare clic su **[!UICONTROL Rimuovi]**.
 
    ![](assets/purge-3.png)
 
    *Messaggio di conferma dopo l’eliminazione di un utente*
 
-1. Dopo aver confermato e fatto clic su Rimuovi, la richiesta di rimozione viene accettata. Una volta completata l’azione, riceverai una notifica. Viene inoltre fornito un ID di richiesta di rimozione. È possibile fornire questo ID al CSM per tenere traccia della richiesta.
+1. Dopo aver confermato e fatto clic su Rimuovi, la richiesta di rimozione viene accettata. Una volta completata l’azione, riceverai una notifica. Viene fornito anche un ID di richiesta di rimozione. È possibile fornire questo ID al CSM per tenere traccia della richiesta.
 
-## Rimozione in blocco degli utenti
+## Rimuovere gli utenti in blocco
 
-Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Ciò consente agli amministratori di selezionare 50 utenti contemporaneamente ed eliminarli insieme. Questo consente agli amministratori di rimuovere gli utenti in blocco. È sempre consigliabile controllare gli utenti selezionati per la rimozione. Questo è importante per garantire che solo il set corretto di utenti venga eliminato.
+Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Questo consente agli amministratori di selezionare 50 utenti contemporaneamente ed eliminarli con un solo comando. Consente agli amministratori di rimuovere gli utenti in blocco. È sempre consigliabile controllare gli utenti selezionati per l’eliminazione. Questo è fondamentale per garantire l’eliminazione del gruppo di utenti corretto.
 
 ![](assets/bulk-purge-users.png)
 
@@ -77,7 +77,7 @@ Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Ciò consent
    <td>Sì</td>
   </tr>
   <tr>
-   <td>Elimina tutti gli utenti da tutti gli account di prova il cui indirizzo e-mail, adobe_id corrisponde a quello degli utenti selezionati, che sono gli autori dell’account di prova.</td>
+   <td>Elimina tutti gli utenti da tutti gli account di prova il cui indirizzo e-mail, adobe_id corrisponde a quello degli utenti selezionati, che sono gli stessi creatori dell’account di prova.</td>
    <td>No</td>
   </tr>
   <tr>
@@ -101,7 +101,7 @@ Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Ciò consent
    <td>Sì</td>
   </tr>
   <tr>
-   <td>Elimina tutti gli utenti da tutti gli account di prova il cui indirizzo e-mail, adobe_id corrisponde a quello degli utenti selezionati, che sono gli autori dell’account di prova.</td>
+   <td>Elimina tutti gli utenti da tutti gli account di prova il cui indirizzo e-mail, adobe_id corrisponde a quello degli utenti selezionati, che sono gli stessi creatori dell’account di prova.</td>
    <td>No</td>
   </tr>
   <tr>
@@ -149,11 +149,11 @@ Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Ciò consent
    <td> </td>
   </tr>
   <tr>
-   <td>Informa l'amministratore Enterprise della richiesta.</td>
+   <td>Informa l’Amministratore Enterprise della richiesta.</td>
    <td>Sì</td>
   </tr>
   <tr>
-   <td>Controlla i campi E-mail per l’invio delle notifiche.</td>
+   <td>Verifica i campi e-mail per l’invio delle notifiche.</td>
    <td>No</td>
   </tr>
   <tr>
@@ -161,11 +161,11 @@ Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Ciò consent
    <td> </td>
   </tr>
   <tr>
-   <td>Elimina tutti gli utenti che dispongono dell’Adobe ID o dell’e-mail forniti da Tutti gli account di prova.</td>
+   <td>Elimina tutti gli utenti che dispongono dell’ID Adobe/E-mail fornito da Tutti gli account di prova.</td>
    <td>Sì</td>
   </tr>
   <tr>
-   <td>Elimina tutti gli utenti di un account di prova se l’E-mail/AdobeId fornito era del creatore dell’account.</td>
+   <td>Elimina tutti gli utenti di un account di prova se l’e-mail/ID Adobe fornito era del creatore dell’account.</td>
    <td>Sì</td>
   </tr>
   <tr>
@@ -183,10 +183,10 @@ Learning Manager è ora conforme al GDPR. Per ulteriori informazioni sulla confo
 
 +++Quanti giorni sono necessari per completare una richiesta di rimozione?
 
-Il completamento di una richiesta di rimozione degli utenti richiede un massimo di 30 giorni.
+La richiesta di rimozione degli utenti richiede un massimo di 30 giorni per essere completata.
 +++
 
 +++È possibile eseguire una rimozione in blocco in Learning Manager?
 
-Sì, puoi eseguire una rimozione in blocco. Tuttavia, è possibile eseguire solo una rimozione in blocco di 50 utenti.
+Sì, puoi eseguire una rimozione in blocco, ma solo di 50 utenti.
 +++

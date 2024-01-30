@@ -1,48 +1,48 @@
 ---
 jcr-language: en_us
-title: Personalizzare la pagina principale dell’Allievo
-description: L’Amministratore può personalizzare la home page dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata per lui.
+title: Personalizzazione della pagina principale dell’Allievo
+description: Un Amministratore può personalizzare la pagina principale dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata.
 contentowner: saghosh
 source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 0%
+ht-degree: 46%
 
 ---
 
 
 
-# Personalizzare la pagina principale dell’Allievo
+# Personalizzazione della pagina principale dell’Allievo
 
 ## Panoramica {#overview}
 
-L’Amministratore può personalizzare la home page dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata per lui.
+Un Amministratore può personalizzare la pagina principale dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata.
 
 L’approccio personalizzato offre un modo widget di creare una home page Allievo, che l’Amministratore dell’organizzazione può configurare nell’interfaccia utente dell’Amministratore in modo WYSIWYG.
 
 L’esperienza è guidata da raccomandazioni di formazione personalizzate provenienti da un algoritmo basato sull’intelligenza artificiale che analizza i contenuti di terze parti per le competenze del settore, incorpora l’attività dei colleghi e le aree di interesse degli Allievi utilizzando dati espliciti e impliciti.
 
-## Configurare la pagina principale dell’Allievo {#configurethelearnerhomepage}
+## Configurazione della pagina principale dell’Allievo {#configurethelearnerhomepage}
 
 Nella **Branding** > **Home page Allievo** , un Amministratore può personalizzare l’esperienza della pagina principale di un Allievo, in modo che quando l’Allievo accede all’app, l’aspetto sia completamente rinnovato.
 
 Gli amministratori possono impostare l’interfaccia utente (aspetto) dall’app Amministratore (**Branding** > **Home page Allievo** ).
 
-Gli amministratori possono passare alla visualizzazione Widget dell’interfaccia utente immersiva, personalizzare di conseguenza i widget e le funzionalità, quindi abilitare l’interfaccia utente immersiva.
+Gli Amministratori possono passare alla visualizzazione immersiva dei widget dell’interfaccia utente, personalizzare quindi widget/funzionalità e abilitare l’interfaccia utente immersiva.
 
 La **Home page Allievo** contiene le sezioni seguenti:
 
 ## Opzione di layout immersivo {#immersivelayoutoption}
 
-Per visualizzare il layout di una pagina immersiva, attiva l’opzione **Immersivo**. Puoi attivare/disattivare questa opzione nelle fasi **Branding > Generale**.
+Per visualizzare il layout di una pagina immersiva, abilita l’opzione **Immersivo**. Puoi attivare/disattivare questa opzione in **Branding > Generale**.
 
-Nelle versioni precedenti, le opzioni della pagina principale dell’Allievo erano in Impostazioni.
+Nelle versioni precedenti, le opzioni della pagina principale dell’Allievo erano disponibili in Impostazioni.
 
-Ecco le opzioni che puoi impostare:
+Di seguito sono riportate le opzioni che possono essere impostate:
 
-**Esperienza della pagina principale:** Abilita **Classico** oppure **Immersivo**. Se scegliete Immersivo, vengono visualizzate le seguenti opzioni:
+**Esperienza della pagina principale:** Abilita **Classico** oppure **Immersivo**. Se scegli Immersiva, vengono visualizzate le seguenti opzioni:
 
-* **Tipo di corso:** Scegli uno dei seguenti **Settore** oppure **Allineato Personalizzato**. I corsi di formazione personalizzati vengono creati internamente. I corsi di formazione allineati al settore includono contenuti già pronti di fornitori terzi.
+* **Tipo di corso:** Scegli uno dei seguenti **Settore** oppure **Allineato Personalizzato**. I corsi di formazione personalizzati vengono creati internamente. I corsi di formazione allineati al settore comprendono contenuti disponibili subito di fornitori terzi.
 
 ![](assets/select-homepage-experience.png)
 
@@ -62,18 +62,18 @@ Opzione **Consentire agli Allievi di esplorare le aree di interesse** è disponi
    <td>
     <p>Puoi scegliere al massimo un campo attivo interno ed esterno.</p></td>
    <td>
-    <p>Puoi scegliere un massimo di cinque e almeno un campo. Per impostazione predefinita, l’opzione <b>Profilo </b>selezionato.</p></td>
+    <p>Puoi scegliere da uno a massimo cinque campi. Per impostazione predefinita, l’opzione <b>Profilo </b>è selezionata.</p></td>
   </tr>
  </tbody>
 </table>
 
-Se sono presenti meno di 1000 Allievi, l’intero account viene considerato come un unico ambito. Questo è specifico per il tipo di corso di formazione personalizzato. Se l’account ha meno di 1000 utenti, considera l’intero account come un ambito.
+Se sono presenti meno di 1000 Allievi, l’intero account viene considerato come un unico ambito. Questo è specifico per il tipo di formazione personalizzata. Se l’account ha meno di 1000 utenti, considera l’intero account come un’area di validità.
 
 >[!NOTE]
 >
 >Casella di controllo **Esplora le abilità** è stato spostato in Impostazioni > Generale.
 
-Questa opzione verrà attivata e disattivata se viene scelta l’esperienza immersiva. Questa casella di controllo sarà abilitata solo per l’esperienza classica.
+Questa opzione verrà attivata e disattivata se viene scelta l’esperienza immersiva. Questa casella di controllo verrà abilitata solo per l’esperienza classica.
 
 ![](assets/option-immersive.png)
 
@@ -83,7 +83,7 @@ Il layout immersivo è l’impostazione predefinita per tutti i nuovi account. I
 
 Ecco i widget che puoi abilitare/disabilitare.
 
-In questo modo, puoi visualizzare l’anteprima dell’interfaccia utente dell’Allievo prima che diventi attiva.
+Utilizzandoli, puoi visualizzare l’anteprima dell’interfaccia utente dell’Allievo prima che venga pubblicata.
 
 Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È abilitato per il nuovo account con Social e Gamification ON.
 
@@ -101,7 +101,7 @@ Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È a
   </tr>
   <tr>
    <td>
-    <p>Titolo</p></td>
+    <p>Masthead</p></td>
    <td>
     <p><b>Cos’è un Masthead e come si personalizzano gli Allievi Masthead? </b><br></p>
     <p>È un banner di benvenuto per gli Allievi. Il banner può essere un’immagine o un video. Puoi indirizzare il masthead a gruppi di utenti specifici e un Allievo lo visualizza non appena arriva alla pagina principale. Un gruppo di utenti può visualizzare più heri images o video in base al piano di destinazione impostato dall’amministratore. </p>
@@ -109,9 +109,9 @@ Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È a
     <ol>
      <li>Nel pannello a sinistra, fai clic su <b>Annunci</b>.<br></li>
      <li>Nell’angolo superiore destro della pagina, fai clic su <b>Aggiungi</b>.</li>
-     <li>Dal menu <b>Tipo </b>elenco a discesa, scegli <b>Come masthead</b>.</li>
+     <li>Dall’elenco a discesa <b>Tipo</b>, scegli <b>Come masthead</b>.</li>
      <li>Scrivi un messaggio che sarà visibile nel masthead.</li>
-     <li>Carica un'immagine o un video.</li>
+     <li>Carica un’immagine o un video.</li>
      <li>Scegli il pubblico di destinazione. Seleziona un gruppo di utenti o un corso di formazione in cui verrà visualizzato il masthead.</li>
      <li>Salva l’annuncio masthead.</li>
     </ol></td>
@@ -126,13 +126,13 @@ Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È a
    <td>
     <p>Calendario</p></td>
    <td>
-    <p>Mostra vari corsi di formazione imminenti in Aula e Aula virtuale per gli Allievi in base al mese. Vengono visualizzati quelli a cui l’Allievo può iscriversi o a cui è già stato iscritto, inclusi i corsi di formazione approvati dal Manager. </p></td>
+    <p>Mostra mensilmente i corsi di formazione in programma in aula e in aula virtuale per gli Allievi. Vengono visualizzati quelli a cui l’Allievo può iscriversi o a cui si è già iscritto, inclusi i corsi di formazione approvati dai manager. </p></td>
   </tr>
   <tr>
    <td>
     <p>Gamification</p></td>
    <td>
-    <p>Visualizza la classifica in base alle attività di apprendimento.</p></td>
+    <p>Mostra la classifica in base alle attività di apprendimento.</p></td>
   </tr>
   <tr>
    <td>
@@ -142,14 +142,14 @@ Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È a
   </tr>
   <tr>
    <td>
-    <p>Consigliato dall'organizzazione</p></td>
+    <p>Consigliato dall’organizzazione</p></td>
    <td>
-    <p>Quando abilitato, questo widget consiglia i corsi di formazione a gruppi di utenti specifici. Ogni gruppo di utenti può essere indirizzato a uno o più corsi di formazione e il piano di destinazione deve essere basato su un periodo di tempo. <br></p>
+    <p>Quando questa opzione è attiva, il widget consiglia corsi di formazione per gruppi di utenti specifici. Ogni gruppo di utenti può essere indirizzato a uno o più corsi di formazione e il piano di destinazione deve essere basato su un periodo di tempo. <br></p>
     <ul>
      <li>
       <p>In primo luogo, l'amministratore <a href="announcements.md#recommendation">crea un annuncio</a> di tipo <b>Come consiglio</b> quindi seleziona la formazione richiesta e utilizza i gruppi. Un Allievo appartenente a un gruppo di utenti potrà visualizzare il corso di formazione consigliato.</p></li>
      <li>
-      <p>In secondo luogo, l’Amministratore può anche decidere se i consigli devono essere inviati immediatamente o in una data specifica.</p></li>
+      <p>In secondo luogo, l’Amministratore può anche decidere se i consigli devono essere visualizzati immediatamente o in una data specifica.</p></li>
     </ul></td>
   </tr>
   <tr>
@@ -162,18 +162,18 @@ Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È a
    <td>
     <p>Sfoglia per catalogo<br></p></td>
    <td>
-    <p>Visualizza i cataloghi come porzioni nella pagina principale. </p></td>
+    <p>Mostra i cataloghi come riquadri sulla pagina principale. </p></td>
   </tr>
   <tr>
    <td>
-    <p>Consiglio basato sull’attività dei colleghi<br></p></td>
+    <p>Consiglio in base all’attività dei colleghi<br></p></td>
    <td>
     <p>Visualizza i corsi di formazione in base a ciò che stanno seguendo i colleghi di un Allievo. Anche questo è guidato da un algoritmo di apprendimento automatico.</p></td>
   </tr>
  </tbody>
 </table>
 
-Dopo aver salvato le modifiche, la pagina principale dell’Allievo riflette tutte le modifiche.
+Dopo averle salvate, le modifiche si rifletteranno nella pagina principale dell’Allievo.
 
 Quando l’Allievo accede all’app dell’Allievo tramite un browser, può visualizzare il seguente layout immersivo:
 
@@ -192,15 +192,15 @@ Quando l’Allievo accede all’app dell’Allievo tramite un browser, può visu
 
 *Visualizzazione del layout immersivo per varie sezioni della home page*
 
-## Opzione layout classico {#classiclayoutoption}
+## Opzione di layout classico {#classiclayoutoption}
 
-Il layout dell’interfaccia utente, che è sempre esistito fino ad ora, è ora denominato layout classico. Quando scegli questa opzione, la visualizzazione della pagina principale dell’Allievo torna al layout classico.
+Il layout dell’interfaccia utente che è sempre esistito, viene ora definito Layout classico. Quando scegli questa opzione, la visualizzazione della pagina principale dell’Allievo torna al layout classico.
 
 ![](assets/classic-layout.png)
 
 *Anteprima del layout classico*
 
-## Configurare le impostazioni dei suggerimenti {#configurerecommendationsettings}
+## Configurazione delle impostazioni dei consigli {#configurerecommendationsettings}
 
 Attivato **Branding** > **Generale**, è possibile configurare gli ambiti di consiglio per gli Allievi interni ed esterni e consentire agli Allievi di scegliere le abilità nella pagina principale dell’Allievo.
 
@@ -212,13 +212,13 @@ Nella **Generale** , sono disponibili le seguenti opzioni:
    <td>
     <p>Nome organizzazione</p></td>
    <td>
-    <p>Il nome dell’organizzazione a cui appartiene l’Allievo.</p></td>
+    <p>Nome dell’organizzazione a cui appartiene lo studente.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Sottodominio</p></td>
+    <p>Dominio secondario</p></td>
    <td>
-    <p>Il sottodominio dell'organizzazione.</p></td>
+    <p>Il sottodominio dell’organizzazione.</p></td>
   </tr>
   <tr>
    <td>
@@ -240,33 +240,33 @@ Nella **Generale** , sono disponibili le seguenti opzioni:
   </tr>
   <tr>
    <td>
-    <p>Home page Allievo</p></td>
+    <p>Pagina principale dell’Allievo</p></td>
    <td>
-    <p>Scegli uno dei seguenti <b>Classico </b>oppure <b>Immersivo</b>. Se scegli Immersivo, vengono visualizzate altre opzioni.</p></td>
+    <p>Scegli tra <b>Classico </b>o <b>Immersivo</b>. Se scegli Immersivo, vengono visualizzate altre opzioni.</p></td>
   </tr>
   <tr>
    <td>
     <p>Tipo di corso di formazione<br></p></td>
    <td>
-    <p>Scegli uno dei seguenti <b>Personalizzato </b>oppure <b>Allineato al settore</b>. Se sono presenti meno di 1000 Allievi, l’intero account viene considerato come un unico ambito. Il consiglio si basa su tutti gli Allievi.<br></p></td>
+    <p>Scegli tra <b>Personalizzato </b>o <b>Allineato al settore</b>. Se sono presenti meno di 1000 Allievi, l’intero account viene considerato come un unico ambito. Il consiglio si basa su tutti gli Allievi.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Impostazione dell’ambito del consiglio<br></p></td>
    <td>
-    <p>Scegli uno o più campi attivi. Per <b>Personalizzato</b>, è possibile scegliere al massimo un campo attivo. Per <b>Allineato al settore</b>, puoi scegliere un massimo di cinque campi attivi.<br></p></td>
+    <p>Scegli uno o più campi attivi. Per <b>Personalizzato</b>, puoi scegliere al massimo un campo attivo. Per <b>Allineato al settore</b>, puoi scegliere un massimo di cinque campi attivi.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Consentire agli Allievi di esplorare le aree di interesse</p></td>
+    <p>Consenti agli Allievi di esplorare le aree di interesse</p></td>
    <td>
-    <p>Solo per l’esperienza classica. Scegli <b>Sì </b>oppure <b>No</b>.<br></p></td>
+    <p>Vale solo per l’esperienza classica. Scegli <b>Sì </b>oppure <b>No</b>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Richiedi agli utenti di selezionare le aree di interesse (abilità) <br></p></td>
    <td>
-    <p>Solo per esperienza immersiva. Scegli <b>Sì</b> oppure <b>No</b>. <br></p></td>
+    <p>Vale solo per le esperienze immersive. Scegli <b>Sì</b> oppure <b>No</b>. <br></p></td>
   </tr>
  </tbody>
 </table>

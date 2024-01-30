@@ -4,15 +4,15 @@ description: Configura esperienze personalizzate all’interno della versione na
 source-git-commit: 86c80607e2f50e6abf6d64fd7a916ef5b024b837
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
 # Estendibilità nativa
 
-Puoi configurare esperienze personalizzate all’interno della versione nativa di Adobe Learning Manager, consentendo di non utilizzare headless per casi meno complicati. Puoi anche creare app personalizzate e inserirle in vari punti nella versione nativa dei flussi di lavoro di Allievo, Manager, Amministratore, Autore o Istruttore.
+Puoi configurare esperienze personalizzate all’interno della versione nativa di Adobe Learning Manager, per evitare di usare l’approccio headless per i casi meno complicati. Puoi anche creare app personalizzate e inserirle in vari punti nella versione nativa dei flussi di lavoro di Allievo, Manager, Amministratore, Autore o Istruttore.
 
-Adobe Learning Manager supporta 15 richiami nell’app per Amministratori, Autori, Allievi, Manager e Istruttori.
+Adobe Learning Manager supporta 15 punti di chiamata nell’app per Amministratori, Autori, Allievi, Manager e Istruttori.
 
 ## Creare un’estensione
 
@@ -20,7 +20,7 @@ Adobe Learning Manager supporta 15 richiami nell’app per Amministratori, Autor
 1. Seleziona Aggiungi estensione.
 1. Digitare il nome dell&#39;estensione nel **[!UICONTROL Nome]** campo.
 1. Digitare la descrizione dell&#39;estensione nel **[!UICONTROL Descrizione]** campo.
-1. Selezionare un punto di chiamata. Un punto di chiamata è qualsiasi posizione in Learning Manager di Adobe in cui è possibile inserire un collegamento o un pulsante in un’app personalizzata. Sono disponibili i seguenti comandi:
+1. Seleziona un punto di chiamata. Un punto di chiamata è qualsiasi posizione in Adobe Learning Manager in cui è possibile inserire un collegamento o un pulsante in un’app personalizzata. Sono disponibili i seguenti punti di chiamata:
 
    Per questo esempio, selezionare **[!UICONTROL Amministratore]**, **[!UICONTROL Autore: corso]**, **[!UICONTROL Percorso di apprendimento]** - **[!UICONTROL Istanze]** - **[!UICONTROL Riga istanza]**.
 
@@ -28,11 +28,11 @@ Adobe Learning Manager supporta 15 richiami nell’app per Amministratori, Autor
    *Seleziona punto di chiamata*
 
 1. Digita l’etichetta di estensione che verrà visualizzata nell’interfaccia utente nel **[!UICONTROL Etichetta estensione]** campo.
-1. Digita l’URL in cui desideri ospitare l’estensione nel **[!UICONTROL URL]** campo.
+1. Digita l’URL in cui desideri ospitare l’estensione nel campo **[!UICONTROL URL]**.
 1. Nel menu a discesa Apri in, seleziona se avviare l’estensione in una scheda modale o in una nuova scheda.
-1. Selezionare la dimensione del modale. Le opzioni sono disponibili se hai selezionato *In-app* modale nel passaggio precedente.
+1. Seleziona la dimensione della finestra modale. Le opzioni sono disponibili se hai selezionato *In-app* modale nel passaggio precedente.
 
-   Per mantenere l&#39;accessibilità all&#39;interno del popup, l&#39;app dell&#39;estensione deve essere inviata all&#39;evento una volta che si trovano sull&#39;ultimo elemento attivabile sul loro sito Web, e quindi l&#39;utente seleziona il tasto TAB. Ciò è necessario per mantenere l&#39;attenzione all&#39;interno del popup per supportare l&#39;accessibilità.
+   Per mantenere l&#39;accessibilità all&#39;interno del popup, l&#39;app dell&#39;estensione deve essere inviata all&#39;evento una volta che si trovano sull&#39;ultimo elemento attivabile sul loro sito Web, e quindi l&#39;utente seleziona il tasto TAB. Ciò è necessario per mantenere l’attenzione all’interno del popup per supportare l’accessibilità.
 
    ```
    window.parent.postMessage({*}
@@ -42,20 +42,20 @@ Adobe Learning Manager supporta 15 richiami nell’app per Amministratori, Autor
    ,{}'');
    ```
 
-1. Imposta l’ambito dell’estensione. Sono disponibili i seguenti ambiti:
+1. Imposta l’ambito dell’estensione. Sono disponibili le opzioni seguenti:
 
    * **[!UICONTROL Tutti i corsi, percorsi di apprendimento e certificazioni]**: questa estensione è abilitata per tutti i corsi, percorsi di apprendimento e certificazioni. Insieme agli Amministratori, gli Autori possono disabilitarla per alcuni Corsi, Percorsi di apprendimento e Certificazioni.
    * **[!UICONTROL Corsi, percorsi di apprendimento e certificazioni selezionati]**: questa estensione è disabilitata per tutti i corsi, i percorsi di apprendimento e le certificazioni. Insieme agli Amministratori, gli Autori possono abilitarla per alcuni Corsi, Percorsi di apprendimento e Certificazioni.
 
-1. Selezionare il **[!UICONTROL Attiva]** attiva/disattiva per rendere attiva l’estensione. Una volta attivata, l’estensione viene visualizzata sul punto di chiamata specificato in base all’ambito.
-1. Seleziona **[!UICONTROL Salva]** nell’angolo superiore destro della pagina, per creare l’estensione.
+1. Seleziona l’opzione **[!UICONTROL Attiva]** per rendere attiva l’estensione. Una volta attivata, l’estensione viene visualizzata sul punto di chiamata specificato in base all’ambito.
+1. Seleziona **[!UICONTROL Salva]** nell’angolo in alto a destra della pagina per creare l’estensione.
 
 ## Accedere all’estensione come Amministratore
 
 1. In qualità di Amministratore, seleziona **[!UICONTROL Percorsi di apprendimento]** nella barra degli strumenti a sinistra.
 1. Seleziona un corso > **[!UICONTROL Visualizza percorso di apprendimento]**.
 1. Seleziona **[!UICONTROL Istanze]** nel pannello a sinistra.
-1. Seleziona **[!UICONTROL Altro]** nella sezione Istanze. L&#39;estensione viene visualizzata nella sezione Istanze.
+1. Seleziona **[!UICONTROL Altro]** nella sezione Istanze. L’estensione viene visualizzata nella sezione Istanze.
 
    ![immagine delle istanze](assets/instances-extension.png)
    *Seleziona l’estensione*
@@ -67,21 +67,21 @@ Adobe Learning Manager supporta 15 richiami nell’app per Amministratori, Autor
 1. In qualità di Amministratore, seleziona **[!UICONTROL Percorsi di apprendimento]** nella barra degli strumenti a sinistra.
 1. Seleziona un corso > **[!UICONTROL Visualizza percorso di apprendimento]**.
 1. Seleziona **[!UICONTROL Istanze]** nel pannello a sinistra.
-1. Seleziona **[!UICONTROL Altro]** nella sezione Istanze. L&#39;estensione viene visualizzata nella sezione Istanze.
+1. Seleziona **[!UICONTROL Altro]** nella sezione Istanze. L’estensione viene visualizzata nella sezione Istanze.
 
    ![immagine delle istanze](assets/instances-extension.png)
    *Accedere all’estensione come autore*
 
    Quando selezionate l’estensione, questa viene visualizzata nel menu a scelta rapida.
 
-## Visualizza tutte le estensioni
+## Visualizzare tutte le estensioni
 
-In qualità di Amministratore, puoi visualizzare tutte le estensioni nella pagina Estensioni native. Per visualizzare l’elenco, selezionate Estensioni native nel pannello a sinistra dell’app.
+In qualità di Amministratore, puoi visualizzare tutte le estensioni nella pagina Estensioni native. Per visualizzare l’elenco, seleziona Estensioni native nel pannello a sinistra dell’app.
 
 ![visualizza immagine estensioni](assets/view-extensions.png)
 *Visualizza tutte le estensioni*
 
-## Attivare o disattivare un’estensione
+## Abilitare o disabilitare un’estensione
 
 In qualità di Autore, nella pagina Impostazioni di un corso, puoi abilitare o disabilitare un’estensione per un corso, una certificazione o un percorso di apprendimento.
 
@@ -90,7 +90,7 @@ In qualità di Autore, nella pagina Impostazioni di un corso, puoi abilitare o d
 
 ## Condividere una chiave di accesso
 
-Se si configura un&#39;estensione di registrazione, è necessario condividere la chiave di accesso.
+Devi condividere la chiave di accesso se stai configurando un’estensione di iscrizione.
 
 Questo è importante perché se questa chiave non viene generata e condivisa tra gli utenti, l’autenticazione per l’iscrizione non riesce e gli Allievi non possono iscriversi ai corsi.
 
@@ -101,13 +101,13 @@ Nella scheda Impostazioni, genera la chiave.
 ![condividi immagine chiave](assets/share-extension.png)
 *Condividere la chiave di accesso*
 
-## Scarica report estensione
+## Scaricare il report dell’estensione
 
 È possibile scaricare questo report in due modi.
 
 **Report di configurazione dell’estensione**
 
-1. Nella pagina Estensioni native, seleziona **[!UICONTROL Report di configurazione estensioni]**.
+1. Nella pagina Estensioni native, seleziona **[!UICONTROL Report di configurazione dell’estensione]**.
 
    ![immagine report](assets/extension-config-report.png)
    *Scarica report estensione*
@@ -121,16 +121,16 @@ Nella scheda Impostazioni, genera la chiave.
 
    Il report contiene i seguenti campi:
 
-   * Nome estensione
-   * Punto di richiamo
+   * Nome dell’estensione
+   * Punto di invocazione
    * Etichetta
    * Apri in URL
    * Ambito
    * Attiva
    * ID univoco LO
    * ID del corso di formazione
-   * Tipo di corso di formazione
-   * Nome del corso di formazione
+   * Tipo di formazione
+   * Nome formazione
 
 **Pagina Report**
 

@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Aggiungere utenti in blocco
+title: Aggiunta di utenti in blocco
 description: Scopri come aggiungere più utenti alla volta.
 contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
 
 
-# Aggiungere utenti in blocco
+# Aggiunta di utenti in blocco
 
 Sì, puoi aggiungere più utenti alla volta procedendo come segue:
 
@@ -20,7 +20,7 @@ Sì, puoi aggiungere più utenti alla volta procedendo come segue:
 
 1. Puoi aggiungere più utenti utilizzando un file .CSV. Fai clic **[!UICONTROL Importa]** e seleziona/apri il file .csv dal computer.
 
-1. Dopo aver importato il file, mappa il contenuto del file .csv con le etichette dell’applicazione quando carichi per la prima volta il file .csv.
+1. Dopo aver importato il file, mappa il contenuto del file .csv con le etichette dell’applicazione quando carichi per la prima volta il suddetto file.
 
    Per tutti i caricamenti successivi, vengono considerate le impostazioni precedenti per le etichette. Fai clic **[!UICONTROL Salva]** dopo aver completato la mappatura dei dati e fare clic su **[!UICONTROL Aggiungi]** per caricare il file .csv mappato.
 

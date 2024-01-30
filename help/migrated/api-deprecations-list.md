@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ Nella tabella seguente sono elencati i limiti di velocità e velocità di framme
         <th>Numero di richieste - Burst</th>
     </tr>
     <tr>
-        <td>Amministratore</td>
+        <td>Amministrazione</td>
         <td>5</td>
         <td>5</td>
     </tr>
@@ -124,26 +124,26 @@ Nella versione successiva di Adobe di Learning Manager, nome e nome diventano ob
 
 ## Rimozione delle API nella versione di novembre 2023 di Adobe Learning Manager
 
-### Flag Sostituisci
+### Flag di esclusione
 
-Nella versione di novembre 2023 di Adobe Learning Manager, abbiamo interrotto il contrassegno di esclusione dalle API. Il flag di esclusione non fa parte della specifica API pubblica ed è destinato al test back-end. Il flag per le API degli Allievi ora non è più disponibile. Tuttavia, il flag è ancora valido per le API degli amministratori.
+Nella versione di novembre 2023 di Adobe Learning Manager, abbiamo interrotto il contrassegno di esclusione dalle API. in quanto non fa parte delle specifiche dell’API pubblica ed è dunque destinato al test in back-end. Il flag non è più disponibile per le API degli Allievi, ma è ancora valido per le API degli Amministratori.
 
 Il motivo per cui il flag per le API degli Allievi viene rimosso è perché il flag di esclusione recuperava una grande quantità di dati tramite le API degli Allievi.
 
-In futuro, la seguente API Allievo non funzionerà più perché ha il flag di esclusione.
+D’ora in avanti, la seguente API per Allievi non funzionerà più perché contiene il flag di esclusione.
 
 <code>https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&amp;pagina[limite]=10&amp;sort=id&amp;override=TRUE</code>
 
 ### Modifiche alle API per nuovi consigli basati sulle competenze
 
-L’Adobe di Learning Manager migliora i consigli per gli account abilitati per i clienti e i partner. Questo miglioramento dell’algoritmo di raccomandazione con la modifica dell’algoritmo di classificazione per corsi, percorsi di apprendimento e certificazioni offre una migliore esperienza utente nell’individuazione dei contenuti.
+Adobe Learning Manager ha migliorato i suggerimenti per gli account di clienti e partner. L’ottimizzazione dell’algoritmo dei suggerimenti ha comportato la modifica dell’algoritmo di classificazione per corsi, percorsi di apprendimento e certificazioni, aiutando così gli utenti a trovare facilmente contenuti.
 
-L’algoritmo non consentirà più raccomandazioni basate su peer. La modifica non interesserà gli utenti esistenti, ma l’opzione Allineato al settore continuerà a esistere. Per l’opzione Personalizzato, l’Adobe Learning Manager non consentirà più la selezione personalizzata basata su peer.
+L’algoritmo non consentirà più suggerimenti in base alle attività dei colleghi. La modifica non interesserà gli utenti esistenti, ma l’opzione Allineato al settore resterà disponibile. Per l’opzione Personalizzato, Adobe Learning Manager non consentirà più la selezione personalizzata in base alle attività dei colleghi.
 
-Il gruppo di colleghi diventa ora un account e gli allievi vedranno una stringa che mostra gli argomenti di tendenza nel gruppo. Tutti i consigli sono spiegabili. Ad esempio, se stai visualizzando qualcosa su un soggetto, la scheda sulla striscia mostrerà il motivo del corso.
+Il gruppo di colleghi diventerà un account e gli Allievi vedranno una stringa con gli argomenti di tendenza nel gruppo. Tutti i suggerimenti comprendono spiegazioni. Ad esempio, se si consulta un argomento, la scheda sulla striscia riporta la descrizione del corso.
 
 ### Modifiche Nel Report Annuncio Notifiche
 
-Nelle versioni precedenti di Adobe Learning Manager, il report Annuncio notifica non disponeva di filtri. Adobe Learning Manager ha scaricato tutte le notifiche dell’account.
+Nelle versioni precedenti di Adobe Learning Manager, il report Annuncio notifica non disponeva di filtri. per cui venivano scaricate tutte le notifiche di un account.
 
 Nella versione di novembre 2023, è stato aggiunto un filtro per data, con cui è possibile scaricare le notifiche entro un periodo specificato.  Tuttavia, puoi scaricare il report solo per gli ultimi sei mesi.

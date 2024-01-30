@@ -1,16 +1,16 @@
 ---
 jcr-language: en_us
-title: Condividi sui social
+title: Condividi sul social
 contentowner: kuppan
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '6'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# Condividi sui social
+# Condividi sul social
 

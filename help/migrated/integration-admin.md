@@ -6,7 +6,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/integration-admin2.png"></td> 
-   <td><p>Continua a leggere per scoprire le funzionalità di Learning Manager associate al ruolo di Amministratore dell’integrazione. </p> <p>L’Amministratore dell’integrazione è un Amministratore che integra l’applicazione Learning Manager di Adobe con qualsiasi applicazione di terze parti o delle applicazioni della tua organizzazione, ad esempio SalesForce o FTP. Un Amministratore dell’integrazione di Learning Manager può anche sviluppare applicazioni basate sulle API di Learning Manager. </p></td> 
+   <td><p>Continua a leggere per scoprire le funzionalità relative a Learning Manager associate al ruolo di Amministratore dell’integrazione. </p> <p>L’Amministratore dell’integrazione è un Amministratore che integra l’applicazione Adobe Learning Manager con tutte le applicazioni di terze parti o le applicazioni della tua organizzazione, ad esempio SalesForce o FTP. Un Amministratore dell’integrazione di Learning Manager può anche sviluppare applicazioni basate sulle API di Learning Manager. </p></td> 
   </tr> 
  </tbody>
 </table>
 
-## Funzioni {#features}
+## Funzionalità {#features}
 
 * [Manuale di migrazione](integration-admin/feature-summary/migration-manual.md)
 

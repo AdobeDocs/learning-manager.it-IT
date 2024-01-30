@@ -6,7 +6,7 @@ contentowner: shhivkum
 source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 0%
+ht-degree: 63%
 
 ---
 
@@ -16,30 +16,30 @@ ht-degree: 0%
 
 Leggi questo articolo per scoprire come gestire i moduli come Istruttore in Learning Manager.
 
-## Visualizza panoramica della sessione {#viewsessionoverview}
+## Visualizzazione delle informazioni generali sulla sessione {#viewsessionoverview}
 
-1. Nel riquadro a sinistra, fai clic su Sessione successiva.
-1. Dall’elenco delle sessioni future, seleziona la sessione di cui desideri visualizzare i dettagli.
+1. Nel riquadro a sinistra, fai clic su Sessioni pianificate.
+1. Nell’elenco delle sessioni pianificate, seleziona la sessione di cui desideri visualizzare i dettagli.
 
-   L’app mostra la panoramica della sessione con dettagli come il nome della sessione, il luogo, gli orari, il limite di iscrizione, il limite della lista d’attesa e così via.
+   L’app visualizza le informazioni generali sulla sessione, fornendo dettagli quali il nome della sessione, la sede, gli orari, il limite di iscrizioni, il limite per la lista d’attesa e così via.
 
    ![](assets/upcomingsessions.png)
    *Visualizza sessioni future*
 
-## Configurazione dei dettagli della sessione {#configuresessiondetails}
+## Configurazione dei dettagli delle sessioni {#configuresessiondetails}
 
-1. Nel riquadro a sinistra, fai clic su Sessione successiva.
+1. Nel riquadro a sinistra, fai clic su Sessioni pianificate.
 1. Seleziona la sessione che desideri aggiornare.
 1. Fai clic su Modifica nell’angolo in alto a destra.
 
    ![](assets/sessiondetails.png)
    *Configurazione dei dettagli della sessione*
 
-1. Dalla pagina Panoramica sessione è possibile modificare gli orari delle sessioni, la data, il luogo e così via. Puoi anche modificare o aggiungere i seguenti dettagli della sessione:
+1. Dalla pagina delle informazioni generali sulla sessione è possibile modificarne gli orari, la data, la sede e così via. È inoltre possibile modificare o aggiungere i seguenti dettagli:
 
-   * Specifica il limite di iscrizione per impostare il numero massimo di allievi consentiti per la sessione.
-   * Specifica il limite della lista d’attesa per impostare il numero massimo di Allievi consentito in lista d’attesa per la sessione.
-   * Nel campo Consenti invii, seleziona Sì per consentire agli Allievi di inviare compiti. Se selezioni No, gli Allievi non potranno caricare gli invii delle assegnazioni per la sessione.
+   * Specificare il limite di iscrizioni per impostare il numero massimo di Allievi ammessi alla sessione.
+   * Specificare il limite per la lista di attesa se si desidera impostare il numero massimo di Allievi ammessi alla lista di attesa per la sessione.
+   * Nel campo Consenti invii, seleziona Sì per consentire agli Allievi di inviare assegnazioni. Se selezioni No, gli Allievi non potranno caricare gli invii delle assegnazioni per la sessione.
 
    ![](assets/editsessiondetails.png)
    *Modificare i dettagli della sessione*
@@ -48,67 +48,67 @@ Leggi questo articolo per scoprire come gestire i moduli come Istruttore in Lear
 
    Non è possibile modificare il campo Istruttore da questa pagina.
 
-## Carica i file di risorse per la sessione {#uploadresourcefilesforyoursession}
+## Caricamento dei file di risorse per la sessione {#uploadresourcefilesforyoursession}
 
-In qualità di Istruttore, puoi caricare file di risorse come file delle assegnazioni o presentazioni per i moduli, o file delle attività per il modulo. Utilizzare il menu Risorse per aggiungere file di risorse per il modulo o la sessione.
+Come Istruttore, puoi caricare file di risorse quali file di assegnazione o presentazioni per i moduli o file di attività per il modulo. Usa il menu Risorse per aggiungere file di risorse al tuo modulo o alla tua sessione.
 
-1. Dall’app dell’Istruttore, fai clic su Sessioni successive > Risorse.
+1. Dall’applicazione dell’Istruttore, fai clic su Sessioni pianificate > Risorse.
 
-   Puoi visualizzare la pagina Risorse, che contiene già un collegamento alle risorse che gli autori potrebbero aver caricato per il corso associato al modulo. Inoltre, gli istruttori possono anche caricare file di risorse per i moduli.
+   Puoi visualizzare la pagina Risorse, che presenta già un collegamento alle risorse che gli Autori potrebbero aver caricato per il corso associato al tuo modulo. Inoltre, gli Istruttori possono anche caricare file di risorse per i moduli.
 
 1. Fai clic su Aggiungi.
 
    ![](assets/addresource.png)
    *Aggiungi una risorsa per la sessione*
 
-1. Individuate il file appropriato nel computer. Selezionate il file e fate clic su Apri.
-1. Dopo aver caricato il file, puoi visualizzarlo insieme alla data in cui è stato aggiunto.
+1. Individua il file appropriato sul computer in uso. Seleziona il file e fai clic su Apri.
+1. Una volta caricato, il file viene visualizzato insieme alla data in cui è stato aggiunto.
 
-   Gli Allievi iscritti a questo modulo potranno vedere i file una volta caricati, nella sezione Risorse in Corsi.
+   Una volta caricati, i tuoi file possono essere visualizzati dagli Allievi iscritti al modulo nella sezione Risorse in Corsi.
 
-   Per eliminare un file di risorse, selezionare il file o i file da eliminare. Fai clic su Azioni > Elimina file dalla pagina Risorse.
+   Per eliminare un file di risorse, seleziona il file che desideri eliminare. Fai clic su Azioni > Elimina file dalla pagina Risorse.
 
-## Invio di file per i moduli attività {#filesubmissionforactivitymodules}
+## Invio di file per moduli di attività {#filesubmissionforactivitymodules}
 
-Il modulo attività supporta il flusso di lavoro Invio file. In qualità di Autore, crea un modulo attività e seleziona  **[!UICONTROL Invio di file]** opzione. Ciò consente agli Allievi di inviare un file.
+Il modulo di attività supporta il flusso di lavoro di invio dei file. In qualità di Autore, crea un modulo attività e seleziona  **[!UICONTROL Invio di file]** opzione. Ciò consente agli Allievi di inviare file.
 
-Questi file possono essere approvati/rifiutati dagli Istruttori del modulo. Il modulo viene completato solo dopo che l’Istruttore approva l’invio.
+Tali file possono essere approvati o rifiutati dagli Istruttori del modulo. Il modulo viene completato solo dopo l’approvazione dell’invio da parte dell’Istruttore.
 
 ![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
 *Approva o rifiuta i file*
 
-## Valuta modulo elenco di controllo {#evaluate-checklist-module}
+## Valutazione del modulo dell’elenco di controllo {#evaluate-checklist-module}
 
-Dopo che l’Allievo segue il corso, l’Istruttore vede il modulo dell’elenco di controllo nella pagina Invii/Elenchi di controllo in **Moduli** sezione. Questa pagina contiene tutti i moduli di elenco di controllo delle attività insieme ai moduli di invio delle attività per i quali sono necessarie le revisioni. Per ogni modulo, viene visualizzato il numero di allievi per i quali è prevista la valutazione.
+Dopo che l’Allievo segue il corso, l’Istruttore vede il modulo dell’elenco di controllo nella pagina Invii/Elenchi di controllo in **Moduli** sezione. Questa pagina contiene tutti i moduli di elenco di controllo delle attività e i moduli di invio delle attività per cui sono necessarie le revisioni. Per ogni modulo, il numero di allievi è visualizzato per quelli che devono essere sottoposti a valutazione.
 
-Nella pagina seguente, puoi visualizzare i moduli di tipo **Invio** e **Checklist**. Per questo esempio, utilizzeremo il modulo Checklist.
+Nella pagina seguente, puoi visualizzare i moduli di tipo **Invio** e **Checklist**. Per questo esempio, useremo il modulo Elenco di controllo.
 
 ![](assets/modules-list.png)
 *Visualizzare l’elenco dei moduli*
 
 Fare clic sul modulo Elenco di controllo. Nella **Checklist** pagina, viene visualizzato quanto segue:
 
-* Nome del modulo
-* Nome del corso
-* Istanza a cui appartiene il corso
-* Criteri di superamento impostati dall&#39;autore
-* Numero di domande dell&#39;elenco di controllo
+* Il nome del modulo
+* Il nome del corso
+* L’istanza cui appartiene il corso
+* I criteri di superamento impostati dall’autore
+* Il numero di domande dell’elenco di controllo
 
 ![](assets/checklist-page.png)
 *Visualizzare la pagina dell’elenco di controllo*
 
-Per valutare un Allievo, fai clic su **[!UICONTROL Valutare]** nella **[!UICONTROL Checklist]** colonna. È inoltre possibile verificare che lo stato della revisione sia **In sospeso**.
+Per valutare un Allievo, fai clic su **[!UICONTROL Valutare]** nella **[!UICONTROL Checklist]** colonna. Puoi anche vedere che lo stato della revisione è **In sospeso**.
 
-Valuta l’Allievo e fai clic su **[!UICONTROL Invia]**. In qualità di Istruttore, devi rispondere a tutte le domande di valutazione.
+Valuta l’Allievo e fai clic su **[!UICONTROL Invia]**. Come istruttore, devi rispondere a tutte le domande di valutazione.
 
 ![](assets/checklist-evaluation-screen.png)
 *Elenco di controllo per la valutazione*
 
-A seconda dei criteri di superamento, lo stato sarà Non riuscito o Superato.
+A seconda dei criteri di superamento, lo stato sarà Non superato o Superato.
 
-Una volta valutato, un elenco di controllo non può essere rivalutato.
+Una volta valutato, un elenco di controllo non può essere sottoposto a un’altra valutazione.
 
-L’Istruttore può anche visualizzare le risposte inviate dagli altri istruttori del modulo.
+Un istruttore può anche visualizzare le risposte inviate da altri istruttori del modulo.
 
 Puoi esportare gli Allievi come file CSV in base al filtro di ricerca applicato.
 
@@ -116,7 +116,7 @@ Dopo che l’istruttore ha valutato il corso utilizzando l’elenco di controllo
 
 ## Commenti dell’istruttore per il rifiuto di un’attività {#rejection-comments}
 
-Un Allievo può visualizzare il commento di un Istruttore nella notifica inviata per il rifiuto. L’Allievo può quindi inviare nuovamente il modulo fornendo ulteriori informazioni sotto forma di commenti.
+Un Allievo può visualizzare il commento di un Istruttore nella notifica inviata per il rifiuto. L’Allievo può quindi rispondere fornendo ulteriori informazioni sotto forma di commenti.
 
 Flusso di lavoro:
 
@@ -149,23 +149,23 @@ Flusso di lavoro:
 
 Per tenere conto delle modifiche, l’Adobe ha aggiornato il modello e-mail per **Invio rifiutato**.
 
-## Aggiungere punteggi e commenti per i moduli attività {#addscoresandcommentsforactivitymodules}
+## Aggiunta di punteggi e commenti per i moduli di attività {#addscoresandcommentsforactivitymodules}
 
-Per aggiungere punteggi e commenti per i moduli di attività inviati per l&#39;invio, procedere come segue:
+Per aggiungere punteggi e commenti ai moduli di attività inviati, procedi come indicato di seguito:
 
-1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Allievo]**.
+1. Nel riquadro a sinistra, fai clic **[!UICONTROL su Allievi]**.
 
    ![](assets/learners.png)
    *Seleziona un Allievo*
 
-1. Nella pagina dell’Allievo, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Modifica punteggi e commenti]**.
+1. Nella pagina Allievi, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Modifica punteggi e commenti]**.
 
    ![](assets/edit-scores-comments.png)
    *Aggiungere commenti*
 
-   Per gli Allievi che non hanno completato il corso, il campo di input Punteggio e commenti non verrà visualizzato.
+   Per gli Allievi che non hanno completato il corso, i campi di immissione del punteggio e dei commenti non verranno visualizzati.
 
    ![](assets/editing-scores-andcomments.png)
    *Modificare punteggi e commenti*
 
-1. Fai clic **[!UICONTROL Salva]**.
+1. Fai clic su **[!UICONTROL Salva]**.

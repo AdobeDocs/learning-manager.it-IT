@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Mappare abilità con domini di abilità
-description: Per fare in modo che il motore di cura basato su intelligenza artificiale esegua la cura automatica di un post pubblicato da un utente per un particolare dominio di abilità, l’azienda dell’utente deve disporre delle proprie abilità personalizzate da mappare ai domini di abilità supportati presenti nell’LMS di Learning Manager.
+description: Per fare in modo che il motore di cura basato su intelligenza artificiale esegua la cura automatica di un post pubblicato da un utente per un particolare dominio di abilità, l’azienda dell’utente deve disporre delle proprie abilità personalizzate da mappare ai domini di abilità supportati presenti in LMS di Learning Manager.
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
@@ -14,42 +14,42 @@ ht-degree: 0%
 
 # Mappare abilità con domini di abilità
 
-Per fare in modo che il motore di cura basato su intelligenza artificiale esegua la cura automatica di un post pubblicato da un utente per un particolare dominio di abilità, l’azienda dell’utente deve disporre delle proprie abilità personalizzate da mappare ai domini di abilità supportati presenti nell’LMS di Learning Manager.
+Per fare in modo che il motore di cura basato su intelligenza artificiale esegua la cura automatica di un post pubblicato da un utente per un particolare dominio di abilità, l’azienda dell’utente deve disporre delle proprie abilità personalizzate da mappare ai domini di abilità supportati presenti in LMS di Learning Manager.
 
-Durante la creazione di un’abilità, un Amministratore può mapparla ai domini di abilità più rilevanti supportati da Learning Manager. Ciò verrà ulteriormente considerato nel processo di cura automatica. L’LMS di Learning Manager elenca le seguenti abilità:
+Durante la creazione di un’abilità, un Amministratore può mapparla ai domini di abilità più rilevanti supportati da Learning Manager. Ciò verrà ulteriormente considerato durante il processo di cura automatica. LMS di Learning Manager elenca le seguenti abilità:
 
-* Gestione della supply chain
+* Gestione della catena di distribuzione
 * Contabilità
-* Ricerca scientifica e ingegneria
-* Protezione del computer
+* Ricerca scientifica e progettazione
+* Sicurezza del computer
 * Gestione strategica
 * Social media
 * Medicina
 * Finanza
-* Sicurezza sul posto di lavoro
-* Abilità morbide
-* Diritto commerciale
-* Gestione
+* Sicurezza sul lavoro
+* Abilità soft
+* Diritto aziendale
+* Management
 * Gestione delle risorse umane
 * Comunicazione tecnica
 * Etica aziendale
 * Gestione delle relazioni con i clienti
-* Tecnologia dell&#39;informazione
-* Produzione e fabbricazione
+* Tecnologia dell’informazione
+* Produzione
 * Marketing
 * Gestione della qualità
-* Processo aziendale
+* Processi aziendali
 * Apprendimento
-* Progettazione
-* Analytics
+* Design
+* Analisi
 * Vendite
 
-Per aggiungere un dominio di abilità, segui i passaggi riportati di seguito:
+Per aggiungere un dominio di abilità, procedi nel modo seguente:
 
-1. Nel riquadro a sinistra dell’app Amministratore, fai clic su **[!UICONTROL Abilità]**.
-1. Per aggiungere un’abilità, fai clic su **[!UICONTROL Aggiungi]** in alto a destra.
-1. Nella **[!UICONTROL Aggiungi abilità]** , aggiungi un’abilità e una descrizione.
-1. Nella **[!UICONTROL Dominio abilità]** aggiungi i domini di abilità. Quando immetti un dominio, i domini vengono aggiunti. Questi domini sono compilati dall&#39;elenco di cui sopra.
+1. Nel riquadro sinistro dell’app di amministrazione, fai clic su **[!UICONTROL Abilità]**.
+1. Per aggiungere un’abilità, fai clic su **[!UICONTROL Aggiungi]** nell’angolo superiore destro della pagina.
+1. Nella finestra di dialogo **[!UICONTROL Aggiungi abilità]**, aggiungi un’abilità e una descrizione dell’abilità.
+1. Nella sezione **[!UICONTROL Dominio abilità]**, aggiungi i domini di abilità. I domini vengono aggiunti quando li inserisci. Questi domini sono popolati dalla lista sopramenzionata.
 
    ![](assets/skill-domain-mapping.png)
 
@@ -57,11 +57,11 @@ Per aggiungere un dominio di abilità, segui i passaggi riportati di seguito:
 
 1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**.
 
-Quando un utente pubblica un contenuto in una bacheca, il contenuto viene selezionato e viene approvato o rifiutato, a seconda del punteggio di confidenza rispetto all’abilità mappata alla bacheca.
+Quando un utente pubblica un contenuto su una bacheca, il contenuto viene sottoposto a cura e viene approvato o rifiutato a seconda del suo punteggio di confidenza rispetto all’abilità mappata alla bacheca.
 
 <!--![](assets/content-uploaded.png)-->
 
-A seconda che il contenuto caricato abbia un punteggio di affidabilità superiore al 50%, il contenuto viene caricato nella bacheca. Se il tuo contenuto soddisfa i criteri, viene visualizzata una notifica che indica che il contenuto è stato curato correttamente ed è ora disponibile nella bacheca.
+Se il contenuto da caricare ha un punteggio di confidenza superiore al 50%, il contenuto viene caricato sulla bacheca. Se i tuoi contenuti soddisfano i criteri, vedrai una notifica che conferma che la cura del contenuto è avvenuta correttamente e che esso è disponibile sulla bacheca.
 
 ![](assets/curation-notification.png)
 

@@ -1,5 +1,5 @@
 ---
-description: Fai clic sui collegamenti in questo argomento per informazioni sugli Istruttori in Learning Manager
+description: Per ulteriori informazioni sugli Istruttori in Learning Manager, fai clic sui collegamenti relativi a questo argomento.
 jcr-language: en_us
 title: Istruttori
 contentowner: shhivkum
@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Istruttori
 
-Fai clic sui collegamenti in questo argomento per informazioni sugli Istruttori in Learning Manager
+Per ulteriori informazioni sugli Istruttori in Learning Manager, fai clic sui collegamenti relativi a questo argomento.
 
 <table> 
  <tbody>
@@ -30,9 +30,9 @@ Fai clic sui collegamenti in questo argomento per informazioni sugli Istruttori 
 
 [Domande frequenti](instructors/frequently-asked-questions-for-instructors.md)
 
-## Funzioni {#features}
+## Funzionalità {#features}
 
-[Introduzione](instructors/feature-summary/getting-started.md)
+[Guida introduttiva](instructors/feature-summary/getting-started.md)
 
 [Moduli](instructors/feature-summary/modules.md)
 

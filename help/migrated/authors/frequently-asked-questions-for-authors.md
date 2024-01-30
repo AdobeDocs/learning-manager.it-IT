@@ -6,7 +6,7 @@ contentowner: admin
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 0%
+ht-degree: 51%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
   <tr>
    <td><img src="assets/authors2.png"></td>
    <td>
-    <p>Continua a leggere per scoprire le domande frequenti relative a Learning Manager associate al ruolo di Autore. </p></td>
+    <p>Leggi l’articolo per conoscere le domande frequenti di Learning Manager associate al ruolo di Autore. </p></td>
   </tr>
  </tbody>
 </table>
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 Il ciclo di vita tipico di un corso è il seguente:
 
-**Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli Allievi.
+**Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli allievi.
 
 **Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli Allievi.
 
 **Ritirato** - Dopo aver pubblicato un corso, puoi attribuirgli lo stato Ritirato se desideri che il corso non venga più visualizzato nel catalogo dei corsi per gli Allievi.
 
-**Eliminato** - A un corso viene attribuito lo stato Eliminato quando viene rimosso completamente dall’applicazione di Learning Manager per Adobi. Gli Autori possono eliminare il corso solo quando si trovano nello stato Bozza o Ritirato.
+**Eliminato** - A un corso viene attribuito lo stato Eliminato quando viene rimosso completamente dall’applicazione di Learning Manager per Adobi. Gli autori possono cancellare il corso solo quando sono in stato di Bozza o Ritirato.
 
 +++
 
@@ -42,7 +42,7 @@ Il ciclo di vita tipico di un corso è il seguente:
 
 Puoi pubblicare il tuo progetto Captivate 9 completato in Adobe Learning Manager come modulo. In un progetto Captivate 9 aperto, utilizzare **Pubblica** > **Pubblica su Adobe Learning Manager** e seguire le istruzioni per pubblicare un modulo.
 
-Fare riferimento a  [Adobe di Learning Manager: pubblicazione di moduli da Adobe Captivate 9](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)video per ulteriori informazioni.
+Fare riferimento a  [Adobe di Learning Manager: pubblicazione di moduli da Adobe Captivate 9](http://primehelp.adobe.com/it/publish-modules-from-adobe-captivate9/)video per ulteriori informazioni.
 
 Puoi anche fare riferimento ad Adobe Captivate 9  [contenuto della guida](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) procedura dettagliata.
 
@@ -59,11 +59,11 @@ Fai clic  [qui](https://helpx.adobe.com/content/help/en/captivate-prime/authors/
 
 +++Quali sono i diversi tipi di iscrizione ai corsi?
 
-Durante la creazione del corso, puoi scegliere il tipo di iscrizione come corsi con iscrizione autonoma, corsi assegnati dal Manager o corsi approvati dal Manager:
+Durante la creazione del corso, puoi scegliere il tipo di iscrizione come corsi con iscrizione autonoma, corsi assegnati dal manager o corsi approvati dal manager:
 
 **Nominato dal Manager** Questi corsi possono essere assegnati solo dai Manager. L’Allievo non può effettuare l’iscrizione a questo tipo di corsi.
 
-**È richiesta l&#39;approvazione del manager** Questi corsi devono essere approvati dai Manager. Gli Allievi possono registrarsi a questi corsi, ma non vengono iscritti direttamente senza l’approvazione del Manager. Una richiesta di notifica viene inviata ai Manager quando gli Allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del Manager, gli Allievi risulteranno iscritti ai corsi.
+**È richiesta l&#39;approvazione del manager** Questi corsi devono essere approvati dai Manager. Gli Allievi possono registrarsi a questi corsi, ma non vengono iscritti direttamente senza l’approvazione del Manager. Una richiesta di notifica viene inviata ai manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del manager, gli allievi risulteranno iscritti ai corsi.
 
 **Iscrizione autonoma** Gli Allievi possono iscriversi direttamente a questo tipo di corsi.
 
@@ -77,9 +77,9 @@ Sì. In modalità Autore, i corsi vengono visualizzati in base alle pagine nelle
 
 +++Come posso eliminare i corsi?
 
-Gli Autori possono eliminare i corsi non pubblicati o ritirati. Dopo aver pubblicato un corso, puoi ritirare un corso e spostarlo di nuovo nello stato Pubblicato. Per eliminare i corsi non pubblicati, procedi come segue:
+Gli autori possono eliminare corsi non pubblicati o ritirati. Dopo aver pubblicato un corso, puoi ritirare un corso e spostarlo di nuovo nello stato Pubblicato. Per eliminare i corsi non pubblicati, segui la procedura descritta di seguito:
 
-1. Dopo aver creato un corso, fai clic su Corsi personali nel riquadro a sinistra.
+1. Dopo aver creato un corso, fai clic su Corsi personali nel riquadro sinistro.
 1. Passa il mouse sul corso da eliminare e fai clic su Elimina corso.
 1. Rispondi alla finestra di dialogo di conferma facendo clic su OK.
 
@@ -91,7 +91,7 @@ Gli Autori possono eliminare i corsi non pubblicati o ritirati. Dopo aver pubbli
 
 Il ciclo di vita tipico di un corso è il seguente:
 
-**Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli Allievi.
+**Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli allievi.
 
 **Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli Allievi.
 
@@ -103,26 +103,26 @@ Il ciclo di vita tipico di un corso è il seguente:
 
 +++Come si creano i moduli per i corsi?
 
-Crea una libreria di moduli che possono essere allineati ai corsi come moduli autonomi. Gli Autori possono creare moduli seguendo i passaggi riportati di seguito:
+Crea una libreria di contenuti che possa essere allineata ai corsi come moduli autonomi. Gli autori possono creare moduli seguendo la procedura indicata di seguito:
 
 1. Fai clic su Libreria moduli nel riquadro a sinistra dopo aver effettuato l’accesso come Autore.
-1. Fai clic su Aggiungi nell’angolo superiore destro della pagina.
+1. Fai clic su Aggiungi nell’angolo in alto a destra nella pagina.
 1. Inserisci il nome, la descrizione e i tag del modulo.
-1. Scegli il tipo di modulo **Condiviso** se desideri condividere il modulo con tutti gli autori. In caso contrario, scegli Privato.
+1. Scegli il tipo di modulo **Condiviso** se desideri condividere il modulo con tutti gli autori. Altrimenti scegli il tipo Privato.
 1. Fai clic sull’icona Carica modulo e carica il contenuto del modulo.
 1. Fai clic su Salva.
 
-Il modulo verrà elencato nella libreria dei moduli dopo che sarà stato caricato correttamente.
+Il modulo verrà elencato nella libreria dei moduli dopo essere stato completamente caricato.
 
 +++
 
 +++Cosa sono i moduli di verifica, di preparazione e dei contenuti?
 
-L’Autore incontra questi termini durante la creazione dei corsi.
+L’Autore durante la creazione dei corsi incontrerà questi due termini.
 
 **Verifica moduli** rappresenta i moduli principali del corso. Se un Allievo completa questo importante modulo, può essere considerato completamento del corso anche se l’Allievo non completa il contenuto effettivo del corso.
 
-**Moduli contenuto** rappresenta il programma effettivo del corso. L’Allievo può comprendere meglio i contenuti completi del corso studiando tali contenuti.
+**Moduli contenuto** rappresenta il programma effettivo del corso. L’Allievo può capire meglio i contenuti completi del corso studiando tali contenuti.
 
 **Moduli di preparazione** aiuta gli allievi a comprendere le nozioni di base e a prepararsi al corso.
 
@@ -130,29 +130,29 @@ L’Autore incontra questi termini durante la creazione dei corsi.
 
 +++Qual è la differenza tra un lavoro preliminare e un prerequisito?
 
-L’Autore incontra questi termini durante la creazione dei corsi.
+L’Autore durante la creazione dei corsi incontrerà questi due termini.
 
-Il prerequisito corrisponde a tutti i corsi richiesti da seguire prima di seguire il corso specifico. L’Autore può applicare un prerequisito che lo rende obbligatorio per il completamento prima di iniziare il corso.
+Il pre-requisito corrisponde a tutti i corsi necessari da seguire prima di seguire il corso specifico. L’Autore può applicare un prerequisito che lo rende obbligatorio per il completamento prima di iniziare il corso.
 
-I moduli di preparazione corrispondono a tutti i moduli di riferimento consigliati dall’Autore che potrebbero aiutare l’Allievo a comprendere meglio il corso specifico. Non è obbligatorio.
+I moduli di preparazione sono tutti i moduli di riferimenti consigliati dall’Autore e che possono aiutare l’Allievo a comprendere meglio il corso specifico. Non sono obbligatori.
 
 +++
 
 +++È possibile creare programmi di apprendimento per gli Allievi?
 
-I programmi di apprendimento possono essere creati solo dall’Amministratore dell’azienda. Contatta l&#39;amministratore della tua organizzazione.
+I programmi di apprendimento possono essere creati solo dall’Amministratore dell’azienda. Contatta l’Amministratore dell’organizzazione.
 
 +++
 
 +++Come si visualizzano le abilità e lo stato di completamento del corso degli Allievi?
 
-L’Autore non può visualizzare le abilità degli Allievi e lo stato di completamento del corso. Solo l’Amministratore ha i diritti per visualizzare i report di un determinato corso. L’Autore può contattare l’Amministratore per i report.
+L’Autore non può visualizzare le abilità degli Allievi e lo stato di completamento del corso. Solo l’Amministratore ha i diritti per visualizzare i report di un corso specifico. L’Autore può contattare l’Amministratore per i report.
 
 +++
 
 +++Come posso visualizzare l’elenco degli Allievi che frequentano i miei corsi?
 
-L’Autore non può visualizzare l’elenco degli Allievi che frequentano il corso. Solo l’Amministratore ha i diritti per visualizzare gli Allievi iscritti a un determinato corso. L’Autore può contattare l’Amministratore per lo stesso motivo.
+L’Autore non può visualizzare l’elenco degli Allievi che frequentano il corso. Solo l’Amministratore ha i diritti di visualizzare gli Allievi iscritti a uno specifico corso. L’Autore può contattare l’Amministratore per lo stesso motivo.
 
 +++
 
@@ -178,7 +178,7 @@ In qualità di Autore, non puoi accedere ad alcun report. Solo l’Amministrator
 
 Puoi cercare i corsi in due modi:
 
-1. Utilizzando il campo di ricerca visualizzato nell&#39;angolo superiore destro. Per individuare i corsi, digita il nome del corso o una parola chiave associata ad esso.
+1. Utilizzando il campo di ricerca visualizzato in alto a destra. Per individuare i corsi, digita il nome del corso o una parola chiave associata ad esso.
 1. Applicando un filtro all’elenco di corsi. Puoi filtrare i corsi per stato come **Tutti, Pubblicati, Bozza** e **Ritirato** facendo clic su ognuna di queste opzioni.
 
    Puoi anche eseguire una ricerca in base alle competenze facendo clic su **Abilità** e sceglierne ognuno.
@@ -204,25 +204,25 @@ Puoi aggiungere moduli del corso a un nuovo corso o al corso bozza esistente. Pe
 
 È possibile aggiungere moduli alla libreria di moduli facendo clic su **Libreria moduli** e poi **Aggiungi**.
 
-Per aggiungere moduli a un corso già pubblicato, puoi prima creare un duplicato del corso, che viene salvato come bozza, quindi aggiungere i moduli.
+Per aggiungere moduli a un corso già pubblicato, è possibile creare prima un duplicato del corso, salvato come bozza, quindi aggiungere i moduli.
 
 +++
 
 +++Riceverò una notifica quando gli Allievi seguono i corsi? Come?
 
-L’Autore non viene informato quando gli Allievi seguono i corsi. L’Autore può contattare l’Amministratore per ottenere le informazioni richieste.
+L’Autore non viene informato quando gli Allievi seguono i corsi. L’Autore può contattare l’Amministratore per avere le informazioni necessarie.
 
 +++
 
 +++È possibile creare report per i corsi? Come?
 
-Nell’Adobe Learning Manager 1.0, solo gli Amministratori e i Manager possono visualizzare o creare report.
+In Adobe Learning Manager 1.0, solo gli Amministratori e i manager possono visualizzare o creare report.
 
 +++
 
 +++Come posso creare un quiz per il mio corso?
 
-Non è disponibile alcuna opzione esclusiva per la creazione di quiz per i corsi. Puoi crearlo nell’ambito del processo di creazione dei contenuti.
+Non è disponibile alcuna opzione esclusiva per la creazione di quiz per i corsi. Puoi crearli nell’ambito del processo di creazione dei contenuti.
 
 Il quiz è un contenuto SCORM/AICC o Captivate o Presenter, che può essere aggiunto come modulo al corso.
 
@@ -236,28 +236,28 @@ Gli Autori non devono creare un programma di apprendimento per i corsi. I progra
 
 +++Come si crea un corso?
 
-Per creare un corso, segui i passaggi riportati di seguito:
+Per creare un corso, procedi nel seguente modo:
 
-1. Accedi all’Adobe Learning Manager come Autore.
+1. Accedi ad Adobe Learning Manager come autore.
 1. Fai clic **[!UICONTROL Creazione di corsi]** nella pagina iniziale.\
    Viene visualizzata la pagina Informazioni di base.
 
-1. Fornisci le informazioni di base richieste per il corso. Seguire le istruzioni indicate nella Guida statica disponibile.
+1. Fornisci le informazioni di base richieste per il corso. Segui le istruzioni indicate nella Guida statica disponibile.
 1. Fai clic **[!UICONTROL Aggiungi moduli]** a un corso e scegli un modulo dall’elenco dei quattro moduli: Fornisci le informazioni di base richieste per ogni modulo e fai clic su **[!UICONTROL Fine]**.
 
 Una volta completata la creazione del corso, fai clic su Salva. Per impostazione predefinita, il corso viene salvato come bozza. Fai clic **[!UICONTROL Pubblica]** per pubblicare il corso.
 
-Per rendere il corso pronto per la pubblicazione, devi aggiungere il nome del corso, almeno un modulo, il tipo di iscrizione, la competenza, il livello di competenza e i crediti.
+Per rendere il corso idoneo alla pubblicazione, devi aggiungere nome del corso, almeno un modulo, tipo di iscrizione, competenza, livello di competenza e crediti.
 
 Puoi anche pubblicare una bozza di corso elencato seguendo i passaggi riportati di seguito:
 
 1. Fai clic sulla scheda Corsi personali > Bozze
-1. Passa il mouse sul corso e fai clic su Pubblica corso.
+1. Posiziona il mouse sul corso e fai clic su Pubblica corso.
 
 +++
 
 +++Quali formati di corso sono supportati in Learning Manager?
 
-Gli Autori possono importare i corsi di e-learning esistenti creati utilizzando Adobe Captivate e Adobe Presenter. Altri formati di corso supportati includono file video, pdf, docx e pptx. Puoi anche importare contenuti del corso conformi AICC.
+Gli Autori possono importare i corsi di e-learning esistenti creati utilizzando Adobe Captivate e Adobe Presenter. Altri formati dei corsi supportati includono file video, pdf, docx e pptx. Puoi anche importare contenuti del corso conformi AICC.
 
 +++

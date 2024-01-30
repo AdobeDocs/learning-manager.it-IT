@@ -1,24 +1,24 @@
 ---
 jcr-language: en_us
-title: Integrazione con Adobe Connect
-description: Gli Autori possono creare corsi in aula virtuale con Adobe Connect durante la creazione del corso. Per abilitare Adobe Connect per il tuo account Learning Manager, devi contattare l’amministratore della tua organizzazione.
+title: Integrazione Adobe Connect
+description: Gli autori possono creare corsi in classe virtuale con Adobe Connect durante la creazione del corso. Per abilitare Adobe Connect per il tuo account Learning Manager, devi contattare l’amministratore della tua organizzazione.
 contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
 
 
-# Integrazione con Adobe Connect
+# Integrazione Adobe Connect
 
-Gli Amministratori di un’organizzazione possono configurare le impostazioni dell’account Learning Manager per abilitare l’integrazione Adobe Connect.
+Gli Amministratori di un’organizzazione possono configurare le impostazioni dell’account Learning Manager per consentire l’integrazione Adobe Connect.
 
 ## Configurazione di Adobe Connect {#configureadobeconnect}
 
-1. Nell’accesso come Amministratore, fai clic su **[!UICONTROL Impostazioni]** nel riquadro di sinistra per visualizzare le informazioni di base sulla società. Fai clic **[!UICONTROL Adobe Connect]** nel riquadro sinistro.
+1. Nell’accesso come Amministratore, fai clic su **[!UICONTROL Impostazioni]** nel riquadro a sinistra per visualizzare le informazioni di base sulla tua azienda. Fai clic **[!UICONTROL Adobe Connect]** nel riquadro sinistro.
 
    ![](assets/left-pane.png)
 
@@ -37,19 +37,19 @@ Gli Amministratori di un’organizzazione possono configurare le impostazioni de
    URL di Adobe Connect di esempio: mycompany.adobeconnect.com\
    È necessario fornire l’ID e-mail dell’Amministratore dell’account di connessione di Adobe.
 
-   In Learning Manager sono supportati solo gli account di connessione ospitati di Adobe. Esempio: &quot;.adobeconnect.com&quot;.
+   In Learning Manager sono supportati solo gli account Adobe Connect ospitati (hosted). Esempio: “.adobeconnect.com”.
 
 1. Fai clic **[!UICONTROL Integrazione].**
 
-   Dopo l’autenticazione dell’ID e-mail, Learning Manager visualizza il messaggio quando Connect è integrato correttamente. Puoi iniziare a visualizzare i corsi in aula virtuale utilizzando Adobe Connect automaticamente.
+   Dopo l’autenticazione dell’ID e-mail, Learning Manager visualizza il messaggio quando Connect è integrato correttamente. Puoi iniziare a visualizzare i corsi in aula virtuale utilizzando Adobe Connect.
 
-   L’amministratore dell’account Adobe Connect deve accettare i Termini e le Condizioni d’uso di Adobe Connect. In caso contrario, l’autenticazione di accesso potrebbe non riuscire. Dopo aver creato l’account Adobe Connect, accedi all’account una volta. Al primo accesso, viene visualizzata una pagina di termini e condizioni.
+   L’Amministratore dell’account Adobe Connect deve accettare i termini e condizioni d’uso di Adobe Connect. In caso di mancata accettazione, l’autenticazione di accesso potrebbe non riuscire. Dopo averlo creato, accedi all’account Adobe Connect una volta. Al primo accesso, viene visualizzata una pagina di termini e condizioni.
 
    <!--![](assets/mail-confirmation.png)-->
 
-## Aggiungere informazioni sulla sessione aula virtuale {#addvirtualclassroomsessioninformation}
+## Aggiunta di informazioni alla sessione aula virtuale {#addvirtualclassroomsessioninformation}
 
-Se l’Autore di un corso in aula virtuale non ha fornito le informazioni sulla sessione, l’Amministratore può includere i dettagli della sessione.
+Se l’Autore di un corso in aula virtuale non ha fornito le informazioni sulla sessione, l’Amministratore può includere dettagli sulla sessione.
 
 Nell’accesso come Amministratore, fai clic sul nome del corso aula virtuale. Fai clic **[!UICONTROL Istanze]** nel riquadro a sinistra e fare clic su **[!UICONTROL Dettagli della sessione]**.  Fai clic sull’icona Modifica nell’angolo destro della pagina Dettagli sessione per aggiungere le informazioni sulla sessione.
 
@@ -57,11 +57,11 @@ Nell’accesso come Amministratore, fai clic sul nome del corso aula virtuale. F
 
 *Aggiungere informazioni sulla sessione aula virtuale*
 
-Con l’integrazione di Adobe Learning Manager e Adobe Connect per la creazione di moduli o sessioni aula virtuale, il tuo account Connect dovrebbe supportare le sale riunioni con un numero di sale e utenti simultanei adeguato alle tue esigenze. Queste sale riunioni vengono utilizzate per ospitare i moduli aula virtuale di Learning Manager. Una nuova sala riunioni Connect viene creata dinamicamente da Learning Manager per ogni modulo o sessione aula virtuale all’interno di Learning Manager.
+Con l’integrazione di Adobe Learning Manager e Adobe Connect per la creazione di moduli o sessioni aula virtuale, il tuo account Connect dovrebbe supportare le sale riunioni con un numero di sale e utenti simultanei adeguato alle tue esigenze. Queste sale riunioni vengono utilizzate per ospitare i moduli aula virtuale di Learning Manager. Una nuova sala riunioni Connect viene creata in modo dinamico da Learning Manager per ciascun modulo o sessione aula virtuale all’interno di Learning Manager.
 
-È necessario acquistare Adobe Connect separatamente, a parte l’Adobe Learning Manager.
+È necessario acquistare Adobe Connect e Adobe Learning Manager separatamente.
 
-## Partecipazione degli Allievi {#learnersattendance}
+## Partecipazione degli allievi {#learnersattendance}
 
 Se l’ospitante del corso in aula virtuale non partecipa alla sessione, la partecipazione non viene registrata automaticamente per gli Allievi che hanno partecipato alla sessione. In tali scenari, l’Amministratore può registrare manualmente la partecipazione.
 

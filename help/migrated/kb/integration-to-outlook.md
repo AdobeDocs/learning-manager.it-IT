@@ -1,13 +1,13 @@
 ---
 description: Scopri in che modo amministratori e istruttori possono visualizzare le risposte di un Allievo in formazione agli inviti del calendario.
 jcr-language: en_us
-title: Visualizzazione della risposta dell’Allievo in formazione a un invito del calendario di Outlook in Learning Manager
+title: Visualizza la risposta dell’Allievo in formazione a un invito del calendario di Outlook in Learning Manager
 contentowner: kuppan
 preview: true
 source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 0%
+ht-degree: 36%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 0%
 
 Scopri in che modo amministratori e istruttori possono visualizzare le risposte di un Allievo in formazione agli inviti del calendario.
 
-In Learning Manager, quando un Allievo si iscrive a una sessione di aula virtuale di un corso, riceve un invito del calendario di Outlook dettagliato.
+In Learning Manager, gli Allievi in formazione iscritti a una sessione di aula virtuale di un corso ricevono un invito del calendario di Outlook dettagliato.
 
 La risposta di un Allievo in formazione all’invito alla sessione viene registrata in Learning Manager e amministratore e istruttore possono visualizzare i dettagli.
 
-Se un Allievo risponde allo stesso invito più di una volta, viene presa in considerazione l’ultima risposta, che sovrascrive quella precedente. Se gli orari delle sessioni vengono modificati, tutte le risposte agli inviti vengono cancellate e gli Allievi devono rispondere nuovamente alla richiesta.
+Se un utente in formazione risponde allo stesso invito più di una volta, viene tenuta in considerazione l’ultima risposta, che sovrascrive quella precedente. Se gli orari delle sessioni vengono modificati, tutte le risposte agli inviti vengono cancellate e gli Allievi devono rispondere nuovamente alla richiesta.
 
 ## Abilitazione della funzione di tracciamento delle risposte agli inviti {#enablingtheinvitereplytrackingfeature}
 
 * Contatta l’Adobe del supporto di Learning Manager per abilitare la funzione di tracciamento delle risposte agli inviti.
-* Una volta abilitata la funzione per l’account, tutte le future sessioni di aula virtuale create da un autore possono registrare la risposta dell’Allievo all’invito del calendario.
+* Una volta abilitata la funzione per l’account, tutte le future sessioni di aula virtuale create da un autore possono registrare la risposta dell’utente in formazione all’invito del calendario.
 
-Se gli Allievi sono iscritti a una sessione di aula virtuale creata prima dell’attivazione della funzione di tracciamento delle risposte agli inviti, le loro risposte all’invito del calendario non vengono registrate.
+Se gli utenti in formazione sono iscritti a una sessione di aula virtuale creata prima dell’attivazione della funzione di tracciamento delle risposte agli inviti, le loro risposte all’invito del calendario non vengono registrate.
 
 ## Visualizzazione delle risposte agli inviti come amministratore {#viewinginviteresponsesasanadmin}
 
-Se per una sessione di aula virtuale è stata attivata la funzione di tracciamento delle risposte agli inviti, l’amministratore può visualizzare le risposte dell’Allievo all’invito insieme ad altre autorizzazioni nel modo seguente:
+Se per una sessione di aula virtuale è stata attivata la funzione di tracciamento delle risposte agli inviti, l’amministratore può visualizzare le risposte dell’utente in formazione all’invito insieme ad altre autorizzazioni nel modo seguente:
 
 1. Fai clic **[!UICONTROL Corso]** dal pannello di navigazione a sinistra e visualizza il corso creato in seguito all’attivazione della funzione di tracciamento delle risposte agli inviti.
 1. Fai clic **[!UICONTROL Presenze e punteggi]** dal pannello di navigazione sinistro.

@@ -1,11 +1,11 @@
 ---
-description: Scopri come visualizzare e utilizzare le risorse formative in Learning Manager.
+description: Scopri come visualizzare e utilizzare le risorse formative in Learning Manager
 jcr-language: en_us
 title: Risorse formative
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
@@ -13,16 +13,16 @@ ht-degree: 0%
 
 # Risorse formative
 
-Scopri come visualizzare e utilizzare le risorse formative in Learning Manager.
+Scopri come visualizzare e utilizzare le risorse formative in Learning Manager
 
-Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli Allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
+Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
 
-Le risorse formative possono essere utilizzate in modo indipendente o insieme all’utilizzo dei corsi in Learning Manager.
+Le risorse formative possono essere utilizzate in modo indipendente o mentre segui un corso in Learning Manager.
 
-Un Amministratore dell’organizzazione può assegnare risorse formative agli Allievi. Nel login per gli Allievi, puoi visualizzare le risorse formative nel widget Risorse formative personali nella pagina Home. Se ti sono state assegnate risorse formative, puoi visualizzarle nel widget Le mie risorse formative nella parte inferiore della pagina dell’Allievo.
+Un Amministratore dell’organizzazione può assegnare risorse formative agli Allievi. Quando accedi come Allievo, puoi vedere le Risorse formative nel widget Le mie risorse formative nella home page. Se ti sono state assegnate risorse formative, puoi visualizzarle nel widget Le mie risorse formative nella parte inferiore della pagina dell’Allievo.
 
 ## Utilizzo delle risorse formative {#consumejobaids}
 
-Nel widget Risorse formative personali, fai clic sul nome della Risorsa formativa. La risorsa formativa si apre in un lettore Fluidic per il tuo utilizzo. Puoi anche scaricare le risorse formative facendo clic sull’icona di download nell’angolo in basso a sinistra della finestra del lettore.
+Dal widget Le mie risorse formative, fai clic sul nome della risorsa formativa desiderata. La risorsa formativa si apre in un lettore Fluidic, da cui è possibile riprodurla. Puoi anche scaricare le risorse formative facendo clic sull’icona di download nell’angolo inferiore sinistro della finestra del lettore.
 
-Puoi anche trovare risorse formative associate a un corso. Tuttavia, non è obbligatorio completare queste risorse formative durante l’utilizzo dei corsi.
+Inoltre, ad alcuni corsi sono associate delle risorse formative. Tuttavia, non è obbligatorio completare tali risorse mentre frequenti i corsi.

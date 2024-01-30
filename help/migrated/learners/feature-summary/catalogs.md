@@ -1,12 +1,12 @@
 ---
-description: Scopri come utilizzare i cataloghi in Learning Manager per visualizzare gli oggetti di apprendimento disponibili
+description: Scopri come usare i cataloghi in Learning Manager per visualizzare gli oggetti di apprendimento disponibili per un Allievo
 jcr-language: en_us
 title: Cataloghi
 contentowner: manochan
 source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Cataloghi
 
-Scopri come utilizzare i cataloghi in Learning Manager per visualizzare gli oggetti di apprendimento disponibili
+Scopri come usare i cataloghi in Learning Manager per visualizzare gli oggetti di apprendimento disponibili per un Allievo
 
 **Catalogo** è costituito da tutti i corsi, i programmi di apprendimento, le certificazioni e le risorse formative disponibili per un ruolo Allievo nell’account aziendale.
 
 Gli Allievi possono visualizzare tutti gli oggetti di apprendimento assegnati e idonei (programmi di apprendimento, corsi e certificazioni) nella **Catalogo predefinito**. Questi oggetti di apprendimento sono specifici di ogni Allievo in base al ruolo, alla qualifica, al gruppo di utenti, al profilo e così via.
 
-Puoi filtrare l’elenco degli oggetti di apprendimento utilizzando le abilità e il tipo di oggetti di apprendimento (ritmo personalizzato, misto, aula, aula virtuale, attività) . Puoi anche filtrare utilizzando le opzioni nel riquadro a sinistra: per Oggetti di apprendimento, Abilità e Stato di completamento.
+Puoi filtrare l’elenco degli oggetti di apprendimento utilizzando le abilità e il tipo di oggetti di apprendimento (autonomo, misto, aula, aula virtuale, attività). Puoi anche filtrare utilizzando le opzioni nel riquadro a sinistra: per Oggetti di apprendimento, Abilità e Stato di completamento.
 
 Utilizza la barra di ricerca nella parte superiore della pagina per immettere i nomi degli oggetti di apprendimento più comuni.
 

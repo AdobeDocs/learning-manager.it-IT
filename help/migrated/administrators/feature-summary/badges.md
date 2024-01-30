@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 I distintivi sono unità di misura dei risultati raggiunti che gli allievi ottengono al completamento di un corso. Adobe Learning Manager introduce uno dei concetti di e-learning più avanzati, ovvero i Distintivi. I professionisti di tutto il mondo utilizzano questi distintivi per rappresentare un’abilità particolare o un risultato di apprendimento.
 
-Puoi definire i distintivi che possono servire da motivazione per gli utenti.
+Puoi definire i distintivi per motivare gli utenti.
 
-Gli Amministratori possono creare i distintivi per gli Allievi nel modo seguente:
+Come amministratore, puoi creare i distintivi per gli Allievi nel modo seguente:
 
 1. Accedi come Amministratore e fai clic su **[!UICONTROL Distintivi]** nel riquadro sinistro. Viene visualizzato un elenco di distintivi per l’Allievo.
 
@@ -32,4 +32,4 @@ Gli Amministratori possono creare i distintivi per gli Allievi nel modo seguente
 
    *Aggiungi un nome badge e la relativa immagine*
 
-1. Immetti il nome del distintivo. Carica il badge facendo clic su **[!UICONTROL Carica distintivo]** e fai clic su **[!UICONTROL Salva]**.
+1. Inserisci il nome del distintivo. Carica il badge facendo clic su **[!UICONTROL Carica distintivo]** e fai clic su **[!UICONTROL Salva]**.

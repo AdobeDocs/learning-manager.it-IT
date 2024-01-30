@@ -5,18 +5,18 @@ contentowner: saghosh
 source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
 
 # Accessi SSO multipli {#multiple-sso-logins}
 
-Un Amministratore può configurare più metodi di accesso per utenti interni ed esterni. Adobe Learning Manager supporta accessi SSO multipli che aiuteranno gli amministratori a configurare il metodo di accesso in base alle proprie esigenze e ai casi d’uso.
+Un Amministratore può configurare più metodi di accesso per utenti interni ed esterni. Adobe Learning Manager supporta accessi SSO multipli per aiutare gli amministratori a configurare il metodo di accesso più adatto in base alle proprie esigenze e ai casi di utilizzo.
 
-L’intento è consentire agli amministratori di configurare SSO diversi per i diversi gruppi di utenti in base a posizione, organizzazione e così via.
+L’intento è consentire agli amministratori di configurare SSO diversi per i diversi gruppi di utenti in base a posizione, organizzazione e altri parametri.
 
-È possibile aggiungere a un account fino a 20 configurazioni SSO. Questi possono essere utilizzati per configurare SSO per utenti interni ed esterni.
+È possibile aggiungere fino a 20 configurazioni SSO a un account. Queste possono essere utilizzate per configurare SSO per utenti interni ed esterni.
 
 >[!NOTE]
 >
@@ -28,21 +28,21 @@ Per abilitare SSO multipli, seleziona **Impostazioni** > **Metodi di accesso**.
 
 Nella pagina di configurazione, seleziona la casella di controllo &quot;Abilita SSO multipli&quot; per gli utenti interni o esterni.
 
-Quando Multi-SSO è abilitato, il metodo di accesso selezionato per &quot;Metodo di accesso predefinito&quot; diventa il tipo di accesso predefinito per gruppi di utenti/profili che non sono collegati a nessuna configurazione SSO. L’accesso predefinito può essere Adobe ID, SSO o ALM ID (utenti esterni).
+Quando Multi-SSO è abilitato, il metodo di accesso selezionato per &quot;Metodo di accesso predefinito&quot; diventa il tipo di accesso predefinito per gruppi di utenti/profili che non sono collegati a nessuna configurazione SSO. L’accesso predefinito può essere ID Adobe, SSO o ID ALM (utenti esterni).
 
 Per configurare un SSO, segui i passaggi riportati di seguito:
 
 1. Fai clic su Configura SSO.
 1. Fai clic su Aggiungi nuova configurazione SSO.
-1. Nella finestra di dialogo Configurazione SSO, aggiungi quanto segue:
+1. Nella finestra di dialogo Configurazione SSO, aggiungi quanto riportato di seguito:
 
-   * Immetti il nome dell’SSO.
+   * Inserisci il nome dell’SSO.
    * Seleziona il tipo di SSO: avviato da IDP o avviato da SP.
 
       * Se hai selezionato avviato IDP, immetti l&#39;URL IDP. Si tratta dell&#39;URL che sarà l&#39;identificatore univoco dell&#39;applicazione e delle informazioni fornite dal provider di servizi IDP. Questo è l’URL a cui verranno reindirizzati tutti gli utenti di Learning Manager Adobi dopo l’accesso.
-      * Carica il file XML dei metadati IDP dal provider IDP. Questo file contiene informazioni sull’IdP che consente all’Adobe Learning Manager di accettare le asserzioni SAML da esso
+      * Carica il file XML dei metadati IDP dal provider IDP. Questo file contiene informazioni sull’IdP che consente ad Adobe Learning Manager di accettare le asserzioni SAML da esso
       * Se hai selezionato avviato SP, immetti l&#39;ID entità. L’ID entità è un URL fornito dal provider di servizi (SP).
-      * Immetti l&#39;URL di accesso dell&#39;SP. Questo URL viene utilizzato dagli utenti per accedere all&#39;applicazione.
+      * Immetti l&#39;URL di accesso dell’SP. Questo URL viene utilizzato dagli utenti per accedere all&#39;applicazione.
 
 1. La configurazione SSO viene aggiunta all&#39;elenco.
 
@@ -50,7 +50,7 @@ Per configurare un SSO, segui i passaggi riportati di seguito:
 
 ### Utenti da un file CSV
 
-Segui i passaggi riportati di seguito:
+Effettua le seguenti operazioni:
 
 1. Importa il file CSV contenente i campi attivi e i relativi valori.
 1. Fai clic su Impostazioni > Metodi di accesso.
@@ -58,9 +58,9 @@ Segui i passaggi riportati di seguito:
 1. Associa le configurazioni SSO ai valori del campo attivo.
 1. Salva le impostazioni. Importa nuovamente il file CSV.
 
-### Utente singolo
+### Singolo utente
 
-Segui i passaggi riportati di seguito:
+Effettua le seguenti operazioni:
 
 1. Fai clic su Impostazioni > Metodi di accesso.
 1. Seleziona la casella di controllo Abilita SSO multipli per l’accesso.
@@ -70,7 +70,7 @@ Segui i passaggi riportati di seguito:
 
 ### Utenti registrati autonomamente
 
-Segui i passaggi riportati di seguito:
+Effettua le seguenti operazioni:
 
 1. Fai clic su Impostazioni > Metodi di accesso.
 1. Seleziona la casella di controllo Abilita SSO multipli per l’accesso.
@@ -83,7 +83,7 @@ Dopo aver salvato le impostazioni del profilo, l’URL copiato reindirizza gli u
 
 ### Configurazione di SSO per utenti esterni
 
-Segui i passaggi riportati di seguito:
+Effettua le seguenti operazioni:
 
 1. Crea un profilo esterno.
 1. Fai clic su Impostazioni > Metodi di accesso.
@@ -107,7 +107,7 @@ Sì, puoi utilizzare un campo attivo a valore singolo nuovo o esistente per conf
 
 +++Se in un file CSV sono presenti campi disattivati, la configurazione di più SSO avrà esito negativo?
 
-No, non influirà sulla configurazione degli SSO. Gli utenti verranno reindirizzati a un SSO già configurato.
+No, questo non influirà sulla configurazione degli SSO. Gli utenti verranno reindirizzati a un SSO già configurato.
 +++
 
 +++Un amministratore può aggiungere nuovi valori al campo attivo della pagina durante la configurazione di Multi-SSO?

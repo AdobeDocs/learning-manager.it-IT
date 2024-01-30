@@ -1,23 +1,23 @@
 ---
 description: Leggi questo articolo per scoprire come incorporare il lettore Fluidic in un’applicazione personalizzata.
 jcr-language: en_us
-title: Lettore Fluidic incorporabile
+title: Lettore Fluidic incorporato
 contentowner: dvenkate
 preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 
 
-# Lettore Fluidic incorporabile
+# Lettore Fluidic incorporato
 
 Leggi questo articolo per scoprire come incorporare il lettore Fluidic in un’applicazione personalizzata.
 
-In quanto azienda, ora puoi fornire un’esperienza personalizzata agli Allievi anche al di fuori di Learning Manager. Utilizzando l’API pubblica, è possibile recuperare tutte le informazioni relative agli oggetti di apprendimento, alle iscrizioni degli Allievi e all’avanzamento dell’apprendimento e visualizzarle sul sito Web. Cosa ancora più importante, è possibile incorporare il lettore Fluidic di Learning Manager nel sito Web, in modo che l’Allievo possa utilizzare il contenuto direttamente nel sito Web. Il lettore Fluidic consente di riprodurre qualsiasi contenuto supportato da Learning Manager. Quando viene incorporato nel tuo sito Web, ha le stesse funzionalità di quando viene utilizzato in Learning Manager.
+In quanto azienda, è ora possibile offrire un’esperienza personalizzata agli Allievi anche al di fuori di Learning Manager. Utilizzando l’API pubblica, è possibile recuperare tutte le informazioni relative agli oggetti di apprendimento, alle iscrizioni degli Allievi e all’avanzamento dell’apprendimento e visualizzarle sul sito Web. E cosa ancora più importante, è possibile incorporare il lettore Fluidic di Learning Manager nel sito Web, in modo che l’utente possa utilizzare il contenuto direttamente nel sito Web. Il lettore Fluidic consente di riprodurre qualsiasi contenuto supportato da Learning Manager. Quando viene incorporato nel tuo sito Web, ha le stesse funzionalità di quando viene utilizzato in Learning Manager.
 
 **Riproduci qualsiasi contenuto di eLearning[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
@@ -25,7 +25,7 @@ Il lettore Fluidic riproduce praticamente qualsiasi tipo di contenuto di eLearni
 
 **Note e segnalibri**
 
-È possibile prendere appunti e applicare un segnalibro a qualsiasi contenuto indipendentemente dal tipo di file. Se desideri effettuare una selezione da un file o video lungo, puoi aggiungere un segnalibro ai punti effettivi in cui hai trovato le informazioni pertinenti alle tue esigenze. Le note e i segnalibri possono essere cercati o inviati come e-mail. Facendovi clic vieni reindirizzato al lettore Fluidic esattamente nel punto del video o della pagina del documento.
+È possibile prendere appunti e contrassegnare qualsiasi contenuto indipendentemente dal relativo tipo di file. Se desideri effettuare una selezione da un file o video lungo, puoi aggiungere un segnalibro ai punti effettivi in cui hai trovato le informazioni pertinenti alle tue esigenze. Le note e i segnalibri possono essere cercati o inviati come e-mail. Facendovi clic vieni reindirizzato al lettore Fluidic esattamente al punto del video o della pagina del documento.
 
 Per ulteriori informazioni sul lettore Fluidic, consulta [Lettore Fluidic](../../learners/feature-summary/fluidic-player.md).
 
@@ -33,30 +33,30 @@ Ecco alcuni esempi di come è possibile utilizzare il lettore Fluidic incorporab
 
 * Puoi utilizzare il lettore Fluidic incorporabile nel tuo sito Web** **per elencare i corsi a cui sono iscritti i dipendenti e fornire anche un collegamento per avviare una formazione nella stessa pagina. Ciò significa che gli Allievi possono seguire i corsi di formazione sul sito Web Intranet.
 
-* Se sei impegnato nel settore della formazione, potresti avere un sito Web in cui i tuoi clienti acquistano corsi. È possibile integrare il lettore incorporabile con lo stesso sito Web in modo che i clienti possano utilizzare i contenuti acquistati all’interno del sito Web.
+* Se sei impegnato nel settore della formazione, potresti avere un sito Web in cui i clienti possono acquistare corsi. È possibile integrare il lettore incorporabile con lo stesso sito Web in modo che i clienti possano utilizzare i contenuti acquistati all’interno del sito Web.
 
 ## Procedura per incorporare il lettore Fluidic nel sito Web {#stepstoembedfluidicplayerinyourwebsite}
 
 La creazione di un’applicazione personalizzata per incorporare un lettore Fluidic nel sito Web prevede tre passaggi fondamentali:
 
-1. Crea un’applicazione nell’app Amministratore dell’integrazione di Learning Manager.
-1. Recupera token di accesso.
+1. Creare un’applicazione nell’app Amministratore dell’integrazione di Learning Manager.
+1. Recuperare il token di accesso.
 1. Utilizza il token di accesso per recuperare le risorse da Learning Manager utilizzando l’API pubblica.
 
 ### 1. Creare un’applicazione nell’Amministratore dell’integrazione {#1createanapplicationinintegrationadmin}
 
 Questo passaggio è necessario per creare un ID applicazione/client e un segreto applicazione/client utilizzato per recuperare il token di aggiornamento e il token di accesso. Per ulteriori informazioni sulla creazione di un&#39;applicazione, vedere  [Processo di sviluppo dell&#39;applicazione.](developer-manual.md#main-pars_header_994876235)
 
-1. Vai a **[!UICONTROL IntegrationAdmin]** app e apri **[!UICONTROL Applicazioni]**.
+1. Passa all’app **[!UICONTROL IntegrationAdmin]** e aprire **[!UICONTROL Applicazioni]**.
 
-1. Seleziona **[!UICONTROL Registrati]** dall&#39;angolo superiore destro della pagina.
-1. La **[!UICONTROL Registra una nuova applicazione]** viene aperta la finestra. Compila i campi obbligatori.
+1. Seleziona **[!UICONTROL Registra]** dall’angolo in alto a destra nella pagina.
+1. Viene visualizzata la finestra **[!UICONTROL Registra una nuova applicazione]**. Compila i campi obbligatori.
 1. Se l’applicazione personalizzata deve essere condivisa tra più account, seleziona **[!UICONTROL No]** nel campo delle opzioni  **[!UICONTROL Solo per questo account?]**
 1. Per salvare l’applicazione e generare l’ID e il segreto dell’applicazione, fai clic su **[!UICONTROL Salva]**.
 
-### 2. Recupero del token di accesso {#2retrievingaccesstoken}
+### 2. Recuperare il token di accesso {#2retrievingaccesstoken}
 
-Poiché Learning Manager utilizza OAUTH2.0, il token di accesso è necessario per recuperare le risorse utilizzando l’API pubblica. È possibile recuperare il token di accesso utilizzando il token di aggiornamento, l’ID client o il segreto client.
+Poiché Learning Manager utilizza OAUTH2.0, il token di accesso è necessario per recuperare le risorse utilizzando l’API pubblica. È possibile recuperare il token di accesso utilizzando il token di aggiornamento, l’ID client o il segreto del client.
 
 **2.1 Token di aggiornamento**
 
@@ -83,7 +83,7 @@ Qui, **[!UICONTROL id client]** è l’id applicazione ottenuto al passaggio 1.
 **[!UICONTROL email]** è un campo facoltativo\
 &#42; Se vengono forniti sia l’ID sia l’e-mail, l’URL precedente consentirà all’utente di accedere allo stesso account. Questo esempio di endpoint è rappresentato nel file &quot;index.html&quot; nell’applicazione di esempio.
 
-* Recupera token di aggiornamento
+* Recuperare il token di aggiornamento
 
 Una volta ricevuto il codice OAuth, è possibile recuperare il token di aggiornamento utilizzando il codice OAuth ricevuto, l’ID client e il segreto client dall’endpoint seguente:
 
@@ -112,7 +112,7 @@ iv. expres_in\
 v. user_role\
 vi. account_id
 
-### 3. Recuperare le risorse utilizzando l’API pubblica {#3retrieveresourcesusingpublicapi}
+### 3. Recuperare risorse utilizzando AP pubbliche {#3retrieveresourcesusingpublicapi}
 
 Come terzo passaggio, devi utilizzare il token di accesso per recuperare le risorse da Learning Manager utilizzando un’API pubblica .  Il token di accesso è necessario per effettuare qualsiasi chiamata API pubblica ed è necessario aggiungerlo nell’intestazione come esemplificato nell’applicazione di esempio.
 
