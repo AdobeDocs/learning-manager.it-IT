@@ -1,7 +1,7 @@
 ---
 title: Novità di questa versione
 description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
-source-git-commit: 95ab7a13a7f3e9815785134bc1d1675c002ab64b
+source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -170,11 +170,48 @@ Se è selezionata l’opzione Autorizzazione utente o Tutto il gruppo di utenti 
 
 Un Amministratore personalizzato può accedere ai seguenti report in base all’ambito definito:
 
-| Report | Disponibile | Ambito |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Report</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Disponibile</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Ambito</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Prova di verifica del contenuto</p></td>
+   <td>
+    <p>Sì</p></td>
+   <td>
+    <p>Catalogo completo</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Prova di verifica dell’utente</p></td>
+   <td>
+    <p>Sì</p></td>
+   <td>
+    <p>Utente completo</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Accesso</p></td>
+   <td>
+    <p>Sì</p></td>
+   <td>
+    <p>Utente completo</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Prova di verifica del contenuto | Sì | Catalogo completo |
-| Prova di verifica dell’utente | Sì | Utente completo |
-| Accesso | Sì | Utente completo |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Integrazione avanzata di Connect
 
