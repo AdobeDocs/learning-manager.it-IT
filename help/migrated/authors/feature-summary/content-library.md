@@ -2,7 +2,7 @@
 description: Scopri come creare contenuti da allineare ai corsi come contenuti autonomi.
 jcr-language: en_us
 title: Libreria dei contenuti
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3113'
 ht-degree: 65%
@@ -147,7 +147,7 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 1. Nel campo Descrizione immetti la descrizione per il contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 245 caratteri.
 1. Per aggiungere il contenuto, fai clic su Aggiungi file di contenuto e carica il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
 
-* [Tipi di file supportati](content-library.md#supported)*
+* [Tipi di file supportati](content-library.md#supported)
 
   Il contenuto interattivo può essere un progetto pubblicato SCORM, AICC o Captivate. Il file deve essere un file zip.
 
