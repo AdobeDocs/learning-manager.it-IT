@@ -3,10 +3,10 @@ jcr-language: en_us
 title: L’utente viene eliminato automaticamente in Learning Manager
 description: Un utente viene eliminato da Learning Manager anche se l’Amministratore non ha mai eseguito alcuna azione di questo tipo.
 contentowner: nluke
-source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
+source-git-commit: 99c4df44388667efdd162f74918bc3daf907a0f3
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 ## Il problema
 
-A **utente** viene eliminato da Learning Manager, tuttavia, l’Amministratore non ha mai eseguito alcuna azione di questo tipo.
+Un utente viene eliminato da Learning Manager anche se l’Amministratore non ha mai eseguito alcuna azione di questo tipo.
 
 ## Causa
 
