@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Mappare abilità con domini di abilità
 description: Per fare in modo che il motore di cura basato su intelligenza artificiale esegua la cura automatica di un post pubblicato da un utente per un particolare dominio di abilità, l’azienda dell’utente deve disporre delle proprie abilità personalizzate da mappare ai domini di abilità supportati presenti in LMS di Learning Manager.
 contentowner: kuppan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 95%
