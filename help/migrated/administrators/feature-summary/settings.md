@@ -3,9 +3,9 @@ description: Scopri ulteriori informazioni sulle impostazioni dell’account Lea
 jcr-language: en_us
 title: Impostazioni
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
 workflow-type: tm+mt
-source-wordcount: '3791'
+source-wordcount: '3815'
 ht-degree: 68%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 68%
 Scopri ulteriori informazioni sulle impostazioni dell’account Learning Manager che è possibile configurare come Amministratore.
 
 È possibile modificare le impostazioni del profilo di Amministratore e aggiornare le impostazioni dell’account. Visualizza le informazioni di profilo, aggiungi/modifica la foto profilo e modifica **[!UICONTROL Informazioni personali]** contenuto. Aggiorna le tue informazioni aziendali e configura i metodi di accesso per gli utenti e l’integrazione di Connect tramite le impostazioni dell’account.
+
+## Configurazione dell’Adobe di Learning Manager
+
+Questo corso di formazione acquisisce le nozioni di base delle impostazioni a livello di account.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 ## Impostazioni account {#accountsettings}
 
