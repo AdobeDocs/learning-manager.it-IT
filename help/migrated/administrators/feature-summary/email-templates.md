@@ -3,10 +3,10 @@ description: Gli eventi nell’attività di apprendimento attivano le e-mail inv
 jcr-language: en_us
 title: Modelli e-mail
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 62%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,16 @@ L’applicazione Learning Manager invia notifiche via e-mail a più ruoli di ute
 In qualità di Amministratore puoi personalizzare i modelli e-mail aggiungendo o modificando il contenuto e inviando notifiche agli utenti per vari eventi attivati da Allievi, Manager e Autori.
 
 Gli Amministratori possono anche scegliere di non inviare notifiche via e-mail per determinati eventi.
+
+## Introduzione ai modelli e-mail
+
+In questo corso imparerai come personalizzare i singoli modelli e-mail e come personalizzare le impostazioni a livello di corso e account per i modelli e-mail.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 ## Configurazione dei modelli e-mail {#configureemailtemplates}
 
