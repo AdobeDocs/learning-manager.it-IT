@@ -3,10 +3,10 @@ description: Informazioni sui report associati al ruolo di amministratore nell�
 jcr-language: en_us
 title: Rapporti
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
 workflow-type: tm+mt
-source-wordcount: '6441'
-ht-degree: 65%
+source-wordcount: '6502'
+ht-degree: 64%
 
 ---
 
@@ -25,6 +25,14 @@ Il processo di generazione dei report è simile sia per gli Amministratori che p
 I report sono aggregati in un dashboard. Un report deve esistere all’interno di un dashboard. A **[!UICONTROL Dashboard predefinito]** esiste per impostazione predefinita nella pagina dei report. Qualsiasi report aggiunto viene spostato nel dashboard predefinito. Per aggiungere report ai singoli dashboard, utilizza la freccia a discesa e scegli **[!UICONTROL Aggiungi report]**. Per ulteriori informazioni sulla creazione dei dashboard, fai riferimento alla sezione Dashboard in questa pagina.
 
 ## Dashboard di riepilogo dell’apprendimento {#dashboards}
+
+### Genera report dashboard
+
+In questo corso verrà illustrato come generare report del dashboard dal database.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 Visualizza un report di riepilogo di tutte le attività di apprendimento nella piattaforma. In questa pagina sono disponibili le seguenti informazioni di riepilogo per il team dell’utente ROOT selezionato e i profili esterni. È inoltre possibile selezionare un intervallo di tempo:
 
@@ -502,6 +510,14 @@ Se più Manager ti inviano report, puoi visualizzare rapidamente i report per og
 >I valori Manager utilizzati per visualizzare il report sono temporanei. Questa visualizzazione del report non viene scaricata quando scegli l’opzione di download. Si tratta di una visualizzazione solo temporanea.
 
 ## Visualizza report corso {#viewcoursereports}
+
+### Genera report corso
+
+In questo corso imparerai come esportare i report del corso e configurare gli abbonamenti e-mail per tali report.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 Per visualizzare i report specifici per ciascun corso, procedi come indicato di seguito:
 
