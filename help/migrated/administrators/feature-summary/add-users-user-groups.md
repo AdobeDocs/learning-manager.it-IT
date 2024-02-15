@@ -3,9 +3,9 @@ description: Scopri come aggiungere utenti o gruppi di utenti nell’applicazion
 jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
-source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
+source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
 workflow-type: tm+mt
-source-wordcount: '3984'
+source-wordcount: '3982'
 ht-degree: 63%
 
 ---
@@ -24,30 +24,7 @@ In questo corso imparerai come creare un gruppo di utenti in base ai nomi, agli 
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
-   <button type="button">Avvia training</button>
-</a>
-
-<br/>
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 
 Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
@@ -70,30 +47,7 @@ In qualità di Amministratore, puoi aggiungere utenti in tre modi:
 
 Aggiungi Allievi interni all’Adobe Learning Manager utilizzando un’opzione per utente singolo.
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
-   <button type="button">Avvia training</button>
-</a>
-
-<br/>
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
 Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
