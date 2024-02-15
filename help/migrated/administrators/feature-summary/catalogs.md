@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Cataloghi
 description: I cataloghi sono una raccolta di corsi di apprendimento, programmi di apprendimento e certificazioni. Utilizza i cataloghi per fornire agli Allievi l’accesso a un set personalizzato di oggetti di apprendimento. È possibile associare l’apprendimento a un catalogo durante la creazione di un nuovo catalogo.
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 77%
+source-wordcount: '2397'
+ht-degree: 76%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 77%
 I cataloghi sono una raccolta di corsi di apprendimento, programmi di apprendimento e certificazioni. Utilizza i cataloghi per fornire agli Allievi l’accesso a un set personalizzato di oggetti di apprendimento. È possibile associare l’apprendimento a un catalogo durante la creazione di un nuovo catalogo.
 
 Se l’Amministratore desidera rendere disponibili corsi selettivi per diversi Allievi nel proprio account o in diversi account, è possibile creare cataloghi personalizzati.
+
+## Introduzione ai cataloghi
+
+In questo corso imparerai come creare e gestire i cataloghi.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+
 
 ## Creazione di un catalogo {#createacatalog}
 
