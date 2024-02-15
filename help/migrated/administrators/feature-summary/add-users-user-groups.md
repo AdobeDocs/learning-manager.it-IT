@@ -3,10 +3,10 @@ description: Scopri come aggiungere utenti o gruppi di utenti nell’applicazion
 jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
 workflow-type: tm+mt
-source-wordcount: '3913'
-ht-degree: 64%
+source-wordcount: '3984'
+ht-degree: 63%
 
 ---
 
@@ -17,6 +17,39 @@ ht-degree: 64%
 Scopri come aggiungere utenti o gruppi di utenti nell’applicazione Learning Manager.
 
 <!--![](assets/user-mgmt-new.png)-->
+
+## Gestione dei gruppi di utenti
+
+In questo corso imparerai come creare un gruppo di utenti in base ai nomi, agli ID e-mail e alla combinazione di più gruppi di utenti generati automaticamente.
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<style>
+   button {
+    background-color: #1373E6; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+
+<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
+   <button type="button">Avvia training</button>
+</a>
+
+<br/>
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 ## Panoramica {#overview}
 
@@ -35,11 +68,43 @@ In qualità di Amministratore, puoi aggiungere utenti in tre modi:
 
 ## Aggiunta di un singolo utente {#addasingleuser}
 
+Aggiungi Allievi interni all’Adobe Learning Manager utilizzando un’opzione per utente singolo.
+
+<style>
+   button {
+    background-color: #1373E6; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+
+<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
+   <button type="button">Avvia training</button>
+</a>
+
+<br/>
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+
 Per aggiungere utenti,
 
 1. Accedi ad Adobe Learning Manager come Amministratore.
 1. Nella pagina iniziale, fai clic su **[!UICONTROL Aggiungi utenti]**. In questa pagina puoi aggiungere un singolo utente o più utenti alla volta utilizzando un file CSV. Puoi anche creare un collegamento di registrazione autonoma per i dipendenti interni o creare un profilo di Allievo esterno.
 1. Per aggiungere un singolo utente, fai clic su **[!UICONTROL Aggiungi]** nell’angolo superiore destro e scegli l’opzione **[!UICONTROL Singolo utente]**.
+
+1. Per aggiungere un singolo utente, fai clic su **[!UICONTROL Aggiungi]** nell’angolo superiore destro e scegli l’opzione **Singolo utente**.
+
 
    ![](assets/single-user.png)
    *Aggiunta di un singolo utente interno*
@@ -54,6 +119,7 @@ Per aggiungere utenti,
 ## Aggiunta di utenti in blocco {#addusersinbulk}
 
 Generalmente, la maggior parte delle organizzazioni lavora con un sistema di gestione delle risorse umane (HRMS) che mantiene tutti i record dei dipendenti, quali la designazione, la posizione, la data di assunzione o la gerarchia dei dipendenti. Puoi esportare questi dati in un file CSV. Per importare un file CSV, procedi nel seguente modo:
+
 
 1. Fai clic su **[!UICONTROL Aggiungi]** nell’angolo superiore destro e scegli l’opzione **[!UICONTROL Carica un file CSV]**.
 
@@ -153,7 +219,10 @@ Tipi di campi attivi:
 
 Puoi anche consentire ai dipendenti della tua organizzazione di registrarsi come Allievi nell’account Adobe Learning Manager, senza bisogno di assistenza da parte dell’Amministratore. L’Amministratore può creare un collegamento di registrazione autonoma e condividerlo con i dipendenti, che possono registrarsi ulteriormente a Learning Manager utilizzando le loro credenziali di Adobe.
 
-Nell’angolo superiore destro della pagina, fai clic su **[!UICONTROL Aggiungi ]** e scegli **[!UICONTROL Registrazione autonoma]**.
+
+
+Nell’angolo superiore destro della pagina, fai clic su **[!UICONTROL Aggiungi]** e seleziona **[!UICONTROL Registrazione autonoma]**.
+
 
 ![](assets/self-registration.png)
 *Crea collegamento per l’iscrizione automatica come Allievo*
@@ -209,7 +278,9 @@ Per iscrivere utenti esterni, attieniti alle operazioni descritte di seguito:
    *Iscrizione di utenti esterni*
 
 1. Nell’angolo superiore destro della pagina, fai clic su **[!UICONTROL Aggiungi]**.
-1. Nella finestra di dialogo **[!UICONTROL Aggiungi profilo di registrazione esterno]**, aggiungi i seguenti dettagli:
+
+1. Nella finestra di dialogo **Aggiungi profilo di registrazione esterno**, aggiungi i seguenti dettagli:
+
 
    * Il nome del profilo dell&#39;organizzazione partner.
    * Indirizzo e-mail del manager dell&#39;organizzazione partner.
@@ -253,7 +324,7 @@ Per mettere in pausa gruppi di utenti esterni, scegli un gruppo o più gruppi, f
 
 ## Ripristina un profilo esterno {#resumeanexternalprofile}
 
-In qualsiasi momento, puoi revocare lo stato di pausa di un partner esterno e riprendere i servizi normali. Fai clic su **[!UICONTROL Azioni]** nell’angolo superiore destro della pagina e scegli **[!UICONTROL Riprendi]**.
+In qualsiasi momento, puoi revocare lo stato di pausa di un partner esterno e riprendere i servizi normali. Fai clic **[!UICONTROL Azioni]** nell’angolo in alto a destra della pagina e seleziona **[!UICONTROL Riprendi]**.
 
 Gli stati seguenti sono applicabili agli utenti esterni:
 
@@ -306,7 +377,9 @@ Oltre ai gruppi generati automaticamente, è possibile creare gruppi personalizz
 
 1. Immetti il nome e la descrizione per il gruppo.
 1. Immetti il nome utente o il profilo nel campo di ricerca durante la digitazione e seleziona dall’elenco a discesa per aggiungere utenti.
-1. Per aggiungere altri Allievi, fai clic su **[!UICONTROL Aggiungi altri utenti].**
+
+1. Per aggiungere altri Allievi, fai clic su **[!UICONTROL Aggiungi altri utenti]**.
+
 1. Per creare il gruppo utenti, fai clic su **[!UICONTROL Salva]**.
 
 Questo gruppo personalizzato ora è stato creato e aggiunto al profilo. I gruppi di utenti creati sono di natura dinamica. I nuovi utenti con attributi simili vengono automaticamente aggiunti al gruppo di utenti.
@@ -322,11 +395,13 @@ Ad esempio, se desideri impostare un piano di apprendimento in modo che tutti gl
 
 ## Impostazioni avanzate {#advancedsettings}
 
-## Origini dati {#datasources}
+### Origini dati {#datasources}
 
 Puoi utilizzare questa funzione per importare/sincronizzare gli utenti o i dati di apprendimento dal database dell’organizzazione nell’applicazione Learning Manager. Puoi anche impostare la frequenza di questa sincronizzazione.
 
+
 Fai clic **[!UICONTROL Origini dati]** nel riquadro sinistro sotto **[!UICONTROL Avanzate]** sezione.
+
 
 ![](assets/data-sources-add-users.png)
 
@@ -336,11 +411,11 @@ Scegliere il tipo di origine dati dal menu **[!UICONTROL Sorgente]** selezionare
 
 È possibile aggiungere più origini dati.
 
-## Campi attivi {#activefields}
+### Campi attivi {#activefields}
 
 Questa funzione consente agli Amministratori di aggiungere altri campi attivi oltre a quelli forniti durante la registrazione dell’utente.
 
-Fai clic **Campi attivi** disponibile nella pagina utenti. Gli Allievi possono scegliere solo tra i valori forniti nei valori personalizzati.
+Fai clic **[!UICONTROL Campi attivi]** disponibile nella pagina utenti. Gli Allievi possono scegliere solo tra i valori forniti nei valori personalizzati.
 
 ![](assets/active-fields.png)
 *Campi attivi*
@@ -429,6 +504,7 @@ Talvolta l’utente non desidera mappare un campo Attivo a un campo specificato 
 
 Aggiungi qualsiasi campo di tua scelta come parte delle informazioni utente e fai clic su **[!UICONTROL Salva]**. Dopo aver aggiunto i campi, puoi anche controllare le disponibilità dei campi nel **[!UICONTROL Modifica utenti]** dialogo.
 
+
 Dopo aver aggiunto i campi, puoi notare che i campi contrassegnati con un segno di spunta provengono dall’origine dati o dal CSV come indicato nell’immagine di seguito. L’Amministratore può modificare questi campi abilitando o disabilitando i campi.
 
 **Valori per campi attivi in Learning Manager**
@@ -461,7 +537,7 @@ Gli utenti possono scegliere tra campi predefiniti per i campi CSV solo se la ca
 
 ## Importa registri {#importlogs}
 
-In questo spazio, è possibile visualizzare la cronologia delle importazioni CSV per gli utenti che l’Amministratore ha aggiunto utilizzando la funzione di importazione in blocco. Potete anche fare clic su **Aggiungi** nell’angolo superiore destro della pagina per aggiungere utenti utilizzando la funzione di caricamento CSV.
+In questo spazio, è possibile visualizzare la cronologia delle importazioni CSV per gli utenti che l’Amministratore ha aggiunto utilizzando la funzione di importazione in blocco. Potete anche fare clic su **[!UICONTROL Aggiungi]** nell’angolo superiore destro della pagina per aggiungere utenti utilizzando la funzione di caricamento CSV.
 
 ## Campi attivi multivalore
 
@@ -548,7 +624,7 @@ Per modificare i dati di un utente, esegui le operazioni descritte di seguito:
 
 ![](assets/edit-user-data.png)
 
-Aggiorna i campi nella finestra di dialogo **[!UICONTROL Modifica utente]**. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**.
+Aggiorna i campi nella finestra di dialogo **Modifica utente**. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**.
 
 +++
 
@@ -595,8 +671,6 @@ Se desideri che gli Allievi visualizzino solo i campi attivi che non hanno compi
 È possibile limitare la selezione per gli Allievi in modo che possano selezionare solo i valori predefiniti e non immettere valori casuali. Effettua le seguenti operazioni:
 
 1. Fai clic **[!UICONTROL Utenti]** > **[!UICONTROL Campi attivi]**.
-1. Nella sezione **[!UICONTROL Configura campi]**, fai clic su **[!UICONTROL Modifica valori]**.
-
 1. Abilita l’opzione **[!UICONTROL Limita selezione]**.
 1. Fai clic su **[!UICONTROL Fine]**.
 
