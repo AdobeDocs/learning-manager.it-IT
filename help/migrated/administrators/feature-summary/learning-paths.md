@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Percorsi di apprendimento
 description: Creazione di piani di apprendimento per Amministratori in Learning Manager.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 43%
+source-wordcount: '1940'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,14 @@ Spesso, gli Amministratori sono interessati a creare un curriculum dettagliato c
 È qui che entra in gioco il percorso di apprendimento. Un percorso di apprendimento è un percorso che un Allievo deve seguire per padroneggiare una materia nel tempo. Gli Allievi possono gestire la propria esperienza di formazione, oltre che acquisire e conservare le conoscenze in modo autonomo e con maggiore efficacia.
 
 Ad esempio, durante l’inserimento di nuovi dipendenti, un’azienda offre formazione su politiche e procedure, cultura, storia e così via. Un percorso di apprendimento consente di configurare i corsi in base alle esigenze dei dipendenti in modo che questi possano iscriversi in base al percorso di apprendimento impostato per loro. tu scegli e puoi iscrivere gli utenti a questo percorso in modo che possano progredire da corso a corso.
+
+## Creazione e configurazione di percorsi di apprendimento
+
+In questo corso di formazione imparerai come creare un percorso di apprendimento, aggiungervi un corso, pubblicarlo e ritirarlo, nonché come configurare le istanze all’interno di un percorso di apprendimento.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 ## Vantaggi di un percorso di apprendimento
 
