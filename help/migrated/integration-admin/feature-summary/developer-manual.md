@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Manuale per sviluppatori di applicazioni
 description: L’API V1 di Learning Manager è ora obsoleta. Le API V1 smetteranno di funzionare dal 28 febbraio 2021. Si consiglia di utilizzare le API V2 per interagire con Learning Manager.
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 64%
+source-wordcount: '3383'
+ht-degree: 62%
 
 ---
 
@@ -14,7 +14,10 @@ ht-degree: 64%
 
 # Manuale per sviluppatori di applicazioni
 
-L’API V1 di Learning Manager è ora obsoleta. Le API V1 smetteranno di funzionare dal 28 febbraio 2021. Si consiglia di utilizzare le API V2 per interagire con Learning Manager.
+>[!NOTE]
+>
+>L’API V1 di Learning Manager è ora obsoleta. Si consiglia di utilizzare le API V2 per interagire con Learning Manager.
+
 
 ## Panoramica {#overview}
 
@@ -29,6 +32,10 @@ Grazie all’API di Learning Manager, gli sviluppatori possono creare applicazio
 L’API di Learning Manager si basa sui principi di REST ed espone gli elementi chiave del modello a oggetti di Learning Manager agli sviluppatori di applicazioni tramite HTTP. Prima di conoscere i dettagli degli endpoint API e dei metodi HTTP, gli sviluppatori possono acquisire dimestichezza con i vari oggetti di Learning Manager, i relativi attributi e le interrelazioni. Una volta compresi i modelli, sarà utile comprendere la struttura delle richieste e delle risposte API e alcuni termini di programmazione comuni utilizzati genericamente nell’API.
 
 Per informazioni dettagliate sui vari metodi ed endpoint API, consulta  [Documentazione delle API di Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+>[!IMPORTANT]
+>
+>Adobe Le API per Allievi di Learning Manager consentono di creare un’esperienza di apprendimento personalizzata per gli utenti. L’utilizzo di queste API richiede un token utente valido e deve essere utilizzato solo per lo scopo dei flussi di lavoro in cui è presente un Allievo con licenza o registrazione completa. Non devono essere utilizzati, così come sono, per qualsiasi tipo di recupero di dati per supportare qualsiasi utente non registrato/utenti condivisi o qualsiasi altro caso simile. I casi d’uso senza registrazione richiedono una gestione speciale. Contattare il team dell&#39;architettura della soluzione per eventuali domande sull&#39;utilizzo appropriato delle API e verificare che un architetto della soluzione abbia verificato una soluzione prima di distribuirla.
 
 ## Autenticazione API {#apiauthentication}
 
