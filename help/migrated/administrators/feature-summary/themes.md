@@ -3,10 +3,10 @@ description: Temi colore e branding in Learning Manager
 jcr-language: en_us
 title: Temi colore
 contentowner: jayakarr
-source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
+source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 60%
+source-wordcount: '887'
+ht-degree: 59%
 
 ---
 
@@ -56,6 +56,11 @@ L’applicazione Learning Manager offre cinque opzioni per i temi colore:
 * Autunno
 * Cielo invernale
 * Vivido
+
+>[!NOTE]
+>
+>Il tema Vivido è compatibile con l’accessibilità.
+
 
 ![](assets/prime-customize-theme.png)
 
