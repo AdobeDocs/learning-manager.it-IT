@@ -3,9 +3,9 @@ description: Scopri come integrare vari connettori in Learning Manager
 jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
 workflow-type: tm+mt
-source-wordcount: '15880'
+source-wordcount: '15898'
 ht-degree: 65%
 
 ---
@@ -2112,6 +2112,11 @@ Il corso o il percorso di apprendimento non sarà disponibile per l’acquisto f
 ### Esportazione dei corsi in Adobe Commerce
 
 Dopo che un Autore ha impostato i prezzi per vari corsi, percorsi di apprendimento o certificazioni, l’Amministratore di integrazione esporta corsi, percorsi di apprendimento o certificazioni in Adobe Commerce.
+
+>[!NOTE]
+>
+>Nella versione di marzo 2024 di Adobe Learning Manager, abbiamo introdotto il supporto per [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+
 
 1. Fai clic **[!UICONTROL Esportazione dei metadati di formazione]** > **[!UICONTROL Su richiesta]**.
 
