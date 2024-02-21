@@ -1,9 +1,9 @@
 ---
 title: Esperienza senza accesso per gli Allievi
 description: Adobe Il portale nativo di Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili. L’esperienza senza accesso consente agli Allievi di esplorare i corsi senza accedere a un portale.
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '557'
 ht-degree: 43%
 
 ---
@@ -24,10 +24,17 @@ Il corso di formazione può quindi essere esportato dal connettore.
 
 L’Amministratore può modificare e configurare la pagina principale, che è destinata agli utenti che non effettuano l’accesso.
 
+## API Allievo
+
+Adobe di Learning Manager: le API degli Allievi consentono di creare un’esperienza di apprendimento personalizzata per gli utenti. L’utilizzo di queste API richiede un token utente valido e deve essere utilizzato solo per lo scopo dei flussi di lavoro in cui è presente un Allievo con licenza o registrazione completa.
+
 >[!IMPORTANT]
 >
->Adobe Le API per Allievi di Learning Manager consentono di creare un’esperienza di apprendimento personalizzata per gli utenti. L’utilizzo di queste API richiede un token utente valido e deve essere utilizzato solo per lo scopo dei flussi di lavoro in cui è presente un Allievo con licenza o registrazione completa. Non devono essere utilizzati, così come sono, per qualsiasi tipo di recupero di dati per supportare qualsiasi utente non registrato/utenti condivisi o qualsiasi altro caso simile. I casi d’uso senza registrazione richiedono una gestione speciale. Contattare il team dell&#39;architettura della soluzione per eventuali domande sull&#39;utilizzo appropriato delle API e verificare che un architetto della soluzione abbia verificato una soluzione prima di distribuirla.
+>Non devono essere utilizzati, così come sono, per qualsiasi tipo di recupero di dati per supportare qualsiasi utente non registrato/utenti condivisi o qualsiasi altro caso simile.
 
+I casi d’uso senza registrazione richiedono una gestione speciale.
+
+**Contattare il team dell&#39;architettura della soluzione, in caso di domande sull&#39;utilizzo appropriato di queste API e verificare che un architetto della soluzione abbia verificato una soluzione prima di distribuirla**.
 
 ## Avvia le opzioni della pagina principale
 

@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Manuale per sviluppatori di applicazioni
 description: L’API V1 di Learning Manager è ora obsoleta. Le API V1 smetteranno di funzionare dal 28 febbraio 2021. Si consiglia di utilizzare le API V2 per interagire con Learning Manager.
 contentowner: jayakarr
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '3383'
+source-wordcount: '3385'
 ht-degree: 62%
 
 ---
@@ -33,9 +33,17 @@ L’API di Learning Manager si basa sui principi di REST ed espone gli elementi 
 
 Per informazioni dettagliate sui vari metodi ed endpoint API, consulta  [Documentazione delle API di Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## API Allievo
+
+Adobe di Learning Manager: le API degli Allievi consentono di creare un’esperienza di apprendimento personalizzata per gli utenti. L’utilizzo di queste API richiede un token utente valido e deve essere utilizzato solo per lo scopo dei flussi di lavoro in cui è presente un Allievo con licenza o registrazione completa.
+
 >[!IMPORTANT]
 >
->Adobe Le API per Allievi di Learning Manager consentono di creare un’esperienza di apprendimento personalizzata per gli utenti. L’utilizzo di queste API richiede un token utente valido e deve essere utilizzato solo per lo scopo dei flussi di lavoro in cui è presente un Allievo con licenza o registrazione completa. Non devono essere utilizzati, così come sono, per qualsiasi tipo di recupero di dati per supportare qualsiasi utente non registrato/utenti condivisi o qualsiasi altro caso simile. I casi d’uso senza registrazione richiedono una gestione speciale. Contattare il team dell&#39;architettura della soluzione per eventuali domande sull&#39;utilizzo appropriato delle API e verificare che un architetto della soluzione abbia verificato una soluzione prima di distribuirla.
+>Non devono essere utilizzati, così come sono, per qualsiasi tipo di recupero di dati per supportare qualsiasi utente non registrato/utenti condivisi o qualsiasi altro caso simile.
+
+I casi d’uso senza registrazione richiedono una gestione speciale.
+
+**Contattare il team dell&#39;architettura della soluzione, in caso di domande sull&#39;utilizzo appropriato di queste API e verificare che un architetto della soluzione abbia verificato una soluzione prima di distribuirla**.
 
 ## Autenticazione API {#apiauthentication}
 
