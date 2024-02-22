@@ -3,10 +3,10 @@ description: Scopri come gestire i tag su Learning Manager.
 jcr-language: en_us
 title: Tag
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 67%
+source-wordcount: '762'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,14 @@ Gli Amministratori ora possono gestire i tag su Learning Manager. Utilizza una m
 L’elenco di oggetti di apprendimento associati al tag può essere visualizzato facendo clic sul numero fornito accanto a ogni tag. L’elenco mostra il numero di corsi, programmi di apprendimento, certificati, risorse formative e gruppi di contenuto. Fai clic su una di queste opzioni per visualizzare l’elenco.
 
 Puoi ordinare i tag in base all’utilizzo o all’ordine alfabetico tramite l’opzione **[!UICONTROL Ordina per]**.
+
+## Introduzione ai tag
+
+Questo corso spiega come aggiungere, modificare, sostituire, aggiungere ed eliminare i tag. Scoprirai inoltre come modificare le impostazioni delle autorizzazioni e utilizzare i filtri per tag.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 ## Aggiungere/eliminare/modificare i tag {#adddeleteedittags}
 

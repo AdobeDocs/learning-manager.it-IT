@@ -3,10 +3,10 @@ description: Scopri come aggiungere utenti o gruppi di utenti nell’applicazion
 jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
-source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 63%
+source-wordcount: '4000'
+ht-degree: 62%
 
 ---
 
@@ -155,13 +155,21 @@ Nell’elenco degli utenti, scegli un utente e fai clic sull’utente. Nei detta
 ![](assets/edit-user.png)
 *Finestra di dialogo Modifica utente*
 
-## Flussi di lavoro per campi attivi e valori campi attivi, mantenendo la distinzione tra maiuscole e minuscole
+## Campi attivi
 
-In questa versione, Learning Manager mantiene la distinzione tra maiuscole e minuscole dell’attributo utente e del relativo valore. **Ad esempio**, la distinzione tra maiuscole e minuscole di un attributo utente è &quot;location&quot; e il suo valore &quot;PARIS&quot; viene mantenuto e visualizzato nello stesso modo. In caso di problemi, l’Amministratore può ora modificare il nome e i valori dell’attributo per correggere eventuali errori di distinzione tra maiuscole e minuscole.
+### Gestione degli attributi utente
+
+In questo corso imparerai come aggiungere, personalizzare e configurare i campi attivi.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+
+L’Adobe di Learning Manager mantiene la distinzione tra maiuscole e minuscole dell’attributo utente e del relativo valore. **Ad esempio**, la distinzione tra maiuscole e minuscole di un attributo utente è &quot;location&quot; e il suo valore &quot;PARIS&quot; viene mantenuto e visualizzato nello stesso modo. In caso di problemi, l’Amministratore può ora modificare il nome e i valori dell’attributo per correggere eventuali errori di distinzione tra maiuscole e minuscole.
 
 L’Amministratore può eseguire questa operazione visitando **[!UICONTROL App per amministratori]** > **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi di utenti]** e facendo clic sul nome del gruppo.
 
-L’Amministratore può aggiungere e aggiornare i valori di attributo consentiti per un allievo tramite l’interfaccia utente.
+Un Amministratore può aggiungere e aggiornare i valori di attributo consentiti per un Allievo tramite l’interfaccia utente.
 
 Tipi di campi attivi:
 

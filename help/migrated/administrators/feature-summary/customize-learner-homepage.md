@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Personalizzazione della pagina principale dell’Allievo
 description: Un Amministratore può personalizzare la pagina principale dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata.
 contentowner: saghosh
-source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 46%
+source-wordcount: '1158'
+ht-degree: 45%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 46%
 
 Un Amministratore può personalizzare la pagina principale dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata.
 
-L’approccio personalizzato offre un modo widget di creare una home page Allievo, che l’Amministratore dell’organizzazione può configurare nell’interfaccia utente dell’Amministratore in modo WYSIWYG.
+L’approccio personalizzato offre un modo basato su widget di creare una home page Allievo, che l’Amministratore dell’organizzazione può configurare nell’interfaccia utente dell’Amministratore in modo WYSIWYG.
 
 L’esperienza è guidata da raccomandazioni di formazione personalizzate provenienti da un algoritmo basato sull’intelligenza artificiale che analizza i contenuti di terze parti per le competenze del settore, incorpora l’attività dei colleghi e le aree di interesse degli Allievi utilizzando dati espliciti e impliciti.
+
+### Personalizzazione della pagina principale dell’Allievo
+
+In questo corso di formazione verranno illustrati i modi per personalizzare la pagina principale dell’Allievo.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 ## Configurazione della pagina principale dell’Allievo {#configurethelearnerhomepage}
 

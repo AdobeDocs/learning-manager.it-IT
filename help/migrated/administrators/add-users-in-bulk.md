@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Aggiunta di utenti in blocco
 description: Scopri come aggiungere più utenti alla volta.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 31%
+source-wordcount: '316'
+ht-degree: 24%
 
 ---
 
@@ -14,7 +14,15 @@ ht-degree: 31%
 
 # Aggiunta di utenti in blocco
 
-Sì, puoi aggiungere più utenti alla volta procedendo come segue:
+In questo corso imparerai come aggiungere utenti in blocco tramite un file CSV.
+
+[![pulsante](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+
+## Come aggiungere più utenti
+
+Puoi aggiungere più utenti alla volta procedendo come segue:
 
 1. Fai clic **[!UICONTROL Utenti]** nel riquadro a sinistra nell’accesso come Amministratore, quindi fai clic su **[!UICONTROL Aggiungi]** > **[!UICONTROL Carica un file CSV]**. Viene visualizzata una finestra a comparsa.
 
