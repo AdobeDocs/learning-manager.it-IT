@@ -3,54 +3,55 @@ jcr-language: en_us
 title: Deprecazioni API in Adobe Learning Manager
 description: Con l’evolversi delle API in Adobe Learning Manager, le API vengono periodicamente riorganizzate o aggiornate. Quando le API si evolvono, le API precedenti sono obsolete e alla fine rimosse. Questa pagina contiene le informazioni necessarie per eseguire la migrazione da versioni API obsolete a versioni API più recenti e stabili.
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 19%
+source-wordcount: '845'
+ht-degree: 21%
 
 ---
 
 
-# Deprecazioni API in Adobe Learning Manager
+# Modifiche e deprecazioni delle API in Adobe Learning Manager
 
 ## Rimozione delle API nella versione di marzo 2024 di Adobe Learning Manager
 
-### Modifiche dei limiti di velocità
+<!-- ### Changes in Rate Limits
 
-Con la prossima versione di Adobe di Learning Manager, stiamo ristrutturando i limiti di velocità delle API per i nuovi account. Per gli account esistenti, solo le API di amministrazione avranno una tariffa limitata. Dopo 90 giorni (circa 3 mesi), ristruttureremo i limiti di tariffa per tutte le API, ma gli account esistenti verranno inseriti in un elenco Consentiti in base all’utilizzo corrente. Gli account esistenti devono rivedere l’utilizzo delle API degli Allievi.
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-Per i nuovi account, se desiderano aumentare i limiti delle tariffe, devono contattare il team Customer Success di ALM.
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### Quali API saranno con tariffa limitata
+#### Which APIs will be rate limited 
 
-Per i nuovi account, tutte le API per Amministratori, Allievi e Ricerca avranno limiti di tariffa e verranno applicate burst.
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-La velocità burst o il limite burst dell’API si riferisce al numero massimo di richieste che possono essere effettuate a un’API in un breve burst entro un periodo di tempo limitato.
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-Nella tabella seguente sono elencati i limiti di velocità e velocità di frammentazione per le API.
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>Numero di richieste-RPM</th>
-        <th>Numero di richieste - Burst</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>Amministrazione</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Allievo</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Cerca</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### Modifiche ai limiti di offset
 
