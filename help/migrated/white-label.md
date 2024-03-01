@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Deprecazioni API in Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. Nell’Adobe di Learning Manager, puoi applicare l’etichettatura bianca all’app per dispositivi mobili, in modo da rinominare l’app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
   <td>
 
-  <p>Il nome con cui il sistema operativo identifica l'app. Il formato normalmente utilizzato è- com.`<company-name>`.`<product-name>`.</p></td>
+  <p>Il nome con cui il sistema operativo identifica l'app. Il formato solitamente utilizzato è: com.company-name.product-name.</p></td>
 
   </tr>
 
@@ -121,7 +121,7 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
   <td>
 
-  <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato del nome è `<account-id>`_appIcon.png.</p></td>
+  <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato da assegnare al nome è account-id_appIcon.png.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
   <td>
 
-  <p>Per la schermata iniziale dell'app, fornisci un'immagine (png) che viene visualizzata quando gli utenti avviano l'app. Il formato del nome è `<account-id>`_splashIcon.png.</p></td>
+  <p>Per la schermata iniziale dell'app, fornisci un'immagine (png) che viene visualizzata quando gli utenti avviano l'app. Il formato del nome è account-id_splashIcon.png.</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
   <td>
 
-  <p>L’Amministratore dell’integrazione del tuo account fornisce i dettagli durante la registrazione dell’app. L’Amministratore dell’integrazione deve utilizzare quanto segue:<ul><li>"Allievo:leggi,allievo:scrivi" come ruolo.</li><li>`<internal app name>`://redirect come URL di reindirizzamento. </li></ul> </p></td>
+  <p>L’Amministratore dell’integrazione del tuo account fornisce i dettagli durante la registrazione dell’app. L’Amministratore dell’integrazione deve utilizzare quanto segue: * Allievo:lettura,Allievo:scrittura come ruolo * App interna name://redirect come URL di reindirizzamento
+
+  </p></td>
 
   </tr>
 
