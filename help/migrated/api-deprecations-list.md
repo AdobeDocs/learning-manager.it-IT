@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Deprecazioni API in Adobe Learning Manager
 description: Con l’evolversi delle API in Adobe Learning Manager, le API vengono periodicamente riorganizzate o aggiornate. Quando le API si evolvono, le API precedenti sono obsolete e alla fine rimosse. Questa pagina contiene le informazioni necessarie per eseguire la migrazione da versioni API obsolete a versioni API più recenti e stabili.
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 21%
 
 ---
@@ -133,7 +133,7 @@ Il motivo per cui il flag per le API degli Allievi viene rimosso è perché il f
 
 D’ora in avanti, la seguente API per Allievi non funzionerà più perché contiene il flag di esclusione.
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&amp;pagina[limite]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users?pagina[offset]=0&amp;pagina[limite]=10&amp;sort=id&amp;override=TRUE_
 
 ### Modifiche alle API per nuovi consigli basati sulle competenze
 
