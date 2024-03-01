@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Deprecazioni API in Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. Nell’Adobe di Learning Manager, puoi applicare l’etichettatura bianca all’app per dispositivi mobili, in modo da rinominare l’app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,7 @@ Dopo aver generato i file binari, inviali a Play Store o App Store.
 
 ## Come si applicano le modifiche
 
-Il cliente invia le risorse e i file necessari al team CSM. Il team CSM compila quindi il [form](https://forms.office.com/r/bJRRaRBvSh) con le modifiche necessarie e allega le risorse richieste. Il team rivedrà e informerà i team tecnici delle modifiche. Il team tecnico genererà quindi una build e la condividerà con il team CSM.
+Invia le risorse e i file necessari al team CSM. Il team CSM compila quindi il [form](https://forms.office.com/r/bJRRaRBvSh) con le modifiche necessarie e allega le risorse richieste. Il team rivedrà e informerà i team tecnici delle modifiche. Il team tecnico genererà quindi una build e la condividerà con il team CSM.
 
 Il team CSM condividerà la build con il cliente.
 
