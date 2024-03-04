@@ -2,9 +2,9 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '592'
 ht-degree: 90%
 
 ---
@@ -55,6 +55,7 @@ ht-degree: 90%
    * [Account condivisi tra pari](administrators/feature-summary/peer-account.md)
    * [Creazione e modifica di abilità e livelli](administrators/feature-summary/skills-levels.md)
    * [Corsi consigliati tramite intelligenza artificiale](ai-based-recommendations.md)
+   * [Importa abilità](administrators/feature-summary/import-skills-external-sources.md)
    * [Gamification](administrators/feature-summary/gamification.md)
    * [Personalizzazione della pagina principale dell’Allievo](administrators/feature-summary/customize-learner-homepage.md)
    * [Distintivi](administrators/feature-summary/badges.md)
