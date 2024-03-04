@@ -3,10 +3,10 @@ description: Temi colore e branding in Learning Manager
 jcr-language: en_us
 title: Temi colore
 contentowner: jayakarr
-source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
+source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 59%
+source-wordcount: '1195'
+ht-degree: 44%
 
 ---
 
@@ -85,6 +85,39 @@ Fai clic su **[!UICONTROL Anteprima Live]** nell’angolo inferiore sinistro del
 Sceglie il tema desiderato dall’elenco a discesa, regola le impostazioni e fai clic su **[!UICONTROL Anteprima]** per visualizzare le modifiche dal vivo nell’applicazione. Ora è possibile esaminare tutte le funzionalità dell’applicazione e verificare le modifiche. Puoi anche modificare i ruoli durante l’anteprima Live. Una volta che siete soddisfatti delle modifiche, potete tornare alla funzione a comparsa Anteprima tema dal vivo e fare clic su **[!UICONTROL Applica tema]**.
 
 Durante l’anteprima Live delle modifiche, la finestra a comparsa di anteprima Live del tema rimane visualizzata nella parte inferiore della schermata. Puoi scegliere di ridurre a icona la finestra a comparsa.
+
+## Più branding {#multiple-branding}
+
+Ecco come implementare più elementi di branding:
+
+1. Nell’app di amministrazione, seleziona **Branding** nel riquadro sinistro.
+1. Seleziona **Modifica** nella sezione Multibranding.
+1. Seleziona il pulsante di attivazione/disattivazione e attivalo.
+
+### Utenti interni
+
+1. Seleziona un campo attivo dal menu a discesa.
+1. In base alla selezione, puoi modificare il nome dell&#39;organizzazione e caricare un nuovo logo per gli utenti.
+
+### Utenti esterni
+
+1. Seleziona un campo attivo dal menu a discesa.
+1. In base alla selezione, puoi modificare il nome dell&#39;organizzazione e caricare un nuovo logo per gli utenti.
+
+>[!NOTE]
+>
+>Gli utenti interni possono avere campi attivi come Utenti esterni (ad esempio, l’Amministratore deve aggiungere il multi-branding per gli utenti interni e gli utenti esterni separatamente selezionando i valori dei campi attivi separatamente).
+
+#### Punti da ricordare
+
+* Un amministratore può aggiungere il branding a più livelli per questo valore di campo attivo e l’utente esterno può accedere con diversi meccanismi (SSO Single (Okta, Mini orange), Accesso social) e verificare se il multi branding è applicabile.
+* Un utente esterno ha un campo attivo e un valore di campo attivo come l’utente interno: anche se è condiviso, deve essere specificato separatamente nel multi branding dall’amministratore. Una volta applicato, l’utente esterno può accedere con diversi meccanismi (SSO Single (Okta, Mini orange), Accesso social) e verificare se il multi branding è applicabile.
+* Un utente esterno spostato da un profilo a un altro: lo spostamento dell’utente esterno da un profilo a un altro non influirà sul valore del campo attivo per l’utente, a meno che il valore del campo attivo non venga modificato/eliminato dall’amministratore o dall’utente esterno durante l’accesso o la registrazione
+
+>[!NOTE]
+>
+>Quando per gli utenti interni ed esterni è impostato più branding, con lo stesso nome di campo attivo, con lo stesso valore di campo attivo ma con una configurazione diversa. In questo caso, si consiglia ai clienti di utilizzare la stessa impostazione di configurazione (logo, tema, nome dell’organizzazione) per evitare discrepanze.
+
 
 ## Personalizzazione dell’account {#customize}
 
