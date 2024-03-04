@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti della versione di marzo 
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Visualizza [Più elementi di branding personalizzati](administrators/feature-sum
 
 ### Amministratore: pagine del corso o del percorso di apprendimento
 
-Se un numero elevato di Allievi è iscritto al corso, ad esempio, più di 50.000, l’elenco degli Allievi non verrà visualizzato. Puoi cercare un Allievo nel *Cerca Allievi* barra di ricerca o selezionare **Scarica** collegamento sopra la barra di ricerca per scaricare l’elenco di allievi.
+Se un numero elevato di Allievi è iscritto al corso, ad esempio, più di 50.000, l’elenco degli Allievi non verrà visualizzato. Puoi cercare un Allievo nel *Cerca Allievi* barra di ricerca o selezionare **Scarica** nella parte superiore della barra di ricerca, scarica l’elenco degli allievi.
 
 ### Pagina Amministratore: Allievi
 
