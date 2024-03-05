@@ -3,10 +3,10 @@ description: Scopri le nuove funzioni e i miglioramenti della versione di marzo 
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
-source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
+source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
 workflow-type: tm+mt
-source-wordcount: '3125'
-ht-degree: 2%
+source-wordcount: '3259'
+ht-degree: 1%
 
 ---
 
@@ -276,13 +276,33 @@ Visualizza [Stato di invio](instructors/feature-summary/learners.md#filter-file-
 
 Nelle versioni correnti di Adobe di Learning Manager, per un elenco di controllo, l’avanzamento di un modulo era consentito anche se un revisore aveva contrassegnato i moduli come Non riusciti. In questa versione, un Autore può configurare questa opzione per impedire che l’avanzamento di un Allievo risulti non valido nell’elenco di controllo.
 
-Per ulteriori informazioni, consulta [Miglioramenti all’elenco di controllo](authors/feature-summary/courses.md#mandatory-checklist) nell’Adobe Learning Manager.
+#### Nuova valutazione dell’elenco di controllo
+
+Nello stesso flusso di lavoro, in qualità di Autore, puoi rivalutare un Allievo che non ha superato un elenco di controllo. Selezionare il **Abilita** durante la creazione di un elenco di controllo.
+
+Visualizza [Creare un elenco di controllo](authors/feature-summary/courses.md#checklist-fail) per ulteriori informazioni.
 
 ## Altri miglioramenti
 
-### Modifiche all’elenco di controllo
+### Notifiche e-mail relative alla sessione
 
-Durante la creazione di un elenco di controllo, è possibile selezionare **Elenco di controllo obbligatorio** casella di controllo. In questo modo si impedisce al modulo o al corso di procedere se un Allievo non supera l’elenco di controllo.
+Nelle versioni precedenti dell’Adobe di Learning Manager, un Allievo non inviava e-mail relative alla sessione, Dettagli della sessione aggiornati, Invito alla sessione e Promemoria della sessione nei seguenti casi:
+
+* Gli Allievi hanno completato un corso,
+* Le nuove sessioni vengono aggiunte a un corso, oppure
+* Sono state apportate modifiche alle sessioni esistenti.
+
+Nella versione di marzo 2024 di Adobe Learning Manager, sono state introdotte le seguenti nuove modifiche:
+
+* Dettagli della sessione aggiornati e Invito alla sessione (per Allievo e Istruttore)
+   * Per le sessioni future, invia e-mail per **Dettagli della sessione aggiornati**, **Invito alla sessione** per gli Allievi iscritti e gli Istruttori correnti diventeranno obsoleti. Per le sessioni passate, e-mail per **Dettagli della sessione aggiornati** e **Invito alla sessione** per gli Allievi iscritti e gli Istruttori correnti rimarranno invariati.
+* E-mail di promemoria (per Amministratore e Allievo)
+   * Solo per le sessioni future **Promemoria sessione** verranno inviate le e-mail.
+
+>[!NOTE]
+>
+>Le e-mail non dipendono dalla sessione e dal completamento del corso.
+
 
 ### Modifiche al sito di riferimento dell’AEM
 
