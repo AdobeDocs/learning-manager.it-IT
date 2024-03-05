@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti della versione di marzo 
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
-source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
+source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3261'
 ht-degree: 1%
 
 ---
@@ -272,11 +272,13 @@ In qualità di Istruttore, ora puoi filtrare i file inviati dagli Allievi in bas
 
 Visualizza [Stato di invio](instructors/feature-summary/learners.md#filter-file-submissions) per ulteriori informazioni.
 
-### Miglioramenti all’elenco di controllo
+## Miglioramenti all’elenco di controllo
+
+### Elenco di controllo obbligatorio
 
 Nelle versioni correnti di Adobe di Learning Manager, per un elenco di controllo, l’avanzamento di un modulo era consentito anche se un revisore aveva contrassegnato i moduli come Non riusciti. In questa versione, un Autore può configurare questa opzione per impedire che l’avanzamento di un Allievo risulti non valido nell’elenco di controllo.
 
-#### Nuova valutazione dell’elenco di controllo
+### Nuova valutazione dell’elenco di controllo
 
 Nello stesso flusso di lavoro, in qualità di Autore, puoi rivalutare un Allievo che non ha superato un elenco di controllo. Selezionare il **Abilita** durante la creazione di un elenco di controllo.
 
