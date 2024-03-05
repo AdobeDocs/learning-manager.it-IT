@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti della versione di marzo 
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 2%
 
 ---
@@ -425,6 +425,10 @@ Con questa versione, l’API dei processi conserverà il Report di accesso fino 
 ```
 
 Se si tenta di scaricare **Accesso** report oltre i cinque trimestri, viene visualizzato un messaggio di errore. Un messaggio di errore simile viene visualizzato se si tenta di scaricare **Controllo utente** che va oltre i sei mesi.
+
+### API obsolete
+
+Visualizza [Rimozione delle API in Adobe Learning Manager](api-deprecations-list.md) per un elenco cumulativo di tutte le API obsolete nel prodotto.
 
 ## Bug corretti in questo aggiornamento {#bug-fixes}
 
