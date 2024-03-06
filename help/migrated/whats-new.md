@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti della versione di marzo 
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -351,6 +351,12 @@ Visualizza etichettatura bianca in [Adobe dell’app mobile Learning Manager](wh
 ### Valutazione app
 
 Un Allievo può fornire il proprio feedback sull’app Adobe Learning Manager per migliorare ulteriormente l’esperienza dell’app. Se l’Allievo valuta l’app a quattro stelle o più, viene visualizzata una finestra a comparsa in cui richiede di valutare l’app su Play Store o App Store.
+
+### Bluejeans ha raggiunto la fine del suo ciclo di vita (EOL) nel febbraio 2024
+
+Volevamo informarti che Bluejeans ha raggiunto la fine del suo ciclo di vita (EOL) a febbraio 2024. Dopo febbraio 2024, Bluejeans non riceverà più aggiornamenti o supporto. Il nostro CSAM e i team di supporto ti assisteranno in caso di domande o dubbi durante questo periodo di transizione.
+
+Visualizza [Connettori in Adobe Learning Manager](integration-admin/feature-summary/connectors.md) per ulteriori informazioni sulla configurazione dei connettori.
 
 ## Modifiche alle API introdotte da questa versione
 
