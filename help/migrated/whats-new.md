@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti della versione di marzo 
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
-source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
+source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3528'
 ht-degree: 1%
 
 ---
@@ -274,13 +274,32 @@ Visualizza [Stato di invio](instructors/feature-summary/learners.md#filter-file-
 
 ## Miglioramenti all’elenco di controllo
 
-### Elenco di controllo obbligatorio
+Nella versione di marzo 2024 di Adobe Learning Manager, i miglioramenti apportati al flusso di lavoro dell’elenco di controllo sono i seguenti:
 
-Nelle versioni correnti di Adobe di Learning Manager, per un elenco di controllo, l’avanzamento di un modulo era consentito anche se un revisore aveva contrassegnato i moduli come Non riusciti. In questa versione, un Autore può configurare questa opzione per impedire che l’avanzamento di un Allievo risulti non valido nell’elenco di controllo.
+### Non consentire l’avanzamento in caso di mancato superamento di un elenco di controllo
 
-### Nuova valutazione dell’elenco di controllo
+Quando si crea un elenco di controllo, un Autore può selezionare **Abilita** nella sezione Elenco di controllo obbligatorio. In questo modo si impedisce agli Allievi di continuare nel modulo se non rientrano nell’elenco di controllo. Possono procedere solo se superano l&#39;elenco di controllo.
 
-Nello stesso flusso di lavoro, in qualità di Autore, puoi rivalutare un Allievo che non ha superato un elenco di controllo. Selezionare il **Abilita** durante la creazione di un elenco di controllo.
+I revisori dell’elenco di controllo, ad esempio istruttori o manager, possono quindi controllare lo stato dell’elenco di controllo. I revisori possono inoltre rivedere l’elenco di controllo di un Allievo in modo non corretto.
+
+### Nuova valutazione di un elenco di controllo
+
+Quando si crea un elenco di controllo, un Autore può selezionare **Abilita** nella sezione Rivalutazione. In questo modo, un manager o un istruttore può rivalutare un allievo fino a quando non supera l’elenco di controllo.
+
+Se il modulo è obbligatorio, la casella di controllo per la rivalutazione è selezionata per impostazione predefinita.
+
+Un istruttore o un manager può anche modificare lo stato di un elenco di controllo da Non riuscito a Superato quando è abilitata la rivalutazione.
+
+Nella pagina Elenco di controllo, un Istruttore può visualizzare il numero di allievi con stato In sospeso. In qualità di Istruttore, puoi valutare un Allievo e superarlo o non superarlo. Se un Allievo si trova in uno stato di errore, è possibile visualizzare l’elenco di controllo solo quando la rivalutazione non è abilitata.
+
+Ciò significa che il **Abilita** la casella di controllo non è stata selezionata nella sezione Rivalutazione durante la creazione dell&#39;elenco di controllo. Se questa casella di controllo è selezionata, nella pagina Elenco di controllo Istruttore sarà disponibile il pulsante Visualizza/Rivaluta.
+
+Selezionando il pulsante puoi rivalutare un Allievo e contrassegnarlo come superato o non riuscito.
+
+>[!NOTE]
+>
+>Entrambe queste funzionalità, Nuova valutazione e Impostazione dell’elenco di controllo come obbligatorio, si applicano solo ai moduli appena creati. Una volta pubblicato un corso, non è possibile attivarlo/disattivarlo.
+
 
 Visualizza [Creare un elenco di controllo](authors/feature-summary/courses.md#checklist-fail) per ulteriori informazioni.
 
