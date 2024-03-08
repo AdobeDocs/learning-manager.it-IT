@@ -4,10 +4,10 @@ title: Importa abilità da origini esterne
 description: Importa le abilità dai provider di contenuti, come LinkedIn e Go1, utilizzando i rispettivi connettori.  Le abilità importate verranno aggiunte alle abilità definite dall’amministratore in Learning Manager e saranno disponibili per gli Autori durante il flusso di lavoro di creazione del corso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 1%
+source-wordcount: '445'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +32,13 @@ Il livello di abilità predefinito è uno e Credito è 10 dopo la migrazione del
 
 Non è possibile modificare il nome dell’abilità, la descrizione e aggiungere livelli alle abilità esterne. Tuttavia, puoi aggiungere domini, distintivi e modificare i crediti.
 
-#### Segnalazione delle modifiche
+#### Report
 
-È stata aggiunta una nuova colonna **Sorgente** con valori: Interno, LinkedIn Learning, Go1, che indica l’origine dell’importazione delle abilità.
+Colonna **Sorgente** con valori: Interno, LinkedIn Learning, Go1, che indica l’origine dell’importazione delle abilità.
 
 Le abilità aggiunte di recente saranno al primo posto.
 
-Nella pagina delle impostazioni del corso, è stata aggiunta una nuova colonna **Assegnato da** contenente valori, Interno e Provider di contenuti.
+Nella pagina delle impostazioni del corso, la colonna **Assegnato da** contenente valori, Interno e Provider di contenuti.
 
 
 ## Flusso di lavoro Amministratore dell’integrazione
