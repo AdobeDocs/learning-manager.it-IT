@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Impostazioni
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
-source-wordcount: '3983'
+source-wordcount: '3985'
 ht-degree: 65%
 
 ---
@@ -438,7 +438,7 @@ Attivare o disattivare le seguenti impostazioni:
 
 >[!NOTE]
 >
->Una volta attivata l’impostazione di importazione delle abilità, il layout dell’account non può essere impostato su Classico, ad esempio il passaggio all’account Classico viene disattivato dopo che **Importazione abilità** l&#39;opzione è abilitata.
+>Una volta attivata l’impostazione di importazione delle abilità, non è possibile passare al layout dell’account nella visualizzazione classica; in altre parole, il passaggio all’account classico viene disattivato dopo che **Importazione abilità** l&#39;opzione è abilitata.
 
 
 ## Consiglio basato sull’intelligenza artificiale
