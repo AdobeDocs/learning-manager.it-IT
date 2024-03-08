@@ -3,14 +3,13 @@ description: Scopri ulteriori informazioni sulle impostazioni dell’account Lea
 jcr-language: en_us
 title: Impostazioni
 contentowner: manochan
-source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
+exl-id: a563d955-f67e-4218-88df-625cde673601
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '3815'
-ht-degree: 68%
+source-wordcount: '3980'
+ht-degree: 65%
 
 ---
-
-
 
 # Impostazioni
 
@@ -421,10 +420,26 @@ Attivare o disattivare le seguenti impostazioni:
    <td>
     <p>Gestione Istruttori<br></p></td>
    <td>
-    <p>Attiva questa impostazione per limitare l’elenco di istruttori che possono essere selezionati durante la creazione di sessioni in aula/aula virtuale. Tutti gli utenti che dispongono dei privilegi di istruttore possono essere assegnati esclusivamente come istruttori a qualsiasi sessione. Questa restrizione non si applica ai flussi di lavoro di migrazione.<br></p></td>
+    <p>Attiva questa impostazione per limitare l’elenco di istruttori che possono essere selezionati durante la creazione di sessioni in aula/aula virtuale. Tutti gli utenti che dispongono dei privilegi di istruttore possono essere assegnati esclusivamente come istruttori a qualsiasi sessione. Questa restrizione non si applica ai flussi di lavoro di migrazione.<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>Importazione di abilità</p>
+    </td>
+    <td>
+      <p>Se questa opzione è attivata, puoi scegliere un’origine esterna da cui importare le abilità. Le abilità per le risorse di apprendimento esistenti verranno importate nel repository delle abilità una volta durante l’esecuzione iniziale. Per tutte le successive importazioni di risorse di apprendimento, le abilità verranno importate nel repository delle abilità solo per gli elementi appena importati.
+      Una volta attivata l’opzione, l’azione è irreversibile. Non è possibile disattivare o passare a un'altra sorgente in un secondo momento.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Una volta attivata l’impostazione di importazione delle abilità, il layout dell’account non può essere impostato su Classico. Ad esempio, il passaggio all’account classico è disabilitato dopo l’attivazione dell’importazione delle abilità.
+
 
 ## Consiglio basato sull’intelligenza artificiale
 
@@ -578,6 +593,13 @@ Puoi anche aggiungere la posizione con l’aiuto di un file CSV. Il file CSV dev
 * Regione di 
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### Impostazioni {#admin-classroom-settings}
+
+Seleziona **Modifica** per modificare quanto segue:
+
+* **Consenti agli autori di creare percorsi**: una volta abilitate, tutte le posizioni create dagli autori verranno elencate nella scheda &quot;Tutte le posizioni&quot;. Gli Allievi visualizzeranno queste posizioni anche nei filtri Catalogo e Calendario.
+* **Consenti agli autori di modificare ed eliminare le posizioni**: una volta abilitata, gli autori saranno in grado di modificare ed eliminare tutte le aule. Le modifiche apportate dagli autori saranno riportate su tutta la piattaforma, compresi i report.
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
