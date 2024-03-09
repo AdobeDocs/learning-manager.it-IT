@@ -3,14 +3,13 @@ description: Il presente documento illustra la procedura da seguire per creare m
 jcr-language: en_us
 title: Creazione di moduli di corso, istanze e programmi di apprendimento
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4544'
-ht-degree: 65%
+source-wordcount: '4604'
+ht-degree: 64%
 
 ---
-
-
 
 # Creazione di moduli di corso, istanze e programmi di apprendimento
 
@@ -23,6 +22,16 @@ I corsi vengono creati dagli Autori. Gli Allievi possono seguire i corsi e gli A
 I corsi vengono creati dagli Autori. Gli Allievi possono seguire i corsi e gli Amministratori possono tenere traccia delle loro prestazioni in base alla frequenza di un corso. Gli Amministratori possono visualizzare i corsi creati dagli Autori ed eseguire alcune attività, come illustrato nella presente sezione. In qualità di Amministratore, puoi creare programmi di apprendimento unici con una serie predefinita di corsi per gli Allievi.
 
 ## Creazione di un’istanza di un corso {#createinstanceofacourse}
+
+### Gestire le istanze
+
+In questo corso imparerai come modificare i dettagli e le proprietà delle istanze.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+
+### Come creare un’istanza
 
 Dopo che un Autore ha creato un corso, è possibile creare istanze del corso. Creando istanze di un corso, puoi offrire lo stesso corso ai tuoi Allievi in diversi periodi. Gli Allievi possono scegliere un’istanza qualsiasi e iscriversi. Puoi configurare ogni istanza in modo che disponga di un proprio set di distintivi, feedback e altre impostazioni.
 
@@ -105,6 +114,14 @@ Ecco cosa devono fare gli Allievi per inviare e-mail a livello di istanza:
 1. Dopo aver fatto clic su **[!UICONTROL Salva]**, visualizzerai un messaggio che confermerà la corretta creazione dell’annuncio. Per pubblicare l’annuncio, fai clic su **[!UICONTROL Pubblica ora]**.
 
    ![Annuncio creato correttamente](assets/announcement-successful.png)
+
+### Iscrizione degli Allievi ai corsi
+
+In questo corso di formazione imparerai come iscrivere, annullare e iscrivere nuovamente gli Allievi.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 ### Iscrizione degli Allievi in varie istanze
 

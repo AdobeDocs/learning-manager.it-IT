@@ -3,14 +3,13 @@ description: Informazioni sui report associati al ruolo di amministratore nell�
 jcr-language: en_us
 title: Rapporti
 contentowner: manochan
-source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
+exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '6502'
-ht-degree: 64%
+source-wordcount: '6624'
+ht-degree: 63%
 
 ---
-
-
 
 # Rapporti
 
@@ -580,6 +579,14 @@ Durante la creazione di un account condiviso tra pari, se l’opzione Condividi 
 
 Puoi ottenere i tuoi report preferiti tramite e-mail iscrivendoti.
 
+### Configurazione degli abbonamenti e-mail
+
+In questo corso di formazione verrà illustrato come impostare gli abbonamenti e-mail per i report del dashboard.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+
 Ingresso **[!UICONTROL Report]** , fare clic sul pulsante  **[!UICONTROL Abbonamento]** scheda. Viene visualizzata la pagina di iscrizione ai report.
 
 Per selezionare il nome del report dall’elenco a discesa, inizia a digitare il nome del report nel campo Report. Scegli la frequenza dell’e-mail dal menu a discesa. È possibile aggiungere l’oggetto dell’e-mail e fornire un ID e-mail alternativo.
@@ -600,6 +607,7 @@ Di seguito sono riportati i tipi di report disponibili per il download.
 * Prova di verifica dell’utente
 * Report di accesso
 * Trascrizioni gamification
+* Prova di verifica della gamification
 
 ## Trascrizioni Allievi {#learnertranscripts}
 
@@ -841,6 +849,33 @@ Gli Amministratori possono scaricare la trascrizione di gamification in formato 
 
    Quando l’Amministratore ripristina la gamification, tutti i punti dell’Allievo vengono ripristinati di conseguenza.
 
+## Report di prova di verifica della gamification {#gamification-audit-trail}
+
+Questo report contiene la cronologia e i motivi dei punti di gamification degli Allievi guadagnati per ogni regola.
+
+### Scarica il report
+
+1. Seleziona l’URL dell’audit trail di gamification.
+1. Nella **Prova di verifica della gamification** selezionare l&#39;intervallo di date.
+1. Seleziona **Genera**.
+
+Il report viene scaricato come file CSV. Il file contiene le seguenti colonne:
+
+* Nome
+* Email/UUID
+* Stato
+* Azione
+* Punti,
+* Punti di saldo
+* Regola/Attività
+* Sottoattività regola/attività,
+* Dettagli regola/attività
+* Tipo,
+* Nome,
+* Nome istanza Data acquisizione (fuso orario UTC)
+* Ora inizio regola/attività
+* Ora di fine regola/attività
+
 ## Report di iscrizione e annullamento dell’iscrizione {#enrollmentandunenrollmentreport}
 
 Amministratori e Manager possono estrarre un report degli Allievi iscritti e con iscrizione annullata. Come Amministratore, puoi visualizzare tutti gli allievi, gli Amministratori e i Manager registrati o con iscrizione annullata a un’istanza di un corso, un programma di apprendimento o una certificazione ed esportare il report. In qualità di Manager, invece, puoi recuperare solo un report dei membri del team. Come Manager, non puoi visualizzare gli Allievi eliminati o il tuo nome nell’applicazione per Manager come Allievo iscritto o con iscrizione annullata.
@@ -900,7 +935,7 @@ Il report conterrà i seguenti campi:
 ![](assets/more-options.png)
 *Opzioni aggiuntive*
 
-## Report di riepilogo della sessione
+## Report di riepilogo della sessione {#session-summary-report}
 
 Il Report di riepilogo della sessione contiene tutte le sessioni pianificate per un Allievo entro una data specificata.
 
@@ -925,17 +960,17 @@ Il csv scaricato contiene i seguenti campi:
 * Posti in totale
 * Posizione
 * Nome istanza
-
 * Nome del corso
 * ID corso
 * Nome dell’istruttore
 * E-mail dell’Istruttore
 * Conteggio delle iscrizioni
-
 * Tipo di sessione
 * Limite per la lista d’attesa
 * Totale in lista d’attesa
 * E-mail degli utenti in lista d’attesa
+* Informazioni sulla posizione
+* Regione della posizione
 
 ## Report utilizzo Istruttore
 

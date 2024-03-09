@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Cataloghi
 description: I cataloghi sono una raccolta di corsi di apprendimento, programmi di apprendimento e certificazioni. Utilizza i cataloghi per fornire agli Allievi l’accesso a un set personalizzato di oggetti di apprendimento. È possibile associare l’apprendimento a un catalogo durante la creazione di un nuovo catalogo.
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 76%
+source-wordcount: '2429'
+ht-degree: 75%
 
 ---
-
-
 
 # Cataloghi
 
@@ -132,6 +131,14 @@ Per eliminare un catalogo, selezionalo dall’elenco. Fate clic sul pulsante Eli
 L’Amministratore può condividere i cataloghi con gli utenti interni di un’organizzazione o con utenti esterni. Tuttavia, la condivisione è esclusiva. In altre parole, un catalogo condiviso internamente non può essere condiviso con gruppi esterni e viceversa.
 
 Corsi, programmi di apprendimento, risorse formative e certificazioni sono gli oggetti di apprendimento supportati in un catalogo da condividere.
+
+### Condividere i cataloghi
+
+Questo corso di formazione ti insegnerà come condividere i cataloghi con gruppi di utenti interni e account Adobi esterni di Learning Manager.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 ## Condividere il catalogo internamente {#int}
 
@@ -340,4 +347,3 @@ Dopo aver creato le etichette, è possibile applicarle a cataloghi specifici seg
 Disabilita il catalogo predefinito e abilita solo il catalogo creato a cui possono accedere gli utenti esterni.
 
 +++
-

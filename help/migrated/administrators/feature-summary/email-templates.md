@@ -3,14 +3,13 @@ description: Gli eventi nell’attività di apprendimento attivano le e-mail inv
 jcr-language: en_us
 title: Modelli e-mail
 contentowner: manochan
-source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1520'
+ht-degree: 58%
 
 ---
-
-
 
 # Modelli e-mail
 
@@ -219,6 +218,14 @@ Puoi anche personalizzare quanto segue:
 * Modifica il piè di pagina dell’e-mail. L’area del piè di pagina contiene variabili predefinite per l’URL dell’account, la Firma e qualsiasi testo in formato libero aggiunto dall’utente.
 
 I modelli supportano inoltre funzioni di modifica avanzate che consentono di mantenere la formattazione quando il contenuto viene copiato e incollato da e in Microsoft Word.
+
+### Configurare le istanze
+
+In questo corso di formazione verrà illustrato come configurare le impostazioni predefinite delle istanze, aggiungere una nuova istanza, ritirare e riaprire un&#39;istanza e configurare i modelli e-mail per un&#39;istanza.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 ## Inviti in linea {#inlineinvitations}
 
