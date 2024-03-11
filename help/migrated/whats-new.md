@@ -3,14 +3,13 @@ description: Scopri le nuove funzioni e i miglioramenti della versione di marzo 
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
-source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
+exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
+source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3600'
 ht-degree: 1%
 
 ---
-
-
 
 # Riepilogo delle nuove funzioni {#new-features-summary}
 
@@ -376,6 +375,14 @@ Un Allievo può fornire il proprio feedback sull’app Adobe Learning Manager pe
 Volevamo informarti che Bluejeans ha raggiunto la fine del suo ciclo di vita (EOL) a febbraio 2024. Dopo febbraio 2024, Bluejeans non riceverà più aggiornamenti o supporto. Il nostro CSAM e i team di supporto ti assisteranno in caso di domande o dubbi durante questo periodo di transizione.
 
 Visualizza [Connettori in Adobe Learning Manager](integration-admin/feature-summary/connectors.md) per ulteriori informazioni sulla configurazione dei connettori.
+
+### Modifiche al report Accesso
+
+Il report Accesso sarà disponibile solo per gli ultimi cinque trimestri. Se un Amministratore dell’integrazione richiede il download su richiesta di Unified Export con **Accesso** Se questa opzione è selezionata, nell’Adobe Learning Manager viene visualizzato un messaggio di errore. Tuttavia, non vi è alcun impatto sulle altre relazioni.
+
+### Modifiche ADFS
+
+I campi Tipo di dipendente e ID dipendente da ADFS sono ora disponibili su Adobe Learning Manager, in base alle mappature.
 
 ## Modifiche alle API introdotte da questa versione
 
