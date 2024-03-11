@@ -1,10 +1,11 @@
 ---
 title: Esperienza senza accesso per gli Allievi
 description: Adobe Il portale nativo di Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili. L’esperienza senza accesso consente agli Allievi di esplorare i corsi senza accedere a un portale.
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 43%
+source-wordcount: '581'
+ht-degree: 41%
 
 ---
 
@@ -30,7 +31,7 @@ Adobe di Learning Manager: le API degli Allievi consentono di creare un’esperi
 
 >[!IMPORTANT]
 >
->Non devono essere utilizzati, così come sono, per qualsiasi tipo di recupero di dati per supportare qualsiasi utente non registrato/utenti condivisi o qualsiasi altro caso simile.
+>Non devono essere utilizzati, così come sono, per qualsiasi tipo di recupero di dati per supportare qualsiasi utente non registrato/utenti condivisi o qualsiasi altro caso simile. Per creare un’esperienza headless o basata su AEM senza accesso, contattaci. Suggeriremo l&#39;approccio giusto in base alle vostre esigenze.
 
 I casi d’uso senza registrazione richiedono una gestione speciale.
 

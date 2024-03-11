@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '15183'
+source-wordcount: '15243'
 ht-degree: 64%
 
 ---
@@ -1946,15 +1946,22 @@ Per ulteriori informazioni, consulta  [**Installazione del connettore Microsoft 
 
 ## Accesso ai dati di formazione
 
+
+>[!IMPORTANT]
+>
+>Questa funzionalità specifica è disponibile solo se Adobe Learning Manager viene venduto come componente aggiuntivo di Adobe Experience Manager. I dati del corso non saranno aggiornati entro 24 ore.
+
+
 >[!NOTE]
 >
->**Questa funzionalità specifica è disponibile solo se Adobe Learning Manager viene venduto come componente aggiuntivo di Adobe Experience Manager.**
+>La sezione evidenzia come funziona l&#39;infrastruttura, ma per creare un&#39;esperienza headless o basata su AEM senza accesso, contattaci. Suggeriremo il giusto approccio alla base del vostro caso d&#39;uso. Questa funzionalità non è attualmente disponibile come self-service.
+
 
 Il connettore Accesso ai dati di formazione consente all’interfaccia utente personalizzata basata su AEM Sites di recuperare ed eseguire il rendering delle informazioni sul corso di formazione per gli Allievi e di eseguire ricerche più semplici e veloci.
 
 Il connettore esporta i metadati del corso di formazione in una soluzione di archiviazione e recupero dati. Puoi quindi configurare l’interfaccia basata su AEM Sites per utilizzare questi due servizi, in modo da recuperare i dati di formazione, eseguire il rendering delle pagine Web e fornire agli Allievi funzionalità di ricerca ottimizzate per la formazione.
 
-Ad esempio, un’interfaccia basata su AEM Sites che non ha effettuato l’accesso può utilizzare i metadati esportati per consentire agli Allievi di cercare, sfogliare e accedere alle pagine del corso di formazione che mostrano informazioni sul corso di formazione
+L&#39;articolo evidenzia come funziona l&#39;infrastruttura, ma per creare un&#39;esperienza headless o basata su AEM senza accesso, contattaci. Suggeriremo il giusto approccio alla base del vostro caso d&#39;uso. Questa funzionalità non è attualmente disponibile come self-service.
 
 Abilita questo connettore per creare ed eseguire il rendering delle pagine Web basate su AEM Sites e distribuire esperienze personalizzate agli Allievi da AEM, in cui le informazioni del corso vengono recuperate utilizzando un’API pubblica (LMS headless).
 
