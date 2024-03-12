@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 59d5e166747b332833ca68344691008670219366
 workflow-type: tm+mt
-source-wordcount: '15243'
-ht-degree: 64%
+source-wordcount: '15334'
+ht-degree: 63%
 
 ---
 
@@ -745,6 +745,12 @@ La funzione di esportazione delle abilità degli utenti consente di esportare au
 >[!NOTE]
 >
 >Non è possibile esportare le abilità di più account Learning Manager contemporaneamente utilizzando lo stesso account Workday.
+
+#### Punti da ricordare
+
+* Assicurati che UUID, indirizzo e-mail e nome del dipendente siano univoci per più integrazioni Workday. Valori non corretti determineranno un errore di connessione.
+* Una volta compilato tramite Workday su, il campo UUID non può essere eliminato da alcun client rivolto all’amministratore LMS. Se desideri modificare il valore, contatta il team di onboarding o di supporto di Learning Manager Adobe.
+* L’opzione Rimozione utente potrebbe anche non funzionare, poiché l’opzione Rimozione utente supporta solo 50 utenti da rimuovere per esecuzione. Esercita estrema cautela durante il caricamento degli utenti tramite gli UUID.
 
 ### Pianificazione {#Scheduling-1}
 
