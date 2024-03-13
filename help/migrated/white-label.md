@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
-title: Deprecazioni API in Adobe Learning Manager
+title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. Nell’Adobe di Learning Manager, puoi applicare l’etichettatura bianca all’app per dispositivi mobili, in modo da rinominare l’app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
-source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
+exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
+source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
-
 
 # Etichettatura bianca nell’app mobile Adobe Learning Manager
 
