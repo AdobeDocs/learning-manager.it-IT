@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Guida introduttiva come Allievo
 description: Utilizza la pagina introduttiva per sfogliare i principali percorsi di apprendimento di Adobe Learning Manager.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 77%
 
 ---
-
-
 
 # Guida introduttiva come Allievo
 
@@ -26,7 +25,7 @@ Nell’applicazione Web Learning Manager, dopo aver effettuato l’accesso come 
 
 **Il mio apprendimento**: puoi visualizzare e fare clic sugli oggetti di apprendimento per tipo e per scadenza. Fai clic sul cerchio nel widget Il Mio apprendimento per passare direttamente al tipo di oggetto di apprendimento o per visualizzare gli oggetti di apprendimento in base alla scadenza.
 
-**Le mie abilità**: puoi inoltre visualizzare la mappa delle abilità nell’angolo superiore destro della pagina. Riferimento  [mappa delle abilità](skills-levels.md)per ulteriori informazioni.
+**Le mie abilità**: puoi inoltre visualizzare la mappa delle abilità nell’angolo superiore destro della pagina. Riferimento  [mappa delle abilità](skills-levels.md) per ulteriori informazioni.
 
 **Widget Oggetto di apprendimento**: si trova proprio sotto Il mio apprendimento e mostra gli oggetti di apprendimento per l’utente. Sotto il mio apprendimento, puoi visualizzare tutte le  [corsi](courses.md),  [programmi di apprendimento](learning-programs.md) e  [certificazioni](certifications.md) che sono registrati dall’utente o assegnati all’utente. Da questo widget è possibile iniziare direttamente a utilizzare un oggetto di apprendimento o rivisitarne uno.
 

@@ -4,7 +4,7 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. Nell’Adobe di Learning Manager, puoi applicare l’etichettatura bianca all’app per dispositivi mobili, in modo da rinominare l’app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
+source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -145,9 +145,7 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
   <td>
 
-  <p>L’Amministratore dell’integrazione del tuo account fornisce i dettagli durante la registrazione dell’app. L’Amministratore dell’integrazione deve utilizzare quanto segue: * Allievo:lettura,Allievo:scrittura come ruolo * App interna name://redirect come URL di reindirizzamento
-
-  </p></td>
+  <p>L’Amministratore dell’integrazione del tuo account fornisce i dettagli durante la registrazione dell’app. L’Amministratore dell’integrazione deve utilizzare quanto segue:<ul><li>Allievo:lettura,allievo:scrittura come ruolo</li><li>app interna name://redirect come URL di reindirizzamento</li></ul></p></td>
 
   </tr>
 
