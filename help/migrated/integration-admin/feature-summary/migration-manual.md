@@ -1,11 +1,11 @@
 ---
-description: Manuale di riferimento per gli Amministratori di integrazione che desiderano eseguire la migrazione di un LMS esistente all’LMS di Learning Manager.
+description: Manuale di riferimento per gli Amministratori di integrazione che desiderano eseguire la migrazione di un LMS esistente all’LMS di Adobe Learning Manager.
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0a5c51c6d56de2c9e2404ba6ddac5a82a62174a5
+source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
 workflow-type: tm+mt
-source-wordcount: '3614'
+source-wordcount: '3615'
 ht-degree: 72%
 
 ---

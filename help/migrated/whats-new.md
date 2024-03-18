@@ -4,16 +4,16 @@ jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
+source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3666'
 ht-degree: 1%
 
 ---
 
 # Riepilogo delle nuove funzioni {#new-features-summary}
 
-Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
+Scopri le nuove funzioni e i miglioramenti nella versione di marzo 2024 di Adobe Learning Manager.
 
 ## Novità di questa versione {#whatsnewandchanged}
 
