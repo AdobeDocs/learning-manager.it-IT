@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe di note sulla versione di Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: adf75b7f451e7977f6b5ccd3550dc26d33162d66
+source-git-commit: aa4d1a41b08d90d04c780db62fabbfd428cae7d2
 workflow-type: tm+mt
 source-wordcount: '26221'
 ht-degree: 72%
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 +++Aggiornamento 96: versione di marzo 2024 di Adobe Learning Manager
 
-**Data di pubblicazione:** 18 novembre 2023
+**Data di pubblicazione:** 7 marzo 2023
 
 ## Novità di questa versione
 
