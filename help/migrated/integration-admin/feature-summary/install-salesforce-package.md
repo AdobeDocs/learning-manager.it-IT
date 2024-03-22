@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Installazione del pacchetto Salesforce
 description: Learning Manager offre un pacchetto dell’app Salesforce. Una volta installato e configurato in SFDC, gli addetti alle vendite possono svolgere le proprie attività di formazione all’interno del portale SFDC. Questa app consente agli utenti di SFDC di esplorare nuovi corsi di formazione, visualizzare i consigli e consultarli direttamente all’interno del portale SFDC. Gli utenti ricevono anche gli annunci inviati dagli Amministratori sotto forma di masthead direttamente nell’app all’interno del portale SFDC.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
+source-git-commit: 970c5f46d6af49bfcca09f88f3d0ece1168fe442
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 51%
 
 ---
-
-
 
 # Installazione del pacchetto Salesforce
 
@@ -48,7 +47,7 @@ Se desideri installare il pacchetto, devi innanzitutto eliminare il pacchetto es
 >
 >L’app di Adobe Learning Manager è supportata solo nella visualizzazione Salesforce Lightning.
 
-1. Avvia il  [URL del pacchetto Learning Manager](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&amp;data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&amp;reserved=0).
+1. Avvia il  [URL del pacchetto Learning Manager](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP).
 1. Nella **Accesso** pagina, fare clic su **[!UICONTROL Usa dominio personalizzato]**.
 
 1. Immetti l’URL del pacchetto e fai clic su **[!UICONTROL Continua]**. Nella pagina di installazione deve essere selezionata l’opzione Installa solo per gli amministratori. Non cambiare questa opzione.
