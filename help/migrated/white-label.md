@@ -4,7 +4,7 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. Nell’Adobe di Learning Manager, puoi applicare l’etichettatura bianca all’app per dispositivi mobili, in modo da rinominare l’app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
+source-git-commit: c3d1deef5809fca8c1a6b482be4159d02ebaf701
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -217,9 +217,8 @@ Se utilizzi un dominio personalizzato o learningmanager\*.adobe.com come host, n
 
 Per ulteriori informazioni, fai riferimento ai seguenti collegamenti:
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Genera notifiche push
 
@@ -257,6 +256,7 @@ Seguire la procedura descritta di seguito.
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
+
 Se è possibile connettersi al server, il certificato creato è valido. Dal file myapnappkey.pem, copiare i valori del certificato e della chiave privata.
 
 ### Notifiche push su Android
@@ -324,5 +324,5 @@ Il team CSM condividerà la build con il cliente.
 
 ## Cosa non può essere personalizzato
 
-- Schermata Aggiorna password
-- Creazione di una schermata dell&#39;account
+* Schermata Aggiorna password
+* Creazione di una schermata dell&#39;account
