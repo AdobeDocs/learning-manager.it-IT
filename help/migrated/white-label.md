@@ -4,9 +4,9 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. Nell’Adobe di Learning Manager, puoi applicare l’etichettatura bianca all’app per dispositivi mobili, in modo da rinominare l’app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,10 +201,19 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
 </table>
 
+>[!NOTE]
+>
+>Fornisci i dati ai tuoi CSAM in modo che possano aggiungerli nel tuo file binario personalizzato dell&#39;app.
 
-#### Aggiorna associazione sito
+
+#### Aggiornare l&#39;associazione del sito per gestire i collegamenti personalizzati
 
 Se utilizzi un dominio personalizzato o learningmanager\*.adobe.com come host, non è necessario intraprendere alcuna azione. Tuttavia, se utilizzate una soluzione personalizzata o un nome host specifico per gli URL, aggiungete i file di associazione del sito.
+
+>[!CAUTION]
+>
+>Se i file non sono presenti, i collegamenti non funzioneranno. Assicurati che i file siano presenti.
+
 
 Per ulteriori informazioni, fai riferimento ai seguenti collegamenti:
 
@@ -212,9 +221,16 @@ Per ulteriori informazioni, fai riferimento ai seguenti collegamenti:
 
 - [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-## Genera certificato notifiche push
+## Genera notifiche push
 
-### Certificato delle notifiche push su iOS
+L’invio di notifiche push alle app Android e iOS richiede due meccanismi diversi.
+
+* Per iOS, genera i certificati di notifica push.
+* Per Android, fornisci una chiave server generata dal progetto Firebase.
+
+Segui le istruzioni riportate di seguito per configurare i progetti in Firebase:
+
+### Notifiche push su iOS
 
 Nello sviluppo di app iOS, un certificato di notifica push è una credenziale crittografica rilasciata da Apple che consente a un server di inviare notifiche push in modo sicuro a un dispositivo iOS tramite il servizio di notifica push (APN) di Apple.
 
@@ -241,19 +257,24 @@ Seguire la procedura descritta di seguito.
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
-
 Se è possibile connettersi al server, il certificato creato è valido. Dal file myapnappkey.pem, copiare i valori del certificato e della chiave privata.
 
-1. Contatta il team CSM e ottieni i file aggiunti ai servizi SNS in AWS. Gli utenti dovranno registrare la voce nel servizio SNS per la notifica push, che richiederà loro di condividere i certificati generati sopra per la convalida.
+### Notifiche push su Android
+
+Configurare un progetto in Firebase e condividere la chiave del server con il CSAM.
+
+Contatta il team CSM e ottieni i file aggiunti ai servizi SNS in AWS. Gli utenti dovranno registrare la voce nel servizio SNS per la notifica push, che richiederà loro di condividere i certificati generati sopra per la convalida.
 
 >[!NOTE]
 >
 >Per Android, l’utente deve fornire la chiave del server dal progetto Firebase che crea per Android per aggiungere la voce nel servizio SNS.
 
 
-## Aggiungere il progetto a Firebase
+## Crea progetto in Firebase
 
 ### Android
+
+Riutilizza lo stesso progetto creato nei passaggi precedenti per le notifiche push.
 
 [Aggiungere il progetto](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase e recuperare ***google-services.json*** file.
 
@@ -261,19 +282,24 @@ Se è possibile connettersi al server, il certificato creato è valido. Dal file
 
 [Aggiungere il progetto](https://firebase.google.com/docs/ios/setup) in Firebase e recuperare ***GoogleService-Info.plist*** file.
 
+>[!IMPORTANT]
+>
+>Invia i file all’Adobe del team CSAM di Learning Manager per includerli nella build del file binario dell’app.
+
+
 ## Genera i file binari firmati
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->Per creare i file binari firmati è necessario XCode 14.2 o versione successiva.
+>Per creare i file binari firmati è necessario XCode 15.2 o versione successiva.
 
 
 ## Android
