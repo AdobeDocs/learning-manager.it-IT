@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
+source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3764'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Se un numero elevato di Allievi è iscritto al corso, ad esempio, più di 50.000
 
 ### Pagina Amministratore: Allievi
 
-Durante la ricerca di un utente, **Scarica Allievo** e **Esporta** opzioni scarica lo stesso report. Nel frattempo, durante la ricerca di un gruppo di utenti, ora puoi scaricare gli utenti filtrati da quel gruppo di utenti. Durante la ricerca in un gruppo di utenti, **Scarica elenco Allievi** modifiche a **Scarica l’elenco degli Allievi per il gruppo di utenti** La **Esporta** viene scaricato nuovamente l&#39;intero elenco.
+Durante la ricerca di un utente, **Scarica Allievo** e **Esporta** opzioni scarica lo stesso report. Nel frattempo, durante la ricerca di un gruppo di utenti, ora puoi scaricare gli utenti filtrati da quel gruppo di utenti. Durante la ricerca in un gruppo di utenti, **Scarica elenco Allievi** modifiche a **Scarica elenco Allievi per il gruppo di utenti** La **Esporta** viene scaricato nuovamente l&#39;intero elenco.
 
 ### Pagina Amministratore: Utenti
 
@@ -230,11 +230,24 @@ Se il numero di utenti in un gruppo di utenti è elevato, il **Stato** nel menu 
 In questa versione, è stata migliorata l’esperienza di ricerca. I risultati della ricerca vengono recuperati in base non solo ai metadati, ma anche alla ricerca semantica e nel contenuto per derivare i risultati in base alla precisione, all’attualità e al contenuto pertinente.
 
 Questa modifica si riflette su quanto segue:
+
 * Catalogo e pagina Il mio apprendimento: l’azione al passaggio del mouse su corso, percorso di apprendimento e certificazione è stata rimossa.
 * Aspetto della barra di ricerca.
 * Sono stati aggiunti tag di filtro nell’app di apprendimento.
 
 Per abilitare le funzionalità di ricerca, contatta il team CSAM di Learning Manager Adobe.
+
+## Modifiche all’interfaccia utente {#ui-changes}
+
+### Pagina di creazione del corso
+
+Durante la mappatura dei corsi su un livello di abilità, l’elenco delle abilità viene prima ricercato. In altre parole, cerca le abilità e vedrai un elenco di abilità che corrispondono al termine ricercato.
+
+### Gruppi utente
+
+#### Pagina Amministratore: Allievi
+
+Durante la ricerca di un utente, **Scarica Allievo** e **Esporta** opzioni scarica lo stesso report. Nel frattempo, durante la ricerca di un gruppo di utenti, ora puoi scaricare gli utenti filtrati da quel gruppo di utenti. Durante la ricerca in un gruppo di utenti, **Scarica elenco Allievi** modifiche a **Scarica elenco Allievi per il gruppo di utenti** La **Esporta** viene scaricato nuovamente l&#39;intero elenco.
 
 ## Modifiche ai report
 
