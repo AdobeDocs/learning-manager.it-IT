@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -261,6 +261,7 @@ Nella pagina Amministrazione, seleziona **Amministratore** > **Abilità** > **Ab
 ## Modifiche alla creazione di classi
 
 In base a [Impostazioni amministratore](administrators/feature-summary/classroom.md#classroom-settings), in qualità di Autore, puoi [creare, modificare ed eliminare posizioni](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >Durante l’aggiunta di etichette per località e cataloghi, gli Autori (nella pagina di creazione del corso) e gli Amministratori (nella pagina delle istanze) visualizzeranno rispettivamente un elenco di località e di etichette del catalogo compilato automaticamente.

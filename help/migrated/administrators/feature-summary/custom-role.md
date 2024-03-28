@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2223'
 ht-degree: 63%
 
 ---
-
-
 
 # Ruoli personalizzati
 
@@ -142,16 +141,16 @@ Un utente con un ruolo personalizzato può:
 * visualizzare solo i contenuti dei cataloghi a cui ha accesso;
 * accedere a qualsiasi oggetto di apprendimento in base alle autorizzazioni del catalogo di cui esso fa parte.
 
-Come Amministratore, puoi:
+  Come Amministratore, puoi:
 
 * scegliere più di un catalogo per un ruolo personalizzato;
 * modificare le autorizzazioni di un catalogo in qualsiasi momento;
 * rimuovere i cataloghi da un ambito a cui non desideri più concedere autorizzazioni;
 * concedere implicitamente l’autorizzazione di sola lettura a un catalogo quando concedi le autorizzazioni al catalogo.
 
-La tabella seguente mostra come vengono concesse le autorizzazioni.
+  La tabella seguente mostra come vengono concesse le autorizzazioni.
 
-<table>
+  <table>
     <tbody>
      <tr>
       <td>
@@ -222,17 +221,17 @@ La tabella seguente mostra come vengono concesse le autorizzazioni.
      </tr>
     </tbody>
    </table>
-1. **Utenti:** Utilizzare questa opzione per determinare gli utenti a cui è assegnato questo ruolo. Puoi scegliere uno o più utenti utilizzando la casella di ricerca.
+1. **Utenti:** Utilizzare questa opzione per determinare a quali utenti è assegnato questo ruolo. Puoi scegliere uno o più utenti utilizzando la casella di ricerca.
 
-**Aggiungi utenti al caricamento CSV del ruolo personalizzato:** Per aggiungere utenti tramite l’aggiornamento CSV, aggiungi una colonna CustomRole al file .csv utilizzato dall’amministratore per importare gli utenti. Immettere il ruolo dell&#39;utente nella colonna CustomRole per gli utenti a cui si desidera assegnare un ruolo personalizzato. Per caricare il file CSV, fai clic su  **[!UICONTROL Aggiungi > Carica un file CSV]**.
+   **Aggiungi utenti al caricamento CSV del ruolo personalizzato:** Per aggiungere utenti tramite l’aggiornamento CSV, aggiungi una colonna CustomRole al file .csv utilizzato dall’amministratore per importare gli utenti. Immettere il ruolo dell&#39;utente nella colonna CustomRole per gli utenti a cui si desidera assegnare un ruolo personalizzato. Per caricare il file CSV, fai clic su  **[!UICONTROL Aggiungi > Carica un file CSV]**.
 
-Colonna CustomRoleNota:
+   Colonna CustomRoleNota:
 
 * Non è possibile cercare gruppi di utenti.
 * Non è possibile cercare tra gli utenti a cui è già stato assegnato il ruolo di amministratore.
 * L&#39;assegnazione di un nuovo ruolo personalizzato a un utente sostituisce il precedente ruolo personalizzato dell&#39;utente.
 
-<!--![](assets/users.png)-->
+  <!--![](assets/users.png)-->
 
 * Un amministratore personalizzato che dispone dell&#39;autorizzazione per Impostazioni potrà configurare la pianificazione per la sincronizzazione o la sincronizzazione degli utenti dall&#39;origine dati anche se non dispone dell&#39;autorizzazione per l&#39;entità Utenti.
 * Se un Amministratore personalizzato dispone dell’autorizzazione per l’entità Utenti, può assegnare il ruolo di Amministratore a se stesso e diventare Amministratore standard.

@@ -4,7 +4,7 @@ title: Cataloghi
 description: I cataloghi sono una raccolta di corsi di apprendimento, programmi di apprendimento e certificazioni. Utilizza i cataloghi per fornire agli Allievi l’accesso a un set personalizzato di oggetti di apprendimento. È possibile associare l’apprendimento a un catalogo durante la creazione di un nuovo catalogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 75%
@@ -220,31 +220,31 @@ Eventuali modifiche apportate agli oggetti di apprendimento nell’applicazione 
    <td>
     <p><strong>Programma di apprendimento</strong></p></td>
    <td>
-    <p>nome, descrizione e altri campi dell'oggetto LP ad eccezione di badgeId, ritiro</p></td>
+    <p>Nome, descrizione e altri campi dell'oggetto LP eccetto badgeId, ritiro</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Certificazione</strong></p></td>
    <td>
-    <p>tutte le proprietà dell'oggetto certificazione ad eccezione di badgeId, ritiro della certificazione</p></td>
+    <p>Tutte le proprietà dell'oggetto certificazione ad eccezione di badgeId, ritiro della certificazione</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Distintivo</strong></p></td>
    <td>
-    <p>nome e ritiro del badge</p></td>
+    <p>Nome e ritiro del badge</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Categoria </strong></p></td>
    <td>
-    <p>nome, descrizione, colore e ritiro della categoria, aggiunta di nuovo livello</p></td>
+    <p>Nome, descrizione, colore e ritiro della categoria, aggiunta di nuovo livello</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Risorsa formativa</strong></p></td>
    <td>
-    <p>tutte le proprietà dell'oggetto jobAid</p></td>
+    <p>Tutte le proprietà dell'oggetto JobAid</p></td>
   </tr>
   <tr>
    <td>

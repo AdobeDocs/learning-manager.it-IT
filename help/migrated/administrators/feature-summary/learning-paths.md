@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Percorsi di apprendimento
 description: Creazione di piani di apprendimento per Amministratori in Learning Manager.
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1941'
 ht-degree: 42%
 
 ---
-
-
 
 # Percorsi di apprendimento
 
@@ -132,9 +131,9 @@ La **[!UICONTROL Possibilità per gli Allievi di scegliere le istanze (percorso 
 
 Sono disponibili tre opzioni:
 
-1. **[!UICONTROL Corsi e percorsi di apprendimento di tutti i livelli (selezionata per impostazione predefinita)]:** L’Allievo riceve notifiche per ogni corso non completato indipendentemente dal livello all’interno di un percorso di apprendimento.
+1. **[!UICONTROL Corsi e percorsi di apprendimento di tutti i livelli di abilità (selezionata per impostazione predefinita)]:** L’Allievo riceve notifiche per ogni corso non completato indipendentemente dal livello all’interno di un percorso di apprendimento.
 1. **[!UICONTROL Percorso di apprendimento radice]:** L’Allievo riceve notifiche per eventuali corsi non completati che fanno parte di un percorso di apprendimento principale.
-1. **[!UICONTROL Percorso di apprendimento e figlio solo di primo livello]:** L’Allievo riceve notifiche per ogni corso non completato che è il primo figlio di un percorso di apprendimento principale.
+1. **[!UICONTROL Percorso di apprendimento + solo bambini di primo livello di abilità]:** L’Allievo riceve notifiche per ogni corso non completato che è il primo figlio di un percorso di apprendimento principale.
 
 I promemoria notifica vengono attivati in base all’opzione. Per impostazione predefinita, l’opzione **[!UICONTROL Corsi e percorsi di apprendimento di tutti i livelli]** è abilitato per un&#39;istanza.
 

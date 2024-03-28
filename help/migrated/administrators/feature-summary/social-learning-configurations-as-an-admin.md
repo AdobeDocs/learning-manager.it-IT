@@ -3,14 +3,13 @@ description: Come Amministratore, puoi abilitare, disabilitare e monitorare le a
 jcr-language: en_us
 title: Monitoraggio e moderazione dell’Apprendimento sociale come Amministratore
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 63%
 
 ---
-
-
 
 # Monitoraggio e moderazione dell’Apprendimento sociale come Amministratore
 
@@ -265,9 +264,9 @@ Sono disponibili altre opzioni:
 * **[!UICONTROL Replica]:** Fare clic su questo pulsante per replicare il titolo e il sottotitolo in tutte le lingue.
 * **[!UICONTROL Reimposta]:** Fare clic su questo pulsante per ripristinare il titolo e il sottotitolo originali.
 
-Nella pagina principale dell’Apprendimento sociale, le informazioni fornite dall’Amministratore vengono visualizzate come intestazione di pagina.
+  Nella pagina principale dell’Apprendimento sociale, le informazioni fornite dall’Amministratore vengono visualizzate come intestazione di pagina.
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## Trend {#trends}
 

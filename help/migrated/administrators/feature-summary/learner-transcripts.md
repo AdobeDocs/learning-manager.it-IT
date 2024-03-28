@@ -3,14 +3,13 @@ description: Scarica la trascrizione Allievo e gestisci i report utilizzando Lea
 jcr-language: en_us
 title: Trascrizioni Allievi
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 67%
+source-wordcount: '1912'
+ht-degree: 66%
 
 ---
-
-
 
 # Trascrizioni Allievi
 
@@ -22,7 +21,7 @@ Adobe Learning Manager consente agli Amministratori di un’organizzazione di ge
 
 1. Per generare le trascrizioni Allievi, fai clic su **[!UICONTROL Report]** nel riquadro a sinistra nell’accesso come Amministratore.
 
-   L’Amministratore passa alla scheda Report Excel all’interno della pagina **[!UICONTROL Report]**.
+   L’Amministratore passa al **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** all&#39;interno della scheda **[!UICONTROL Report]** pagina.
 
 1. Fai clic sul collegamento **[!UICONTROL Trascrizioni Allievi]**.
 

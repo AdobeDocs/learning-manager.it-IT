@@ -3,14 +3,13 @@ description: Crea, assegna e modifica abilità e livelli.
 jcr-language: en_us
 title: Creazione e modifica di abilità e livelli
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 80%
+source-wordcount: '1721'
+ht-degree: 79%
 
 ---
-
-
 
 # Creazione e modifica di abilità e livelli
 
@@ -32,7 +31,7 @@ Come Amministratore, puoi eseguire le seguenti operazioni:
 
 Per aggiungere un’abilità, attieniti ai passaggi seguenti:
 
-1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Abilità]**. Assegna un nome e una descrizione all’abilità.
+1. Nel riquadro a sinistra, seleziona **[!UICONTROL Abilità]** > **[!UICONTROL Aggiungi]** > **[!UICONTROL Aggiungi SKills]**. Assegna un nome e una descrizione all’abilità.
 
    ![](assets/add-skill-name-anddescription.png)
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di moduli di corso, istanze e programmi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 64%
+source-wordcount: '4613'
+ht-degree: 65%
 
 ---
 
@@ -53,6 +53,7 @@ Per creare un’istanza,
    * Fai clic **[!UICONTROL Mostra altre opzioni]** per visualizzare altre opzioni di scadenza.
    * **[!UICONTROL Scadenza iscrizione]:** Si tratta della data entro la quale un Allievo deve iscriversi a un oggetto di apprendimento in caso di iscrizione autonoma.
    * **[!UICONTROL Scadenza annullamento iscrizione]:** Puoi scegliere di limitare l’annullamento dell’iscrizione da parte dello stesso Allievo fissando una scadenza per l’annullamento dell’iscrizione.
+   * **[!UICONTROL Fuso orario]:** Cerca e seleziona **[!UICONTROL Fuso orario]** dal menu a discesa.
 
    Un Amministratore può decidere di impostare scadenze di completamento per un corso o un programma di apprendimento sulla base di requisiti. Tuttavia è consigliabile impostarne una per i corsi di formazione in classe o nella classe aula virtuale.
 
@@ -99,13 +100,13 @@ Per ripristinare lo stato di attivazione di un’istanza ritirata, procedi come 
 
 Ecco cosa devono fare gli Allievi per inviare e-mail a livello di istanza:
 
-1. Nella pagina Istanze, seleziona le opzioni di qualsiasi istanza, quindi fai clic su **[!UICONTROL Invia e-mail agli Allievi iscritti]**.
+1. Nella **[!UICONTROL Istanze]** , selezionare le opzioni in qualsiasi istanza e quindi fare clic su **[!UICONTROL Invia e-mail agli Allievi iscritti]**.
 
 ![e-mail a livello di istanza](assets/adhoc-email.png)
 
 *Invia e-mail agli Allievi iscritti all’istanza*
 
-1. Nella finestra di dialogo Crea annuncio, seleziona Digita come e-mail. Specificate l’oggetto, digitate il messaggio e fate clic su Salva. La formazione viene selezionata automaticamente.
+1. Nella **[!UICONTROL Crea annuncio]** seleziona Digita come e-mail. Specifica l’oggetto, digita il messaggio e fai clic su **[!UICONTROL Salva]**. La formazione viene selezionata automaticamente.
 
    ![Crea annuncio come e-mail](assets/email-announcement.png)
 
@@ -178,7 +179,7 @@ Il file Excel contiene fogli di lavoro per ogni istanza. Un foglio di lavoro è 
 
 >[!NOTE]
 >
->Nota: l’attivazione della registrazione multipla comporta l’aggiunta di più righe al report Trascrizione Allievo per ogni corso (una riga per ogni istanza).
+>L’attivazione dell’iscrizione multipla determina l’aggiunta di più righe al report Trascrizione Allievo per ogni corso (una riga per ogni istanza).
 >
 >Se hai configurato l’automazione dei report che prevede una sola riga per corso, prima di abilitare la funzione Iscrizione multipla devi apportare le modifiche necessarie all’automazione dei report.
 

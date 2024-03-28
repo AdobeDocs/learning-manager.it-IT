@@ -3,14 +3,13 @@ description: Per “gamification” si intende l’utilizzo di meccaniche e valu
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1419'
 ht-degree: 67%
 
 ---
-
-
 
 # Gamification
 
@@ -76,7 +75,7 @@ Per ripristinare il punteggio e la configurazione dell’Allievo, fai clic su Ri
 
 ## Disattivazione della funzionalità Gamification {#disablegamification}
 
-Fai clic [!UICONTROL **Gamification**] > [!UICONTROL **Funzionalità Gamification**]. Ciò consente di abilitare la funzionalità Gamification e la classifica separatamente per gli Allievi. Seleziona tra Abilita per Allievi interni e Abilita per Allievi esterni in base alle esigenze, quindi fai clic su OK. Tutti i punti vengono mantenuti quando attivi nuovamente la funzionalità Gamification.
+Fai clic [!UICONTROL **Gamification**] > **[!UICONTROL Impostazioni]** > [!UICONTROL **Funzionalità Gamification**]. Ciò consente di abilitare la funzionalità Gamification e la classifica separatamente per gli Allievi. Seleziona tra Abilita per Allievi interni e Abilita per Allievi esterni in base alle esigenze, quindi fai clic su OK. Tutti i punti vengono mantenuti quando attivi nuovamente la funzionalità Gamification.
 
 ![](assets/gamification-feature.png)
 

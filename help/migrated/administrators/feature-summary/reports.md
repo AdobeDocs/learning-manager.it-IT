@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporti
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '6624'
+source-wordcount: '6629'
 ht-degree: 63%
 
 ---
@@ -46,7 +46,7 @@ Se sono presenti manager di livello principale interni, questi verranno visualiz
 
 Tutti i profili esterni verranno elencati dopo i profili interni (utenti di livello ROOT interni).
 
-Se un profilo esterno dispone di un manager, la gerarchia dei manager verrà visualizzata nel **[!UICONTROL Visualizzazione dei dati per]** elenco a discesa. - L’utente verrà elencato nella gerarchia dei manager nella pagina di tutti i dettagli (Riepilogo dell’apprendimento, conformità e stato delle abilità)
+Se un profilo esterno dispone di un manager, la gerarchia dei manager verrà visualizzata nel **[!UICONTROL Visualizzazione dei dati per]** elenco a discesa. L’utente verrà elencato nella gerarchia dei manager nella pagina di tutti i dettagli (Riepilogo dell’apprendimento, conformità e stato delle abilità)
 
 In caso contrario, nell’elenco verranno visualizzati tutti i dettagli dei singoli utenti.
 
@@ -58,9 +58,9 @@ Per visualizzare dettagli più dettagliati sulle iscrizioni dei vari team intern
 Quando fai clic su un’iscrizione, puoi visualizzare gli Allievi per ogni Manager e gli oggetti di apprendimento ai quali sono iscritti. Puoi anche visualizzare i dettagli di avanzamento e completamento di ogni allievo.
 
 ![](assets/learners-for-a-manager.png)
-*Aee Allievi assegnati a un Manager*
+*allievi assegnati a un manager*
 
-Fai clic su un qualsiasi team ed esporta il relativo report come file CSV. Un amministratore può esportare il report per qualsiasi gruppo di utenti o singolo utente selezionando il gruppo di utenti o il singolo utente, quindi esportando i dettagli dall’elenco a discesa Azione.
+Fai clic su un qualsiasi team ed esporta il relativo report come file CSV. Un amministratore può esportare il report per qualsiasi gruppo di utenti o singolo utente selezionando il gruppo di utenti o il singolo utente, quindi esportando i dettagli dal **[!UICONTROL Azione]** elenco a discesa.
 
 Inoltre, è possibile visualizzare un grafico a barre delle abilità in corso e acquisite. Puoi aggiungere/rimuovere le abilità che desideri includere nel grafico.
 
@@ -69,7 +69,7 @@ Inoltre, è possibile visualizzare un grafico a barre delle abilità in corso e 
 
 Nella visualizzazione finale, è possibile controllare lo stato di conformità degli allievi e prendere le misure appropriate.
 
-Inoltre, un Amministratore può visualizzare i singoli dati di formazione nel Dashboard di conformità.
+Inoltre, un Amministratore può visualizzare i singoli dati di formazione nel **[!UICONTROL Dashboard di conformità]**.
 
 Ad esempio, l’Amministratore ha identificato tre corsi di formazione per monitorare la conformità. Learning Manager fornisce una panoramica della conformità per i tre corsi di formazione contemporaneamente.
 
@@ -617,7 +617,7 @@ Le trascrizioni degli allievi nei report Excel mostrano le colonne Crediti richi
 
 Come Amministratore, puoi scaricare i report per i corsi. Procedi come segue:
 
-1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report corso]**.
+1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report corso]**.
 1. Viene visualizzata la finestra di dialogo **[!UICONTROL Report corso]**. Seleziona il corso di cui desideri recuperare il report e fai clic su **[!UICONTROL Mostra]**.
 
    ![](assets/course-reports.png)
@@ -657,13 +657,13 @@ In qualità di Amministratore, puoi generare un report di tutti gli annunci che 
 
 Per scaricare un report, segui uno di questi passaggi:
 
-1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report annunci]**. La **[!UICONTROL Generazione della richiesta di report]** viene visualizzata la finestra di dialogo. Fai clic su Ok.
+1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report annunci]**. La **[!UICONTROL Generazione della richiesta di report]** viene visualizzata la finestra di dialogo. Fai clic su Ok.
 1. [!UICONTROL **Annunci**] > [!UICONTROL **Azioni**] > [!UICONTROL **Esporta report**].
 
    ![](assets/announcements.png)
    *Report annunci*
 
-1. È possibile estrarre un report per un annuncio specifico facendo clic su Esporta report sotto l’icona delle impostazioni.
+1. È possibile estrarre un report per un annuncio specifico facendo clic su **[!UICONTROL Esporta report]** sotto l’icona impostazioni.
 
    ![](assets/announcements-specific-report.png)
    *Report per annunci specifici*
@@ -686,7 +686,7 @@ Il report estratto include informazioni su quanto segue:
 
 Per scaricare un report, esegui una delle seguenti operazioni:
 
-* Apri  **[!UICONTROL Report]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Rapporti Risorsa formativa]**. Viene visualizzata la finestra di dialogo **[!UICONTROL Generazione della richiesta di report]**. Fai clic su **[!UICONTROL Ok]**.
+* Apri  **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Rapporti Risorsa formativa]**. Viene visualizzata la finestra di dialogo **[!UICONTROL Generazione della richiesta di report]**. Fai clic su **[!UICONTROL Ok]**.
 * Apri **[!UICONTROL Risorsa formativa]** > **[!UICONTROL Azioni]** > **[!UICONTROL Esporta report]**.
 
 ![](assets/job-aids.png)

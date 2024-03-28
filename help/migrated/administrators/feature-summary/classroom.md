@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Aggiungere aule
 description: Gli amministratori possono ora creare una libreria di aule. Per ogni aula, gli amministratori possono configurare i metadati che includono nome della posizione, limite di partecipanti e informazioni aggiuntive come l’URL. Autori e gli Amministratori possono quindi utilizzare questi percorsi preconfigurati per configurare di eventi di formazione guidati da istruttori (moduli aula).
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 78%
+source-wordcount: '1240'
+ht-degree: 77%
 
 ---
-
-
 
 # Aula
 
@@ -26,13 +25,14 @@ Gli amministratori possono ora creare una libreria di aule. Per ogni aula, gli a
 
 1. Nell’app di amministrazione (l’interfaccia utente per i ruoli di amministratore), fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Aule]**.
 
-1. Fare clic sul pulsante **[!UICONTROL Aggiungi altro]** pulsante.
+1. Fai clic **[!UICONTROL Aggiungi]** > **[!UICONTROL Nuova posizione]**.
 
 1. Nella finestra di dialogo **[!UICONTROL Aula]**, inserisci le informazioni seguenti:
 
-   * Digita il **[!UICONTROL nome della posizione dell’aula]**. Usa un nome unico. In caso contrario, ti verrà mostrato un messaggio di errore in Learning Manager.
+   * Digita il **[!UICONTROL Nome ubicazione]**. Usa un nome unico. In caso contrario, ti verrà mostrato un messaggio di errore in Learning Manager.
    * Inserisci la descrizione dell’aula nel campo **[!UICONTROL Informazioni aula]**. Questo campo è facoltativo.
    * Inserisci l’**[!UICONTROL URL dell’aula]**. Gli Allievi possono visualizzare queste informazioni nei dettagli dell’aula. L’URL può anche essere una posizione su una mappa, se necessario. Questo campo è opzionale.
+   * Digita e seleziona il **[!UICONTROL Area Ubicazione]**. Questo campo è facoltativo.
    * Inserisci il numero di posti disponibili nel campo **[!UICONTROL Limite partecipanti]**. Quest’informazione si riferisce al numero di posti a sedere disponibili nell’aula. Quando si crea l’evento di formazione vero e proprio, questo valore può essere modificato.
 
    ![](assets/add-classroom-location.png)
@@ -59,6 +59,8 @@ Nella finestra di dialogo vengono visualizzati i dettagli di ogni sessione, come
 
 La **[!UICONTROL Sessioni future]** visualizzazioni dei campi **zero** quando l’aula non viene utilizzata per alcuna sessione o quando è associata a sessioni passate.
 
+**[!UICONTROL Posti limitati]** - Visualizza la capacità dell’aula.
+
 **URL percorso** - URL fornito durante la creazione dell’aula.
 
 **Informazioni sulla posizione** - Le informazioni sull’aula che hai fornito durante la creazione dell’aula.
@@ -67,7 +69,7 @@ La **[!UICONTROL Sessioni future]** visualizzazioni dei campi **zero** quando l�
 
 In alternativa, puoi aggiungere una o più aule importando un file CSV contenente le informazioni dell’aula.
 
-Ingresso **[!UICONTROL App per amministratori]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Aule]**, fare clic sul pulsante **[!UICONTROL Importa CSV ubicazioni]** pulsante. Individua il percorso contenente il file CSV e selezionalo.
+Ingresso **[!UICONTROL App per amministratori]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Aule]** > **[!UICONTROL Aggiungi]**, fare clic sul pulsante **[!UICONTROL Percorsi di importazione in blocco]** pulsante. Individua il percorso contenente il file CSV e selezionalo.
 
 Il file CSV utilizza questi campi per memorizzare i dettagli relativi a una o più aule:
 
