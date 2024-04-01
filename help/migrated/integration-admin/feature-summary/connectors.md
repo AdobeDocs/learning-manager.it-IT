@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '15302'
 ht-degree: 64%
@@ -897,7 +897,7 @@ Per configurare il connettore miniOrange, contatta il team CSM di Learning Manag
 
    *Creare una connessione*
 
-1. Se desideri importare l’utente miniOrange direttamente come utente interno Learning Manager, utilizza il **[!UICONTROL Importazione di utenti interni]** opzione.
+1. Se desideri importare l’utente miniOrange direttamente come utente interno Learning Manager, utilizza la **[!UICONTROL Importazione di utenti interni]** opzione.
 
    ![](assets/import-users.png)
 

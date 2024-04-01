@@ -3,14 +3,13 @@ description: Leggi questo articolo per scoprire come creare corsi, certificazion
 jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6843'
 ht-degree: 75%
 
 ---
-
-
 
 # Creazione, modifica e pubblicazione di corsi
 
@@ -70,6 +69,7 @@ Per creare un corso, procedi nel seguente modo:
    NOTA: questa opzione viene attivata solo quando viene configurato il connettore Adobe Commerce.
 
 1. Se desideri offrire agli allievi la possibilità di annullare la propria iscrizione al corso, attiva la casella di controllo **Gli allievi possono annullare l’iscrizione**.
+
 1. **Configurazione istanza**
 
    Se attivi questa opzione, gli Allievi che si trovano nello stato In corso possono visitare altre istanze ed iscriversi. Un Allievo può quindi mantenere l’avanzamento dell’istanza precedente.
@@ -898,4 +898,3 @@ Per ulteriori informazioni, consulta la [sezione sui tentativi multipli](courses
 No, il contenuto caricato su Learning Manager è un file zip pubblicato e non è il file di origine. Pertanto, anche se il contenuto è stato scaricato non può essere modificato in uno strumento di creazione. Per modificare il contenuto è necessario un file di origine.
 
 +++
-

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Integrazione di Learning Manager con AEM
 description: Learning Manager è un sistema di gestione dell’apprendimento con un sistema di gestione dei contenuti di apprendimento integrato. Gli utenti gestiscono i propri contenuti di apprendimento caricandoli su Learning Manager, in modo che Learning Manager esegua il controllo delle versioni, l’assegnazione ai corsi, la definizione della visibilità agli Allievi, il monitoraggio della frequenza e la segnalazione agli amministratori.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 45%
 
 ---
-
-
 
 # Integrazione di Learning Manager con AEM
 
@@ -136,7 +135,7 @@ Il widget Catalogo contiene le seguenti opzioni:
 
 * **[!UICONTROL ID catalogo]:** ID catalogo separati da virgole per i quali è necessario visualizzare i corsi di formazione.
 * **[!UICONTROL Ordina]:** Ordinamento dei corsi di formazione. Le opzioni sono: name, date, dateCreated, dateEnrolled e così via.
-* **[!UICONTROL Stato Allievo]:** Restituisce tutti i corsi di formazione che utilizzano i seguenti filtri: enrolled, started, completed, e notenrolled. I risultati della ricerca non verranno visualizzati se l&#39;opzione di ordinamento è dateEnrolled, dueDate o dateEnrolled.
+* **[!UICONTROL Stato Allievo]:** Restituisce tutti i corsi di formazione che utilizzano i seguenti filtri: enrolled, started, completed, and not enrolled. I risultati della ricerca non verranno visualizzati se l&#39;opzione di ordinamento è dateEnrolled, dueDate o dateEnrolled.
 * **[!UICONTROL Nome dell’abilità]:** Abilità utilizzata per filtrare il corso di formazione esatto.
 * **[!UICONTROL Nome tag]:** Tag utilizzato per filtrare i risultati esatti.
 

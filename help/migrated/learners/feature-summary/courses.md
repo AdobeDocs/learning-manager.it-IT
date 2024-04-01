@@ -3,14 +3,13 @@ description: Leggi questo articolo per sapere come visualizzare e utilizzare i c
 jcr-language: en_us
 title: Corsi
 contentowner: manochan
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2736'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
-
-
 
 # Corsi
 
@@ -170,7 +169,7 @@ Solo dopo l’iscrizione a un corso, l’Allievo può fornire un feedback a stel
 
 Un Allievo potrà selezionare un numero di stelle (su 5) e inviare la valutazione. L’Allievo può inoltre modificare la selezione facendo clic su un numero di stelle diverso. Una volta inviato, verrà visualizzato un messaggio di ringraziamento per il feedback.
 
-Se l’Allievo desidera inviare nuovamente il feedback, può farlo facendo clic sul messaggio. Il pulsante **Invia **viene riabilitato. Un Allievo può fornire valutazioni a stelle più volte dopo l’iscrizione a un corso. Si terrà sempre in considerazione la valutazione più recente.
+Se l’Allievo desidera inviare nuovamente il feedback, può farlo facendo clic sul messaggio. La **Invia** pulsante viene riabilitato. Un Allievo può fornire valutazioni a stelle più volte dopo l’iscrizione a un corso. Si terrà sempre in considerazione la valutazione più recente.
 
 Una volta che l’Allievo fornisce una valutazione a stelle, la media di queste e il conteggio degli Allievi che hanno fornito un feedback compariranno nel **Panoramica del corso** pagina.
 
@@ -211,7 +210,7 @@ Tutti i filtri e le altre opzioni sono mostrati nel seguente video.
 
 ### Anteprima del contenuto
 
-Puoi esplorare e visualizzare in anteprima il corso e vedere se soddisfa le tue esigenze di apprendimento. Fai clic sul pulsante **Anteprima **e visualizza l’anteprima del corso. L’anteprima è disponibile per due minuti.
+Puoi esplorare e visualizzare in anteprima il corso e vedere se soddisfa le tue esigenze di apprendimento. Fare clic sul pulsante **Anteprima** e visualizzare l’anteprima del corso. L’anteprima è disponibile per due minuti.
 
 ![](assets/content-marketplace-learner.gif)
 *Anteprima dei contenuti nel marketplace*
@@ -272,7 +271,7 @@ Come Allievo, puoi interagire con altri Allievi e Istruttori tramite la scheda D
 
 Quando fai clic sulla scheda Discussione, puoi visualizzare i commenti e i post esistenti per tale corso. Se ti sei già iscritto al corso, puoi inoltre iniziare a digitare post o commenti per altri utenti. Dopo aver digitato il messaggio, fai clic sull’opzione di pubblicazione. La pubblicazione deve contenere almeno 10 caratteri.
 
-La pubblicazione è visibile immediatamente nella scheda Discussioni. Puoi ordinare i post dal più recente al meno recente ed eliminare quelli creati. Anche dopo aver annullato l’iscrizione al corso, puoi ancora visualizzare tutti i post ed eliminare quelli da te creati.
+La pubblicazione è visibile immediatamente nella scheda Discussioni. Puoi ordinare i post come Primi più recenti o Primi meno recenti ed eliminare i post che hai scritto. Anche dopo aver annullato l’iscrizione al corso, puoi ancora visualizzare tutti i post ed eliminare quelli da te creati.
 
 ![](assets/learner-discussion.png)
 *Visualizza discussioni partecipanti*
