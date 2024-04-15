@@ -1,7 +1,7 @@
 ---
-description: Adobe di note sulla versione di Learning Manager
+description: Note sulla versione di Adobe Learning Manager
 jcr-language: en_us
-title: Adobe di note sulla versione di Learning Manager
+title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 source-git-commit: 5525aa6f5b4c795e4ffbd008e9fe865abfbe4980
@@ -11,7 +11,7 @@ ht-degree: 72%
 
 ---
 
-# Adobe di note sulla versione di Learning Manager
+# Note sulla versione di Adobe Learning Manager
 
 <!--<table>
  <tbody>
@@ -104,7 +104,7 @@ Per ulteriori informazioni, consulta [Novità della versione di luglio 2023 di A
 
 ### Bug corretti in questo aggiornamento
 
-* La descrizione dell’app mobile Learning Manager di Adobe del Play Store riporta erroneamente che un Allievo può seguire un corso offline.
+* La descrizione dell’app mobile Adobe Learning Manager di Play Store riporta erroneamente che un Allievo può seguire un corso offline.
 * Si sono verificati problemi durante la migrazione dei contenuti (module_version.csv e course_module.csv) da LinkedIn a Adobe Learning Manager.
 * Se un account si trova in uno stato inattivo e viene creato più di tre anni fa, tutti gli utenti dell’account vengono eliminati tramite il RGPD, indipendentemente dallo stato degli utenti.
 * Nell’app Istruttore, quando il limite della lista d’attesa per una sessione viene impostato su zero, e la sessione viene salvata, nell’interfaccia utente viene visualizzato erroneamente il messaggio “Non applicabile” anziché zero.
@@ -145,7 +145,7 @@ Un nuovo rapporto Utilizzo istruttore, un rapporto Revisione corsi di formazione
 
 **Supporto per sessioni &quot;ibride&quot;**
 
-Adobe Learning Manager ora supporta la possibilità di creare sessioni di formazione con istruttore (ILT) &quot;ibride&quot;. Le sessioni ILT virtuali possono essere create con informazioni sulla posizione facoltative in modo che gli Allievi possano partecipare alla sessione anche di persona se si trovano sul posto.
+Adobe Learning Manager ora supporta la possibilità di creare sessioni di formazione con istruttore &quot;ibride&quot; (ILT). Le sessioni ILT virtuali possono essere create con informazioni sulla posizione facoltative in modo che gli Allievi possano partecipare alla sessione anche di persona se si trovano sul posto.
 
 **Migliore monitoraggio dello stato di avanzamento per classi e ILT virtuale**
 
@@ -217,7 +217,7 @@ Quando viene fatto clic sulle notifiche nella scheda Attività dell’app su iPh
 * La lingua dell’interfaccia utente nell’app Adobe Learning Manager su MS Teams a volte non cambia come previsto quando viene modificata.
 * Non è possibile interagire con la prima notifica quando l’elemento attivo è nell’Iframe (schede Home e Catalogo).
 
-**Limitazioni dell’app mobile Adobe Learning Manager**
+**Limitazioni dell&#39;app per dispositivi mobili Adobe Learning Manager**
 
 * Visualizzazione dei contenuti offline.
 * Vista Griglia/Elenco nella pagina Catalogo/Il mio apprendimento.
@@ -472,7 +472,7 @@ Per ulteriori informazioni, consulta [Novità della versione di novembre 2022 d
 
 Questo è un aggiornamento per aiutarti a prepararti a una modifica imminente.
 
-**Il prodotto Adobe Learning Manager cambierà nome in Adobe Learning Manager a luglio del 2022**. Si tratta di un cambiamento strategico che riflette in modo più accurato l’allineamento del prodotto a determinate priorità aziendali.
+**Il prodotto Adobe Learning Manager cambierà nome in Adobe Learning Manager a luglio 2022**. Si tratta di un cambiamento strategico che riflette in modo più accurato l’allineamento del prodotto a determinate priorità aziendali.
 
 Il team del prodotto sta adottando tutte le misure necessarie per garantire che non vi sia alcun impatto sull’utilizzo della piattaforma. Potrai continuare a utilizzare il prodotto come di consueto. A luglio, gli amministratori della piattaforma potrebbero notare il nuovo nome del prodotto in alcune schermate.
 
@@ -2366,7 +2366,7 @@ Puoi aggiungere URL come annunci inserendo l’URL in HTML.
 
 **Aggiunta di nuovi tipi di distribuzione (corsi)**
 
-Adobe Learning Manager ora consente di aggiungere i tipi di distribuzione dei corsi.
+Adobe Learning Manager ora consente di aggiungere i tipi di distribuzione per i tuoi corsi.
 
 **Miglioramenti al ruolo di Autore**
 
