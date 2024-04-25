@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0a096888ab9913bb38391f9dc7b21fad3d90e91d
+source-git-commit: e80f68843d7f6b937d9be8917e7bf9c8a69b23db
 workflow-type: tm+mt
-source-wordcount: '3145'
-ht-degree: 53%
+source-wordcount: '3113'
+ht-degree: 65%
 
 ---
 
@@ -114,26 +114,21 @@ Come citato nella sezione precedente, nella libreria puoi caricare contenuti sia
 
 ## Aggiunta di contenuti statici {#addstaticcontent}
 
-1. Selezionare il **[!UICONTROL Libreria dei contenuti]** nel riquadro a sinistra dopo aver effettuato l’accesso come **Autore** e seleziona **[!UICONTROL Aggiungi]** > **[!UICONTROL Contenuto]**.
+1. Fai clic su Libreria dei contenuti nel riquadro a sinistra dopo aver effettuato l’accesso come Autore e seleziona Aggiungi.
 
->[!NOTE]
->
->Selezione **[!UICONTROL Aggiungi]** verranno visualizzate due opzioni. **[!UICONTROL Contenuto]** e **[!UICONTROL Quiz]**: Vedere [Creare un quiz](content-library.md#createaquiz) per ulteriori dettagli.
+   In alternativa puoi fare clic su Crea contenuto nella pagina Guida introduttiva.
 
-
-In alternativa, potete selezionare **[!UICONTROL Crea contenuto]** dal menu **[!UICONTROL Introduzione]** pagina.
-
-1. Nella **[!UICONTROL Nome]** digitare un nome per il contenuto che si desidera caricare.
-1. Nella **[!UICONTROL Descrizione]** digitare la descrizione del contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 400 caratteri.
-1. Per aggiungere il contenuto, seleziona **[!UICONTROL Aggiungi file di contenuto]** e caricare il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
+1. Nel campo Nome specifica un nome per il contenuto che vuoi caricare.
+1. Nel campo Descrizione immetti la descrizione per il contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 400 caratteri.
+1. Per aggiungere il contenuto, fai clic su Aggiungi file di contenuto e carica il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
 
    Se desideri sostituire il contenuto, poi sostituire un contenuto statico con un altro contenuto statico. Lo stesso vale per il contenuto interattivo.
 
-1. Nella **[!UICONTROL Durata]** facoltativamente, puoi digitare il tempo previsto che un allievo trascorrerebbe in questo modulo. La durata è espressa in minuti.
+1. Nel campo Durata puoi inserire, se lo desideri, il tempo che un Allievo dovrebbe dedicare a questo modulo secondo le tue previsioni. La durata è espressa in minuti.
 
-   Il tempo di apprendimento speso dallo studente viene calcolato in base alla durata specificata se lo studente ha contrassegnato un corso come completo. Se l’Allievo utilizza i contenuti nel lettore, il tempo dedicato a quest’ultimo viene sommato al tempo di apprendimento impiegato. Se il tempo effettivo per il contenuto è inferiore alla durata specificata non accade nulla, perché il lettore rispetta sempre la durata per la visualizzazione del contenuto.
+   Il tempo di apprendimento speso dallo studente viene calcolato in base alla durata specificata se lo studente ha contrassegnato un corso come completo. Se lo studente consulta il contenuto nel lettore, il tempo trascorso nel lettore viene aggiunto al tempo di apprendimento. Se il tempo effettivo per il contenuto è inferiore alla durata specificata non accade nulla, perché il lettore rispetta sempre la durata per la visualizzazione del contenuto.
 
-1. Nella **[!UICONTROL Tag]** , immetti i tag per il contenuto caricato in modo che il contenuto diventi rilevabile.
+1. Nel campo Tag contenuto inserisci i tag per il contenuto caricato, in modo che il tuo contenuto diventi rilevabile.
 
    L’Autore può utilizzare questi tag per cercare il contenuto durante l’aggiunta del contenuto al corso.
 
@@ -143,25 +138,23 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
 ## Aggiunta di contenuto interattivo {#addinteractivecontent}
 
-1. Seleziona **[!UICONTROL Libreria dei contenuti]** nel riquadro a sinistra dopo aver effettuato l’accesso come **Autore** e seleziona **[!UICONTROL Aggiungi]** > **[!UICONTROL Contenuto]**.
+1. Fai clic su Libreria dei contenuti nel riquadro a sinistra dopo aver effettuato l’accesso come Autore e seleziona Aggiungi.
 
->[!NOTE]
->
->Selezione **[!UICONTROL Aggiungi]** verranno visualizzate due opzioni. **[!UICONTROL Contenuto]** e **[!UICONTROL Quiz]**: Vedere [Creare un quiz](content-library.md#createaquiz) per ulteriori dettagli.
+   In alternativa puoi fare clic su Crea contenuto nella pagina Guida introduttiva.
 
-In alternativa, potete selezionare **[!UICONTROL Crea contenuto]** dal menu **[!UICONTROL Introduzione]** pagina.
-
-1. Nella **[!UICONTROL Nome]** digitare un nome per il contenuto che si desidera caricare.
-1. Nella **[!UICONTROL Descrizione]** digitare la descrizione del contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 245 caratteri.
-1. Per aggiungere il contenuto, seleziona **[!UICONTROL Aggiungi file di contenuto]** e caricare il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
+1. Nel campo Nome specifica un nome per il contenuto che vuoi caricare.
+1. Nel campo Descrizione immetti la descrizione per il contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 245 caratteri.
+1. Per aggiungere il contenuto, fai clic su Aggiungi file di contenuto e carica il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
 
 * [Tipi di file supportati](content-library.md#supported)
 
   Il contenuto interattivo può essere un progetto pubblicato SCORM, AICC o Captivate. Il file deve essere un file zip.
 
-Puoi anche aggiungere contenuto HTML generato da Captivate, Presenter o Presenter Video Express.
+  Puoi anche aggiungere contenuto HTML generato da Captivate, Presenter o Presenter Video Express.
 
-1. **Learning Manager** supporta i sottotitoli per i contenuti video caricati in Learning Manager. Ora gli Autori possono caricare il file contenente i sottotitoli insieme al file video.
+[Tipi di file supportati](content-library.md#supported)
+
+1. Learning Manager supporta i sottotitoli per i contenuti video caricati in Learning Manager. Ora gli Autori possono caricare il file contenente i sottotitoli insieme al file video.
 
    Gli studenti possono quindi visualizzare le didascalie durante la riproduzione del modulo video.
 
@@ -169,11 +162,11 @@ Puoi anche aggiungere contenuto HTML generato da Captivate, Presenter o Presente
 
    Il supporto delle didascalie è disponibile per i contenuti video caricati in Libreria dei contenuti di Learning Manager.
 
-   In qualità di autore, quando caricherai un contenuto video o audio, puoi anche caricare il file VTT che contiene i sottotitoli.
+   In qualità di autore, quando caricherai un contenuto video o audio, puoi anche caricare il file .vtt che contiene i sottotitoli.
 
    I sottotitoli vengono quindi visualizzati nel lettore Fluidic. I sottotitoli sono inoltre conformi alle [Standard WCAG2.0](https://www.w3.org/TR/WCAG20/).
 
-   Quando aggiungete un contenuto video alla libreria, potete anche aggiungere il file VTT, che deve essere un file valido.
+   Quando aggiungi un contenuto video alla libreria, puoi anche aggiungere il file vtt, che **deve** essere un file valido.
 
    ![](assets/webvtt.png)
 
@@ -191,11 +184,11 @@ Puoi anche aggiungere contenuto HTML generato da Captivate, Presenter o Presente
 
    Dopo aver aggiunto questo contenuto a un corso e quando lo visualizzi in anteprima come Allievo, puoi visualizzare i sottotitoli nel video.
 
-   Sul lettore, attiva il pulsante CC sul lettore Fluidic per visualizzare o nascondere i sottotitoli.
+   Sul lettore, attiva o disattiva il pulsante CC del lettore Fluidic per visualizzare o nascondere le didascalie.
 
    La stessa visualizzazione è presente nell’**app per Allievi** e nell’**Anteprima come Allievo**.
 
-   Quando **aggiungere, aggiornare o eliminare** nel file VTT, viene visualizzata una notifica.
+   Quando **aggiungere, aggiornare o eliminare** nel file vtt, riceverai una notifica.
 Il supporto del formato WebVTT non è disponibile per:
 
    1. Annunci video.
@@ -205,30 +198,30 @@ Il supporto del formato WebVTT non è disponibile per:
    1. Contenuto video creato con il processo di migrazione.
    1. Riproduzione di video nell’app mobile in modalità offline.
 
-1. Nella **[!UICONTROL Durata]** facoltativamente, puoi digitare il tempo previsto che un allievo trascorrerebbe in questo modulo. La durata è espressa in minuti.
-1. Nella **[!UICONTROL Tag]** digitare i tag per il contenuto caricato in modo che il contenuto diventi rilevabile.
+1. Nel campo Durata puoi inserire, se lo desideri, il tempo che un Allievo dovrebbe dedicare a questo modulo secondo le tue previsioni. La durata è espressa in minuti.
+1. Nel campo Tag contenuto inserisci i tag per il contenuto caricato, in modo che il tuo contenuto diventi rilevabile.
 
 ### Supporto per il catalogo condiviso
 
 Se un account del venditore condivide un catalogo che contiene i corsi e questi contengono i moduli, audio o video con i sottotitoli, i corsi devono comportarsi allo stesso modo nell’account dell’acquirente.
 
-La propagazione del modulo dovrebbe funzionare correttamente dal venditore all’acquirente. Questo può includere: modifica/elimina/aggiunta del file VTT nel modulo.
+La propagazione del modulo deve funzionare correttamente dall’account venditore all’account acquirente. Questo può includere: modifica/elimina/aggiunta del file vtt nel modulo.
 
-Una volta caricato il contenuto, puoi visualizzare una notifica selezionando la **Campana** icona nell&#39;angolo superiore destro della pagina. Ogni volta che modifichi un contenuto e lo carichi nuovamente, ricevi una notifica. Se apporti le modifiche, solo tu ricevi la notifica, e non gli altri autori.
+Una volta caricato il contenuto, puoi visualizzare una notifica facendo clic sull’icona raffigurante una campana nell’angolo in alto a destra della pagina. Ogni volta che modifichi un contenuto e lo carichi nuovamente, ricevi una notifica. Se apporti le modifiche, solo tu ricevi la notifica, e non gli altri autori.
 
-## Crea un quiz {#createaquiz}
+## Crea un quiz
 
-Creazione di valutazioni in Adobe Learning Manager con il nuovo strumento per la creazione di quiz sul **[!UICONTROL Libreria dei contenuti]** pagina. Le valutazioni create diventano parte del **Libreria dei contenuti** e può essere aggiunto a una cartella &quot;pubblica&quot; per facilitare il riutilizzo del corso.
+Crea valutazioni all’interno di Adobe Learning Manager con il nuovo strumento per la creazione di quiz nella pagina Libreria dei contenuti. Le valutazioni create diventano parte della Libreria dei contenuti e possono essere aggiunte a una cartella &quot;pubblica&quot; per consentire il riutilizzo del corso.
 
-1. Seleziona **[!UICONTROL Libreria dei contenuti]** nel pannello a sinistra.
+1. Selezionate Libreria contenuti nel pannello a sinistra.
 1. Nell’angolo in alto a destra dello schermo, seleziona **Aggiungi > Quiz**.
-1. Nella **[!UICONTROL Crea quiz]** , digitare il nome e la descrizione del quiz.
-1. Nella **[!UICONTROL Contenuto del quiz]** , seleziona **Aggiungi domanda per il quiz**.
-1. Nella **[!UICONTROL Quiz]** , seleziona il tipo di domanda. Esistono Sono disponibili tre tipi di domande:
+1. Nella pagina Crea quiz, digita il nome e la descrizione del quiz.
+1. Nella sezione Contenuto quiz, seleziona **Aggiungi domanda per il quiz**.
+1. Nella finestra di dialogo della domanda del quiz, seleziona il tipo di domanda. Esistono Sono disponibili tre tipi di domande:
    * Domanda a scelta multipla
    * True o false
    * Compila lo spazio vuoto
-1. Digitare la domanda e selezionare la risposta corretta.
+1. Immetti la domanda e seleziona la risposta corretta.
 1. Definisci i punti per il quiz.
 1. Se desideri che alla domanda venga fornita una risposta corretta per superare il quiz, seleziona la casella di controllo **È obbligatorio rispondere correttamente per superare il quiz**.
 1. Seleziona **Salva e chiudi**.
@@ -248,7 +241,7 @@ Il quiz viene aggiunto alla Libreria dei contenuti. Come per qualsiasi contenuto
 
 ## Aggiunta nella cartella {#add-folder}
 
-Dopo che un amministratore ha creato le cartelle dei contenuti, l’autore può caricare un contenuto in una cartella dei contenuti, in modo che sia visibile solo a te o a un gruppo selezionato di autori nell’account. Puoi anche rendere il contenuto pubblico e visibile a tutti gli autori nell’account.
+Dopo che un Amministratore crea le cartelle dei contenuti, come autore puoi caricare un contenuto in una cartella di contenuti affinché il contenuto sia visibile solo a te o a un gruppo di autori selezionato nell’account. Puoi anche rendere il contenuto pubblico e visibile a tutti gli autori nell’account.
 
 **Esempio di utilizzo**
 
@@ -258,7 +251,7 @@ La libreria di contenuti con contenuto esistente (ad esempio, il contenuto caric
 
 >[!NOTE]
 >
->Le cartelle pubbliche e private si escludono a vicenda. Questo significa che il contenuto **non può** essere associato contemporaneamente a una cartella pubblica e privata. Può essere associato alla cartella pubblica, **oppure** può essere associato a una o più cartelle private in qualsiasi momento.
+>Le cartelle pubbliche e private si escludono a vicenda. Questo significa che il contenuto **non può** essere contemporaneamente associato alla cartella pubblica e privata. Può essere associato alla cartella pubblica, **oppure** può essere associato a una o più cartelle private in qualsiasi momento.
 
 Quando aggiungi un contenuto, puoi scegliere la cartella in cui risiederà il contenuto.
 
@@ -300,13 +293,13 @@ Per spostare il contenuto di una cartella pubblica in una cartella privata,
 
    *Visualizza tutti i contenuti caricati*
 
-1. Scegli il contenuto che desideri spostare in una cartella. Quindi seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Organizza contenuto]** > **[!UICONTROL Sposta contenuto nella cartella]**.
+1. Scegli il contenuto che desideri spostare in una cartella. Quindi fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Organizza contenuto]** > **[!UICONTROL Sposta contenuto nella cartella]**.
 
    ![](assets/move-content-to-folder.png)
 
    *Sposta nella cartella il contenuto selezionato*
 
-1. Scegli la cartella in cui desideri spostare il contenuto. Seleziona **[!UICONTROL Sposta]**.
+1. Scegli la cartella in cui desideri spostare il contenuto. Fai clic **[!UICONTROL Sposta]**.
 
 ## Copia del contenuto nella cartella {#copycontenttofolder}
 
@@ -332,14 +325,14 @@ Per scollegare si intende la rimozione del contenuto dalla cartella selezionata.
 
 ## Aggiunta di contenuto per lingue diverse {#addcontentfordifferentlanguages}
 
-1. Per aggiungere il contenuto per lingue diverse, seleziona la **Aggiungi nuova lingua** e scegliete le lingue desiderate. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
+1. Per aggiungere il contenuto per lingue diverse, fare clic sul pulsante **Aggiungi nuova lingua** e scegliete le lingue desiderate. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
 
    ![](assets/add-new-languagetab.png)
 
    *Aggiungere una nuova lingua per un contenuto*
 
 1. Ripeti la procedura di caricamento del contenuto per le nuove lingue.
-1. Se si desidera rimuovere una lingua, selezionare **[!UICONTROL Aggiungi nuova lingua]** e cancella la selezione.
+1. Per rimuovere una lingua, fai clic sulla scheda Aggiungi una nuova lingua e annulla la selezione corrispondente.
 
    Dopo aver apportato le modifiche, fai clic su Salva. Nella libreria, il nuovo contenuto ora è disponibile per l’uso.
 
