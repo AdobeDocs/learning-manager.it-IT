@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Nella pagina Pulizia utente, per gli utenti eliminati è stata rimossa la funzio
 
 #### Corso o percorso di apprendimento
 
-Se il numero di iscrizioni è elevato, Learning Manager di Adobe non visualizzerà il numero di Allievi. Verrà invece visualizzata un’icona, selezionabile, che consente di visualizzare il numero di Allievi e passare alla pagina Allievi.
+Se il numero di iscrizioni è elevato, Adobe Learning Manager non visualizzerà il numero di allievi. Verrà invece visualizzata un’icona, selezionabile, che consente di visualizzare il numero di Allievi e passare alla pagina Allievi.
 
 Il numero di Allievi verrà visualizzato come valore approssimativo. Ad esempio, se il numero di Allievi è superiore a 50.000, il valore verrà visualizzato come 50K+.
 
@@ -86,9 +86,9 @@ Se il numero di utenti nel gruppo di utenti è inferiore a 10.000, puoi eseguire
 
 ### Pagina Amministratore: Certificazioni
 
-Nelle versioni correnti di Learning Manager di Adobe, se è presente un numero elevato di utenti iscritti a una certificazione, non potrai visualizzare gli Allievi con iscrizione annullata dal **Stato** Menu a discesa disattivato.
+Nelle versioni correnti di Adobe Learning Manager, se è presente un numero elevato di utenti iscritti a una certificazione, non è possibile visualizzare gli Allievi con iscrizione annullata dal **Stato** Menu a discesa disattivato.
 
-In questa versione di Adobe di Learning Manager, se il numero di utenti iscritti è elevato, il **Stato** nel menu a discesa vengono visualizzate solo due opzioni: **Iscritto** e **Annullata iscrizione**. Opzione **Iscritto** è selezionato per impostazione predefinita. Se si seleziona **Annullata iscrizione**, viene visualizzato l’elenco degli allievi non iscritti.
+In questa versione di Adobe Learning Manager, se il numero di utenti iscritti è elevato, il **Stato** nel menu a discesa vengono visualizzate solo due opzioni: **Iscritto** e **Annullata iscrizione**. Opzione **Iscritto** è selezionato per impostazione predefinita. Se si seleziona **Annullata iscrizione**, viene visualizzato l’elenco degli allievi non iscritti.
 
 #### Modifiche al gruppo di utenti
 
@@ -235,7 +235,7 @@ Questa modifica si riflette su quanto segue:
 * Aspetto della barra di ricerca.
 * Sono stati aggiunti tag di filtro nell’app di apprendimento.
 
-Per abilitare le funzionalità di ricerca, contatta il team CSAM di Learning Manager Adobe.
+Per abilitare le funzionalità di ricerca, contatta il team CSAM di Adobe Learning Manager.
 
 ## Modifiche all’interfaccia utente {#ui-changes}
 
@@ -320,7 +320,7 @@ Visualizza [Creare un elenco di controllo](authors/feature-summary/courses.md#ch
 
 ### Notifiche e-mail relative alla sessione
 
-Nelle versioni precedenti dell’Adobe di Learning Manager, un Allievo non inviava e-mail relative alla sessione, Dettagli della sessione aggiornati, Invito alla sessione e Promemoria della sessione nei seguenti casi:
+Nelle versioni precedenti di Adobe Learning Manager, un Allievo non riceveva e-mail relative alla sessione, Dettagli della sessione aggiornati, Invito alla sessione e Promemoria della sessione nei seguenti casi:
 
 * Gli Allievi hanno completato un corso,
 * Le nuove sessioni vengono aggiunte a un corso, oppure
@@ -344,7 +344,7 @@ In un sito di riferimento AEM, è stato aggiunto il supporto per aggiungere il t
 
 ### Nascondere gli invii degli istruttori
 
-Dopo che gli Allievi hanno caricato i file tramite il flusso di lavoro per l’invio, se un Istruttore non intraprende alcuna azione (approvazione o rifiuto) sull’invio, l’URL di invio viene nascosto dalla visualizzazione dopo un numero predefinito di giorni. Per impostare o modificare il numero di Adobi, contatta i team CSAM di Learning Manager.
+Dopo che gli Allievi hanno caricato i file tramite il flusso di lavoro per l’invio, se un Istruttore non intraprende alcuna azione (approvazione o rifiuto) sull’invio, l’URL di invio viene nascosto dalla visualizzazione dopo un numero predefinito di giorni. Contatta i team CSAM di Adobe Learning Manager per impostare o modificare il numero di giorni.
 
 ### Modifiche della terminologia del prodotto
 
@@ -370,15 +370,15 @@ Come per la web app, se un Allievo non supera un elenco di controllo nell’app 
 
 ### Modifiche in Connect VC
 
-Nelle versioni correnti di Learning Manager di Adobe, un Allievo viene contrassegnato **Non partecipato** quando sono iscritti a una sessione Connect VC, ma non soddisfano i criteri di completamento.
+Nelle versioni correnti di Adobe Learning Manager, un Allievo viene contrassegnato **Non partecipato** quando sono iscritti a una sessione Connect VC, ma non soddisfano i criteri di completamento.
 
 In questa versione, lo stato diventa **Ancora da segnare**.
 
 ### Etichettatura bianca in Adobe Learning Manager
 
-L’app mobile Learning Manager di Adobe ora supporta l’etichettatura bianca, il che significa che ora puoi rilasciare l’app con il tuo marchio.
+L’app per dispositivi mobili Adobe Learning Manager ora supporta l’etichettatura bianca, il che significa che ora puoi rilasciare l’app con il tuo marchio.
 
-Visualizza etichettatura bianca in [Adobe dell’app mobile Learning Manager](white-label.md) per ulteriori informazioni.
+Visualizza etichettatura bianca in [App Adobe Learning Manager per dispositivi mobili](white-label.md) per ulteriori informazioni.
 
 ### Nuova colonna nei CSV di migrazione
 
@@ -388,7 +388,21 @@ In questa versione, è presente una nuova colonna facoltativa, uniqueLoId, nei s
 * course.csv
 * learning_program.csv
 
-La colonna uniqueLoId non è applicabile al file CSV delle risorse formative.
+>[!NOTE]
+>
+>La **uniqueLoId** è facoltativa.
+
+
+Se esegui una migrazione per aggiornare un corso o un piano di apprendimento o una certificazione esistenti, il corso o il piano di apprendimento o la certificazione con **uniqueLOId** s vengono aggiunti all’app Autore.
+
+Durante la migrazione, è necessario aggiornare il **uniqueLOId** valori nei CSV per il corso o il piano di apprendimento o la certificazione, anche se si tratta di una colonna facoltativa.
+
+Se il **uniqueLoId** non viene aggiunta prima di eseguire la migrazione durante l’aggiornamento del corso o del piano di apprendimento esistente o della certificazione con **uniqueLOId** s, quindi dopo la migrazione **uniqueLOId** i valori verranno sostituiti con valori NULL.
+
+>[!NOTE]
+>
+>La colonna uniqueLoId non è applicabile al file CSV delle risorse formative.
+
 
 >[!IMPORTANT]
 >
@@ -409,11 +423,11 @@ Visualizza [Connettori in Adobe Learning Manager](integration-admin/feature-summ
 
 ### Modifiche al report Accesso
 
-Il report Accesso sarà disponibile solo per gli ultimi cinque trimestri. Se un Amministratore dell’integrazione richiede il download su richiesta di Unified Export con **Accesso** Se questa opzione è selezionata, nell’Adobe Learning Manager viene visualizzato un messaggio di errore. Tuttavia, non vi è alcun impatto sulle altre relazioni.
+Il report Accesso sarà disponibile solo per gli ultimi cinque trimestri. Se un Amministratore dell’integrazione richiede il download su richiesta di Unified Export con **Accesso** Se questa opzione è selezionata, Adobe Learning Manager visualizzerà un messaggio di errore. Tuttavia, non vi è alcun impatto sulle altre relazioni.
 
 ### Modifiche ADFS
 
-I campi Tipo di dipendente e ID dipendente da ADFS sono ora disponibili su Adobe Learning Manager, in base alle mappature.
+I campi Tipo di dipendente e ID dipendente di ADFS sono ora disponibili in Adobe Learning Manager, in base alle mappature.
 
 ## Modifiche alle API introdotte da questa versione
 
@@ -543,7 +557,7 @@ Visualizza [Rimozione delle API in Adobe Learning Manager](api-deprecations-list
 
 ## Requisiti di sistema
 
-Visualizza [Adobe dei requisiti di sistema di Learning Manager](system-requirements.md).
+Visualizza [Requisiti di sistema per Adobe Learning Manager](system-requirements.md).
 
 ## Versioni precedenti di Adobe Learning Manager
 
