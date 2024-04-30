@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: e80f68843d7f6b937d9be8917e7bf9c8a69b23db
+source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
 workflow-type: tm+mt
-source-wordcount: '3113'
-ht-degree: 65%
+source-wordcount: '3124'
+ht-degree: 57%
 
 ---
 
@@ -110,25 +110,25 @@ La tabella seguente mostra i tipi di file interattivi e statici che è possibile
 
 ## Aggiunta di nuovi contenuti alla libreria {#addnewcontentinthelibrary}
 
-Come citato nella sezione precedente, nella libreria puoi caricare contenuti sia interattivi che statici.
+**Autori** può aggiungere contenuti in ALM. In ALM sono disponibili due tipi di contenuto: **[!UICONTROL Contenuto]** e **[!UICONTROL Quiz]**. Per informazioni su come aggiungere contenuti, vedere [Aggiungere contenuto statico](content-library.md#addstaticcontent) e [Creare un quiz](content-library.md##createaquiz).
 
 ## Aggiunta di contenuti statici {#addstaticcontent}
 
-1. Fai clic su Libreria dei contenuti nel riquadro a sinistra dopo aver effettuato l’accesso come Autore e seleziona Aggiungi.
+1. Seleziona **[!UICONTROL Libreria dei contenuti]** nel riquadro a sinistra dopo aver effettuato l’accesso come **Autore** e seleziona **[!UICONTROL Aggiungi]**.
 
-   In alternativa puoi fare clic su Crea contenuto nella pagina Guida introduttiva.
+   In alternativa, potete selezionare **[!UICONTROL Crea contenuto]** dal menu **[!UICONTROL Introduzione]** pagina.
 
-1. Nel campo Nome specifica un nome per il contenuto che vuoi caricare.
-1. Nel campo Descrizione immetti la descrizione per il contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 400 caratteri.
-1. Per aggiungere il contenuto, fai clic su Aggiungi file di contenuto e carica il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
+1. Nella **[!UICONTROL Nome]** digitare un nome per il contenuto che si desidera caricare.
+1. Nella **[!UICONTROL Descrizione]** digitare la descrizione del contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 400 caratteri.
+1. Per aggiungere il contenuto, seleziona **[!UICONTROL Aggiungi file di contenuto]** e caricare il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
 
    Se desideri sostituire il contenuto, poi sostituire un contenuto statico con un altro contenuto statico. Lo stesso vale per il contenuto interattivo.
 
-1. Nel campo Durata puoi inserire, se lo desideri, il tempo che un Allievo dovrebbe dedicare a questo modulo secondo le tue previsioni. La durata è espressa in minuti.
+1. Nella **[!UICONTROL Durata]** facoltativamente, puoi digitare il tempo previsto che un allievo trascorrerebbe in questo modulo. La durata è espressa in minuti.
 
-   Il tempo di apprendimento speso dallo studente viene calcolato in base alla durata specificata se lo studente ha contrassegnato un corso come completo. Se lo studente consulta il contenuto nel lettore, il tempo trascorso nel lettore viene aggiunto al tempo di apprendimento. Se il tempo effettivo per il contenuto è inferiore alla durata specificata non accade nulla, perché il lettore rispetta sempre la durata per la visualizzazione del contenuto.
+   Il tempo di apprendimento speso dallo studente viene calcolato in base alla durata specificata se lo studente ha contrassegnato un corso come completo. Se l’Allievo utilizza i contenuti nel lettore, il tempo dedicato a quest’ultimo viene sommato al tempo di apprendimento impiegato. Se il tempo effettivo per il contenuto è inferiore alla durata specificata non accade nulla, perché il lettore rispetta sempre la durata per la visualizzazione del contenuto.
 
-1. Nel campo Tag contenuto inserisci i tag per il contenuto caricato, in modo che il tuo contenuto diventi rilevabile.
+1. Nella **[!UICONTROL Tag]** digitare i tag per il contenuto caricato in modo che il contenuto diventi rilevabile.
 
    L’Autore può utilizzare questi tag per cercare il contenuto durante l’aggiunta del contenuto al corso.
 
@@ -138,21 +138,19 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
 ## Aggiunta di contenuto interattivo {#addinteractivecontent}
 
-1. Fai clic su Libreria dei contenuti nel riquadro a sinistra dopo aver effettuato l’accesso come Autore e seleziona Aggiungi.
+1. Seleziona **[!UICONTROL Libreria dei contenuti]** nel riquadro a sinistra dopo aver effettuato l’accesso come **Autore** e seleziona **[!UICONTROL Aggiungi]**.
 
-   In alternativa puoi fare clic su Crea contenuto nella pagina Guida introduttiva.
+   In alternativa, potete selezionare **[!UICONTROL Crea contenuto]** dal menu **[!UICONTROL Introduzione]** pagina.
 
-1. Nel campo Nome specifica un nome per il contenuto che vuoi caricare.
-1. Nel campo Descrizione immetti la descrizione per il contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 245 caratteri.
-1. Per aggiungere il contenuto, fai clic su Aggiungi file di contenuto e carica il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
+1. Nella **[!UICONTROL Nome]** digitare un nome per il contenuto che si desidera caricare.
+1. Nella **[!UICONTROL Descrizione]** digitare la descrizione del contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 245 caratteri.
+1. Per aggiungere il contenuto, seleziona **[!UICONTROL Aggiungi file di contenuto]** e caricare il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
 
 * [Tipi di file supportati](content-library.md#supported)
 
   Il contenuto interattivo può essere un progetto pubblicato SCORM, AICC o Captivate. Il file deve essere un file zip.
 
   Puoi anche aggiungere contenuto HTML generato da Captivate, Presenter o Presenter Video Express.
-
-[Tipi di file supportati](content-library.md#supported)
 
 1. Learning Manager supporta i sottotitoli per i contenuti video caricati in Learning Manager. Ora gli Autori possono caricare il file contenente i sottotitoli insieme al file video.
 
@@ -162,11 +160,11 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
    Il supporto delle didascalie è disponibile per i contenuti video caricati in Libreria dei contenuti di Learning Manager.
 
-   In qualità di autore, quando caricherai un contenuto video o audio, puoi anche caricare il file .vtt che contiene i sottotitoli.
+   In qualità di autore, quando caricherai un contenuto video o audio, puoi anche caricare il file VTT che contiene i sottotitoli.
 
    I sottotitoli vengono quindi visualizzati nel lettore Fluidic. I sottotitoli sono inoltre conformi alle [Standard WCAG2.0](https://www.w3.org/TR/WCAG20/).
 
-   Quando aggiungi un contenuto video alla libreria, puoi anche aggiungere il file vtt, che **deve** essere un file valido.
+   Quando aggiungi un contenuto video alla libreria, puoi anche aggiungere il file VTT, che **deve** essere un file valido.
 
    ![](assets/webvtt.png)
 
@@ -198,8 +196,8 @@ Il supporto del formato WebVTT non è disponibile per:
    1. Contenuto video creato con il processo di migrazione.
    1. Riproduzione di video nell’app mobile in modalità offline.
 
-1. Nel campo Durata puoi inserire, se lo desideri, il tempo che un Allievo dovrebbe dedicare a questo modulo secondo le tue previsioni. La durata è espressa in minuti.
-1. Nel campo Tag contenuto inserisci i tag per il contenuto caricato, in modo che il tuo contenuto diventi rilevabile.
+1. Nella **[!UICONTROL Durata]** è possibile immettere facoltativamente il tempo previsto che un allievo trascorrerebbe in questo modulo. La durata è espressa in minuti.
+1. Nella **[!UICONTROL Tag]** , immetti i tag per il contenuto caricato in modo che il contenuto diventi rilevabile.
 
 ### Supporto per il catalogo condiviso
 
@@ -209,7 +207,7 @@ La propagazione del modulo deve funzionare correttamente dall’account venditor
 
 Una volta caricato il contenuto, puoi visualizzare una notifica facendo clic sull’icona raffigurante una campana nell’angolo in alto a destra della pagina. Ogni volta che modifichi un contenuto e lo carichi nuovamente, ricevi una notifica. Se apporti le modifiche, solo tu ricevi la notifica, e non gli altri autori.
 
-## Crea un quiz
+## Crea un quiz {#createaquiz}
 
 Crea valutazioni all’interno di Adobe Learning Manager con il nuovo strumento per la creazione di quiz nella pagina Libreria dei contenuti. Le valutazioni create diventano parte della Libreria dei contenuti e possono essere aggiunte a una cartella &quot;pubblica&quot; per consentire il riutilizzo del corso.
 
