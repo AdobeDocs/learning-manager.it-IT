@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 82a327fa4a472f58319528a11e427549bd4bd728
+source-git-commit: 18feaeb3a5d1995385a792696cdc536afaceac41
 workflow-type: tm+mt
-source-wordcount: '4000'
+source-wordcount: '3978'
 ht-degree: 62%
 
 ---
@@ -20,12 +20,12 @@ Scopri come aggiungere utenti o gruppi di utenti nell’applicazione Learning Ma
 
 ## Gestione dei gruppi di utenti
 
->[!INFO]
+<!-- >[!INFO]
 >
->In questo corso imparerai come creare un gruppo di utenti in base ai nomi, agli ID e-mail e alla combinazione di più gruppi di utenti generati automaticamente.<br/><br/>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694) -->
+
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
-
-
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
