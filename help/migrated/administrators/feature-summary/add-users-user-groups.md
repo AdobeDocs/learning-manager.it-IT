@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
@@ -15,15 +15,22 @@ ht-degree: 62%
 
 Scopri come aggiungere utenti o gruppi di utenti nell’applicazione Learning Manager.
 
+
 <!--![](assets/user-mgmt-new.png)-->
 
 ## Gestione dei gruppi di utenti
 
-In questo corso imparerai come creare un gruppo di utenti in base ai nomi, agli ID e-mail e alla combinazione di più gruppi di utenti generati automaticamente.
+>[!INFO]
+>
+>In questo corso imparerai come creare un gruppo di utenti in base ai nomi, agli ID e-mail e alla combinazione di più gruppi di utenti generati automaticamente.<br><br>
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
@@ -44,7 +51,7 @@ In qualità di Amministratore, puoi aggiungere utenti in tre modi:
 
 ## Aggiunta di un singolo utente {#addasingleuser}
 
-Aggiungi Allievi interni all’Adobe Learning Manager utilizzando un’opzione per utente singolo.
+Aggiungi Allievi interni a Adobe Learning Manager utilizzando un’opzione per utente singolo.
 
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
@@ -164,7 +171,7 @@ In questo corso imparerai come aggiungere, personalizzare e configurare i campi 
 
 Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
-L’Adobe di Learning Manager mantiene la distinzione tra maiuscole e minuscole dell’attributo utente e del relativo valore. **Ad esempio**, la distinzione tra maiuscole e minuscole di un attributo utente è &quot;location&quot; e il suo valore &quot;PARIS&quot; viene mantenuto e visualizzato nello stesso modo. In caso di problemi, l’Amministratore può ora modificare il nome e i valori dell’attributo per correggere eventuali errori di distinzione tra maiuscole e minuscole.
+Adobe Learning Manager mantiene la distinzione tra maiuscole e minuscole dell’attributo utente e del relativo valore. **Ad esempio**, la distinzione tra maiuscole e minuscole di un attributo utente è &quot;location&quot; e il suo valore &quot;PARIS&quot; viene mantenuto e visualizzato nello stesso modo. In caso di problemi, l’Amministratore può ora modificare il nome e i valori dell’attributo per correggere eventuali errori di distinzione tra maiuscole e minuscole.
 
 L’Amministratore può eseguire questa operazione visitando **[!UICONTROL App per amministratori]** > **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi di utenti]** e facendo clic sul nome del gruppo.
 
