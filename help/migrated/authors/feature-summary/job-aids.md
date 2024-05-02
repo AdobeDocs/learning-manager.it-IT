@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Risorse formative
 description: Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 73%
+source-wordcount: '590'
+ht-degree: 66%
 
 ---
-
-
 
 # Risorse formative
 
@@ -35,6 +34,19 @@ Gli Autori possono creare risorse formative per gli Allievi. Utilizza le risorse
 1. Fai clic su **[!UICONTROL Salva]**.
 
    La risorsa formativa viene pubblicata.
+
+## Aggiungi risorsa formativa in diverse lingue {#addcontentfordifferentlanguages}
+
+1. Per aggiungere la risorsa formativa in lingue diverse, seleziona la **Aggiungi nuova lingua** e scegliete le lingue desiderate. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Aggiungere una nuova lingua per un contenuto*
+
+1. Ripeti il processo di caricamento della risorsa formativa per le nuove lingue.
+1. Per rimuovere una lingua, selezionare la scheda Aggiungi nuova lingua e deselezionare la lingua desiderata.
+
+   Dopo aver apportato le modifiche, seleziona Salva.
 
 ## Tipi di risorse formative supportate {#typesofsupportedjobaids}
 

@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '3124'
-ht-degree: 57%
+source-wordcount: '3239'
+ht-degree: 56%
 
 ---
 
@@ -234,7 +234,20 @@ Crea valutazioni all’interno di Adobe Learning Manager con il nuovo strumento 
 1. Aggiungi un logo e uno sfondo al quiz.
 1. Nell’angolo superiore destro della pagina, seleziona **Pubblica**.
 
-Il quiz viene aggiunto alla Libreria dei contenuti. Come per qualsiasi contenuto nella Libreria dei contenuti, puoi ritirare un quiz e quindi eliminarlo.
+Per aggiungere i quiz in una lingua diversa, procedere come segue:
+
+1. Per aggiungere il quiz per lingue diverse, selezionate il **Aggiungi nuova lingua** e scegliete le lingue desiderate. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Aggiungere una nuova lingua per un contenuto*
+
+1. Ripeti la procedura di caricamento del contenuto per le nuove lingue.
+1. Se si desidera rimuovere una lingua, selezionare **[!UICONTROL Aggiungi nuova lingua]** e cancella la selezione.
+
+   Dopo aver apportato le modifiche, fai clic su **[!UICONTROL Salva]**. Nella libreria, il nuovo contenuto ora è disponibile per l’uso.
+
+Il quiz viene aggiunto al **[!UICONTROL Libreria dei contenuti]**. Come per qualsiasi contenuto nella Libreria dei contenuti, puoi ritirare un quiz e quindi eliminarlo.
 
 
 ## Aggiunta nella cartella {#add-folder}
@@ -430,6 +443,11 @@ Per ritirare un contenuto, attieniti alla seguente procedura:
 * Seleziona Azione > Ritira.
 
 I contenuti utilizzati negli oggetti di apprendimento non vengono modificati. Gli Allievi possono continuare ad accedere al contenuto.
+
+>[!NOTE]
+>
+>Puoi anche aggiungere contenuti da **[!UICONTROL Ritirato]** , passa a **[!UICONTROL Libreria dei contenuti]** > **[!UICONTROL Ritirato]** e seleziona **[!UICONTROL Aggiungi contenuto]**. Per ulteriori dettagli, consulta [Aggiungere contenuto statico](content-library.md#addstaticcontent).
+
 
 ## Ripubblicazione di contenuto ritirato {#republishretiredcontent}
 
