@@ -2,9 +2,10 @@
 title: Novità di questa versione (luglio 2023)
 description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2059'
 ht-degree: 67%
 
 ---
@@ -531,6 +532,10 @@ Lo stemming consiste nel ridurre una parola alla sua radice. Questo assicura che
 In questa versione è stato aggiunto lo stemming per le lingue inglesi, che include le seguenti varianti: en_US, en_AU, en_GB.
 
 L’attributo stemmed indica se è necessario effettuare lo stemming nei risultati della ricerca. Per impostazione predefinita, questo valore è impostato su False.
+
+Parametri query API:
+
+matchType=phrase_and_match stemmed=true
 
 ### Rimozione degli endpoint V1
 
