@@ -3,7 +3,7 @@ title: Novità di questa versione (luglio 2023)
 description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
 hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
-source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
+source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
 source-wordcount: '2059'
 ht-degree: 67%
@@ -535,7 +535,8 @@ L’attributo stemmed indica se è necessario effettuare lo stemming nei risulta
 
 Parametri query API:
 
-matchType=phrase_and_match stemmed=true
+* matchType=phrase_and_match
+* stemmed=true
 
 ### Rimozione degli endpoint V1
 
