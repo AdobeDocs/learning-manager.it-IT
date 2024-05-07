@@ -3,16 +3,16 @@ jcr-language: en_us
 title: Risorse formative
 description: Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
 # Risorse formative
 
-Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
+**Risorse formative** è un archivio dei contenuti di formazione accessibile agli allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
 
 Le risorse formative possono essere utilizzate in modo indipendente o mentre segui un corso in Learning Manager.
 
@@ -20,9 +20,9 @@ Gli Autori possono creare risorse formative per gli Allievi. Utilizza le risorse
 
 ## Creazione di risorse formative {#createjobaid}
 
-1. Nel login dell’autore, fai clic su Risorse formative nel riquadro a sinistra.
-1. Fai clic su Crea nell’angolo in alto a destra della pagina visualizzata.
-1. Specifica il nome, la descrizione e i tag. Scegli le abilità e i livelli associati. Seleziona l’opzione per contenuto privato se non vuoi che altri utenti possano accedere alla risorsa formativa per assegnarla ai propri corsi.
+1. Nel login dell’autore, seleziona **[!UICONTROL Risorse formative]** nel riquadro sinistro.
+1. Seleziona **[!UICONTROL Crea]** nell’angolo in alto a destra della pagina visualizzata.
+1. Digitate il nome, la descrizione e i tag. Scegli le abilità e i livelli associati. Seleziona l’opzione per contenuto privato se non vuoi che altri utenti possano accedere alla risorsa formativa per assegnarla ai propri corsi.
 
    Per le risorse formative possono essere utilizzate solo abilità esistenti. Le abilità non sono obbligatorie.
 
@@ -44,7 +44,7 @@ Gli Autori possono creare risorse formative per gli Allievi. Utilizza le risorse
    *Aggiungere una nuova lingua per un contenuto*
 
 1. Ripeti il processo di caricamento della risorsa formativa per le nuove lingue.
-1. Per rimuovere una lingua, selezionare la scheda Aggiungi nuova lingua e deselezionare la lingua desiderata.
+1. Se si desidera rimuovere una lingua, selezionare **[!UICONTROL Aggiungi nuova lingua]** e cancella la selezione.
 
    Dopo aver apportato le modifiche, seleziona Salva.
 

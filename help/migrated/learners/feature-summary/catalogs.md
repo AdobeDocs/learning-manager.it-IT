@@ -3,14 +3,13 @@ description: Scopri come usare i cataloghi in Learning Manager per visualizzare 
 jcr-language: en_us
 title: Cataloghi
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
-
-
 
 # Cataloghi
 
@@ -22,7 +21,7 @@ Gli Allievi possono visualizzare tutti gli oggetti di apprendimento assegnati e 
 
 Puoi filtrare l’elenco degli oggetti di apprendimento utilizzando le abilità e il tipo di oggetti di apprendimento (autonomo, misto, aula, aula virtuale, attività). Puoi anche filtrare utilizzando le opzioni nel riquadro a sinistra: per Oggetti di apprendimento, Abilità e Stato di completamento.
 
-Utilizza la barra di ricerca nella parte superiore della pagina per immettere i nomi degli oggetti di apprendimento più comuni.
+Utilizza la barra di ricerca nella parte superiore della pagina per immettere i nomi degli oggetti di apprendimento più comuni. Gli Allievi possono passare dalla visualizzazione a griglia a quella a elenco selezionando questa opzione ![](assets/icon-list.png) icona.
 
 ![](assets/catalogs.png)
 *Visualizza cataloghi*

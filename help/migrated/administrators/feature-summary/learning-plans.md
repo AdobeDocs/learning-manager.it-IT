@@ -3,13 +3,13 @@ description: Creazione di piani di apprendimento per Amministratori in Learning 
 jcr-language: en_us
 title: aggiunti un paio di Piani di apprendimento
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 65%
+source-wordcount: '1621'
+ht-degree: 61%
 
 ---
-
 
 # Piani di apprendimento
 
@@ -36,35 +36,47 @@ Per creare un piano di apprendimento, devi accedere come Amministratore.
 
 1. Nell’elenco a discesa **[!UICONTROL Si verifica quando]** scegli l’evento richiesto. Le opzioni determinano quando un Allievo segue il corso. Dopo aver selezionato il tipo di evento, seleziona il corso di formazione, i corsi, il programma di apprendimento o la certificazione appropriati.
 
-   **Nota:** Sia gli Amministratori che gli Autori possono creare eventi di iscrizione automatica.
+>[!NOTE]
+>
+> Gli Amministratori e gli Autori possono creare eventi di iscrizione automatica.
 
-   Gli eventi sono:
 
-   **1 - Viene aggiunto un nuovo Allievo:** Quando un nuovo utente o dipendente entra a far parte dell&#39;organizzazione.
+Gli eventi sono:
 
-   ![](assets/new-learner-is-added.png)
+**1 - Viene aggiunto un nuovo Allievo:** Quando un nuovo utente o dipendente entra a far parte dell&#39;organizzazione.
 
-   **2 - L’Allievo viene aggiunto a un gruppo:** Quando un nuovo utente o un dipendente viene aggiunto a un gruppo.  Immetti e seleziona il gruppo di utenti dall’elenco a discesa a cui è applicabile questo evento. Puoi scegliere più gruppi. Inoltre, puoi assegnare questo evento a tutti i membri esistenti di questi gruppi selezionando l’opzione.
+![](assets/new-learner-is-added.png)
 
-   ![](assets/learner-gets-addedtoagroup.png)
+**2 - L’Allievo viene aggiunto a un gruppo:** Quando un nuovo utente o un dipendente viene aggiunto a un gruppo.  Immetti e seleziona il gruppo di utenti dall’elenco a discesa a cui è applicabile questo evento. Puoi scegliere più gruppi. Inoltre, puoi assegnare questo evento a tutti i membri esistenti di questi gruppi selezionando l’opzione.
 
-   Questo piano di apprendimento è specificatamente progettato per utenti ***di gruppi personalizzati***. Digita il nome del gruppo nel campo e, utilizzando la ricerca con completamento automatico, scegli il gruppo o i gruppi.
+![](assets/learner-gets-addedtoagroup.png)
 
-   **3 - L’Allievo completa un oggetto di apprendimento:** L’evento viene attivato quando un Allievo completa un oggetto di apprendimento, ad esempio un corso, un programma di apprendimento e così via. Seleziona l’oggetto di apprendimento per il quale è applicabile l’evento. Seleziona lo stato di completamento per l’evento. Puoi anche scegliere il gruppo di utenti a cui l’Allievo appartiene. Immetti il numero di giorni. Dopo aver completato l’oggetto di apprendimento, questo evento viene attivato. Seleziona l’opzione se desideri assegnare questo evento agli utenti esistenti che hanno già completato l’oggetto di apprendimento.
+Questo piano di apprendimento è specificatamente progettato per utenti ***di gruppi personalizzati***. Digita il nome del gruppo nel campo e, utilizzando la ricerca con completamento automatico, scegli il gruppo o i gruppi.
 
-   ![](assets/learner-completealearningobject.png)
+**3 - L’Allievo viene rimosso da un gruppo:** L’evento viene attivato quando un utente o un Allievo viene rimosso da un gruppo. Immetti e seleziona il gruppo di utenti dall’elenco a discesa a cui è applicabile questo evento. Puoi scegliere più gruppi.
 
-   **4 - L’Allievo ottiene un livello di abilità:** Immetti il nome dell’abilità e seleziona il livello di abilità. Puoi anche scegliere il gruppo di utenti a cui l’Allievo appartiene. Questa funzione è opzionale. Immetti il numero di giorni dall’acquisizione dell’abilità dopo cui questo evento viene attivato. Seleziona questa opzione per assegnare questo evento agli Allievi esistenti che hanno già ottenuto questa abilità.
+![](assets/learner-removed-from-group.png)
 
-   ![](assets/learner-achievesaskilllevel.png)
 
-   Inoltre, puoi impostare il numero di giorni dopo cui il piano di apprendimento deve essere assegnato agli Allievi.
+**4 - L’Allievo completa un corso/percorso di apprendimento/certificazione:** L’evento viene attivato quando un Allievo completa un oggetto di apprendimento, ad esempio un corso, un programma di apprendimento e così via. Seleziona l’oggetto di apprendimento per il quale è applicabile l’evento. Seleziona lo stato di completamento per l’evento. Puoi anche scegliere il gruppo di utenti a cui l’Allievo appartiene. Immetti il numero di giorni. Dopo aver completato l’oggetto di apprendimento, questo evento viene attivato. Seleziona l’opzione se desideri assegnare questo evento agli utenti esistenti che hanno già completato l’oggetto di apprendimento.
 
-   ![](assets/assign-learning.png)
+![](assets/learner-completealearningobject.png)
 
-   **5 - In una data specifica:** Quando gli eventi devono verificarsi in una data specifica. Seleziona la data in cui deve essere assegnato l’evento. Seleziona i gruppi di utenti per i quali l’evento deve essere assegnato automaticamente. Seleziona le istanze che devono essere assegnate e, se lo desideri, inserisci dopo quanti giorni deve essere attivato l’evento.
+**5 - L’Allievo non supera un modulo di un corso:** L’evento viene attivato quando un Allievo non supera un oggetto di apprendimento, ad esempio un corso, un programma di apprendimento o altro. Seleziona l’oggetto di apprendimento per il quale è applicabile l’evento. Puoi anche scegliere il gruppo di utenti a cui appartiene questo Allievo.
 
-   ![](assets/on-a-specific-date.png)
+![](assets/learner-fails-module.png)
+
+**4 - L’Allievo ottiene un livello di abilità:** Immetti il nome dell’abilità e seleziona il livello di abilità. Puoi anche scegliere il gruppo di utenti a cui l’Allievo appartiene. Questa funzione è opzionale. Immetti il numero di giorni dall’acquisizione dell’abilità dopo cui questo evento viene attivato. Seleziona questa opzione per assegnare questo evento agli Allievi esistenti che hanno già ottenuto questa abilità.
+
+![](assets/learner-achievesaskilllevel.png)
+
+Inoltre, puoi impostare il numero di giorni dopo cui il piano di apprendimento deve essere assegnato agli Allievi.
+
+![](assets/assign-learning.png)
+
+**5 - In una data specifica:** Quando gli eventi devono verificarsi in una data specifica. Seleziona la data in cui deve essere assegnato l’evento. Seleziona i gruppi di utenti per i quali l’evento deve essere assegnato automaticamente. Seleziona le istanze che devono essere assegnate e, se lo desideri, inserisci dopo quanti giorni deve essere attivato l’evento.
+
+![](assets/on-a-specific-date.png)
 
 1. Per tutti gli eventi, puoi selezionare l’istanza dall’elenco a discesa **[!UICONTROL Istanza]**. Puoi anche selezionare le istanze dell’apprendimento assegnato per qualsiasi evento.
 
@@ -83,6 +95,8 @@ Quando viene aggiunto un piano di apprendimento, un Amministratore può annullar
 Nell’app di amministrazione, fai clic su **[!UICONTROL Piani di apprendimento]** > **[!UICONTROL Aggiungi]**.
 
 Le sezioni successive rappresentano i trigger in cui l’opzione **[!UICONTROL Annulla iscrizione al corso di formazione]** è stato aggiunto.
+
+![](assets/unenroll-courses.png)
 
 ## L’Allievo viene rimosso da un gruppo {#learnergetsremovedfromagroup}
 
@@ -103,6 +117,14 @@ Le sezioni successive rappresentano i trigger in cui l’opzione **[!UICONTROL A
    1. L’istanza e la data di completamento non saranno applicabili in questo caso.
 
 ![](assets/image040.png)
+
+## L&#39;Allievo non ha superato un modulo di un corso
+
+1. Aggiungi uno o più gruppi utente. Nel caso in cui siano stati selezionati più gruppi, il piano viene attivato nel momento in cui un Allievo non supera il corso di formazione specificato.
+1. Scegli l’azione come **[!UICONTROL Annulla l’iscrizione al corso di formazione]**.
+
+   1. L’Amministratore può scegliere i corsi di formazione da cui verrà annullata l’iscrizione dell’utente quando verrà aggiunto al gruppo utenti.
+   1. L’istanza e la data di completamento non saranno applicabili in questo caso.
 
 ## L’Allievo viene aggiunto a un gruppo {#learnergetsaddedtoagroup}
 
@@ -134,7 +156,12 @@ Le sezioni successive rappresentano i trigger in cui l’opzione **[!UICONTROL A
 
 ## Modifica di un piano di apprendimento {#editalearningplan}
 
-Dopo aver creato un piano di apprendimento, l’Amministratore può modificarlo o aggiornarlo in qualsiasi momento. Per modificare, fai clic sul nome del piano di apprendimento e modifica i valori nella finestra di dialogo **[!UICONTROL Modifica piano di apprendimento]**. Fai clic su **[!UICONTROL Salva]**.
+Dopo aver creato un piano di apprendimento, l’Amministratore può modificarlo o aggiornarlo in qualsiasi momento. Per Modifica, seleziona il nome del piano di apprendimento e modifica i valori nella **[!UICONTROL Modifica piano di apprendimento]** finestra di dialogo a comparsa visualizzata.  Seleziona **[!UICONTROL Salva]**.
+
+>[!NOTE]
+>
+>Impossibile modificare il **[!UICONTROL Si verifica quando]** opzione nel menu **[!UICONTROL Modifica piano di apprendimento]** pop-up.
+
 
 ## Attivazione di un piano di apprendimento {#enablealearningplan}
 
