@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 67%
+source-wordcount: '1646'
+ht-degree: 55%
 
 ---
 
@@ -17,7 +17,7 @@ Per “gamification” si intende l’utilizzo di meccaniche e valutazioni propr
 
 ## Panoramica {#overview}
 
-Learning Manager consente di applicare un livello di gamification strutturale ai contenuti per coinvolgere gli Allievi e motivarli a raggiungere i loro obiettivi di apprendimento. Permette agli Allievi di guadagnare punti per diverse attività di apprendimento e raggiungere livelli bronzo, argento, oro e platino.
+Adobe Learning Manager include una funzione denominata Gamification, progettata per coinvolgere gli Allievi e promuovere l’apprendimento tramite elementi di gioco interattivi. Incoraggia i comportamenti desiderati degli Allievi tramite premi e consente agli Allievi di guadagnare punti e competere con i colleghi. Questa funzione migliora il coinvolgimento e la motivazione degli utenti all’interno della piattaforma di apprendimento.
 
 Per impostazione predefinita, sono disponibili alcuni punti e dati di gamification di esempio per consentire agli utenti di comprendere il modello. Puoi modificare i punti di conseguenza.
 
@@ -32,57 +32,6 @@ Per accedere alle impostazioni, procedi come segue:
 1. Effettua l’accesso come Amministratore e, nel riquadro a sinistra, fai clic su **[!UICONTROL Gamification]**.
 1. Quando crei un nuovo account Learning Manager, la funzionalità Gamification è disattivata per impostazione predefinita. Per attivarla, fai clic su **[!UICONTROL Abilita]** nell’angolo superiore destro della pagina.
 
-## Azioni dell’amministratore {#administratoractions}
-
-L’Amministratore può creare un elenco di utenti riservati, reimpostare i punti di gamification e disattivare/attivare la funzionalità di gamification per gli Allievi. Fai clic sull’elenco a discesa Azioni nell’angolo superiore destro della pagina per visualizzare le azioni come mostrato nell’istantanea seguente.
-
-![](assets/gamification-actions.png)
-
-*Opzioni di gamification per un amministratore*
-
-## Impostazioni di riservatezza {#confidentialitysettings}
-
-Se necessario, puoi rendere riservati alcuni utenti di livello superiore. Le attività di gamification dell’utente riservato non sono visibili agli altri Allievi nella classifica.
-
-Le impostazioni di riservatezza possono essere applicate agli utenti interni ed esterni.
-
-1. Fai clic **[!UICONTROL Gamification]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni di riservatezza]**.
-
-![](assets/confidentiality-settings.png)
-
-*Visualizza impostazioni di riservatezza*
-
-1. Dagli utenti elencati, fai clic sulla casella di controllo accanto al nome dell’utente e su Nascondi per rendere l’utente riservato.
-
-   >[!NOTE]
-   >
-   >Puoi identificare gli utenti riservati tra gli utenti elencati grazie al segno di spunta nella casella di controllo accanto al nome utente.
-
-1. Fai clic sulla scheda Utenti riservati per visualizzare l’elenco degli utenti riservati. Per impostazione predefinita, non sono visibili. Fai clic sull’icona della freccia a discesa per visualizzare l’elenco.
-1. Fai clic sulla casella di controllo accanto al nome utente nell’elenco degli utenti riservati, quindi seleziona Aggiungi per rimuovere gli utenti dall’elenco riservato.
-
-## Ripristino della funzionalità Gamification {#resetgamification}
-
-Puoi ripristinare i punti di gamification guadagnati dall’Allievo, nonché le impostazioni di configurazione. Se scegli di ripristinare i punteggi utente, tutti i punti guadagnati dagli utenti vengono cancellati e azzerati. Se scegli di ripristinare i punteggi utente e le impostazioni di configurazione, tutti i punti predefiniti assegnati ai livelli e alle attività vengono azzerati.
-
-È possibile ripristinare le impostazioni di gamification per utenti interni ed esterni.
-
-Per ripristinare il punteggio e la configurazione dell’Allievo, fai clic su Ripristina gamification e scegli un’opzione in base alle tue esigenze. Puoi scegliere tra Ripristina solo i punteggi degli Allievi e Ripristina i punteggi degli Allievi e le impostazioni di configurazione. Una volta selezionato, fai clic su OK.
-
-![](assets/reset-gamification.png)
-
-*Reimpostare i punti di gamification*
-
-## Disattivazione della funzionalità Gamification {#disablegamification}
-
-Fai clic [!UICONTROL **Gamification**] > **[!UICONTROL Impostazioni]** > [!UICONTROL **Funzionalità Gamification**]. Ciò consente di abilitare la funzionalità Gamification e la classifica separatamente per gli Allievi. Seleziona tra Abilita per Allievi interni e Abilita per Allievi esterni in base alle esigenze, quindi fai clic su OK. Tutti i punti vengono mantenuti quando attivi nuovamente la funzionalità Gamification.
-
-![](assets/gamification-feature.png)
-
-*Disabilita gamification*
-
-Puoi disattivare la funzionalità Gamification per utenti interni ed esterni.
-
 ## Configurazione dei punti {#setuppoints}
 
 Gli Amministratori possono configurare punti di gamification per gli Allievi, procedendo come segue:
@@ -92,6 +41,8 @@ Gli Amministratori possono configurare punti di gamification per gli Allievi, pr
 1. Per configurare i punti, fai clic sull’icona Modifica accanto a ogni attività.
 1. Modifica la frequenza delle attività quali il completamento di un numero specifico di corsi al mese, al trimestre o all’anno.
 1. Fai clic su **[!UICONTROL Salva]**.
+
+![](assets/set-up-points.png)
 
 ## Attività {#tasks}
 
@@ -177,9 +128,15 @@ Possibili scenari per il perfezionamento dei livelli in una specifica competenza
 >
 >Periodo di tempo non applicabile per questa attività. Se gli Allievi raggiungono un livello superiore e quindi uno inferiore di una competenza, guadagnano punti solo per il livello superiore.
 
+**Per riferimento**
+
+Questa attività è applicabile agli Allievi che fanno riferimento al corso completato entro N giorni dal completamento.
+
+Possibile scenario: Quando un Allievo fa riferimento al corso completato entro 30 giorni dal completamento, riceve 50 punti.
+
 **Punti per il completamento rapido**
 
-Questa attività è applicabile agli Allievi nel momento in cui completano per primi il corso.
+Questa attività è applicabile agli Allievi che fanno riferimento al corso con segnalibro entro N giorni per completarlo.
 
 Possibile scenario:\
 Quando un Allievo è tra i primi 10 a completare il corso, ottiene 100 punti.
@@ -190,6 +147,87 @@ Questa attività è applicabile agli Allievi che completano un corso entro un de
 
 Possibile scenario:\
 Quando gli Allievi completano un corso entro 10 giorni dall’inizio, guadagnano 100 punti.
+
+**Allievo completo**
+
+Questa attività è applicabile agli Allievi che utilizzano al mese materiale didattico opzionale, ad esempio pre-lavoro, risorse e risorse formative.
+
+Possibili scenari:
+
+1. Quando gli Allievi completano un apprendimento al mese, ottengono 20 punti.
+1. Quando gli Allievi completano due apprendimenti al mese, ottengono 40 punti.
+1. Quando gli Allievi completano tre corsi al mese, ottengono 80 punti.
+
+**Apprendimento coerente**
+
+Questa attività è applicabile agli Allievi che si impegnano in attività di apprendimento per un numero specifico di giorni a settimana, mese o trimestre. Le attività includono l&#39;utilizzo di contenuti didattici, il download di risorse e risorse formative.
+
+Possibili scenari:
+
+1. Quando gli Allievi si impegnano in attività di apprendimento per un giorno ogni settimana, ottengono 20 punti.
+1. Quando gli Allievi si impegnano in attività di apprendimento per due giorni ogni settimana, ottengono 40 punti.
+1. Quando gli Allievi si impegnano in attività di apprendimento per un giorno ogni settimana, ottengono 80 punti.
+
+**Feedback**
+
+Questo è applicabile agli Allievi che forniscono feedback sui corsi.
+
+Possibili scenari:
+
+1. Per iniziare a valutare il feedback, ottengono 20 punti.
+1. Per il feedback sulle reazioni, ottengono 20 punti.
+1. Per i feedback dei manager, ottengono 20 punti.
+
+## Azioni dell’amministratore {#administratoractions}
+
+L’Amministratore può creare un elenco di utenti riservati, reimpostare i punti di gamification e disattivare/attivare la funzionalità di gamification per gli Allievi. Selezionare il **[!UICONTROL Impostazioni]** nella pagina gamification per visualizzare le azioni come mostrato nell’istantanea seguente.
+
+![](assets/gamification-actions.png)
+
+*Opzioni di gamification per un amministratore*
+
+## Impostazioni di riservatezza {#confidentialitysettings}
+
+Se necessario, puoi rendere riservati alcuni utenti di livello superiore. Le attività di gamification dell’utente riservato non sono visibili agli altri Allievi nella classifica.
+
+Le impostazioni di riservatezza possono essere applicate agli utenti interni ed esterni.
+
+1. Fai clic **[!UICONTROL Gamification]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni di riservatezza]**.
+
+![](assets/confidentiality-settings.png)
+
+*Visualizza impostazioni di riservatezza*
+
+1. Dagli utenti elencati, fai clic sulla casella di controllo accanto al nome dell’utente e su Nascondi per rendere l’utente riservato.
+
+   >[!NOTE]
+   >
+   >Puoi identificare gli utenti riservati tra gli utenti elencati grazie al segno di spunta nella casella di controllo accanto al nome utente.
+
+1. Fai clic sulla scheda Utenti riservati per visualizzare l’elenco degli utenti riservati. Per impostazione predefinita, non sono visibili. Fai clic sull’icona della freccia a discesa per visualizzare l’elenco.
+1. Fai clic sulla casella di controllo accanto al nome utente nell’elenco degli utenti riservati, quindi seleziona Aggiungi per rimuovere gli utenti dall’elenco riservato.
+
+## Ripristino della funzionalità Gamification {#resetgamification}
+
+Puoi ripristinare i punti di gamification guadagnati dall’Allievo, nonché le impostazioni di configurazione. Se scegli di ripristinare i punteggi utente, tutti i punti guadagnati dagli utenti vengono cancellati e azzerati. Se scegli di ripristinare i punteggi utente e le impostazioni di configurazione, tutti i punti predefiniti assegnati ai livelli e alle attività vengono azzerati.
+
+È possibile ripristinare le impostazioni di gamification per utenti interni ed esterni.
+
+Per ripristinare il punteggio e la configurazione dell’Allievo, fai clic su Ripristina gamification e scegli un’opzione in base alle tue esigenze. Puoi scegliere tra Ripristina solo i punteggi degli Allievi e Ripristina i punteggi degli Allievi e le impostazioni di configurazione. Una volta selezionato, fai clic su OK.
+
+![](assets/reset-gamification.png)
+
+*Reimpostare i punti di gamification*
+
+## Disattivazione della funzionalità Gamification {#disablegamification}
+
+Fai clic [!UICONTROL **Gamification**] > **[!UICONTROL Impostazioni]** > [!UICONTROL **Funzionalità Gamification**]. Ciò consente di abilitare la funzionalità Gamification e la classifica separatamente per gli Allievi. Seleziona tra Abilita per Allievi interni e Abilita per Allievi esterni in base alle esigenze, quindi fai clic su OK. Tutti i punti vengono mantenuti quando attivi nuovamente la funzionalità Gamification.
+
+![](assets/gamification-feature.png)
+
+*Disabilita gamification*
+
+Puoi disattivare la funzionalità Gamification per utenti interni ed esterni.
 
 ## Gamification a livello di gruppo {#grouplevelgamification}
 

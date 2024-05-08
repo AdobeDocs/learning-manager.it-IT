@@ -3,14 +3,13 @@ description: Scopri come creare certificazioni, iscrivere Allievi e modificare l
 jcr-language: en_us
 title: Certificazioni
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 70%
+source-wordcount: '1020'
+ht-degree: 68%
 
 ---
-
-
 
 # Certificazioni
 
@@ -103,6 +102,10 @@ In qualità di Amministratore è possibile creare un Programma di certificazione
  </tbody>
 </table>
 
+Seleziona il livello di prodotti, ruoli e ruoli dal menu **[!UICONTROL Consigliato per]** sezione per suggerire questo percorso di apprendimento agli utenti che hanno espresso interesse per tali prodotti e ruoli.
+
+![](assets/recommend-for.png)
+
 Scegli i corsi da aggiungere alla certificazione da **[!UICONTROL Corsi]** > **[!UICONTROL Catalogo]** scheda.
 
 Passa il mouse su ogni riquadro del corso e fai clic su + per aggiungerli alla certificazione. Fai clic **[!UICONTROL Anteprima]** per visualizzare il corso come allievo prima di aggiungerlo.
@@ -165,6 +168,8 @@ L’Amministratore può modificare una certificazione dopo la pubblicazione. Qua
 Per modificare una certificazione pubblicata, fai clic sulla scheda della certificazione e quindi su **[!UICONTROL Modifica]** nell’angolo in alto a destra della pagina.
 
 Se esci dalla pagina durante la modifica delle sezioni di una certificazione, dovrai pubblicare nuovamente la certificazione. Viene visualizzata una finestra di dialogo di conferma che ti invita a ripubblicare la certificazione.
+
+![](assets/edit-a-certificate.png)
 
 ## Abbonamento {#subscription}
 

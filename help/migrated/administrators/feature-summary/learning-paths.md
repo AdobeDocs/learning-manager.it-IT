@@ -4,9 +4,9 @@ title: Percorsi di apprendimento
 description: Creazione di piani di apprendimento per Amministratori in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1970'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,10 @@ Puoi anche aggiungere abilità e assegnare un distintivo al percorso di apprendi
 ![](assets/add-skills.png)
 
 Per assegnare un distintivo al percorso di apprendimento, scegline uno dall’elenco dei distintivi disponibili.
+
+Seleziona il livello di prodotti, ruoli e ruoli dal menu **[!UICONTROL Consigliato per]** sezione per suggerire questo percorso di apprendimento agli utenti che hanno espresso interesse per tali prodotti e ruoli.
+
+![](assets/recommend-for.png)
 
 Scegli il tipo di ordinamento delle sezioni e dei corsi di formazione tra Ordinati o Non ordinati in base alle tue preferenze.
 
