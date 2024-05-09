@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Gestisci ruoli personalizzati tramite file CSV
 description: L’Amministratore di integrazione può aggiungere vari ruoli personalizzati al proprio account in un’unica soluzione tramite CSV e può assegnare lo stesso ruolo a vari utenti. Questo approccio automatizza il processo di creazione dei ruoli personalizzati.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 83%
 
 ---
-
-
 
 # Gestisci ruoli personalizzati tramite file CSV
 
@@ -18,7 +17,7 @@ L’Amministratore di integrazione può aggiungere vari ruoli personalizzati al 
 
 Puoi configurare i ruoli tramite i connettori Learning Manager FTP e Box.
 
-Dopo che hai effettuato l&#39;accesso all&#39;account di archiviazione Box o ExaVault, l’Amministratore di integrazione può aggiungere i seguenti CSV nell&#39;account:
+Dopo aver effettuato l’accesso all’account di archiviazione Box, l’Amministratore dell’integrazione può aggiungere i seguenti file CSV all’account:
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ Dopo che hai effettuato l&#39;accesso all&#39;account di archiviazione Box o Exa
 Per iniziare, scarica i csv e modifica i valori in base alle tue esigenze.
 
 **role.csv**
-[File di esempio: role.csv](assets/role.csv) [File di esempio: user_role.csv](assets/user-role.csv)
+* File di esempio: [role.csv](assets/role.csv)
+* File di esempio: [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ Se nel CSV sono presenti nomi di catalogo o nomi di gruppi di utenti, questi ven
 * Piani di apprendimento
 * Modelli e-mail
 
-## Aggiunta dei CSV dei ruoli nell&#39;account {#addtherolecsvsintheaccount}
+## Aggiungi i file CSV del ruolo nell’account {#addtherolecsvsintheaccount}
 
 Nell’account Box, seleziona **Import > user > internal** (Importa > Utente > Interno) e carica i file role.csv e user_role.csv.
 
