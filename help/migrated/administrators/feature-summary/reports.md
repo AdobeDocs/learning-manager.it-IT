@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rapporti
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '6629'
-ht-degree: 63%
+source-wordcount: '6931'
+ht-degree: 60%
 
 ---
 
@@ -23,107 +23,17 @@ Il processo di generazione dei report è simile sia per gli Amministratori che p
 
 I report sono aggregati in un dashboard. Un report deve esistere all’interno di un dashboard. A **[!UICONTROL Dashboard predefinito]** esiste per impostazione predefinita nella pagina dei report. Qualsiasi report aggiunto viene spostato nel dashboard predefinito. Per aggiungere report ai singoli dashboard, utilizza la freccia a discesa e scegli **[!UICONTROL Aggiungi report]**. Per ulteriori informazioni sulla creazione dei dashboard, fai riferimento alla sezione Dashboard in questa pagina.
 
-## Dashboard di riepilogo dell’apprendimento {#dashboards}
+## Tipi di report {#typesofreports}
 
-### Genera report dashboard
+Adobe Learning Manager supporta quattro tipi principali di report come completamento, tempo impiegato, abilità ed efficacia. È possibile utilizzare i seguenti tipi di report per generare report di oltre 300 varianti:
 
-In questo corso verrà illustrato come generare report del dashboard dal database.
-
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
-
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
-
-Visualizza un report di riepilogo di tutte le attività di apprendimento nella piattaforma. In questa pagina sono disponibili le seguenti informazioni di riepilogo per il team dell’utente ROOT selezionato e i profili esterni. È inoltre possibile selezionare un intervallo di tempo:
-
-* Riepilogo dell’apprendimento sotto forma di Iscrizioni, Visualizzazioni e Completamenti
-* Abilità principali
-* Riepilogo conformità
-
-![](assets/summary-charts.png)
-*Grafici di riepilogo*
-
-Se sono presenti manager di livello principale interni, questi verranno visualizzati uno dopo l&#39;altro.
-
-Tutti i profili esterni verranno elencati dopo i profili interni (utenti di livello ROOT interni).
-
-Se un profilo esterno dispone di un manager, la gerarchia dei manager verrà visualizzata nel **[!UICONTROL Visualizzazione dei dati per]** elenco a discesa. L’utente verrà elencato nella gerarchia dei manager nella pagina di tutti i dettagli (Riepilogo dell’apprendimento, conformità e stato delle abilità)
-
-In caso contrario, nell’elenco verranno visualizzati tutti i dettagli dei singoli utenti.
-
-Per visualizzare dettagli più dettagliati sulle iscrizioni dei vari team interni, fai clic su **[!UICONTROL Dettagli di riepilogo dell’apprendimento]**.
-
-![](assets/learning-sunnarydetails.png)
-*Dettagli del riepilogo dell’apprendimento*
-
-Quando fai clic su un’iscrizione, puoi visualizzare gli Allievi per ogni Manager e gli oggetti di apprendimento ai quali sono iscritti. Puoi anche visualizzare i dettagli di avanzamento e completamento di ogni allievo.
-
-![](assets/learners-for-a-manager.png)
-*allievi assegnati a un manager*
-
-Fai clic su un qualsiasi team ed esporta il relativo report come file CSV. Un amministratore può esportare il report per qualsiasi gruppo di utenti o singolo utente selezionando il gruppo di utenti o il singolo utente, quindi esportando i dettagli dal **[!UICONTROL Azione]** elenco a discesa.
-
-Inoltre, è possibile visualizzare un grafico a barre delle abilità in corso e acquisite. Puoi aggiungere/rimuovere le abilità che desideri includere nel grafico.
-
-![](assets/skill-status-stackedbarchart.png)
-*Grafico a barre sovrapposte dello stato delle abilità*
-
-Nella visualizzazione finale, è possibile controllare lo stato di conformità degli allievi e prendere le misure appropriate.
-
-Inoltre, un Amministratore può visualizzare i singoli dati di formazione nel **[!UICONTROL Dashboard di conformità]**.
-
-Ad esempio, l’Amministratore ha identificato tre corsi di formazione per monitorare la conformità. Learning Manager fornisce una panoramica della conformità per i tre corsi di formazione contemporaneamente.
-
-Ora un Amministratore può fare clic su qualsiasi formazione e visualizzare rapidamente la conformità per il corso di formazione selezionato.
-
-![](assets/compliance-dashboard.png)
-*Visualizza dashboard di conformità*
-
-Puoi anche visualizzare lo stato di conformità per ciascun team interno.
-
-Fai clic sul collegamento **[!UICONTROL Dettagli sullo stato di conformità]** nella parte inferiore della visualizzazione.
-
-Per ciascun team, puoi vedere il numero di allievi che stanno violando o rispettando la conformità di apprendimento.
-
-![](assets/compliance-statusofateam.png)
-*Stato di conformità di un team*
-
-## Condivisione di corsi di formazione con i Manager
-
-Learning Manager offre un dashboard di conformità a tutti gli Amministratori e i Manager. I Manager trovano molto utile monitorare la conformità dei membri del proprio team per un determinato corso di formazione. Allo stesso tempo, gli Amministratori vorrebbero che tutti i Manager aggiungessero corsi di formazione sulla conformità al loro dashboard e li monitorassero.
-
-In Learning Manager, il **[!UICONTROL Condividi con i Manager]** Il flusso di lavoro consente agli Amministratori di condividere i corsi di formazione con i Manager, in modo che possano essere aggiunti al dashboard di conformità di un Manager. Pertanto, i Manager non devono intraprendere alcuna azione e possono iniziare immediatamente a monitorare la conformità.
-
-Un Amministratore può condividere una serie di corsi di formazione con i Manager individualmente o con un gruppo. Questa condivisione può aiutare un Manager a monitorare facilmente la conformità del suo team per il corso di formazione specificato.
-
-L’Amministratore può &quot;inviare&quot; un elenco predefinito di corsi di formazione sulla conformità da visualizzare nel dashboard di conformità del Manager.
-
-### Condivisione dei corsi di formazione
-
-1. Ingresso **[!UICONTROL Report]** > **[!UICONTROL Riepilogo dell’apprendimento]**, scorrere verso il basso e fare clic sulla scheda **[!UICONTROL Condividi con i Manager]**.
-
-   ![](assets/share-with-managers.png)
-   *Condivisione di corsi di formazione con i Manager*
-
-1. Per aggiungere uno o più corsi di formazione, fai clic su **[!UICONTROL Condividi di più]**.
-
-1. Nella **[!UICONTROL Condividi con i Manager]** seleziona i corsi di formazione e i Manager.
-
-   ![](assets/select-training.png)
-   *Seleziona i corsi di formazione da condividere con i Manager*
-
-1. Fai clic su **[!UICONTROL Condividi]**.
-
-Il corso di formazione è ora condiviso con il Manager specificato.
-
-### Visualizzazione dei corsi di formazione
-
-Nell’elenco dei corsi di formazione condivisi, fai clic su **[!UICONTROL Visualizza]**. Puoi visualizzare il corso di formazione assegnato a uno o più Manager.
-
-### Ritiro dei corsi di formazione
-
-1. Per ritirare i corsi di formazione da un Manager, fai clic su **[!UICONTROL Ritiro]**.
-
-1. Fai clic **[!UICONTROL Procedi]**. Questo ritira il corso di formazione precedentemente condiviso dal dashboard di conformità del Manager.
+* Statistiche di consegna del corso per allievi
+* Efficacia del report sui corsi
+* Report basato sulle abilità dell’Allievo
+* Statistiche di iscrizione al programma di apprendimento per allievi
+* Tempo di apprendimento impiegato dagli allievi
+* Numero di allievi
+* Completamento certificazione
 
 ## Dashboard di attività degli utenti {#useractivitydashboards}
 
@@ -137,7 +47,7 @@ Il dashboard di attività degli utenti mostra l’attività degli utenti nell’
 
 * **Report Tempo impiegato per l’apprendimento:** Questo report fornisce informazioni sul tempo di apprendimento impiegato nella piattaforma quotidianamente. È disponibile anche un report mensile.
 
-## Utenti registrati {#registeredusers}
+### Utenti registrati {#registeredusers}
 
 Learning Manager prende nota del numero di utenti registrati nel sistema ogni settimana. Gli amministratori possono visualizzare questo report per vedere il totale di utenti registrati in un dato giorno della settimana. Un totale registrato che è stato archiviato per una settimana non subirà modifiche. Pertanto, il totale registrato storico non corrisponde all’attuale numero di allievi nel sistema.
 
@@ -156,18 +66,18 @@ Questo report mostra il numero di allievi attivi nella piattaforma di apprendime
 
 Una volta calcolato e archiviato per un mese, il numero di allievi attivi mensile non subirà modifiche. Pertanto, il totale storico visualizzato non corrisponde all’attuale numero di allievi nel sistema.
 
-## Visite degli utenti {#uservisits}
+### Visite degli utenti {#uservisits}
 
-Questo report mostra il totale degli allievi che accedono al sistema in un periodo di un giorno o di un mese. L’esplorazione della piattaforma di apprendimento senza l’utilizzo di alcun oggetto di apprendimento è considerata come un “accesso” alla piattaforma. Ciò aiuta l’amministratore a comprendere il numero totale di utenti che accedono al sistema. Il primo di ogni mese, Learning Manager crea un record del numero totale di utenti che hanno effettuato l’accesso alla piattaforma nel mese precedente. Inoltre, acquisisce le informazioni relative al gruppo di tali utenti.
+Questo report mostra il totale degli allievi che accedono al sistema in un periodo di un giorno o di un mese. L’esplorazione della piattaforma di apprendimento senza l’utilizzo di alcun oggetto di apprendimento è considerata come un “accesso” alla piattaforma. Ciò aiuta l’amministratore a comprendere il numero totale di utenti che accedono al sistema. Il primo di ogni mese, Learning Manager crea un record del numero totale di utenti che hanno effettuato l’accesso alla piattaforma nel mese precedente. Inoltre, acquisisce le informazioni sul gruppo di utenti per questi utenti.
 
-Vengono registrati solo i gruppi di utenti configurati dall’amministratore. Questo consente agli amministratori di applicare un filtro ai gruppi di utenti anche per i dati storici mensili. Tieni presente che, nel caso in cui la configurazione dei gruppi di utenti sia stata modificata e Learning Manager non abbia registrato i dati di tali gruppi nei mesi precedenti, questi dati non saranno visualizzabili.
+Vengono registrati solo i gruppi di utenti configurati dall’Amministratore. Ciò consente agli amministratori di applicare un filtro sui gruppi di utenti anche per i dati storici mensili. Tieni presente che, nel caso in cui la configurazione dei gruppi di utenti venga modificata e Learning Manager non abbia registrato i dati di tali gruppi nei mesi precedenti, questi dati non saranno visualizzabili.
 
 Questo report contiene gli utenti che accedono alla piattaforma in qualsiasi modo, ad esempio dal Web, tramite app mobili, soluzioni personalizzate headless e così via. Il grafico sull’utilizzo di app mobili menziona specificamente solo gli utenti che accedono alla piattaforma utilizzando l’app per dispositivi mobili di Learning Manager. Questo consente agli amministratori di identificare l’utilizzo dell’app per dispositivi mobili nel proprio account.
 
 ![](assets/user-visit-report.png)
 *Report Visita utente*
 
-## Report del tempo impiegato per l’apprendimento {#learningtimespentreport}
+### Report del tempo impiegato per l’apprendimento {#learningtimespentreport}
 
 Qui puoi vedere un grafico a linee con doppio asse che mostra il tempo totale impiegato per l’apprendimento di tutti gli allievi in un periodo di 12 mesi. Il secondo asse rappresenta il tempo medio impiegato nell’apprendimento per un singolo individuo.
 
@@ -194,14 +104,14 @@ Il filtro per data e gruppo di utenti selezionato viene applicato a tutti i graf
 
 Il dashboard dei contenuti di formazione offre informazioni dettagliate sui corsi disponibili sulla piattaforma. È possibile visualizzare i corsi di formazione più popolari o tenere traccia di tutti quelli disponibili.
 
-## Report dei corsi di formazione {#trainingsreport}
+### Report dei corsi di formazione {#trainingsreport}
 
 Questo report fornisce informazioni sul totale dei corsi di formazione disponibili sulla piattaforma (pubblicati) mese dopo mese. Indica il numero di corsi di formazione offerti nel tempo.
 
 ![](assets/training-report.png)
 *Report dei corsi di formazione*
 
-## Report dei corsi di formazione attivi {#activetrainingsreport}
+### Report dei corsi di formazione attivi {#activetrainingsreport}
 
 Questo report fornisce informazioni sui corsi di formazione attivi nell’intervallo di tempo selezionato. I corsi di formazione attivi sono quelli a cui ci si è iscritti, che sono stati visualizzati nel lettore o che sono stati completati nel periodo di tempo specificato.
 
@@ -275,17 +185,622 @@ Il report sulla formazione ha due colonne aggiuntive:
 >
 >Per entrambi i report (Contenuti di formazione e Attività degli utenti), è possibile configurare un massimo di 10 gruppi di utenti. L’elaborazione può richiedere fino a 24 ore per essere completata e per rendere disponibili i nuovi filtri configurati.
 
-## Report dashboard {#dashboardreports}
+## Dashboard di riepilogo dell’apprendimento {#dashboards}
 
-Un dashboard è una raccolta di report. I report possono essere raggruppati in una dashboard a tua scelta.
+### Genera report dashboard
 
-## Report di esempio {#samplereports}
+>[!INFO]
+>
+>In questo corso verrà illustrato come generare report del dashboard dal database.<br><br>[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)</br></br>
+
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+
+Visualizza un report di riepilogo di tutte le attività di apprendimento nella piattaforma. In questa pagina sono disponibili le seguenti informazioni di riepilogo per il team dell’utente ROOT selezionato e i profili esterni. È inoltre possibile selezionare un intervallo di tempo:
+
+* Riepilogo dell’apprendimento sotto forma di Iscrizioni, Visualizzazioni e Completamenti
+* Abilità principali
+* Riepilogo conformità
+
+![](assets/summary-charts.png)
+*Grafici di riepilogo*
+
+Se sono presenti manager di livello principale interni, questi verranno visualizzati uno dopo l&#39;altro.
+
+Tutti i profili esterni verranno elencati dopo i profili interni (utenti di livello ROOT interni).
+
+Se un profilo esterno dispone di un manager, la gerarchia dei manager verrà visualizzata nel **[!UICONTROL Visualizzazione dei dati per]** elenco a discesa. L’utente verrà elencato nella gerarchia dei manager nella pagina di tutti i dettagli (Riepilogo dell’apprendimento, conformità e stato delle abilità)
+
+In caso contrario, nell’elenco verranno visualizzati tutti i dettagli dei singoli utenti.
+
+Per visualizzare dettagli più dettagliati sulle iscrizioni dei vari team interni, fai clic su **[!UICONTROL Dettagli di riepilogo dell’apprendimento]**.
+
+![](assets/learning-sunnarydetails.png)
+*Dettagli del riepilogo dell’apprendimento*
+
+Quando fai clic su un’iscrizione, puoi visualizzare gli Allievi per ogni Manager e gli oggetti di apprendimento ai quali sono iscritti. Puoi anche visualizzare i dettagli di avanzamento e completamento di ogni allievo.
+
+![](assets/learners-for-a-manager.png)
+*allievi assegnati a un manager*
+
+Fai clic su un qualsiasi team ed esporta il relativo report come file CSV. Un amministratore può esportare il report per qualsiasi gruppo di utenti o singolo utente selezionando il gruppo di utenti o il singolo utente, quindi esportando i dettagli dal **[!UICONTROL Azione]** elenco a discesa.
+
+Inoltre, è possibile visualizzare un grafico a barre delle abilità in corso e acquisite. Puoi aggiungere/rimuovere le abilità che desideri includere nel grafico.
+
+![](assets/skill-status-stackedbarchart.png)
+*Grafico a barre sovrapposte dello stato delle abilità*
+
+Nella visualizzazione finale, è possibile controllare lo stato di conformità degli allievi e prendere le misure appropriate.
+
+Inoltre, un Amministratore può visualizzare i singoli dati di formazione nel **[!UICONTROL Dashboard di conformità]**.
+
+Ad esempio, l’Amministratore ha identificato tre corsi di formazione per monitorare la conformità. Learning Manager fornisce una panoramica della conformità per i tre corsi di formazione contemporaneamente.
+
+Ora un Amministratore può fare clic su qualsiasi formazione e visualizzare rapidamente la conformità per il corso di formazione selezionato.
+
+![](assets/compliance-dashboard.png)
+*Visualizza dashboard di conformità*
+
+Puoi anche visualizzare lo stato di conformità per ciascun team interno.
+
+Fai clic sul collegamento **[!UICONTROL Dettagli sullo stato di conformità]** nella parte inferiore della visualizzazione.
+
+Per ciascun team, puoi vedere il numero di allievi che stanno violando o rispettando la conformità di apprendimento.
+
+![](assets/compliance-statusofateam.png)
+*Stato di conformità di un team*
+
+### Condivisione di corsi di formazione con i Manager
+
+Learning Manager offre un dashboard di conformità a tutti gli Amministratori e i Manager. I Manager trovano molto utile monitorare la conformità dei membri del proprio team per un determinato corso di formazione. Allo stesso tempo, gli Amministratori vorrebbero che tutti i Manager aggiungessero corsi di formazione sulla conformità al loro dashboard e li monitorassero.
+
+In Learning Manager, il **[!UICONTROL Condividi con i Manager]** Il flusso di lavoro consente agli Amministratori di condividere i corsi di formazione con i Manager, in modo che possano essere aggiunti al dashboard di conformità di un Manager. Pertanto, i Manager non devono intraprendere alcuna azione e possono iniziare immediatamente a monitorare la conformità.
+
+Un Amministratore può condividere una serie di corsi di formazione con i Manager individualmente o con un gruppo. Questa condivisione può aiutare un Manager a monitorare facilmente la conformità del suo team per il corso di formazione specificato.
+
+L’Amministratore può &quot;inviare&quot; un elenco predefinito di corsi di formazione sulla conformità da visualizzare nel dashboard di conformità del Manager.
+
+### Condivisione dei corsi di formazione
+
+1. Ingresso **[!UICONTROL Report]** > **[!UICONTROL Riepilogo dell’apprendimento]**, scorrere verso il basso e fare clic sulla scheda **[!UICONTROL Condividi con i Manager]**.
+
+   ![](assets/share-with-managers.png)
+   *Condivisione di corsi di formazione con i Manager*
+
+1. Per aggiungere uno o più corsi di formazione, fai clic su **[!UICONTROL Condividi di più]**.
+
+1. Nella **[!UICONTROL Condividi con i Manager]** seleziona i corsi di formazione e i Manager.
+
+   ![](assets/select-training.png)
+   *Seleziona i corsi di formazione da condividere con i Manager*
+
+1. Fai clic su **[!UICONTROL Condividi]**.
+
+Il corso di formazione è ora condiviso con il Manager specificato.
+
+### Visualizzazione dei corsi di formazione
+
+Nell’elenco dei corsi di formazione condivisi, fai clic su **[!UICONTROL Visualizza]**. Puoi visualizzare il corso di formazione assegnato a uno o più Manager.
+
+### Ritiro dei corsi di formazione
+
+1. Per ritirare i corsi di formazione da un Manager, fai clic su **[!UICONTROL Ritiro]**.
+
+1. Fai clic **[!UICONTROL Procedi]**. Questo ritira il corso di formazione precedentemente condiviso dal dashboard di conformità del Manager.
+
+## Report personalizzati
+
+Gli amministratori possono generare report specifici utilizzando il modello personalizzato disponibile nella **[!UICONTROL Report]** sezione.
+
+### Report di esempio {#samplereports}
 
 La scheda **[!UICONTROL Report di esempio]** consente di visualizzare alcuni report indicativi basati su punti di dati di esempio. Esplora questi report per avere un’idea dei diversi tipi di report ricchi di funzionalità che puoi generare utilizzando i dati del tuo account.
 
-## Report dashboard {#DashboardReports-1}
+### Report dashboard {#dashboardreports}
 
-Per visualizzare tutte le bacheche che hai creato, fai clic sulla scheda della bacheca. Dal menu **[!UICONTROL Visualizza dashboard]** dall’elenco a discesa, puoi selezionare la bacheca predefinita o un dashboard che hai creato.
+Un dashboard è una raccolta di report. I report possono essere raggruppati in una dashboard a tua scelta. Per visualizzare tutte le bacheche che hai creato, fai clic sulla scheda della bacheca. Dal menu **[!UICONTROL Visualizza dashboard]** dall’elenco a discesa, puoi selezionare la bacheca predefinita o un dashboard che hai creato.
+
+### Report Excel {#excelreports}
+
+La scheda **[!UICONTROL Report Excel]** consente di esportare i report in formato file XLS.
+
+Di seguito sono riportati i tipi di report disponibili per il download.
+
+* Report corso
+* Trascrizioni allievi
+* Report annunci
+* Report risorse formative
+* Prova di verifica del contenuto
+* Prova di verifica dell’utente
+* Report di accesso
+* Trascrizioni gamification
+* Prova di verifica della gamification
+
+### Trascrizioni Allievi {#learnertranscripts}
+
+Le trascrizioni degli allievi nei report Excel mostrano le colonne Crediti richiesti e Crediti guadagnati in numeri decimali.
+
+### Report corso {#coursereports}
+
+Come Amministratore, puoi scaricare i report per i corsi. Procedi come segue:
+
+1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report corso]**.
+1. Viene visualizzata la finestra di dialogo **[!UICONTROL Report corso]**. Seleziona il corso di cui desideri recuperare il report e fai clic su **[!UICONTROL Mostra]**.
+
+   ![](assets/course-reports.png)
+   *Report corso*
+
+1. Verrai reindirizzato alla pagina del corso. Puoi esportare il punteggio del quiz per utente e per domanda in base a ciascuna iscrizione scegliendo il tipo di iscrizione specifico.
+1. Seleziona **[!UICONTROL Esporta punteggio quiz]** per esportare il report. Viene visualizzata la finestra di dialogo **[!UICONTROL Generazione della richiesta di report]**. Fai clic su **[!UICONTROL OK]** per confermare.
+
+   ![](assets/generating-reportrequest.png)
+   *Generazione della richiesta di report*
+
+   >[!NOTE]
+   >
+   >Il report relativo al punteggio del quiz esportato conterrà i dettagli del punteggio per ciascun tentativo se l’opzione tentativi multipli è configurata per il modulo.
+
+### Trascrizioni allievi {#LearnerTranscripts-1}
+
+Adobe Learning Manager consente agli Amministratori di un’organizzazione di generare le trascrizioni associate agli Allievi. Il report Trascrizione Allievo contiene quanto segue:
+
+1. Trascrizione Allievo: dashboard attività di apprendimento
+1. Abilità: dashboard delle abilità
+1. Dashboard di conformità
+
+Le trascrizioni degli allievi nei report Excel mostrano le colonne Crediti richiesti e Crediti guadagnati in numeri decimali.
+
+Per ulteriori informazioni sulla generazione di report Trascrizione Allievo, consulta [Trascrizioni Allievi](learner-transcripts.md).
+
+### Report annunci {#announcementsreports}
+
+In qualità di Amministratore, puoi generare un report di tutti gli annunci che invii. Il report contiene dettagli riguardanti:
+
+* Tipo di annuncio
+* Nome dell’annuncio
+* Data dell’annuncio
+* Stato dell’annuncio
+* Nome Allievo
+
+Per scaricare un report, segui uno di questi passaggi:
+
+1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report annunci]**. La **[!UICONTROL Generazione della richiesta di report]** viene visualizzata la finestra di dialogo. Fai clic su Ok.
+1. [!UICONTROL **Annunci**] > [!UICONTROL **Azioni**] > [!UICONTROL **Esporta report**].
+
+   ![](assets/announcements.png)
+   *Report annunci*
+
+1. È possibile estrarre un report per un annuncio specifico facendo clic su **[!UICONTROL Esporta report]** sotto l’icona impostazioni.
+
+   ![](assets/announcements-specific-report.png)
+   *Report per annunci specifici*
+
+### Report risorse formative {#jobaidsreport}
+
+Le risorse formative sono contenuti di formazione a cui un Allievo ha accesso senza bisogno di iscriversi a uno specifico oggetto di apprendimento come Corso o Programma di apprendimento. Gli Amministratori possono estrarre e scaricare il Report risorse formative.
+
+Il report estratto include informazioni su quanto segue:
+
+* Nome
+* Tipo di risorsa formativa
+* Stato della risorsa formativa (pubblicata o ritirata)
+* Data di iscrizione
+* Data di completamento
+* Data di download
+* Nome Allievo
+* Nome del manager
+* Creato da
+
+Per scaricare un report, esegui una delle seguenti operazioni:
+
+* Apri  **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Rapporti Risorsa formativa]**. Viene visualizzata la finestra di dialogo **[!UICONTROL Generazione della richiesta di report]**. Fai clic su **[!UICONTROL Ok]**.
+* Apri **[!UICONTROL Risorsa formativa]** > **[!UICONTROL Azioni]** > **[!UICONTROL Esporta report]**.
+
+![](assets/job-aids.png)
+*Report risorse formative*
+
+* È anche possibile estrarre un report per una risorsa formativa specifica facendo clic su **[!UICONTROL Esporta report]** sotto l’icona delle impostazioni.
+
+![](assets/job-aid-specific-download.png)
+*Report per risorsa formativa specifica*
+
+### Report risorse formative
+
+Dopo aver selezionato **[!UICONTROL Report risorse formative]** nell&#39;elenco sono disponibili due opzioni:
+
+![report risorse formative](assets/job-aids-new.png)
+*Scarica report di iscrizione utente risorse formative*
+
+**Tutte le risorse formative**: se il numero di risorse formative nell&#39;account è inferiore a 10 milioni, il report generato conterrà le informazioni di iscrizione di tutte le risorse formative. Questa sarà la selezione predefinita. Se il numero di righe supera i 10 milioni, verrà visualizzato un errore ed è necessario selezionare manualmente le risorse formative richieste.
+
+**Risorse formative selezionate**: Se si seleziona questa opzione, è possibile immettere le risorse formative per le quali si desidera generare il report. Puoi selezionare un massimo di 10 risorse formative. Adobe Learning Manager verifica se il numero di risorse formative supera i 10 milioni.
+
+![iscrizione al report risorse formative](assets/job-aids-2-new.png)
+*Seleziona una risorsa formativa*
+
+**Report risorse formative**
+
+Se selezioni questa opzione, vengono scaricati i dettagli di tutte le risorse formative presenti nel sistema insieme ai relativi metadati e corsi di formazione.
+
+Il report scaricato comprende i seguenti campi:
+
+* Nome risorsa formativa
+* Lingue
+* ID
+* Tipo
+* Durata (minuti)
+* Stato
+* Data di pubblicazione (fuso orario UTC)
+* Creato tramite nome
+* Creato tramite e-mail
+* Creato tramite ID univoco utente
+* Cataloghi
+* Percorsi di apprendimento
+* Corsi
+* Tag
+* Abilità
+
+**Report iscrizione utenti risorse formative**
+
+Il report di iscrizione contiene dettagli sull’iscrizione degli utenti e altre informazioni.
+
+Il report scaricato comprende i seguenti campi:
+
+* Nome risorsa formativa
+* Tipo
+* Stato
+* Data di iscrizione (fuso orario UTC)
+* Data completamento (fuso orario UTC)
+* Data di download (fuso orario UTC)
+* Nome Allievo
+* E-mail
+* ID univoco utente
+* Nome del manager
+* E-mail del manager
+* ID utente univoco manager
+* Assegnato per nome
+* Assegnato per e-mail
+* Assegnato per ID utente univoco
+* Creato tramite nome
+* Creato tramite e-mail
+* Creato tramite ID utente univoco
+* Codice lavoro
+* Nuovo campo
+* Profilo
+
+### Report di prova di verifica del contenuto {#contentaudittrailreports}
+
+Utilizzare la **[!UICONTROL Prova di verifica del contenuto]** report generator per generare un report di tutte le modifiche apportate a un corso per tutta la durata della sua vita nel sistema. Il report generato presenta le seguenti informazioni recuperate.
+
+* ID oggetto
+* Nome oggetto
+* Tipo di oggetto
+* Tipo di modifica
+* Descrizione
+* ID oggetto di riferimento
+* Nome oggetto di riferimento
+* Modificato dal nome utente
+* Modificato dall’ID utente
+* Data modifica (fuso orario UTC)
+
+Le informazioni relative ai metadati non vengono recuperate nel report generato.
+
+Per generare un report di prova di verifica del corso, attieniti alla seguente procedura.
+
+1. Seleziona **[!UICONTROL Report]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Prova di verifica del corso]**. Viene visualizzata la finestra di dialogo **[!UICONTROL Prova di verifica del contenuto]**.
+
+   ![](assets/course-audit-trial.png)
+   *Prova di verifica del corso*
+
+1. Seleziona il corso, il programma di apprendimento e la certificazione di cui desideri scaricare il report. Se non specificato, tutti i report vengono scaricati per impostazione predefinita.
+1. Selezionare un intervallo di date per il report e fare clic su **[!UICONTROL Genera]**.
+1. Il report viene generato e ti viene inviata una notifica per informarti che il report di verifica del contenuto è pronto. È possibile scaricare il report.
+
+### Report di prova di verifica dell’utente {#useraudittrailreports}
+
+La prova di verifica dell’utente acquisisce il ciclo di vita di utenti, gruppi di utenti e profili di registrazione autonoma. L’aggiunta, l’eliminazione e la modifica dell’utente in Manager vengono acquisite. La creazione e l’eliminazione dei profili di registrazione autonoma vengono registrate. È inoltre possibile sospendere e riavviare la registrazione automatica.
+
+Sono inoltre disponibili le opzioni Aggiungi, Modifica, Disabilita, Sospendi e Riprendi per i profili esterni e Aggiungi, Elimina, Sospendi e Riprendi per la registrazione automatica. Vengono acquisiti anche i caricamenti di file CSV.
+
+1. Seleziona  **[!UICONTROL Report > Report Excel > Verifica utente]**. Viene visualizzata la finestra di dialogo Prova di verifica dell’utente.
+1. Viene visualizzata la finestra di dialogo Prova di verifica dell’utente. Seleziona l’intervallo di date nel menu a comparsa. Puoi scegliere di generare report per l’ultima settimana o l’ultimo mese oppure selezionare una data personalizzata.
+
+   ![](assets/user-audit-trail.png)
+   *Prova di verifica utente*
+
+1. Fai clic su **[!UICONTROL Genera]** per generare il report.
+
+Nella finestra di dialogo **[!UICONTROL Report di prova di verifica dell’utente]** sono presenti due filtri.
+
+**Filtro intervallo di date:** Scegli l’intervallo di date per il quale generare il report. Sono disponibili tre opzioni:
+
+* Ultima settimana
+* Ultimo mese
+* Data personalizzata
+
+Seleziona il filtro Allievi: cerca un utente o un gruppo di utenti.
+
+Il report esportato conterrà i dati degli utenti che soddisfano entrambi i criteri di ricerca specificati.
+
+![](assets/user-audit-trail.png)
+*Prova di verifica utente*
+
+>[!NOTE]
+>
+>Quando un’abilità viene assegnata o rimossa, tale abilità assegnata o rimossa può essere monitorata nel Report di audit utente.
+
+### Report di configurazione estensioni
+
+Questo report fornisce informazioni sui dettagli di configurazione di tutte le estensioni native aggiunte, incluso lo stato di attivazione. Scopri come scaricare il report dell’estensione, consulta [Scarica report estensione](native-extensibility.md#download-extension-report).
+
+### Report di attività xAPI
+
+Questi report forniscono i dati di tutte le istruzioni xAPI registrate e generate durante i moduli di attività xAPI.
+
+Per scaricare questo report, effettua le seguenti operazioni:
+
+1. Seleziona  **[!UICONTROL Report > Report Excel > Report di attività xAPI]**. Viene visualizzata la finestra di dialogo Report di attività xAPI.
+1. Seleziona l’intervallo di date nel menu a comparsa. Puoi scegliere di generare report per l’ultima settimana o l’ultimo mese oppure selezionare una data personalizzata.
+1. Seleziona Allievi e attività dal menu a discesa.
+1. Seleziona **[!UICONTROL Genera]** per generare il report.
+
+### Report gamification {#gamification}
+
+Gli Amministratori possono scaricare la trascrizione di gamification in formato CSV. Puoi scaricare il report per singoli utenti o gruppi di utenti. Nel report vengono recuperati nome utente, e-mail utente, UUID dell’utente, punti utente totali ottenuti, suddivisione dei punti raccolti, nome dei gruppi in cui l’utente gioca, nome del manager e valori dei campi attivi. Gli Amministratori possono utilizzare questo report per valutare e comprendere i punteggi dell’utente a livello di organizzazione o per un gruppo specifico.
+
+1. Seleziona Report > Report Excel > Report gamification.
+
+   ![](assets/gamification.png)
+   *Report gamification*
+
+1. Viene visualizzata la finestra di dialogo Trascrizioni gamification. Seleziona gli allievi utilizzando nome, profilo, gruppi di utenti, ID e-mail o UUID.
+
+   ![](assets/gamification-transcriptsdialog.png)
+   *Finestra di dialogo Trascrizioni gamification*
+
+1. Fai clic  **[!UICONTROL Genera]** per generare il report.
+
+   Dopo aver generato il report di un Allievo, è necessario essere in grado di esportare le informazioni correnti e del livello raggiunto per tutti gli utenti (interni, esterni o eliminati) dell’account. Puoi anche controllare le date dei livelli raggiunti da un Allievo:
+
+   * Data acquisizione Bronzo
+   * Data acquisizione Argento
+   * Data acquisizione Oro
+   * Data acquisizione Platino
+
+   Queste colonne contengono le date in cui il livello è stato raggiunto la prima volta. Colonna **[!UICONTROL Livello corrente]** visualizza il livello corrente dell’allievo.
+
+   Quando l’Amministratore ripristina la gamification, tutti i punti dell’Allievo vengono ripristinati di conseguenza.
+
+### Report di prova di verifica della gamification {#gamification-audit-trail}
+
+Questo report contiene la cronologia e i motivi dei punti di gamification degli Allievi guadagnati per ogni regola.
+
+### Scarica il report
+
+1. Seleziona l’URL dell’audit trail di gamification.
+1. Nella **Prova di verifica della gamification** selezionare l&#39;intervallo di date.
+1. Seleziona **Genera**.
+
+Il report viene scaricato come file CSV. Il file contiene le seguenti colonne:
+
+* Nome
+* Email/UUID
+* Stato
+* Azione
+* Punti,
+* Punti di saldo
+* Regola/Attività
+* Sottoattività regola/attività,
+* Dettagli regola/attività
+* Tipo,
+* Nome,
+* Nome istanza Data acquisizione (fuso orario UTC)
+* Ora inizio regola/attività
+* Ora di fine regola/attività
+
+### Report di iscrizione e annullamento dell’iscrizione {#enrollmentandunenrollmentreport}
+
+Amministratori e Manager possono estrarre un report degli Allievi iscritti e con iscrizione annullata. Come Amministratore, puoi visualizzare tutti gli allievi, gli Amministratori e i Manager registrati o con iscrizione annullata a un’istanza di un corso, un programma di apprendimento o una certificazione ed esportare il report. In qualità di Manager, invece, puoi recuperare solo un report dei membri del team. Come Manager, non puoi visualizzare gli Allievi eliminati o il tuo nome nell’applicazione per Manager come Allievo iscritto o con iscrizione annullata.
+
+Per scaricare un report, effettua le seguenti operazioni: Apri il  **[!UICONTROL Corso/Programma di apprendimento/Certificazione]** > **[!UICONTROL Allievi]** > **[!UICONTROL Azione]** > **[!UICONTROL Esportare un report]**.
+
+![](assets/unenrollment.png)
+*Report di annullamento dell’iscrizione*
+
+### Report Feedback {#feedback-report}
+
+Come amministratore, ora puoi recuperare sia i feedback degli allievi (L1) che i feedback dei manager (L3) per i corsi di formazione selezionati per un periodo specificato.
+
+Puoi esportare i dati dall’interfaccia utente o tramite il connettore PowerBI per un’analisi più approfondita.
+
+I report dei feedback L1 e L3 consentono di scaricare un report di feedback consolidato per le risposte L1 e L3 dei corsi di formazione selezionati per un **un anno** o fino a 10 corsi di formazione selezionati per qualsiasi intervallo di date.
+
+Accedi come Amministratore, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** e nell&#39;elenco dei report fare clic su **[!UICONTROL Report Feedback]**.
+
+![](assets/download-feedbackreport.png)
+*Scarica report feedback*
+
+Facendo clic su Scarica dopo aver selezionato i filtri, riceverai una notifica per scaricare il report in formato CSV.
+
+Il report scaricato conterrà dettagli quali il nome e il tipo del corso di formazione, il nome dell’istanza, il nome dell’Allievo e l’indirizzo e-mail, il tipo di feedback (L1 o L3) e le date del feedback inviato per i nuovi dati.
+
+Per i dati esistenti prima dell’implementazione di questa funzione, verrà visualizzata la data di completamento LO, la domanda del feedback L1, il testo effettivo autonomo e il testo della classe in colonne diverse, le rispettive risposte del feedback L1, il nome e l’e-mail del manager, il valore del feedback L3 e la data di invio e i campi attivi.
+
+Puoi anche esportare i dati dall’interfaccia utente o in Power BI, che supporta tutti i corsi di formazione per qualsiasi intervallo di date per un’analisi più approfondita.
+
+### Report dei corsi di formazione {#training-report}
+
+Learning Manager supporta il report del corso di formazione, che consente agli Amministratori di scaricare i dettagli del corso di formazione e i metadati associati, come ad esempio autore, data di pubblicazione, abilità, etichette per cataloghi e così via.
+
+Nell’app di amministrazione, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report dei corsi di formazione]**.
+
+Puoi scaricare i report per:
+
+* Corsi di formazione selezionati (massimo 10): seleziona uno o più corsi di formazione (fino a un massimo di 10) da qualsiasi catalogo
+* Corsi di formazione all’interno dei cataloghi selezionati (massimo 5) (sarà possibile selezionare fino a cinque cataloghi)
+* Tutti i corsi di formazione (tutti i corsi di formazione nell’account)
+
+![](assets/download-trainingreport.png)
+*Scarica report del corso di formazione*
+
+Nella sezione Opzioni avanzate sono disponibili le seguenti opzioni:
+
+* Includi mappature corso con programma di apprendimento/certificazione
+* Includi informazioni livello modulo
+
+Dopo aver selezionato i filtri e fatto clic su Scarica, riceverai una notifica per scaricare il report in formato CSV.
+
+Il report conterrà i seguenti campi:
+
+*Nome catalogo, Tipo di corso di formazione, ID del corso di formazione, ID univoco del corso di formazione, Nome del corso di formazione, Corsi di formazione secondari, Moduli, Durata del corso di formazione o del modulo, Formato, Stato del corso di formazione, Abilità, Autore, Data ultima pubblicazione, Data ultimo completamento, Conteggio iscrizioni istruttori, Conteggio avviati, Conteggio completati, Punteggio medio L1, Punteggio medio L2, Punteggio medio L3, Risposte L1 ricevute, Risposte L2 ricevute, Risposte L3 ricevute, Etichette catalogo e tag.*
+
+![](assets/more-options.png)
+*Opzioni aggiuntive*
+
+### Report di riepilogo della sessione {#session-summary-report}
+
+Il Report di riepilogo della sessione contiene tutte le sessioni pianificate per un Allievo entro una data specificata.
+
+Ciò consente all’Amministratore di esportare tutti i dettagli della sessione aula e virtuale che rientrano nell’intervallo di date specificato. L’Amministratore può anche esportare il report della sessione in relazione a corsi di formazione o Istruttori specifici.
+
+Ciò aiuterà anche l’Amministratore a comprendere le sessioni pianificate su base mensile e a identificare la pianificazione degli istruttori e le sessioni già tenute.
+
+Come Amministratore, fai clic su **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report di riepilogo della sessione]**.
+
+Nella finestra di dialogo seguente, scegli l’intervallo di date, il corso di formazione e l’istruttore per un riepilogo.
+
+![](assets/session-summary-report.png)
+*Report di riepilogo della sessione*
+
+Il csv scaricato contiene i seguenti campi:
+
+* Data e ora di inizio
+* Data e ora di fine
+
+* Nome del modulo
+* Durata della sessione (in minuti)
+* Posti in totale
+* Posizione
+* Nome istanza
+* Nome del corso
+* ID corso
+* Nome dell’istruttore
+* E-mail dell’Istruttore
+* Conteggio delle iscrizioni
+* Tipo di sessione
+* Limite per la lista d’attesa
+* Totale in lista d’attesa
+* E-mail degli utenti in lista d’attesa
+* Informazioni sulla posizione
+* Regione della posizione
+
+### Report utilizzo Istruttore
+
+Questo report registra il tempo (in minuti) trascorso quotidianamente da un Istruttore che tiene le sessioni assegnate. Il report può essere scaricato per un periodo di tre mesi dalla data di inizio selezionata.
+
+Per scaricare il report, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Rapporto Utilizzo Istruttore]**.
+
+Seleziona uno o più Istruttori e l’intervallo di date.
+
+![Scarica report utilizzo istruttore](assets/utilization-report.png)
+*Scarica report utilizzo istruttore*
+
+Il report scaricato contiene i seguenti campi:
+
+* Nome Istruttore
+* ID Istruttore
+* Livello di abilità
+* Date come colonne. Se l’Istruttore viene utilizzato in una data, viene elencato il numero di sessioni. Se in un giorno l’Istruttore non viene utilizzato, il valore viene visualizzato come zero.
+
+Il report contiene i record relativi a tre mesi a partire dal mese selezionato.
+
+Per recuperare i record di tutti gli istruttori, lasciare vuoto il campo Istruttore.
+
+Inoltre, un amministratore personalizzato con l’autorizzazione per generare report può recuperare questo report.
+
+### Report di audit trail dell’utente
+
+Questo report acquisisce informazioni sugli Allievi che hanno cambiato istanza, &quot;da istanza&quot; a &quot;a istanza&quot;, cambiato per ora, data, ecc.
+
+Seleziona gli Allievi o un gruppo di utenti.
+
+Per scaricare il report, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report di prova di verifica dell’utente]**.
+
+![Scarica report audit trail dell’utente](assets/user-audit-report.png)
+
+*Scarica report audit trail dell’utente*
+
+### Report piano di apprendimento
+
+Questo report contiene i dettagli di tutti i piani di apprendimento in un account, ad esempio i gruppi di utenti correlati, lo stato e le informazioni sull’attivazione.
+
+Il report contiene:
+
+* Nome del piano di apprendimento
+* Tipo (si verifica quando)
+* Formazione (completata)
+* Abilità (ottenuta)
+* Data (in data)
+* Azione
+* Stato, creato da
+* Data di creazione
+* Data ultima modifica
+* Gruppo utenti (applicabile a)
+* Gruppo utenti (aggiungi a)
+* Iscriviti in seguito
+* Tipi di elementi di apprendimento
+* Elementi di apprendimento
+* Istanze degli elementi di apprendimento
+* Elemento di apprendimento
+* Data di completamento
+* Promemoria elemento di apprendimento
+* Ambito catalogo
+* Ambito gruppo di utenti
+
+## Iscrizione e-mail {#emailsubscriptions}
+
+Puoi ottenere i tuoi report preferiti tramite e-mail iscrivendoti.
+
+### Configurazione degli abbonamenti e-mail
+
+>[!INFO]
+>
+>In questo corso di formazione verrà illustrato come impostare gli abbonamenti e-mail per i report del dashboard.<br><br>[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)</br></br>
+
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+
+Ingresso **[!UICONTROL Report]** , fare clic sul pulsante  **[!UICONTROL Abbonamento]** scheda. Viene visualizzata la pagina di iscrizione ai report.
+
+Per selezionare il nome del report dall’elenco a discesa, inizia a digitare il nome del report nel campo Report. Scegli la frequenza dell’e-mail dal menu a discesa. È possibile aggiungere l’oggetto dell’e-mail e fornire un ID e-mail alternativo.
+
+È possibile modificare ed eliminare le iscrizioni.
+
+## Report cronologici
+
+I report cronologici in Adobe Learning Manager (ALM) si riferiscono ai report che acquisiscono i dati cronologici e le attività all’interno della piattaforma di apprendimento. Questi report forniscono informazioni dettagliate sulle attività precedenti degli Allievi, sui contenuti della formazione, sulle prestazioni del gruppo di utenti e su altri dati pertinenti. I report storici consentono agli Amministratori di monitorare, monitorare e analizzare nel tempo i progressi e l’efficacia delle iniziative di apprendimento.
+
+### Report di accesso al corso
+
+I report di accesso al corso forniscono informazioni sulla ripetizione della visita di ciascun corso.
+
+Per scaricare questo report, effettua le seguenti operazioni:
+
+1. Vai a **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report cronologici]**.
+1. Seleziona **[!UICONTROL Report di accesso al corso]**. Viene visualizzata la finestra di dialogo Generazione della richiesta di report.
+1. Seleziona l’anno e il trimestre dal menu a discesa.
+1. Seleziona **[!UICONTROL Genera]**.
+
+### Report di accesso
+
+I report di accesso forniscono informazioni sugli accessi e sull&#39;accesso degli utenti. È possibile generare un report contenente tre mesi di dati alla volta.
+
+Per scaricare questo report, effettua le seguenti operazioni:
+
+1. Vai a **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report cronologici]**.
+1. Seleziona **[!UICONTROL Report di accesso]**. Viene visualizzata la finestra di dialogo Generazione della richiesta di report.
+1. Seleziona l’anno e il trimestre dal menu a discesa.
+1. Seleziona **[!UICONTROL Genera]**.
 
 ## Creazione di un dashboard {#createadashboard}
 
@@ -473,18 +988,6 @@ Inoltre, puoi creare gruppi di utenti personalizzati mediante la funzione Aggiun
 
 Nell&#39;asse x, scegliere l&#39;opzione dell&#39;attributo utente e selezionare l&#39;attributo dal menu **seleziona** nell&#39;elenco a discesa accanto. Per creare un report gruppo di utenti personalizzato in base a questi attributi, è inoltre necessario scegliere il gruppo di utenti appropriato nel filtro.
 
-## Tipi di report {#typesofreports}
-
-Adobe Learning Manager supporta quattro tipi principali di report come completamento, tempo impiegato, abilità ed efficacia. È possibile utilizzare i seguenti tipi di report per generare report di oltre 300 varianti:
-
-* Statistiche di consegna del corso per allievi
-* Efficacia del report sui corsi
-* Report basato sulle abilità dell’Allievo
-* Statistiche di iscrizione al programma di apprendimento per allievi
-* Tempo di apprendimento impiegato dagli allievi
-* Numero di allievi
-* Completamento certificazione
-
 ## Visualizzazione dei report {#viewingreports}
 
 Nella pagina Report, puoi visualizzare tutti i report. Puoi ridurre ogni report facendo clic sull’icona meno (-) nell’angolo superiore destro di ogni report. Fai clic sull’icona (+) per visualizzare nuovamente il report.
@@ -512,9 +1015,10 @@ Se più Manager ti inviano report, puoi visualizzare rapidamente i report per og
 
 ### Genera report corso
 
-In questo corso imparerai come esportare i report del corso e configurare gli abbonamenti e-mail per tali report.
+>[!INFO]
+>
+>In questo corso imparerai come esportare i report del corso e configurare gli abbonamenti e-mail per tali report.<br><br>[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)</br></br>
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
 
 Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
@@ -574,466 +1078,6 @@ Durante la creazione di un account condiviso tra pari, se l’opzione Condividi 
    >[!NOTE]
    >
    >I Manager non possono visualizzare i report dei pari.
-
-## Iscrizione e-mail {#emailsubscriptions}
-
-Puoi ottenere i tuoi report preferiti tramite e-mail iscrivendoti.
-
-### Configurazione degli abbonamenti e-mail
-
-In questo corso di formazione verrà illustrato come impostare gli abbonamenti e-mail per i report del dashboard.
-
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
-
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
-
-Ingresso **[!UICONTROL Report]** , fare clic sul pulsante  **[!UICONTROL Abbonamento]** scheda. Viene visualizzata la pagina di iscrizione ai report.
-
-Per selezionare il nome del report dall’elenco a discesa, inizia a digitare il nome del report nel campo Report. Scegli la frequenza dell’e-mail dal menu a discesa. È possibile aggiungere l’oggetto dell’e-mail e fornire un ID e-mail alternativo.
-
-È possibile modificare ed eliminare le iscrizioni.
-
-## Report Excel {#excelreports}
-
-La scheda **[!UICONTROL Report Excel]** consente di esportare i report in formato file XLS.
-
-Di seguito sono riportati i tipi di report disponibili per il download.
-
-* Report corso
-* Trascrizioni allievi
-* Report annunci
-* Report risorse formative
-* Prova di verifica del contenuto
-* Prova di verifica dell’utente
-* Report di accesso
-* Trascrizioni gamification
-* Prova di verifica della gamification
-
-## Trascrizioni Allievi {#learnertranscripts}
-
-Le trascrizioni degli allievi nei report Excel mostrano le colonne Crediti richiesti e Crediti guadagnati in numeri decimali.
-
-## Report corso {#coursereports}
-
-Come Amministratore, puoi scaricare i report per i corsi. Procedi come segue:
-
-1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report corso]**.
-1. Viene visualizzata la finestra di dialogo **[!UICONTROL Report corso]**. Seleziona il corso di cui desideri recuperare il report e fai clic su **[!UICONTROL Mostra]**.
-
-   ![](assets/course-reports.png)
-   *Report corso*
-
-1. Verrai reindirizzato alla pagina del corso. Puoi esportare il punteggio del quiz per utente e per domanda in base a ciascuna iscrizione scegliendo il tipo di iscrizione specifico.
-1. Seleziona **[!UICONTROL Esporta punteggio quiz]** per esportare il report. Viene visualizzata la finestra di dialogo **[!UICONTROL Generazione della richiesta di report]**. Fai clic su **[!UICONTROL OK]** per confermare.
-
-   ![](assets/generating-reportrequest.png)
-   *Generazione della richiesta di report*
-
-   >[!NOTE]
-   >
-   >Il report relativo al punteggio del quiz esportato conterrà i dettagli del punteggio per ciascun tentativo se l’opzione tentativi multipli è configurata per il modulo.
-
-## Trascrizioni allievi {#LearnerTranscripts-1}
-
-Adobe Learning Manager consente agli Amministratori di un’organizzazione di generare le trascrizioni associate agli Allievi. Il report Trascrizione Allievo contiene quanto segue:
-
-1. Trascrizione Allievo: dashboard attività di apprendimento
-1. Abilità: dashboard delle abilità
-1. Dashboard di conformità
-
-Le trascrizioni degli allievi nei report Excel mostrano le colonne Crediti richiesti e Crediti guadagnati in numeri decimali.
-
-Per ulteriori informazioni sulla generazione di report Trascrizione Allievo, consulta [Trascrizioni Allievi](learner-transcripts.md).
-
-## Report annunci {#announcementsreports}
-
-In qualità di Amministratore, puoi generare un report di tutti gli annunci che invii. Il report contiene dettagli riguardanti:
-
-* Tipo di annuncio
-* Nome dell’annuncio
-* Data dell’annuncio
-* Stato dell’annuncio
-* Nome Allievo
-
-Per scaricare un report, segui uno di questi passaggi:
-
-1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report annunci]**. La **[!UICONTROL Generazione della richiesta di report]** viene visualizzata la finestra di dialogo. Fai clic su Ok.
-1. [!UICONTROL **Annunci**] > [!UICONTROL **Azioni**] > [!UICONTROL **Esporta report**].
-
-   ![](assets/announcements.png)
-   *Report annunci*
-
-1. È possibile estrarre un report per un annuncio specifico facendo clic su **[!UICONTROL Esporta report]** sotto l’icona impostazioni.
-
-   ![](assets/announcements-specific-report.png)
-   *Report per annunci specifici*
-
-## Report risorse formative {#jobaidsreport}
-
-Le risorse formative sono contenuti di formazione a cui un Allievo ha accesso senza bisogno di iscriversi a uno specifico oggetto di apprendimento come Corso o Programma di apprendimento. Gli Amministratori possono estrarre e scaricare il Report risorse formative.
-
-Il report estratto include informazioni su quanto segue:
-
-* Nome
-* Tipo di risorsa formativa
-* Stato della risorsa formativa (pubblicata o ritirata)
-* Data di iscrizione
-* Data di completamento
-* Data di download
-* Nome Allievo
-* Nome del manager
-* Creato da
-
-Per scaricare un report, esegui una delle seguenti operazioni:
-
-* Apri  **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Rapporti Risorsa formativa]**. Viene visualizzata la finestra di dialogo **[!UICONTROL Generazione della richiesta di report]**. Fai clic su **[!UICONTROL Ok]**.
-* Apri **[!UICONTROL Risorsa formativa]** > **[!UICONTROL Azioni]** > **[!UICONTROL Esporta report]**.
-
-![](assets/job-aids.png)
-*Report risorse formative*
-
-* È anche possibile estrarre un report per una risorsa formativa specifica facendo clic su **[!UICONTROL Esporta report]** sotto l’icona delle impostazioni.
-
-![](assets/job-aid-specific-download.png)
-*Report per risorsa formativa specifica*
-
-### Report risorse formative
-
-Dopo aver selezionato **[!UICONTROL Report risorse formative]** nell&#39;elenco sono disponibili due opzioni:
-
-![report risorse formative](assets/job-aids-new.png)
-*Scarica report di iscrizione utente risorse formative*
-
-**Tutte le risorse formative**: se il numero di risorse formative nell&#39;account è inferiore a 10 milioni, il report generato conterrà le informazioni di iscrizione di tutte le risorse formative. Questa sarà la selezione predefinita. Se il numero di righe supera i 10 milioni, verrà visualizzato un errore ed è necessario selezionare manualmente le risorse formative richieste.
-
-**Risorse formative selezionate**: Se si seleziona questa opzione, è possibile immettere le risorse formative per le quali si desidera generare il report. Puoi selezionare un massimo di 10 risorse formative. Adobe Learning Manager verifica se il numero di risorse formative supera i 10 milioni.
-
-![iscrizione al report risorse formative](assets/job-aids-2-new.png)
-*Seleziona una risorsa formativa*
-
-**Report risorse formative**
-
-Se selezioni questa opzione, vengono scaricati i dettagli di tutte le risorse formative presenti nel sistema insieme ai relativi metadati e corsi di formazione.
-
-Il report scaricato comprende i seguenti campi:
-
-* Nome risorsa formativa
-* Lingue
-* ID
-* Tipo
-* Durata (minuti)
-* Stato
-* Data di pubblicazione (fuso orario UTC)
-* Creato tramite nome
-* Creato tramite e-mail
-* Creato tramite ID univoco utente
-* Cataloghi
-* Percorsi di apprendimento
-* Corsi
-* Tag
-* Abilità
-
-**Report iscrizione utenti risorse formative**
-
-Il report di iscrizione contiene dettagli sull’iscrizione degli utenti e altre informazioni.
-
-Il report scaricato comprende i seguenti campi:
-
-* Nome risorsa formativa
-* Tipo
-* Stato
-* Data di iscrizione (fuso orario UTC)
-* Data completamento (fuso orario UTC)
-* Data di download (fuso orario UTC)
-* Nome Allievo
-* E-mail
-* ID univoco utente
-* Nome del manager
-* E-mail del manager
-* ID utente univoco manager
-* Assegnato per nome
-* Assegnato per e-mail
-* Assegnato per ID utente univoco
-* Creato tramite nome
-* Creato tramite e-mail
-* Creato tramite ID utente univoco
-* Codice lavoro
-* Nuovo campo
-* Profilo
-
-### Report di prova di verifica del contenuto {#contentaudittrailreports}
-
-Utilizzare la **[!UICONTROL Prova di verifica del contenuto]** report generator per generare un report di tutte le modifiche apportate a un corso per tutta la durata della sua vita nel sistema. Il report generato presenta le seguenti informazioni recuperate.
-
-* ID oggetto
-* Nome oggetto
-* Tipo di oggetto
-* Tipo di modifica
-* Descrizione
-* ID oggetto di riferimento
-* Nome oggetto di riferimento
-* Modificato dal nome utente
-* Modificato dall’ID utente
-* Data modifica (fuso orario UTC)
-
-Le informazioni relative ai metadati non vengono recuperate nel report generato.
-
-Per generare un report di prova di verifica del corso, attieniti alla seguente procedura.
-
-1. Seleziona **[!UICONTROL Report]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Prova di verifica del corso]**. Viene visualizzata la finestra di dialogo **[!UICONTROL Prova di verifica del contenuto]**.
-
-   ![](assets/course-audit-trial.png)
-   *Prova di verifica del corso*
-
-1. Seleziona il corso, il programma di apprendimento e la certificazione di cui desideri scaricare il report. Se non specificato, tutti i report vengono scaricati per impostazione predefinita.
-1. Selezionare un intervallo di date per il report e fare clic su **[!UICONTROL Genera]**.
-1. Il report viene generato e ti viene inviata una notifica per informarti che il report di verifica del contenuto è pronto. È possibile scaricare il report.
-
-## Report di prova di verifica dell’utente {#useraudittrailreports}
-
-La prova di verifica dell’utente acquisisce il ciclo di vita di utenti, gruppi di utenti e profili di registrazione autonoma. L’aggiunta, l’eliminazione e la modifica dell’utente in Manager vengono acquisite. La creazione e l’eliminazione dei profili di registrazione autonoma vengono registrate. È inoltre possibile sospendere e riavviare la registrazione automatica.
-
-Sono inoltre disponibili le opzioni Aggiungi, Modifica, Disabilita, Sospendi e Riprendi per i profili esterni e Aggiungi, Elimina, Sospendi e Riprendi per la registrazione automatica. Vengono acquisiti anche i caricamenti di file CSV.
-
-1. Seleziona  **[!UICONTROL Report > Report Excel > Verifica utente]**. Viene visualizzata la finestra di dialogo Prova di verifica dell’utente.
-1. Viene visualizzata la finestra di dialogo Prova di verifica dell’utente. Seleziona l’intervallo di date nel menu a comparsa. Puoi scegliere di generare report per l’ultima settimana o l’ultimo mese oppure selezionare una data personalizzata.
-
-   ![](assets/user-audit-trail.png)
-   *Prova di verifica utente*
-
-1. Fai clic su **[!UICONTROL Genera]** per generare il report.
-
-Nella finestra di dialogo **[!UICONTROL Report di prova di verifica dell’utente]** sono presenti due filtri.
-
-**Filtro intervallo di date:** Scegli l’intervallo di date per il quale generare il report. Sono disponibili tre opzioni:
-
-* Ultima settimana
-* Ultimo mese
-* Data personalizzata
-
-Seleziona il filtro Allievi: cerca un utente o un gruppo di utenti.
-
-Il report esportato conterrà i dati degli utenti che soddisfano entrambi i criteri di ricerca specificati.
-
-![](assets/user-audit-trail.png)
-*Prova di verifica utente*
-
->[!NOTE]
->
->Quando un’abilità viene assegnata o rimossa, tale abilità assegnata o rimossa può essere monitorata nel Report di audit utente.
-
-## Report gamification {#gamification}
-
-Gli Amministratori possono scaricare la trascrizione di gamification in formato CSV. Puoi scaricare il report per singoli utenti o gruppi di utenti. Nel report vengono recuperati nome utente, e-mail utente, UUID dell’utente, punti utente totali ottenuti, suddivisione dei punti raccolti, nome dei gruppi in cui l’utente gioca, nome del manager e valori dei campi attivi. Gli Amministratori possono utilizzare questo report per valutare e comprendere i punteggi dell’utente a livello di organizzazione o per un gruppo specifico.
-
-1. Seleziona Report > Report Excel > Report gamification.
-
-   ![](assets/gamification.png)
-   *Report gamification*
-
-1. Viene visualizzata la finestra di dialogo Trascrizioni gamification. Seleziona gli allievi utilizzando nome, profilo, gruppi di utenti, ID e-mail o UUID.
-
-   ![](assets/gamification-transcriptsdialog.png)
-   *Finestra di dialogo Trascrizioni gamification*
-
-1. Fai clic  **[!UICONTROL Genera]** per generare il report.
-
-   Dopo aver generato il report di un Allievo, è necessario essere in grado di esportare le informazioni correnti e del livello raggiunto per tutti gli utenti (interni, esterni o eliminati) dell’account. Puoi anche controllare le date dei livelli raggiunti da un Allievo:
-
-   * Data acquisizione Bronzo
-   * Data acquisizione Argento
-   * Data acquisizione Oro
-   * Data acquisizione Platino
-
-   Queste colonne contengono le date in cui il livello è stato raggiunto la prima volta. Colonna **[!UICONTROL Livello corrente]** visualizza il livello corrente dell’allievo.
-
-   Quando l’Amministratore ripristina la gamification, tutti i punti dell’Allievo vengono ripristinati di conseguenza.
-
-## Report di prova di verifica della gamification {#gamification-audit-trail}
-
-Questo report contiene la cronologia e i motivi dei punti di gamification degli Allievi guadagnati per ogni regola.
-
-### Scarica il report
-
-1. Seleziona l’URL dell’audit trail di gamification.
-1. Nella **Prova di verifica della gamification** selezionare l&#39;intervallo di date.
-1. Seleziona **Genera**.
-
-Il report viene scaricato come file CSV. Il file contiene le seguenti colonne:
-
-* Nome
-* Email/UUID
-* Stato
-* Azione
-* Punti,
-* Punti di saldo
-* Regola/Attività
-* Sottoattività regola/attività,
-* Dettagli regola/attività
-* Tipo,
-* Nome,
-* Nome istanza Data acquisizione (fuso orario UTC)
-* Ora inizio regola/attività
-* Ora di fine regola/attività
-
-## Report di iscrizione e annullamento dell’iscrizione {#enrollmentandunenrollmentreport}
-
-Amministratori e Manager possono estrarre un report degli Allievi iscritti e con iscrizione annullata. Come Amministratore, puoi visualizzare tutti gli allievi, gli Amministratori e i Manager registrati o con iscrizione annullata a un’istanza di un corso, un programma di apprendimento o una certificazione ed esportare il report. In qualità di Manager, invece, puoi recuperare solo un report dei membri del team. Come Manager, non puoi visualizzare gli Allievi eliminati o il tuo nome nell’applicazione per Manager come Allievo iscritto o con iscrizione annullata.
-
-Per scaricare un report, effettua le seguenti operazioni: Apri il  **[!UICONTROL Corso/Programma di apprendimento/Certificazione]** > **[!UICONTROL Allievi]** > **[!UICONTROL Azione]** > **[!UICONTROL Esportare un report]**.
-
-![](assets/unenrollment.png)
-*Report di annullamento dell’iscrizione*
-
-## Report Feedback {#feedback-report}
-
-Come amministratore, ora puoi recuperare sia i feedback degli allievi (L1) che i feedback dei manager (L3) per i corsi di formazione selezionati per un periodo specificato.
-
-Puoi esportare i dati dall’interfaccia utente o tramite il connettore PowerBI per un’analisi più approfondita.
-
-I report dei feedback L1 e L3 consentono di scaricare un report di feedback consolidato per le risposte L1 e L3 dei corsi di formazione selezionati per un **un anno** o fino a 10 corsi di formazione selezionati per qualsiasi intervallo di date.
-
-Accedi come Amministratore, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** e nell&#39;elenco dei report fare clic su **[!UICONTROL Report Feedback]**.
-
-![](assets/download-feedbackreport.png)
-*Scarica report feedback*
-
-Facendo clic su Scarica dopo aver selezionato i filtri, riceverai una notifica per scaricare il report in formato CSV.
-
-Il report scaricato conterrà dettagli quali il nome e il tipo del corso di formazione, il nome dell’istanza, il nome dell’Allievo e l’indirizzo e-mail, il tipo di feedback (L1 o L3) e le date del feedback inviato per i nuovi dati.
-
-Per i dati esistenti prima dell’implementazione di questa funzione, verrà visualizzata la data di completamento LO, la domanda del feedback L1, il testo effettivo autonomo e il testo della classe in colonne diverse, le rispettive risposte del feedback L1, il nome e l’e-mail del manager, il valore del feedback L3 e la data di invio e i campi attivi.
-
-Puoi anche esportare i dati dall’interfaccia utente o in Power BI, che supporta tutti i corsi di formazione per qualsiasi intervallo di date per un’analisi più approfondita.
-
-## Report dei corsi di formazione {#training-report}
-
-Learning Manager supporta il report del corso di formazione, che consente agli Amministratori di scaricare i dettagli del corso di formazione e i metadati associati, come ad esempio autore, data di pubblicazione, abilità, etichette per cataloghi e così via.
-
-Nell’app di amministrazione, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report dei corsi di formazione]**.
-
-Puoi scaricare i report per:
-
-* Corsi di formazione selezionati (massimo 10): seleziona uno o più corsi di formazione (fino a un massimo di 10) da qualsiasi catalogo
-* Corsi di formazione all’interno dei cataloghi selezionati (massimo 5) (sarà possibile selezionare fino a cinque cataloghi)
-* Tutti i corsi di formazione (tutti i corsi di formazione nell’account)
-
-![](assets/download-trainingreport.png)
-*Scarica report del corso di formazione*
-
-Nella sezione Opzioni avanzate sono disponibili le seguenti opzioni:
-
-* Includi mappature corso con programma di apprendimento/certificazione
-* Includi informazioni livello modulo
-
-Dopo aver selezionato i filtri e fatto clic su Scarica, riceverai una notifica per scaricare il report in formato CSV.
-
-Il report conterrà i seguenti campi:
-
-*Nome catalogo, Tipo di corso di formazione, ID del corso di formazione, ID univoco del corso di formazione, Nome del corso di formazione, Corsi di formazione secondari, Moduli, Durata del corso di formazione o del modulo, Formato, Stato del corso di formazione, Abilità, Autore, Data ultima pubblicazione, Data ultimo completamento, Conteggio iscrizioni istruttori, Conteggio avviati, Conteggio completati, Punteggio medio L1, Punteggio medio L2, Punteggio medio L3, Risposte L1 ricevute, Risposte L2 ricevute, Risposte L3 ricevute, Etichette catalogo e tag.*
-
-![](assets/more-options.png)
-*Opzioni aggiuntive*
-
-## Report di riepilogo della sessione {#session-summary-report}
-
-Il Report di riepilogo della sessione contiene tutte le sessioni pianificate per un Allievo entro una data specificata.
-
-Ciò consente all’Amministratore di esportare tutti i dettagli della sessione aula e virtuale che rientrano nell’intervallo di date specificato. L’Amministratore può anche esportare il report della sessione in relazione a corsi di formazione o Istruttori specifici.
-
-Ciò aiuterà anche l’Amministratore a comprendere le sessioni pianificate su base mensile e a identificare la pianificazione degli istruttori e le sessioni già tenute.
-
-Come Amministratore, fai clic su **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report di riepilogo della sessione]**.
-
-Nella finestra di dialogo seguente, scegli l’intervallo di date, il corso di formazione e l’istruttore per un riepilogo.
-
-![](assets/session-summary-report.png)
-*Report di riepilogo della sessione*
-
-Il csv scaricato contiene i seguenti campi:
-
-* Data e ora di inizio
-* Data e ora di fine
-
-* Nome del modulo
-* Durata della sessione (in minuti)
-* Posti in totale
-* Posizione
-* Nome istanza
-* Nome del corso
-* ID corso
-* Nome dell’istruttore
-* E-mail dell’Istruttore
-* Conteggio delle iscrizioni
-* Tipo di sessione
-* Limite per la lista d’attesa
-* Totale in lista d’attesa
-* E-mail degli utenti in lista d’attesa
-* Informazioni sulla posizione
-* Regione della posizione
-
-## Report utilizzo Istruttore
-
-Questo report registra il tempo (in minuti) trascorso quotidianamente da un Istruttore che tiene le sessioni assegnate. Il report può essere scaricato per un periodo di tre mesi dalla data di inizio selezionata.
-
-Per scaricare il report, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Rapporto Utilizzo Istruttore]**.
-
-Seleziona uno o più Istruttori e l’intervallo di date.
-
-![Scarica report utilizzo istruttore](assets/utilization-report.png)
-*Scarica report utilizzo istruttore*
-
-Il report scaricato contiene i seguenti campi:
-
-* Nome Istruttore
-* ID Istruttore
-* Livello di abilità
-* Date come colonne. Se l’Istruttore viene utilizzato in una data, viene elencato il numero di sessioni. Se in un giorno l’Istruttore non viene utilizzato, il valore viene visualizzato come zero.
-
-Il report contiene i record relativi a tre mesi a partire dal mese selezionato.
-
-Per recuperare i record di tutti gli istruttori, lasciare vuoto il campo Istruttore.
-
-Inoltre, un amministratore personalizzato con l’autorizzazione per generare report può recuperare questo report.
-
-## Report di audit trail dell’utente
-
-Questo report acquisisce informazioni sugli Allievi che hanno cambiato istanza, &quot;da istanza&quot; a &quot;a istanza&quot;, cambiato per ora, data, ecc.
-
-Seleziona gli Allievi o un gruppo di utenti.
-
-Per scaricare il report, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report di prova di verifica dell’utente]**.
-
-![Scarica report audit trail dell’utente](assets/user-audit-report.png)
-
-*Scarica report audit trail dell’utente*
-
-## Report piano di apprendimento
-
-Questo report contiene i dettagli di tutti i piani di apprendimento in un account, ad esempio i gruppi di utenti correlati, lo stato e le informazioni sull’attivazione.
-
-Il report contiene:
-
-* Nome del piano di apprendimento
-* Tipo (si verifica quando)
-* Formazione (completata)
-* Abilità (ottenuta)
-* Data (in data)
-* Azione
-* Stato, creato da
-* Data di creazione
-* Data ultima modifica
-* Gruppo utenti (applicabile a)
-* Gruppo utenti (aggiungi a)
-* Iscriviti in seguito
-* Tipi di elementi di apprendimento
-* Elementi di apprendimento
-* Istanze degli elementi di apprendimento
-* Elemento di apprendimento
-* Data di completamento
-* Promemoria elemento di apprendimento
-* Ambito catalogo
-* Ambito gruppo di utenti
 
 ## Domande frequenti {#frequentlyaskedquestions}
 

@@ -4,9 +4,9 @@ title: Cataloghi
 description: I cataloghi sono una raccolta di corsi di apprendimento, programmi di apprendimento e certificazioni. Utilizza i cataloghi per fornire agli Allievi l’accesso a un set personalizzato di oggetti di apprendimento. È possibile associare l’apprendimento a un catalogo durante la creazione di un nuovo catalogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2453'
 ht-degree: 75%
 
 ---
@@ -56,7 +56,7 @@ Per creare un catalogo, segui i passaggi riportati di seguito:
    *Creare un catalogo*
 
    È possibile aggiungere più corsi al catalogo.
-
+1. Puoi filtrare i corsi per abilità, ruoli e lingua. Il corso selezionato sarà consigliato agli Allievi interessati a tali abilità e ruoli.
 1. Salva le modifiche. Torna all’elenco dei cataloghi e fai clic sul nuovo catalogo nell’elenco.
 1. Nella pagina del nuovo catalogo, fai clic su **[!UICONTROL Contenuto]** nel riquadro a sinistra.
 
@@ -134,7 +134,7 @@ Corsi, programmi di apprendimento, risorse formative e certificazioni sono gli o
 
 ### Condividere i cataloghi
 
-Questo corso di formazione ti insegnerà come condividere i cataloghi con gruppi di utenti interni e account Adobi esterni di Learning Manager.
+Questo corso spiega come condividere i cataloghi con gruppi di utenti interni ed account Adobe Learning Manager esterni.
 
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 

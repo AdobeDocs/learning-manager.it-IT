@@ -1,61 +1,17 @@
 ---
 jcr-language: en_us
 title: Requisiti di sistema
-description: Requisiti di sistema per Learning Manager di Adobe
+description: Requisiti di sistema per Adobe Learning Manager
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 65%
 
 ---
 
-
-# Requisiti di sistema per Learning Manager di Adobe
-
-## Windows {#windows}
-
-Microsoft Windows 7, 8, 10 (solo versioni a 64 bit).
-
-## macOS {#macos}
-
-macOS X 10.12, 10.13, 10.14, 10.15
-
-## RAM
-
-8 GB di RAM.
-
-## Schermo
-
-Risoluzione minima supportata: 1024 x 720.
-
-## Spazio su disco
-
-Almeno 5 GB di spazio disponibile sul disco rigido.
-
-## Registrazione
-
-* Per la registrazione audio è necessario un microfono.
-* Per la registrazione video è necessaria una webcam.
-
-## Varie
-
-Per utilizzare l’applicazione, è necessario disporre di una connessione Internet attiva e un account Allievo di Adobe Learning Manager.
-
-## Specifiche del browser
-
-La pagina principale del layout immersivo non è supportata sul browser IE 11.
-
-* Google Chrome versione 43 e successive.
-* Ultime versioni di Edge, Safari (versione 13 e successive) e Firefox.
-* Internet Explorer versione 11 e successive
-
-## Dimensioni immagini consigliate {#recommendedsizeofimages}
-
-* Masthead: 1280 x 360 px.
-* Immagine nella scheda del catalogo: 280 x 100 px
-* Dimensioni della scheda di formazione: 300 x 240 px
-* Banner social: 1600 x 240 px
+# Requisiti di sistema per Adobe Learning Manager
 
 ## Desktop
 
@@ -114,6 +70,25 @@ Per la registrazione audio è necessario un microfono; per la registrazione vide
 >[!NOTE]
 >
 >L’app mobile Learning Manager supporta solo il ruolo di Allievo.
+
+## Varie
+
+Per utilizzare l’applicazione, è necessario disporre di una connessione Internet attiva e un account Allievo di Adobe Learning Manager.
+
+## Specifiche del browser
+
+La pagina principale del layout immersivo non è supportata sul browser IE 11.
+
+* Google Chrome versione 43 e successive.
+* Ultime versioni di Edge, Safari (versione 13 e successive) e Firefox.
+* Internet Explorer versione 11 e successive
+
+## Dimensioni immagini consigliate {#recommendedsizeofimages}
+
+* Masthead: 1280 x 360 px.
+* Immagine nella scheda del catalogo: 280 x 100 px
+* Dimensioni della scheda di formazione: 300 x 240 px
+* Banner social: 1600 x 240 px
 
 ## Dimensione massima del contenuto {#maximumcontentsize}
 
