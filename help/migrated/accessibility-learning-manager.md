@@ -4,14 +4,13 @@ title: Accessibilità in Adobe Learning Manager
 description: Questo documento descrive il supporto dell’accessibilità del sistema di gestione dell’apprendimento Learning Manager per gli Allievi con disabilità. Fornisce inoltre agli utenti le opzioni di navigazione e le funzioni di accessibilità della piattaforma.
 contentowner: saghosh
 preview: true
-source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 71%
 
 ---
-
-
 
 # Accessibilità in Adobe Learning Manager
 
@@ -19,12 +18,12 @@ Questo documento descrive il supporto dell’accessibilità del sistema di gesti
 
 Learning Manager rispetta gli standard di accessibilità WCAG 2.1 di livello A e AA di W3C per la piattaforma.
 
-Adobe Il ruolo Allievo di Learning Manager consente agli Allievi di navigare nella piattaforma e di sfruttare le seguenti funzionalità chiave di accessibilità:
+Il ruolo Allievo di Adobe Learning Manager consente agli Allievi di navigare nella piattaforma e di sfruttare le seguenti funzionalità chiave di accessibilità:
 
 * Assistente vocale
 * Tastiera
 * Sottotitoli codificati
-* Altro
+* Altri
 
 ## Supporto per assistenti vocali {#supportforscreenreaders}
 
@@ -151,8 +150,8 @@ Il ruolo Allievo di Learning Manager supporta diverse altre funzioni di accessib
 
 Per ulteriori informazioni, consulta:
 
-* [Report Accessibility Conformance per un Allievo](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Report Accessibility Conformance per tutti i ruoli](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Report Accessibility Conformance per un Allievo](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Report Accessibility Conformance per tutti i ruoli](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Primi flussi di lavoro di Learning Manager (ruolo Allievo) {#captivateprimetopworkflowslearnerrole}
 
@@ -168,7 +167,7 @@ Utilizzare la `kbd Tab`per spostarsi tra gli elementi della pagina. Utilizzare l
 
 1. Una volta identificato il corso di formazione, seleziona `kbd ENTER`per accedere alla pagina del corso di formazione.
 
-## Utilizzo di un corso di formazione in Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
+## Seguire un corso di formazione in Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
 1. Una volta identificato un corso di formazione, utilizzare `kbd Tab`oppure `kbd Shift + Tab` per passare al pulsante Iscrizione/Avvia. Lo stato del pulsante dipende dallo stato di iscrizione a quel corso di formazione.
 

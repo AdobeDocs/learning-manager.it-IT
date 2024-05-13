@@ -4,7 +4,7 @@ title: Gestisci ruoli personalizzati tramite file CSV
 description: L’Amministratore di integrazione può aggiungere vari ruoli personalizzati al proprio account in un’unica soluzione tramite CSV e può assegnare lo stesso ruolo a vari utenti. Questo approccio automatizza il processo di creazione dei ruoli personalizzati.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
+source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 83%

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creazione di moduli di corso, istanze e programmi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 65%
@@ -25,9 +25,10 @@ I corsi vengono creati dagli Autori. Gli Allievi possono seguire i corsi e gli A
 
 ### Gestire le istanze
 
-In questo corso imparerai come modificare i dettagli e le proprietà delle istanze.
+>[!INFO]
+>
+>In questo corso imparerai come modificare i dettagli e le proprietà delle istanze.<br><br>[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
@@ -638,7 +639,7 @@ Il ciclo di vita tipico di un corso è il seguente:
 
 **Ritirato** - Dopo aver pubblicato un corso, un Autore può attribuirgli lo stato Ritirato se desidera che il corso non venga più visualizzato nel catalogo dei corsi per gli Allievi. A questo punto, è possibile ripubblicare o eliminare un corso.
 
-**Eliminato** - A un corso viene attribuito lo stato Eliminato quando viene rimosso completamente dall’applicazione di Learning Manager per Adobi. I corsi possono essere eliminati dagli Autori solo quando si trovano nello stato Bozza. Puoi anche eliminare i corsi dallo stato Ritirato.
+**Eliminato** - A un corso viene attribuito lo stato Eliminato quando viene rimosso completamente dall’applicazione Adobe Learning Manager. I corsi possono essere eliminati dagli Autori solo quando si trovano nello stato Bozza. Puoi anche eliminare i corsi dallo stato Ritirato.
 
 ![](assets/lifecycle-03.png)
 
