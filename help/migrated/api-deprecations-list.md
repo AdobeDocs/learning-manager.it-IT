@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
-title: Deprecazioni API in Adobe Learning Manager
-description: Con l’evolversi delle API in Adobe Learning Manager, le API vengono periodicamente riorganizzate o aggiornate. Quando le API si evolvono, le API precedenti sono obsolete e alla fine rimosse. Questa pagina contiene le informazioni necessarie per eseguire la migrazione da versioni API obsolete a versioni API più recenti e stabili.
+title: Rimozione delle API da Adobe Learning Manager
+description: Con l’evoluzione delle API in Adobe Learning Manager, le API vengono periodicamente riorganizzate o aggiornate. Quando le API si evolvono, le API precedenti sono obsolete e alla fine rimosse. Questa pagina contiene le informazioni necessarie per eseguire la migrazione da versioni API obsolete a versioni API più recenti e stabili.
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 21%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
-
 
 # Modifiche e deprecazioni delle API in Adobe Learning Manager
 
@@ -105,7 +105,7 @@ Attualmente, nell’endpoint di riepilogo LO, recuperate il numero di tutte le p
 
 Il processo di recupero dei conteggi di completamento e di iscrizione è dispendioso dal punto di vista del calcolo, pertanto il calcolo viene eseguito su richiesta. Se i dati non sono presenti nella cache, i dati vengono ricaricati, il che richiede un uso intensivo di calcoli. Se sono presenti molti utenti che si iscrivono a un corso, i conteggi saranno elevati e influiranno in modo efficace sulle prestazioni della CPU.
 
-Nella versione successiva di Adobe di Learning Manager, nell’endpoint di riepilogo dell’istanza LO, vengono memorizzati nella cache i valori completionCount, enrollmentCount, seatLimit e waitlistCount. Le informazioni memorizzate nella cache persistono finché non vengono apportate modifiche alle iscrizioni o annullate. Per i conteggi che superano le 1000 iscrizioni, supporremo i conteggi stimati e invalideremo i risultati per tutti i conti nuovi ed esistenti.
+Nella versione successiva di Adobe Learning Manager, nell’endpoint di riepilogo dell’istanza LO, vengono memorizzati nella cache completedCount, enrollmentCount, seatLimit e waitlistCount. Le informazioni memorizzate nella cache persistono finché non vengono apportate modifiche alle iscrizioni o annullate. Per i conteggi che superano le 1000 iscrizioni, supporremo i conteggi stimati e invalideremo i risultati per tutti i conti nuovi ed esistenti.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Nella versione successiva di Adobe di Learning Manager, nell’endpoint di riepi
 
 ### Ordina per nome
 
-Nella versione successiva di Adobe di Learning Manager, nome e nome diventano obsoleti nel campo di ordinamento delle API seguenti:
+Nella prossima versione di Adobe Learning Manager, name e -name sono deprecati nel campo di ordinamento delle seguenti API:
 
 * GET /userGroups/{userGroupId}/users
 * GET /users
@@ -127,7 +127,7 @@ Nella versione successiva di Adobe di Learning Manager, nome e nome diventano ob
 
 ### Flag di esclusione
 
-Nella versione di novembre 2023 di Adobe Learning Manager, abbiamo interrotto il contrassegno di esclusione dalle API. in quanto non fa parte delle specifiche dell’API pubblica ed è dunque destinato al test in back-end. Il flag non è più disponibile per le API degli Allievi, ma è ancora valido per le API degli Amministratori.
+Nella versione di novembre 2023 di Adobe Learning Manager, il flag di esclusione dalle API è stato interrotto. in quanto non fa parte delle specifiche dell’API pubblica ed è dunque destinato al test in back-end. Il flag non è più disponibile per le API degli Allievi, ma è ancora valido per le API degli Amministratori.
 
 Il motivo per cui il flag per le API degli Allievi viene rimosso è perché il flag di esclusione recuperava una grande quantità di dati tramite le API degli Allievi.
 
@@ -148,3 +148,8 @@ Il gruppo di colleghi diventerà un account e gli Allievi vedranno una stringa c
 Nelle versioni precedenti di Adobe Learning Manager, il report Annuncio notifica non disponeva di filtri. per cui venivano scaricate tutte le notifiche di un account.
 
 Nella versione di novembre 2023, è stato aggiunto un filtro per data, con cui è possibile scaricare le notifiche entro un periodo specificato.  Tuttavia, puoi scaricare il report solo per gli ultimi sei mesi.
+
+### Rimozione dei valori di offset elevati nell&#39;endpoint GET /users
+
+Per migliorare le prestazioni del sistema e gestire in modo più efficace l&#39;utilizzo delle risorse, Adobe ha deprecato valori di offset elevati nell&#39;endpoint GET /users per entrambi **AMMINISTRATORE** e **ALLIEVO** ambiti. Si consiglia di utilizzare il **API dei processi** per recuperare i record con un valore di offset.
+
