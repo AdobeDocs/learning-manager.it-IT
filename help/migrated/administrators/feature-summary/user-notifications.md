@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Notifiche
 description: La funzionalità Notifiche è applicabile a tutti gli utenti di Adobe Learning Manager. Tuttavia, ogni utente ottiene diversi tipi di notifiche in diversi scenari in base al proprio ruolo.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 66%
 
 ---
-
-
 
 # Notifiche
 
@@ -42,7 +41,11 @@ Viene visualizzata una finestra di notifica di esempio per il ruolo di Amministr
 
 Questa finestra a comparsa mostra un riepilogo di tutte le notifiche, l’ora in cui sono state inviate e una barra di scorrimento. Puoi visualizzare il numero delle notifiche più recenti in base al numero evidenziato sopra l’icona delle notifiche. Ad esempio, se dall’ultimo accesso hai ricevuto cinque notifiche, sopra l’icona delle notifiche verrà visualizzato il numero 5. Questi numeri scompaiono quando visualizzi tutte le notifiche più recenti.
 
-Fai clic **[!UICONTROL Mostra tutte le notifiche]** nella parte inferiore della finestra a comparsa delle notifiche, puoi visualizzare tutte le notifiche in una nuova pagina.
+Fai clic **[!UICONTROL Mostra tutte le notifiche]** nella parte inferiore della finestra a comparsa delle notifiche, puoi visualizzare tutte le notifiche in una nuova pagina. Nella pagina delle notifiche, puoi visualizzare quanto segue:
+
+* **Tutte le notifiche**: Visualizza tutte le notifiche qui
+* **In sospeso**: Visualizza notifiche in sospeso qui
+* **Discussione**: consente di cercare corsi per visualizzare le discussioni in corso.
 
 ## Configurazione delle notifiche di escalation a più livelli {#setupmultilevelescalationnotifications}
 

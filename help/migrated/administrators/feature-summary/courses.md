@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di moduli di corso, istanze e programmi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 65%
+source-wordcount: '4659'
+ht-degree: 64%
 
 ---
 
@@ -96,6 +96,18 @@ Per ripristinare lo stato di attivazione di un’istanza ritirata, procedi come 
    *Ripristinare un&#39;istanza*
 
 1. L’istanza viene ripristinata in modalità attiva.
+
+## Eliminare un’istanza
+
+Gli amministratori possono eliminare l’istanza utilizzando **Elimina questa istanza** immediatamente dopo la creazione. Non è possibile eliminare le istanze se è collegata una sessione o se vi sono iscritti allievi.
+
+![](assets/delete-this-instance.png)
+
+*Eliminare un’istanza*
+
+>[!NOTE]
+>
+>Non è possibile eliminare l&#39;istanza predefinita.
 
 ## Invio di e-mail a livello di istanza
 

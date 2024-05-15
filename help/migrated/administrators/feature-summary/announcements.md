@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Annunci
 description: Un annuncio è un messaggio multimediale (testo, immagine o video) che un Amministratore trasmette a un insieme di utenti definito.
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 70%
+source-wordcount: '1021'
+ht-degree: 69%
 
 ---
-
-
 
 # Annunci
 
@@ -29,6 +28,11 @@ Esistono quattro tipi di annunci:
 1. Come amministratore, fai clic su Annunci nel riquadro a sinistra.
 1. Fai clic su Aggiungi nell’angolo in alto a destra della pagina.
 1. Dall’elenco a discesa Tipo, seleziona l’opzione **Come notifica**.
+
+![](assets/as-notofocation.png)
+
+*Personalizzare la notifica*
+
 1. Nel campo Messaggio, aggiungi il messaggio per l’annuncio. In questa sezione puoi anche aggiungere un URL per gli annunci. Tuttavia, devi aggiungere l’URL nel modulo HTML.
 
    Ad esempio,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
@@ -125,7 +129,7 @@ Per impostazione predefinita, tutti gli annunci sono impostati per la trasmissio
 
 Nella scheda Pianificati, puoi visualizzare tutti gli annunci pianificati per la trasmissione in una data successiva.
 
-### Inviati {#sent}
+### Inviato {#sent}
 
 Nella scheda Inviati, puoi visualizzare tutti gli annunci già trasmessi.
 

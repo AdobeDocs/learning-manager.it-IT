@@ -4,10 +4,10 @@ title: Percorsi di apprendimento
 description: Creazione di piani di apprendimento per Amministratori in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 42%
+source-wordcount: '1329'
+ht-degree: 37%
 
 ---
 
@@ -49,17 +49,27 @@ Nella **[!UICONTROL Percorso di apprendimento]** pagina, fare clic su **[!UICONT
 
 *Aggiungi un nuovo percorso di apprendimento*
 
+Nella **Tipo di iscrizione** opzione, seleziona **Iscrizione autonoma** oppure **Iscrizione amministratore**.
+
+>[!NOTE]
+>
+>Se si seleziona **Iscrizione amministratore** gli allievi visualizzeranno solo i corsi assegnati dal manager o approvati dal manager. Gli Allievi non potranno visualizzare il percorso di apprendimento nella sezione dei consigli.
+
 Dopo aver creato il percorso di apprendimento, selezionalo e poi aggiungi i corsi.
 
 Puoi anche aggiungere abilità e assegnare un distintivo al percorso di apprendimento. Per aggiungere un’abilità, seleziona l’abilità o le abilità richieste da **[!UICONTROL Scegli un’abilità]** elenco a discesa. Seleziona anche i relativi livelli.
 
 ![](assets/add-skills.png)
 
+*Aggiungi un’abilità*
+
 Per assegnare un distintivo al percorso di apprendimento, scegline uno dall’elenco dei distintivi disponibili.
 
 Seleziona il livello di prodotti, ruoli e ruoli dal menu **[!UICONTROL Consigliato per]** sezione per suggerire questo percorso di apprendimento agli utenti che hanno espresso interesse per tali prodotti e ruoli.
 
 ![](assets/recommend-for.png)
+
+*Consiglio*
 
 Scegli il tipo di ordinamento delle sezioni e dei corsi di formazione tra Ordinati o Non ordinati in base alle tue preferenze.
 
@@ -141,6 +151,20 @@ Sono disponibili tre opzioni:
 
 I promemoria notifica vengono attivati in base all’opzione. Per impostazione predefinita, l’opzione **[!UICONTROL Corsi e percorsi di apprendimento di tutti i livelli]** è abilitato per un&#39;istanza.
 
+## Abbonamenti
+
+Puoi iscriverti ai singoli percorsi di apprendimento per ricevere dati completi, inclusi i punteggi dei quiz e lo stato dell’Allievo, direttamente nella tua casella di posta.
+
+Segui i passaggi riportati di seguito:
+
+1. Seleziona un percorso di apprendimento > Abbonamenti.
+1. Seleziona Aggiungi altro.
+1. Seleziona i dettagli e digita l’ID e-mail per ricevere i report.
+
+![](assets/subscriptions.png)
+
+*Iscrizione a un percorso di apprendimento individuale*
+
 ## Importante
 
 Subito dopo l’aggiornamento, la funzionalità esistente Programmi di apprendimento verrà rinominata Percorso di apprendimento. Se desideri continuare a chiamarla Programmi di apprendimento, utilizza la funzione &quot;Terminologie&quot; per applicare il termine desiderato, per l’appunto Programma di apprendimento.
@@ -151,76 +175,76 @@ Gli Allievi possono continuare a seguire i programmi di apprendimento (ora denom
 
 La **[!UICONTROL Impostazioni]** > **[!UICONTROL Generale]** pagina include una nuova opzione per abilitare i percorsi di apprendimento. Se attivi questa opzione, puoi aggiungere corsi e programmi di apprendimento a un percorso di apprendimento. Una volta abilitata, l’opzione non può essere modificata.
 
-## Altri dettagli relativi al percorso di apprendimento
+<!-- ## Other Learning Path-related details 
 
-### L’opzione Percorso di apprendimento è disattivata/deselezionata in Impostazioni di amministrazione
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**Account che utilizzano app Web native**
+**Accounts using Native Web apps**
 
-**Allievi**
+**Learners**
 
-* Per impostazione predefinita, gli Allievi noteranno una modifica terminologica da &quot;Programma di apprendimento&quot; a &quot;Percorso di apprendimento&quot;. Ciò servirà a rendere l’interfaccia più intuitiva. Se non si desidera apportare questa modifica, fare riferimento ai punti seguenti.
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* Questa modifica, tuttavia, non verrà applicata nell’interfaccia utente se hai già utilizzato la funzione &quot;Terminologia personalizzata&quot; per sostituire il termine &quot;Programmi di apprendimento&quot; con un testo personalizzato.
-* Se non hai ancora utilizzato la funzione Terminologia personalizzata, ma ora desideri mantenere il termine &quot;Programmi di apprendimento&quot;, potrai farlo mediante tale funzione dopo la release.
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* L’aspetto generale dei precedenti &quot;Programmi di apprendimento&quot; verrà aggiornato e risulterà visivamente più interessante.
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**Autori e Amministratori**
+**Authors and Admins**
 
-* La terminologia all’interno delle app per Amministratori/Autori sarà uguale a quella presente nell’app per Allievi.
-* L’interfaccia utente per la creazione e l’aggiornamento dei precedenti oggetti &quot;Programma di apprendimento&quot; da parte di Autori e Amministratori verrà ora aggiornata alla nuova interfaccia utente. Non verrà persa nessuna funzionalità poiché le modifiche serviranno solo a rendere più intuitive le operazioni con l’interfaccia utente. Queste modifiche dell’interfaccia utente si rifletteranno nel tuo account, anche se hai scelto di non abilitare &quot;Funzioni estese del percorso di apprendimento&quot;, senza alcuna perdita di funzionalità.
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* Gli oggetti esistenti di un programma di apprendimento non verranno modificati, pertanto gli Allievi non noteranno alcun cambiamento (a parte quello inerente alla terminologia descritto in precedenza). Autori e Amministratori potrebbero notare la presenza di un raggruppamento predefinito denominato &quot;Sezione&quot; all’interno degli oggetti esistenti, ma non avrà alcun impatto sulla funzionalità. Visualizzeranno anche funzioni aggiuntive come Abilità, Risorse formative, ecc. Tuttavia, poiché non l’hai ancora utilizzato, non creerà alcun impatto sugli Allievi finché non inizierai a usarlo.
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**Report**
+**Reporting**
 
-* Se non attivi l’opzione Percorso di apprendimento , non ci saranno modifiche nella struttura del report Trascrizione Allievo a causa del percorso di apprendimento. Tuttavia, come comunicato nell’avviso precedente (fai riferimento alla tabella condivisa nella comunicazione precedente), subito dopo l’aggiornamento verrà aggiunta una nuova colonna all’estrema destra di Trascrizione Allievo.
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**Account che utilizzano il sistema LMS headless**
+**Accounts using Headless LMS**
 
-**Allievi**
+**Learners**
 
-* Gli Allievi non noteranno alcun cambiamento nell’interfaccia senza intestazione. Le modifiche non interesseranno immediatamente neanche le API utilizzate per generare i report.
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**Autori e Amministratori**
+**Authors and Admins**
 
-* Le modifiche saranno uguali a quelle indicate precedentemente nella sezione Autori/Amministratori.
+* Same changes as that of Authors/Admins stated above.
 
-**Report**
+**Reporting**
 
-* Le modifiche saranno uguali a quelle indicate precedentemente nella sezione Report.
+* Same changes as that of Reporting stated above.
 
-### L’opzione Percorso di apprendimento sarà attivata/selezionata in Impostazioni di amministrazione
+### Learning Paths option is enabled/checked in Admin Settings
 
-**Account che utilizzano app Web native**
+**Accounts using Native Web apps**
 
-**Allievi**
+**Learners**
 
-* Le modifiche saranno uguali a quelle indicate nella sezione Allievi quando l’opzione sarà disattivata.
-* Quando inizierai a utilizzare le funzionalità estese dei percorsi di apprendimento, gli Allievi trarranno vantaggio dalla possibilità di visualizzare percorsi più elaborati con percorsi e sezioni incorporati, abilità e distintivi acquisiti al completamento dei percorsi, risorse a livello di percorso e altri vantaggi.
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**Autori e Amministratori**
+**Authors and Admins**
 
-* Le modifiche saranno uguali a quelle indicate nella sezione Autori e Amministratori quando l’opzione sarà disattivata.
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* Gli utenti avranno a disposizione più funzionalità durante la creazione di percorsi elaborati. Puoi definire i livelli di abilità che verrebbero raggiunti automaticamente da un Allievo al completamento del percorso (non è necessario concentrarsi sull’aritmetica dei crediti per i livelli). Le risorse potranno essere aggiunte a livello di percorso (al momento non è possibile farlo). Durante la creazione delle sezioni, a ognuna di esse potrai assegnare le opzioni X di Y. Potrai incorporare un percorso di apprendimento in un altro (un livello di gerarchia supportato)
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**Report**
+**Reporting**
 
-* Verranno aggiunte alcune nuove colonne alle strutture &quot;Trascrizione Allievo&quot; e &quot;Report contenuto&quot; per incorporare la nuova funzione di incorporamento dei tracciati nei tracciati. Ciò potrebbe influire sul codice di integrazione scritto per l’esportazione dei dati nel data warehouse personalizzato/database esterno a Learning Manager. Tali informazioni sono contenute nella tabella fornita nella comunicazione precedente.
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**Account che utilizzano il sistema LMS headless**
+**Accounts using Headless LMS**
 
-**Allievi**
+**Learners**
 
-* A meno che non apporterai modifiche all’implementazione del sistema LMS senza intestazione, non ci saranno cambiamenti per gli Allievi poiché le API con cui è stata creata l’interfaccia senza intestazione non verranno modificate.
-* Se inizierai a utilizzare le funzionalità estese dei percorsi di apprendimento creandone di nuovi, dovrai comunque apportare modifiche all’implementazione del sistema LMS senza intestazione affinché corrispondano a quelle presenti nell’app per gli Allievi. Per farlo, potrai utilizzare le API di Learning Manager.
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**Autori e Amministratori**
+**Authors and Admins**
 
-* Le modifiche saranno uguali a quelle indicate precedentemente nella sezione Autori/Amministratori.
+* Same changes as that of Authors/Admins stated above.
 
-**Report**
+**Reporting**
 
-* Le modifiche saranno uguali a quelle indicate precedentemente nella sezione Report.
+* Same changes as that of Reporting stated above. -->
