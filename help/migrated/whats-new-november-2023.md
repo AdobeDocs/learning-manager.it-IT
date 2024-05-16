@@ -2,7 +2,7 @@
 title: Novità di questa versione
 description: Scopri le nuove funzioni e i miglioramenti nella versione di novembre 2023 di Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## Interfaccia utente rinnovata
 
-L’interfaccia utente di Learning Manager di Adobe è stata aggiornata per offrire un’esperienza più moderna e pulita. Le landing page sono state rinnovate per i ruoli Amministratore e Autore, mentre il tema dell’interfaccia utente è stato modificato per tutti i ruoli. Tuttavia, non è stata apportata alcuna modifica alla posizione di menu, pulsanti o collegamenti e potrai trovarli esattamente nella posizione in cui si trovavano prima.
+L’interfaccia utente di Adobe Learning Manager è stata aggiornata per offrire un’esperienza più moderna e pulita. Le landing page sono state rinnovate per i ruoli Amministratore e Autore, mentre il tema dell’interfaccia utente è stato modificato per tutti i ruoli. Tuttavia, non è stata apportata alcuna modifica alla posizione di menu, pulsanti o collegamenti e potrai trovarli esattamente nella posizione in cui si trovavano prima.
 
 Le modifiche del tema verranno applicate automaticamente agli account che utilizzano quello predefinito; invece, gli aggiornamenti del tema dell’interfaccia utente non interesseranno gli account che ne utilizzano uno personalizzato. Ciò significa che, per accedere ai nuovi aggiornamenti del tema, tali account dovranno ripristinare quello predefinito.
 
@@ -84,7 +84,7 @@ Nelle versioni precedenti di Adobe Learning Manager, se l’ambito di un Amminis
 
 Il report Partecipazione disponibile in Partecipazione ai corsi (app per Amministratori) e in Allievi della sessione (app per Istruttori) veniva scaricato in modo sincrono. Questa versione consente di scaricare il report in modo asincrono tramite una notifica.
 
-Per ulteriori informazioni sui report, vedere [Report](/help/migrated/administrators/feature-summary/reports.md) nell’Adobe Learning Manager.
+Per ulteriori informazioni sui report, vedere [Report](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
 
 ## Ritiro marketplace dei contenuti
 
@@ -230,7 +230,7 @@ Gli amministratori possono cercare solo i manager nei report del dashboard.
 
 ## Limitazione elaborazione report del dashboard precedenti
 
-Quando un Amministratore tenta di tracciare un report del dashboard e il tracciamento del report richiede troppo tempo (più di 2,5 min), in un Adobe di Learning Manager viene visualizzato il seguente messaggio:
+Quando un Amministratore tenta di tracciare un report del dashboard e il tracciamento del report richiede troppo tempo (più di 2,5 min), Adobe Learning Manager visualizza il seguente messaggio:
 
 ![immagine report legacy](assets/error-message.png)
 *Messaggio di errore quando il report richiede troppo tempo*
@@ -273,7 +273,7 @@ D’ora in avanti, la seguente API per Allievi non funzionerà più perché cont
 
 ### Modifica impostazione predefinita per highlightResults
 
-Nella prossima versione di Adobe di Learning Manager, ad esempio, nell’API /search, l’impostazione predefinita per highlightResults viene modificata in false.
+Nella prossima versione di Adobe Learning Manager, ad esempio, nell’API /search, l’impostazione predefinita per highlightResults verrà modificata in false.
 
 Inoltre, modificheremo l’impostazione predefinita di snippetTypes in courseName. In questo modo i nomi dei corsi verranno evidenziati nella ricerca solo se highlightResults è True.
 

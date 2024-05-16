@@ -3,14 +3,13 @@ description: Continua a leggere per consultare le domande frequenti per gli Istr
 jcr-language: en_us
 title: Domande frequenti per gli Istruttori
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 85%
 
 ---
-
-
 
 # Domande frequenti per gli Istruttori
 
@@ -49,4 +48,3 @@ Sì, un autore può assegnare più Istruttori a un singolo modulo. In questo cas
 In qualità di istruttore, puoi visualizzare e modificare solo i dettagli delle sessioni che ti hanno assegnato. Non è possibile modificare la sessione o l’elenco dei partecipanti di altre sessioni.
 
 +++
-
