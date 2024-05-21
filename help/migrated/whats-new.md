@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 1%
 # Riepilogo delle nuove funzioni {#new-features-summary}
 
 Scopri le nuove funzioni e i miglioramenti nella versione di marzo 2024 di Adobe Learning Manager.
+
+Scopri alcune delle funzionalità più recenti di Adobe Learning Manager, ad esempio:
+
+1. Importa abilità da origini esterne
+1. Supporto di più branding
+1. Modulo di rivalutazione dell’elenco di controllo
+1. App di apprendimento per dispositivi mobili con etichetta bianca
+
+>[!NOTE]
+>
+>Vedi questo [webinar](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) per ulteriori informazioni sulle nuove funzioni di questa versione.
+
 
 ## Novità di questa versione {#whatsnewandchanged}
 
@@ -527,7 +539,7 @@ Se si tenta di scaricare **Accesso** report oltre i cinque trimestri, viene visu
 
 ### API obsolete
 
-Visualizza [Rimozione delle API in Adobe Learning Manager](api-deprecations-list.md) per un elenco cumulativo di tutte le API obsolete nel prodotto.
+Visualizza [Rimozione delle API da Adobe Learning Manager](api-deprecations-list.md) per un elenco cumulativo di tutte le API obsolete nel prodotto.
 
 ## Bug corretti in questo aggiornamento {#bug-fixes}
 

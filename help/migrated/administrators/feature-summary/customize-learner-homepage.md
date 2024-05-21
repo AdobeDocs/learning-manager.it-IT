@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Personalizzazione della pagina principale dell’Allievo
 description: Un Amministratore può personalizzare la pagina principale dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 45%
 
 ---
-
-
 
 # Personalizzazione della pagina principale dell’Allievo
 
@@ -85,7 +84,7 @@ Questa opzione verrà attivata e disattivata se viene scelta l’esperienza imme
 
 ![](assets/option-immersive.png)
 
-*Selezione per l’esperienza classica*
+*Impostazioni della pagina principale dell’Allievo*
 
 Il layout immersivo è l’impostazione predefinita per tutti i nuovi account. Il layout è controllato da widget che un amministratore può abilitare o disabilitare. In base al modo in cui i widget vengono posizionati, lo stesso si riflette nella pagina principale dell’Allievo.
 
@@ -244,7 +243,7 @@ Nella **Generale** , sono disponibili le seguenti opzioni:
    <td>
     <p>Personalizza</p></td>
    <td>
-    <p>Adobe di Learning Manager ti consente di personalizzare il tuo account per offrire un’esperienza più completa ai tuoi utenti.<br></p></td>
+    <p>Adobe Learning Manager ti consente di personalizzare il tuo account per offrire un’esperienza più completa ai tuoi utenti.<br></p></td>
   </tr>
   <tr>
    <td>

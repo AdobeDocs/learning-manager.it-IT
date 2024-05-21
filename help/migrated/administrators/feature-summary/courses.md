@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di moduli di corso, istanze e programmi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4659'
-ht-degree: 64%
+source-wordcount: '4746'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,14 @@ Per inviare le notifiche e-mail, l’Amministratore deve scegliere esplicitament
 ![](assets/escalation-notification.png)
 
 *Imposta livello di escalation*
+
+## Lista d’attesa
+
+La sezione della lista d’attesa consente agli Allievi di essere inseriti in lista d’attesa per i corsi in aula quando i posti sono limitati, in base all’ordine di iscrizione. Gli Amministratori possono gestire questa operazione selezionando gli Allievi nella lista d’attesa e assegnando posti oltre il limite iniziale. Una volta che l’Amministratore ha assegnato un posto, l’Allievo è immediatamente iscritto al corso.
+
+## Forum di discussione
+
+La funzione Forum di discussione consente agli Allievi di visualizzare le discussioni del corso. In qualità di amministratore, puoi eliminare eventuali commenti in base alle esigenze. Gli amministratori possono abilitare questa opzione nelle impostazioni del corso.
 
 ## Moderazione del corso {#coursemoderation}
 
