@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
+source-git-commit: f7333304fe42b0b05ed342bb2f41822f15da909d
 workflow-type: tm+mt
-source-wordcount: '15572'
+source-wordcount: '15590'
 ht-degree: 63%
 
 ---
@@ -152,6 +152,10 @@ Di seguito viene descritto come creare gli oggetti:
 1. Rinomina gli oggetti personalizzati in Salesforce.
 1. Seleziona gli eventi e fai clic su **[!UICONTROL Salva]**.
 
+>[!NOTE]
+>
+>Assicurati che sia stato concesso l&#39;accesso come amministratore di sistema a tutti i campi attivi aggiunti dopo l&#39;installazione del pacchetto.
+
 **Collega eventi con:** Scegli la sezione da esportare (Utente o Referente). Se scegli Oggetto referente, gli utenti presenti in Learning Manager ma non in Salesforce verranno creati in Salesforce.
 
 ![](assets/link-events.png)
@@ -195,7 +199,7 @@ Se desideri installare il pacchetto, devi innanzitutto eliminare il pacchetto es
 
 >[!NOTE]
 >
->L’app di Adobe Learning Manager è supportata solo nella visualizzazione Salesforce Lightning.
+>L’app Adobe Learning Manager è supportata solo nella visualizzazione Salesforce Lightning.
 
 1. Avvia il [URL del pacchetto Learning Manager](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. Nella **Accesso** pagina, fare clic su **[!UICONTROL Usa dominio personalizzato]**.
@@ -280,7 +284,7 @@ Il passo successivo consiste nel fornire l’autorizzazione per accedere all’a
 
 Seleziona gli utenti e assegna le autorizzazioni di conseguenza. Gli Allievi ora possono accedere all’app Learning Manager.
 
-Adesso, seleziona un profilo, ad esempio Profilo standard di un utente, quindi fai clic sul profilo. Fai clic **[!UICONTROL Modifica]** e nel **Impostazioni app personalizzate** , attiva la casella di controllo **Adobe di Learning Manager**. In questo modo l’utente può accedere all’app.
+Adesso, seleziona un profilo, ad esempio Profilo standard di un utente, quindi fai clic sul profilo. Fai clic **[!UICONTROL Modifica]** e nel **Impostazioni app personalizzate** , attiva la casella di controllo **Adobe Learning Manager**. In questo modo l’utente può accedere all’app.
 
 Nella sezione **Impostazioni schede personalizzate**, nell’elenco a discesa **Home Allievo** seleziona l’opzione **Predefinito su**.
 
@@ -394,7 +398,7 @@ Una volta stabilita la connessione, è possibile mappare le colonne dei file CSV
 
 +++
 
-+++Utilizzo del connettore FTP Learning Manager
++++Utilizzo del connettore FTP di Learning Manager
 
 1. I file CSV provenienti da sistemi esterni devono essere posizionati nel seguente percorso:
 
@@ -402,7 +406,7 @@ Una volta stabilita la connessione, è possibile mappare le colonne dei file CSV
 
    >[!NOTE]
    >
-   >Nella versione di luglio 2016, è consentita solo l’importazione degli utenti. Pertanto, per utilizzare il connettore FTP è necessario assicurarsi che i file CSV si trovino nella seguente cartella:
+   >Nella versione di luglio 2016, è consentita solo l&#39;importazione di utenti. Pertanto, per utilizzare il connettore FTP è necessario assicurarsi che i file CSV si trovino nella seguente cartella:
 
    `code Home/import/user/internal/*.csv`
 
@@ -487,11 +491,11 @@ Sono disponibili due opzioni per esportare i report sulle abilità degli utenti.
 **[!UICONTROL Abilità utente - Configura]**: questa opzione consente di pianificare l’estrazione del report. Seleziona la casella di controllo Abilita pianificazione e specifica la data e l’ora di inizio. Puoi anche specificare l’intervallo desiderato per la generazione e l’invio del report.
 
 ![](assets/user-skills-configure.png)
-*Configurare l’esportazione del report*
+*Configurazione dell&#39;esportazione del report*
 
 +++
 
-Per aprire la cartella di esportazione in cui si trovano i file esportati, apri il collegamento alla cartella FTP fornito nella pagina delle abilità utente, come mostrato di seguito.
+Per aprire la cartella di esportazione in cui si trovano i file esportati, apri il collegamento alla cartella FTP fornito nella pagina Abilità utente, come mostrato di seguito.
 
 ![](assets/ftp-folder.png)
 *Cartella FTP per visualizzare i file*
@@ -746,10 +750,10 @@ La funzione di esportazione delle abilità degli utenti consente di esportare au
 >
 >Non è possibile esportare le abilità di più account Learning Manager contemporaneamente utilizzando lo stesso account Workday.
 
-#### Punti da ricordare
+#### Punti da notare
 
 * Assicurati che UUID, indirizzo e-mail e nome del dipendente siano univoci per più integrazioni Workday. Valori non corretti determineranno un errore di connessione.
-* Una volta compilato tramite Workday su, il campo UUID non può essere eliminato da alcun client rivolto all’amministratore LMS. Se desideri modificare il valore, contatta il team di onboarding o di supporto di Learning Manager Adobe.
+* Una volta compilato tramite Workday su, il campo UUID non può essere eliminato da alcun client rivolto all’amministratore LMS. Se desideri modificare questo valore, contatta il team di onboarding o supporto di Adobe Learning Manager.
 * L’opzione Rimozione utente potrebbe anche non funzionare, poiché l’opzione Rimozione utente supporta solo 50 utenti da rimuovere per esecuzione. Esercita estrema cautela durante il caricamento degli utenti tramite gli UUID.
 
 ### Pianificazione {#Scheduling-1}
@@ -819,7 +823,7 @@ Inserisci le credenziali di Adobe Learning Manager nella colonna Adobe Learning 
 
 Selezionare il **Escludi lavoratori temporanei** per impedire l&#39;importazione dei lavoratori temporanei a disposizione di un manager.
 
-Workday presenta quattro livelli di gerarchia, mentre Learning Manager ne ha due. I quattro livelli in Workday sono categoria profilo abilità, profilo abilità, categoria voce abilità e voce abilità. Il nome della tua abilità e il livello di Learning Manager sono mappati insieme in Workday nella voce abilità.
+Workday presenta quattro livelli di gerarchia, mentre Learning Manager ne ha due. I quattro livelli in Workday sono: categoria profilo abilità, profilo abilità, categoria elemento abilità e elemento abilità. Il nome della tua abilità e il livello di Learning Manager sono mappati insieme in Workday nella voce abilità.
 
 >[!NOTE]
 >
@@ -827,7 +831,25 @@ Workday presenta quattro livelli di gerarchia, mentre Learning Manager ne ha due
 
 +++Elenco degli attributi Workday supportati
 
-wd:User_ID wd:Worker_ID manager wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Nome_formattato wd:Dati_personali.wd:Nome_Dati.wd:Nome_legale_Dati.wd:Nome_Dettagli_Dati.wd:Dati_prefisso.wd:Descrittore_titolo wd:Dati_personali.wd:Dati_nomi.wd:Nome_preferito_Dati.wd:Nome_Dettagli_Dati.wd:Dati_prefissi.wd:Descrittore_titolo wd:Dati_personali.wd:Dati_nomi.wd:Nome_preferito_Dati.wd:Dati_dettagliati_nome.wd:Nome_wd:Dati_personali.wd Name_Data.wd:Nome_preferito_Dati.wd:Nome_Dettagli_Dati.wd:Cognome wd:Dati_personali.wd:Nome_Dati.wd:Nome_legale_Dati.wd:Nome_Dettagli_Dati.wd:Nome_personale wd:Dati_personali.wd:Nome_Dati.wd:Nome_legale_Dati.wd:Nome_Dettagli_Dati.wd:Cognome_wd:Dati_personali.wd:Dati_contatti.wd:Dati_indirizzi.0.@wd:Formatted_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$ wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$ wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$ wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Status_Data.wd:Active wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Retired wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date wd:Employment_Data.wd_Data.wd:Terminated wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name_Organizzazione wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data_Organizzazione Organization_Type_Reference.wd:ID.1.$ wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$ wd:Qualification_Data.wd:Education.0.wd:School_Name wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID Lavoro primario Email wd:Organization_Type_Reference_Cost_Center d:Organization_Type_Reference_Cost_Center_Name wd:Organization_Type_Reference_Company wd:Organization_Subtype_Reference_Department wd:Organization_Subtype_Reference_Division wd:Universal_ID wd:Integration_Field_Override_Data.3.wd:Value wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
+wd:User_ID wd:Worker_ID manager wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Nome_formattato wd:Dati_personali.wd:Nome_Dati.wd:Nome_legale_Dati.wd:Nome_Dettagli_Dati.wd:Dati_prefisso.wd:Descrittore_titolo wd:Dati_personali.wd:Dati_nomi.wd:Nome_preferito_Dati.wd:Nome_Dettagli_Dati.wd:Dati_prefissi.wd:Descrittore_titolo wd:Dati_personali.wd:Dati_nomi.wd:Nome_preferito_Dati.wd:Dati_dettagliati_nome.wd:Nome_wd:Dati_personali.wd Name_Data.wd:Nome_preferito_Dati.wd:Nome_Dettagli_Dati.wd:Cognome wd:Dati_personali.wd:Nome_Dati.wd:Nome_legale_Dati.wd:Nome_Dettagli_Dati.wd:Nome_personale wd:Dati_personali.wd:Nome_Dati.wd:Nome_legale_Dati.wd:Nome_Dettagli_Dati.wd:Cognome_wd:Dati_personali.wd:Dati_contatti.wd:Dati_indirizzi.0.@wd:Formatted_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$ wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$ wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$ wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Status_Data.wd:Active wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Retired wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date wd:Employment_Data.wd_Data.wd:Terminated wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name_Organizzazione wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data_Organizzazione Organization_Type_Reference.wd:ID.1.$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$
+wd:Qualification_Data.wd:Education.0.wd:School_Name
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
+wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
+E-mail di lavoro principale
+wd:Organization_Type_Reference_Cost_Center_ID
+wd:Organization_Type_Reference_Cost_Center_Name
+wd:Organization_Type_Reference_Company
+wd:Organization_Subtype_Reference_Department
+wd:Organization_Subtype_Reference_Division
+wd:Universal_ID
+wd:Integration_Field_Override_Data.3.wd:Valore
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Comune
 
 +++
 
@@ -1402,7 +1424,7 @@ Puoi esportare i report sulla formazione in Power BI come parte della funzione R
 
 Il report sulla formazione presenta due campi aggiuntivi:
 
-* Numero di utenti che hanno condiviso commenti su un corso
+* Numero di utenti che hanno condiviso feedback su un corso
 * Valutazione a stelle media per un corso
 
 ### Filtrare lo stato delle Trascrizioni Allievi {#lt-status}
@@ -1423,7 +1445,7 @@ Puoi esportare l’elenco necessario e quindi utilizzare Power BI per analizzare
 
 ### Download dei modelli di Power BI {#template}
 
-Learning Manager fornisce anche dei modelli di Power BI già pronti. Questi modelli forniscono una migliore capacità di analisi agli Adobi degli Amministratori degli account di Learning Manager.
+Learning Manager fornisce anche dei modelli di Power BI già pronti. Questi modelli forniscono una migliore capacità di analisi agli amministratori degli account Adobe Learning Manager.
 
 Puoi scaricare i modelli, esportare i report pertinenti e creare report facilmente utilizzando questi modelli disponibili.
 
@@ -1635,7 +1657,7 @@ Prerequisiti per stabilire una connessione ADFS:
 
   ![](assets/select-read-all.png)
 
-  *Seleziona Leggi tutti i profili completi degli utenti*
+  *Seleziona Leggi i profili completi di tutti gli utenti*
 
 * Seleziona **Aggiungi autorizzazioni**.
 
@@ -1643,7 +1665,7 @@ Prerequisiti per stabilire una connessione ADFS:
 
   <!-- *Select Add Permissions*-->
 
-### Pagina Configurazione ADFS
+### Pagina di configurazione di ADFS
 
 1. Nella pagina di configurazione ADFS in Adobe Learning Manager, inserisci l’ID client e il segreto client ottenuti in precedenza.
 
@@ -1663,13 +1685,13 @@ Il processo di importazione degli utenti consente all’Amministratore Learning 
 
 #### Filtraggio degli utenti
 
-L’Amministratore Learning Manager può applicare filtri agli utenti prima di importarli. Ad esempio, può scegliere di importare tutti gli utenti della gerarchia sotto uno o più Manager specifici.
+L&#39;amministratore di Learning Manager può applicare filtri agli utenti prima di importarli. Ad esempio, può scegliere di importare tutti gli utenti della gerarchia sotto uno o più Manager specifici.
 
-Per configurare il connettore ADFS , contatta il team CSM di Learning Manager.
+Per configurare il connettore ADFS, contatta il team CSM di Learning Manager.
 
 ## Configurazione del connettore ADFS {#configureadfsconnector}
 
-1. Nella home page di Learning Manager, passa il mouse sopra la scheda/l’anteprima ADFS. Viene visualizzato un menu. Fai clic sull’opzione Connetti nel menu.
+1. Nella home page di Learning Manager passa il mouse sopra la scheda/l&#39;anteprima di ADFS. Viene visualizzato un menu. Fai clic sull’opzione Connetti nel menu.
 
    ![](assets/adfs1.jpg)
 
@@ -1778,7 +1800,7 @@ Ecco un breve flusso di lavoro del processo.
 
 **Learning Manager - Autore**
 
-* L’Autore crea un corso in Learning Manager con il tipo di modulo **Aula virtuale.**
+* L&#39;Autore crea un corso in Learning Manager con il tipo di modulo come **Aula virtuale.**
 * Dall’elenco a discesa **Sistema di conferenza**, scegli Connect come fornitore VC.
 * Scegli il corso Riunioni permanenti e seleziona la Classe virtuale (VC) creata dall’ospitante in Connect. Scegli l’Istruttore. Salva e pubblica il corso.
 
@@ -2083,7 +2105,7 @@ Dopo che un Autore ha impostato i prezzi per vari corsi, percorsi di apprendimen
 
 >[!NOTE]
 >
->Nella versione di marzo 2024 di Adobe Learning Manager, abbiamo introdotto il supporto per [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+>Nella versione di marzo 2024 di Adobe Learning Manager, è stato introdotto il supporto per [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Fai clic **[!UICONTROL Esportazione dei metadati di formazione]** > **[!UICONTROL Su richiesta]**.
@@ -2126,7 +2148,7 @@ Grazie all’integrazione di Adobe Commerce, Adobe Learning Manager supporta l�
 
 Ecco gli obiettivi principali di questa integrazione:
 
-* Gli utenti possono generare profitti vendendo corsi su Adobe Learning Manager o su un’interfaccia di apprendimento headless.
+* Gli utenti possono generare profitti vendendo corsi su Adobe Learning Manager o su un&#39;interfaccia di apprendimento headless.
 * Abilita l’integrazione di Adobe Commerce nella piattaforma per vendere i corsi utilizzando l’app nativa di Learning Manager e l’AEM.
 * Possibilità per i clienti di Learning Manager di offrire un apprendimento formale sotto forma di corsi a pagamento.
 * Possibilità per gli Allievi di visualizzare in anteprima i corsi prima di decidere se procedere o meno all’acquisto.
