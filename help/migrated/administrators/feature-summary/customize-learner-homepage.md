@@ -4,10 +4,10 @@ title: Personalizzazione della pagina principale dell’Allievo
 description: Un Amministratore può personalizzare la pagina principale dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 45%
+source-wordcount: '1139'
+ht-degree: 46%
 
 ---
 
@@ -137,6 +137,12 @@ Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È a
   </tr>
   <tr>
    <td>
+    <p>Iscrizioni con scadenza</p></td>
+   <td>
+    <p>Visualizza le iscrizioni scadute, con scadenze imminenti o in fase di elaborazione. </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>Gamification</p></td>
    <td>
     <p>Mostra la classifica in base alle attività di apprendimento.</p></td>
@@ -159,24 +165,24 @@ Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È a
       <p>In secondo luogo, l’Amministratore può anche decidere se i consigli devono essere visualizzati immediatamente o in una data specifica.</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Raccomandazione basata sull'area di interesse</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>Visualizza gli oggetti di apprendimento in base all’area di interesse scelta dall’Allievo. Il consiglio è guidato da un algoritmo di apprendimento automatico.</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>Sfoglia per catalogo<br></p></td>
    <td>
     <p>Mostra i cataloghi come riquadri sulla pagina principale. </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Consiglio in base all’attività dei colleghi<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>Visualizza i corsi di formazione in base a ciò che stanno seguendo i colleghi di un Allievo. Anche questo è guidato da un algoritmo di apprendimento automatico.</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ Nella **Generale** , sono disponibili le seguenti opzioni:
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Per il nuovo account, le impostazioni Home page Allievo, Tipo di corso di formazione e Ambito consiglio non saranno visibili.
+
