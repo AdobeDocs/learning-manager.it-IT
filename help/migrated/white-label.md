@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: Etichettatura bianca nell’app mobile Adobe Learning Manager
-description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. Nell’Adobe di Learning Manager, puoi applicare l’etichettatura bianca all’app per dispositivi mobili, in modo da rinominare l’app e renderla disponibile agli utenti con il tuo marchio.
+description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
 
 # Etichettatura bianca nell’app mobile Adobe Learning Manager
 
-L’app mobile Learning Manager di Adobe ora supporta l’etichettatura bianca, il che significa che ora puoi rilasciare l’app con il tuo marchio.
+L’app per dispositivi mobili Adobe Learning Manager ora supporta l’etichettatura bianca, il che significa che ora puoi rilasciare l’app con il tuo marchio.
 
 ## Come iniziare a preparare l’avvio dell’app con etichetta bianca
 
@@ -29,7 +29,7 @@ Per distribuire e gestire la tua app con etichetta bianca, segui i passaggi:
 
 ## Panoramica
 
-L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. Nell’Adobe di Learning Manager, puoi applicare l’etichettatura bianca all’app per dispositivi mobili, in modo da rinominare l’app e renderla disponibile agli utenti con il tuo marchio.
+L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l&#39;etichettatura bianca all&#39;app per dispositivi mobili, in modo da rinominare l&#39;app e renderla disponibile agli utenti con il tuo marchio.
 
 ## Cosa è possibile personalizzare
 
@@ -121,7 +121,7 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
   <td>
 
-  <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato da assegnare al nome è account-id_appIcon.png.</p></td>
+  <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato da assegnare al nome è account-id_appIcon.png. Le dimensioni dell'icona dell'app sono di 512 × 512 pixel.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
   <td>
 
-  <p>Per la schermata iniziale dell'app, fornisci un'immagine (png) che viene visualizzata quando gli utenti avviano l'app. Il formato del nome è account-id_splashIcon.png.</p></td>
+  <p>Per la schermata iniziale dell'app, fornisci un'immagine (png) che viene visualizzata quando gli utenti avviano l'app. Il formato del nome è account-id_splashIcon.png. Le dimensioni delle schermate iniziali basate su quadrati sono di 1052 × 1052 pixel, quelle basate su cerchi di 768 x 768 pixel.</p></td>
 
   </tr>
 
@@ -284,7 +284,7 @@ Riutilizza lo stesso progetto creato nei passaggi precedenti per le notifiche pu
 
 >[!IMPORTANT]
 >
->Invia i file all’Adobe del team CSAM di Learning Manager per includerli nella build del file binario dell’app.
+>Invia i file al team CSAM di Adobe Learning Manager per includerli nella build del file binario dell’app.
 
 
 ## Genera i file binari firmati
