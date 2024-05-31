@@ -2,26 +2,30 @@
 description: Questo documento raccoglie informazioni sugli oggetti di apprendimento per i Manager.
 jcr-language: en_us
 title: Oggetti di apprendimento
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 72%
+source-wordcount: '1725'
+ht-degree: 60%
 
 ---
-
-
 
 # Oggetti di apprendimento
 
 Questo documento raccoglie informazioni sugli oggetti di apprendimento per i Manager.
 
-Un Manager può iscrivere gli Allievi sotto di lui a corsi, programmi di apprendimento e certificazioni. Per ulteriori informazioni e passaggi da seguire per l’iscrizione, consulta [Iscrizione di Allievi.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
+Un Manager può iscrivere gli Allievi che seguono a corsi, percorsi di apprendimento e certificazioni. Per ulteriori informazioni e passaggi da seguire per l’iscrizione, consulta [Iscrizione di Allievi.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
 
 ## Corsi {#courses}
 
 ## Visualizzazione dei corsi {#viewingcourses}
 
 Come Manager, puoi visualizzare un elenco di tutti i corsi disponibili. Fai clic **[!UICONTROL Corsi]** nel riquadro a sinistra per visualizzare l’elenco dei corsi con opzioni di ricerca e filtro. Puoi inoltre visualizzare la percentuale di efficacia di ogni corso nelle miniature. Tieni presente che puoi iscrivere solo i membri del team a corsi visibili nell’applicazione Allievo.
+
+![](assets/view-course.png)
+
+*Visualizza corsi*
+
 
 >[!NOTE]
 >
@@ -46,6 +50,10 @@ Come Manager, puoi gestire l’elenco degli Allievi per i membri del team.
 ![](assets/courses-learners.png)
 
 *Seleziona un’azione Allievo*
+
+>[!NOTE]
+>
+>**Esporta approvazioni in sospeso** l’opzione può essere eseguita dall’app per allievi.
 
 Puoi effettuare le seguenti azioni dalla pagina degli Allievi:
 
@@ -98,20 +106,30 @@ In questa immagine di esempio, 1 utente su 1 ha ricevuto tutti e tre i feedback,
 
 Come per il grafico a torta mostrato sopra, viene dato un maggiore peso al feedback L3 dal Manager.
 
-## Ricerca di corsi, programmi di apprendimento e certificazioni {#searchingcourseslearningprogramsandcertifications}
+## Ricerca di corsi, percorsi di apprendimento e certificazioni {#searchingcourseslearningprogramsandcertifications}
 
-Adobe Learning Manager consente di individuare i corsi/programmi di apprendimento che cerchi rapidamente e con facilità. Puoi cercare i corsi in due modi:
+Adobe Learning Manager consente di individuare rapidamente i corsi e i percorsi di apprendimento desiderati. Puoi cercare i corsi in due modi:
 
-1. Utilizzando il campo di ricerca. Fai clic sull’icona di ricerca visualizzata nell’angolo in alto a destra. Viene visualizzato un campo di ricerca. Digita il nome del corso o le parole chiave associate ai tuoi corsi per individuare i corsi/programmi di apprendimento. Puoi anche eseguire ricerche utilizzando tag predefiniti come Captivate, C, Java e HTML. I tag sono ricercabili all’interno del campo di ricerca, il che significa che vengono visualizzati nel campo di ricerca durante la digitazione. La ricerca può essere effettuata utilizzando l’ID univoco.
-1. Applicando un filtro all’elenco di corsi/programmi di apprendimento/certificazioni. Puoi filtrare i corsi per stato come Tutti, Pubblicati e Ritirati.
+1. Utilizzando il campo di ricerca. Fai clic sull’icona di ricerca visualizzata nell’angolo in alto a destra. Viene visualizzato un campo di ricerca. Digita il nome del corso o le parole chiave associate ai tuoi corsi per individuare i corsi/percorsi di apprendimento. Puoi anche eseguire ricerche utilizzando tag predefiniti come Captivate, C, Java e HTML. I tag sono ricercabili all’interno del campo di ricerca, il che significa che vengono visualizzati nel campo di ricerca durante la digitazione. La ricerca può essere effettuata utilizzando l’ID univoco.
+1. Applicando un filtro all’elenco di corsi/percorsi di apprendimento/certificazioni. Puoi filtrare i corsi per stato come Tutti, Pubblicati e Ritirati.
 
-Puoi eseguire una ricerca in base alle competenze facendo clic sulle Competenze e scegliendole. In qualità di Manager, puoi ordinare i corsi in quattro modi, per meglio individuare il corso richiesto. Fai clic su Ordina per e scegli l’ordine alfabetico crescente, decrescente, la data di aggiornamento del corso o l’efficacia dei corsi:
+Puoi eseguire una ricerca in base alle competenze selezionando **Competenze** e sceglierli. In qualità di Manager, puoi ordinare i corsi in quattro modi, per meglio individuare il corso richiesto. Fai clic su Ordina per e scegli l’ordine alfabetico crescente o decrescente, la data di aggiornamento o di creazione del corso o l’efficacia dei corsi:
 
-![](assets/admin-sortby.png)
+* Nome (a-z)
+* Nome (z-a)
+* Data aggiornamento
+* Data di creazione
+* Efficacia del corso
 
-*Ricerca basata sulle competenze*
+![](assets/filter-courses.png)
 
-Puoi ordinare i programmi di apprendimento in tre modi: ordine alfabetico crescente, decrescente e per data di aggiornamento.
+*Filtra corsi*
+
+Puoi ordinare i percorsi di apprendimento in tre modi: ordine alfabetico crescente, decrescente e in base alla data di aggiornamento.
+
+![](assets/filter-learning-paths.png)
+
+*Filtra il percorso di apprendimento*
 
 ## Iscrizione di Allievi ai corsi {#enrollinglearnersintocourses}
 
@@ -128,30 +146,30 @@ I Manager iscrivono alcuni Allievi ai corsi obbligatori, come richiesto dall’o
 >
 >Puoi iscrivere solo gli Allievi che appartengono al team.
 
-## Programmi di apprendimento {#learningprograms}
+## Percorsi di apprendimento {#learningprograms}
 
 Il Manager può iscrivere, visualizzare i risultati dei quiz, il feedback L1 e L3 e annullare l’iscrizione solo dei relativi utenti.
 
-## Aggiungi gli Allievi a un programma di apprendimento {#addlearnerstoalearningprogram}
+## Aggiunta di Allievi a un percorso di apprendimento {#addlearnerstoalearningprogram}
 
-1. Nella modalità Manager, fai clic su Programmi di apprendimento nel riquadro sinistro.
-1. Seleziona il programma di apprendimento pubblicato dall’elenco di riquadri a cui aggiungere gli Allievi.
+1. In modalità Manager, fai clic su Percorsi di apprendimento nel riquadro a sinistra.
+1. Seleziona il percorso di apprendimento pubblicato dall’elenco dei riquadri a cui desideri aggiungere gli Allievi.
 1. Fai clic su Allievi nel riquadro a sinistra nella categoria dei report di programma. Nota: il programma di apprendimento deve essere pubblicato prima dell’aggiunta di Allievi.
 1. Fai clic sul collegamento di iscrizione nella pagina.
 1. Inizia a digitare il profilo o il nome degli Allievi e scegli gli Allievi dall’elenco a discesa degli Allievi. Fai clic su Salva.
 
 ## Visualizzare punteggi dei quiz {#Viewquizscores-1}
 
-1. Fai clic su un riquadro qualsiasi del programma di apprendimento.
+1. Fai clic su qualsiasi riquadro del percorso di apprendimento.
 1. Fai clic sul punteggio del quiz nel riquadro a sinistra.
 
-Puoi visualizzare i punteggi dei quiz di qualsiasi particolare programma di apprendimento in base al nome utente o alle singole domande. Scegli di conseguenza le schede Per utente o Per domanda. I punteggi del quiz vengono visualizzati per un corso alla volta. Modifica il nome del corso dall’elenco a discesa per visualizzare i punteggi dei quiz per altri corsi. Puoi inoltre esportare i punteggi dei quiz di ogni corso. Scegli il tipo di istanza dall’elenco a discesa per visualizzare i punteggi basati su ciascuna istanza del programma di apprendimento.
+Puoi visualizzare i punteggi dei quiz di qualsiasi percorso di apprendimento in base al nome utente o a ciascuna domanda. Scegli di conseguenza le schede Per utente o Per domanda. I punteggi del quiz vengono visualizzati per un corso alla volta. Modifica il nome del corso dall’elenco a discesa per visualizzare i punteggi dei quiz per altri corsi. Puoi inoltre esportare i punteggi dei quiz di ogni corso. Scegli il tipo di istanza dall’elenco a discesa per visualizzare i punteggi in base a ciascuna istanza del percorso di apprendimento.
 
 ## Annullamento dell’iscrizione degli Allievi {#unenrollmentforlearners}
 
-Il Manager può annullare l’iscrizione di un Allievo se questi non ha ancora avviato il programma di apprendimento.
+Il Manager può annullare l’iscrizione di un Allievo se l’Allievo non ha ancora iniziato il percorso di apprendimento.
 
-## Contrassegna completamento {#markcompletion}
+## Contrassegnare il completamento {#markcompletion}
 
 Un Manager può contrassegnare un LP come completo per gli Allievi. Per ulteriori informazioni, consulta [Contrassegno del completamento](../../administrators/feature-summary/learning-paths.md).
 
@@ -217,7 +235,7 @@ Se l’Allievo invia il file, il Manager può visualizzare il file dalla pagina 
 
 Quando i corsi sono impostati come obbligatori:
 
-* La pagina di invio elenca gli allievi solo dopo che gli allievi hanno completato i corsi.
+* La pagina di invio elenca gli Allievi solo dopo che gli Allievi hanno completato i corsi.
 * L’utente può caricare un file solo dopo aver completato il corso.
 
 ## Risorse formative {#jobaids}

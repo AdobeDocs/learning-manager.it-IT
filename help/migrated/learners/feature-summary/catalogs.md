@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cataloghi
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 22%
+source-wordcount: '244'
+ht-degree: 12%
 
 ---
 
@@ -19,14 +19,14 @@ Scopri come usare i cataloghi in Learning Manager per visualizzare gli oggetti d
 
 Gli Allievi possono visualizzare tutti gli oggetti di apprendimento assegnati e idonei (programmi di apprendimento, corsi e certificazioni) nella **Catalogo predefinito**. Questi oggetti di apprendimento sono specifici di ogni Allievo in base al ruolo, alla qualifica, al gruppo di utenti, al profilo e così via.
 
-Puoi filtrare l’elenco degli oggetti di apprendimento utilizzando le abilità e il tipo di oggetti di apprendimento (autonomo, misto, aula, aula virtuale, attività). Puoi anche filtrare utilizzando le opzioni nel riquadro a sinistra: per Oggetti di apprendimento, Abilità e Stato di completamento.
+Puoi ordinare gli oggetti di apprendimento in base a diverse categorie, come Prodotti, Ruoli di lavoro, Tipi, Tempo necessario, Abilità e Parole chiave. Puoi anche filtrare utilizzando le opzioni nel riquadro a sinistra: per Oggetti di apprendimento, Abilità e Stato di completamento.
 
 Utilizza la barra di ricerca nella parte superiore della pagina per immettere i nomi degli oggetti di apprendimento più comuni. Gli Allievi possono passare dalla visualizzazione a griglia a quella a elenco selezionando questa opzione ![](assets/icon-list.png) icona.
 
 ![](assets/catalogs.png)
 *Visualizza cataloghi*
 
-In qualità di Allievo, puoi filtrare il corso di formazione in base al formato, ad esempio Aula, Autonomo o Aula virtuale. Inoltre, l’Allievo può anche filtrare i corsi di formazione in base alla durata. Il filtro relativo ai livelli di abilità è già disponibile e può essere abilitato/disabilitato dall’Amministratore.
+<!--As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. -->
 
 ![](assets/image014.png)
 

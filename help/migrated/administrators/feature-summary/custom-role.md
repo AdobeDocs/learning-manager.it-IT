@@ -4,7 +4,7 @@ title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 63%
@@ -224,7 +224,7 @@ Un utente con un ruolo personalizzato può:
 
 1. **Utenti:** Utilizzare questa opzione per determinare a quali utenti è assegnato questo ruolo. Puoi scegliere uno o più utenti utilizzando la casella di ricerca.
 
-   **Aggiungi utenti al caricamento CSV del ruolo personalizzato:** Per aggiungere utenti tramite l’aggiornamento CSV, aggiungi una colonna CustomRole al file .csv utilizzato dall’amministratore per importare gli utenti. Immettere il ruolo dell&#39;utente nella colonna CustomRole per gli utenti a cui si desidera assegnare un ruolo personalizzato. Per caricare il file CSV, fai clic su  **[!UICONTROL Aggiungi > Carica un file CSV]**.
+   **Aggiungi utenti al caricamento CSV del ruolo personalizzato:** Per aggiungere utenti tramite caricamento CSV, aggiungi una colonna CustomRole al file .csv utilizzato dall’Amministratore per importare gli utenti. Immettere il ruolo dell&#39;utente nella colonna CustomRole per gli utenti a cui si desidera assegnare un ruolo personalizzato. Per caricare il file CSV, fai clic su  **[!UICONTROL Aggiungi > Carica un file CSV]**.
 
    Colonna CustomRoleNota:
 

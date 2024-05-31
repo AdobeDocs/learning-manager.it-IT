@@ -2,14 +2,13 @@
 description: Leggi questo articolo per scoprire come configurare i modelli e-mail per gli eventi correlati a tutti gli oggetti di apprendimento.
 jcr-language: en_us
 title: Modelli e-mail
-source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
+exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 89%
+source-wordcount: '475'
+ht-degree: 72%
 
 ---
-
-
 
 # Modelli e-mail
 
@@ -21,11 +20,13 @@ In qualità di Autore puoi personalizzare i modelli e-mail aggiungendo o modific
 
 Puoi anche scegliere di non inviare notifiche e-mail per determinati eventi disattivando l’opzione Modello e-mail.
 
-## Impostazione delle notifiche e-mail {#settingemailnotifications}
+## Configurare le notifiche e-mail {#settingemailnotifications}
 
-1. Nell’app Autore, fai clic sull’oggetto di apprendimento per il quale desideri configurare il modello e-mail. Ad esempio, Corsi.
+1. Dall’app Autore, seleziona l’oggetto di apprendimento per il quale vuoi configurare il modello e-mail. Ad esempio, Corsi.
+
 1. Nella pagina Oggetto di apprendimento, fai clic sul corso, la certificazione o il programma di apprendimento per cui desideri configurare le impostazioni e-mail.
-1. Nella pagina dei dettagli dell’oggetto di apprendimento, fai clic su Modelli e-mail.
+
+1. Nella pagina dei dettagli dell’oggetto di apprendimento, seleziona **Modelli e-mail** > **Tutti i modelli**. I modelli e-mail sono disponibili per **Istanza predefinita** e **Corso corrente**. Puoi passare da una all’altra utilizzando il menu a discesa nell’angolo in alto a destra.
 
    Puoi vedere l’elenco dei modelli disponibili per l’oggetto di apprendimento selezionato.
 
@@ -68,3 +69,11 @@ Puoi anche scegliere di non inviare notifiche e-mail per determinati eventi disa
 Se il cerchio nel pulsante di notifica relativo a ciascun nome di evento si trova accanto a Sì (sfondo blu), la notifica è attivata. Se il cerchio è grigio e si trova accanto a No, la notifica è disattivata.
 
 Ogni volta che configuri un modello e-mail a livello di corso, esso acquista la precedenza sulle impostazioni a livello di Amministratore per quel determinato corso.
+
+## Impostazioni dei modelli e-mail
+
+L’autore può impostare quanto segue nelle impostazioni del modello e-mail:
+
+* **Banner e-mail**: consente di modificare il banner e-mail.
+
+* **Firma e-mail**: consente di aggiungere o modificare la firma di posta elettronica.
