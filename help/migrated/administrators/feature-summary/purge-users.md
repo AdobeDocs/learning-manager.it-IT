@@ -3,14 +3,13 @@ description: Scopri come rimuovere i dati degli utenti in Learning Manager.
 jcr-language: en_us
 title: Rimuovere utenti
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 72%
+source-wordcount: '853'
+ht-degree: 75%
 
 ---
-
-
 
 # Rimuovere utenti
 
@@ -28,13 +27,13 @@ L’azione di rimozione dell’utente può avere i seguenti risultati:
 * La rimozione di un utente in Learning Manager non rimuove quel determinato utente da eventuali applicazioni esterne (sistemi di terze parti o altre applicazioni che hai realizzato). Contattare i proprietari delle applicazioni esterne per rimuovere gli utenti da tali applicazioni.
 * Se un utente rimosso è indicato nelle impostazioni di configurazione di un connettore, tale connettore viene disabilitato. Per riprenderlo, il connettore deve essere riconfigurato dall’amministratore.
 
-### Gestire utenti
+<!---### Manage users
 
-In questo corso di formazione imparerai come assegnare e rimuovere ruoli, inviare un’e-mail di benvenuto ed eliminare ed eliminare gli utenti.
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 ## Come rimuovere gli utenti
 

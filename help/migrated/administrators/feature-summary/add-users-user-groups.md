@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '4016'
+source-wordcount: '4050'
 ht-degree: 61%
 
 ---
@@ -78,6 +78,14 @@ Per aggiungere utenti,
 1. Per aggiungere il nuovo utente in Learning Manager, fai clic su **[!UICONTROL Aggiungi]**. Dopo l’aggiunta, l’utente riceve un’e-mail di verifica. L’Allievo quindi attiva l’account e inizia a usare Learning Manager. Questo flusso di lavoro è utile se devi aggiungere un numero limitato di Allievi all’account Learning Manager. Tuttavia, se hai intenzione di iscrivere tutti i dipendenti di un’organizzazione di grandi dimensioni, puoi aggiungerli con un’unica operazione. Per ulteriori informazioni, consulta la sezione successiva.
 
 ## Aggiunta di utenti in blocco {#addusersinbulk}
+
+### Gestire utenti
+
+In questo corso di formazione imparerai come assegnare e rimuovere ruoli, inviare un’e-mail di benvenuto ed eliminare ed eliminare gli utenti.
+
+[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
 
 Generalmente, la maggior parte delle organizzazioni lavora con un sistema di gestione delle risorse umane (HRMS) che mantiene tutti i record dei dipendenti, quali la designazione, la posizione, la data di assunzione o la gerarchia dei dipendenti. Puoi esportare questi dati in un file CSV. Per importare un file CSV, procedi nel seguente modo:
 
