@@ -4,9 +4,9 @@ title: Importa abilità da origini esterne
 description: Importa le abilità dai provider di contenuti, come LinkedIn e Go1, utilizzando i rispettivi connettori.  Le abilità importate verranno aggiunte alle abilità definite dall’amministratore in Learning Manager e saranno disponibili per gli Autori durante il flusso di lavoro di creazione del corso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Non è possibile modificare il nome dell’abilità, la descrizione e aggiungere
 
 ### Abilità e crediti predefiniti del corso
 
-Dopo aver importato le abilità, queste vengono aggiunte alle risorse di apprendimento importate dall’origine selezionata come origine delle abilità. Ad esempio, se la tua fonte di abilità era LinkedIn Learning, tutte le risorse di apprendimento importate da LinkedIn Learning avranno le abilità da esso fornite. Quando viene importato nelle risorse di apprendimento, ogni risorsa di apprendimento fornisce un valore predefinito di 10 crediti. Per modificare questa impostazione, contattare il proprio CSM.
+Dopo aver importato le abilità, queste vengono aggiunte alle risorse di apprendimento importate dall’origine selezionata come origine delle abilità. Ad esempio, se la tua fonte di abilità era LinkedIn Learning, tutte le risorse di apprendimento importate da LinkedIn Learning avranno le abilità da esso fornite. Quando viene importato nelle risorse di apprendimento, ogni risorsa di apprendimento fornisce un valore predefinito di 10 crediti.
 
 #### Report
 
