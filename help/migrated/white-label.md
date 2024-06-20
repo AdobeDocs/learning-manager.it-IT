@@ -4,9 +4,9 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
+source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Per distribuire e gestire la tua app con etichetta bianca, segui i passaggi:
 
 1. Assegnare una risorsa tecnica in grado di:
 
-* Generazione dei file del certificato di notifica push.
-* Firma dei file binari dell&#39;app forniti dal team ALM.
-* Caricamento e gestione del processo di pubblicazione. Il processo di pubblicazione richiede la comunicazione tra il gestore dell&#39;app e i team dell&#39;app/play store che l&#39;app è conforme a tutte le linee guida sulla pubblicazione. Da ALM, riceverai un file binario dell&#39;app completamente conforme.
+   * Generazione dei file del certificato di notifica push.
+   * Firma dei file binari dell&#39;app forniti dal team ALM.
+   * Caricamento e gestione del processo di pubblicazione. Il processo di pubblicazione richiede la comunicazione tra il gestore dell&#39;app e i team dell&#39;app/play store che l&#39;app è conforme a tutte le linee guida sulla pubblicazione. Da ALM, riceverai un file binario dell&#39;app completamente conforme.
 
 ## Panoramica
 
@@ -39,165 +39,211 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
 <table>
 
-    <tbody>
-
-    <tr>
-
-   <td>
-
-    <p>ID account</p></td>
-
-   <td>
-
-    <p>ID del tuo account. Tieni presente che l’app con etichetta bianca non sarà accessibile agli Allievi che appartengono a nessun altro account.</p></td>
-
-  </tr>
+ <tbody>
 
   <tr>
 
    <td>
 
-    <p>ID account aggiuntivi</p></td>
+    <p>ID account</p>
+
+   </td>
 
    <td>
 
-    <p>Se lo desideri, aggiungi più account (sottodomini). Aggiungi i sottodomini come separati da virgole senza spazi. Ad esempio, acc01,acc02,acc03 e così via.<br> <b>Nota:</b> È necessario aggiungere l’ID account quando si specificano i sottodomini.</br> </p></td>
+    <p>ID del tuo account. Tieni presente che l’app con etichetta bianca non sarà accessibile agli Allievi che appartengono a nessun altro account.</p>
+
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Nome app</p></td>
+    <p>ID account aggiuntivi</p>
 
-  <td>
+   </td>
 
-  <p>Il nome che si desidera utilizzare per l'app.</p></td>
+   <td>
 
-  </tr>
+    <p>Se lo desideri, aggiungi più account (sottodomini). Aggiungi i sottodomini come separati da virgole senza spazi. Ad esempio, acc01,acc02,acc03 e così via.<br> <b>Nota:</b> È necessario aggiungere l’ID account quando si specificano i sottodomini.</br> </p>
 
-  <tr>
-
-  <td>
-
-  <p>Nome breve dell’app</p></td>
-
-  <td>
-
-  <p>Nei casi in cui il nome dell'app è lungo, assegna all'app un nome breve che appare sul dispositivo.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>Nome app interna</p></td>
-
-  <td>
-
-  <p>Il nome con cui il sistema operativo identifica l'app. Il formato solitamente utilizzato è: com.company-name.product-name.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Nome app interna - iOS</p></td>
+    <p>Nome app</p></td>
 
-  <td>
+   <td>
 
-  <p>Assegna un nome diverso all’app se gli utenti si trovano in iOS. Si consiglia di utilizzare lo stesso nome sia per iOS che per Android.</p></td>
+    <p>Il nome che si desidera utilizzare per l'app.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Icona app</p></td>
-
-  <td>
-
-  <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato da assegnare al nome è account-id_appIcon.png. Le dimensioni dell'icona dell'app sono di 512 × 512 pixel.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Schermata iniziale dell’app</p></td>
+    <p>Nome breve dell’app</p>
 
-  <td>
+   </td>
 
-  <p>Per la schermata iniziale dell'app, fornisci un'immagine (png) che viene visualizzata quando gli utenti avviano l'app. Il formato del nome è account-id_splashIcon.png. Le dimensioni delle schermate iniziali basate su quadrati sono di 1052 × 1052 pixel, quelle basate su cerchi di 768 x 768 pixel.</p></td>
+   <td>
 
-  </tr>
+    <p>Nei casi in cui il nome dell'app è lungo, assegna all'app un nome breve che appare sul dispositivo.</p>
 
-  <tr>
-
-  <td>
-
-  <p>ID client e segreto client</p></td>
-
-  <td>
-
-  <p>L’Amministratore dell’integrazione del tuo account fornisce i dettagli durante la registrazione dell’app. L’Amministratore dell’integrazione deve utilizzare quanto segue:<ul><li>Allievo:lettura,allievo:scrittura come ruolo</li><li>app interna name://redirect come URL di reindirizzamento</li></ul></p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Logo account</p></td>
+    <p>Nome app interna</p></td>
 
-  <td>
+   <td>
 
-  <p>URL che ospita il logo dell'organizzazione. Fornisci un collegamento al contenuto come logo dell’account. L’URL deve essere codificato per il Web.</p></td>
+    <p>Il nome con cui il sistema operativo identifica l'app. Il formato solitamente utilizzato è: com.company-name.product-name.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>ID App Store per l’app (iOS)</p></td>
-
-  <td>
-
-  <p>ID richiesto per implementare l’aggiornamento forzato. L’app deve sapere che l’Allievo deve essere reindirizzato all’App Store per aggiornare l’app.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>ID Play Store per Google per l’app (Android)</p></td>
-
-  <td>
-
-  <p>ID richiesto per implementare l’aggiornamento forzato.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Nome host per collegamento profondo</p></td>
+    <p>Nome app interna - iOS</p>
 
-  <td>
+   </td>
 
-  <p>Per ospitare i collegamenti diretti, utilizza Learning Manager. Se si desidera utilizzare un altro URL nome host come collegamento profondo, fornire l'URL dell'host. Ad esempio, learningmanager.adobe.com.</p></td>
+   <td>
+
+    <p>Assegna un nome diverso all’app se gli utenti si trovano in iOS. Si consiglia di utilizzare lo stesso nome sia per iOS che per Android.</p>
+
+   </td>
 
   </tr>
 
-    </tbody>
+  <tr>
+
+   <td>
+
+    <p>Icona app</p>
+
+   </td>
+
+   <td>
+
+    <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato da assegnare al nome è account-id_appIcon.png. Le dimensioni dell'icona dell'app sono di 512 × 512 pixel.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Schermata iniziale dell’app</p></td>
+
+   <td>
+
+    <p>Per la schermata iniziale dell'app, fornisci un'immagine (png) che viene visualizzata quando gli utenti avviano l'app. Il formato del nome è account-id_splashIcon.png. Le dimensioni delle schermate iniziali basate su quadrati sono di 1052 × 1052 pixel, quelle basate su cerchi di 768 x 768 pixel.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>ID client e segreto client</p>
+
+   </td>
+
+   <td>
+
+    <p>L’Amministratore dell’integrazione del tuo account fornisce i dettagli durante la registrazione dell’app. L’Amministratore dell’integrazione deve utilizzare quanto segue:<ul><li>Allievo:lettura,allievo:scrittura come ruolo</li><li>app interna name://redirect come URL di reindirizzamento</li></ul></p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Logo account</p>
+
+   </td>
+
+   <td>
+
+    <p>URL che ospita il logo dell'organizzazione. Fornisci un collegamento al contenuto come logo dell’account. L’URL deve essere codificato per il Web.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>ID App Store per l’app (iOS)</p>
+
+   </td>
+
+   <td>
+
+    <p>ID richiesto per implementare l’aggiornamento forzato. L’app deve sapere che l’Allievo deve essere reindirizzato all’App Store per aggiornare l’app.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>ID Play Store per Google per l’app (Android)</p>
+
+   </td>
+
+   <td>
+
+    <p>ID richiesto per implementare l’aggiornamento forzato.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Nome host per collegamento profondo</p>
+
+   </td>
+
+   <td>
+
+    <p>Per ospitare i collegamenti diretti, utilizza Learning Manager. Se si desidera utilizzare un altro URL nome host come collegamento profondo, fornire l'URL dell'host. Ad esempio, learningmanager.adobe.com.</p>
+
+   </td>
+
+  </tr>
+
+ </tbody>
 
 </table>
 
@@ -261,16 +307,31 @@ Se è possibile connettersi al server, il certificato creato è valido. Dal file
 
 ### Notifiche push su Android
 
-Configurare un progetto in Firebase e condividere la chiave del server con il CSAM.
+Per Android, l’utente deve fornire il file services.json dal progetto Firebase per aggiungere la voce nel servizio SNS.
 
-Contatta il team CSM e ottieni i file aggiunti ai servizi SNS in AWS. Gli utenti dovranno registrare la voce nel servizio SNS per la notifica push, che richiederà loro di condividere i certificati generati sopra per la convalida.
+Crea un progetto in Firebase e condividi il file services.json con il team CSM. Questo file è necessario per la voce basata su token nell&#39;SNS. Si noti che la chiave del server non è più utilizzata. Vedere [Crea progetto in Firebase](#create-project-in-firebase).
 
->[!NOTE]
->
->Per Android, l’utente deve fornire la chiave del server dal progetto Firebase che crea per Android per aggiungere la voce nel servizio SNS.
+Per scaricare il file services.json, effettua le seguenti operazioni:
 
+1. Accedi a **Firebase** console.
+1. Vai a **Impostazioni progetto** e seleziona **Messaggistica cloud**.
+1. Trova **API di messaggistica cloud di Firebase** e seleziona **Gestione account di servizio**.
+1. Nella **Account del servizio** , seleziona la pagina **Account di servizio** nel pannello a sinistra.
+1. Trova la voce del progetto e seleziona **Gestisci dettagli** in azioni.
 
-## Crea progetto in Firebase
+   >[!NOTE]
+   >
+   >   Il formato di immissione del progetto sarà &lt;-accountname->@appspot.gserviceaccount.com.
+
+1. Vai a **Tasti** e selezionare **Aggiungi chiave**.
+1. Se non è presente alcun tasto, selezionare **Crea nuova chiave** e seleziona **JSON** come tipo di chiave. Questo genererà e scaricherà il file JSON.
+1. Se è già presente un tasto, selezionare **Carica chiave esistente**, incolla la chiave e caricala. Questo genererà e scaricherà il file JSON.
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+Contatta il team CSM e condividi il file JSON per aggiungere la voce ai servizi SNS in AWS. Gli utenti dovranno registrare la voce nel servizio SNS per la notifica push, che richiederà loro di condividere i certificati generati sopra per la convalida.
+
+## Crea progetto in Firebase {#create-project-in-firebase}
 
 ### Android
 
