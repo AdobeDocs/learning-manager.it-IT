@@ -4,9 +4,9 @@ title: Installazione del pacchetto Salesforce
 description: Learning Manager offre un pacchetto di app Salesforce. Una volta installato e configurato in SFDC, gli addetti alle vendite possono svolgere le proprie attività di formazione all’interno del portale SFDC. Questa app consente agli utenti di SFDC di esplorare nuovi corsi di formazione, visualizzare i consigli e consultarli direttamente all’interno del portale SFDC. Gli utenti ricevono anche gli annunci inviati dagli amministratori sotto forma di masthead direttamente all'interno dell'app all'interno del portale SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 47%
 
 ---
@@ -87,7 +87,7 @@ Per aggiungere il dominio Adobe agli URL attendibili, effettua le seguenti opera
 1. Nella console di Salesforce, vai a Configura **** > **[!UICONTROL Ricerca]** rapida.
 1. **[!UICONTROL Cerca URL]** attendibili e seleziona **[!UICONTROL Nuovo URL]** attendibile.
 1. Digita un nome nel **[!UICONTROL campo Nome]** API.
-1. Aggiungi l&#39;URL come `{}.adobe.com{*}`.
+1. Digita `*.adobe.com` nel campo URL.
 1. Selezionare tutte le caselle di controllo nelle **direttive CSP** e salvare le modifiche.
 1. Modifica il token di aggiornamento dell&#39;app Salesforce e salvalo.
 1. Riavvia l&#39;app Salesforce.
