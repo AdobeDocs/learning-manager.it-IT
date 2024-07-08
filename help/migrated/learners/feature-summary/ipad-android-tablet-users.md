@@ -3,14 +3,13 @@ description: Leggi questo articolo per scoprire come scaricare l’applicazione 
 jcr-language: en_us
 title: Applicazione Allievo per dispositivi mobili e tablet
 contentowner: manochan
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 67%
+source-wordcount: '2702'
+ht-degree: 65%
 
 ---
-
-
 
 # Applicazione Allievo per dispositivi mobili e tablet
 
@@ -20,15 +19,15 @@ Leggi questo articolo per scoprire come scaricare l’applicazione Allievo di Le
 
 L’app Learning Manager per Allievi è disponibile per gli utenti di telefoni Android e iPhone. Accedi a Google Play Store (Android OS) o App Store (macOS) e scarica l’app Learning Manager.
 
-Dopo aver scaricato e installato l’applicazione, accedi tramite le credenziali dell’Allievo. Quando apri l’app mobile Learning Manager, per impostazione predefinita viene visualizzata la seguente schermata.
+Dopo aver scaricato e installato l’applicazione, accedi tramite le credenziali dell’Allievo. Quando apri l&#39;app mobile Learning Manager, per impostazione predefinita viene visualizzata la seguente schermata.
 
 ![](assets/1.png)
 
-*La home page dell’app Learning Manager*
+*Pagina iniziale dell&#39;app Learning Manager*
 
 ## Home page {#homepage}
 
-Per tutti gli account in cui è attivata l’opzione Layout immersivo, è disponibile una nuova home page in grado di supportare la configurazione di Layout immersivo. La home page è organizzata in un elenco di schede per quanto segue:
+Per tutti gli account per i quali è attivata l&#39;opzione Layout immersivo, è disponibile una nuova home page per supportare la configurazione del layout immersivo. La home page è organizzata come un elenco di schede per:
 
 | ![](assets/image002.png) | ![](assets/image005.png) |
 |---|---|
@@ -38,24 +37,24 @@ Per tutti gli account in cui è attivata l’opzione Layout immersivo, è dispon
 
 ![](assets/image010.png)
 
-*Feed dei social dell’Allievo*
+*Feed social dell&#39;Allievo*
 
 ## Valutazione feedback {#feedbackrating}
 
-Learning Manager chiede all’Allievo di fornire un feedback sulla propria esperienza con l’app mobile. Questo feedback viene visualizzato una volta al mese e lascia agli utenti il tempo sufficiente per provare l’app e quindi fornire il feedback.
+Learning Manager chiede all’Allievo di fornire un feedback sulla propria esperienza con l’app mobile. Questo feedback viene visualizzato una volta al mese e fornisce un intervallo di tempo sufficiente per consentire agli utenti di provare l&#39;app e quindi fornire il feedback.
 
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
 -->
 
-Una volta chiuso il lettore per la prima volta dopo aver aggiornato l’app alla versione più recente, gli utenti esistenti visualizzano il popup del feedback.
+Gli utenti esistenti dovrebbero visualizzare il popup di feedback alla chiusura di Windows Media Player per la prima volta dopo aver aggiornato l&#39;app alla versione più recente.
 
-La raccolta di feedback è anonima e viene visualizzata solo per gli utenti che hanno attivato l’opzione **Condividi dati di utilizzo** tramite una configurazione in Impostazioni app.
+Tieni presente che la raccolta di commenti è anonima e viene visualizzata solo per gli utenti che hanno attivato l&#39;opzione **Condividi dati** di utilizzo tramite una configurazione nelle impostazioni dell&#39;app.
 
 ## Scarica badge {#downloadbadge}
 
-Gli Allievi possono scaricare i propri badge in formato PDF e Immagine. Nella sezione Profilo utente, scorri verso il basso e fai clic su qualsiasi collegamento per scaricare un badge. Il badge scaricato viene salvato nella cartella predefinita del dispositivo. L’app consente di aprire la cartella o il file subito dopo il completamento del download.
+Gli Allievi possono scaricare i loro distintivi in formato PDF e Immagine. Nella sezione Profilo utente, scorri verso il basso e fai clic su qualsiasi collegamento per scaricare un distintivo. Il badge scaricato viene salvato nella cartella predefinita del dispositivo. L&#39;app consente di aprire la cartella o il file immediatamente dopo il completamento del download.
 
 | ![](assets/image016.png) |
 |---|
@@ -64,7 +63,7 @@ Gli Allievi possono scaricare i propri badge in formato PDF e Immagine. Nella se
 
 ## Layout reattivo per il Web mobile {#responsive}
 
-Un’esperienza Web mobile completamente reattiva che garantisce agli Allievi di utilizzare i propri dispositivi per seguire corsi di formazione anche se non hanno installato l’app mobile.
+Un&#39;esperienza web mobile completamente reattiva che garantisce che gli Allievi utilizzino i propri dispositivi per seguire la formazione anche se non hanno installato l&#39;app per dispositivi mobili.
 
 Quando accedi per la prima volta all’app per studenti tramite il browser del tuo dispositivo, l’app per studenti viene visualizzata sotto forma di un layout mobile e reattivo.
 
@@ -91,6 +90,13 @@ Il supporto per l’interfaccia utente reattiva per il Web mobile è disponibile
 </table>
 -->
 
+## Prompt di download nel Web ALM
+
+Quando gli utenti aprono un collegamento ALM o utilizzano il Web ALM sui propri dispositivi mobili, dovrebbero visualizzare un messaggio che chiede loro di scaricare l&#39;app per un&#39;esperienza migliore.
+
+![](assets/download-prompt.png)
+_Scarica l&#39;app ALM_
+
 ## Funzionalità non supportate nell’esperienza mobile immersiva {#unsupportedfeaturesinmobileimmersiveexperience}
 
 I seguenti flussi di lavoro vengono visualizzati nell’esperienza classica di un Allievo:
@@ -111,19 +117,19 @@ Altre funzionalità dell’app non supportate sono:
 
 Apprendimento sociale ora supporta le esperienze web immersive per dispositivi mobili.
 
-Alcune funzioni non sono supportate dall’app immersiva per dispositivi mobili. Queste sono:
+Alcune funzioni non sono supportate dall’app immersiva per dispositivi mobili. Questi sono:
 
-| **Superficie** | **Non supportato** |
+| **Area** | **Non supportato** |
 |---|---|
-| Bacheca | Creazione bacheca, Modifica bacheca, Copia URL , Elimina , Report, Ordina , Filtra |
-| Pubblica | Creazione di post di tipo sondaggio, Modifica , Allegati multipli al post, Copia URL, Aggiungi in alto |
-| Commento/Risposta | Modifica, Contrassegna come risposta corretta, Caricamento di immagini/video/audio in commento o risposta |
+| Bacheca | Creazione della bacheca, Modifica della bacheca, Copia URL, Elimina, Report, Ordina, Filtro |
+| Pubblica | Tipo di sondaggio Creazione post, Modifica , Allegato multiplo al post, Copia URL, Aggiungi in alto |
+| Commento/ Risposta | Modifica, Contrassegna come risposta corretta, Caricamento di immagini/video/audio in commento o risposta |
 | Media | Acquisizione audio; solo caricamento di file audio |
-| Altro | Notifiche, visualizzazione post, classifica social, persone seguite, profilo utente |
+| Altri | Notifiche, visualizzazione post, classifica social, persone seguite, profilo utente |
 
 ## Consentire agli Allievi di scaricare una risorsa formativa {#download-job-aid}
 
-Nella modalità immersiva per dispositivi mobili, un Allievo può scaricare una risorsa formativa. Tocca **Impostazioni** e quindi tocca **Cataloghi**. Scarica una risorsa formativa dall’elenco visualizzato.
+Nella modalità immersiva per dispositivi mobili, un Allievo può scaricare una risorsa formativa. Tocca **Impostazioni, quindi Cataloghi******. Scarica una risorsa formativa dall&#39;elenco visualizzato.
 
 | ![](assets/image018.jpg) |
 |---|
@@ -132,12 +138,12 @@ Nella modalità immersiva per dispositivi mobili, un Allievo può scaricare una 
 
 ## Consentire agli Allievi di scaricare Trascrizione Allievo {#download-learner-transcript}
 
-Nella modalità immersiva per dispositivi mobili, un Allievo può scaricare le Trascrizioni Allievo.
+Nella modalità immersiva per dispositivi mobili, un Allievo può scaricare le trascrizioni degli Allievi.
 
 | ![](assets/image021.jpg) | ![](assets/image022.jpg) |
 |---|---|
 
-*Scarica le Trascrizioni Allievi*
+*Scarica le trascrizioni degli Allievi*
 
 ## Visualizzazione di distintivi e abilità {#viewbadgesandskills}
 
@@ -153,15 +159,15 @@ Tocca un corso per visualizzare i dettagli del corso, la data di completamento (
 
 ![](assets/2.png)
 
-*Visualizza i corsi di formazione in sospeso*
+*Visualizza gli apprendimenti in sospeso*
 
 **Visualizzazione dei cataloghi**
 
-Tocca l’icona accanto all’icona del libro nella parte inferiore della schermata. Puoi visualizzare immediatamente il catalogo con tutti gli oggetti di apprendimento associati. Potete scegliere di visualizzarli nel layout della griglia o di scegliere la vista dettagliata. Seleziona i consigli per visualizzare i consigli sui corsi in base alla cronologia di apprendimento.
+Tocca l’icona accanto all’icona del libro nella parte inferiore della schermata. Puoi visualizzare immediatamente il catalogo con tutti gli oggetti di apprendimento associati. Potete scegliere di visualizzarli nel layout a griglia o scegliere la vista dettagliata. Seleziona i consigli per vedere i consigli sui corsi in base alla tua cronologia di apprendimento.
 
 ![](assets/4.png)
 
-*Visualizza i suggerimenti per il corso*
+*Visualizza i consigli per i corsi*
 
 ## Ordinare e filtrare gli Oggetti di apprendimento {#sortandfilterlearningobjects}
 
@@ -175,29 +181,29 @@ Nell’angolo superiore destro dello schermo del telefono, puoi visualizzare un�
 
 **Gestione di profilo, impostazioni e notifica**
 
-Tocca ![](assets/hamburger.jpg) menu nell&#39;angolo superiore sinistro dello schermo per visualizzare il tuo profilo, le notifiche e le impostazioni dell&#39;account.
+Tocca ![](assets/hamburger.jpg) il menu nell&#39;angolo in alto a sinistra dello schermo per visualizzare il profilo, le notifiche e le impostazioni dell&#39;account.
 
 Questo menu consente inoltre di eseguire la scansione del codice QR per contrassegnare la partecipazione ai corsi.
 
-È sufficiente toccare il pulsante **Scansiona codice QR** e digitalizzare il codice.
+Tutto quello che devi fare è toccare l&#39;opzione **Scansiona codice QR** ed eseguire la scansione del codice.
 
 **Consumo offline di corsi**
 
-Quando segui i corsi scaricati mentre sei online, Learning Manager accederà al corso scaricato anziché effettuare chiamate dal server.
+Quando si consumano corsi scaricati mentre sei online, Learning Manager accederà al corso scaricato invece di effettuare chiamate al server.
 
 ## Scansione del codice QR per l’iscrizione {#qrcode}
 
 Puoi eseguire la scansione di un codice QR e iscriverti a un corso. Dopo che l’Amministratore dell’apprendimento ha generato un codice QR, puoi eseguire la scansione del codice QR dall’app e iscriverti a un corso.
 
-1. Per scansionare il codice QR, tocca ![](assets/hamburger.jpg) nell&#39;angolo superiore sinistro dello schermo.
+1. Per eseguire la scansione del codice QR, tocca ![](assets/hamburger.jpg) l&#39;angolo in alto a sinistra dello schermo.
 1. Tocca **Leggi codice QR**.
 
 La funzione di scansione QR consente allo studente di eseguire una delle azioni indicate di seguito, in base al codice QR generato dall’Amministratore dell’apprendimento:
 
-* **Registrazione:** Questo consente all’Allievo di iscriversi a un corso scansionando il codice QR.
+* **Iscrizione:** consente all&#39;Allievo di iscriversi a un corso scansionando il codice QR.
 * **Completamento:** consente allo studente di contrassegnare il corso come completato mediante la scansione del codice QR.
 * **Iscrizione e completamento:** consente allo studente di iscriversi e contemporaneamente di contrassegnare il completamento mediante la scansione del codice QR.
-* **Contrassegna partecipazione:** In questo modo, l’Allievo può contrassegnare la partecipazione a una determinata sessione mediante scansione del codice QR.
+* **Contrassegna partecipazione:** consente all&#39;Allievo di contrassegnare la partecipazione a una determinata sessione scansionando il codice QR.
 
 ## Rinominare gli oggetti di apprendimento {#renaminglearningobjects}
 
@@ -209,8 +215,8 @@ In questo aggiornamento, le seguenti funzionalità non sono supportate. Non è p
 
 * Creare o seguire una bacheca.
 * Copiare un URL in un post.
-* Aggiungi un post come storia o aggiungi come post preferito o aggiungi in alto.
-* Visualizzare una classifica social.
+* Aggiungi post come storia o aggiungi come post come preferito o aggiungi in cima.
+* Visualizza una classifica social.
 
 Apprendimento sociale è una piattaforma nell’app mobile Learning Manager che consente agli utenti di condividere idee e informazioni significative in un ambiente informale. Si tratta di una metodologia che integra il concetto di apprendimento tradizionale.
 
@@ -228,13 +234,13 @@ All’avvio dell’app, tocca l’icona **Social**.
 
 ![](assets/home.png)
 
-*Visualizza Apprendimento sociale*
+*Visualizza l&#39;apprendimento sociale*
 
 ## Creare un post su una bacheca {#createapostinaboard}
 
 Come su qualsiasi altra piattaforma social, nell’app mobile Learning Manager è possibile creare post su una bacheca, in modo che tutti gli Allievi appartenenti alla stessa bacheca possano visualizzarlo, aggiungere commenti e caricare file insieme al commento.
 
-Per creare un post, tocca il ![aggiungi icona](/help/migrated/learners/feature-summary/assets/prime-add.png) icona in basso a destra.
+Per creare un post, tocca l&#39;icona ![Aggiungi icona](/help/migrated/learners/feature-summary/assets/prime-add.png) in basso a destra dello schermo.
 
 Vengono visualizzate le seguenti schermate.
 
@@ -328,7 +334,7 @@ Vengono visualizzate le seguenti schermate.
 
 Dopo aver creato un post, scegli la bacheca su cui desideri caricarlo. Tocca Seleziona bacheca e cerca la bacheca richiesta.
 
-Dopo aver creato un post, tocca Pubblica e pubblica il commento per consentire agli altri Allievi di visualizzare il post.
+Dopo aver creato un post, tocca Pubblica e pubblica il tuo commento affinché altri Allievi possano visualizzarlo.
 
 Nell’app mobile non è possibile creare una bacheca. Per creare una bacheca, è necessario accedere alla web app come Allievo. Per ulteriori informazioni sulla creazione delle bacheche, consulta Apprendimento sociale in [Learning Manager](/help/migrated/learners/feature-summary/social-learning-web-user.md).
 
@@ -338,7 +344,7 @@ Nell’app mobile non è possibile creare una bacheca. Per creare una bacheca, �
 * Modifica o elimina i commenti in una bacheca.
 * Modifica o elimina un post in base alle autorizzazioni.
 * Segnala un abuso relativo a un post se quest’ultimo viola la loro privacy o se il suo contenuto è inappropriato. Una volta che un post è stato segnalato, viene inviata una notifica all’Amministratore e ai moderatori della bacheca per consentire loro di intraprendere ulteriori azioni.
-* Mi piace  ![](assets/prime-like.png)  o non mi piace  ![](assets/prime-dislike.png)   un posto.
+* Mi piace  ![](assets/prime-like.png)  o non mi piace  ![](assets/prime-dislike.png)   un post.
 * Mi piace  ![](assets/prime-like.png) o non mi piace ![](assets/prime-dislike.png) un commento.
 
 ## Creare un post su altre bacheche {#createapostinotherboards}
@@ -349,7 +355,7 @@ Tocca **Tutte le bacheche** per visualizzare le attività eseguite da altri Alli
 
 ![](assets/all-boards-1.png)
 
-*Visualizza tutte le attività della bacheca*
+*Visualizza tutte le attività del consiglio di amministrazione*
 
 Passa alla bacheca richiesta e pubblica il tuo commento.
 
@@ -359,10 +365,10 @@ Passa alla bacheca richiesta e pubblica il tuo commento.
 
 Condividi foto, documenti o file audio o video su qualsiasi bacheca, in modo che gli altri membri possano visualizzare il tuo post e avviare un’interazione. Per condividere qualsiasi media,
 
-1. Apri i file multimediali da condividere.
+1. Aprite i file multimediali che desiderate condividere.
 1. Tocca il pulsante di condivisione e scegli Learning Manager.
-1. Scegli la bacheca in cui desideri condividere i file multimediali.
-1. Tocca **Post**.
+1. Scegliete la bacheca in cui desiderate condividere i file multimediali.
+1. Tocca Pubblica ****.
 
 Puoi anche pubblicare qualsiasi contenuto da un’app esterna, ad esempio puoi condividere un commento da Reddit o Quora.
 
@@ -373,11 +379,12 @@ Effettua le seguenti operazioni:
 1. Accedi all’app del dispositivo utilizzando le tue credenziali di Allievo.
 1. Cerca il certificato creato dall’Autore.
 1. Nell’elenco dei certificati esterni, seleziona il certificato richiesto e iscriviti al certificato.
-1. Tocca **Prova di completamento** e carica un file, ad esempio un pdf o un’immagine.
+1. Tocca **Prova di completamento** e carica un file, ad esempio un pdf o un&#39;immagine.
 
    | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png) |
    |---|---|
-   *Carica prova di completamento*
+
+*Carica una prova di completamento*
 
 1. Dopo aver caricato un file, seleziona **Invia**. Viene visualizzato un messaggio di conferma.
 
@@ -400,12 +407,12 @@ Se il Manager rifiuta l’invio, lo stato diventa **Rifiutato**, visualizzato in
 | ![](assets/screenshot-7.png) | ![](assets/screenshot-9.png) | ![](assets/screenshot-8.png) |
 |---|---|---|
 
-*Visualizza stato di invio*
+*Visualizzare lo stato dell&#39;invio*
 
 Se l’invio viene rifiutato, puoi ancora caricare un file come prova del completamento.
 
-* È possibile inviare un file solo quando lo stato è **Invio in sospeso e rifiutato**.
-* Impossibile inviare un file quando lo stato è **Approvazione in sospeso e Approvato**.
+* È possibile inviare un file solo quando lo stato è **In attesa di invio e Rifiutato**.
+* Non è possibile inviare un file quando lo stato è **In attesa di approvazione e Approvato**.
 
 ## Segui corsi da LinkedIn Learning {#linkedin}
 
@@ -413,36 +420,36 @@ Learning Manager supporta già i corsi di LinkedIn Learning all’interno della 
 
 Se l’app LinkedIn è stata già installata il corso si aprirà nell’app, altrimenti si aprirà nel browser predefinito, dove dovrai accedere con le tue credenziali di LinkedIn.
 
-Se stai seguendo il corso tramite l’app LinkedIn, i tuoi progressi non verranno monitorati all’interno di Learning Manager. Pertanto, si consiglia di avviare il corso nel browser anziché nell’app LinkedIn Learning.
+Se stai seguendo il corso tramite l&#39;app LinkedIn, i tuoi progressi non verranno monitorati all&#39;interno di Learning Manager. Pertanto, si consiglia di avviare il corso nel browser anziché nell&#39;app LinkedIn Learning.
 
 >[!NOTE]
 >
->Puoi seguire i corsi solo se disponi di una connessione Internet attiva.
+>Puoi seguire i corsi solo se hai una connessione Internet attiva.
 
 | ![](assets/start-course.jpg) | ![](assets/enroll-course.jpg) | ![](assets/sign-in.jpg) |
 |---|---|---|
 
-*Iscrizione di corsi a LinkedIn Learning*
+*Iscrivi corsi a LinkedIn Learning*
 
 Il tempo di apprendimento impiegato per i corsi di LinkedIn Learning viene comunicato dalla piattaforma LinkedIn content/LinkedIn alla piattaforma di apprendimento Learning Manager.
 
-Se LinkedIn Learning non invia il tempo di apprendimento impiegato, non sarà possibile registrarlo sulla nostra piattaforma di apprendimento. In tal caso, il tempo di apprendimento impiegato visualizzato da Learning Manager risulterà pari a zero.
+Se LinkedIn Learning non invia il tempo di apprendimento impiegato, non sarà possibile registrarlo sulla nostra piattaforma di apprendimento. In tal caso, il tempo impiegato per l&#39;apprendimento visualizzato da Learning Manager è pari a zero.
 
 ## Invio di file per moduli classe e attività {#submitfile}
 
 Come Allievo, puoi inviare al tuo istruttore file come prova del completamento del corso. L’istruttore può approvare o rifiutare l’invio, in base al contenuto del file.
 
-Un Autore può creare solo moduli classe e attività che un Allievo potrà utilizzare nell’app mobile.
+Un Autore può creare solo moduli di aula e di attività che un Allievo può utilizzare nell&#39;applicazione per dispositivi mobili.
 
-Dopo che l’Allievo ha avviato un corso, può visualizzarne lo stato **Invio di file** come in sospeso insieme al collegamento per caricare il file, sullo schermo, come mostrato nella schermata seguente.
+Dopo che l&#39;Allievo ha iniziato un corso, può visualizzare lo stato **Invio** file come in sospeso insieme al collegamento per caricare il file, come mostrato nella schermata seguente.
 
 ![](assets/pending-approval.png)
 
-*Stato di invio dei file*
+*Stato dell&#39;invio del file*
 
 Per caricare il file, fai clic su **Carica file**.
 
-Carica un file e fai clic sul pulsante **Invia** pulsante.
+Carica un file qualsiasi e fai clic sul **pulsante Invia** .
 
 ![](assets/upload-file.png) ![](assets/pending-file-approval.png)
 
@@ -487,13 +494,13 @@ Carica un file e fai clic sul pulsante **Invia** pulsante.
 
 ## Approvazione o rifiuto di invii {#approvalorrejectionofsubmission}
 
-Dopo aver caricato il file, lo stato diventa **In attesa di approvazione.**. L’istruttore visualizza quindi l’elenco di [inoltri in sospeso](/help/migrated/instructors/feature-summary/learners.md) e approva o rifiuta l’invio tramite la web app dell’Istruttore.
+Dopo aver caricato il file, lo stato cambia in **In attesa di approvazione.**. L&#39;istruttore visualizza quindi l&#39;elenco degli invii [](/help/migrated/instructors/feature-summary/learners.md) in sospeso e approva o rifiuta l&#39;invio tramite la web app dell&#39;istruttore.
 
 Quando l’istruttore approva l’invio, lo stato nell’app mobile dell’Allievo diventa **Approvato**.
 
 <!--![](assets/approved.jpg)-->
 
-Quando l’Istruttore rifiuta l’invio, lo stato nell’app per dispositivi mobili Allievo diventa **Rifiutato**.
+Quando l&#39;istruttore rifiuta l&#39;invio, lo stato dell&#39;applicazione per dispositivi mobili Allievo diventa **Rifiutato**.
 
 <!--![](assets/rejected.jpg)-->
 
@@ -501,11 +508,11 @@ Per inviare nuovamente il file, fai clic sul collegamento **Carica file**.
 
 ## Learning Manager per iPad e tablet {#captivateforipadandtablets}
 
-Nell’app Learning Manager per iPad o tablet Android, dopo aver effettuato l’accesso come Allievo, puoi visualizzare quanto segue **Home** schermo:
+Nell&#39;applicazione Learning Manager per iPad o tablet Android, dopo aver effettuato l&#39;accesso come Allievo, puoi visualizzare la seguente **schermata iniziale** :
 
 <!--![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)-->
 
-Per accedere alle funzionalità di apprendimento e del catalogo, tocca il **Menu** e scegli l’opzione appropriata.
+Per accedere alle funzionalità di apprendimento e del catalogo, tocca il menu a discesa Menu e scegli l&#39;opzione **** appropriata.
 
 <!--![](assets/menu-ipad.png)-->
 
@@ -515,7 +522,7 @@ Puoi scegliere di visualizzare l’insieme di corsi in una visualizzazione a ele
 
 Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non sei in linea. Inoltre, puoi scaricare corsi e programmi di apprendimento. Puoi seguire i corsi e i programmi di apprendimento in modalità non in linea, quindi sincronizzare il contenuto nell’app online appena ti connetti alla rete.
 
-1. Tocca **Menu** menu a discesa in alto e tocca **Apprendimento** opzione. Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
+1. Tocca **il menu a discesa Menu** in alto e tocca **l&#39;opzione Apprendimento** . Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
 1. Tocca l’icona di download nella parte inferiore di ogni riquadro relativo agli oggetti di apprendimento per scaricare il contenuto di apprendimento.
 
    ![](assets/download-cards.png)
@@ -525,9 +532,13 @@ Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non
    Viene visualizzato un messaggio in una barra nella parte superiore dell’applicazione che riporta lo stato di rete del dispositivo.
 
    * La barra rossa indica che la rete non è disponibile per il dispositivo.
-   * La barra verde indica che la rete è di nuovo online.
+   * La barra verde indica che la rete è nuovamente online.
 
-L&#39;utente può tornare alla modalità online facendo clic su **visualizza contenuto online** sulla barra verde. Il contenuto del dispositivo viene sincronizzato quando l&#39;utente passa alla modalità online.
+L&#39;utente può tornare alla modalità online facendo clic sul **pulsante Visualizza contenuto** online nella barra verde. Il contenuto nel dispositivo viene sincronizzato quando l&#39;utente passa alla modalità online.
+
+## Supporto del carrello multi-articolo su dispositivi mobili immersivi
+
+Gli Allievi possono ora aggiungere diversi corsi, percorsi di apprendimento o certificazioni al carrello e acquistarli insieme. Visualizza [carrello multi-articolo in ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
 <!--## Track device storage {#trackdevicestorage}
 

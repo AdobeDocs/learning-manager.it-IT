@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
 workflow-type: tm+mt
-source-wordcount: '6843'
-ht-degree: 75%
+source-wordcount: '7125'
+ht-degree: 72%
 
 ---
 
@@ -42,7 +42,7 @@ Per creare un corso, procedi nel seguente modo:
    I tipi di iscrizioni sono descritti di seguito:
 
    * **Nominato dal Manager:** solo i Manager possono nominare questi corsi. Un Allievo non può effettuare l’iscrizione a questo tipo di corsi.
-   * **Approvato dal Manager:** corsi approvati dai Manager. Gli Allievi possono registrarsi a questi corsi, ma non vengono iscritti direttamente senza l’approvazione del Manager. Una richiesta di notifica viene inviata ai Manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del Manager, gli allievi risultano iscritti ai corsi.
+   * **Approvato dal Manager:** corsi approvati dai Manager. Gli Allievi possono iscriversi a questi corsi, ma non sono iscritti direttamente a questi tipi di corsi senza l&#39;approvazione del Manager. Una richiesta di notifica viene inviata ai Manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del Manager, gli allievi risultano iscritti ai corsi.
    * **Iscrizione autonoma:** gli allievi possono iscriversi direttamente a questo tipo di corsi.
 
 1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**. Per pubblicare il corso, fai clic su **[!UICONTROL Pubblica]**.
@@ -56,23 +56,24 @@ Per creare un corso, procedi nel seguente modo:
 
    1. Nella pagina Impostazioni corso, scegli un’abilità per il corso. Dall’elenco a discesa Abilità, scegli l’abilità richiesta. Dall’elenco a discesa Livello, scegli il livello richiesto.
    1. Scegli le abilità e il livello del corso e imposta i crediti per l’abilità. Aggiungi più abilità, se necessario.
+   1. Se necessario, aggiungi le etichette di conformità personalizzate al corso. Consulta [Aggiungere etichette di conformità a corsi/percorsi di apprendimento/certificazioni](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
    1. Dall’elenco a discesa **Tipo di iscrizione**, scegli il tipo di iscrizione.
 
    I tipi di iscrizioni sono descritti di seguito:
 
    * **Nominato dal Manager:** solo i Manager possono nominare questi corsi. Un Allievo non può effettuare l’iscrizione a questo tipo di corsi.
-   * **Approvato dal Manager:** corsi approvati dai Manager. Gli Allievi possono registrarsi a questi corsi, ma non vengono iscritti direttamente senza l’approvazione del Manager. Una richiesta di notifica viene inviata ai Manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del Manager, gli allievi risultano iscritti ai corsi.
+   * **Approvato dal Manager:** corsi approvati dai Manager. Gli Allievi possono iscriversi a questi corsi, ma non sono iscritti direttamente a questi tipi di corsi senza l&#39;approvazione del Manager. Una richiesta di notifica viene inviata ai Manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del Manager, gli allievi risultano iscritti ai corsi.
    * **Iscrizione autonoma:** gli allievi possono iscriversi direttamente a questo tipo di corsi.
 
-1. Scegli se impostare un prezzo per il corso o se renderlo gratuito. Se desideri rendere il corso a pagamento, seleziona l’opzione **[!UICONTROL A pagamento]** e specifica il prezzo. A questo punto, il prezzo viene visualizzato nella scheda del corso e nella pagina della panoramica del corso di un Allievo.
+1. Scegli se impostare un prezzo per il corso o se renderlo gratuito. Se desideri rendere il corso a pagamento, seleziona l’opzione **[!UICONTROL A pagamento]** e specifica il prezzo. Il prezzo viene quindi visualizzato nella scheda del corso e nella pagina di panoramica del corso per un Allievo.
 
-   NOTA: questa opzione viene attivata solo quando viene configurato il connettore Adobe Commerce.
+   NOTA: questa opzione è abilitata solo quando è configurato il connettore Adobe Commerce.
 
 1. Se desideri offrire agli allievi la possibilità di annullare la propria iscrizione al corso, attiva la casella di controllo **Gli allievi possono annullare l’iscrizione**.
 
 1. **Configurazione istanza**
 
-   Se attivi questa opzione, gli Allievi che si trovano nello stato In corso possono visitare altre istanze ed iscriversi. Un Allievo può quindi mantenere l’avanzamento dell’istanza precedente.
+   Se attivi questa opzione, gli Allievi che si trovano nello stato In corso possono visitare altre istanze e iscrivervisi. Un Allievo può quindi mantenere l’avanzamento dell’istanza precedente.
 
    Dopo la pubblicazione del corso, se torni alla pagina Impostazioni, l’opzione non è più modificabile.
 
@@ -83,9 +84,9 @@ Per creare un corso, procedi nel seguente modo:
    * Activity
    * Misto
 
-   Nota: durante la duplicazione di un corso, se hai abilitato l’opzione Configurazione istanza nel corso di origine, l’opzione rimane disabilitata nel corso di destinazione.
+   Nota: durante la duplicazione di un corso, se hai attivato l&#39;opzione Configurazione istanza nel corso di origine, l&#39;opzione rimane disabilitata nel corso di destinazione.
 
-   **L&#39;opzione di istanza non è supportata per**:
+   **Instance Switch non è supportato per**:
 
    * Corsi a pagamento
    * Corsi con tipo di iscrizione nominato dal Manager.
@@ -94,29 +95,51 @@ Per creare un corso, procedi nel seguente modo:
 
 1. **Iscrizioni multiple**
 
-   In questo modo, è possibile iscrivere gli allievi a più istanze del corso in uno o più periodi.
+   In questo modo, puoi iscrivere gli Allievi a più di un&#39;istanza del corso in uno o in periodi diversi.
 
-   Attivare l’interruttore **Iscrizione multipla** per passare da una registrazione di corso a un’altra di un allievo. Se è stata abilitata la commutazione istanza, non è possibile utilizzare l’iscrizione multipla.
+   Abilita l&#39;opzione **Iscrizione** multipla per passare da un&#39;iscrizione a un corso all&#39;altra di un Allievo. Se è stata abilitata la commutazione istanza, non è possibile utilizzare l’iscrizione multipla.
 
 1. Seleziona i corsi propedeutici che devono essere completati prima di iniziare il corso. Fai clic sul campo Corsi e scegli dall’elenco dei corsi.
-1. Abilita **Abilita** **Prerequisiti** casella di controllo se desideri che i corsi propedeutici siano resi obbligatori.
+1. Abilita la **casella di** controllo Abilita **** prerequisiti se desideri che i corsi prerequisiti per me siano resi obbligatori.
 1. Aggiungi parole chiave come tag relativi al tuo corso. Questi tag aiutano gli allievi a individuare facilmente il tuo corso durante la ricerca. Tutti questi tag vengono aggiunti automaticamente in base ai moduli aggiunti. Se desideri aggiungere altri tag a questo corso, puoi inserirli.
 1. Aggiungi parole chiave come tag relativi al tuo corso. Questi tag aiutano gli allievi a individuare facilmente il tuo corso durante la ricerca. Tutti questi tag vengono aggiunti automaticamente in base ai moduli aggiunti. Se desideri aggiungere altri tag a questo corso, puoi inserirli.
-1. Nel campo Ritiro automatico, seleziona una data in cui il corso viene ritirato. L’Amministratore deve prima abilitare l’opzione Ritiro automatico.
+1. Nel campo Ritiro automatico, seleziona la data in cui il corso viene ritirato. L’Amministratore deve prima abilitare l’opzione Ritiro automatico.
 1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**. Per pubblicare il corso, fai clic su **[!UICONTROL Pubblica]**.
+
+### Aggiungi etichette di conformità a corsi/percorsi di apprendimento/certificazione {#add-custom-compliance-label}
+
+Per aggiungere etichette di conformità ai corsi, procedi nel seguente modo:
+
+1. Nell&#39;app Autore, vai su **[!UICONTROL Corsi/**[!UICONTROL  Percorsi ]**di apprendimento/**[!UICONTROL  Certificazioni ]**e seleziona**[!UICONTROL  Aggiungi ]**]**.
+1. Digitare il nome e altri dettagli come descrizione, abilità.
+1. Nella casella di **[!UICONTROL testo Conformità]** personalizzata digitare e selezionare l&#39;etichetta di conformità.
+
+   ![](assets/add-compliance-label.png)
+   _Aggiungi conformità personalizzata_
+
+   >[!IMPORTANT]
+   >
+   >Assicurati di impostare una scadenza per il corso quando aggiungi la conformità personalizzata.
+
+1. Salva e pubblica il corso/percorso di apprendimento/la certificazione.
+Ora il corso/percorso di apprendimento/certificazione è considerato come un tipo di conformità. Gli Amministratori possono aggiungere questo corso al dashboard di conformità e condividerlo con i Manager per tenere traccia dello stato di avanzamento
+
+>[!NOTE]
+>
+>Gli Autori possono inoltre aggiungere le etichette di conformità a un corso/percorso di apprendimento/certificazione esistente modificandole.
 
 ## Punti di gamification
 
-Puoi assegnare i punti di gamification a livello di corso e di istanza del corso. In questo modo, puoi assegnare punti a diversi corsi o istanze. Gli Allievi sono incentivati a seguire corsi specifici o a preferire un’istanza particolare rispetto ad altre.
+Puoi assegnare i punti di gamification a livello di corso e di istanza del corso. In questo modo, puoi assegnare punti a diversi corsi o istanze. Gli Allievi sono incentivati a seguire corsi specifici o a preferire una particolare istanza di corso rispetto ad altre.
 
 1. A livello di istanza del corso, seleziona **[!UICONTROL Punti di gamification]**.
 
-![punti di gamification](assets/select-gamification-points-new.png)
+![Punti di gamification](assets/select-gamification-points-new.png)
 
 *Impostare i punti per la gamification*
 
 1. Seleziona **[!UICONTROL Modifica]**.
-1. Se selezioni Usa impostazioni a livello di corso, vengono visualizzate le seguenti opzioni:
+1. Se selezioni Usa impostazioni livello corso, vengono visualizzate le seguenti opzioni:
 
    * **[!UICONTROL Al completamento]**: seleziona questo pulsante se desideri che l’Allievo ottenga 100 punti quando completa un corso.
    * **Altre regole**
@@ -132,9 +155,9 @@ Puoi assegnare i punti di gamification a livello di corso e di istanza del corso
       * **[!UICONTROL Completamento anticipato]**: se selezioni questa opzione, puoi determinare quanti Allievi riceveranno i punti specificati.
       * **[!UICONTROL Completamento tempestivo]**: se selezioni questa opzione, puoi determinare il numero di punti che gli Allievi otterranno se completano un corso entro un periodo di tempo specificato.
 
-   ![punti di gamification](assets/gamification-custom-settings.png)
+   ![Punti di gamification](assets/gamification-custom-settings.png)
 
-   *Impostare il completamento in modo tempestivo*
+   *Imposta il completamento rapido e tempestivo*
 
 1. Seleziona **[!UICONTROL Salva]**.
 
@@ -142,29 +165,29 @@ Puoi assegnare i punti di gamification a livello di corso e di istanza del corso
 
 Un autore può decidere se aggregare le risorse di apprendimento a livello di piano di apprendimento o lasciarle a livello di singolo corso.
 
-In qualità di autore, seleziona **[!UICONTROL Percorso di apprendimento]** > **[!UICONTROL Impostazioni]**. Fai clic **[!UICONTROL Modifica]**.
+Come autore, seleziona **[!UICONTROL Percorso]** di apprendimento > **[!UICONTROL Impostazioni]**. Fai clic su **[!UICONTROL Modifica]**.
 
-Nella **[!UICONTROL Risorse]** , la casella di controllo Mostra le risorse del corso costitutive aggregate a livello di percorso di apprendimento, se abilitata indica se le risorse presenti a livello di corso verranno visualizzate a livello di percorso di apprendimento.
+**[!UICONTROL Nella sezione Risorse]**, la casella di controllo Mostra le risorse del corso costituenti aggregate a livello di percorso di apprendimento, quando abilitata, visualizza se le risorse presenti a livello di corso verranno visualizzate a livello di percorso di apprendimento.
 
 >[!NOTE]
 >
->Nella pagina Impostazioni di un percorso di apprendimento, un Amministratore può anche abilitare questa opzione, che visualizza le risorse presenti al livello del corso che verrebbero mostrate al livello del percorso di apprendimento.
+>Nella pagina Impostazioni di un percorso di apprendimento, un amministratore può anche attivare questa opzione, che visualizza le risorse presenti al livello del corso che verrebbero visualizzate nel livello del percorso di apprendimento.
 
 ## Assistente pianificazione
 
-Gestisci i conflitti nella prenotazione di Istruttori e aule. Se desideri sapere in quale data e ora è disponibile un istruttore prima di assegnarlo al corso, utilizza l’Assistente alla pianificazione.
+Gestisci i conflitti nella prenotazione di Istruttori e aule. Se vuoi sapere a che ora e in quale data è disponibile un istruttore prima di assegnarlo al corso, utilizza l&#39;Assistente Pianificazione.
 
-Durante la creazione di un corso VC o CR, fai clic su Assistente alla pianificazione.
+Durante la creazione di un corso, per un corso VC o CR, fai clic su Assistente Pianificazione.
 
-![Seleziona Assistente pianificazione](assets/scheduling-assistant.png)
+![Seleziona Assistente Pianificazione](assets/scheduling-assistant.png)
 
-*Avvia assistente pianificazione*
+*Avvia Assistente pianificazione*
 
-Viene visualizzata la finestra Assistente pianificazione.
+Viene visualizzata la finestra Assistente Pianificazione.
 
-![Schermata dell&#39;Assistente alla pianificazione](assets/scheduling-assistant-window.png)
+![Schermata Assistente Pianificazione](assets/scheduling-assistant-window.png)
 
-*Finestra di dialogo Assistente alla pianificazione*
+*Finestra di dialogo Assistente Pianificazione*
 
 Nella schermata Assistente pianificazione, puoi:
 
@@ -175,29 +198,29 @@ Nella schermata Assistente pianificazione, puoi:
 
 Nel campo Istruttore, digita il nome dell’Istruttore o Inserisci parte del nome di un Istruttore. Viene visualizzato un elenco di Istruttori tra cui scegliere.
 
-![Cerca istruttori per nome](assets/search-instructor.png)
+![Cerca gli istruttori per nome](assets/search-instructor.png)
 
-*Cerca Istruttori*
+*Ricerca di istruttori*
 
-È possibile selezionare più Istruttori, ma può esserne assegnato solo uno alla volta. L’ora selezionata verrà evidenziata nella finestra del conflitto degli orari. Accanto all’istruttore, compare un’icona a forma di croce, sulla quale fate clic per rimuovere l’istruttore.
+È possibile selezionare più Istruttori, ma può esserne assegnato solo uno alla volta. L’ora selezionata verrà evidenziata nella finestra del conflitto degli orari. Vicino all&#39;istruttore viene visualizzata un&#39;icona a forma di croce sulla quale fai clic per rimuovere l&#39;istruttore.
 
 ![Seleziona più istruttori](assets/busy-times.png)
 
-*Cerca più istruttori*
+*Ricerca di più istruttori*
 
 ### Cercare gli Istruttori per abilità
 
 Cerca un Istruttore con una o più abilità. La ricerca utilizza l’operatore AND.
 
-La ricerca delle abilità può essere effettuata solo per nome di abilità parziale o completo, non per livello di abilità.
+Le abilità possono essere ricercate solo in base al nome dell&#39;abilità parziale o completa, non in base al livello dell&#39;abilità.
 
 Nell’Assistente, inserisci il nome dell’Istruttore, la posizione e il limite di posti.
 
-Puoi anche cercare le abilità, che verrebbero visualizzate dopo aver fatto clic sull’icona del filtro presente sul lato destro della casella di ricerca dell’Istruttore. La schermata seguente mostra il pulsante.
+Inoltre, puoi cercare abilità, che verrebbero visualizzate dopo aver fatto clic sull&#39;icona del filtro presente sul lato destro della casella di ricerca dell&#39;istruttore. La schermata seguente mostra il pulsante.
 
-![Immetti le abilità per l’Istruttore](assets/scheduling-assistant-instructor-skill.png)
+![Inserisci le abilità per l&#39;istruttore](assets/scheduling-assistant-instructor-skill.png)
 
-*Ricerca di istruttori in base alle abilità*
+*Ricerca di istruttori per competenza*
 
 ### Filtro per gruppi di utenti
 
@@ -205,35 +228,35 @@ Seleziona il filtro nel campo Istruttore. C’è un filtro **[!UICONTROL Gruppo 
 
 Se vengono applicati entrambi i filtri, viene visualizzato un elenco di istruttori che appartengono al gruppo di utenti e che hanno le abilità selezionate.
 
-Questo vale per l&#39;Assistente alla pianificazione nella pagina Corsi o Istanze.
+Questo vale per Assistente Pianificazione nella pagina Corsi o Istanze.
 
-![assistente alla programmazione](assets/scheduling-assistant-2.png)
+![Assistente Pianificazione](assets/scheduling-assistant-2.png)
 
-*Filtra per gruppi di utenti*
+*Filtrare per gruppi di utenti*
 
 ### Pagina dell’istanza
 
 Puoi inoltre accedere all’Assistente pianificazione dalla pagina Istanza, come illustrato di seguito.
 
-L&#39;Assistente alla pianificazione è disponibile anche nella pagina Istanza per gli amministratori e per gli amministratori/autori personalizzati.
+Assistente Pianificazione è disponibile anche nella pagina Istanza per amministratori e amministratori/autori personalizzati.
 
-![Assistente alla pianificazione dalla pagina Istanza](assets/instances-scheduling.png)
+![Assistente Pianificazione dalla pagina Istanza](assets/instances-scheduling.png)
 
-*Pagina Pianifica istruttori da istanze*
+*Pianificare gli istruttori dalla pagina Istanze*
 
 ### Ricerca di una posizione
 
-È possibile cercare un&#39;aula specificando sia il nome dell&#39;aula sia il nome dell&#39;area aula sia nelle pagine del modulo e dell&#39;Assistente alla pianificazione.
+È possibile cercare una posizione specificando sia il nome dell&#39;aula che il nome dell&#39;area della posizione nelle pagine del modulo e di Assistente Pianificazione.
 
 ## Formattazione testo RTF
 
 Durante la creazione di un corso, un programma di apprendimento, una certificazione o una risorsa formativa, gli autori possono inserire diversi tipi di contenuti, come testi o immagini, oppure applicare varie opzioni di formattazione del testo.
 
-Quando si crea un corso, è possibile visualizzare Editor di testo RTF nel campo Panoramica del corso. Potete formattare il contenuto, aggiungere immagini, collegamenti ipertestuali e così via.
+Quando crei un corso, puoi visualizzare l&#39;editor RTF nel campo Panoramica corso. È possibile formattare il contenuto, aggiungere immagini, aggiungere collegamenti ipertestuali e così via.
 
 ![](assets/rich-text-editor-author.png)
 
-*Avvia l’editor Rich Text*
+*Avviare l&#39;editor RTF*
 
 Analogamente, è possibile utilizzare Editor di testo RTF per modificare la descrizione durante la creazione di:
 
@@ -241,19 +264,19 @@ Analogamente, è possibile utilizzare Editor di testo RTF per modificare la desc
 
 ![](assets/lp-rte-new.png)
 
-*Utilizzo dell’editor di testo RTF per un programma di apprendimento*
+*Usare l&#39;editor RTF per un programma di apprendimento*
 
 **Certificazione**
 
 ![](assets/cert-rte-new.png)
 
-*Utilizzare Editor di testo RTF per una certificazione*
+*Utilizzare l&#39;editor RTF per una certificazione*
 
 **Risorsa formativa**
 
 ![](assets/job-aid-rte-new.png)
 
-*Utilizzare l’editor RTF per una risorsa formativa*
+*Utilizzare l&#39;editor RTF per una risorsa formativa*
 
 Inoltre, è possibile utilizzare l’Editor di testo RTF per altre lingue.
 
@@ -265,7 +288,7 @@ Il testo RTF è composto da markup HTML. Senza CSS, il rendering del markup caus
 
 ### Stile predefinito
 
-Il foglio di stile CSS allegato contiene lo stile applicato da Learning Manager. Lo stile è adattato in base alla maggioranza dei casi d’uso. Scarica il file CSS allegato e importalo nell’app web in base alle tue convenzioni e al tuo sistema di compilazione. Le classi CSS definite hanno lo spazio dei nomi ql-editor e non interferiscono con gli stili esistenti.
+Il foglio di stile CSS allegato contiene lo stile applicato da Learning Manager. Lo stile è adattato in base alla maggioranza dei casi d’uso. Scarica il file CSS allegato e importalo nell’app web in base alle tue convenzioni e al tuo sistema di compilazione. Le classi CSS definite sono namespaced sotto la classe ql-editor e non interferiscono con gli stili esistenti.
 
 ### Personalizzare gli stili
 
@@ -284,7 +307,7 @@ Lo stile predefinito potrebbe non soddisfare le esigenze di tutti. Le personaliz
 
 ### MODIFICHE ALLE API PER CONSENTIRE IL RENDERING DELLE PANORAMICHE DEL TESTO RTF
 
-Durante lo sviluppo di un’interfaccia utente senza intestazione, i clienti hanno la necessità di visualizzare gli oggetti di apprendimento presenti in tale interfaccia. A tale scopo, in genere viene utilizzata l’API esposta [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects). Ora che Learning Manager supporta l’acquisizione del testo RTF per il campo della panoramica, anche il modello di dati degli oggetti di apprendimento nelle risposte API espone la stessa. Consulta il campo denominato &quot;richTextOverview&quot; nel frammento del modello nella risposta API riportata di seguito. Tieni inoltre presente che il campo esposto in precedenza (&quot;overview&quot;) rimane invariato per la compatibilità con le versioni precedenti.
+Durante lo sviluppo di un’interfaccia utente senza intestazione, i clienti hanno la necessità di visualizzare gli oggetti di apprendimento presenti in tale interfaccia. A tale scopo, in genere viene utilizzata l’API esposta [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects). Ora che Learning Manager supporta l&#39;acquisizione di &quot;rich text&quot; per il campo di panoramica, anche il modello di dati degli oggetti di apprendimento nelle risposte API espone lo stesso. Vedere il campo denominato &quot;richTextOverview&quot; nel frammento del modello nella risposta API riportata di seguito. Si noti inoltre che il campo esposto in precedenza (&quot;panoramica&quot;) rimane invariato per la compatibilità con le versioni precedenti.
 
 ```
 { 
@@ -324,7 +347,7 @@ Una volta che l’Amministratore ha abilitato i tentativi multipli, come Autore 
 
 ![](assets/allow-multipe-attempts.png)
 
-*Configurare più tentativi per un modulo di e-learning interattivo*
+*Configurare tentativi multipli per un modulo di e-learning interattivo*
 
 <table>
  <tbody>
@@ -338,20 +361,20 @@ Una volta che l’Amministratore ha abilitato i tentativi multipli, come Autore 
    <td>
     <p>Imposta tentativi su</p></td>
    <td>
-    <p>È possibile impostare il numero di tentativi per un modulo su infiniti o specificare un limite preciso.<span style="font-size: 0.8125rem;">Le informazioni sui tentativi verranno mostrate all’Allievo una volta abilitate. L’Allievo può decidere di ritentare il modulo facendo clic sul pulsante "Ritenta".</span></p></td>
+    <p>È possibile impostare il numero di tentativi per un modulo su infiniti o specificare un limite preciso.<span style="font-size: 0.8125rem;">Le informazioni sui tentativi verranno mostrate all’Allievo una volta abilitate. L'Allievo può scegliere di ritentare il modulo facendo clic sul pulsante "Ritenta".</span></p></td>
   </tr>
   <tr>
    <td>
     <p>Interrompi nuovo tentativo quando il modulo è completo o superato</p></td>
    <td>
-    <p>Per configurare quando impedire agli Allievi di selezionare l’opzione Nuovo tentativo, attiva la casella di controllo "Interrompi nuovo tentativo una volta completato o superato il modulo". L’opzione "Ritenta" verrà rimossa dalla visualizzazione dell’Allievo una volta completato correttamente il modulo.</p></td>
+    <p>Per configurare quando impedire agli Allievi di selezionare l'opzione per un nuovo tentativo, abilita la casella di controllo "Interrompi nuovo tentativo una volta completato o superato il modulo". L'opzione "Ritenta" verrà rimossa dalla vista Allievo una volta completato con successo il modulo.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Blocca modulo tra i tentativi 0:0:1 Formato: Giorni/Ore/Minuti</p></td>
+    <p>Modulo di blocco tra tentativi 0:0:1 Formato: Giorni/Ore/Minuti</p></td>
    <td>
-    <p>È possibile bloccare i moduli per un periodo di tempo specifico tra un tentativo e l’altro selezionando la casella di controllo "<b>Blocca modulo tra i tentativi 0:0:1 Formato: Giorni/Ore/Minuti</b>". Quando un modulo è bloccato, l’Allievo non può visitarlo fino a quando il periodo di blocco previsto non è trascorso. </p>
-    <p>È possibile definire i criteri di fine di un tentativo selezionando "<b>Chiusura lettore</b>' o '<b>Completamento</b>'.</p></td>
+    <p>È possibile bloccare i moduli per un tempo specifico tra un tentativo e l'altro, abilitando la casella di controllo "<b>Blocca modulo tra tentativi 0:0:1 Formato: Giorni/Ore/Minuti</b>". Quando un modulo è bloccato, l'Allievo non può visitarlo fino allo scadere del tempo di blocco fornito. </p>
+    <p>Puoi definire i criteri finali di un tentativo selezionando le caselle di controllo "<b>Giocatore chiuso</b>" o "<b>Completamento</b>".</p></td>
   </tr>
   <tr>
    <td>
@@ -369,7 +392,7 @@ Una volta che l’Amministratore ha abilitato i tentativi multipli, come Autore 
    <td>
     <p>Imposta tempo limite per completare il modulo</p></td>
    <td>
-    <p>Gli Autori possono impostare il limite di tempo per il completamento del modulo selezionando la casella di controllo, "<b>Imposta il limite di tempo per completare il modulo</b>".</p>
+    <p>Gli autori possono impostare un limite di tempo per completare un modulo abilitando la casella di controllo, "<b>Imposta limite di tempo per completare il modulo</b>".</p>
     <p>Ogni avvio del lettore è considerato come un nuovo tentativo e all’Allievo viene comunicata la durata durante l’avvio.</p>
     <p><b>Nota:</b><span style="font-size: 0.8125rem;">il tentativo terminerà automaticamente una volta trascorso il tempo. Anche la chiusura del lettore determinerà la conclusione del tentativo corrente.</span></p></td>
   </tr>
@@ -408,13 +431,13 @@ Per aggiungere un modulo di contenuto, procedi come descritto di seguito:
 
    ![](assets/1st-image.png)
 
-   *Aggiungi un modulo aula virtuale*
+   *Aggiungere un modulo VC*
 
    Quando crei un corso utilizzando la finestra di dialogo di configurazione Aula virtuale, imposta il **sistema di conferenza** sulla connessione Teams che hai creato. Seleziona se desideri avere un organizzatore della riunione per l’evento.
 
-   Se si seleziona **Sì** per un organizzatore della riunione, è necessario immettere il suo nome. Digita il nome e seleziona l’organizzatore.
+   Se si seleziona **Sì** per l&#39;organizzatore di una riunione, è necessario immettere il nome dell&#39;organizzatore. Digita il nome e seleziona l’organizzatore.
 
-   **Esclusione della sala d’attesa**
+   **Bypassare la lobby**
 
    * Se selezioni **Sì**, qualsiasi Allievo può partecipare alla riunione.
    * Se selezioni **No**, viene inviata una richiesta all’organizzatore per consentire o impedire all’Allievo di partecipare alla riunione.
@@ -425,26 +448,26 @@ Per aggiungere un modulo di contenuto, procedi come descritto di seguito:
 
    ![](assets/classroom-module.png)
 
-   *Aggiungere un modulo classe*
+   *Aggiungere un modulo aula*
 
-   Durante la creazione di un corso, nella finestra di dialogo di configurazione Aula virtuale, imposta il sistema di conferenza sulla connessione di Microsoft Teams creata. Seleziona se desideri avere un organizzatore della riunione per l’evento.
+   Quando crei un corso, nella finestra di dialogo di configurazione dell&#39;aula virtuale, imposta il sistema di conferenza sulla connessione Microsoft Teams creata. Seleziona se desideri avere un organizzatore della riunione per l’evento.
 
-   Se selezioni Sì, inserisci il nome dell’organizzatore. Digita il nome e seleziona l’organizzatore.
+   Se si seleziona Sì per l&#39;organizzatore di una riunione, è necessario immettere il nome dell&#39;organizzatore. Digita il nome e seleziona l’organizzatore.
 
-   **Esclusione della sala d’attesa**
+   **Bypassare la lobby**
 
    * Se selezioni Sì, qualsiasi Allievo può partecipare alla riunione.
-   * Se selezioni No, viene inviata una richiesta all’organizzatore per consentire o impedire all’Allievo di partecipare alla riunione.
+   * Se selezioni No, viene inviata una richiesta all&#39;organizzatore per consentire o impedire all&#39;Allievo di partecipare alla riunione.
 
-   **Nota:** Se un Allievo desidera unirsi ai Microsoft Teams come ospite, deve inserire l’e-mail. L’e-mail deve essere presente in Learning Manager.
+   **Nota:** se un Allievo desidera iscriversi a Microsoft Teams come ospite, deve inserire l&#39;indirizzo e-mail. L&#39;e-mail deve essere presente in Learning Manager.
 
    **Modulo attività:** in questa modalità gli allievi devono completare una serie di attività, ad esempio laboratori, esercitazioni, questionari e altre attività di apprendimento. Inserisci il titolo, la descrizione e l’URL esterno come riferimento. Per salvare le modifiche, fai clic su **[!UICONTROL Fine]**.
 
    ![](assets/activity-module.png)
 
-   *Aggiungere un modulo attività*
+   *Aggiungere un modulo di attività*
 
-   Puoi specificare la durata durante l’aggiunta di un modulo di attività in un corso per il tipo di attività Invio file e moduli basati su xAPI.
+   Puoi specificare la durata durante l&#39;aggiunta di un modulo di attività in un corso per i moduli basati su xAPI e di tipo di attività.
 
 1. Allo stesso modo, aggiungi moduli per le modalità Preparazione e Verifica.
 1. Scegli il tipo di ordinamento dei moduli fra Ordinati o Non ordinati in base alle tue preferenze.
@@ -461,15 +484,34 @@ Per aggiungere un modulo di contenuto, procedi come descritto di seguito:
 
 1. Nell’angolo in alto a destra della pagina, fai clic su **[!UICONTROL Salva]**.
 
+#### Aggiungi collegamento HTML nel modulo Attività
+
+Gli autori possono aggiungere collegamenti HTML nel modulo dell&#39;attività e impostare i criteri di completamento. Per aggiungere un collegamento HTML e impostare un criterio di completamento, attenersi alla seguente procedura:
+
+1. Nell&#39;app Autore, seleziona **[!UICONTROL Crea corsi]** nella home page.
+1. Seleziona **[!UICONTROL Aggiungi]** dalla **[!UICONTROL schermata Catalogo]** corsi
+1. Digita il nome e la descrizione del corso.
+1. Nell&#39;opzione **[!UICONTROL Modulo]** , selezionare **[!UICONTROL Aggiungi modulo]** > **[!UICONTROL Modulo attività]**.
+1. Nel prompt del **[!UICONTROL modulo]** di attività, digitare il nome e la descrizione.
+1. Selezionare il **[!UICONTROL tipo]** come **[!UICONTROL URL]** esterno.
+1. Selezionate una delle opzioni seguenti dall&#39;opzione **[!UICONTROL Criteri]** di completamento.
+   * **[!UICONTROL Voti dell&#39;Allievo come completati]**: l&#39;Allievo ha la possibilità di contrassegnare il corso come completato nel lettore Fluidic.
+   * **[!UICONTROL All&#39;avvio del contenuto]**: il corso verrà automaticamente contrassegnato come completato quando l&#39;Allievo lo avvia.
+
+   ![](assets/completion-criteria-activity-module.png)
+   _Criteri di completamento_
+
+1. Seleziona **[!UICONTROL Aggiungi]** e pubblica il corso.
+
 ## Elenco di controllo {#create-checklist}
 
-La valutazione è un aspetto importante di qualsiasi LMS. Le valutazioni online sono uno dei metodi principali per valutare la comprensione di un argomento da parte di un Allievo. Ma spesso, è necessario valutare la comprensione di una persona mentre è sul lavoro osservandola / la sua esecuzione dei compiti necessari.
+La valutazione è un aspetto importante di qualsiasi LMS. Le valutazioni online sono uno dei modi principali per valutare la comprensione di un argomento da parte di uno studente. Ma spesso, è necessario valutare la comprensione di una persona mentre è sul posto di lavoro osservandola svolgere i compiti necessari.
 
 Pensa ai dipendenti di un negozio o agli addetti al magazzino sottoposti a valutazione per le attività che dovrebbero svolgere quotidianamente. Potrebbe trattarsi dei passaggi da seguire per riparare una macchina da caffè o delle attività che riguardano l’imballaggio di un materiale. Gli Istruttori possono valutare i dipendenti per tali attività sulla base di un elenco di controllo e indicare se hanno superato o meno la valutazione.
 
 ### Creazione di un elenco di controllo {#createachecklist}
 
-Solo un Autore può creare un elenco di controllo. Un elenco di controllo è un tipo di modulo di attività. Durante l’impostazione di un modulo di attività, l’Autore può selezionare un’attività come **Checklist**, come illustrato di seguito:
+Solo un Autore può creare un elenco di controllo. Un elenco di controllo è un tipo di modulo di attività. Durante l&#39;impostazione di un modulo Attività, l&#39;Utente può selezionare un&#39;Attività come **Elenco** di controllo, come illustrato di seguito:
 
 ![](assets/checklist-option.png)
 
@@ -500,13 +542,13 @@ Dopo aver scelto l’opzione **Elenco di controllo**, visualizzerai alcune opzio
 
 Scegli almeno un Istruttore che valuterà l’Allievo.
 
-Inoltre, se hai qualcosa da commentare o una nota, puoi aggiungerla nel **Nota per l’istruttore** campo di testo.
+Inoltre, se hai qualcosa da commentare o una nota, puoi aggiungerlo nel campo di testo Nota per l&#39;istruttore ****.
 
 Ora aggiungi le domande dell’elenco di controllo. Fai clic su **[!UICONTROL Aggiungi]**. Puoi aggiungere solo fino a 150 domande.
 
 ![](assets/add-checklist-questions.png)
 
-*Aggiungi domande elenco di controllo*
+*Aggiungere domande sull&#39;elenco di controllo*
 
 Per aggiungere altre domande, fai clic su **[!UICONTROL Aggiungi altro]**.
 
@@ -525,7 +567,7 @@ Inserisci i seguenti dettagli su questa pagina:
 1. Scegli il tipo di iscrizione. Le opzioni sono le seguenti:
 
    * **Nominato dal Manager:** solo i Manager possono nominare questi corsi. Un Allievo non può effettuare l’iscrizione a questo tipo di corsi.
-   * **Approvato dal Manager:** corsi approvati dai Manager. Gli Allievi possono registrarsi a questi corsi, ma non vengono iscritti direttamente senza l’approvazione del Manager. Una richiesta di notifica viene inviata ai Manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del Manager, gli allievi risultano iscritti ai corsi.
+   * **Approvato dal Manager:** corsi approvati dai Manager. Gli Allievi possono iscriversi a questi corsi, ma non sono iscritti direttamente a questi tipi di corsi senza l&#39;approvazione del Manager. Una richiesta di notifica viene inviata ai Manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del Manager, gli allievi risultano iscritti ai corsi.
    * **Iscrizione autonoma:** gli allievi possono iscriversi direttamente a questo tipo di corsi.
 
 1. Se desideri offrire agli allievi la possibilità di annullare la propria iscrizione al corso, attiva la casella di controllo **Gli allievi possono annullare l’iscrizione**.
@@ -533,7 +575,7 @@ Inserisci i seguenti dettagli su questa pagina:
 
    ![](assets/prerequisite-courses.png)
 
-   *Aggiunta di corsi propedeutici*
+   *Aggiungere corsi propedeutici*
 
 1. Abilita la casella di controllo **Prerequisiti** se desideri che i corsi propedeutici siano resi obbligatori.
 1. Aggiungi parole chiave come tag relativi al tuo corso. Questi tag aiutano gli allievi a individuare facilmente il tuo corso durante la ricerca. Tutti questi tag vengono aggiunti automaticamente in base ai moduli aggiunti. Se desideri aggiungere altri tag a questo corso, puoi inserirli.
@@ -545,7 +587,7 @@ Inserisci i seguenti dettagli su questa pagina:
 
 1. Dopo aver creato i moduli per il tuo corso, puoi assegnare Istruttori ai moduli. Nel dashboard Autore, fai clic su **[!UICONTROL Catalogo corsi]**.
 1. Fai clic sul corso contenente il modulo a cui desideri assegnare gli Istruttori.
-1. Dal menu **Aggiungi moduli** , fai clic sul modulo a cui desideri assegnare un Istruttore.
+1. **Nella sezione Aggiungi moduli**, fai clic sul modulo al quale assegnare un istruttore.
 1. Nel campo **Istruttore**, specifica il nome dell’utente a cui desideri assegnare il ruolo di Istruttore.
 
    ![](assets/instructor-field.png)
@@ -558,19 +600,19 @@ Inserisci i seguenti dettagli su questa pagina:
 
 I manager, oltre agli Istruttori, ora possono rivedere un modulo Elenco di controllo. I manager del personale, così come i manager non gerarchici, ad esempio quelli dei punti vendita o delle posizioni, possono rivedere e completare l’elenco di controllo.
 
-Gli Autori del corso possono aggiungere come revisori i manager delle persone e i manager non gerarchici (se applicabile) selezionando queste opzioni di ruolo nella sezione &quot;Revisori&quot; durante l’impostazione di un modulo Elenco di controllo. Questa operazione può essere fatta a livello di istanza del corso.
+Gli autori dei corsi possono aggiungere responsabili del personale e manager non gerarchici (se applicabile) come revisori selezionando queste opzioni di ruolo nella sezione &quot;Revisori&quot; durante l&#39;impostazione di un modulo Elenco di controllo. Questa operazione può essere fatta a livello di istanza del corso.
 
-![Elenco di controllo per i Manager](assets/manager-checklist.png)
+![Elenco di controllo per i manager](assets/manager-checklist.png)
 
-*Aggiunta di revisori in un modulo attività*
+*Aggiungere revisori in un modulo di attività*
 
-Selezione di &quot;**[!UICONTROL +Manager]** l’opzione &quot; consentirà automaticamente al manager di un allievo nella gerarchia dell’organizzazione di rivedere l’elenco di controllo. Non è necessario cercare e aggiungere i nomi dei manager singolarmente.
+Selezionando l&#39;opzione &quot;**[!UICONTROL +Manager]**&quot; verrà automaticamente consentito al Manager di un Allievo nella gerarchia organizzativa di rivedere l&#39;elenco di controllo. Non è necessario cercare e aggiungere i nomi dei manager singolarmente.
 
 Se l’amministratore dell’account ha impostato ruoli di manager non gerarchici (come manager delle posizioni o delle sedi) utilizzando l’opzione Campi attivi, tali ruoli di manager saranno disponibili per la selezione e consentiranno loro di rivedere l’elenco di controllo.
 
-Non è necessario cercare e aggiungere i nomi dei manager singolarmente. Quando gli Allievi si iscrivono al corso dell’elenco di controllo, invieranno automaticamente una notifica ai loro Manager/Manager dei punti vendita per la revisione insieme a eventuali Istruttori selezionati. Questo flusso di lavoro consente agli autori di non citare i nomi dei singoli manager.
+Non è necessario cercare e aggiungere i nomi dei manager singolarmente. Quando gli Allievi si iscrivono al corso dell’elenco di controllo, invieranno automaticamente una notifica ai loro Manager/Manager dei punti vendita per la revisione insieme a eventuali Istruttori selezionati. Questo flusso di lavoro consente agli autori di non menzionare i nomi dei singoli manager.
 
-Nella schermata di esempio fornita sopra, selezionando la scheda &quot;**[!UICONTROL +Manager punto vendita]** l’opzione &quot; abilita automaticamente il manager non gerarchico allineato all’allievo a rivedere l’elenco di controllo. Si noti che &quot;store&quot; qui verrà sostituito dal campo attivo definito dall&#39;amministratore.
+Nella schermata di esempio fornita sopra, selezionando l&#39;opzione &quot;**[!UICONTROL +Store Manager]**&quot; verrà automaticamente abilitato il Manager non gerarchico allineato all&#39;Allievo per rivedere l&#39;elenco di controllo. Si noti che &quot;store&quot; qui verrà sostituito dal campo attivo definito dall&#39;amministratore.
 
 Gli aggiornamenti al modulo dell’elenco di controllo includono anche le notifiche a Istruttori e manager quando un Allievo è iscritto a un corso che contiene un modulo Elenco di controllo. Il revisore riceve una notifica nel centro notifiche di Learning Manager e nella dashboard dell’Istruttore/del manager che indica che è necessario eseguire un’azione nell’elenco di controllo.
 
@@ -578,15 +620,15 @@ Gli aggiornamenti al modulo dell’elenco di controllo includono anche le notifi
 
 Il revisore potrà visualizzare le informazioni su tutti gli elementi di revisione dell’elenco di controllo in attesa dal menu Elenchi di controllo e dal menu Notifiche quando accede come Istruttore/manager.
 
-![Approvazioni certificato](assets/pending-task-managers.png)
+![Approvazioni dei certificati](assets/pending-task-managers.png)
 
 *Approvazioni per la certificazione*
 
 Dopo aver fatto clic su Revisiona elenco di controllo, il revisore può completare la valutazione.
 
-![Esamina elementi elenco di controllo in sospeso](assets/evaluation-checklist.png)
+![Rivedere gli elementi di revisione dell&#39;elenco di controllo in sospeso](assets/evaluation-checklist.png)
 
-*Esamina elementi elenco di controllo in sospeso*
+*Rivedere gli elementi di revisione dell&#39;elenco di controllo in sospeso*
 
 È possibile scaricare report sugli elenchi di controllo, che includono informazioni dettagliate sulla valutazione dell’Allievo, il nome, il ruolo e l’e-mail del revisore.
 
@@ -620,10 +662,10 @@ Dopo aver visualizzato l’anteprima del corso come Allievo, puoi pubblicare il 
 
 Il ciclo di vita tipico di un corso è il seguente:
 
-* **Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli allievi.
+* **Bozza** - Quando un autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli allievi.
 * **Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli allievi. A questo punto, è anche possibile modificare un corso.
-* **Ritirato** - Dopo aver pubblicato un corso, un Autore può attribuirgli lo stato Ritirato se desidera che il corso non venga più visualizzato nel catalogo per gli allievi.
-* **Eliminato** - A un corso viene attribuito lo stato Eliminato quando viene rimosso completamente dall’applicazione di Learning Manager per Adobi. Solo gli Autori possono eliminare i corsi che si trovano nello stato Bozza o Ritirato.
+* **Ritirato** - Dopo aver pubblicato un corso, un Autore può spostarlo allo stato Ritirato se desidera che il corso non venga visualizzato nel catalogo per gli Allievi.
+* **Eliminato** - A un corso viene attribuito lo stato Eliminato quando viene rimosso completamente dall&#39;applicazione Adobe Learning Manager. Solo gli autori possono eliminare i corsi quando si trovano nello stato Bozza o Ritirato.
 
 ![](assets/typical-course-lifecycle.png)
 
@@ -633,7 +675,7 @@ Per pubblicare il corso creato, fai clic su **[!UICONTROL Pubblica]** nell’ang
 
 ![](assets/publish-a-course.png)
 
-*Pubblicazione di un corso*
+*Pubblicare un corso*
 
 Fai clic su **[!UICONTROL OK]** nel messaggio di conferma della finestra a comparsa visualizzata.
 
@@ -647,7 +689,7 @@ Nella scheda del corso, passa con il cursore del mouse sulle opzioni e fai clic 
 
 ![](assets/view-a-course.png)
 
-*Visualizzare un corso*
+*Visualizzazione di un corso*
 
 Viene visualizzata la finestra delle informazioni del corso. Il corso è in modalità di sola lettura. Per modificare il corso, fai clic su **[!UICONTROL Modifica]**.
 
@@ -659,7 +701,7 @@ Per ritirare un corso, vai alla scheda del corso, passa con il cursore del mouse
 
 ![](assets/retiring-course.png)
 
-*Ritiro di un corso*
+*Ritirare un corso*
 
 Fai clic su **[!UICONTROL Sì]** nella finestra a comparsa di conferma visualizzata.
 
@@ -675,15 +717,15 @@ Adobe Learning Manager consente di individuare i corsi che cerchi rapidamente e 
 
 ![](assets/search-field.png)
 
-*Cerca corsi*
+*Ricerca di corsi*
 
 **Filtra elenco dei corsi:** puoi filtrare i corsi per stato, come Tutti, Pubblicati, Bozza e Ritirati. A seconda della scelta, puoi visualizzare l’elenco filtrato di corsi e selezionare quelli desiderati.
 
-Come Autore, puoi anche ordinare i corsi per meglio individuare il corso richiesto. Fai clic **[!UICONTROL Ordina per]** e scegli l’ordine alfabetico crescente o decrescente, la data di creazione o di aggiornamento del corso o l’efficacia dei corsi.
+Come Autore, puoi anche ordinare i corsi per meglio individuare il corso richiesto. Fai clic su **[!UICONTROL Ordina per]** e scegli l&#39;ordine alfabetico crescente, l&#39;ordine decrescente, la data di creazione del corso, la data di aggiornamento del corso e l&#39;efficacia dei corsi.
 
 ![](assets/filter-list-of-courses.png)
 
-*Filtrare l’elenco dei corsi*
+*Filtrare l&#39;elenco dei corsi*
 
 ## Iscrizione degli allievi a un corso {#enrolllearnersinacourse}
 
@@ -697,26 +739,26 @@ Per passare alla modalità Amministratore
 
    ![](assets/enroll-learners.png)
 
-   *Iscrizione degli Allievi a un corso*
+   *Iscrivi gli Allievi a un corso*
 
-1. Nell’angolo in alto a destra della finestra di dialogo Iscrivi allievi puoi vedere che l’opzione **Istanza predefinita** è selezionata. Non appena un corso viene creato da un Autore, viene creata un’istanza predefinita del corso.
+1. Nell’angolo in alto a destra della finestra di dialogo Iscrivi allievi puoi vedere che l’opzione **Istanza predefinita** è selezionata. Non appena un corso viene creato da un autore, viene creata un&#39;istanza predefinita del corso.
 
    ![](assets/default-instance.png)
 
-   *Visualizzare l’istanza predefinita di un corso*
+   *Visualizzare l&#39;istanza predefinita di un corso*
 
-1. Inizia a digitare il nome di un Allievo nel campo Includi allievi e seleziona l’Allievo. Qui puoi anche aggiungere gruppi di utenti. Se desideri iscrivere tutti gli Allievi nell’account Learning Manager, inizia a digitare tutti. Puoi inoltre iscrivere gli allievi in un team.
+1. Inizia a digitare il nome di un Allievo nel campo Includi allievi e seleziona l’Allievo. Qui puoi anche aggiungere gruppi di utenti. Se vuoi iscrivere tutti gli Allievi al tuo account di Learning Manager, inizia a digitare tutti. Puoi inoltre iscrivere gli allievi in un team.
 
    ![](assets/include-learners.png)
 
-   *Aggiungere Allievi a un corso*
+   *Aggiungere learher a un corso*
 
 1. Se desideri escludere un Allievo dal corso, inserisci il nome dell’Allievo nel campo **Escludi allievi**.
 1. Dopo aver iscritto gli allievi, fai clic su **[!UICONTROL Procedi]**. Nella finestra di dialogo Iscrivi allievi è possibile visualizzare il riepilogo dell’iscrizione.
 
    ![](assets/summary-of-enrollment.png)
 
-   *Visualizzare il riepilogo dell’iscrizione al corso*
+   *Visualizza il riepilogo delle iscrizioni ai corsi*
 
 1. Per iscrivere tutti gli allievi al corso, fai clic su **[!UICONTROL Iscrivi]**. Questi allievi sono ora iscritti correttamente a questo corso. Gli allievi ricevono una notifica che li invita a seguire il corso. Per iscrivere altri allievi, ripeti la procedura di iscrizione.
 
@@ -731,7 +773,7 @@ Un URL persistente è sempre fisso. Tuttavia gli utenti che non dispongono di Co
 
 ![](assets/dynamic-room-options.png)
 
-*Opzioni sala riunioni dinamica*
+*Opzioni dinamiche per le sale riunioni*
 
 Ora è possibile modificare l’URL della sala permanente ella pagina **Istanza del corso**.
 
@@ -746,7 +788,7 @@ Anche un Amministratore può annullare l’iscrizione degli allievi al corso.
 
 ![](assets/unenroll-learners.png)
 
-*Annullamento dell’iscrizione degli allievi a un corso*
+*Annullare l&#39;iscrizione di un corso*
 
 Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli allievi](/help/migrated/administrators/feature-summary/courses.md).
 
@@ -754,7 +796,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 
 È possibile pubblicare i moduli dei corsi su Learning Manager anche da Adobe Captivate e Adobe Presenter utilizzando il menu Pubblica.
 
-1. In Captivate, fare clic su **[!UICONTROL Pubblica]** > **[!UICONTROL Pubblica su Learning Manager]**.
+1. In Captivate, fai clic su **[!UICONTROL Pubblica]** > **[!UICONTROL Pubblica in Learning Manager]**.
 1. Inserisci il nome di dominio secondario o l’ID e-mail e fai clic su **[!UICONTROL Invia]**. Se disponi di più account, ti viene richiesto di scegliere l’account.
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
@@ -763,7 +805,7 @@ Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager
 
 ## Efficacia del corso {#courseeffectiveness}
 
-Il punteggio dell’efficacia dei corsi aiuta gli Autori a valutare i corsi che si rivelano inadeguati a rispondere alle esigenze degli Allievi e a modificarli di conseguenza. L’efficacia dei corsi viene valutata per comprendere l’utilità di un corso per gli allievi. È una combinazione di risultati dei feedback degli allievi sul contenuto del corso, I risultati del quiz sul corso per un Allievo e il feedback del Manager che valuta un Allievo in base a ciò che ha appreso nel corso.
+Il punteggio dell’efficacia dei corsi aiuta gli Autori a valutare i corsi che si rivelano inadeguati a rispondere alle esigenze degli Allievi e a modificarli di conseguenza. L’efficacia dei corsi viene valutata per comprendere l’utilità di un corso per gli allievi. È una combinazione di risultati dei feedback degli allievi sul contenuto del corso, I risultati del quiz sul corso per un Allievo e il feedback del Manager che valuta un Allievo in base a quanto appreso dal corso.
 
 In **I miei corsi**, l’Autore può vedere la valutazione dell’efficacia del corso nelle miniature, come mostrato nell’immagine seguente. In questo caso, la valutazione del corso è 100.
 
@@ -773,7 +815,7 @@ Il valore di valutazione di efficacia del corso è ottenuto tenendo in considera
 
 ![](assets/how-course-effectivenessiscalculated.png)
 
-*Calcolo dell’efficacia del corso*
+*Calcolo dell&#39;efficacia del corso*
 
 In questa immagine di esempio, 1 utente su 1 ha ricevuto tutti e tre i tipi di feedback, pertanto il punteggio è 100/100. Da questa tabella è possibile comprendere il feedback mancante per migliorare l’efficacia globale. Fai clic sulla freccia rivolta verso il basso nell’angolo in basso a destra del menu a comparsa per vedere come vengono effettuati i calcoli dell’efficacia dei corsi.
 
@@ -785,7 +827,7 @@ Come per il grafico a torta mostrato sopra, viene dato un maggiore peso al feedb
 
 Sia l’Autore che l’Amministratore possono creare certificazioni e programmi di apprendimento per gli allievi dall’app Autore. Nella home page, fai clic su Certificazioni o Programmi di apprendimento per creare i rispettivi oggetti di apprendimento.
 
-Per sapere come creare e gestire certificazioni e programmi di apprendimento, consulta  [Certificazioni](/help/migrated/administrators/feature-summary/certifications.md) e  [Programmi di apprendimento](/help/migrated/administrators/feature-summary/learning-programs.md).
+Per sapere come creare e gestire certificazioni e programmi di apprendimento, consulta [Certificazioni e [programmi](/help/migrated/administrators/feature-summary/learning-programs.md) di](/help/migrated/administrators/feature-summary/certifications.md) apprendimento.
 
 ## Corsi obbligatori per la certificazione esterna {#mandatorycoursesforexternalcertification}
 
@@ -795,7 +837,7 @@ Ora puoi rendere obbligatori i corsi attivando l’opzione **Imposta i corsi ric
 
 ![](assets/set-required-coursesasmandatory.png)
 
-*Impostazione di corsi obbligatori per il completamento di un certificato*
+*Impostare corsi obbligatori per completare un certificato*
 
 Quando i corsi sono impostati come obbligatori:
 
@@ -804,20 +846,20 @@ Quando i corsi sono impostati come obbligatori:
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++Come rimuovere &quot;Cerca nomina Manager&quot; per un corso?
++++Come rimuovere &quot;cerca la nomina di manager&quot; per un corso?
 
 Segui i passaggi riportati di seguito:
 
 1. Accedi a Learning Manager come Autore.
 1. Apri il corso.
-1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Modifica]**.
+1. Nel riquadro sinistro fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Modifica]**.
 1. Nell’elenco a discesa **Tipo di iscrizione**, modifica il tipo di iscrizione da **Nominato dal Manager** ad **Approvato dal Manager** o **Iscrizione autonoma**.
 
 1. Dopo aver modificato il tipo di iscrizione, ripubblica il corso.
 
 +++
 
-+++Come si combinano i corsi?
++++Come combinare i corsi?
 
 È possibile combinare i corsi tramite un programma di apprendimento.
 
@@ -836,9 +878,9 @@ In un programma di apprendimento, è possibile solo aggiungere corsi a cui ti se
 
 +++
 
-+++Come accertarsi che tutti gli Allievi non possano visualizzare tutti i corsi?
++++Come fare in modo che tutti gli Allievi non possano vedere tutti i corsi?
 
-Puoi farlo tramite i cataloghi. Per impostazione predefinita, un catalogo predefinito contiene tutti i corsi aggiunti a Learning Manager.
+Puoi farlo tramite i cataloghi. Un catalogo predefinito contiene tutti i corsi aggiunti a Learning Manager per impostazione predefinita.
 
 Devi disabilitare il catalogo predefinito e creare cataloghi personalizzati.
 
@@ -846,18 +888,18 @@ Devi disabilitare il catalogo predefinito e creare cataloghi personalizzati.
 1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Cataloghi]**.
 1. Crea un catalogo facendo clic su **[!UICONTROL Crea]**. Immetti i dettagli e fai clic su **[!UICONTROL Salva]**.
 
-1. Nelle opzioni del catalogo appena creato, puoi selezionare diversi tipi di apprendimento da aggiungere, ad esempio programma di apprendimento, certificazione o corso.
+1. Nelle opzioni del catalogo appena creato, puoi selezionare diversi tipi di apprendimento che puoi aggiungere, ad esempio programma di apprendimento, certificazione o corso.
 1. Nella sezione Programma di apprendimento fai clic su **[!UICONTROL Aggiungi contenuto]**.
 1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Condividi internamente]** o **[!UICONTROL Condividi esternamente]** a seconda del pubblico di destinazione.
 
 1. Per aggiungere un gruppo di utenti interni, fai clic su **[!UICONTROL Aggiungi gruppi utenti]**.
-1. Nella pagina Cataloghi, disattiva la proprietà **D[!UICONTROL catalogo predefinito]** e abilitare il catalogo creato.
+1. Nella pagina Cataloghi, disattivare il **catalogo]** D[!UICONTROL efault e attivare il catalogo creato.
 
 ![](assets/enable-custom-catalog.png)
 
 +++
 
-+++Come iscriverti nuovamente a un corso completato?
++++Come iscriversi nuovamente a un corso completato?
 
 È impossibile annullare il completamento di un corso. Un Allievo **non può essere iscritto nuovamente** a un corso completato.
 
@@ -875,7 +917,7 @@ Procedi come descritto di seguito:
 
 +++
 
-+++Come aggiungere un file di risorse nel corso?
++++Come aggiungere un file di risorse al corso?
 
 Durante la creazione di un corso, puoi aggiungere al corso file video, audio, PDF o di testo pertinenti per consentire all’Allievo di accedere a materiale didattico aggiuntivo.
 
@@ -883,9 +925,9 @@ Durante la creazione di un corso, puoi aggiungere al corso file video, audio, PD
 
 +++
 
-+++Come si impostano più tentativi nel modulo?
++++Come impostare più tentativi sul modulo?
 
-**Prerequisito:** L’amministratore deve abilitare l’opzione **Tentativi multipli** nel **Impostazioni > Generale** nell’app di amministrazione.
+**Prerequisito:** l&#39;amministratore deve attivare l&#39;opzione **Tentativi** multipli in **Impostazioni > Generale** nell&#39;app Amministratore.
 
 In qualità di Autore, nella pagina della panoramica del corso, abilita l’opzione **Consenti più tentativi**.
 
@@ -893,8 +935,8 @@ Per ulteriori informazioni, consulta la [sezione sui tentativi multipli](courses
 
 +++
 
-+++È possibile scaricare il contenuto caricato su Adobe Learning Manager per modificarlo?
++++È possibile scaricare il contenuto caricato in Adobe Learning Manager per modificarlo?
 
-No, il contenuto caricato su Learning Manager è un file zip pubblicato e non è il file di origine. Pertanto, anche se il contenuto è stato scaricato non può essere modificato in uno strumento di creazione. Per modificare il contenuto è necessario un file di origine.
+No, il contenuto caricato su Learning Manager è un file zip pubblicato e non è il file sorgente. Pertanto, anche se il contenuto è stato scaricato non può essere modificato in uno strumento di creazione. Per modificare il contenuto è necessario un file di origine.
 
 +++
