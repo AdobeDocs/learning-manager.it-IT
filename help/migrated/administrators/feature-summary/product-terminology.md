@@ -1,12 +1,12 @@
 ---
-description: Leggi questo articolo per scoprire come impostare i termini nell’interfaccia utente.
+description: Adobe Learning Manager utilizza un insieme standard di terminologie nell’interfaccia utente. In qualità di amministratore, puoi modificare le terminologie in base alle esigenze della tua organizzazione.
 jcr-language: en_us
 title: Terminologia del prodotto
 contentowner: chandrum
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: b48e97151c95c55db72f91a2b187189c786d43ae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 65%
+source-wordcount: '278'
+ht-degree: 72%
 
 ---
 
@@ -80,6 +80,5 @@ La terminologia viene ripristinata ai nomi originali.
 Le modifiche alla terminologia non si applicano a:
 
 * Modelli e-mail (**[!UICONTROL Amministratore]** > **[!UICONTROL Modelli e-mail]**)
-
 * Report (**[!UICONTROL Amministratore]** > **[!UICONTROL Report]**)
 
