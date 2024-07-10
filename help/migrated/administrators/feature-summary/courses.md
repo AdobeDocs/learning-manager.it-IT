@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di moduli di corso, istanze e programmi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '4746'
-ht-degree: 63%
+source-wordcount: '4868'
+ht-degree: 61%
 
 ---
 
@@ -62,7 +62,7 @@ Per creare un’istanza,
 
    *Imposta scadenza per il completamento*
 
-## Visualizza le proprietà dell’istanza {#viewpropertiesoftheinstance}
+### Visualizza le proprietà dell’istanza {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
 
@@ -73,7 +73,11 @@ Per creare un’istanza,
 1. **Sessioni:** il numero di moduli Classe e Classe virtuale nel corso.
 1. **Feedback abilitato:** Visualizza se i feedback L1, L2 e L3 sono abilitati per questo corso.
 
-## Ritiro dell’istanza {#retireaninstance}
+>[!NOTE]
+>
+>L’amministratore annulla le sessioni passando a Istanze > Sessioni e selezionando Annulla sessione.
+
+### Ritiro dell’istanza {#retireaninstance}
 
 Per ritirare un’istanza, procedi come indicato di seguito.
 
@@ -85,7 +89,7 @@ Per ritirare un’istanza, procedi come indicato di seguito.
 
 1. Per cercare tutte le istanze ritirate, fai clic sulla scheda **[!UICONTROL Ritirate]** nella pagina Istanze.
 
-## Ripristino di un’istanza {#restoreaninstance}
+### Ripristino di un’istanza {#restoreaninstance}
 
 Per ripristinare lo stato di attivazione di un’istanza ritirata, procedi come indicato di seguito:
 
@@ -97,7 +101,7 @@ Per ripristinare lo stato di attivazione di un’istanza ritirata, procedi come 
 
 1. L’istanza viene ripristinata in modalità attiva.
 
-## Eliminare un’istanza
+### Eliminare un’istanza
 
 Gli amministratori possono eliminare l’istanza utilizzando **Elimina questa istanza** immediatamente dopo la creazione. Non è possibile eliminare le istanze se è collegata una sessione o se vi sono iscritti allievi.
 
@@ -109,7 +113,7 @@ Gli amministratori possono eliminare l’istanza utilizzando **Elimina questa is
 >
 >Non è possibile eliminare l&#39;istanza predefinita.
 
-## Invio di e-mail a livello di istanza
+### Invio di e-mail a livello di istanza
 
 Ecco cosa devono fare gli Allievi per inviare e-mail a livello di istanza:
 
@@ -129,7 +133,7 @@ Ecco cosa devono fare gli Allievi per inviare e-mail a livello di istanza:
 
    ![Annuncio creato correttamente](assets/announcement-successful.png)
 
-### Iscrizione degli Allievi ai corsi
+## Iscrizione degli Allievi ai corsi
 
 In questo corso di formazione imparerai come iscrivere, annullare e iscrivere nuovamente gli Allievi.
 
@@ -145,7 +149,7 @@ Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>
 
    ![Iscrizione degli Allievi](assets/enroll-learners-new.png)
 
-   *Pubblicazione del corso*
+   *Publish del corso*
 
 1. Nella finestra di dialogo [!UICONTROL **Iscrivi Allievi**], è possibile:
 
@@ -196,42 +200,57 @@ Il file Excel contiene fogli di lavoro per ogni istanza. Un foglio di lavoro è 
 >
 >Se hai configurato l’automazione dei report che prevede una sola riga per corso, prima di abilitare la funzione Iscrizione multipla devi apportare le modifiche necessarie all’automazione dei report.
 
-## Impostazione del livello di escalation {#escalation}
+### Gestisci l’elenco degli Allievi per un corso {#managelearnerslistforacourse}
 
-Per inviare le notifiche e-mail, l’Amministratore deve scegliere esplicitamente il livello di escalation per:
+1. Fai clic sul nome del corso nella miniatura del corso.
+1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Allievi]**.
 
-* Manager
-* Manager e Manager salta livello
+![](assets/courses-learners.png)
 
-![](assets/escalation-notification.png)
+*Selezionare gli Allievi in un corso*
 
-*Imposta livello di escalation*
+Puoi effettuare le seguenti azioni dalla pagina degli Allievi:
+
+* Seleziona l’Allievo da rimuovere e fai clic su [!UICONTROL **Azioni**] > [!UICONTROL **Rimuovi**].
+* Seleziona l’Allievo di cui desideri contrassegnare la partecipazione e fai clic su [!UICONTROL **Azioni**] > [!UICONTROL **Contrassegna come completato**].
+
+Per consentire agli Allievi di ripristinare un modulo e di utilizzarlo di nuovo, fai clic su [!UICONTROL **Reimposta**]. Nella finestra di dialogo a comparsa, fai clic su Sì per confermare il ripristino. I moduli che sono stati completati non possono essere ripristinati. Solo i moduli non riusciti o non completi possono essere ripristinati.
+
+Puoi inoltre esportare l’elenco degli Allievi in un foglio Excel. Per esportare l’elenco degli Allievi, fai clic su [!UICONTROL **Azioni**] > [!UICONTROL **Esporta**].
+
+>[!NOTE]
+>
+>Se sono presenti più istanze per un corso, l’elenco degli Allievi in Excel viene fornito separatamente in ogni scheda. L’elenco degli Allievi include nome, stato e criteri di selezione degli Allievi. Lo stato degli Allievi può essere **Non avviato** o **In corso** o **Completato**.
+
+### Esportazione degli Allievi in attesa di approvazione
+
+Un Amministratore, un Manager o un Amministratore personalizzato può esportare i dati degli Allievi in attesa di approvazione della loro iscrizione. Puoi esportare i dati tramite la scheda **Corso > Allievo** e fare clic sull’elenco a discesa Azione.
+
+L’opzione sarà disponibile quando nessun Allievo è iscritto/in attesa di approvazione al corso approvato dal Manager e verrà generato un report vuoto. Puoi anche esportare quando gli Allievi sono in attesa di approvazione, iscritti, in sospeso o disiscritti.
+
+Il report contiene i dati degli utenti attivi, eliminati e sospesi se sono in attesa di approvazione. Il report contiene anche i dati degli utenti interni ed esterni che si trovano in attesa di approvazione.
+
+Se un Allievo che era in attesa di approvazione si disiscrive, il suo resoconto non sarà presente nel report. Se un Allievo che era in attesa di approvazione viene iscritto al corso da un Amministratore/Manager/Amministratore personalizzato, il suo resoconto sarà presente nel report.
 
 ## Lista d’attesa
 
 La sezione della lista d’attesa consente agli Allievi di essere inseriti in lista d’attesa per i corsi in aula quando i posti sono limitati, in base all’ordine di iscrizione. Gli Amministratori possono gestire questa operazione selezionando gli Allievi nella lista d’attesa e assegnando posti oltre il limite iniziale. Una volta che l’Amministratore ha assegnato un posto, l’Allievo è immediatamente iscritto al corso.
 
-## Forum di discussione
+## Esportazione della partecipazione degli Allievi {#attendance}
 
-La funzione Forum di discussione consente agli Allievi di visualizzare le discussioni del corso. In qualità di amministratore, puoi eliminare eventuali commenti in base alle esigenze. Gli amministratori possono abilitare questa opzione nelle impostazioni del corso.
+Per qualsiasi aula e corso VC puoi scaricare l’elenco degli Allievi che hanno frequentato qualsiasi istanza di questo corso.
 
-## Moderazione del corso {#coursemoderation}
+Nella pagina dei dettagli del corso, fai clic su **[!UICONTROL Frequenza e Punteggio]** nel riquadro a destra.
 
-Ogni volta che un Autore aggiunge, aggiorna o elimina moduli e ripubblica un corso, tutti gli Amministratori ricevono una notifica a riguardo. Come Amministratore, puoi visualizzare le modifiche, confrontare i contenuti vecchi e nuovi facendo clic sul collegamento e approvare o rifiutare le modifiche di conseguenza.
+Nell’angolo in alto a destra della pagina, fai clic sull’elenco a discesa **[!UICONTROL Azioni]**. Quindi fai clic sull’opzione **[!UICONTROL Esportazione dell’elenco di Allievi (PDF)]**.
 
-Per abilitare la moderazione dei corsi, fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Generale]**. Seleziona la casella di controllo **[!UICONTROL Moderazione del corso]** per abilitare questa funzione.
+![](assets/export-list-of-learners.png)
 
-![](assets/2.png)
+*Esportazione dell’elenco di Allievi come PDF*
 
-*Abilita moderazione del corso*
+Nel PDF è possibile vedere lo stesso gruppo di allievi che vede un Istruttore.
 
-Fai clic sulla notifica per visualizzare le modifiche che l’Autore ha apportato al corso. Quindi, approva o rifiuta le modifiche apportate dall’Autore. Se scegli di approvarle, il corso verrà ripubblicato. Se rifiuti gli aggiornamenti, la versione precedente del corso continuerà a esistere. In entrambi i casi, l’Autore riceverà una notifica.
-
-![](assets/1.png)
-
-*Richieste dell’Autore per gli aggiornamenti dei corsi*
-
-Se più Autori stanno aggiornando lo stesso corso, la modifica più recente o l’ultima modifica eseguita verranno riportate nella notifica dell’Amministratore. È quindi possibile approvare o rifiutare le modifiche più recenti.
+Quando si scarica il PDF, è possibile visualizzare il fuso orario (ora UTC) utilizzato per la creazione del corso.
 
 ## Aggiungi feedback L1 e L3 {#addl1andl3feedback}
 
@@ -243,7 +262,7 @@ Puoi aggiungere le opzioni di feedback L1 e L3 mentre crei i corsi:
 1. Fai clic sul cerchio sul pulsante di attivazione vicino al feedback L1 o L3 per attivarlo.
 1. Aggiungi la domanda al feedback L3 nell’area di testo sotto Domanda L3.
 
-## Feedback L1 obbligatorio {#mandatory-l1-feedback}
+### Feedback L1 obbligatorio {#mandatory-l1-feedback}
 
 Puoi rendere obbligatorie tutte le domande o la prima domanda in un feedback L1.
 
@@ -269,7 +288,7 @@ Nella pagina Valori predefiniti istanza, se si abilita **[!UICONTROL Rendi obbli
 
 *Visualizza la pagina Impostazioni predefinite istanza*
 
-## Feedback L1 a livello di corso {#l1-feedback-course-level}
+### Feedback L1 a livello di corso {#l1-feedback-course-level}
 
 Nelle versioni precedenti di Learning Manager, l’Amministratore poteva abilitare il feedback L1 per il programma di apprendimento.
 
@@ -293,7 +312,7 @@ In questa versione di Learning Manager, l’Amministratore può inviare feedback
 
    Se il feedback L1 è abilitato per tutti i corsi, ma è disabilitato nell’istanza del programma di apprendimento, il feedback L1 non verrà attivato per i corsi.
 
-## Report dei quiz specifici per ogni lingua
+### Report dei quiz specifici per ogni lingua
 
 I report dei quiz consentono di valutare le prestazioni di un Allievo che ha completato un programma di apprendimento o un corso.
 
@@ -303,7 +322,7 @@ I report dei quiz visualizzano i dati in lingue diverse purché il corso sia dis
 
 Adesso, invece, l’Amministratore è in grado di visualizzare contemporaneamente tutti i report dei quiz svolti dagli Allievi, indipendentemente dalla lingua dei contenuti selezionata. I quiz tentati in lingue diverse verranno aggiunti come colonne extra nel report del quiz.
 
-## Abilitazione del feedback L1 a livello di account {#l1-feedback-account-level}
+### Abilitazione del feedback L1 a livello di account {#l1-feedback-account-level}
 
 *Abilita feedback L1 a livello di account*
 
@@ -329,7 +348,7 @@ Puoi anche disattivare il feedback L1 attivando il **[!UICONTROL Abilita]** come
 
 *Attivare o disattivare il feedback L1*
 
-## Aggiungi domande descrittive per il feedback L1 e L3 {#descriptive}
+### Aggiungi domande descrittive per il feedback L1 e L3 {#descriptive}
 
 Nell’ambito della versione di novembre di Learning Manager è stata fornita un’opzione per aggiungere domande descrittive. Gli Amministratori possono aggiungere queste domande agli Allievi. Tutto questo viene aggiunto al set di domande predefinito fornito da Learning Manager. Se richiesto, è anche possibile configurarne l’obbligatorietà selezionando l’opzione appropriata sotto la domanda.
 
@@ -363,7 +382,7 @@ Di seguito è riportato un esempio dei risultati del questionario L3 come riferi
 
 *Visualizza output feedback L3*
 
-## Configurazione del questionario di feedback L1 e L3 {#setupl1andl3feedbackquestionnaire}
+### Configurazione del questionario di feedback L1 e L3 {#setupl1andl3feedbackquestionnaire}
 
 È possibile impostare il questionario di feedback L1 e L3 e i promemoria a livello di account.
 
@@ -379,6 +398,36 @@ Di seguito è riportato un esempio dei risultati del questionario L3 come riferi
 1. Fai clic **[!UICONTROL Salva]** nell’angolo in alto a destra della pagina.
 
 Nel feedback L1, puoi visualizzare due serie di domande insieme a una domanda predefinita. La prima serie di domande si riferisce a corsi autonomi che possono essere utilizzati anche per corsi basati su attività. La seconda serie di domande può essere utilizzata per i corsi in aula e in aula virtuale.
+
+## Visualizzare feedback L1 e L3 {#viewl1andl3feedback}
+
+Puoi visualizzare il feedback L1 fornito dagli Allievi per un corso e il feedback L3 fornito dai Manager per gli Allievi.
+
+1. Fai clic su qualsiasi riquadro del corso nell’elenco dei corsi.
+1. Fai clic su Feedback L1 o Feedback L3 nel riquadro sinistro per visualizzare il feedback ricevuto.
+1. Seleziona l’istanza dall’elenco a discesa per visualizzare il feedback per la specifica istanza.
+
+## Forum di discussione
+
+La funzione Forum di discussione consente agli Allievi di visualizzare le discussioni del corso. In qualità di amministratore, puoi eliminare eventuali commenti in base alle esigenze. Gli amministratori possono abilitare questa opzione nelle impostazioni del corso.
+
+## Moderazione del corso {#coursemoderation}
+
+Ogni volta che un Autore aggiunge, aggiorna o elimina moduli e ripubblica un corso, tutti gli Amministratori ricevono una notifica a riguardo. Come Amministratore, puoi visualizzare le modifiche, confrontare i contenuti vecchi e nuovi facendo clic sul collegamento e approvare o rifiutare le modifiche di conseguenza.
+
+Per abilitare la moderazione dei corsi, fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Generale]**. Seleziona la casella di controllo **[!UICONTROL Moderazione del corso]** per abilitare questa funzione.
+
+![](assets/2.png)
+
+*Abilita moderazione del corso*
+
+Fai clic sulla notifica per visualizzare le modifiche che l’Autore ha apportato al corso. Quindi, approva o rifiuta le modifiche apportate dall’Autore. Se scegli di approvarle, il corso verrà ripubblicato. Se rifiuti gli aggiornamenti, la versione precedente del corso continuerà a esistere. In entrambi i casi, l’Autore riceverà una notifica.
+
+![](assets/1.png)
+
+*Richieste dell’Autore per gli aggiornamenti dei corsi*
+
+Se più Autori stanno aggiornando lo stesso corso, la modifica più recente o l’ultima modifica eseguita verranno riportate nella notifica dell’Amministratore. È quindi possibile approvare o rifiutare le modifiche più recenti.
 
 ## Esportazione dei dati dell’elenco di controllo {#export-checklist-data}
 
@@ -429,61 +478,26 @@ Puoi visualizzare i punteggi del quiz di ogni corso in base al nome utente o a c
 
 Scegli il tipo di istanza dall’elenco a discesa per visualizzare i punteggi in base a ogni istanza del corso.
 
-## Gestisci l’elenco degli Allievi per un corso {#managelearnerslistforacourse}
+## Istanza predefinita
 
-1. Fai clic sul nome del corso nella miniatura del corso.
-1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Allievi]**.
+Gli amministratori possono impostare i distintivi, le impostazioni di gamification e i promemoria predefiniti in **[!UICONTROL Istanza predefinita]** pagina. Per modificare le impostazioni di istanza predefinite, selezionate **[!UICONTROL Istanza predefinita]** > **[!UICONTROL Modifica]**.
 
-![](assets/courses-learners.png)
+* **[!UICONTROL Badge]**: seleziona i distintivi predefiniti dal menu a discesa.
+* **[!UICONTROL Gamification]**: consente di configurare le impostazioni di gamification, inclusi i punti per il completamento, il completamento anticipato e il completamento puntuale. Gli amministratori possono selezionare le impostazioni a livello di account o personalizzare i punti di gamification per questa istanza.
+* **[!UICONTROL Feedback reazione L1]**: consente di abilitare le domande predefinite per il feedback degli allievi al completamento del corso, con opzioni per rendere le domande obbligatorie.
+***[!UICONTROL Feedback modifica comportamento L3]**: abilitare le domande di feedback per il manager dell’Allievo al completamento del corso.
+***[!UICONTROL Impostazioni promemoria]**: consente di impostare e gestire promemoria per le scadenze, con opzioni di escalation.
 
-*Selezionare gli Allievi in un corso*
+### Impostazione del livello di escalation {#escalation}
 
-Puoi effettuare le seguenti azioni dalla pagina degli Allievi:
+Per inviare le notifiche e-mail, l’Amministratore deve scegliere esplicitamente il livello di escalation per:
 
-* Seleziona l’Allievo da rimuovere e fai clic su [!UICONTROL **Azioni**] > [!UICONTROL **Rimuovi**].
-* Seleziona l’Allievo di cui desideri contrassegnare la partecipazione e fai clic su [!UICONTROL **Azioni**] > [!UICONTROL **Contrassegna come completato**].
+* Manager
+* Manager e Manager salta livello
 
-Per consentire agli Allievi di ripristinare un modulo e di utilizzarlo di nuovo, fai clic su [!UICONTROL **Reimposta**]. Nella finestra di dialogo a comparsa, fai clic su Sì per confermare il ripristino. I moduli che sono stati completati non possono essere ripristinati. Solo i moduli non riusciti o non completi possono essere ripristinati.
+![](assets/escalation-notification.png)
 
-Puoi inoltre esportare l’elenco degli Allievi in un foglio Excel. Per esportare l’elenco degli Allievi, fai clic su [!UICONTROL **Azioni**] > [!UICONTROL **Esporta**].
-
->[!NOTE]
->
->Se sono presenti più istanze per un corso, l’elenco degli Allievi in Excel viene fornito separatamente in ogni scheda. L’elenco degli Allievi include nome, stato e criteri di selezione degli Allievi. Lo stato degli Allievi può essere **Non avviato** o **In corso** o **Completato**.
-
-## Esportazione della partecipazione degli Allievi {#attendance}
-
-Per qualsiasi aula e corso VC puoi scaricare l’elenco degli Allievi che hanno frequentato qualsiasi istanza di questo corso.
-
-Nella pagina dei dettagli del corso, fai clic su **[!UICONTROL Frequenza e Punteggio]** nel riquadro a destra.
-
-Nell’angolo in alto a destra della pagina, fai clic sull’elenco a discesa **[!UICONTROL Azioni]**. Quindi fai clic sull’opzione **[!UICONTROL Esportazione dell’elenco di Allievi (PDF)]**.
-
-![](assets/export-list-of-learners.png)
-
-*Esportazione dell’elenco di Allievi come PDF*
-
-Nel PDF è possibile vedere lo stesso gruppo di allievi che vede un Istruttore.
-
-Quando si scarica il PDF, è possibile visualizzare il fuso orario (ora UTC) utilizzato per la creazione del corso.
-
-## Esportazione degli Allievi in attesa di approvazione
-
-Un Amministratore, un Manager o un Amministratore personalizzato può esportare i dati degli Allievi in attesa di approvazione della loro iscrizione. Puoi esportare i dati tramite la scheda **Corso > Allievo** e fare clic sull’elenco a discesa Azione.
-
-L’opzione sarà disponibile quando nessun Allievo è iscritto/in attesa di approvazione al corso approvato dal Manager e verrà generato un report vuoto. Puoi anche esportare quando gli Allievi sono in attesa di approvazione, iscritti, in sospeso o disiscritti.
-
-Il report contiene i dati degli utenti attivi, eliminati e sospesi se sono in attesa di approvazione. Il report contiene anche i dati degli utenti interni ed esterni che si trovano in attesa di approvazione.
-
-Se un Allievo che era in attesa di approvazione si disiscrive, il suo resoconto non sarà presente nel report. Se un Allievo che era in attesa di approvazione viene iscritto al corso da un Amministratore/Manager/Amministratore personalizzato, il suo resoconto sarà presente nel report.
-
-## Visualizzare feedback L1 e L3 {#viewl1andl3feedback}
-
-Puoi visualizzare il feedback L1 fornito dagli Allievi per un corso e il feedback L3 fornito dai Manager per gli Allievi.
-
-1. Fai clic su qualsiasi riquadro del corso nell’elenco dei corsi.
-1. Fai clic su Feedback L1 o Feedback L3 nel riquadro sinistro per visualizzare il feedback ricevuto.
-1. Seleziona l’istanza dall’elenco a discesa per visualizzare il feedback per la specifica istanza.
+*Imposta livello di escalation*
 
 ## Anteprima dei corsi {#previewcourses}
 

@@ -2,27 +2,27 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 5769b88c430cc5c0cfccaa75ceaca4862ee7e52e
+source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 88%
 
 ---
 
 
-# Guida per Learning Manager {#using}
+# Guida di Learning Manager {#using}
 
 * [Guida utente di Learning Manager](user-guide.md)
 * Introduzione {#introduction}
    * [Riepilogo delle nuove funzioni](whats-new.md)
    * [Nuove funzioni marzo 2024](whats-new-march-2024.md)
    * [Nuove funzioni novembre 2023](whats-new-november-2023.md)
-   * [Nuove funzionalità Luglio 2023](whats-new-2023-july.md)
-   * [Nuove funzionalità aprile 2023](whats-new-2023-april.md)
-   * [Nuove funzioni ottobre 2022](whats-new-2022-november.md)
+   * [Nuove funzioni luglio 2023](whats-new-2023-july.md)
+   * [Nuove funzioni aprile 2023](whats-new-2023-april.md)
+   * [Nuove funzioni di novembre 2022](whats-new-2022-november.md)
    * [Note sulla versione](release-note/release-notes.md)
    * [Requisiti di sistema](system-requirements.md)
-   * [Pacchetto del sito di riferimento ALM per AEM Sites](adobe-learning-manager-integration-aem.md)
+   * [Pacchetto per il sito di riferimento ALM per AEM Sites](adobe-learning-manager-integration-aem.md)
    * [App Adobe Learning Manager per Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Conformità di Learning Manager al GDPR](kb/prime-gdpr.md)
    * [Accessibilità in Learning Manager](accessibility-learning-manager.md)
@@ -30,8 +30,8 @@ ht-degree: 88%
    * [Consigli in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Transizione dall’FTP di Adobe Manager](transition-from-ftp-manager.md)
    * [Modifiche e deprecazioni delle API in Adobe Learning Manager](api-deprecations-list.md)
-   * [Whitelabeling in Adobe Learning Manager](white-label.md)
-* Inizia {#get-started}
+   * [Assegnazione di etichette bianche in Adobe Learning Manager](white-label.md)
+* Introduzione {#get-started}
    * [Guida introduttiva come Amministratore](administrators/feature-summary/getting-started-admin.md)
    * [Guida introduttiva come Autore](authors/feature-summary/getting-started-author.md)
    * [Guida introduttiva come Allievo](learners/feature-summary/getting-started-learner.md)
@@ -56,7 +56,7 @@ ht-degree: 88%
    * [Account condivisi tra pari](administrators/feature-summary/peer-account.md)
    * [Creazione e modifica di abilità e livelli](administrators/feature-summary/skills-levels.md)
    * [Corsi consigliati tramite intelligenza artificiale](ai-based-recommendations.md)
-   * [Importare abilità](administrators/feature-summary/import-skills-external-sources.md)
+   * [Importa abilità](administrators/feature-summary/import-skills-external-sources.md)
    * [Gamification](administrators/feature-summary/gamification.md)
    * [Personalizzazione della pagina principale dell’Allievo](administrators/feature-summary/customize-learner-homepage.md)
    * [Distintivi](administrators/feature-summary/badges.md)
@@ -83,7 +83,8 @@ ht-degree: 88%
    * [Iscrizione multipla](administrators/feature-summary/multiple-enrollment.md)
    * [Esperienza senza accesso per gli Allievi](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programmi di apprendimento](administrators/feature-summary/learning-programs.md)
-* Amministratore dell&#39;integrazione {#integration}
+   * [Terminologia del prodotto](administrators/feature-summary/product-terminology.md)
+* Amministratore dell’integrazione {#integration}
    * [Manuale di migrazione](integration-admin/feature-summary/migration-manual.md)
    * [Connettori Learning Manager](integration-admin/feature-summary/connectors.md)
    * [API senza accesso](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -110,7 +111,7 @@ ht-degree: 88%
 * Istruttore {#instructor}
    * [Moduli](instructors/feature-summary/modules.md)
    * [Gestione degli Allievi per la sessione](instructors/feature-summary/learners.md)
-* Studente {#learner}
+* Allievo {#learner}
    * [Accesso](learners/feature-summary/user-login.md)
    * [Impostazioni profilo](learners/feature-summary/settings.md)
    * [Cataloghi](learners/feature-summary/catalogs.md)
@@ -119,7 +120,7 @@ ht-degree: 88%
    * [Programmi di apprendimento](learners/feature-summary/learning-programs.md)
    * [Certificazioni](learners/feature-summary/certifications.md)
    * [Risorse formative](learners/feature-summary/job-aids.md)
-   * [Carrello multiarticolo in ALM](learners/feature-summary/multi-item-cart.md)
+   * [Carrello per più articoli in ALM](learners/feature-summary/multi-item-cart.md)
    * [Distintivi](learners/feature-summary/badges.md)
    * [Abilità e livelli](learners/feature-summary/skills-levels.md)
    * [Gamification](learners/feature-summary/gamification.md)
@@ -134,7 +135,7 @@ ht-degree: 88%
    * [Pagina principale dell’Allievo](learners/feature-summary/learner-home-page.md)
    * [Condivisione su Apprendimento sociale](learners/feature-summary/share-to-social.md)
    * [Requisiti di sistema | Applicazione desktop Adobe Learning Manager](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* Direttore {#manager}
+* Manager {#manager}
    * [Accesso utente](managers/feature-summary/user-login.md)
    * [Dashboard per i Manager](managers/feature-summary/manager-dashboard.md)
    * [Rapporti](managers/feature-summary/reports.md)

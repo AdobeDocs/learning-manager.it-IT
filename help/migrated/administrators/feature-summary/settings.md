@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Impostazioni
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 65%
+source-wordcount: '3836'
+ht-degree: 66%
 
 ---
 
@@ -483,24 +483,6 @@ Misto\
 Aula\
 Classe virtuale\
 Activity
-
-Per rinominare i termini, procedi come indicato di seguito.
-
-1. Come Amministratore, fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Generale]** > **[!UICONTROL Terminologia del prodotto]**. Si apre l’opzione relativa alla terminologia del prodotto.
-
-   ![](assets/product-terminology.png)
-
-   *Rinominare la terminologia del prodotto*
-
-1. Le modifiche possono essere apportate caricando un modello di terminologia del prodotto modificato scaricando il file CSV di esempio. Per scaricare il file CSV di esempio, fai clic sul pulsante **[!UICONTROL Scarica qui]** opzione.
-1. Il file CSV scaricato contiene il nome degli oggetti nella colonna A. Nella colonna B, scegliete il nome da assegnare al rispettivo oggetto. È necessario aggiornare la forma singolare e plurale del nome separate da (|).
-1. Potete scegliere di modificare una o più righe. Puoi conservare le righe non modificate o rimuoverle dal file CSV prima di caricarle.
-1. Carica il file CSV modificato e fai clic su **[!UICONTROL Salva]**. Learning Manager si aggiorna riflettendo le modifiche.
-1. Per ripristinare i termini predefiniti, fare clic su **[!UICONTROL Ripristina terminologia del prodotto]**.
-
-   ![](assets/with-reset-option.png)
-
-   *Reimpostare i termini del prodotto*
 
 ## Impostazioni profilo {#profilesettings}
 

@@ -4,10 +4,10 @@ title: Gestisci ruoli personalizzati tramite file CSV
 description: L’Amministratore di integrazione può aggiungere vari ruoli personalizzati al proprio account in un’unica soluzione tramite CSV e può assegnare lo stesso ruolo a vari utenti. Questo approccio automatizza il processo di creazione dei ruoli personalizzati.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -19,14 +19,16 @@ Puoi configurare i ruoli tramite i connettori Learning Manager FTP e Box.
 
 Dopo aver effettuato l’accesso all’account di archiviazione Box, l’Amministratore dell’integrazione può aggiungere i seguenti file CSV all’account:
 
+* user.csv
 * role.csv
 * user_role.csv
 
 Per iniziare, scarica i csv e modifica i valori in base alle tue esigenze.
 
-**role.csv**
 * File di esempio: [role.csv](assets/role.csv)
 * File di esempio: [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ Se nel CSV sono presenti nomi di catalogo o nomi di gruppi di utenti, questi ven
 
 Nell’account Box, seleziona **Import > user > internal** (Importa > Utente > Interno) e carica i file role.csv e user_role.csv.
 
-* I file CSV del ruolo personalizzato devono essere copiati nella cartella &quot;import->user->internal->user_role&quot;
-* Il file CSV degli utenti deve essere copiato nella cartella &quot;import->user->internal&quot;
+* Nella cartella devono essere copiati role.csv e user_role.csv **Importa** > **utente** > **interno** > **user_role**.
+* User.csv deve essere copiato nella cartella **Importa** > **utente** > **interno**.
 
-Entrambi i CSV devono essere caricati solo tramite Box o FTP e non possono essere caricati tramite l’interfaccia utente.
+Entrambi i file CSV devono essere caricati solo tramite Box e non possono essere caricati tramite l’interfaccia utente.
 
 >[!NOTE]
 >
