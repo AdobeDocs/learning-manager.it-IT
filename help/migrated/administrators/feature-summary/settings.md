@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Impostazioni
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
-source-wordcount: '3836'
+source-wordcount: '3595'
 ht-degree: 66%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 66%
 
 Scopri ulteriori informazioni sulle impostazioni dell’account Learning Manager che è possibile configurare come Amministratore.
 
-È possibile modificare le impostazioni del profilo di Amministratore e aggiornare le impostazioni dell’account. Visualizza le informazioni di profilo, aggiungi/modifica la foto profilo e modifica **[!UICONTROL Informazioni personali]** contenuto. Aggiorna le tue informazioni aziendali e configura i metodi di accesso per gli utenti e l’integrazione di Connect tramite le impostazioni dell’account.
+È possibile modificare le impostazioni del profilo di Amministratore e aggiornare le impostazioni dell’account. Visualizza le informazioni di profilo, aggiungi/modifica la foto profilo e modifica il contenuto di **[!UICONTROL Informazioni su di me]**. Aggiorna le tue informazioni aziendali e configura i metodi di accesso per gli utenti e l’integrazione di Connect tramite le impostazioni dell’account.
+
+![](assets/settings-admin.png)
 
 ## Configurare il Adobe Learning Manager
 
@@ -24,26 +26,26 @@ Questo corso di formazione acquisisce le nozioni di base delle impostazioni a li
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
 
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Impostazioni account {#accountsettings}
 
-Per aggiornare le impostazioni dell&#39;account della tua organizzazione, fai clic su **[!UICONTROL Impostazioni]** nel riquadro sinistro.
+Per aggiornare le impostazioni dell&#39;account della tua organizzazione, fai clic su **[!UICONTROL Impostazioni]** nel riquadro a sinistra.
 
 **Informazioni di base (informazioni aziendali)**
 
-Fai clic **[!UICONTROL Modifica]** nella pagina e modificare paese, fuso orario, impostazioni locali e anno finanziario.
+Fai clic su **[!UICONTROL Cambia]** nella pagina e modifica paese, fuso orario, impostazioni locali e anno fiscale.
 
 **Configura Amministratore contatti**
 
-Per aggiungere o modificare gli indirizzi e-mail degli Amministratori di supporto per l’organizzazione, fai clic su **[!UICONTROL Generale]** nel riquadro di sinistra. Fai clic **[!UICONTROL Modifica]** adiacente a **[!UICONTROL ID e-mail supporto]** e aggiungi gli id e-mail. L’e-mail viene inviata a questi Amministratori quando l’Allievo fa clic **[!UICONTROL Contatta l’amministratore]** in fondo alla pagina.
+Per aggiungere o modificare gli indirizzi e-mail degli Amministratori di supporto per l’organizzazione, fai clic su **[!UICONTROL Generale]** nel riquadro di sinistra. Fai clic su **[!UICONTROL Modifica]** accanto a **[!UICONTROL ID e-mail di supporto]** e aggiungi gli ID e-mail. L’e-mail viene inviata a questi Amministratori quando l’Allievo fa clic su **[!UICONTROL Contatta l’Amministratore]** in fondo alla pagina.
 
 Aggiungi altri ID e-mail con punto e virgola come separatore.
 
 **Metodi di accesso** - Gli amministratori possono scegliere la modalità con cui gli utenti interni o esterni possono accedere all’account.
 
 * **Utenti interni:** Per gli utenti interni, è possibile impostare Adobe ID o Single Sign-On come modalità di accesso.
-* **Utenti esterni:** Per gli utenti esterni, puoi impostare l’Adobe ID, l’accesso unico o l’ID di Learning Manager.
+* **Utenti esterni:** Per gli utenti esterni, è possibile impostare l’Adobe ID, l’accesso unico o l’ID di Learning Manager.
 
 Se scegli l’ID di Learning Manager, gli utenti esterni possono accedere a questo account dopo aver creato nome utente e password Learning Manager.
 
@@ -55,21 +57,21 @@ Se scegli l’ID di Learning Manager, gli utenti esterni possono accedere a ques
 
 **Feedback**
 
-Fai clic su **[!UICONTROL Feedback]** nel riquadro di sinistra per configurare il questionario per ottenere il feedback degli Allievi al completamento di un corso. Fare riferimento a [contenuti della guida alle funzionalità dei corsi](courses.md) durante la creazione di feedback L1 e L3.
+Fai clic su **[!UICONTROL Feedback]** nel riquadro di sinistra per configurare il questionario per ottenere il feedback degli Allievi al completamento di un corso. Per informazioni sulla creazione di feedback L1 e L3, fai riferimento ai [contenuti della guida alle funzionalità dei corsi](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback).
 
 **Tentativi multipli**
 
-Seleziona **[!UICONTROL Impostazioni]** > **[!UICONTROL Generale]** > **[!UICONTROL Tentativi multipli]**.
+Selezionare **[!UICONTROL Impostazioni]** > **[!UICONTROL Generali]** > **[!UICONTROL Tentativi multipli]**.
 
 Se attivi la casella di controllo &quot;Tentativi multipli&quot;, gli Autori possono impostare &quot;Tentativi multipli&quot; per i corsi o i moduli di e-learning interattivi. Selezionando la seconda casella di controllo, gli Amministratori possono impostare &quot;Tentativi infiniti&quot; per impostazione predefinita per qualsiasi corso di e-learning interattivo appena creato.
 
 ![](assets/admin-config.png)
 
-*Seleziona la casella di controllo Tentativi multipli.*
+*Selezionare la casella di controllo Tentativi multipli*
 
 **Moderazione del corso**
 
-Fai clic **[!UICONTROL Generale]** dal riquadro a sinistra, e seleziona l’opzione Moderazione del corso per abilitare la funzionalità Moderazione del corso. Per ulteriori informazioni su questa funzione, consulta [Moderazione del corso](courses.md#main-pars_header_1879001177).
+Fai clic su **[!UICONTROL Generale]** dal riquadro a sinistra e seleziona l’opzione Moderazione del corso per abilitare la funzionalità di moderazione dei corsi. Per ulteriori informazioni su questa funzione, consulta [Moderazione del corso](courses.md#main-pars_header_1879001177).
 
 **Forum di discussione**
 
@@ -81,7 +83,7 @@ Nel riquadro a sinistra, fai clic su Dashboard Allievo. Questa pagina consente d
 
 **Adobe Connect**
 
-Fai clic **[!UICONTROL Adobe Connect]** nel riquadro a sinistra per configurare l’account Adobe Connect in modo che ospiti sessioni in aula virtuale. Per ulteriori informazioni, consulta  [Adobe Connect](adobeconnect-integration.md) guida alle funzionalità.
+Fai clic su **[!UICONTROL Adobe Connect]** nel riquadro a sinistra per configurare l’account Adobe Connect in modo che ospiti sessioni in aula virtuale. Per ulteriori informazioni, consulta la guida alle funzionalità di [Adobe Connect](adobeconnect-integration.md).
 
 ## Impostazioni generali {#general}
 
@@ -204,7 +206,7 @@ Attivare o disattivare le seguenti impostazioni:
     </ol>
     <p>Inoltre puoi:</p>
     <ul>
-     <li>Fare clic sul pulsante <b>Reimposta</b> per ripristinare i valori predefiniti nella <b>Aiuto</b> e <b>Contatta l’amministratore</b> campi.</li>
+     <li>Fai clic sull'icona <b>Ripristina</b> per ripristinare i valori predefiniti nei campi <b>Guida</b> e <b>Contatta l'amministratore</b>.</li>
      <li>Personalizzare il collegamento nel piè di pagina per tutte le lingue. Fai clic sull’elenco a discesa <b>Lingua</b>, seleziona la lingua e aggiungi il <b>Nome</b> e l’<b>URL</b> nei campi specificati. Dopo aver salvato le modifiche, i collegamenti aggiornati vengono visualizzati nel piè di pagina.<br></li>
     </ul></td>
   </tr>
@@ -400,10 +402,10 @@ Attivare o disattivare le seguenti impostazioni:
      <li>Se l’opzione <b>Efficacia del corso</b> viene attivata, gli allievi possono visualizzare solo il valore dell’efficacia del corso.</li>
      <li> Se l’opzione <b>Valutazione a stelle</b> viene attivata, gli allievi potranno visualizzare solo la valutazione media a stelle e il numero di allievi che hanno valutato il corso.<br></li>
     </ul>
-    <p>Questa funzione è disponibile solo per i corsi. La valutazione a stelle non è supportata per i programmi di apprendimento o i certificati.<br><br><b>Nota: </b>Questa modifica riguarda solo l’app per Allievi. </p>
+    <p>Questa funzione è disponibile solo per i corsi. La valutazione a stelle non è supportata per i programmi di apprendimento o i certificati.<br><br><b>Nota: </b>Questa modifica riguarda solo l’app per allievi. </p>
     <p>In tutte le altre app (amministratore, autore, manager, amministratore personalizzato, autore personalizzato), le modifiche apportate alle impostazioni (valutazione a stelle/efficacia del corso/disattivazione della valutazione a stelle) non avranno alcun effetto. </p>
-    <p>Per i nuovi account, il <b>Mostra valutazioni</b> sezione avrà l'opzione <b>Valutazione a stelle</b> attivata per impostazione predefinita.</p>
-    <p>Per gli account esistenti, se in precedenza l’account aveva l’opzione <b>Efficacia dei corsi</b> attivato, quindi il <b>Mostra valutazioni</b> verrà attivata con l’opzione Controllo efficacia selezionata. Se l’opzione <b>Efficacia del corso</b>s è disattivato, quindi il <b>Mostra valutazioni</b> verrà disabilitata. Quando <b>Mostra valutazioni</b> è attivata, l'opzione <b>Valutazione a stelle</b> verrà attivato per impostazione predefinita.</p></td>
+    <p>Per i nuovi account, nella sezione <b>Mostra valutazioni</b> l'opzione <b>Valutazione a stelle</b> sarà attivata per impostazione predefinita.</p>
+    <p>Per gli account esistenti, se in precedenza era attivata l’opzione <b>Efficacia del corso</b>, la sezione <b>Mostra valutazioni</b> verrà attivata con l’opzione Controllo efficacia selezionata. Se l’opzione <b>Efficacia del corso</b>s è disattivata, anche la sezione <b>Mostra valutazioni</b> verrà disabilitata. Quando la sezione <b>Mostra valutazioni</b> è abilitata, l'opzione <b>Valutazione a stelle</b> verrà abilitata per impostazione predefinita.</p></td>
   </tr>
  </tbody>
 </table>
@@ -438,22 +440,7 @@ Attivare o disattivare le seguenti impostazioni:
 
 >[!NOTE]
 >
->Una volta attivata l’impostazione di importazione delle abilità, non è possibile passare al layout dell’account nella visualizzazione classica; in altre parole, il passaggio all’account classico viene disattivato dopo che **Importazione abilità** l&#39;opzione è abilitata.
-
-
-## Consiglio basato sull’intelligenza artificiale
-
-Learning Manager include una nuova pagina principale dell’Allievo, moderna, maggiormente basata sui contenuti e personalizzata in base alle sue preferenze. I consigli per l’apprendimento basati sull’intelligenza artificiale mirano a migliorare il coinvolgimento degli allievi e a identificare e ad affrontare le lacune.
-
-L’algoritmo di raccomandazione è progettato per raccogliere più fonti di input, tra cui i dati di settore sui ruoli di lavoro, i titoli e le descrizioni che Adobe ha ricavato dai propri partner. Questi dati vengono quindi utilizzati per addestrare gli algoritmi dell’intelligenza artificiale degli Adobi in modo che Learning Manager possa creare una mappa in grado di collegare le competenze allineate al settore a titoli e/o designazioni professionali. Questo diventa un input dell’algoritmo di raccomandazione
-
-Learning Manager utilizza quindi algoritmi di modellazione degli argomenti per analizzare i contenuti della formazione all’interno di un account e associarli alle competenze.
-
-Learning Manager utilizza i dati delle attività dei colleghi come un altro segnale per guidare l’algoritmo di raccomandazione in modo personalizzato. Qui vengono utilizzate attività come l’iscrizione, il completamento e qualsiasi feedback esplicito fornito dagli allievi.
-
-Inoltre, Learning Manager utilizza informazioni esplicite e implicite raccolte dai singoli Allievi per personalizzare ulteriormente i consigli. Un Allievo potrà indicare le proprie aree di interesse esplicitamente attraverso le iscrizioni e Learning Manager riceverà queste informazioni implicitamente in base a come poi l’Allievo inizia a frequentare i corsi di formazione.
-
-Infine, l’Amministratore potrà anche influenzare l’algoritmo di raccomandazione utilizzando gli attributi dell’Allievo che Learning Manager dovrebbe considerare durante la definizione dei gruppi di colleghi, nonché mettendo concretamente in evidenza i corsi di formazione per gruppi di utenti specifici.
+>Una volta attivata l’impostazione di importazione delle abilità, non è possibile passare al layout dell’account nella visualizzazione classica; in altre parole, il passaggio all’account classico viene disattivato dopo l’attivazione dell’opzione **Importazione delle abilità**.
 
 ## Rinomina gli oggetti di apprendimento {#renaminglearningobjects}
 
@@ -486,10 +473,10 @@ Activity
 
 ## Impostazioni profilo {#profilesettings}
 
-1. Fai clic sulla freccia a discesa nell’angolo superiore destro, accanto a foto/account e scegli **[!UICONTROL Impostazioni profilo]**.
-1. Dalla finestra a comparsa, puoi aggiungere/modificare una foto passando il mouse sopra di essa e facendo clic **[!UICONTROL Modifica]** nell’area foto profilo.
-1. Aggiungi/modifica **[!UICONTROL Informazioni]** contenuto facendo clic su **[!UICONTROL Modifica]** adiacente.
-1. Fai clic **[!UICONTROL Salva].**
+1. Fai clic sulla freccia a discesa nell’angolo in alto a destra, accanto a foto/account e scegli **[!UICONTROL Impostazioni profilo]**.
+1. Dalla finestra a comparsa, puoi aggiungere/modificare una foto passando il mouse sopra di essa e facendo clic su **[!UICONTROL Modifica]** nell&#39;area della foto profilo.
+1. Aggiungi/modifica il contenuto di **[!UICONTROL Informazioni su]** facendo clic su **[!UICONTROL Modifica]** accanto al contenuto.
+1. Fai clic su **[!UICONTROL Salva].**
 
 ## Cartella dei contenuti {#content-folder}
 
@@ -497,7 +484,7 @@ Learning Manager supporta le cartelle dei contenuti privati. Un amministratore p
 
 Le cartelle dei contenuti possono essere configurate dagli amministratori. Solo una volta configurate, le cartelle dei contenuti diventano visibili agli autori che possono inserire il contenuto in una o più cartelle.
 
-Per aggiungere una cartella di contenuti, nell’app Amministratore fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Cartella dei contenuti]**.
+Per aggiungere una cartella di contenuti, nell&#39;app di amministrazione fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Cartella dei contenuti]**.
 
 ![](assets/manage-content-folders.png)
 
@@ -532,7 +519,7 @@ Questa cartella non può far parte della definizione di ruoli configurabili. Di 
 
 **Aggiunta di una cartella**
 
-Per aggiungere una cartella, fare clic su **[!UICONTROL Aggiungi]** nell&#39;angolo superiore destro della finestra.
+Per aggiungere una cartella, fai clic su **[!UICONTROL Aggiungi]** nell&#39;angolo superiore destro della finestra.
 
 **Eliminazione di una cartella**
 
@@ -564,7 +551,7 @@ Aggiungi i seguenti elementi:
 
 ![aula](assets/location-alm.gif)
 
-*Aggiungere aule*
+*Aggiungi aule*
 
 Puoi anche aggiungere la posizione con l’aiuto di un file CSV. Il file CSV deve contenere i campi:
 
@@ -581,13 +568,14 @@ Puoi anche aggiungere la posizione con l’aiuto di un file CSV. Il file CSV dev
 Seleziona **Modifica** per modificare quanto segue:
 
 * **Consenti agli autori di creare percorsi**: una volta abilitate, tutte le posizioni create dagli autori verranno elencate nella scheda &quot;Tutte le posizioni&quot;. Gli Allievi visualizzeranno queste posizioni anche nei filtri Catalogo e Calendario.
-* **Consenti agli autori di modificare ed eliminare le posizioni**: una volta abilitata, gli autori saranno in grado di modificare ed eliminare tutte le aule. Le modifiche apportate dagli autori saranno riportate su tutta la piattaforma, compresi i report.
+* **Consenti agli autori di modificare ed eliminare le posizioni**:
+Una volta abilitata, gli Autori saranno in grado di modificare ed eliminare tutte le aule. Le modifiche apportate dagli autori saranno riportate su tutta la piattaforma, compresi i report.
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
 +++Come si creano cartelle diverse per la libreria dei contenuti?
 
-Fai clic **[!UICONTROL Impostazioni]** > **[!UICONTROL Cartella dei contenuti]**. Per aggiungere una cartella, fare clic su **[!UICONTROL Aggiungi]** nell&#39;angolo superiore destro e nella finestra di dialogo, inserisci il nome e la descrizione della cartella.
+Fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Cartella dei contenuti]**. Per aggiungere una cartella, fai clic su **[!UICONTROL Aggiungi]** nell&#39;angolo in alto a destra e immetti il nome e la descrizione della cartella nella finestra di dialogo.
 
 Le cartelle dei contenuti possono essere configurate dagli amministratori. Solo una volta configurate, le cartelle dei contenuti diventano visibili agli autori che possono inserire il contenuto in una o più cartelle.
 
@@ -596,5 +584,5 @@ Per ulteriori informazioni, consulta la sezione relativa a [Cartella dei contenu
 
 +++Come si aggiunge l’esercizio finanziario per l’account?
 
-Ingresso **[!UICONTROL Impostazioni]** > **[!UICONTROL Informazioni di base]**, fare clic su **[!UICONTROL Modifica]**. Dal menu **[!UICONTROL L&#39;esercizio finanziario inizia a]** selezionare il mese.
+In **[!UICONTROL Impostazioni]** > **[!UICONTROL Informazioni di base]**, fai clic su **[!UICONTROL Modifica]**. Dall&#39;elenco a discesa **[!UICONTROL L&#39;anno fiscale inizia da]**, selezionare il mese.
 +++
