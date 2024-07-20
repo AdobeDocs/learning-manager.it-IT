@@ -1,14 +1,13 @@
 ---
 title: Consigli in Adobe Learning Manager
 description: Il nucleo del motore di consigli è basato sul nuovo algoritmo di classificazione dei corsi di Learning Manager. L’algoritmo utilizza 50 milioni di punti dati e cinque anni di dati di apprendimento aggregati su milioni di utenti per classificare i corsi in base alla probabilità di iscrizione. Questa classificazione garantisce che la maggior parte dei corsi a cui è possibile effettuare l’iscrizione sia visualizzata in anticipo agli Allievi.
-source-git-commit: 40f6732147b7babeb1f11ce52045e6baf6338ce1
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 60%
 
 ---
-
-
 
 # Consigli in Adobe Learning Manager
 
@@ -22,14 +21,14 @@ Per iniziare con questa funzione, attivala nell’app per Amministratori.
 
 1. Carica il corso e i dati utente (facoltativi).
 1. Rendi visibili le modifiche.
-1. Dopo aver abilitato e configurato i consigli, carica i dati in Adobe Learning Manager per ricevere consigli su come iniziare a lavorare. Tali dati comprendono:
+1. Dopo aver attivato e configurato i suggerimenti, carica i dati in Adobe Learning Manager per ricevere consigli e iniziare a lavorare. Tali dati comprendono:
 
    * Dati del corso
    * Dati utente (facoltativo)
 
 ## Algoritmo di classificazione del corso
 
-Il nucleo del motore dei consigli è determinato dalle nuove funzioni di Learning Manager **[!UICONTROL Algoritmo di classificazione del corso]**. L’algoritmo utilizza 50 milioni di punti dati e cinque anni di dati di apprendimento aggregati su milioni di utenti per classificare i corsi in base alla probabilità di iscrizione. Questa classificazione garantisce che la maggior parte dei corsi a cui è possibile effettuare l’iscrizione sia visualizzata in anticipo agli Allievi.
+Il nucleo del motore dei consigli è basato sul nuovo **[!UICONTROL algoritmo di classificazione dei corsi]** di Learning Manager. L’algoritmo utilizza 50 milioni di punti dati e cinque anni di dati di apprendimento aggregati su milioni di utenti per classificare i corsi in base alla probabilità di iscrizione. Questa classificazione garantisce che la maggior parte dei corsi a cui è possibile effettuare l’iscrizione sia visualizzata in anticipo agli Allievi.
 
 ## Termini chiave
 
@@ -39,7 +38,7 @@ I parametri sono: **Prodotti/argomenti**, **Ruoli** e **Livelli**. Inoltre, puoi
 
 ## Imposta il sistema di consigli
 
-Adobe Il nuovo motore di consigli di Learning Manager semplifica il flusso di lavoro dell’Amministratore coinvolto nella configurazione di consigli personalizzati, perché i dati sui prodotti e i ruoli associati a un cliente/partner sono in genere disponibili per gli Amministratori (ad esempio, dai record di acquisto).
+Il nuovo motore di suggerimenti di Adobe Learning Manager semplifica il flusso di lavoro di amministrazione richiesto per configurare consigli personalizzati, perché i dati sui prodotti e i ruoli associati a un cliente/partner sono in genere disponibili per gli amministratori (ad esempio, dai record di acquisto).
 
 Nella configurazione del nuovo motore di consigli sono coinvolti principalmente tre flussi di lavoro:
 
@@ -51,34 +50,34 @@ Gli amministratori configurano i valori dei parametri Prodotti, Ruoli e Livelli 
 
 Gli amministratori dispongono di un flusso di lavoro guidato in Learning Manager per configurare in modo ottimale il motore dei consigli e personalizzarlo in base ai casi d’uso dell’account. Inoltre, gli Amministratori hanno anche la possibilità di configurare i consigli PRL tramite un caricamento unico del file CSV.
 
-1. Seleziona **[!UICONTROL Recommendations]** nell’app per amministratori.
+1. Seleziona **[!UICONTROL Recommendations]** nell&#39;app di amministrazione.
 
-   ![Selezionare Recommendations nell’app per amministratori](assets/image831538.png)
+   ![Seleziona Recommendations nell&#39;app per amministratori](assets/image831538.png)
 
-   *Seleziona l’opzione Recommendations.*
+   *Selezionare l&#39;opzione Recommendations*
 
 1. Fai clic su **[!UICONTROL Aggiorna]**.
 
    ![Aggiornamento al nuovo sistema](assets/image784236.png)
 
-   *Seleziona l’opzione Aggiorna.*
+   *Selezionare l&#39;opzione di aggiornamento*
 
 1. Fai clic su **[!UICONTROL Procedi]** per passare al nuovo sistema di consigli aggiornato.
 
-   ![Passa al nuovo sistema](assets/image521152.png)
-   *Seleziona il pulsante Procedi.*
+   ![Passare al nuovo sistema](assets/image521152.png)
+   *Selezionare il pulsante Procedi*
 
 1. Crea i parametri di consiglio per Prodotti e Ruoli.
 
    ![Creare i parametri](assets/image43406.png)
-   *Crea parametri per suggerimenti*
+   *Crea parametri per la raccomandazione*
 
 1. Fai clic su **[!UICONTROL Aggiungi più valori]**.
 1. Aggiungi i prodotti. Digita il nome di un prodotto e premi Invio.
 
    Per iniziare, aggiungi almeno due prodotti.
 
-   ![aggiungere prodotti](assets/image623058.png)
+   ![aggiungi prodotti](assets/image623058.png)
    *Aggiungi prodotti*
 
 1. Aggiungi i ruoli. Digita i nomi dei ruoli e premi Invio.
@@ -152,7 +151,7 @@ Inserisci questi file CSV e contatta il team Customer Success per scaricare i fo
 Dopo aver caricato entrambi i file CSV, fai clic su Vai in diretta. Questo renderà visibile agli Allievi il nuovo sistema di consigli.
 
 ![vai in diretta](assets/computerdescription-automatically.png)
-*Dai vita ai consigli*
+*Attivare i suggerimenti*
 
 Il sistema di consigli è ora disponibile agli Allievi.
 
@@ -165,7 +164,7 @@ Il sistema di consigli è ora disponibile agli Allievi.
 1. Modifica il nome del parametro e fai clic su **[!UICONTROL Salva]**.
 
    ![risultati](assets/image688522.png)
-   *Modificare il parametro*
+   *Modifica del parametro*
 
 ## Elimina un parametro
 
@@ -198,12 +197,12 @@ Gli Allievi possono vedere quanto segue:
 
 Dopo aver selezionato Consigli nel pannello a sinistra, l’Allievo visualizza una finestra a comparsa per configurare i consigli.
 
-![consigli di configurazione](assets/image575540.png)
+![consigli per l&#39;installazione](assets/image575540.png)
 *L’Allievo imposta il consiglio*
 
 Facendo clic su Imposta consigli, l’Allievo passa al popup di selezione del prodotto.
 
-![popup selezione prodotti](assets/product-selection-popup.png)
+![menu a comparsa per la selezione di prodotti](assets/product-selection-popup.png)
 *Selezionare i prodotti*
 
 Quindi, nel prossimo popup, l’Allievo può selezionare il ruolo.
@@ -232,8 +231,8 @@ Un Allievo può visualizzare le seguenti strisce nell’app:
 
 ### Schede nella striscia di apprendimento
 
-![schede strisce di apprendimento](assets/image770606.png)
-*Schede nella striscia di apprendimento*
+![schede per strisce di apprendimento](assets/image770606.png)
+*Schede nell&#39;area di apprendimento*
 
 Ogni scheda contiene i pulsanti Valutazione, Immagine della carta, Titolo, Abilità, Data di pubblicazione, Autore, Durata, Barra di avanzamento e il pulsante Continua o Esplora.
 
@@ -248,11 +247,11 @@ Non sarà presente alcuna barra di avanzamento nella scheda dopo che un Allievo 
 
 ### Schede su striscia super rilevante
 
-![schede strip super rilevanti](assets/super-relevant-cards.png)
+![strip card estremamente pertinenti](assets/super-relevant-cards.png)
 *Schede pertinenti*
 
 Ogni scheda contiene i pulsanti Valutazione, Immagine della scheda, Titolo, Abilità, Data di pubblicazione, Autore, Durata, Barra di avanzamento e il pulsante Avvia o Esplora o Continua o Revisiona.
 
 Non sarà presente alcuna barra di avanzamento nella scheda dopo che un Allievo avvia il corso.
 
-Nel menu sono disponibili due opzioni: **[!UICONTROL Salva]** e **[!UICONTROL Non consigliare questo]**. Se l’Allievo fa clic **[!UICONTROL Salva]**, il corso viene salvato nella striscia &#39;Salvato da me&#39;. Se l’Allievo fa clic **[!UICONTROL Non consigliare questo]**, il corso di formazione consigliato viene rimosso dall’elenco.
+Dal menu sono disponibili due opzioni: **[!UICONTROL Salva]** e **[!UICONTROL Non consigliare]**. Se l’Allievo fa clic su **[!UICONTROL Salva]**, il corso viene salvato nella striscia &quot;Salvato da me&quot;. Se l’Allievo fa clic su **[!UICONTROL Non consigliare questo]**, il corso di formazione consigliato viene rimosso dall’elenco.

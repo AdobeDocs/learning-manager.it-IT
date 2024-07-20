@@ -20,7 +20,7 @@ Un Manager può iscrivere gli Allievi che seguono a corsi, percorsi di apprendim
 
 ## Visualizzazione dei corsi {#viewingcourses}
 
-Come Manager, puoi visualizzare un elenco di tutti i corsi disponibili. Fai clic **[!UICONTROL Corsi]** nel riquadro a sinistra per visualizzare l’elenco dei corsi con opzioni di ricerca e filtro. Puoi inoltre visualizzare la percentuale di efficacia di ogni corso nelle miniature. Tieni presente che puoi iscrivere solo i membri del team a corsi visibili nell’applicazione Allievo.
+Come Manager, puoi visualizzare un elenco di tutti i corsi disponibili. Fai clic su **[!UICONTROL Corsi]** nel riquadro a sinistra per visualizzare l’elenco dei corsi con opzioni di ricerca e filtro. Puoi inoltre visualizzare la percentuale di efficacia di ogni corso nelle miniature. Tieni presente che puoi iscrivere solo i membri del team a corsi visibili nell’applicazione Allievo.
 
 ![](assets/view-course.png)
 
@@ -29,7 +29,7 @@ Come Manager, puoi visualizzare un elenco di tutti i corsi disponibili. Fai clic
 
 >[!NOTE]
 >
->È possibile visualizzare l’elenco di tutti i corsi ritirati facendo clic sul pulsante **Ritirato** scheda.
+>È possibile visualizzare l’elenco di tutti i corsi ritirati facendo clic sulla scheda **Ritirati**.
 
 ## Visualizzare punteggi dei quiz {#viewquizscores}
 
@@ -49,11 +49,11 @@ Come Manager, puoi gestire l’elenco degli Allievi per i membri del team.
 
 ![](assets/courses-learners.png)
 
-*Seleziona un’azione Allievo*
+*Seleziona azione Allievo*
 
 >[!NOTE]
 >
->**Esporta approvazioni in sospeso** l’opzione può essere eseguita dall’app per allievi.
+>L’opzione **Esporta approvazioni in sospeso** può essere eseguita dall’app per Allievi.
 
 Puoi effettuare le seguenti azioni dalla pagina degli Allievi:
 
@@ -66,7 +66,7 @@ Puoi inoltre esportare l’elenco degli Allievi in un foglio Excel. Per esportar
 
 >[!NOTE]
 >
->Se sono presenti più istanze per un corso, l’elenco degli Allievi in Excel viene fornito separatamente in ogni scheda. L’elenco degli Allievi include nome, stato e criteri di selezione degli Allievi. Lo stato degli Allievi può essere **Non avviato** o **In corso** o **Completato**.
+>Se sono presenti più istanze per un corso, l’elenco degli Allievi in Excel viene fornito separatamente in ogni scheda. L’elenco degli Allievi include nome, stato e criteri di selezione degli Allievi. Lo stato degli Allievi può essere **Non avviato**, **In corso** o **Completato**.
 
 ## Visualizzare feedback L1 e L3 {#viewl1andl3feedback}
 
@@ -78,9 +78,9 @@ Puoi visualizzare il feedback L1 fornito dagli Allievi per un corso e il feedbac
 
 ## Anteprima dei corsi {#previewcourses}
 
-Il Manager può visualizzare in anteprima i corsi facendo clic sul pulsante **Anteprima come Allievo** durante la visualizzazione dei moduli del corso.
+Il Manager può visualizzare in anteprima i corsi facendo clic sull’opzione **Anteprima come Allievo** durante la visualizzazione dei moduli del corso.
 
-1. Fai clic **[!UICONTROL Corsi]** nel riquadro a sinistra dopo l’accesso.
+1. Dopo aver effettuato l’accesso, fai clic su **[!UICONTROL Corsi]** nel riquadro a sinistra.
 1. Fai clic su qualsiasi riquadro del corso dall’elenco dei corsi nella pagina.
 1. Fai clic su Anteprima come Allievo nel riquadro sinistro e fai clic sul nome del modulo nella pagina per visualizzare in anteprima il modulo del corso nel lettore.
 
@@ -113,7 +113,7 @@ Adobe Learning Manager consente di individuare rapidamente i corsi e i percorsi 
 1. Utilizzando il campo di ricerca. Fai clic sull’icona di ricerca visualizzata nell’angolo in alto a destra. Viene visualizzato un campo di ricerca. Digita il nome del corso o le parole chiave associate ai tuoi corsi per individuare i corsi/percorsi di apprendimento. Puoi anche eseguire ricerche utilizzando tag predefiniti come Captivate, C, Java e HTML. I tag sono ricercabili all’interno del campo di ricerca, il che significa che vengono visualizzati nel campo di ricerca durante la digitazione. La ricerca può essere effettuata utilizzando l’ID univoco.
 1. Applicando un filtro all’elenco di corsi/percorsi di apprendimento/certificazioni. Puoi filtrare i corsi per stato come Tutti, Pubblicati e Ritirati.
 
-Puoi eseguire una ricerca in base alle competenze selezionando **Competenze** e sceglierli. In qualità di Manager, puoi ordinare i corsi in quattro modi, per meglio individuare il corso richiesto. Fai clic su Ordina per e scegli l’ordine alfabetico crescente o decrescente, la data di aggiornamento o di creazione del corso o l’efficacia dei corsi:
+Puoi eseguire una ricerca in base alle competenze selezionando **Competenze** e scegliendole. In qualità di Manager, puoi ordinare i corsi in quattro modi, per meglio individuare il corso richiesto. Fai clic su Ordina per e scegli l’ordine alfabetico crescente o decrescente, la data di aggiornamento o di creazione del corso o l’efficacia dei corsi:
 
 * Nome (a-z)
 * Nome (z-a)
@@ -192,7 +192,7 @@ Un Manager può contrassegnare il completamento della Certificazione. Per ulteri
 
 ## Notifiche del manager circa l’approvazione del corso per un allievo {#manager-notifications-course-approval}
 
-Quando tenta di accettare o rifiutare l’iscrizione di un Allievo, ora un Manager può visualizzare i dettagli della sessione (**Videoconferenze** oppure **Aula**) nella finestra pop.
+Quando tenta di accettare o rifiutare l’iscrizione di un Allievo, ora un Manager può visualizzare i dettagli della sessione (**Videoconferenze** o **Aula**) nella finestra popup.
 
 ![](assets/approve-a-learner.png)
 
@@ -209,7 +209,7 @@ Flusso di lavoro:
 
 1. Il manager riceve una notifica dopo che un Allievo ha richiesto l’approvazione di un corso.
 
-1. Il manager fa clic su **Dettagli della sessione**.
+1. Il manager fa clic su **Dettagli sessione**.
 
    ![](assets/pending-tasks.png)
 

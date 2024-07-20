@@ -35,11 +35,11 @@ Gli Allievi possono rifiutare un corso assegnato loro dai Manager facendo clic s
 
 ## Pianificare la notifica push
 
-Gli Allievi riceveranno notifiche push ogni volta che non rispettano la scadenza di un corso. Gli Allievi avranno la possibilità di posticipare un promemoria per 24 ore o ricevere un promemoria la prossima settimana per ogni promemoria scaduto che ricevono. Ciò è applicabile solo per le notifiche scadute con scadenza.
+Gli Allievi riceveranno notifiche push ogni volta che saltano una scadenza del corso. Gli Allievi potranno scegliere se inviare un promemoria per 24 ore o se riceverlo la prossima settimana per ogni promemoria scaduto. Questo è applicabile solo per le notifiche con scadenza oltre quella.
 
 ## Mostra tutte le notifiche {#showallnotifications}
 
-Fai clic sul **[!UICONTROL collegamento Mostra tutte le notifiche]** nella parte inferiore della finestra a comparsa delle notifiche per visualizzare tutte le notifiche in una pagina separata.
+Fai clic sul collegamento **[!UICONTROL Mostra tutte le notifiche]** nella parte inferiore della finestra a comparsa delle notifiche per visualizzare tutte le notifiche in una nuova pagina.
 
 ![](assets/notifications-page.png)
 
@@ -61,7 +61,7 @@ Gli Allievi ricevono notifiche ogni volta che si verificano i seguenti eventi:
 1. L’Allievo ha rifiutato l’assegnazione
 1. Per i corsi approvati dal Manager, il Manager approva/rifiuta le richieste di iscrizione ai corsi
 1. La lista di attesa degli Allievi viene rimossa.
-1. L&#39;Allievo è stato iscritto automaticamente a un corso, un programma di apprendimento o una certificazione
+1. L’Allievo è stato iscritto automaticamente a un corso, un programma di apprendimento o una certificazione
 1. L’Allievo ha completato una certificazione
 1. Il Manager approva/rifiuta il documento di prova del completamento della certificazione caricato dall’Allievo
 1. Quando la scadenza di una particolare istanza del corso si avvicina. (L’Amministratore può impostare la data a partire dalla quale iniziare a inviare all’Allievo i promemoria delle notifiche).
@@ -72,8 +72,8 @@ Gli Allievi possono fornire feedback L1 dopo il completamento di un corso che di
 
 ![](assets/feedback.png)
 
-*Fornire feedback sul corso*
+*Invia feedback sul corso*
 
 >[!NOTE]
 >
->Gli Allievi ottengono l&#39;opzione di feedback per i corsi solo quando un Amministratore la attiva per un determinato corso.
+>Gli Allievi ottengono l’opzione di feedback per i corsi solo quando l’Amministratore la attiva per un determinato corso.

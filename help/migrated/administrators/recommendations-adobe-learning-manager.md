@@ -32,17 +32,17 @@ Dopo aver abilitato e configurato i consigli, carica i dati in Adobe Learning Ma
 
 ## Algoritmo di classificazione del corso
 
-Il nucleo del motore dei consigli è determinato dalle nuove funzioni di Learning Manager **Algoritmo di classificazione del corso**. L’algoritmo utilizza **50 milioni di punti dati** e **cinque anni di dati di apprendimento aggregati tra milioni di utenti** per classificare i corsi in base alle relative **probabilità di iscrizione**. Questa classificazione garantisce che la maggior parte dei corsi a cui è possibile effettuare l’iscrizione sia visualizzata in anticipo agli Allievi.
+Il nucleo del motore dei consigli è basato sul nuovo **algoritmo di classificazione dei corsi** di Learning Manager. L’algoritmo utilizza **50 milioni di punti dati** e **cinque anni di dati di apprendimento aggregati tra milioni di utenti** per classificare i corsi in base alle relative **probabilità di iscrizione**. Questa classificazione garantisce che la maggior parte dei corsi a cui è possibile effettuare l’iscrizione sia visualizzata in anticipo agli Allievi.
 
 ## Termini chiave
 
-Il nuovo motore di raccomandazione basato sull’intelligenza artificiale di Learning Manager offre agli Allievi una **basato su parametri** sistema di consigli per creare un’esperienza personalizzata per gli Allievi.
+Il nuovo motore di raccomandazione basato sull’intelligenza artificiale di Learning Manager offre ai learning leader un sistema di raccomandazione **basato su parametri** configurabile per creare un’esperienza personalizzata per gli Allievi.
 
 I parametri sono: **Prodotti/argomenti, Ruoli e Livelli**. Inoltre, puoi rinominare questi parametri in base alle tue esigenze. Quindi, &quot;prodotti&quot; può diventare &quot;argomenti&quot; o &quot;ruoli&quot; può diventare &quot;area&quot;.
 
 ## Imposta il sistema di consigli
 
-Adobe Il nuovo motore di consigli di Learning Manager semplifica il flusso di lavoro dell’Amministratore coinvolto nella configurazione di consigli personalizzati, perché i dati sui prodotti e i ruoli associati a un cliente/partner sono in genere disponibili per gli Amministratori (ad esempio, dai record di acquisto).
+Il nuovo motore di suggerimenti di Adobe Learning Manager semplifica il flusso di lavoro di amministrazione richiesto per configurare consigli personalizzati, perché i dati sui prodotti e i ruoli associati a un cliente/partner sono in genere disponibili per gli amministratori (ad esempio, dai record di acquisto).
 
 Nella configurazione del nuovo motore di consigli sono coinvolti principalmente tre flussi di lavoro:
 

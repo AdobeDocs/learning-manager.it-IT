@@ -56,7 +56,7 @@ argument_object=
 
 Questa versione di Adobe Learning Manager includerà un nuovo connettore, che utilizzerà il protocollo SFTP della famiglia di prodotti AWS Transfer.
 
-Questa modifica sostituisce anche il connettore ExaVault, che non sarà più disponibile per i nuovi utenti. È possibile utilizzare qualsiasi client FTP open source in sostituzione di ExaVault. Per ulteriori informazioni, consulta [Transizione da Gestione FTP di Adobe](transition-from-ftp-manager.md).
+Questa modifica sostituisce anche il connettore ExaVault, che non sarà più disponibile per i nuovi utenti. È possibile utilizzare qualsiasi client FTP open source in sostituzione di ExaVault. Per ulteriori informazioni, consulta [Transizione da FTP Manager di Adobe](transition-from-ftp-manager.md).
 
 ## Promemoria in Outlook per classi e sessioni virtuali
 
@@ -106,7 +106,7 @@ Gli autori possono ora fornire una data di **Ritiro automatico** per un corso. Q
 
 Gli amministratori possono inoltre decidere a livello di account la natura dell’accesso agli oggetti di apprendimento &quot;ritirati&quot;.
 
-Il report sulla formazione include una nuova colonna, **Data smobilizzo automatico**, per visualizzare la data di ritiro per ogni oggetto di apprendimento (se impostata).
+Il report sulla formazione include una nuova colonna, **Data ritiro automatico**, per visualizzare la data di ritiro per ogni oggetto di apprendimento (se impostata).
 
 ## Valori delle etichette del catalogo per autori
 
@@ -420,7 +420,7 @@ Addizione/Aggiornamento parziale. Esempio di carico utile:
 }
 ```
 
-**POST /recommendationPreferences/learningObjects/{id}/ignore**
+**POST/recommendationPreferences/learningObjects/{id}/ignore**
 
 Aggiunge oggetti di apprendimento ai suggerimenti bloccati.
 
@@ -477,7 +477,7 @@ Annulla l’iscrizione a una particolare istanza dell’oggetto di apprendimento
 
 Supporta l’iscrizione in diverse istanze.
 
-**GET /enrollments**
+**GET/iscrizioni**
 
 Ottiene le iscrizioni solo per le iscrizioni primarie per l’oggetto di apprendimento.
 
@@ -509,7 +509,7 @@ Recupera una nota specifica in un modulo di un corso per una determinata istanza
 
 Aggiorna note specifiche di un determinato modulo rispetto a un’istanza specifica (parte di loResource Id).
 
-**Modifiche alle API degli amministratori**
+**Modifiche API amministratore**
 
 * GET /users/{id}/enrollments
 * POST /users/{id}/enrollments
@@ -565,7 +565,7 @@ Ad esempio:
 * Ignora flag per le API dell’Allievo.
 * Modificheremo l’impostazione predefinita per highlightResults=false. Inoltre, modificheremo l’impostazione predefinita di snippetType=courseName.
 * Verrà deprecato matchType=bool nell&#39;endpoint di ricerca.
-* autoCompleteMode presenta [Obsoleto] e per fornire la stessa funzionalità di autoCompleteMode =false, è stato aggiunto un matchType denominato Match.
+* autoCompleteMode ha il tag [Deprecato] e per fornire la stessa funzionalità di autoCompleteMode =false, è stato aggiunto un matchType denominato Match.
 
 ### Formato ID badge con iscrizione multipla
 
@@ -573,7 +573,7 @@ Per supportare i distintivi delle istanze con iscrizione multipla, stiamo modifi
 
 ## Note sulla versione
 
-Per informazioni sulle versioni correnti e precedenti dell’app Web e per dispositivi di Learning Manager, consulta la [Note sulla versione](/help/migrated/release-note/release-notes.md).
+Per informazioni sulle versioni correnti e precedenti dell’app Web e per dispositivi di Learning Manager, consulta le [Note sulla versione](/help/migrated/release-note/release-notes.md).
 
 ## Problemi noti o limitazioni in questa versione
 

@@ -3,14 +3,13 @@ description: Questo documento contiene suggerimenti per la risoluzione di alcuni
 jcr-language: en_us
 title: Risoluzione dei problemi di migrazione
 contentowner: jayakarr
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b9f17644-f237-4701-86e9-8496db941920
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 71%
 
 ---
-
-
 
 # Risoluzione dei problemi di migrazione
 
@@ -56,17 +55,17 @@ Potrebbero volerci 10-15 minuti affinché tutti i processi vengano interrotti. C
 
 ### Impossibilità di creare uno sprint a causa del pulsante disabilitato {#unabletocreateasprintasthebuttonisdisabled}
 
-Prima di creare uno sprint, accertati che lo sprint corrente sia contrassegnato come completato. Fai clic **[!UICONTROL Contrassegna sprint come completato]** nella parte superiore della pagina per completare la migrazione sprint.
+Prima di creare uno sprint, accertati che lo sprint corrente sia contrassegnato come completato. Fai clic su **[!UICONTROL Contrassegna sprint come completato]** nella parte superiore della pagina per completare la migrazione sprint.
 
 ### Impossibilità di contrassegnare un progetto di migrazione come completato a causa del pulsante disabilitato {#unabletomarkamigrationprojectascompleteasthebuttonisdisabled}
 
-Assicurati che lo sprint corrente sia contrassegnato come completato prima di contrassegnare l’intero progetto di migrazione come tale. Fai clic **[!UICONTROL Contrassegna sprint come completato]** nella parte superiore della pagina per completare la migrazione sprint.
+Assicurati che lo sprint corrente sia contrassegnato come completato prima di contrassegnare l’intero progetto di migrazione come tale. Fai clic su **[!UICONTROL Contrassegna sprint come completato]** nella parte superiore della pagina per completare la migrazione sprint.
 
 ## Problemi con file CSV {#csvissues}
 
 ### La migrazione del file module_version.csv non va a buon fine e la migrazione dei contenuti non è ancora avvenuta. {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Assicurati che i contenuti siano disponibili nella cartella Contenuto (account Box nel progetto di migrazione specificato, percorso sprint). Assicurati inoltre di aver selezionato l’opzione **Sì** per **Vuoi migrare contenuti per questo sprint?** nella pagina di creazione dello sprint.
+Assicurati che i contenuti siano disponibili nella cartella Contenuto (account Box nel progetto di migrazione specificato, percorso sprint). Assicurati inoltre di aver selezionato l&#39;opzione **Sì** per **Vuoi migrare contenuti per questo sprint?Domanda** nella pagina di creazione dello sprint.
 
 Se dimentichi di selezionare **Sì** e procedi con lo sprint, dovrai aspettare fino al completamento dello sprint. Crea un altro sprint e assicurati di fare clic su **[!UICONTROL Sì]**.
 
@@ -74,11 +73,11 @@ Se dimentichi di selezionare **Sì** e procedi con lo sprint, dovrai aspettare f
 
 Assicurati che l’ID e-mail fornito nei campi userId, assignedByUserID appartenga a utenti validi di Learning Manager. In caso contrario, aggiungi l’utente e crea un nuovo sprint con l’opzione **Sincronizza utenti** selezionata. Nel caso in cui l’utente non faccia parte dell’organizzazione, aggiungilo come utente eliminato in Learning Manager utilizzando la specifica CSV Aggiungi utenti. Di seguito è fornita una specifica CSV di esempio per aggiungere utenti eliminati come riferimento.
 
-[Users.csv](assets/users.zip) Fare riferimento a **Specifiche CSV e CSV di esempio** sezione in [Manuale di migrazione](../integration-admin/feature-summary/migration-manual.md) per scaricare un set completo di specifiche CSV e file CSV di esempio.
+[Utenti.csv](assets/users.zip) Per scaricare un set completo di specifiche CSV e file CSV di esempio, consulta la sezione **Specifiche CSV e CSV di esempio** nel [Manuale di migrazione](../integration-admin/feature-summary/migration-manual.md).
 
 ### Corsi all’apparenza vuoti o riproduzione di moduli errati per un corso migrato {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Assicurati che **moduleOrderInCourse** valore chiave per un corso inizia con **0** ed è in ordine continuo. L’ordine in termini di courseModuleType deve essere PRETEST, TESTOUT, CONTENT
+Assicurati che il valore chiave **moduleOrderInCourse** di un corso inizi con **0** e che sia in ordine continuo. L’ordine in termini di courseModuleType deve essere PRETEST, TESTOUT, CONTENT
 
 Inoltre, assicurati che due versioni di Attività, Classe e VC non siano collegate al corso esistente.
 

@@ -20,14 +20,14 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 ## Creazione di un ruolo personalizzato {#create-role}
 
 1. Accedi come Amministratore. Apri **[!UICONTROL Utenti]** > **[!UICONTROL Ruolo personalizzato]**.
-1. Seleziona **[!UICONTROL Crea ruolo]**. La **[!UICONTROL Crea nuovo ruolo]** viene aperta la scheda.
+1. Seleziona **[!UICONTROL Crea ruolo]**. Viene visualizzata la scheda **[!UICONTROL Crea nuovo ruolo]**.
 
    ![](assets/create-new-role.png)
 
    *Creare un ruolo personalizzato*
 
-1. Immetti il nome nella casella **[!UICONTROL Nome del ruolo]** campo.
-1. **[!UICONTROL Privilegi dell’account]**: questi privilegi consentono ai proprietari dei ruoli di accedere ad aspetti specifici della configurazione del sistema e che agiscono sull&#39;intero account. Scegli le autorizzazioni di accesso. L’utente ottiene il pieno controllo sulle autorizzazioni assegnate.
+1. Immetti il nome nel campo **[!UICONTROL Nome del ruolo]**.
+1. **[!UICONTROL Privilegi dell&#39;account]**: questi privilegi consentono ai proprietari dei ruoli di accedere ad aspetti specifici della configurazione del sistema e di agire sull&#39;intero account. Scegli le autorizzazioni di accesso. L’utente ottiene il pieno controllo sulle autorizzazioni assegnate.
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 
 ![](assets/account-privileges.png)
 
-*Imposta l’ambito*
+*Imposta l&#39;ambito*
 
-1. **Privilegi di funzionalità - Funzionalità principali**: utilizzato per concedere l&#39;accesso a funzionalità specifiche per la gestione delle attività di apprendimento. tramite questa opzione possono essere concesse le autorizzazioni per le seguenti funzionalità.
+1. **Privilegi sulle funzionalità - Funzionalità di base**: utilizzato per concedere l’accesso a funzionalità specifiche per la gestione delle attività di apprendimento. tramite questa opzione possono essere concesse le autorizzazioni per le seguenti funzionalità.
 
    * Cataloghi
    * Rapporti
@@ -46,9 +46,9 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 
    ![](assets/core-features.png)
 
-   *Imposta l’ambito per cataloghi, report e tag*
+   *Imposta l&#39;ambito per cataloghi, report e tag*
 
-1. **Privilegi di funzionalità - Oggetti di apprendimento:**  Utilizzare questa opzione per consentire l&#39;accesso alle funzioni relative agli oggetti di apprendimento. Puoi fornire l’accesso ai seguenti LO.
+1. **Privilegi sulle funzioni - Oggetti di apprendimento:** Utilizzate questa opzione per fornire accesso alle funzioni relative agli oggetti di apprendimento. Puoi fornire l’accesso ai seguenti LO.
 
    * Certificazioni
    * Corsi
@@ -66,7 +66,7 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 
    *Concedere autorizzazioni specifiche*
 
-1. **Ambito per i privilegi di funzionalità:** L’ambito dei privilegi di funzionalità assegnati a questo ruolo può essere limitato a un gruppo di utenti specifico o a uno o più cataloghi.
+1. **Ambito per privilegi di funzionalità:** L&#39;ambito dei privilegi di funzionalità allocati a questo ruolo può essere limitato a un gruppo di utenti specifico o a uno o più cataloghi.
 
    Cataloghi: utilizza il pulsante di opzione per fornire controllo su **[!UICONTROL Tutti i cataloghi]** o utilizza l’opzione **[!UICONTROL Imposta accesso per catalogo]** per fornire l’accesso a cataloghi specifici. Puoi anche selezionare più cataloghi.
 
@@ -224,7 +224,7 @@ Un utente con un ruolo personalizzato può:
 
 1. **Utenti:** Utilizzare questa opzione per determinare a quali utenti è assegnato questo ruolo. Puoi scegliere uno o più utenti utilizzando la casella di ricerca.
 
-   **Aggiungi utenti al caricamento CSV del ruolo personalizzato:** Per aggiungere utenti tramite l’aggiornamento CSV, aggiungi una colonna CustomRole al file .csv utilizzato dall’amministratore per importare gli utenti. Immettere il ruolo dell&#39;utente nella colonna CustomRole per gli utenti a cui si desidera assegnare un ruolo personalizzato. Per caricare il file CSV, fai clic su  **[!UICONTROL Aggiungi > Carica un file CSV]**.
+   **Aggiunta di utenti al caricamento CSV del ruolo personalizzato:** Per aggiungere utenti tramite aggiornamento CSV, aggiungere una colonna CustomRole al file .csv utilizzato dall&#39;amministratore per importare gli utenti. Immettere il ruolo dell&#39;utente nella colonna CustomRole per gli utenti a cui si desidera assegnare un ruolo personalizzato. Per caricare il file CSV, fai clic su **[!UICONTROL Aggiungi > Carica un file CSV]**.
 
    Colonna CustomRoleNota:
 
@@ -247,7 +247,7 @@ Nel caso in cui desiderino limitare l’accesso a questi autori personalizzati, 
 
 *Limitare l’accesso alle cartelle per autori personalizzati*
 
-Durante la creazione di un Autore personalizzato, ora puoi assegnare all’Autore le cartelle dei contenuti. Scegli l’opzione **Cartelle selezionate**.
+Durante la creazione di un Autore personalizzato, ora puoi assegnare all’Autore le cartelle dei contenuti. Scegliere l&#39;opzione **Cartelle selezionate**.
 
 Dopo aver fatto clic su questa opzione, si apre una nuova finestra di dialogo in cui puoi assegnare le cartelle all’Autore personalizzato.
 
@@ -259,13 +259,13 @@ Scegli le cartelle e fai clic su **[!UICONTROL OK]**.
 
 ## Dashboard di riepilogo dell’apprendimento per l’Amministratore personalizzato {#custom-admin-dashboard}
 
-Gli amministratori personalizzati possono visualizzare la stessa visualizzazione di un amministratore. Un amministratore personalizzato può accedere a dati che non rientrano nel suo ambito. Questo è applicabile solo se l’amministratore personalizzato ha un ambito completo. Per concedere pieno ambito, durante la creazione di un amministratore personalizzato, attiva l’opzione **[!UICONTROL Controllo completo]** nel rapporto Sintetico conto.
+Gli amministratori personalizzati possono visualizzare la stessa visualizzazione di un amministratore. Un amministratore personalizzato può accedere a dati che non rientrano nel suo ambito. Questo è applicabile solo se l’amministratore personalizzato ha un ambito completo. Per concedere pieno ambito, durante la creazione di un amministratore personalizzato, abilita l&#39;opzione **[!UICONTROL Controllo completo]** in Report di riepilogo account.
 
 ![](assets/create-custom-role.png)
 
 *Creare un ruolo personalizzato*
 
-Di conseguenza, le opzioni, **[!UICONTROL Tutti i cataloghi]** e **[!UICONTROL Tutti i gruppi di utenti]** verrà selezionato e il resto verrà disabilitato.
+Di conseguenza, le opzioni **[!UICONTROL Tutti i cataloghi]** e **[!UICONTROL Tutti i gruppi di utenti]** verranno selezionate e le altre verranno disabilitate.
 
 ![](assets/scope-of-featureprivileges.png)
 
@@ -328,7 +328,7 @@ Quando a un utente viene assegnato un ruolo con un&#39;entità specifica, potreb
    <td>Crea</td>
    <td>Piano di apprendimento</td>
    <td>Catalogo<br>
-     Raggruppamento<br>
+     Gruppo<br>
      Abilità<br>
      Tutti i persi (corso, risorsa formativa, programma di apprendimento, certificazione)</td>
    <td>Lettura</td>
@@ -337,7 +337,7 @@ Quando a un utente viene assegnato un ruolo con un&#39;entità specifica, potreb
    <td>Crea</td>
    <td>Annuncio</td>
    <td>Utente<br>
-     Raggruppamento<br>
+     Gruppo<br>
      Tutti i persi (corso, risorsa formativa, programma di apprendimento, certificazione)</td>
    <td>Lettura</td>
   </tr>
@@ -356,7 +356,7 @@ Quando a un utente viene assegnato un ruolo con un&#39;entità specifica, potreb
   <tr>
    <td>*</td>
    <td>Catalogo</td>
-   <td>Raggruppamento<br>
+   <td>Gruppo <br>
      Tutti i persi (corso, risorsa formativa, programma di apprendimento, certificazione)</td>
    <td>Lettura</td>
   </tr>
@@ -413,7 +413,7 @@ Nella sezione **Ambito dei privilegi di funzionalità**, concedi l’accesso ai 
 
 ![](assets/scope-for-featureprivileges.png)
 
-*Concedere l’accesso a gruppi di utenti e/o cataloghi per il ruolo personalizzato*
+*Concedere l&#39;accesso a gruppi di utenti e/o a cataloghi per il ruolo personalizzato*
 
 Assegna un utente al ruolo personalizzato.
 
@@ -458,7 +458,7 @@ Facendo clic su **[!UICONTROL Sì]**, l’ambito viene aggiornato.
 Un Amministratore può abilitare i report gamification per un utente personalizzato.
 
 1. Nella pagina **[!UICONTROL Ruoli personalizzati]**, immetti il nome del ruolo personalizzato.
-1. Nella **[!UICONTROL Privilegi di funzionalità: funzionalità principali]** , abilita l&#39;opzione **[!UICONTROL Controllo completo]** per la categoria **[!UICONTROL Report]**.
+1. Nella sezione **[!UICONTROL Privilegi di funzionalità: Funzionalità principali]**, abilita l&#39;opzione **[!UICONTROL Controllo completo]** per la categoria **[!UICONTROL Report]**.
 
 1. Nella sezione **[!UICONTROL Utenti]**, seleziona l’utente a cui verrà assegnato il ruolo personalizzato appena creato.
 1. Fai clic su **[!UICONTROL Salva]**.
@@ -467,7 +467,7 @@ Quando un utente accede come Amministratore personalizzato e fa clic su **[!UICO
 
 ![](assets/download-gamificationtranscripts.png)
 
-*Scarica le trascrizioni della gamification*
+*Scarica le trascrizioni gamification*
 
 Fai clic su **[!UICONTROL Trascrizioni gamification]**, scegli un utente e genera il report.
 
@@ -481,6 +481,6 @@ Il ripristino della gamification non ripristina la data di raggiungimento del li
 
 Un ruolo personalizzato è simile a un sottoinsieme di un ruolo Autore o Amministratore. Consenti uno o più privilegi, definisci l’ambito e assegna il ruolo a un utente.
 
-Fai clic **[!UICONTROL Utenti]** > **[!UICONTROL Ruoli personalizzati]**. Nella pagina Ruoli personalizzati fai clic su **[!UICONTROL Crea ruolo]**. Immetti il nome del ruolo personalizzato e imposta i privilegi per tale ruolo. Per ulteriori informazioni, consulta [Creazione di un ruolo personalizzato](custom-role.md#create-role).
+Fai clic su **[!UICONTROL Utenti]** > **[!UICONTROL Ruoli personalizzati]**. Nella pagina Ruoli personalizzati fai clic su **[!UICONTROL Crea ruolo]**. Immetti il nome del ruolo personalizzato e imposta i privilegi per tale ruolo. Per ulteriori informazioni, consulta [Creazione di un ruolo personalizzato](custom-role.md#create-role).
 +++
 

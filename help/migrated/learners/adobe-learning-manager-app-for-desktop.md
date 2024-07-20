@@ -3,14 +3,13 @@ description: Scopri come utilizzare l’applicazione desktop Adobe Learning Mana
 jcr-language: en_us
 title: Applicazione desktop Adobe Learning Manager
 contentowner: kuppan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 76%
 
 ---
-
-
 
 # Applicazione desktop Adobe Learning Manager
 
@@ -49,17 +48,17 @@ Effettua le seguenti operazioni per acquisire registrazioni video e pubblicarle 
 1. Per creare un post, puoi scegliere una delle tre opzioni disponibili nella home page. Per avviare la finestra di registrazione, fai clic sull’icona Registra video.
 1. In base alle tue esigenze, puoi scegliere tra webcam, schermo o entrambi.
 
-   **Webcam** La webcam cattura il narratore che sta dimostrando o presentando un progetto o un’applicazione, incluso l’audio. Seleziona l’icona della webcam dalle opzioni precedenti per visualizzare la finestra Dal vivo.
+   **Webcam** La webcam cattura il narratore che sta dimostrando o presentando un progetto o un&#39;applicazione con audio. Seleziona l’icona della webcam dalle opzioni precedenti per visualizzare la finestra Dal vivo.
 
-   **Schermo** Registra le azioni eseguite sullo schermo del monitor. Selezionando l’icona dello schermo, lo schermo viene messo in evidenza da una finestra di dialogo di registrazione al centro dello stesso.
+   **Schermata** Registra le azioni eseguite sullo schermo del monitor. Selezionando l’icona dello schermo, lo schermo viene messo in evidenza da una finestra di dialogo di registrazione al centro dello stesso.
 
-   **Entrambi** Registra le azioni del narratore e dello schermo. Selezionando l&#39;ultima icona, lo schermo viene evidenziato e l&#39;utente riceve una finestra dal vivo insieme ad essa.
+   **Entrambi** Registra le azioni dell&#39;Assistente vocale e dello schermo. Selezionando l&#39;ultima icona, lo schermo viene evidenziato e l&#39;utente riceve una finestra dal vivo insieme ad essa.
 
 1. Imposta le preferenze di registrazione.
 
    **Seleziona videocamera** Fai clic sull’icona della videocamera nella parte inferiore della finestra di registrazione video. Seleziona la videocamera che l’utente vorrebbe utilizzare dalle opzioni a disposizione.
 
-   **Seleziona microfono** Fai clic sull’icona del microfono nella parte inferiore della finestra video o audio e seleziona un microfono che l’utente desidera utilizzare dalle opzioni fornite.
+   **Seleziona microfono** Fai clic sull&#39;icona del microfono nella parte inferiore della finestra video o audio e seleziona un microfono che l&#39;utente desidera utilizzare dalle opzioni fornite.
 
    >[!NOTE]
    >
@@ -82,7 +81,7 @@ Per registrare un file audio, effettua le seguenti operazioni:
 1. Fai clic sul pulsante di registrazione per avviare la registrazione.
 1. Una volta che gli utenti hanno finito di registrare l’audio, fai clic sul pulsante di pausa per interrompere la registrazione.
 1. Per ascoltare l’anteprima della registrazione, fai clic sul pulsante di riproduzione.
-1. Se gli utenti desiderano registrare un altro audio aggiungendolo allo stesso file, fai clic su **[!UICONTROL Riprendi]**. Una volta ottenuta la registrazione desiderata, fare clic su **[!UICONTROL Avanti]** per salvare il file nella posizione desiderata. La registrazione viene salvata nella galleria dell’app desktop Adobe Learning Manager, nella quale gli utenti possono visualizzare le registrazioni e le schermate acquisite.
+1. Se gli utenti desiderano registrare un altro audio aggiungendolo allo stesso file, fai clic su **[!UICONTROL Riprendi]**. Una volta soddisfatta la registrazione desiderata, fai clic su **[!UICONTROL Avanti]** per salvare il file nella posizione desiderata. La registrazione viene salvata nella galleria dell’app desktop Adobe Learning Manager, nella quale gli utenti possono visualizzare le registrazioni e le schermate acquisite.
 1. Per modificare la registrazione, consulta [Modifica di una registrazione](adobe-learning-manager-app-for-desktop.md#Editing), per pubblicarla consulta invece [Pubblicazione di una registrazione](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Acquisizione di una schermata {#creatingascreenshot}
@@ -96,7 +95,7 @@ Per acquisire una schermata, esegui le seguenti operazioni:
    *Capture a screenshot*-->
 
 1. Per aiutare gli altri allievi a comprendere e a conservare meglio la presentazione o i contenuti statici, aggiungi annotazioni ai contenuti.
-1. Per modificare la schermata, [fai clic qui](adobe-learning-manager-app-for-desktop.md#Editing)e per pubblicare uno screenshot [fai clic qui](adobe-learning-manager-app-for-desktop.md#Publishing).
+1. Per modificare la schermata, [fai clic qui](adobe-learning-manager-app-for-desktop.md#Editing) e per pubblicare una schermata, [fai clic qui](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Modifica di video, audio e schermate {#editing}
 
@@ -123,9 +122,9 @@ Una volta salvato un file, nel sistema viene visualizzata immediatamente la fine
 
 Per tagliare o rimuovere parti di un file video o audio non necessarie, utilizza lo strumento di ritaglio.
 
-Per tagliare, fai clic su **[!UICONTROL Inizia il taglio]** oppure fai clic sull’icona più sulla timeline per iniziare a tagliare. Quindi fai clic sul pulsante di pausa sul lettore per interrompere il ritaglio. Fai clic sul pulsante **[!UICONTROL Conferma]** per completare il ritaglio.
+Per tagliare, fai clic sul pulsante **[!UICONTROL Inizia taglio]** o sull&#39;icona più sulla timeline per iniziare il taglio. Quindi fai clic sul pulsante di pausa sul lettore per interrompere il ritaglio. Fai clic sul pulsante **[!UICONTROL Conferma]** per completare il ritaglio.
 
-Le registrazioni possono essere tagliate inserendo l&#39;ora nel **[!UICONTROL Ora di inizio]** e **[!UICONTROL Ora di fine]** campi di input dopo l’attivazione **[!UICONTROL Modifica intervallo]**.
+È possibile tagliare le registrazioni immettendo l&#39;ora nei campi di input **[!UICONTROL Ora inizio]** e **[!UICONTROL Ora fine]** dopo aver abilitato **[!UICONTROL Modifica orario]**.
 
 ![](assets/start-trim-05.png)
 *Avvia taglio*
@@ -135,7 +134,7 @@ Le registrazioni possono essere tagliate inserendo l&#39;ora nel **[!UICONTROL O
 
 ## Panoramica e zoom (qualsiasi registrazione video) {#panampzoomanyvideorecording}
 
-L&#39;azione Panning e zoom può essere eseguita solo su **Entrambi** (webcam e schermo) registrazioni video. Per impostazione predefinita, è selezionata l’intera webcam o schermata. Seleziona un punto di manipolazione d’angolo e trascinalo per selezionare la parte di schermo che deve essere visualizzata o messa a fuoco. Fare doppio clic sulla finestra per visualizzare lo schermo intero.
+L&#39;azione Panning e zoom può essere eseguita solo sulle registrazioni video **Entrambe** (webcam e schermo). Per impostazione predefinita, è selezionata l’intera webcam o schermata. Seleziona un punto di manipolazione d’angolo e trascinalo per selezionare la parte di schermo che deve essere visualizzata o messa a fuoco. Fare doppio clic sulla finestra per visualizzare lo schermo intero.
 
 ![](assets/pan-zoom-artboard10.png)
 *Panning e zoom*
@@ -147,7 +146,7 @@ Per creare un nome univoco per un video e un tema coerente, seleziona lo strumen
 Per aggiungere un marchio o un tema a un video, procedi come indicato di seguito:
 
 1. Fai clic sull’icona del branding dal pannello di navigazione a sinistra nella finestra di modifica.
-1. Seleziona un **Tema** dalle opzioni fornite, gli utenti possono personalizzare il proprio tema aggiungendo un **inizio**, **sfondo,** e **fine** video dal sistema.
+1. Selezionate un **tema** dalle opzioni fornite oppure gli utenti possono personalizzare il proprio tema aggiungendo un video **start**, **background,** e **end** dal proprio sistema.
 
    >[!NOTE]
    >
@@ -160,7 +159,7 @@ Per aggiungere un marchio o un tema a un video, procedi come indicato di seguito
    >L’aggiunta del titolo è possibile solo per i video di branding. È necessario specificare un tema prima di assegnare un titolo al video di branding.
 
 1. Aggiungi il nome e la qualifica del presentatore al video, se necessario. Digita un numero compreso nell’intervallo di tempo del video nel campo Visualizza in corrispondenza dell’indicatore di riproduzione per fare in modo che il nome e la qualifica del presentatore vengano visualizzati durante la riproduzione del video.
-1. Aggiungi un’icona di branding sul lato sinistro o destro della schermata video, se necessario. Per selezionare un’icona di branding, fai clic su **[!UICONTROL Seleziona]** > **[!UICONTROL Sfoglia da sistema]**.
+1. Aggiungi un’icona di branding sul lato sinistro o destro della schermata video, se necessario. Per selezionare un&#39;icona di branding, fai clic su **[!UICONTROL Seleziona]** > **[!UICONTROL Sfoglia dal sistema]**.
 1. Per visualizzare l’anteprima del video, fai clic sul pulsante di riproduzione nella schermata di anteprima.
 
    ![](assets/branding-options.png)
@@ -175,18 +174,18 @@ Per iniziare una nuova registrazione, fai clic sull’icona di registrazione di 
 
 ## Pubblicazione di registrazioni video, registrazioni audio e schermate {#publishing}
 
-Una volta apportate tutte le modifiche, fai clic su **[!UICONTROL Condividi]** > digita o cerca un **abilità o bordo** che meglio si riferisce al post > **Post**.
+Una volta apportate tutte le modifiche, fai clic su **[!UICONTROL Condividi]** > digita o cerca una **abilità o una bacheca** che sia più correlata al post > **Post**.
 
 <!--![](assets/share-after-editing-07.png)-->
 *Pubblicazione sul Web*
 
 ## Ricerca nella galleria Learning Manager desktop {#browsingcaptivateprimedesktopgallery}
 
-Tutte le registrazioni e le schermate vengono salvate nell’applicazione desktop Adobe Learning Manager. Per sfogliare questi file, fare clic su **[!UICONTROL Galleria]** dal pannello di navigazione a sinistra nella pagina home.
+Tutte le registrazioni e le schermate vengono salvate nell’applicazione desktop Adobe Learning Manager. Per sfogliare questi file, fai clic su **[!UICONTROL Galleria]** dal pannello di navigazione a sinistra della home page.
 
 >[!NOTE]
 >
->La galleria può essere avviata anche da Apprendimento sociale facendo clic sul pulsante **Galleria Learning Manager** durante la creazione di un post.
+>È possibile avviare la galleria anche da Apprendimento sociale facendo clic sull’icona **Galleria Learning Manager** durante la creazione di un post.
 
 Dalla finestra della galleria, digita il nome del file che stai cercando nel campo di ricerca.
 
@@ -198,7 +197,7 @@ Per modificare o eliminare un file dalla galleria, fai clic sui tre punti nella 
 
 Le notifiche in Learning Manager vengono visualizzate nella finestra delle notifiche anche se l’Allievo non ha effettuato l’accesso all’applicazione Web Learning Manager. Le notifiche includono post o bacheche creati o seguiti dagli utenti o a cui gli utenti hanno partecipato. Facendo clic sulla notifica, l’utente accede al Web di Apprendimento sociale di Learning Manager.
 
-Per disattivare l’audio delle notifiche, fai clic su **[!UICONTROL Menu Profilo*]* > **[!UICONTROL Impostazioni] > **[!UICONTROL Disattiva audio notifiche]**.
+Per disattivare l&#39;audio delle notifiche, fare clic sul menu **[!UICONTROL Profilo*]* > **[!UICONTROL Impostazioni] > **[!UICONTROL Disattiva audio notifiche]**.
 
 ## Impostazioni dell’applicazione desktop Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
 
@@ -209,4 +208,4 @@ Disattiva audio notifiche, Avvia automaticamente applicazione, Aggiorna automati
 Gli utenti possono inoltre modificare la posizione della galleria facendo clic sul collegamento ipertestuale **Cambia**.
 
 ![](assets/app-settings.png)
-*Adobe delle impostazioni dell’app Learning Manager*
+*Impostazioni app Adobe Learning Manager*

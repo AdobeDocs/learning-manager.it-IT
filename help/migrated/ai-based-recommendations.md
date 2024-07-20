@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Consiglio basato sull’intelligenza artificiale
 description: Learning Manager include una nuova pagina principale dell’Allievo, moderna, maggiormente basata sui contenuti e personalizzata in base alle sue preferenze. I consigli per l’apprendimento basati sull’intelligenza artificiale mirano a migliorare il coinvolgimento degli allievi e a identificare e ad affrontare le lacune.
 contentowner: saghosh
-source-git-commit: fbba54fd99b5757f70011ec0b240abcb25042ec1
+exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 75%
 
 ---
-
-
 
 # Consiglio basato sull’intelligenza artificiale
 

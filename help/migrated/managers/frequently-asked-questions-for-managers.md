@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Domande frequenti per i Manager
-description: Domande frequenti per i Manager di Learning Manager di Adobe
+description: Domande frequenti per i manager Adobe Learning Manager
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 57%
 
 ---
-
-
 
 # Domande frequenti per i Manager
 
@@ -71,7 +70,7 @@ Puoi fare clic sull’icona a discesa per modificare l’intervallo di date, sal
 
 Puoi creare report per i membri del team per visualizzare l’elenco delle abilità assegnate e acquisite da ciascuno di essi. Fai clic su Report nel riquadro a sinistra e sulla scheda Report di esempio per visualizzare un report di esempio su Abilità e Manager.
 
-Per ulteriori informazioni, consulta [Report](feature-summary/reports.md) nella Guida di Learning Manager.
+Per ulteriori informazioni, fai riferimento alla funzionalità [Report](feature-summary/reports.md) nella Guida di Learning Manager.
 
 +++
 
@@ -95,7 +94,7 @@ Per annullare le modifiche, puoi fare clic sull’opzione di ripristino.
 
 Per ridimensionare il report, fai clic su Ridimensiona e scegli una delle due opzioni: 1×1 piccolo e 1×2 ampio.
 
-Per ulteriori informazioni, consulta  [Funzione Report.](feature-summary/reports.md)
+Per ulteriori informazioni, consulta la funzionalità [Report.](feature-summary/reports.md)
 
 +++
 
@@ -117,7 +116,7 @@ Puoi visualizzare tutti questi report con un intervallo di date.
 
 +++Posso visualizzare tutti i corsi disponibili? Come?
 
-Puoi passare al ruolo di Allievo per visualizzare tutti i corsi disponibili. Fare riferimento a  [Corsi](../learners/feature-summary/courses.md) per ulteriori informazioni
+Puoi passare al ruolo di Allievo per visualizzare tutti i corsi disponibili. Per ulteriori informazioni, fai riferimento alla funzionalità [Corsi](../learners/feature-summary/courses.md)
 
 +++
 

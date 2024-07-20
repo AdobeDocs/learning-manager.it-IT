@@ -42,16 +42,16 @@ Crea gruppi di utenti personalizzati per filtrare i ruoli utente assegnati a una
 
 1. Crea un gruppo di utenti personalizzato nella finestra Aggiungi gruppo di utenti come indicato di seguito:
 
-   * Immettere un nome per il gruppo personalizzato nella **[!UICONTROL Nome]** campo.
-   * Sotto **[!UICONTROL Includi Allievi]** , aggiungi il gruppo di utenti a cui non vuoi assegnare il ruolo di istruttore.
-   * Sotto **[!UICONTROL Escludi Allievi]** , aggiungi gli utenti che desideri mantengano il ruolo di istruttore.
+   * Immettere un nome per il gruppo personalizzato nel campo **[!UICONTROL Nome]**.
+   * Nel campo **[!UICONTROL Includi Allievi]**, aggiungi il gruppo di utenti a cui non vuoi assegnare il ruolo di istruttore.
+   * Nel campo **[!UICONTROL Escludi Allievi]**, aggiungi gli utenti per i quali desideri mantenere il ruolo di istruttore.
 
    ![](assets/instructor-add-ug.png)
 
    Con questi passaggi hai creato un elenco di utenti nel gruppo &quot;Includi&quot; e hai rimosso degli utenti specifici (che rimarranno istruttori) inserendoli nel gruppo &quot;Escludi&quot;.
 
-1. Fai clic **[!UICONTROL Salva]** le modifiche apportate.
-1. Cerca il gruppo di utenti personalizzato creato andando su **[!UICONTROL Utenti]** > **[!UICONTROL Interno]**.
+1. Fai clic su **[!UICONTROL Salva]** le modifiche apportate.
+1. Cerca il gruppo di utenti personalizzato creato andando su **[!UICONTROL Utenti]** > **[!UICONTROL Interni]**.
 
    ![](assets/instructor-custom-ug.png)
 
@@ -59,6 +59,6 @@ Crea gruppi di utenti personalizzati per filtrare i ruoli utente assegnati a una
 
    ![](assets/instructor-bulk-ug.png)
 
-1. Fai clic **[!UICONTROL Azioni]** > **[!UICONTROL Rimuovi ruolo]** > **[!UICONTROL Rimuovi Istruttore]**.
+1. Fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Rimuovi ruolo]** > **[!UICONTROL Rimuovi istruttore]**.
 
 Assicurati che le eventuali e-mail disattivate nel passaggio 2 vengano riattivate a procedura completata.

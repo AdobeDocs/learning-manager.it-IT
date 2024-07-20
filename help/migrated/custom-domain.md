@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Supporto per il dominio personalizzato
 description: I domini personalizzati non sono supportati in un’istanza Azure di Learning Manager.
 contentowner: saghosh
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 67%
 
 ---
-
-
 
 # Supporto per il dominio personalizzato
 
@@ -22,7 +21,7 @@ Il supporto per il dominio personalizzato consente ai clienti di avere il contro
 
 Questo consente al cliente di offrire un’esperienza di accesso “white label” in modo che gli utenti non notino la presenza di Adobe o Adobe Learning Manager.
 
-Ad esempio, vorresti personalizzare il tuo dominio in modo che i tuoi utenti ottengano la stessa esperienza che se si trovassero nel dominio Adobe. Se ABC Inc vuole addestrare i propri clienti, vorrebbe che atterrassero su un dominio chiamato `abc.com/mylearning`, anziché `learningmanager.adobe.com/abc-inc/mylearning`.
+Ad esempio, vorresti personalizzare il tuo dominio in modo che i tuoi utenti ottengano la stessa esperienza che se si trovassero nel dominio Adobe. Se ABC Inc desidera addestrare i propri clienti, desidera che si trovino su un dominio denominato `abc.com/mylearning` anziché `learningmanager.adobe.com/abc-inc/mylearning`.
 
 >[!NOTE]
 >
@@ -31,7 +30,7 @@ Ad esempio, vorresti personalizzare il tuo dominio in modo che i tuoi utenti ott
 
 La funzione di dominio personalizzato è disponibile a un costo aggiuntivo. Per saperne di più, contatta il tuo Customer Success Manager.
 
-* Per il ruolo di Allievo, il dominio inizierà con `https://cdn.<customer_custom_domain>/` Ad esempio, `https://cdn.elearningstage1.cpdomaintest.in/`
+* Per il ruolo Allievo, il dominio inizierà con `https://cdn.<customer_custom_domain>/` Ad esempio, `https://cdn.elearningstage1.cpdomaintest.in/`
 * Per tutti gli altri ruoli, il dominio inizierà con `https://<customer_custom_domain>/`. Ad esempio: `https://elearningstage1.cpdomaintest.in/`
 
 `<customer_custom_domain>` è la parte personalizzabile.
@@ -46,9 +45,9 @@ Applica i passaggi seguenti per configurare un dominio personalizzato.
 
 1. Il cliente deve **aggiungere tre record CNAME** nel dominio:
 
-   * **learning.acme.com:** Endpoint pubblico ALB di Learning Manager condiviso dall’Adobe
-   * **lrs.learning.acme.com:** Endpoint pubblico ALB indicato da learning.acme.com
-   * **cdn.learning.acme.com:** Endpoint CDN condiviso dall&#39;Adobe
+   * **learning.acme.com:** endpoint pubblico ALB di Learning Manager condiviso dall’Adobe
+   * **lrs.learning.acme.com:** endpoint pubblico ALB indicato da learning.acme.com
+   * **cdn.learning.acme.com:** endpoint CDN condiviso dall&#39;Adobe
 
 1. Il cliente deve fornire certificati SSL per questi domini:
 

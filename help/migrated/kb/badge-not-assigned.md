@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Impossibile assegnare un badge
 description: Dopo che un allievo completa un corso, un programma di apprendimento o una certificazione, non gli viene assegnato il badge.
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 74%
 
 ---
-
-
 
 # Impossibile assegnare un badge
 
@@ -40,7 +39,7 @@ Se un allievo riscontra questo problema, prova la procedura seguente:
 
 1. Apri l’oggetto di apprendimento pertinente (Corso/programma di apprendimento).
 
-1. Fai clic **[!UICONTROL Istanze]** > **[!UICONTROL Badge]**.
+1. Fai clic su **[!UICONTROL Istanze]** > **[!UICONTROL Badge]**.
 
    ![](assets/view-a-badge.png)
 
@@ -56,7 +55,7 @@ Se un allievo riscontra questo problema, prova la procedura seguente:
 
 1. Accedi come Amministratore.
 1. Apri la certificazione.
-1. Fai clic **[!UICONTROL Panoramica]** > **[!UICONTROL Badge]**.
+1. Fai clic su **[!UICONTROL Panoramica]** > **[!UICONTROL Distintivo]**.
 1. Rimuovi il badge dalla certificazione e fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/remove-a-badge-cert.png)

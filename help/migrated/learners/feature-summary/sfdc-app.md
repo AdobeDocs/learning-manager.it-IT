@@ -3,14 +3,13 @@ jcr-language: en_us
 title: App Learning Manager per Salesforce
 description: Salesforce&trade; è la soluzione CRM più diffusa tra i team di vendita e marketing. Tramite l’app Adobe Learning Manager in Salesforce, gli Allievi possono accedere a tutti i contenuti di apprendimento all’interno dell’interfaccia Salesforce. Gli Allievi possono accedere ai contenuti di apprendimento assegnati come corsi, programmi di apprendimento e risorse formative dall’interno di Salesforce. Gli utenti possono inoltre ricevere notifiche relative a iscrizioni e annunci dall’Amministratore.
 contentowner: jayakarr
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 75%
 
 ---
-
-
 
 # App Learning Manager per Salesforce
 
@@ -18,11 +17,11 @@ ht-degree: 75%
 
 Salesforce™ è la soluzione CRM più popolare tra i team di marketing e vendite. Tramite l’app Adobe Learning Manager in Salesforce, gli Allievi possono accedere a tutti i contenuti di apprendimento all’interno dell’interfaccia Salesforce. Gli Allievi possono accedere ai contenuti di apprendimento assegnati come corsi, programmi di apprendimento e risorse formative dall’interno di Salesforce. Gli utenti possono inoltre ricevere notifiche relative a iscrizioni e annunci dall’Amministratore.
 
-Questa app sarà disponibile in Salesforce solo quando l’amministratore dell’account Learning Manager avrà completato le attività di configurazione richieste. Per ulteriori dettagli, consulta [App Learning Manager per Salesforce](../../integration-admin/feature-summary/sfdc-app.md)e richiedi all’Amministratore di installare l’app Learning Manager per Salesforce.
+Questa app sarà disponibile in Salesforce solo quando l’amministratore dell’account Learning Manager avrà completato le attività di configurazione richieste. Per ulteriori informazioni, consulta [App Learning Manager per Salesforce](../../integration-admin/feature-summary/sfdc-app.md) e richiedi all’Amministratore di installare l’app Learning Manager per Salesforce.
 
 ## Individua l’app in Salesforce {#locateappinsalesforce}
 
-Come Allievo, puoi fare clic sul pulsante **App** nell’angolo destro della pagina e seleziona l’Adobe Learning Manager.
+Come Allievo, puoi fare clic sul menu a discesa **App** nell&#39;angolo a destra della pagina e selezionare Adobe Learning Manager.
 
 Se riesci a individuare l’app nel menu a discesa, contatta l’amministratore di Salesforce.
 
@@ -32,7 +31,7 @@ Una volta selezionata l’app, puoi passare all’app Adobe Learning Manager, co
 
 ## Istruzioni di accesso e utilizzo {#loginandusageinstructions}
 
-Fai clic **[!UICONTROL Connetti a Learning Manager]** nell’Adobe Learning Manager, come mostrato nell’istantanea sopra, e accedi con le credenziali dell’account Learning Manager.
+Fai clic su **[!UICONTROL Connetti a Learning Manager]** nel Adobe Learning Manager come mostrato nell’istantanea sopra e accedi con le credenziali dell’account Learning Manager.
 
 Puoi eseguire la connessione all’app Learning Manager e utilizzarla dall’interno di Salesforce.
 
@@ -42,10 +41,10 @@ Un’istantanea rappresentativa della vista Allievo nell’app Adobe Learning Ma
 
 ![](assets/learners-view.png)
 
-*visualizzazione dell’app di Learning Manager di Adobe*
+*visualizzazione dell&#39;app Adobe Learning Manager*
 
 ## Disconnessione dall’app {#disconnectfromtheapp}
 
-Puoi fare clic sul collegamento di disconnessione nella parte inferiore della pagina degli Allievi, come indicato nell’istantanea sopra, per eseguire la **disconnessione** dall’app Adobe Learning Manager. Dopo la disconnessione, verrai reindirizzato alla pagina di benvenuto dell’app di Learning Manager di Adobe.
+Puoi fare clic sul collegamento di disconnessione nella parte inferiore della pagina degli Allievi, come indicato nell’istantanea sopra, per eseguire la **disconnessione** dall’app Adobe Learning Manager. Dopo la disconnessione, verrai reindirizzato alla pagina di benvenuto dell&#39;app Adobe Learning Manager.
 
 Puoi eseguire la connessione o la disconnessione dall’app ogni volta che vuoi.

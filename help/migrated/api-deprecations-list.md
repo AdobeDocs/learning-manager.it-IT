@@ -55,9 +55,9 @@ The following table lists the rate and burst limits for the APIs.
 
 ### Modifiche ai limiti di offset
 
-A causa dell&#39;elevato numero di record recuperati dal valore di offset e del rallentamento delle prestazioni complessive, viene applicato un limite di **500** record. Nella prossima versione, sia per gli Amministratori che per gli Allievi, le **Utenti GET** L’API restituirà un massimo di **500** record.
+A causa dell&#39;elevato numero di record recuperati dal valore di offset e del rallentamento delle prestazioni complessive, viene applicato un limite di **500** record. Nella prossima versione, sia per l’Amministratore che per l’Allievo, l’API **Utenti GET** restituirà un massimo di **500** record.
 
-Per recuperare altri record, utilizzare il pulsante **Processi GET** API.
+Per recuperare altri record, utilizza l&#39;API **Processi di GET**.
 
 <!--### Exclude paths 
 
@@ -131,7 +131,7 @@ Il motivo per cui il flag per le API degli Allievi viene rimosso è perché il f
 
 D’ora in avanti, la seguente API per Allievi non funzionerà più perché contiene il flag di esclusione.
 
-_/primeapi/v2/users?pagina[offset]=0&amp;pagina[limite]=10&amp;sort=id&amp;override=TRUE_
+_/primeapi/v2/users?page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE_
 
 ### Modifiche alle API per nuovi consigli basati sulle competenze
 
@@ -149,5 +149,5 @@ Nella versione di novembre 2023, è stato aggiunto un filtro per data, con cui �
 
 ### Rimozione dei valori di offset elevati nell&#39;endpoint GET /users
 
-Per migliorare le prestazioni del sistema e gestire in modo più efficace l&#39;utilizzo delle risorse, Adobe ha deprecato valori di offset elevati nell&#39;endpoint GET /users per entrambi **AMMINISTRATORE** e **ALLIEVO** ambiti. Si consiglia di utilizzare il **API dei processi** per recuperare i record con un valore di offset.
+Per migliorare le prestazioni del sistema e gestire in modo più efficace l&#39;utilizzo delle risorse, Adobe ha deprecato valori di offset elevati nell&#39;endpoint GET /users per gli ambiti **ADMIN** e **LEARNER**. Si consiglia di utilizzare l&#39;API **Processi** per recuperare i record con un valore di offset.
 

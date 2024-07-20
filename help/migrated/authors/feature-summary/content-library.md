@@ -118,58 +118,58 @@ La tabella seguente mostra i tipi di file interattivi e statici che è possibile
 
 ## Aggiunta di nuovi contenuti alla libreria {#addnewcontentinthelibrary}
 
-**Gli autori** possono aggiungere contenuti in ALM. Ci sono due tipi di contenuti in ALM: **[!UICONTROL Contenuto]** e **[!UICONTROL Quiz]**. Per informazioni su come aggiungere contenuti, vedere [Aggiungere contenuto](content-library.md#addstaticcontent) statico e [Creare un quiz](content-library.md##createaquiz).
+**Gli autori** possono aggiungere contenuti in ALM. In ALM sono presenti due tipi di contenuto: **[!UICONTROL Contenuto]** e **[!UICONTROL Quiz]**. Per informazioni su come aggiungere contenuti, consulta [Aggiungere contenuti statici](content-library.md#addstaticcontent) e [Creare un quiz](content-library.md##createaquiz).
 
 ## Aggiunta di contenuti statici {#addstaticcontent}
 
-1. Selezionare **[!UICONTROL Libreria contenuti nel riquadro sinistro dopo aver effettuato l&#39;accesso come** Autore e selezionare **[!UICONTROL Aggiungi]****.]**
+1. Seleziona **[!UICONTROL Libreria dei contenuti]** nel riquadro a sinistra dopo aver effettuato l’accesso come **Autore** e seleziona **[!UICONTROL Aggiungi]**.
 
-   In alternativa, puoi selezionare **[!UICONTROL Crea contenuto]** dalla **[!UICONTROL pagina Guida introduttiva]** .
+   In alternativa, puoi selezionare **[!UICONTROL Crea contenuto]** dalla pagina **[!UICONTROL Guida introduttiva]**.
 
-1. **[!UICONTROL Nel campo Nome]**, digitare un nome per il contenuto che si desidera caricare.
-1. **[!UICONTROL Nel campo Descrizione]** digitare la descrizione del contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 400 caratteri.
-1. Per aggiungere il contenuto, selezionare **[!UICONTROL Aggiungi file]** di contenuto e caricare il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
+1. Nel campo **[!UICONTROL Nome]**, digita un nome per il contenuto da caricare.
+1. Nel campo **[!UICONTROL Descrizione]** digitare la descrizione del contenuto. Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 400 caratteri.
+1. Per aggiungere il contenuto, selezionare **[!UICONTROL Aggiungi file di contenuto]** e caricare il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
 
    Se desideri sostituire il contenuto, poi sostituire un contenuto statico con un altro contenuto statico. Lo stesso vale per il contenuto interattivo.
 
-1. **[!UICONTROL Nel campo Durata]**, puoi facoltativamente digitare il tempo previsto che un Allievo trascorrerebbe in questo modulo. La durata è espressa in minuti.
+1. Nel campo **[!UICONTROL Durata]** è possibile digitare facoltativamente il tempo previsto che un Allievo dovrebbe dedicare a questo modulo. La durata è espressa in minuti.
 
-   Se l&#39;Allievo contrassegna un corso come completato, calcoliamo il tempo di apprendimento in base alla durata specificata. Se l&#39;Allievo utilizza il contenuto nel lettore, il tempo trascorso nel lettore viene aggiunto al tempo trascorso nell&#39;apprendimento. Se il tempo effettivo del contenuto è inferiore alla durata specificata, il lettore visualizza l&#39;ora del contenuto così com&#39;è. In questo caso non vengono apportate modifiche.
+   Se l’Allievo contrassegna un corso come completato, il tempo di apprendimento viene calcolato in base alla durata specificata. Se l’Allievo utilizza i contenuti nel lettore, il tempo impiegato per tale operazione viene sommato al tempo di apprendimento impiegato. Se il tempo del contenuto effettivo è inferiore alla durata specificata, il lettore visualizza il tempo del contenuto così come è. In questo caso non viene apportata alcuna modifica.
 
-1. **[!UICONTROL Nel campo Tag]**, digita i tag per il contenuto caricato in modo che diventi individuabile.
+1. Nel campo **[!UICONTROL Tag]**, digita i tag per il contenuto caricato in modo che il tuo contenuto diventi rilevabile.
 
-   Un Autore può utilizzare questi tag per cercare il contenuto e aggiungerlo al corso.
+   L’Autore può utilizzare questi tag per cercare il contenuto durante l’aggiunta del contenuto al corso.
 
-### Aggiungere il tipo di file HTML5 nella libreria dei contenuti
+### Aggiungere il tipo di file HTML5 nella raccolta di contenuti
 
-Gli autori possono aggiungere contenuto HTML5 come file .zip al contenuto di autoapprendimento. La cartella .zip deve contenere un file HTML denominato `index.html`. Se ci sono più file HTML, devono essere tutti collegati, con il file principale chiamato `index.html`. Gli Allievi possono visualizzare il contenuto HTML5 nel lettore Fluidic. L&#39;Autore può aggiungere questo contenuto HTML5 al modulo di autoapprendimento di un corso e impostare i criteri di completamento. Gli Autori possono impostare i criteri per il completamento del corso HTML in uno dei due modi seguenti:
+Gli autori possono aggiungere contenuti HTML5 come file .zip ai contenuti autonomi. La cartella .zip deve contenere un file HTML denominato `index.html`. Se sono presenti più file HTML, questi devono essere tutti collegati con il file principale denominato `index.html`. Gli Allievi possono visualizzare i contenuti di HTML5 nel lettore Fluidic. L’Autore può aggiungere questo contenuto HTML5 al modulo autonomo di un corso e impostare i criteri di completamento. Gli Autori possono impostare i criteri per il completamento del corso di HTML in due modi:
 
-* L&#39;Allievo può contrassegnarlo come completato.
-* Sarà contrassegnato come completato una volta avviato il corso.
+* L’Allievo può contrassegnarlo come completato autonomamente.
+* Verrà contrassegnato come completato una volta avviato il corso.
 
-Per aggiungere il tipo di file HTML .zip alla libreria contenuto, attenersi alla seguente procedura.
+Per aggiungere il tipo di file HTML (.zip) alla raccolta di contenuti, eseguire la procedura seguente.
 
 1. Nell&#39;app Autore, seleziona **[!UICONTROL Crea contenuto]** nella home page.
-1. **[!UICONTROL Nella schermata Libreria]** contenuto, seleziona **[!UICONTROL Aggiungi]** > **[!UICONTROL contenuto]**.
+1. Nella schermata **[!UICONTROL Libreria dei contenuti]**, seleziona **[!UICONTROL Aggiungi]** > **[!UICONTROL Contenuto]**.
 1. Digitare il nome e la descrizione del contenuto.
-1. Seleziona l&#39;opzione **[!UICONTROL Aggiungi file di contenuto]** , quindi sfoglia e seleziona i file HTML (compressi come una cartella).
-1. Dopo aver aggiunto il contenuto, è possibile visualizzarlo nella **[!UICONTROL sezione Libreria]** contenuto.
-1. Selezionare il contenuto HTML, quindi fare clic su **[!UICONTROL Modifica]**.
-1. Selezionate una delle opzioni seguenti dall&#39;opzione **[!UICONTROL Criteri]** di completamento.
-   * **[!UICONTROL All&#39;avvio del contenuto]**: il corso verrà contrassegnato come completato automaticamente quando l&#39;Allievo lo avvia.
-   * **[!UICONTROL Voti dell&#39;Allievo completati]**: l&#39;Allievo ha la possibilità di contrassegnare il corso come completato nel lettore Fluidic.
+1. Seleziona l&#39;opzione **[!UICONTROL Aggiungi file di contenuto]**, quindi sfoglia e seleziona i file di HTML (compressi come cartella).
+1. Una volta aggiunto il contenuto, puoi visualizzarlo nella sezione **[!UICONTROL Libreria dei contenuti]**.
+1. Seleziona il contenuto HTML, quindi seleziona **[!UICONTROL Modifica]**.
+1. Selezionare una delle opzioni seguenti dall&#39;opzione **[!UICONTROL Criteri di completamento]**.
+   * **[!UICONTROL All’avvio dei contenuti]**: il corso verrà contrassegnato come completato automaticamente all’avvio dell’Allievo.
+   * **[!UICONTROL L’Allievo segna il completamento]**: può contrassegnare il corso come completato nel lettore Fluidic.
 
    ![](assets/completion-criteria.png)
    _Criteri di completamento_
 
 1. Seleziona **[!UICONTROL Salva]**.
-1. Crea un corso aggiungendo questo contenuto.  Per ulteriori informazioni, consulta [Creare, modificare e pubblicare corsi](/help/migrated/authors/feature-summary/courses.md).
+1. Crea un corso aggiungendo questo contenuto.  Per ulteriori informazioni, consulta [Creazione, modifica e pubblicazione di corsi](/help/migrated/authors/feature-summary/courses.md).
 
-Nell&#39;applicazione per gli Allievi, se un Autore seleziona criteri di selezione come **[!UICONTROL All&#39;avvio del contenuto]**, il corso verrà contrassegnato come completato all&#39;avvio dell&#39;Allievo. Quando un Autore sceglie **[!UICONTROL L&#39;Allievo contrassegna come completato]**, avrà la possibilità di contrassegnare il corso come completato.
+Nell’app per Allievi, se un Autore seleziona i criteri di selezione come **[!UICONTROL All’avvio dei contenuti]**, il corso verrà contrassegnato come completato quando l’Allievo lo avvia. Quando un Autore sceglie **[!UICONTROL Gli Allievi indicano il completamento]**, l’Allievo avrà la possibilità di contrassegnare il corso come completato.
 
 ![](assets/completion-criteria-fluidic-player.png)
 
-_Voti Allievo completati_
+_Gli Allievi indicano come completati_
 
 ### Controllo delle versioni {#versioning}
 
@@ -177,18 +177,18 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
 ## Aggiunta di contenuto interattivo {#addinteractivecontent}
 
-1. Selezionare **[!UICONTROL Libreria contenuti nel riquadro sinistro dopo aver effettuato l&#39;accesso come** Autore e selezionare **[!UICONTROL Aggiungi]****.]**
+1. Seleziona **[!UICONTROL Libreria dei contenuti]** nel riquadro a sinistra dopo aver effettuato l’accesso come **Autore** e seleziona **[!UICONTROL Aggiungi]**.
 
-   In alternativa, puoi selezionare **[!UICONTROL Crea contenuto]** dalla **[!UICONTROL pagina Guida introduttiva]** .
+   In alternativa, puoi selezionare **[!UICONTROL Crea contenuto]** dalla pagina **[!UICONTROL Guida introduttiva]**.
 
-1. **[!UICONTROL Nel campo Nome]**, digitare un nome per il contenuto che si desidera caricare.
-1. **[!UICONTROL Nel campo Descrizione]** digitare la descrizione del contenuto.
+1. Nel campo **[!UICONTROL Nome]**, digita un nome per il contenuto da caricare.
+1. Nel campo **[!UICONTROL Descrizione]** digitare la descrizione del contenuto.
 
    >[!NOTE]
    >
    >Assicurati che la descrizione che vuoi inserire sia provvista di significato. Il limite di caratteri è pari a 245 caratteri.
 
-1. Per aggiungere il contenuto, selezionare **[!UICONTROL Aggiungi file]** di contenuto e caricare il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
+1. Per aggiungere il contenuto, selezionare **[!UICONTROL Aggiungi file di contenuto]** e caricare il file di risorse. Quando si aggiungono contenuti per più lingue, non è possibile combinare contenuti statici e interattivi all’interno di un singolo gruppo. I contenuti di tutte le versioni locali devono essere o tutti statici o tutti interattivi.
 
 * [Tipi di file supportati](content-library.md#supported)
 
@@ -200,13 +200,13 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
    Gli studenti possono quindi visualizzare le didascalie durante la riproduzione del modulo video.
 
-   Il formato supportato è [Web Video Text Tracks (webVTT).](https://www.w3.org/TR/webvtt1/)
+   Il formato supportato è [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
    Il supporto delle didascalie è disponibile per i contenuti video caricati in Libreria dei contenuti di Learning Manager.
 
-   Come autore, quando carichi un contenuto video o audio, puoi anche caricare il file VTT che contiene le didascalie.
+   In qualità di autore, quando caricherai un contenuto video o audio, puoi anche caricare il file VTT che contiene i sottotitoli.
 
-   I sottotitoli appaiono quindi nel lettore Fluidic. Le didascalie sono inoltre conformi agli [standard](https://www.w3.org/TR/WCAG20/) WCAG2.0.
+   I sottotitoli vengono quindi visualizzati nel lettore Fluidic. I sottotitoli sono inoltre conformi agli standard [WCAG2.0](https://www.w3.org/TR/WCAG20/).
 
    Quando aggiungi un contenuto video alla libreria, puoi anche aggiungere il file VTT, che **deve** essere un file valido.
 
@@ -214,49 +214,49 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
    *Aggiungere un file webvtt*
 
-   Il file VTT caricato corrisponde alla versione esistente del contenuto. Pertanto, il file webVTT caricato non si collega alla versione precedente del contenuto.
+   Il file VTT caricato corrisponde alla versione esistente del contenuto. In questo modo, il file caricato su webVTT non si collega alla versione precedente del contenuto.
 
    Se crei il contenuto in lingue diverse, puoi caricare un file webVTT diverso per ogni lingua. Gli studenti potranno visualizzare le didascalie corrispondenti alla lingua selezionata durante la riproduzione.
 
    >[!NOTE]
    >
-   >   Un file VTT supporta una lingua. Per supportare più lingue, caricate più file video per ogni lingua del contenuto, quindi caricate il rispettivo file VTT per ogni file video.
+   >   Un file VTT supporta una sola lingua. Per supportare più lingue, carica più file video per ogni lingua di contenuto, quindi carica il rispettivo file VTT per ogni file video.
 
-   Come autore, ogni volta che modifichi il contenuto, il video o l&#39;audio, Learning Manager ti richiede un nuovo file vtt.
+   Come Autore, ogni volta che modifichi il contenuto, video o audio, Learning Manager ti chiede un nuovo file vtt.
 
-   Dopo aver aggiunto questo contenuto a un corso e quando visualizzi l&#39;anteprima del corso come Allievo, puoi visualizzare i sottotitoli nel video.
+   Dopo aver aggiunto questo contenuto a un corso e quando lo visualizzi in anteprima come Allievo, puoi visualizzare i sottotitoli nel video.
 
    Sul lettore, attiva o disattiva il pulsante CC del lettore Fluidic per visualizzare o nascondere le didascalie.
 
    La stessa visualizzazione è presente nell’**app per Allievi** e nell’**Anteprima come Allievo**.
 
-   Quando si **aggiunge, si aggiorna o si elimina** il file VTT, si riceve una notifica.
-Il supporto WebVTT non è disponibile per:
+   Quando **aggiungi, aggiorni o elimini** il file vtt, ricevi una notifica.
+Il supporto del formato WebVTT non è disponibile per:
 
    1. Annunci video.
-   1. Video riprodotto all&#39;interno del contenuto eLearning. Questo dipende dal contenuto.
+   1. Video riprodotto all’interno dei contenuti di eLearning. Questo dipende dal contenuto.
    1. Video caricato in Apprendimento sociale.
    1. Video creato nell’app desktop Learning Manager.
    1. Contenuto video creato con il processo di migrazione.
    1. Riproduzione di video nell’app mobile in modalità offline.
 
-1. **[!UICONTROL Nel campo Durata]**, puoi facoltativamente immettere il tempo previsto che un Allievo trascorrerebbe in questo modulo. La durata è espressa in minuti.
-1. **[!UICONTROL Nel campo Tag]**, immetti i tag per il contenuto caricato in modo che diventi individuabile.
+1. Nel campo **[!UICONTROL Durata]** è possibile immettere facoltativamente il tempo previsto che un Allievo trascorrerebbe in questo modulo. La durata è espressa in minuti.
+1. Nel campo **[!UICONTROL Tag]**, immettete i tag per il contenuto caricato in modo che il contenuto diventi rilevabile.
 
 ### Supporto per il catalogo condiviso
 
-Se un Account venditore condivide un catalogo contenente i corsi e i corsi contengono moduli, audio o video con i sottotitoli, i corsi devono comportarsi allo stesso modo nell&#39;account acquirente.
+Se un account del venditore condivide un catalogo che contiene i corsi e questi contengono i moduli, audio o video con i sottotitoli, i corsi devono comportarsi allo stesso modo nell’account dell’acquirente.
 
-La propagazione del modulo deve funzionare correttamente dall’account venditore all’account acquirente. Ciò può includere - modifica / eliminazione / aggiunta del file VTT nel modulo.
+La propagazione del modulo deve funzionare correttamente dall’account venditore all’account acquirente. Questo può includere: modifica/elimina/aggiunta del file vtt nel modulo.
 
 Una volta caricato il contenuto, puoi visualizzare una notifica facendo clic sull’icona raffigurante una campana nell’angolo in alto a destra della pagina. Ogni volta che modifichi un contenuto e lo carichi nuovamente, ricevi una notifica. Se apporti le modifiche, solo tu ricevi la notifica, e non gli altri autori.
 
 ## Crea un quiz {#createaquiz}
 
-Crea valutazioni all’interno di Adobe Learning Manager con il nuovo strumento per la creazione di quiz nella pagina Libreria dei contenuti. Le valutazioni create diventano parte della Libreria contenuti e possono essere aggiunte a una cartella &quot;pubblica&quot; per la riusabilità del corso.
+Crea valutazioni all’interno di Adobe Learning Manager con il nuovo strumento per la creazione di quiz nella pagina Libreria dei contenuti. Le valutazioni create diventano parte della Libreria dei contenuti e possono essere aggiunte a una cartella &quot;pubblica&quot; per consentire il riutilizzo del corso.
 
-1. Seleziona Libreria contenuti nel pannello sinistro.
-1. Nell&#39;angolo superiore destro dello schermo, seleziona **Aggiungi > quiz**.
+1. Selezionate Libreria contenuti nel pannello a sinistra.
+1. Nell&#39;angolo superiore destro della schermata, seleziona **Aggiungi > Quiz**.
 1. Nella pagina Crea quiz, digita il nome e la descrizione del quiz.
 1. Nella sezione Contenuto quiz, seleziona **Aggiungi domanda per il quiz**.
 1. Nella finestra di dialogo della domanda del quiz, seleziona il tipo di domanda. Esistono Sono disponibili tre tipi di domande:
@@ -267,31 +267,31 @@ Crea valutazioni all’interno di Adobe Learning Manager con il nuovo strumento 
 1. Definisci i punti per il quiz.
 1. Se desideri che alla domanda venga fornita una risposta corretta per superare il quiz, seleziona la casella di controllo **È obbligatorio rispondere correttamente per superare il quiz**.
 1. Seleziona **Salva e chiudi**.
-1. Inserisci i punti per superare il quiz nel campo Criteri **di** superamento.
-1. Se desideri che un Allievo visualizzi una risposta corretta, attiva l&#39;opzione **Mostra risposte** corrette agli Allievi dopo il quiz.
+1. Immetti i punti per superare il quiz nel campo **Criteri di superamento**.
+1. Se desideri che un Allievo visualizzi una risposta corretta, attiva l’opzione **Mostra risposte corrette** per gli Allievi dopo il quiz.
 1. Se desideri che le domande e le risposte vengano visualizzate in modo casuale, attiva le opzioni:
    * Ordine domande casuale
    * Ordine delle opzioni di risposta casuale
 1. Specifica una cartella in cui aggiungere il quiz per renderlo disponibile a tutti gli autori.
-1. **Nel campo Durata**, specifica il tempo che l&#39;Allievo deve dedicare al quiz.
+1. Nel campo **Durata**, specifica il tempo che l’Allievo deve dedicare al quiz.
 1. Specifica un tag dall’elenco dei tag già creati.
 1. Aggiungi un logo e uno sfondo al quiz.
-1. Nell&#39;angolo in alto a destra della pagina, selezionare **Pubblica**.
+1. Nell&#39;angolo superiore destro della pagina, seleziona **Publish**.
 
-Per aggiungere i quiz in una lingua diversa, segui i passaggi per favore:
+Per aggiungere i quiz in una lingua diversa, procedere come segue:
 
-1. Per aggiungere il quiz per lingue diverse, selezionare la **scheda Aggiungi nuova lingua** e scegliere le lingue desiderate. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
+1. Per aggiungere il quiz per lingue diverse, selezionate la scheda **Aggiungi nuova lingua** e scegliete le lingue desiderate. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
 
    ![](assets/add-new-languagetab.png)
 
-   *Aggiungere una nuova lingua per un contenuto*
+   *Aggiungi nuova lingua per un contenuto*
 
 1. Ripeti la procedura di caricamento del contenuto per le nuove lingue.
-1. Se si desidera rimuovere una lingua, selezionare la **[!UICONTROL scheda Aggiungi nuova lingua]** e cancellare la selezione.
+1. Per rimuovere una lingua, selezionare la scheda **[!UICONTROL Aggiungi nuova lingua]** e deselezionare la lingua desiderata.
 
    Dopo aver apportato le modifiche, fai clic su **[!UICONTROL Salva]**. Nella libreria, il nuovo contenuto ora è disponibile per l’uso.
 
-Il quiz viene aggiunto alla libreria ]**contenuto**[!UICONTROL . Come per qualsiasi contenuto nella Libreria dei contenuti, puoi ritirare un quiz e quindi eliminarlo.
+Il quiz è stato aggiunto alla **[!UICONTROL Libreria dei contenuti]**. Come per qualsiasi contenuto nella Libreria dei contenuti, puoi ritirare un quiz e quindi eliminarlo.
 
 
 ## Aggiunta nella cartella {#add-folder}
@@ -300,13 +300,13 @@ Dopo che un Amministratore crea le cartelle dei contenuti, come autore puoi cari
 
 **Esempio di utilizzo**
 
-Ad esempio, le agenzie vogliono mantenere il pieno controllo del contenuto e qualcuno che trascura il contenuto deve avere accesso a tutti i contenuti. Allo stesso tempo, i creatori di contenuti nelle agenzie devono avere accesso solo ai propri contenuti e, in alcuni casi, accedere ai contenuti di qualcun altro.
+Ad esempio, le agenzie desiderano mantenere il pieno controllo del contenuto e chi lo sovrasta deve avere accesso a tutto il contenuto. Allo stesso tempo, i creatori di contenuti delle agenzie devono avere accesso solo ai propri contenuti e, in alcuni casi, ai contenuti di qualcun altro.
 
-La libreria di contenuti con contenuto esistente (ovvero il contenuto caricato prima della configurazione delle cartelle di contenuto) viene definita come **cartella** pubblica. Questa cartella non può essere ritirata o eliminata. Il contenuto che fa parte della cartella pubblica è accessibile a tutti i tipi di autori. Una volta configurate le cartelle di contenuto, gli autori standard e gli autori personalizzati devono selezionare la cartella in cui inserire il contenuto durante il caricamento del nuovo contenuto.
+La libreria di contenuti con contenuto esistente (ad esempio, il contenuto caricato prima della configurazione delle cartelle dei contenuti) viene definita come **cartella pubblica**. Impossibile ritirare o eliminare la cartella. Il contenuto che fa parte della cartella pubblica è accessibile a tutti i tipi di autori. Una volta configurate le cartelle dei contenuti, gli autori standard e gli autori personalizzati devono selezionare la cartella in cui deve essere inserito il contenuto durante il caricamento di nuovo contenuto.
 
 >[!NOTE]
 >
->Le cartelle pubbliche e private si escludono a vicenda. Ciò significa che il contenuto **non può** essere associato contemporaneamente alla cartella pubblica e alla cartella privata. Può essere associata a una cartella **pubblica oppure** a una o più cartelle private in qualsiasi momento.
+>Le cartelle pubbliche e private si escludono a vicenda. Il contenuto **non può** essere associato contemporaneamente a una cartella pubblica e a una cartella privata. Può essere associata a una cartella pubblica, **o** può essere associata a una o più cartelle private in qualsiasi momento.
 
 Quando aggiungi un contenuto, puoi scegliere la cartella in cui risiederà il contenuto.
 
@@ -314,15 +314,15 @@ Quando aggiungi un contenuto, puoi scegliere la cartella in cui risiederà il co
 
 *Aggiungere contenuti alla cartella*
 
-Se scegli **Pubblico**, il contenuto sarà visibile a tutti gli autori. Tutto il contenuto presente nell&#39;account che non fa parte di alcuna cartella sarà nella cartella pubblica, per impostazione predefinita.
+Se scegli **Pubblico**, il contenuto sarà visibile a tutti gli autori. Per impostazione predefinita, tutti i contenuti presenti nell’account che non fanno parte di alcuna cartella vengono inseriti nella cartella pubblica.
 
-Tieni presente che le cartelle dei contenuti sono semplicemente dei comparti virtuali usati per collegare il contenuto. Nel caso in cui un contenuto venga inserito in due cartelle, significa che il file di contenuto è sempre un singolo file ma collegato a più cartelle. Pertanto, nel caso in cui il contenuto venga aggiornato da custom-author-1 che ha accesso a custom-folder-1, lo stesso contenuto aggiornato si rifletterà anche in custom-folder-2 a cui accede custom-author-2.
+Tieni presente che le cartelle dei contenuti sono semplicemente dei comparti virtuali usati per collegare il contenuto. Nel caso in cui un contenuto venga inserito in due cartelle, significa che il file di contenuto è sempre un singolo file ma collegato a più cartelle. Pertanto, nel caso in cui il contenuto venga aggiornato dall&#39;autore personalizzato-1 che ha accesso a custom-folder-1, lo stesso contenuto aggiornato si rifletterà anche in custom-folder-2 a cui accede l&#39;autore-2 personalizzato.
 
 Nella Libreria dei contenuti sono disponibili due opzioni per la gestione delle cartelle di contenuti:
 
 **Tutte le cartelle**
 
-Si tratta di un elenco che visualizza tutte le cartelle create nell&#39;account.
+Si tratta di un elenco che visualizza tutte le cartelle create nell’account.
 
 ![](assets/list-of-all-folders.png)
 
@@ -330,35 +330,35 @@ Si tratta di un elenco che visualizza tutte le cartelle create nell&#39;account.
 
 **Tutti gli autori**
 
-Si tratta di un elenco che mostra gli autori che hanno creato contenuti e li hanno caricati nella libreria.
+È un elenco che mostra gli autori che hanno creato contenuti e li hanno caricati nella libreria.
 
 ![](assets/list-of-all-authors.png)
 
-*Vedi tutti gli autori*
+*Visualizza tutti gli autori*
 
-Questa opzione è disponibile **solo** quando un amministratore crea una nuova cartella.
+È disponibile **solo** quando un amministratore crea una nuova cartella.
 
 ## Spostamento del contenuto nella cartella {#movecontenttofolder}
 
 Per spostare il contenuto di una cartella pubblica in una cartella privata,
 
-1. Selezionare **Cartella pubblica** dall&#39;elenco **a discesa Tutte le cartelle** .
+1. Selezionare la cartella **pubblica** dall&#39;elenco a discesa **Tutte le cartelle**.
 
    ![](assets/list-of-public-folders.png)
 
-   *Visualizzare tutti i contenuti caricati*
+   *Visualizza tutti i contenuti caricati*
 
-1. Scegli il contenuto che desideri spostare in una cartella. Quindi fai clic su Azioni > Organizza contenuto ]**>**[!UICONTROL  Sposta contenuto nella cartella ]**.******[!UICONTROL 
+1. Scegli il contenuto che desideri spostare in una cartella. Quindi fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Organizza contenuto]** > **[!UICONTROL Sposta contenuto nella cartella]**.
 
    ![](assets/move-content-to-folder.png)
 
-   *Spostare un contenuto selezionato nella cartella*
+   *Sposta un contenuto selezionato nella cartella*
 
 1. Scegli la cartella in cui desideri spostare il contenuto. Fai clic su **[!UICONTROL Sposta]**.
 
 ## Copia del contenuto nella cartella {#copycontenttofolder}
 
-Copiare una cartella significa aggiungere un tag alla cartella. L&#39;operazione di copia non creerà copie del contenuto, ma aggiungerà solo un&#39;associazione con le cartelle specificate.
+Quando si copia una cartella, viene aggiunto un tag alla cartella. L&#39;operazione di copia non creerà copie del contenuto, ma aggiungerà solo un&#39;associazione con le cartelle specificate.
 
 ![](assets/copy-content-to-folder.png)
 
@@ -366,13 +366,13 @@ Copiare una cartella significa aggiungere un tag alla cartella. L&#39;operazione
 
 ## Scollegamento della cartella {#unlinkfolder}
 
-Scollegamento significa rimuovere il contenuto dalla cartella selezionata.
+Per scollegare si intende la rimozione del contenuto dalla cartella selezionata.
 
-Il contenuto può essere scollegato da una cartella **specificata SOLO** se è associato anche ad altre cartelle. Se il contenuto che viene scollegato è associato a una sola cartella, è consigliabile utilizzare invece l&#39;operazione SPOSTA.
+È possibile scollegare il contenuto da una cartella specificata **SOLO** se è associato anche ad altre cartelle. Se il contenuto non è collegato, è associato solo a una cartella, si consiglia di utilizzare l&#39;operazione MOVE.
 
 >[!NOTE]
 >
->Il menu Organizza, in Azioni, è inizialmente disattivato. Per utilizzarlo, devi prima selezionare una cartella nell’elenco a discesa delle cartelle.
+>Il menu Organizza, in Azioni, è inizialmente disabilitato. Per utilizzarlo, devi prima selezionare una cartella nell’elenco a discesa delle cartelle.
 
 ![](assets/unlink-a-folder.png)
 
@@ -380,11 +380,11 @@ Il contenuto può essere scollegato da una cartella **specificata SOLO** se è a
 
 ## Aggiunta di contenuto per lingue diverse {#addcontentfordifferentlanguages}
 
-1. Per aggiungere contenuto per lingue diverse, fare clic sulla **scheda Aggiungi nuova lingua** e scegliere le lingue desiderate. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
+1. Per aggiungere contenuti per lingue diverse, fare clic sulla scheda **Aggiungi nuova lingua** e scegliere le lingue desiderate. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
 
    ![](assets/add-new-languagetab.png)
 
-   *Aggiungere una nuova lingua per un contenuto*
+   *Aggiungi nuova lingua per un contenuto*
 
 1. Ripeti la procedura di caricamento del contenuto per le nuove lingue.
 1. Per rimuovere una lingua, fai clic sulla scheda Aggiungi una nuova lingua e annulla la selezione corrispondente.
@@ -415,12 +415,12 @@ Il contenuto può essere scollegato da una cartella **specificata SOLO** se è a
      <li>In base alla percentuale minima richiesta</li>
      <li>Opzioni Quiz superato o Tentativi nei quiz</li>
     </ul>
-    <p><b>NOTA:</b> è possibile modificare solo il contenuto HTML di Captivate, Presenter Video Express o Presenter.</p></td>
+    <p><b>NOTA:</b> è possibile modificare solo i contenuti HTML di Captivate, Presenter Video Express o Presenter.</p></td>
   </tr>
  </tbody>
 </table>
 
-Dopo aver aggiunto il contenuto, puoi modificarne i criteri di completamento.
+Dopo aver aggiunto il contenuto, puoi modificare i criteri di completamento per il contenuto.
 
 In Learning Manager, i distintivi e le abilità vengono assegnati in base al successo e al completamento. Se lo studente ha completato un corso ma non ha ottenuto il successo, non riceve il badge e l’abilità corrispondente all’oggetto di apprendimento.
 
@@ -438,14 +438,14 @@ Nella sezione Criteri di completamento puoi impostare le opzioni indicate di seg
 * **Tentativi nei quiz:** lo stato viene segnalato come Completo se gli studenti tentano di superare il quiz, indipendentemente dal fatto che lo superino o meno.
 * **Quiz superato o limite raggiunto:** lo stato viene segnalato come Completo se gli studenti superano il quiz o hanno effettuato tutti i tentativi consentiti. Ad esempio, se il numero di tentativi impostati nel corso è pari a due:
 
-   * Se gli Allievi eseguono il primo tentativo e lo superano, lo stato viene segnalato come Completato e Superato.
-   * Se gli Allievi eseguono il primo tentativo e falliscono, lo stato viene segnalato come Incompleto e Non riuscito poiché il limite di tentativi non è ancora stato raggiunto.
-   * Se gli Allievi ripetono il quiz e falliscono, lo stato viene segnalato come Completato e Non superato.
-   * Se gli Allievi tentano nuovamente il quiz e lo superano, lo stato viene segnalato come Completato e Superato.
+   * Se gli Allievi accettano il primo tentativo e lo superano, lo stato viene segnalato come Completato e Superato.
+   * Se gli Allievi effettuano il primo tentativo e falliscono, lo stato viene segnalato come Incompleto e Non riuscito poiché il limite dei tentativi non è ancora stato raggiunto.
+   * Se gli Allievi rispondono nuovamente al quiz ma non riescono, lo stato viene segnalato come Completato e Non riuscito.
+   * Se gli Allievi tentano di ripetere il quiz e lo superano, lo stato viene segnalato come Completato e Superato.
 
 ## Impostazione dei criteri di successo {#setsuccesscriteria}
 
-Allo stesso modo, puoi definire i criteri di successo per il corso. Un criterio di successo indica che le prestazioni di un Allievo sono Superate o Non superate. Se hai creato un corso in Captivate puoi impostare i criteri di successo per il corso nella finestra di dialogo Preferenze, come mostrato di seguito:
+Allo stesso modo, puoi definire i criteri di successo per il corso. Un criterio di successo indica che le prestazioni di un Allievo sono Superate o Non riuscite. Se hai creato un corso in Captivate puoi impostare i criteri di successo per il corso nella finestra di dialogo Preferenze, come mostrato di seguito:
 
 Ad esempio, hai caricato un modulo che contiene un quiz. Ora hai impostato i Criteri di completamento per quel modulo su All’avvio del contenuto e i Criteri di successo su Quiz superato.
 
@@ -459,7 +459,7 @@ Organizza il contenuto in base a quando il contenuto è stato modificato per l�
 
 ![](assets/according-to-date.png)
 
-*Ordinare i contenuti per data*
+*Ordina i contenuti per data*
 
 ### Ordina in base all’utilizzo {#sortaccordingtousage}
 
@@ -490,7 +490,7 @@ I contenuti utilizzati negli oggetti di apprendimento non vengono modificati. Gl
 
 >[!NOTE]
 >
->Puoi anche aggiungere contenuto dalla sezione Ritirato ]**, passare a Libreria]** contenuti **[!UICONTROL >**[!UICONTROL  Ritirato ]**e selezionare**[!UICONTROL  Aggiungi contenuto ]**.**[!UICONTROL  Per ulteriori informazioni, consulta [Aggiungere contenuto statico](content-library.md#addstaticcontent).
+>Puoi anche aggiungere contenuti dalla sezione **[!UICONTROL Ritirato]**, accedere a **[!UICONTROL Libreria dei contenuti]** > **[!UICONTROL Ritirato]** e selezionare **[!UICONTROL Aggiungi contenuto]**. Per ulteriori dettagli, vedere [Aggiungere contenuto statico](content-library.md#addstaticcontent).
 
 
 ## Ripubblicazione di contenuto ritirato {#republishretiredcontent}
@@ -515,18 +515,18 @@ Ricorda che i corsi esistenti che utilizzano il contenuto eliminato dalla librer
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++ Come caricare un contenuto SCORM in Adobe Learning Manager?
++++ Come si carica un contenuto SCORM in Adobe Learning Manager?
 
-Crea un corso di e-learning conforme allo standard SCORM in qualsiasi strumento, ad esempio Adobe Captivate, e pubblica il contenuto come file zip. Quindi, in Learning Manager, carica il file zip nel catalogo e imposta i criteri di completamento e successo.
+Crea un corso di e-learning conforme allo standard SCORM in qualsiasi strumento, ad esempio Adobe Captivate, e pubblica il contenuto come file zip. Quindi in Learning Manager, carica il file zip nel catalogo e imposta i criteri di completamento e successo.
 +++
 
-+++Come faccio a caricare una nuova versione dello stesso contenuto in Learning Manager?
++++Come si carica una nuova versione dello stesso contenuto in Learning Manager?
 
-In Learning Manager, la libreria di contenuti gestisce anche le versioni dei contenuti caricati. Se si apportano modifiche al contenuto, ad esempio una presentazione di PowerPoint, e si ricarica nuovamente la presentazione nella libreria, il numero di versione viene incrementato di uno. Questo ti aiuta a tenere traccia delle modifiche nel tuo contenuto. Una nuova versione del contenuto può essere applicata contemporaneamente a tutti gli oggetti di apprendimento oppure puoi applicare singoli aggiornamenti per ogni corso.
+In Learning Manager, la libreria dei contenuti conserva anche le versioni dei contenuti caricati. Se si apporta una modifica al contenuto, ad esempio una presentazione di PowerPoint, e si ricarica la presentazione nella libreria, il numero di versione viene incrementato di una unità. Questo ti aiuta a tenere traccia delle modifiche nel tuo contenuto. Una nuova versione del contenuto può essere applicata contemporaneamente a tutti gli oggetti di apprendimento oppure puoi applicare singoli aggiornamenti per ogni corso.
 +++
 
-+++Come modificare i dettagli di un corso in una lingua diversa?
++++Come si modificano i dettagli di un corso in una lingua diversa?
 Dopo aver aggiunto una o più lingue, come descritto nella sezione precedente, fai clic sulla scheda di ciascuna lingua e aggiungi/modifica le informazioni sul corso.
 
-&lt;!--![](assets/edit-course-language.png)--->
+&lt;!—![](assets/edit-course-language.png)—>
 +++

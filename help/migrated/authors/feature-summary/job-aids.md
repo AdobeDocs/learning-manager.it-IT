@@ -12,7 +12,7 @@ ht-degree: 65%
 
 # Risorse formative
 
-**Risorse formative** è un archivio dei contenuti di formazione accessibile agli allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
+**Risorse formative** è un archivio dei contenuti di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
 
 Le risorse formative possono essere utilizzate in modo indipendente o mentre segui un corso in Learning Manager.
 
@@ -20,8 +20,8 @@ Gli Autori possono creare risorse formative per gli Allievi. Utilizza le risorse
 
 ## Creazione di risorse formative {#createjobaid}
 
-1. Nel login dell’autore, seleziona **[!UICONTROL Risorse formative]** nel riquadro sinistro.
-1. Seleziona **[!UICONTROL Crea]** nell’angolo in alto a destra della pagina visualizzata.
+1. Nel login dell’autore, seleziona **[!UICONTROL Risorse formative]** nel riquadro a sinistra.
+1. Seleziona **[!UICONTROL Crea]** nell&#39;angolo superiore destro della pagina visualizzata.
 1. Digitate il nome, la descrizione e i tag. Scegli le abilità e i livelli associati. Seleziona l’opzione per contenuto privato se non vuoi che altri utenti possano accedere alla risorsa formativa per assegnarla ai propri corsi.
 
    Per le risorse formative possono essere utilizzate solo abilità esistenti. Le abilità non sono obbligatorie.
@@ -37,14 +37,14 @@ Gli Autori possono creare risorse formative per gli Allievi. Utilizza le risorse
 
 ## Aggiungi risorsa formativa in diverse lingue {#addcontentfordifferentlanguages}
 
-1. Per aggiungere la risorsa formativa in lingue diverse, seleziona la **Aggiungi nuova lingua** e scegliete le lingue desiderate. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
+1. Per aggiungere la risorsa formativa in lingue diverse, seleziona la scheda **Aggiungi nuova lingua** e scegli le lingue richieste. Utilizzando questo approccio, puoi aggiungere il supporto multilingue per il tuo contenuto.
 
    ![](assets/add-new-languagetab.png)
 
-   *Aggiungere una nuova lingua per un contenuto*
+   *Aggiungi nuova lingua per un contenuto*
 
 1. Ripeti il processo di caricamento della risorsa formativa per le nuove lingue.
-1. Se si desidera rimuovere una lingua, selezionare **[!UICONTROL Aggiungi nuova lingua]** e cancella la selezione.
+1. Per rimuovere una lingua, selezionare la scheda **[!UICONTROL Aggiungi nuova lingua]** e deselezionare la lingua desiderata.
 
    Dopo aver apportato le modifiche, seleziona Salva.
 
@@ -73,7 +73,7 @@ Puoi ritirare la risorsa formativa pubblicata facendo clic sull’icona delle im
 
 *Modificare, ritirare o visualizzare in anteprima una risorsa formativa pubblicata*
 
-Visualizza le risorse formative ritirate facendo clic sulla scheda Ritirate. È possibile ripubblicare i processi ritirati facendo clic sull&#39;icona delle impostazioni e scegliendo Pubblica.
+Visualizza le risorse formative ritirate facendo clic sulla scheda Ritirate. È possibile ripubblicare i processi ritirati facendo clic sull&#39;icona delle impostazioni e scegliendo Publish.
 
 ## Supporto per pacchetti HTML nelle risorse formative
 

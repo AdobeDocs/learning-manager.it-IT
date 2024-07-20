@@ -28,8 +28,8 @@ Il foglio di stile CSS allegato contiene lo stile applicato da Learning Manager.
 Lo stile predefinito potrebbe non soddisfare le esigenze di tutti. Le personalizzazioni possono essere eseguite sovrascrivendo il CSS fornito. Tutti i parametri di stile sono contenuti all’interno di ql-editor come selettori di discendenti. Vengono utilizzate le seguenti classi:
 
 * **Rientro**: li.ql-indent-$number. $number varia da 1 a 9
-* **dimensione**: ql-size-small, ql-size-large, ql-size-large
-* **allineamento**: ql-align-center, ql-align-justify, ql-align-right
+* **dimensioni**: ql-size-small, ql-size-large, ql-size-large
+* **alignment**: ql-align-center, ql-align-justify, ql-align-right
 * **colore**: ql-color-$color. $color = white, red, orange, yellow, green, blue, purple
 * **sfondo**: ql-bg-$color. $color = black, red, orange, yellow, green, blue, purple
 * **tag html**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6

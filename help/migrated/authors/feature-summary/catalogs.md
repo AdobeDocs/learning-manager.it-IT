@@ -3,14 +3,13 @@ description: I cataloghi in Learning Manager sono composti da corsi, programmi d
 jcr-language: en_us
 title: Cataloghi
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 78%
 
 ---
-
-
 
 # Cataloghi
 
@@ -24,7 +23,7 @@ Per visualizzare solo i corsi creati da un singolo autore, seleziona la sezione 
 
 In qualità di Autore, puoi visualizzare il catalogo dei corsi, che è una raccolta di tutti i corsi presenti nell’account.
 
-Dopo aver effettuato l’accesso come Autore, fai clic su **Catalogo del corso** nel riquadro di sinistra per visualizzare l’elenco di tutti i corsi disponibili in Learning Manager per la tua organizzazione.
+Dopo aver effettuato l’accesso come Autore, fai clic su **Catalogo corsi** nel riquadro a sinistra per visualizzare l’elenco di tutti i corsi disponibili in Learning Manager per la tua organizzazione.
 
 Utilizza le opzioni di filtro come mostrato nell’istantanea seguente per individuare i corsi nel catalogo.
 
@@ -46,7 +45,7 @@ Utilizza le opzioni di filtro come mostrato nell’istantanea seguente per indiv
 
    ![](assets/choose-instructor.png)
 
-   *Seleziona l’istruttore dall’elenco*
+   *Selezionare l&#39;istruttore dall&#39;elenco*
 
 1. Fornisci i criteri di completamento per il corso di classe virtuale. I criteri di completamento sono la percentuale della durata totale del corso a cui uno studente deve partecipare per essere considerato come completato. Ad esempio, la durata del corso è di 1 ora. Se fornisci il 50% come criterio di completamento, quando uno studente partecipa al corso anche per 30 minuti, il corso viene considerato completato.
 

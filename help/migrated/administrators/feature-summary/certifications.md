@@ -21,14 +21,14 @@ In qualità di Amministratore è possibile creare un Programma di certificazione
 
 ## Creazione una certificazione {#createacertification}
 
-1. Fai clic **[!UICONTROL Certificazione]** nel riquadro sinistro.\
+1. Fai clic su **[!UICONTROL Certificazione]** nel riquadro a sinistra.\
    Viene visualizzata una pagina con un elenco di tutte le bozze e lo stato delle certificazioni pubblicate.
 
 1. Visualizza le certificazioni in varie modalità:
 
-   1. Fai clic **[!UICONTROL Bozza]** per visualizzare tutte le certificazioni con lo stato di bozza. Devi completarne la creazione.
-   1. Fai clic **[!UICONTROL Pubblicato]** per vedere tutte le certificazioni pubblicate.
-   1. Fai clic **[!UICONTROL Tutti]** per visualizzare le certificazioni in tutti gli stati.
+   1. Fai clic sulla scheda **[!UICONTROL Bozza]** per visualizzare tutte le certificazioni con lo stato di bozza. Devi completarne la creazione.
+   1. Fai clic su **[!UICONTROL Pubblicato]** per visualizzare tutte le certificazioni pubblicate.
+   1. Fai clic su **[!UICONTROL Tutti]** per visualizzare le certificazioni in tutti gli stati.
    1. Ordina e visualizza l’elenco delle certificazioni in ordine crescente o decrescente oppure in base alla data di aggiornamento.
 
 1. Fai clic su **[!UICONTROL Aggiungi]**.
@@ -37,7 +37,7 @@ In qualità di Amministratore è possibile creare un Programma di certificazione
 
 ![](assets/add-new-certification.png)
 
-*Visualizza la pagina per aggiungere una certificazione*
+*Visualizzare la pagina per aggiungere una certificazione*
 
 1. Aggiungi nome e descrizione del certificato.
 
@@ -79,7 +79,7 @@ In qualità di Amministratore è possibile creare un Programma di certificazione
   <tr>
    <td>Soggetto emittente certificazione<br></td>
    <td>
-    <p>Scegli <b>Interno</b> se appartiene alla tua organizzazione o scegli <b>Esterno</b> per le certificazioni di organizzazioni esterne.</p>
+    <p>Scegli <b>Interno</b> se appartiene alla tua organizzazione o <b>Esterno</b> per le certificazioni esterne dell’organizzazione.</p>
     <p>Se scegli <b>Certificazione esterna</b> vedrai altre due opzioni:</p>
     <ul>
      <li>Uguale alla data di approvazione<br></li>
@@ -102,18 +102,18 @@ In qualità di Amministratore è possibile creare un Programma di certificazione
  </tbody>
 </table>
 
-Seleziona il livello di prodotti, ruoli e ruoli dal menu **[!UICONTROL Consigliato per]** sezione per suggerire questo percorso di apprendimento agli utenti che hanno espresso interesse per tali prodotti e ruoli.
+Seleziona il livello di prodotti, ruoli e ruoli dalla sezione **[!UICONTROL Suggerimenti per]** per suggerire questo percorso di apprendimento agli utenti che hanno espresso interesse per tali prodotti e ruoli.
 
 ![](assets/recommend-for.png)
 
 *Consiglio*
 
-Scegli i corsi da aggiungere alla certificazione da **[!UICONTROL Corsi]** > **[!UICONTROL Catalogo]** scheda.
+Scegli i corsi da aggiungere alla certificazione dalla scheda **[!UICONTROL Corsi]** > **[!UICONTROL Catalogo]**.
 
-Passa il mouse su ogni riquadro del corso e fai clic su + per aggiungerli alla certificazione. Fai clic **[!UICONTROL Anteprima]** per visualizzare il corso come allievo prima di aggiungerlo.
+Passa il mouse su ogni riquadro del corso e fai clic su + per aggiungerli alla certificazione. Fai clic su **[!UICONTROL Anteprima]** per visualizzare il corso come Allievo prima di aggiungerlo.
 
-1. Fai clic **[!UICONTROL Curriculum]** per visualizzare/verificare l’elenco dei corsi aggiunti.
-1. Fai clic **[!UICONTROL Pubblica]**.
+1. Fai clic sulla scheda **[!UICONTROL Curriculum]** per visualizzare/verificare l’elenco dei corsi aggiunti.
+1. Fai clic su **[!UICONTROL Publish]**.
 
 ## Mappatura delle istanze del corso per le certificazioni {#courseinstancemappingforcertifications}
 
@@ -153,7 +153,7 @@ Gli Amministratori possono contrassegnare una certificazione come completa utili
    Si apre la pagina Allievi con l’elenco degli Allievi iscritti.
 
 1. Seleziona uno/più/tutti gli Allievi per contrassegnare il completamento della certificazione utilizzando la casella di controllo disponibile per ogni Allievo.
-1. Fai clic  **[!UICONTROL Azione]** > **[!UICONTROL Contrassegna completamento.]**
+1. Fai clic su **[!UICONTROL Azione]** > **[!UICONTROL Contrassegna completamento.]**
 
    Tieni presente che se una certificazione contiene più corsi, il completamento verrà contrassegnato per tutti i corsi.
 
@@ -161,13 +161,13 @@ Gli Amministratori possono contrassegnare una certificazione come completa utili
 
 Nelle versioni precedenti di Learning Manager, il completamento del corso da parte di un Allievo in una certificazione esterna non era obbligatorio per completare un certificato.
 
-Ora puoi rendere obbligatori i corsi attivando l’opzione **[!UICONTROL Imposta i corsi richiesti come obbligatori per il completamento del certificato]** nella scheda Curriculum durante la modifica della certificazione.
+Ora puoi rendere obbligatori i corsi attivando l’opzione **[!UICONTROL Imposta i corsi richiesti come obbligatori per il completamento del certificato]** nella scheda Curriculum mentre modifichi la certificazione.
 
 ## Modifica di una certificazione pubblicata {#editingapublishedcertification}
 
 L’Amministratore può modificare una certificazione dopo la pubblicazione. Quando lo stato del programma di apprendimento è Pubblicato, l’Amministratore può modificare tutte le sezioni della certificazione, quindi ripubblicarla.
 
-Per modificare una certificazione pubblicata, fai clic sulla scheda della certificazione e quindi su **[!UICONTROL Modifica]** nell’angolo in alto a destra della pagina.
+Per modificare una certificazione pubblicata, fai clic sulla scheda della certificazione e quindi su **[!UICONTROL Modifica]** nell&#39;angolo superiore destro della pagina.
 
 Se esci dalla pagina durante la modifica delle sezioni di una certificazione, dovrai pubblicare nuovamente la certificazione. Viene visualizzata una finestra di dialogo di conferma che ti invita a ripubblicare la certificazione.
 

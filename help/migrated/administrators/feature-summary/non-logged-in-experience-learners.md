@@ -1,6 +1,6 @@
 ---
 title: Esperienza senza accesso per gli Allievi
-description: Adobe Il portale nativo di Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili. L’esperienza senza accesso consente agli Allievi di esplorare i corsi senza accedere a un portale.
+description: Il portale nativo di Adobe Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili. L’esperienza senza accesso consente agli Allievi di esplorare i corsi senza accedere a un portale.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
 source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 41%
 
 # Esperienza senza accesso per gli Allievi
 
-Adobe Il portale nativo di Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili.
+Il portale nativo di Adobe Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili.
 
 L’esperienza senza accesso consente agli Allievi di esplorare i corsi senza accedere a un portale.
 
@@ -27,7 +27,7 @@ L’Amministratore può modificare e configurare la pagina principale, che è de
 
 ## API Allievo
 
-Adobe di Learning Manager: le API degli Allievi consentono di creare un’esperienza di apprendimento personalizzata per gli utenti. L’utilizzo di queste API richiede un token utente valido e deve essere utilizzato solo per lo scopo dei flussi di lavoro in cui è presente un Allievo con licenza o registrazione completa.
+Adobe Learning Manager: le API degli Allievi consentono di creare un’esperienza di apprendimento personalizzata per gli utenti. L’utilizzo di queste API richiede un token utente valido e deve essere utilizzato solo per lo scopo dei flussi di lavoro in cui è presente un Allievo con licenza o registrazione completa.
 
 >[!IMPORTANT]
 >
@@ -35,15 +35,15 @@ Adobe di Learning Manager: le API degli Allievi consentono di creare un’esperi
 
 I casi d’uso senza registrazione richiedono una gestione speciale.
 
-**Contattare il team dell&#39;architettura della soluzione, in caso di domande sull&#39;utilizzo appropriato di queste API e verificare che un architetto della soluzione abbia verificato una soluzione prima di distribuirla**.
+**Rivolgersi al team dell&#39;architettura della soluzione per eventuali domande sull&#39;utilizzo appropriato di queste API e verificare che un architetto della soluzione abbia verificato una soluzione prima di distribuirla**.
 
 ## Avvia le opzioni della pagina principale
 
-Nella pagina principale di Learning Manager dell’Adobe, seleziona **Branding**. Quindi, nel riquadro a sinistra, seleziona Pagina principale senza accesso.
+Nella pagina principale di Adobe Learning Manager, seleziona **Branding**. Quindi, nel riquadro a sinistra, seleziona Pagina principale senza accesso.
 
 ![opzioni della pagina principale](assets/non-logged-in-homepage.png)
 
-*Seleziona l’opzione Pagina principale senza accesso*
+*Seleziona la pagina principale senza accesso*
 
 ## Aggiungi un banner
 
@@ -59,7 +59,7 @@ Individua la posizione dell’immagine da utilizzare come banner. Fornisci quind
 
 Questo componente può essere utilizzato per filtrare il catalogo in base a tag, abilità e catalogo. Questa sezione contiene un’intestazione e una descrizione per ciascuna categoria. Facendo clic, l’utente viene reindirizzato alla pagina del catalogo con i filtri applicati.
 
-Seleziona **[!UICONTROL Aggiungi categoria]**. Quindi inserisci i dettagli per la categoria.
+Selezionare **[!UICONTROL Aggiungi categoria]**. Quindi inserisci i dettagli per la categoria.
 
 ![aggiungi categoria](assets/add-category.png)
 

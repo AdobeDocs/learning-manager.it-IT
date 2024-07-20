@@ -3,14 +3,13 @@ description: Scopri come ottenere certificazioni tramite l’app per Allievi di 
 jcr-language: en_us
 title: Certificazioni
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 62%
 
 ---
-
-
 
 # Certificazioni
 

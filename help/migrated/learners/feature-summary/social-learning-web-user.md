@@ -3,14 +3,13 @@ description: Scopri come utilizzare il Web di Apprendimento sociale come Allievo
 jcr-language: en_us
 title: Apprendimento sociale in Learning Manager
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3038'
 ht-degree: 78%
 
 ---
-
-
 
 # Apprendimento sociale in Learning Manager
 
@@ -22,9 +21,9 @@ La semplice frequentazione di un corso di formazione non garantisce la memorizza
 
 Allo stesso modo, la funzione di apprendimento sociale di Learning Manager consente agli utenti di interagire tra loro condividendo e imparando dai contenuti.
 
-I vari tipi di contenuti che possono essere condivisi su questa piattaforma sono video, audio, schermate, testi, domande e sondaggi. Gli utenti possono inoltre condividere i propri programmi di apprendimento online con i colleghi utilizzando **Condividi sul bookmarklet Social**. Per ulteriori informazioni, consulta  [Condividi su Apprendimento sociale](share-to-social.md).
+I vari tipi di contenuti che possono essere condivisi su questa piattaforma sono video, audio, schermate, testi, domande e sondaggi. Gli utenti possono inoltre condividere i propri programmi di apprendimento online con i colleghi utilizzando il **bookmarklet Condividi sul social**. Per ulteriori informazioni, consulta [Condividere su Apprendimento sociale](share-to-social.md).
 
-Il contenuto può anche essere pubblicato all&#39;interno di una bacheca con l&#39;aiuto del **Adobe dell’applicazione desktop Learning Manager**. Per ulteriori informazioni, consulta  [Adobe dell’app Learning Manager per desktop](../adobe-learning-manager-app-for-desktop.md).
+È possibile pubblicare contenuti anche in una bacheca con l&#39;aiuto dell&#39;**applicazione desktop Adobe Learning Manager**. Per ulteriori informazioni, consulta [App Adobe Learning Manager per desktop](../adobe-learning-manager-app-for-desktop.md).
 
 Solo se l’Amministratore abilita Apprendimento sociale, la funzione è visibile agli Allievi.
 
@@ -48,7 +47,7 @@ Solo se l’Amministratore abilita Apprendimento sociale, la funzione è visibil
    <td>
     <p>Le mie bacheche</p></td>
    <td>
-    <p>Una bacheca <code>
+    <p>Una bacheca è <code>
       collection
      </code> di post creati da un utente. In Le mie bacheche vengono visualizzati tutti i post a cui l’utente ha partecipato, che ha creato e seguito.</p></td>
   </tr>
@@ -131,14 +130,14 @@ Solo se l’Amministratore abilita Apprendimento sociale, la funzione è visibil
 
 I contenuti vengono creati come post all’interno di una bacheca. Per creare un post, procedi come indicato di seguito:
 
-1. Fai clic **[!UICONTROL Nuovo post].**
+1. Fai clic su **[!UICONTROL Nuovo post].**
 
    ![](assets/new-post-01.png)
    *Seleziona nuovo post*
 
 1. Seleziona uno dei seguenti tipi di contenuti per la pubblicazione: testo, domanda, video, audio, sondaggio e schermata. I contenuti esistenti possono essere caricati dal sistema degli utenti o dalla galleria dell’applicazione desktop Adobe Learning Manager.
 
-   Utilizza l’app desktop Adobe Learning Manager per registrare video o audio e acquisire una schermata. Per ulteriori informazioni, consulta [Adobe dell’applicazione desktop Learning Manager](../adobe-learning-manager-app-for-desktop.md).
+   Utilizza l’app desktop Adobe Learning Manager per registrare video o audio e acquisire una schermata. Per ulteriori informazioni, vedere [Applicazione desktop Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
@@ -148,13 +147,13 @@ I contenuti vengono creati come post all’interno di una bacheca. Per creare un
 
    *Creare una bacheca*
 
-   Se sei un utente esterno o interno e se l’Amministratore ti ha concesso l’accesso per la creazione di una bacheca, puoi crearne una. Se non disponi delle autorizzazioni per creare una bacheca, il collegamento **Crea una nuova bacheca** non viene visualizzato.
+   Se sei un utente esterno o interno e se l’Amministratore ti ha concesso l’accesso per la creazione di una bacheca, puoi crearne una. Se non disponi delle autorizzazioni necessarie per creare una bacheca, il collegamento **Crea una nuova bacheca** non viene visualizzato.
 
 1. Nella finestra di dialogo a comparsa, inserisci i dettagli e seleziona il seguente tipo di bacheca:
 
    * **Pubblico** - La partecipazione e la visibilità dei post sono disponibili per tutti gli utenti.
    * **Privato** - Il post è visibile solo al creatore della bacheca, ai moderatori e agli utenti aggiunti alla bacheca.
-   * **Limitato** - Solo il proprietario della bacheca, l’amministratore e i moderatori della bacheca possono creare post. Altri utenti possono partecipare commentando/rispondendo, votando a favore o contro e così via.
+   * **Limitato** - Solo il proprietario, l’amministratore e i moderatori della bacheca possono creare post. Altri utenti possono partecipare commentando/rispondendo, votando a favore o contro e così via.
 
    <!--![](assets/new-board-05.png)-->
 
@@ -162,7 +161,7 @@ I contenuti vengono creati come post all’interno di una bacheca. Per creare un
    >
    >Nell’app Social Learning, solo un **Amministratore** è in grado di creare una scheda privata con gruppi utente (interni/esterni).
    >
-   >Qualsiasi altro utente tranne Amministratore, Autore, Allievo, Manager, Istruttore, ecc. **non può** crea schede private con gruppi utente. Non possono visualizzare la sezione di **gruppi di utenti** nel corso della creazione di una scheda privata.
+   >Qualsiasi altro utente tranne Amministratore, Autore, Allievo, Manager, Istruttore, ecc. **impossibile** creare bacheche private con gruppi utente. Non possono visualizzare la sezione **gruppi di utenti** durante la creazione di una scheda privata.
 
    Solo Amministratore: quando scegli **Privato**, vengono visualizzate due opzioni: **Utenti** e **Gruppi utente**. Scegli l’opzione **Gruppi utente**, quindi aggiungi i gruppi di utenti con cui desideri condividere la bacheca privata.
 
@@ -170,7 +169,7 @@ I contenuti vengono creati come post all’interno di una bacheca. Per creare un
 
 1. Per condividere il contenuto, fai clic su **[!UICONTROL Post]**. Facendo clic su Pubblica, l’utente riceve una notifica.
 
-   Il contenuto viene pubblicato in base all’impostazione di cura impostata dall’amministratore per i contenuti di Apprendimento sociale che possono essere selezionati da  [Moderatori del consiglio di amministrazione/Esperti in materia](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
+   Il contenuto viene pubblicato in base all’impostazione di cura impostata dall’amministratore per i contenuti di Apprendimento sociale che possono essere curati da [Moderatori della bacheca/Esperti in materia](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
 
    <!--![](assets/pop-up-dialog-before-sending-for-curation.png)-->
 
@@ -243,7 +242,7 @@ Utilizzando il filtro Abilità, puoi selezionare più abilità per filtrare le b
 
 ![](assets/image008.png)
 
-*Filtra livelli di attività*
+*Filtra livelli attività*
 
 Utilizzando il filtro Attività, puoi ordinare le bacheche in base all’entità delle interazioni in una bacheca. Puoi ordinarle in base a:
 
@@ -386,11 +385,11 @@ La storia social consente agli utenti di aggiungere o creare storie con post cre
 
 Per aggiungere un post a una storia, procedi come indicato di seguito:
 
-1. Fai clic sull&#39;icona del menu compresso nell&#39;angolo superiore destro di un post e fai clic su **[!UICONTROL Aggiungi alla mia storia]**.
+1. Fai clic sull&#39;icona del menu compresso nell&#39;angolo superiore destro di un post e seleziona **[!UICONTROL Aggiungi alla mia storia]**.
 
    ![](assets/add-to-my-story-05.png)
 
-   *Aggiungi a un brano*
+   *Aggiungi a una storia*
 
 1. Nella finestra di dialogo **Seleziona storia**, seleziona una storia pertinente da aggiungere al post. Se non sono disponibili storie pertinenti, crea una storia facendo clic su **Nuova storia**.
 
@@ -402,7 +401,7 @@ Per aggiungere un post a una storia, procedi come indicato di seguito:
 
    ![](assets/new-story-1-2x.png)
 
-   *Aggiungere il nome e la descrizione del brano*
+   *Aggiungi nome e descrizione del brano*
 
    Per visualizzare le storie create dagli utenti, fai clic sul nome dell’utente nelle opzioni del menu del profilo.
 
@@ -491,7 +490,7 @@ Le bacheche sono delle raccolte di post. Tutte le bacheche di Apprendimento soci
 
 Nella pagina Tutte le bacheche, sono visibili tutti i post o le bacheche creati dagli utenti in un ambito di attività. Nella pagina Le mie bacheche, invece, sono visibili solo le bacheche create e seguite dall’utente e a cui l’utente partecipa.
 
-Nella pagina Le mie bacheche, le bacheche visibili possono essere filtrate nel modo seguente: **Tutti**, **Creato da me**, **Commentato dall&#39;utente corrente**, **Seguito da me**.
+Nella pagina Le mie bacheche, le bacheche visibili possono essere filtrate in base a quanto segue: **Tutte**, **Create da me**, **Commentato da me**, **Seguito da me**.
 
 ![](assets/board-filter-07.png)
 
@@ -501,9 +500,9 @@ Sia in Le mie bacheche che in Tutte le bacheche gli utenti possono ordinare le b
 
 ![](assets/sort-board-by-08.png)
 
-*Ordina i pannelli per pertinenza e data*
+*Ordina le bacheche per pertinenza e data*
 
-Durante la creazione di un post, se non ci sono bacheche pertinenti per il post, fai clic su [Crea una nuova bacheca](social-learning-web-user.md#Creatingcontentasapost).  Per visualizzare, modificare, eliminare, segnalare, copiare l’URL e aggiungere una bacheca all’elenco delle bacheche preferite, segui i passaggi riportati di seguito:
+Durante la creazione di un post, se non sono presenti bacheche pertinenti per il post, fai clic su [Crea una nuova bacheca](social-learning-web-user.md#Creatingcontentasapost).  Per visualizzare, modificare, eliminare, segnalare, copiare l’URL e aggiungere una bacheca all’elenco delle bacheche preferite, segui i passaggi riportati di seguito:
 
 1. Fai clic sul nome della bacheca o su **[!UICONTROL Vai alla bacheca]**.
 1. Dalla pagina delle bacheche, fai clic sull’icona del menu compresso e seleziona un’opzione dall’elenco a discesa.
@@ -540,7 +539,7 @@ Nella pagina Le mie bacheche, gli utenti possono visualizzare i nomi delle perso
 
 ![](assets/people-i-follow-13.png)
 
-*Persone seguite da un Allievo*
+*Seguono le persone seguite da un Allievo*
 
 Per seguire altri utenti, procedi come indicato di seguito:
 
@@ -588,7 +587,7 @@ L’Amministratore dell’organizzazione dispone inoltre dei privilegi necessari
 
    <!--![](assets/curation-awaitingnotification.png)-->
 
-1. Per moderare il post, fai clic sul pulsante **Fai clic per rivedere** link. Questa azione indirizza l’SME alla pagina di moderazione dei contenuti, che ha l’aspetto della schermata riportata di seguito.
+1. Per moderare il post, fai clic sul collegamento **Fai clic per rivedere**. Questa azione indirizza l’SME alla pagina di moderazione dei contenuti, che ha l’aspetto della schermata riportata di seguito.
 
    <!--![](assets/sme-moderation-page.png)-->
 
@@ -603,7 +602,7 @@ In tutte le pagine di Apprendimento sociale è presente il campo di ricerca, che
 
 <!--![](assets/search-16.png)-->
 
-Le seguenti pagine dell’apprendimento informale hanno un campo di ricerca: **Le mie bacheche**, **Tutte le schede**, **Pagina delle bacheche**, dell&#39;utente **Pagina Profilo** e **pagina del profilo di un altro allievo**.
+Le seguenti pagine dell’apprendimento informale hanno un campo di ricerca: **Bacheche personali**, **Tutte le bacheche**, **Pagina delle bacheche**, **Pagina del profilo** dell’utente e **Pagina del profilo di un altro Allievo**.
 
 Quando un utente cerca un contenuto nell’apprendimento informale, il numero totale di risultati della ricerca per tale contenuto viene visualizzato nell’apprendimento formale e informale di Learning Manager.
 
@@ -621,13 +620,13 @@ Se Apprendimento sociale è abilitato per un Allievo, l’utente può visualizza
 
 ![](assets/user-profile-17.png)
 
-*Visualizzare il profilo utente*
+*Visualizza profilo utente*
 
 Nella pagina del proprio profilo, gli Allievi possono visualizzare il numero totale di punti ottenuti, il numero di post creati e il numero di follower.
 
 Inoltre, possono visualizzare le abilità per le quali hanno ottenuto la qualifica di esperti in materia.
 
-La pagina dell’Allievo mostra anche **storie curate**, **attività recenti** eseguite e **persone seguite** da loro.
+La pagina dell’Allievo mostra anche le **storie selezionate**, le **attività recenti** dell’Allievo eseguite e le **persone da lui seguite**.
 
 ## Notifiche {#notifications}
 

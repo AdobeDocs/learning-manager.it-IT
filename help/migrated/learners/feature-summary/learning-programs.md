@@ -3,14 +3,13 @@ description: Scopri come visualizzare e seguire i programmi di apprendimento tra
 jcr-language: en_us
 title: Programmi di apprendimento
 contentowner: manochan
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 84%
 
 ---
-
-
 
 # Programmi di apprendimento
 
@@ -36,7 +35,7 @@ L’Autore e l’Amministratore possono creare programmi di apprendimento.
 
 Puoi visualizzare un elenco di tutti i programmi di apprendimento disponibili come Allievo. Il widget dell’oggetto di apprendimento mostra tutti i programmi di apprendimento assegnati e registrati per un Allievo. Nel riquadro a sinistra, fai clic su Catalogo e filtra i programmi di apprendimento per visualizzare tutti i programmi di apprendimento disponibili.
 
-Nella **Il mio apprendimento** pagina, puoi filtrare il corso di formazione a cui sei iscritto in base a **durata** della formazione e **formato** del corso di formazione.
+Nella pagina **Il mio apprendimento**, puoi filtrare il corso di formazione a cui sei iscritto in base alla **durata** e al **formato** del corso di formazione.
 
 Puoi visualizzare la percentuale di efficacia di ciascun corso dalla pagina Catalogo. Possono essere presenti più istanze/sessioni per ogni corso/programma di apprendimento. Fai clic sul corso o sul programma di apprendimento per visualizzare i dettagli. Puoi inoltre visualizzare la data di scadenza di ogni istanza del programma di apprendimento/corso.
 

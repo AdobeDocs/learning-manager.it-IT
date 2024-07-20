@@ -26,7 +26,7 @@ Puoi anche scegliere di non inviare notifiche e-mail per determinati eventi disa
 
 1. Nella pagina Oggetto di apprendimento, fai clic sul corso, la certificazione o il programma di apprendimento per cui desideri configurare le impostazioni e-mail.
 
-1. Nella pagina dei dettagli dell’oggetto di apprendimento, seleziona **Modelli e-mail** > **Tutti i modelli**. I modelli e-mail sono disponibili per **Istanza predefinita** e **Corso corrente**. Puoi passare da una all’altra utilizzando il menu a discesa nell’angolo in alto a destra.
+1. Dalla pagina dei dettagli dell’oggetto di apprendimento, seleziona **Modelli e-mail** > **Tutti i modelli**. I modelli e-mail sono disponibili per **Istanza predefinita** e **Corso corrente**. Puoi passare da una all’altra utilizzando il menu a discesa nell’angolo in alto a destra.
 
    Puoi vedere l’elenco dei modelli disponibili per l’oggetto di apprendimento selezionato.
 
@@ -76,4 +76,4 @@ L’autore può impostare quanto segue nelle impostazioni del modello e-mail:
 
 * **Banner e-mail**: consente di modificare il banner e-mail.
 
-* **Firma e-mail**: consente di aggiungere o modificare la firma di posta elettronica.
+* **Firma e-mail**: consente di aggiungere o modificare la firma e-mail.

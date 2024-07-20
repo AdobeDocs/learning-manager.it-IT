@@ -26,13 +26,13 @@ Utilizzando la funzione Terminologia del prodotto, puoi rinominare questi termin
 
 Per modificare le terminologie, effettua le seguenti operazioni:
 
-1. In qualità di Amministratore, seleziona **[!UICONTROL Impostazioni]** > **[!UICONTROL Generale]**.
-1. Nella **[!UICONTROL Terminologia del prodotto]**, seleziona **[!UICONTROL Modifica]**.
+1. In qualità di amministratore, seleziona **[!UICONTROL Impostazioni]** > **[!UICONTROL Generali]**.
+1. Nella **[!UICONTROL terminologia del prodotto]**, seleziona **[!UICONTROL Modifica]**.
 
    ![](assets/product-terminology-settings.png)
    _Terminologia del prodotto_
 
-1. Seleziona **[!UICONTROL Scarica qui]** e scaricare il modello dei termini.
+1. Seleziona **[!UICONTROL Scarica qui]** e scarica il modello dei termini.
 
    ![](assets/download-here-pt.png)
    _Scarica il modello_
@@ -42,13 +42,13 @@ Per modificare le terminologie, effettua le seguenti operazioni:
 1. Dopo aver scaricato il file CSV, modifica le terminologie richieste nella seconda colonna. Ad esempio, puoi passare da Modulo a Formazione o da Classifica a Posizioni.
 
    ![](assets/csv-product-terminology.png)
-   _Modificare il file CSV_
+   _Modifica csv_
 
 1. Salva le modifiche.
 
 ## Carica il CSV aggiornato.
 
-1. Nella **[!UICONTROL Terminologia del prodotto]** seleziona il collegamento per caricare il file CSV.
+1. Nella sezione **[!UICONTROL Terminologia del prodotto]**, seleziona il collegamento per caricare il file CSV.
 
    ![](assets/update-the-csv.png)
    _Carica il file CSV_
@@ -66,7 +66,7 @@ Seleziona **[!UICONTROL Ripristina terminologia del prodotto]**.
 
 ![](assets/reset-the-terminology.png)
 
-_Reimpostare la terminologia del prodotto_
+_Ripristinare la terminologia del prodotto_
 
 Facendo clic sul collegamento, viene visualizzato un messaggio a comparsa di conferma.
 

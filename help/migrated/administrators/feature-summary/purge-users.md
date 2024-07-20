@@ -40,24 +40,24 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 Per rimuovere gli utenti, effettua le seguenti operazioni:
 
 1. In qualità di Amministratore, seleziona **[!UICONTROL Utenti]** dal riquadro a sinistra. Viene visualizzata la pagina **[!UICONTROL Utenti interni]**.
-1. Elimina gli utenti che desideri rimuovere. Per farlo, seleziona uno o più utenti mediante la casella di controllo. Apri il pannello **[!UICONTROL Azione]** a discesa e seleziona **[!UICONTROL Elimina utente.]**
+1. Elimina gli utenti che desideri rimuovere. Per farlo, seleziona uno o più utenti mediante la casella di controllo. Apri il menu a discesa **[!UICONTROL Azione]** e seleziona **[!UICONTROL Elimina utente.]**
 1. Nel riquadro a sinistra, seleziona **[!UICONTROL Pulizia utente]**. Verrà visualizzata la pagina **[!UICONTROL Pulizia utente]** con l’elenco degli utenti eliminati. Utilizza i pulsanti di opzione per selezionare l’utente da rimuovere. Puoi rimuovere un solo utente alla volta.
 
    ![](assets/purge-1.png)
 
-   *Seleziona un utente da rimuovere*
+   *Selezionare un utente da rimuovere*
 
-1. Apri il pannello **[!UICONTROL Azioni]** menu a discesa e selezionare **[!UICONTROL Rimuovi utente]**.
+1. Apri il menu a discesa **[!UICONTROL Azioni]** e seleziona **[!UICONTROL Rimuovi utente]**.
 
    ![](assets/purge-2.png)
 
-   *Seleziona l’opzione Rimuovi utente.*
+   *Selezionare l&#39;opzione Rimuovi utente*
 
-1. Viene visualizzata una finestra di dialogo che richiede una conferma. Una volta rimossi, tutti i dati utente e i record di apprendimento associati all’utente selezionato vengono cancellati in modo permanente. Una volta effettuata la rimozione, l’azione non può essere annullata. Per confermare, fare clic su **[!UICONTROL Rimuovi]**.
+1. Viene visualizzata una finestra di dialogo che richiede una conferma. Una volta rimossi, tutti i dati utente e i record di apprendimento associati all’utente selezionato vengono cancellati in modo permanente. Una volta effettuata la rimozione, l’azione non può essere annullata. Per confermare, fai clic su **[!UICONTROL Rimuovi]**.
 
    ![](assets/purge-3.png)
 
-   *Messaggio di conferma dopo l’eliminazione di un utente*
+   *Messaggio di conferma dopo la rimozione di un utente*
 
 1. Dopo aver confermato e fatto clic su Rimuovi, la richiesta di rimozione viene accettata. Una volta completata l’azione, riceverai una notifica. Viene fornito anche un ID di richiesta di rimozione. È possibile fornire questo ID al CSM per tenere traccia della richiesta.
 
@@ -67,7 +67,7 @@ Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Questo conse
 
 ![](assets/bulk-purge-users.png)
 
-*Rimuovere gli utenti in blocco*
+*Rimuovi utenti in blocco*
 
 +++Informazioni sui risultati dell’azione Rimuovi utente
 
@@ -138,7 +138,7 @@ Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Questo conse
    <td>Sì</td>
   </tr>
   <tr>
-   <td><strong>Rimuovi</strong> <strong>altri utenti - Non Enterprise (utenti privati che non sono utenti interni o esterni di Learning Manager)</strong></td>
+   <td><strong>Rimozione</strong> <strong>di altri utenti non Enterprise (utenti privati che non sono utenti interni o esterni di Learning Manager)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Questo conse
 
 +++
 
-Learning Manager è ora conforme al GDPR. Per ulteriori informazioni sulla conformità al GDPR, consulta  [Conformità di Learning Manager al GDPR](../../kb/prime-gdpr.md).
+Learning Manager è ora conforme al GDPR. Per ulteriori informazioni sulla conformità al GDPR, consulta [Conformità di Learning Manager al GDPR](../../kb/prime-gdpr.md).
 
 ## Domande frequenti {#frequentlyaskedquestions}
 

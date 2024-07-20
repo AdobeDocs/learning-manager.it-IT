@@ -23,7 +23,7 @@ Non appena accedi come Manager, puoi visualizzare la finestra a comparsa con un 
 
 Sfoglia le esercitazioni video di esempio per comprendere le funzionalità chiave del tuo ruolo di Manager. Se non desideri visualizzare la finestra a comparsa durante l’accesso, puoi disattivarla facendo clic sull’opzione Non mostrare di nuovo all’accesso nell’angolo inferiore destro della finestra a comparsa.
 
-Fai clic **[!UICONTROL Chiudi finestra]** per chiudere la finestra a comparsa.
+Fai clic su **[!UICONTROL Chiudi finestra]** per chiudere la finestra a comparsa.
 
 ![](assets/welcome-videos.png)
 

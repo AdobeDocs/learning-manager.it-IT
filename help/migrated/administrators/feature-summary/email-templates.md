@@ -29,23 +29,23 @@ In questo corso imparerai come personalizzare i singoli modelli e-mail e come pe
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Configurazione dei modelli e-mail {#configureemailtemplates}
 
 Gli Amministratori possono facilmente attivare, disattivare o modificare questi modelli e-mail.
 
-1. Per accedere ai modelli, fai clic su **[!UICONTROL Modelli e-mail]** nel riquadro sinistro. In questa pagina sono disponibili tre diverse categorie di modelli: **[!UICONTROL Generale]**, **[!UICONTROL Attività di apprendimento]** e **[!UICONTROL Promemoria e aggiornamenti]**. C&#39;è una quarta scheda, **[!UICONTROL Impostazioni]**, in cui è possibile configurare i modelli.
+1. Per accedere ai modelli, fai clic su **[!UICONTROL Modelli e-mail]** nel riquadro a sinistra. In questa pagina sono disponibili tre diverse categorie di modelli: **[!UICONTROL Generali]**, **[!UICONTROL Attività di apprendimento]** e **[!UICONTROL Promemoria e aggiornamenti]**. La quarta scheda, **[!UICONTROL Impostazioni]**, consente di configurare i modelli.
 
    ![](assets/categories-of-emailtemplates.png)
 
-   *Seleziona la scheda Generale.*
+   *Selezionare la scheda Generale*
 
 1. Per visualizzare l’elenco dei modelli e-mail, fai clic su una scheda qualsiasi.
 
    ![](assets/email-templates-ingeneraltab.png)
 
-   *Visualizzare l’elenco dei modelli e-mail*
+   *Visualizza l&#39;elenco dei modelli e-mail*
 
    Puoi attivare o disattivare facilmente questi avvisi e-mail facendo clic sul pulsante di attivazione/disattivazione corrispondente.
 
@@ -53,7 +53,7 @@ Gli Amministratori possono facilmente attivare, disattivare o modificare questi 
 
    ![](assets/preview-of-an-emailtemplate.png)
 
-   *Visualizzare il modello di un’e-mail*
+   *Visualizzare il modello di un messaggio di posta elettronica*
 
 1. Per modificare il contenuto di questo modello e-mail, fai clic sul corpo del messaggio e-mail. Apporta le modifiche necessarie al modello. Puoi modificare il testo e utilizzare una di queste variabili nell’e-mail. Le modifiche apportate al corpo possono essere applicate solo a questo modello e-mail. Tuttavia, le modifiche apportate alla firma di questa e-mail possono essere applicate globalmente a tutti i modelli.
 
@@ -61,7 +61,7 @@ Gli Amministratori possono facilmente attivare, disattivare o modificare questi 
 
    ![](assets/modify-the-emailtemplate.png)
 
-   *Modificare il modello e-mail*
+   *Modifica del modello e-mail*
 
    Puoi ripristinare il contenuto predefinito del corpo del messaggio facendo clic sul collegamento **[!UICONTROL Torna all’originale]** sopra il modello.
 
@@ -70,17 +70,17 @@ Gli Amministratori possono facilmente attivare, disattivare o modificare questi 
 ## Personalizzazione delle impostazioni di un modello e-mail {#customizesettingsofanemailtemplate}
 
 1. Per aprire la pagina delle impostazioni, fai clic su **[!UICONTROL Impostazioni]**. Ora puoi personalizzare i modelli e-mail.
-1. Per personalizzare il nome e l’ID e-mail da cui gli Allievi ricevono le e-mail, modifica il **[!UICONTROL Nome e indirizzo mittente].**
+1. Per personalizzare il nome e l’ID e-mail da cui gli Allievi ricevono le e-mail, modifica **[!UICONTROL Nome e indirizzo mittente].**
 
-   Contatto [***Supporto Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) per configurare o modificare questi dettagli.
+   Per configurare o modificare questi dettagli, contatta [***il supporto Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
-1. Personalizza il tuo banner e-mail dal **[!UICONTROL Banner e-mail]** opzione. Cambia il colore del banner selezionando **[!UICONTROL Sfondo banner]**.
+1. Personalizza il banner e-mail dall&#39;opzione **[!UICONTROL Banner e-mail]**. Modifica il colore del banner selezionando **[!UICONTROL Sfondo del banner]**.
 
-   Puoi utilizzare un’immagine personalizzata come banner selezionando la **[!UICONTROL Immagine personalizzata]** opzione. Dopo aver apportato le modifiche, fai clic su **[!UICONTROL Salva]**.
+   Puoi utilizzare un&#39;immagine personalizzata come banner selezionando l&#39;opzione **[!UICONTROL Immagine personalizzata]**. Dopo aver apportato le modifiche, fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
-   *Personalizzare l’immagine di un banner*
+   *Personalizzare l&#39;immagine di un banner*
 
    Le immagini personalizzate devono avere dimensioni di 1240x200px e utilizzare il formato .jpg, .jpeg e .png.
 
@@ -88,35 +88,35 @@ Gli Amministratori possono facilmente attivare, disattivare o modificare questi 
 
    ![](assets/customize-email-signature.png)
 
-   *Personalizzare la firma e-mail*
+   *Personalizzare la firma di posta elettronica*
 
-1. Modifica l’URL del tuo account facendo clic su Modifica nell’opzione **[!UICONTROL URL account]**.
+1. Modifica l&#39;URL dell&#39;account facendo clic su Modifica nell&#39;opzione **[!UICONTROL URL account]**.
 
    Il collegamento all’URL dell’account viene visualizzato in tutte le e-mail, subito prima della firma. Immetti l’URL richiesto e fai clic su **[!UICONTROL Salva]**. Tieni presente che questo URL è visibile solo agli utenti interni.
 
    ![](assets/customize-accounturl.png)
 
-   *Personalizzare l’URL dell’account*
+   *Personalizzare l&#39;URL dell&#39;account*
 
-1. Configura se i Manager devono ricevere anche e-mail inviate ai loro subordinati utilizzando la casella di controllo **[!UICONTROL E-mail Manager opzionale]** opzione.
+1. Configura se i Manager devono ricevere anche e-mail inviate ai loro subordinati utilizzando la casella di controllo nell&#39;opzione **[!UICONTROL E-mail Manager opzionale]**.
 
 ## Impostazione della frequenza delle e-mail di riepilogo {#setfrequencyofdigestemails}
 
-Nella **[!UICONTROL Modelli e-mail]** > **[!UICONTROL Impostazioni]** , l’Amministratore può modificare la frequenza delle e-mail di riepilogo da inviare agli Allievi.
+Nella pagina **[!UICONTROL Modelli e-mail]** > **[!UICONTROL Impostazioni]**, l’Amministratore può modificare la frequenza delle e-mail di riepilogo da inviare agli Allievi.
 
 Nella sezione **[!UICONTROL Impostazioni e-mail di riepilogo]**, fai clic su **[!UICONTROL Modifica]**.
 
-Nel menu a discesa, scegli **[!UICONTROL Bi-settimanale]** oppure **[!UICONTROL Mensile]**.
+Nel menu a discesa, scegli **[!UICONTROL Bi-settimanale]** o **[!UICONTROL Mensile]**.
 
-* **[!UICONTROL Bi-settimanale]:** Se si imposta la frequenza su **[!UICONTROL Bi-settimanale]**, gli allievi ricevono l’e-mail una volta ogni due settimane.
+* **[!UICONTROL Bi-settimanale]:** Se imposti la frequenza su **[!UICONTROL Bi-settimanale]**, gli allievi riceveranno l’e-mail una volta ogni due settimane.
 
-* **[!UICONTROL Mensile]:** Se si imposta la frequenza su **[!UICONTROL Mensile]**, gli allievi ricevono l’e-mail una volta al mese.
+* **[!UICONTROL Mensile]:** Se imposti la frequenza su **[!UICONTROL Mensile]**, gli allievi riceveranno l’e-mail una volta al mese.
 
 ![](assets/digest-email-settings.png)
 
 *Impostazione della frequenza delle e-mail di riepilogo*
 
-Quando attivi questa opzione, la frequenza viene impostata su **[!UICONTROL Bi-settimanale]** per gli account attivi nuovi/esistenti per impostazione predefinita.
+Quando abiliti questa opzione, per impostazione predefinita la frequenza è impostata su **[!UICONTROL BiWesettimanale]** per gli account attivi nuovi o esistenti.
 
 ### Elenco DND di allievi
 
@@ -134,13 +134,13 @@ Gli esempi seguenti rappresentano la posta ricevuta da un Allievo.
 
 ![](assets/email-2.png)
 
-*E-mail dell’attività di formazione*
+*E-mail dell&#39;attività di formazione*
 
 ### Corsi di formazione consigliati
 
 ![](assets/email3.png)
 
-*E-mail dei corsi di formazione consigliati*
+*E-mail del corso di formazione consigliato*
 
 ### La classifica
 
@@ -156,11 +156,11 @@ Gli esempi seguenti rappresentano la posta ricevuta da un Allievo.
 
 ### Download del report di accesso delle e-mail
 
-Per scaricare il report sull’accesso alle e-mail, fai clic sul pulsante **[!UICONTROL Scarica]** pulsante. Questo report contiene il numero di utenti che hanno ricevuto l&#39;e-mail e il numero di utenti che hanno aperto e cliccato sui collegamenti.
+Per scaricare il report sull&#39;accesso alle e-mail, fai clic sul pulsante **[!UICONTROL Scarica]**. Questo report contiene il numero di utenti che hanno ricevuto l&#39;e-mail e il numero di utenti che hanno aperto e cliccato sui collegamenti.
 
 ## Personalizzazione del dominio e-mail {#customizeemaildomain}
 
-Per personalizzare il dominio e l’ID e-mail da cui gli Allievi ricevono le notifiche, contatta il [***Supporto di Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) e fornisci i dettagli del dominio che desideri aggiungere e il tuo nuovo id e-mail.
+Per personalizzare il dominio e l’ID e-mail da cui gli Allievi ricevono le notifiche, contatta l’[***assistenza di Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) e fornisci i dettagli del dominio che desideri aggiungere e il nuovo ID e-mail.
 
 La tua richiesta verrà elaborata e riceverai un’e-mail con un collegamento di conferma al nuovo indirizzo e-mail specificato. Fai clic sul collegamento fornito nel messaggio e-mail per confermare e completare il processo di verifica.
 
@@ -168,7 +168,7 @@ La tua richiesta verrà elaborata e riceverai un’e-mail con un collegamento di
 
 In qualità di Amministratore puoi selezionare quali utenti possono ricevere e-mail da Learning Manager.
 
-È possibile eseguire questa operazione utilizzando **[!UICONTROL Non disturbare]** opzione sotto il **[!UICONTROL Impostazioni]** scheda. Gli utenti possono essere aggiunti a questo elenco utilizzando il nome, l’ID e-mail o l’ID utente univoco.
+È possibile eseguire questa operazione utilizzando l&#39;opzione **[!UICONTROL Non disturbare]** nella scheda **[!UICONTROL Impostazioni]**. Gli utenti possono essere aggiunti a questo elenco utilizzando il nome, l’ID e-mail o l’ID utente univoco.
 
 Cerca un utente da aggiungere all’elenco.
 
@@ -176,7 +176,7 @@ Cerca un utente da aggiungere all’elenco.
 
 ## E-mail bloccate {#blockedemails}
 
-Dal menu **E-mail bloccate** elenco a discesa per ogni utente per selezionare i tipi di e-mail da bloccare.
+Dall&#39;elenco a discesa **E-mail bloccate**, selezionare i tipi di e-mail da bloccare per ogni utente.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
@@ -210,7 +210,7 @@ Seleziona **[!UICONTROL Modelli e-mail]** > **[!UICONTROL Impostazioni]**. Selez
 
 ![personalizza e-mail](assets/email-salutation.png)
 
-*Personalizza formula di apertura tramite e-mail*
+*Personalizzare la formula di apertura dei messaggi di posta elettronica*
 
 Puoi anche personalizzare quanto segue:
 
@@ -225,7 +225,7 @@ In questo corso di formazione verrà illustrato come configurare le impostazioni
 
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Inviti in linea {#inlineinvitations}
 
@@ -265,6 +265,6 @@ Per disattivare un modello e-mail, selezionalo e fai clic sul pulsante circolare
 
 +++Come si modificano il nome e l’indirizzo del mittente nel modello?
 
-Per modificare il nome e l&#39;indirizzo di posta elettronica del mittente, contattare [Adobe del supporto di Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
+Per modificare il nome e l&#39;indirizzo di posta elettronica del mittente, contatta il [supporto Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

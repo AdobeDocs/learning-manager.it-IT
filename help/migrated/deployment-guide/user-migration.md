@@ -22,19 +22,19 @@ La configurazione tecnica dell’account Learning Manager è richiesta principal
 
 In qualità di Amministratore di sistema nella console di amministrazione, una delle prime attività è definire e impostare un sistema di identità in base al quale gli utenti finali verranno autenticati. Poiché l’organizzazione acquista licenze per Learning Manager, dovrai fornire tali licenze agli utenti finali. Per questo, servirà un modo per autenticare questi utenti finali. Per configurare l’accesso SSO per gli utenti, segui la seguente procedura.
 
-1. Nella home page di Learning Manager, fai clic su **[!UICONTROL ** Impostazioni **>** Metodi di accesso **.]**
+1. Dalla home page di Learning Manager, fai clic su **[!UICONTROL ** Impostazioni **>** Metodi di accesso **.]**
 
    ![](assets/configure-sso-step1.png)
 
-1. A seconda del tipo di utente, seleziona **[!UICONTROL ** Utenti interni **oppure** Utenti esterni **.]**
+1. A seconda del tipo di utente, seleziona **[!UICONTROL ** Utenti interni **o** Utenti esterni **.]**
 
 
 
-1. Dal **[!UICONTROL **Accesso**]**campo a discesa, seleziona **[!UICONTROL ** Single Sign-On **.]**
+1. Dal campo a discesa **[!UICONTROL **Accesso**]**, seleziona **[!UICONTROL ** Single Sign-On **.]**
 
    ![](assets/configure-sso-step3.png)
 
-1. Per configurare le impostazioni Single Sign-On, fai clic su **[!UICONTROL ** Modifica **.]**
+1. Per configurare le impostazioni Single Sign-On, fare clic su **[!UICONTROL ** Modifica **.]**
 
    ![](assets/configure-sso-step4.png)
 
@@ -44,8 +44,8 @@ In qualità di Amministratore di sistema nella console di amministrazione, una d
 
    ![](assets/configure-sso-step5.png)
 
-1. Fai clic su **[!UICONTROL **Carica **]**accanto a**[!UICONTROL  **File XML metadati IDP **]******e caricare il file XML.
-1. Fai clic **[!UICONTROL ** Salva **.]**
+1. Fai clic su **[!UICONTROL **Carica **]**accanto al **campo**[!UICONTROL  del **file XML dei metadati IDP **]****e carica il file XML.
+1. Fai clic su **[!UICONTROL ** Salva **.]**
 1. L’autenticazione SSO è stata configurata correttamente per l’account. Dovresti essere in grado di accedere al tuo account Learning Manager utilizzando l’SSO.
 
    ***L’SSO configurato in Learning Manager deve supportare SAML 2.0.***
@@ -54,11 +54,11 @@ In qualità di Amministratore di sistema nella console di amministrazione, una d
 
 In qualità di amministratore, quando l’azienda acquista Learning Manager, uno dei passaggi fondamentali da eseguire è la migrazione. È fondamentale spostare i contenuti di formazione esistenti e i dati degli utenti in Learning Manager. Il flusso di lavoro di migrazione seguente consente di sfruttare i vantaggi di un sistema LMS moderno e intuitivo senza perdere i dati preesistenti dell’organizzazione.
 
-Learning Manager consente di eseguire la migrazione dal sistema LMS esistente tramite una procedura guidata dettagliata, in sprint iterativi. Ottieni una visibilità completa sullo stato di ogni sprint per garantire che gli Allievi non subiscano tempi di inattività durante la migrazione dei dati legacy ad Adobe Learning Manager.
+Learning Manager consente di eseguire la migrazione dal sistema LMS esistente tramite una procedura guidata dettagliata, in sprint iterativi. Ottieni una visibilità completa sullo stato di ogni sprint per garantire che gli Allievi non subiscano tempi di inattività durante la migrazione dei dati legacy in Adobe Learning Manager.
 
 Per eseguire il flusso di lavoro di migrazione, è necessario disporre dei privilegi di Amministratore dell’integrazione. In qualità di Amministratore, puoi assumere il ruolo di Amministratore dell’integrazione oppure assegnare questo ruolo a un altro utente.
 
-**Qui possiamo usare l&#39;aiuto di Shaleen per creare un&#39;immagine.**
+**È possibile utilizzare la Guida di Shaleen per creare un&#39;immagine.**
 
 1. Prerequisiti
 1. Valutazione dei contenuti esistenti e dei dati degli utenti
@@ -240,7 +240,7 @@ Verifica che ogni file .csv contenga i dati per ogni campo nel formato prescritt
  </tbody> 
 </table>
 
-***Learning Manager supporta solo i valori di data e ora in formato UTF a 8 e 32 bit. È possibile che si verifichino errori durante la migrazione se nei file CSV si specifica una data fuori intervallo, ad esempio 2038-07-17T08:53:21.000Z o 1980-04-17T08:13:25.322Z***
+***Learning Manager supporta solo i valori di data e ora in formato UTF a 8 e 32 bit. È possibile che si verifichino errori durante la migrazione se nei file CSV si specifica una data fuori intervallo come 2038-07-17T08:53:21.000Z o 1980-04-17T08:13:25.322Z.***
 
 ### Dipendenze durante l’importazione di dati in file csv {#dependencieswhileimportingdatatocsvfiles}
 
@@ -272,7 +272,7 @@ Prima di pianificare e avviare la migrazione effettiva di tutto il contenuto, è
 
 ### Creazione di un account FTP {#setupanftpaccount}
 
-Nella home page dell’Amministratore dell’integrazione, fai clic su **[!UICONTROL ** Richiesta di cartella FTP CSV **.]** Nella finestra di dialogo a comparsa visualizzata, immetti l’ID e-mail. Segui la procedura guidata online per creare l’account FTP Exavault. Una volta creato l’account, puoi visualizzare le cartelle del progetto di migrazione e del progetto di sprint in FTP Exavault.
+Nella home page dell’Amministratore dell’integrazione, fai clic su **[!UICONTROL ** Richiedi cartella FTP CSV **.]** Nella finestra di dialogo a comparsa visualizzata, immetti l’ID e-mail. Segui la procedura guidata online per creare l’account FTP Exavault. Una volta creato l’account, puoi visualizzare le cartelle del progetto di migrazione e del progetto di sprint in FTP Exavault.
 
 Come riferimento, ecco un’istantanea della cartella e dei file di progetto di ExaVault:
 
@@ -292,7 +292,7 @@ Nella sezione Configurazione, fai clic sulla casella Richiedi cartella.
 
 Nel campo ****[!UICONTROL Immetti e-mail]****, immetti l’ID e-mail in cui desideri ricevere le istruzioni di accesso per la connessione a Box.
 
-Fai clic **[!UICONTROL ** Connetti **.]**
+Fai clic su **[!UICONTROL ** Connetti **.]**
 
 Riceverai un’e-mail da Box con il collegamento alla cartella condivisa. Se non disponi di un account Box, fai clic su Iscrizione e creane uno. Le istruzioni di accesso vengono poi inviate all’ID e-mail dell’Amministratore dell’integrazione.
 
@@ -331,17 +331,17 @@ Nella pagina Configurazione sprint, crea uno sprint per il progetto di migrazion
 
 Specifica un nome per lo sprint e fornisci una descrizione dello sprint.
 
-Selezionare il ****[!UICONTROL Casella di controllo Gli utenti sono stati aggiunti o modificati dopo l&#39;ultima esecuzione]****, per sincronizzare l’elenco degli utenti con l’applicazione Learning Manager. Se stai eseguendo la migrazione di contenuti e dati all’applicazione Learning Manager, questa operazione potrebbe non essere richiesta. Tuttavia, qualora sia trascorso un certo intervallo di tempo tra la precedente migrazione sprint e l’ultima, è consigliabile effettuare la sincronizzazione dell’elenco degli utenti. Questo passaggio consente la sincronizzazione del database Learning Manager con gli utenti dell’LMS.
+Seleziona la casella di controllo ****[!UICONTROL Gli utenti sono stati aggiunti o modificati dall’ultima esecuzione]****, per sincronizzare l’elenco di utenti con l’applicazione Learning Manager. Se stai eseguendo la migrazione di contenuti e dati all’applicazione Learning Manager, questa operazione potrebbe non essere richiesta. Tuttavia, qualora sia trascorso un certo intervallo di tempo tra la precedente migrazione sprint e l’ultima, è consigliabile effettuare la sincronizzazione dell’elenco degli utenti. Questo passaggio consente la sincronizzazione del database Learning Manager con gli utenti dell’LMS.
 
 ***La sincronizzazione è consigliata durante la migrazione di enrollment.csv e user_course_grade.csv. Questo passaggio consente la sincronizzazione del database Learning Manager con il database di migrazione e garantisce che tutti gli utenti i cui record devono essere migrati nello sprint siano disponibili nel database di migrazione.***
 
-Fai clic **[!UICONTROL ** Avanti **.]**
+Fai clic su **[!UICONTROL ** Avanti **.]**
 
-Fai clic su **[!UICONTROL **Inizia**]**per avviare la migrazione sprint con i dati e i contenuti caricati. Fai clic ****[!UICONTROL Aggiorna]**** prima di avviare l’esecuzione dello sprint per sincronizzare le cartelle FTP e dei contenuti con Learning Manager.
+Fai clic su **[!UICONTROL **Avvia**]**per avviare la migrazione sprint con i dati e i contenuti caricati. Fai clic su ****[!UICONTROL Aggiorna]**** prima di avviare l’esecuzione dello sprint per sincronizzare le cartelle FTP e dei contenuti con Learning Manager.
 
 ![](assets/migrating-the-content-3.png)
 
-È possibile fare clic su ****[!UICONTROL Interrompi]****in qualsiasi momento durante il processo di migrazione sprint, per interrompere la migrazione.
+Puoi fare clic su ****[!UICONTROL Arresta]****in qualsiasi momento durante il processo di migrazione sprint per interrompere la migrazione.
 
 Lo stato della migrazione viene visualizzato per ciascuno dei contenuti e degli elementi dati dello sprint. Verifica il numero di elementi riusciti e non riusciti nell’ambito dell’esecuzione di uno sprint di migrazione.
 
@@ -351,15 +351,15 @@ Come riferimento, viene di seguito fornita un’istantanea dello stato di avanza
 
 ![](assets/migrating-the-content-4.png)
 
-Per visualizzare l’elenco di tutti gli sprint di un progetto di migrazione, fai clic su **[!UICONTROL **Sprint**]**nel riquadro di navigazione a sinistra. È possibile visualizzare un elenco di tutti gli sprint, il numero di esecuzioni per ciascuno sprint, la data di inizio, la durata e lo stato di completamento, come mostrato nell’istantanea di esempio riportata di seguito.
+Per visualizzare l&#39;elenco di tutti gli sprint di un progetto di migrazione, fai clic su **[!UICONTROL **Sprint**]**nel riquadro di navigazione a sinistra. È possibile visualizzare un elenco di tutti gli sprint, il numero di esecuzioni per ciascuno sprint, la data di inizio, la durata e lo stato di completamento, come mostrato nell’istantanea di esempio riportata di seguito.
 
 ![](assets/migrating-the-content-5.png)
 
-Per visualizzare l’elenco di tutti gli sprint di un progetto di migrazione, fai clic su **[!UICONTROL **Sprint**]**nel riquadro di navigazione a sinistra. È possibile visualizzare un elenco di tutti gli sprint, il numero di esecuzioni per ciascuno sprint, la data di inizio, la durata e lo stato di completamento, come mostrato nell’istantanea di esempio riportata di seguito.
+Per visualizzare l&#39;elenco di tutti gli sprint di un progetto di migrazione, fai clic su **[!UICONTROL **Sprint**]**nel riquadro di navigazione a sinistra. È possibile visualizzare un elenco di tutti gli sprint, il numero di esecuzioni per ciascuno sprint, la data di inizio, la durata e lo stato di completamento, come mostrato nell’istantanea di esempio riportata di seguito.
 
-Per visualizzare l’elenco di tutti gli sprint di un progetto di migrazione, fai clic su **[!UICONTROL **Sprint**]**nel riquadro di navigazione a sinistra. È possibile visualizzare un elenco di tutti gli sprint, il numero di esecuzioni per ciascuno sprint, la data di inizio, la durata e lo stato di completamento, come mostrato nell’istantanea di esempio riportata di seguito.
+Per visualizzare l&#39;elenco di tutti gli sprint di un progetto di migrazione, fai clic su **[!UICONTROL **Sprint**]**nel riquadro di navigazione a sinistra. È possibile visualizzare un elenco di tutti gli sprint, il numero di esecuzioni per ciascuno sprint, la data di inizio, la durata e lo stato di completamento, come mostrato nell’istantanea di esempio riportata di seguito.
 
-***Prima di contrassegnare il progetto di migrazione come completato, assicurati che tutti gli sprint nel progetto siano completi. Dopo aver contrassegnato il progetto di migrazione come completato, non è possibile tornare indietro e creare eventuali sprint in tale progetto né apportare modifiche al progetto stesso. Puoi solo creare un altro progetto di migrazione e aggiungervi sprint.***
+***Prima di contrassegnare il progetto di migrazione come completato, assicurati che tutti gli sprint nel progetto siano stati completati. Dopo aver contrassegnato il progetto di migrazione come completato, non è possibile tornare indietro e creare eventuali sprint in tale progetto né apportare modifiche al progetto stesso. Puoi solo creare un altro progetto di migrazione e aggiungervi sprint.***
 
 Dopo aver eseguito la migrazione dei dati e dei contenuti di formazione dall’LMS legacy della tua organizzazione, verifica che i dati e i contenuti siano stati importati correttamente. Puoi effettuare la verifica accedendo come Amministratore e verificando la disponibilità dei dati e contenuti dei moduli e corsi importati
 

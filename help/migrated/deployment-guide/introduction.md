@@ -25,8 +25,8 @@ Questa guida descrive i passaggi da seguire per iniziare a usare Learning Manage
 
 Come utente di Learning Manager, puoi assumere il ruolo di amministratore, autore, istruttore, manager o allievo. Questa guida è destinata agli utenti che si dovranno occupare di configurare un LMS per un’organizzazione o un cliente.
 
-* **Amministratore IT** - In qualità di Amministratore IT, puoi attivare o integrare Learning Manager nella tua organizzazione. Un amministratore IT può inoltre aggiungere utenti singoli o multipli e può svolgere il ruolo di amministratore dell’integrazione o di amministratore che integra Learning Manager con applicazioni di terze parti.
-* **Autore** - In qualità di autore di Learning Manager, puoi creare i contenuti di apprendimento necessari affinché un’organizzazione possa raggiungere i propri obiettivi di apprendimento. L’Autore si occupa di creare il contenuto di base che viene caricato in Learning Manager.
+* **Amministratore IT** - In qualità di amministratore IT, è possibile attivare o integrare Learning Manager nella propria organizzazione. Un amministratore IT può inoltre aggiungere utenti singoli o multipli e può svolgere il ruolo di amministratore dell’integrazione o di amministratore che integra Learning Manager con applicazioni di terze parti.
+* **Autore** - In qualità di Autore di Learning Manager, puoi creare i contenuti di apprendimento necessari affinché un’organizzazione possa raggiungere i propri obiettivi di apprendimento. L’Autore si occupa di creare il contenuto di base che viene caricato in Learning Manager.
 
 * **Amministratore Learning Manager** - Un Amministratore Learning Manager esegue le attività di configurazione relative all’applicazione. In alcune aziende, un amministratore IT può anche rivestire il ruolo di Amministratore Learning Manager.
 
@@ -58,9 +58,9 @@ Utilizza le impostazioni del logo e del banner per visualizzare il logo della tu
 * sul pannello di sinistra, fai clic su **Branding**;
 * Nella pagina dedicata al Branding, puoi configurare le seguenti opzioni cliccando **Modifica** accanto a ciò che desideri modificare.
 
-   * **Nome organizzazione** : il valore specificato in questa casella determina il nome visualizzato sul banner in ogni pagina del sito.
+   * **Nome organizzazione**: il nome visualizzato nel banner in ogni pagina del sito dipende dal valore specificato.
    * **Sottodominio**: questo valore determina l&#39;URL del sito.
-   * **Stile del logo**: l&#39;immagine in questo campo viene visualizzata come logo nell&#39;angolo superiore destro di ogni pagina. Qui puoi scegliere di mostrare solo il logo, solo il nome della tua organizzazione o sia il logo che il nome dell’organizzazione.
+   * **Stile logo**: l&#39;immagine in questo campo viene visualizzata come logo nell&#39;angolo superiore destro di ogni pagina. Qui puoi scegliere di mostrare solo il logo, solo il nome della tua organizzazione o sia il logo che il nome dell’organizzazione.
 
 ![](assets/setting-the-themesforyoursite.png)
 
@@ -87,7 +87,7 @@ Puoi anche scegliere una delle combinazioni di colori seguenti per adattare il s
 
    ![](assets/setting-the-themesforyoursite.png)
 
-1. Inoltre, è possibile modificare **Colore barra superiore**, **Colore principale** e **Luminosità barra laterale**.  Per questi elementi chiave dell’interfaccia, puoi utilizzare i colori del tuo brand.
+1. Potete inoltre modificare **il colore della barra superiore**, **il colore principale** e la **luminosità della barra laterale**.  Per questi elementi chiave dell’interfaccia, puoi utilizzare i colori del tuo brand.
 1. Per reimpostare i valori alla combinazione di colori predefinita del tema che hai scelto, fai clic su **[!UICONTROL Ripristina tema]**. I colori degli elementi principali dell’interfaccia utente sono impostati sulle opzioni predefinite del tema scelto.
 1. Dopo aver scelto il tema, fai clic su **[!UICONTROL Mostra suggerimenti]** per visualizzare le etichette o i suggerimenti nell’anteprima.
 
@@ -112,16 +112,16 @@ In qualità di amministratore, il passaggio successivo consiste nella configuraz
 
 Queste e-mail possono essere abilitate e configurate dalla Dashboard Amministratore. Per scoprire come configurare i modelli e-mail, segui i passaggi seguenti:
 
-1. Nel riquadro di navigazione sinistro fare clic su **[!UICONTROL ** Modelli e-mail **.]**
-1. Fare clic su una delle schede seguenti:**[!UICONTROL ** Generale **/** Attività di apprendimento **/** Promemoria e aggiornamenti **.]** Ad esempio, supponiamo di aver fatto clic su **[!UICONTROL ** Attività di apprendimento **.]**
+1. Nel riquadro di navigazione a sinistra, fai clic su **[!UICONTROL ** Modelli e-mail **.]**
+1. Fai clic su una delle schede seguenti:**[!UICONTROL ** Generale **/** Attività di apprendimento **/** Promemoria e aggiornamenti **.]** Ad esempio, supponiamo di aver fatto clic su **[!UICONTROL ** Attività di apprendimento **.]**
 1. Fai clic sul pulsante di attivazione accanto alle attività per le quali desideri far partire un’e-mail. In questo esempio, supponiamo di aver fatto clic su **[!UICONTROL ** Programma di apprendimento - Iscritto da Amministratore/Manager **.]**
 
    ![](assets/configure-email-templates-step3.png)
 
    Il sistema visualizza il messaggio a comparsa &quot;Abilitato correttamente&quot;. Ora, ogni volta che un manager o un amministratore iscriverà un allievo a un corso, l’allievo riceverà un’e-mail dal suo account Learning Manager.
 
-1. Il modello e-mail predefinito può essere modificato. Per modificarlo, clicca sull’evento. In questo esempio, fare clic su **[!UICONTROL Programma di apprendimento: iscritto da Amministratore/Manager.]**
-1. Nella **[!UICONTROL Anteprima modello]** nella finestra di dialogo a comparsa, sono presenti due schede: [!UICONTROL Allievo] e [!UICONTROL Manager].
+1. Il modello e-mail predefinito può essere modificato. Per modificarlo, clicca sull’evento. In questo esempio, fai clic su Programma di apprendimento **[!UICONTROL - Iscritto da Amministratore/Manager.]**
+1. Nella finestra di dialogo a comparsa **[!UICONTROL Anteprima modello]**, sono presenti due schede: [!UICONTROL Allievo] e [!UICONTROL Manager].
 
    ![](assets/configure-email-templates-step5.png)
 
@@ -129,21 +129,21 @@ Queste e-mail possono essere abilitate e configurate dalla Dashboard Amministrat
 
    Ora, ogni volta che un allievo viene iscritto a un corso dal manager o dall’amministratore, sia l’allievo che il suo manager riceveranno una notifica e-mail.
 
-   ***Nota: le modifiche sono applicabili solo per il modello e-mail associato all’evento selezionato.***
+   ***Nota: le modifiche sono applicabili solo per il modello e-mail associato all&#39;evento selezionato.***
 
 1. Come hai notato, non è possibile modificare l’URL account o la firma nel modello e-mail. Per modificare l’ **[!UICONTROL URL account]** o la **[!UICONTROL firma]**, fai clic sulla scheda **[!UICONTROL Impostazioni]**. In questa scheda è possibile modificare il banner dell’e-mail, la firma e l’URL account.
 
-   Il collegamento all’URL dell’account viene visualizzato in tutte le e-mail, subito prima della firma. Inserisci l’URL che desideri e fai clic su **[!UICONTROL Salva]**. Questo URL è visibile solo agli utenti interni.
+   Il collegamento all’URL dell’account viene visualizzato in tutte le e-mail, subito prima della firma. Immetti l&#39;URL preferito e fai clic su **[!UICONTROL Salva]**. Questo URL è visibile solo agli utenti interni.
 
-   Per il banner e-mail, puoi cambiarne il colore selezionando  **[!UICONTROL ** Sfondo banner **.]** Puoi anche utilizzare un’immagine personalizzata come banner selezionando la **[!UICONTROL Immagine personalizzata]** opzione. Fai clic  **[!UICONTROL Salva]** dopo aver apportato le modifiche.
+   Per il banner e-mail, puoi cambiarne il colore selezionando **[!UICONTROL ** Sfondo banner **.]** Puoi anche utilizzare un&#39;immagine personalizzata come banner selezionando l&#39;opzione **[!UICONTROL Immagine personalizzata]**. Dopo aver apportato le modifiche, fai clic su **[!UICONTROL Salva]**.
 
-   ***Nota: le dimensioni dell’immagine personalizzata per il banner e-mail devono essere 1240x200 px. Le immagini più grandi rispetto alle dimensioni consigliate vengono ritagliate.***
+   ***Nota: le dimensioni dell&#39;immagine personalizzata per il banner e-mail devono essere 1240x200 px. Le immagini di dimensioni superiori a quelle consigliate vengono ritagliate.***
 
-   ***Learning Manager supporta solo i tipi di file .jpg, .jpeg e .png per i banner dell’e-mail.***
+   ***Learning Manager supporta solo i tipi di file .jpg, .jpeg e .png per i banner e-mail.***
 
    ![](assets/configure-email-templates-step6.png)
 
-1. Puoi anche scegliere di abilitare le e-mail opzionali manager. Se si seleziona **[!UICONTROL Abilita]** , ogni volta che un report diretto riceve un’e-mail da questo account Prime, il manager è incluso nell’elenco dei destinatari.
+1. Puoi anche scegliere di abilitare le e-mail opzionali manager. Se selezioni la casella di controllo **[!UICONTROL Abilita]**, ogni volta che un report diretto riceve un’e-mail da questo account Prime, il manager è incluso nell’elenco dei destinatari.
 
    ***Nota: le impostazioni in questa scheda sono applicabili a tutti i modelli, a livello globale.***
 
@@ -157,12 +157,12 @@ Per configurare i modelli e-mail per un oggetto di apprendimento:
 
 1. Fai clic sul corso, programma di apprendimento o certificazione per cui vuoi configurare il modello e-mail.
 1. Nel riquadro a sinistra, fai clic su **[!UICONTROL ** Modelli e-mail **.]** Il sistema ti mostrerà un’ ****[!UICONTROL Anteprima del modello]**** in una finestra di dialogo a comparsa.
-1. Modifica l’oggetto o il contenuto del modello e-mail e fai clic su **[!UICONTROL **Salva**]**per applicare le modifiche.
+1. Modifica l&#39;oggetto o il contenuto del modello e-mail e fai clic su **[!UICONTROL **Salva**]**per applicare le modifiche.
 1. Per annullare le modifiche, fai clic su **[!UICONTROL ** Ripristina originale **.]**
 
 ### Escludi utenti dalla ricezione di e-mail {#restrictusersfromreceivingemails}
 
-In qualità di amministratore, puoi scegliere chi riceverà e-mail da Learning Manager e chi non le riceverà. È possibile ottenere questo risultato utilizzando il ****[!UICONTROL Utente con restrizioni]**** opzione sotto il ****[!UICONTROL Impostazioni]** **scheda. Gli utenti possono essere aggiunti a questo elenco utilizzando il nome, l’ID e-mail o l’ID utente univoco. Gli utenti elencati qui non riceveranno comunicazioni e-mail da Learning Manager.
+In qualità di amministratore, puoi scegliere chi riceverà e-mail da Learning Manager e chi non le riceverà. A tale scopo, puoi utilizzare l&#39;opzione ****[!UICONTROL Utente con restrizioni]**** nella scheda **Impostazioni **[!UICONTROL **]**. Gli utenti possono essere aggiunti a questo elenco utilizzando il nome, l’ID e-mail o l’ID utente univoco. Gli utenti elencati qui non riceveranno comunicazioni e-mail da Learning Manager.
 
 ## Configurazione delle impostazioni dell’account {#configureyouraccountsettings}
 
@@ -193,7 +193,7 @@ Gli amministratori possono configurare le impostazioni sul feedback globalmente.
 
 1. Nella pagina Home di Learning Manager, fai clic su **[!UICONTROL Impostazioni]**.
 1. Nel riquadro a sinistra, clicca su **[!UICONTROL Generale]**.
-1. Per configurare il feedback L1, fai clic sul pulsante **[!UICONTROL Feedback L1]** scheda. È possibile creare una domanda obbligatoria e diverse domande facoltative. Ecco le domande visualizzate dagli allievi nel modulo di feedback alla fine di un corso. Le domande sono formulate come affermazioni e agli allievi è richiesto di selezionare un numero da 1 a 5 per la risposta.
+1. Per configurare il feedback L1, fai clic sulla scheda **[!UICONTROL Feedback L1]**. È possibile creare una domanda obbligatoria e diverse domande facoltative. Ecco le domande visualizzate dagli allievi nel modulo di feedback alla fine di un corso. Le domande sono formulate come affermazioni e agli allievi è richiesto di selezionare un numero da 1 a 5 per la risposta.
 
    La prima parte del feedback L1 è una domanda obbligatoria relativa alla possibilità, per un Allievo, di consigliare questo corso a un amico o collega.
 
@@ -220,7 +220,7 @@ Gli amministratori possono configurare le impostazioni sul feedback globalmente.
    * **Frequenza**: specifica se desideri inviare il promemoria di feedback ogni giorno, ogni settimana o ogni base. Puoi anche definire il numero di settimane in cui vuoi che il promemoria venga inviato.
 
 1. Fai clic sul simbolo di spunta per salvare le impostazioni del promemoria.
-1. Dopo aver finalizzato tutte le impostazioni sul feedback, fai clic su **[!UICONTROL **Salva**]**nell’angolo in alto a destra della pagina.
+1. Dopo aver finalizzato tutte le impostazioni sul feedback, fai clic su **[!UICONTROL **Salva**]**nell&#39;angolo in alto a destra della pagina.
 
 ## Configura feedback L3: {#configurel3feedback}
 
@@ -239,19 +239,19 @@ La procedura precedente ha descritto i passaggi necessari per configurare le imp
 Per configurare le impostazioni sul feedback a livello di istanza:
 
 1. Nella pagina Home di Learning Manager fai clic su **[!UICONTROL Corsi]**.
-1. Passa con il mouse sul corso per cui vuoi configurare le impostazioni sul feedback. Fai clic [!UICONTROL **Visualizza corso**.]
+1. Passa con il mouse sul corso per cui vuoi configurare le impostazioni sul feedback. Fai clic su [!UICONTROL **Visualizza corso**.]
 
    ![](assets/configure-feedbackataninstancelevel.png)
 
-1. Nella pagina dei dettagli del corso, fai clic su **[!UICONTROL Valori predefiniti istanza]** nella sezione Configura.
-1. Nella [!UICONTROL **Lingua**] selezionare la lingua in cui si desidera visualizzare il questionario di feedback.
+1. Nella pagina dei dettagli del corso, fai clic su **[!UICONTROL Impostazioni predefinite istanza]** nella sezione Configura.
+1. Nell&#39;elenco a discesa [!UICONTROL **Lingua**], seleziona la lingua in cui desideri che il questionario di feedback venga visualizzato.
 1. Se vuoi richiedere il feedback agli allievi, abilita il Feedback reazione L1. In questa sezione è possibile aggiungere fino a due domande. Gli allievi possono fornire risposte di tipo descrittivo a queste domande.
 1. Spunta la casella **[!UICONTROL Rendi obbligatorio]** se vuoi rendere una o entrambe le domande obbligatorie.
 1. Seleziona **[!UICONTROL Mostra questionario immediatamente dopo il completamento del corso]** se vuoi che gli allievi vedano il questionario di feedback nel momento in cui completano il corso.
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. Per configurare il feedback modifica comportamento L3 a livello di istanza: ****[!UICONTROL Abilita]**** Feedback L3. L’applicazione mostra una domanda obbligatoria predefinita e una domanda vuota in cui puoi inserire una domanda personalizzata.
+1. Per configurare il feedback modifica comportamento L3 a livello di istanza, ****[!UICONTROL Abilitare]**** il feedback L3. L’applicazione mostra una domanda obbligatoria predefinita e una domanda vuota in cui puoi inserire una domanda personalizzata.
 1. Per la domanda predefinita sui miglioramenti dell’Allievo dopo il completamento del corso, la risposta è in formato Scala Likert. In altre parole, i manager devono scegliere un’opzione su una scala che va da Decisamente d’accordo a Molto in disaccordo.
 1. Specifica la seconda domanda per il manager. I manager possono fornire una risposta di tipo descrittivo a questa domanda.
 1. Spunta la casella ****[!UICONTROL Rendi obbligatorio]**** se vuoi che la seconda domanda sia obbligatoria.
@@ -259,9 +259,9 @@ Per configurare le impostazioni sul feedback a livello di istanza:
    ![](assets/configure-feedbackataninstancelevel-step11.png)
 
 1. È possibile configurare le impostazioni sui promemoria a livello di istanza. Se non configuri le impostazioni sui promemoria qui, verranno adottate automaticamente le impostazioni sui promemoria globali.
-1. Dopo aver finalizzato le domande sul feedback e le impostazioni sui promemoria, fai clic su **[!UICONTROL **Salva**]**per applicare le impostazioni.
+1. Dopo aver finalizzato le domande sul feedback e le impostazioni sui promemoria, fai clic su **[!UICONTROL **Salva**]**per applicare le modifiche.
 
-   ***Nota: le impostazioni sul feedback non si applicano alle certificazioni.***
+   ***Nota: le impostazioni sul feedback non sono applicabili alle certificazioni.***
 
 ## Configura impostazioni generali {#configuregeneralsettings}
 
@@ -291,7 +291,7 @@ Le impostazioni generali di Learning Manager consentono agli amministratori di c
 La Dashboard Allievo in Learning Manager consente agli allievi di visualizzare i corsi obbligatori e consigliati, i risultati raggiunti, le abilità e gli annunci. Gli amministratori possono decidere che aspetto avrà la Dashboard Allievo configurandone le impostazioni. Queste impostazioni consentono agli amministratori di impostare i widget nella pagina dell’Allievo. Impostano anche la posizione e l’aspetto del widget sulla Dashboard Allievo. In qualità di amministratore, puoi vedere in anteprima il layout della Dashboard Allievo prima di applicare le impostazioni.
 
 1. Nella pagina Home di Learning Manager, fai clic su **[!UICONTROL Impostazioni]**.
-1. Nel riquadro di navigazione sinistro fare clic su **[!UICONTROL ** Dashboard Allievo **.]**
+1. Nel riquadro di navigazione a sinistra, fai clic su **[!UICONTROL ** Dashboard Allievo **.]**
 1. Seleziona i widget che vuoi abilitare. Se deselezioni un widget, questo verrà rimosso immediatamente dall’anteprima. Gli allievi non potranno vedere il widget sulla dashboard.
 1. Fai clic su ****[!UICONTROL Salva]**** per applicare le impostazioni.
 

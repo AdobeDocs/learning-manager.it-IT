@@ -19,16 +19,16 @@ Puoi definire i distintivi per motivare gli utenti.
 
 Come amministratore, puoi creare i distintivi per gli Allievi nel modo seguente:
 
-1. Accedi come Amministratore e fai clic su **[!UICONTROL Distintivi]** nel riquadro sinistro. Viene visualizzato un elenco di distintivi per l’Allievo.
+1. Accedi come Amministratore e fai clic su **[!UICONTROL Distintivi]** nel riquadro a sinistra. Viene visualizzato un elenco di distintivi per l’Allievo.
 
    >[!NOTE]
    >
    >Per impostazione predefinita, è disponibile un elenco di alcuni distintivi di esempio.
 
-1. Fai clic **[!UICONTROL Aggiungi]** nell’angolo in alto a destra della pagina. Viene visualizzata la finestra di dialogo Aggiungi distintivo.
+1. Fai clic su **[!UICONTROL Aggiungi]** nell&#39;angolo superiore destro della pagina. Viene visualizzata la finestra di dialogo Aggiungi distintivo.
 
    ![](assets/add-badge1.png)
 
-   *Aggiungi un nome badge e la relativa immagine*
+   *Aggiungere un nome badge e la relativa immagine*
 
-1. Inserisci il nome del distintivo. Carica il badge facendo clic su **[!UICONTROL Carica distintivo]** e fai clic su **[!UICONTROL Salva]**.
+1. Inserisci il nome del distintivo. Carica il distintivo facendo clic su **[!UICONTROL Carica distintivo]** e fai clic su **[!UICONTROL Salva]**.

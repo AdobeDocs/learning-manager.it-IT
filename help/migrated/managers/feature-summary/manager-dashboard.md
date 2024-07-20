@@ -15,7 +15,7 @@ ht-degree: 49%
 
 Scopri come visualizzare e tenere traccia degli apprendimenti dal dashboard per i Manager.
 
-I manager svolgono un ruolo importante nelle iniziative di apprendimento di un team. Per aiutarlo al meglio, la piattaforma di apprendimento fornisce al Manager una vista dashboard per tenere traccia degli apprendimenti all’interno del proprio team.
+I Manager svolgono un ruolo importante nelle iniziative di apprendimento di un team. Per aiutarlo al meglio, la piattaforma di apprendimento fornisce al Manager una vista dashboard per tenere traccia degli apprendimenti all’interno del proprio team.
 
 ![](assets/dashboard-final.png)
 
@@ -31,7 +31,7 @@ Il Manager può visualizzare il riepilogo delle attività di apprendimento del s
 
 ![](assets/learning-summarydashboard.png)
 
-*Visualizzare le attività di apprendimento in un periodo di tempo perios*
+*Visualizza le attività di apprendimento in un periodo di tempo*
 
 ## Vista team {#teamview}
 
@@ -39,31 +39,31 @@ Nella vista team sono visualizzati i team, i relativi membri e le rispettive isc
 
 ![](assets/ls-team-view.png)
 
-*La vista Team mostra i team, i relativi membri e le rispettive iscrizioni*
+*Nella visualizzazione Team sono visualizzati i team, i relativi membri e le rispettive iscrizioni*
 
-Facendo clic sui nomi dei team, ad esempio il team di Venkatesh, è possibile visualizzare i membri del team di Venkatesh insieme al numero totale di iscrizioni, progressioni e completamenti per un oggetto di apprendimento.
+Facendo clic sui nomi dei team, ad esempio Team di Venkatesh, è possibile visualizzare i membri del team di Venkatesh insieme al numero totale di iscrizioni, progressi e completamenti per un oggetto di apprendimento.
 
 ![](assets/ls-click-team-names.png)
 
-*Seleziona un membro del team*
+*Selezionare un membro del team*
 
 Per visualizzare il riepilogo dell’apprendimento per ciascun membro del team, fai clic nella rispettiva colonna sul numero corrispondente al Manager del team. Si apre una tabella nella quale è riportato l’elenco degli oggetti di apprendimento con Data di iscrizione, Scadenza e Informazioni sull’avanzamento.
 
 ![](assets/ls-click-on-valuestogetlearningsofamember.png)
 
-*Seleziona un team manager*
+*Selezionare un team manager*
 
 Allo stesso modo, puoi visualizzare gli oggetti di apprendimento insieme al numero di iscrizioni, progressi o completamenti facendo clic sui valori riportati sotto le colonne corrispondenti.
 
 ![](assets/ls-on-clicking-valuesinteamviewforateam.png)
 
-*Visualizzazione dei corsi e del riepilogo di apprendimento*
+*Visualizza corsi e riepilogo apprendimento*
 
-Facendo clic ulteriormente sul numero di iscrizioni, progressioni o completamenti per ogni apprendimento, puoi visualizzare i seguenti dettagli: persone, data di iscrizione/completamento, data di scadenza e progressi fatti.
+Facendo ulteriormente clic sul numero di iscrizioni, progressi o completamenti per ciascun apprendimento, è possibile visualizzare i seguenti dettagli: persone, data di iscrizione/completamento, data di scadenza e progressi compiuti.
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
-*Visualizzare la data di iscrizione/completamento, la data di scadenza e lo stato di avanzamento*
+*Visualizza la data di iscrizione/completamento, la data di scadenza e lo stato di avanzamento*
 
 ## Vista apprendimenti {#learningsview}
 
@@ -75,7 +75,7 @@ Per visualizzare dettagli quali persone, date di iscrizione, date di scadenza e 
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
-*Visualizzazione Apprendimento*
+*Visualizzazione Allievi*
 
 ## Esportazione di report {#exportreport}
 
@@ -83,59 +83,59 @@ Per generare un report Excel, selezionare **[!UICONTROL Azioni] > [!UICONTROL Re
 
 ## Stato di conformità {#compliancestatus}
 
-Nel dashboard di conformità, i manager possono visualizzare lo stato di conformità generale del team per gli apprendimenti configurati in categorie specifiche (ad esempio, vendite, marketing e legale). Gli amministratori possono creare un dashboard con corsi di conformità, percorsi di apprendimento o certificazioni e condividerlo con i Manager. I Manager possono visualizzare il dashboard condiviso dall&#39;amministratore nelle loro istanze.
+Nel dashboard di conformità, i Manager possono visualizzare lo stato di conformità complessivo del team per gli apprendimenti configurati in categorie specifiche (ad esempio, vendite, marketing e legale). Gli amministratori possono creare un dashboard con corsi di conformità, percorsi di apprendimento o certificazioni e condividerlo con i Manager. I manager possono visualizzare il dashboard condiviso dall’amministratore nelle loro istanze.
 
-### Visualizza il dashboard
+### Visualizzare il dashboard
 
-Per visualizzare il dashboard, seleziona **[!UICONTROL Dashboard]** di conformità dall&#39;app manager.
+Per visualizzare il dashboard, seleziona **[!UICONTROL dashboard di conformità]** dall’app di gestione.
 
 ![](assets/compliance-dashboard-manager.png)
 _App per la gestione del dashboard di conformità_
 
 Il dashboard di conformità include i seguenti stati di conformità:
 
-* **[!UICONTROL Allievi non conformi]**: mostra il numero di Allievi che non hanno rispettato le scadenze.
-* **[!UICONTROL Allievi che si avvicinano alle]** scadenze: mostra il numero di Allievi con scadenze inferiori a 30 giorni.
-* **[!UICONTROL Allievi con scadenze]** sicure: mostra il numero di Allievi con scadenze più lontane (più di 30 giorni).
-* **[!UICONTROL Allievi]** completamente conformi: mostra il numero di Allievi completamente conformi.
+* **[!UICONTROL Allievi non conformi]**: mostra il numero di allievi che non hanno rispettato le scadenze.
+* **[!UICONTROL Allievi in prossimità di scadenze]**: mostra il numero di Allievi con scadenze in meno di 30 giorni.
+* **[!UICONTROL Allievi con scadenze sicure]**: mostra il numero di Allievi con scadenze più lontane (più di 30 giorni).
+* **[!UICONTROL Allievi completamente conformi]**: mostra il numero di Allievi completamente conformi.
 * **[!UICONTROL Allievi non iscritti da nessuna parte]**: mostra il numero di Allievi non iscritti a corsi, percorsi di apprendimento o certificazioni.
 
 ### Responsabili e-mail e Allievi
 
 **Gestione di più team**
 
-Se gestisci più team, puoi informare i tuoi manager sullo stato di apprendimento dei membri del team selezionando l&#39;opzione **[!UICONTROL Email Manager]** disponibile nella **[!UICONTROL sezione Vista]** team.
+Se gestisci più team, puoi comunicare ai tuoi manager lo stato di apprendimento dei membri del team selezionando l&#39;opzione **[!UICONTROL Responsabili e-mail]** disponibile nella sezione **[!UICONTROL Visualizzazione team]**.
 
 ![](assets/email-managers.png)
-_Gestori di posta elettronica_
+_Responsabili della posta elettronica_
 
-Email **[!UICONTROL Manager]** offre le seguenti opzioni:
+**[!UICONTROL Email Manager]** offre le seguenti opzioni:
 
-* **[!UICONTROL Invia e-mail ai Manager degli Allievi non conformi]**: avvisa i Manager i cui membri del team non hanno rispettato le scadenze.
-* **[!UICONTROL Invia e-mail ai responsabili degli Allievi che si avvicinano alle scadenze]**: avvisa i manager i cui membri del team hanno scadenze imminenti.
+* **[!UICONTROL Responsabili e-mail di Allievi non conformi]**: invia una notifica ai Manager i cui membri del team hanno mancato le scadenze.
+* **[!UICONTROL Responsabili e-mail degli Allievi che si avvicinano alle scadenze]**: invia una notifica ai Manager i cui membri del team hanno scadenze imminenti.
 
 **Gestione di un singolo team**
 
-Se gestisci un singolo team, puoi notificare agli Allievi il loro stato di apprendimento selezionando l&#39;opzione **[!UICONTROL E-mail agli]** Allievi disponibile nella **[!UICONTROL sezione Vista]** team.
+Se gestisci un singolo team, puoi informare gli Allievi dello stato di apprendimento selezionando l’opzione **[!UICONTROL Invia e-mail agli Allievi]** disponibile nella sezione **[!UICONTROL Visualizzazione team]**.
 
 ![](assets/email-learners.png)
 _Invia e-mail agli Allievi_
 
-L&#39;opzione **[!UICONTROL Invia e-mail agli Allievi]** offre le seguenti opzioni:
+L’opzione **[!UICONTROL Invia e-mail agli Allievi]** offre le seguenti opzioni:
 
-* **[!UICONTROL Invia e-mail agli Allievi]** non conformi: notifica agli Allievi che non rispettano le scadenze.
-* **[!UICONTROL Invia e-mail agli Allievi che si avvicinano alle scadenze]**: segnala agli Allievi le scadenze imminenti.
+* **[!UICONTROL Invia un’e-mail agli Allievi non conformi]**: invia una notifica agli Allievi che non hanno rispettato le scadenze.
+* **[!UICONTROL Invia un messaggio e-mail agli Allievi che si avvicinano alle scadenze]**: invia una notifica agli Allievi con scadenze imminenti.
 
 ### Scarica report
 
-Per scaricare il report, procedi nel seguente modo:
+Per scaricare il report, effettua le seguenti operazioni:
 
-1. Nell&#39;app per manager, passa al dashboard ]**di**[!UICONTROL  conformità > **[!UICONTROL alla vista]** Team.
+1. Nell’app per manager, accedi a **[!UICONTROL Dashboard di conformità]** > **[!UICONTROL Visualizzazione team]**.
 1. Seleziona **[!UICONTROL Scarica report]** per salvare il dashboard come report.
-Ciò ti consente di monitorare i progressi complessivi di apprendimento del tuo team.
+Ciò ti consente di monitorare l&#39;avanzamento complessivo dell&#39;apprendimento del tuo team.
 
 ![](assets/download-report.png)
-_Scarica i report_
+_Download dei report_
 
 <!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
@@ -199,26 +199,26 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ## Abilità del team {#teamskills}
 
-I Manager possono visualizzare il grafico di completamento delle abilità e configurare una previsione di completamento delle abilità a diversi livelli. L&#39;elenco a discesa delle abilità include cinque abilità. Il manager conosce le competenze acquisite dai membri del team e identifica un forte talento in determinate abilità.
+I Manager possono visualizzare il grafico di completamento delle abilità e configurare una previsione di completamento delle abilità a diversi livelli. L’elenco a discesa delle abilità include cinque abilità. Il manager conosce le competenze acquisite dai membri del team e identifica i forti talenti in determinate abilità.
 
-I manager possono anche guidare determinate abilità in un team impostando un obiettivo e prevedendo il tempo necessario per ottenere un&#39;abilità per una percentuale specifica di un team all&#39;interno di una sequenza temporale.
+I manager possono anche guidare determinate abilità in un team impostando un obiettivo e prevedendo quanto tempo occorrerebbe per raggiungere un’abilità per una percentuale specifica di un team entro una tempistica.
 
 Questa previsione si basa su calcoli di sistema che forniscono una prospettiva futura in merito allo sviluppo di quella specifica abilità.
 
 ![](assets/ts-dashboard-02.png)
 
-*Visualizza le previsioni sulle abilità*
+*Visualizza previsione abilità*
 
-Per visualizzare lo stato delle abilità di un team, effettua i passaggi riportati di seguito:
+Per visualizzare lo stato delle abilità di un team, segui i passaggi seguenti:
 
-1. Fai clic su **[!UICONTROL Abilità]** del team nel riquadro a sinistra della sezione Visualizzazione team.
+1. Fai clic su **[!UICONTROL Abilità team]** dal riquadro a sinistra nella sezione Visualizzazione team personale.
 1. Per visualizzare le abilità mostrate, fai clic sul filtro Abilità e selezionane una dall’elenco a discesa.
 1. Per selezionare un livello (Livello 1, Livello 2 o Livello 3), fai clic sul menu a discesa del livello.
 1. In base all’abilità e al livello selezionato, viene visualizzato un grafico con lo stato dell’abilità. Passando il mouse sul grafico, è possibile visualizzare le seguenti percentuali relative allo stato dell’abilità: **Acquisizione in corso** e **Acquisita**.
 
    ![](assets/first-graph.png)
 
-   *Visualizzare la percentuale dello stato dell&#39;abilità*
+   *Visualizza percentuale dello stato delle abilità*
 
 ## Come prevedere la % di completamento di un’abilità da parte del team {#howtoforecasttheteamcompletionforaskill}
 
@@ -230,17 +230,17 @@ Per prevedere la % di completamento di un’abilità da parte del team, procedi 
 
    *Selezionare il collegamento ipertestuale Configura*
 
-1. Dalla finestra a comparsa di configurazione, per l&#39;abilità che desideri configurare, inserisci un valore percentuale nel **campo % di completamento** di destinazione e la data entro la quale desideri raggiungere la percentuale di completamento target nel **campo Data di destinazione** .****
+1. Dalla finestra di dialogo di configurazione a comparsa, inserisci un valore percentuale per l’abilità che desideri configurare nel campo **% di completamento prevista** e la data entro la quale desideri venga raggiunta la % di completamento stabilita nel campo **Data stabilita**.****
 
    ![](assets/configure-tracker.png)
 
-   *Immettere la percentuale di completamento target*
+   *Immettere la percentuale di completamento prevista*
 
-1. Per visualizzare l’output relativo alla previsione, fai clic sul pulsante **Stima**. L&#39;output è simile alla schermata sottostante.
+1. Per visualizzare l’output relativo alla previsione, fai clic sul pulsante **Stima**. L’output è simile a quello riportato nella schermata seguente.
 
    ![](assets/skill-tracker-output.png)
 
-   *Visualizza l&#39;output di skill tracxker*
+   *Visualizza output di skill tracxker*
 
 ## Previsione del completamento del livello di abilità {#skilllevelcompletionforecast}
 
@@ -252,19 +252,19 @@ Sulla linea continua, il primo punto visualizza la data della prima iscrizione p
 
 ![](assets/1-dotted-line.png)
 
-*Visualizzare la prima iscrizione per un livello di abilità*
+*Visualizza prima iscrizione per un livello di abilità*
 
 Il secondo punto mostra la data e il livello % di completamento dell’abilità da parte del team correnti.
 
 ![](assets/2-solid-line.png)
 
-*Visualizzare la data corrente e il livello % di completamento del team dell&#39;abilità*
+*Visualizza la data corrente e il livello di % di completamento del team dell&#39;abilità*
 
 Il terzo punto sulla linea mostra la percentuale di completamento prevista e la data di completamento stimata.
 
 ![](assets/3-solid-line.png)
 
-*Visualizzare la percentuale di completamento prevista e la data di completamento prevista*
+*Visualizza la % prevista di completamento della destinazione e la data prevista di completamento*
 
 ## Linea della previsione {#forecastline}
 
@@ -274,37 +274,37 @@ Il primo punto sulla linea tratteggiata rappresenta la % di completamento e la %
 
 ![](assets/1-dotted-line.png)
 
-*Visualizza la % di completamento del team e la percentuale di completamento del team prevista per un&#39;abilità*
+*Visualizza la % di completamento team e la % di completamento team prevista per un&#39;abilità*
 
 Il secondo punto visualizza la data in cui è stata raggiunta la % di completamento prevista di un’abilità da parte del team.
 
 ![](assets/2-dotted-line.png)
 
-*Visualizza la data in cui è stata raggiunta la percentuale di completamento team prevista per un&#39;abilità*
+*Visualizza la data in cui è stata raggiunta la % di completamento del team previsto per un&#39;abilità*
 
 Il terzo punto sulla linea relativa alla previsione mostra la % di completamento raggiunta alla data stabilita specificata nello strumento di tracciamento delle abilità.
 
 ![](assets/3-dotted-line.png)
 
-*Visualizza la percentuale di completamento del team raggiunta alla data target fornita nello skill tracker*
+*Visualizza la % di completamento del team raggiunta alla data di destinazione specificata nel tracciatore delle abilità*
 
 Sotto il grafico, viene visualizzata una tabella con la vista del team e il numero di abilità a cui è stata effettuata l’iscrizione, che sono state acquisite o sono in corso di acquisizione. Se per un apprendimento è stata specificata una data di completamento, viene visualizzata anche la data di completamento prevista.
 
 ![](assets/ts-details.png)
 
-*Tabella con la vista del team e il numero di competenze iscritte, raggiunte e in corso*
+*Tabella con visualizzazione del team e numero di abilità registrate, acquisite e in corso*
 
 Facendo clic sul nome del team, viene visualizzato l’elenco dei membri che si sono iscritti all’abilità, lo stato dell’abilità e la data di completamento.
 
 ![](assets/ts-click-the-teamnames.png)
 
-*Visualizza l&#39;elenco dei membri*
+*Visualizza elenco di membri*
 
-Facendo clic sul team, puoi visualizzare i membri in esso contenuti e i dettagli corrispondenti per l&#39;abilità selezionata, ad esempio se iscritta, lo stato (se in corso o raggiunto) e la data di completamento, se impostata.
+Facendo clic sul team, puoi visualizzare i membri in esso contenuti e i dettagli corrispondenti per l’abilità selezionata, ad esempio l’eventuale iscrizione, lo stato (se in corso di acquisizione o acquisita) e la data di completamento, se impostata.
 
 ![](assets/on-clicking-the-teamnames.png)
 
-*Visualizzare le abilità dei membri*
+*Visualizza abilità degli iscritti*
 
 Selezionando i valori relativi a un team nelle colonne Iscrizione, Acquisita e In corso di acquisizione, è possibile visualizzare il numero di utenti che si sono iscritti all’abilità. È anche possibile visualizzare la data in cui l’utente si è iscritto all’abilità, lo stato e la data di completamento, se l’abilità è stata completata dall’utente.
 
@@ -312,7 +312,7 @@ Selezionando i valori relativi a un team nelle colonne Iscrizione, Acquisita e I
 
 ## Esportazione di report {#Exportreport-1}
 
-* Fare clic su **[!UICONTROL Azioni]** > **[!UICONTROL Esporta]** per esportare i dati come file Excel.
+* Fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Esporta]** per esportare i dati come file Excel.
 
 ![](assets/export-report.png)
 

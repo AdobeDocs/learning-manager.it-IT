@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Guida introduttiva come Autore
-description: Utilizza la pagina introduttiva per sfogliare le funzionalità di authoring chiave dell’Adobe di Learning Manager.
+description: Utilizza la pagina della guida introduttiva per sfogliare le funzionalità principali di Adobe Learning Manager.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 9f6d4307-91c5-4c80-8e6d-aebfa6d4feaa
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 54%
 
 ---
-
-
 
 # Guida introduttiva come Autore
 
@@ -36,4 +35,3 @@ Dalla pagina iniziale, puoi eseguire le seguenti attività:
 Puoi inoltre ottenere ulteriori informazioni sull’applicazione Learning Manager scegliendo di visualizzare video di esercitazione, contenuti della guida e informazioni sui diversi ruoli.
 
 <!--![](assets/author-experienceprime.png)-->
-

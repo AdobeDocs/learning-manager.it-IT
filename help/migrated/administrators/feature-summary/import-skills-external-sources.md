@@ -19,9 +19,9 @@ Importa le abilità dai provider di contenuti, come LinkedIn e Go1, utilizzando 
 
 Segui i passaggi nella procedura per abilitare l’importazione di abilità nell’account.
 
-1. Nell’app di amministrazione, seleziona **Impostazioni** nel riquadro sinistro.
-1. Seleziona **Generale**.
-1. Nella **Importazione di abilità** , seleziona **Abilita**. Se questa opzione è attivata, puoi scegliere un’origine esterna per l’importazione delle abilità. Una volta abilitata, per tutte le successive importazioni di risorse di apprendimento, le abilità verranno importate nel repository delle abilità per i nuovi elementi importati. Le abilità per le risorse di apprendimento esistenti possono essere importate nel repository delle abilità una sola volta e per eseguire questa esecuzione iniziale, contatta il CSM.
+1. Nell&#39;app di amministrazione, seleziona **Impostazioni** nel riquadro a sinistra.
+1. Selezionare **Generale**.
+1. Nella sezione **Importazione delle abilità**, seleziona **Abilita**. Se questa opzione è attivata, puoi scegliere un’origine esterna per l’importazione delle abilità. Una volta abilitata, per tutte le successive importazioni di risorse di apprendimento, le abilità verranno importate nel repository delle abilità per i nuovi elementi importati. Le abilità per le risorse di apprendimento esistenti possono essere importate nel repository delle abilità una sola volta e per eseguire questa esecuzione iniziale, contatta il CSM.
 1. Seleziona un provider di contenuti dal menu a discesa.
 
 In qualità di Amministratore, puoi importare le abilità solo da una fonte di abilità.
@@ -38,11 +38,11 @@ Dopo aver importato le abilità, queste vengono aggiunte alle risorse di apprend
 
 #### Report
 
-Colonna **Sorgente** con valori: Interno, LinkedIn Learning, Go1, che indica l’origine dell’importazione delle abilità.
+Colonna **Origine** con valori: Interno, LinkedIn Learning, Go1, che indica l’origine dell’importazione delle abilità.
 
 Le abilità aggiunte di recente saranno al primo posto.
 
-Nella pagina delle impostazioni del corso, la colonna **Assegnato da** contenente valori, Interno e Provider di contenuti.
+Nella pagina delle impostazioni del corso, la colonna **Assegnato da** contiene valori, Interno e Provider di contenuti.
 
 
 ## Flusso di lavoro Amministratore dell’integrazione
@@ -53,9 +53,9 @@ L’Amministratore dell’integrazione carica i CSV (abilità, livello di abilit
 
 In qualità di Amministratore,
 
-1. Seleziona **Abilità** nel riquadro sinistro.
+1. Seleziona **Abilità** nel riquadro a sinistra.
 1. Seleziona la fonte per qualsiasi abilità. Puoi visualizzare corsi, risorse formative, Allievi iscritti e Istruttori del corso.
 
 ### Modifica di un’abilità
 
-Seleziona un’abilità. Nella **Modificare un’abilità** pop-up, non è possibile modificare il nome e la descrizione dell’abilità. Tuttavia, puoi aggiungere domini di abilità e un distintivo per l’abilità.
+Seleziona un’abilità. Nella finestra a comparsa **Modifica un’abilità**, non è possibile modificare il nome e la descrizione dell’abilità. Tuttavia, puoi aggiungere domini di abilità e un distintivo per l’abilità.

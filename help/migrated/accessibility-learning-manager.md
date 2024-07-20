@@ -157,21 +157,21 @@ Per ulteriori informazioni, consulta:
 
 Vediamo in che modo le funzioni di accessibilità ti aiutano a esplorare alcune funzionalità chiave per gli Allievi in Learning Manager.
 
-Utilizzare la `kbd Tab`per spostarsi tra gli elementi della pagina. Utilizzare la `kbd Shift + Tab` per invertire la direzione di navigazione. L&#39;elemento attivato dalla tastiera è indicato da un contorno blu che lo circonda. Un assistente vocale legge il testo dell&#39;elemento attivo.
+Utilizzare il tasto `kbd Tab` per spostarsi tra gli elementi della pagina. Utilizza il tasto `kbd Shift + Tab` per invertire la direzione di navigazione. L&#39;elemento attivato dalla tastiera è indicato da un contorno blu che lo circonda. Un assistente vocale legge il testo dell&#39;elemento attivo.
 
 ## Ricerca di un corso di formazione in Learning Manager {#searchforatrainingincaptivateprime}
 
 1. Utilizza questi suggerimenti per navigare e raggiungere la casella di ricerca nell&#39;angolo superiore destro della home page.
 1. Digita il testo mediante la tastiera. Verranno visualizzati i risultati della ricerca.
-1. Utilizzare la tastiera `kbd Up/Down` frecce per navigare nei risultati o premere `kbd ENTER`per visualizzare tutti i risultati.
+1. Utilizza le frecce della tastiera `kbd Up/Down` per navigare nei risultati o premi `kbd ENTER` per visualizzare tutti i risultati.
 
-1. Una volta identificato il corso di formazione, seleziona `kbd ENTER`per accedere alla pagina del corso di formazione.
+1. Una volta identificato il corso di formazione, premi `kbd ENTER`per accedere alla pagina del corso di formazione.
 
 ## Seguire un corso di formazione in Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. Una volta identificato un corso di formazione, utilizzare `kbd Tab`oppure `kbd Shift + Tab` per passare al pulsante Iscrizione/Avvia. Lo stato del pulsante dipende dallo stato di iscrizione a quel corso di formazione.
+1. Una volta identificato un corso di formazione, utilizza `kbd Tab` o `kbd Shift + Tab` per accedere al pulsante Iscrizione/Avvia. Lo stato del pulsante dipende dallo stato di iscrizione a quel corso di formazione.
 
-1. Hit `kbd ENTER`per iniziare il corso di formazione.
+1. Premi `kbd ENTER` per iniziare il corso di formazione.
 1. Di seguito sono riportati i controlli che vengono visualizzati indipendentemente dal tipo di contenuto:
 
    * Sommario
@@ -188,9 +188,9 @@ Utilizzare la `kbd Tab`per spostarsi tra gli elementi della pagina. Utilizzare l
    * Contenuto DOCUMENTO: numero pagina, Pag su, Pag giù, Zoom avanti, Zoom indietro.
    * eLEARNING: pulsante Sottotitoli codificati.
 
-1. Premi i controlli della tastiera `kbd Tab`oppure `kbd Shift + Tab` per navigare tra i controlli e premere `kbd ENTER`per attivare/disattivare qualsiasi controllo.
+1. Premi i controlli da tastiera `kbd Tab` o `kbd Shift + Tab` per navigare tra i controlli e premi `kbd ENTER` per abilitare/disabilitare qualsiasi controllo.
 
-1. Per il tipo di DOCUMENTO, usa i controlli freccia come `kbd UP/DOWN` per scorrere il documento.
+1. Per il tipo DOCUMENT, utilizza i controlli freccia come `kbd UP/DOWN` per scorrere il documento.
 
 ## Supporto dell’accessibilità per esigenze specifiche
 
@@ -200,7 +200,7 @@ Diamo un’occhiata alle funzionalità di accessibilità che gli Allievi possono
 
 * Uso dei sottotitoli codificati disponibili nei contenuti creati con lo strumento di authoring Adobe Captivate.
 * Per i video, gli autori possono codificare i video con testo di sottotitoli codificati. Tali video contengono sottotitoli codificati incorporati e possono essere utilizzati dagli Allievi.
-* Learning Manager supporta la possibilità di caricare file WebVTT per sottotitoli codificati per il contenuto video. Per ulteriori informazioni, consulta  [*Carica file WebVTT per sottotitoli codificati*](/help/migrated/authors/feature-summary/content-library.md).
+* Learning Manager supporta la possibilità di caricare file WebVTT per sottotitoli codificati per il contenuto video. Per ulteriori informazioni, vedere [*Caricare file WebVTT per i sottotitoli codificati*](/help/migrated/authors/feature-summary/content-library.md).
 
 ### Utenti non vedenti o con visione ridotta
 

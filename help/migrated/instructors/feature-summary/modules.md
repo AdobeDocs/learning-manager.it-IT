@@ -3,14 +3,13 @@ description: Leggi questo articolo per scoprire come gestire i moduli come Istru
 jcr-language: en_us
 title: Moduli
 contentowner: shhivkum
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 63%
 
 ---
-
-
 
 # Moduli
 
@@ -42,7 +41,7 @@ Leggi questo articolo per scoprire come gestire i moduli come Istruttore in Lear
    * Nel campo Consenti invii, seleziona Sì per consentire agli Allievi di inviare assegnazioni. Se selezioni No, gli Allievi non potranno caricare gli invii delle assegnazioni per la sessione.
 
    ![](assets/editsessiondetails.png)
-   *Modificare i dettagli della sessione*
+   *Modifica dettagli sessione*
 
 1. Fai clic su Salva.
 
@@ -59,7 +58,7 @@ Come Istruttore, puoi caricare file di risorse quali file di assegnazione o pres
 1. Fai clic su Aggiungi.
 
    ![](assets/addresource.png)
-   *Aggiungi una risorsa per la sessione*
+   *Aggiungere una risorsa per la sessione*
 
 1. Individua il file appropriato sul computer in uso. Seleziona il file e fai clic su Apri.
 1. Una volta caricato, il file viene visualizzato insieme alla data in cui è stato aggiunto.
@@ -70,23 +69,23 @@ Come Istruttore, puoi caricare file di risorse quali file di assegnazione o pres
 
 ## Invio di file per moduli di attività {#filesubmissionforactivitymodules}
 
-Il modulo di attività supporta il flusso di lavoro di invio dei file. In qualità di Autore, crea un modulo attività e seleziona  **[!UICONTROL Invio di file]** opzione. Ciò consente agli Allievi di inviare file.
+Il modulo di attività supporta il flusso di lavoro di invio dei file. Come Autore, crea un modulo di attività e seleziona l&#39;opzione **[!UICONTROL Invio file]**. Ciò consente agli Allievi di inviare file.
 
 Tali file possono essere approvati o rifiutati dagli Istruttori del modulo. Il modulo viene completato solo dopo l’approvazione dell’invio da parte dell’Istruttore.
 
 ![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
-*Approva o rifiuta i file*
+*Approvare o rifiutare i file*
 
 ## Valutazione del modulo dell’elenco di controllo {#evaluate-checklist-module}
 
-Dopo che l’Allievo segue il corso, l’Istruttore vede il modulo dell’elenco di controllo nella pagina Invii/Elenchi di controllo in **Moduli** sezione. Questa pagina contiene tutti i moduli di elenco di controllo delle attività e i moduli di invio delle attività per cui sono necessarie le revisioni. Per ogni modulo, il numero di allievi è visualizzato per quelli che devono essere sottoposti a valutazione.
+Dopo che l’Allievo segue il corso, l’Istruttore vede il modulo dell’elenco di controllo nella pagina Invii/Elenchi di controllo nella sezione **Moduli**. Questa pagina contiene tutti i moduli di elenco di controllo delle attività e i moduli di invio delle attività per cui sono necessarie le revisioni. Per ogni modulo, il numero di allievi è visualizzato per quelli che devono essere sottoposti a valutazione.
 
-Nella pagina seguente, puoi visualizzare i moduli di tipo **Invio** e **Checklist**. Per questo esempio, useremo il modulo Elenco di controllo.
+Nella pagina seguente, puoi visualizzare i moduli di tipo **Invio** e **Elenco di controllo**. Per questo esempio, useremo il modulo Elenco di controllo.
 
 ![](assets/modules-list.png)
-*Visualizzare l’elenco dei moduli*
+*Visualizza elenco di moduli*
 
-Fare clic sul modulo Elenco di controllo. Nella **Checklist** pagina, viene visualizzato quanto segue:
+Fare clic sul modulo Elenco di controllo. Nella pagina **Elenco di controllo** viene visualizzato quanto segue:
 
 * Il nome del modulo
 * Il nome del corso
@@ -95,9 +94,9 @@ Fare clic sul modulo Elenco di controllo. Nella **Checklist** pagina, viene visu
 * Il numero di domande dell’elenco di controllo
 
 ![](assets/checklist-page.png)
-*Visualizzare la pagina dell’elenco di controllo*
+*Visualizzare la pagina dell&#39;elenco di controllo*
 
-Per valutare un Allievo, fai clic su **[!UICONTROL Valutare]** nella **[!UICONTROL Checklist]** colonna. Puoi anche vedere che lo stato della revisione è **In sospeso**.
+Per valutare un Allievo, fai clic su **[!UICONTROL Valuta]** nella colonna **[!UICONTROL Elenco di controllo]**. Puoi anche vedere che lo stato della revisione è **In sospeso**.
 
 Valuta l’Allievo e fai clic su **[!UICONTROL Invia]**. Come istruttore, devi rispondere a tutte le domande di valutazione.
 
@@ -112,7 +111,7 @@ Un istruttore può anche visualizzare le risposte inviate da altri istruttori de
 
 Puoi esportare gli Allievi come file CSV in base al filtro di ricerca applicato.
 
-Dopo che l’istruttore ha valutato il corso utilizzando l’elenco di controllo, l’Allievo vede lo stato del modulo come **Superata** e stato del corso come **Completato** oppure lo stato del modulo come **Non riuscito** e stato del corso come **Completato**.
+Dopo che l’istruttore ha valutato il corso utilizzando l’elenco di controllo, l’Allievo rileva lo stato del modulo come **Superato** e lo stato del corso come **Completato** oppure lo stato del modulo come **Non riuscito** e lo stato del corso come **Completato**.
 
 ## Commenti dell’istruttore per il rifiuto di un’attività {#rejection-comments}
 
@@ -132,12 +131,12 @@ Flusso di lavoro:
    ![](assets/enter-comments.png)
    *Immettere i commenti di completamento*
 
-1. L’istruttore può fare clic su **Rifiuta**. Lo stato dell&#39;inoltro cambia in **Contrassegnato per il rifiuto**.
+1. L&#39;istruttore può fare clic su **Rifiuta**. Lo stato dell&#39;invio cambia in **Contrassegnato per il rifiuto**.
 
    ![](assets/marked-for-rejection.png)
    *Rifiutare un inoltro*
 
-1. Dopo l’invio, lo stato diventa **Rifiutato**.
+1. Dopo l&#39;invio, lo stato diventa **Rifiutato**.
 
    ![](assets/rejected-status.png)
    *Visualizza stato rifiuto*
@@ -145,9 +144,9 @@ Flusso di lavoro:
 1. L’Allievo ora riceve una notifica in cui comunica che la sua domanda è stata rifiutata. I commenti dell’istruttore appaiono anche nella notifica.
 
    ![](assets/notification-of-rejection.png)
-   *Ricevi notifica rifiuto*
+   *Ricezione notifica rifiuto*
 
-Per tenere conto delle modifiche, l’Adobe ha aggiornato il modello e-mail per **Invio rifiutato**.
+Per tenere conto delle modifiche, l&#39;Adobe ha aggiornato il modello e-mail per **Invio rifiutato**.
 
 ## Aggiunta di punteggi e commenti per i moduli di attività {#addscoresandcommentsforactivitymodules}
 
@@ -156,12 +155,12 @@ Per aggiungere punteggi e commenti ai moduli di attività inviati, procedi come 
 1. Nel riquadro a sinistra, fai clic **[!UICONTROL su Allievi]**.
 
    ![](assets/learners.png)
-   *Seleziona un Allievo*
+   *Selezionare un Allievo*
 
 1. Nella pagina Allievi, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Modifica punteggi e commenti]**.
 
    ![](assets/edit-scores-comments.png)
-   *Aggiungere commenti*
+   *Aggiungi commenti*
 
    Per gli Allievi che non hanno completato il corso, i campi di immissione del punteggio e dei commenti non verranno visualizzati.
 

@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Annunci
 description: Un annuncio è un messaggio multimediale (testo, immagine o video) che un Amministratore trasmette a un insieme di utenti definito.
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 61%
 
 ---
-
-
 
 # Annunci
 
@@ -38,4 +37,3 @@ Un annuncio di esempio è visualizzato di seguito come riferimento.
 ![](assets/announcement-details.png)
 
 *Visualizzare i dettagli di un annuncio*
-

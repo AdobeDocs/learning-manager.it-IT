@@ -27,11 +27,11 @@ Puoi sostituire qualsiasi client FTP open source con l’FTP di Adobe Manager.
 È necessario configurare il nuovo connettore FTP basato su AWS nell’Amministratore dell’integrazione.
 
 ![immagine connettori](assets/alm-ftp.png)
-*Seleziona l’opzione FTP*
+*Selezionare l&#39;opzione FTP*
 
 Una volta effettuata la connessione, viene visualizzata la pagina Dettagli connessione.
 
-![pagina dettagli connessione](assets/connection-name.png)
+![pagina dei dettagli della connessione](assets/connection-name.png)
 *Visualizza la pagina dei dettagli della connessione*
 
 Sono disponibili tre opzioni di autenticazione:
@@ -46,14 +46,14 @@ Hai creato una connessione FTP.
 
 ### Crea l’autenticazione utilizzando chiavi SSH esistenti
 
-Se disponi già di una chiave SSH, incolla la chiave pubblica nel **[!UICONTROL Chiave pubblica FTP]** e quindi fare clic su Connetti.
+Se si dispone già di una chiave SSH, incollare la chiave pubblica nel campo **[!UICONTROL Chiave pubblica FTP]**, quindi fare clic su Connetti.
 
-![Tasti SSH](assets/ssh-keys.png)
-*Incollare i tasti*
+![Chiavi SSH](assets/ssh-keys.png)
+*Incollare le chiavi*
 
 ### Crea un’autenticazione di base utilizzando una password
 
-Questo è il meccanismo di autenticazione di base. Selezionate la prima opzione, **[!UICONTROL Creare l’autenticazione di base utilizzando una password]**. Immettere la password e fare clic su **[!UICONTROL Connetti]**.
+Questo è il meccanismo di autenticazione di base. Selezionare la prima opzione **[!UICONTROL Crea autenticazione di base utilizzando una password]**. Immetti la password, quindi fai clic su **[!UICONTROL Connetti]**.
 
 Hai creato una connessione.
 
@@ -66,7 +66,7 @@ Configura la connessione su un client FTP (consigliato nella sezione precedente)
 ### Esportazione di test di esempio
 
 * Nel client FTP, modifica la posizione dell’FTP ExaVault nel nuovo percorso FTP. Il nuovo dominio è `http://almftp.adobelearningmanager.com/`.
-* È inoltre necessario autorizzare l&#39;IP, `18.195.107.67`.
+* È inoltre necessario autorizzare l&#39;IP `18.195.107.67`.
 * Dopo l’autenticazione, carica e scarica alcuni file di esempio nella e dalla nuova posizione FTP utilizzando client FTP esterni o script di automazione.
 * Trasferisci i dati dalla posizione precedente a quella nuova.
 * Il criterio di conservazione dei dati per il connettore rimane lo stesso. ExaVault ha inoltre supportato alcuni criteri di conservazione dei dati oltre a quelli ufficiali. Tali criteri di conservazione dei dati non saranno disponibili per il nuovo connettore. Verifica se il connettore utilizza eventuali altri tipi di conservazione dei dati oltre ai criteri ufficialmente supportati.
@@ -84,7 +84,7 @@ Configura la connessione su un client FTP (consigliato nella sezione precedente)
 1. Connettiti al nuovo connettore FTP ALM. Fai clic su Connetti.
 
    ![connetti immagine](assets/connect-client.png)
-   *Collegamento al nuovo connettore FTP ALM*
+   *Connessione al nuovo connettore FTP ALM*
 
 1. Per connetterti tramite autenticazione di base con password, immetti il nome di dominio, il nome utente FTP e imposta la password che soddisfa i criteri di convalida della password. Fai clic su Connetti. La nuova connessione FTP verrà creata e sarà accessibile tramite qualsiasi client SFTP.
 
@@ -94,7 +94,7 @@ Configura la connessione su un client FTP (consigliato nella sezione precedente)
 1. Installa qualsiasi client SFTP, ad esempio FileZilla. Avvia File Zilla e fai clic su Apri Gestione siti nell&#39;angolo in alto a sinistra.
 
    ![Client SFTP](assets/sftp-client-install.png)
-   *Connessione tramite client SFTP*
+   *Connessione tramite client SFTP c*
 
 1. Fai clic su **[!UICONTROL Nuovo sito]** per creare un nuovo sito. Rinomina il sito a seconda delle necessità.
 
@@ -122,9 +122,9 @@ Configura la connessione su un client FTP (consigliato nella sezione precedente)
    (Facoltativo) Seleziona la casella di controllo Ricorda password per memorizzare la password.
 
    ![password](assets/password.png)
-   *Immetti la password*
+   *Immettere la password*
 
-   (Facoltativo) Selezionate **[!UICONTROL Considera sempre attendibile l&#39;host]** casella di controllo per considerare attendibile l&#39;host.
+   (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Considera sempre attendibile l&#39;host]** per considerare attendibile l&#39;host.
 
 1. Fai clic su OK.
 
@@ -140,7 +140,7 @@ Configura la connessione su un client FTP (consigliato nella sezione precedente)
    * Puoi trascinare e rilasciare i file.
    * Fai doppio clic sul file.
 
-   ![stato della connessione](assets/connection-status-progress.png)
+   ![stato connessione](assets/connection-status-progress.png)
    *Controllare lo stato della connessione*
 
 Puoi modificare e aggiornare il tipo di autenticazione in qualsiasi momento.

@@ -35,7 +35,7 @@ Esistono quattro tipi di annunci:
 
 1. Nel campo Messaggio, aggiungi il messaggio per l’annuncio. In questa sezione puoi anche aggiungere un URL per gli annunci. Tuttavia, devi aggiungere l’URL nel modulo HTML.
 
-   Ad esempio,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
+   Ad esempio, `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
 
    Se specifichi la destinazione come vuota, quando un utente fa clic sull’URL dell’annuncio, il collegamento si apre in una scheda nuova. Se non specifichi la destinazione, il collegamento si apre nello stesso browser.
 
@@ -49,7 +49,7 @@ Esistono quattro tipi di annunci:
    * Rendi l’annuncio un annuncio Sticky, selezionando la casella di controllo Abilita annuncio Sticky.
    * Seleziona il termine di consegna per l’annuncio.
 
-1. Seleziona **[!UICONTROL In una data]** se si desidera pianificare un annuncio per una data successiva e fare clic sull&#39;area di testo adiacente. Viene visualizzata una finestra a comparsa del calendario, dove puoi scegliere la data di inizio. Scegli la data di fine seguendo gli stessi passaggi.
+1. Seleziona **[!UICONTROL In una data]** se desideri pianificare un annuncio per una data successiva e fai clic sull&#39;area di testo accanto ad esso. Viene visualizzata una finestra a comparsa del calendario, dove puoi scegliere la data di inizio. Scegli la data di fine seguendo gli stessi passaggi.
 1. Fai clic su **[!UICONTROL Salva]**.
 1. Nella scheda Bozze fare clic sull&#39;icona delle impostazioni accanto a un annuncio e quindi su invia.
 
@@ -70,11 +70,11 @@ Se scegli questa opzione, tutti i file multimediali selezionati sono evidenziati
 
    Inizia a digitare il nome del gruppo di utenti nella casella di testo e scegli l’opzione desiderata dall’elenco a discesa. Allo stesso modo, scegli il corso di formazione digitando il nome dell’oggetto nella casella di testo.
 
-1. Nella **[!UICONTROL Impostazioni avanzate]** , sono disponibili le seguenti opzioni:
+1. Nella sezione **[!UICONTROL Impostazioni avanzate]** sono disponibili le seguenti opzioni:
 
-   * Fai clic **[!UICONTROL Immediatamente]** se desideri che l’annuncio venga pubblicato in quel momento.
-   * Fai clic **[!UICONTROL Mai]** se non desideri che l’annuncio scada.
-   * Selezionare il **[!UICONTROL Inizia]** e **[!UICONTROL Fine]** date dell’annuncio.
+   * Fai clic su **[!UICONTROL Immediatamente]** per pubblicare subito l’annuncio.
+   * Fai clic su **[!UICONTROL Mai]** se non desideri che l’annuncio scada.
+   * Seleziona le date **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** per l&#39;annuncio.
 
    ![](assets/advanced-settings.png)
 
@@ -90,7 +90,7 @@ Se scegli questa opzione, tutti i corsi di formazione che hai scelto vengono con
 
 ![](assets/recommendation-announcement.png)
 
-*Seleziona il corso di formazione consigliato da visualizzare per un Allievo*
+*Selezionare il corso di formazione consigliato da visualizzare per un Allievo*
 
 1. Scegli il corso di formazione che vuoi consigliare agli Allievi. È possibile aggiungere fino a 10 corsi di formazione.
 
@@ -102,9 +102,9 @@ Se scegli questa opzione, tutti i corsi di formazione che hai scelto vengono con
 
 1. Nella sezione Impostazioni avanzate sono disponibili le opzioni seguenti:
 
-   * Fai clic **[!UICONTROL Immediatamente]** se desideri che l’annuncio venga pubblicato in quel momento.
-   * Fai clic **[!UICONTROL Mai]** se non desideri che l’annuncio scada.
-   * Selezionare il **[!UICONTROL Inizia]** e **[!UICONTROL Fine]** date dell’annuncio.
+   * Fai clic su **[!UICONTROL Immediatamente]** per pubblicare subito l’annuncio.
+   * Fai clic su **[!UICONTROL Mai]** se non desideri che l’annuncio scada.
+   * Seleziona le date **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** per l&#39;annuncio.
 
    <!--![](assets/advanced-settings.png)-->
 
@@ -137,13 +137,13 @@ Nella scheda Inviati, puoi visualizzare tutti gli annunci già trasmessi.
 
 Utilizza questa opzione per inviare e-mail ad hoc agli Allievi di un gruppo di utenti selezionato o agli Allievi iscritti a un corso di formazione specifico.
 
-![L’Amministratore crea un annuncio e-mail](assets/email-announcement-admin.png)
+![L&#39;amministratore crea un annuncio tramite e-mail](assets/email-announcement-admin.png)
 
 *Inviare e-mail ad hoc mirate agli Allievi*
 
-*L’Amministratore crea un annuncio e-mail*
+*L&#39;amministratore crea un annuncio tramite e-mail*
 
-1. Seleziona **[!UICONTROL Digita come e-mail]**.
+1. Seleziona **[!UICONTROL Digita e-mail]**.
 1. Immetti l’oggetto e il corpo del messaggio.
 1. Nella sezione Destinatari, puoi:
 

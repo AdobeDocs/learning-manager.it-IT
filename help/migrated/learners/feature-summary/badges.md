@@ -3,14 +3,13 @@ description: Scopri come visualizzare e scaricare i distintivi con l’app di Le
 jcr-language: en_us
 title: Distintivi
 contentowner: manochan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 49%
 
 ---
-
-
 
 # Distintivi
 
@@ -30,13 +29,13 @@ I distintivi ottenuti di recente vengono visualizzati nella parte sinistra dell�
 
 Fai clic su qualsiasi distintivo per ottenere un elenco di tutti i distintivi ottenuti. È inoltre possibile visualizzare tutti i distintivi disponibili associati ai rispettivi corsi. Nei distintivi non ancora ottenuti, fai clic sul nome del corso per visualizzare il corso allineato al distintivo. Di seguito viene mostrata un’istantanea di esempio come riferimento.
 
-Fai clic **[!UICONTROL Scarica tutti i distintivi]** scarica tutti i distintivi che hai ottenuto in formato zip. Puoi anche scaricare i singoli distintivi facendo clic sull’icona a forma di cubo accanto al nome di ciascun distintivo.
+Fai clic sul collegamento **[!UICONTROL Scarica tutti i distintivi]** per scaricare tutti i distintivi ottenuti in formato zip. Puoi anche scaricare i singoli distintivi facendo clic sull’icona a forma di cubo accanto al nome di ciascun distintivo.
 
 **Scarica distintivo come PDF**
 
 Puoi anche scaricare un insieme di distintivi o un singolo distintivo in formato PDF.
 
-* Fai clic **[!UICONTROL Scarica tutti i record dei distintivi]** per scaricare i distintivi ottenuti come PDF.
+* Fai clic su **[!UICONTROL Scarica tutti i record dei distintivi]** per scaricare i distintivi ottenuti come PDF.
 * Per scaricare singoli distintivi, seleziona il distintivo che ti interessa e fai clic sull’icona a forma di PDF accanto al nome di tale distintivo.
 
 ![](assets/badges.png)
@@ -57,7 +56,7 @@ Gli Allievi possono integrare l’account della piattaforma di apprendimento con
 
 I distintivi aperti sono badge contenenti dei metadati incorporati nella relativa immagine. Questi metadati forniscono informazioni su emittente, destinatario, attività svolta, validità del distintivo, ecc. Badgr Backpack sarà accessibile direttamente da Learning Manager in modo da offrire un ambiente centrale in cui memorizzare e condividere tutti i distintivi. Gli Allievi possono accedere al proprio account Badgr e stabilire l’integrazione. Da quel momento in poi, i distintivi ottenuti in Learning Manager vengono caricati automaticamente nell’account Badgr.
 
-Una volta che l’Amministratore abilita l’opzione **Integrazione con Badgr**, gli Allievi possono quindi integrare Badgr e configurare il distintivo. Per eseguire l’integrazione, gli Allievi devono accedere all’account Badgr da Learning Manager.
+Una volta che l’Amministratore abilita l’opzione **Integrazione Badgr**, gli allievi possono integrare Badgr e configurare il distintivo. Per eseguire l’integrazione, gli Allievi devono accedere all’account Badgr da Learning Manager.
 
 >[!NOTE]
 >
@@ -81,4 +80,4 @@ Questo processo di aggiornamento della pagina si chiama rebake manuale. In quest
 
 **1. Come si scarica un distintivo come Allievo?**
 
-Nella pagina dei distintivi, puoi scaricarli come immagine o in formato PDF. Scegli un’abilità o un corso, quindi fai clic su **PDF** oppure **Badge**.
+Nella pagina dei distintivi, puoi scaricarli come immagine o in formato PDF. Scegli un’abilità o un corso, quindi fai clic su **PDF** o **Distintivo**.

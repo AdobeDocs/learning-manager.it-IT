@@ -31,7 +31,7 @@ ht-degree: 88%
    * [Transizione dall’FTP di Adobe Manager](transition-from-ftp-manager.md)
    * [Modifiche e deprecazioni delle API in Adobe Learning Manager](api-deprecations-list.md)
    * [Assegnazione di etichette bianche in Adobe Learning Manager](white-label.md)
-* Introduzione {#get-started}
+* Introduzione a {#get-started}
    * [Guida introduttiva come Amministratore](administrators/feature-summary/getting-started-admin.md)
    * [Guida introduttiva come Autore](authors/feature-summary/getting-started-author.md)
    * [Guida introduttiva come Allievo](learners/feature-summary/getting-started-learner.md)
@@ -84,7 +84,7 @@ ht-degree: 88%
    * [Esperienza senza accesso per gli Allievi](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programmi di apprendimento](administrators/feature-summary/learning-programs.md)
    * [Terminologia del prodotto](administrators/feature-summary/product-terminology.md)
-* Amministratore dell’integrazione {#integration}
+* Amministratore integrazione {#integration}
    * [Manuale di migrazione](integration-admin/feature-summary/migration-manual.md)
    * [Connettori Learning Manager](integration-admin/feature-summary/connectors.md)
    * [API senza accesso](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -149,7 +149,7 @@ ht-degree: 88%
    * [Domande frequenti per gli Autori](authors/frequently-asked-questions-for-authors.md)
    * [Domande frequenti per gli Istruttori](instructors/frequently-asked-questions-for-instructors.md)
    * [Domande frequenti per i Manager](managers/frequently-asked-questions-for-managers.md)
-* Knowledge base {#knowledge-base}
+* Knowledge Base {#knowledge-base}
    * [Impossibile accedere a Learning Manager](kb/unable-log-in-learning-manager.md)
    * [In Riepilogo apprendimento non vengono visualizzati i dati correnti](kb/learning-summary-not-display-data.md)
    * [Impossibile caricare il file CSV](kb/unable-to-upload-csv.md)

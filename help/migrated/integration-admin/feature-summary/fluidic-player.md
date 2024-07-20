@@ -45,13 +45,13 @@ La creazione di un’applicazione personalizzata per incorporare un lettore Flui
 
 ### 1. Creare un’applicazione nell’Amministratore dell’integrazione {#1createanapplicationinintegrationadmin}
 
-Questo passaggio è necessario per creare un ID applicazione/client e un segreto applicazione/client utilizzato per recuperare il token di aggiornamento e il token di accesso. Per ulteriori informazioni sulla creazione di un&#39;applicazione, vedere  [Processo di sviluppo dell&#39;applicazione.](developer-manual.md#main-pars_header_994876235)
+Questo passaggio è necessario per creare un ID applicazione/client e un segreto applicazione/client utilizzato per recuperare il token di aggiornamento e il token di accesso. Per ulteriori informazioni sulla creazione di un&#39;applicazione, vedere [Processo di sviluppo dell&#39;applicazione.](developer-manual.md#main-pars_header_994876235)
 
 1. Passa all’app **[!UICONTROL IntegrationAdmin]** e aprire **[!UICONTROL Applicazioni]**.
 
 1. Seleziona **[!UICONTROL Registra]** dall’angolo in alto a destra nella pagina.
 1. Viene visualizzata la finestra **[!UICONTROL Registra una nuova applicazione]**. Compila i campi obbligatori.
-1. Se l’applicazione personalizzata deve essere condivisa tra più account, seleziona **[!UICONTROL No]** nel campo delle opzioni  **[!UICONTROL Solo per questo account?]**
+1. Se l&#39;applicazione personalizzata deve essere condivisa tra più account, selezionare **[!UICONTROL No]** nel campo delle opzioni **[!UICONTROL Solo per questo account?]**
 1. Per salvare l’applicazione e generare l’ID e il segreto dell’applicazione, fai clic su **[!UICONTROL Salva]**.
 
 ### 2. Recuperare il token di accesso {#2retrievingaccesstoken}
@@ -75,13 +75,13 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-Qui, **[!UICONTROL id client]** è l’id applicazione ottenuto al passaggio 1.
+Qui **[!UICONTROL ID client]** è l&#39;ID applicazione ottenuto al passaggio 1.
 **[!UICONTROL redirect_url]** è il redirect_url impostato nel passaggio 1.
-**[!UICONTROL stato]** è qualsiasi dato fittizio in base al quale dobbiamo filtrare l’URL di reindirizzamento per ottenere il codice OAuth. L’ambito è l’ambito Allievo impostato nel passaggio 1.
+**[!UICONTROL state]** è qualsiasi dato fittizio in base al quale dobbiamo filtrare l&#39;URL di reindirizzamento per ottenere il codice OAuth. L’ambito è l’ambito Allievo impostato nel passaggio 1.
 **[!UICONTROL response_typ]**e è sempre &quot;CODE&quot;.\
 **[!UICONTROL account]**è un campo facoltativo\
 **[!UICONTROL email]** è un campo facoltativo\
-&#42; Se vengono forniti sia l’ID sia l’e-mail, l’URL precedente consentirà all’utente di accedere allo stesso account. Questo esempio di endpoint è rappresentato nel file &quot;index.html&quot; nell’applicazione di esempio.
+&#42; Se vengono forniti sia l&#39;ID sia l&#39;indirizzo e-mail, l&#39;URL precedente consentirà all&#39;utente di accedere allo stesso account. Questo esempio di endpoint è rappresentato nel file &quot;index.html&quot; nell’applicazione di esempio.
 
 * Recuperare il token di aggiornamento
 
@@ -120,7 +120,7 @@ Come terzo passaggio, devi utilizzare il token di accesso per recuperare le riso
 
 Le applicazioni di terze parti possono utilizzare un lettore incorporabile per riprodurre il contenuto di un oggetto di apprendimento.
 
-**Aprire un corso con un lettore incorporabile**
+**Aprire un corso in un lettore incorporabile**
 
 1. Creare un URL incorporabile
 
@@ -167,7 +167,7 @@ Si tratta di un&#39;operazione che deve essere eseguita da un team IT o da un co
 
 1. Modifica l’URL del lettore incorporato di Learning Manager con i parametri che puntano all’oggetto di apprendimento esatto che deve essere acquisito.
 
-   URL:  [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   URL: [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
 1. Utilizza uno di questi parametri per avviare un corso:
 
@@ -179,7 +179,7 @@ Si tratta di un&#39;operazione che deve essere eseguita da un team IT o da un co
 
 1. Utilizza il token di accesso come parametro obbligatorio.
 
-   * access_token : Parametro di sicurezza. Utilizzare il token di accesso oauth dell&#39;API pubblica.
+   * access_token : Parametro di sicurezza. Utilizzare l&#39;API oauth pubblica.   token di accesso
 
    Puoi ottenere il token configurando il lettore Fluidic incorporabile nell’amministratore dell’integrazione. Puoi ottenere il token di autenticazione che puoi utilizzare come token di accesso.
 
@@ -199,7 +199,7 @@ Si tratta di un&#39;operazione che deve essere eseguita da un team IT o da un co
 
 
 
-   API V2 di Learning Manager - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
+   API di Learning Manager V2 - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
 
    Gli ID degli oggetti differiscono dall’API V1 e V2. Il lettore incorporabile prevede ID nel formato v2. Utilizza l’API di mappatura degli ID nella versione 2 per convertire gli ID V1 in ID V2.
 
@@ -213,7 +213,7 @@ Si tratta di un&#39;operazione che deve essere eseguita da un team IT o da un co
 
 Modifica l’URL del lettore incorporato di Learning Manager con i parametri che puntano all’oggetto di apprendimento esatto che deve essere acquisito.
 
-URL:  [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
+URL: [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
 
 Uno qualsiasi di questi parametri può essere utilizzato per avviare un corso:
 
@@ -224,7 +224,7 @@ Uno qualsiasi di questi parametri può essere utilizzato per avviare un corso:
 
 Parametro obbligatorio:
 
-* access_token : Parametro di sicurezza. Utilizzare il token di accesso oauth dell&#39;API pubblica.
+* access_token : Parametro di sicurezza. Utilizzare l&#39;API oauth pubblica.   token di accesso
 
 Effettua chiamate API di Learning Manager per recuperare i parametri sopra indicati. Queste chiamate API devono essere effettuate dall&#39;applicazione che il team IT/consulente scriverà e ospiterà sul sito.
 
@@ -234,6 +234,6 @@ API V1 di Learning Manager - [https://learningmanager.adobe.com/docs/primeapi/v1
 
 
 
-API V2 di Learning Manager -  [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
+API di Learning Manager V2 - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
 
 

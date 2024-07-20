@@ -110,7 +110,7 @@ Puoi facilmente verificarlo colpendo questo endpoint con velocità inferiori a 5
 
 Per semplificare, è possibile consultare questo codice JavaScript di esempio che illustra questo aspetto. Fai clic su questo [violino](https://jsfiddle.net/ACAPJS/9yv8zcmL/) e vedere il codice in azione.
 
-Questa applicazione richiede di fornire un token di applicazione del ruolo Allievo per l’account. Fare riferimento a [Manuale per sviluppatori di applicazioni](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) per informazioni sui token API e utilizza la funzionalità Helper token nella sezione delle risorse per sviluppatori dell’applicazione Amministratore di integrazione Learning Manager per generare i token.
+Questa applicazione richiede di fornire un token di applicazione del ruolo Allievo per l’account. Per informazioni sui token API, consulta il [Manuale per sviluppatori di applicazioni](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/). Per generare i token, puoi utilizzare la funzionalità Helper token nella sezione Risorse sviluppatore dell’applicazione Amministratore di integrazione Learning Manager.
 
 Questa applicazione sta effettuando 10 chiamate all’API fittizia in un ciclo continuo. Poiché il limite di velocità è (5, 2) per l’API fittizia; il limite di velocità verrà superato dopo che le prime chiamate 5+2 ricevute da Learning Manager avranno esito positivo e verrà visualizzata una risposta corretta.
 

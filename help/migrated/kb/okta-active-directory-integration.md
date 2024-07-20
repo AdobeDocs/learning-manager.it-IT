@@ -3,18 +3,17 @@ jcr-language: en_us
 title: Integrazione di Okta Active Directory con Adobe Learning Manager
 description: Integrazione di Okta Active Directory con Adobe Learning Manager
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 57%
 
 ---
 
-
-
 # Integrazione di Okta Active Directory con Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
-Questo documento descrive come integrare Learning Manager per Adobi con Okta Active Directory (AD). L’integrazione di Learning Manager Adobe con Okta AD consente di:
+Questo documento descrive come integrare Adobe Learning Manager con Okta Active Directory (AD). Quando si integra Adobe Learning Manager con Okta AD, è possibile:
 
 * Verificare l’accesso dell’utente di Learning Manager a Okta AD.
 * Consentire agli utenti di accedere automaticamente ad Adobe Learning Manager con i loro account Okta AD.
@@ -29,35 +28,35 @@ Adobe Learning Manager supporta l’SSO avviato dal provider di identità (Ident
 
    ![](assets/cp-application-store.png)
 
-   *Visualizza l&#39;Application Store a Okta*
+   *Visualizza archivio applicazioni a Okta*
 
-1. Fai clic **[!UICONTROL Crea Integrazione App]**.
+1. Fai clic su **[!UICONTROL Crea integrazione app]**.
 
    ![](assets/cp-app-integrations.png)
 
-   *Seleziona Crea integrazione app*
+   *Seleziona Crea Integrazione App*
 
-1. Seleziona **[!UICONTROL SAML 2.0]** dalla nuova finestra di integrazione dell’app.
+1. Seleziona **[!UICONTROL SAML 2.0]** dalla nuova finestra di integrazione dell&#39;app.
 
    ![](assets/cp-saml2.0.png)
 
-   *Seleziona l&#39;opzione SAML2.0*
+   *Selezionare l&#39;opzione SAML2.0*
 
-1. Seleziona **[!UICONTROL Crea integrazione SAML]** > **[!UICONTROL Pagina Impostazioni generali]**. Immettere un nome applicazione.
+1. Seleziona **[!UICONTROL Crea integrazione SAML]** > **[!UICONTROL Pagina delle impostazioni generali]**. Immettere un nome applicazione.
 
    Può essere un nome qualsiasi per identificare in modo univoco l’applicazione. Una volta completata la procedura, fai clic su **[!UICONTROL Avanti]**.
 
    ![](assets/cp-saml-integration.png)
 
-   *Immetti il nome dell’applicazione*
+   *Immettere il nome dell&#39;applicazione*
 
 1. Nella pagina Configura impostazioni SAML, segui i passaggi riportati di seguito:
 
-   **Per la configurazione IDP:**
+   **Per l&#39;installazione IDP:**
 
-   1. Nel campo URL Single Sign-on, digita l’URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Nel campo URL pubblico, digita l’URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. Nella **Formato ID nome** casella a discesa, seleziona **Indirizzo e-mail**.
+   1. Nel campo URL Single Sign-on, digita l&#39;URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Nel campo URL pubblico digitare l&#39;URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. Nella casella a discesa **Formato ID nome**, seleziona **Indirizzo e-mail**.
    1. Nel menu a discesa **Nome utente applicazione** seleziona Nome utente Okta.
    1. Se si desidera fornire attributi aggiuntivi, è possibile aggiungerli nella **Dichiarazione degli Attributi** (facoltativo)
 
@@ -65,10 +64,10 @@ Adobe Learning Manager supporta l’SSO avviato dal provider di identità (Ident
 
    *Aggiungi attributi SAML*
 
-   **Per la configurazione SP:**
+   **Per l&#39;installazione dell&#39;SP:**
 
-   1. Nel campo URL Single Sign-on, digita l’URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Nel campo URL pubblico, digita l’URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. Nel campo URL Single Sign-on, digita l&#39;URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Nel campo URL pubblico digitare l&#39;URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. Nella casella a discesa Formato ID Nome, seleziona **Indirizzo e-mail**.
    1. Nel menu a discesa Nome utente applicazione, seleziona Nome utente Okta.
    1. Fai clic su **Mostra impostazioni avanzate**.
@@ -85,7 +84,7 @@ Adobe Learning Manager supporta l’SSO avviato dal provider di identità (Ident
 
    Una volta completata la procedura, fai clic su **[!UICONTROL Avanti]**.
 
-1. La **Feedback**  è opzionale. Dopo aver selezionato le opzioni e fornito il tuo feedback, fai clic su **[!UICONTROL Fine]**.
+1. La scheda **Feedback** è facoltativa. Dopo aver selezionato le opzioni e fornito il tuo feedback, fai clic su **[!UICONTROL Fine]**.
 
    ![](assets/cp-saml-integration-step3.png)
 
@@ -96,26 +95,26 @@ Adobe Learning Manager supporta l’SSO avviato dal provider di identità (Ident
 Per visualizzare l’URL e il file di metadati avviati da IdP/SP, effettua le operazioni riportate di seguito:
 
 1. Apri l’applicazione creata.
-1. Sotto il **Single Sign-On** , fare clic su **[!UICONTROL Visualizza istruzioni]**.
+1. Nella scheda **Single Sign-On**, fai clic su **[!UICONTROL Visualizza istruzioni]**.
 
    ![](assets/cp-prime-sso.png)
 
-   *Seleziona la scheda SSO*
+   *Selezionare la scheda SSO*
 
    **Per IDP:**
 
    1. L’URL Single Sign-On del provider di identità è l’URL avviato da IdP.
-   1. Copia tutto il testo presente sotto **Facoltativo** campo.
+   1. Copia tutto il testo presente nel campo **Facoltativo**.
    1. Apri un nuovo documento di blocco note e incolla il testo copiato.
-   1. Fai clic **[!UICONTROL File]** > **[!UICONTROL Salva con nome]** > &quot;nomefile.xml&quot;. Questo sarà il file di metadati.
+   1. Fai clic su **[!UICONTROL File]** > **[!UICONTROL Salva con nome]** > &quot;filename.xml&quot;. Questo sarà il file di metadati.
 
    **Per SP:**
 
    1. L’URL Single Sign-On del provider di identità è l’URL avviato da IdP.
    1. L’emittente del provider di identità è l’ID entità.
-   1. Copia tutto il testo presente sotto **Facoltativo** campo.
+   1. Copia tutto il testo presente nel campo **Facoltativo**.
    1. Apri un nuovo documento di blocco note e incolla il testo copiato.
-   1. Fai clic **[!UICONTROL File]** > **[!UICONTROL Salva con nome]** > **[!UICONTROL nomefile.xml]**. Questo sarà il file di metadati.
+   1. Fai clic su **[!UICONTROL File]** > **[!UICONTROL Salva con nome]** > **[!UICONTROL nomefile.xml]**. Questo sarà il file di metadati.
 
    ![](assets/cp-saml-integration-step4.png)
 

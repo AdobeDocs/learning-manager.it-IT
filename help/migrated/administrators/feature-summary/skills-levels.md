@@ -31,7 +31,7 @@ Come Amministratore, puoi eseguire le seguenti operazioni:
 
 Per aggiungere un’abilità, attieniti ai passaggi seguenti:
 
-1. Nel riquadro a sinistra, seleziona **[!UICONTROL Abilità]** > **[!UICONTROL Aggiungi]** > **[!UICONTROL Aggiungi SKills]**. Assegna un nome e una descrizione all’abilità.
+1. Nel riquadro a sinistra, seleziona **[!UICONTROL Abilità]** > **[!UICONTROL Aggiungi]** > **[!UICONTROL Aggiungi abilità]**. Assegna un nome e una descrizione all’abilità.
 
    ![](assets/add-skill-name-anddescription.png)
 
@@ -80,7 +80,7 @@ Una volta create e salvate, le abilità vengono elencate nella pagina delle abil
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
 
-   *Visualizzare gli Allievi assegnati a un’abilità*
+   *Visualizza gli Allievi assegnati a un’abilità*
 
    In questo esempio viene mostrato come aggiungere Allievi per il Livello 1. Fai clic sul collegamento ipertestuale accanto al Livello 1.
 
@@ -102,7 +102,7 @@ Una volta create e salvate, le abilità vengono elencate nella pagina delle abil
 
    ![](assets/turn-off-auto-enrollment.png)
 
-   *Disabilita registrazione automatica*
+   *Disattiva registrazione automatica*
 
    I singoli Allievi possono iscriversi automaticamente o possono essere iscritti dall’Amministratore a un programma di apprendimento.
 
@@ -136,7 +136,7 @@ L’Autore può associare un livello di abilità a una risorsa formativa durante
 
 ![](assets/create-a-job-aid.png)
 
-*Crea una risorsa formativa*
+*Creazione di una risorsa formativa*
 
 Nella pagina **[!UICONTROL Abilità]**, puoi vedere il numero di risorse formative associate al livello di abilità.
 
@@ -152,7 +152,7 @@ Cerca un’abilità digitandone il nome e scegliendola dalle opzioni presenti. A
 
 ## Modifica di un’abilità {#editaskill}
 
-Nella pagina **[!UICONTROL Abilità]**, fai clic sull’abilità che desideri modificare. Nella **[!UICONTROL Modifica abilità]** , effettua le modifiche necessarie, ad esempio
+Nella pagina **[!UICONTROL Abilità]**, fai clic sull’abilità che desideri modificare. Nella finestra di dialogo **[!UICONTROL Modifica abilità]**, apporta le modifiche necessarie, ad esempio:
 
 * Aggiunta o eliminazione di un dominio di abilità.
 * Modifica del nome e della descrizione dell’abilità.
@@ -191,7 +191,7 @@ Un’abilità può essere eliminata solo se non è associata ad Allievi, corsi o
 
 Aggiungi un file CSV composto dalle abilità degli Istruttori. Tali abilità vengono quindi aggiunte al relativo elenco.
 
-1. Nell’angolo in alto a destra dello schermo, seleziona **[!UICONTROL Aggiungi]** > **[!UICONTROL Assegnare abilità all’Istruttore]**.
+1. Nell&#39;angolo superiore destro della schermata, seleziona **[!UICONTROL Aggiungi]** > **[!UICONTROL Assegna abilità all&#39;istruttore]**.
 1. Carica un file CSV. Le colonne del file CSV sono:
 
    * Nome abilità
@@ -202,7 +202,7 @@ Aggiungi un file CSV composto dalle abilità degli Istruttori. Tali abilità ven
 
    Fai clic su Salva.
 
-   ![Aggiungi CSV delle abilità di istruttore](assets/instructor-skills.png)
+   ![Aggiungere abilità istruttore CSV](assets/instructor-skills.png)
 
    *Aggiungere abilità di istruttore da un file CSV*
 
@@ -210,9 +210,9 @@ Aggiungi un file CSV composto dalle abilità degli Istruttori. Tali abilità ven
 
    Nota: se il file CSV contiene campi non corretti, viene visualizzato il seguente messaggio di errore.
 
-   ![Messaggio di errore se il file CSV contiene campi errati](assets/error-csv-upload.png)
+   ![Messaggio di errore se il file CSV contiene campi non corretti](assets/error-csv-upload.png)
 
-   *Messaggio di errore per campi errati*
+   *Messaggio di errore per campi non corretti*
 
 ### Pagina delle abilità
 
@@ -224,8 +224,8 @@ Nella pagina Abilità è presente una colonna denominata Istruttori che indica i
 
 ### Scarica il file CSV di assegnazione delle abilità
 
-1. Nella pagina Abilità, fai clic su **[!UICONTROL Aggiungi]** > **[!UICONTROL Assegnare abilità all’Istruttore]**.
-1. Nella finestra di dialogo fare clic su **[!UICONTROL Assegnazione aggiunta in precedenza]**.
+1. Nella pagina Abilità, fai clic su **[!UICONTROL Aggiungi]** > **[!UICONTROL Assegna Abilità all’Istruttore]**.
+1. Nella finestra di dialogo, fai clic su **[!UICONTROL Assegnazione aggiunta in precedenza]**.
 1. Il file CSV caricato per ultimo verrà scaricato.
 
 >[!NOTE]
@@ -283,4 +283,4 @@ In altre parole, per ottenere il distintivo **è necessario completare l’Ogget
 
 ### Altri contenuti simili
 
-* [Competenze e Adobe Learning Manager](https://elearning.adobe.com/it/2018/11/skills-captivate-prime/)
+* [Abilità e Adobe Learning Manager](https://elearning.adobe.com/it/2018/11/skills-captivate-prime/)

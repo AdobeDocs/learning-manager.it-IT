@@ -67,7 +67,7 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
    <td>
 
-    <p>Se lo desideri, aggiungi più account (sottodomini). Aggiungi i sottodomini come separati da virgole senza spazi. Ad esempio, acc01,acc02,acc03 e così via.<br> <b>Nota:</b> È necessario aggiungere l’ID account quando si specificano i sottodomini.</br> </p>
+    <p>Se lo desideri, aggiungi più account (sottodomini). Aggiungi i sottodomini come separati da virgole senza spazi. Ad esempio, acc01,acc02,acc03 e così via.<br> <b>Nota:</b> è necessario aggiungere l'ID account quando si specificano i sottodomini.</br> </p>
 
    </td>
 
@@ -287,11 +287,11 @@ Sia Android che iOS utilizzano Firebase Cloud Messaging (FCM) come servizio per 
 
 Seguire la procedura descritta di seguito.
 
-1. Generare o scaricare **Certificato di notifica push** e chiave privata (.p12). Per ulteriori informazioni, consultate [Documento per sviluppatori Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Genera o scarica il **certificato di notifica push** e la chiave privata (.p12). Per ulteriori informazioni, consulta il [documento per sviluppatori Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
-1. Installa il file p12 dopo averlo scaricato. Utilizza la password per eseguire l’installazione **Accesso Portachiavi**.
+1. Installa il file p12 dopo averlo scaricato. Utilizza la password per eseguire l’installazione in **Accesso Portachiavi**.
 
-1. Passa a **Certificati personali** ed esportare il certificato. Assicurati di selezionare il tipo MIME .CER.
+1. Passa a **Certificati personali** ed esporta il certificato. Assicurati di selezionare il tipo MIME .CER.
 
 1. Una volta che hai il file p12 e il file cer sono disponibili, esegui i seguenti comandi:
 
@@ -309,23 +309,23 @@ Se è possibile connettersi al server, il certificato creato è valido. Dal file
 
 Per Android, l’utente deve fornire il file services.json dal progetto Firebase per aggiungere la voce nel servizio SNS.
 
-Crea un progetto in Firebase e condividi il file services.json con il team CSM. Questo file è necessario per la voce basata su token nell&#39;SNS. Si noti che la chiave del server non è più utilizzata. Vedere [Crea progetto in Firebase](#create-project-in-firebase).
+Crea un progetto in Firebase e condividi il file services.json con il team CSM. Questo file è necessario per la voce basata su token nell&#39;SNS. Si noti che la chiave del server non è più utilizzata. Vedere [Creare un progetto in Firebase](#create-project-in-firebase).
 
 Per scaricare il file services.json, effettua le seguenti operazioni:
 
-1. Accedi a **Firebase** console.
-1. Vai a **Impostazioni progetto** e seleziona **Messaggistica cloud**.
-1. Trova **API di messaggistica cloud di Firebase** e seleziona **Gestione account di servizio**.
-1. Nella **Account del servizio** , seleziona la pagina **Account di servizio** nel pannello a sinistra.
+1. Accedi alla console **Firebase**.
+1. Passa a **Impostazioni progetto** e seleziona **Messaggistica cloud**.
+1. Trova **l&#39;API di messaggistica cloud di Firebase** e seleziona **Gestisci account servizio**.
+1. Nella pagina **Account del servizio**, seleziona **Account del servizio** nel pannello a sinistra.
 1. Trova la voce del progetto e seleziona **Gestisci dettagli** in azioni.
 
    >[!NOTE]
    >
    >   Il formato di immissione del progetto sarà &lt;-accountname->@appspot.gserviceaccount.com.
 
-1. Vai a **Tasti** e selezionare **Aggiungi chiave**.
-1. Se non è presente alcun tasto, selezionare **Crea nuova chiave** e seleziona **JSON** come tipo di chiave. Questo genererà e scaricherà il file JSON.
-1. Se è già presente un tasto, selezionare **Carica chiave esistente**, incolla la chiave e caricala. Questo genererà e scaricherà il file JSON.
+1. Passa alla scheda **Tasti** e seleziona **Aggiungi chiave**.
+1. Se non è presente alcuna chiave, selezionare **Crea nuova chiave** e selezionare **JSON** come tipo di chiave. Questo genererà e scaricherà il file JSON.
+1. Se è già presente una chiave, seleziona **Carica chiave esistente**, incolla la chiave e caricala. Questo genererà e scaricherà il file JSON.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ Contatta il team CSM e condividi il file JSON per aggiungere la voce ai servizi 
 
 Riutilizza lo stesso progetto creato nei passaggi precedenti per le notifiche push.
 
-[Aggiungere il progetto](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase e recuperare ***google-services.json*** file.
+[Aggiungi il progetto](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase e recupera il file ***google-services.json***.
 
 ### iOS
 
-[Aggiungere il progetto](https://firebase.google.com/docs/ios/setup) in Firebase e recuperare ***GoogleService-Info.plist*** file.
+[Aggiungere il progetto](https://firebase.google.com/docs/ios/setup) a Firebase e recuperare il file ***GoogleService-Info.plist***.
 
 >[!IMPORTANT]
 >
@@ -373,13 +373,13 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >
 >Per creare i file binari firmati, saranno necessari gli strumenti di compilazione SDK Android.
 
-**Passaggi successivi**
+**Novità**
 
 Dopo aver generato i file binari, inviali a Play Store o App Store.
 
 ## Come si applicano le modifiche
 
-Invia le risorse e i file necessari al team CSM. Il team CSM compila quindi il [form](https://forms.office.com/r/bJRRaRBvSh) con le modifiche necessarie e allega le risorse richieste. Il team rivedrà e informerà i team tecnici delle modifiche. Il team tecnico genererà quindi una build e la condividerà con il team CSM.
+Invia le risorse e i file necessari al team CSM. Il team CSM quindi compila il [modulo](https://forms.office.com/r/bJRRaRBvSh) con le modifiche richieste e allega le risorse richieste. Il team rivedrà e informerà i team tecnici delle modifiche. Il team tecnico genererà quindi una build e la condividerà con il team CSM.
 
 Il team CSM condividerà la build con il cliente.
 

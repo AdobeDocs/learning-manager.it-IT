@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Etichette del catalogo
 description: Le etichette del catalogo consentono di taggare gli oggetti di apprendimento con campi specifici e applicare uno o più valori. Se questa opzione è attivata, gli amministratori e gli autori possono impostare etichette del catalogo e valori e collegarli agli oggetti di apprendimento.
 contentowner: dvenkate
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: 966d163d-7878-44f4-afdc-38eb95996229
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 85%
 
 ---
-
-
 
 # Etichette del catalogo
 
@@ -20,14 +19,14 @@ Utilizza questa funzione per categorizzare facilmente i dati. Ad esempio, se des
 
 Per abilitare le etichette del catalogo, procedi come segue:
 
-* Come amministratore, apri **[!UICONTROL Impostazioni]** > **[!UICONTROL Generale]** > **[!UICONTROL Mostra etichetta del catalogo]**.
+* Come amministratore, apri **[!UICONTROL Impostazioni]** > **[!UICONTROL Generali]** > **[!UICONTROL Mostra etichetta del catalogo]**.
 * Usa la casella di controllo per abilitare l’etichetta.
 
 ## Aggiungere etichette del catalogo {#addcataloglabels}
 
 Per aggiungere etichette del catalogo, segui questa procedura:
 
-1. Apri  **[!UICONTROL Impostazioni]** > **[!UICONTROL Etichette del catalogo]** sotto il **[!UICONTROL Avanzate]** opzione. Si apre la pagina [!UICONTROL Etichette del catalogo].
+1. Apri **[!UICONTROL Impostazioni]** > **[!UICONTROL Etichette catalogo]** nell&#39;opzione **[!UICONTROL Avanzate]**. Si apre la pagina [!UICONTROL Etichette del catalogo].
 
    ![](assets/catalog-labels-page.png)
 
@@ -48,7 +47,7 @@ Dopo aver creato le etichette, è possibile applicarle a cataloghi specifici seg
 1. Apri **[!UICONTROL Cataloghi]** dal riquadro a sinistra. Si apre la pagina del catalogo che mostra l’elenco di cataloghi.
 1. Seleziona il catalogo desiderato e applica l’etichetta.
 1. Apri Etichette del catalogo nel riquadro a sinistra.
-1. Fai clic **[!UICONTROL Modifica]** nell’angolo in alto a destra. La pagina mostra l’elenco delle etichette del catalogo disponibili.
+1. Fai clic su **[!UICONTROL Modifica]** nell&#39;angolo in alto a destra. La pagina mostra l’elenco delle etichette del catalogo disponibili.
 1. Fai clic su **[!UICONTROL Aggiungi al catalogo]** per aggiungere un’etichetta al catalogo.
 1. Per rimuovere etichette esistenti aggiunte a un catalogo, fai clic su **[!UICONTROL Rimuovi]**.
 

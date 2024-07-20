@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Abilitare il controllo completo del catalogo condiviso
 description: Abilita il controllo completo del catalogo condiviso in Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 89%
 
 ---
-
-
 
 # Abilitare il controllo completo del catalogo condiviso
 
@@ -59,7 +58,7 @@ Quando l’amministratore dell’organizzazione precedente abilita il controllo 
 
    ![](assets/catalog-details.png)
 
-   *Visualizzare i dettagli del catalogo*
+   *Visualizza dettagli catalogo*
 
 1. Puoi modificare il nome del catalogo e la descrizione.
 
@@ -73,7 +72,7 @@ Così come può concedere il controllo completo del catalogo per i corsi, l’am
 
 ## Ripristina corso {#resetcourse}
 
-1. Nella scheda del catalogo con un collegamento interrotto, fate clic su **[!UICONTROL Ripristina corso]**.
+1. Nella scheda del catalogo con un collegamento interrotto, fai clic su **[!UICONTROL Ripristina corso]**.
 
 <!-- ![](assets/reset-course.png)-->
 
@@ -100,7 +99,7 @@ Questo comando inverte l’azione e ripristina l’oggetto di apprendimento nell
 
 ![](assets/re-add-button.png)
 
-*Aggiungi nuovamente un oggetto di apprendimento*
+*Aggiungere nuovamente un oggetto di apprendimento*
 
 Dopo aver fatto clic sul pulsante Riaggiungi, viene confermato che l’oggetto di apprendimento è stato aggiunto correttamente al catalogo.
 

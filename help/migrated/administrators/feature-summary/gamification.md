@@ -36,7 +36,7 @@ Per accedere alle impostazioni, procedi come segue:
 
 Gli Amministratori possono configurare punti di gamification per gli Allievi, procedendo come segue:
 
-1. Fai clic **[!UICONTROL Gamification]** dopo aver effettuato l’accesso come Amministratore.\
+1. Dopo aver effettuato l’accesso come Amministratore, fai clic su **[!UICONTROL Gamification]**.\
    Viene visualizzata una pagina con un elenco di livelli bronzo, argento, oro e platino e i punti necessari per raggiungere ciascuno di essi. Viene visualizzato un elenco di attività e punti corrispondenti.
 1. Per configurare i punti, fai clic sull’icona Modifica accanto a ogni attività.
 1. Modifica la frequenza delle attività quali il completamento di un numero specifico di corsi al mese, al trimestre o all’anno.
@@ -44,7 +44,7 @@ Gli Amministratori possono configurare punti di gamification per gli Allievi, pr
 
 ![](assets/set-up-points.png)
 
-*Impostare i punti*
+*Configurazione dei punti*
 
 ## Attività {#tasks}
 
@@ -134,7 +134,8 @@ Possibili scenari per il perfezionamento dei livelli in una specifica competenza
 
 Questa attività è applicabile agli Allievi che fanno riferimento al corso completato entro N giorni dal completamento.
 
-Possibile scenario: Quando un Allievo fa riferimento al corso completato entro 30 giorni dal completamento, riceve 50 punti.
+Possibile scenario:
+Quando un Allievo fa riferimento al corso completato entro 30 giorni dal completamento, riceve 50 punti.
 
 **Punti per il completamento rapido**
 
@@ -182,7 +183,7 @@ Possibili scenari:
 
 ## Azioni dell’amministratore {#administratoractions}
 
-L’Amministratore può creare un elenco di utenti riservati, reimpostare i punti di gamification e disattivare/attivare la funzionalità di gamification per gli Allievi. Selezionare il **[!UICONTROL Impostazioni]** nella pagina gamification per visualizzare le azioni come mostrato nell’istantanea seguente.
+L’Amministratore può creare un elenco di utenti riservati, reimpostare i punti di gamification e disattivare/attivare la funzionalità di gamification per gli Allievi. Seleziona **[!UICONTROL Impostazioni]** nella pagina Gamification per visualizzare le azioni come mostrato nell&#39;istantanea seguente.
 
 ![](assets/gamification-actions.png)
 
@@ -194,11 +195,11 @@ Se necessario, puoi rendere riservati alcuni utenti di livello superiore. Le att
 
 Le impostazioni di riservatezza possono essere applicate agli utenti interni ed esterni.
 
-1. Fai clic **[!UICONTROL Gamification]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni di riservatezza]**.
+1. Fai clic su **[!UICONTROL Gamification]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni di riservatezza]**.
 
 ![](assets/confidentiality-settings.png)
 
-*Visualizza impostazioni di riservatezza*
+*Visualizza impostazioni riservatezza*
 
 1. Dagli utenti elencati, fai clic sulla casella di controllo accanto al nome dell’utente e su Nascondi per rendere l’utente riservato.
 
@@ -223,11 +224,11 @@ Per ripristinare il punteggio e la configurazione dell’Allievo, fai clic su Ri
 
 ## Disattivazione della funzionalità Gamification {#disablegamification}
 
-Fai clic [!UICONTROL **Gamification**] > **[!UICONTROL Impostazioni]** > [!UICONTROL **Funzionalità Gamification**]. Ciò consente di abilitare la funzionalità Gamification e la classifica separatamente per gli Allievi. Seleziona tra Abilita per Allievi interni e Abilita per Allievi esterni in base alle esigenze, quindi fai clic su OK. Tutti i punti vengono mantenuti quando attivi nuovamente la funzionalità Gamification.
+Fai clic su [!UICONTROL **Gamification**] > **[!UICONTROL Impostazioni]** > [!UICONTROL **Funzionalità Gamification**]. Ciò consente di abilitare la funzionalità Gamification e la classifica separatamente per gli Allievi. Seleziona tra Abilita per Allievi interni e Abilita per Allievi esterni in base alle esigenze, quindi fai clic su OK. Tutti i punti vengono mantenuti quando attivi nuovamente la funzionalità Gamification.
 
 ![](assets/gamification-feature.png)
 
-*Disabilita gamification*
+*Disattiva gamification*
 
 Puoi disattivare la funzionalità Gamification per utenti interni ed esterni.
 
@@ -235,14 +236,14 @@ Puoi disattivare la funzionalità Gamification per utenti interni ed esterni.
 
 Gli Amministratori possono definire l’area di validità della gamification modificando le impostazioni per l’area di validità. Puoi abilitare la gamification in modo selettivo tra utenti, gruppi o posizioni di profilo simili.
 
-1. Nell’accesso come Amministratore, fai clic su **[!UICONTROL Gamification]** nel riquadro sinistro.
-1. Apri **[!UICONTROL Gamification]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni ambito]**. La [!UICONTROL Impostazioni ambito di gamification] viene visualizzata la finestra di dialogo.
+1. Nell’accesso come Amministratore, fai clic su **[!UICONTROL Gamification]** nel riquadro a sinistra.
+1. Apri **[!UICONTROL Gamification]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni ambito]**. Viene visualizzata la finestra di dialogo [!UICONTROL Impostazioni ambito di gamification].
 
    ![](assets/scope-settings.png)
 
    *Visualizza la finestra di dialogo Impostazioni ambito di gamification*
 
-1. Fai clic sull’opzione **[!UICONTROL Abilita impostazioni ambito]**.
+1. Fai clic sull&#39;opzione **[!UICONTROL Abilita impostazioni ambito]**.
 
 1. Seleziona la Caratteristica utente dall’elenco a discesa.
 
@@ -252,4 +253,4 @@ Gli Amministratori possono definire l’area di validità della gamification mod
 
    <!--![](assets/value.png)-->
 
-1. Fai clic **[!UICONTROL Salva].**
+1. Fai clic su **[!UICONTROL Salva].**

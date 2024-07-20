@@ -3,14 +3,13 @@ description: Leggi questo articolo per scoprire come gestire i partecipanti, inv
 jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
-source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
+exl-id: 2f4f8589-2350-4683-a141-809084d6309a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 91%
 
 ---
-
-
 
 # Gestione degli Allievi per la sessione
 
@@ -20,7 +19,7 @@ Leggi questo articolo per scoprire come gestire i partecipanti, inviare e-mail r
 
 In qualità di istruttore, puoi vedere le sessioni o i moduli con revisioni in sospeso.
 
-Nella pagina Sessioni/Moduli è disponibile una colonna **Revisioni in sospeso** che mostra il numero di revisioni in sospeso per la sessione/attività corrispondente.
+Nella pagina Sessioni/Moduli, è disponibile la colonna **Revisioni in sospeso** che mostra il numero di revisioni in sospeso per la sessione/attività corrispondente.
 
 ## Gestione della lista d’attesa per la sessione {#managewaitlistforyoursession}
 
@@ -38,10 +37,10 @@ Quando gli Allievi si registrano al modulo, puoi visualizzare lo stato più rece
 
    Gli Allievi confermati sono aggiunti all’elenco di Allievi confermati.
 
-Gli istruttori hanno la possibilità di annullare l’iscrizione degli Allievi alle sessioni. In questo modo viene annullata l’iscrizione dagli apprendimenti corrispondenti. Seleziona la scheda **[!UICONTROL Lista d’attesa]**. Seleziona gli Allievi di cui annullare l’iscrizione tramite la casella di controllo. Per annullare l’iscrizione, seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Annullamento dell’iscrizione degli Allievi]**.
+Gli istruttori hanno la possibilità di annullare l’iscrizione degli Allievi alle sessioni. In questo modo viene annullata l’iscrizione dagli apprendimenti corrispondenti. Seleziona la scheda **[!UICONTROL Lista d’attesa]**. Seleziona gli Allievi di cui annullare l’iscrizione tramite la casella di controllo. Per annullare l’iscrizione, seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Annulla iscrizione allievi]**.
 
 ![](assets/unenroll-learners.png)
-*Annullamento dell’iscrizione degli Allievi*
+*Annulla l’iscrizione degli Allievi*
 
 ## Partecipazione alla sessione {#markattendanceforyoursession}
 

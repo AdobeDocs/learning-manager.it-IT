@@ -2,7 +2,8 @@
 title: Novità di questa versione (novembre 2022)
 description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 77%
@@ -229,7 +230,7 @@ Durante la creazione o l’aggiornamento della riunione VC, gli istruttori devon
 Le API seguenti vengono aggiunte per contrassegnare un corso nella pagina Panoramica del corso di formazione:
 
 * Ottieni tutti i segnalibri: `primeapi/v2/bookmarks`
-* Creare un segnalibro: `primeapi/v2/learningObjects/{id}/bookmark`
+* Crea segnalibro: `primeapi/v2/learningObjects/{id}/bookmark`
 * Eliminare un segnalibro: `primeapi/v2/learningObjects/{id}/bookmark`
 
 ### Supporto per metadati e contenuti multiconali tramite migrazione
@@ -315,7 +316,7 @@ In questa versione, sono state rese pubbliche alcune API.
 
 ### App Salesforce
 
-La **Ignora LO ordine superiore** L’opzione deve essere abilitata nell’app Salesforce in modo che tutti i corsi, i programmi di apprendimento e i certificati possano essere visualizzati contemporaneamente.
+L’opzione **Ignora gli oggetti di apprendimento di ordine superiore** deve essere abilitata nell’app Salesforce in modo che tutti i corsi, i programmi di apprendimento e i certificati possano essere visualizzati contemporaneamente.
 
 ### API per la personalizzazione del lettore
 
@@ -339,23 +340,23 @@ L’API /primeapi/v2/learningObjects/certification:xxxxx con attributo “comple
 
 ### Ottenimento dei dati di anteprima LO
 
-Il file GET /preview/learningObjects/{id} L’API viene aggiunta per ottenere informazioni di anteprima su un oggetto di apprendimento.
+L’API GET /preview/learningObjects/{id} viene aggiunta per ottenere informazioni di anteprima su un oggetto di apprendimento.
 
 ### Spostamento degli utenti esterni all’interno dei profili
 
-La `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` consente di spostare un utente in un altro profilo esterno specificando un nuovo id externalProfile.
+La chiamata `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` consente di spostare un utente in un altro profilo esterno specificando un nuovo ID externalProfile.
 
 ### Aggiunta di utenti a profili esterni
 
-La `POST /externalProfiles/{id}/users` aggiunge utenti esterni al profilo esterno.
+`POST /externalProfiles/{id}/users` aggiunge utenti esterni al profilo esterno.
 
 ## Note sulla versione
 
-Per informazioni sulle versioni correnti e precedenti dell’app Web e per dispositivi di Learning Manager, consulta la [Note sulla versione](/help/migrated/release-note/release-notes.md).
+Per informazioni sulle versioni correnti e precedenti dell’app Web e per dispositivi di Learning Manager, consulta le [Note sulla versione](/help/migrated/release-note/release-notes.md).
 
 ## Correzioni di bug
 
-Per visualizzare i bug risolti in questo aggiornamento, consultare [Elenco bug corretti](release-note/release-notes.md#bugs-fixed-in-this-release).
+Per visualizzare i bug risolti in questo aggiornamento, consultare l&#39;[elenco Bug corretti](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Requisiti di sistema
 

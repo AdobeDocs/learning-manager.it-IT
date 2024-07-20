@@ -32,7 +32,7 @@ Tuttavia, hai la possibilità di scorrere tra i corsi elencati in CATALOGO utili
 
 Sì, puoi accedere ai contenuti offline tramite iPad, schede Android e smartphone.
 
-Per ulteriori informazioni sull&#39;accesso offline, fare riferimento a  [Utenti di iPad e tablet Android](feature-summary/ipad-android-tablet-users.md) funzione.
+Per ulteriori informazioni sull&#39;accesso offline, fai riferimento alla funzionalità [Utenti di iPad e tablet Android](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -48,7 +48,7 @@ Fai clic nel campo di ricerca. Puoi abilitare la ricerca durante la digitazione 
 
 Sì, puoi confrontare i punti di apprendimento con i tuoi colleghi. Passa il mouse sopra al cerchio del profilo. Puoi visualizzare qui i tuoi punti. Per visualizzare la finestra di dialogo Classifica, fare clic su Vai a Classifica. In questa finestra di dialogo, puoi visualizzare l’elenco dei tuoi colleghi in base al punteggio simile.
 
-Per ulteriori informazioni, consulta  [Classifica](feature-summary/gamification.md)funzione.
+Per ulteriori informazioni, consulta la funzionalità [Classifica](feature-summary/gamification.md).
 
 +++
 
@@ -68,7 +68,7 @@ Fai clic sulla freccia rivolta verso il basso nell’angolo in basso a destra de
 
 +++Qual è la differenza tra apprendimento e catalogo?
 
-Nella scheda Apprendimento, puoi visualizzare tutte le  [corsi](feature-summary/courses.md),  [programmi di apprendimento](feature-summary/learning-programs.md) e  [certificazioni](feature-summary/certifications.md) che sono registrati dall’utente o assegnati all’utente. Puoi anche passare alla scheda Apprendimento facendo clic sul collegamento Vai a Apprendimento.
+Nella scheda Apprendimento puoi visualizzare tutti i [corsi](feature-summary/courses.md), i [programmi di apprendimento](feature-summary/learning-programs.md) e le [certificazioni](feature-summary/certifications.md) a cui hai effettuato l’iscrizione o che ti sono state assegnate. Puoi anche passare alla scheda Apprendimento facendo clic sul collegamento Vai a Apprendimento.
 
 Nella scheda Catalogo puoi visualizzare tutti i corsi, i programmi di apprendimento e le certificazioni disponibili per il tuo ruolo nell’account aziendale. Potete anche passare alla scheda Catalogo facendo clic sul collegamento Vai al catalogo.
 
@@ -94,7 +94,7 @@ Quando gli Allievi completano l’accettazione di alcuni corsi, possono verifica
 
 Per visualizzare le abilità, fai clic su uno dei nomi di abilità nell’area della mappa di abilità nell’angolo superiore destro della pagina di destinazione. Le abilità sono visualizzate insieme ai relativi livelli accanto ad esse.
 
-Per ulteriori informazioni, consulta  [Abilità e livelli](feature-summary/skills-levels.md) funzione.
+Per ulteriori informazioni, consulta la funzionalità [Abilità e livelli](feature-summary/skills-levels.md).
 
 +++
 
@@ -102,7 +102,7 @@ Per ulteriori informazioni, consulta  [Abilità e livelli](feature-summary/skill
 
 Sì, puoi accedere a Learning Manager su smartphone, iPad o qualsiasi altro tablet Android.
 
-Per ulteriori informazioni su questa funzione, fare riferimento a  [Utenti delle app iPad e Android](feature-summary/ipad-android-tablet-users.md) funzione.
+Per ulteriori informazioni su questa funzionalità, fai riferimento alla funzionalità [Utenti dell&#39;app per iPad e Android](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -110,19 +110,19 @@ Per ulteriori informazioni su questa funzione, fare riferimento a  [Utenti delle
 
 Sì, Learning Manager è accessibile tramite iPad. Puoi scaricare l’app dall’app store o da Google Play.
 
-Solo le funzionalità del ruolo Allievo sono accessibili tramite iPad o tablet Android. Puoi inoltre seguire corsi offline ed eseguire la sincronizzazione con l’applicazione una volta tornato online. Per ulteriori informazioni, fare riferimento a  [Utenti delle app iPad e Android](feature-summary/ipad-android-tablet-users.md) funzione
+Solo le funzionalità del ruolo Allievo sono accessibili tramite iPad o tablet Android. Puoi inoltre seguire corsi offline ed eseguire la sincronizzazione con l’applicazione una volta tornato online. Per ulteriori informazioni, fai riferimento alla funzionalità [Utenti dell&#39;app per iPad e Android](feature-summary/ipad-android-tablet-users.md)
 
 +++
 
 +++Impossibile accedere a Learning Manager. Cosa fare?
 
-Se disponi dell’Adobe ID, puoi accedere a Learning Manager. Seguire le istruzioni riportate nella  [accesso utente](feature-summary/user-login.md) per ulteriori informazioni su come accedere all’applicazione. Se il problema persiste, contatta il nostro team di assistenza.
+Se disponi dell’Adobe ID, puoi accedere a Learning Manager. Segui le istruzioni visualizzate nella funzionalità [accesso utente](feature-summary/user-login.md) per ulteriori informazioni su come accedere all&#39;applicazione. Se il problema persiste, contatta il nostro team di assistenza.
 
 +++
 
 +++Come raggiungere un livello di abilità?
 
-Ogni volta che acquisisci un nuovo livello di abilità, puoi ottenere nuovi crediti. I crediti sono associati ai livelli di abilità. Per ulteriori informazioni su abilità e livelli, consulta  [abilità e livelli](feature-summary/skills-levels.md) funzione.
+Ogni volta che acquisisci un nuovo livello di abilità, puoi ottenere nuovi crediti. I crediti sono associati ai livelli di abilità. Per ulteriori informazioni su abilità e livelli, fai riferimento alla funzionalità [abilità e livelli](feature-summary/skills-levels.md).
 
 +++
 
@@ -140,9 +140,9 @@ Puoi esprimere interesse nell’iscriverti a qualsiasi corso in aula senza alcun
 
 +++Qual è la differenza tra crediti e punti di gamification?
 
-Ogni volta che acquisisci un nuovo livello di abilità, puoi ottenere nuovi crediti. I crediti sono associati ai livelli di abilità. Per ulteriori informazioni sui crediti, le abilità e i livelli, consulta  [abilità e livelli](feature-summary/skills-levels.md) funzione.
+Ogni volta che acquisisci un nuovo livello di abilità, puoi ottenere nuovi crediti. I crediti sono associati ai livelli di abilità. Per ulteriori informazioni sui crediti, sulle abilità e sui livelli, fai riferimento alla funzionalità [abilità e livelli](feature-summary/skills-levels.md).
 
-Ottieni punti di gamification ogni volta che completi un&#39;attività. Attualmente, sono disponibili sei attività di gamification disponibili in Learning Manager. Al termine di ogni attività, si acquisisce un numero specifico di punti associati a tale attività. Per ulteriori informazioni, consulta  [gamification](feature-summary/gamification.md) funzione.
+Ottieni punti di gamification ogni volta che completi un&#39;attività. Attualmente, sono disponibili sei attività di gamification disponibili in Learning Manager. Al termine di ogni attività, si acquisisce un numero specifico di punti associati a tale attività. Per ulteriori informazioni, consulta la funzionalità [gamification](feature-summary/gamification.md).
 
 +++
 
@@ -154,7 +154,7 @@ Un elenco di dispositivi acquisito dall’Allievo viene visualizzato nella parte
 
 I distintivi sono assegnati agli Allievi in base a criteri specifici definiti dall’organizzazione, ovvero solitamente il completamento positivo di un corso o di qualsiasi oggetto di apprendimento.
 
-Per ulteriori informazioni, consulta  [badge](feature-summary/badges.md) funzione.
+Per ulteriori informazioni, consulta la funzionalità [distintivi](feature-summary/badges.md).
 
 +++
 
@@ -164,7 +164,7 @@ I programmi di apprendimento sono un set di corsi progettati specificatamente pe
 
 Per iniziare il programma di apprendimento, fai clic sul programma a te assegnato. Puoi visualizzare le informazioni dettagliate di tale particolare programma.
 
-A **Avvia programma** nell’angolo superiore destro della pagina del programma di apprendimento. Fai clic **[!UICONTROL Avvia programma]** per iniziare il corso.
+Nell&#39;angolo superiore destro della pagina del programma di apprendimento viene visualizzato il pulsante **Avvia programma**. Fai clic su **[!UICONTROL Avvia programma]** per iniziare a seguire il corso.
 
 +++
 
@@ -181,7 +181,7 @@ In base ai punti ottenuti al completamento del corso, ti vengono assegnati i seg
 
 Se necessario, puoi visualizzare i punti di livello correnti nel profilo e nella destinazione per raggiungere punti più alti.
 
-Riferimento  [Funzionalità Gamification](feature-summary/gamification.md) per ulteriori informazioni.
+Per ulteriori informazioni, fai riferimento alla [funzionalità Gamification](feature-summary/gamification.md).
 
 +++
 
@@ -189,7 +189,7 @@ Riferimento  [Funzionalità Gamification](feature-summary/gamification.md) per u
 
 Tutti i corsi in Learning Manager vengono riprodotti nei browser. Puoi visualizzare i corsi a schermo intero utilizzando il lettore Fluidic di Learning Manager.
 
-Riferimento  [Funzione del lettore Fluidic](feature-summary/fluidic-player.md) per ulteriori informazioni su Player.
+Per ulteriori informazioni sul lettore, fai riferimento alla [funzionalità lettore Fluidic](feature-summary/fluidic-player.md).
 
 [Posso esportare le mie note personali?](frequently-asked-questions-for-learners.md)
 
@@ -225,10 +225,10 @@ Puoi creare note durante la lettura del contenuto del corso seguendo questi pass
 Puoi scaricare o inviare via e-mail le note del corso seguendo i passaggi riportati di seguito:
 
 1. Fai clic sulla sezione del corso per cui visualizzare le note.
-1. Fare clic sul pulsante **Note** scheda adiacente a **Moduli** scheda.
+1. Fare clic sulla scheda **Note** accanto alla scheda **Moduli**.
 
-1. Fai clic **[!UICONTROL Scarica note]** per scaricarlo in formato pdf.
-1. Fai clic **[!UICONTROL Note e-mail]** per ricevere le note tramite e-mail all’account.
+1. Fai clic su **[!UICONTROL Scarica note]** per scaricarle in formato pdf.
+1. Fai clic su **[!UICONTROL Note e-mail]** per ricevere le note tramite e-mail al tuo account e-mail.
 
 +++
 
@@ -259,7 +259,7 @@ Riceverai una notifica di completamento del corso insieme al collegamento per fo
 
 Come parte della ricompensa e del riconoscimento degli obiettivi dell’Allievo, Learning Manager introduce i distintivi online per gli Allievi. I distintivi vengono assegnati in base a criteri impostati e quindi visualizzati nel profilo di un Allievo nella parte superiore della home page degli Allievi.
 
-Riferimento  [Funzione Certificazioni](feature-summary/certifications.md) per ulteriori informazioni sulle certificazioni per gli allievi.
+Per ulteriori informazioni sulle certificazioni per gli Allievi, fai riferimento alla [funzionalità Certificazioni](feature-summary/certifications.md).
 
 +++
 
@@ -308,8 +308,8 @@ A seconda della scelta, puoi visualizzare l’elenco filtrato di corsi e sceglie
 
 +++Come posso accedere ai miei corsi in Learning Manager?
 
-1. Accedi a Learning Manager come allievo. Se si è dimenticata la password, fare clic su **[!UICONTROL Password dimenticata]** collegamento fornito nella pagina di accesso per recuperarlo nell’id e-mail.
-1. Una volta effettuato l’accesso, puoi visualizzare la scheda CORSI nella parte superiore. Fai clic **[!UICONTROL CORSI]** per visualizzare l’elenco dei corsi assegnati.
+1. Accedi a Learning Manager come allievo. Se hai dimenticato la password, fai clic sul collegamento **[!UICONTROL Password dimenticata]** fornito nella pagina di accesso per ripristinarne l&#39;ID e-mail.
+1. Una volta effettuato l’accesso, puoi visualizzare la scheda CORSI nella parte superiore. Fai clic sulla scheda **[!UICONTROL CORSI]** per visualizzare l’elenco dei corsi assegnati.
 
 +++
 

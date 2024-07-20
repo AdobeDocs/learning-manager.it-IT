@@ -22,17 +22,17 @@ L’Apprendimento sociale consente agli Allievi di studiare ovunque si trovino e
 Per abilitare e configurare la funzione di Apprendimento sociale, procedi come indicato di seguito:
 
 1. Fai clic su **[!UICONTROL Apprendimento sociale]** nel pannello di navigazione a sinistra. Verrai reindirizzato alla pagina delle attività.
-1. Abilita **[!UICONTROL Apprendimento sociale]** funzione che utilizza **[!UICONTROL Abilita]** nella pagina Attività se la si attiva per la prima volta. In caso contrario, può essere attivata dal **[!UICONTROL Impostazioni]** pagina.
+1. Se attivi la funzione **[!UICONTROL Apprendimento sociale]** per la prima volta, utilizza il pulsante **[!UICONTROL Abilita]** nella pagina Attività. In caso contrario, può essere abilitata dalla pagina **[!UICONTROL Impostazioni]**.
 
    Viene visualizzata una finestra di dialogo a comparsa, simile a quella riportata nella schermata sottostante.
 
    ![](assets/artboard-20-2x.png) ![](assets/enable-social-learningforthefirsttime.png)
 
-   *Abilitare l’apprendimento sociale*
+   *Abilita apprendimento sociale*
 
 <!-- ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)-->
 
-L’Amministratore può configurare le impostazioni per Apprendimento sociale. Le impostazioni includono tipi di Content Curations come **[!UICONTROL Cura solo manuale]** e **[!UICONTROL Nessuna cura]**. Le impostazioni dell’ambito possono essere impostate su un ambito diverso, ad esempio tipo di utente (interno/esterno) o qualsiasi altro campo attivo presente nell’account. L’Amministratore può impostare il percorso URL da cui gli Allievi possono scaricare l’applicazione desktop Adobe Learning Manager.
+L’Amministratore può configurare le impostazioni per Apprendimento sociale. Le impostazioni includono tipi di Curazioni di contenuti come **[!UICONTROL Cura solo manuale]** e **[!UICONTROL Nessuna cura]**. Le impostazioni dell’ambito possono essere impostate su un ambito diverso, ad esempio tipo di utente (interno/esterno) o qualsiasi altro campo attivo presente nell’account. L’Amministratore può impostare il percorso URL da cui gli Allievi possono scaricare l’applicazione desktop Adobe Learning Manager.
 
 ### Cura dei contenuti {#contentcuration}
 
@@ -40,13 +40,13 @@ Poiché Apprendimento sociale è un apprendimento informale, il suo funzionament
 
 **[!UICONTROL Cura solo manuale]** e **[!UICONTROL Nessuna cura]** sono due opzioni di cura che possono essere selezionate dall&#39;amministratore.
 
-**[!UICONTROL Cura manuale auto-assistita]:** Learning Manager dispone di un motore di cura automatica basato sull’intelligenza artificiale in grado di individuare in modo intelligente l’essenza del contenuto di qualsiasi formato che potrà essere successivamente servito agli Allievi desiderati. Può inoltre approvare o rifiutare la pubblicazione di un contenuto in base al punteggio di attendibilità fornito.
+**[!UICONTROL Cura manuale auto-assistita]:** Learning Manager dispone di un motore di cura automatica basato sull’intelligenza artificiale che può scoprire in modo intelligente l’essenza del contenuto di qualsiasi formato che potrà essere successivamente servito agli Allievi desiderati. Può inoltre approvare o rifiutare la pubblicazione di un contenuto in base al punteggio di attendibilità fornito.
 
 Ad esempio, Adarsh è un Allievo e ha trovato un blog interessante, quindi lo pubblica sulla piattaforma di Apprendimento sociale di Adobe Learning Manager. Il post viene quindi inviato al Content Curation Engine basato sull&#39;intelligenza artificiale, che prevede le abilità presenti nel contenuto e le confronta con le abilità associate alla bacheca. Se una delle abilità corrisponde, il contenuto viene pubblicato altrimenti viene inviato per la cura solo manuale.
 
 Il punteggio minimo di attendibilità richiesto per la registrazione è del 50%.
 
-**[!UICONTROL Cura solo manuale]:** Per verificare l’autenticità del contenuto prima che venga pubblicato, l’Amministratore può abilitare l’impostazione Cura solo manuale. Una volta abilitata l’impostazione Cura solo manuale, il contenuto viene sottoposto all’attenzione dei principali SME (massimo 3) per la cura. In base alla risposta media, il posto è approvato/rifiutato di conseguenza. Se la risposta è maggiore o uguale al 50%, il post viene pubblicato, in caso contrario viene respinto. Per maggiori informazioni sugli SME, [fai clic qui](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+**[!UICONTROL Cura solo manuale]:** Per verificare l&#39;autenticità del contenuto prima che diventi attivo, l&#39;amministratore può abilitare l&#39;impostazione Cura solo manuale. Una volta abilitata l’impostazione Cura solo manuale, il contenuto viene sottoposto all’attenzione dei principali SME (massimo 3) per la cura. In base alla risposta media, il posto è approvato/rifiutato di conseguenza. Se la risposta è maggiore o uguale al 50%, il post viene pubblicato, in caso contrario viene respinto. Per maggiori informazioni sugli SME, [fai clic qui](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
 
 Nel nuovo ambito, l’utente ottiene punti per le attività su tutte le bacheche.
@@ -55,13 +55,13 @@ Nelle sezioni della classifica social, un utente può vedere tutti gli utenti de
 
 Se ti sono stati concessi privilegi di utente speciale, potrai vedere tutti gli utenti dell’account nella tua classifica, indipendentemente dagli ambiti degli utenti.
 
-Se gli utenti speciali diventano PMI guadagnando punti sufficienti, essi appaiono nel **[!UICONTROL Principali esperti in materia]** nella bacheca dei leader sociali.
+Se gli utenti speciali diventano PMI guadagnando punti sufficienti, vengono visualizzati nell&#39;elenco **[!UICONTROL Primi esperti in materia]** nel social leader-board.
 
 Le modifiche verranno applicate tra 60 minuti.
 
 ### Impostazioni ambito {#scopesettings}
 
-In Apprendimento sociale, un Ambito determina le bacheche visualizzate, controllando la visibilità del contenuto. Se un utente ha un ambito, ad esempio: ***Vendor_A***, può vedere solo bacheche e post associati creati da altri utenti appartenenti allo stesso ambito ***Vendor_A***.
+In Apprendimento sociale, un Ambito determina le bacheche visualizzate, controllando la visibilità del contenuto. Se un utente ha un ambito, ad esempio ***Vendor_A***, può visualizzare solo bacheche e post associati creati da altri utenti appartenenti allo stesso ambito ***Vendor_A***.
 
 Questo consente agli Amministratori di mantenere separata una coorte di utenti, ad esempio, fornitori, partner o reparti di un’organizzazione.
 
@@ -71,15 +71,15 @@ Sono disponibili sezioni separate per abilitare gli utenti interni ed esterni.
 
 **Abilita per Allievi interni**
 
-In questa sezione, puoi scegliere la caratteristica utente per definire l’ambito di apprendimento sociale per gli utenti interni. Utenti con le stesse caratteristiche **valore** condividi lo stesso spazio di apprendimento sociale.
+In questa sezione, puoi scegliere la caratteristica utente per definire l’ambito di apprendimento sociale per gli utenti interni. Gli utenti con le stesse caratteristiche **valore** condividono lo stesso spazio di apprendimento sociale.
 
-Dal menu **Caratteristica utente** dall&#39;elenco a discesa, scegli l&#39;opzione richiesta.
+Dall&#39;elenco a discesa **Caratteristica utente**, scegli l&#39;opzione richiesta.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *Selezionare le caratteristiche utente per definire l&#39;ambito*
 
-Per impostazione predefinita, l’opzione **[!UICONTROL Tutti gli utenti interni]** nell’elenco a discesa Caratteristica utente l’opzione è sempre selezionata.
+Per impostazione predefinita, l&#39;opzione **[!UICONTROL Tutti gli utenti interni]** nell&#39;opzione dell&#39;elenco a discesa Caratteristica utente è sempre selezionata.
 
 Puoi definire l’ambito degli utenti interni in base ai relativi campi attivi.
 
@@ -101,7 +101,7 @@ Ad esempio, l’Amministratore può impostare l’ambito su **[!UICONTROL Tipo d
 
 Una volta selezionata una Caratteristica utente, l’Amministratore può limitare la funzione di Apprendimento sociale ad Allievi e gruppi di Allievi selezionando la casella di controllo sotto il campo Caratteristica utente. Fai clic sul campo valore per selezionare gli Allievi o i gruppi di Allievi per i quali desideri abilitare la funzione di Apprendimento sociale.
 
-Per impostazione predefinita, l&#39;ambito viene impostato dal **[!UICONTROL Tipo utente]** ovvero Allievi interni o esterni.
+Per impostazione predefinita, l’ambito è impostato dal **[!UICONTROL Tipo utente]** che è Allievi interni o esterni.
 
 Se il campo attivo non contiene nessun valore, l’elenco a discesa del campo **[!UICONTROL Valore]** non sarà visibile all’Amministratore.
 
@@ -117,7 +117,7 @@ Per i server Enterprise, l’Amministratore può modificare la posizione da cui 
 
 ![](assets/enterprise-servers.png)
 
-*Modificare la posizione di download*
+*Modifica del percorso di download*
 
 L’URL del server Enterprise deve essere ospitato pubblicamente.
 
@@ -165,7 +165,7 @@ Nelle sezioni della classifica social, un utente può vedere tutti gli utenti de
 
 Se ti sono stati concessi privilegi di utente speciale, potrai vedere tutti gli utenti dell’account nella tua classifica, indipendentemente dagli ambiti degli utenti.
 
-Se gli utenti speciali diventano PMI guadagnando punti sufficienti, essi appaiono nel **[!UICONTROL Principali esperti in materia]** nella bacheca dei leader sociali.
+Se gli utenti speciali diventano PMI guadagnando punti sufficienti, vengono visualizzati nell&#39;elenco **[!UICONTROL Primi esperti in materia]** nel social leader-board.
 
 Le modifiche verranno applicate tra 60 minuti.
 
@@ -174,20 +174,20 @@ Le modifiche verranno applicate tra 60 minuti.
 L’Amministratore può personalizzare il titolo e il sottotitolo visualizzati nell’immagine dell’intestazione della pagina principale di Apprendimento sociale. Qualunque cosa l’Amministratore decida di immettere come titolo e sottotitolo, ci saranno le stesse funzioni della pagina principale di Apprendimento sociale dell’Allievo.
 
 1. Nell’app di amministrazione, fai clic su **[!UICONTROL Apprendimento sociale]** > **[!UICONTROL Impostazioni]**.
-1. Fai clic **[!UICONTROL Personalizza]**.
-1. Cambia l’immagine banner. Le dimensioni dell’immagine devono essere almeno **1600 px X 240 px**.
-1. Attivare/disattivare l&#39;opzione per nascondere o visualizzare **[!UICONTROL Ulteriori informazioni]** sul banner.
+1. Fai clic su **[!UICONTROL Personalizza]**.
+1. Cambia l’immagine banner. Le dimensioni dell&#39;immagine devono essere almeno **1600 px X 240 px**.
+1. Attiva o disattiva l&#39;opzione per nascondere o visualizzare il collegamento **[!UICONTROL Ulteriori informazioni]** nel banner.
 1. Immetti il titolo e il sottotitolo nei seguenti campi:
 
    ![](assets/image012.png)
 
-   *Personalizzare il banner social*
+   *Personalizzazione del banner social*
 
 Sono disponibili altre opzioni:
 
-* **[!UICONTROL Lingua]:** Dall’elenco a discesa, scegli la lingua in cui tradurre il titolo e il sottotitolo. Puoi anche aggiungere testi personalizzati in base alla lingua.
+* **[!UICONTROL Lingua]:** Dall&#39;elenco a discesa, scegli la lingua in cui tradurre il titolo e il sottotitolo. Puoi anche aggiungere testi personalizzati in base alla lingua.
 * **[!UICONTROL Replica]:** Fare clic su questo pulsante per replicare il titolo e il sottotitolo in tutte le lingue.
-* **[!UICONTROL Reimposta]:** Fare clic su questo pulsante per ripristinare il titolo e il sottotitolo originali.
+* **[!UICONTROL Ripristina]:** Fare clic su questo pulsante per ripristinare il titolo e il sottotitolo originali.
 
   Nella pagina principale dell’Apprendimento sociale, le informazioni fornite dall’Amministratore vengono visualizzate come intestazione di pagina.
 
@@ -221,7 +221,7 @@ L’Amministratore può abilitare l’opzione di cura automatica dei contenuti d
 
    ![](assets/auto-curation.png)
 
-   *Seleziona l’opzione Cura manuale auto-assistita*
+   *Selezionare l&#39;opzione Cura manuale assistita automaticamente*
 
 Quando un utente carica un contenuto su una bacheca, un algoritmo basato su intelligenza artificiale preleva il testo dal contenuto; il testo viene quindi trasferito sul motore di cura. Il motore di cura tenta di individuare le abilità presenti nel contenuto.
 
@@ -231,11 +231,11 @@ Quando un contenuto viene sottoposto a cura automatica, all’utente viene notif
 
 ![](assets/only-ai-based.png)
 
-*Impostazioni del diagramma di flusso*
+*Diagramma di flusso delle impostazioni di cura*
 
-È opportuno che l’Amministratore aggiunga SME per le abilità se la Cura solo manuale è attiva. L’Amministratore può aggiungere SME assegnando in anticipo punti SME agli utenti con competenze specifiche. Per ulteriori informazioni su come fornire punti alle PMI,  [fai clic qui](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+È opportuno che l’Amministratore aggiunga SME per le abilità se la Cura solo manuale è attiva. L’Amministratore può aggiungere SME assegnando in anticipo punti SME agli utenti con competenze specifiche. Per ulteriori informazioni su come fornire punti alle PMI, [fai clic qui](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
 
-**Nessuna cura:** Tutti i post dell’Allievo vengono pubblicati automaticamente senza alcuna moderazione dei contenuti.
+**Nessuna cura:** tutti i post dell’Allievo vengono pubblicati automaticamente senza alcuna moderazione dei contenuti.
 
 <!--![](assets/artboard-6-2x.png)-->
 
@@ -288,7 +288,7 @@ Come stabilito, gli SME vengono aggiunti/assegnati in base alle abilità, Questo
 
 **Moderatori:** proprietari secondari della bacheca. Vengono aggiunti dai creatori durante la creazione della bacheca in modo che possano controllare la bacheca in assenza del creatore. Per impostazione predefinita, il creatore della bacheca è il moderatore.
 
-**PMI:** Gli esperti in materia sono esperti in competenze specifiche. L’amministratore può assegnare alle PMI una particolare abilità per curarne il contenuto. Gli SME ricevono le richieste di cura per le bacheche correlate alle loro abilità. Gli studenti possono anche diventare SME acquisendo punti SME.
+**SME:** gli esperti in materia sono esperti in competenze specifiche. L’amministratore può assegnare alle PMI una particolare abilità per curarne il contenuto. Gli SME ricevono le richieste di cura per le bacheche correlate alle loro abilità. Gli studenti possono anche diventare SME acquisendo punti SME.
 
 +++
 
@@ -314,7 +314,7 @@ Il primo elemento visivo fornisce all’Amministratore le seguenti informazioni 
 
 1. **[!UICONTROL Nuovi post]**: visualizza il numero di nuovi post creati nel periodo specificato. Viene visualizzato anche il numero totale di post per l’intero periodo.
 1. **[!UICONTROL Percentuale di utenti attivi]**: visualizza la percentuale totale di utenti attivi nell’apprendimento sociale rispetto al numero totale di utenti disponibili nell’account.
-1. **[!UICONTROL Nuove schede]**: visualizza il numero di nuove bacheche create. Viene visualizzato anche il numero totale di bacheche per l’intero periodo.
+1. **[!UICONTROL Nuove bacheche]**: visualizza il numero di nuove bacheche create. Viene visualizzato anche il numero totale di bacheche per l’intero periodo.
 
 Il secondo elemento visivo è un grafico a linee che mostra il trend relativo al numero di bacheche o post creati in relazione al periodo di tempo selezionato nel filtro data. Fai clic sul filtro per visualizzare le diverse opzioni temporali: gli ultimi sette giorni, il mese scorso, gli ultimi tre mesi e l’intero periodo.
 
@@ -429,7 +429,7 @@ In base alle abilità utilizzate principalmente dagli utenti finali di Learning 
 
 ## Esperti in materia (SME) {#subjectmatterexpertssmes}
 
-**Esperti in materia** sono persone che hanno una notevole conoscenza ed esperienza in una competenza. Un **PMI** svolge un ruolo importante nell’apprendimento sociale quando l’amministratore ha impostato le impostazioni di cura come manuali o quando il metodo di cura automatica non riesce a curare il contenuto. Nella colonna SME vengono visualizzati solo i tre SME principali.
+**Gli esperti in materia** sono persone che possiedono conoscenze e competenze considerevoli in un&#39;abilità. Un **SME** svolge un ruolo importante nell&#39;apprendimento sociale quando l&#39;amministratore ha impostato le impostazioni di cura come manuali o quando il metodo di cura automatica non riesce a curare il contenuto. Nella colonna SME vengono visualizzati solo i tre SME principali.
 
 ## Requisiti per diventare SME {#requirementstobeansme}
 
@@ -439,19 +439,19 @@ Per diventare SME è necessario ottenere punti SME attraverso attività di Appre
 
 Per aggiungere SME a un’abilità, segui la procedura descritta di seguito:
 
-1. Fai clic **[!UICONTROL Aggiungi PMI]** oppure **[!UICONTROL Modifica PMI]**.
+1. Fare clic su **[!UICONTROL Aggiungi SME]** o **[!UICONTROL Modifica SME]**.
 
    ![](assets/add-smes-06.png)
 
    *Aggiungi o modifica SME*
 
-1. Fai clic **[!UICONTROL Opzioni avanzate]** dalla finestra a comparsa.
+1. Fai clic su **[!UICONTROL Opzioni avanzate]** nella finestra a comparsa.
 
    ![](assets/advanced-optionssmes.png)
 
    *Visualizza finestra di dialogo Opzioni avanzate*
 
-1. Cerca l’utente con esperienza nell’abilità. Una volta trovato l’utente, digita il numero di punti che vuoi assegnargli nel **Aggiungi punti** casella di immissione.
+1. Cerca l’utente con esperienza nell’abilità. Una volta trovato l&#39;utente, digita il numero di punti che vuoi assegnargli nella casella di input **Aggiungi punti**.
 
    Se l’utente ha già ottenuto altri punti, il numero di nuovi punti assegnati viene aggiunto al numero di punti corrente.
 
@@ -463,9 +463,9 @@ Per aggiungere SME a un’abilità, segui la procedura descritta di seguito:
 
 1. Selezionando la casella di controllo **[!UICONTROL Abilita numero minimo di punti SME]**, è possibile impostare un limite al numero minimo di punti richiesti affinché un utente venga visualizzato come SME nell’elenco dei principali SME. Una volta impostato il valore di soglia, gli SME con un numero di punti inferiore o uguale al numero di punti minimo richiesto non sono riportati negli elenchi di SME.
 
-   Se il **[!UICONTROL Abilita punti SME minimi]** se la casella di controllo non è selezionata, i tre utenti con i punti più alti sono considerati gli SME per quella determinata abilità.
+   Se la casella di controllo **[!UICONTROL Abilita punti SME minimi]** non è selezionata, i primi tre utenti con punti più alti sono considerati gli SME per quella determinata abilità.
 
-1. Fai clic **[!UICONTROL Salva]** per visualizzare le modifiche apportate.
+1. Fai clic sul pulsante **[!UICONTROL Salva]** per visualizzare le modifiche apportate.
 
 ## Sistema di punti SME {#smepointsystem}
 
@@ -484,13 +484,13 @@ Per aggiungere SME a un’abilità, segui la procedura descritta di seguito:
 
 ## Attività social per il piano di fatturazione degli utenti attivi su base mensile {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Ogni volta che un utente crea una nuova bacheca social, post social o commento social, conterà come attività valida da contare contro il **Utente attivazione mensile**(MAU) se l’account segue il modello di fatturazione MAU. Per ulteriori informazioni, fai riferimento alla [gestione della fatturazione](billing-management.md).
+Ogni volta che un utente crea una nuova bacheca social, post social o commento social, verrebbe conteggiata come attività valida da contare nel piano **Utente attivazione mensile**(MAU) se l&#39;account segue il modello di fatturazione MAU. Per ulteriori informazioni, fai riferimento alla [gestione della fatturazione](billing-management.md).
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
 +++Come abilitare l’apprendimento sociale per gli Allievi esterni?
 
-Ingresso **[!UICONTROL Apprendimento sociale]** > **[!UICONTROL Impostazioni]**, nella sezione Impostazioni ambito, abilita l’opzione **[!UICONTROL Abilita per Allievi esterni]**. Dall’elenco a discesa, scegli un profilo esterno e definisci l’ambito di apprendimento per tale profilo.
+In **[!UICONTROL Apprendimento sociale]** > **[!UICONTROL Impostazioni]**, nella sezione Impostazioni ambito, abilita l’opzione **[!UICONTROL Abilita per Allievi esterni]**. Dall’elenco a discesa, scegli un profilo esterno e definisci l’ambito di apprendimento per tale profilo.
 
 ![](assets/social-scope-external-users.png)
 

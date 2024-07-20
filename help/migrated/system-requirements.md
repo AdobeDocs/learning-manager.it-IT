@@ -98,7 +98,7 @@ La dimensione massima che può essere caricato è pari a 600 MB.
 >
 >Se le dimensioni del file *user.csv* superano i 100 MB, l’importazione di questo file può causare un funzionamento imprevisto del browser. Il problema si verifica perché la memoria del browser è esaurita.
 
-Si consiglia di importare file di grandi dimensioni *user.csv* file mediante il flusso di lavoro automatico Box/Exavault. Per ulteriori informazioni, consulta [Migrazione dei file](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Si consiglia di importare file *user.csv* di grandi dimensioni utilizzando il flusso di lavoro automatico Box/Exavault. Per ulteriori informazioni, consulta [Migrazione dei file](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Formati contenuto supportati
@@ -309,7 +309,7 @@ Assicurati che i seguenti domini di terze parti siano autorizzati nella whitelis
   </tr>
   <tr>
    <td>Connettore getAbstract</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Connettore Box</td>

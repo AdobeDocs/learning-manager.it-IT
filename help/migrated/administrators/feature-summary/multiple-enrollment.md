@@ -1,7 +1,8 @@
 ---
 title: Iscrizione multipla in Adobe Learning Manager
 description: In qualità di Amministratore dell’account, uno dei tuoi compiti principali è creare istanze diverse di sessioni VILT in diversi fusi orari ed eventualmente creare sessioni per gruppi di utenti specifici.
-source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
+exl-id: c430545d-b48e-432d-a278-658c9281818f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 68%
@@ -20,8 +21,8 @@ La funzione di iscrizione multipla di Adobe Learning Manager aiuta un Amministra
 
 L’iscrizione multipla consente di iscrivere un Allievo più volte in un corso tramite varie istanze disponibili.  Un Allievo può iscriversi a più istanze del corso indipendentemente dallo stato al quale è iscritto, ha completato o deve ancora iniziare. Se l’Autore abilita l’opzione [!UICONTROL Iscrizione multipla], un Allievo può iscriversi a più istanze del corso.
 
-![immagine di iscrizione multipla](assets/multi-enrollment-author.png)
-*Avvia iscrizione multipla da Impostazioni*
+![immagine a iscrizione multipla](assets/multi-enrollment-author.png)
+*Avvia più iscrizioni dalle impostazioni*
 
 È possibile monitorare singolarmente l’avanzamento di ogni istanza ed esportare il relativo report.
 
@@ -33,11 +34,11 @@ L’iscrizione multipla consente di iscrivere un Allievo più volte in un corso 
 
 ## Come abilitare l’Iscrizione multipla
 
-1. Accedi all’account di Adobe Learning Manager come Autore.
+1. Accedi al tuo account Adobe Learning Manager come autore.
 1. Seleziona il corso a cui vuoi che gli Allievi si iscrivano più volte.
-1. Nel pannello a sinistra, seleziona **[!UICONTROL Impostazioni]** > **[!UICONTROL Modifica]** > **[!UICONTROL Configurazione dell&#39;istanza]** > **[!UICONTROL Abilita iscrizione multipla]**.
+1. Nel pannello a sinistra, seleziona **[!UICONTROL Impostazioni]** > **[!UICONTROL Modifica]** > **[!UICONTROL Configurazione istanza]** > **[!UICONTROL Abilita iscrizione multipla]**.
 
-![immagine di iscrizione multipla](assets/multi-enrollment-author.png)
+![immagine a iscrizione multipla](assets/multi-enrollment-author.png)
 *Abilita iscrizione multipla*
 
 >[!NOTE]
@@ -50,29 +51,29 @@ Le iscrizioni multiple sono utili quando un Allievo desidera iscriversi a un cor
 
 Gli Allievi non iscritti, quando selezionano un corso, visualizzano la schermata sotto il corso con più istanze. Quindi, possono selezionare ogni istanza e iscriversi.
 
-![immagine visualizzazione Allievo](assets/learner-view.png)
+![immagine di visualizzazione Allievo](assets/learner-view.png)
 *Visualizzare le istanze*
 
 Dopo l’iscrizione a un’istanza, è possibile effettuare l’iscrizione ad altre istanze selezionando l’opzione Visualizza tutte le istanze nel riquadro a destra.
 
-![immagine del corso con più iscrizioni](assets/enroll-instance.png)
-*Iscriversi a un’istanza*
+![immagine del corso a più iscrizioni](assets/enroll-instance.png)
+*Iscriversi a un&#39;istanza*
 
 L’avanzamento in ciascuna istanza può essere monitorato come segue:
 
-![traccia avanzamento](assets/check-progress.png)
-*Tenere traccia dell&#39;avanzamento di ogni istanza*
+![monitoraggio dell&#39;avanzamento](assets/check-progress.png)
+*Monitoraggio dell&#39;avanzamento di ogni istanza*
 
 ## Modifiche alle iscrizioni multiple in Amministratore
 
-**Registrazione:**
+**Iscrizione:**
 
 Durante l’iscrizione degli Allievi, puoi abilitare la seguente casella di controllo:
 
 *&quot;Gli Allievi selezionati potrebbero essere già iscritti ad altre istanze di questo corso. Consenti l’iscrizione di questi Allievi anche all’istanza...&quot;*
 
-![modifiche dell’amministratore](assets/admin-changes.png)
-*Opzione di iscrizione per gli Amministratori*
+![modifiche dell&#39;amministratore](assets/admin-changes.png)
+*Opzione di iscrizione per gli amministratori*
 
 Se l’Allievo è già iscritto a un’istanza e tu, in qualità di Amministratore, stai tentando di iscriverlo a un’istanza di corso diversa, seleziona Sì.
 

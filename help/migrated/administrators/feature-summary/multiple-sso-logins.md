@@ -2,13 +2,13 @@
 description: Adobe Learning Manager supporta più metodi di accesso tramite più configurazioni SSO per utenti interni ed esterni.
 title: Accessi SSO multipli
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
 
 ---
-
 
 # Accessi SSO multipli {#multiple-sso-logins}
 
@@ -39,7 +39,7 @@ Per configurare un SSO, segui i passaggi riportati di seguito:
    * Inserisci il nome dell’SSO.
    * Seleziona il tipo di SSO: avviato da IDP o avviato da SP.
 
-      * Se hai selezionato avviato IDP, immetti l&#39;URL IDP. Si tratta dell&#39;URL che sarà l&#39;identificatore univoco dell&#39;applicazione e delle informazioni fornite dal provider di servizi IDP. Questo è l’URL a cui verranno reindirizzati tutti gli utenti di Learning Manager Adobi dopo l’accesso.
+      * Se hai selezionato avviato IDP, immetti l&#39;URL IDP. Si tratta dell&#39;URL che sarà l&#39;identificatore univoco dell&#39;applicazione e delle informazioni fornite dal provider di servizi IDP. URL a cui verranno reindirizzati tutti gli utenti di Adobe Learning Manager dopo l&#39;accesso.
       * Carica il file XML dei metadati IDP dal provider IDP. Questo file contiene informazioni sull’IdP che consente ad Adobe Learning Manager di accettare le asserzioni SAML da esso
       * Se hai selezionato avviato SP, immetti l&#39;ID entità. L’ID entità è un URL fornito dal provider di servizi (SP).
       * Immetti l&#39;URL di accesso dell’SP. Questo URL viene utilizzato dagli utenti per accedere all&#39;applicazione.

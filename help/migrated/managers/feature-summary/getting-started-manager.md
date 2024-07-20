@@ -3,14 +3,13 @@ description: Guida introduttiva come Manager in Learning Manager.
 jcr-language: en_us
 title: Guida introduttiva per i Manager
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 122b2fca-ad7c-4799-9a2e-ced820780d3f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 66%
 
 ---
-
-
 
 # Guida introduttiva per i Manager
 
@@ -22,7 +21,7 @@ Non appena accedi come Manager, puoi visualizzare la finestra a comparsa con un 
 
 Sfoglia le esercitazioni video di esempio per comprendere le funzionalità chiave del tuo ruolo di Manager. Se non desideri visualizzare la finestra a comparsa durante l’accesso, puoi disattivarla facendo clic sull’opzione Non mostrare di nuovo all’accesso nell’angolo inferiore destro della finestra a comparsa.
 
-Fai clic **[!UICONTROL Chiudi finestra]** per chiudere la finestra a comparsa.
+Fai clic su **[!UICONTROL Chiudi finestra]** per chiudere la finestra a comparsa.
 
 <!--![](assets/welcome-videos.png) -->
 
@@ -36,4 +35,3 @@ Dalla pagina iniziale, puoi eseguire le seguenti attività:
 Puoi inoltre ottenere ulteriori informazioni sull’applicazione Learning Manager scegliendo di visualizzare video di esercitazione, contenuti della guida e informazioni sui diversi ruoli.
 
 <!--![](assets/manager-experienceprime.png)-->
-

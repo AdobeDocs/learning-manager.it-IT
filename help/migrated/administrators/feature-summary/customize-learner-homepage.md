@@ -27,17 +27,17 @@ In questo corso di formazione verranno illustrati i modi per personalizzare la p
 
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Configurazione della pagina principale dell’Allievo {#configurethelearnerhomepage}
 
-Nella **Branding** > **Home page Allievo** , un Amministratore può personalizzare l’esperienza della pagina principale di un Allievo, in modo che quando l’Allievo accede all’app, l’aspetto sia completamente rinnovato.
+Nella pagina **Branding** > **Pagina principale dell’Allievo**, un Amministratore può personalizzare l’esperienza della pagina principale di un Allievo, in modo che quando accede all’app, l’Allievo riscontri un aspetto completamente rinnovato.
 
-Gli amministratori possono impostare l’interfaccia utente (aspetto) dall’app Amministratore (**Branding** > **Home page Allievo** ).
+Gli amministratori possono impostare l’interfaccia utente (aspetto) dall’app di amministrazione (**Branding** > **Home page Allievo** scheda).
 
 Gli Amministratori possono passare alla visualizzazione immersiva dei widget dell’interfaccia utente, personalizzare quindi widget/funzionalità e abilitare l’interfaccia utente immersiva.
 
-La **Home page Allievo** contiene le sezioni seguenti:
+La schermata **Home page Allievo** contiene le sezioni seguenti:
 
 ## Opzione di layout immersivo {#immersivelayoutoption}
 
@@ -47,15 +47,15 @@ Nelle versioni precedenti, le opzioni della pagina principale dell’Allievo era
 
 Di seguito sono riportate le opzioni che possono essere impostate:
 
-**Esperienza della pagina principale:** Abilita **Classico** oppure **Immersivo**. Se scegli Immersiva, vengono visualizzate le seguenti opzioni:
+**Esperienza della pagina principale:** Abilita **Classico** o **Immersivo**. Se scegli Immersiva, vengono visualizzate le seguenti opzioni:
 
-* **Tipo di corso:** Scegli uno dei seguenti **Settore** oppure **Allineato Personalizzato**. I corsi di formazione personalizzati vengono creati internamente. I corsi di formazione allineati al settore comprendono contenuti disponibili subito di fornitori terzi.
+* **Tipo di corso di formazione:** Scegliere **Settore** o **Allineato personalizzato**. I corsi di formazione personalizzati vengono creati internamente. I corsi di formazione allineati al settore comprendono contenuti disponibili subito di fornitori terzi.
 
 ![](assets/select-homepage-experience.png)
 
-*Per impostare l’esperienza della pagina Home, seleziona Industria o Allineato personalizzato*
+*Impostare l&#39;esperienza della home page selezionando Industria o Allineato personalizzato*
 
-Opzione **Consentire agli Allievi di esplorare le aree di interesse** è disponibile per l’esperienza classica e immersiva.
+L’opzione **Consenti agli Allievi di esplorare le aree di interesse** è disponibile sia per l’esperienza classica che per quella immersiva.
 
 <table>
  <tbody>
@@ -78,7 +78,7 @@ Se sono presenti meno di 1000 Allievi, l’intero account viene considerato come
 
 >[!NOTE]
 >
->Casella di controllo **Esplora le abilità** è stato spostato in Impostazioni > Generale.
+>La casella di controllo **Esplora abilità** è stata spostata in Impostazioni > Generale.
 
 Questa opzione verrà attivata e disattivata se viene scelta l’esperienza immersiva. Questa casella di controllo verrà abilitata solo per l’esperienza classica.
 
@@ -92,7 +92,7 @@ Ecco i widget che puoi abilitare/disabilitare.
 
 Utilizzandoli, puoi visualizzare l’anteprima dell’interfaccia utente dell’Allievo prima che venga pubblicata.
 
-Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È abilitato per il nuovo account con Social e Gamification ON.
+Per gli account esistenti, l&#39;opzione **Immersiva** sarà **DISATTIVATA**. È abilitato per il nuovo account con Social e Gamification ON.
 
 ![](assets/immersive-layout-widgets.png)
 
@@ -160,7 +160,7 @@ Per gli account esistenti, l’opzione **Immersivo** sarà **DISATTIVATO**. È a
     <p>Quando questa opzione è attiva, il widget consiglia corsi di formazione per gruppi di utenti specifici. Ogni gruppo di utenti può essere indirizzato a uno o più corsi di formazione e il piano di destinazione deve essere basato su un periodo di tempo. <br></p>
     <ul>
      <li>
-      <p>In primo luogo, l'amministratore <a href="announcements.md#recommendation">crea un annuncio</a> di tipo <b>Come consiglio</b> quindi seleziona la formazione richiesta e utilizza i gruppi. Un Allievo appartenente a un gruppo di utenti potrà visualizzare il corso di formazione consigliato.</p></li>
+      <p>In primo luogo, l'amministratore <a href="announcements.md#recommendation">crea un annuncio</a> di tipo <b>Come suggerimento</b>, quindi seleziona il corso di formazione richiesto e utilizza i gruppi. Un Allievo appartenente a un gruppo di utenti potrà visualizzare il corso di formazione consigliato.</p></li>
      <li>
       <p>In secondo luogo, l’Amministratore può anche decidere se i consigli devono essere visualizzati immediatamente o in una data specifica.</p></li>
     </ul></td>
@@ -203,7 +203,7 @@ Quando l’Allievo accede all’app dell’Allievo tramite un browser, può visu
  </tbody>
 </table>
 
-*Visualizzazione del layout immersivo per varie sezioni della home page*
+*Visualizza layout immersivo per varie sezioni nella home page*
 
 ## Opzione di layout classico {#classiclayoutoption}
 
@@ -215,9 +215,9 @@ Il layout dell’interfaccia utente che è sempre esistito, viene ora definito L
 
 ## Configurazione delle impostazioni dei consigli {#configurerecommendationsettings}
 
-Attivato **Branding** > **Generale**, è possibile configurare gli ambiti di consiglio per gli Allievi interni ed esterni e consentire agli Allievi di scegliere le abilità nella pagina principale dell’Allievo.
+In **Branding** > **Generale**, puoi configurare gli ambiti di consiglio per gli Allievi interni ed esterni e consentire agli Allievi di scegliere le abilità nella pagina principale degli Allievi.
 
-Nella **Generale** , sono disponibili le seguenti opzioni:
+Nella pagina **Generale** sono disponibili le seguenti opzioni:
 
 <table>
  <tbody>
@@ -273,13 +273,13 @@ Nella **Generale** , sono disponibili le seguenti opzioni:
    <td>
     <p>Consenti agli Allievi di esplorare le aree di interesse</p></td>
    <td>
-    <p>Vale solo per l’esperienza classica. Scegli <b>Sì </b>oppure <b>No</b>.<br></p></td>
+    <p>Vale solo per l’esperienza classica. Scegli <b>Sì </b>o <b>No</b>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Richiedi agli utenti di selezionare le aree di interesse (abilità) <br></p></td>
    <td>
-    <p>Vale solo per le esperienze immersive. Scegli <b>Sì</b> oppure <b>No</b>. <br></p></td>
+    <p>Vale solo per le esperienze immersive. Scegli <b>Sì</b> o <b>No</b>. <br></p></td>
   </tr>
  </tbody>
 </table>

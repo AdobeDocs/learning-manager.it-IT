@@ -3,22 +3,21 @@ jcr-language: en_us
 title: Utenti di iPad e tablet Android
 description: Utenti di iPad e tablet Android
 contentowner: manochan
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 72%
 
 ---
 
-
-
 # Utenti di iPad e tablet Android
 
-Nell’app Learning Manager per iPad o tablet Android, dopo aver effettuato l’accesso come Allievo, puoi visualizzare quanto segue **Home** schermo:
+Nell’app Learning Manager per iPad o tablet Android, dopo aver effettuato l’accesso come Allievo, puoi visualizzare la seguente schermata **Home**:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Per accedere alle funzionalità di apprendimento e del catalogo, tocca il **Menu** e scegli l’opzione appropriata.
+Per accedere alle funzionalità di apprendimento e del catalogo, tocca il menu a discesa **Menu** e scegli l’opzione appropriata.
 
 ![](assets/menu-ipad.png)
 
@@ -37,7 +36,7 @@ Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non
 
 È possibile controllare periodicamente l’archiviazione del dispositivo.
 
-Tocca l’icona profilo nell’angolo superiore destro dell’app, quindi tocca **Archiviazione dispositivo** menu.
+Tocca l’icona profilo nell’angolo superiore destro dell’app, quindi tocca l’opzione di menu **Archiviazione dispositivo**.
 
 ![](assets/app-device-storage.png)
 

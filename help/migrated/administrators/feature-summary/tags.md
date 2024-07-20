@@ -3,14 +3,13 @@ description: Scopri come gestire i tag su Learning Manager.
 jcr-language: en_us
 title: Tag
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
 
 ---
-
-
 
 # Tag
 
@@ -26,7 +25,7 @@ Questo corso spiega come aggiungere, modificare, sostituire, aggiungere ed elimi
 
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Aggiungere/eliminare/modificare i tag {#adddeleteedittags}
 
@@ -41,16 +40,16 @@ Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>
 
 1. Puoi modificare solo un tag alla volta. Per modificare un tag, procedi come segue:
 
-   * Seleziona il tag da modificare > apri il **[!UICONTROL Azioni]**menu a discesa > clic su **[!UICONTROL Modifica]**.
+   * Seleziona il tag da modificare > apri il menu a ** **[!UICONTROL Azioni] > fai clic su **[!UICONTROL Modifica]**.
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica tag]**. Inserisci il nuovo nome del tag e fai clic su **[!UICONTROL Salva]**.
 
-   Se il nome del tag immesso esiste già, in Learning Manager viene visualizzato un messaggio di Adobe. Non possono esistere due tag con lo stesso nome.
+   Se il nome del tag immesso esiste già, Adobe Learning Manager visualizza un messaggio di avviso. Non possono esistere due tag con lo stesso nome.
 
 ## Sostituire i tag {#replacetags}
 
-1. Seleziona i tag da sostituire. Puoi selezionare fino a 50 tag contemporaneamente. Apri il pannello **[!UICONTROL Azioni]** menu a discesa e selezionare **[!UICONTROL Sostituisci]**.
-1. La **[!UICONTROL Sostituisci tag]** viene visualizzata una finestra di dialogo che mostra i tag selezionati.
+1. Seleziona i tag da sostituire. Puoi selezionare fino a 50 tag contemporaneamente. Apri il menu a discesa **[!UICONTROL Azioni]** e seleziona **[!UICONTROL Sostituisci]**.
+1. Viene visualizzata la finestra di dialogo **[!UICONTROL Sostituisci tag]** che mostra i tag selezionati.
 
 1. Nell’opzione **[!UICONTROL Nome per tag sostituiti]**, inserisci il nome del nuovo tag da sostituire con i tag selezionati. Puoi sostituirli con un tag esistente dal menu a discesa o aggiungere un nuovo tag.
 
@@ -63,7 +62,7 @@ Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>
 In caso di operazione Accoda per i tag, il tag nuovo/esistente verrà accodato a tutti gli oggetti di apprendimento e i gruppi di contenuti associati ai tag selezionati.
 
 1. Seleziona i tag da accodare. Puoi selezionare fino a 50 tag contemporaneamente. Apri il menu a discesa Azioni e seleziona **[!UICONTROL Aggiungi]**.
-1. La  **[!UICONTROL Aggiungi tag]** viene visualizzata una finestra di dialogo che mostra i tag selezionati.
+1. Viene visualizzata la finestra di dialogo **[!UICONTROL Aggiungi tag]** che mostra i tag selezionati.
 1. Puoi accodare un tag aggiuntivo a tutto il corso con i tag selezionati inserendo il nome del **[!UICONTROL nuovo tag]** o dall’elenco a discesa dei tag esistenti. Il nuovo tag verrà accodato a tutto il corso associato in Learning Manager.
 
    Il nome del tag non può contenere virgola o punto e virgola. Se utilizzati, Prime mostrerà un messaggio di errore. I tag senza punto e virgola e i messaggi di errore visualizzati quando si usano tali tag all’interno di qualche oggetto di apprendimento non saranno gestiti per gli scenari di migrazione.

@@ -98,10 +98,10 @@ Tutte le colonne tranne la Descrizione sono obbligatorie.
 * Attributo e valore foglia (ad esempio Department=HR)
 * Gruppi di profili di registrazione automatica (self_registration=nomeprofilo)
 * Gruppi di profili di registrazione esterna (ext_registration=nome profilo)
-* Un team di subordinati (manager_direct=`<emailid>`)
-* Organizzazione completa di un Manager (manager_org=`<emailid>`)
+* Il team di un responsabile del report diretto (manager_direct=`<emailid>`)
+* Organizzazione completa di un manager (manager_org=`<emailid>`)
 
-**user_role.csv**
+**ruolo_utente.csv**
 
 <table>
  <tbody>
@@ -149,8 +149,8 @@ Se nel CSV sono presenti nomi di catalogo o nomi di gruppi di utenti, questi ven
 
 Nell’account Box, seleziona **Import > user > internal** (Importa > Utente > Interno) e carica i file role.csv e user_role.csv.
 
-* Nella cartella devono essere copiati role.csv e user_role.csv **Importa** > **utente** > **interno** > **user_role**.
-* User.csv deve essere copiato nella cartella **Importa** > **utente** > **interno**.
+* I file role.csv e user_role.csv devono essere copiati nella cartella **Import** > **user** > **internal** > **user_role**.
+* Il file user.csv deve essere copiato nella cartella **Import** > **user** > **internal**.
 
 Entrambi i file CSV devono essere caricati solo tramite Box e non possono essere caricati tramite l’interfaccia utente.
 
@@ -176,7 +176,7 @@ Nella sezione Sincronizza impostazioni, abilitare l&#39;opzione **[!UICONTROL At
 
 ![](assets/sync-settings.png)
 
-*Seleziona l’opzione Abilita sincronizzazione automatica*
+*Selezionare l&#39;opzione Abilita sincronizzazione automatica*
 
 Quando si sceglie questa opzione, è possibile pianificare l’orario della sincronizzazione sull&#39;ora esatta specificata nel campo dell’ora della sincronizzazione. Se si specifica l’ora di sincronizzazione come 12:00, i ruoli personalizzati vengono aggiornati esattamente all’ora specificata per ogni giorno.
 

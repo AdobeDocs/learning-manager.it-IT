@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Mappare abilità con domini di abilità
 description: Per fare in modo che il motore di cura basato su intelligenza artificiale esegua la cura automatica di un post pubblicato da un utente per un particolare dominio di abilità, l’azienda dell’utente deve disporre delle proprie abilità personalizzate da mappare ai domini di abilità supportati presenti in LMS di Learning Manager.
 contentowner: kuppan
-source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
+exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 90%
 
 ---
-
-
 
 # Mappare abilità con domini di abilità
 
@@ -58,7 +57,7 @@ Per aggiungere un dominio di abilità, procedi nel modo seguente:
 
    ![](assets/skill-domain-mapping.png)
 
-   *Aggiungere i domini di abilità nella sezione Dominio di abilità*
+   *Aggiungi i domini di abilità nella sezione Dominio di abilità*
 
 1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**.
 
@@ -71,4 +70,3 @@ Se il contenuto da caricare ha un punteggio di confidenza superiore al 50%, il c
 ![](assets/curation-notification.png)
 
 *Visualizza le notifiche in base al punteggio di confidenza*
-

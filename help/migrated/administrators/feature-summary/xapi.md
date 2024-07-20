@@ -52,7 +52,7 @@ Learning Manager dispone di un Learning Record Store integrato. Questo LRS è pe
 
 1. Salva le modifiche. Ottieni segreto e ID sviluppatore.
 
-**Punti finali**:
+**End point**:
 
 Fai clic sul collegamento di seguito per visualizzare il documento swagger xAPI:
 
@@ -75,11 +75,11 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Come autore, ora puoi scegliere il modulo xAPI durante la creazione di corsi per monitorare l’esperienza degli utenti al di fuori di Learning Manager. Ad esempio, è possibile utilizzare questa funzione per valutare le attività degli utenti su una piattaforma di terze parti utilizzata per usufruire del corso.
 
-1. Durante la creazione di **[!UICONTROL Modulo attività]**, nel **[!UICONTROL Tipo]**opzione, utilizzare il menu a comparsa per selezionare  **[!UICONTROL Modulo xAPI.]**
+1. Durante la creazione di un **[!UICONTROL modulo attività]**, nell&#39;opzione **[!UICONTROL Tipo]**utilizzare il menu a comparsa per selezionare **[!UICONTROL modulo basato su xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 
-   *Seleziona l’opzione Modulo basato su xAPI*
+   *Selezionare l&#39;opzione Modulo basato su xAPI*
 
 1. Devi fornire un IRI. Se non viene fornito, Learning Manager ne genera uno automaticamente.
 
@@ -95,9 +95,9 @@ Come autore, ora puoi scegliere il modulo xAPI durante la creazione di corsi per
 1. Per copiare l’IRI creato automaticamente, rivisita la pagina Modulo attività.
 1. Pubblica il modulo.
 
-**Punti da notare:**
+**Punti da tenere presenti:**
 
-* Learning Manager attualmente supporta solo mbox come identificatore. Gli altri identificatori, inclusi mboz_sha1, openid e account non sono supportati.
+* Learning Manager al momento supporta solo   mbox come identificatore. Gli altri identificatori, inclusi mboz_sha1, openid e account non sono supportati.
 
 * L’ID stato e l’ID profilo sono UUID se utilizzati con Learning Manager.
 * La richiesta PUT non sovrascrive il documento per agenti/profilo, attività/profilo e attività/stato di xAPI
@@ -114,7 +114,7 @@ Il report scaricato recupera tutte le informazioni pubblicate dall’Allievo e d
 
 Gli stessi report possono essere generati/pianificati utilizzando connettori FTP e Box per qualsiasi integrazione di terze parti. Procedi come segue:
 
-Accedi come **Amministratore dell’integrazione > Apri connettore FTP/Box > Seleziona report di attività xAPI** nel pannello a sinistra. Scegli di pianificare/generare un report.
+Accedi come **Amministratore dell’integrazione > Apri il connettore FTP/Box > Seleziona il report di attività xAPI** dal pannello a sinistra. Scegli di pianificare/generare un report.
 
 ![](assets/xapischedule.png)
 

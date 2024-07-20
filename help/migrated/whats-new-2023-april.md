@@ -2,7 +2,8 @@
 title: Novità di questa versione (aprile 2023)
 description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 61%
@@ -15,7 +16,7 @@ ht-degree: 61%
 
 La nuova app Adobe Learning Manager su Microsoft Teams è progettata per favorire l’apprendimento nel flusso di lavoro e rendere più efficiente l’apprendimento sociale. Gli Allievi potranno accedere ai contenuti di apprendimento all’interno della piattaforma Microsoft Teams senza dover passare a un browser. Contatta il CSAM per la versione beta dell’app Adobe Learning Manager su MS Teams.
 
-Per ulteriori informazioni, consulta [Adobe dell’app Learning Manager per Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+Per ulteriori informazioni, consulta [App Adobe Learning Manager per Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
 ## Miglioramenti apportati all’esperienza di formazione con Istruttore (ILT).
 
@@ -36,7 +37,7 @@ Gestire i conflitti nelle registrazioni di Istruttori e aule o aule virtuali. Se
 
 Gli Autori, gli Amministratori e gli Amministratori/Autori personalizzati possono utilizzare l’Assistente pianificazione.
 
-Per ulteriori informazioni, consulta [Assistente alla pianificazione](/help/migrated/authors/feature-summary/courses.md#scheduling-assistant).
+Per ulteriori informazioni, vedere [Assistente alla pianificazione](/help/migrated/authors/feature-summary/courses.md#scheduling-assistant).
 
 ## App per dispositivi mobili di Adobe Learning Manager
 
@@ -64,7 +65,7 @@ La nuova app per dispositivi mobili supporta le seguenti funzioni chiave in ques
 * Supporto per i badge.
 * Supporto per l’accesso di utenti esterni.
 
-**Cosa non è supportato in questa versione**
+**Elementi non supportati in questa versione**
 
 * Supporto per tentativi multipli di un modulo quiz in un corso quando viene seguito dall’app mobile.
 * Opzioni di ricerca che consentono di specificare i parametri di ricerca, ad esempio i metadati del corso, i tag e le abilità per specificare l’ambito di ricerca.
@@ -103,13 +104,13 @@ L’Amministratore dispone di una nuova opzione denominata Gruppi in Impostazion
 | L’opzione Gruppi è attivata | <ul><li> Visualizza il gruppo di utenti nella sezione insieme al collegamento alla pagina del catalogo.</li><li> Il gruppo di utenti viene visualizzato nel filtro catalogo.</li></ul> | <ul><li>Il nome del gruppo di utenti non viene visualizzato nella sezione.</li><li>Il gruppo di utenti non viene elencato nel filtro catalogo.</li></ul> |
 | L’opzione Gruppi è disattivata | <ul><li>Visualizza il nome del gruppo di utenti nella sezione del corso come testo semplice.</li><li>Il gruppo di utenti non viene elencato nel filtro catalogo.</li></ul> | <ul><li>La sezione del corso non visualizza il testo o il nome del gruppo di utenti.</li><li>Il gruppo di utenti non viene elencato nel filtro catalogo.</li></ul> |
 
-**Come funziona**
+**Funzionamento**
 
 L’Amministratore crea un annuncio aggiungendo il corso per qualsiasi gruppo di utenti e lo pubblica.
 
 L’Allievo vede una striscia con i corsi consigliati sulla pagina principale e un collegamento al corso nella sezione.
 
-![Allievo della striscia consigli](assets/recommendation-strip-learner.png)
+![Allievo della striscia dei consigli](assets/recommendation-strip-learner.png)
 
 Quando l’Allievo fa clic sul collegamento o sul pulsante Vai al catalogo, viene reindirizzato alla pagina del catalogo del corso. L’Allievo visualizza quindi l’elenco dei gruppi di utenti da filtrare in base ai gruppi di utenti nel catalogo e nella pagina Il mio apprendimento.
 
@@ -121,7 +122,7 @@ Quando l’Allievo fa clic sul collegamento o sul pulsante Vai al catalogo, vien
 
 A volte è necessario che un Allievo filtri una sessione nel calendario in base alla posizione. Dopo aver aggiunto un percorso utilizzando la finestra di dialogo Aule o il file CSV, l’Allievo può impostare il filtro.
 
-![Aggiungere aule](assets/add-classroom-locations.png)
+![Aggiungi aule](assets/add-classroom-locations.png)
 
 Per ulteriori informazioni, consulta [Aggiungere aule](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
 
@@ -135,7 +136,7 @@ In qualità di Allievo, puoi filtrare le sessioni che ti vengono assegnate in ba
 
 ![Filtri applicati alle posizioni](assets/location-filter-applied.png)
 
-![Sessioni nel calendario con filtri di posizione applicati](assets/session-with-location-filters-applied.png)
+![Sessioni nel calendario con filtri di percorso applicati](assets/session-with-location-filters-applied.png)
 
 Inoltre, il percorso di formazione ora viene visualizzato nella pagina della panoramica del corso se viene aggiunto dall’Autore durante la creazione del corso.
 
@@ -168,7 +169,7 @@ Gli Autori ora possono selezionare i Manager e i Manager dei punti vendita/delle
 
 Se un Manager viene aggiunto come revisore nel modulo dell’elenco di controllo, potrà esaminare l’elenco di controllo nell’app Manager. Gli Istruttori continuano a rivedere l’elenco di controllo come previsto.
 
-Per ulteriori informazioni, consulta [Checklist osservazione](/help/migrated/authors/feature-summary/courses.md#observation-checklist).
+Per ulteriori informazioni, vedere [Elenco di controllo Osservazione](/help/migrated/authors/feature-summary/courses.md#observation-checklist).
 
 ## Altri miglioramenti
 
@@ -189,7 +190,7 @@ La funzionalità di ricerca è stata migliorata anche per gli Allievi. Gli Allie
 
 Quando un Allievo ha sessioni in conflitto, nella pagina Panoramica viene visualizzata una finestra a comparsa all’iscrizione. Se un Allievo si iscrive alla pagina del catalogo o della panoramica e ha già sessioni in conflitto, viene attivato un popup in conflitto con i dettagli della sessione in conflitto. Anche se un Allievo ha una sessione in conflitto, può iscriversi alla nuova sessione.
 
-![avvertenza](assets/learner-pop-up.png)
+![avviso](assets/learner-pop-up.png)
 
 Nota: questo messaggio è solo un avvertenza. Puoi comunque iscriverti a un corso.
 
@@ -219,15 +220,15 @@ Quando l’Allievo seleziona **Visualizza tutte le istanze**, l’Allievo può v
 
 Un Amministratore può cambiare le istanze per gli Allievi.
 
-![cambia istanze](assets/switch-instances.png)
+![cambia istanza](assets/switch-instances.png)
 
-![seleziona istanze switch](assets/switch-instances-select.png)
+![cambia istanza selezione](assets/switch-instances-select.png)
 
 Non puoi cambiare istanza finché nessuna istanza del corso non viene completata dall’app per Allievi o Amministratori.
 
 Gli Autori, durante la creazione di un corso, possono alternare l’attivazione o la disattivazione di &quot;Instance Switch&quot;. Commutazione istanza è disponibile solo per i corsi gratuiti.
 
-Per ulteriori informazioni, consulta [Configurazione dell&#39;istanza](/help/migrated/authors/feature-summary/courses.md).
+Per ulteriori informazioni, vedere [Configurazione istanza](/help/migrated/authors/feature-summary/courses.md).
 
 **Allievi**
 
@@ -245,7 +246,7 @@ Dopo l’iscrizione al percorso di apprendimento o alla certificazione, nella pa
 
 Il report di prova di verifica dell’utente acquisirà informazioni sugli Allievi che hanno cambiato istanza, &quot;da istanza&quot; a &quot;istanza&quot;, cambiato per ora, data, ecc.
 
-![Visualizza report audit trail dell’utente](assets/user-audit-trail.png)
+![Visualizza report audit trail utente](assets/user-audit-trail.png)
 
 Per ulteriori informazioni, consulta [Report di verifica dell’utente](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
 
@@ -253,9 +254,9 @@ Per ulteriori informazioni, consulta [Report di verifica dell’utente](/help/mi
 
 Questo report registra il tempo (in minuti) trascorso quotidianamente da un Istruttore che tiene le sessioni assegnate. Il report può essere scaricato per un periodo di tre mesi dalla data di inizio selezionata.
 
-Per ulteriori informazioni, consulta [Rapporto Utilizzo Istruttore](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Per ulteriori informazioni, consulta [Rapporto sull’utilizzo degli istruttori](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
-![report sull’utilizzo degli istruttori](assets/instructor-utilization.png)
+![report sull&#39;utilizzo degli istruttori](assets/instructor-utilization.png)
 
 ### Report risorse formative
 
@@ -303,7 +304,7 @@ Le opzioni sono attivate per impostazione predefinita.
 È stato aggiunto un nuovo attributo, jobType, all&#39;API dei processi. L’attributo accetta i seguenti valori:
 
 * **generateInstructorUtilisationReport**: restituisce il report sull&#39;utilizzo di un istruttore.
-* **generateJobAidMetadataReport**: restituisce i metadati di un report Risorsa formativa.
+* **generateJobAidMetadataReport**: restituisce i metadati di un report delle risorse formative.
 
 **Endpoint**: POST /primeapi/v2/jobs
 
@@ -426,7 +427,7 @@ Vengono aggiunti i seguenti attributi:
 | Elenca tutte le città | filter.cityName=true/false | GET /primeapi/v2/data |
 | Cercare e filtrare le città | filter.cityName=city_name<br>Supporta anche un elenco di città separate da virgole |
 | GET /primeapi/v2/search |
-| Dettagli sala resi | include=room | GET /primeapi/v2/users/`<id>`/calendario |
+| Dettagli sala resi | include=room | GET /primeapi/v2/users/`<id>`/calendar |
 | Oggetto di apprendimento per filtrare le città | filter.cityName=city_name <br> Supporta anche un elenco di città separate da virgole. | GET /primeapi/v2/learningObjects |
 | Aggiungi pannello Città | La risposta contiene un nuovo attributo, filterPanelSetting=true/false. | GET /primeapi/v2/account |
 
@@ -474,7 +475,7 @@ Un nuovo parametro di query, sugionType. I valori accettati sono:
 * learnerHistory (impostazione predefinita)
 * accountHistory
 
-**Endpoint**: GET /primeapi/v2/search/suggestions/?sugionType=learnerHistory
+**Endpoint**: GET /primeapi/v2/search/tips/?sugionType=learnerHistory
 
 ### Filtraggio gruppo di utenti
 
@@ -520,7 +521,7 @@ DELETE /userGroups/{id}/users
 
 ### Annuncio filtraggio gruppi di utenti per perdite nell’app per Allievi
 
-* Il parametro GET /users/{userId}L’API /userGroups dispone di un nuovo parametro, filter.announGroupsOnly, che accetta un valore booleano (true/false). Questa funzione filtra solo i gruppi di utenti annunciati dall’Amministratore. Il valore predefinito di questo parametro è false.
+* L&#39;API GET /users/{userId}/userGroups dispone di un nuovo parametro, filter.announGroupsOnly, che accetta un valore booleano (true/false). Questa funzione filtra solo i gruppi di utenti annunciati dall’Amministratore. Il valore predefinito di questo parametro è false.
 * L’API GET /learningObjects include un nuovo parametro, filter.announGroups, che accetta gli ID dei gruppi di annunci per filtrare i risultati.
 * GET L’API /search dispone di un nuovo parametro, filter.announGroups, che accetta gli ID dei gruppi di annunci per filtrare i risultati.
 
@@ -631,11 +632,11 @@ Di seguito viene fornito un esempio di risposta:
 
 ## Note sulla versione
 
-Per informazioni sulle versioni correnti e precedenti dell’app Web e per dispositivi di Learning Manager, consulta la [Note sulla versione](/help/migrated/release-note/release-notes.md).
+Per informazioni sulle versioni correnti e precedenti dell’app Web e per dispositivi di Learning Manager, consulta le [Note sulla versione](/help/migrated/release-note/release-notes.md).
 
 ## Correzioni di bug
 
-Per visualizzare i bug risolti in questo aggiornamento, consultare [Elenco bug corretti](release-note/release-notes.md#bugs-fixed-in-this-release).
+Per visualizzare i bug risolti in questo aggiornamento, consultare l&#39;[elenco Bug corretti](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Requisiti di sistema
 

@@ -3,14 +3,13 @@ description: Temi colore e branding in Learning Manager
 jcr-language: en_us
 title: Temi colore
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 44%
 
 ---
-
-
 
 # Temi colore
 
@@ -24,17 +23,17 @@ In questo corso di formazione verranno esaminati i modi per personalizzare l’a
 
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Branding {#branding}
 
-Fai clic **[!UICONTROL Branding]** nel riquadro a sinistra per aggiornare il nome dell’organizzazione, modifica il sottodominio, gli stili del registro e i temi. Fai clic **[!UICONTROL Modifica]** accanto a ciascuno di questi argomenti per modificare il contenuto.
+Fai clic su **[!UICONTROL Branding]** nel riquadro a sinistra per aggiornare il nome dell’organizzazione e modificare il sottodominio, gli stili del registro e i temi. Fai clic su **[!UICONTROL Modifica]** accanto a ciascuno di questi argomenti per modificare il contenuto.
 
 ## Stile del logo {#logostyling}
 
-Fai clic **[!UICONTROL Modifica]** per impostare l’aspetto del logo e del nome dell’azienda nell’applicazione Learning Manager.
+Fai clic su **[!UICONTROL Modifica]** per impostare l’aspetto del logo e del nome dell’azienda nell’applicazione Learning Manager.
 
-Fai clic su **[!UICONTROL Carica nuovo logo]** e sceglie il logo da caricare dal computer. Di seguito puoi visualizzare in anteprima l’aspetto del logo e il nome dell’organizzazione. Scegliere lo stile di intestazione desiderato e fare clic su **[!UICONTROL Salva]**.
+Fai clic su **[!UICONTROL Carica nuovo logo]** e sceglie il logo da caricare dal computer. Di seguito puoi visualizzare in anteprima l’aspetto del logo e il nome dell’organizzazione. Scegli lo stile di intestazione desiderato e fai clic su **[!UICONTROL Salva]**.
 
 ## Temi {#themes}
 
@@ -42,7 +41,7 @@ Viene fornito un set di cinque immagini rappresentative per visualizzare in ante
 
 **Seleziona un tema**
 
-Fare clic sul pulsante **[!UICONTROL Mostra suggerimenti]** sotto questa sezione per visualizzare i suggerimenti sull&#39;immagine, come illustrato di seguito.
+Fai clic su **[!UICONTROL Mostra suggerimenti]** sotto questa sezione per visualizzare i suggerimenti sull&#39;immagine come mostrato di seguito.
 
 ![](assets/themes-preview-images.png)
 
@@ -68,11 +67,11 @@ L’applicazione Learning Manager offre cinque opzioni per i temi colore:
 
 Puoi personalizzare il colore della barra superiore, il colore principale (ad esempio, il colore delle icone nel riquadro a sinistra), il colore primario e la luminosità della barra laterale dei temi, ad eccezione del tema predefinito principale.
 
-Nella **[!UICONTROL Colore principale]** selettore, puoi scegliere il colore utilizzato per l’interfaccia utente immersiva.
+Nel selettore **[!UICONTROL Colore primario]**, puoi scegliere il colore utilizzato per l&#39;interfaccia utente immersiva.
 
 Per personalizzare, scegli il tipo di tema nel riquadro a sinistra e fai clic sui quadrati adiacenti al colore del marchio e ai colori delle icone della barra laterale. Fai clic sulla barra laterale in Luminosità barra laterale e trascina avanti o indietro per regolare la luminosità. Osserva l’anteprima nelle immagini mentre modifichi queste opzioni.
 
-Fai clic **[!UICONTROL Reimposta tema]** per ripristinare le impostazioni originali del tema. Fai clic **[!UICONTROL Salva]** dopo aver completato le modifiche.
+Fai clic su **[!UICONTROL Ripristina tema]** per ripristinare le impostazioni originali del tema. Dopo aver completato le modifiche, fai clic su **[!UICONTROL Salva]**.
 
 **Anteprima Live**
 
@@ -82,7 +81,7 @@ Fai clic su **[!UICONTROL Anteprima Live]** nell’angolo inferiore sinistro del
 
 *Finestra a comparsa Anteprima dal vivo*
 
-Sceglie il tema desiderato dall’elenco a discesa, regola le impostazioni e fai clic su **[!UICONTROL Anteprima]** per visualizzare le modifiche dal vivo nell’applicazione. Ora è possibile esaminare tutte le funzionalità dell’applicazione e verificare le modifiche. Puoi anche modificare i ruoli durante l’anteprima Live. Una volta che siete soddisfatti delle modifiche, potete tornare alla funzione a comparsa Anteprima tema dal vivo e fare clic su **[!UICONTROL Applica tema]**.
+Sceglie il tema desiderato dall’elenco a discesa, regola le impostazioni e fai clic su **[!UICONTROL Anteprima]** per visualizzare le modifiche dal vivo nell’applicazione. Ora è possibile esaminare tutte le funzionalità dell’applicazione e verificare le modifiche. Puoi anche modificare i ruoli durante l’anteprima Live. Una volta che sei soddisfatto delle modifiche, puoi tornare alla funzione a comparsa Anteprima tema dal vivo e fare clic su **[!UICONTROL Applica tema]**.
 
 Durante l’anteprima Live delle modifiche, la finestra a comparsa di anteprima Live del tema rimane visualizzata nella parte inferiore della schermata. Puoi scegliere di ridurre a icona la finestra a comparsa.
 
@@ -90,7 +89,7 @@ Durante l’anteprima Live delle modifiche, la finestra a comparsa di anteprima 
 
 Ecco come implementare più elementi di branding:
 
-1. Nell’app di amministrazione, seleziona **Branding** nel riquadro sinistro.
+1. Nell’app di amministrazione, seleziona **Branding** nel riquadro a sinistra.
 1. Seleziona **Modifica** nella sezione Multibranding.
 1. Seleziona il pulsante di attivazione/disattivazione e attivalo.
 
@@ -123,7 +122,7 @@ Ecco come implementare più elementi di branding:
 
 Adobe Learning Manager ti consente di personalizzare il tuo account per offrire un’esperienza utente più ricca.
 
-Nell’elenco seguente vengono visualizzati i componenti personalizzabili. Per personalizzare l’account, contatta Learning Manager  [supporto](mailto:captivateprimesupport@adobe.com).
+Nell’elenco seguente vengono visualizzati i componenti personalizzabili. Per personalizzare l’account, contatta il [supporto](mailto:captivateprimesupport@adobe.com) di Learning Manager.
 
 <table>
  <tbody>
@@ -189,9 +188,9 @@ Nell’elenco seguente vengono visualizzati i componenti personalizzabili. Per p
 
 ## Configurazione delle impostazioni dei consigli {#configurerecommendationsettings}
 
-Attivato **Branding** > **Generale**, è possibile configurare gli ambiti di consiglio per gli Allievi interni ed esterni e consentire agli Allievi di scegliere le abilità nella pagina principale dell’Allievo.
+In **Branding** > **Generale**, puoi configurare gli ambiti di consiglio per gli Allievi interni ed esterni e consentire agli Allievi di scegliere le abilità nella pagina principale degli Allievi.
 
-Nella **Generale** , sono disponibili le seguenti opzioni:
+Nella pagina **Generale** sono disponibili le seguenti opzioni:
 
 <table>
  <tbody>
@@ -217,13 +216,13 @@ Nella **Generale** , sono disponibili le seguenti opzioni:
    <td>
     <p>Consenti agli Allievi di esplorare le aree di interesse</p></td>
    <td>
-    <p>Vale solo per l’esperienza classica. Scegli <strong>Sì </strong>oppure <strong>No</strong>.<br></p></td>
+    <p>Vale solo per l’esperienza classica. Scegli <strong>Sì </strong>o <strong>No</strong>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Richiedi agli utenti di selezionare le aree di interesse (abilità) <br></p></td>
    <td>
-    <p>Vale solo per le esperienze immersive. Scegli <strong>Sì</strong> oppure <strong>No</strong>. </p></td>
+    <p>Vale solo per le esperienze immersive. Scegli <strong>Sì</strong> o <strong>No</strong>. </p></td>
   </tr>
  </tbody>
 </table>

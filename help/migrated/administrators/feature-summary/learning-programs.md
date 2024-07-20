@@ -4,20 +4,19 @@ jcr-language: en_us
 title: Programmi di apprendimento
 contentowner: manochan
 preview: true
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 77%
 
 ---
 
-
-
 # Programmi di apprendimento
 
 >[!WARNING]
 >
->Programmi di apprendimento è deprecato nell’Adobe di Learning Manager.
+>Programmi di apprendimento è stato dichiarato obsoleto in Adobe Learning Manager.
 
 
 Leggi questo articolo per scoprire come creare e gestire programmi di apprendimento in Learning Manager
@@ -41,7 +40,7 @@ Gli Amministratori possono creare programmi di apprendimento. Per creare un prog
 
    Tutti i tipi di corso possono essere aggiunti a un programma di apprendimento. Questi includono corsi in aula e in aula virtuale, attività, corsi autonomi e misti. I corsi nominati e quelli approvati dal Manager non vengono visualizzati durante la selezione dei corsi nei programmi di apprendimento.
 
-1. È necessario aggiungere corsi al programma di apprendimento prima di pubblicarlo. Fai clic **[!UICONTROL Catalogo]** per associare corsi al programma di apprendimento. Viene visualizzato un elenco di tutti i corsi disponibili.
+1. È necessario aggiungere corsi al programma di apprendimento prima di pubblicarlo. Fai clic sulla scheda **[!UICONTROL Catalogo]** per associare i corsi al programma di apprendimento. Viene visualizzato un elenco di tutti i corsi disponibili.
 
 1. Scegli i corsi che desideri aggiungere al programma di apprendimento passando il puntatore del mouse su una scheda del corso e facendo clic su di essa. Se il corso non è stato ancora aggiunto al programma di apprendimento, viene visualizzato un simbolo + al centro della scheda del corso.
 
@@ -49,18 +48,18 @@ Gli Amministratori possono creare programmi di apprendimento. Per creare un prog
 
    **Nota**
 
-   Visualizza l’elenco di tutti i corsi aggiunti al tuo programma di apprendimento in **[!UICONTROL Curriculum]** scheda. L’etichetta aggiunta è visibile per i corsi aggiunti, in basso nella scheda del corso nella pagina **[!UICONTROL Catalogo]**.
+   Visualizza l’elenco di tutti i corsi aggiunti al tuo programma di apprendimento nella scheda **[!UICONTROL Curriculum]**. L’etichetta aggiunta è visibile per i corsi aggiunti, in basso nella scheda del corso nella pagina **[!UICONTROL Catalogo]**.
 
-1. Fai clic **[!UICONTROL Torna ai programmi]** in alto nel riquadro a sinistra, per visualizzare un elenco di tutti i programmi di apprendimento. Adesso puoi visualizzare il programma di apprendimento appena aggiunto all’elenco.
+1. Fai clic su **[!UICONTROL Torna ai programmi]** nella parte superiore del riquadro sinistro per visualizzare un elenco di tutti i programmi di apprendimento. Adesso puoi visualizzare il programma di apprendimento appena aggiunto all’elenco.
 1. Puoi pubblicare il programma di apprendimento facendo clic su Panoramica nel riquadro a sinistra e selezionando Azioni>Pubblica. Puoi inoltre pubblicare il programma di apprendimento nella vista Corsi e istanze facendo clic su Pubblica nell’angolo in alto a destra della pagina.
 
 ## Aggiunta di Allievi a un programma di apprendimento {#addlearnerstoalearningprogram}
 
-Per ulteriori informazioni sull’iscrizione degli Allievi e sui passaggi da seguire, consulta  [Iscrizione degli Allievi.](courses.md#main-pars_header_1058138132)
+Per ulteriori informazioni sull’iscrizione degli Allievi e sui passaggi da seguire, consulta [Iscrizione degli Allievi.](courses.md#main-pars_header_1058138132)
 
 ## Abilita il controllo completo dei cataloghi per i programmi di apprendimento {#catalog}
 
-Come concedere pieno [controllo catalogo per corsi o moduli](shared-catalog-full-control.md), puoi anche abilitare il controllo completo dei cataloghi per i programmi di apprendimento.
+Oltre che per gli [apprendimenti o i moduli](shared-catalog-full-control.md), è anche possibile abilitare il controllo completo dei cataloghi per i programmi di apprendimento.
 
 ## Ripristinare il corso
 
@@ -70,11 +69,11 @@ Da un programma di apprendimento, l’Amministratore può ripristinare l’avanz
 
 Per ripristinare un corso, l’amministratore deve selezionare un corso dal menu a discesa Corsi.
 
-Quindi dal menu **[!UICONTROL Azioni]** elenco a discesa, fare clic su **[!UICONTROL Ripristina corso]**.
+Dall&#39;elenco a discesa **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Ripristina corso]**.
 
 Gli allievi possono ora avviare i moduli dei corsi selezionati dall’inizio.
 
-**Nota: verranno ripristinati solo i moduli non completati e non riusciti del corso.**
+**Nota: verranno ripristinati solo i moduli non completati del corso.**
 
 ## Creazione di più istanze di programmi di apprendimento {#createmultipleinstancesoflearningprograms}
 
@@ -155,11 +154,11 @@ Gli Amministratori possono stabilire l’ordine in cui gli Allievi devono seguir
 
 Per aggiornare l’ordine dei corsi in un programma di apprendimento,
 
-1. Fai clic sulla scheda del programma di apprendimento desiderato, quindi fai clic su **[!UICONTROL Corsi]** nel riquadro sinistro.
+1. Fai clic sulla scheda del programma di apprendimento desiderato, quindi fai clic su **[!UICONTROL Corsi]** nel riquadro a sinistra.
 
-1. Viene visualizzato un elenco di schede dei corsi associate al programma di apprendimento. Fai clic **[!UICONTROL Modifica]** nell’angolo in alto a destra della pagina.
+1. Viene visualizzato un elenco di schede dei corsi associate al programma di apprendimento. Fai clic su **[!UICONTROL Modifica]** nell&#39;angolo superiore destro della pagina.
 1. Puoi modificare l’ordine dell’elenco facendo clic e trascinando ciascuna scheda del corso nella posizione appropriata.
-1. Fai clic **[!UICONTROL Ripubblica]**.
+1. Fai clic su **[!UICONTROL Ripubblica]**.
 
 ## Modifica di un programma di apprendimento pubblicato {#editingapublishedlearningprogram}
 

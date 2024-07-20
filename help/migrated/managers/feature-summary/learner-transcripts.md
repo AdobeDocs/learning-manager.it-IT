@@ -2,14 +2,13 @@
 description: Scopri come scaricare la trascrizione dell’Allievo basata su utenti, oggetti di apprendimento o abilità in Learning Manager.
 jcr-language: en_us
 title: Trascrizioni Allievi
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 85%
 
 ---
-
-
 
 # Trascrizioni Allievi
 
@@ -19,13 +18,13 @@ Adobe Learning Manager consente ai Manager di un’organizzazione di generare le
 
 ## Generazione delle trascrizioni dell’Allievo {#generatelearnertranscripts}
 
-1. Per generare le trascrizioni Allievi, fai clic su **[!UICONTROL Report]** nel riquadro a sinistra nell’accesso Manager.
-1. Fai clic **[!UICONTROL I miei report]** sulla pagina.
-1. Fai clic **[!UICONTROL Trascrizioni Allievi]** link.
+1. Per generare le trascrizioni degli Allievi, fai clic su **[!UICONTROL Report]** nel riquadro a sinistra nell’accesso Manager.
+1. Fai clic sulla scheda **[!UICONTROL I miei report]** nella pagina.
+1. Fai clic sul collegamento **[!UICONTROL Trascrizioni Allievi]**.
 
    ![](assets/learner-transcripts.png)
 
-   *Creazione di report per le trascrizioni Allievi*
+   *Creazione di report per le trascrizioni allievi*
 
 1. Viene visualizzata una finestra di dialogo relativa alle trascrizioni Allievo. Scegli l’intervallo di date per il quale generare la trascrizione.
 
@@ -51,7 +50,7 @@ Se il Manager abilita questa opzione, il fuso orario viene selezionato da quello
 
 ![](assets/image030.png)
 
-*Scarica le trascrizioni Allievi per un fuso orario*
+*Scarica le trascrizioni Allievi per un timezome*
 
 ## Contenuto del file di trascrizione Allievo {#learnertranscriptfilecontent}
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Non è possibile cercare un corso in Learning Manager
 description: Un Allievo non riesce a cercare un corso in Learning Manager.
 contentowner: nluke
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 55%
 
 ---
-
-
 
 # Non è possibile cercare un corso in Learning Manager
 
@@ -49,8 +48,8 @@ Questo problema si verifica se:
 
 1. Accedi come Amministratore.
 
-1. Fai clic **[!UICONTROL Catalogo]** e sfoglia il catalogo che contiene il corso.
-1. Fai clic **[!UICONTROL Condividi internamente]** oppure **[!UICONTROL Contenuto]** (a seconda dello scenario sopra menzionato).
+1. Fai clic su **[!UICONTROL Catalogo]** e individua il catalogo che contiene il corso.
+1. Fai clic su **[!UICONTROL Condividi internamente]** o **[!UICONTROL Contenuto]** (a seconda dello scenario sopra menzionato).
 
    ![](assets/cp-share-internally.png)
 
@@ -60,7 +59,7 @@ Questo problema si verifica se:
 
    * L’Allievo non fa parte del catalogo
 
-     Per condividere il catalogo, fai clic su **[!UICONTROL Aggiungi]** e aggiungi il gruppo di cui fa parte l’utente. Fai clic su **[!UICONTROL Salva]**.
+     Per condividere il catalogo, fai clic su **[!UICONTROL Aggiungi]** e aggiungi il gruppo di cui fa parte l&#39;utente. Fai clic su **[!UICONTROL Salva]**.
 
      ![](assets/cp-add-user-group.png)
 
@@ -72,4 +71,4 @@ Questo problema si verifica se:
 
      ![](assets/cp-add-content.png)
 
-     *Aggiungere contenuti al corso*
+     *Aggiungi contenuto al corso*

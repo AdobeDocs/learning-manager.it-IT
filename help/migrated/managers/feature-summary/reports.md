@@ -3,14 +3,13 @@ description: Creazione e gestione dei report per i Manager.
 jcr-language: en_us
 title: Rapporti
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1840'
 ht-degree: 63%
 
 ---
-
-
 
 # Rapporti
 
@@ -22,7 +21,7 @@ Adobe Learning Manager consente di creare vari report per tracciare, monitorare 
 
 Il processo di generazione dei report è lo stesso sia per gli Amministratori che per i Manager. I Manager possono visualizzare i report corrispondenti ai loro subordinati mentre l’Amministratore può visualizzare tutti i report a livello di organizzazione.
 
-I report sono aggregati in un dashboard. Un report deve esistere all’interno di un dashboard. A **Dashboard predefinito** esiste per impostazione predefinita nella pagina dei report. Qualsiasi report aggiunto viene spostato nel dashboard predefinito. Per aggiungere report ai singoli dashboard, utilizza la freccia a discesa e scegli Aggiungi Report. Per ulteriori informazioni sulla creazione dei dashboard, fai riferimento alla sezione Dashboard in questa pagina.
+I report sono aggregati in un dashboard. Un report deve esistere all’interno di un dashboard. Un **dashboard predefinito** esiste per impostazione predefinita nella pagina dei report. Qualsiasi report aggiunto viene spostato nel dashboard predefinito. Per aggiungere report ai singoli dashboard, utilizza la freccia a discesa e scegli Aggiungi Report. Per ulteriori informazioni sulla creazione dei dashboard, fai riferimento alla sezione Dashboard in questa pagina.
 
 ## Dashboard di gestione {#manager-dashboards}
 
@@ -34,11 +33,11 @@ Il manager può quindi filtrare il report in base a intervalli quali trimestre, 
 
 ![](assets/manager-learningsummary.png)
 
-*Visualizzare il riepilogo della formazione*
+*Visualizza riepilogo apprendimento*
 
 ![](assets/manager-dashboard.jpg)
 
-*Filtra il riepilogo dell’apprendimento per data*
+*Filtra riepilogo apprendimento per data*
 
 ## Dashboard di conformità {#compliancedashboard}
 
@@ -92,17 +91,17 @@ Puoi utilizzare i tipi di report sopra menzionati per generare report di oltre 3
 
 Nome report Digitare un titolo per il report.
 
-**Asse Y principale** Scegli il primo/i criteri principali per il report dalle opzioni a discesa. Per alcuni dei criteri selezionati, è possibile scegliere uno o più stati dalla casella a discesa Stati adiacenti. Ad esempio, per un criterio principale relativo alle statistiche di iscrizione a un corso, gli stati possono essere completati, incompleti, registrati e così via. I dati dell’intervallo principale sono rappresentati sotto forma di grafici a barre nel report.
+**Asse Y principale** Scegliere il primo criterio principale per il report dalle opzioni a discesa. Per alcuni dei criteri selezionati, è possibile scegliere uno o più stati dalla casella a discesa Stati adiacenti. Ad esempio, per un criterio principale relativo alle statistiche di iscrizione a un corso, gli stati possono essere completati, incompleti, registrati e così via. I dati dell’intervallo principale sono rappresentati sotto forma di grafici a barre nel report.
 
-**Asse Y secondario** Scegli l’intervallo/il criterio asse Y secondario per il report dalle opzioni a discesa. Ad esempio, nell’opzione di iscrizione al programma di apprendimento, scegli uno o più stati dall’elenco a discesa Stati adiacenti. I dati dell’intervallo secondario sono rappresentati sotto forma di grafici a linea.
+**Asse Y secondario** Scegliere l&#39;intervallo/il criterio asse Y secondario per il report dalle opzioni a discesa. Ad esempio, nell’opzione di iscrizione al programma di apprendimento, scegli uno o più stati dall’elenco a discesa Stati adiacenti. I dati dell’intervallo secondario sono rappresentati sotto forma di grafici a linea.
 
-**Asse X** Scegli i criteri dell’asse x appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
+**Asse X** Scegliere i criteri dell&#39;asse X appropriati per il report dalle opzioni del menu a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
 
-**Data** Scegli l’opzione appropriata dal menu a discesa. Opzioni: ultimo mese, trimestre, anno, dall’inizio del trimestre a oggi (ultimi 90 giorni), da inizio anno a oggi (ultimi 365 giorni) e intervallo di date. Se selezioni l’intervallo di date, indica le date di inizio e fine come di seguito:
+**Data** Scegliere l&#39;opzione appropriata dal menu a discesa. Opzioni: ultimo mese, trimestre, anno, dall’inizio del trimestre a oggi (ultimi 90 giorni), da inizio anno a oggi (ultimi 365 giorni) e intervallo di date. Se selezioni l’intervallo di date, indica le date di inizio e fine come di seguito:
 
-**Da** Scegli la data di inizio a partire dalla quale desideri visualizzare il report.
+**Da** Scegliere la data di inizio a partire dalla quale si desidera visualizzare il report.
 
-**A** Scegli la data di fine per il report.
+**A** Scegliere la data di fine del report.
 
 ## Filtri {#filters}
 
@@ -114,11 +113,11 @@ I filtri vengono visualizzati nella finestra di dialogo Aggiungi report nella pa
 
 **Gruppo utenti** scegli il gruppo utenti in base al quale filtrare i report. Learning Manager recupera i gruppi di utenti definiti per il tuo account dalla funzione Utenti.
 
-**Corso** Puoi filtrare il report in base a qualsiasi corso scegliendolo dal menu a discesa.
+**Corso** puoi filtrare il report in base a qualsiasi corso scegliendolo dal menu a discesa.
 
 ![](assets/sample-report-admin.png)
 
-*Visualizzare il grafico dei corsi registrati e completati*
+*Visualizza il grafico dei corsi registrati e completati*
 
 >[!NOTE]
 >
@@ -132,11 +131,11 @@ Tieni traccia di come i gruppi di utenti come reparti, partner esterni e ruoli s
 
 ### Gruppi utente {#usergroups}
 
-Per generare report basati su gruppi di utenti, seleziona **Gruppo di utenti** nell’asse X dall’elenco di opzioni a discesa, come mostrato nella schermata seguente.
+Per generare report basati su gruppi di utenti, seleziona **Gruppo utenti** nell’asse X dall’elenco di opzioni a discesa, come mostrato nella schermata seguente.
 
 ![](assets/x-axis-reporting.png)
 
-*Genera report gruppo di utenti*
+*Genera report gruppo utenti*
 
 Un altro menu a discesa **Seleziona** viene visualizzato accanto all’asse X con un elenco di gruppi di utenti disponibili per l’account. In questo menu a discesa è possibile selezionare uno o più gruppi di utenti.
 
@@ -148,7 +147,7 @@ Questo report sui gruppi di utenti consente di confrontare le prestazioni di un 
 
 Inoltre, puoi creare gruppi di utenti personalizzati mediante la funzione Aggiungi utenti/gruppi utenti in Learning Manager. Dopo aver creato i gruppi di utenti è possibile generare report per tali gruppi di utenti personalizzati con l’aiuto di un elenco di attributi come posizione, ramo e così via.
 
-Nell&#39;asse X, scegliere l&#39;opzione dell&#39;attributo utente e selezionare l&#39;attributo da **seleziona** nell&#39;elenco a discesa accanto. Per creare un report gruppo di utenti personalizzato in base a questi attributi, è inoltre necessario scegliere il gruppo di utenti appropriato nel filtro.
+Nell&#39;asse X, scegliere l&#39;opzione dell&#39;attributo utente e selezionare l&#39;attributo dall&#39;elenco a discesa **seleziona** accanto ad esso. Per creare un report gruppo di utenti personalizzato in base a questi attributi, è inoltre necessario scegliere il gruppo di utenti appropriato nel filtro.
 
 I Manager possono creare report di gruppi di utenti solo per i propri membri del team come Allievi.
 
@@ -179,7 +178,7 @@ Fai clic sulla scheda di questa bacheca per visualizzare tutte le bacheche che h
 
    ![](assets/add-dashboard.png)
 
-   *Crea la tua bacheca*
+   *Crea una bacheca personalizzata*
 
 1. Fornisci nome e descrizione del dashboard e fai clic su **[!UICONTROL Salva]**.
 
@@ -199,7 +198,7 @@ I report condivisi sono una raccolta di report condivisi con te da altri utenti 
 
 Puoi iscriverti ai tuoi report preferiti indicando qui l’ID e-mail. I report sottoscritti ti vengono inviati tramite e-mail.
 
-Fare clic sul pulsante **Modifica** nell’angolo destro del nome del report dall’elenco dei report per modificare l’abbonamento in qualsiasi momento.
+Fai clic sull&#39;icona **Modifica** nell&#39;angolo destro del nome del report dall&#39;elenco dei report per modificare il tuo abbonamento in qualsiasi momento.
 
 ## Visualizzazione dei report {#viewingreports}
 
@@ -214,19 +213,19 @@ Puoi modificare valore/intervallo di data per ogni report e visualizzare rapidam
 **Visualizzazione rapida con diversi Manager**
 
 Se più Manager ti inviano report, puoi visualizzare rapidamente i report per ogni Manager. Scegli il nome del manager dall’elenco a discesa per visualizzare un report univoco per ciascun manager.
-**Modifica/Sposta nella bacheca/Crea una copia/Elimina/Ridimensiona i report** Fai clic sulla freccia a discesa nell’angolo superiore destro di ogni report per visualizzare le opzioni a discesa come Modifica/Sposta nel dashboard/Crea una copia/Elimina/Ridimensiona.
+**Modifica/Sposta nella bacheca/Crea una copia/Elimina/Ridimensiona i report** Fai clic sulla freccia a discesa nell&#39;angolo superiore destro di ogni report per visualizzare le opzioni a discesa come Modifica/Sposta nel dashboard/Crea una copia/Elimina/Ridimensiona.
 
 <!--![](assets/edit-options-dashboard-300x126.png)-->
 
 **Modifica** Durante la modifica dei dati, per tornare ai valori iniziali, fare clic su Ripristina. Fai clic su Salva dopo aver modificato i valori.
 
-**Sposta nel dashboard** Puoi spostare il report corrente in un altro dashboard, scelto nell’elenco dei dashboard.
+**Sposta nel dashboard** Puoi spostare il report corrente in un altro dashboard, scelto nell&#39;elenco dei dashboard.
 
-**Crea una copia** Puoi copiare il report sullo stesso dashboard o su uno diverso, scelto nell’elenco dei dashboard.
+**Crea una copia** Puoi copiare il report sullo stesso dashboard o su uno diverso, scelto nell&#39;elenco dei dashboard.
 
-**Elimina** Fai clic su Elimina per rimuovere il report. Viene visualizzato un messaggio di conferma/avviso prima di poter eliminare il report.
+**Elimina** Fare clic su Elimina per rimuovere il report. Viene visualizzato un messaggio di conferma/avviso prima di poter eliminare il report.
 
-**Ridimensiona** Puoi ridimensionare i report nei formati 1×1 (medio) e 2×2 (grande).
+**Ridimensiona** puoi ridimensionare i report nei formati 1×1 (medio) e 2×2 (grande).
 
 ## Iscrizioni e-mail {#emailsubscriptions}
 

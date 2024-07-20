@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Pagina principale dell’Allievo
-description: Dopo che l'amministratore ha abilitato il layout immersivo, l'Allievo, dopo aver effettuato l'accesso all'app, viene accolto con un'interfaccia utente completamente rinnovata.
+description: Dopo che l’Amministratore ha abilitato il layout immersivo, l’Allievo, dopo aver effettuato l’accesso all’app, viene accolto con un’interfaccia utente completamente rinnovata.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
@@ -15,95 +15,95 @@ ht-degree: 40%
 
 ## Panoramica {#overview}
 
-Dopo che l&#39;amministratore ha abilitato il layout immersivo, l&#39;allievo viene accolto con un&#39;interfaccia utente completamente rinnovata quando accede all&#39;app.
+Una volta che l’Amministratore ha abilitato il layout immersivo, quando accede all’app l’Allievo viene accolto con un’interfaccia utente completamente rinnovata.
 
 >[!NOTE]
 >
->Il browser di Internet Explorer 11 non supporta il layout immersivo.
+>Il browser IE11 non supporta il layout immersivo.
 
-## Nuova interfaccia utente Allievo per il layout immersivo
+## Nuova interfaccia utente Allievo per layout immersivo
 
 >[!IMPORTANT]
 >
->Rilasceremo la nuova interfaccia utente dell&#39;Allievo in più fasi.
+>La nuova interfaccia utente degli Allievi verrà rilasciata in diverse fasi.
 
-Abbiamo aggiornato l&#39;interfaccia utente dell&#39;Allievo con un design più elegante e aggiornato. La nuova interfaccia utente mira a fornire un&#39;esperienza utente coerente nelle **[!UICONTROL pagine di]** destinazione Home Allievo, **[!UICONTROL Il mio apprendimento]**, **[!UICONTROL Catalogo]** e **[!UICONTROL Panoramica]** del corso. I nuovi elementi visivi seguono gli stili di design attuali, rendendo il prodotto più facile da usare e attraente. Questo aggiornamento include una nuova testata, un pannello laterale e widget contemporanei.
+Abbiamo aggiornato l’interfaccia utente degli Allievi con un design più elegante e aggiornato. La nuova interfaccia utente mira a fornire un&#39;esperienza utente coerente in **[!UICONTROL Home page Allievo]**, **[!UICONTROL Il mio apprendimento]**, **[!UICONTROL Catalogo]** e **[!UICONTROL Panoramica corso]** pagine di destinazione. I nuovi elementi visivi seguono gli stili di progettazione attuali, rendendo il prodotto più facile da usare e attraente. Questo aggiornamento include un nuovo masthead, un pannello laterale e widget contemporanei.
 
 >[!NOTE]
 >
->La rinnovata interfaccia utente si applica solo al layout immersivo. Il web/app mobile non supporta ancora queste modifiche e le aggiornerà in una versione futura.
+>L’interfaccia utente rinnovata si applica solo al layout immersivo. La web app per dispositivi mobili non supporta ancora queste modifiche e le aggiornerà in una versione futura.
 
 ![](assets/old-ui.png)
-_Vecchia interfaccia utente_
+_Interfaccia utente precedente_
 
 ![](assets/home-page-new.jpg)
 _Nuova interfaccia utente_
 
 ### Homepage
 
-La homepage ha un nuovo design con un pannello laterale migliorato, intestazione superiore, schede del corso migliorate e widget.
+La pagina principale presenta un nuovo design con un pannello laterale migliorato, un’intestazione superiore, schede per corsi migliorati e widget.
 
 ![](assets/new-ui-homepage.png)
-_Nuova homepage_
+_Nuova pagina principale_
 
 ### Pagina del catalogo
 
-Le pagine del catalogo hanno un nuovo aspetto con filtri organizzati e schede corso migliorate per offrire una migliore esperienza utente.
+Le pagine Catalogo presentano un nuovo aspetto, con filtri organizzati e schede dei corsi migliorate per offrire una migliore esperienza utente.
 
 ![](assets/catalog.jpg)
 _Pagina del catalogo_
 
 ### Pagina della Panoramica del corso
 
-La pagina di panoramica del corso ha un nuovo aspetto con ulteriori dettagli sul corso. Questa pagina aiuta gli Allievi a ottenere tutte le informazioni di cui hanno bisogno.
+La pagina della panoramica del corso presenta un nuovo aspetto con maggiori dettagli sul corso. Questa pagina consente agli Allievi di ottenere tutte le informazioni di cui hanno bisogno.
 
 ![](assets/course-overview.jpg)
-_Pagina di panoramica del corso_
+_Pagina della panoramica del corso_
 
 ### Schede del corso
 
-Le schede del corso presentano anche un layout riprogettato per visualizzare i dettagli in modo più efficace. Le schede dei corsi rinnovate evidenziano i metadati rilevanti richiesti per l&#39;iscrizione. Questi metadati includono date di pubblicazione o scadenza, valutazioni e descrizioni corrette insieme ai relativi autori o fornitori.
+Il layout delle schede dei corsi è stato ridisegnato per visualizzare i dettagli in modo più efficace. Le schede dei corsi rinnovate evidenziano i metadati pertinenti necessari per l’iscrizione. Questi metadati includono date di pubblicazione o di scadenza corrette, valutazioni e descrizioni insieme agli autori o ai provider.
 
 ![](assets/old-course-cards.png)
-_Vecchia scheda del corso_
+_Scheda del vecchio corso_
 
 ![](assets/new-course-card.jpg)
-_Nuova scheda del corso_
+_Scheda nuovo corso_
 
-Per i corsi importati da **LinkedIn e dalla** piattaforma Go1 **, le schede dei corsi mostreranno le date di pubblicazione originali di** LinkedIn **e** Go1 ****. È inoltre possibile visualizzare queste date di pubblicazione specifiche nell&#39;interfaccia utente.
+Per i corsi importati da **LinkedIn** e dalla piattaforma **Go1**, nelle schede dei corsi verranno visualizzate le date della pubblicazione originale di **LinkedIn** e **Go1**. È inoltre possibile visualizzare queste date di pubblicazione specifiche nell&#39;interfaccia utente.
 
 ### Barra laterale e barra di ricerca
 
-La barra laterale è stata aggiornata con nuovi elementi dell&#39;interfaccia utente per un aspetto più pulito. La nuova barra di ricerca non ha alcun pulsante di ricerca, conferendole un aspetto più pulito. Gli Allievi possono digitare una parola chiave e premere Invio per avviare la ricerca o selezionare i risultati sotto la barra di ricerca.
+La barra laterale viene aggiornata con nuovi elementi dell&#39;interfaccia utente per un aspetto più pulito. La nuova barra di ricerca non ha un pulsante di ricerca, il che le conferisce un aspetto più pulito. Gli Allievi possono digitare una parola chiave e premere Invio per avviare la ricerca o selezionare i risultati sotto la barra di ricerca.
 
 ![](assets/side-bar.png)
 _Barra laterale e barra di ricerca_
 
 ### Masthead {#masthead}
 
-Presenta un carosello di video o immagini con un URL incorporato. L&#39;amministratore [può caricare qualsiasi risorsa di immagini o video](../../administrators/feature-summary/announcements.md#masthead) come testata e impostarne la visibilità per un gruppo di Allievi.
+Presenta un carosello di video o immagini con un URL incorporato. L’Amministratore [può caricare qualsiasi immagine o risorsa video](../../administrators/feature-summary/announcements.md#masthead) come masthead e impostarne la visibilità per un gruppo di Allievi.
 
 ![](assets/learner-masthead.png)
 
-*Visualizzazione della testa d&#39;albero*
+*Visualizza masthead*
 
 ### Elenco Il mio apprendimento {#mylearninglist}
 
-Visualizza la formazione seguita dall&#39;Allievo. Questi allenamenti sono visualizzati come carte allineate orizzontalmente. Puoi fare clic sul pulsante destro o sinistro per sfogliare i corsi.
+Visualizza il corso di formazione seguito dall’Allievo. Questi corsi di formazione sono visualizzati come schede allineate orizzontalmente. Puoi fare clic sul pulsante destro o sinistro per sfogliare i corsi.
 
 ![](assets/learner-my-learning-list.png)
 
-*Visualizza l&#39;elenco Il mio apprendimento*
+*Visualizza elenco Il mio apprendimento*
 
-Puoi anche scorrere verso sinistra e destra per navigare nell&#39;elenco.
+Puoi anche scorrere a destra e a sinistra per spostarti nella lista.
 
-Per riprendere un corso, fai clic su **[!UICONTROL Continua]** su una scheda e il lettore verrà avviato.
+Per riprendere un corso, fai clic su **[!UICONTROL Continua]** su una scheda per avviare il lettore.
 
-L&#39;aspetto delle icone su ogni scheda di allenamento viene abilitato/disabilitato dall&#39;amministratore tramite l&#39;app Amministratore (**Impostazioni** > **Generale** > **Abilita icone** scheda allenamento).
+La visualizzazione delle icone su ogni scheda di formazione è abilitata/disabilitata dall&#39;amministratore tramite l&#39;app Amministratore (**Impostazioni** > **Generali** > **Attiva icone per la scheda di formazione**).
 
 **Aggiunta all’elenco Il mio apprendimento**
 
-Passando con il mouse sulla scheda di un corso nelle sezioni **Consigliato in base alle tue aree di interesse** e **Consigliato in base agli elenchi delle attività dei colleghi**, puoi vedere l’opzione per aggiungere il corso all’**elenco Il mio apprendimento**. Fai clic su **[!UICONTROL +]** sulla scheda del corso e il corso verrà aggiunto all&#39;elenco **** Il mio apprendimento.
+Passando con il mouse sulla scheda di un corso nelle sezioni **Consigliato in base alle tue aree di interesse** e **Consigliato in base agli elenchi delle attività dei colleghi**, puoi vedere l’opzione per aggiungere il corso all’**elenco Il mio apprendimento**. Fai clic su **[!UICONTROL +]** nella scheda del corso per aggiungere il corso alla **Lista di apprendimento**.
 
 ![](assets/add-my-learning.png)
 
@@ -121,22 +121,22 @@ Scegli un&#39;opzione e potrai quindi visualizzare il catalogo del corso in base
 
 ![](assets/skill-levels.png)
 
-*Seleziona i livelli di abilità*
+*Seleziona livelli di abilità*
 
 ## Widget del dashboard di conformità
 
-Il widget Dashboard di conformità consente agli Allievi di filtrare corsi/percorsi di apprendimento/certificazioni con scadenze imminenti utilizzando l&#39;etichetta Conformità. Questa funzione è disponibile in tutte le app per Allievi, incluse le app ALM Teams, AEM, Mobile, Immersive e SF.
+Il widget della dashboard di conformità consente agli Allievi di filtrare corsi/percorsi di apprendimento/certificazioni con scadenze imminenti utilizzando l’etichetta di conformità. Questa funzione è disponibile su tutte le app per gli Allievi, tra cui l’app ALM Teams, AEM, app per dispositivi mobili, Immersive e SF.
 
 ![](assets/compliance-status-learner.png)
 _Widget del dashboard di conformità_
 
 ## Calendario {#calendar}
 
-Mostra le sessioni e i corsi di formazione pianificati. Sfoglia il calendario per visualizzare la formazione per i mesi successivi.
+Mostra le sessioni e i corsi di formazione pianificati. Esplora il calendario per visualizzare i corsi di formazione per i mesi successivi.
 
 ![](assets/learner-calendar.png)
 
-*Visualizzare il calendario delle sessioni pianificate*
+*Visualizza calendario per sessioni pianificate*
 
 Il widget Calendario ha le seguenti funzioni. È possibile visualizzare:
 
@@ -149,7 +149,7 @@ Il widget Calendario ha le seguenti funzioni. È possibile visualizzare:
 
 ![](assets/social-feed.png)
 
-*Visualizza il feed social*
+*Visualizza feed social*
 
 Scopri di cosa stanno parlando gli altri utenti.
 
@@ -163,19 +163,19 @@ Il widget riepiloga l&#39;attività di un determinato periodo. In particolare:
 Le abilità di profilo vengono usate per i suggerimenti sui corsi. Se l’Amministratore assegna un’abilità a un utente o a un gruppo di utenti, questa viene aggiunta alle abilità di profilo dell’Allievo. Se l’Allievo aggiunge un’abilità al suo profilo, tutti i livelli dell&#39;abilità verranno aggiunti alle abilità di profilo dell’Allievo. Se l’Allievo passa il mouse su un’abilità, può visualizzarne nome, metodo di aggiunta, livello, percentuale di completamento e crediti.
 
 ![](assets/profile-skills.png)
-*Visualizza le abilità del profilo*
+*Visualizzare le abilità del profilo*
 
-Se un Allievo si iscrive a un corso, solo le abilità esterne basate su un punteggio verranno aggiunte alle abilità di profilo. Inoltre, un Allievo può cercare, selezionare e aggiungere competenze esterne al proprio profilo. Se un Allievo ha effettuato l&#39;accesso all&#39;applicazione Allievo per la prima volta e le sue abilità sono già presenti, le abilità vengono visualizzate in Il mio profilo.
+Se un Allievo si iscrive a un corso, solo le abilità esterne basate su un punteggio verranno aggiunte alle abilità di profilo. Inoltre, un Allievo può cercare, selezionare e aggiungere abilità esterne al proprio profilo.Se un Allievo accede all’app per Allievi per la prima volta e se le sue abilità sono già presenti, le abilità verranno visualizzate in Profilo personale.
 
 ## Consiglio in base alla tua area di interesse {#recommendationbasedonyourareaofinterest}
 
-Visualizza i corsi di formazione in base all’area di interesse prescelta. La raccomandazione è guidata da un algoritmo di Machine Learning.
+Visualizza i corsi di formazione in base all’area di interesse prescelta. Il consiglio è guidato da un algoritmo di apprendimento automatico.
 
 ![](assets/learner-recommendation.png)
 
-*Visualizza i corsi consigliati*
+*Visualizza corsi consigliati*
 
-Per consigli più mirati, puoi aggiornare le tue abilità facendo clic su **Visualizza/Aggiorna**.
+Per suggerimenti più mirati, puoi aggiornare le tue abilità facendo clic su **Visualizza/Aggiorna**.
 
 Dopo aver aggiunto un’abilità, i consigli futuri diventeranno più mirati e saranno basati sulle tue preferenze.
 
@@ -195,9 +195,9 @@ Nella visualizzazione Mappa abilità, puoi cercare le abilità e aggiungerle.
 
 ![](assets/learner-add-industry-skills.png)
 
-*Visualizzazione della mappa delle abilità*
+*Visualizzazione mappa abilità*
 
-Abilita l&#39;opzione **Mostra abilità per cui sono presenti corsi di formazione nel mio account**, se desideri visualizzare tutte le abilità presenti nel tuo account.
+Abilita l’opzione **Mostra le abilità per le quali sono presenti corsi di formazione nel mio account** per visualizzare tutte le abilità presenti nel tuo account.
 
 Dopo aver aggiunto un’abilità, puoi vedere il grafico con l’abilità selezionata come vertice primario e le abilità associate come vertici più piccoli.
 
@@ -205,10 +205,10 @@ L’abilità che hai scelto viene visualizzata anche nella sezione **Abilità se
 
 ![](assets/learner-add-industry-skills-1.png)
 
-*Competenze selezionate*
+*Abilità selezionate*
 
 Per aggiungere le abilità, fai clic su **[!UICONTROL Aggiungi]**.
 
 ## Consiglio in base all’attività dei colleghi {#recommendationbasedonpeeractivity}
 
-Visualizza l&#39;allenamento in base a ciò che i tuoi colleghi stanno assumendo. Anche questo consiglio è generato da un algoritmo di apprendimento automatico. Le raccomandazioni si basano sulla formazione per gli studenti personalizzati e allineati al settore.
+Visualizza i corsi di formazione in base a ciò che stanno seguendo i colleghi. Anche questo consiglio è generato da un algoritmo di apprendimento automatico. I consigli si basano sulla formazione per Allievi personalizzati e allineati al settore.

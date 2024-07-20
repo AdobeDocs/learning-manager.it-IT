@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: I link e-mail attivati da modelli modificati generano un errore in Learning Manager
-description: I collegamenti e-mail attivati da modelli modificati generano un errore nell’Adobe Learning Manager
+description: I link e-mail attivati da modelli modificati generano un errore in Adobe Learning Manager
 contentowner: nluke
 preview: true
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
@@ -46,8 +46,8 @@ Per evitare errori relativi a link non funzionanti, che potrebbero verificarsi a
 
    * Ti consigliamo di modificare un modello e-mail a partire dall’interfaccia di Learning Manager.
    * Copia e incolla il modello modificato su un file Blocco note o Word per memorizzare una copia delle modifiche apportate.
-   * Evita di sostituire il testo dinamico evidenziato in blu all’interno del modello. Ad esempio, &quot;**NomeOrganizzazione**&quot;, &quot;**Allievo**&quot;, &quot;**fai clic qui**&quot;, &quot;**NomeCertificato**&quot;, e così via.
+   * Evita di sostituire il testo dinamico evidenziato in blu all’interno del modello. Ad esempio, &quot;**OrganizationName**&quot;, &quot;**Allievo**&quot;, &quot;**fai clic qui**&quot;, &quot;**CertificateName**&quot; e così via.
 
-1. Fai clic **[!UICONTROL Salva]** per confermare le modifiche applicate al modello.
+1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche applicate al modello.
 1. Prova a far partire l’e-mail per verificare il corretto funzionamento dei link.
-1. Ripristina le impostazioni originali facendo clic sull’opzione **Ripristina originale** per il modello modificato.
+1. Ripristina le impostazioni originali facendo clic sull&#39;opzione **Ripristina originale** per il modello modificato.

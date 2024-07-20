@@ -3,14 +3,13 @@ description: Configurazione delle notifiche utente per Manager.
 jcr-language: en_us
 title: Notifiche per l’utente
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 80%
 
 ---
-
-
 
 # Notifiche per l’utente
 
@@ -30,7 +29,7 @@ Istantanea di notifiche Manager di esempio:
 
 In questa finestra a comparsa viene visualizzato un riepilogo di tutte le notifiche, insieme all’ora di invio e a una barra di scorrimento. Per visualizzare ulteriori informazioni su tutte le notifiche, fai clic su Mostra tutte le notifiche nella parte inferiore della finestra a comparsa. Viene visualizzata la pagina delle notifiche.
 
-Un Manager può visualizzare le attività in sospeso e tutte le notifiche in un modulo a schede nella pagina delle notifiche. Le notifiche delle attività in sospeso sono classificate in base ad approvazioni, nomine e così via. Per visualizzare tutte le notifiche, fai clic su **[!UICONTROL Tutte le notifiche]** scheda. Nella scheda Tutte le notifiche, le notifiche sono ordinate in base a data e ora.
+Un Manager può visualizzare le attività in sospeso e tutte le notifiche in un modulo a schede nella pagina delle notifiche. Le notifiche delle attività in sospeso sono classificate in base ad approvazioni, nomine e così via. Per visualizzare tutte le notifiche, fai clic sulla scheda **[!UICONTROL Tutte le notifiche]**. Nella scheda Tutte le notifiche, le notifiche sono ordinate in base a data e ora.
 
 ![](assets/manager-notifications-page.png)
 
@@ -44,7 +43,7 @@ Nella finestra di notifica, come illustrato nell’istantanea sopra, fai clic su
 
 ![](assets/nominate-learners.png)
 
-*Candidatura degli Allievi ai corsi*
+*Nominare gli Allievi per i corsi*
 
 **Tipi di notifiche per Manager**
 

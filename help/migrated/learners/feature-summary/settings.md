@@ -31,7 +31,7 @@ Leggi questo articolo per scoprire come impostare le impostazioni profilo Alliev
    * Scarica la trascrizione Allievo con i tuoi dati.
 
    ![](assets/learner-preferences.png)
-   *Visualizzare le preferenze dell’Allievo*
+   *Visualizza preferenze Allievo*
 
    Quando fai clic sul collegamento Scarica le trascrizioni di apprendimento (XLS), nel sistema viene scaricato un Excel. Tale documento contiene i dettagli degli oggetti di apprendimento utilizzati, lo stato di completamento di ogni oggetto di apprendimento, le corrispondenti date di scadenza, le abilità ottenute e così via. Scarica questo documento per ottenere rapidamente alcuni dati completi per il profilo di apprendimento.
 
@@ -39,7 +39,7 @@ Leggi questo articolo per scoprire come impostare le impostazioni profilo Alliev
 
 **1. Come si scarica una Trascrizione Allievo come Allievo?**
 
-Nell’angolo in alto a destra, fai clic sul tuo **[!UICONTROL profilo utente]** > **[!UICONTROL Impostazioni profilo]**. Nella finestra di dialogo visualizzata, fai clic su **Scarica la mia trascrizione di apprendimento (XLS)**.
+Nell&#39;angolo superiore destro, fai clic sul **[!UICONTROL profilo utente]** > **[!UICONTROL Impostazioni profilo]**. Nella finestra di dialogo visualizzata, fai clic su **Scarica le trascrizioni di apprendimento (XLS)**.
 
 ![](assets/dowload-lt.png)
 *Scarica Trascrizione Allievo*

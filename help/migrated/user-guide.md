@@ -1,14 +1,14 @@
 ---
 title: Ti diamo il benvenuto nella guida utente di Adobe Learning Manager
-description: Scopri le offerte più recenti di Learning Manager (in precedenza Adobe Captivate Prime) di Adobe. Partendo dall’inizio, visita ogni sezione oppure entra nella Community per seguire un progetto.
+description: Scopri le offerte più recenti di Adobe Learning Manager (in precedenza, Adobe Captivate Prime). Partendo dall’inizio, visita ogni sezione oppure entra nella Community per seguire un progetto.
 contentowner: dhv
-source-git-commit: 73a1fe972eb8d399dd9ae53b6b1128bb11561924
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 19%
 
 ---
-
 
 # Ti diamo il benvenuto nella guida utente di Adobe Learning Manager
 
@@ -16,7 +16,7 @@ Continua a leggere per scoprire cosa ti offre Adobe Learning Manager (in precede
 
 ## Partecipa alla conversazione {#jointheconversation}
 
-Visita il sito [Adobe della community degli utenti di Learning Manager](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) per trarre ispirazione e ottenere le risposte alle domande più frequenti.
+Visita la [community degli utenti Adobe Learning Manager](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) per trarre ispirazione e ricevere le risposte alle domande più frequenti.
 
 ## Argomenti principali {#populartopics}
 
@@ -51,7 +51,7 @@ Visita il sito [Adobe della community degli utenti di Learning Manager](https://
     <img alt="accessibilità" src="assets/prime-accessibility.jpeg">
     </a>
     <div>
-    <a href="accessibility-learning-manager.md"><strong>Accessibilità nell’Adobe di Learning Manager</strong></a>
+    <a href="accessibility-learning-manager.md"><strong>Accessibilità in Adobe Learning Manager</strong></a>
     </div>
    </td>
   </tr>

@@ -31,13 +31,13 @@ Se desideri contattare Adobe per ulteriori informazioni sull’abbonamento e sul
 
    ![](assets/billing.png)
 
-   *Avvia Adobe di fatturazione di Learning Manager*
+   *Avvia fatturazione Adobe Learning Manager*
 
-1. Nella **[!UICONTROL Informazioni di fatturazione]** , aggiungi il numero di utenti nella **[!UICONTROL Aggiungi utenti]** campo. Quando si utilizza una carta di credito per gli abbonamenti prepagati, è possibile visualizzare il numero di utenti che si possono aggiungere per l’abbonamento. Il numero di utenti che puoi aggiungere non deve superare il numero indicato nella sezione Remaining.1.
+1. Nella pagina **[!UICONTROL Informazioni di fatturazione]**, aggiungi il numero di utenti nel campo **[!UICONTROL Aggiungi utenti]**. Quando si utilizza una carta di credito per gli abbonamenti prepagati, è possibile visualizzare il numero di utenti che si possono aggiungere per l’abbonamento. Il numero di utenti che puoi aggiungere non deve superare il numero indicato nella sezione Remaining.1.
 
    ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
 
-   *Aggiungere il numero di utenti*
+   *Aggiungi numero di utenti*
 
 1. Dopo aver specificato il numero di utenti da aggiungere, fai clic su Effettua ordine nell’angolo in alto a destra della pagina.
 
@@ -47,7 +47,7 @@ Se desideri contattare Adobe per ulteriori informazioni sull’abbonamento e sul
 
    ![](assets/pricing-estimate.png)
 
-   *Effettua un ordine*
+   *Effettuare un ordine*
 
    La quota annuale di abbonamento viene calcolata in base al numero di utenti aggiunti per l’abbonamento. Ad esempio, se vengono aggiunti quattro utenti, la quota annuale viene calcolata utilizzando l’espressione 4 utenti X 4 $ X 12, che restituisce un importo di 192 $.
 
@@ -59,16 +59,16 @@ Se desideri contattare Adobe per ulteriori informazioni sull’abbonamento e sul
 
    ![](assets/payment-details.png)
 
-   *Visualizza i dettagli di pagamento*
+   *Visualizza dettagli pagamento*
 
    È inoltre possibile modificare le impostazioni internazionali scegliendo il paese dall’elenco a discesa.
 
    ![](assets/change-locale.png)
 
-   *Seleziona il paese di fatturazione*
+   *Selezionare il paese di fatturazione*
 
 1. Inserisci le tue informazioni di contatto, scegli il tipo di carta di credito e fornisci i dettagli della carta di credito. Dopo aver inserito i dettagli richiesti, fai clic su **[!UICONTROL Completa ordine]**.
-1. Dopo aver effettuato l&#39;ordine, per visualizzare i pacchetti ordinati di recente, fai clic sul pulsante **[!UICONTROL Cronologia ordini]** sulla scheda **[!UICONTROL Fatturazione]** pagina.
+1. Dopo aver effettuato l&#39;ordine, per visualizzare i pacchetti ordinati di recente, fai clic sulla scheda **[!UICONTROL Cronologia ordini]** nella pagina **[!UICONTROL Fatturazione]**.
 
    ![](assets/order-history.png)
 
@@ -80,7 +80,7 @@ Gli ordini possono essere contraddistinti da uno dei seguenti quattro stati:
 
 **Attivo:** l’ordine è attivo e gli utenti sono registrati correttamente.
 
-**Sospeso:** Un ordine passa allo stato sospeso nei seguenti scenari:
+**Sospeso:** un ordine passa allo stato sospeso nei seguenti scenari:
 
 * Ritardo nella ricezione del pagamento dalla carta di credito
 * Scadenza della carta di credito.
@@ -107,7 +107,7 @@ Gli ordini possono essere contraddistinti da uno dei seguenti quattro stati:
 Per annullare un ordine:
 
 1. Fai clic su Fatturazione nel riquadro sinistro della pagina Amministrazione.
-1. Nella pagina Fatturazione, nell’angolo superiore destro, scegli **[!UICONTROL Azioni]** > **[!UICONTROL Disattiva account]**.
+1. Nella pagina Fatturazione, nell&#39;angolo superiore destro, scegli **[!UICONTROL Azioni]** > **[!UICONTROL Disattiva account]**.
 1. Una volta che l’Amministratore ha disattivato l’account, tutti gli ordini esistenti nell’account vengono annullati dal successivo ciclo di fatturazione.
 
 Quando un account viene disattivato dal cliente, entra in stato di prova per i successivi 30 giorni. Il titolare dell’account riceve tre e-mail di promemoria per ripristinare l’account. Se il titolare non riattiva l’account, nessuno degli utenti potrà accedere a Learning Manager tranne il titolare.
@@ -125,9 +125,9 @@ Puoi scegliere l’ordine d’acquisto come modalità di pagamento alternativa. 
 
 Dopo l’attivazione, l’account può trovarsi in uno dei seguenti stati:
 
-* **Versione di prova** - Puoi creare un account Learning Manager di Adobe e utilizzarlo senza alcun pagamento per un periodo di 30 giorni. Non vi sono limiti al numero di Allievi registrati durante il periodo di prova.
+* **Versione di prova** - Puoi creare un account Adobe Learning Manager e utilizzarlo senza alcun pagamento per un periodo di 30 giorni. Non vi sono limiti al numero di Allievi registrati durante il periodo di prova.
 * **Attivo** - In questo stato, l’account dispone di abbonamenti Allievi attivi con pagamento mensile ricorrente in base all’ordine di abbonamento.
-* **Inattivo** - Un account passa allo stato inattivo nei seguenti casi:
+* **Inattivo** - Un account passa allo stato inattivo nei seguenti scenari:
 
    * Dopo il periodo di prova se nell’account non sono presenti ordini di abbonamento attivi.
    * L’Amministratore disattiva l’account, annullando tutti gli ordini esistenti in un account dal successivo ciclo di fatturazione della sottoscrizione.
@@ -186,9 +186,9 @@ Qualsiasi utente che effettui le seguenti azioni o ottenga completamenti a causa
 
 1. Nella pagina mostrata, è possibile visualizzare quanto segue:
 
-   * **Utilizzo generale:** Puoi controllare il numero totale di utenti attivi, gli utenti che utilizzano Learning Manager in un determinato mese e il numero di utenti che non si sono iscritti ad alcun corso.
+   * **Utilizzo generale:** puoi controllare il numero totale di utenti attivi, gli utenti che utilizzano Learning Manager in un determinato mese e il numero di utenti che non si sono iscritti ad alcun corso.
 
-   * **Utilizzo mensile:** È possibile visualizzare una tabella di utenti attivi univoci al mese.
+   * **Utilizzo mensile:** è possibile visualizzare una tabella di utenti attivi univoci al mese.
 
 ## Scaricare il report sull’utilizzo {#downloadusagereport}
 
@@ -198,7 +198,7 @@ Nella finestra di dialogo **Genera richiesta di report**, immetti i mesi e l’a
 
 ![](assets/generate-report-request.png)
 
-*Scarica report sull’utilizzo attivo*
+*Scarica report sull&#39;utilizzo attivo*
 
 Se chiudi la finestra del browser, il download inizierà la prossima volta che visiti Learning Manager.
 
@@ -219,7 +219,7 @@ Per rimuovere un abbonamento attivo, contatta il team di supporto di Learning Ma
 
 +++Come modificare la carta di credito utilizzata per l’acquisto degli abbonamenti?
 
-Nella **[!UICONTROL Cronologia ordini]** , per un account attivo, fai clic su **[!UICONTROL Modifica]**. Quindi, nella pagina dei dettagli dell’abbonamento, fai clic su **[!UICONTROL Modifica abbonamento]**. Immetti i dati della nuova carta di credito e fai clic su **[!UICONTROL Aggiorna metodo di pagamento]**.
+Nella scheda **[!UICONTROL Cronologia ordini]**, per un account attivo, fai clic su **[!UICONTROL Modifica]**. Quindi, nella pagina dei dettagli dell’abbonamento, fai clic su **[!UICONTROL Modifica abbonamento]**. Immetti i dati della nuova carta di credito e fai clic su **[!UICONTROL Aggiorna metodo di pagamento]**.
 
 ![](assets/credit-card-details.png)
 
@@ -236,8 +236,8 @@ Per aggiornare le informazioni di fatturazione, segui i passaggi successivi:
 
 Scegli l’elemento da modificare:
 
-1. **[!UICONTROL Metodo di pagamento]:** Utilizza questa opzione per aggiornare i dati di pagamento, ad esempio la carta di credito.
-1. **[!UICONTROL Indirizzo]:** Utilizza questa opzione per aggiornare i dettagli dell’indirizzo.
+1. **[!UICONTROL Metodo di pagamento]:** Utilizzare questa opzione per aggiornare i dati di pagamento, ad esempio la carta di credito.
+1. **[!UICONTROL Indirizzo]:** Utilizzare questa opzione per aggiornare i dettagli dell&#39;indirizzo.
 +++
 
 +++È possibile annullare parzialmente un abbonamento?
@@ -250,5 +250,5 @@ No, non è possibile annullare parzialmente un abbonamento. Se devi ridurre il n
 Per ottenere una fattura per i tuoi pagamenti, contatta [FastSpring](https://fastspring.com/) utilizzando uno dei seguenti modi:
 
 * Crea una richiesta di servizio con FastSpring utilizzando il collegamento `https://questionacharge.com`.
-* Invia un’e-mail a FastSpring il `orders@fastspring.com` richiesta della fattura.
+* Invia un&#39;e-mail a FastSpring il `orders@fastspring.com` richiedendo la fattura.
 +++

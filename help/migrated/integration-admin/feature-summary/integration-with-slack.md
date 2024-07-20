@@ -32,11 +32,11 @@ In qualità di Amministratore dell’integrazione, segui questi passaggi per app
 
    ![](assets/featuredapps.jpg)
 
-1. Fai clic sul riquadro **[!UICONTROL Slack]**. Si aprirà la pagina di integrazione Slack. Fai clic **[!UICONTROL Approva]** nell’angolo in alto a destra per approvare l’applicazione.
+1. Fai clic sul riquadro **[!UICONTROL Slack]**. Si aprirà la pagina di integrazione Slack. Fai clic su **[!UICONTROL Approva]** nell&#39;angolo in alto a destra per approvare l&#39;applicazione.
 
    ![](assets/approval.png)
 
-1. Torna al **[!UICONTROL Applicazioni]** pagina. Una volta approvato, lo Slack deve apparire nel **[!UICONTROL App esterne]** scheda.
+1. Torna alla pagina **[!UICONTROL Applicazioni]**. Una volta approvato, lo Slack dovrebbe essere visualizzato nella scheda **[!UICONTROL App esterne]**.
 1. Ora gli Allievi possono accedere al proprio account Prime utilizzando Slack.
 
 ## Funzionalità di Primebot {#primebotfunctionalities}
@@ -45,11 +45,11 @@ Ora puoi iniziare a interagire con Primebot. Di seguito vengono riportate le fun
 
 1 - Comando
 
-&#42;/prime&#42; Può essere utilizzato per singole domande mirate relative all’account Learning Manager di Adobe.
+&#42;/prime&#42; può essere utilizzato per singole domande mirate relative al tuo account Adobe Learning Manager.
 
 I sottocomandi disponibili sono:
 
-/prime find `<query>` - ricerca di corsi, certificazioni, ecc.
+/prime find `<query>`: cerca corsi, certificazioni, ecc.
 
 /prime recommend: mostra consigli
 
@@ -63,7 +63,7 @@ I sottocomandi disponibili sono:
 
 /prime catalogs: mostra cataloghi
 
-/prime invite: [Solo amministratore] invita gli utenti dello Slack nel team corrente a provare primebot
+/prime invite: [Solo amministratore] invita gli utenti Slack nel team corrente a provare primebot
 
 /prime profile: mostra profilo
 
@@ -77,8 +77,8 @@ Puoi provare una frase come `show my recommendations` per ottenere un elenco per
 
 3 - Ricerca
 
-Puoi provare frasi come `search for machine learning` oppure `search for artificial intelligence`. Puoi specificare il tipo di oggetto di apprendimento utilizzando frasi come `search for machine learning certifications`, `search for artificial intelligence courses` oppure `search for adobe photoshop job aids`. Puoi anche eseguire ricerche all’interno di un catalogo utilizzando frasi come `search for machine learning in Lynda catalog`.
+Puoi provare frasi come `search for machine learning` o `search for artificial intelligence`. Puoi specificare il tipo di oggetto di apprendimento utilizzando frasi come `search for machine learning certifications`, `search for artificial intelligence courses` o `search for adobe photoshop job aids`. Puoi anche eseguire ricerche in un catalogo utilizzando frasi come `search for machine learning in Lynda catalog`.
 
 4 - Scadenze
 
-Usare una frase come `show my deadlines` per ottenere un elenco di scadenze passate e imminenti dal tuo account Adobe Learning Manager. Puoi filtrare le scadenze passate o imminenti con frasi come `show my overdue deadlines` oppure `show my upcoming deadlines`.
+Usa una frase come `show my deadlines` per ottenere un elenco di scadenze passate e imminenti dal tuo account Adobe Learning Manager. Puoi filtrare le scadenze passate o imminenti con frasi come `show my overdue deadlines` o `show my upcoming deadlines`.

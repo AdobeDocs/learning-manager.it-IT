@@ -27,7 +27,7 @@ In questo corso di formazione imparerai come creare un percorso di apprendimento
 
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Vantaggi di un percorso di apprendimento
 
@@ -43,21 +43,21 @@ I percorsi di apprendimento facilitano la realizzazione di un programma di appre
 
 In Learning Manager, nell’app di amministrazione, fai clic su **[!UICONTROL Percorso di apprendimento]** nel pannello a sinistra.
 
-Nella **[!UICONTROL Percorso di apprendimento]** pagina, fare clic su **[!UICONTROL Aggiungi]**. Inserisci i seguenti dettagli.
+Nella pagina **[!UICONTROL Percorso di apprendimento]**, fai clic su **[!UICONTROL Aggiungi]**. Inserisci i seguenti dettagli.
 
 ![](assets/add-learning-path.png)
 
 *Aggiungi un nuovo percorso di apprendimento*
 
-Nella **Tipo di iscrizione** opzione, seleziona **Iscrizione autonoma** oppure **Iscrizione amministratore**.
+Nell&#39;opzione **Tipo di iscrizione**, selezionare **Iscrizione autonoma** o **Iscrizione amministrativa**.
 
 >[!NOTE]
 >
->Se si seleziona **Iscrizione amministratore** gli allievi visualizzeranno solo i corsi assegnati dal manager o approvati dal manager. Gli Allievi non potranno visualizzare il percorso di apprendimento nella sezione dei consigli.
+>Se selezioni l’opzione **Iscrizione amministratore**, gli allievi vedranno solo i corsi assegnati dal manager o approvati dal manager. Gli Allievi non potranno visualizzare il percorso di apprendimento nella sezione dei consigli.
 
 Dopo aver creato il percorso di apprendimento, selezionalo e poi aggiungi i corsi.
 
-Puoi anche aggiungere abilità e assegnare un distintivo al percorso di apprendimento. Per aggiungere un’abilità, seleziona l’abilità o le abilità richieste da **[!UICONTROL Scegli un’abilità]** elenco a discesa. Seleziona anche i relativi livelli.
+Puoi anche aggiungere abilità e assegnare un distintivo al percorso di apprendimento. Per aggiungere una o più abilità, selezionale dall’elenco a discesa **[!UICONTROL Scegli un’abilità]**. Seleziona anche i relativi livelli.
 
 ![](assets/add-skills.png)
 
@@ -65,7 +65,7 @@ Puoi anche aggiungere abilità e assegnare un distintivo al percorso di apprendi
 
 Per assegnare un distintivo al percorso di apprendimento, scegline uno dall’elenco dei distintivi disponibili.
 
-Seleziona il livello di prodotti, ruoli e ruoli dal menu **[!UICONTROL Consigliato per]** sezione per suggerire questo percorso di apprendimento agli utenti che hanno espresso interesse per tali prodotti e ruoli.
+Seleziona il livello di prodotti, ruoli e ruoli dalla sezione **[!UICONTROL Suggerimenti per]** per suggerire questo percorso di apprendimento agli utenti che hanno espresso interesse per tali prodotti e ruoli.
 
 ![](assets/recommend-for.png)
 
@@ -75,13 +75,13 @@ Scegli il tipo di ordinamento delle sezioni e dei corsi di formazione tra Ordina
 
 Se selezioni Ordinati, i corsi vengono visualizzati nell’ordine in cui sono stati creati. Se scegli Non ordinati, i corsi non vengono messi in sequenza. Gli Allievi possono completare i corsi in qualsiasi ordine.
 
-Per aggiungere un corso al percorso di apprendimento, fai clic su **[!UICONTROL Aggiunta di corsi o percorsi di apprendimento]**.
+Per aggiungere un corso al percorso di apprendimento, fai clic su **[!UICONTROL Aggiungi corsi o percorsi di apprendimento]**.
 
 Nella finestra di dialogo visualizzata, scegli il corso di formazione che desideri aggiungere al percorso di apprendimento.
 
 ![](assets/choose-training.png)
 
-*Aggiunta di corsi di formazione al percorso di apprendimento*
+*Aggiungere corsi di formazione al percorso di apprendimento*
 
 Puoi ordinare ulteriormente i corsi in base alle abilità assegnate, alla data di modifica e all’efficacia del corso.
 
@@ -89,27 +89,27 @@ Dopo aver selezionato i corsi o il percorso di apprendimento, fai clic su **[!UI
 
 Nel percorso di apprendimento puoi effettuare le seguenti operazioni:
 
-**Creare e configurare una sezione:** Viene creata una sezione per raggruppare più corsi di formazione che completano un’area o una componente sostanziale del corso di formazione. Ogni sezione può avere un titolo Ogni sezione può anche essere contrassegnata come Obbligatoria con specifici requisiti di completamento.
+**Creare e configurare una sezione:** Viene creata una sezione per raggruppare più corsi di formazione che completano un&#39;area o un componente sostanziale del corso di formazione. Ogni sezione può avere un titolo Ogni sezione può anche essere contrassegnata come Obbligatoria con specifici requisiti di completamento.
 
-**Rendere i corsi obbligatori in ogni sezione:** Per rendere i corsi di formazione obbligatori o meno all’interno del percorso di apprendimento, attiva o disattiva la casella di controllo Obbligatorio. Se abiliti la casella di controllo, puoi rendere obbligatori tutti i corsi di formazione o alcuni di essi.
+**Rendere i corsi obbligatori in ogni sezione:** Per rendere i corsi di formazione obbligatori o meno all&#39;interno del percorso di apprendimento, attivare o disattivare la casella di controllo Obbligatorio. Se abiliti la casella di controllo, puoi rendere obbligatori tutti i corsi di formazione o alcuni di essi.
 
 ![](assets/choose-mandatory.png)
 
-*Rendere i corsi obbligatori in ogni sezione*
+*Rendere obbligatori i corsi in ogni sezione*
 
-**Ridisporre l&#39;ordine:** Puoi spostare i corsi verso l’alto o il basso e modificarne l’ordine.
+**Modificare l&#39;ordine:** È possibile spostare i corsi verso l&#39;alto o il basso e modificare l&#39;ordine.
 
 ![](assets/rearrange.png)
 
-*Modificare l’ordine dei corsi di formazione*
+*Riordinare il corso di formazione*
 
-**Rimuovere un corso:** Nella scheda del corso, fai clic su X, quindi rimuovi il corso dal percorso di apprendimento.
+**Rimuovi un corso:** Nella scheda del corso, fai clic su X e rimuovi il corso dal percorso di apprendimento.
 
 ![](assets/remove-course.png)
 
 *Rimozione di un corso dal percorso di apprendimento*
 
-Dopo aver apportato le modifiche, fai clic su Pubblica per pubblicare il percorso di apprendimento.
+Dopo aver apportato le modifiche, fai clic su Publish per pubblicare il percorso di apprendimento.
 
 ## Percorso di apprendimento nidificato
 
@@ -119,7 +119,7 @@ Inserisci il percorso di apprendimento come se stessi includendo un corso.
 
 ![](assets/nested-learning-path.png)
 
-*Aggiunta di un percorso di apprendimento all’interno di un percorso di apprendimento*
+*Aggiungere un percorso di apprendimento all’interno di un percorso di apprendimento*
 
 ## Impostazioni del percorso di apprendimento
 
@@ -133,9 +133,9 @@ Nella sezione Impostazioni puoi aggiungere i prerequisiti e le risorse formative
 
 Le istanze del percorso di apprendimento visualizzano un riquadro aggiuntivo, **[!UICONTROL Percorsi di apprendimento]**. Il riquadro visualizza il numero dei programmi di formazione aggiunti a un percorso di apprendimento.
 
-Nella **Corsi** riquadro, mostra le istanze del corso visibili agli allievi iscritti in questa istanza.
+Nel riquadro **Corsi** sono indicate le istanze del corso visibili agli Allievi iscritti in questa istanza.
 
-La **[!UICONTROL Possibilità per gli Allievi di scegliere le istanze (percorso di apprendimento flessibile)]** la casella di controllo è applicabile solo ai corsi. Per tutti i percorsi di apprendimento figlio sarà disponibile un’opzione che consente di mappare un’istanza del programma di apprendimento su un percorso di apprendimento. L’opzione di collegamento è impostata su Istanza predefinita di default.
+La casella di controllo **[!UICONTROL Consenti agli Allievi di scegliere le istanze (Percorso di apprendimento flessibile)]** è applicabile solo ai corsi. Per tutti i percorsi di apprendimento figlio sarà disponibile un’opzione che consente di mappare un’istanza del programma di apprendimento su un percorso di apprendimento. L’opzione di collegamento è impostata su Istanza predefinita di default.
 
 ![](assets/default-instance.png)
 
@@ -145,11 +145,11 @@ La **[!UICONTROL Possibilità per gli Allievi di scegliere le istanze (percorso 
 
 Sono disponibili tre opzioni:
 
-1. **[!UICONTROL Corsi e percorsi di apprendimento di tutti i livelli di abilità (selezionata per impostazione predefinita)]:** L’Allievo riceve notifiche per ogni corso non completato indipendentemente dal livello all’interno di un percorso di apprendimento.
-1. **[!UICONTROL Percorso di apprendimento radice]:** L’Allievo riceve notifiche per eventuali corsi non completati che fanno parte di un percorso di apprendimento principale.
-1. **[!UICONTROL Percorso di apprendimento + solo bambini di primo livello di abilità]:** L’Allievo riceve notifiche per ogni corso non completato che è il primo figlio di un percorso di apprendimento principale.
+1. **[!UICONTROL Corsi e percorsi di apprendimento di tutti i livelli di abilità (selezionata per impostazione predefinita)]:** l’Allievo riceve notifiche per ogni corso non completato indipendentemente dal livello all’interno di un percorso di apprendimento.
+1. **[!UICONTROL Percorso di apprendimento radice]:** l’Allievo riceve notifiche per eventuali corsi non completati che fanno parte di un percorso di apprendimento principale.
+1. **[!UICONTROL Percorso di apprendimento + Solo bambini di primo livello di abilità]:** L’Allievo riceve notifiche per un corso non completato che è il primo figlio di un percorso di apprendimento principale.
 
-I promemoria notifica vengono attivati in base all’opzione. Per impostazione predefinita, l’opzione **[!UICONTROL Corsi e percorsi di apprendimento di tutti i livelli]** è abilitato per un&#39;istanza.
+I promemoria notifica vengono attivati in base all’opzione. Per impostazione predefinita, l’opzione **[!UICONTROL Corsi e percorsi di apprendimento di tutti i livelli]** è abilitata per un’istanza.
 
 ## Abbonamenti
 
@@ -173,7 +173,7 @@ I percorsi di apprendimento offrono una serie di funzionalità. alcune delle qua
 
 Gli Allievi possono continuare a seguire i programmi di apprendimento (ora denominati percorsi di apprendimento) e gli Autori/Amministratori a crearli. Per sfruttare le funzionalità estese del percorso di apprendimento indicate in precedenza, l’Amministratore deve abilitare l’impostazione come indicato di seguito. Una volta attivate, saranno disponibili tutte le nuove funzionalità estese del percorso di apprendimento.
 
-La **[!UICONTROL Impostazioni]** > **[!UICONTROL Generale]** pagina include una nuova opzione per abilitare i percorsi di apprendimento. Se attivi questa opzione, puoi aggiungere corsi e programmi di apprendimento a un percorso di apprendimento. Una volta abilitata, l’opzione non può essere modificata.
+Nella pagina **[!UICONTROL Impostazioni]** > **[!UICONTROL Generali]** è disponibile una nuova opzione per abilitare i percorsi di apprendimento. Se attivi questa opzione, puoi aggiungere corsi e programmi di apprendimento a un percorso di apprendimento. Una volta abilitata, l’opzione non può essere modificata.
 
 <!-- ## Other Learning Path-related details 
 

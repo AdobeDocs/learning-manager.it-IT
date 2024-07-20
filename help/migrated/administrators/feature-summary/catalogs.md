@@ -23,7 +23,7 @@ In questo corso imparerai come creare e gestire i cataloghi.
 
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 
 ## Creazione di un catalogo {#createacatalog}
@@ -62,7 +62,7 @@ Per creare un catalogo, segui i passaggi riportati di seguito:
 
    ![](assets/click-content-inthecatalog.png)
 
-   *Seleziona un corso da aggiungere al catalogo*
+   *Selezionare un corso da aggiungere al catalogo*
 
    Il corso che hai aggiunto viene visualizzato nella scheda **[!UICONTROL Corsi]**.
 
@@ -72,7 +72,7 @@ Per creare un catalogo, segui i passaggi riportati di seguito:
 1. Salva le modifiche. Torna all’elenco dei cataloghi e fai clic sul nuovo catalogo nell’elenco.
 1. Nella pagina del nuovo catalogo, fai clic su **[!UICONTROL Contenuto]** nel riquadro a sinistra.
 
-   Il programma di apprendimento che hai aggiunto viene visualizzato nel **[!UICONTROL Programmi di apprendimento]** scheda.
+   Il programma di apprendimento aggiunto viene visualizzato nella scheda **[!UICONTROL Programmi di apprendimento]**.
 
 ## Aggiungere una certificazione al catalogo {#cert}
 
@@ -80,7 +80,7 @@ Per creare un catalogo, segui i passaggi riportati di seguito:
 1. Salva le modifiche. Torna all’elenco dei cataloghi e fai clic sul nuovo catalogo nell’elenco.
 1. Nella pagina del nuovo catalogo, fai clic su **[!UICONTROL Contenuto]** nel riquadro a sinistra.
 
-   La certificazione che hai aggiunto viene visualizzata nel **[!UICONTROL Certificazioni]** scheda.
+   La certificazione aggiunta viene visualizzata nella scheda **[!UICONTROL Certificazioni]**.
 
 ## Aggiungere una risorsa formativa al catalogo {#job}
 
@@ -88,7 +88,7 @@ Per creare un catalogo, segui i passaggi riportati di seguito:
 1. Salva le modifiche. Torna all’elenco dei cataloghi e fai clic sul nuovo catalogo nell’elenco.
 1. Nella pagina del nuovo catalogo, fai clic su **[!UICONTROL Contenuto]** nel riquadro a sinistra.
 
-   La risorsa formativa che hai aggiunto viene visualizzata nel **[!UICONTROL Risorse formative]** scheda.
+   La risorsa formativa che hai aggiunto viene visualizzata nella scheda **[!UICONTROL Risorse formative]**.
 
 Il contenuto viene visualizzato in ciascuna di queste schede se è già disponibile nell’account. Altrimenti, è necessario creare il contenuto. Ad esempio, se non hai ancora aggiunto alcun corso o programma di apprendimento nell’applicazione Learning Manager, devi prima iniziare a crearli.
 
@@ -96,11 +96,11 @@ Il contenuto viene visualizzato in ciascuna di queste schede se è già disponib
 
 Un Amministratore può creare un deep link per un catalogo che può reindirizzare gli Allievi alla pagina di un catalogo specifico.
 
-Nella **[!UICONTROL Cataloghi]** , passate il mouse sul catalogo per il quale avete creato il collegamento profondo e fate clic sull’icona evidenziata.
+Nella pagina **[!UICONTROL Cataloghi]**, passa il mouse sul catalogo per il quale hai creato il collegamento profondo e fai clic sull&#39;icona evidenziata.
 
 ![](assets/catalog-deep-link.png)
 
-*Generare un collegamento diretto per gli Allievi*
+*Generazione di un collegamento profondo per gli Allievi*
 
 ## Abilitazione del catalogo {#enablethecatalog}
 
@@ -116,13 +116,13 @@ Per attivare il catalogo:
 
 Per disabilitare un catalogo, disattiva l’opzione accanto al catalogo.
 
-In alternativa, potete selezionare la casella di controllo accanto al catalogo, fare clic su Azioni nell’angolo in alto a destra e quindi su **[!UICONTROL Disabilita]**.
+In alternativa, puoi selezionare la casella di controllo accanto al catalogo, fare clic su Azioni nell&#39;angolo in alto a destra e quindi su **[!UICONTROL Disabilita]**.
 
-È inoltre possibile disabilitare più cataloghi nell’elenco. Seleziona i cataloghi e scegli l’opzione dal menu Azione **[!UICONTROL Disabilita]**.
+È inoltre possibile disabilitare più cataloghi nell’elenco. Seleziona i cataloghi e scegli l’opzione **[!UICONTROL Disabilita]** dal menu Azione.
 
 ## Eliminazione del catalogo {#deletethecatalog}
 
-Per eliminare un catalogo, selezionalo dall’elenco. Fate clic sul pulsante Elimina accanto al catalogo oppure fate clic su **[!UICONTROL Azioni]** > **[!UICONTROL Elimina]**.
+Per eliminare un catalogo, selezionalo dall’elenco. Fai clic sul pulsante Elimina accanto al catalogo o fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Elimina]**.
 
 È inoltre possibile eliminare più cataloghi.
 
@@ -138,7 +138,7 @@ Questo corso spiega come condividere i cataloghi con gruppi di utenti interni ed
 
 [![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 
-Se non riesci ad avviare il corso di formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Condividere il catalogo internamente {#int}
 
@@ -152,7 +152,7 @@ Per aggiungere un gruppo di utenti interni, fai clic su **[!UICONTROL Aggiungi g
 
 ![](assets/internal-usergroups.png)
 
-*Condividere un catalogo internamente*
+*Condivisione interna di un catalogo*
 
 Non è disponibile alcuna opzione per abilitare/disabilitare un gruppo di utenti condivisi. Per disabilitarlo, è necessario eliminare il gruppo utenti. Per eliminare il gruppo utenti, passa il mouse sull’icona dei tre punti e fai clic sull’icona Elimina. In alternativa, fai clic sul menu a discesa Azioni nell’angolo in alto a destra della pagina, quindi fai clic su Elimina.
 
@@ -164,7 +164,7 @@ Nella pagina Cataloghi, fai clic sul catalogo che desideri condividere. Fai clic
 
 *Condividere un catalogo esternamente*
 
-Inserisci il dominio secondario associato al tuo account Learning Manager. Fai clic su **[!UICONTROL Come si ottiene il dominio secondario?]** per informazioni sull&#39;utilizzo del sottodominio. Potete anche fare clic su **[!UICONTROL Branding]** nel riquadro a sinistra della home page Amministratore per visualizzare il sottodominio associato all’account dell’organizzazione.
+Inserisci il dominio secondario associato al tuo account Learning Manager. Fai clic su **[!UICONTROL Come si ottiene il dominio secondario?]** per informazioni sull&#39;utilizzo del sottodominio. Puoi anche fare clic su **[!UICONTROL Branding]** nel riquadro a sinistra nella home page dell&#39;amministratore per visualizzare il sottodominio associato all&#39;account dell&#39;organizzazione.
 
 **Limite iscrizioni**
 
@@ -172,9 +172,9 @@ Inserisci il dominio secondario associato al tuo account Learning Manager. Fai c
 
 **Scadenza**
 
-È possibile impostare la validità del catalogo condiviso impostando una data di scadenza in **[!UICONTROL Scadenza]** campo. Una volta superata la data di scadenza del catalogo condiviso, non sarà più consentito iscriversi ai corsi. Gli Allievi esistenti possono ancora accedere al contenuto. Gli oggetti di apprendimento sono ritirati ma i distintivi e le abilità sono attivi. A questo punto, il ricevitore del catalogo condiviso non può annullare il ritiro degli oggetti di apprendimento ritirati.
+Puoi impostare la validità del catalogo condiviso impostando una data di scadenza nel campo **[!UICONTROL Scadenza]**. Una volta superata la data di scadenza del catalogo condiviso, non sarà più consentito iscriversi ai corsi. Gli Allievi esistenti possono ancora accedere al contenuto. Gli oggetti di apprendimento sono ritirati ma i distintivi e le abilità sono attivi. A questo punto, il ricevitore del catalogo condiviso non può annullare il ritiro degli oggetti di apprendimento ritirati.
 
-Fai clic su **[!UICONTROL Salva]** dopo aver aggiunto tutte le informazioni richieste. Fai clic **[!UICONTROL Azioni]** nell’angolo superiore destro della pagina e fai clic su **[!UICONTROL Condividi]** per condividere il catalogo con account esterni.
+Fai clic su **[!UICONTROL Salva]** dopo aver aggiunto tutte le informazioni richieste. Fai clic sul menu a discesa **[!UICONTROL Azioni]** nell&#39;angolo superiore destro della pagina e fai clic su **[!UICONTROL Condividi]** per condividere il catalogo con account esterni.
 
 I cataloghi di proprietà del titolare dell’account di condivisione possono essere condivisi solo con account esterni. Non puoi condividere cataloghi che sono già stati condivisi con te da altri account.
 
@@ -186,13 +186,13 @@ Gli oggetti di apprendimento con stato aperto/attivo per l’iscrizione vengono 
 
 **Annullare la condivisione dei cataloghi**
 
-Annullare la condivisione di un catalogo significa disabilitare un account esterno nell’applicazione. Per annullare la condivisione di un catalogo, fai clic su **[!UICONTROL Azioni]** nell&#39;angolo superiore destro della pagina e fare clic su **[!UICONTROL Annulla condivisione]**. Puoi annullare la condivisione di un catalogo in qualsiasi momento. Quando la condivisione viene annullata, tutti gli oggetti di apprendimento contenuti nel catalogo condiviso passano allo stato Ritirato. I cataloghi disattivati vengono visualizzati come ritirati nell’applicazione del ricevitore.
+Annullare la condivisione di un catalogo significa disabilitare un account esterno nell’applicazione. Per annullare la condivisione di un catalogo, fai clic su **[!UICONTROL Azioni]** nell&#39;angolo superiore destro della pagina, quindi fai clic su **[!UICONTROL Annulla condivisione]**. Puoi annullare la condivisione di un catalogo in qualsiasi momento. Quando la condivisione viene annullata, tutti gli oggetti di apprendimento contenuti nel catalogo condiviso passano allo stato Ritirato. I cataloghi disattivati vengono visualizzati come ritirati nell’applicazione del ricevitore.
 
 È possibile rimuovere un account esterno da un elenco condiviso solo prima che il destinatario abbia accettato la richiesta.
 
 **Eliminare i cataloghi**
 
-Per eliminare un catalogo condiviso, fate clic su **[!UICONTROL Azioni]** e fare clic su **[!UICONTROL Elimina]**.
+Per eliminare un catalogo condiviso, fai clic sul menu a discesa **[!UICONTROL Azioni]** e seleziona **[!UICONTROL Elimina]**.
 
 * Non è possibile condividere un catalogo predefinito con account esterni.
 * Non è possibile eliminare un catalogo che hai condiviso esternamente.
@@ -328,7 +328,7 @@ Dopo aver creato le etichette, è possibile applicarle a cataloghi specifici seg
 1. Apri Cataloghi dal riquadro a sinistra.
 1. Seleziona il catalogo desiderato e applica l’etichetta.
 1. Apri Etichette del catalogo nel riquadro a sinistra.
-1. Fai clic **[!UICONTROL Modifica]** nell’angolo in alto a destra. La pagina mostra l’elenco delle etichette del catalogo disponibili.
+1. Fai clic su **[!UICONTROL Modifica]** nell&#39;angolo in alto a destra. La pagina mostra l’elenco delle etichette del catalogo disponibili.
 1. Fai clic su **[!UICONTROL Aggiungi al catalogo]** per aggiungere un’etichetta al catalogo.
 1. Per rimuovere etichette esistenti aggiunte a un catalogo, fai clic su **[!UICONTROL Rimuovi]**.
 

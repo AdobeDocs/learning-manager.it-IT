@@ -29,7 +29,7 @@ Queste informazioni possono essere utili per qualsiasi sviluppatore che intenda 
 
 ## Recupero di Trascrizione Allievo dall’interfaccia utente {#fetchlearnertranscriptfromtheuserinterface}
 
-L’allievo può scaricare la propria trascrizione da Impostazioni profilo. Per ulteriori informazioni, consulta *** [Scarica Trascrizione Allievo](../../administrators/feature-summary/learner-transcripts.md)***.
+L’allievo può scaricare la propria trascrizione da Impostazioni profilo. Per ulteriori informazioni, consulta *** [Scarica trascrizione Allievo](../../administrators/feature-summary/learner-transcripts.md)***.
 
 Gli amministratori possono generare Trascrizioni Allievi per l’intera organizzazione, un set specifico di utenti o un set specifico di oggetti di apprendimento oppure un set specifico di utenti e oggetti di apprendimento. Possono inoltre ottenere tutti i record di apprendimento relativi a un intervallo di tempo e indicare se sono necessarie informazioni a livello di modulo (per impostazione predefinita, le informazioni a livello di modulo vengono omesse). Per ulteriori dettagli, consultare [***Scarica Trascrizioni Allievi***](../../administrators/feature-summary/learner-transcripts.md).
 
@@ -59,13 +59,13 @@ Naturalmente, i connettori consentono anche di recuperare la trascrizione alliev
 
 Definiamo ora cosa si intende per trascrizione allievo incrementale
 
-Nella Trascrizione Allievo, ogni riga rappresenta un’attività specifica che coinvolge un allievo specifico e un oggetto di apprendimento specifico. Siamo interessati principalmente a quale stato si trova un Allievo in relazione all’oggetto di apprendimento: **Iscritto**, **Avviato**, **In corso** e **Completato**. Pertanto, la Trascrizione Allievo cattura anche quattro date corrispondenti.
+Nella Trascrizione Allievo, ogni riga rappresenta un’attività specifica che coinvolge un allievo specifico e un oggetto di apprendimento specifico. Siamo interessati principalmente allo stato di un Allievo in relazione all’oggetto di apprendimento: **Iscritto**, **Avviato**, **In corso** e **Completato**. Pertanto, la Trascrizione Allievo cattura anche quattro date corrispondenti.
 
 Ora esistono tre tipi di oggetti di apprendimento, in cui Learning Manager tiene traccia dell’avanzamento dell’Allievo, e i dati esportati contengono informazioni sull’avanzamento a livello di modulo, che è l’unità di contenuto più granulare che un Allievo può provare in Learning Manager.
 
 * **Corso** - una composizione di uno o più moduli
 * **Programma di apprendimento** - una composizione di uno o più corsi
-* **Certificazione** - una composizione di uno o più corsi.
+* **Certificazione**: una composizione di uno o più corsi.
 
 Ogni riga della Trascrizione Allievo riguarda il coinvolgimento di un utente specifico in un modulo, corso, programma di apprendimento o certificazione. Quando un utente è iscritto a un programma di apprendimento, la trascrizione indica che l’utente è
 

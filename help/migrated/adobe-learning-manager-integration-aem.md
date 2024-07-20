@@ -3,13 +3,13 @@ jcr-language: en_us
 title: Pacchetto per il sito di riferimento di Adobe Learning Manager (sito di riferimento ALM) per AEM Sites.
 description: Adobe Learning Manager (ALM) viene integrato con Adobe Experience Manager (AEM) Sites. In questo modo, potrai creare il tuo sito Web e interfacce per dispositivi mobili reattive per Adobe Learning Manager con il minimo sforzo di codifica. Grazie a questa integrazione, puoi creare esperienze di apprendimento personalizzate per i tuoi utenti.
 contentowner: saghosh
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 67%
 
 ---
-
 
 # Pacchetto per il sito di riferimento di Adobe Learning Manager (sito di riferimento ALM) per AEM Sites.
 
@@ -31,7 +31,7 @@ Installazione del pacchetto per il sito di riferimento ALM
 
 Dopo aver protetto l&#39;ambiente di AEM Sites, è necessario installare il pacchetto per il sito di riferimento ALM. Questo pacchetto include pagine Web e componenti dei siti Web AEM che consentono di creare la piattaforma di apprendimento.
 
-Il pacchetto per il sito di riferimento è ospitato sul [**Repository GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+Il pacchetto del sito di riferimento è ospitato nel [**repository GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
 Per ulteriori informazioni, consulta il README.
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni, consulta il README.
 
 Dopo aver installato il pacchetto per il sito di riferimento AEM, è necessario configurare un’applicazione ALM per connettere il portale di apprendimento con il sito AEM.
 
-Questo scenario è applicabile quando l’AEM è utilizzato con [!DNL Adobe Learning Manager].
+Questo scenario è applicabile quando l&#39;AEM viene utilizzato con [!DNL Adobe Learning Manager].
 
 Effettua le seguenti operazioni:
 
@@ -69,12 +69,12 @@ Per approvare l’applicazione, fai clic su **[!UICONTROL Approva]**.
 
    ![](assets/access-tokens.png)
 
-   *Seleziona token di accesso per test e sviluppo*
+   *Selezionare token di accesso per test e sviluppo*
 
 1. Immetti i seguenti dettagli:
 
    ![](assets/access-token-details.png)
-   *Immetti i dettagli del token*
+   *Immettere i dettagli del token*
 
    1. Ottieni codice OAuth: immetti l’ID client della sezione precedente e modifica l’ambito. Fai clic su Invia per ottenere il codice Oauth.
    1. Ottieni token di aggiornamento: immetti l’ID client e il segreto della sezione precedente. Immetti inoltre il codice OAuth ottenuto dal passaggio precedente. Fai clic su Invia.
@@ -87,10 +87,10 @@ Per approvare l’applicazione, fai clic su **[!UICONTROL Approva]**.
 
 1. Avvia l’istanza AEM.
 1. Fai clic su Impostazioni > Cloud Service.
-1. Fai clic su Adobe di configurazione di Learning Manager.
+1. Fai clic su Configurazione di Adobe Learning Manager.
 
    ![](assets/alm-configuration.png)
-   *Seleziona la configurazione di Learning Manager di Adobe*
+   *Selezionare la configurazione di Adobe Learning Manager*
 
 1. Fai clic su Crea > Cartella di configurazione. Assegna un nome alla cartella.
 
@@ -104,11 +104,11 @@ Per approvare l’applicazione, fai clic su **[!UICONTROL Approva]**.
    ![](assets/account-congiguration.png)
    *Crea cartella di configurazione*
 
-   1. Adobe modalità Learning Manager: scegli come vuoi che sia l’esperienza di apprendimento per gli Allievi che hanno effettuato l’accesso e per quelli che non l’hanno fatto.
-   1. Adobe di URL di Learning Manager: immetti l’URL dell’istanza ALM in cui sono ospitati i servizi di apprendimento.
+   1. Modalità Adobe Learning Manager: scegli come vuoi che sia l’esperienza di apprendimento per gli Allievi che hanno effettuato l’accesso e per quelli che non l’hanno fatto.
+   1. URL Adobe Learning Manager: immetti l’URL dell’istanza ALM in cui sono ospitati i servizi di apprendimento.
    1. ID account: ID dell’account ALM.
    1. ID client, segreto client e token di aggiornamento autore: immetti le credenziali ottenute durante la creazione dell&#39;applicazione in ALM.
-   1. Personalizzazione del widget: per ulteriori informazioni, consulta [Integrazione con AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. Personalizzazione del widget: per ulteriori informazioni, vedere [Integrazione con AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Salva e chiudi la configurazione.
 
@@ -118,7 +118,7 @@ Adobe Learning Manager ora ti consente di presentare i tuoi prodotti e corsi di 
 
 Utilizzando questo flusso di lavoro, un Allievo può visualizzare in anteprima un corso di formazione, accedere alle informazioni del corso o cercare un corso di formazione senza accedere ad Adobe Learning Manager. Questo flusso di lavoro non è applicabile all’interfaccia di Learning Manager nativa (applicabile SOLO per AEM Sites e altre interfacce headless).
 
-**Configurazione e attivazione del connettore della piattaforma di apprendimento**
+**Configurare e attivare il connettore della piattaforma di apprendimento**
 
 Questa sezione sottolinea i passaggi necessari per configurare e attivare il seguente connettore:
 
@@ -132,7 +132,7 @@ Il connettore esporta i metadati del corso di formazione in una soluzione di arc
 
 Abilita questo connettore per creare ed eseguire il rendering delle pagine Web basate su AEM Sites e distribuire esperienze personalizzate agli Allievi sia prima che dopo l’accesso. Abilita questo connettore per creare ed eseguire il rendering delle pagine Web basate su AEM Sites e distribuire esperienze personalizzate agli Allievi sia prima che dopo l’accesso.
 
-* Adobe di URL di base CDN di Learning Manager: immetti l’URL di base del percorso del servizio CDN per il recupero dei dati dalla pagina di connessione Accesso ai dati della formazione.
+* URL di base CDN di Adobe Learning Manager: immettere l&#39;URL di base del percorso del servizio CDN per il recupero dei dati dalla pagina di connessione Accesso ai dati della formazione.
 * Token di aggiornamento amministratore: immetti il token di aggiornamento che hai determinato nella sezione precedente.
 * URL di base metadati di formazione: immetti l’URL di base del percorso del servizio di ricerca e recupero dati dalla pagina di connessione Accesso ai dati della formazione.
 * URL registro di Adobe Learning Manager: immetti l’URL di registrazione automatica generato dall’Amministratore di integrazione per l’account, che viene utilizzato dagli Allievi per iscriversi al corso di formazione.
@@ -143,7 +143,7 @@ Adobe Learning Manager ora offre soluzioni che consentono di integrare perfettam
 
 Invece di crearne una, l’utente può utilizzare l’applicazione AEM esistente e approvarla.
 
-* Adobe di URL di base CDN di Learning Manager: immetti l’URL di base del percorso del servizio CDN per il recupero dei dati dalla pagina di connessione Adobe Commerce.
+* URL di base CDN di Adobe Learning Manager: immetti l’URL di base del percorso del servizio CDN per il recupero dei dati dalla pagina di connessione Adobe Commerce.
 * URL Adobe Commerce: immetti l’URL dell’istanza Adobe Commerce in uso.
 * Percorso proxy GraphQL: i componenti di Learning Manager lato client accedono direttamente all’endpoint Adobe Commerce GraphQL e, pertanto, può verificarsi un errore CORS. Per evitare questo errore, tutte le chiamate devono essere effettuate dallo stesso endpoint dell’AEM o tramite un proxy che aggiunge le intestazioni CORS.
 * Nome store di Adobe Commerce: immetti il nome store di Adobe Commerce determinato nella sezione precedente.
@@ -156,7 +156,7 @@ Personalizza le tue pagine Web utilizzando il sito di riferimento AEM e i widget
 
 1. Avvia l’istanza AEM.
 1. Fai clic su Siti e apri la pagina di configurazione.
-1. Fai clic **[!UICONTROL Sito di apprendimento]** > **[!UICONTROL Lingua principale]** > **[!UICONTROL Inglese]**. Tutte le pagine Web del progetto sono incluse nella cartella.
+1. Fai clic su **[!UICONTROL Sito di apprendimento]** > **[!UICONTROL Lingua principale]** > **[!UICONTROL Inglese]**. Tutte le pagine Web del progetto sono incluse nella cartella.
 
    ![](assets/list-webpages.png)
    *Visualizza tutte le pagine Web*
@@ -183,11 +183,11 @@ Oltre ai modelli che puoi utilizzare forniti dal pacchetto per il sito di riferi
    ![](assets/page-properties.png)
    *Proprietà pagina*
 
-1. Per creare la pagina, fare clic su **[!UICONTROL Crea]**.
+1. Per creare la pagina, fai clic su **[!UICONTROL Crea]**.
 
 1. Seleziona la nuova pagina e fai clic su **[!UICONTROL Modifica]**.
 
-1. Inserire un componente nella pagina, ad esempio: **Apprendimento - Contenuti**.
+1. Inserisci un componente nella pagina, ad esempio **Contenuti di apprendimento**.
 
    ![](assets/learning-content.png)
    *Filtra per sito*
@@ -198,22 +198,22 @@ Oltre ai modelli che puoi utilizzare forniti dal pacchetto per il sito di riferi
 
 Il pacchetto per il sito di riferimento ALM fornisce un &quot;Learning Site Blueprint&quot;, che consente di creare un sito Web per la piattaforma di apprendimento. I blueprint di AEM consentono di creare pagine Web direttamente dai componenti di AEM Sites. Non è necessario utilizzare alcun modello.
 
-1. Nella pagina iniziale AEM fare clic su **[!UICONTROL Siti]**.
+1. Nella pagina iniziale AEM, fai clic su **[!UICONTROL Siti]**.
 
-1. Fai clic **[!UICONTROL Crea]** > **[!UICONTROL Sito]**.
+1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Sito]**.
 
 1. Fai clic su Learning Site Blueprint.
 
    ![](assets/learning-site-blueprint.png)
 
-   *Crea sito da blueprint*
+   *Crea sito dal modello*
 
 1. Fare clic su Avanti.
 
 1. Nella pagina delle proprietà, inserisci i metadati della pagina. Fai clic su Crea.
 
    ![](assets/blueprint-properties.png)
-   *Seleziona Learning Site Blueprint*
+   *Seleziona progetto del sito di apprendimento*
 
 1. Fai clic sul collegamento ipertestuale Home per passare alla home page del sito creato. In questa pagina puoi personalizzare i widget e i componenti del catalogo.
 
@@ -248,7 +248,7 @@ Tuttavia, se desideri utilizzare questi componenti di Learning Manager appena ag
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   Il codice precedente aggiunge la configurazione mappata nel meta tag della pagina, necessaria per il rendering dei componenti di apprendimento. Per ulteriori dettagli, consulta [Adobe del sito di riferimento di Learning Manager](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   Il codice precedente aggiunge la configurazione mappata nel meta tag della pagina, necessaria per il rendering dei componenti di apprendimento. Per ulteriori dettagli, consulta [Adobe Learning Manager reference sitr](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Assicurati di aver mappato la configurazione con il progetto Web.
 1. Apri il modello di AEM Sites in cui desideri importare i componenti di Learning Manager.

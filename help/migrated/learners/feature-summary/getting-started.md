@@ -24,17 +24,17 @@ Nell’applicazione Web Learning Manager, dopo aver effettuato l’accesso come 
 
 **Il mio apprendimento**: puoi visualizzare e fare clic sugli oggetti di apprendimento per tipo e per scadenza. Fai clic sul cerchio nel widget Il Mio apprendimento per passare direttamente al tipo di oggetto di apprendimento o per visualizzare gli oggetti di apprendimento in base alla scadenza.
 
-**Le mie abilità**: puoi inoltre visualizzare la mappa delle abilità nell’angolo superiore destro della pagina. Riferimento  [mappa delle abilità](skills-levels.md)per ulteriori informazioni.
+**Le mie abilità**: puoi inoltre visualizzare la mappa delle abilità nell’angolo superiore destro della pagina. Per ulteriori informazioni, fai riferimento alla funzionalità [mappa abilità](skills-levels.md).
 
-**Widget Oggetto di apprendimento**: si trova proprio sotto Il mio apprendimento e mostra gli oggetti di apprendimento per l’utente. Sotto il mio apprendimento, puoi visualizzare tutte le [corsi](courses.md), [programmi di apprendimento](learning-programs.md) e [certificazioni](certifications.md) che sono registrati dall’utente o assegnati all’utente. Da questo widget è possibile iniziare direttamente a utilizzare un oggetto di apprendimento o rivisitarne uno.
+**Widget Oggetto di apprendimento**: si trova proprio sotto Il mio apprendimento e mostra gli oggetti di apprendimento per l’utente. Sotto Il mio apprendimento, puoi visualizzare tutti i [corsi](courses.md), i [programmi di apprendimento](learning-programs.md) e le [certificazioni](certifications.md) a cui hai effettuato l’iscrizione o che ti sono state assegnate. Da questo widget è possibile iniziare direttamente a utilizzare un oggetto di apprendimento o rivisitarne uno.
 
 **Calendario di apprendimento**: questo widget visualizza l’elenco degli elementi di apprendimento imminenti e pianificati nell’organizzazione per ciascun trimestre. Se ti sei iscritto a un corso specifico, lo stato di iscrizione sarà Iscritto.
 
 **Apprendimento consigliato**: in questa sezione puoi visualizzare tutti i corsi consigliati per il tuo profilo dall’Amministratore/Manager dell’azienda. Puoi fare clic su questi collegamenti per accedere alle pagine del corso.
 
-**I miei risultati raggiunti**: puoi ottenere distintivi dopo aver completato i corsi. Questi distintivi vengono visualizzati accanto al tuo profilo nella parte superiore della pagina. Fai clic su Distintivi per ottenere informazioni specifiche. Per ulteriori informazioni sui distintivi, consulta  [badge](badges.md) funzione.
+**I miei risultati raggiunti**: puoi ottenere distintivi dopo aver completato i corsi. Questi distintivi vengono visualizzati accanto al tuo profilo nella parte superiore della pagina. Fai clic su Distintivi per ottenere informazioni specifiche. Per ulteriori informazioni sui distintivi, consulta la funzionalità [distintivi](badges.md).
 
-Questo widget consente inoltre di visualizzare i punti di Gamification per l’Allievo. Fai clic sul collegamento Gamification per visualizzare i punti dettagliati e altre funzionalità di Gamification. Per ulteriori informazioni sui punti di gamification e sulla scheda leader, fare riferimento a  [Gamification](gamification.md) funzione.
+Questo widget consente inoltre di visualizzare i punti di Gamification per l’Allievo. Fai clic sul collegamento Gamification per visualizzare i punti dettagliati e altre funzionalità di Gamification. Per ulteriori informazioni sui punti di gamification e sulla scheda leader, consulta la funzionalità [Gamification](gamification.md).
 
 Se accedi a Learning Manager tramite iPad o tablet Android, fai riferimento alla sezione dedicata all’argomento relativo all’app per iPad e tablet Android di questa pagina.
 
@@ -52,7 +52,7 @@ Nell’app Learning Manager per iPad o tablet Android, dopo aver effettuato l’
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Per accedere alle funzionalità di apprendimento e del catalogo, tocca il **Menu** e scegli l’opzione appropriata.
+Per accedere alle funzionalità di apprendimento e del catalogo, tocca il menu a discesa **Menu** e scegli l’opzione appropriata.
 
 ![](assets/menu-ipad.png)
 
@@ -70,7 +70,7 @@ Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non
 **Controllo dell’archiviazione dispositivo**
 
 È possibile controllare periodicamente l’archiviazione del dispositivo.\
-Tocca l’icona profilo nell’angolo superiore destro dell’app, quindi tocca **Archiviazione dispositivo** menu.
+Tocca l’icona profilo nell’angolo superiore destro dell’app, quindi tocca l’opzione di menu **Archiviazione dispositivo**.
 
 ![](assets/device-storage-option-ipad.png)
 

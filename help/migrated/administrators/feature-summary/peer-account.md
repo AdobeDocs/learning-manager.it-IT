@@ -3,14 +3,13 @@ description: Leggi questo articolo per sapere come creare e gestire account cond
 jcr-language: en_us
 title: Account condivisi tra pari
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 62%
 
 ---
-
-
 
 # Account condivisi tra pari
 
@@ -21,17 +20,17 @@ Learning Manager offre la possibilità di condividere le postazioni acquistate m
 ## Aggiunta di un account condiviso tra pari {#addapeeraccount}
 
 1. Nel dashboard Amministratore, fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Account condivisi tra pari]**.
-1. Dall’angolo in alto a destra, fai clic su **[!UICONTROL Aggiungi]**.
+1. Dall&#39;angolo superiore destro, fai clic su **[!UICONTROL Aggiungi]**.
 
    ![](assets/peeraccount.png)
 
    *Aggiungi account condiviso tra pari*
 
-1. Nella **[!UICONTROL Dominio secondario account]** , specifica il sottodominio con cui desideri stabilire un account condiviso tra pari.
+1. Nel campo **[!UICONTROL Dominio secondario account]** specificare il dominio secondario con cui si desidera stabilire un account condiviso tra pari.
 
    ![](assets/addpeer.png)
 
-   *Aggiungere un sottodominio*
+   *Aggiungi un sottodominio*
 
 1. Immetti l’ID e-mail dell’Amministratore che accetta o rifiuta la richiesta di account condiviso tra pari.
 1. Specifica il numero di postazioni da condividere con l’utente di pari livello. Quando condividi postazioni con un account condiviso tra pari, lo stato dell’account diventa Attivo con le postazioni ricevute o con le postazioni acquistate dell’utente di pari livello.
@@ -69,11 +68,11 @@ Se non desideri più condividere postazioni o acquisti con un account, puoi elim
 L’Amministratore può visualizzare il report utente dell’account condiviso tra pari. L’amministratore dell’account principale può richiedere l’accesso al report e una volta che l’amministratore dell’account condiviso tra pari accetta, l’amministratore principale sarà in grado di visualizzare il numero di utenti registrati nell’account condiviso tra pari e potrà scaricare il report utente per tale account.
 
 1. Nella pagina Account condivisi tra pari, fai clic su **[!UICONTROL Aggiungi]**.
-1. Abilita l’opzione, **[!UICONTROL Richiedi l’autorizzazione per scaricare i report utente per l’intero account]**.
+1. Abilita l&#39;opzione **[!UICONTROL Richiedi l&#39;autorizzazione per scaricare i report utente per l&#39;intero account]**.
 
 ![](assets/image034.png)
 
-*Visualizzare il report utente di un account condiviso tra pari*
+*Visualizza report utente di un account condiviso tra pari*
 
 Per scaricare i report degli account condivisi tra pari, fai clic su **[!UICONTROL Scarica]**.
 

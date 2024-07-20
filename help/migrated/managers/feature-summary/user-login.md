@@ -3,14 +3,13 @@ description: Accesso utente come Manager in Learning Manager.
 jcr-language: en_us
 title: Accesso utente
 contentowner: manochan
-source-git-commit: 7f34a1781e009b8255530111e3cbec4df3ed28c1
+exl-id: 6e0c00fd-7964-43d9-ba95-3617dbc14f0f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 59%
 
 ---
-
-
 
 # Accesso utente
 
@@ -26,7 +25,7 @@ Quando utilizzi Adobe Learning Manager per la prima volta, devi creare l’accou
 
    ![](assets/adobeid-signin.png)
 
-   *Accedi ad Adobe Learning Manager*
+   *Accedi a Adobe Learning Manager*
 
 1. Immetti Adobe ID, password e fai clic su Accedi.
 

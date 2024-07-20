@@ -54,7 +54,7 @@ Per ulteriori informazioni, consultare [Estendibilità nativa](/help/migrated/ad
 
 Ora sarai in grado di creare valutazioni in Learning Manager con il nuovo strumento di creazione dei quiz nella pagina Libreria dei contenuti. Le valutazioni create diventano parte della Libreria dei contenuti e possono essere aggiunte a una cartella &quot;pubblica&quot; per consentire il riutilizzo del corso.
 
-Visualizza [Creare un quiz](/help/migrated/authors/feature-summary/content-library.md) per ulteriori informazioni.
+Visualizza [Crea un quiz](/help/migrated/authors/feature-summary/content-library.md) per ulteriori informazioni.
 
 ## Modifiche ai report introdotte da questa release
 
@@ -84,7 +84,7 @@ Nelle versioni precedenti di Adobe Learning Manager, se l’ambito di un Amminis
 
 Il report Partecipazione disponibile in Partecipazione ai corsi (app per Amministratori) e in Allievi della sessione (app per Istruttori) veniva scaricato in modo sincrono. Questa versione consente di scaricare il report in modo asincrono tramite una notifica.
 
-Per ulteriori informazioni sui report, vedere [Report](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
+Per ulteriori informazioni sui report, consulta [Report](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
 
 ## Ritiro marketplace dei contenuti
 
@@ -255,7 +255,7 @@ In questa versione, se il report Risorsa formativa supera i 10 milioni generati 
 
 Nelle versioni precedenti di Adobe Learning Manager, se un corso, una certificazione o un piano di apprendimento veniva eliminato e compariva una notifica, era comunque possibile accedere al contenuto cliccando sulla notifica.
 
-In questa versione, ci assicureremo che un post eliminato non sia più accessibile. Se si specifica l&#39;ID in /posts/{id} e l’ID del post non è più disponibile, viene visualizzato il messaggio &quot;Post non trovato per la risorsa specificata&quot;.
+In questa versione, ci assicureremo che un post eliminato non sia più accessibile. Se si specifica l&#39;ID nell&#39;API /posts/{id} e l&#39;ID del post non è più disponibile, l&#39;API visualizza il messaggio &quot;Post non trovato per la risorsa specificata&quot;.
 
 ### Scadenza per il completamento del corso con le API degli Allievi
 
@@ -279,7 +279,7 @@ Inoltre, modificheremo l’impostazione predefinita di snippetTypes in courseNam
 
 ### Nuovo tipo di risorsa per i quiz
 
-La `instances.loResources.resources` l&#39;endpoint restituirà `ResourceContentType` con quiz.
+L&#39;endpoint `instances.loResources.resources` restituirà `ResourceContentType` con quiz.
 
 ## Avviso di disattivazione
 
@@ -288,7 +288,7 @@ Adobe Learning Manager disattiverà BlueJeans a febbraio 2024. Tutti i nuovi acc
 
 ## Note sulla versione
 
-Per informazioni sulle versioni correnti e precedenti dell’app Web e per dispositivi di Learning Manager, consulta la [Note sulla versione](release-note/release-notes.md).
+Per informazioni sulle versioni correnti e precedenti dell’app Web e per dispositivi di Learning Manager, consulta le [Note sulla versione](release-note/release-notes.md).
 
 ## Bug corretti in questa release
 
@@ -305,7 +305,7 @@ Per informazioni sulle versioni correnti e precedenti dell’app Web e per dispo
 * Gli Allievi non riuscivano a riprodurre i corsi LinkedIn nell’app MS Teams.
 * L’API Enrollment non restituiva le iscrizioni a un piano di apprendimento Flex o incorporato come previsto.
 * Nell’app mobile, i nomi di un corso, una certificazione o un piano di apprendimento venivano visualizzati in minuscolo.
-* Nelle versioni precedenti di Adobe Learning Manager, se un corso, una certificazione o un piano di apprendimento veniva eliminato e compariva una notifica, era comunque possibile accedere al contenuto cliccando sulla notifica. In questa versione, ci assicureremo che un post eliminato non sia più accessibile. Se si specifica l&#39;ID in /posts/{id} e l’ID del post non è più disponibile, viene visualizzato il messaggio &quot;Post non trovato per la risorsa specificata&quot;.
+* Nelle versioni precedenti di Adobe Learning Manager, se un corso, una certificazione o un piano di apprendimento veniva eliminato e compariva una notifica, era comunque possibile accedere al contenuto cliccando sulla notifica. In questa versione, ci assicureremo che un post eliminato non sia più accessibile. Se si specifica l&#39;ID nell&#39;API /posts/{id} e l&#39;ID del post non è più disponibile, l&#39;API visualizza il messaggio &quot;Post non trovato per la risorsa specificata&quot;.
 * Nell’API per Allievi, il campo relativo alla scadenza per il completamento non veniva visualizzato nella risposta dell’API Enrollment.
 * Nell’API Get Enrollment, i dettagli dell’iscrizione venivano visualizzati anche dopo aver specificato un ID istanza errato.
 

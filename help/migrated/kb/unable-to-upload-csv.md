@@ -3,14 +3,13 @@ description: Durante il caricamento di un file CSV, viene visualizzato un errore
 jcr-language: en_us
 title: Impossibile caricare il file CSV
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 10458499-1038-4c62-971f-f950d383e970
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 71%
 
 ---
-
-
 
 # Impossibile caricare il file CSV
 
@@ -20,7 +19,7 @@ Durante il tentativo di caricamento di un file CSV in Adobe Learning Manager, vi
 
 ![](assets/csv-upload-failed.png)
 
-*Messaggio di errore che indica che l’elaborazione del file CSV non è riuscita*
+*Messaggio di errore che indica che l&#39;elaborazione CSV non è riuscita*
 
 ## Causa
 
@@ -51,7 +50,7 @@ Il problema si verifica quando il file CSV viene salvato in formato UTF-8 in Exc
    1. Apri il file CSV in Excel.
    1. Salva il file come file CSV normale.
 
-* **B:** Salvataggio tramite Notepad o Notepad++:
+* **B:** Salvataggio tramite Blocco note o Blocco note++:
 
    * Apri il file CSV in Notepad o Notepad++.
    * Salva il file in formato UTF-8.
@@ -72,11 +71,11 @@ Questo problema si verifica se un utente è già presente nel sistema con lo ste
 
 ### Scenario 1
 
-**Account per i quali l’UUID non è abilitato.**
+**Account per i quali UUID non è abilitato.**
 
 In questo scenario, l’errore può essere dovuto a due motivi:
 
-1. L’utente che stai tentando di aggiungere è un Manager di un profilo esterno. Per risolvere questo problema, apri il profilo esterno di cui fa parte l’utente, selezionalo e fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Assegna ruolo]** > **[!UICONTROL Manager]** e modificare il Manager del profilo.
+1. L’utente che stai tentando di aggiungere è un Manager di un profilo esterno. Per risolvere questo problema, apri il profilo esterno di cui fa parte l’utente, selezionalo, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Assegna ruolo]** > **[!UICONTROL Manager]** e modifica il Manager del profilo.
 1. L’utente che stai tentando di aggiungere è stato eliminato. In questo scenario, non potrai aggiungere l’utente con lo stesso indirizzo e-mail fino al completamento del processo di rimozione. Come soluzione alternativa**, a**ggiungi all’utente un indirizzo e-mail secondario per fornire accesso alla piattaforma. Una volta completata la procedura di eliminazione, modifica l’utente e modifica l’indirizzo e-mail con l’indirizzo e-mail corretto.
 
 ### Scenario 2
@@ -85,11 +84,10 @@ In questo scenario, l’errore può essere dovuto a due motivi:
 
 Negli account abilitati per UUID, questo problema può verificarsi se a un utente è stato assegnato un UUID già utilizzato da un altro utente nell’account o se l’utente dispone di un indirizzo e-mail diverso.
 
-Ad esempio, consideriamo due utenti, A e B, con indirizzi e-mail,  <a@xyz.com> e <b@xyz.com> con UUID 1 e 2 rispettivamente.
+Ad esempio, consideriamo due utenti, A e B, con indirizzi e-mail, <a@xyz.com> e <b@xyz.com> rispettivamente con UUID 1 e 2.
 
 A questo punto, se carichi un file CSV con l’UUID dell’utente A uguale a 3 e l’UUID dell’utente B uguale a 2, visualizzerai un errore.
 
 >[!TIP]
 >
->Per risolvere questo problema: **nel file CSV e nel sistema deve essere registrato lo stesso indirizzo e-mail e UUID per l’utente.**
-
+>Per risolvere questo problema, **nel file CSV e nel sistema deve essere registrato lo stesso indirizzo e-mail e UUID per l&#39;utente.**

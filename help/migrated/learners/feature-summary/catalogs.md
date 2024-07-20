@@ -15,22 +15,22 @@ ht-degree: 12%
 
 Scopri come usare i cataloghi in Learning Manager per visualizzare gli oggetti di apprendimento disponibili per un Allievo
 
-**Catalogo** è costituito da tutti i corsi, i programmi di apprendimento, le certificazioni e le risorse formative disponibili per un ruolo Allievo nell’account aziendale.
+**Il catalogo** comprende tutti i corsi, i programmi di apprendimento, le certificazioni e le risorse formative disponibili per un ruolo Allievo nell’account aziendale.
 
-Gli Allievi possono visualizzare tutti gli oggetti di apprendimento assegnati e idonei (programmi di apprendimento, corsi e certificazioni) nella **Catalogo predefinito**. Questi oggetti di apprendimento sono specifici di ogni Allievo in base al ruolo, alla qualifica, al gruppo di utenti, al profilo e così via.
+Gli Allievi possono visualizzare tutti gli oggetti di apprendimento assegnati e idonei (programmi di apprendimento, corsi e certificazioni) nel **Catalogo predefinito**. Questi oggetti di apprendimento sono specifici di ogni Allievo in base al ruolo, alla qualifica, al gruppo di utenti, al profilo e così via.
 
 Puoi ordinare gli oggetti di apprendimento in base a diverse categorie, come Prodotti, Ruoli di lavoro, Tipi, Tempo necessario, Abilità e Parole chiave. Puoi anche filtrare utilizzando le opzioni nel riquadro a sinistra: per Oggetti di apprendimento, Abilità e Stato di completamento.
 
-Utilizza la barra di ricerca nella parte superiore della pagina per immettere i nomi degli oggetti di apprendimento più comuni. Gli Allievi possono passare dalla visualizzazione a griglia a quella a elenco selezionando questa opzione ![](assets/icon-list.png) icona.
+Utilizza la barra di ricerca nella parte superiore della pagina per immettere i nomi degli oggetti di apprendimento più comuni. Gli Allievi possono passare dalla visualizzazione a griglia a quella a elenco selezionando questa icona di ![](assets/icon-list.png).
 
 ![](assets/catalogs.png)
-*Visualizza cataloghi*
+*Visualizzare i cataloghi*
 
 <!--As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. -->
 
 ![](assets/image014.png)
 
-*Filtrare i corsi di formazione in base al formato*
+*Filtra il corso di formazione in base al formato*
 
 Puoi anche filtrare in base alla durata di un corso di formazione. Il filtro relativo alla durata non comprende la durata del modulo di verifica o di quello precedente alla lavorazione.
 
@@ -38,6 +38,6 @@ Puoi anche filtrare in base alla durata di un corso di formazione. Il filtro rel
 
 *Filtra per durata del corso*
 
-La formazione **Durata** e **Formato** i filtri vengono identificati in base al contenuto della formazione disponibile per l’istanza predefinita e per le impostazioni locali preferite dell’account.
+I filtri **Durata** e **Formato** dei corsi di formazione sono identificati in base al contenuto del training disponibile per l’istanza predefinita e per le impostazioni locali preferite dell’account.
 
 Una volta pubblicato il corso di formazione, potrebbe essere necessaria fino a un’ora affinché i dati siano disponibili come filtro.
