@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Installazione del connettore Microsoft Teams su Adobe Learning Manager
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 24%
+source-wordcount: '1138'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 ## Panoramica
 
-Microsoft® Teams® è una piattaforma di collaborazione persistente basata su chat che supporta in modo completo la condivisione di documenti, riunioni online e altre funzioni utili per le comunicazioni aziendali.
+Microsoft Teams® è una piattaforma di collaborazione persistente basata su chat che supporta completamente la condivisione di documenti, riunioni online e altre funzionalità per le comunicazioni aziendali.
 
 Adobe Learning Manager utilizza un connettore per aula virtuale che può essere utilizzato per integrare le riunioni di Microsoft Teams con Learning Manager.
 
@@ -52,7 +52,6 @@ Per ulteriori informazioni, consulta [Ruoli in una riunione Teams- Microsoft](ht
 Puoi accedere al connettore Microsoft Teams se hai Office 365 E3 o Office 365 E5. L’opzione consigliata è Office 365 E5.
 
 * Visita la [pagina dei piani Microsoft](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). Sulla pagina Web, puoi acquistare un account E3 o E5 o fare clic su Prova gratuitamente.
-
 * Inserisci le informazioni richieste e crea un account.
 
 >[!NOTE]
@@ -101,6 +100,7 @@ Prendi nota del segreto client, che verrà utilizzato durante l’integrazione.
    1. OnlineMeetings.Read.All
    1. OnlineMeetings.ReadWrite.All
    1. User.Read.All
+   1. OnlineMeetingRecording.Read.All
 
 1. Fai clic su **[!UICONTROL Concedi accesso amministratore per Adobe]**.
 1. Fai clic su **[!UICONTROL Ruoli app]** > **[!UICONTROL Crea ruolo app]**.
@@ -154,17 +154,17 @@ Questa azione consente al connettore di accedere alle riunioni online di Microso
 1. Fai clic su **[!UICONTROL Gestisci licenze prodotto]**.
 1. Abilita la licenza per Office 365 E5 senza audioconferenze.
 
-## Registrare una sessione
+<!--## Record a session
 
-L’API utilizzato per la registrazione della sessione è un API protetto. Per accedere all’API, è necessario richiedere l’accesso a Microsoft. Per ulteriori informazioni, consulta questo [documento](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
+The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-Nel documento,
+In the document,
 
-*&quot;Per richiedere l&#39;accesso a queste API protette, completare il seguente [modulo di richiesta](https://aka.ms/teamsgraph/requestaccess). Lavoriamo sulle richieste di accesso ogni mercoledì e inviamo le approvazioni ogni venerdì, a eccezione delle settimane dei principali giorni festivi degli USA. Le richieste ricevute durante queste settimane saranno elaborate durante la settimana successiva (senza giorni festivi). Per verificare se la tua richiesta è stata approvata, verifica l&#39;accesso all&#39;applicazione il prossimo lunedì applicabile.&quot;*
+*"To request access to these protected APIs, complete the following  [request form](https://aka.ms/teamsgraph/requestaccess). We review access requests every Wednesday and deploy approvals every Friday, except during major holiday weeks in the U.S. Submissions during those weeks will be processed the following non-holiday week. To verify whether your request has been approved, test your application access on the next applicable Monday."*
 
-Per gli allievi, l’URL della registrazione è mostrato sulla pagina con la panoramica del corso in aula virtuale.
+For learners, the recording URL is displayed on the VC course overview page.
 
-Dopo 30 minuti dal completamento di un corso, la presenza dell’allievo viene registrata.
+After 30 minutes of completing a course, the attendance for the learner gets marked. -->
 
 ## Domande frequenti
 
