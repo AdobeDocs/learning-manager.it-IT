@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
 workflow-type: tm+mt
 source-wordcount: '4866'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -81,7 +81,7 @@ Per creare un’istanza,
 
 Per ritirare un’istanza, procedi come indicato di seguito.
 
-1. Nell’istanza, fai clic sul menu a discesa e scegli l’opzione **[!UICONTROL Ritira istanza]**.
+1. Nell&#39;istanza, seleziona il menu a discesa e scegli l&#39;opzione **[!UICONTROL Rimuovi istanza]**.
 
    ![](assets/retire-an-instance.png)
 
