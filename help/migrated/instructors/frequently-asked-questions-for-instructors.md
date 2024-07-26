@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Domande frequenti per gli Istruttori
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -46,5 +46,12 @@ Sì, un autore può assegnare più Istruttori a un singolo modulo. In questo cas
 +++Un istruttore può modificare una sessione?
 
 In qualità di istruttore, puoi visualizzare e modificare solo i dettagli delle sessioni che ti hanno assegnato. Non è possibile modificare la sessione o l’elenco dei partecipanti di altre sessioni.
+
++++
+
++++Come assegnare il ruolo di istruttore agli utenti esterni?
+
+* Per impostazione predefinita, nella sezione **[!UICONTROL Assegna]** per **[!UICONTROL Utente esterno]** viene visualizzato solo **[!UICONTROL Crea Manager]** o **[!UICONTROL Crea Autore]**.
+* Se desideri assegnare il ruolo **Istruttore** a qualsiasi utente nel sistema LMS, puoi aggiungerlo come **Istruttore** a qualsiasi modulo **[!UICONTROL Aula]** o **[!UICONTROL Aula virtuale]** e il ruolo **Istruttore** verrà fornito automaticamente all&#39;utente nel sistema LMS.
 
 +++

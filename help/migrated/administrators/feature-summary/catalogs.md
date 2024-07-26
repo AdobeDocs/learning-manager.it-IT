@@ -4,10 +4,10 @@ title: Cataloghi
 description: I cataloghi sono una raccolta di corsi di apprendimento, programmi di apprendimento e certificazioni. Utilizza i cataloghi per fornire agli Allievi l’accesso a un set personalizzato di oggetti di apprendimento. È possibile associare l’apprendimento a un catalogo durante la creazione di un nuovo catalogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 75%
+source-wordcount: '2498'
+ht-degree: 73%
 
 ---
 
@@ -57,6 +57,11 @@ Per creare un catalogo, segui i passaggi riportati di seguito:
 
    È possibile aggiungere più corsi al catalogo.
 1. Puoi filtrare i corsi per abilità, ruoli e lingua. Il corso selezionato sarà consigliato agli Allievi interessati a tali abilità e ruoli.
+
+   * **[!UICONTROL Abilità]**: i filtri per le abilità consentono agli utenti di trovare corsi incentrati su competenze particolari.
+   * **[!UICONTROL Ruoli]**: i filtri ruolo consentono agli utenti di accedere a corsi personalizzati in base alle responsabilità e ai requisiti dei diversi ruoli.
+   * **[!UICONTROL Lingua]**: i filtri della lingua aiutano gli utenti a selezionare i corsi disponibili nella loro lingua preferita o richiesta
+
 1. Salva le modifiche. Torna all’elenco dei cataloghi e fai clic sul nuovo catalogo nell’elenco.
 1. Nella pagina del nuovo catalogo, fai clic su **[!UICONTROL Contenuto]** nel riquadro a sinistra.
 

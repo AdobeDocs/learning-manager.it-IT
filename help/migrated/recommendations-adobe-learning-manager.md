@@ -2,10 +2,10 @@
 title: Consigli in Adobe Learning Manager
 description: Il nucleo del motore di consigli è basato sul nuovo algoritmo di classificazione dei corsi di Learning Manager. L’algoritmo utilizza 50 milioni di punti dati e cinque anni di dati di apprendimento aggregati su milioni di utenti per classificare i corsi in base alla probabilità di iscrizione. Questa classificazione garantisce che la maggior parte dei corsi a cui è possibile effettuare l’iscrizione sia visualizzata in anticipo agli Allievi.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 60%
+source-wordcount: '1470'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,8 @@ Gli amministratori dispongono di un flusso di lavoro guidato in Learning Manager
 
 1. Fai clic su **[!UICONTROL Procedi]** per passare al nuovo sistema di consigli aggiornato.
 
-   ![Passare al nuovo sistema](assets/image521152.png)
-   *Selezionare il pulsante Procedi*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. Crea i parametri di consiglio per Prodotti e Ruoli.
 
@@ -168,7 +168,7 @@ Il sistema di consigli è ora disponibile agli Allievi.
 
 ## Elimina un parametro
 
-1. Nell’elenco dei parametri, seleziona l’icona con i tre puntini e seleziona **[!UICONTROL Elimina parametro]**.
+Gli amministratori possono eliminare un parametro facendo clic sull&#39;icona con tre punti e selezionando **[!UICONTROL Elimina parametro]**. Gli amministratori possono eliminare un parametro se non è collegato a un oggetto di apprendimento. Se è collegato, può solo nascondere il parametro. Tuttavia, non possono nascondere gli ultimi due parametri perché sono necessari almeno due parametri affinché i suggerimenti funzionino.
 
 ![elimina parametro](assets/delete-parameter.png)
 *Eliminare il parametro*

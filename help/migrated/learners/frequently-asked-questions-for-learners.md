@@ -4,10 +4,10 @@ title: Domande frequenti per gli Allievi
 description: Domande frequenti per gli Allievi di Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 56%
+source-wordcount: '2374'
+ht-degree: 55%
 
 ---
 
@@ -351,6 +351,18 @@ Sì, puoi esportare i contenuti delle note come PDF con i passaggi seguenti:
 1. Fai clic sulla scheda delle note.
 1. Per inviare note all’ID e-mail registrato, fai clic sull’opzione relativa alle note e-mail.
 1. Per scaricare le note come PDF, fai clic su Scarica note.
+
++++
+
++++Dove posso scaricare la versione desktop dell&#39;app?
+
+Segui i passaggi riportati di seguito per scaricare la versione desktop:
+
+1. Accedi come Allievo.
+2. Fai clic su **[!UICONTROL Apprendimento sociale]**.
+3. Fai clic su **[!UICONTROL Nuovo post]** e fai clic su una delle icone come mostrato di seguito nella schermata.
+
+Verrà avviato il download dell&#39;applicazione.
 
 +++
 

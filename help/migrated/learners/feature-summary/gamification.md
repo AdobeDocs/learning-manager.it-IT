@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
@@ -26,6 +26,8 @@ Gli Allievi possono inoltre verificare il livello del risultato raggiunto in bas
 ## La classifica {#leaderboard}
 
 La classifica è una funzione di gamification che agisce come tabellone segnapunti per mostrare i punteggi dei concorrenti principali. Gli Allievi possono visualizzare i punti di gamification tramite la Classifica.
+
+![](assets/leaderboard.png)
 
 Nella home page dell’Allievo, fai clic su **[!UICONTROL Gamification]** nel riquadro a sinistra. Per visualizzare la classifica, fai clic sul collegamento Classifica. Questa funzione consente agli Allievi di conoscere la loro posizione rispetto a un membro specifico del team. Viene mostrata anche la loro posizione rispetto ad altri membri del team.
 

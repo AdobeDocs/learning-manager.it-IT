@@ -1,17 +1,17 @@
 ---
 description: Leggi questo articolo per sapere come visualizzare e utilizzare i corsi in Learning Manager. Partecipa alle discussioni e fornisci feedback.
 jcr-language: en_us
-title: Corsi
+title: Il mio apprendimento
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2759'
 ht-degree: 64%
 
 ---
 
-# Corsi
+# I miei insegnamenti
 
 Leggi questo articolo per sapere come visualizzare e utilizzare i corsi in Learning Manager. Partecipa alle discussioni e fornisci feedback.
 
@@ -25,7 +25,7 @@ Adobe Learning Manager consente agli Allievi di accedere ai corsi, ai programmi 
 >
 >Gli Allievi possono inoltre installare l’app Learning Manager per iPad dall’Apple Store e per Android da Google Play e accedere ai corsi sui dispositivi mobili. Tutte le funzioni del ruolo Allievo sono disponibili anche nell’applicazione. Gli Allievi possono inoltre frequentare corsi offline e ottenere un accesso semplificato dopo l’accesso online. Per ulteriori informazioni, fai riferimento alla funzionalità [Utenti di iPad e tablet Android](ipad-android-tablet-users.md).
 
-## Visualizzazione dei corsi {#viewingcourses}
+## Visualizzazione degli oggetti di apprendimento {#viewingcourses}
 
 Puoi visualizzare un elenco di tutti i corsi disponibili come Allievo. Fai clic su Il mio apprendimento dalla pagina Home o dal riquadro a sinistra per visualizzare tutti i corsi a cui ti sei iscritto.
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Impostazioni
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '3595'
-ht-degree: 66%
+source-wordcount: '3651'
+ht-degree: 65%
 
 ---
 
@@ -406,6 +406,10 @@ Attivare o disattivare le seguenti impostazioni:
     <p>In tutte le altre app (amministratore, autore, manager, amministratore personalizzato, autore personalizzato), le modifiche apportate alle impostazioni (valutazione a stelle/efficacia del corso/disattivazione della valutazione a stelle) non avranno alcun effetto. </p>
     <p>Per i nuovi account, nella sezione <b>Mostra valutazioni</b> l'opzione <b>Valutazione a stelle</b> sarà attivata per impostazione predefinita.</p>
     <p>Per gli account esistenti, se in precedenza era attivata l’opzione <b>Efficacia del corso</b>, la sezione <b>Mostra valutazioni</b> verrà attivata con l’opzione Controllo efficacia selezionata. Se l’opzione <b>Efficacia del corso</b>s è disattivata, anche la sezione <b>Mostra valutazioni</b> verrà disabilitata. Quando la sezione <b>Mostra valutazioni</b> è abilitata, l'opzione <b>Valutazione a stelle</b> verrà abilitata per impostazione predefinita.</p></td>
+  </tr>
+  <tr>
+   <td height="19">Ritiro</td>
+   <td>Selezionate una delle opzioni di smobilizzo tra le seguenti:<li>Una volta ritirati, gli Allievi iscritti saranno in grado di visualizzare ed eseguire azioni, ma gli Allievi non ancora iscritti perderanno l’accesso.</li><li>Una volta ritirati, sia gli Allievi iscritti che quelli non ancora iscritti perderanno l’accesso.</li><div><b>Nota:</b> puoi ritirare corsi, percorsi di apprendimento o certificazioni dalle relative pagine di panoramica.</div> </td>
   </tr>
  </tbody>
 </table>

@@ -4,10 +4,10 @@ title: Domande frequenti per gli Amministratori
 description: Domande frequenti per gli amministratori Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 55%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -365,5 +365,26 @@ Contatta il team di supporto di Learning Manager.
 Puoi trovare l’ID account nel browser in cui è aperto Learning Manager.
 
 */app/admin?i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++Esiste un report che è possibile richiamare o che può essere richiamato da altri utenti che mi mostrerà un elenco di tutti i corsi disponibili nel sistema LMS?
+
+Sì, puoi estrarre un **[!UICONTROL report sulla formazione]** che contiene tutti i corsi, il programma di apprendimento e la certificazione nel sistema LMS. Per scaricare il report, procedi come segue:
+
+1. Accedi come Amministratore.
+2. Fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report dei corsi di formazione]**.
+3. Seleziona **[!UICONTROL Tutti i corsi di formazione]** dal menu a discesa.
+4. Fai clic su **[!UICONTROL Scarica]**.
+
++++
+
++++Dove posso scaricare la versione desktop dell&#39;app?
+
+Segui i passaggi riportati di seguito per scaricare la versione desktop:
+
+1. Accedi come Amministratore.
+2. Fai clic su **[!UICONTROL Apprendimento sociale]** > **[!UICONTROL Impostazioni]**.
+3. In **[!UICONTROL Scarica configurazione]**, fai clic sul collegamento ipertestuale a seconda del sistema operativo.
 
 +++
