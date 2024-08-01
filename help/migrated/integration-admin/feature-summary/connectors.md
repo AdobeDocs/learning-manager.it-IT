@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -762,14 +762,14 @@ Il connettore Harvard ManageMentor viene utilizzato dai clienti enterprise di Ha
 
    Affinché la sincronizzazione abbia esito positivo, assicurati che almeno uno dei seguenti file sia presente nella cartella FTP di Harvard ManageMentor:
 
-   hmm12_metadata.xlsx: questo file fornisce i metadati del corso per il connettore Harvard ManageMentor. Attieniti alla convenzione di denominazione quando carichi il file.
+   hmm12_metadata.csv: questo file fornisce i metadati del corso per il connettore Harvard ManageMentor. Attieniti alla convenzione di denominazione quando carichi il file.
 
-   client_hmm12_20150125.xlsx: il feed utente per il connettore Harvard ManageMentor. Segue la convenzione di denominazione dei file **client_hmm12_yyyyMMdd.xlsx.**
+   client_hmm12_20150125.csv: feed utente per il connettore Harvard ManageMentor. Segue la convenzione di denominazione dei file **client_hmm12_yyyyMMdd.csv.**
 
    Consulta i due file di esempio feed utente e feed del corso per questo connettore:
 
-   * [File dei metadati del corso per il connettore Harvard ManageMentor](assets/hmm12-metadata.xlsx)
-   * [Feed utente per il connettore Harvard ManageMentor](assets/client-hmm12-20170304.xlsx)
+   * [File dei metadati del corso per il connettore Harvard ManageMentor](assets/hmm12-metadata.csv)
+   * [Feed utente per il connettore Harvard ManageMentor](assets/client-hmm12-20170304.csv)
 
 ## Connettore Workday {#workdayconnector}
 

@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 50%
+source-wordcount: '3573'
+ht-degree: 49%
 
 ---
 
@@ -503,6 +503,10 @@ Per ripubblicare il contenuto ritirato,
 1. Seleziona **Azione** > **Ripubblica**.
 
 Il contenuto ora appare nell’elenco Pubblicato.
+
+## Aggiornare il contenuto
+
+Gli Autori possono aggiornare il contenuto nel corso pubblicato. Questo aiuterà gli Allievi a ottenere la versione più recente del contenuto. Per ulteriori informazioni, vedere questo [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
 
 ## Elimina contenuto {#deletecontent}
 

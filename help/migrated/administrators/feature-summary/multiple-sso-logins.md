@@ -3,7 +3,7 @@ description: Adobe Learning Manager supporta più metodi di accesso tramite più
 title: Accessi SSO multipli
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
@@ -54,7 +54,7 @@ Effettua le seguenti operazioni:
 
 1. Importa il file CSV contenente i campi attivi e i relativi valori.
 1. Fai clic su Impostazioni > Metodi di accesso.
-1. Seleziona la casella di controllo Abilita SSO multipli per l’accesso.
+1. Seleziona la casella di controllo **[!UICONTROL Abilita SSO multipli]** per l&#39;accesso.
 1. Associa le configurazioni SSO ai valori del campo attivo.
 1. Salva le impostazioni. Importa nuovamente il file CSV.
 
@@ -63,7 +63,7 @@ Effettua le seguenti operazioni:
 Effettua le seguenti operazioni:
 
 1. Fai clic su Impostazioni > Metodi di accesso.
-1. Seleziona la casella di controllo Abilita SSO multipli per l’accesso.
+1. Seleziona la casella di controllo **[!UICONTROL Abilita SSO multipli]** per l&#39;accesso.
 1. Seleziona un campo attivo per un SSO.
 1. Collega le configurazioni SSO ai valori del campo.
 1. Salva le impostazioni. Aggiungi un singolo utente e assegna un valore al campo attivo.
@@ -73,7 +73,7 @@ Effettua le seguenti operazioni:
 Effettua le seguenti operazioni:
 
 1. Fai clic su Impostazioni > Metodi di accesso.
-1. Seleziona la casella di controllo Abilita SSO multipli per l’accesso.
+1. Seleziona la casella di controllo **[!UICONTROL Abilita SSO multipli]** per l&#39;accesso.
 1. Collega le configurazioni SSO ai valori del campo.
 1. Salva le impostazioni. Aggiungi un singolo utente e assegna un valore al campo attivo.
 1. Aggiungi un profilo di registrazione autonoma.
@@ -87,7 +87,7 @@ Effettua le seguenti operazioni:
 
 1. Crea un profilo esterno.
 1. Fai clic su Impostazioni > Metodi di accesso.
-1. Seleziona la casella di controllo Abilita SSO multipli per l’accesso.
+1. Seleziona la casella di controllo **[!UICONTROL Abilita SSO multipli]** per l&#39;accesso.
 1. Collega la configurazione SSO al profilo esterno creato.
 1. Salva le impostazioni.
 
