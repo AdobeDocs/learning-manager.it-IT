@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7125'
+source-wordcount: '7145'
 ht-degree: 72%
 
 ---
@@ -120,6 +120,10 @@ Per aggiungere le etichette di conformità ai corsi, segui questi passaggi:
    >[!IMPORTANT]
    >
    >Assicurati di impostare una scadenza per il corso quando aggiungi la conformità personalizzata.
+
+   >[!NOTE]
+   >
+   >Un massimo di 50 corsi, percorsi di apprendimento o certificazioni può avere lo stesso valore per un’etichetta di tipo di conformità personalizzata.
 
 1. Salva e pubblica il corso, il percorso di apprendimento e la certificazione.
 Ora il corso/percorso di apprendimento/certificazione è considerato un tipo di conformità. Gli Amministratori possono aggiungere questo corso al dashboard di conformità e condividerlo con i Manager per monitorare l’avanzamento

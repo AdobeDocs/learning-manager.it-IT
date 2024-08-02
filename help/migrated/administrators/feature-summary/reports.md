@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporti
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7132'
+source-wordcount: '7133'
 ht-degree: 57%
 
 ---
@@ -276,7 +276,7 @@ Per creare e condividere un dashboard di conformità, segui questi passaggi:
 
 1. Passa a **[!UICONTROL Report]** > **[!UICONTROL Riepilogo apprendimento]**.
 1. Nella sezione **[!UICONTROL Dashboard di conformità]**, seleziona **[!UICONTROL Condiviso con i Manager]**.
-1. Selezionare **[!UICONTROL Condividi dashboard]** e selezionare le etichette create dal menu a discesa **[!UICONTROL Conformità personalizzata]**.
+1. Selezionare **[!UICONTROL Condividi dashboard]** e selezionare le etichette create dal menu a discesa **[!UICONTROL Seleziona etichetta di conformità]**.
 
 
    ![](assets/compliance-type.png)
