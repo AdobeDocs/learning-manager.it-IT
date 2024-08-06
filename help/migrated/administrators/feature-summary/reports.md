@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapporti
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
 workflow-type: tm+mt
 source-wordcount: '7133'
 ht-degree: 57%
@@ -256,7 +256,7 @@ Per creare un&#39;etichetta di conformità personalizzata, attieniti alla seguen
 
    >[!NOTE]
    >
-   >Questa nuova etichetta di catalogo è stata introdotta per classificare i corsi, i percorsi di apprendimento e le certificazioni come un tipo di conformità. Per abilitare l&#39;opzione **[!UICONTROL per il tipo di conformità personalizzato]**, è necessario innanzitutto abilitare l&#39;opzione **[!UICONTROL Mostra etichetta del catalogo]** nella stessa pagina.
+   >Questa nuova etichetta di catalogo è stata introdotta per classificare i corsi, i percorsi di apprendimento e le certificazioni come un tipo di conformità. Per abilitare l&#39;opzione **[!UICONTROL Tipo di conformità personalizzato]**, è necessario innanzitutto abilitare l&#39;opzione **[!UICONTROL Mostra etichetta del catalogo]** nella stessa pagina.
 
 1. Passa a **[!UICONTROL Impostazioni]** > **[!UICONTROL Etichetta catalogo]** e seleziona il **[!UICONTROL Tipo di conformità]**.
 1. Digitare i valori (ad esempio Legale, Vendite) nella casella di testo **[!UICONTROL Valore]** e selezionare **[!UICONTROL Aggiungi valore]**.
