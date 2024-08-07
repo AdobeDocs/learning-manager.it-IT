@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -441,7 +441,7 @@ Una volta stabilita la connessione, è possibile mappare le colonne dei file CSV
    >
    >Il campo Manager deve essere mappato a un campo di tipo indirizzo e-mail. Prima di poter utilizzare il connettore è necessario mappare tutte le colonne.
 
-1. Dopo aver completato il mapping, fai clic su **[!UICONTROL Salva]**.
+1. Seleziona **[!UICONTROL Salva]** dopo aver completato il mapping.
 
    Il connettore è ora pronto per l’uso. L’account configurato viene visualizzato come origine dati nell’app Amministratore per consentire all’Amministratore di pianificare l’importazione o per la sincronizzazione su richiesta.
 
@@ -2073,32 +2073,7 @@ Il processo di sincronizzazione automatizzato di completamento degli utenti cons
 
 Per ulteriori informazioni, consulta [**Installazione del connettore Microsoft Teams in Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-## Esperienza senza accesso
-
-L’esperienza senza accesso consente di creare un’esperienza in tempo reale per gli utenti che non hanno effettuato l’accesso. Ad esempio, un&#39;esperienza senza accesso funge da pagina di destinazione per campagne di marketing per incoraggiare l&#39;iscrizione.
-
-L&#39;esperienza senza accesso in Adobe Learning Manager può essere configurata utilizzando il connettore **[!UICONTROL Accesso ai dati di formazione]**. Il connettore offre le seguenti offerte:
-
-* Offerta standard
-* Offerta premium
-
-**Offerta standard**
-
-L’offerta standard prevede la creazione della versione nativa di Adobe Learning Manager. Gli utenti possono creare un’esperienza headless solo dimostrativa, senza accesso. L’esperienza headless dimostrativa non è scalabile e non deve essere utilizzata in un ambiente di produzione.
-
-**Offerta premium**
-
-L&#39;offerta premium consente agli utenti di creare un&#39;interfaccia headless configurata dal connettore **[!UICONTROL Accesso ai dati di formazione]**. Ciò consente agli utenti di ottenere dati in tempo reale sui dettagli del corso e del percorso di apprendimento come nome, descrizione, autore, abilità, durata, ecc. Per scenari di apprendimento misto, ottieni anche limiti di posti in tempo reale, posti occupati, limiti della lista d’attesa e conteggi delle liste d’attesa. I clienti possono utilizzare queste API per creare funzionalità di ricerca e filtro e un riepilogo completo del corso per gli Allievi non connessi.
-
-I clienti possono acquistare un piano premium per creare questa esperienza altamente scalabile senza accesso.
-
->[!NOTE]
->
->Per acquistare il piano premium, contatta il team di supporto o il CSM.
-
-Dopo che un utente ha acquistato un piano, il team CSM attiverà il piano premium per tale utente. Tramite il connettore Accesso ai dati di formazione, gli utenti possono configurare un’esperienza senza accesso con le funzioni menzionate in precedenza.
-
-### Connettore di accesso ai dati di formazione
+## Connettore di accesso ai dati di formazione {#training-data-access-connector}
 
 >[!IMPORTANT]
 >
@@ -2110,7 +2085,7 @@ Dopo che un utente ha acquistato un piano, il team CSM attiverà il piano premiu
 
 Il connettore **[!UICONTROL Accesso ai dati di formazione]** consente di creare un&#39;esperienza headless. Questa esperienza può essere autonoma o personalizzata, basata su AEM Sites. Consente di recuperare e visualizzare le informazioni sul corso di formazione per gli Allievi e consente la ricerca e il filtraggio. Una volta abilitato il connettore dati, sarà disponibile un insieme di API pubbliche per creare l’interfaccia, in cui le informazioni sul corso/percorso di apprendimento verranno visualizzate agli Allievi.
 
-#### Configurazione del connettore
+### Configurazione del connettore
 
 Utilizza il connettore **[!UICONTROL Accesso ai dati di formazione]** per integrare il tuo account Adobe Learning Manager con i sistemi di archiviazione e ricerca dei dati. Ciò consente all’interfaccia basata su AEM Sites di ottenere dati di formazione, visualizzare pagine Web e offrire migliori opzioni di ricerca per gli Allievi.
 
@@ -2164,6 +2139,31 @@ Per ulteriori informazioni, consulta questo [**documento**](../../adobe-learning
 Nel sito Web pubblicato viene visualizzato un elenco di tutti i corsi, i certificati e i percorsi di apprendimento migrati che vengono recuperati dal servizio di ricerca per gli Allievi non registrati.
 
 Quando un Allievo fa clic su Corso, Certificato o Percorso di apprendimento, viene avviata la pagina Panoramica. Nella pagina, al momento dell’iscrizione, l’Allievo deve prima effettuare l’accesso e poi seguire il corso.
+
+### Esperienza senza accesso
+
+L’esperienza senza accesso consente di creare un’esperienza in tempo reale per gli utenti che non hanno effettuato l’accesso. Ad esempio, un&#39;esperienza senza accesso funge da pagina di destinazione per campagne di marketing per incoraggiare l&#39;iscrizione.
+
+L&#39;esperienza senza accesso in Adobe Learning Manager può essere configurata utilizzando il connettore **[!UICONTROL Accesso ai dati di formazione]**. Il connettore offre le seguenti offerte:
+
+* Offerta standard
+* Offerta premium
+
+**Offerta standard**
+
+L’offerta standard prevede la creazione della versione nativa di Adobe Learning Manager. Gli utenti possono creare un’esperienza headless solo dimostrativa, senza accesso. L’esperienza headless dimostrativa non è scalabile e non deve essere utilizzata in un ambiente di produzione.
+
+**Offerta premium**
+
+L&#39;offerta premium consente agli utenti di creare un&#39;interfaccia headless configurata dal connettore **[!UICONTROL Accesso ai dati di formazione]**. Ciò consente agli utenti di ottenere dati in tempo reale sui dettagli del corso e del percorso di apprendimento come nome, descrizione, autore, abilità, durata, ecc. Per scenari di apprendimento misto, ottieni anche limiti di posti in tempo reale, posti occupati, limiti della lista d’attesa e conteggi delle liste d’attesa. I clienti possono utilizzare queste API per creare funzionalità di ricerca e filtro e un riepilogo completo del corso per gli Allievi non connessi.
+
+I clienti possono acquistare un piano premium per creare questa esperienza altamente scalabile senza accesso.
+
+>[!NOTE]
+>
+>Per acquistare il piano premium, contatta il team di supporto o il CSM.
+
+Dopo che un utente ha acquistato un piano, il team CSM attiverà il piano premium per tale utente. Tramite il connettore Accesso ai dati di formazione, gli utenti possono configurare un’esperienza senza accesso con le funzioni menzionate in precedenza.
 
 ## Connettore Adobe Commerce
 
