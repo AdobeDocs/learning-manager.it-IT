@@ -4,7 +4,7 @@ title: Pacchetto per il sito di riferimento di Adobe Learning Manager (sito di r
 description: Adobe Learning Manager (ALM) viene integrato con Adobe Experience Manager (AEM) Sites. In questo modo, potrai creare il tuo sito Web e interfacce per dispositivi mobili reattive per Adobe Learning Manager con il minimo sforzo di codifica. Grazie a questa integrazione, puoi creare esperienze di apprendimento personalizzate per i tuoi utenti.
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 67%
@@ -248,7 +248,7 @@ Tuttavia, se desideri utilizzare questi componenti di Learning Manager appena ag
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   Il codice precedente aggiunge la configurazione mappata nel meta tag della pagina, necessaria per il rendering dei componenti di apprendimento. Per ulteriori dettagli, consulta [Adobe Learning Manager reference sitr](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   Il codice precedente aggiunge la configurazione mappata nel meta tag della pagina, necessaria per il rendering dei componenti di apprendimento. Per ulteriori dettagli, consulta [Sito di riferimento di Adobe Learning Manager](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Assicurati di aver mappato la configurazione con il progetto Web.
 1. Apri il modello di AEM Sites in cui desideri importare i componenti di Learning Manager.
