@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: fb887cdc26580cb0e56a80318276284724e4743a
+source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Connettore Microsoft Teams {#teams-connector}
+## Connettore Microsoft Teams {#microsoft-teams-connector}
 
 Microsoft® Teams® è una piattaforma di collaborazione persistente basata su chat che supporta la condivisione di documenti, riunioni online e altre funzioni utili per le comunicazioni aziendali.
 
