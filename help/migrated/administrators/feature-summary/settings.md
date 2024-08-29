@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Impostazioni
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3651'
-ht-degree: 65%
+source-wordcount: '3669'
+ht-degree: 64%
 
 ---
 
@@ -165,7 +165,7 @@ Attivare o disattivare le seguenti impostazioni:
   </tr>
   <tr>
    <td>Mostra Etichette catalogo</td>
-   <td>Se questa opzione è attivata, gli Amministratori e gli Autori possono impostare etichette del Catalogo e valori e collegarli agli Oggetti di apprendimento.</td>
+   <td>Se questa opzione è attivata, gli Amministratori e gli Autori possono impostare etichette del catalogo e valori e collegarli agli Oggetti di apprendimento. Selezionando questa opzione, gli Autori possono inoltre aggiungere ai cataloghi corsi, percorsi di apprendimento, certificazioni o risorse formative.</td>
   </tr>
   <tr>
    <td>Gli allievi possono visualizzare i propri punteggi</td>
