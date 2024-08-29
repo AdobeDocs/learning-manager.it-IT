@@ -2,10 +2,10 @@
 title: Esperienza senza accesso per gli Allievi
 description: Il portale nativo di Adobe Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili. L’esperienza senza accesso consente agli Allievi di esplorare i corsi senza accedere a un portale.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 664b9c867fc767e11d4d91e3be9ae172e7e85035
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 40%
+source-wordcount: '619'
+ht-degree: 39%
 
 ---
 
@@ -88,4 +88,4 @@ Saranno presenti tutti i corsi di formazione esportati.
 * Vista dell’app dell’Allievo visualizzata a livello di catalogo.
 * Pagine della panoramica del corso di formazione - Facendo clic sulla scheda si verrà reindirizzati a Registrazione, quindi alla pagina della panoramica del corso di formazione/pagina dell’istanza.
 * Saranno presenti tutti i cataloghi abilitati. Gli Allievi che non hanno accesso a un catalogo non possono visualizzare il catalogo e i corsi di formazione in esso contenuti dopo l’accesso.
-* Per l’opzione nativa, le modifiche a un corso o a un percorso di apprendimento verranno applicate dopo 24 ore, non in tempo reale.
+* Per l’opzione nativa, le modifiche a un corso o a un percorso di apprendimento si rifletteranno solo dopo 24 ore anziché in tempo reale, mentre per l’offerta premium si rifletteranno dopo un minimo di 3 ore.
