@@ -4,10 +4,10 @@ jcr-language: en_us
 title: I miei insegnamenti
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 64%
+source-wordcount: '2789'
+ht-degree: 63%
 
 ---
 
@@ -163,6 +163,10 @@ Puoi visualizzare tutti i moduli del corso in una finestra del browser.
 **Chiudi il corso** Fai clic sull’icona di chiusura (x) nell’angolo superiore destro del lettore per uscire dal corso.
 
 *Dopo aver chiuso il corso, puoi rivederlo facendo clic sul pulsante Rivedi nella pagina di descrizione del corso.*
+
+## Istanze di iscrizione multiple
+
+Se un corso ha più istanze, gli allievi avranno la possibilità di scegliere e iscriversi a un’istanza specifica. Se necessario, possono anche passare da un’istanza all’altra.
 
 ## Valutazione a stelle
 
