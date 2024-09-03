@@ -4,9 +4,9 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -374,8 +374,6 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >Per creare i file binari firmati, saranno necessari gli strumenti di compilazione SDK Android.
 
 Play Store richiede file binari Android in formato aab per la pubblicazione. Pertanto, forniremo il file .aab non firmato.
-
-Di seguito è riportata una versione rivista:
 
 >[!NOTE]
 >
