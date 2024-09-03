@@ -4,9 +4,9 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,52 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >Per creare i file binari firmati, saranno necessari gli strumenti di compilazione SDK Android.
+
+Play Store richiede file binari Android in formato aab per la pubblicazione. Pertanto, forniremo il file .aab non firmato.
+
+Di seguito è riportata una versione rivista:
+
+>[!NOTE]
+>
+>Quando crei un file keystore, devi generare una password keystore, un alias chiave di firma e una password alias chiave di firma.
+
+Segui i passaggi riportati di seguito per firmare il file .aab:
+
+Esegui il comando seguente:
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>**[!UICONTROL jarsigner]** è incluso in Java. Assicurati di utilizzare Java 21.
+
+Quando richiesto, immetti le seguenti password:
+
+* Password Keystore
+* password per l’alias della chiave di firma
+
+È possibile utilizzare l&#39;apk fornito. Tuttavia, se devi generare un&#39;app da un file aab, segui questi passaggi:
+
+>[!NOTE]
+>
+>Sarà necessario installare **[!UICONTROL bundletool]** per generare APK.
+
+
+Esegui il comando seguente per creare il file apk:
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+Per decomprimere il file, esegui il comando seguente:
+
+```
+unzip my_app.apks -d output_dir
+```
+
+Riceverai il file apk dalla cartella **[!UICONTROL output_dir]**.
 
 **Novità**
 

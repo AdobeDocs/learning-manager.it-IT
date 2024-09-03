@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '4050'
+source-wordcount: '4061'
 ht-degree: 61%
 
 ---
@@ -235,7 +235,7 @@ Esistono alcune differenze tra le registrazioni interne ed esterne.
    <td>
     <p>La gamification è disponibile.</p></td>
    <td>
-    <p>La gamification non è disponibile.</p></td>
+    <p>È disponibile la gamification. L’amministratore deve abilitare la gamification per gli Allievi esterni nelle impostazioni di gamification.</p></td>
   </tr>
   <tr>
    <td>
