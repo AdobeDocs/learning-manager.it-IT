@@ -4,9 +4,9 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ Riutilizza lo stesso progetto creato nei passaggi precedenti per le notifiche pu
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+La cartella principale contiene il file **Runner.xcarchive.zip**. Esegui i comandi seguenti per generare il file binario firmato:
+
+1. Esegui il comando seguente per decomprimere l&#39;archivio:
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. Accedi alla directory dell&#39;app:
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. Copia il file di provisioning per dispositivi mobili:
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. Torna alla directory principale (dove si trova Runner.xcarchive.zip):
+
+   ```
+   cd <root>
+   ```
+
+5. Esportare l&#39;archivio utilizzando xcodebuild:
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. Individuate il file .ipa nella cartella ipa_path.
+7. Carica il file .ipa nel sito Web Diawi.
+8. Una volta completato il caricamento, seleziona il pulsante **[!UICONTROL Invia]**.
+9. Al termine, riceverai un codice QR e un collegamento.
+10. Apri il codice QR o il collegamento direttamente in Safari.
+
+Se il dispositivo è incluso nel profilo di provisioning, l&#39;installazione deve procedere sul dispositivo.
 
 >[!NOTE]
 >
 >Per creare i file binari firmati è necessario XCode 15.2 o versione successiva.
 
 
-## Android
+### Android
+
+**Per il file apk**
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+**Per il file aab**
 
 >[!NOTE]
 >
