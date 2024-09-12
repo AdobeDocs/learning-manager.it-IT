@@ -4,9 +4,9 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 1be901d1667c53ced996953440df6293485a4088
+source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -358,7 +358,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-La cartella principale contiene il file **Runner.xcarchive.zip**. Esegui i comandi seguenti per generare il file binario firmato:
+La cartella `<root>` contiene il file **Runner.xcarchive.zip**. Esegui i comandi seguenti per generare il file binario firmato:
 
 1. Esegui il comando seguente per decomprimere l&#39;archivio:
 
@@ -378,7 +378,7 @@ La cartella principale contiene il file **Runner.xcarchive.zip**. Esegui i coman
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Torna alla directory principale (dove si trova Runner.xcarchive.zip):
+4. Torna alla cartella `<root>` (in cui si trova Runner.xcarchive.zip):
 
    ```
    cd <root>
