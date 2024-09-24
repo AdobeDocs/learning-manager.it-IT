@@ -4,9 +4,9 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ La cartella `<root>` contiene il file **Runner.xcarchive.zip**. Esegui i comandi
    ```
 
 6. Individuate il file .ipa nella cartella ipa_path.
-7. Carica il file .ipa nel sito Web Diawi.
+7. Carica il file .ipa nel sito Web `Diawi`.
 8. Una volta completato il caricamento, seleziona il pulsante **[!UICONTROL Invia]**.
 9. Al termine, riceverai un codice QR e un collegamento.
 10. Apri il codice QR o il collegamento direttamente in Safari.
