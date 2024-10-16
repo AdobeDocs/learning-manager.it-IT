@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di luglio
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2325'
 ht-degree: 3%
 
 ---
@@ -231,6 +231,12 @@ Le API che supportano l’ordinamento per data e per data visualizzeranno i risu
 ### Modifiche ai limiti di offset
 
 Per migliorare le prestazioni del sistema e gestire in modo più efficace l&#39;utilizzo delle risorse, Adobe ha deprecato valori di offset elevati nell&#39;endpoint GET /users per gli ambiti ADMIN e LEARNER. Si consiglia di utilizzare l’API dei processi per recuperare i record con un valore di offset.
+
+### Modifiche del numero di giri/min e limitazione della frammentazione
+
+In questa versione sono stati aggiunti i limiti di RPM (Richieste al minuto) e burst per tutte le API. Puoi controllare il numero massimo di RPM per ogni API nella pagina Swagger.
+
+RPM indica il numero di richieste che è possibile inviare al server API in un minuto. Il limite di burst consente un numero più elevato di richieste per un breve periodo di tempo, superando il normale limite di velocità.
 
 ### API obsolete
 
