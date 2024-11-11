@@ -2,9 +2,9 @@
 description: Scopri le nuove funzioni e i miglioramenti nella versione di novembre 2024 di Adobe Learning Manager
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3133'
 ht-degree: 2%
 
 ---
@@ -494,17 +494,19 @@ Gli amministratori possono trovare queste modifiche ai report nella sezione **Am
 
 Il report **[!UICONTROL Trascrizioni apprendimento]** conterrà due nuove colonne:
 
-* ID modulo
-* ID istanza del corso
+* **[!UICONTROL ID modulo]**: visualizza l&#39;identificatore univoco per ogni modulo. Questa nuova colonna è stata aggiunta dopo la colonna **[!UICONTROL Modulo]** esistente.
+* **[!UICONTROL ID istanza corso]**: visualizza l’identificatore univoco per ogni istanza del corso. Questa nuova colonna è stata aggiunta dopo la colonna **[!UICONTROL Istanza]** esistente.
+* **[!UICONTROL Commento di completamento]**: questa colonna acquisisce i commenti immessi dall&#39;amministratore quando contrassegna il completamento dell&#39;utente. Questa nuova colonna è stata aggiunta alla fine del report.
+
 
 ### Report di riepilogo della sessione
 
 Il report **[!UICONTROL Riepilogo sessione]** conterrà tre nuove colonne:
 
-* ID modulo
-* ID sessione
-* ID istanza del corso
-* Conteggio completamenti
+* La colonna **[!UICONTROL ID modulo]** è stata aggiunta prima della colonna **[!UICONTROL Nome sessione]**.
+* La colonna **[!UICONTROL ID sessione]** è stata aggiunta prima della colonna **[!UICONTROL Nome sessione]**.
+* La colonna **[!UICONTROL ID istanza corso]** è stata aggiunta dopo la colonna **[!UICONTROL Nome istanza]**.
+* La colonna **[!UICONTROL Totale completamenti]** è stata aggiunta dopo la colonna **[!UICONTROL Totale iscrizioni]**.
 
 ## Bug corretti in questo aggiornamento
 
