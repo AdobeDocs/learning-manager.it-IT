@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 description: Scopri la ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
-source-git-commit: c23a8f958910b130a1e8591c97d323523f864f1b
+source-git-commit: 9005b77444135c2709ca3fc68b9bdd725f521290
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -21,7 +21,7 @@ _Risultati di ricerca contestuali basati sull&#39;intelligenza artificiale_
 
 Nella schermata precedente, quando cerchiamo **photoshop introduttivo**, la ricerca basata sull&#39;intelligenza artificiale mostra i risultati più accurati per quella parola chiave.
 
-Questa funzionalità consente di cercare il contenuto e i titoli dei corsi di terze parti, le descrizioni, i tag, le note personalizzate e altri metadati. L’algoritmo trascrive e cerca automaticamente nella trascrizione i tipi di contenuto come Video, PDF e persino le registrazioni delle sessioni di Adobe Connect.
+Questa funzionalità consente di cercare il contenuto e i titoli dei corsi di terze parti, le descrizioni, i tag, le note personalizzate e altri metadati. L&#39;algoritmo trascrive e cerca automaticamente direttamente nella trascrizione i tipi di contenuto come Video, PDF e persino le registrazioni delle sessioni di **Adobe Connect**.
 
 L&#39;algoritmo utilizza sofisticate funzioni di AI e NLP (Natural Language Processing) per comprendere la query di ricerca, contrassegnare le parole chiave essenziali ed espandere logicamente le altre frasi dalla query ricercata. Questa espansione delle query migliora i termini rilevanti e il contesto semanticamente correlato per recuperare corsi, certificati o percorsi di apprendimento in modo più intelligente. La ricerca semantica attualmente supporta solo il contenuto in inglese.
 
