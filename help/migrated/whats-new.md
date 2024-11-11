@@ -2,9 +2,9 @@
 description: Scopri le nuove funzioni e i miglioramenti nella versione di novembre 2024 di Adobe Learning Manager
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3034'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ Per ulteriori informazioni, consultare questo articolo [Ruoli personalizzati](/h
 
 ## Commenti di completamento
 
-Gli amministratori ora possono aggiungere commenti quando contrassegnano gli Allievi come completi in corsi, percorsi di apprendimento o certificazioni. Gli amministratori possono aggiungere commenti per uno o più Allievi contemporaneamente e i commenti verranno visualizzati nel report [Trascrizioni Allievi](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
+Gli amministratori ora possono aggiungere commenti quando contrassegnano gli Allievi come completi in corsi, percorsi di apprendimento o certificazioni. Gli amministratori possono aggiungere commenti per uno o più Allievi contemporaneamente e i commenti vengono visualizzati nel report [Trascrizioni Allievi](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
 
 Per ulteriori informazioni, consultare questo articolo [Commenti di completamento](/help/migrated/administrators/feature-summary/courses.md#completion-comments).
 
