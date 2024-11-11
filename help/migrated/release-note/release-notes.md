@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '26251'
+source-wordcount: '26237'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## Novità di questa versione
 
-Per ulteriori informazioni, fai riferimento alla pagina [Novità di Adobe Learning Manager](/help/migrated/whats-new.md).
+Per ulteriori informazioni, fai riferimento alla pagina [Novità di Adobe Learning Manager](/help/migrated/whats-new-july-2024.md).
 +++
 
 +++Aggiornamento 96: versione di marzo 2024 di Adobe Learning Manager
@@ -47,7 +47,7 @@ Per ulteriori informazioni, fai riferimento alla pagina [Novità di Adobe Learni
 
 ## Novità di questa versione
 
-Per ulteriori informazioni, fai riferimento alla pagina [Novità di Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023).
+Per ulteriori informazioni, fai riferimento alla pagina [Novità di Adobe Learning Manager](/help/migrated/whats-new-november-2023.md).
 +++
 
 +++Aggiornamento 94
@@ -395,8 +395,6 @@ La versione di Adobe Learning Manager di novembre 2022 è costituita dai seguent
 * Miglioramenti della pagina Panoramica sulla formazione
 * Personalizzazione del lettore
 * Impersonificazione dell’Allievo e del Manager
-
-Per ulteriori informazioni, consulta [Novità della versione di novembre 2022 di Adobe Learning Manager](/help/migrated/whats-new-2022-november.md).
 
 **Nota:** Con la versione di novembre 2022 di Adobe Learning Manager, Zoom interromperà l&#39;autenticazione [JWT a partire da giugno 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Di conseguenza, il connettore Zoom con JWT continuerà a funzionare alla suddetta data, ma suggeriamo agli utenti di creare un’app OAuth Server-to-Server per sostituire la funzionalità nel proprio account. Per impostazione predefinita, tutte le nuove connessioni dispongono dell’autenticazione Zoom OAuth.
 
@@ -3037,7 +3035,7 @@ Nel login come Amministratore, la paginazione non funzionava correttamente in pa
 
 **Creazione di abilità**
 
-Nel login per gli Allievi, la descrizione comando del nome dell’abilità in **Mappa abilità **era** **non mostrava il nome ****. Questo problema è stato risolto.
+Nel login per gli Allievi, la descrizione comando del nome dell’abilità in **Mappa abilità **non mostrava ****il nome e cognome**** dell’utente. Questo problema è stato risolto.
 
 **Aggiunta di partner esterni**
 
@@ -3221,7 +3219,7 @@ Data di pubblicazione: 09 febbraio 2016.
 
 ## Comportamento di uscita aggiornato {#signoutbehaviorupdated}
 
-Quando gli utenti fanno clic su **[!UICONTROL Esci]** in Learning Manager, ora effettuano la disconnessione dall’applicazione di Learning Manager, oltre che dall’ID Adobe.
+Quando gli utenti fanno clic su **[!UICONTROL Esci]** in Learning Manager, ora effettuano la disconnessione dall’applicazione di Learning Manager, oltre che dall’Adobe.
 
 +++
 

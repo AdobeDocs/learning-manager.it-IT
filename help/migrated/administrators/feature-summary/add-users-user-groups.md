@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4061'
-ht-degree: 61%
+source-wordcount: '4150'
+ht-degree: 59%
 
 ---
 
@@ -195,8 +195,6 @@ Tipi di campi attivi:
 ## Creazione di un collegamento di registrazione autonoma {#createaselfregistrationlink}
 
 Puoi anche consentire ai dipendenti della tua organizzazione di registrarsi come Allievi nell’account Adobe Learning Manager, senza bisogno di assistenza da parte dell’Amministratore. L’Amministratore può creare un collegamento di registrazione autonoma e condividerlo con i dipendenti, che possono registrarsi ulteriormente a Learning Manager utilizzando le loro credenziali di Adobe.
-
-
 
 Nell&#39;angolo superiore destro della pagina, fai clic su **[!UICONTROL Aggiungi]** e seleziona **[!UICONTROL Registrazione autonoma]**.
 
@@ -575,6 +573,27 @@ Tutti i report includono i campi attivi multivalore e i relativi valori.
 L’Amministratore può aggiungere campi attivi generati automaticamente e configurare i report di attività e formazione degli utenti.
 
 Il report Trascrizione Allievo contiene tutti i campi attivi e i valori separati da virgole. L’Amministratore può quindi filtrare i dati di conseguenza.
+
+## Report gruppo utenti
+
+Il nuovo Report gruppo utenti di Adobe Learning Manager consente di gestire i gruppi di utenti fornendo visibilità sui gruppi che non sono più gestiti quando gli amministratori se ne sono andati. Gli amministratori possono accedere ai report nella sezione **[!UICONTROL Utenti]** > **[!UICONTROL Gruppo di utenti]**. Fornisce informazioni dettagliate su ciascun gruppo, tra cui:
+
+* Tipo di gruppo di utenti
+* Nome gruppo
+* Descrizione
+* Creato da (nome)
+* Creato da (e-mail)
+* Creato il (fuso orario UTC)
+* Numero di utenti
+
+Per scaricare il report, effettua le seguenti operazioni:
+
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Seleziona **[!UICONTROL Utenti]** > **[!UICONTROL Gruppo di utenti]**.
+3. Seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Scarica report gruppo utenti]**.
+
+![](assets/download-user-group-report.png)
+_Scarica il report Gruppo utenti_
 
 ## Domande frequenti {#faq}
 

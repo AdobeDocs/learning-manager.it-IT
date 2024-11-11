@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4866'
-ht-degree: 60%
+source-wordcount: '5111'
+ht-degree: 58%
 
 ---
 
@@ -235,6 +235,35 @@ Se un Allievo che era in attesa di approvazione si disiscrive, il suo resoconto 
 ## Lista d’attesa
 
 La sezione della lista d’attesa consente agli Allievi di essere inseriti in lista d’attesa per i corsi in aula quando i posti sono limitati, in base all’ordine di iscrizione. Gli Amministratori possono gestire questa operazione selezionando gli Allievi nella lista d’attesa e assegnando posti oltre il limite iniziale. Una volta che l’Amministratore ha assegnato un posto, l’Allievo è immediatamente iscritto al corso.
+
+### Report lista d’attesa
+
+Adobe Learning Manager consente agli amministratori di scaricare l’elenco degli Allievi in lista d’attesa per tutte le istanze di un corso. Gli amministratori possono accedere a questo report dalla sezione In lista d’attesa nella pagina **[!UICONTROL Panoramica del corso]**.
+
+Seguire le colonne disponibili nel report Lista d&#39;attesa:
+
+* Nome del corso
+* Nome istanza
+* ID istanza
+* Stato istanza
+* Nome utente
+* E-mail
+* ID univoco utente
+* Data di iscrizione (fuso orario UTC)
+* Stato
+* Numero di lista d’attesa
+* Limite per la lista d’attesa
+* Posti limitati
+
+Per scaricare il report dalla sezione Amministratore:
+
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Vai alla sezione **[!UICONTROL Corso]** e seleziona il corso richiesto.
+3. Seleziona l’opzione **[!UICONTROL Lista d’attesa]** nella pagina **[!UICONTROL Panoramica del corso]**.
+4. Seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Esporta report]** per scaricare il report **[!UICONTROL In lista d’attesa]**.
+
+   ![](assets/export-report-waitlist.png)
+   _Esporta report_
 
 ## Esportazione della partecipazione degli Allievi {#attendance}
 
@@ -498,6 +527,31 @@ Per inviare le notifiche e-mail, l’Amministratore deve scegliere esplicitament
 ![](assets/escalation-notification.png)
 
 *Imposta livello di escalation*
+
+## Commenti di completamento
+
+Gli amministratori possono lasciare commenti quando contrassegnano un Allievo come completo per corsi, percorsi di apprendimento o certificazioni. Questi commenti aiutano a scopi di conformità e di auditing. Gli amministratori possono aggiungere facilmente commenti per uno o più Allievi contemporaneamente.
+
+### Aggiungi commenti di completamento
+
+Segui questi passaggi per aggiungere commenti di completamento:
+
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Passa alla pagina **[!UICONTROL Corsi]** e seleziona un corso.
+3. Seleziona **[!UICONTROL Allievi]** nella pagina del corso.
+4. Scegli il singolo Allievo o più Allievi.
+5. Seleziona **[!UICONTROL Azioni]**, quindi seleziona**[!UICONTROL  Contrassegna completamento]**.
+6. Immetti il commento di completamento nella finestra di dialogo.
+
+   ![](assets/comments.png)
+   _Commento di completamento_
+
+Questo processo è lo stesso per i percorsi di apprendimento e le certificazioni. Per i percorsi di apprendimento, puoi filtrare per selezionare tutti i corsi o solo singoli corsi da contrassegnare come completati.
+
+![](assets/learning-path.png)
+_Selezionare più corsi da completare_
+
+I commenti saranno visibili nel report [Trascrizioni allievi](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
 
 ## Anteprima dei corsi {#previewcourses}
 

@@ -2,10 +2,10 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 8c4d00ed9213c21463a046f74d1db17b331da85f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 87%
+source-wordcount: '618'
+ht-degree: 85%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 87%
 * [Guida utente di Learning Manager](user-guide.md)
 * Introduzione {#introduction}
    * [Riepilogo delle nuove funzioni](whats-new.md)
+   * [Riepilogo delle nuove funzioni luglio 2024](whats-new-july-2024.md)
    * [Nuove funzioni marzo 2024](whats-new-march-2024.md)
    * [Nuove funzioni novembre 2023](whats-new-november-2023.md)
    * [Nuove funzioni luglio 2023](whats-new-2023-july.md)
    * [Nuove funzioni aprile 2023](whats-new-2023-april.md)
-   * [Nuove funzioni di novembre 2022](whats-new-2022-november.md)
    * [Note sulla versione](release-note/release-notes.md)
    * [Requisiti di sistema](system-requirements.md)
    * [Pacchetto per il sito di riferimento ALM per AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -88,6 +88,9 @@ ht-degree: 87%
    * [Manuale di migrazione](integration-admin/feature-summary/migration-manual.md)
    * [Connettori Learning Manager](integration-admin/feature-summary/connectors.md)
    * [API senza accesso](integration-admin/feature-summary/non-logged-in-apis.md)
+   * [Webhook](integration-admin/feature-summary/webhooks.md)
+   * [Credendo](integration-admin/feature-summary/credly-integration.md)
+   * [Interoperabilità degli strumenti di apprendimento](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [Integrazione di Learning Manager con AEM](integrate-aem-learning-manager.md)
    * [Installazione del pacchetto Salesforce su Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Installazione del connettore Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -127,6 +130,7 @@ ht-degree: 87%
    * [Notifiche per l’utente](learners/feature-summary/user-notifications.md)
    * [Annunci](learners/feature-summary/announcements.md)
    * [Gestione delle liste di attesa e di frequenza](learners/feature-summary/waitlist-attendance-management.md)
+   * [Ricerca basata sull&#39;intelligenza artificiale in Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [App Learning Manager per Salesforce](learners/feature-summary/sfdc-app.md)
    * [Integrazione Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
    * [Applicazione Allievo per dispositivi mobili e tablet](learners/feature-summary/ipad-android-tablet-users.md)

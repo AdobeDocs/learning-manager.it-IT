@@ -4,9 +4,9 @@ title: Manuale per sviluppatori di applicazioni
 description: L’API V1 di Learning Manager è ora obsoleta. Le API V1 smetteranno di funzionare dal 28 febbraio 2021. Si consiglia di utilizzare le API V2 per interagire con Learning Manager.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: '3377'
 ht-degree: 62%
 
 ---
@@ -134,7 +134,7 @@ Quando una richiesta API ha esito negativo, si ottiene una risposta di errore. I
 
 Gli attributi dell’oggetto API e le relative relazioni sono chiamati collettivamente Fields. Per ulteriori informazioni, consulta le [API in JSON.](http://jsonapi.org/format/#document-resource-object-fields) È possibile utilizzare Fields come parametro durante le chiamate API per recuperare uno o più attributi specifici dal modello. In assenza del parametro Fields, la chiamata API recupera tutti gli attributi disponibili dal modello. Ad esempio, nella seguente chiamata API, fields[skill]=name recupera solo l’attributo name del modello di abilità.
 
-https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
+`https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name `
 
 **Paginazione**
 

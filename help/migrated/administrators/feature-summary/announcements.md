@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Annunci
 description: Un annuncio è un messaggio multimediale (testo, immagine o video) che un Amministratore trasmette a un insieme di utenti definito.
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 69%
+source-wordcount: '1061'
+ht-degree: 57%
 
 ---
 
@@ -59,26 +59,32 @@ Se l’allegato multimediale è di grandi dimensioni, caricarlo potrebbe richied
 
 Se scegli questa opzione, tutti i file multimediali selezionati sono evidenziati come masthead nella pagina principale dell’Allievo. Il masthead è come una richiesta di intervento da parte degli Allievi cui è rivolta.
 
-![](assets/masthead-announcement.png)
+Gli amministratori possono aggiungere testo alternativo per tutti i masthead per migliorare l’accessibilità per gli Allievi. Ciò consente agli Allievi con esigenze particolari di utilizzare gli assistenti vocali per leggere il testo alternativo e comprendere l’immagine. Potete selezionare più lingue e fornire testo alternativo per ogni lingua. Assicurati di aggiungere il testo alternativo nelle rispettive lingue.
 
-*Personalizzare il masthead*
+Per aggiungere il masthead, effettua le seguenti operazioni:
 
-1. Sfoglia e scegli un’immagine per rappresentare il masthead. La dimensione consigliata è 1280 x 360 px.
-1. Scegli le impostazioni locali cui aggiungere il masthead. Scegli una risorsa masthead per ogni lingua.
-1. Nel campo dei **[!UICONTROL pulsanti azione]**, aggiungi un URL in modo che gli Allievi che lo selezionano nel masthead vengano reindirizzati all’URL. Questo campo è opzionale.
-1. Scegli i gruppi di utenti di destinazione o gli oggetti di apprendimento di destinazione. Puoi sceglierne solo uno per annuncio.
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Seleziona **[!UICONTROL Annunci]** > **[!UICONTROL Aggiungi]**.
+3. Seleziona **[!UICONTROL Come masthead]** dal menu a discesa Tipo.
 
-   Inizia a digitare il nome del gruppo di utenti nella casella di testo e scegli l’opzione desiderata dall’elenco a discesa. Allo stesso modo, scegli il corso di formazione digitando il nome dell’oggetto nella casella di testo.
+   ![](assets/announcement.png)
+   _Crea un annuncio_
 
-1. Nella sezione **[!UICONTROL Impostazioni avanzate]** sono disponibili le seguenti opzioni:
+4. Seleziona la lingua e carica l&#39;immagine.
 
-   * Fai clic su **[!UICONTROL Immediatamente]** per pubblicare subito l’annuncio.
-   * Fai clic su **[!UICONTROL Mai]** se non desideri che l’annuncio scada.
+   >[!NOTE]
+   >
+   >Potete selezionare più lingue e fornire testo alternativo per ogni lingua. Assicurati di aggiungere il testo alternativo nelle rispettive lingue.
+
+5. Immetti il testo appropriato nel campo **[!UICONTROL Testo alternativo]**.
+6. Nel campo **[!UICONTROL Pulsante azione]**, aggiungi un URL per reindirizzare gli Allievi quando fanno clic sul pulsante sul masthead.
+7. Seleziona i gruppi di utenti di destinazione o gli oggetti di apprendimento di destinazione. Puoi sceglierne solo uno per annuncio.
+8. Nella sezione **[!UICONTROL Impostazioni avanzate]** sono disponibili le seguenti opzioni:
+
+   * Seleziona **[!UICONTROL Immediatamente]** se desideri che l’annuncio venga pubblicato in quel momento.
+   * Seleziona **[!UICONTROL Mai]** se non desideri che l’annuncio scada.
    * Seleziona le date **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** per l&#39;annuncio.
-
-   ![](assets/advanced-settings.png)
-
-   *Impostare il tempo di visualizzazione di un masthead*
+9. Seleziona Salva e pubblica l’annuncio.
 
 **Esiste un limite al numero di annunci Masthead live?**
 

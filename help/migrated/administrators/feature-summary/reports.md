@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rapporti
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '7133'
-ht-degree: 57%
+source-wordcount: '7828'
+ht-degree: 52%
 
 ---
 
@@ -289,63 +289,107 @@ Per creare e condividere un dashboard di conformità, segui questi passaggi:
 >
 >La condivisione del nuovo dashboard sovrascriverà il dashboard esistente nell’app del Manager selezionato. I Manager potranno visualizzare il dashboard appena condiviso dagli Amministratori.
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### Condivisione del dashboard di conformità con amministratori e amministratori personalizzati
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+Gli amministratori possono condividere il dashboard con altri amministratori e amministratori personalizzati, fornendo loro l’accesso immediato a tutti i dashboard di conformità.
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+Segui questi passaggi per condividere il dashboard con gli amministratori e gli amministratori personalizzati:
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Seleziona **[!UICONTROL Report]** > **[!UICONTROL Riepilogo apprendimento]**.
+3. Seleziona **[!UICONTROL Visualizzazione amministratore]** nella sezione **[!UICONTROL Dashboard di conformità]**.
+4. Selezionare il pulsante **[!UICONTROL Condividi dashboard]**.
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _Condividi dashboard - Amministratore_
 
-You can also see the compliance status for each internal team.
+5. Selezionare le etichette di conformità dal menu a discesa **[!UICONTROL Seleziona conformità personalizzata]**. Questa opzione selezionerà tutti i corsi che dispongono delle etichette di conformità selezionate.
+6. Seleziona i corsi, i percorsi di apprendimento o le certificazioni aggiuntivi che desideri condividere con gli amministratori.
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _Dashboard di conformità condiviso_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. Seleziona gli utenti o i gruppi di utenti che desideri condividere nel dashboard e seleziona **[!UICONTROL Condividi]**.
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### Visualizzare il dashboard di conformità: amministratori personalizzati e altri amministratori
 
-### Share training with managers
+Tutti gli amministratori personalizzati e gli altri amministratori del gruppo di utenti selezionato possono visualizzare il dashboard di conformità nella propria app.
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+Segui questi passaggi per visualizzare il dashboard di conformità:
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. Passa a **[!UICONTROL Report]** > **[!UICONTROL Riepilogo apprendimento]** > **[!UICONTROL Dashboard di conformità]**.
+2. Seleziona **[!UICONTROL La tua vista]** nella sezione **[!UICONTROL Dashboard di conformità]**.
+3. Seleziona l&#39;opzione **[!UICONTROL Vai al dashboard di conformità]** per visualizzare il nuovo dashboard di conformità condiviso dall&#39;amministratore.
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _Visualizza dashboard di conformità - Amministratore personalizzato_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### Condividi con i Manager dei punti vendita
 
-### Share training
+Gli amministratori possono condividere il dashboard di conformità con i Manager dei punti vendita, che consente loro di monitorare i progressi della conformità dell’Allievo.
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+Segui questi passaggi per condividere il dashboard con i Manager dei punti vendita:
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Passa a **[!UICONTROL Report]** > **[!UICONTROL Riepilogo apprendimento]** > **[!UICONTROL Dashboard di conformità]**.
+3. Selezionare **[!UICONTROL Visualizzazione Manager]** nella sezione **[!UICONTROL Dashboard di conformità]**.
+4. Selezionare il pulsante **[!UICONTROL Condividi dashboard]**.
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _Condivisione del dashboard di conformità con i Manager_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. Selezionare le etichette di conformità dal menu a discesa **[!UICONTROL Seleziona conformità personalizzata]**.
+Questa opzione selezionerà tutti i corsi che dispongono delle etichette di conformità selezionate.
+6. Seleziona i corsi, i percorsi di apprendimento o le certificazioni aggiuntivi che desideri condividere con gli amministratori.
+7. Seleziona gli utenti o i gruppi di utenti che desideri condividere nel dashboard e seleziona **[!UICONTROL Condividi]**.
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### Visualizza dashboard di conformità - Manager
 
-1. Click **[!UICONTROL Share]**.
+Per ulteriori informazioni, fare riferimento a questo articolo [Visualizzare il dashboard di conformità](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard).
 
-The training is now shared with the specified manager.
+#### Modificare il dashboard
 
-### View training
+Segui questi passaggi per modificare il dashboard di conformità:
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Passa a **[!UICONTROL Report]** > **[!UICONTROL Riepilogo apprendimento]** > **[!UICONTROL Dashboard di conformità]**.
+3. Selezionare **[!UICONTROL Visualizzazione Amministratore]** o **[!UICONTROL Visualizzazione Manager]** nella sezione **[!UICONTROL Dashboard di conformità]**. Puoi visualizzare i dashboard di conformità in questa sezione.
+4. Seleziona **[!UICONTROL Modifica]** nel dashboard di conformità che desideri modificare.
 
-### Withdraw training
+   ![](assets/edit.png)
+   _Modifica dashboard di conformità_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. Modifica i dettagli richiesti e seleziona **[!UICONTROL Condividi]**.
+6. Il dashboard di conformità verrà condiviso con i Manager selezionati.
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### Ritirare il dashboard - Amministratore
+
+Segui questi passaggi per ritirare il dashboard di conformità:
+
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Passa a **[!UICONTROL Report]** > **[!UICONTROL Riepilogo apprendimento]** > **[!UICONTROL Dashboard di conformità]**.
+3. Selezionare **[!UICONTROL Visualizzazione Amministratore]** o **[!UICONTROL Visualizzazione Manager]** nella sezione **[!UICONTROL Dashboard di conformità]**. Puoi visualizzare i dashboard di conformità in questa sezione.
+4. Seleziona **[!UICONTROL Ritira]** nel dashboard di conformità che desideri rimuovere e seleziona **[!UICONTROL Procedi]**.
+5. Questa azione rimuoverà il dashboard di conformità condiviso dall’app del Manager.
+
+   ![](assets/manager-edit.png)
+   _Ritirare il dashboard di conformità_
+
+#### Impostazione del widget di conformità predefinito per gli Allievi
+
+Segui questi passaggi per impostare il widget di conformità predefinito per gli Allievi:
+
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Passa a **[!UICONTROL Report]** > **[!UICONTROL Riepilogo apprendimento]** > **[!UICONTROL Dashboard di conformità]**.
+3. Seleziona **[!UICONTROL Visualizzazione Allievo]** nella sezione **[!UICONTROL Dashboard di conformità]**.
+4. Seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Visualizzazione Allievo]**.
+
+   ![](assets/learner-widget.png)
+   _Impostare il widget di conformità predefinito per gli Allievi_
+5. Seleziona le etichette di conformità dal menu a discesa **[!UICONTROL Conformità personalizzata]**. Questa opzione selezionerà tutti i corsi che dispongono delle etichette di conformità selezionate.
+6. Selezionare **[!UICONTROL Procedi]** per impostare il widget di conformità predefinito.
+
+Gli Allievi possono visualizzare i corsi o i percorsi di apprendimento selezionati nel widget di conformità nella propria home page. Per ulteriori informazioni, fare riferimento al [widget del dashboard di conformità](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget).
 
 ## Report personalizzati
 
@@ -846,6 +890,34 @@ Il report contiene:
 * Promemoria elemento di apprendimento
 * Ambito catalogo
 * Ambito gruppo di utenti
+
+### Audit trail per i ruoli personalizzati
+
+Gli amministratori possono scaricare il report di audit dei ruoli personalizzato per tenere traccia di tutte le modifiche apportate ai ruoli personalizzati, incluse la creazione, la modifica e l’eliminazione di ruoli personalizzati e dell’accesso alle funzionalità associate.
+
+Per scaricare il report, effettua le seguenti operazioni:
+
+1. Accedi come amministratore.
+2. Seleziona Report > Report personalizzati.
+3. Seleziona l’audit trail del ruolo personalizzato e scegli l’intervallo di date
+4. Seleziona Genera per scaricare il report.
+
+Il report Audit trail del ruolo personalizzato contiene i campi riportati di seguito.
+
+* ID ruolo
+* Nome del ruolo
+* Tipo di attività
+* Tipo di modifica
+* Descrizione
+* Tipo oggetto di riferimento
+* ID oggetto di riferimento
+* Nome oggetto di riferimento
+* E-mail oggetto di riferimento
+* Modificato dal nome utente
+* Modificato dall’UUID utente
+* Modificato dall’e-mail utente
+* Data modifica (fuso orario UTC)
+* Origine
 
 ## Iscrizione e-mail {#emailsubscriptions}
 

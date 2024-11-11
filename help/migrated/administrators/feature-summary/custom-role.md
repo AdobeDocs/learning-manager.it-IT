@@ -4,10 +4,10 @@ title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '2223'
-ht-degree: 63%
+source-wordcount: '2485'
+ht-degree: 56%
 
 ---
 
@@ -17,28 +17,33 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 
 È possibile creare un ruolo personalizzato per fornire funzionalità di creazione limitate a un determinato catalogo. Puoi anche creare un ruolo dedicato alla gestione dei rapporti. Tali ruoli possono quindi essere assegnati a singoli utenti che dovrebbero assumere queste responsabilità specifiche.
 
+Gli amministratori ora possono visualizzare le autorizzazioni create con CSV in Adobe Learning Manager. L’opzione Filtra in base a filtra i ruoli personalizzati creati dall’amministratore e quelli importati tramite un file CSV. Dopo aver selezionato un ruolo personalizzato, è possibile visualizzarne le autorizzazioni.
+
+![](assets/filter.png)
+_Filtra ruoli personalizzati_
+
 ## Creazione di un ruolo personalizzato {#create-role}
 
 1. Accedi come Amministratore. Apri **[!UICONTROL Utenti]** > **[!UICONTROL Ruolo personalizzato]**.
-1. Seleziona **[!UICONTROL Crea ruolo]**. Viene visualizzata la scheda **[!UICONTROL Crea nuovo ruolo]**.
+2. Seleziona **[!UICONTROL Crea ruolo]**. Viene visualizzata la scheda **[!UICONTROL Crea nuovo ruolo]**.
 
    ![](assets/create-new-role.png)
 
    *Creare un ruolo personalizzato*
 
-1. Immetti il nome nel campo **[!UICONTROL Nome del ruolo]**.
-1. **[!UICONTROL Privilegi dell&#39;account]**: questi privilegi consentono ai proprietari dei ruoli di accedere ad aspetti specifici della configurazione del sistema e di agire sull&#39;intero account. Scegli le autorizzazioni di accesso. L’utente ottiene il pieno controllo sulle autorizzazioni assegnate.
+3. Immetti il nome nel campo **[!UICONTROL Nome del ruolo]**.
+4. **[!UICONTROL Privilegi dell&#39;account]**: questi privilegi consentono ai proprietari dei ruoli di accedere ad aspetti specifici della configurazione del sistema e di agire sull&#39;intero account. Scegli le autorizzazioni di accesso. L’utente ottiene il controllo completo sulle autorizzazioni assegnate. Gli amministratori possono concedere autorizzazioni dettagliate per la sezione Utente, che include Utenti interni/esterni, Gruppi di utenti e Utenti avanzati.
 
->[!NOTE]
->
->   L&#39;ambito non è applicabile a questi privilegi.
+   >[!NOTE]
+   >
+   >   L&#39;ambito non è applicabile a questi privilegi.
 
 
-![](assets/account-privileges.png)
+   ![](assets/account-privileges.png)
 
-*Imposta l&#39;ambito*
+   *Imposta l&#39;ambito*
 
-1. **Privilegi sulle funzionalità - Funzionalità di base**: utilizzato per concedere l’accesso a funzionalità specifiche per la gestione delle attività di apprendimento. tramite questa opzione possono essere concesse le autorizzazioni per le seguenti funzionalità.
+5. **Privilegi sulle funzionalità - Funzionalità di base**: utilizzato per concedere l’accesso a funzionalità specifiche per la gestione delle attività di apprendimento. Con questa opzione è possibile assegnare le autorizzazioni per le funzionalità seguenti. Gli amministratori possono fornire autorizzazioni dettagliate come di sola lettura, creazione, modifica ed eliminazione dei cataloghi.
 
    * Cataloghi
    * Rapporti
@@ -48,7 +53,7 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 
    *Imposta l&#39;ambito per cataloghi, report e tag*
 
-1. **Privilegi sulle funzioni - Oggetti di apprendimento:** Utilizzate questa opzione per fornire accesso alle funzioni relative agli oggetti di apprendimento. Puoi fornire l’accesso ai seguenti LO.
+6. **Privilegi sulle funzioni - Oggetti di apprendimento:** Utilizzate questa opzione per fornire accesso alle funzioni relative agli oggetti di apprendimento. Gli amministratori possono fornire autorizzazioni dettagliate per tutti gli oggetti di apprendimento, inclusi corsi, percorsi di apprendimento, certificazioni e risorse formative. Possono assegnare agli utenti autorizzazioni quali creazione, modifica, eliminazione o accesso di sola lettura.
 
    * Certificazioni
    * Corsi
@@ -57,16 +62,20 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 
    È inoltre possibile concedere un controllo operativo specifico per gli LO. L’autorizzazione può essere una delle seguenti:
 
-   * Controllo completo
-   * Modifica ed elimina
+   * Sola lettura
+   * Crea
+   * Modifica
+   * Elimina
    * Iscrizione
    * Report
 
-   ![](assets/learning-objects.png)
+   È inoltre possibile concedere il controllo completo degli LO.
+
+   ![](assets/learningobjects.png)
 
    *Concedere autorizzazioni specifiche*
 
-1. **Ambito per privilegi di funzionalità:** L&#39;ambito dei privilegi di funzionalità allocati a questo ruolo può essere limitato a un gruppo di utenti specifico o a uno o più cataloghi.
+7. **Ambito per privilegi di funzionalità:** L&#39;ambito dei privilegi di funzionalità allocati a questo ruolo può essere limitato a un gruppo di utenti specifico o a uno o più cataloghi.
 
    Cataloghi: utilizza il pulsante di opzione per fornire controllo su **[!UICONTROL Tutti i cataloghi]** o utilizza l’opzione **[!UICONTROL Imposta accesso per catalogo]** per fornire l’accesso a cataloghi specifici. Puoi anche selezionare più cataloghi.
 
@@ -224,18 +233,43 @@ Un utente con un ruolo personalizzato può:
 
 1. **Utenti:** Utilizzare questa opzione per determinare a quali utenti è assegnato questo ruolo. Puoi scegliere uno o più utenti utilizzando la casella di ricerca.
 
-   **Aggiunta di utenti al caricamento CSV del ruolo personalizzato:** Per aggiungere utenti tramite aggiornamento CSV, aggiungere una colonna CustomRole al file .csv utilizzato dall&#39;amministratore per importare gli utenti. Immettere il ruolo dell&#39;utente nella colonna CustomRole per gli utenti a cui si desidera assegnare un ruolo personalizzato. Per caricare il file CSV, fai clic su **[!UICONTROL Aggiungi > Carica un file CSV]**.
+   **Aggiungi utenti al caricamento CSV del ruolo personalizzato:** Per aggiungere utenti tramite il caricamento CSV, aggiungi una colonna CustomRole al file .csv utilizzato dall&#39;amministratore per importare gli utenti. Immettere il ruolo dell&#39;utente nella colonna CustomRole per gli utenti a cui si desidera assegnare un ruolo personalizzato. Per caricare il file CSV, fai clic su **[!UICONTROL Aggiungi > Carica un file CSV]**.
 
-   Colonna CustomRoleNota:
+   * Non è possibile cercare gruppi di utenti.
+   * Non è possibile cercare tra gli utenti a cui è già stato assegnato il ruolo di amministratore.
+   * L&#39;assegnazione di un nuovo ruolo personalizzato a un utente sostituisce il precedente ruolo personalizzato dell&#39;utente.
 
-* Non è possibile cercare gruppi di utenti.
-* Non è possibile cercare tra gli utenti a cui è già stato assegnato il ruolo di amministratore.
-* L&#39;assegnazione di un nuovo ruolo personalizzato a un utente sostituisce il precedente ruolo personalizzato dell&#39;utente.
+   <!--![](assets/users.png)-->
 
-  <!--![](assets/users.png)-->
+   * Un amministratore personalizzato che dispone dell&#39;autorizzazione per Impostazioni potrà configurare la pianificazione per la sincronizzazione o la sincronizzazione degli utenti dall&#39;origine dati anche se non dispone dell&#39;autorizzazione per l&#39;entità Utenti.
+   * Se un Amministratore personalizzato dispone dell’autorizzazione per l’entità Utenti, può assegnare il ruolo di Amministratore a se stesso e diventare Amministratore standard.
 
-* Un amministratore personalizzato che dispone dell&#39;autorizzazione per Impostazioni potrà configurare la pianificazione per la sincronizzazione o la sincronizzazione degli utenti dall&#39;origine dati anche se non dispone dell&#39;autorizzazione per l&#39;entità Utenti.
-* Se un Amministratore personalizzato dispone dell’autorizzazione per l’entità Utenti, può assegnare il ruolo di Amministratore a se stesso e diventare Amministratore standard.
+## Report ruolo personalizzato
+
+Gli amministratori possono scaricare un report CSV di tutti i ruoli personalizzati e delle relative autorizzazioni. Il report mostra come ogni ruolo è stato creato, da un amministratore o tramite un file CSV, e evidenzia l’accesso concesso a ogni ruolo.
+
+Per scaricare il report, effettua le seguenti operazioni:
+
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Selezionare **[!UICONTROL Utenti]** > **[!UICONTROL Ruoli personalizzati]**.
+3. Seleziona l&#39;opzione **[!UICONTROL Scarica]** per scaricare il report CSV.
+
+![](assets/download-report.png)
+_Scarica report dei ruoli personalizzati_
+
+Il report contiene due file CSV: role.csv e user_role.csv. Il file role.csv include:
+
+* Ruolo personalizzato
+* ID utente
+* Fonte di creazione.
+
+Il file user_role.csv include i campi, il ruolo personalizzato, l’origine della creazione e informazioni dettagliate per cataloghi, utenti, corsi, percorsi di apprendimento e altro ancora.
+
+## Audit trail per i ruoli personalizzati
+
+Gli amministratori possono scaricare il report di audit dei ruoli personalizzato per tenere traccia di tutte le modifiche apportate ai ruoli personalizzati, incluse la creazione, la modifica e l’eliminazione di ruoli personalizzati e dell’accesso alle funzionalità associate.
+
+Per ulteriori informazioni, fare riferimento a questo articolo [Audit trail per i ruoli personalizzati](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles).
 
 ## Limitare l’accesso alle cartelle per gli Autori personalizzati {#folder-custom-author}
 

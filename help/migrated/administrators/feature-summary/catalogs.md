@@ -4,10 +4,10 @@ title: Cataloghi
 description: I cataloghi sono una raccolta di corsi di apprendimento, programmi di apprendimento e certificazioni. Utilizza i cataloghi per fornire agli Allievi l’accesso a un set personalizzato di oggetti di apprendimento. È possibile associare l’apprendimento a un catalogo durante la creazione di un nuovo catalogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 73%
+source-wordcount: '2552'
+ht-degree: 72%
 
 ---
 
@@ -96,6 +96,10 @@ Per creare un catalogo, segui i passaggi riportati di seguito:
    La risorsa formativa che hai aggiunto viene visualizzata nella scheda **[!UICONTROL Risorse formative]**.
 
 Il contenuto viene visualizzato in ciascuna di queste schede se è già disponibile nell’account. Altrimenti, è necessario creare il contenuto. Ad esempio, se non hai ancora aggiunto alcun corso o programma di apprendimento nell’applicazione Learning Manager, devi prima iniziare a crearli.
+
+## Rimozione in blocco di corsi, percorsi di apprendimento o risorse formative
+
+Gli amministratori o gli amministratori personalizzati possono rimuovere in blocco corsi, percorsi di apprendimento o risorse formative. Passa a **[!UICONTROL Cataloghi]** e seleziona un catalogo. Nella pagina **[!UICONTROL Contenuto]**, seleziona **[!UICONTROL Modifica contenuto]**. Quindi seleziona l&#39;opzione **[!UICONTROL Rimuovi]** accanto a corsi, percorsi di apprendimento o risorse formative e seleziona **[!UICONTROL Salva]**.
 
 ## Deep link al catalogo per gli Allievi {#deep-link}
 

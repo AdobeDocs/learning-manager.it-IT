@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 84%
 
 ---
 
@@ -41,6 +41,32 @@ Gli istruttori hanno la possibilità di annullare l’iscrizione degli Allievi a
 
 ![](assets/unenroll-learners.png)
 *Annulla l’iscrizione degli Allievi*
+
+### Report lista d’attesa
+
+Il nuovo **[!UICONTROL Report della lista d’attesa]** di Adobe Learning Manager consente agli istruttori di scaricare l’elenco degli allievi in lista d’attesa per tutte le istanze di un corso. Gli istruttori possono accedere a questo report dalla sezione **[!UICONTROL Lista d’attesa]** nella pagina **[!UICONTROL Panoramica della sessione]**.
+
+Seguire le colonne disponibili nel report Lista d&#39;attesa:
+
+* Nome del corso
+* Nome istanza
+* ID istanza
+* Stato istanza
+* Nome utente
+* E-mail
+* ID univoco utente
+* Data di iscrizione (fuso orario UTC)
+* Stato
+* Numero di lista d’attesa
+* Limite per la lista d’attesa
+* Posti limitati
+
+Per scaricare il report dalla sezione Istruttore:
+
+1. Accedi come **[!UICONTROL Istruttore]**.
+2. Seleziona una sessione dalla home page.
+3. Selezionare l&#39;opzione **[!UICONTROL Lista d&#39;attesa]** nella pagina **[!UICONTROL Panoramica della sessione]**.
+4. Seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Esporta report]** per scaricare il report **[!UICONTROL In lista d’attesa]**.
 
 ## Partecipazione alla sessione {#markattendanceforyoursession}
 
