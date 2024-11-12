@@ -3,14 +3,14 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di luglio
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 685220000be6be524c0829fe400abec911cf067e
 workflow-type: tm+mt
-source-wordcount: '2325'
-ht-degree: 3%
+source-wordcount: '2327'
+ht-degree: 2%
 
 ---
 
-# Riepilogo delle nuove funzioni {#new-features-summary}
+# Riepilogo delle nuove funzioni luglio 2024 {#new-features-summary-july-2024}
 
 Scopri le nuove funzioni e i miglioramenti nella versione di luglio 2024 di Adobe Learning Manager.
 
