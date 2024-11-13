@@ -3,7 +3,7 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di novemb
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: dcfcb8d9c161eda83db966b93fad45f1430c47af
+source-git-commit: 370cffa791fed463420658ef1f2079a0608e964b
 workflow-type: tm+mt
 source-wordcount: '3134'
 ht-degree: 2%
@@ -544,3 +544,4 @@ Visualizza [requisiti di sistema di Adobe Learning Manager](/help/migrated/syste
 
 * [Versione di luglio 2024](/help/migrated/whats-new-july-2024.md)
 * [Versione di marzo 2024](/help/migrated/whats-new-march-2024.md)
+
