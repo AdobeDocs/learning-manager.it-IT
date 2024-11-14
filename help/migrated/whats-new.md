@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di novemb
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3149'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Seguire le colonne disponibili nel report Lista d&#39;attesa:
 * Limite per la lista d’attesa
 * Posti limitati
 
-Per scaricare il report dalla sezione Amministratore e istruttore, fai riferimento a questi articoli [Report della lista d’attesa](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) e [Report della lista d’attesa](/help/migrated/instructors/feature-summary/learners.md#waitlist-report).
+Per scaricare il report dalla sezione Amministratore e istruttore, fai riferimento agli articoli [Report della lista d’attesa (Amministratore)](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) e [Report della lista d’attesa (Istruttori)](/help/migrated/instructors/feature-summary/learners.md#waitlist-report).
 
 ## Accessibilità nella pagina principale dell’Allievo
 
@@ -149,6 +149,10 @@ Per ulteriori informazioni, fai riferimento a questo articolo [Annuncio](/help/m
 ## Supporto per hindi
 
 Adobe Learning Manager ora introduce l&#39;hindi come una delle lingue di interfaccia della piattaforma e supporta la crescita della piattaforma in India. Il supporto per le lingue hindi native garantisce che tutte le funzioni, i report e l’esperienza utente complessiva siano completamente accessibili agli utenti.
+
+>[!NOTE]
+>
+>I certificati dei distintivi generati dal sistema in formato PDF non supportano la lingua hindi.
 
 Per cambiare la lingua dell’interfaccia, effettua le seguenti operazioni:
 

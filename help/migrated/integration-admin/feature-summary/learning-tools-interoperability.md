@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Interoperabilità degli strumenti di apprendimento (LTI)
 description: Informazioni sull'integrazione LTI ALM
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -235,6 +236,16 @@ Di seguito sono riportate le limitazioni dell&#39;LTI sia per il consumer LTI ch
 * Il campo attivo LTI è a valore singolo e non supporta più valori.
 * I motivi dell’errore non sono disponibili quando un’esportazione non riesce durante la migrazione di corsi senza contenuto principale.
 * I livelli del corso LTI esterno non vengono visualizzati nella Trascrizione Allievo e i punteggi non sono visibili nella pagina del quiz L2, influendo sul tracciamento delle prestazioni degli Allievi.
+
+## Casi di errore di avvio LTI
+
+Di seguito sono riportati i corsi che il lettore LTI esterno non può avviare a causa delle recenti modifiche apportate in ALM dopo la creazione dei collegamenti di avvio:
+
+* Corsi in cui l’istanza viene ritirata.
+* Corsi ritirati e non registrati in ALM.
+* Corsi con iscrizioni ad ALM ma ritirati.
+* Corsi eliminati in ALM.
+* Corsi per i quali è stato raggiunto il limite di iscrizioni.
 
 ## Best practice
 
