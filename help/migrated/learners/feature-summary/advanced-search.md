@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 description: Scopri la ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: ee78b7e0b81faa7003438a8a3dc9e46af3e10c17
+source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -25,7 +25,8 @@ La funzionalità di ricerca è importante per diversi motivi:
 * **Accessibilità**: funzionalità di ricerca efficaci rendono le informazioni più accessibili, garantendo che gli utenti possano utilizzare contenuti pertinenti alle loro esigenze.
 * **Personalizzazione**: i sistemi di ricerca avanzati possono personalizzare i risultati in base alle preferenze dell&#39;utente, migliorando la pertinenza delle informazioni presentate.
 
-Evoluzione dei comportamenti di ricerca sul Web
+## Evoluzione dei comportamenti di ricerca sul Web
+
 Mentre le persone cercano online, il modo in cui cercano sta cambiando e i motori di ricerca si stanno adeguando per tenere il passo. Di seguito sono riportati alcuni modi principali in cui le persone cercano informazioni al giorno d&#39;oggi:
 
 * **Basato sugli intenti**: invece di digitare parole chiave esatte, gli utenti ora esprimono le proprie esigenze con frasi come voglio o devo. I moderni motori di ricerca comprendono lo scopo di queste frasi e danno risultati più rilevanti.
