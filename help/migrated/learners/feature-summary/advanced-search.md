@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 description: Scopri la ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 La funzionalità di ricerca in ALM migliora l&#39;esperienza degli utenti consentendo loro di trovare i contenuti pertinenti in modo efficiente e aiutarli a utilizzare i contenuti giusti.
 
 Adobe Learning Manager introduce una funzionalità di ricerca basata sull&#39;intelligenza artificiale che combina ricerca lessicale e semantica. La ricerca è più intelligente, in quanto cerca termini specifici e comprende il contesto e l’intento che li sottendono. La ricerca avanzata basata sull&#39;intelligenza artificiale comprende il significato della query e fornisce risultati pertinenti.
+
+>[!NOTE]
+>
+>La ricerca basata sull’intelligenza artificiale è disponibile solo per gli Allievi.
 
 ## Perché la ricerca è importante?
 
