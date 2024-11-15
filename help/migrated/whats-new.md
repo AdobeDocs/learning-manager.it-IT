@@ -3,7 +3,7 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di novemb
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
 workflow-type: tm+mt
 source-wordcount: '3149'
 ht-degree: 2%
@@ -53,9 +53,9 @@ Adobe Learning Manager ora supporta l’LTI per migliorare l’interoperabilità
 
 L’LTI (Learning Tools Interoperability) è uno standard che consente a strumenti e fornitori di contenuti di terze parti di connettersi con un sistema di gestione dell’apprendimento (LMS). Gli utenti possono accedere a contenuti di apprendimento esterni da fornitori di contenuti esterni direttamente all’interno del proprio LMS senza accedere o passare a un LMS diverso.
 
-LTI come fornitore di strumenti: LTI come fornitore di strumenti consente ai sistemi esterni di integrarsi con un LMS. Adobe Learning Manager funge da provider di strumenti LTI, consentendo ad altre piattaforme LMS di accedere a corsi, certificati o percorsi di apprendimento da Adobe Learning Manager direttamente all’interno dell’LMS.
+**LTI come provider di strumenti**: LTI come provider di strumenti consente l&#39;integrazione di sistemi esterni con un LMS. Adobe Learning Manager funge da provider di strumenti LTI, consentendo ad altre piattaforme LMS di accedere a corsi, certificati o percorsi di apprendimento da Adobe Learning Manager direttamente all’interno dell’LMS.
 
-LTI come utente di strumenti: LTI come utente di strumenti consente a LMS di integrare strumenti esterni tramite l’interoperabilità degli strumenti di apprendimento (LTI). In questo scenario, LMS è un consumatore di servizi forniti da strumenti esterni. Adobe Learning Manager funge da utente di strumenti LTI e consente di integrare strumenti di apprendimento di terze parti. Ciò consente agli Allievi Adobe Learning Manager di utilizzare i corsi, i certificati o i percorsi di apprendimento degli strumenti di terze parti all’interno di Adobe Learning Manager.
+**LTI come utente di strumenti**: LTI come utente di strumenti consente a LMS di integrare strumenti esterni tramite l’interoperabilità degli strumenti di apprendimento (LTI). In questo scenario, LMS è un consumatore di servizi forniti da strumenti esterni. Adobe Learning Manager funge da utente di strumenti LTI e consente di integrare strumenti di apprendimento di terze parti. Ciò consente agli Allievi Adobe Learning Manager di utilizzare i corsi, i certificati o i percorsi di apprendimento degli strumenti di terze parti all’interno di Adobe Learning Manager.
 
 Per ulteriori informazioni, fai riferimento a questo articolo [Interoperabilità dello strumento di apprendimento](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md).
 

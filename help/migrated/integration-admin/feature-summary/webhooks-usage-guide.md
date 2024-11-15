@@ -4,9 +4,9 @@ title: Guida all’utilizzo dei webhook
 description: Scopri l’utilizzo dei webhook, le best practice e le limitazioni
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
+source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3369'
 ht-degree: 1%
 
 ---
@@ -291,6 +291,8 @@ Per evitare questi errori, gli abbonati devono monitorare attivamente gli eventi
 * Le modifiche alla sessione verranno acquisite come parte dell&#39;evento di aggiornamento dell&#39;istanza. Questo vale solo per i corsi. Non ci sarà alcuna propagazione verso l&#39;alto da entità di livello inferiore per le istanze del percorso di apprendimento o le istanze di certificazione.
 * Se un percorso di apprendimento contiene un corso e un Allievo lo completa tramite, verranno generati due eventi **LearnerProgress**: uno per il corso e uno per il percorso di apprendimento.
 * Alcuni flussi di lavoro calcolano gli attributi degli oggetti di apprendimento, come la durata e il tipo di distribuzione, in modo asincrono. Pertanto, gli eventi per questi oggetti di apprendimento verranno generati una volta che il processo cron avrà terminato l’elaborazione.
+* Se un corso è iscritto tramite un programma di apprendimento o una certificazione principale, gli eventi di iscrizione, annullamento dell’iscrizione e completamento verranno attivati solo per il programma di apprendimento o la certificazione principale. Questi eventi non verranno attivati per il corso secondario poiché l’iscrizione è avvenuta indirettamente.
+* I webhook sono supportati solo per gli account con stato **[!UICONTROL ATTIVO]**. Non sono disponibili per gli account **[!UICONTROL TRIAL]** o **[!UICONTROL INACTIVE]**.
 
 ## Payload di esempio per gli eventi
 
