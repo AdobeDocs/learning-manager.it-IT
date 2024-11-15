@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Guida all’utilizzo dei webhook
 description: Scopri l’utilizzo dei webhook, le best practice e le limitazioni
 contentowner: chandrum
-source-git-commit: d7f7652c38c3eb623be083fd2fdde36eec25c1e4
+exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
+source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3310'
 ht-degree: 1%
 
 ---
@@ -250,12 +251,6 @@ Il processo di nuovo tentativo inizia con un intervallo iniziale di 5 secondi. S
 ### Eventi duplicati
 
 Se un sottoscrittore impiega più di 5 secondi per rispondere dopo aver elaborato un evento, il sistema potrebbe tentare di elaborare nuovamente lo stesso evento. Si consiglia di utilizzare gli ID evento per tenere traccia degli eventi che sono già stati elaborati. Inoltre, se il webhook si arresta in modo anomalo dopo l’invio dell’evento ma prima del salvataggio che è stato elaborato, è possibile che venga eseguito un nuovo tentativo per lo stesso gruppo di eventi. Si consiglia di utilizzare ID batch o singoli ID evento per riconoscere e ignorare eventuali duplicati.
-
-### Eventi non ordinati
-
-ALM tenta di mantenere gli eventi nell&#39;ordine corretto, ma a volte gli eventi possono essere consegnati in modo non corretto, specialmente tra eventi in tempo reale e non in tempo reale.
-
-Se un amministratore iscrive più allievi a un corso contemporaneamente, gli eventi di iscrizione sono contrassegnati come non in tempo reale. Tuttavia, se un Allievo completa rapidamente il corso, l’evento di completamento viene contrassegnato come in tempo reale e potrebbe essere inviato prima degli eventi di iscrizione.
 
 ### Raccomandazione per la tolleranza agli errori
 
