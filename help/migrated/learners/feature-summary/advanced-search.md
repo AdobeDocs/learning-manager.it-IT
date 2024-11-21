@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 description: Scopri la ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ Nel complesso, la ricerca basata sull&#39;intelligenza artificiale di ALM è res
 >
 >1. I clienti che utilizzano un’implementazione headless devono seguire la documentazione API per abilitare la ricerca avanzata
 >2. La ricerca avanzata non è attualmente disponibile per l’app Salesforce.
+>3. I dati del cliente, inclusi contenuti e trascrizioni, non vengono condivisi con alcun servizio esterno per la ricerca basata sull&#39;intelligenza artificiale. Tutti i contenuti rimangono memorizzati in modo sicuro nel sistema di storage esistente.
