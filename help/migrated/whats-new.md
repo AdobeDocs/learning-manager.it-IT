@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di novemb
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3173'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,10 @@ Scopri le nuove funzioni e i miglioramenti nella versione di novembre 2024 di Ad
 * **Ottimizzazione dei modelli e-mail**: modelli e-mail combinati e ottimizzati per assegnazioni di istruttori e annullamenti di sessioni.
 * **Criteri di completamento MS Teams**: imposta il tempo minimo di partecipazione alle sessioni VILT.
 * **Nuovi flussi di lavoro di migrazione**: le modifiche alla migrazione includono i criteri di completamento per corsi e moduli e la migrazione dei moduli nelle cartelle.
+
+>[!NOTE]
+>
+>Guarda questo [webinar](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) per ulteriori informazioni sulle nuove funzioni di questa versione.
 
 ## Ricerca basata sull&#39;intelligenza artificiale in Adobe Learning Manager
 

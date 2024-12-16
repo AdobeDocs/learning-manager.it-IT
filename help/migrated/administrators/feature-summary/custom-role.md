@@ -4,10 +4,10 @@ title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 56%
+source-wordcount: '2662'
+ht-degree: 53%
 
 ---
 
@@ -16,6 +16,37 @@ ht-degree: 56%
 Questa funzione consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell&#39;ambito del ruolo esistente della persona.
 
 È possibile creare un ruolo personalizzato per fornire funzionalità di creazione limitate a un determinato catalogo. Puoi anche creare un ruolo dedicato alla gestione dei rapporti. Tali ruoli possono quindi essere assegnati a singoli utenti che dovrebbero assumere queste responsabilità specifiche.
+
+Gli amministratori possono creare ruoli di amministratore e autore personalizzati con autorizzazioni personalizzate per ogni ruolo. Di seguito è riportata una panoramica delle autorizzazioni associate a ciascun ruolo:
+
+**Autorizzazioni ruolo autore personalizzato**
+
+Gli Autori personalizzati possono eseguire le seguenti attività:
+
+* Accedi alla libreria di contenuti per aggiungere, modificare o eliminare il contenuto di base.
+* Creare, modificare ed eliminare:
+   * Corsi
+   * Risorse formative
+   * Certificazioni
+   * Percorsi di apprendimento
+   * aggiunti un paio di Piani di apprendimento
+
+Gli amministratori e gli autori, inclusi gli amministratori personalizzati e gli autori personalizzati, potranno condividere gli oggetti di apprendimento (LO) in cataloghi condivisi esternamente. Amministratori e Autori devono essere in grado di cercare cataloghi condivisi esternamente durante la creazione di oggetti di apprendimento (LO).
+
+**Autorizzazioni ruolo amministratore personalizzato**
+
+Il ruolo di amministratore personalizzato replica un insieme di responsabilità di amministratore, incluso l’accesso ai privilegi a livello di account. Agli amministratori personalizzati vengono concesse autorizzazioni per la gestione delle funzionalità chiave correlate alle attività di apprendimento, ad esempio:
+
+* aggiunti un paio di Piani di apprendimento
+* Cataloghi
+* Rapporti
+* Tag
+
+Inoltre, gli amministratori personalizzati possono:
+
+* Gestisci corsi e risorse formative, inclusa l’iscrizione e l’eliminazione di utenti.
+* Crea, modifica ed elimina certificazioni, percorsi di apprendimento e piani di apprendimento.
+* Accesso alle funzionalità di reporting e iscrizione per tutti gli oggetti di apprendimento (LO).
 
 Gli amministratori ora possono visualizzare le autorizzazioni create con CSV in Adobe Learning Manager. L’opzione Filtra in base a filtra i ruoli personalizzati creati dall’amministratore e quelli importati tramite un file CSV. Dopo aver selezionato un ruolo personalizzato, è possibile visualizzarne le autorizzazioni.
 
@@ -32,7 +63,9 @@ _Filtra ruoli personalizzati_
    *Creare un ruolo personalizzato*
 
 3. Immetti il nome nel campo **[!UICONTROL Nome del ruolo]**.
-4. **[!UICONTROL Privilegi dell&#39;account]**: questi privilegi consentono ai proprietari dei ruoli di accedere ad aspetti specifici della configurazione del sistema e di agire sull&#39;intero account. Scegli le autorizzazioni di accesso. L’utente ottiene il controllo completo sulle autorizzazioni assegnate. Gli amministratori possono concedere autorizzazioni dettagliate per la sezione Utente, che include Utenti interni/esterni, Gruppi di utenti e Utenti avanzati.
+4. **[!UICONTROL Privilegi dell&#39;account]**: questi privilegi consentono ai proprietari dei ruoli di accedere ad aspetti specifici della configurazione del sistema e di agire sull&#39;intero account. Scegli le autorizzazioni di accesso. L’utente ottiene il pieno controllo sulle autorizzazioni assegnate.
+
+   Gli amministratori possono concedere autorizzazioni dettagliate per la sezione Utente, che include Utenti interni/esterni, Gruppi di utenti e Utenti avanzati.
 
    >[!NOTE]
    >
@@ -43,7 +76,9 @@ _Filtra ruoli personalizzati_
 
    *Imposta l&#39;ambito*
 
-5. **Privilegi sulle funzionalità - Funzionalità di base**: utilizzato per concedere l’accesso a funzionalità specifiche per la gestione delle attività di apprendimento. Con questa opzione è possibile assegnare le autorizzazioni per le funzionalità seguenti. Gli amministratori possono fornire autorizzazioni dettagliate come di sola lettura, creazione, modifica ed eliminazione dei cataloghi.
+5. **Privilegi sulle funzionalità - Funzionalità di base**: utilizzato per concedere l’accesso a funzionalità specifiche per la gestione delle attività di apprendimento. tramite questa opzione possono essere concesse le autorizzazioni per le seguenti funzionalità.
+
+   Gli amministratori possono fornire autorizzazioni dettagliate come di sola lettura, creazione, modifica ed eliminazione dei cataloghi.
 
    * Cataloghi
    * Rapporti
@@ -60,7 +95,7 @@ _Filtra ruoli personalizzati_
    * Risorse formative
    * Programmi di apprendimento
 
-   È inoltre possibile concedere un controllo operativo specifico per gli LO. L’autorizzazione può essere una delle seguenti:
+   Puoi anche concedere un controllo operativo specifico per gli oggetti di apprendimento. L’autorizzazione può essere una delle seguenti:
 
    * Sola lettura
    * Crea
