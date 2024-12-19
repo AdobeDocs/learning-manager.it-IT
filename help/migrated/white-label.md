@@ -4,9 +4,9 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ La cartella `<root>` contiene il file **Runner.xcarchive.zip**. Esegui i comandi
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Torna alla cartella `<root>` (in cui si trova Runner.xcarchive.zip):
+4. Esegui il comando seguente per aggiornare le informazioni di firma alla libreria del framework:
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. Torna alla cartella `<root>` (in cui si trova Runner.xcarchive.zip):
 
    ```
    cd <root>
    ```
 
-5. Esportare l&#39;archivio utilizzando xcodebuild:
+6. Esportare l&#39;archivio utilizzando xcodebuild:
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. Individuate il file .ipa nella cartella ipa_path.
-7. Carica il file .ipa nel sito Web `Diawi`.
-8. Una volta completato il caricamento, seleziona il pulsante **[!UICONTROL Invia]**.
-9. Al termine, riceverai un codice QR e un collegamento.
-10. Apri il codice QR o il collegamento direttamente in Safari.
+7. Individuate il file .ipa nella cartella ipa_path.
+8. Carica il file .ipa nel sito Web `Diawi`.
+9. Una volta completato il caricamento, seleziona il pulsante **[!UICONTROL Invia]**.
+10. Al termine, riceverai un codice QR e un collegamento.
+11. Apri il codice QR o il collegamento direttamente in Safari.
 
 Se il dispositivo è incluso nel profilo di provisioning, l&#39;installazione deve procedere sul dispositivo.
 
@@ -408,8 +414,12 @@ Se il dispositivo è incluso nel profilo di provisioning, l&#39;installazione de
 **Per il file apk**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>Il percorso dello strumento `apksigner` è in genere simile al seguente: ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
 
 **Per il file aab**
 
@@ -464,6 +474,36 @@ Riceverai il file apk dalla cartella **[!UICONTROL output_dir]**.
 **Novità**
 
 Dopo aver generato i file binari, inviali a Play Store o App Store.
+
+### Invio delle app allo store per la revisione
+
+Dopo aver ricevuto i file binari finali, puoi caricarli nei rispettivi app store (iOS o Android) per la revisione. Segui questi passaggi per caricare i file binari negli app store.
+
+**iOS**
+
+1. Accedi all’app Transporter con le tue credenziali App Store.
+2. Seleziona il pulsante **+** in alto a sinistra e carica il certificato di produzione (file .ipa).
+3. Se il file .ipa è corretto, ti verrà chiesto di caricare l&#39;app in App Store.
+4. Dopo che l&#39;app è stata consegnata, accedi ad App Store. Entro poche ore, il file binario verrà visualizzato nella sezione TestFlight. Puoi abilitarlo per il test di integrità finale in TestFlight prima della revisione dell’app e utilizzare questo IPA come binario quando invii l’app per una nuova versione.
+
+**Android**
+
+1. Apri la console di Google Play Store.
+2. Vai a **[!UICONTROL Dashboard]** > **[!UICONTROL Visualizza liberatorie app]** > **[!UICONTROL Dashboard versione]** e seleziona **[!UICONTROL Crea nuova versione]**.
+3. Carica il file .aab generato come bundle dell&#39;app e digita i dettagli della liberatoria, come il numero di versione e le informazioni sulle novità.
+4. Salva le modifiche e invia l’app per la revisione.
+5. Assicurati di impostare la distribuzione dell&#39;app su 100% (Google la imposta su 20% per impostazione predefinita).
+
+#### Collegamenti utili per la pubblicazione di app
+
+**Android**
+
+[Crea e configura l&#39;app](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[Prepara l&#39;app per la revisione](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[Invia per revisione](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## Come si applicano le modifiche
 
