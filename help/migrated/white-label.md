@@ -4,7 +4,7 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b7050db4b7129028ada51b15e2d76fce2bb62f64
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
 source-wordcount: '1987'
 ht-degree: 0%
@@ -17,9 +17,9 @@ L’app per dispositivi mobili Adobe Learning Manager ora supporta l’etichetta
 
 ALM renderà disponibili i file binari con etichetta bianca aggiornati in base alle seguenti tempistiche:
 
-1. Per le versioni principali dell&#39;app per dispositivi mobili, i file saranno disponibili due settimane prima
-2. Per eventuali aggiornamenti pianificati per correzioni urgenti, i file saranno disponibili con una settimana di anticipo
-3. Per correzioni impreviste, urgenti e immediate, i file saranno resi disponibili con il massimo impegno
+1. Per le versioni principali dell&#39;app per dispositivi mobili, i file saranno disponibili con due settimane di anticipo.
+2. Per eventuali aggiornamenti pianificati per correzioni urgenti, i file saranno disponibili con una settimana di anticipo.
+3. In caso di correzioni impreviste, urgenti e immediate, i file saranno resi disponibili con la massima diligenza.
 
 I file binari saranno disponibili nelle cartelle designate dal cliente. Per accedere ai file, contatta i CSM. Il cliente è responsabile della pubblicazione tempestiva e dei relativi processi.
 
