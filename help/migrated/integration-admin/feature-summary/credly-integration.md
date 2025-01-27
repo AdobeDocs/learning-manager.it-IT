@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Credendo
 description: Informazioni sull'integrazione Creded con ALM per gestire e condividere distintivi esterni dalla piattaforma su vari canali di social media
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ Segui questi passaggi per aggiungere il connettore Creded a Adobe Learning Manag
 
 Il file badge.csv di Adobe Learning Manager consente di migrare i distintivi dai sistemi LMS o dai sistemi esterni esistenti. Il file badge.csv è stato aggiornato con due nuove colonne:
 
-* ID badge esterno
-* Provider di badge esterno.
+* externalBadgeId
+* externalBadgeProvider
 
 L’ID del badge esterno si riferisce all’ID del modello di badge nella piattaforma Creded e il provider del badge esterno è Creded. Aggiungi questi valori in badge.csv e segui i passaggi indicati nel [Manuale di migrazione](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) per migrare il file csv.
 
@@ -55,4 +56,3 @@ Una volta importato in Adobe Learning Manager, l’amministratore può creare qu
 L’Autore/Amministratore può assegnare questi distintivi ALM importati da Creded a un corso, un percorso di apprendimento o una certificazione (non solo abilità) e sull’utilizzo di questi oggetti di apprendimento, il distintivo verrà ottenuto e può essere visualizzato sull’app Creded e ALM.
 
 Gli Allievi possono accedere a Creded e visualizzare i distintivi nella piattaforma Creded. Da Crely, possono condividere i distintivi su piattaforme esterne come LinkedIn e altri social media.
-
