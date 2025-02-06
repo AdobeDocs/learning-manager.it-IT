@@ -46,213 +46,109 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 ### Campi
 
 <table>
-
  <tbody>
-
   <tr>
-
    <td>
-
     <p>ID account</p>
-
    </td>
-
    <td>
-
     <p>ID del tuo account. Tieni presente che l’app con etichetta bianca non sarà accessibile agli Allievi che appartengono a nessun altro account.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>ID account aggiuntivi</p>
-
    </td>
-
    <td>
-
     <p>Se lo desideri, aggiungi più account (sottodomini). Aggiungi i sottodomini come separati da virgole senza spazi. Ad esempio, acc01,acc02,acc03 e così via.<br> <b>Nota:</b> è necessario aggiungere l'ID account quando si specificano i sottodomini.</br> </p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Nome app</p></td>
-
    <td>
-
     <p>Il nome che si desidera utilizzare per l'app.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Nome breve dell’app</p>
-
    </td>
-
    <td>
-
     <p>Nei casi in cui il nome dell'app è lungo, assegna all'app un nome breve che appare sul dispositivo.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Nome app interna</p></td>
-
    <td>
-
     <p>Il nome con cui il sistema operativo identifica l'app. Il formato solitamente utilizzato è: com.company-name.product-name.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Nome app interna - iOS</p>
-
    </td>
-
    <td>
-
     <p>Assegna un nome diverso all’app se gli utenti si trovano in iOS. Si consiglia di utilizzare lo stesso nome sia per iOS che per Android.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Icona app</p>
-
    </td>
-
    <td>
-
     <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato da assegnare al nome è account-id_appIcon.png. Le dimensioni dell'icona dell'app sono di 512 × 512 pixel.<div>Tieni presente che Apple non consente il canale di Alpha nelle icone delle app. Assicurati quindi di rimuovere il canale di Alpha dalla risorsa prima di inviarla.</div></p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Schermata iniziale dell’app</p></td>
-
    <td>
-
     <p>Per la schermata iniziale dell'app, fornisci un'immagine (png) che viene visualizzata quando gli utenti avviano l'app. Il formato del nome è account-id_splashIcon.png. Le dimensioni delle schermate iniziali basate su quadrati sono di 1052 × 1052 pixel, quelle basate su cerchi di 768 x 768 pixel.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>ID client e segreto client</p>
-
    </td>
-
    <td>
-
     <p>L’Amministratore dell’integrazione del tuo account fornisce i dettagli durante la registrazione dell’app. L’Amministratore dell’integrazione deve utilizzare quanto segue:<ul><li>Allievo:lettura,allievo:scrittura come ruolo</li><li>app interna name://redirect come URL di reindirizzamento</li></ul></p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Logo account</p>
-
    </td>
-
    <td>
-
     <p>URL che ospita il logo dell'organizzazione. Fornisci un collegamento al contenuto come logo dell’account. L’URL deve essere codificato per il Web.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>ID App Store per l’app (iOS)</p>
-
    </td>
-
    <td>
-
     <p>ID richiesto per implementare l’aggiornamento forzato. L’app deve sapere che l’Allievo deve essere reindirizzato all’App Store per aggiornare l’app.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>ID Play Store per Google per l’app (Android)</p>
-
    </td>
-
    <td>
-
     <p>ID richiesto per implementare l’aggiornamento forzato.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Nome host per collegamento profondo</p>
-
    </td>
-
    <td>
-
     <p>Per ospitare i collegamenti diretti, utilizza Learning Manager. Se si desidera utilizzare un altro URL nome host come collegamento profondo, fornire l'URL dell'host. Ad esempio, learningmanager.adobe.com.</p>
-
    </td>
-
   </tr>
-
  </tbody>
-
 </table>
 
 >[!NOTE]
