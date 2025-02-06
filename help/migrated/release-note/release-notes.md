@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '26265'
+source-wordcount: '26470'
 ht-degree: 72%
 
 ---
@@ -22,6 +22,26 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++Aggiornamento 99: versione di febbraio 2025 di Adobe Learning Manager
+
+## Configurazione della lingua dell’interfaccia tramite SAML
+
+Adobe Learning Manager (ALM) ora accetta un attributo SAML per la lingua. Questo attributo viene quindi mappato alle impostazioni dell&#39;interfaccia utente e del linguaggio dei contenuti, garantendo un&#39;interazione uniforme con l&#39;LMS nella lingua preferita. La configurazione di queste impostazioni della lingua viene gestita tramite la piattaforma Identity and Access Management (IAM), utilizzando SAML per Single Sign-On (SSO). Ciò supporta sia gli accessi avviati dal provider di servizi (SP) che quelli avviati dal provider di identità (IdP), consentendo agli utenti di visualizzare l&#39;interfaccia e il contenuto nella lingua scelta.
+
+Per ulteriori informazioni, fai riferimento a questo [articolo](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md).
+
+## Miglioramento delle API di migrazione
+
+In precedenza, nei moduli di attività con collegamenti esterni migrati tramite API (`GET /bulkimport/cansync` e `POST /bulkimport/startrun`) non veniva visualizzata l’opzione **[!UICONTROL Contrassegna come completato]** per gli Allievi dopo aver effettuato l’accesso al collegamento. Questo problema è stato risolto. Ora i moduli di attività con collegamenti esterni migrati tramite API visualizzeranno correttamente l’opzione **[!UICONTROL Contrassegna come completato]** per gli Allievi.
+
+## Funzionalità di ordinamento nell’app per Allievi
+
+La funzione di ordinamento nell’app per Allievi fornisce raccomandazioni personalizzate per i corsi in base al contenuto e alla lingua dell’interfaccia. &#x200B; Questo miglioramento semplifica il processo per gli Allievi di trovare i corsi nella lingua preferita e utilizza opzioni di ordinamento più intelligenti.
+
+Per ulteriori informazioni, fai riferimento a questo [articolo](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app).
+
++++
 
 +++Aggiornamento 98: versione di novembre 2024 di Adobe Learning Manager
 

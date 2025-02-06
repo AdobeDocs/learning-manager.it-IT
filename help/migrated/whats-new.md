@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di novemb
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3184'
 ht-degree: 2%
 
 ---
@@ -551,6 +551,10 @@ Il report **[!UICONTROL Riepilogo sessione]** conterrà tre nuove colonne:
 ## Requisiti di sistema
 
 Visualizza [requisiti di sistema di Adobe Learning Manager](/help/migrated/system-requirements.md).
+
+## Note sulla versione
+
+Consulta le [note sulla versione](/help/migrated/release-note/release-notes.md) per gli aggiornamenti più recenti.
 
 ## Versioni precedenti di Adobe Learning Manager
 
