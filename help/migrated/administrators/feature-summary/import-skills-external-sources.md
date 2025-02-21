@@ -4,9 +4,9 @@ title: Importa abilità da origini esterne
 description: Importa le abilità dai provider di contenuti, come LinkedIn e Go1, utilizzando i rispettivi connettori.  Le abilità importate verranno aggiunte alle abilità definite dall’amministratore in Learning Manager e saranno disponibili per gli Autori durante il flusso di lavoro di creazione del corso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
+source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ In qualità di Amministratore, puoi importare le abilità solo da una fonte di a
 
 ### Livello di abilità predefinito
 
-Il livello di abilità predefinito è uno e Credito è 10 dopo la migrazione delle abilità. L’amministratore successivo può modificare il credito.
+Il livello di abilità predefinito è uno e Credito è 10 dopo la migrazione delle abilità.
 
 Non è possibile modificare il nome dell’abilità, la descrizione e aggiungere livelli alle abilità esterne. Tuttavia, puoi aggiungere domini, distintivi e modificare i crediti.
 
