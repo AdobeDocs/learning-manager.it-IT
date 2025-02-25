@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di novemb
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
 workflow-type: tm+mt
-source-wordcount: '3184'
+source-wordcount: '3255'
 ht-degree: 2%
 
 ---
@@ -188,6 +188,26 @@ Gli istruttori rimossi da una sessione riceveranno ora solo un’e-mail di annul
 Attualmente, gli Allievi risultano partecipanti anche se partecipano a una sessione di formazione virtuale con istruttore (VILT) per pochi secondi. Con questa versione, abbiamo introdotto i criteri di completamento per i moduli Teams per garantire una partecipazione più accurata. Gli Autori possono ora impostare il tempo minimo che gli Allievi devono trascorrere in una sessione VILT affinché la loro partecipazione venga conteggiata.
 
 Si tratta di una funzione di back-end disattivata per impostazione predefinita. Per attivarla, contatta il CSM.
+
+## Aggiornamento di nuovi indirizzi IP per la consegna e-mail
+
+Per migliorare l&#39;affidabilità della distribuzione delle e-mail, stiamo aggiungendo nuovi indirizzi IP al nostro pool esistente. Per garantire comunicazioni e-mail ininterrotte, aggiorna le impostazioni e-mail della tua organizzazione in base alle esigenze.
+
+Attualmente usiamo i seguenti indirizzi IP per la consegna delle e-mail:
+
+* 149.72.162.66
+* 167.89.5.155
+
+I seguenti indirizzi IP verranno aggiunti al nostro pool di recapito e-mail:
+
+* 159.183.228.93
+* 159.183.225.26
+* 159.183.218.22
+* 168.245.57.144
+
+>[!NOTE]
+>
+>Se necessario, ti consigliamo di collaborare con il tuo team IT per autorizzare i nuovi indirizzi IP.
 
 ## Modifiche alla migrazione
 
