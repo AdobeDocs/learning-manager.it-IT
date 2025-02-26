@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 description: Scopri la ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _Ricerca semantica_
 
 ### Ricerca nel contenuto
 
-La funzionalità di ricerca di Adobe Learning Manager è stata migliorata per consentire la ricerca attraverso i contenuti effettivi. Trascrizione automatica di video, file audio e PDF, incorporando tali trascrizioni nei risultati della ricerca. Inoltre, utilizza le registrazioni delle riunioni Adobe Connect per fornire risultati più completi e pertinenti. Questo miglioramento garantisce l’inclusione di corsi contenenti contenuti avanzati, come video e note sulle riunioni, migliorando significativamente l’accuratezza e l’efficacia della ricerca.
+La funzionalità di ricerca di Adobe Learning Manager è stata migliorata per consentire la ricerca attraverso i contenuti effettivi. Trascrizione automatica di video, file audio, PDF, documenti, ppt e xls, incorporando tali trascrizioni nei risultati della ricerca. Inoltre, utilizza le registrazioni delle riunioni Adobe Connect per fornire risultati più completi e pertinenti. Questo miglioramento garantisce l’inclusione di corsi contenenti contenuti avanzati, come video e note sulle riunioni, migliorando significativamente l’accuratezza e l’efficacia della ricerca. La corrispondenza nei contenuti consente di migliorare la classificazione dei risultati di ricerca dando maggiore risalto ai risultati ottenuti attraverso la corrispondenza tradizionale a livello di frase e semantica.
 
 >[!NOTE]
 >
