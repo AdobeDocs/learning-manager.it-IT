@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Dashboard per i Manager
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 49%
+source-wordcount: '1486'
+ht-degree: 47%
 
 ---
 
@@ -84,6 +84,10 @@ Per generare un report Excel, selezionare **[!UICONTROL Azioni] > [!UICONTROL Re
 ## Stato di conformità {#compliancestatus}
 
 Nel dashboard di conformità, i Manager possono visualizzare lo stato di conformità complessivo del team per gli apprendimenti configurati in categorie specifiche (ad esempio, vendite, marketing e legale). Gli amministratori possono creare un dashboard con corsi di conformità, percorsi di apprendimento o certificazioni e condividerlo con i Manager. I manager possono visualizzare il dashboard condiviso dall’amministratore nelle loro istanze.
+
+L’utente A è il manager dell’utente B, dell’utente C, dell’utente D e dell’utente E. L’utente B e l’utente C sono manager dei rispettivi team.
+
+L’utente A può visualizzare i report per i propri report diretti (utente B, utente C, utente D e utente E) e i team gestiti dall’utente B e dall’utente C.
 
 ### Visualizzare il dashboard
 

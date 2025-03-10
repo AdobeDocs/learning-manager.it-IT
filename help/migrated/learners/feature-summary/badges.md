@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Distintivi
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 49%
@@ -70,7 +70,7 @@ Nella pagina Distintivi dell’app per Allievi è disponibile l’opzione Config
 
 ## Aggiornamento badge
 
-Uno studente può aggiornare il proprio badge all&#39;ultima etichetta selezionando il badge e facendo clic su **Aggiorna **nella sezione in alto a destra della pagina. In caso di modifiche apportate all’immagine badge o al badge dall’oggetto di apprendimento da parte di un amministratore/autore, si verifica un aggiornamento del badge.
+Uno studente può aggiornare il proprio badge all&#39;ultima etichetta selezionando il badge e facendo clic su **Aggiorna** nella sezione in alto a destra della pagina. In caso di modifiche apportate all’immagine badge o al badge dall’oggetto di apprendimento da parte di un amministratore/autore, si verifica un aggiornamento del badge.
 
 Questo processo di aggiornamento della pagina si chiama rebake manuale. In questo caso, il badge viene ricaricato nello zaino Badgr dopo che la cottura è stata completata anche se ha lo stesso nome/immagine badge. Dopo l’aggiornamento del badge, l’Allievo riceve una notifica che indica che l’aggiornamento è stato completato.
 
