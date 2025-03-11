@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Dashboard per i Manager
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 47%
+source-wordcount: '1499'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,8 @@ I Manager svolgono un ruolo importante nelle iniziative di apprendimento di un t
 *Report dashboard per un Manager*
 
 Per visualizzare i dettagli di un grafico, fai clic sul grafico o sul collegamento ipertestuale **[!UICONTROL Dettagli]**.
+
+I Manager possono anche visualizzare il dashboard del team del manager di livello successivo. Ad esempio, l’utente A è il manager dell’utente B, dell’utente C, dell’utente D e dell’utente E. L’utente B e l’utente C sono manager dei rispettivi team. L’utente A può visualizzare i report per i propri report diretti (utente B, utente C, utente D e utente E) e i team gestiti dall’utente B e dall’utente C.
 
 ## Riepilogo apprendimento {#learningsummary}
 
@@ -84,10 +86,6 @@ Per generare un report Excel, selezionare **[!UICONTROL Azioni] > [!UICONTROL Re
 ## Stato di conformità {#compliancestatus}
 
 Nel dashboard di conformità, i Manager possono visualizzare lo stato di conformità complessivo del team per gli apprendimenti configurati in categorie specifiche (ad esempio, vendite, marketing e legale). Gli amministratori possono creare un dashboard con corsi di conformità, percorsi di apprendimento o certificazioni e condividerlo con i Manager. I manager possono visualizzare il dashboard condiviso dall’amministratore nelle loro istanze.
-
-L’utente A è il manager dell’utente B, dell’utente C, dell’utente D e dell’utente E. L’utente B e l’utente C sono manager dei rispettivi team.
-
-L’utente A può visualizzare i report per i propri report diretti (utente B, utente C, utente D e utente E) e i team gestiti dall’utente B e dall’utente C.
 
 ### Visualizzare il dashboard
 
