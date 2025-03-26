@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Account condivisi tra pari
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 62%
+source-wordcount: '638'
+ht-degree: 57%
 
 ---
 
@@ -31,6 +31,18 @@ Learning Manager offre la possibilità di condividere le postazioni acquistate m
    ![](assets/addpeer.png)
 
    *Aggiungi un sottodominio*
+
+>[!NOTE]
+>
+>Per trovare il dominio secondario di un altro account, controlla l’URL dell’account. Il sottodominio viene visualizzato prima del dominio principale e consente di identificare l’account specifico.
+>
+>Ad esempio:
+>
+>Nell&#39;URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname), il sottodominio è **accountname**.
+>
+>Nell&#39;URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com), il sottodominio è anche **accountname**.
+>
+>Il dominio secondario è univoco per ogni account e viene utilizzato per accedere alla rispettiva istanza di Learning Manager.
 
 1. Immetti l’ID e-mail dell’Amministratore che accetta o rifiuta la richiesta di account condiviso tra pari.
 1. Specifica il numero di postazioni da condividere con l’utente di pari livello. Quando condividi postazioni con un account condiviso tra pari, lo stato dell’account diventa Attivo con le postazioni ricevute o con le postazioni acquistate dell’utente di pari livello.

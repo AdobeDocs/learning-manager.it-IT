@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '4150'
-ht-degree: 59%
+source-wordcount: '4231'
+ht-degree: 58%
 
 ---
 
@@ -79,7 +79,7 @@ Per aggiungere utenti,
 
 ## Aggiunta di utenti in blocco {#addusersinbulk}
 
-### Gestire utenti
+### Gestisci utenti
 
 In questo corso di formazione imparerai come assegnare e rimuovere ruoli, inviare un’e-mail di benvenuto ed eliminare ed eliminare gli utenti.
 
@@ -358,6 +358,16 @@ Oltre ai gruppi generati automaticamente, è possibile creare gruppi personalizz
 1. Per creare il gruppo utenti, fai clic su **[!UICONTROL Salva]**.
 
 Questo gruppo personalizzato ora è stato creato e aggiunto al profilo. I gruppi di utenti creati sono di natura dinamica. I nuovi utenti con attributi simili vengono automaticamente aggiunti al gruppo di utenti.
+
+Per visualizzare l&#39;elenco dei gruppi a cui appartiene un utente, seleziona **[!UICONTROL Utente]** > **[!UICONTROL Gruppi di utenti]**, cerca il nome dell&#39;utente e selezionalo. Verranno visualizzati tutti i gruppi di cui fa parte l’utente.
+
+![](assets/list-of-group.png)
+
+### Scaricare l’elenco di utenti in un gruppo di utenti
+
+Per scaricare l&#39;elenco degli utenti di un gruppo specifico, vai a **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi di utenti]**, seleziona l&#39;**[!UICONTROL icona di download]** accanto al gruppo. Verrà generato un file CSV contenente l’elenco degli utenti di quel gruppo.
+
+![](assets/download-list-of-user.png)
 
 ## Esclusione di gruppi di utenti
 

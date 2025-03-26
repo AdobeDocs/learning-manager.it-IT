@@ -4,10 +4,10 @@ title: Percorsi di apprendimento
 description: Creazione di piani di apprendimento per Amministratori in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 37%
+source-wordcount: '1334'
+ht-degree: 35%
 
 ---
 
@@ -111,15 +111,13 @@ Nel percorso di apprendimento puoi effettuare le seguenti operazioni:
 
 Dopo aver apportato le modifiche, fai clic su Publish per pubblicare il percorso di apprendimento.
 
-## Percorso di apprendimento nidificato
+## Percorso di apprendimento nidificato o migliorato
 
-Un percorso di apprendimento può includerne al massimo un altro al suo interno.
-
-Inserisci il percorso di apprendimento come se stessi includendo un corso.
+Un percorso di apprendimento nidificato o migliorato è un percorso contenente più percorsi di apprendimento al suo interno. Per inserire un percorso di apprendimento, segui lo stesso processo descritto per l’aggiunta di un corso in un percorso di apprendimento.
 
 ![](assets/nested-learning-path.png)
 
-*Aggiungere un percorso di apprendimento all’interno di un percorso di apprendimento*
+*Percorso di apprendimento nidificato o migliorato*
 
 ## Impostazioni del percorso di apprendimento
 

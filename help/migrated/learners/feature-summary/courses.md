@@ -4,9 +4,9 @@ jcr-language: en_us
 title: I miei insegnamenti
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '3080'
 ht-degree: 63%
 
 ---
@@ -99,6 +99,37 @@ Puoi esprimere il tuo interesse per qualsiasi corso in aula che non preveda sess
 >[!NOTE]
 >
 >Gli Allievi dovrebbero visualizzare un messaggio di conflitto se si iscrivono a due sessioni diverse contemporaneamente o in orari sovrapposti.
+
+## Commutazione di istanze
+
+Un Allievo iscritto a una particolare istanza di un corso può visualizzare un elenco di tutte le istanze disponibili del corso e passare a un’altra istanza che trova più adatta alle sue esigenze. Il motivo del cambio potrebbe essere che l’Allievo non ha partecipato all’istanza precedente o che i tempi della sessione per la nuova istanza sono più adatti, oppure un altro motivo.
+
+Tutti i progressi compiuti dall’Allievo come parte del corso, i punteggi dei quiz degli Allievi e altre informazioni vengono applicati alla nuova istanza. Questa funzione è principalmente destinata ai corsi in aula e a quelli misti, ma supporteremo tutti i tipi di corsi, compresi quelli autonomi.
+
+L’opzione Visualizza tutte le istanze viene visualizzata indipendentemente dalle impostazioni di Commutazione istanza. Se sono presenti più istanze di un corso, gli Allievi visualizzeranno ora un’opzione per vedere tutte le istanze.
+
+Se l’opzione Commutazione istanza è attivata, gli Allievi possono passare da un’istanza all’altra fino al completamento del corso. Se l’opzione è disattivata, gli Allievi possono visualizzare le istanze ma non potranno iscriversi al corso.
+
+Quando l’Allievo seleziona **Visualizza tutte le istanze**, l’Allievo può visualizzare tutte le istanze del corso.
+
+![testo alternativo](assets/view-all-instance.png)
+
+_Visualizza tutta la pagina dell’istanza dalla console dell’Allievo_
+
+![](assets/switch-instance-learner.png)
+_Cambia istanza dalla pagina dell’Allievo_
+
+Un amministratore può cambiare istanza per gli Allievi. Seleziona un corso da Admin Console, passa alla sezione **[!UICONTROL Allievi]**, scegli un utente e seleziona il pulsante **[!UICONTROL Azione]**. Quindi, seleziona **[!UICONTROL Cambia istanza]** e scegli l&#39;istanza desiderata.
+
+![testo alternativo](assets/switch-instance-admin.png)
+_Cambia istanza da Admin Console_
+
+![cambia istanza selezione](assets/switch-instances-select.png)
+_Messaggio per cambiare istanza_
+
+Non puoi cambiare istanza finché nessuna istanza del corso non viene completata dall’app per Allievi o Amministratori.
+
+Gli Autori, durante la creazione di un corso, possono alternare l’attivazione o la disattivazione di &quot;Instance Switch&quot;. Commutazione istanza è disponibile solo per i corsi gratuiti.
 
 ## Flusso di lavoro come Allievo
 

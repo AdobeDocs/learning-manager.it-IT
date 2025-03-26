@@ -3,10 +3,10 @@ description: Adobe Learning Manager supporta più metodi di accesso tramite più
 title: Accessi SSO multipli
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 39%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
@@ -26,14 +26,19 @@ L’intento è consentire agli amministratori di configurare SSO diversi per i d
 
 Per abilitare SSO multipli, seleziona **Impostazioni** > **Metodi di accesso**.
 
-Nella pagina di configurazione, seleziona la casella di controllo &quot;Abilita SSO multipli&quot; per gli utenti interni o esterni.
+Nella pagina di installazione, seleziona la casella di controllo &#39;**[!UICONTROL Abilita SSO multipli]**&#39; per utenti interni o esterni.
 
 Quando Multi-SSO è abilitato, il metodo di accesso selezionato per &quot;Metodo di accesso predefinito&quot; diventa il tipo di accesso predefinito per gruppi di utenti/profili che non sono collegati a nessuna configurazione SSO. L’accesso predefinito può essere ID Adobe, SSO o ID ALM (utenti esterni).
+
+>[!NOTE]
+>
+>Gli amministratori e gli amministratori personalizzati che dispongono delle autorizzazioni necessarie possono eseguire questi passaggi.
 
 Per configurare un SSO, segui i passaggi riportati di seguito:
 
 1. Fai clic su Configura SSO.
-1. Fai clic su Aggiungi nuova configurazione SSO.
+1. Fai clic su Aggiungi nuova configurazione SSO.\
+   ![](assets/sso.png)
 1. Nella finestra di dialogo Configurazione SSO, aggiungi quanto riportato di seguito:
 
    * Inserisci il nome dell’SSO.

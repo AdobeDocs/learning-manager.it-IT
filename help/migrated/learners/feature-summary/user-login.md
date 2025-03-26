@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Accesso
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 58%
+source-wordcount: '196'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 58%
 
 Accedi come Allievo in Learning Manager.
 
-Quando utilizzi Adobe Learning Manager per la prima volta, devi creare l’account procedendo come segue:
+Quando si utilizza Adobe Learning Manager per la prima volta, gli allievi devono creare un account. Puoi farlo in uno dei due modi seguenti:
+
+* Registrazione autonoma: utilizza l’URL fornito nell’e-mail di benvenuto per creare il tuo account.
+* Account creato dall’amministratore: un amministratore può creare un account per tuo conto.
+
+## Creare un account utilizzando l’URL di benvenuto
+
+Segui questi passaggi per creare il tuo account utilizzando l&#39;URL dell&#39;e-mail di benvenuto:
 
 1. Avvia Adobe Learning Manager tramite il collegamento sicuro ricevuto nell’e-mail di benvenuto dell’Amministratore.
 

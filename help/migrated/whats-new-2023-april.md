@@ -3,10 +3,10 @@ title: Novità di questa versione (aprile 2023)
 description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 61%
+source-wordcount: '3205'
+ht-degree: 60%
 
 ---
 
@@ -216,13 +216,20 @@ Se l’opzione Commutazione istanza è attivata, gli Allievi possono passare da 
 
 Quando l’Allievo seleziona **Visualizza tutte le istanze**, l’Allievo può visualizzare tutte le istanze del corso.
 
-![visualizza tutte le istanze](assets/view-all-instances-new.png)
+![testo alternativo](assets/view-all-instance.png)
 
-Un Amministratore può cambiare le istanze per gli Allievi.
+_Visualizza tutta la pagina dell’istanza dalla console dell’Allievo_
 
-![cambia istanza](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_Cambia istanza dalla pagina dell’Allievo_
+
+Un amministratore può cambiare istanza per gli Allievi. Seleziona un corso da Admin Console, passa alla sezione **[!UICONTROL Allievi]**, scegli un utente e seleziona il pulsante **[!UICONTROL Azione]**. Quindi, seleziona **[!UICONTROL Cambia istanza]** e scegli l&#39;istanza desiderata.
+
+![testo alternativo](assets/switch-instance-admin.png)
+_Cambia istanza da Admin Console_
 
 ![cambia istanza selezione](assets/switch-instances-select.png)
+_Messaggio per cambiare istanza_
 
 Non puoi cambiare istanza finché nessuna istanza del corso non viene completata dall’app per Allievi o Amministratori.
 

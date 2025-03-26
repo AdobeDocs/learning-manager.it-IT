@@ -4,10 +4,10 @@ title: Aggiunta di utenti in blocco
 description: Scopri come aggiungere più utenti alla volta.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 24%
+source-wordcount: '341'
+ht-degree: 22%
 
 ---
 
@@ -38,6 +38,10 @@ Puoi aggiungere più utenti alla volta procedendo come segue:
 Non è obbligatorio aggiungere il profilo utente e l’ID e-mail del Manager nel file CSV. Gli unici campi obbligatori sono il nome utente e l’ID e-mail dell’utente.
 
 In questo caso, per impostazione predefinita, l’Amministratore dell’azienda viene considerato il Manager degli utenti. Per impostazione predefinita, il dipendente è considerato il profilo dell&#39;utente.
+
+>[!NOTE]
+>
+>Per aggiungere nuovi utenti, crea un nuovo file CSV con i relativi dettagli e caricalo. L&#39;aggiornamento e il nuovo caricamento di un file CSV esistente non è supportato.
 
 **File CSV di esempio**
 
