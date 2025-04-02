@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Impersonificazione dell’Allievo e del Manager
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
+source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 70%
+source-wordcount: '534'
+ht-degree: 64%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 70%
 
 Nelle grandi organizzazioni, il personale dell’assistenza clienti necessita della capacità di impersonificazione per risolvere i problemi riscontrati dagli Allievi.
 
-Grazie a questa capacità di impersonare altri utenti, gli Amministratori e gli Amministratori personalizzati possono identificare ed eseguire tutte le attività svolte da Allievi e Manager della propria organizzazione.
+Grazie a questa capacità di impersonare altri utenti, gli Amministratori possono identificare ed eseguire tutte le attività svolte da Allievi e Manager della propria organizzazione.
+
+>[!NOTE]
+>
+>Gli amministratori personalizzati non possono impersonare gli utenti; solo gli amministratori possono impersonare gli utenti.
 
 ## Come funziona
 
-Gli Amministratori (e/o gli Amministratori personalizzati) possono cercare un utente (interno o esterno) e quindi impersonarlo. L’Amministratore viene quindi reindirizzato alla pagina dell’utente (se applicabile, app di gestione o altra app per Allievi) e disconnesso dalla propria sessione. L’Amministratore viene poi reindirizzato alla pagina Completa il tuo profilo, nel caso in cui questa sia impostata per l’utente che è stato impersonato dall’Amministratore.
-
-Se un Amministratore personalizzato dispone dell’autorizzazione per accedere alla pagina di un utente, può cercare gli utenti che desidera rappresentare.
+Gli amministratori possono cercare un utente (interno o esterno) e quindi impersonarlo. L’Amministratore viene quindi reindirizzato alla pagina dell’utente (se applicabile, app di gestione o altra app per Allievi) e disconnesso dalla propria sessione. L’Amministratore viene poi reindirizzato alla pagina Completa il tuo profilo, nel caso in cui questa sia impostata per l’utente che è stato impersonato dall’Amministratore.
 
 Ecco cosa devi tenere a mente quando impersoni un utente:
 
