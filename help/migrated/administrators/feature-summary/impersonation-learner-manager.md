@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Impersonificazione dell’Allievo e del Manager
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
+source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 59%
+source-wordcount: '517'
+ht-degree: 56%
 
 ---
 
@@ -30,8 +30,7 @@ Ecco cosa devi tenere a mente quando impersoni un utente:
 * Tutti gli amministratori visualizzano questa funzione per impostazione predefinita.
 * Possono essere impersonati solo gli utenti attivi nell’account.
 * Un Amministratore non può impersonare se stesso.
-* Un Amministratore personalizzato che ha accesso alla pagina Utenti può impersonare gli utenti.
-* Un Amministratore/Amministratore personalizzato può impersonare un altro utente solo per 60 minuti.
+* Un amministratore può impersonare un utente solo per 60 minuti.
 * Un amministratore personalizzato con accesso di sola lettura non può rappresentare gli utenti.
 
 ## Impersonare un utente
