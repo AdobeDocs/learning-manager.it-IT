@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Impersonificazione dell’Allievo e del Manager
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 59%
 
 ---
 
@@ -55,7 +55,7 @@ Per impersonare un utente, esegui le operazioni descritte di seguito:
 
 **Una sessione impersonata dura 60 minuti.**
 
-Quando si passa a un ruolo di Allievo o Manager, viene visualizzato un messaggio che indica che l’Amministratore/Amministratore personalizzato è in modalità di impersonificazione dell’utente.
+Quando si passa a un ruolo di Allievo o Manager, viene visualizzato un messaggio che indica che l’Amministratore è in modalità di rappresentazione dell’utente.
 
 ## Report di accesso
 
