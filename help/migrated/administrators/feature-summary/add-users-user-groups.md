@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4231'
-ht-degree: 58%
+source-wordcount: '4290'
+ht-degree: 57%
 
 ---
 
@@ -172,6 +172,8 @@ Nell’elenco degli utenti, scegli un utente e fai clic sull’utente. Nei detta
 
 ## Campi attivi
 
+I campi attivi in Adobe Learning Manager sono campi di metadati personalizzabili utilizzati per memorizzare e gestire informazioni specifiche dell’utente. Questi campi consentono di definire gli attributi chiave o le caratteristiche associate a ciascun utente nel sistema.
+
 ### Gestione degli attributi utente
 
 >[!INFO]
@@ -329,6 +331,10 @@ Scegli un utente e, nell’angolo in alto a destra, fai clic su **[!UICONTROL Az
 ## Rimuovi un ruolo {#Removearole-1}
 
 Scegli un utente e, nell’angolo in alto a destra, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Rimuovi ruolo]** > **Rimuovi`<role>`**. Il ruolo selezionato viene rimosso dall’elenco dei ruoli assegnati all’utente.
+
+>[!NOTE]
+>
+>L’assegnazione di un nuovo ruolo non influirà sui gruppi di utenti personalizzati. Tuttavia, influirà sui gruppi di utenti generati automaticamente come Tutti gli amministratori, Tutti gli autori e gruppi basati su ruoli simili.
 
 ## Creazione di gruppi di utenti {#createusergroups}
 

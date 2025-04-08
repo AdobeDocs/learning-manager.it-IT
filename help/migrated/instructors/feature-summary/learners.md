@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 84%
+source-wordcount: '1056'
+ht-degree: 82%
 
 ---
 
@@ -92,6 +92,12 @@ Per inviare e-mail agli Allievi, nella pagina Allievi dell’applicazione Istrut
 
 * Per inviare e-mail a partecipanti specifici, seleziona il partecipante e fai clic su Azioni > Invia e-mail a soggetti selezionati.
 * Per inviare a tutti i partecipanti e-mail contenenti il materiale del corso o un’assegnazione, fai clic su Azioni > Invia e-mail a tutti.
+
+## Acquisire le risposte di invito
+
+Puoi visualizzare le risposte agli inviti nella sezione Allievi. Accedi a una sessione, seleziona **[!UICONTROL Allievi]** e seleziona la risposta all’invito dal menu a discesa.
+
+![](assets/invitation-status.png)
 
 ## Esportazione dell’elenco di Allievi {#exportinglearnerslist}
 

@@ -4,9 +4,9 @@ title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2685'
 ht-degree: 53%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 53%
 Questa funzione consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell&#39;ambito del ruolo esistente della persona.
 
 È possibile creare un ruolo personalizzato per fornire funzionalità di creazione limitate a un determinato catalogo. Puoi anche creare un ruolo dedicato alla gestione dei rapporti. Tali ruoli possono quindi essere assegnati a singoli utenti che dovrebbero assumere queste responsabilità specifiche.
+
+>[!NOTE]
+>
+>L’aggiunta di un nuovo ruolo personalizzato non avrà effetto sui gruppi di utenti personalizzati esistenti o su eventuali gruppi basati su ruoli come Tutti gli amministratori, Tutti gli autori e così via.
 
 Gli amministratori possono creare ruoli di amministratore e autore personalizzati con autorizzazioni personalizzate per ogni ruolo. Di seguito è riportata una panoramica delle autorizzazioni associate a ciascun ruolo:
 

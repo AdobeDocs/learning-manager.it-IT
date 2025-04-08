@@ -4,10 +4,10 @@ title: Gestione delle liste di attesa e di frequenza
 description: Gli Amministratori possono gestire le liste di attesa e di frequenza per i corsi degli Allievi.
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 76%
+source-wordcount: '325'
+ht-degree: 72%
 
 ---
 
@@ -28,6 +28,10 @@ Gli Allievi vengono inseriti in liste di attesa per ogni corso in aula che preve
 
 1. Fai clic su **[!UICONTROL Lista d’attesa]** nel riquadro a sinistra della pagina dei dettagli del corso. L’elenco degli Allievi nella lista d’attesa viene visualizzato nella pagina.
 1. Seleziona gli Allievi, quindi fai clic su **[!UICONTROL Assegna posti]** per iscriverli direttamente ai corsi, ignorando il limite.
+
+>[!NOTE]
+>
+>Gli Allievi iscritti non possono essere spostati nella lista d’attesa e le loro postazioni non possono essere riassegnate ad altri Allievi.
 
 ## Gestione della frequenza {#attendancemanagement}
 
