@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Modelli e-mail
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 58%
@@ -25,7 +25,7 @@ Gli Amministratori possono anche scegliere di non inviare notifiche via e-mail p
 
 In questo corso imparerai come personalizzare i singoli modelli e-mail e come personalizzare le impostazioni a livello di corso e account per i modelli e-mail.
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
@@ -223,7 +223,7 @@ I modelli supportano inoltre funzioni di modifica avanzate che consentono di man
 
 In questo corso di formazione verrà illustrato come configurare le impostazioni predefinite delle istanze, aggiungere una nuova istanza, ritirare e riaprire un&#39;istanza e configurare i modelli e-mail per un&#39;istanza.
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 

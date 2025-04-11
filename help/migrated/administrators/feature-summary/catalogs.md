@@ -4,7 +4,7 @@ title: Cataloghi
 description: I cataloghi sono una raccolta di corsi di apprendimento, programmi di apprendimento e certificazioni. Utilizza i cataloghi per fornire agli Allievi l’accesso a un set personalizzato di oggetti di apprendimento. È possibile associare l’apprendimento a un catalogo durante la creazione di un nuovo catalogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 72%
@@ -21,7 +21,7 @@ Se l’Amministratore desidera rendere disponibili corsi selettivi per diversi A
 
 In questo corso imparerai come creare e gestire i cataloghi.
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
@@ -145,7 +145,7 @@ Corsi, programmi di apprendimento, risorse formative e certificazioni sono gli o
 
 Questo corso spiega come condividere i cataloghi con gruppi di utenti interni ed account Adobe Learning Manager esterni.
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 

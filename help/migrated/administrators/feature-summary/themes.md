@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Temi colore
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 44%
@@ -21,7 +21,7 @@ Learning Manager consente di modificare l’aspetto dell’applicazione in base 
 
 In questo corso di formazione verranno esaminati i modi per personalizzare l’aspetto dell’interfaccia in modo che corrisponda ai requisiti di branding di un’organizzazione.
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318823)
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 

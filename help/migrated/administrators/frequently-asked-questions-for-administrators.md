@@ -4,10 +4,10 @@ title: Domande frequenti per gli Amministratori
 description: Domande frequenti per gli amministratori Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 2548370c5b943964e200b6c1d5a4d0d9ca386ba6
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 52%
+source-wordcount: '2612'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 52%
   </tr>
  </tbody>
 </table>
+
++++Nuovo annuncio Experience League
+
+Siamo lieti di annunciare che, nel nostro viaggio verso una migliore connettività alla famiglia di soluzioni Adobe, Adobe Learning Manager aggiungerà un canale in più alla procedura di supporto. A partire dal 12 maggio 2025, sarà possibile creare casi direttamente da Adobe Experience League. Ad Experience League, Adobe Learning Manager offre attualmente la propria documentazione di autoassistenza, guide utente e procedure ottimali, e diventerà la risorsa principale per tutte le esigenze di supporto, dalla comunicazione self-service a quella basata sull&#39;agente. Apprezziamo la tua comprensione e il tuo supporto per questa importante transizione.
+
++++
 
 +++È possibile aggiungere utenti in blocco? Come?
 

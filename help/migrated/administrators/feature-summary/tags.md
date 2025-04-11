@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Tag
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
@@ -23,7 +23,7 @@ Puoi ordinare i tag in base all’utilizzo o all’ordine alfabetico tramite l�
 
 Questo corso spiega come aggiungere, modificare, sostituire, aggiungere ed eliminare i tag. Scoprirai inoltre come modificare le impostazioni delle autorizzazioni e utilizzare i filtri per tag.
 
-[![pulsante](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318920)
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
