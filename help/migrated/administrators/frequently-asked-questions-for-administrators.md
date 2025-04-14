@@ -23,13 +23,13 @@ ht-degree: 50%
  </tbody>
 </table>
 
-+++Nuovo annuncio Experience League
++++Annuncio della nuova Experience League
 
-Siamo lieti di annunciare che, nel nostro viaggio verso una migliore connettività alla famiglia di soluzioni Adobe, Adobe Learning Manager aggiungerà un canale in più alla procedura di supporto. A partire dal 12 maggio 2025, sarà possibile creare casi direttamente da Adobe Experience League. Ad Experience League, Adobe Learning Manager offre attualmente la propria documentazione di autoassistenza, guide utente e procedure ottimali, e diventerà la risorsa principale per tutte le esigenze di supporto, dalla comunicazione self-service a quella basata sull&#39;agente. Apprezziamo la tua comprensione e il tuo supporto per questa importante transizione.
+Siamo lieti di annunciare che, nel nostro percorso verso una migliore connessione alla famiglia di soluzioni Adobe, Adobe Learning Manager aggiungerà un altro canale al processo di assunzione del supporto. Dal 12 maggio 2025 potrai creare casi direttamente da Adobe Experience League. Experience League ospita attualmente la documentazione di aiuto autonomo, le guide per l&#39;utente e le best practice di Adobe Learning Manager e diventerà la risorsa principale per tutte le esigenze di supporto, dalla comunicazione self-service a quella basata su agenti. Apprezziamo la vostra comprensione e il vostro sostegno durante questa importante transizione.
 
 +++
 
-+++È possibile aggiungere utenti in blocco? Come?
++++Posso aggiungere utenti in blocco? Come?
 
 Sì, è possibile aggiungere utenti in blocco utilizzando la funzione che consente di caricare un file CSV. Per ulteriori informazioni, fai clic [qui](/help/migrated/administrators/add-users-in-bulk.md).
 
@@ -107,7 +107,7 @@ Per ulteriori informazioni, fai riferimento alla funzionalità [lista d&#39;atte
 È possibile aggiungere il feedback L3 durante la registrazione degli Allievi ai corsi. Per aggiungere una domanda al feedback L3, procedi come segue:
 
 1. Fai clic su Corsi nel riquadro a sinistra dopo avere effettuato l’accesso come Amministratore. L’elenco di tutti i corsi viene visualizzato nella pagina a destra.
-1. Fai clic sul riquadro del corso a cui desideri aggiungere il feedback L3.
+1. Fai clic sul riquadro del corso per il quale vuoi aggiungere il feedback L3
 1. Fai clic sull’istanza predefinita nel riquadro a sinistra.
 1. Fai clic sul cerchio del pulsante di attivazione accanto a L3 - Modifica comportamento feedback per selezionarlo.
 1. Aggiungi la domanda al feedback L3 nell’area di testo sotto Domanda L3.
@@ -135,11 +135,11 @@ Per registrare gli Allievi ai corsi, procedi come segue:
 
 1. Fai clic su Corsi nel riquadro a sinistra dopo avere effettuato l’accesso come Amministratore. L’elenco di tutti i corsi viene visualizzato nella pagina a destra.
 1. Scegli il corso a cui desideri aggiungere gli Allievi e passa il mouse sopra di esso.
-1. Fai clic su Iscrivi Allievi e aggiungi il loro nome. **Nota:** puoi aggiungere uno o più Allievi alla volta.
+1. Fai clic su Iscrivi Allievi e aggiungi il nome degli Allievi. **Nota:** puoi aggiungere uno o più Allievi alla volta.
 
 +++
 
-+++Come si assegna un’abilità a un Allievo?
++++Come assegnare gli Allievi a una particolare abilità?
 
 Per assegnare le abilità agli Allievi, procedi come segue:
 
@@ -188,7 +188,7 @@ Per modificare il profilo aziendale, fai clic su **[!UICONTROL Impostazioni]** n
 
 +++
 
-+++Come si cercano i corsi?
++++Come cerco i corsi?
 
 Fai clic su Corsi nel riquadro a sinistra dopo avere effettuato l’accesso come Amministratore. Viene visualizzato un elenco di tutti i corsi disponibili.
 
@@ -222,7 +222,7 @@ Per ulteriori informazioni, fai riferimento alla [Guida ai temi colore e al bran
 
 +++
 
-+++Come si configurano i punti Gamification per i corsi?
++++Come posso impostare i punti di gamification per i corsi?
 
 Per configurare punti Gamification per gli Allievi, procedi come segue:
 
@@ -244,11 +244,11 @@ Per creare report, procedi come segue:
 
 1. Compila tutti i campi obbligatori e fai clic su Salva.
 
-Solo gli Amministratori e i Manager possono creare o visualizzare report. Per ulteriori informazioni, fai riferimento alla [funzionalità report](/help/migrated/administrators/feature-summary/reports.md).
+Solo gli Amministratori e i Manager possono creare o visualizzare report. Per ulteriori informazioni, fare riferimento alla [funzione](/help/migrated/administrators/feature-summary/reports.md) dei report.
 
 +++
 
-+++Come si passa ai ruoli di Allievo, Manager e Autore?
++++Come posso passare ai ruoli di Allievo, Manager e Autore?
 
 È possibile effettuare l’accesso all’account con altri ruoli, come Allievo, Manager e Autore, senza dover eseguire il log out.
 
@@ -326,13 +326,13 @@ Per ulteriori informazioni, fai riferimento alla funzionalità [Gestione fattura
 
 +++
 
-+++È possibile personalizzare la progettazione del certificato? Come?
++++Posso personalizzare il design del certificato? Come?
 
-In Adobe Learning Manager, puoi riconoscere gli Allievi emettendo distintivi. Per ulteriori informazioni, fai riferimento alla funzionalità Distintivi.  Inoltre, fai riferimento alla funzionalità Certificazione.
+In Adobe Learning Manager, puoi riconoscere gli Allievi emettendo distintivi. Per ulteriori informazioni, fai riferimento alla funzione Distintivi.  Fai inoltre riferimento alla funzionalità di certificazione.
 
 +++
 
-+++Come si imposta il profilo aziendale?
++++Come faccio a impostare il mio profilo aziendale?
 
 1. Dopo aver effettuato l’accesso come Amministratore, fai clic su **[!UICONTROL Informazioni aziendali]** nel riquadro a sinistra.
 1. Aggiungi il profilo, il sottodominio e il logo dell’azienda facendo clic su ognuna di queste opzioni nella pagina.
@@ -354,13 +354,13 @@ Per aggiungere nuovi utenti, procedi come segue:
 1. Dopo aver effettuato l’accesso come Amministratore, fai clic su Utenti nel riquadro a sinistra. Puoi aggiungere gli utenti anche facendo clic su Guida introduttiva nel riquadro a sinistra della finestra e poi su Aggiungi utenti.
 1. Per aggiungere nuovi utenti, fai clic su Aggiungi nell’angolo in alto a destra della pagina.
 
-Per impostazione predefinita, a tutti i nuovi utenti viene assegnato il ruolo Allievo. Per assegnare i ruoli Amministratore o Autore agli Allievi, fai clic su **[!UICONTROL Azioni]** nell’angolo in alto a destra della pagina, quindi scegli **[!UICONTROL Assegna ruolo]** > **[!UICONTROL Crea autore]** o **[!UICONTROL Crea amministratore]**.
+Per impostazione predefinita, a tutti i nuovi utenti viene assegnato il ruolo Allievo. Puoi assegnare i ruoli Amministratore o Autore agli Allievi facendo clic su **[!UICONTROL Azioni]** nell&#39;angolo in alto a destra della pagina e scegliendo **[!UICONTROL Assegna ruolo]** > **[!UICONTROL Crea autore]** o **[!UICONTROL Crea amministratore]**.
 
-Per informazioni dettagliate sull&#39;aggiunta di Allievi, Autori e Amministratori, fai riferimento alla funzionalità [Aggiungi nuovi utenti](/help/migrated/administrators/feature-summary/add-users-user-groups.md).
+Fai riferimento alla  [funzione Aggiungi nuovi utenti](/help/migrated/administrators/feature-summary/add-users-user-groups.md) per informazioni dettagliate sull&#39;aggiunta di Allievi, Autori e Amministratori.
 
 +++
 
-+++Come si modifica un’immagine di sfondo di un Allievo?
++++Come cambiare un&#39;immagine di sfondo per un Allievo?
 
 Contatta il team di supporto di Learning Manager.
 
@@ -391,6 +391,6 @@ Segui i passaggi riportati di seguito per scaricare la versione desktop:
 
 1. Accedi come Amministratore.
 2. Fai clic su **[!UICONTROL Apprendimento sociale]** > **[!UICONTROL Impostazioni]**.
-3. In **[!UICONTROL Scarica configurazione]**, fai clic sul collegamento ipertestuale a seconda del sistema operativo.
+3. In **[!UICONTROL Configurazione]** download, fare clic sul collegamento ipertestuale a seconda del sistema operativo in uso.
 
 +++

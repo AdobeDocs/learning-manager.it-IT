@@ -15,15 +15,15 @@ ht-degree: 64%
 
 Scopri ulteriori informazioni sulle impostazioni dell’account Learning Manager che è possibile configurare come Amministratore.
 
-È possibile modificare le impostazioni del profilo di Amministratore e aggiornare le impostazioni dell’account. Visualizza le informazioni del profilo, aggiungi/modifica la foto del profilo e modifica **[!UICONTROL il contenuto Informazioni su di me]** . Aggiorna le tue informazioni aziendali e configura i metodi di accesso per gli utenti e l’integrazione di Connect tramite le impostazioni dell’account.
+È possibile modificare le impostazioni del profilo di Amministratore e aggiornare le impostazioni dell’account. Visualizza le informazioni di profilo, aggiungi/modifica la foto profilo e modifica il contenuto di **[!UICONTROL Informazioni su di me]**. Aggiorna le tue informazioni aziendali e configura i metodi di accesso per gli utenti e l’integrazione di Connect tramite le impostazioni dell’account.
 
 ![](assets/settings-admin.png)
 
-## Configurazione di Adobe Learning Manager
+## Configurare il Adobe Learning Manager
 
-In questo corso di formazione vengono acquisite le nozioni di base relative alle impostazioni a livello di account.
+Questo corso di formazione acquisisce le nozioni di base delle impostazioni a livello di account.
 
-[![bottone](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
+[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
 
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
@@ -219,7 +219,7 @@ Attivare o disattivare le seguenti impostazioni:
      <li>Preferenza di fuso orario a livello di account</li>
     </ul>
     <p>La Trascrizione Allievo scaricata tramite l’API dei processi consente di scaricare anche i dati nel fuso orario selezionato.</p>
-    <p><b>Nota: </b>Per impostazione predefinita non sono previste modifiche alla Trascrizione Allievo subito dopo l’aggiornamento. Gli amministratori possono configurare questa impostazione da Impostazioni &gt; amministratore &gt; Fuso orario report &gt; generale.</p></td>
+    <p><b>Nota: </b>Per impostazione predefinita non sono previste modifiche alla Trascrizione Allievo subito dopo l’aggiornamento. Gli Amministratori possono configurare questa impostazione da Amministratore &gt; Impostazioni &gt; Generale &gt; Report fuso orario.</p></td>
   </tr>
  </tbody>
 </table>
@@ -337,13 +337,13 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">Un Allievo non può visualizzare l’impostazione utente per l’iscrizione delle e-mail di riepilogo.</td>
   </tr>
   <tr>
-   <td height="19"> Se la funzione è abilitata, quindi:</td>
+   <td height="19"> Se la funzione è abilitata, allora:</td>
   </tr>
   <tr>
    <td height="19">L’Amministratore può abilitare e modificare l’opzione E-mail di riepilogo.</td>
   </tr>
   <tr>
-   <td height="20">Dalle Impostazioni profilo sull'app learber, un Allievo (non presente nell'elenco DND) può scegliere di iscriversi/annullare l'iscrizione all'e-mail del digest.</td>
+   <td height="20">Dalle Impostazioni profilo nell’app per Allievi, un Allievo (non nell’elenco DND) può scegliere di iscriversi/annullare l’iscrizione all’e-mail di riepilogo.</td>
   </tr>
   <tr>
    <td height="20">Attiva icone per la scheda di formazione</td>
@@ -357,10 +357,10 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">Per personalizzare i collegamenti nel piè di pagina, esegui le seguenti operazioni:</td>
   </tr>
   <tr>
-   <td height="19">1. Fai clic su Aggiungi altro, inserisci il nome e l'URL o l'ID e-mail nei campi specificati. Aggiungere all’URL il prefisso http:// o https://.</td>
+   <td height="19">1. Fai clic su Aggiungi altro, immetti il nome e l’URL o l’ID e-mail nei campi specificati. Aggiungere all’URL il prefisso http:// o https://.</td>
   </tr>
   <tr>
-   <td height="19">2. Per trasferire la modifica in serie a tutte le impostazioni locali, fare clic su Replica. In questo modo, tutte le lingue ricevono il nome e l’URL.</td>
+   <td height="19">2. Per applicare la modifica in tutte le lingue, fai clic su Replica. In questo modo, tutte le lingue ricevono il nome e l’URL.</td>
   </tr>
   <tr>
    <td height="19">3. Per salvare le modifiche, fai clic su Salva. Un messaggio a comparsa conferma la modifica. Dopo aver fatto clic su OK, il piè di pagina viene compilato con i collegamenti appena aggiunti.</td>
@@ -385,7 +385,7 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">Preferenza di fuso orario a livello di account</td>
   </tr>
   <tr>
-   <td height="19">La trascrizione Allievo scaricata tramite l'API Jobs scarica anche i dati nel fuso orario selezionato.</td>
+   <td height="19">La Trascrizione Allievo scaricata tramite l’API dei processi consente di scaricare anche i dati nel fuso orario selezionato.</td>
   </tr>
   <tr>
    <td height="20">Nota: per impostazione predefinita non sono previste modifiche alla Trascrizione Allievo subito dopo l’aggiornamento. Gli Amministratori possono configurare questa impostazione da Amministratore &gt; Impostazioni &gt; Generale &gt; Report fuso orario.</td>
@@ -477,18 +477,18 @@ Activity
 
 ## Impostazioni profilo {#profilesettings}
 
-1. Fai clic sulla freccia a discesa nell&#39;angolo superiore destro, accanto alla tua foto/account e scegli **[!UICONTROL Impostazioni]** profilo.
-1. Dalla finestra a comparsa, puoi aggiungere/modificare una foto passando il mouse e facendo clic su **[!UICONTROL Modifica]** nell&#39;area della foto profilo.
-1. Aggiungere/modificare **[!UICONTROL informazioni sul]** contenuto facendo clic su **[!UICONTROL Modifica]** accanto ad esso.
+1. Fai clic sulla freccia a discesa nell’angolo in alto a destra, accanto a foto/account e scegli **[!UICONTROL Impostazioni profilo]**.
+1. Dalla finestra a comparsa, puoi aggiungere/modificare una foto passando il mouse sopra di essa e facendo clic su **[!UICONTROL Modifica]** nell&#39;area della foto profilo.
+1. Aggiungi/modifica il contenuto di **[!UICONTROL Informazioni su]** facendo clic su **[!UICONTROL Modifica]** accanto al contenuto.
 1. Fai clic su **[!UICONTROL Salva].**
 
 ## Cartella dei contenuti {#content-folder}
 
-Learning Manager supporta le cartelle di contenuti privati. Un amministratore può configurare le cartelle dei contenuti privati e fornirne l’accesso ad autori personalizzati specifici utilizzando i ruoli personalizzati. Gli autori standard (chiamati anche autori completi) continuano ad avere accesso a tutti i contenuti dell’account. Quindi gli autori completi hanno accesso a tutte le cartelle e a tutti i contenuti.
+Learning Manager supporta le cartelle dei contenuti privati. Un amministratore può configurare le cartelle dei contenuti privati e fornirne l’accesso ad autori personalizzati specifici utilizzando i ruoli personalizzati. Gli autori standard (chiamati anche autori completi) continuano ad avere accesso a tutti i contenuti dell’account. Pertanto, gli autori completi hanno accesso a tutte le cartelle e a tutti i contenuti.
 
 Le cartelle dei contenuti possono essere configurate dagli amministratori. Solo una volta configurate, le cartelle dei contenuti diventano visibili agli autori che possono inserire il contenuto in una o più cartelle.
 
-Per aggiungere una cartella di contenuti, nell&#39;app Amministratore fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL cartella]** contenuti.
+Per aggiungere una cartella di contenuti, nell&#39;app di amministrazione fare clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Cartella dei contenuti]**.
 
 ![](assets/manage-content-folders.png)
 
@@ -571,22 +571,22 @@ Puoi anche aggiungere la posizione con l’aiuto di un file CSV. Il file CSV dev
 
 Seleziona **Modifica** per modificare quanto segue:
 
-* **Consenti agli autori di creare posizioni**: una volta attivata, tutte le posizioni create dagli autori verranno elencate nella scheda &quot;Tutte le posizioni&quot;. Gli Allievi vedranno queste posizioni anche nei filtri Catalogo e Calendario.
+* **Consenti agli autori di creare percorsi**: una volta abilitate, tutte le posizioni create dagli autori verranno elencate nella scheda &quot;Tutte le posizioni&quot;. Gli Allievi visualizzeranno queste posizioni anche nei filtri Catalogo e Calendario.
 * **Consenti agli autori di modificare ed eliminare le posizioni**:
-Una volta attivato, gli autori saranno in grado di modificare ed eliminare tutte le posizioni di Classroom. Le modifiche degli autori si rifletteranno su tutta la piattaforma, compresi i rapporti.
+Una volta abilitata, gli Autori saranno in grado di modificare ed eliminare tutte le aule. Le modifiche apportate dagli autori saranno riportate su tutta la piattaforma, compresi i report.
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
 +++Come si creano cartelle diverse per la libreria dei contenuti?
 
-Fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Cartella dei contenuti]**. Per aggiungere una cartella, fai clic su **[!UICONTROL Aggiungi]** nell&#39;angolo superiore destro e nella finestra di dialogo immetti il nome e la descrizione della cartella.
+Fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Cartella dei contenuti]**. Per aggiungere una cartella, fai clic su **[!UICONTROL Aggiungi]** nell&#39;angolo in alto a destra e immetti il nome e la descrizione della cartella nella finestra di dialogo.
 
 Le cartelle dei contenuti possono essere configurate dagli amministratori. Solo una volta configurate, le cartelle dei contenuti diventano visibili agli autori che possono inserire il contenuto in una o più cartelle.
 
 Per ulteriori informazioni, consulta la sezione relativa a [Cartella dei contenuti](settings.md#content-folder).
 +++
 
-+++Come aggiungere l&#39;anno finanziario per l&#39;account?
++++Come si aggiunge l’esercizio finanziario per l’account?
 
 In **[!UICONTROL Impostazioni]** > **[!UICONTROL Informazioni di base]**, fai clic su **[!UICONTROL Modifica]**. Dall&#39;elenco a discesa **[!UICONTROL L&#39;anno fiscale inizia da]**, selezionare il mese.
 +++
