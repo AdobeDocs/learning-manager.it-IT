@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Modelli e-mail
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 58%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -218,14 +218,6 @@ Puoi anche personalizzare quanto segue:
 * Modifica il piè di pagina dell’e-mail. L’area del piè di pagina contiene variabili predefinite per l’URL dell’account, la Firma e qualsiasi testo in formato libero aggiunto dall’utente.
 
 I modelli supportano inoltre funzioni di modifica avanzate che consentono di mantenere la formattazione quando il contenuto viene copiato e incollato da e in Microsoft Word.
-
-### Configurare le istanze
-
-In questo corso di formazione verrà illustrato come configurare le impostazioni predefinite delle istanze, aggiungere una nuova istanza, ritirare e riaprire un&#39;istanza e configurare i modelli e-mail per un&#39;istanza.
-
-[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
-
-Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Inviti in linea {#inlineinvitations}
 

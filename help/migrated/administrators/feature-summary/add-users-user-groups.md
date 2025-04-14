@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4296'
 ht-degree: 57%
 
 ---
@@ -15,22 +15,7 @@ ht-degree: 57%
 
 Scopri come aggiungere utenti o gruppi di utenti nell’applicazione Learning Manager.
 
-
 <!--![](assets/user-mgmt-new.png)-->
-
-## Gestione dei gruppi di utenti
-
->[!INFO]
->
->In questo corso imparerai come creare un gruppo di utenti in base ai nomi, agli ID e-mail e alla combinazione di più gruppi di utenti generati automaticamente.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Panoramica {#overview}
 
@@ -53,19 +38,16 @@ Aggiungi Allievi interni a Adobe Learning Manager utilizzando un’opzione per u
 
 >[!INFO]
 >
->In questo corso imparerai come aggiungere Allievi interni a Adobe Learning Manager.<br><br>[![bottone](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
+>In questo corso imparerai come aggiungere Allievi interni a Adobe Learning Manager.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
 
 
-Se non riesci ad avviare la formazione, scrivi a <almacademy@adobe.com>.
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 Per aggiungere utenti,
 
 1. Accedi ad Adobe Learning Manager come Amministratore.
 1. Nella pagina iniziale, fai clic su **[!UICONTROL Aggiungi utenti]**. In questa pagina puoi aggiungere un singolo utente o più utenti alla volta utilizzando un file CSV. Puoi anche creare un collegamento di registrazione autonoma per i dipendenti interni o creare un profilo di Allievo esterno.
 1. Per aggiungere un singolo utente, fai clic su **[!UICONTROL Aggiungi]** nell’angolo superiore destro e scegli l’opzione **[!UICONTROL Singolo utente]**.
-
-1. Per aggiungere un singolo utente, fai clic su **[!UICONTROL Aggiungi]** nell’angolo superiore destro e scegli l’opzione **Singolo utente**.
-
 
    ![](assets/single-user.png)
    *Aggiungere un singolo utente interno*
@@ -79,16 +61,7 @@ Per aggiungere utenti,
 
 ## Aggiunta di utenti in blocco {#addusersinbulk}
 
-### Gestisci utenti
-
-In questo corso di formazione imparerai come assegnare e rimuovere ruoli, inviare un’e-mail di benvenuto ed eliminare ed eliminare gli utenti.
-
-[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
-
 Generalmente, la maggior parte delle organizzazioni lavora con un sistema di gestione delle risorse umane (HRMS) che mantiene tutti i record dei dipendenti, quali la designazione, la posizione, la data di assunzione o la gerarchia dei dipendenti. Puoi esportare questi dati in un file CSV. Per importare un file CSV, procedi nel seguente modo:
-
 
 1. Fai clic su **[!UICONTROL Aggiungi]** nell’angolo superiore destro e scegli l’opzione **[!UICONTROL Carica un file CSV]**.
 
@@ -135,11 +108,25 @@ Generalmente, la maggior parte delle organizzazioni lavora con un sistema di ges
 
 Dopo aver selezionato gli utenti, puoi effettuare le seguenti operazioni:
 
+>[!INFO]
+>
+>In questo corso imparerai come aggiungere utenti in blocco tramite un file CSV.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
+
 ## Registra un utente {#registerauser}
 
 Dopo aver selezionato l’utente, fai clic su **[!UICONTROL Azioni]** nell’angolo superiore destro, quindi su **[!UICONTROL Registra]**.
 
 Gli utenti selezionati ricevono un’e-mail di benvenuto. Se gli Allievi dispongono di un ID Adobe esistente, possono fare clic su questo collegamento. Se non hanno un Adobe ID esistente, possono procedere facendo clic sul collegamento Benvenuti per creare un Adobe ID e collegarlo al proprio account Learning Manager.
+
+### Gestisci utenti
+
+In questo corso di formazione imparerai come assegnare e rimuovere ruoli, inviare un’e-mail di benvenuto ed eliminare ed eliminare gli utenti.
+
+[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Assegna un ruolo {#assignarole}
 
@@ -150,7 +137,7 @@ Se desideri modificare i ruoli degli Allievi che hai aggiunto all’account Adob
 
 ## Rimuovi un ruolo {#removearole}
 
-Puoi anche rimuovere l’accesso Autore o Amministratore per gli utenti. Seleziona uno o più partecipanti, fai clic su **[!UICONTROL Azioni]** e seleziona **[!UICONTROL Rimuovi ruolo]**. Scegli un&#39;opzione, ad esempio Rimuovi **[!UICONTROL autore]**, e l&#39;accesso Autore verrà revocato per questo Allievo.
+Puoi anche rimuovere l’accesso Autore o Amministratore per gli utenti. Seleziona uno o più partecipanti, fai clic su **[!UICONTROL Azioni]** e seleziona **[!UICONTROL Rimuovi ruolo]**. Scegli un’opzione, ad esempio **[!UICONTROL Rimuovi autore]**, e l’accesso come autore viene revocato per questo Allievo.
 
 >[!NOTE]
 >
@@ -165,7 +152,7 @@ Per eliminare un utente, fai clic su **[!UICONTROL Azioni ]** e scegli **[!UICO
 
 ## Modifica un utente {#editauser}
 
-Nell’elenco degli utenti, scegli un utente e fai clic sull’utente. Nei dettagli dell&#39;utente **[!UICONTROL , fai clic sul pulsante Modifica]** ( ![](assets/edit-pen.png)). Nella finestra **[!UICONTROL Modifica utente]**, apporta le modifiche necessarie, salvale e fai clic su **[!UICONTROL Salva]**.
+Nell’elenco degli utenti, scegli un utente e fai clic sull’utente. Nei dettagli utente, fare clic sul pulsante **[!UICONTROL Modifica]** ( ![](assets/edit-pen.png)). Nella finestra **[!UICONTROL Modifica utente]**, apporta le modifiche necessarie, salvale e fai clic su **[!UICONTROL Salva]**.
 
 ![](assets/edit-user.png)
 *Finestra di dialogo Modifica utente*
@@ -184,9 +171,9 @@ Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe
 
 Adobe Learning Manager mantiene la distinzione tra maiuscole e minuscole dell’attributo utente e del relativo valore. **Ad esempio**, la distinzione tra maiuscole e minuscole di un attributo utente è &#39;location&#39; e il suo valore &#39;PARIS&#39; verrà mantenuto e visualizzato nello stesso modo. In caso di problemi, l’Amministratore può ora modificare il nome e i valori dell’attributo per correggere eventuali errori di distinzione tra maiuscole e minuscole.
 
-L&#39;amministratore può farlo visitando **[!UICONTROL l&#39;app]** di amministrazione > **[!UICONTROL Utenti >**[!UICONTROL  gruppi ]**di]** utenti e facendo clic sul nome del gruppo.
+L’amministratore può eseguire questa operazione visitando **[!UICONTROL App per amministratori]** > **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi di utenti]** e facendo clic sul nome del gruppo.
 
-Un amministratore può aggiungere e aggiornare i valori degli attributi consentiti per un Allievo tramite l&#39;interfaccia utente.
+Un Amministratore può aggiungere e aggiornare i valori di attributo consentiti per un Allievo tramite l’interfaccia utente.
 
 Tipi di campi attivi:
 
@@ -196,9 +183,9 @@ Tipi di campi attivi:
 
 ## Creazione di un collegamento di registrazione autonoma {#createaselfregistrationlink}
 
-Puoi anche consentire ai dipendenti della tua organizzazione di registrarsi come Allievi nell’account Adobe Learning Manager, senza bisogno di assistenza da parte dell’Amministratore. L&#39;amministratore può creare un collegamento di registrazione autonoma e condividerlo con i dipendenti, che possono registrarsi ulteriormente a Learning Manager utilizzando le loro credenziali Adobe.
+Puoi anche consentire ai dipendenti della tua organizzazione di registrarsi come Allievi nell’account Adobe Learning Manager, senza bisogno di assistenza da parte dell’Amministratore. L’Amministratore può creare un collegamento di registrazione autonoma e condividerlo con i dipendenti, che possono registrarsi ulteriormente a Learning Manager utilizzando le loro credenziali di Adobe.
 
-Nell&#39;angolo superiore destro della pagina fare clic su **[!UICONTROL Aggiungi]** e selezionare **[!UICONTROL Registrazione]** autonoma.
+Nell&#39;angolo superiore destro della pagina, fai clic su **[!UICONTROL Aggiungi]** e seleziona **[!UICONTROL Registrazione autonoma]**.
 
 
 ![](assets/self-registration.png)
@@ -305,7 +292,7 @@ In qualsiasi momento, puoi revocare lo stato di pausa di un partner esterno e ri
 
 Gli stati seguenti sono applicabili agli utenti esterni:
 
-* **Stato** inattivo - In questo stato, la registrazione degli utenti esterni è scaduta. Gli Amministratori impostano la data di scadenza per gli utenti esterni durante l’aggiunta mediante il flusso di lavoro dell’utente.
+* **Stato inattivo** - In questo stato, la registrazione degli utenti esterni è scaduta. Gli Amministratori impostano la data di scadenza per gli utenti esterni durante l’aggiunta mediante il flusso di lavoro dell’utente.
 * **Stato attivo**: in questo stato gli utenti esterni possono registrarsi all’applicazione Learning Manager ed effettuare l’accesso.
 * **Pausa**: in questo stato, il processo di registrazione per gli utenti esterni viene bloccato. Tuttavia, gli utenti esistenti possono continuare ad accedere.
 
@@ -314,11 +301,11 @@ Gli stati seguenti sono applicabili agli utenti esterni:
 Nell’elenco dei profili esterni, fai clic su **[!UICONTROL Postazioni utilizzate]**. Puoi visualizzare il numero di Allievi appartenenti all’organizzazione partner che sono stati aggiunti.
 
 ![](assets/seats-used.png)
-*Controlla i posti usati*
+*Controllare le postazioni utilizzate*
 
 ## Elimina un utente {#Deleteauser-1}
 
-Scegli un utente e, nell&#39;angolo in alto a destra, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Elimina utente]**.
+Scegli un utente e, nell’angolo in alto a destra, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Elimina utente]**.
 
 ## Modifica profilo {#changeprofile}
 
@@ -339,6 +326,18 @@ Scegli un utente e, nell’angolo in alto a destra, fai clic su **[!UICONTROL Az
 ## Creazione di gruppi di utenti {#createusergroups}
 
 Un gruppo di utenti è un insieme di utenti correlati a una categoria. I gruppi di utenti aiutano gli Amministratori a selezionare gli Allievi nella loro organizzazione in base ai loro attributi e quindi assegnare loro contenuti di apprendimento. Inoltre, questi gruppi di utenti consentono agli Amministratori di assegnare loghi e Cataloghi personalizzati agli Allievi e mostrare report personalizzati sui loro progressi.
+
+>[!INFO]
+>
+>In questo corso imparerai come creare un gruppo di utenti in base ai nomi, agli ID e-mail e alla combinazione di più gruppi di utenti generati automaticamente.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 Per accedere ai gruppi di utenti, nel riquadro di navigazione sinistro, fai clic su **[!UICONTROL Gruppi utenti]**.
 
@@ -417,17 +416,17 @@ Fai clic su **[!UICONTROL Campi attivi]** disponibili nella pagina degli utenti.
 
 È possibile aggiungere un valore personalizzato per i campi utente degli utenti interni.
 
-Per aggiungere valori personalizzati, attenersi alla seguente procedura:
+Per aggiungere valori personalizzati, attieniti alla seguente procedura:
 
-1. Fare clic su  **[!UICONTROL Modifica valori]** per un utente interno.
+1. Fare clic su **[!UICONTROL Modifica valori]** per un utente interno.
 
    ![](assets/modify-values.png)
-   *Modificare i valori per gli utenti interni*
+   *Modifica valori per utenti interni*
 
-1. Viene visualizzata la **finestra di dialogo Valori nel campo** personalizzato.
+1. Viene visualizzata la finestra di dialogo **Valori nel campo personalizzato**.
 
    ![](assets/values-in-customfields.png)
-   *Valori nella finestra di dialogo Campi personalizzati*
+   *Finestra di dialogo Valori nei campi personalizzati*
 
 1. Seleziona il valore da aggiungere dal menu a discesa **[!UICONTROL Seleziona campo]**.
 1. Immetti nuovi valori nel campo **[!UICONTROL Nuovo valore]**.
@@ -542,8 +541,8 @@ Per creare un campo attivo multivalore, procedi come indicato di seguito:
 
 1. Aggiungi un campo attivo.
 
-   ![Aggiungere un campo attivo](assets/add-active-field.png)
-   *Aggiungere un campo attivo*
+   ![Aggiungi un campo attivo](assets/add-active-field.png)
+   *Aggiungi un campo attivo*
 
 1. Fai clic su Aggiungi.
 1. Nella scheda Impostazioni, contrassegna il nuovo campo come multivalore.
@@ -650,7 +649,7 @@ Dopo aver messo in pausa un profilo, il profilo esterno visualizza lo stato ***I
 
 +++
 
-+++Come inviare email di benvenuto al profilo esterno appena creato?
++++Come si invia un’e-mail di benvenuto al profilo esterno appena creato?
 
 Quando aggiungi un utente esterno, nella finestra di dialogo **[!UICONTROL Aggiungi profilo di registrazione esterno]**, immetti l’indirizzo e-mail del responsabile esterno. Quando fai clic su Salva, viene inviata un’e-mail di benvenuto all’indirizzo e-mail specificato. Per inviare di nuovo l’e-mail di benvenuto, fai clic sull’icona della busta, come illustrato di seguito:
 
@@ -682,13 +681,13 @@ Se desideri che gli Allievi visualizzino solo i campi attivi che non hanno compi
 
 È possibile limitare la selezione per gli Allievi in modo che possano selezionare solo i valori predefiniti e non immettere valori casuali. Effettua le seguenti operazioni:
 
-1. Fare clic su **[!UICONTROL Utenti]** > **[!UICONTROL campi]** attivi.
+1. Fai clic su **[!UICONTROL Utenti]** > **[!UICONTROL Campi attivi]**.
 1. Abilita l’opzione **[!UICONTROL Limita selezione]**.
 1. Fai clic su **[!UICONTROL Fine]**.
 
 +++
 
-+++Come faccio a distinguere i campi attivi CSV e i campi attivi personalizzati?
++++Come si distinguono i campi attivi CSV dai campi attivi personalizzati?
 
 È possibile abilitare o disabilitare i campi CSV attivi, ma non eliminarli. Per contro, non è possibile abilitare o disabilitare campi attivi personalizzati.
 

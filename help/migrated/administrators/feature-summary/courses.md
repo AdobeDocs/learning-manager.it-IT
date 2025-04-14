@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '5111'
+source-wordcount: '5153'
 ht-degree: 58%
 
 ---
@@ -23,12 +23,11 @@ I corsi vengono creati dagli Autori. Gli Allievi possono seguire i corsi e gli A
 
 ## Creazione di un’istanza di un corso {#createinstanceofacourse}
 
-### Gestire le istanze
+### Configurare le istanze
 
->[!INFO]
->
->In questo corso imparerai come modificare i dettagli e le proprietà delle istanze.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+In questo corso di formazione verrà illustrato come configurare le impostazioni predefinite delle istanze, aggiungere una nuova istanza, ritirare e riaprire un&#39;istanza e configurare i modelli e-mail per un&#39;istanza.
 
+[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
@@ -52,8 +51,8 @@ Per creare un’istanza,
    * Nel campo **[!UICONTROL Nome istanza]**, immetti il nome dell’istanza che desideri associare al corso. Assicurati di utilizzare un nome univoco per l’istanza.
    * Specifica la scadenza per il completamento dell’istanza. Gli Allievi devono ottenere lo stato di completamento del corso entro questa data.
    * Fai clic su **[!UICONTROL Mostra altre opzioni]** per visualizzare altre opzioni di scadenza.
-   * **[!UICONTROL Scadenza] per l&#39;iscrizione:** questa è la data entro la quale un Allievo deve iscriversi a un oggetto di apprendimento in caso di iscrizione autonoma.
-   * **[!UICONTROL Scadenza] annullamento iscrizione:** puoi scegliere di limitare l&#39;annullamento dell&#39;iscrizione da parte dell&#39;Allievo stesso fissando una scadenza per l&#39;annullamento dell&#39;iscrizione.
+   * **[!UICONTROL Scadenza iscrizione]:** Data entro la quale un Allievo deve iscriversi a un oggetto di apprendimento in caso di iscrizione autonoma.
+   * **[!UICONTROL Scadenza annullamento iscrizione]:** Puoi scegliere di limitare l’annullamento dell’iscrizione da parte dello stesso Allievo fissando una scadenza per l’annullamento dell’iscrizione.
    * **[!UICONTROL Fuso orario]:** Cercare e quindi selezionare il **[!UICONTROL Fuso orario]** dal menu a discesa.
 
    Un Amministratore può decidere di impostare scadenze di completamento per un corso o un programma di apprendimento sulla base di requisiti. Tuttavia è consigliabile impostarne una per i corsi di formazione in classe o nella classe aula virtuale.
@@ -66,7 +65,7 @@ Per creare un’istanza,
 
 ![](assets/properties-of-aninstance.png)
 
-*Visualizzare le proprietà dell&#39;istanza*
+*Visualizza proprietà dell&#39;istanza*
 
 1. **Moduli:** il numero di moduli creati dall’Autore del corso
 1. **Allievi iscritti:** il numero di Allievi iscritti al corso dall’Amministratore.
@@ -76,6 +75,14 @@ Per creare un’istanza,
 >[!NOTE]
 >
 >L’amministratore annulla le sessioni passando a Istanze > Sessioni e selezionando Annulla sessione.
+
+### Gestire le istanze
+
+>[!INFO]
+>
+>In questo corso imparerai come modificare i dettagli e le proprietà delle istanze.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ### Ritiro dell’istanza {#retireaninstance}
 
@@ -156,7 +163,7 @@ Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe
    * Seleziona un’istanza per iscrivere un Allievo dal menu a discesa Seleziona istanza.
    * Seleziona l’utente, i gruppi di utenti o entrambi nel campo Includi allievi.
    * Seleziona gli Allievi che desideri escludere dall’istanza nel campo Escludi Allievi.
-   * Nella parte inferiore della finestra di dialogo, seleziona Sì se desideri che uno o più Allievi vengano iscritti all&#39;istanza selezionata.
+   * Nella parte inferiore della finestra di dialogo, seleziona Sì se desideri che uno o più Allievi siano iscritti all’istanza selezionata.
 
 1. Seleziona **[!UICONTROL Procedi]**.
 
@@ -436,19 +443,19 @@ Puoi visualizzare il feedback L1 fornito dagli Allievi per un corso e il feedbac
 1. Fai clic su Feedback L1 o Feedback L3 nel riquadro sinistro per visualizzare il feedback ricevuto.
 1. Seleziona l’istanza dall’elenco a discesa per visualizzare il feedback per la specifica istanza.
 
-## Bacheca di discussione
+## Forum di discussione
 
-La funzione Forum di discussione consente agli Allievi di visualizzare le discussioni del corso. In qualità di amministratore, hai la possibilità di eliminare qualsiasi commento in base alle esigenze. Gli amministratori possono abilitare questa opzione nelle impostazioni del corso.
+La funzione Forum di discussione consente agli Allievi di visualizzare le discussioni del corso. In qualità di amministratore, puoi eliminare eventuali commenti in base alle esigenze. Gli amministratori possono abilitare questa opzione nelle impostazioni del corso.
 
 ## Moderazione del corso {#coursemoderation}
 
 Ogni volta che un Autore aggiunge, aggiorna o elimina moduli e ripubblica un corso, tutti gli Amministratori ricevono una notifica a riguardo. Come Amministratore, puoi visualizzare le modifiche, confrontare i contenuti vecchi e nuovi facendo clic sul collegamento e approvare o rifiutare le modifiche di conseguenza.
 
-Per abilitare la moderazione del corso, fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Generale]**. Seleziona la casella di controllo **[!UICONTROL Moderazione del corso]** per abilitare questa funzione.
+Per abilitare la moderazione dei corsi, fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Generali]**. Seleziona la casella di controllo **[!UICONTROL Moderazione del corso]** per abilitare questa funzione.
 
 ![](assets/2.png)
 
-*Abilitare la moderazione del corso*
+*Abilita moderazione del corso*
 
 Fai clic sulla notifica per visualizzare le modifiche che l’Autore ha apportato al corso. Quindi, approva o rifiuta le modifiche apportate dall’Autore. Se scegli di approvarle, il corso verrà ripubblicato. Se rifiuti gli aggiornamenti, la versione precedente del corso continuerà a esistere. In entrambi i casi, l’Autore riceverà una notifica.
 
@@ -514,8 +521,8 @@ Gli amministratori possono impostare i distintivi, le impostazioni di gamificati
 * **[!UICONTROL Distintivo]**: seleziona i distintivi predefiniti dal menu a discesa.
 * **[!UICONTROL Gamification]**: configura le impostazioni di gamification, inclusi i punti per il completamento, il completamento anticipato e il completamento puntuale. Gli amministratori possono selezionare le impostazioni a livello di account o personalizzare i punti di gamification per questa istanza.
 * **[!UICONTROL Feedback reazione L1]**: abilita le domande predefinite per il feedback dell’Allievo al completamento del corso, con opzioni per rendere le domande obbligatorie.
-***[!UICONTROL L3 Behavior Change Feedback]**: abilita le domande di feedback per il manager dello studente al completamento del corso.
-***[!UICONTROL Impostazioni]** promemoria: imposta e gestisci i promemoria per le scadenze, con opzioni per l&#39;escalation.
+***[!UICONTROL Feedback modifica comportamento L3]**: abilita le domande di feedback per il manager dell’Allievo al completamento del corso.
+***[!UICONTROL Impostazioni promemoria]**: imposta e gestisci i promemoria per le scadenze, con opzioni per l&#39;escalation.
 
 ### Impostazione del livello di escalation {#escalation}
 
@@ -530,21 +537,21 @@ Per inviare le notifiche e-mail, l’Amministratore deve scegliere esplicitament
 
 ## Commenti di completamento
 
-Gli amministratori possono lasciare commenti quando contrassegnano un Allievo come completo per corsi, percorsi di apprendimento o certificazioni. Questi commenti sono utili ai fini della conformità e del controllo. Gli amministratori possono aggiungere facilmente commenti per uno o più Allievi contemporaneamente.
+Gli amministratori possono lasciare commenti quando contrassegnano un Allievo come completo per corsi, percorsi di apprendimento o certificazioni. Questi commenti aiutano a scopi di conformità e di auditing. Gli amministratori possono aggiungere facilmente commenti per uno o più Allievi contemporaneamente.
 
-### Aggiungere commenti sul completamento
+### Aggiungi commenti di completamento
 
-Attenersi alla seguente procedura per aggiungere commenti sul completamento:
+Segui questi passaggi per aggiungere commenti di completamento:
 
 1. Accedi come **[!UICONTROL Amministratore]**.
 2. Passa alla pagina **[!UICONTROL Corsi]** e seleziona un corso.
 3. Seleziona **[!UICONTROL Allievi]** nella pagina del corso.
 4. Scegli il singolo Allievo o più Allievi.
-5. Selezionare **[!UICONTROL Azioni]** , quindi selezionare **[!UICONTROL  Contrassegna completamento]**.
-6. Immettete il commento di completamento nella finestra di dialogo.
+5. Seleziona **[!UICONTROL Azioni]**, quindi seleziona**[!UICONTROL  Contrassegna completamento]**.
+6. Immetti il commento di completamento nella finestra di dialogo.
 
    ![](assets/comments.png)
-   _Commento al completamento_
+   _Commento di completamento_
 
 Questo processo è lo stesso per i percorsi di apprendimento e le certificazioni. Per i percorsi di apprendimento, puoi filtrare per selezionare tutti i corsi o solo singoli corsi da contrassegnare come completati.
 
@@ -652,7 +659,7 @@ Viene visualizzata la finestra di dialogo di riepilogo, che mostra il numero di 
 
 In qualità di Amministratore o Manager, puoi aggiungere commenti durante l’iscrizione di allievi a un corso. Puoi aggiungere ulteriori informazioni sulla coorte di utenti che vengono iscritti. Questi dati vengono esportati nei report sui corsi.
 
-Il commento non **viene** visualizzato all&#39;Allievo.
+Il commento **non** è visualizzato per l’Allievo.
 
 Quando un Amministratore genera il report sul corso dell’Allievo, qualsiasi commento aggiunto viene visualizzato nel report. Viene visualizzata la finestra di dialogo di riepilogo, che mostra il numero di utenti dei set di inclusione e di esclusione e di utenti già iscritti all’istanza del corso.
 
@@ -731,7 +738,7 @@ Il ciclo di vita tipico di un corso è il seguente:
 
 ![](assets/lifecycle-03.png)
 
-*Flusso di lavoro del ciclo di vita di un corso*
+*Flusso di lavoro di un ciclo di vita del corso*
 
 ## Impostazioni di notifica {#notificationsettings}
 
@@ -751,7 +758,7 @@ Dopo aver fatto clic sull’opzione, lo stato dei moduli di tutti gli Allievi se
 
 +++
 
-+++Come aggiungere l&#39;URL del corso in modo che gli Allievi vengano reindirizzati direttamente al corso?
++++Come aggiungere l’URL del corso in modo che gli Allievi vengano reindirizzati direttamente al corso?
 
 Passa il mouse su una scheda del corso e fai clic su **[!UICONTROL Copia URL]**. Gli Allievi possono accedere al corso direttamente con l’URL dopo averlo copiato.
 

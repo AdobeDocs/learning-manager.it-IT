@@ -2,10 +2,10 @@
 title: Iscrizione multipla in Adobe Learning Manager
 description: In qualità di Amministratore dell’account, uno dei tuoi compiti principali è creare istanze diverse di sessioni VILT in diversi fusi orari ed eventualmente creare sessioni per gruppi di utenti specifici.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 68%
+source-wordcount: '586'
+ht-degree: 65%
 
 ---
 
@@ -16,6 +16,14 @@ In Adobe Learning Manager, ogni corso può avere istanze diverse. In qualità di
 Prima della versione di luglio 2023, un Amministratore poteva iscrivere un Allievo a una sola istanza. Se un Allievo desiderava seguire un corso in istanze diverse, l’Amministratore creava molti corsi, uno per ogni istanza.
 
 La funzione di iscrizione multipla di Adobe Learning Manager aiuta un Amministratore a evitare tali scenari.
+
+## Gestire le istanze
+
+>[!INFO]
+>
+>In questo corso imparerai come modificare i dettagli e le proprietà delle istanze.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Che cos’è l’iscrizione multipla
 

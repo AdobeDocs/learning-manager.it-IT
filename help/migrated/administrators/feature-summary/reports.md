@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapporti
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
 source-wordcount: '7828'
 ht-degree: 52%
@@ -283,7 +283,7 @@ Per creare e condividere un dashboard di conformità, segui questi passaggi:
    _Selezionare il tipo di conformità_
 
 1. Digitare e selezionare il nome del manager nella casella di testo **[!UICONTROL Condividi con]**.
-1. Seleziona **[!UICONTROL Condividi]** per inviare la dashboard al manager selezionato.
+1. Seleziona **[!UICONTROL Condividi]** per inviare il dashboard al manager selezionato.
 
 >[!NOTE]
 >
@@ -362,13 +362,13 @@ Segui questi passaggi per modificare il dashboard di conformità:
 5. Modifica i dettagli richiesti e seleziona **[!UICONTROL Condividi]**.
 6. Il dashboard di conformità verrà condiviso con i Manager selezionati.
 
-#### Ritirare la dashboard - Amministratore
+#### Ritirare il dashboard - Amministratore
 
-Per ritirare il dashboard di conformità, procedi come segue:
+Segui questi passaggi per ritirare il dashboard di conformità:
 
-1. Accedi come **[!UICONTROL amministratore]**.
-2. Passa ai report > al **[!UICONTROL riepilogo]** di apprendimento > **[!UICONTROL al dashboard]** di **[!UICONTROL conformità.]**
-3. Seleziona **[!UICONTROL Vista Amministratore]** o **[!UICONTROL Vista Manager]** nella **[!UICONTROL sezione Dashboard]** di conformità. Puoi visualizzare i dashboard di conformità in questa sezione.
+1. Accedi come **[!UICONTROL Amministratore]**.
+2. Passa a **[!UICONTROL Report]** > **[!UICONTROL Riepilogo apprendimento]** > **[!UICONTROL Dashboard di conformità]**.
+3. Selezionare **[!UICONTROL Visualizzazione Amministratore]** o **[!UICONTROL Visualizzazione Manager]** nella sezione **[!UICONTROL Dashboard di conformità]**. Puoi visualizzare i dashboard di conformità in questa sezione.
 4. Seleziona **[!UICONTROL Ritira]** nel dashboard di conformità che desideri rimuovere e seleziona **[!UICONTROL Procedi]**.
 5. Questa azione rimuoverà il dashboard di conformità condiviso dall’app del Manager.
 
@@ -385,8 +385,8 @@ Segui questi passaggi per impostare il widget di conformità predefinito per gli
 4. Seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Visualizzazione Allievo]**.
 
    ![](assets/learner-widget.png)
-   _Imposta il widget di conformità predefinito per gli Allievi_
-5. Seleziona le etichette di conformità dal **[!UICONTROL menu a discesa Conformità]** personalizzata. Questa opzione selezionerà tutti i corsi che dispongono delle etichette di conformità selezionate.
+   _Impostare il widget di conformità predefinito per gli Allievi_
+5. Seleziona le etichette di conformità dal menu a discesa **[!UICONTROL Conformità personalizzata]**. Questa opzione selezionerà tutti i corsi che dispongono delle etichette di conformità selezionate.
 6. Selezionare **[!UICONTROL Procedi]** per impostare il widget di conformità predefinito.
 
 Gli Allievi possono visualizzare i corsi o i percorsi di apprendimento selezionati nel widget di conformità nella propria home page. Per ulteriori informazioni, fare riferimento al [widget del dashboard di conformità](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget).
@@ -443,6 +443,15 @@ Come Amministratore, puoi scaricare i report per i corsi. Procedi come segue:
    >
    >Il report relativo al punteggio del quiz esportato conterrà i dettagli del punteggio per ciascun tentativo se l’opzione tentativi multipli è configurata per il modulo.
 
+### Genera report corso
+
+>[!INFO]
+>
+>In questo corso imparerai come esportare i report del corso e configurare gli abbonamenti e-mail per tali report.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+
+
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
+
 ### Trascrizioni allievi {#LearnerTranscripts-1}
 
 Adobe Learning Manager consente agli Amministratori di un’organizzazione di generare le trascrizioni associate agli Allievi. Il report Trascrizione Allievo contiene quanto segue:
@@ -453,7 +462,7 @@ Adobe Learning Manager consente agli Amministratori di un’organizzazione di ge
 
 Le trascrizioni degli allievi nei report Excel mostrano le colonne Crediti richiesti e Crediti guadagnati in numeri decimali.
 
-Per informazioni sulla generazione di report sulle trascrizioni degli Allievi e ulteriori informazioni, consulta [Trascrizioni Allievi](learner-transcripts.md).
+Per informazioni sulla generazione di report Trascrizione Allievo e per ulteriori informazioni, consulta [Trascrizioni Allievi](learner-transcripts.md).
 
 ### Report annunci {#announcementsreports}
 
@@ -467,7 +476,7 @@ In qualità di Amministratore, puoi generare un report di tutti gli annunci che 
 
 Per scaricare un report, segui uno di questi passaggi:
 
-1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report]** personalizzati > **[!UICONTROL Report Excel >]** **[!UICONTROL Report]** annunci. Viene visualizzata la finestra di dialogo **[!UICONTROL Generazione della richiesta di report]**. Fai clic su Ok.
+1. Apri **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report annunci]**. Viene visualizzata la finestra di dialogo **[!UICONTROL Generazione della richiesta di report]**. Fai clic su Ok.
 1. [!UICONTROL **Annunci**] > [!UICONTROL **Azioni**] > [!UICONTROL **Esporta report**].
 
    ![](assets/announcements.png)
@@ -516,12 +525,12 @@ Dopo aver selezionato **[!UICONTROL Report risorse formative]** nell&#39;elenco,
 
 **Tutte le risorse formative**: se il numero di risorse formative nell&#39;account è inferiore a 10 milioni, il report generato conterrà le informazioni di iscrizione di tutte le risorse formative. Questa sarà la selezione predefinita. Se il numero di righe supera i 10 milioni, verrà visualizzato un errore ed è necessario selezionare manualmente le risorse formative richieste.
 
-**Risorse formative selezionate**: se si seleziona questa opzione, è possibile immettere le risorse formative per le quali si desidera generare il report. È possibile selezionare al massimo 10 risorse formative. Adobe Learning Manager verifica se il numero di risorse formative supera i 10 milioni.
+**Risorse formative selezionate**: se selezioni questa opzione, puoi immettere le risorse formative per le quali generare il report. Puoi selezionare un massimo di 10 risorse formative. Adobe Learning Manager verifica se il numero di risorse formative supera i 10 milioni.
 
-![Iscrizione report](assets/job-aids-2-new.png)
-*Risorse formative Seleziona una risorsa formativa*
+![registrazione report risorse formative](assets/job-aids-2-new.png)
+*Selezionare una risorsa formativa*
 
-**Report sulle risorse formative**
+**Report risorse formative**
 
 Se selezioni questa opzione, vengono scaricati i dettagli di tutte le risorse formative presenti nel sistema insieme ai relativi metadati e corsi di formazione.
 
@@ -543,7 +552,7 @@ Il report scaricato comprende i seguenti campi:
 * Tag
 * Abilità
 
-**Report di iscrizione utente Risorse formative**
+**Report di iscrizione utente risorse formative**
 
 Il report di iscrizione contiene dettagli sull’iscrizione degli utenti e altre informazioni.
 
@@ -591,24 +600,24 @@ Nella colonna **Tipo di modifica** verranno visualizzati i dettagli seguenti:
 | Tipo di modifica | Descrizione |
 | --- | --- |
 | Crea | Corso creato |
-| Aggiungi certificazione | Certificazione aggiunta al catalogo |
+| Aggiunta certificazione | Certificazione aggiunta al catalogo |
 | Rimozione certificazione | Certificazione rimossa dal catalogo |
-| Contenuto Aggiungi | Contenuto aggiunto al modulo |
-| Aggiungi corso | Corso aggiunto al percorso di apprendimento |
+| Aggiunta contenuto | Contenuto aggiunto al modulo |
+| Aggiunta corso | Corso aggiunto al percorso di apprendimento |
 | Rimozione corso | Corso rimosso dal percorso di apprendimento |
 | Aggiungi etichetta personalizzata | Etichetta personalizzata aggiunta al catalogo |
 | Rimozione etichetta personalizzata | Etichetta personalizzata rimossa dal catalogo |
 | Elimina | Catalogo eliminato |
 | Aggiungi risorsa formativa | Risorsa formativa aggiunta al catalogo |
-| Risorsa formativa Rimuovi | Risorsa formativa rimossa dal catalogo |
-| Percorso di apprendimento Aggiungi | Percorso di apprendimento aggiunto al catalogo |
-| Rimozione del percorso di apprendimento | Percorso di apprendimento rimosso dal catalogo |
+| Rimozione risorsa formativa | Risorsa formativa rimossa dal catalogo |
+| Aggiunta percorso di apprendimento | Percorso di apprendimento aggiunto al catalogo |
+| Rimozione percorso di apprendimento | Percorso di apprendimento rimosso dal catalogo |
 | Aggiunta contenuto modulo | Modulo aggiunto al corso (sezione Content) |
 | Rimozione contenuto modulo | Modulo rimosso dal corso (sezione Content) |
 | Pubblicato | Corso o percorso di apprendimento pubblicato e aggiunto al catalogo predefinito |
 | Ripubblicato | Corso ripubblicato |
 | Aggiunta risorsa | Risorsa aggiunta al corso |
-| Rimozione risorse | Risorsa rimossa dal corso |
+| Rimozione risorsa | Risorsa rimossa dal corso |
 | Ritirato | Corso ritirato |
 | Aggiunta catalogo condiviso | Catalogo condiviso nel catalogo |
 | Rimozione catalogo condiviso | Condivisione del catalogo rimossa dal catalogo |
@@ -632,11 +641,11 @@ Per generare un report di prova di verifica del corso, attieniti alla seguente p
 
 ### Report di prova di verifica dell’utente {#useraudittrailreports}
 
-La prova di verifica dell&#39;utente acquisisce il ciclo di vita di utenti, gruppi di utenti e profili di registrazione autonoma. L’aggiunta, l’eliminazione e la modifica dell’utente in Manager vengono acquisite. La creazione e l’eliminazione dei profili di registrazione autonoma vengono registrate. È inoltre possibile sospendere e riavviare la registrazione automatica.
+La prova di verifica dell’utente acquisisce il ciclo di vita di utenti, gruppi di utenti e profili di registrazione autonoma. L’aggiunta, l’eliminazione e la modifica dell’utente in Manager vengono acquisite. La creazione e l’eliminazione dei profili di registrazione autonoma vengono registrate. È inoltre possibile sospendere e riavviare la registrazione automatica.
 
 Sono inoltre disponibili le opzioni Aggiungi, Modifica, Disabilita, Sospendi e Riprendi per i profili esterni e Aggiungi, Elimina, Sospendi e Riprendi per la registrazione automatica. Vengono acquisiti anche i caricamenti di file CSV.
 
-1. Seleziona  **[!UICONTROL Report > report di Excel > Percorso]** utenti. Viene visualizzata la finestra di dialogo Prova di verifica dell&#39;utente.
+1. Seleziona **[!UICONTROL Report > Report Excel > Verifica utente]**. Viene visualizzata la finestra di dialogo Prova di verifica dell’utente.
 1. Viene visualizzata la finestra di dialogo Prova di verifica dell’utente. Seleziona l’intervallo di date nel menu a comparsa. Puoi scegliere di generare report per l’ultima settimana o l’ultimo mese oppure selezionare una data personalizzata.
 
    ![](assets/user-audit-trail.png)
@@ -663,13 +672,13 @@ Il report esportato conterrà i dati degli utenti che soddisfano entrambi i crit
 >
 >Quando un’abilità viene assegnata o rimossa, tale abilità assegnata o rimossa può essere monitorata nel Report di audit utente.
 
-### Report di configurazione dell&#39;estensione
+### Report di configurazione estensioni
 
-Questo rapporto fornisce informazioni sui dettagli di configurazione di tutte le estensioni native aggiunte, incluso il relativo stato di attivazione. Scopri come scaricare il report delle estensioni, consulta [Scaricare il report](native-extensibility.md#download-extension-report) delle estensioni.
+Questo report fornisce informazioni sui dettagli di configurazione di tutte le estensioni native aggiunte, incluso lo stato di attivazione. Scopri come scaricare il report dell&#39;estensione, consulta [Scarica report estensione](native-extensibility.md#download-extension-report).
 
 ### Report di attività xAPI
 
-Questo report fornisce i dati di tutte le istruzioni xAPI registrate e generate durante i moduli di attività xAPI.
+Questi report forniscono i dati di tutte le istruzioni xAPI registrate e generate durante i moduli di attività xAPI.
 
 Per scaricare questo report, effettua le seguenti operazioni:
 
@@ -721,15 +730,15 @@ Il report viene scaricato come file CSV. Il file contiene le seguenti colonne:
 * Email/UUID
 * Stato
 * Azione
-* Scambio ferroviario
+* Punti,
 * Punti di saldo
-* Regola/Compito
+* Regola/Attività
 * Sottoattività regola/attività,
 * Dettagli regola/attività
-* Digitare
-* Nome
-* Nome istanzaData raggiunta (fuso orario UTC)
-* Ora di inizio regola/attività
+* Tipo,
+* Nome,
+* Nome istanza Data acquisizione (fuso orario UTC)
+* Ora inizio regola/attività
 * Ora di fine regola/attività
 
 ### Report di iscrizione e annullamento dell’iscrizione {#enrollmentandunenrollmentreport}
@@ -1148,7 +1157,7 @@ Questo report sui gruppi di utenti consente di confrontare le prestazioni di un 
 
 Inoltre, puoi creare gruppi di utenti personalizzati mediante la funzione Aggiungi utenti/gruppi utenti in Learning Manager. Dopo aver creato i gruppi di utenti è possibile generare report per tali gruppi di utenti personalizzati con l’aiuto di un elenco di attributi come posizione, ramo.
 
-Nell&#39;asse x, scegli l&#39;opzione attributo utente e seleziona l&#39;attributo dal **menu a discesa di selezione** accanto ad esso. Per creare un report personalizzato per gruppo di utenti basato su questi attributi, devi anche scegliere il gruppo utenti appropriato nel filtro.
+Nell&#39;asse X, scegliere l&#39;opzione dell&#39;attributo utente e selezionare l&#39;attributo dall&#39;elenco a discesa **seleziona** accanto ad esso. Per creare un report gruppo di utenti personalizzato in base a questi attributi, è inoltre necessario scegliere il gruppo di utenti appropriato nel filtro.
 
 ## Visualizzazione dei report {#viewingreports}
 
@@ -1174,15 +1183,6 @@ Se più Manager ti inviano report, puoi visualizzare rapidamente i report per og
 >I valori Manager utilizzati per visualizzare il report sono temporanei. Questa visualizzazione del report non viene scaricata quando scegli l’opzione di download. Si tratta di una visualizzazione solo temporanea.
 
 ## Visualizza report corso {#viewcoursereports}
-
-### Genera report corso
-
->[!INFO]
->
->In questo corso imparerai come esportare i report del corso e configurare gli abbonamenti e-mail per tali report.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
-
-
-Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 Per visualizzare i report specifici per ciascun corso, procedi come indicato di seguito:
 
@@ -1243,7 +1243,7 @@ Durante la creazione di un account condiviso tra pari, se l’opzione Condividi 
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++Come condividere una dashboard personalizzata con un manager?
++++Come condividere una dashboard personalizzata con un Manager?
 
 Quando crei una dashboard, inserisci il nome e la descrizione. Per condividerla con i Manager, immetti il nome del Manager nel campo **[!UICONTROL Condividi con]**.
 
