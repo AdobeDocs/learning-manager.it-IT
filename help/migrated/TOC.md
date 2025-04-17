@@ -2,10 +2,10 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 83%
    * [Modifiche e deprecazioni delle API in Adobe Learning Manager](api-deprecations-list.md)
    * [Assegnazione di etichette bianche in Adobe Learning Manager](white-label.md)
    * [Documentazione API per l’interazione col lettore incorporato](/help/migrated/embedded-player-interaction.md)
-* Introduzione a {#get-started}
+* Guida introduttiva {#get-started}
    * [Guida introduttiva come Amministratore](administrators/feature-summary/getting-started-admin.md)
    * [Guida introduttiva come Autore](authors/feature-summary/getting-started-author.md)
    * [Guida introduttiva come Allievo](learners/feature-summary/getting-started-learner.md)
    * [Guida introduttiva per i Manager](managers/feature-summary/getting-started-manager.md)
    * [Guida introduttiva come Istruttore in Learning Manager](instructors/feature-summary/getting-started.md)
-* Amministratore {#admin}
+* l’Amministratore {#admin}
    * [Accesso utente](administrators/feature-summary/user-login.md)
    * [Aggiunta di utenti e creazione di gruppi di utenti](administrators/feature-summary/add-users-user-groups.md)
    * [Aggiungere aule](administrators/feature-summary/classroom.md)
@@ -87,7 +87,7 @@ ht-degree: 83%
    * [Esperienza senza accesso per gli Allievi](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programmi di apprendimento](administrators/feature-summary/learning-programs.md)
    * [Terminologia del prodotto](administrators/feature-summary/product-terminology.md)
-* Amministratore integrazione {#integration}
+* Amministratore dell’integrazione {#integration}
    * [Manuale di migrazione](integration-admin/feature-summary/migration-manual.md)
    * [Connettori Learning Manager](integration-admin/feature-summary/connectors.md)
    * [API senza accesso](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -160,7 +160,7 @@ ht-degree: 83%
    * [Domande frequenti per i Manager](managers/frequently-asked-questions-for-managers.md)
    * [Domande frequenti per gli Allievi](learners/frequently-asked-questions-for-learners.md)
    * [Nuovi annunci di Experience League](/help/migrated/new-experience-league-announcement.md)
-* Knowledge Base {#knowledge-base}
+* Knowledge base {#knowledge-base}
    * [Impossibile accedere a Learning Manager](kb/unable-log-in-learning-manager.md)
    * [In Riepilogo apprendimento non vengono visualizzati i dati correnti](kb/learning-summary-not-display-data.md)
    * [Impossibile caricare il file CSV](kb/unable-to-upload-csv.md)
