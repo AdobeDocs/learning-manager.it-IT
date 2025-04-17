@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Aggiunta di utenti e creazione di gruppi di utenti
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
+source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4305'
 ht-degree: 57%
 
 ---
@@ -110,7 +110,11 @@ Generalmente, la maggior parte delle organizzazioni lavora con un sistema di ges
 >
 >Per ulteriori informazioni, consulta le Domande frequenti, [Aggiunta di utenti in blocco](../add-users-in-bulk.md).
 
-Dopo aver selezionato gli utenti, puoi effettuare le seguenti operazioni:
+>[!INFO]
+>
+>In questo corso imparerai come aggiungere utenti in blocco tramite un file CSV.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 ## Registra un utente {#registerauser}
 
