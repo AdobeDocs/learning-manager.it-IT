@@ -4,7 +4,7 @@ title: Aggiunta di utenti in blocco
 description: Scopri come aggiungere più utenti alla volta.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 22%
@@ -13,9 +13,9 @@ ht-degree: 22%
 
 # Aggiunta di utenti in blocco
 
-In questo corso imparerai come aggiungere utenti in blocco tramite un file CSV.
-
-[![pulsante](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>In questo corso imparerai come aggiungere utenti in blocco tramite un file CSV.<br><br>[![pulsante](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
@@ -56,7 +56,7 @@ Prima di includere l’ID e-mail del Manager per qualsiasi dipendente, assicurat
 
 *Modello CSV per il caricamento*
 
-Inoltre, gli Amministratori di un’organizzazione possono aggiungersi come dipendenti e menzionare l’ID e-mail del proprio Manager come root.
+Inoltre, gli amministratori di un&#39;organizzazione possono aggiungere **se stessi** come dipendenti e menzionare l&#39;ID e-mail del proprio Manager come root.
 
 **File CSV di esempio**
 
