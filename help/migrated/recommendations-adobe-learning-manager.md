@@ -2,16 +2,16 @@
 title: Consigli in Adobe Learning Manager
 description: Il nucleo del motore di consigli è basato sul nuovo algoritmo di classificazione dei corsi di Learning Manager. L’algoritmo utilizza 50 milioni di punti dati e cinque anni di dati di apprendimento aggregati su milioni di utenti per classificare i corsi in base alla probabilità di iscrizione. Questa classificazione garantisce che la maggior parte dei corsi a cui è possibile effettuare l’iscrizione sia visualizzata in anticipo agli Allievi.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 58%
+source-wordcount: '1483'
+ht-degree: 57%
 
 ---
 
 # Consigli in Adobe Learning Manager
 
-Adobe Learning Manager ha introdotto un sistema nuovo e rinnovato di suggerimenti per i corsi. Questa funzione di consigli utilizza algoritmi di intelligenza artificiale e gli interessi degli utenti come Prodotti, Ruoli e Livelli per fornire consigli sui contenuti personalizzati.
+Adobe Learning Manager ha introdotto un sistema nuovo e rinnovato di suggerimenti per i corsi. Questa funzione di consigli utilizza algoritmi di intelligenza artificiale e gli interessi degli utenti come Prodotti, Ruoli e Livelli per fornire consigli sui contenuti personalizzati. Gli amministratori possono impostare il proprio account in base a Prodotti, Ruoli e Livelli.
 
 Il nuovo sistema di consigli ti consente di creare parametri personalizzati che gli allievi possono selezionare per ricevere consigli personalizzati. Questi consigli veranno visualizzati dagli Allievi come Corsi, Percorsi di apprendimento e Certificazioni nel loro feed della pagina principale.
 

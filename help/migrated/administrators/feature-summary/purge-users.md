@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rimuovere utenti
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '883'
+ht-degree: 72%
 
 ---
 
@@ -60,6 +60,10 @@ Per rimuovere gli utenti, effettua le seguenti operazioni:
    *Messaggio di conferma dopo la rimozione di un utente*
 
 1. Dopo aver confermato e fatto clic su Rimuovi, la richiesta di rimozione viene accettata. Una volta completata l’azione, riceverai una notifica. Viene fornito anche un ID di richiesta di rimozione. È possibile fornire questo ID al CSM per tenere traccia della richiesta.
+
+>[!NOTE]
+>
+>Una volta aggiunto nuovamente l’utente eliminato al sistema, i ruoli precedenti (ad esempio Amministratore, Manager, Autore, Istruttore ecc.) non verranno mantenuti.Verranno aggiunti con il ruolo di Allievo.
 
 ## Rimuovere gli utenti in blocco
 

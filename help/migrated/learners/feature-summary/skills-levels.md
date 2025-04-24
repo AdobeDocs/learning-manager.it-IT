@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Abilità e livelli
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 90%
+source-wordcount: '326'
+ht-degree: 86%
 
 ---
 
@@ -38,6 +38,10 @@ In questa pagina, puoi fare clic su ogni abilità per visualizzare i dati corris
 *Visualizza ogni abilità*
 
 Solo gli Amministratori possono creare e assegnare abilità agli Allievi. Gli Allievi vengono automaticamente assegnati all’abilità corrispondente ai programmi di apprendimento/corsi iscritti.
+
+>[!NOTE]
+>
+>Gli Allievi possono visualizzare le proprie abilità di livello pari solo in un’app classica.
 
 ## Ottieni abilità {#achieveskill}
 
