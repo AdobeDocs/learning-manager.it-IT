@@ -16,7 +16,7 @@ La procedura di invio dei ticket di supporto Adobe Learning Manager è ora diret
 
 L&#39;invio di un ticket di supporto è disponibile solo per i contatti del supporto autorizzati. Per eventuali domande di supporto, continuate a inviare i ticket di supporto a Adobe Learning Manager via e-mail fino all’11 maggio 2025. Dopo questa data, puoi inviare i ticket di supporto tramite il portale di supporto per Experienci League come descritto di seguito, oltre al canale e-mail esistente.
 
-1. Per accedere al portale del supporto, visita il sito Web **[!UICONTROL Experience League]** e seleziona la scheda **[!UICONTROL Supporto]** nella parte superiore della pagina. In alternativa, puoi visitare il [collegamento diretto](https://experienceleague.adobe.com/home#support).
+1. Per accedere al portale del supporto, visita il sito Web **[!UICONTROL Experience League]** e seleziona la scheda **[!UICONTROL Supporto]** nella parte superiore della pagina. In alternativa, puoi visitare il [collegamento diretto](https://experienceleague.adobe.com/home?lang=it#support).
 
    ![](assets/support.png)
    _Pagina principale del supporto_
