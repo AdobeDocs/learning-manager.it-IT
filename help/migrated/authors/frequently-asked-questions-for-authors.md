@@ -43,16 +43,16 @@ Puoi pubblicare il tuo progetto Captivate 9 completato in Adobe Learning Manager
 
 Per ulteriori informazioni, fai riferimento a [Adobe Learning Manager: Moduli Publish di Adobe Captivate 9](http://primehelp.adobe.com/it/publish-modules-from-adobe-captivate9/)video.
 
-Per una procedura dettagliata, è inoltre possibile fare riferimento al [contenuto della guida](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) di Adobe Captivate 9.
+Per una procedura dettagliata, è inoltre possibile fare riferimento al [contenuto della guida](http://helpx.adobe.com/it/captivate/using/publish-project-to-captivate-prime.html) di Adobe Captivate 9.
 
 Nota\
-Il [contenuto della guida](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) di Adobe Captivate 9 è esterno all’applicazione Guida di Learning Manager.
+Il [contenuto della guida](http://helpx.adobe.com/it/captivate/using/publish-project-to-captivate-prime.html) di Adobe Captivate 9 è esterno all’applicazione Guida di Learning Manager.
 
 +++
 
 +++Come scegliere i moduli del corso in Learning Manager?
 
-Fai clic [qui](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html) per informazioni su come scegliere i moduli del corso.
+Fai clic [qui](https://helpx.adobe.com/content/help/it/captivate-prime/authors/how-to-choose-modules.html) per informazioni su come scegliere i moduli del corso.
 
 +++
 
@@ -163,7 +163,7 @@ L’Autore può modificare la sequenza dei moduli trascinandoli. Può inoltre ob
 
 +++Come posso filtrare per visualizzare un set specifico di corsi?
 
-Puoi utilizzare l’opzione Filtra corsi per stato per filtrare i corsi. Per ulteriori informazioni, consulta [Come posso cercare i corsi?](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
+Puoi utilizzare l’opzione Filtra corsi per stato per filtrare i corsi. Per ulteriori informazioni, consulta [Come posso cercare i corsi?](https://helpx.adobe.com/content/help/it/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 

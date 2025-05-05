@@ -45,11 +45,11 @@ Il file badge.csv di Adobe Learning Manager consente di migrare i distintivi dai
 * externalBadgeId
 * externalBadgeProvider
 
-L’ID del badge esterno si riferisce all’ID del modello di badge nella piattaforma Creded e il provider del badge esterno è Creded. Aggiungi questi valori in badge.csv e segui i passaggi indicati nel [Manuale di migrazione](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) per migrare il file csv.
+L’ID del badge esterno si riferisce all’ID del modello di badge nella piattaforma Creded e il provider del badge esterno è Creded. Aggiungi questi valori in badge.csv e segui i passaggi indicati nel [Manuale di migrazione](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/migration-manual#migrationprocedure) per migrare il file csv.
 
 ## Creare un’abilità - Amministratore
 
-Una volta importato in Adobe Learning Manager, l’amministratore può creare questi distintivi come un’abilità. Per informazioni su come creare un’abilità, consulta [Creare e modificare abilità](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels).
+Una volta importato in Adobe Learning Manager, l’amministratore può creare questi distintivi come un’abilità. Per informazioni su come creare un’abilità, consulta [Creare e modificare abilità](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/skills-levels).
 
 ### Assegnare l’abilità/badge all’oggetto di apprendimento: Autore
 

@@ -18,7 +18,7 @@ Il progetto aderisce al [Codice di condotta](code-of-conduct.md) di Adobe. Parte
 
 ## Documentazione della Guida per gli autori
 
-Visualizza la [Guida per gli autori](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Visualizza la [Guida per gli autori](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 ## Hai Una Domanda?
 
@@ -44,4 +44,4 @@ Ci piacciono i contributi della nostra community! Se desideri andare oltre l&#39
 
 ## Problemi di sicurezza
 
-I problemi di sicurezza non devono essere segnalati su questo tracciatore dei problemi. Al contrario, [segnalare un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/security/alertus.html)
+I problemi di sicurezza non devono essere segnalati su questo tracciatore dei problemi. Al contrario, [segnalare un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/it/security/alertus.html)
