@@ -105,15 +105,15 @@ Questo documento contiene suggerimenti di base per risolvere alcuni dei problemi
 1. Per aprire la finestra di dialogo **Vai alla cartella**, premi i tasti **Comando + Maiusc + G**.
 1. Digita &quot;**/var/folders**&quot; (senza virgolette) e premi Invio.
 1. Cerca &quot;**elthor**&quot; nella barra di ricerca e apri la cartella.
-1. Ordinare le cartelle in base alla ** **Data di modificae aprire la cartella più recente. Questa cartella contiene i registri dell&#39;applicazione più recenti.
+1. Ordinare le cartelle in base alla **&#x200B; **&#x200B;Data di modificae aprire la cartella più recente. Questa cartella contiene i registri dell&#39;applicazione più recenti.
 
 ## Come abilitare la registrazione avanzata? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. Per aprire la finestra di dialogo Esegui, premi **il tasto Windows + R**.****
-1. Digita &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (senza virgolette) e premi Invio.****
-1. Esegui un backup del file **preferences.json** e aprilo in un editor di testo.****
+1. Per aprire la finestra di dialogo Esegui, premi **il tasto Windows + R**.**&#x200B;**
+1. Digita &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (senza virgolette) e premi Invio.**&#x200B;**
+1. Esegui un backup del file **preferences.json** e aprilo in un editor di testo.**&#x200B;**
 1. Cercare la chiave **debugMode** e modificare la proprietà del valore di questa chiave in &quot;**true**&quot; (senza virgolette).
 
 ### Mac OS X {#MacOSX-2}

@@ -160,7 +160,7 @@ Per ulteriori informazioni, consulta la funzionalità [distintivi](feature-summa
 
 +++Che cos&#39;è un programma di apprendimento?
 
-I programmi di apprendimento sono un set di corsi progettati specificatamente per soddisfare specifici obiettivi di apprendimento. Solo gli amministratori possono creare programmi di apprendimento per gli Allievi. Quando un Amministratore assegna un’istanza del programma di apprendimento agli Allievi, questi vedono che **programma **nella scheda Programmi. Gli Allievi possono inoltre visualizzare e iscriversi a tutti i programmi di apprendimento del tipo registrazione autonoma.
+I programmi di apprendimento sono un set di corsi progettati specificatamente per soddisfare specifici obiettivi di apprendimento. Solo gli amministratori possono creare programmi di apprendimento per gli Allievi. Quando un Amministratore assegna un’istanza del programma di apprendimento agli Allievi, questi vedono che **programma &#x200B;** nella scheda Programmi. Gli Allievi possono inoltre visualizzare e iscriversi a tutti i programmi di apprendimento del tipo registrazione autonoma.
 
 Per iniziare il programma di apprendimento, fai clic sul programma a te assegnato. Puoi visualizzare le informazioni dettagliate di tale particolare programma.
 

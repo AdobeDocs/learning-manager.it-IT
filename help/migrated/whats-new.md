@@ -228,7 +228,7 @@ La colonna della cartella utilizza il tipo di dati stringa ed è facoltativa. Di
 * Se aggiungi un nuovo nome di cartella per un modulo già presente in un’altra cartella, il nuovo valore non sovrascriverà né sostituirà la cartella assegnata. Il modulo verrà aggiunto alla nuova cartella e rimarrà disponibile anche nella cartella esistente.
 * Se il valore è vuoto, per impostazione predefinita la cartella sarà **[!UICONTROL Pubblica]**.
 
-Per ulteriori informazioni, fai riferimento al file della specifica ](assets/4-module_version.xlsx) di [module_version_csv.
+Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/4-module_version.xlsx) di module_version_csv.
 
 ### Modifiche alla migrazione dei moduli - Criteri di completamento
 
@@ -258,7 +258,7 @@ Di seguito sono riportate le condizioni per le nuove colonne:
    * Il tipo di dati deve essere una stringa e i valori supportati sono `QUIZ_ATTEMPTED`, `QUIZ_PASSED` e `QUIZPASSED_OR_LIMITREACHED`.
    * Quando `completionCriteria` è impostato su `QUIZ`, immetti il valore del quiz appropriato nella colonna `quizData`.
 
-Per ulteriori informazioni, fai riferimento al file della specifica ](assets/4-module_version.xlsx) di [module_version_csv.
+Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/4-module_version.xlsx) di module_version_csv.
 
 ### Modifiche nella migrazione del corso - Criteri di completamento
 

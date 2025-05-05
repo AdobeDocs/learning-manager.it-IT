@@ -193,7 +193,7 @@ Nell&#39;angolo superiore destro della pagina, fai clic su **[!UICONTROL Aggiung
 ![](assets/self-registration.png)
 *Crea collegamento per l’iscrizione autonoma come Allievo*
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL  Aggiungi profilo di registrazione autonoma]**. Assegna un nome a questo profilo. Quindi aggiungi il nome del Manager. È importante sapere che il Manager deve già essere registrato come Allievo in Learning Manager.
+Viene visualizzata la finestra di dialogo **[!UICONTROL Aggiungi profilo di registrazione autonoma]**. Assegna un nome a questo profilo. Quindi aggiungi il nome del Manager. È importante sapere che il Manager deve già essere registrato come Allievo in Learning Manager.
 
 ![](assets/add-self-registrationprofile.png)
 *Aggiungere un profilo per la registrazione autonoma*

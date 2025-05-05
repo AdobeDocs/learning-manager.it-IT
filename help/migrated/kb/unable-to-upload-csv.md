@@ -76,7 +76,7 @@ Questo problema si verifica se un utente è già presente nel sistema con lo ste
 In questo scenario, l’errore può essere dovuto a due motivi:
 
 1. L’utente che stai tentando di aggiungere è un Manager di un profilo esterno. Per risolvere questo problema, apri il profilo esterno di cui fa parte l’utente, selezionalo, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Assegna ruolo]** > **[!UICONTROL Manager]** e modifica il Manager del profilo.
-1. L’utente che stai tentando di aggiungere è stato eliminato. In questo scenario, non potrai aggiungere l’utente con lo stesso indirizzo e-mail fino al completamento del processo di rimozione. Come soluzione alternativa**, a**ggiungi all’utente un indirizzo e-mail secondario per fornire accesso alla piattaforma. Una volta completata la procedura di eliminazione, modifica l’utente e modifica l’indirizzo e-mail con l’indirizzo e-mail corretto.
+1. L’utente che stai tentando di aggiungere è stato eliminato. In questo scenario, non potrai aggiungere l’utente con lo stesso indirizzo e-mail fino al completamento del processo di rimozione. Come soluzione alternativa&#x200B;**, a**&#x200B;ggiungi all’utente un indirizzo e-mail secondario per fornire accesso alla piattaforma. Una volta completata la procedura di eliminazione, modifica l’utente e modifica l’indirizzo e-mail con l’indirizzo e-mail corretto.
 
 ### Scenario 2
 

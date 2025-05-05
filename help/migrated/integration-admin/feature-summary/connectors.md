@@ -1159,7 +1159,7 @@ Una volta stabilita la connessione, puoi mappare le colonne dei file CSV che si 
 
 +++
 
-Report di attività +++xAPI
++++Report di attività xAPI
 
 L’opzione Report di attività xAPI consente di generare l’importazione di istruzioni xAPI dai servizi di terze parti. I file vengono salvati come file .CSV e poi convertiti in istruzioni xAPI durante l’importazione in Learning Manager.
 

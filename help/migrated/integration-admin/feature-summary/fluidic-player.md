@@ -19,7 +19,7 @@ Leggi questo articolo per scoprire come incorporare il lettore Fluidic in un’a
 
 In quanto azienda, è ora possibile offrire un’esperienza personalizzata agli Allievi anche al di fuori di Learning Manager. Utilizzando l’API pubblica, è possibile recuperare tutte le informazioni relative agli oggetti di apprendimento, alle iscrizioni degli Allievi e all’avanzamento dell’apprendimento e visualizzarle sul sito Web. E cosa ancora più importante, è possibile incorporare il lettore Fluidic di Learning Manager nel sito Web, in modo che l’utente possa utilizzare il contenuto direttamente nel sito Web. Il lettore Fluidic consente di riprodurre qualsiasi contenuto supportato da Learning Manager. Quando viene incorporato nel tuo sito Web, ha le stesse funzionalità di quando viene utilizzato in Learning Manager.
 
-**Riproduci qualsiasi contenuto di eLearning[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Riproduci qualsiasi contenuto di eLearning[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Il lettore Fluidic riproduce praticamente qualsiasi tipo di contenuto di eLearning in modo coerente e intuitivo senza richiedere plug-in o download. L’Allievo può avviare il contenuto e, indipendentemente dal tipo di file contenuto, inizia la riproduzione.
 
@@ -31,7 +31,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta [Lettore Fluidic](../..
 
 Ecco alcuni esempi di come è possibile utilizzare il lettore Fluidic incorporabile.
 
-* Puoi utilizzare il lettore Fluidic incorporabile nel tuo sito Web** **per elencare i corsi a cui sono iscritti i dipendenti e fornire anche un collegamento per avviare una formazione nella stessa pagina. Ciò significa che gli Allievi possono seguire i corsi di formazione sul sito Web Intranet.
+* Puoi utilizzare il lettore Fluidic incorporabile nel tuo sito Web **&#x200B; **&#x200B;per elencare i corsi a cui sono iscritti i dipendenti e fornire anche un collegamento per avviare una formazione nella stessa pagina. Ciò significa che gli Allievi possono seguire i corsi di formazione sul sito Web Intranet.
 
 * Se sei impegnato nel settore della formazione, potresti avere un sito Web in cui i clienti possono acquistare corsi. È possibile integrare il lettore incorporabile con lo stesso sito Web in modo che i clienti possano utilizzare i contenuti acquistati all’interno del sito Web.
 
@@ -78,8 +78,8 @@ client_id= <application_id>
 Qui **[!UICONTROL ID client]** è l&#39;ID applicazione ottenuto al passaggio 1.
 **[!UICONTROL redirect_url]** è il redirect_url impostato nel passaggio 1.
 **[!UICONTROL state]** è qualsiasi dato fittizio in base al quale dobbiamo filtrare l&#39;URL di reindirizzamento per ottenere il codice OAuth. L’ambito è l’ambito Allievo impostato nel passaggio 1.
-**[!UICONTROL response_typ]**e è sempre &quot;CODE&quot;.\
-**[!UICONTROL account]**è un campo facoltativo\
+**[!UICONTROL response_typ]**&#x200B;e è sempre &quot;CODE&quot;.\
+**[!UICONTROL account]**&#x200B;è un campo facoltativo\
 **[!UICONTROL email]** è un campo facoltativo\
 &#42; Se vengono forniti sia l&#39;ID sia l&#39;indirizzo e-mail, l&#39;URL precedente consentirà all&#39;utente di accedere allo stesso account. Questo esempio di endpoint è rappresentato nel file &quot;index.html&quot; nell’applicazione di esempio.
 
@@ -92,8 +92,8 @@ Una volta ricevuto il codice OAuth, è possibile recuperare il token di aggiorna
 Come risposta alla tua richiesta post, riceverai quanto segue:
 
 i. refresh_token\
-2. access_token\
-3. user_id\
+&#x200B;2. access_token\
+&#x200B;3. user_id\
 iv. expres_in\
 v. user_role\
 vi. account_id
@@ -106,8 +106,8 @@ Per recuperare il token di accesso, invia un’altra richiesta con refresh_token
 
 Come risposta alla tua richiesta post, riceverai quanto segue:\
 i. refresh_token\
-2. access_token\
-3. user_id\
+&#x200B;2. access_token\
+&#x200B;3. user_id\
 iv. expres_in\
 v. user_role\
 vi. account_id

@@ -547,7 +547,7 @@ Segui questi passaggi per aggiungere commenti di completamento:
 2. Passa alla pagina **[!UICONTROL Corsi]** e seleziona un corso.
 3. Seleziona **[!UICONTROL Allievi]** nella pagina del corso.
 4. Scegli il singolo Allievo o più Allievi.
-5. Seleziona **[!UICONTROL Azioni]**, quindi seleziona**[!UICONTROL  Contrassegna completamento]**.
+5. Seleziona **[!UICONTROL Azioni]**, quindi seleziona&#x200B;**[!UICONTROL &#x200B; Contrassegna completamento]**.
 6. Immetti il commento di completamento nella finestra di dialogo.
 
    ![](assets/comments.png)

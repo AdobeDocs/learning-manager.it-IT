@@ -65,7 +65,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Come autore, ora puoi scegliere il modulo xAPI durante la creazione di corsi per monitorare l’esperienza degli utenti al di fuori di Learning Manager. Ad esempio, è possibile utilizzare questa funzione per valutare le attività degli utenti su una piattaforma di terze parti utilizzata per usufruire del corso.
 
-1. Durante la creazione di un **[!UICONTROL modulo attività]**, nell&#39;opzione **[!UICONTROL Tipo]**utilizzare il menu a comparsa per selezionare **[!UICONTROL modulo basato su xAPI.]**
+1. Durante la creazione di un **[!UICONTROL modulo attività]**, nell&#39;opzione **[!UICONTROL Tipo]**&#x200B;utilizzare il menu a comparsa per selezionare **[!UICONTROL modulo basato su xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 

@@ -301,7 +301,7 @@ Il connettore getAbstract può essere utilizzato dai clienti enterprise di getAb
 
    Per consentire la corretta esecuzione di qualsiasi tipo di sincronizzazione, devi assicurarti che nella cartella FTP getAbstract sia presente il feed dell’utente per le date specificate nella sincronizzazione.
 
-   Consulta il foglio di calcolo Excel riportato di seguito, che è un file di esempio di un feed utente di getAbstract. Il nome del file deve seguire il formato:** report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.
+   Consulta il foglio di calcolo Excel riportato di seguito, che è un file di esempio di un feed utente di getAbstract. Il nome del file deve seguire il formato:**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.
    [foglio Excel di esempio del feed utente getAbstract](assets/report-export-20170401175342.xlsx)
 
 ## Connettore Harvard ManageMentor {#hmmconnector}

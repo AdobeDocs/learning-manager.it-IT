@@ -197,7 +197,7 @@ Per modificare o eliminare un file dalla galleria, fai clic sui tre punti nella 
 
 Le notifiche in Learning Manager vengono visualizzate nella finestra delle notifiche anche se l’Allievo non ha effettuato l’accesso all’applicazione Web Learning Manager. Le notifiche includono post o bacheche creati o seguiti dagli utenti o a cui gli utenti hanno partecipato. Facendo clic sulla notifica, l’utente accede al Web di Apprendimento sociale di Learning Manager.
 
-Per disattivare l&#39;audio delle notifiche, fare clic sul menu **[!UICONTROL Profilo*]* > **[!UICONTROL Impostazioni] > **[!UICONTROL Disattiva audio notifiche]**.
+Per disattivare l&#39;audio delle notifiche, fare clic sul menu **[!UICONTROL Profilo*]* > &#x200B;** [!UICONTROL Impostazioni] > **[!UICONTROL Disattiva audio notifiche]**.
 
 ## Impostazioni dell’applicazione desktop Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
 

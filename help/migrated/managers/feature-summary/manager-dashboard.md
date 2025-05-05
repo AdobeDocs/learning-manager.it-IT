@@ -232,7 +232,7 @@ Per prevedere la % di completamento di un’abilità da parte del team, procedi 
 
    *Selezionare il collegamento ipertestuale Configura*
 
-1. Dalla finestra di dialogo di configurazione a comparsa, inserisci un valore percentuale per l’abilità che desideri configurare nel campo **% di completamento prevista** e la data entro la quale desideri venga raggiunta la % di completamento stabilita nel campo **Data stabilita**.****
+1. Dalla finestra di dialogo di configurazione a comparsa, inserisci un valore percentuale per l’abilità che desideri configurare nel campo **% di completamento prevista** e la data entro la quale desideri venga raggiunta la % di completamento stabilita nel campo **Data stabilita**.**&#x200B;**
 
    ![](assets/configure-tracker.png)
 

@@ -189,7 +189,7 @@ Ad esempio, userId può essere 746783 e ID userSkills 746783_4426_1.
 
 L’API di Learning Manager consente agli sviluppatori di accedere agli oggetti di Learning Manager come risorse RESTful. Ogni endpoint API rappresenta una risorsa, in genere un’istanza di oggetto come un Badge o una raccolta di tali oggetti. Gli sviluppatori quindi utilizzano i verbi HTTP quali PUT, GET, POST e DELETE per eseguire le operazioni CRUD su tali oggetti (raccolte).
 
-API +++V1
++++API V1
 
 Nel diagramma seguente sono riportati i vari elementi del modello a oggetti di Learning Manager nell’API V1.
 
@@ -370,7 +370,7 @@ La tabella seguente descrive vari elementi del modello a oggetti V1 di Learning 
 
 +++
 
-API +++V2
++++API V2
 
 Di seguito sono riportati i vari elementi del diagramma della classe di Learning Manager nell’API V2.
 

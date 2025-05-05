@@ -257,7 +257,7 @@ Solo gli Amministratori e i Manager possono creare o visualizzare report. Per ul
 Manager, Autori e Allievi possono visualizzare le notifiche in base alle attività del corso. Per attivare/disattivare le notifiche per tutti gli utenti, l’Amministratore deve procedere come segue:
 
 1. Fai clic su Modelli e-mail nel riquadro a sinistra e scegli le schede Generale, Iscrizioni utenti, Completamenti e Feedback.
-1. Dagli eventi elencati di seguito, fare clic sui pulsanti di attivazione No/Sì accanto a **ogni evento **e scegliere Sì per attivare la notifica. Per disattivare l’invio di notifiche per un evento specifico, fare clic su No.
+1. Dagli eventi elencati di seguito, fare clic sui pulsanti di attivazione No/Sì accanto a **ogni evento &#x200B;** e scegliere Sì per attivare la notifica. Per disattivare l’invio di notifiche per un evento specifico, fare clic su No.
 
 +++
 
