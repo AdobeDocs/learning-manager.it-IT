@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporti
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7809'
 ht-degree: 52%
 
 ---
@@ -418,10 +418,6 @@ Di seguito sono riportati i tipi di report disponibili per il download.
 * Report di accesso
 * Trascrizioni gamification
 * Prova di verifica della gamification
-
-### Trascrizioni Allievi {#learnertranscripts}
-
-Le trascrizioni degli allievi nei report Excel mostrano le colonne Crediti richiesti e Crediti guadagnati in numeri decimali.
 
 ### Report corso {#coursereports}
 
