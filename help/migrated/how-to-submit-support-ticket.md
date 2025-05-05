@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Come inviare un ticket di supporto su Experience League
 description: Scopri come inviare una richiesta di supporto su Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: b69859161476a5ba56baa5b4447aec759c1a7736
+source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 0%
@@ -16,7 +16,7 @@ La procedura di invio dei ticket di supporto Adobe Learning Manager è ora diret
 
 L&#39;invio di un ticket di supporto è disponibile solo per i contatti del supporto autorizzati. Per eventuali domande di supporto, continuate a inviare i ticket di supporto a Adobe Learning Manager via e-mail fino all’11 maggio 2025. Dopo questa data, puoi inviare i ticket di supporto tramite il portale di supporto per Experienci League come descritto di seguito, oltre al canale e-mail esistente.
 
-1. Per accedere al portale del supporto, visita il sito Web **[!UICONTROL Experience League]** e seleziona la scheda **[!UICONTROL Supporto]** nella parte superiore della pagina. In alternativa, puoi visitare il [collegamento diretto](https://experienceleague.adobe.com/home?lang=it#support).
+1. Per accedere al portale del supporto, visita il sito Web **[!UICONTROL Experience League]** e seleziona la scheda **[!UICONTROL Supporto]** nella parte superiore della pagina. In alternativa, puoi visitare il [collegamento diretto](https://experienceleague.adobe.com/home#support).
 
    ![](assets/support.png)
    _Pagina principale del supporto_
@@ -59,3 +59,4 @@ Affinché il team di supporto possa gestire le richieste di assistenza nel modo 
 Se hai altre domande su come utilizzare il portale **[!UICONTROL Supporto Experience League]**, ti preghiamo di farcelo sapere nella sezione dei commenti di seguito, oppure contatta direttamente il nostro team di supporto a questo indirizzo e-mail [almdynsupp@adobe.com](mailto:almdynsupp@adobe.com).
 
 Per aggiungere un contatto autorizzato in grado di aprire i ticket di supporto tramite l&#39;Experience League (EXL), visitare la pagina [http://licensing.adobe.com](http://licensing.adobe.com).
+
