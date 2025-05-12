@@ -2,10 +2,11 @@
 jcr-language: en_us
 title: Lingue supportate in Adobe Learning Manager
 description: Esplorate le lingue dell'interfaccia e dei contenuti supportate in Adobe Learning Manager (ALM)
-source-git-commit: d82d408cbe33ecfb099aa0c7677b0960f80991ef
+exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 50%
+source-wordcount: '261'
+ht-degree: 49%
 
 ---
 
@@ -81,4 +82,10 @@ Adobe Learning Manager supporta le seguenti lingue per l’interfaccia e i conte
 | Bulgaro | - | bg |
 | Olandese (Belgio) | - | nl-be |
 | Portoghese Portogallo | - | pt-PT |
+| Cinese (tradizionale, Hong Kong) | - | zh-HK |
+| Norvegese Bokmål | - | nb-NO |
+| Tamil | - | ta-IN |
+| Telugu | - | te-IN |
+| Kannada | - | kn-IN |
+| Malayalam | - | ml-IN |
 

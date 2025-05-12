@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '5153'
-ht-degree: 58%
+source-wordcount: '5674'
+ht-degree: 52%
 
 ---
 
@@ -239,13 +239,79 @@ Il report contiene i dati degli utenti attivi, eliminati e sospesi se sono in at
 
 Se un Allievo che era in attesa di approvazione si disiscrive, il suo resoconto non sarà presente nel report. Se un Allievo che era in attesa di approvazione viene iscritto al corso da un Amministratore/Manager/Amministratore personalizzato, il suo resoconto sarà presente nel report.
 
+## Gestire in blocco l’iscrizione, la partecipazione e il completamento degli allievi {#bulk-enrollment}
+
+Grazie alla funzione di iscrizione in blocco di Adobe Learning Manager, gli Amministratori possono iscrivere in modo efficiente gruppi di Allievi a corsi, certificazioni o programmi di apprendimento caricando un file CSV. Questo processo consente di risparmiare tempo, garantisce coerenza e supporta la scalabilità dell&#39;organizzazione. Inoltre, gli amministratori e gli istruttori possono aggiornare le informazioni degli Allievi, la partecipazione e i completamenti in blocco mediante il caricamento di file CSV, riducendo al minimo il lavoro manuale e garantendo l’accuratezza dei dati.
+
+Puoi utilizzare lo stesso formato di file CSV per l’iscrizione, la partecipazione e il completamento. È sufficiente immettere gli ID e-mail degli Allievi nella colonna &quot;E-mail&quot; e salvare il file con un nome basato sull’azione, ad esempio bulk_enrollment.csv, bulk_attendance.csv o bulk_completion.csv. È supportato solo il formato CSV. Formato UTF-8 non supportato. Scarica il file CSV di esempio [qui](assets/Sample-Bulk-Action-CSV.csv).
+
+### Iscrizione di allievi in blocco tramite un file CSV
+
+Invece di aggiungere gli Allievi uno alla volta, gli Amministratori possono iscrivere fino a 100.000 utenti contemporaneamente caricando un file CSV. Il file deve includere una colonna con etichetta **userEmail** con gli indirizzi e-mail degli Allievi da iscrivere.
+
+Per iscrivere gli Allievi in blocco mediante CSV:
+
+1. Accedi come Amministratore.
+2. Seleziona un corso dalla sezione **[!UICONTROL Corsi]**.
+3. Seleziona **[!UICONTROL Allievi]** nella pagina **[!UICONTROL Panoramica del corso]**.
+4. Seleziona **[!UICONTROL Registra]**, quindi seleziona **[!UICONTROL Carica un file CSV]**.\
+   ![](assets/upload-a-csv-learners.png)
+   _Iscrizione dell’Allievo tramite il caricamento di file CSV_
+5. Carica un file CSV e seleziona **[!UICONTROL Procedi]**.
+
+Il file CSV include una colonna con l’etichetta &quot;E-mail utente&quot;. Immetti gli indirizzi e-mail dei tuoi utenti in questa colonna.
+
+### Contrassegnare il completamento di un corso in blocco
+
+Gli Amministratori possono contrassegnare rapidamente i completamenti del corso per più Allievi contemporaneamente caricando un file CSV con i loro indirizzi e-mail. Ciò consente di risparmiare tempo rispetto all’aggiornamento individuale di ciascun allievo. La colonna UserEmail del file CSV mostra gli Allievi da aggiornare. Puoi contrassegnare fino a 10.000 Allievi come completi in un unico caricamento.
+
+Per contrassegnare il completamento in blocco:
+
+1. Seleziona un corso dalla sezione **[!UICONTROL Corsi]**.
+2. Seleziona **[!UICONTROL Allievi]** nella pagina **[!UICONTROL Panoramica del corso]**.
+3. Selezionare **[!UICONTROL Azioni]** e quindi **[!UICONTROL Contrassegna completamento]**.
+4. Seleziona **[!UICONTROL In blocco]**.
+5. Carica un file CSV con una colonna UserEmail che elenca gli Allievi che hanno completato il corso.
+
+   ![](assets/bulk-completion.png)
+   _Contrassegno del completamento in blocco mediante CSV_
+
+### Contrassegna la partecipazione in modalità collettiva
+
+Gli Amministratori possono contrassegnare la partecipazione di più Allievi contemporaneamente utilizzando una funzione di partecipazione in blocco. Anziché aggiornare singolarmente la partecipazione di ogni Allievo, gli Amministratori possono caricare un file CSV contenente gli indirizzi e-mail degli Allievi. La colonna userEmail nel CSV identifica la partecipazione degli Allievi da registrare. Questo processo può gestire fino a 10.000 Allievi in un unico caricamento, rendendo il contrassegno di partecipazione più veloce ed efficiente.
+
+Per contrassegnare la partecipazione in blocco:
+
+1. Seleziona un corso dalla sezione **[!UICONTROL Corsi]**.
+2. Seleziona **[!UICONTROL Frequenza e punteggio]** nella pagina **[!UICONTROL Panoramica del corso]**.
+3. Seleziona **[!UICONTROL Azioni]**, quindi seleziona **[!UICONTROL Contrassegna come partecipazione in blocco]**.
+4. Carica un file CSV che include una colonna userEmail con gli indirizzi e-mail degli Allievi di cui desideri aggiornare la partecipazione.
+
+   ![](assets/mark-bulk-attendance.png)
+   _Contrassegno della partecipazione in blocco tramite CSV_
+
+>[!NOTE]
+>
+>Puoi contrassegnare la partecipazione per un massimo di 10.000 utenti in blocco utilizzando CSV.
+
+### Errori comuni di caricamento dei file CSV
+
+* L’e-mail dell’Allievo nel file CSV non esiste nella directory utente di Adobe Learning Manager.
+* Il formato del file non è corretto.
+* Il file contiene colonne aggiuntive o dati non validi.
+
+![](assets/error-bulk.png)
+_Notifica di errore_
+
+Puoi scaricare e visualizzare il file CSV che elenca gli errori con gli utenti con errori a livello di riga per una facile identificazione.
+
 ## Lista d’attesa
 
 La sezione della lista d’attesa consente agli Allievi di essere inseriti in lista d’attesa per i corsi in aula quando i posti sono limitati, in base all’ordine di iscrizione. Gli Amministratori possono gestire questa operazione selezionando gli Allievi nella lista d’attesa e assegnando posti oltre il limite iniziale. Una volta che l’Amministratore ha assegnato un posto, l’Allievo è immediatamente iscritto al corso.
 
 ### Report lista d’attesa
 
-Adobe Learning Manager consente agli amministratori di scaricare l’elenco degli Allievi in lista d’attesa per tutte le istanze di un corso. Gli amministratori possono accedere a questo report dalla sezione In lista d’attesa nella pagina **[!UICONTROL Panoramica del corso]**.
+Adobe Learning Manager consente agli Amministratori di scaricare l’elenco degli Allievi in lista d’attesa per tutte le istanze di un corso. Gli amministratori possono accedere a questo report dalla sezione Lista d’attesa nella pagina **[!UICONTROL Panoramica del corso]**.
 
 Seguire le colonne disponibili nel report Lista d&#39;attesa:
 
@@ -352,7 +418,7 @@ In questa versione di Learning Manager, l’Amministratore può inviare feedback
 
 I report dei quiz consentono di valutare le prestazioni di un Allievo che ha completato un programma di apprendimento o un corso.
 
-Learning Manager a oggi facilita l’apprendimento in 13 lingue di interfaccia e 32 lingue di contenuti. Sebbene questa opzione sia su misura degli Allievi e permetta di supportare gli Allievi di tutto il mondo, è difficile per gli Amministratori recuperare i report forniti in varie lingue.
+Learning Manager a oggi facilita l’apprendimento in 13 lingue di interfaccia e 32 lingue di contenuti. Sebbene questa opzione sia di facile utilizzo e permetta di supportare gli Allievi di tutto il mondo, è difficile per gli Amministratori recuperare i report tentati in varie lingue.
 
 I report dei quiz visualizzano i dati in lingue diverse purché il corso sia disponibile in più lingue. Finora, i report generati dall’Amministratore mostravano le risposte una sotto l’altra, indipendentemente dalla lingua in cui il quiz veniva tentato. **Ad esempio**, se un utente avesse fatto un quiz in olandese, l’Amministratore sarebbe stato in grado di visualizzare solo i report dei quiz svolti dagli utenti in olandese. L’Amministratore che aveva selezionato l’inglese come lingua di interfaccia non era in grado di visualizzare contemporaneamente i report per tutti gli utenti, indipendentemente dalla lingua scelta.
 
@@ -445,7 +511,7 @@ Puoi visualizzare il feedback L1 fornito dagli Allievi per un corso e il feedbac
 
 ## Forum di discussione
 
-La funzione Forum di discussione consente agli Allievi di visualizzare le discussioni del corso. In qualità di amministratore, puoi eliminare eventuali commenti in base alle esigenze. Gli amministratori possono abilitare questa opzione nelle impostazioni del corso.
+La funzione Forum di discussione consente agli Allievi di visualizzare le discussioni del corso. In qualità di amministratore, puoi eliminare eventuali commenti in base alle esigenze. Gli Amministratori possono abilitare questa opzione nelle impostazioni del corso.
 
 ## Moderazione del corso {#coursemoderation}
 
@@ -537,7 +603,7 @@ Per inviare le notifiche e-mail, l’Amministratore deve scegliere esplicitament
 
 ## Commenti di completamento
 
-Gli amministratori possono lasciare commenti quando contrassegnano un Allievo come completo per corsi, percorsi di apprendimento o certificazioni. Questi commenti aiutano a scopi di conformità e di auditing. Gli amministratori possono aggiungere facilmente commenti per uno o più Allievi contemporaneamente.
+Gli Amministratori possono lasciare commenti quando contrassegnano un Allievo come completo per corsi, percorsi di apprendimento o certificazioni. Questi commenti aiutano a scopi di conformità e di auditing. Gli Amministratori possono aggiungere facilmente commenti per uno o più Allievi contemporaneamente.
 
 ### Aggiungi commenti di completamento
 
@@ -547,7 +613,7 @@ Segui questi passaggi per aggiungere commenti di completamento:
 2. Passa alla pagina **[!UICONTROL Corsi]** e seleziona un corso.
 3. Seleziona **[!UICONTROL Allievi]** nella pagina del corso.
 4. Scegli il singolo Allievo o più Allievi.
-5. Seleziona **[!UICONTROL Azioni]**, quindi seleziona&#x200B;**[!UICONTROL &#x200B; Contrassegna completamento]**.
+5. Seleziona **[!UICONTROL Azioni]**, quindi seleziona**[!UICONTROL  Contrassegna completamento]**.
 6. Immetti il commento di completamento nella finestra di dialogo.
 
    ![](assets/comments.png)

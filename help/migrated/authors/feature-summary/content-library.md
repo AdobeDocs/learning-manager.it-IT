@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '3572'
-ht-degree: 49%
+source-wordcount: '4319'
+ht-degree: 39%
 
 ---
 
@@ -196,13 +196,13 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
   Puoi anche aggiungere contenuto HTML generato da Captivate, Presenter o Presenter Video Express.
 
-1. Learning Manager supporta i sottotitoli per i contenuti video caricati in Learning Manager. Ora gli Autori possono caricare il file contenente i sottotitoli insieme al file video.
+1. Adobe Learning Manager supporta i sottotitoli per i contenuti video caricati in Adobe Learning Manager. Ora gli Autori possono caricare il file contenente i sottotitoli insieme al file video.
 
    Gli studenti possono quindi visualizzare le didascalie durante la riproduzione del modulo video.
 
    Il formato supportato è [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
-   Il supporto delle didascalie è disponibile per i contenuti video caricati in Libreria dei contenuti di Learning Manager.
+   Il supporto per sottotitoli è disponibile per i contenuti video caricati nella Libreria dei contenuti di Adobe Learning Manager.
 
    In qualità di autore, quando caricherai un contenuto video o audio, puoi anche caricare il file VTT che contiene i sottotitoli.
 
@@ -222,7 +222,7 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
    >
    >   Un file VTT supporta una sola lingua. Per supportare più lingue, carica più file video per ogni lingua di contenuto, quindi carica il rispettivo file VTT per ogni file video.
 
-   Come Autore, ogni volta che modifichi il contenuto, video o audio, Learning Manager ti chiede un nuovo file vtt.
+   Come autore, ogni volta che modificate il contenuto, video o audio, Adobe Learning Manager richiede un nuovo file vtt.
 
    Dopo aver aggiunto questo contenuto a un corso e quando lo visualizzi in anteprima come Allievo, puoi visualizzare i sottotitoli nel video.
 
@@ -236,7 +236,7 @@ Il supporto del formato WebVTT non è disponibile per:
    1. Annunci video.
    1. Video riprodotto all’interno dei contenuti di eLearning. Questo dipende dal contenuto.
    1. Video caricato in Apprendimento sociale.
-   1. Video creato nell’app desktop Learning Manager.
+   1. Video creato nell’app desktop Adobe Learning Manager.
    1. Contenuto video creato con il processo di migrazione.
    1. Riproduzione di video nell’app mobile in modalità offline.
 
@@ -422,9 +422,9 @@ Per scollegare si intende la rimozione del contenuto dalla cartella selezionata.
 
 Dopo aver aggiunto il contenuto, puoi modificare i criteri di completamento per il contenuto.
 
-In Learning Manager, i distintivi e le abilità vengono assegnati in base al successo e al completamento. Se lo studente ha completato un corso ma non ha ottenuto il successo, non riceve il badge e l’abilità corrispondente all’oggetto di apprendimento.
+In Adobe Learning Manager, i distintivi e le abilità vengono assegnati in base al successo e al completamento. Se lo studente ha completato un corso ma non ha ottenuto il successo, non riceve il badge e l’abilità corrispondente all’oggetto di apprendimento.
 
-Ad esempio, se hai utilizzato Adobe Captivate per creare il tuo corso e hai impostato i parametri di apprendimento nella finestra di dialogo Preferenze, le stesse impostazioni vengono migrate su Learning Manager nelle opzioni Criteri di completamento.
+Ad esempio, se hai utilizzato Adobe Captivate per creare il tuo corso e hai impostato i parametri di apprendimento nella finestra di dialogo Preferenze, le stesse impostazioni vengono migrate su Adobe Learning Manager nelle opzioni Criteri di completamento.
 
 Nella sezione Criteri di completamento puoi impostare le opzioni indicate di seguito:
 
@@ -469,6 +469,110 @@ Organizza il contenuto in base al suo utilizzo nei corsi. Nel menu a discesa Tip
 
 *Ordinare i contenuti in base all&#39;utilizzo*
 
+## Aggiungi ID univoco del contenuto e data di scadenza
+
+### Che cos’è l’ID univoco del contenuto
+
+L’ID univoco del contenuto è un codice univoco assegnato a ciascun elemento di contenuto in Adobe Learning Manager. Consente agli amministratori e agli autori di trovare e gestire facilmente i contenuti, soprattutto quando vengono aggiornati o spostati da un sistema all&#39;altro. Questo ID univoco del contenuto è utile anche per integrare il contenuto con altri strumenti come HR o i sistemi di conformità. Lo stesso ID univoco del contenuto viene utilizzato in tutte le versioni linguistiche, in modo che tutto resti coerente per gli Allievi.
+
+* Gli ID univoci del contenuto devono essere univoci per tutti i contenuti.
+* L&#39;ID univoco del contenuto non può includere spazi o caratteri speciali.
+* Se viene immesso un ID univoco contenuto duplicato, durante la creazione verrà visualizzato un errore.
+
+### Che cos’è la data di scadenza
+
+La data di scadenza contrassegna i contenuti che potrebbero essere obsoleti o non più necessari. Anche dopo la data di scadenza, il contenuto rimane disponibile, ma ricorda agli autori e agli amministratori di controllarlo e aggiornarlo se necessario. In base alle impostazioni, il contenuto scaduto può essere rimosso da nuove iscrizioni o archiviato. Analogamente all’ID univoco del contenuto, la Data di scadenza funziona allo stesso modo per tutte le versioni linguistiche, consentendo di mantenere il contenuto pulito e aggiornato per tutti.
+
+* Il contenuto rimane disponibile anche dopo la scadenza.
+* Se viene selezionata una data passata, viene visualizzato un avviso.
+* Il campo scadenza accetta qualsiasi data compresa tra il 1990 e il 2037.
+
+Ciò consente alle organizzazioni di mantenere la pertinenza del contenuto senza rimuovere accidentalmente gli elementi pubblicati.
+
+L’ID univoco del contenuto e la Data di scadenza si applicano a tutte le versioni linguistiche di un gruppo di contenuti, garantendo un’esperienza uniforme per tutti gli utenti, indipendentemente dalla lingua. Gli autori possono utilizzare l’ID univoco del contenuto per cercare e trovare rapidamente contenuti specifici, semplificando la gestione e l’aggiornamento dei materiali di formazione.
+
+Il **[!UICONTROL report sulla formazione]** include ora due nuove colonne: **[!UICONTROL Data di scadenza contenuto (fuso orario UTC)]** e **[!UICONTROL ID univoco contenuto]**, per tenere traccia dell&#39;ID univoco del contenuto e della data di scadenza. Questi campi possono essere aggiunti tramite interfaccia utente o migrazione e l’amministratore può monitorarli centralmente tramite i report di formazione.
+
+### Aggiungi ID univoco del contenuto e data di scadenza
+
+Durante la creazione del contenuto, gli autori possono aggiungere un ID univoco del contenuto e impostare una data di scadenza.
+
+Per aggiungere l’ID univoco del contenuto e la data di scadenza:
+
+1. Accedi come Autore.
+2. Selezionate **[!UICONTROL Crea contenuto]** o **[!UICONTROL Libreria dei contenuti]** nel pannello a sinistra.
+
+   ![](assets/create-content.png)
+   _Selezionare Crea contenuto nella home page_
+
+3. Seleziona **[!UICONTROL Aggiungi]**, quindi seleziona **[!UICONTROL Contenuto]** nella home page dell&#39;autore.
+
+   ![](assets/add-content.PNG)
+   _Selezionare Aggiungi contenuto nella libreria dei contenuti_
+
+4. Digita **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]**
+
+5. Selezionare il contenuto dall&#39;opzione **[!UICONTROL Aggiungi file di contenuto]**
+6. Selezionare la cartella dall&#39;opzione **[!UICONTROL Aggiungi alla cartella]** per aggiungere il contenuto alla cartella.
+
+   ![](assets/add-a-new-content.png)
+   _Aggiungi nuovo contenuto_
+
+7. Digitare l&#39;ID del contenuto caricato nel campo **[!UICONTROL ID univoco contenuto]**. L’ID deve essere univoco e rispettare le linee guida di denominazione corrette. L&#39;ID non deve contenere spazi o caratteri non ASCII. Se immetti un ID duplicato, viene visualizzato un messaggio di errore.
+
+   ![](assets/content-unique-id.png)
+   _Campo per l&#39;immissione di un ID contenuto alfanumerico univoco_
+
+8. Seleziona la data di scadenza per il contenuto. Questa data non influisce sulla disponibilità dei contenuti o sull’accesso degli Allievi. Puoi scegliere una data compresa tra il 1990 e il 2037. Se è selezionata una data già trascorsa, viene visualizzato un avviso ma è comunque possibile pubblicare il contenuto.
+9. Seleziona **[!UICONTROL Salva]**.
+Il contenuto caricato viene ora visualizzato nella **[!UICONTROL Libreria dei contenuti]**.
+
+### Impostare l’ID univoco del contenuto e la data di scadenza per le lingue
+
+L’ID univoco del contenuto e la Data di scadenza sono definiti a livello di gruppo di contenuti, ovvero sono impostati una volta e si applicano automaticamente a tutte le versioni linguistiche del contenuto.
+
+1. Selezionare il contenuto nella **[!UICONTROL Libreria dei contenuti]**.
+2. Seleziona **[!UICONTROL Modifica]**.
+3. Selezionare **[!UICONTROL Aggiungi nuova lingua]**.
+4. Selezionare una lingua dall&#39;elenco.
+5. Seleziona **[!UICONTROL Salva]**.
+L’ID univoco del contenuto e la Data di scadenza sono ora visualizzati nella versione del contenuto specifica della lingua, come in questo esempio in tedesco.
+
+### Eseguire ricerche utilizzando l&#39;ID univoco del contenuto
+
+Puoi utilizzare l’ID univoco del contenuto per cercare il contenuto in tutte le versioni linguistiche, semplificando l’individuazione e la gestione di elementi specifici. Inoltre, sia l’ID univoco del contenuto che la Data di scadenza sono inclusi nei report di formazione per garantire coerenza nel tracciamento e nel reporting.
+
+1. Avvia **[!UICONTROL Libreria dei contenuti]**.
+2. Digitare **[!UICONTROL ID univoco contenuto]** nella barra di ricerca.
+
+   ![](assets/search-unique-id.png)
+   _Ricerca di contenuto mediante l&#39;ID univoco contenuto_
+3. Seleziona il contenuto per visualizzarlo o modificarlo.
+
+### Supporto per la migrazione dei contenuti
+
+Durante la migrazione dei contenuti, puoi includere **expiryDate** e **uniqueContentId** nel file module_version.csv. In questo modo, è possibile garantire la continuità dei metadata quando si spostano i contenuti tra sistemi diversi.
+
+### Segnalazione delle modifiche
+
+Nel report del corso di formazione sono ora disponibili due nuove colonne, ID univoco del contenuto e Data di scadenza del contenuto. Questi campi consentono agli amministratori di monitorare in modo più efficace le date di scadenza dei contenuti.
+
+## Ritiro di contenuti {#retirecontent}
+
+Una volta pubblicato un contenuto, non puoi eliminarlo. Devi prima ritirare il contenuto. Quando contrassegni un contenuto come Ritirato, il contenuto non è più visibile agli studenti. Il contenuto viene spostato anche nella sezione **[!UICONTROL Ritirato]**.
+
+Per ritirare un contenuto, attieniti alla seguente procedura:
+
+* In **[!UICONTROL Libreria dei contenuti]**, seleziona i contenuti che desideri ritirare.
+* Seleziona **[!UICONTROL Azione]**, quindi seleziona **[!UICONTROL Ritira]**.
+
+I contenuti utilizzati negli oggetti di apprendimento non vengono modificati. Gli Allievi possono continuare ad accedere al contenuto.
+
+>[!NOTE]
+>
+>Puoi anche aggiungere contenuti dalla sezione **[!UICONTROL Ritirato]**, passare alla **[!UICONTROL Libreria dei contenuti]** e selezionare **[!UICONTROL Ritirato]**. Selezionare **[!UICONTROL Aggiungi contenuto]**. Per ulteriori dettagli, vedere [Aggiungere contenuto statico](content-library.md#addstaticcontent).
+
+
 ## Ricerca dei contenuti {#searchforcontent}
 
 Nella Libreria dei contenuti puoi cercare un contenuto scegliendo il nome del contenuto o i tag associati al contenuto stesso.
@@ -476,22 +580,6 @@ Nella Libreria dei contenuti puoi cercare un contenuto scegliendo il nome del co
 Nella barra di ricerca, immetti il nome di un corso o un tag e visualizza i consigli corrispondenti.
 
 <!--![](assets/search-bar.png)-->
-
-## Ritiro di contenuti {#retirecontent}
-
-Una volta pubblicato un contenuto, non puoi eliminarlo. Devi prima ritirare il contenuto. Quando contrassegni un contenuto come Ritirato, il contenuto non è più visibile agli studenti. Il contenuto viene inoltre spostato nella sezione Ritirato. In un secondo momento puoi anche spostare il contenuto allo stato Pubblicato.
-
-Per ritirare un contenuto, attieniti alla seguente procedura:
-
-* In Libreria dei contenuti, seleziona il contenuto che desideri ritirare.
-* Seleziona Azione > Ritira.
-
-I contenuti utilizzati negli oggetti di apprendimento non vengono modificati. Gli Allievi possono continuare ad accedere al contenuto.
-
->[!NOTE]
->
->Puoi anche aggiungere contenuti dalla sezione **[!UICONTROL Ritirato]**, accedere a **[!UICONTROL Libreria dei contenuti]** > **[!UICONTROL Ritirato]** e selezionare **[!UICONTROL Aggiungi contenuto]**. Per ulteriori dettagli, vedere [Aggiungere contenuto statico](content-library.md#addstaticcontent).
-
 
 ## Ripubblicazione di contenuto ritirato {#republishretiredcontent}
 
@@ -521,12 +609,12 @@ Ricorda che i corsi esistenti che utilizzano il contenuto eliminato dalla librer
 
 +++ Come si carica un contenuto SCORM in Adobe Learning Manager?
 
-Crea un corso di e-learning conforme allo standard SCORM in qualsiasi strumento, ad esempio Adobe Captivate, e pubblica il contenuto come file zip. Quindi in Learning Manager, carica il file zip nel catalogo e imposta i criteri di completamento e successo.
+Crea un corso di e-learning conforme allo standard SCORM in qualsiasi strumento, ad esempio Adobe Captivate, e pubblica il contenuto come file zip. Quindi in Adobe Learning Manager, carica il file zip nel catalogo e imposta i criteri di completamento e successo.
 +++
 
-+++Come si carica una nuova versione dello stesso contenuto in Learning Manager?
++++Come si carica una nuova versione dello stesso contenuto in Adobe Learning Manager?
 
-In Learning Manager, la libreria dei contenuti conserva anche le versioni dei contenuti caricati. Se si apporta una modifica al contenuto, ad esempio una presentazione di PowerPoint, e si ricarica la presentazione nella libreria, il numero di versione viene incrementato di una unità. Questo ti aiuta a tenere traccia delle modifiche nel tuo contenuto. Una nuova versione del contenuto può essere applicata contemporaneamente a tutti gli oggetti di apprendimento oppure puoi applicare singoli aggiornamenti per ogni corso.
+In Adobe Learning Manager, la libreria dei contenuti conserva anche le versioni dei contenuti caricati. Se si apporta una modifica al contenuto, ad esempio una presentazione di PowerPoint, e si ricarica la presentazione nella libreria, il numero di versione viene incrementato di una unità. Questo ti aiuta a tenere traccia delle modifiche nel tuo contenuto. Una nuova versione del contenuto può essere applicata contemporaneamente a tutti gli oggetti di apprendimento oppure puoi applicare singoli aggiornamenti per ogni corso.
 +++
 
 +++Come si modificano i dettagli di un corso in una lingua diversa?

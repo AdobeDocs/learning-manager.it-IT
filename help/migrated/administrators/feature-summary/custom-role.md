@@ -4,10 +4,10 @@ title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '2685'
-ht-degree: 53%
+source-wordcount: '3466'
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,7 @@ Questa funzione consente di definire ruoli personalizzati e di assegnare respons
 >
 >L’aggiunta di un nuovo ruolo personalizzato non avrà effetto sui gruppi di utenti personalizzati esistenti o su eventuali gruppi basati su ruoli come Tutti gli amministratori, Tutti gli autori e così via.
 
-Gli amministratori possono creare ruoli di amministratore e autore personalizzati con autorizzazioni personalizzate per ogni ruolo. Di seguito è riportata una panoramica delle autorizzazioni associate a ciascun ruolo:
+L’Amministratore può creare ruoli di amministratore e autore personalizzati con autorizzazioni personalizzate per ogni ruolo. Di seguito è riportata una panoramica delle autorizzazioni associate a ciascun ruolo:
 
 **Autorizzazioni ruolo autore personalizzato**
 
@@ -35,7 +35,7 @@ Gli Autori personalizzati possono eseguire le seguenti attività:
    * Percorsi di apprendimento
    * aggiunti un paio di Piani di apprendimento
 
-Gli amministratori e gli autori, inclusi gli amministratori personalizzati e gli autori personalizzati, potranno condividere gli oggetti di apprendimento (LO) in cataloghi condivisi esternamente. Amministratori e Autori devono essere in grado di cercare cataloghi condivisi esternamente durante la creazione di oggetti di apprendimento (LO).
+Gli Amministratori e gli Autori, inclusi gli Amministratori personalizzati e gli Autori personalizzati, potranno condividere gli oggetti di apprendimento (LO) in cataloghi condivisi esternamente. Amministratori e Autori devono essere in grado di cercare cataloghi condivisi esternamente durante la creazione di oggetti di apprendimento (LO).
 
 **Autorizzazioni ruolo amministratore personalizzato**
 
@@ -59,7 +59,7 @@ _Filtra ruoli personalizzati_
 
 ## Creazione di un ruolo personalizzato {#create-role}
 
-1. Accedi come Amministratore. Apri **[!UICONTROL Utenti]** > **[!UICONTROL Ruolo personalizzato]**.
+1. Accedi come amministratore. Apri **[!UICONTROL Utenti]** > **[!UICONTROL Ruolo personalizzato]**.
 2. Seleziona **[!UICONTROL Crea ruolo]**. Viene visualizzata la scheda **[!UICONTROL Crea nuovo ruolo]**.
 
    ![](assets/create-new-role.png)
@@ -92,7 +92,7 @@ _Filtra ruoli personalizzati_
 
    *Imposta l&#39;ambito per cataloghi, report e tag*
 
-6. **Privilegi sulle funzioni - Oggetti di apprendimento:** Utilizzate questa opzione per fornire accesso alle funzioni relative agli oggetti di apprendimento. Gli amministratori possono fornire autorizzazioni dettagliate per tutti gli oggetti di apprendimento, inclusi corsi, percorsi di apprendimento, certificazioni e risorse formative. Possono assegnare agli utenti autorizzazioni quali creazione, modifica, eliminazione o accesso di sola lettura.
+6. **Privilegi sulle funzioni - Oggetti di apprendimento:** Utilizzate questa opzione per fornire accesso alle funzioni relative agli oggetti di apprendimento. Gli Amministratori possono fornire autorizzazioni dettagliate per tutti gli oggetti di apprendimento, inclusi corsi, percorsi di apprendimento, certificazioni e risorse formative. Possono assegnare agli utenti autorizzazioni quali creazione, modifica, eliminazione o accesso di sola lettura.
 
    * Certificazioni
    * Corsi
@@ -189,7 +189,7 @@ Un utente con un ruolo personalizzato può:
 * visualizzare solo i contenuti dei cataloghi a cui ha accesso;
 * accedere a qualsiasi oggetto di apprendimento in base alle autorizzazioni del catalogo di cui esso fa parte.
 
-  Come Amministratore, puoi:
+  In qualità di Amministratore, puoi:
 
 * scegliere più di un catalogo per un ruolo personalizzato;
 * modificare le autorizzazioni di un catalogo in qualsiasi momento;
@@ -275,17 +275,125 @@ Un utente con un ruolo personalizzato può:
    **Aggiungi utenti al caricamento CSV del ruolo personalizzato:** Per aggiungere utenti tramite il caricamento CSV, aggiungi una colonna CustomRole al file .csv utilizzato dall&#39;amministratore per importare gli utenti. Immettere il ruolo dell&#39;utente nella colonna CustomRole per gli utenti a cui si desidera assegnare un ruolo personalizzato. Per caricare il file CSV, fai clic su **[!UICONTROL Aggiungi > Carica un file CSV]**.
 
    * Non è possibile cercare gruppi di utenti.
-   * Non è possibile cercare tra gli utenti a cui è già stato assegnato il ruolo di amministratore.
+   * Non è possibile cercare gli utenti a cui è già stato assegnato il ruolo di amministratore.
    * L&#39;assegnazione di un nuovo ruolo personalizzato a un utente sostituisce il precedente ruolo personalizzato dell&#39;utente.
 
    <!--![](assets/users.png)-->
 
    * Un amministratore personalizzato che dispone dell&#39;autorizzazione per Impostazioni potrà configurare la pianificazione per la sincronizzazione o la sincronizzazione degli utenti dall&#39;origine dati anche se non dispone dell&#39;autorizzazione per l&#39;entità Utenti.
-   * Se un Amministratore personalizzato dispone dell’autorizzazione per l’entità Utenti, può assegnare il ruolo di Amministratore a se stesso e diventare Amministratore standard.
+   * Se un amministratore personalizzato dispone dell&#39;autorizzazione per l&#39;entità Utenti, può assegnare il ruolo di amministratore a se stesso e diventare un amministratore standard.
 
-## Report ruolo personalizzato
+## Assegnare più ruoli personalizzati a un utente
 
-Gli amministratori possono scaricare un report CSV di tutti i ruoli personalizzati e delle relative autorizzazioni. Il report mostra come ogni ruolo è stato creato, da un amministratore o tramite un file CSV, e evidenzia l’accesso concesso a ogni ruolo.
+È possibile assegnare più ruoli personalizzati agli utenti utilizzando i modi seguenti:
+
+* Utilizzo dell&#39;interfaccia utente: puoi assegnare più di un ruolo personalizzato a un utente direttamente dall&#39;interfaccia di Adobe Learning Manager.
+* Utilizzo del caricamento CSV: puoi caricare un file CSV per assegnare più ruoli personalizzati a più utenti contemporaneamente.
+
+Ciò semplifica la gestione dell&#39;accesso degli utenti e il controllo delle autorizzazioni nel sistema.
+
+### Assegnazione di più ruoli personalizzati tramite l&#39;interfaccia utente
+
+L’assegnazione di più ruoli personalizzati tramite l’Admin Console in Adobe Learning Manager è un’opzione rapida e intuitiva ideale per l’onboarding, la regolazione delle autorizzazioni o aggiornamenti di dimensioni inferiori. I ruoli possono essere assegnati visivamente, senza la necessità di caricare file CSV, riducendo il rischio di errori e fornendo visibilità in tempo reale. Questo metodo supporta aggiornamenti rapidi in caso di spostamento delle responsabilità e consente il passaggio e la delega dei ruoli in base alle esigenze.
+
+Per assegnare più ruoli personalizzati a un utente, attieniti alla seguente procedura:
+
+1. Accedi come amministratore e seleziona **[!UICONTROL Utenti]**.
+2. Seleziona **[!UICONTROL Ruoli personalizzati]** nel pannello a sinistra.
+3. Crea un nuovo ruolo personalizzato e aggiungi privilegi di account, cataloghi, oggetti di apprendimento o ambiti. Consulta i passaggi indicati [qui](#create-a-custom-role).
+4. Aggiungi utenti al ruolo personalizzato.
+
+   ![](assets/add-users-in-custom-roles.png)
+   _Assegnare gli utenti a un ruolo personalizzato_
+
+5. Seleziona **[!UICONTROL Salva]**.
+
+Selezionare più ruoli personalizzati per un utente in base alle esigenze. Ogni utente può avere fino a 50 assegnazioni di ruolo personalizzate. Il numero di ruoli disponibili diminuisce con ogni assegnazione.
+
+Dopo aver assegnato gli utenti a un ruolo personalizzato aggiuntivo, è possibile visualizzare il numero di assegnazioni di ruolo disponibili per ogni utente.
+
+>[!NOTE]
+>
+>Puoi assegnare fino a 50 ruoli a ciascun utente e aggiungere fino a 500 utenti a ciascun ruolo.
+
+### Assegnazione di più ruoli personalizzati mediante CSV
+
+Il caricamento di un file CSV in Adobe Learning Manager consente l’assegnazione in blocco efficiente di ruoli personalizzati. Questo processo è particolarmente utile per l&#39;inserimento di un numero elevato di dipendenti, la riorganizzazione dei team o l&#39;aggiornamento dell&#39;accesso per nuovi corsi di formazione. Le importazioni di file CSV consentono di risparmiare tempo, garantire assegnazioni coerenti e ridurre gli errori. Questo metodo è particolarmente utile in caso di fusioni, aggiornamenti a livello di reparto o cicli di formazione globali. Questo metodo consente agli amministratori di risparmiare tempo, standardizzare i ruoli e mantenere la governance.
+
+Ora puoi assegnare più ruoli a un utente tramite l’importazione CSV caricando due file in Box:
+
+* role.csv
+* user_role.csv.
+
+Il file user_role.csv include i campi Ruolo personalizzato e ID utente.
+
+Il file role.csv include i campi, il ruolo personalizzato, l’origine della creazione e informazioni dettagliate per cataloghi, utenti, corsi, percorsi di apprendimento e altro ancora.
+
+Se il file CSV contiene dati errati o supera i limiti (50 ruoli per utente e 500 utenti per ruolo), verrà visualizzato un messaggio che mostra gli errori.
+
+![](assets/error-custom-role.png)
+_Notifica di errore per i ruoli personalizzati_
+Gli utenti ricevono notifiche e-mail quando vengono assegnati i ruoli, incluso il nome del ruolo.
+
+### Gestire i ruoli personalizzati
+
+Gli amministratori possono aggiornare, aggiungere o rimuovere ruoli personalizzati per gli utenti in Adobe Learning Manager man mano che le responsabilità cambiano. Ciò garantisce che l’accesso sia allineato ai ruoli correnti senza influire sulla cronologia dell’apprendimento o sui dati di iscrizione. Nella pagina **[!UICONTROL Utenti]**, l&#39;amministratore può cercare gli utenti, visualizzare i loro ruoli e modificarli utilizzando l&#39;opzione Gestisci ruoli personalizzati. Questa interfaccia guidata consente di aggiungere o rimuovere facilmente i ruoli mantenendo al contempo la governance e la sicurezza.
+
+>[!NOTE]
+>
+>Gli amministratori personalizzati non possono gestire ruoli personalizzati (aggiungere o rimuovere ruoli personalizzati) né promuovere se stessi al ruolo di amministratore.
+
+Dopo aver assegnato ruoli personalizzati agli utenti, è possibile aggiungere o rimuovere ruoli personalizzati dalla pagina **[!UICONTROL Utenti]**.
+
+1. Cercare un utente nella pagina **[!UICONTROL Utenti]**.
+
+   ![](assets/search-user-role.png)
+   _Cerca un utente nella pagina Utenti_
+
+2. Seleziona la freccia a discesa alla fine della riga in cui viene visualizzato il nome utente, quindi seleziona **[!UICONTROL Gestisci ruoli personalizzati]**.
+
+   ![](assets/select-manage-custom-roles.png)
+   _Selezionare Gestisci ruoli personalizzati nella pagina utente_
+
+3. Viene visualizzata una finestra di dialogo che elenca i ruoli personalizzati assegnati all&#39;utente. Selezionare **[!UICONTROL Aggiungi/Rimuovi ruoli]** per aggiungere o rimuovere ruoli personalizzati assegnati all&#39;utente.
+
+   ![](assets/add-remove-roles.png)
+   _Selezionare Aggiungi/Rimuovi ruoli nel prompt Gestione ruoli personalizzati_
+
+4. Cerca altri ruoli personalizzati da assegnare all&#39;utente. Dopo averne individuato uno, seleziona il ruolo personalizzato.
+
+   ![](assets/add-new-custom-role.png)
+   _Selezionare il ruolo personalizzato_
+
+5. Seleziona **[!UICONTROL Salva]**. Viene visualizzata una finestra di dialogo di conferma per la modifica del ruolo personalizzato. Selezionare **[!UICONTROL Sì]**.
+
+   ![](assets/confirmation-prompt.png)
+   _Selezionare Sì nella richiesta di conferma_
+
+All&#39;utente viene assegnato un terzo ruolo personalizzato.
+
+Per rimuovere i ruoli personalizzati, attieniti alla seguente procedura:
+
+1. Cercare un utente nella pagina **[!UICONTROL Utenti]**.
+2. Seleziona il menu a discesa accanto all&#39;utente e seleziona **[!UICONTROL Gestisci ruoli personalizzati]**.
+3. Selezionare **[!UICONTROL Aggiungi/rimuovi ruoli]** per aggiungere o rimuovere ruoli personalizzati.
+4. Selezionare l&#39;icona **[!UICONTROL Rimuovi]** per eliminare il ruolo personalizzato.
+
+   ![](assets/remove-custom-roles.png)
+   _Rimuovi ruoli personalizzati_
+
+### Cambia ruoli personalizzati
+
+Per visualizzare e selezionare i ruoli personalizzati assegnati, utilizzare l&#39;opzione **[!UICONTROL Cambia ruolo personalizzato]**.
+
+![](assets/switch-roles.png)
+_Selezionare ruoli personalizzati_
+
+Gli utenti ricevono notifiche e-mail quando vengono assegnati loro i ruoli personalizzati. Le e-mail ora includono nomi di ruolo per maggiore chiarezza.
+
+## Scarica report ruolo personalizzato
+
+Gli amministratori possono scaricare un report CSV che elenca tutti i ruoli personalizzati e le autorizzazioni associate. Il report indica se ogni ruolo è stato creato manualmente o tramite il caricamento CSV e fornisce un riepilogo dell’accesso e dei privilegi assegnati a ogni ruolo.
 
 Per scaricare il report, effettua le seguenti operazioni:
 
@@ -330,7 +438,7 @@ Dopo aver fatto clic su questa opzione, si apre una nuova finestra di dialogo in
 
 Scegli le cartelle e fai clic su **[!UICONTROL OK]**.
 
-## Dashboard di riepilogo dell’apprendimento per l’Amministratore personalizzato {#custom-admin-dashboard}
+## Dashboard di riepilogo dell’apprendimento per Amministratore personalizzato {#custom-admin-dashboard}
 
 Gli amministratori personalizzati possono visualizzare la stessa visualizzazione di un amministratore. Un amministratore personalizzato può accedere a dati che non rientrano nel suo ambito. Questo è applicabile solo se l’amministratore personalizzato ha un ambito completo. Per concedere pieno ambito, durante la creazione di un amministratore personalizzato, abilita l&#39;opzione **[!UICONTROL Controllo completo]** in Report di riepilogo account.
 
@@ -470,17 +578,17 @@ Nelle versioni precedenti di Learning Manager, qualsiasi ruolo personalizzato co
 
 L’impostazione dell’ambito veniva disabilitata quando veniva concesso l’accesso al piano di apprendimento, consentendo all’utente di accedere per impostazione predefinita a Tutti i cataloghi e a Tutti i gruppi di utenti.
 
-Per impostazione predefinita, tutti i piani di apprendimento creati da un Amministratore si applicano a tutti gli utenti. Gli utenti possono inoltre essere assegnati a qualsiasi oggetto di apprendimento. Per contro, gli utenti con ruoli personalizzati hanno accesso a tutti gli ambiti, ad esempio a tutti i cataloghi, gli oggetti di apprendimento o i gruppi di utenti. Ciò significa che gli Amministratori non potevano creare ruoli personalizzati come previsto per consentire l’accesso ai piani di apprendimento per gli utenti con ambito limitato.
+Tutti i piani di apprendimento creati da un amministratore, per impostazione predefinita, sono applicabili a tutti gli utenti. Gli utenti possono inoltre essere assegnati a qualsiasi oggetto di apprendimento. Per contro, gli utenti con ruoli personalizzati hanno accesso a tutti gli ambiti, ad esempio a tutti i cataloghi, gli oggetti di apprendimento o i gruppi di utenti. Di conseguenza, gli amministratori non erano in grado di creare ruoli personalizzati come previsto che consentissero l’accesso ai piani di apprendimento per gli utenti con ambito limitato.
 
 In questo aggiornamento di Learning Manager è possibile creare ruoli personalizzati per piani di apprendimento che consentono di definire l’ambito degli utenti e degli oggetti di apprendimento. In altre parole, i piani di apprendimento possono essere creati con un ambito limitato derivato dall’ambito di un ruolo dell’Amministratore personalizzato.
 
-A questo punto, un Amministratore può definire o limitare l’ambito, garantendo allo stesso tempo l’accesso alla gestione del piano di apprendimento.
+Ora un Amministratore può definire o limitare l’ambito, garantendo al contempo l’accesso alla gestione del piano di apprendimento.
 
-Gli Amministratori personalizzati possono creare piani di apprendimento con un ambito limitato, determinato dall’ambito del ruolo configurabile dell’Amministratore personalizzato. Tali piani di apprendimento sono accessibili solo agli Amministratori personalizzati con lo stesso ruolo, oltre ad essere accessibili agli Amministratori normali. Inoltre, gli Amministratori personalizzati non possono visualizzare altri piani di apprendimento nell’account.
+Gli Amministratori personalizzati possono creare piani di apprendimento con un ambito limitato, determinato dall’ambito del ruolo configurabile dell’Amministratore personalizzato. Tali piani di apprendimento sono accessibili solo agli amministratori personalizzati con lo stesso ruolo, oltre a essere accessibili agli amministratori regolari. Inoltre, gli amministratori personalizzati non possono visualizzare altri piani di apprendimento nell’account.
 
-Gli Amministratori personalizzati esistenti, che hanno accesso ai piani di apprendimento, avranno sempre un ambito completo (per definizione). Avranno accesso a tutti i piani di apprendimento dell’account, proprio come gli Amministratori normali. I nuovi ruoli personalizzati creati con l’ambito completo e i nuovi Amministratori personalizzati aggiunti a tali ruoli continueranno ad avere accesso a tutti i piani di apprendimento.
+Gli amministratori personalizzati esistenti, che hanno accesso ai piani di apprendimento, avranno sempre un ambito completo (per definizione). Avranno accesso a tutti i piani di apprendimento nell’account proprio come un normale amministratore. I nuovi ruoli personalizzati creati con ambito completo e i nuovi amministratori personalizzati aggiunti a tali ruoli continueranno ad avere accesso a tutti i piani di apprendimento.
 
-I piani di apprendimento creati dagli Amministratori e dagli Amministratori personalizzati con ambito completo verranno creati come al solito e non saranno limitati dall’ambito.
+I piani di apprendimento creati dall’Amministratore e dagli Amministratori personalizzati con ambito completo verranno creati come di consueto e non saranno limitati dall’ambito.
 
 Nella sezione **Ambito dei privilegi di funzionalità**, concedi l’accesso ai gruppi di utenti e/o al catalogo per il ruolo personalizzato.
 
@@ -494,7 +602,7 @@ Assegna un utente al ruolo personalizzato.
 
 *Assegnare un utente a un ruolo personalizzato*
 
-L’utente ora accede a Learning Manager come Amministratore personalizzato e aggiunge un piano di apprendimento.
+L’utente ora accede a Learning Manager come Amministratore personalizzato e aggiunge un Piano di apprendimento.
 
 Quando viene aggiunto un nuovo Allievo, l’Amministratore personalizzato può selezionare un corso di formazione solo dai cataloghi con ambito del ruolo configurabile.
 
@@ -510,13 +618,13 @@ Quando un utente viene aggiunto al gruppo specificato, all’oggetto di apprendi
 
 ## Modifica dell’ambito {#changeinscope}
 
-Quando l’Amministratore modifica l’ambito del ruolo personalizzato, la modifica viene applicata anche all’Amministratore personalizzato. Quando l’Amministratore personalizzato sceglie un piano di apprendimento il cui ambito era già definito da un ruolo personalizzato precedente, viene visualizzato un messaggio, come illustrato di seguito:
+Quando l&#39;amministratore modifica l&#39;ambito del ruolo personalizzato, la modifica viene applicata anche all&#39;amministratore personalizzato. Quando l’Amministratore personalizzato sceglie un piano di apprendimento che rientrava già nell’ambito di un ruolo personalizzato precedente, viene visualizzato un messaggio, come illustrato di seguito:
 
 ![](assets/change-scope.png)
 
 *Messaggio dopo le modifiche dell&#39;ambito*
 
-L’Amministratore personalizzato deve ora aggiornare l’ambito precedente al nuovo ambito.
+L&#39;amministratore personalizzato ora deve aggiornare l&#39;ambito precedente al nuovo ambito.
 
 Facendo clic su **[!UICONTROL Aggiorna ambito]**, l’ambito viene aggiornato. Viene visualizzato un messaggio di avviso.
 

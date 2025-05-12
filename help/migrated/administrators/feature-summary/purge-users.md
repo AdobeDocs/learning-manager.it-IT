@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rimuovere utenti
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 72%
+source-wordcount: '1135'
+ht-degree: 52%
 
 ---
 
@@ -22,10 +22,10 @@ Utilizza la funzione di rimozione degli utenti per rimuovere da Learning Manager
 L’azione di rimozione dell’utente può avere i seguenti risultati:
 
 * Se un utente viene rimosso, i collegamenti nei registri di importazione non funzionano per evitare il download dei vecchi file CSV e il ripristino dei dati utente nel sistema.
-* Se un Autore viene rimosso, il suo nome viene sostituito dal nome dell’Amministratore che ha rimosso quel determinato utente.
+* Se un Autore viene rimosso, il suo nome viene sostituito dal nome dell’amministratore che ha rimosso quell’utente.
 * Se gli Istruttori vengono rimossi, vengono rimossi anche dalle sessioni. L’Amministratore deve sostituire/aggiungere istruttori per tali sessioni.
 * La rimozione di un utente in Learning Manager non rimuove quel determinato utente da eventuali applicazioni esterne (sistemi di terze parti o altre applicazioni che hai realizzato). Contattare i proprietari delle applicazioni esterne per rimuovere gli utenti da tali applicazioni.
-* Se un utente rimosso è indicato nelle impostazioni di configurazione di un connettore, tale connettore viene disabilitato. Per riprenderlo, il connettore deve essere riconfigurato dall’amministratore.
+* Se un utente rimosso è indicato nelle impostazioni di configurazione di un connettore, tale connettore viene disabilitato. Per riprendere il connettore, è necessario che sia riconfigurato dall’amministratore.
 
 <!---### Manage users
 
@@ -67,11 +67,54 @@ Per rimuovere gli utenti, effettua le seguenti operazioni:
 
 ## Rimuovere gli utenti in blocco
 
-Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Questo consente agli amministratori di selezionare 50 utenti contemporaneamente ed eliminarli con un solo comando. Consente agli amministratori di rimuovere gli utenti in blocco. È sempre consigliabile controllare gli utenti selezionati per l’eliminazione. Questo è fondamentale per garantire l’eliminazione del gruppo di utenti corretto.
+Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Ciò consente agli amministratori di selezionare 50 utenti contemporaneamente ed eliminarli insieme. Questo consente agli amministratori di rimuovere gli utenti in blocco. È sempre consigliabile controllare gli utenti selezionati per l’eliminazione. Questo è fondamentale per garantire l’eliminazione del gruppo di utenti corretto.
 
 ![](assets/bulk-purge-users.png)
 
 *Rimuovi utenti in blocco*
+
+## Filtra gli utenti eliminati prima della rimozione
+
+Adobe Learning Manager consente agli amministratori di rimuovere definitivamente gli utenti che sono già stati eliminati dalla piattaforma. Questo processo, denominato eliminazione, consente alle organizzazioni di mantenere un database degli Allievi pulito, rispettare le regole di conservazione dei dati e impedire l&#39;accesso non autorizzato ai dati degli utenti.
+Ciò è particolarmente utile per mantenere l&#39;igiene dei dati e garantire che i vecchi dati utente non utilizzati vengano rimossi dal sistema.
+La rimozione degli utenti è essenziale per rispettare le linee guida sulla privacy dei dati o per mantenere un archivio dati igienizzato rimuovendo i record ridondanti.
+
+### Filtra gli utenti eliminati per mese
+
+Puoi filtrare gli utenti eliminati selezionando un mese specifico e quindi eliminandoli definitivamente.
+
+Per filtrare gli utenti eliminati utilizzando il mese di eliminazione:
+
+1. Seleziona **[!UICONTROL Utenti]** nella home page dell&#39;amministratore, quindi seleziona **[!UICONTROL Pulizia utente]**.
+2. Seleziona il controllo selezione data **[!UICONTROL Seleziona mese eliminazione]** e seleziona la data.
+
+   ![](assets/deletion-date.png)
+   _Selezionare il mese in cui gli utenti sono stati eliminati_
+
+   Viene visualizzato l&#39;elenco degli utenti eliminati nel mese selezionato.
+
+   ![](assets/list-of-user-deleted.png)
+   _Elenco degli utenti eliminati visualizzato per il mese selezionato_
+
+### Ordina gli utenti eliminati per mese
+
+Puoi ordinare gli utenti filtrati in base al **[!UICONTROL ID utente univoco]** e alla **[!UICONTROL data di eliminazione]**.
+
+1. Nell’elenco degli utenti eliminati, ordina gli utenti in base ai loro ID utente o alla data di eliminazione.
+
+   ![](assets/sort-by-date.png)
+   _Elenco utenti filtrato per ID utente univoco_
+
+2. Seleziona uno o più utenti.
+3. Seleziona **[!UICONTROL Azioni]**, quindi seleziona **[!UICONTROL Rimuovi utente]**.
+4. Seleziona Rimuovi nel messaggio di conferma per eliminare definitivamente i record utente da Adobe Learning Manager.
+
+   ![](assets/select-purge.png)
+   _Conferma finale prima dell&#39;eliminazione definitiva degli utenti_
+
+>[!NOTE]
+>
+>La rimozione degli utenti comporta la rimozione definitiva dei dati. Prima di procedere, ricontrollare la selezione.
 
 +++Informazioni sui risultati dell’azione Rimuovi utente
 
@@ -162,7 +205,7 @@ Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Questo conse
    <td> </td>
   </tr>
   <tr>
-   <td>Informa l’Amministratore Enterprise della richiesta.</td>
+   <td>Notifica la richiesta all'amministratore Enterprise.</td>
    <td>Sì</td>
   </tr>
   <tr>
@@ -190,8 +233,6 @@ Puoi selezionare i primi 50 utenti ed eliminarli in una sola volta. Questo conse
 
 +++
 
-Learning Manager è ora conforme al GDPR. Per ulteriori informazioni sulla conformità al GDPR, consulta [Conformità di Learning Manager al GDPR](../../kb/prime-gdpr.md).
-
 ## Domande frequenti {#frequentlyaskedquestions}
 
 +++Quanti giorni sono necessari per completare una richiesta di rimozione?
@@ -199,7 +240,13 @@ Learning Manager è ora conforme al GDPR. Per ulteriori informazioni sulla confo
 La richiesta di rimozione degli utenti richiede un massimo di 30 giorni per essere completata.
 +++
 
-+++È possibile eseguire una rimozione in blocco in Learning Manager?
++++È possibile eseguire una rimozione in blocco in Adobe Learning Manager?
 
 Sì, puoi eseguire una rimozione in blocco, ma solo di 50 utenti.
++++
+
++++È possibile ripristinare un utente rimosso?
+
+N. Una volta rimossi, tutti i dati utente vengono eliminati definitivamente e non possono essere recuperati.
+
 +++

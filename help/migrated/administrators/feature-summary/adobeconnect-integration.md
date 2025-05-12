@@ -4,10 +4,10 @@ title: Integrazione Adobe Connect
 description: Gli autori possono creare corsi in classe virtuale con Adobe Connect durante la creazione del corso. Per abilitare Adobe Connect per il tuo account Learning Manager, devi contattare l’amministratore della tua organizzazione.
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 70%
+source-wordcount: '595'
+ht-degree: 49%
 
 ---
 
@@ -34,7 +34,7 @@ Gli Amministratori di un’organizzazione possono configurare le impostazioni de
    *Aggiungi nome di dominio e credenziali*
 
    URL di Adobe Connect di esempio: mycompany.adobeconnect.com\
-   È necessario fornire l’ID e-mail dell’Amministratore dell’account di connessione di Adobe.
+   Devi fornire l’ID e-mail dell’Amministratore dell’account Adobe Connect.
 
    In Learning Manager sono supportati solo gli account Adobe Connect ospitati (hosted). Esempio: “.adobeconnect.com”.
 
@@ -65,3 +65,29 @@ Con l’integrazione di Adobe Learning Manager e Adobe Connect per la creazione 
 Se l’ospitante del corso in aula virtuale non partecipa alla sessione, la partecipazione non viene registrata automaticamente per gli Allievi che hanno partecipato alla sessione. In tali scenari, l’Amministratore può registrare manualmente la partecipazione.
 
 Fai clic sul corso in aula virtuale, quindi su Partecipazione nel riquadro a sinistra della pagina seguente e registra la partecipazione.
+
+## Supporto per seminari Adobe Connect con un vasto pubblico
+
+Adobe Learning Manager supporta la selezione delle stanze dei seminari da Adobe Connect durante la configurazione di una sessione aula virtuale in Connect. In precedenza, l&#39;amministratore poteva selezionare solo il tipo di sala riunioni. Questa funzione consente all&#39;amministratore con una licenza per seminari valida di pianificare e gestire eventi unici o su larga scala (fino a 1.500 partecipanti) all&#39;interno di ALM.
+
+Per ulteriori informazioni sulla sala seminari, consulta questo [articolo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
+
+### Supporto per l’accesso all’analisi delle sessioni
+
+Gli istruttori possono accedere ad Analisi delle sessioni per le sessioni Adobe Connect completate tramite un nuovo collegamento fornito nel dashboard della sessione.
+
+![](assets/adobe-connect-session-url.png)
+_Selezionare l&#39;URL della sessione_
+
+Questo collegamento apre il dashboard di analisi delle sessioni in Connect, che fornisce informazioni dettagliate sul coinvolgimento delle sessioni.
+Questa funzione è disponibile solo per le sessioni condotte tramite Adobe Connect. L&#39;analisi della sessione include:
+
+* **[!UICONTROL Coinvolgimento]**: panoramica delle prestazioni complessive della sessione dal vivo
+* **[!UICONTROL Interazioni]**: suddivisione dettagliata dell&#39;attività dei partecipanti in diversi contenitori
+* **[!UICONTROL Attività partecipante]**: riepilogo del coinvolgimento dei partecipanti
+* **[!UICONTROL Scarica report]**: opzione per scaricare report per dati di coinvolgimento specifici del pod
+
+![](assets/session-dashboard.png)
+_Dashboard di sessione_
+
+Per ulteriori informazioni sull&#39;analisi delle sessioni, consultare questo [articolo](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html).
