@@ -2,7 +2,7 @@
 description: Scopri le nuove funzioni e i miglioramenti nella versione di maggio 2025 di Adobe Learning Manager
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Per ulteriori informazioni sui nuovi piani di acquisto, consulta questo [articol
 ## Report di accesso in FTP, FTP personalizzato e Box {#log-in-access-report}
 
 I report di accesso sono ora disponibili per i connettori Box, FTP e FTP personalizzato, oltre alle API dei processi esistenti. Questo report fornisce informazioni dettagliate sulle attività di accesso degli utenti, inclusi lo stato di esecuzione, le impostazioni di compressione e le opzioni di pianificazione. Il report può essere generato su richiesta o pianificato e i dati vengono memorizzati nel connettore specificato per un facile accesso e analisi. Questo miglioramento migliora la capacità di monitorare e controllare le attività di accesso degli utenti, garantendo una maggiore sicurezza e il monitoraggio della conformità.
+
 Il report è ora disponibile nell’FTP personalizzato, nell’FTP e in Box insieme ai report esistenti, ad esempio l’avanzamento dell’Allievo e il completamento del corso. Questa integrazione consente agli amministratori di accedere a tutti i report necessari da un&#39;unica origine, facilitando una migliore gestione e analisi dei dati.
 
 Il report semplifica l’automazione consentendo l’esportazione dei dati di accesso e di accesso all’FTP, dove possono essere uniti ad altri report per creare dashboard completi. Questa funzione è particolarmente utile per le organizzazioni che si affidano a processi automatizzati per l&#39;analisi e il reporting dei dati.
@@ -108,7 +109,7 @@ Per ulteriori informazioni, consulta questo [articolo](/help/migrated/administra
 
 Adobe Learning Manager ora supporta anche la selezione delle stanze dei seminari da Adobe Connect durante la configurazione di una sessione VC in Connect. In precedenza, l&#39;amministratore poteva selezionare solo il tipo di sala riunioni. Questo miglioramento consente agli amministratori con una licenza per seminari valida di pianificare e gestire eventi unici o su larga scala (fino a 1.500 partecipanti) all’interno di Adobe Learning Manager.
 
-Per ulteriori informazioni sulla sala seminari, consulta questo [articolo](https://helpx.adobe.com/it/adobe-connect/using/creating-seminars.html).
+Per ulteriori informazioni sulla sala seminari, consulta questo [articolo](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
 ### Supporto per l’accesso all’analisi delle sessioni
 
