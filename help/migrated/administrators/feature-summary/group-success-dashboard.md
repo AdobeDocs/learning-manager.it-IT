@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Dashboard di Group Success
 description: Ulteriori informazioni sulla dashboard di Group Success in Adobe Learning Manager
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
+source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Un amministratore può abilitare e creare i dashboard assegnando un nome, selezi
 L’Amministratore deve abilitare la Dashboard di successo del gruppo per l’account. Per abilitare la Dashboard di Group Success, effettua le seguenti operazioni:
 
 1. Accedi come amministratore.
-2. Seleziona **[!UICONTROL Impostazioni]**&#x200B;quindi seleziona **[!UICONTROL Report]**.
+2. Seleziona **[!UICONTROL Impostazioni]**quindi seleziona **[!UICONTROL Report]**.
 3. Selezionare l&#39;interruttore **[!UICONTROL Visibilità dashboard]**.
 4. Digitare il nome del dashboard, ad esempio **[!UICONTROL Dashboard di Gestione archivi]**.
    ![](assets/enable-gsd.png)
@@ -149,6 +150,8 @@ Quando selezioni più di un gruppo di utenti, Adobe Learning Manager utilizza re
 
 * **Gruppi di utenti con lo stesso campo Attivo**: se i gruppi di utenti utilizzano lo stesso campo (ad esempio, Posizione), il sistema include tutti gli allievi di entrambi i gruppi. Combina i valori. Ad esempio: **Posizione = Bangalore** e **Posizione = Chennai**. Include allievi di entrambe le posizioni.
 * **Gruppi di utenti con campi attivi diversi**: se i gruppi di utenti utilizzano campi diversi (ad esempio, Posizione e Ruolo), il sistema include solo gli Allievi che soddisfano tutte le condizioni. Ad esempio: **Posizione = Bangalore o Chennai** e **Ruolo = Manager**. Include solo gli Allievi con il ruolo di Manager che si trovano a Bangalore o Chennai.
+
+**Riepilogo:**
 
 * Stesso campo attivo: gli Allievi sono combinati (logica OR)
 * Campi attivi diversi: gli Allievi devono soddisfare tutti i criteri (logica AND)
