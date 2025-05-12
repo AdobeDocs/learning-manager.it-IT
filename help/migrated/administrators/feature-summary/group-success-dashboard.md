@@ -36,7 +36,7 @@ Un amministratore può abilitare e creare i dashboard assegnando un nome, selezi
 L’Amministratore deve abilitare la Dashboard di successo del gruppo per l’account. Per abilitare la Dashboard di Group Success, effettua le seguenti operazioni:
 
 1. Accedi come amministratore.
-2. Seleziona **[!UICONTROL Impostazioni]**quindi seleziona **[!UICONTROL Report]**.
+2. Seleziona **[!UICONTROL Impostazioni]**&#x200B;quindi seleziona **[!UICONTROL Report]**.
 3. Selezionare l&#39;interruttore **[!UICONTROL Visibilità dashboard]**.
 4. Digitare il nome del dashboard, ad esempio **[!UICONTROL Dashboard di Gestione archivi]**.
    ![](assets/enable-gsd.png)
