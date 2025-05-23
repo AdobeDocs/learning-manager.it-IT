@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
-source-wordcount: '26470'
-ht-degree: 72%
+source-wordcount: '26471'
+ht-degree: 71%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++Aggiornamento 100: versione di novembre 2024 di Adobe Learning Manager
+
+**Data di pubblicazione**: 10 maggio 2025
+
+## Novità di questa versione
+
+Per ulteriori informazioni, fai riferimento alla pagina [Novità di Adobe Learning Manager](/help/migrated/whats-new.md).
++++
 
 +++Aggiornamento 99: versione di febbraio 2025 di Adobe Learning Manager
 
@@ -49,7 +58,7 @@ Per ulteriori informazioni, fai riferimento a questo [articolo](/help/migrated/l
 
 ## Novità di questa versione
 
-Per ulteriori informazioni, fai riferimento alla pagina [Novità di Adobe Learning Manager](/help/migrated/whats-new.md).
+Per ulteriori informazioni, fai riferimento alla pagina [Novità di Adobe Learning Manager](/help/migrated/whats-new-nov-24.md).
 +++
 
 +++Aggiornamento 97: versione di luglio 2024 di Adobe Learning Manager
@@ -1489,7 +1498,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -1591,11 +1600,6 @@ Attualmente solo gli Amministratori possono aggiungere utenti a un elenco Non di
 * Escalation di e-mail ai Manager degli allievi
 * Informazioni sui report diretti
 * Informazioni sui report salta livello
-
-Per ulteriori informazioni sulle API di Learning Manager, consulta la pagina seguente:
-
-* [***Riferimento API***] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
-* [***Guida per sviluppatori API***] (<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### Problemi risolti in questa versione {#Issuesfixedinthisrelease-1}
 
@@ -1872,7 +1876,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -1952,9 +1956,9 @@ Data di pubblicazione: 26 aprile 2019
 
 * **Scansione del codice QR per l&#39;iscrizione:** le funzionalità del codice QR sono state migliorate. Oltre che per contrassegnare la partecipazione, ora il codice QR può essere utilizzato per l’iscrizione a un corso e il completamento di un corso.
 
-  Per iscriverti a un corso e per completarlo, puoi eseguire la scansione di un codice QR fornito dall’amministratore. Per ulteriori informazioni sulla scansione dei codici QR nella versione Web di Learning Manager, consulta [***Leggi codice QR***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+Per iscriverti a un corso e per completarlo, puoi eseguire la scansione di un codice QR fornito dall’amministratore. Per ulteriori informazioni sulla scansione dei codici QR nella versione Web di Learning Manager, consulta [***Leggi codice QR***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Tentativi multipli per un corso:** L’app Learning Manager consente all’Allievo di utilizzare corsi con più tentativi attivati. Per ulteriori informazioni sull&#39;impostazione di più tentativi, vedere [***Tentativi multipli***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Tentativi multipli per un corso:** L’app Learning Manager consente all’Allievo di utilizzare corsi con più tentativi attivati. Per ulteriori informazioni sull&#39;impostazione di più tentativi, vedere [***Tentativi multipli***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -2456,7 +2460,7 @@ In Learning Manager venivano generati report di trascrizione degli allievi errat
 
 #### Livello API {#apilayer}
 
-Ogni volta che tentavi di recuperare informazioni sulla versione del modulo utilizzando AP/corsi/{coursesid}, si verificava un errore. Questo problema è stato risolto.
+Ogni volta che tentavi di recuperare le informazioni sulla versione del modulo utilizzando AP/corsi/{coursesid}, si verificava un errore. Questo problema è stato risolto.
 
 +++
 
@@ -2496,7 +2500,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -2727,7 +2731,7 @@ Nell’ambito dell’aggiornamento sono state aggiunte le seguenti nuove API per
 1. POST Users
 1. DELETE Users
 1. GET userGroups
-1. GET userGroups /{id}
+1. GETUserGroups /{id}
 1. DELETE userGroups /{id}/Users
 1. POST userGroups /{id}/Users
 1. GET /users/userId/userGroups
@@ -3006,7 +3010,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli Allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** utilizzata per rappresentare gruppi esterni,**&#x200B;**&#x200B;è&#x200B;**&#x200B;** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** utilizzata per rappresentare gruppi esterni,****&#x200B;è&#x200B;**** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L&#39;URL non è cliccabile nell&#39;e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** vengono modificati. Questo problema è stato risolto.
@@ -3064,7 +3068,7 @@ Nel login come Amministratore, la paginazione non funzionava correttamente in pa
 
 **Creazione di abilità**
 
-Nel login per gli Allievi, la descrizione comando del nome dell’abilità in **Mappa abilità &#x200B;** non mostrava **&#x200B;**&#x200B;il nome e cognome&#x200B;**&#x200B;** dell’utente. Questo problema è stato risolto.
+Nel login per gli Allievi, la descrizione comando del nome dell’abilità in **Mappa abilità** non mostrava il nome e cognome. Questo problema è stato risolto.
 
 **Aggiunta di partner esterni**
 

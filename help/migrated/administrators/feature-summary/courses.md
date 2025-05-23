@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 52%
@@ -613,7 +613,7 @@ Segui questi passaggi per aggiungere commenti di completamento:
 2. Passa alla pagina **[!UICONTROL Corsi]** e seleziona un corso.
 3. Seleziona **[!UICONTROL Allievi]** nella pagina del corso.
 4. Scegli il singolo Allievo o più Allievi.
-5. Seleziona **[!UICONTROL Azioni]**, quindi seleziona&#x200B;**[!UICONTROL &#x200B; Contrassegna completamento]**.
+5. Seleziona **[!UICONTROL Azioni]**, quindi seleziona **[!UICONTROL Contrassegna completamento]**.
 6. Immetti il commento di completamento nella finestra di dialogo.
 
    ![](assets/comments.png)
