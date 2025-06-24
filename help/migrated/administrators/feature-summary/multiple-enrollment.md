@@ -2,10 +2,10 @@
 title: Iscrizione multipla in Adobe Learning Manager
 description: In qualità di Amministratore dell’account, uno dei tuoi compiti principali è creare istanze diverse di sessioni VILT in diversi fusi orari ed eventualmente creare sessioni per gruppi di utenti specifici.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 65%
+source-wordcount: '604'
+ht-degree: 63%
 
 ---
 
@@ -39,6 +39,7 @@ L’iscrizione multipla consente di iscrivere un Allievo più volte in un corso 
 * L’iscrizione multipla è applicabile solo quando un corso ha più istanze.
 * Una volta attivata l’opzione di iscrizione multipla ed effettuata l’iscrizione degli utenti a più istanze, vengono create nuove righe per ogni corso nel report Trascrizione Allievo (una riga per ogni istanza e ogni Allievo).
 * Se è impostata l’automazione dei report che prevede una sola riga per corso, devi apportare le modifiche necessarie all’automazione dei report prima di abilitare la funzione Iscrizione multipla.
+* Le API dell’amministratore non supportano scenari di iscrizione multipla. Se hai esigenze particolari, contatta il CSM.
 
 ## Come abilitare l’Iscrizione multipla
 
