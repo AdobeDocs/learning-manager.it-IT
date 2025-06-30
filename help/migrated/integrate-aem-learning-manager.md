@@ -4,9 +4,9 @@ title: Integrazione di Learning Manager con AEM
 description: Learning Manager è un sistema di gestione dell’apprendimento con un sistema di gestione dei contenuti di apprendimento integrato. Gli utenti gestiscono i propri contenuti di apprendimento caricandoli su Learning Manager, in modo che Learning Manager esegua il controllo delle versioni, l’assegnazione ai corsi, la definizione della visibilità agli Allievi, il monitoraggio della frequenza e la segnalazione agli amministratori.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1082'
 ht-degree: 45%
 
 ---
@@ -31,7 +31,7 @@ Installa il pacchetto dei contenuti Learning Manager utilizzando il gestore pacc
 
 >[!NOTE]
 >
->Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#how-to-work-with-packages).
+>Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Come Autore AEM, apri il gestore pacchetti AEM.
 1. Fai clic sul pulsante **[!UICONTROL Carica pacchetto]**.
@@ -125,13 +125,15 @@ Skyline è la versione cloud dell&#39;AEM. Devi prima installare Skyline dal ges
 
 La procedura per configurare Skyline è indicata nel [repository GitHub](https://github.com/adobe/captivate-prime-aem-components).
 
-## Widget Catalogo
+## Il mio widget di apprendimento
 
-Il widget Catalogo mostra i corsi di formazione da un catalogo specifico o da un set di cataloghi a un utente. Nella sezione Proprietà delle proprietà della pagina, seleziona Catalogo dalle opzioni elencate.
+Il widget **[!UICONTROL Il mio apprendimento]** consente di visualizzare i corsi di formazione da un catalogo specifico o da un set di cataloghi a un utente.
+
+Nella sezione **[!UICONTROL Proprietà]** delle proprietà della pagina, seleziona **[!UICONTROL Catalogo]** dalle opzioni elencate.
 
 <!--![](assets/catalog-widget.png)-->
 
-Il widget Catalogo contiene le seguenti opzioni:
+Le opzioni del catalogo contengono le seguenti opzioni:
 
 * **[!UICONTROL ID catalogo]:** ID catalogo separati da virgole per i quali è necessario visualizzare i corsi di formazione.
 * **[!UICONTROL Ordinamento]:** Ordinamento per il corso di formazione. Le opzioni sono: name, date, dateCreated, dateEnrolled e così via.
