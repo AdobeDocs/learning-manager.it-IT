@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '4319'
-ht-degree: 39%
+source-wordcount: '4546'
+ht-degree: 37%
 
 ---
 
@@ -595,6 +595,36 @@ Il contenuto ora appare nell’elenco Pubblicato.
 ## Aggiornare il contenuto
 
 Gli Autori possono aggiornare il contenuto nel corso pubblicato. Questo aiuterà gli Allievi a ottenere la versione più recente del contenuto. Per ulteriori informazioni, vedere questo [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
+
+### Controllo della versione dei contenuti per gli Allievi che hanno completato un corso
+
+Adobe Learning Manager consente agli autori opzioni di controllo delle versioni più chiare durante l’aggiornamento del contenuto. Durante l’aggiornamento di una versione del contenuto, gli autori ora visualizzeranno tre opzioni ben definite:
+
+| Stato Allievo | Aggiorna ora | Aggiorna alla fine | Aggiornamento non avviato |
+|---|---|---|---|
+| Non iscritto | V2 | V2 | V2 |
+| Ancora da iniziare | V2 | V2 | V2 |
+| In corso | V2 * | V1 → V2 * | V1 |
+| Completata | V2 * | V2 * | V1 (conservato) |
+
+(*) Indica che il modulo verrà reimpostato all&#39;aggiornamento della versione.
+
+In **[!UICONTROL Aggiornamento non avviato]**, l’Allievo completato continuerà a visualizzare la versione del contenuto esistente (V1), risolvendo il problema delle schermate bianche impreviste.
+
+* **[!UICONTROL Aggiorna ora]**: applica l’aggiornamento del contenuto per tutti gli Allievi (non avviato, gli Allievi in corso e quelli completati verranno spostati nella nuova versione del contenuto ora)
+* **[!UICONTROL Aggiornamento completato]**: applicazione dell’aggiornamento dei contenuti per tutti gli Allievi alla fine (non avviato; gli Allievi completati verranno trasferiti alla nuova versione dei contenuti ora; gli Allievi in corso verranno spostati dopo il completamento)
+* **[!UICONTROL Aggiornamento non avviato]**: applica l’aggiornamento del contenuto solo per gli Allievi non avviati (gli Allievi in corso e completati rimarranno nella versione del contenuto esistente)
+
+#### Modifiche all’interfaccia utente
+
+| Etichetta precedente | Nuova opzione |
+|---|---|
+| Applicare l’aggiornamento del contenuto a tutti gli Allievi | Aggiorna tutti gli Allievi ora:applica l’aggiornamento dei contenuti a tutti gli Allievi |
+| Applica l’aggiornamento agli Allievi ancora da avviare | Aggiornamento solo Allievi non avviati: applica l’aggiornamento dei contenuti solo per Allievi non avviati |
+| Gli Allievi in corso ricevono un aggiornamento dopo il completamento | Aggiornare tutti gli Allievi alla fine: applicare l’aggiornamento dei contenuti per tutti gli Allievi alla fine |
+
+![](assets/version-control-options.png)
+
 
 ## Elimina contenuto {#deletecontent}
 

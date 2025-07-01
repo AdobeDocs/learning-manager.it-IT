@@ -2,10 +2,10 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 80%
+source-wordcount: '682'
+ht-degree: 79%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 80%
 * [Guida utente di Learning Manager](user-guide.md)
 * Introduzione {#introduction}
    * [Riepilogo delle nuove funzioni maggio 2025](/help/migrated/whats-new.md)
+   * [Prossime modifiche in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Riepilogo delle nuove funzioni di novembre 2024](/help/migrated/whats-new-nov-24.md)
    * [Riepilogo delle nuove funzioni luglio 2024](whats-new-july-2024.md)
    * [Nuove funzioni marzo 2024](whats-new-march-2024.md)
@@ -93,6 +94,7 @@ ht-degree: 80%
    * [Programmi di apprendimento](administrators/feature-summary/learning-programs.md)
    * [Terminologia del prodotto](administrators/feature-summary/product-terminology.md)
 * Amministratore dell’integrazione {#integration}
+   * [Manuale per sviluppatori di applicazioni](integration-admin/feature-summary/developer-manual.md)
    * [Manuale di migrazione](integration-admin/feature-summary/migration-manual.md)
    * [Connettori Learning Manager](integration-admin/feature-summary/connectors.md)
    * [API senza accesso](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -104,7 +106,6 @@ ht-degree: 80%
    * [Integrazione di Learning Manager con AEM](integrate-aem-learning-manager.md)
    * [Installazione del pacchetto Salesforce su Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Installazione del connettore Microsoft Teams](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [Manuale per sviluppatori di applicazioni](integration-admin/feature-summary/developer-manual.md)
    * [App Learning Manager per Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Impostazioni](integration-admin/feature-summary/settings.md)
    * [Gestisci ruoli personalizzati tramite file CSV](integration-admin/feature-summary/configure-role-csv-files.md)

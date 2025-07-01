@@ -2,10 +2,10 @@
 title: Transizione dall’FTP di Adobe Manager
 description: Adobe Learning Manager supporta un nuovo connettore che utilizza il protocollo SFTP della famiglia AWS Transfer. Puoi sostituire qualsiasi client FTP open source con l’FTP di Adobe Manager.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 566716404c1cff34108e39014e14416d65088a80
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 68%
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Learning Manager supporta un nuovo connettore utilizzando il protocollo SF
 
 Puoi sostituire qualsiasi client FTP open source con l’FTP di Adobe Manager.
 
-[Di seguito](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html) sono elencati alcuni client FTP consigliati da AWS:
+Alcuni client FTP consigliati da AWS sono [elencati qui](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html):
 
 * FileZilla (Windows, macOS e Linux)
 * OpenSSH (macOS e Linux) - Nota: questo client funziona solo con i server abilitati per il protocollo Secure Shell (SSH) File Transfer (SFTP).
