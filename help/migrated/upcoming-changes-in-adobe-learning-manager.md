@@ -1,13 +1,13 @@
 ---
 title: Prossime modifiche in Adobe Learning Manager
 description: Scopri le nuove funzioni, i miglioramenti e gli aggiornamenti importanti in arrivo per Adobe Learning Manager. Ricevi informazioni sulle novità per pianificare in anticipo e sfruttare al meglio le ultime novità.
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
+source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
-
 
 # Prossime modifiche in Adobe Learning Manager
 
@@ -15,7 +15,7 @@ Siamo entusiasti di condividere diversi importanti aggiornamenti in arrivo su Ad
 
 Queste modifiche sono progettate per ridurre le operazioni manuali, supportare l&#39;automazione e migliorare la governance nelle operazioni di formazione.
 
-## Acquisire i completamenti contrassegnati come istruttore in Trascrizione Allievo (M44)
+## Acquisire i completamenti contrassegnati come istruttore in Trascrizione Allievo
 
 ### Pubblico
 
@@ -45,7 +45,7 @@ Gli stati di partecipazione come &quot;Partecipato con esito positivo/negativo&q
 * Se si utilizzano i nomi di colonna, non è necessario apportare modifiche.
 * Non sono inclusi i completamenti modificati (importazioni manuali).
 
-## Download dei collegamenti nel rapporto Risorse formative (M44)
+## Scarica i collegamenti nel report Risorse formative
 
 ### Pubblico
 
@@ -69,7 +69,7 @@ Gli utenti con accesso (amministratore/autori e ruoli personalizzati) possono sc
 * Se lo script è basato sulla posizione della colonna, aggiornare gli script di conseguenza.
 * Non è necessaria alcuna azione se si utilizzano i nomi di colonna.
 
-## Colonne ID utente interno ed e-mail del Manager aggiunte al Report utente (M44)
+## Colonne ID utente interno ed e-mail del Manager aggiunte al Report utente
 
 ### Pubblico
 
@@ -88,7 +88,7 @@ Il report Utente include l’ID utente interno di un utente e l’indirizzo e-ma
 * Se utilizzi questo report in flussi automatizzati, questa colonna appena aggiunta deve essere gestita in automazione.
 * Se i flussi di lavoro non sono interessati, non sono necessarie modifiche.
 
-## Autorizzazioni di annuncio con ambito per amministratori personalizzati (M44)
+## Autorizzazioni di annuncio con ambito per amministratori personalizzati
 
 ### Pubblico
 
