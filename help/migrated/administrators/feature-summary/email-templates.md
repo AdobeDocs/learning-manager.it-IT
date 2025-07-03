@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Modelli e-mail
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 55%
+source-wordcount: '1512'
+ht-degree: 58%
 
 ---
 
@@ -41,21 +41,23 @@ Gli Amministratori possono facilmente attivare, disattivare o modificare questi 
 
    *Selezionare la scheda Generale*
 
-1. Per visualizzare l’elenco dei modelli e-mail, fai clic su una scheda qualsiasi.
+2. Per abilitare o disabilitare in blocco i modelli e-mail per un determinato ruolo, seleziona i puntini di sospensione (...) nell&#39;intestazione della colonna e abilita tutti i ruoli applicabili in **[!UICONTROL Destinatari e-mail]**.
 
-   ![](assets/email-templates-ingeneraltab.png)
+   ![](assets/email-template-role.png)
+   _Invia tutti i modelli e-mail a livello di ruolo_
 
-   *Visualizza l&#39;elenco dei modelli e-mail*
+3. Per abilitare o disabilitare un modello e-mail specifico per un ruolo, seleziona i puntini di sospensione (...) per tale modello e seleziona o deseleziona un ruolo.
 
-   Puoi attivare o disattivare facilmente questi avvisi e-mail facendo clic sul pulsante di attivazione/disattivazione corrispondente.
+   ![](assets/email-template-role-1.png)
+   _Invia un modello e-mail a livello di ruolo_
 
-1. Per modificare il contenuto del modello, fai clic sul nome del modello. Qui puoi vedere che disponi di modelli diversi per tipi di utenti diversi.
+4. Per modificare il contenuto del modello, fai clic sul nome del modello. Qui puoi vedere che disponi di modelli diversi per tipi di utenti diversi.
 
    ![](assets/preview-of-an-emailtemplate.png)
 
    *Visualizzare il modello di un messaggio di posta elettronica*
 
-1. Per modificare il contenuto di questo modello e-mail, fai clic sul corpo del messaggio e-mail. Apporta le modifiche necessarie al modello. Puoi modificare il testo e utilizzare una di queste variabili nell’e-mail. Le modifiche apportate al corpo possono essere applicate solo a questo modello e-mail. Tuttavia, le modifiche apportate alla firma di questa e-mail possono essere applicate globalmente a tutti i modelli.
+5. Per modificare il contenuto di questo modello e-mail, fai clic sul corpo del messaggio e-mail. Apporta le modifiche necessarie al modello. Puoi modificare il testo e utilizzare una di queste variabili nell’e-mail. Le modifiche apportate al corpo possono essere applicate solo a questo modello e-mail. Tuttavia, le modifiche apportate alla firma di questa e-mail possono essere applicate globalmente a tutti i modelli.
 
    Passa il mouse su ogni icona per visualizzare i nomi.
 
@@ -65,14 +67,14 @@ Gli Amministratori possono facilmente attivare, disattivare o modificare questi 
 
    Puoi ripristinare il contenuto predefinito del corpo del messaggio facendo clic sul collegamento **[!UICONTROL Torna all’originale]** sopra il modello.
 
-1. Per confermare le modifiche applicate a questo modello, fai clic su Salva. Ora gli utenti possono ricevere notifiche e-mail utilizzando il modello e-mail modificato.
+6. Per confermare le modifiche applicate a questo modello, fai clic su Salva. Ora gli utenti possono ricevere notifiche e-mail utilizzando il modello e-mail modificato.
 
 ## Personalizzazione delle impostazioni di un modello e-mail {#customizesettingsofanemailtemplate}
 
 1. Per aprire la pagina delle impostazioni, fai clic su **[!UICONTROL Impostazioni]**. Ora puoi personalizzare i modelli e-mail.
 1. Per personalizzare il nome e l’ID e-mail da cui gli Allievi ricevono le e-mail, modifica **[!UICONTROL Nome e indirizzo mittente].**
 
-   Per configurare o modificare questi dettagli, contatta [***il supporto Adobe***](https://helpx.adobe.com/it/contact/enterprise-support.other.html#learning-manager).
+   Per configurare o modificare questi dettagli, contatta [***il supporto Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 1. Personalizza il banner e-mail dall&#39;opzione **[!UICONTROL Banner e-mail]**. Modifica il colore del banner selezionando **[!UICONTROL Sfondo del banner]**.
 
@@ -100,23 +102,6 @@ Gli Amministratori possono facilmente attivare, disattivare o modificare questi 
 
 1. Configura se i Manager devono ricevere anche e-mail inviate ai loro subordinati utilizzando la casella di controllo nell&#39;opzione **[!UICONTROL E-mail Manager opzionale]**.
 
-## Abilitare o disabilitare l’e-mail a livello di ruolo
-
-L’Amministratore può abilitare o disabilitare i modelli e-mail in base al ruolo del destinatario, ad esempio Allievo, Manager o Istruttore. Questo offre agli amministratori un maggiore controllo sulle notifiche inviate e consente di gestire il tipo e la frequenza delle comunicazioni.
-
-Per attivare o disattivare i modelli e-mail:
-
-1. Accedi a Adobe Learning Manager come amministratore.
-2. Seleziona **[!UICONTROL Modelli e-mail]** dal riquadro a sinistra.
-3. Per abilitare o disabilitare in blocco i modelli e-mail per un determinato ruolo, seleziona i puntini di sospensione (...) nell&#39;intestazione della colonna e abilita tutti i ruoli applicabili in **[!UICONTROL Destinatari e-mail]**.
-
-   ![](assets/email-template-role.png)
-   _Invia tutti i modelli e-mail a livello di ruolo_
-
-4. Per abilitare o disabilitare un modello e-mail specifico per un ruolo, seleziona i puntini di sospensione (...) per tale modello e seleziona o deseleziona un ruolo.
-
-   ![](assets/email-template-role-1.png)
-   _Invia un modello e-mail a livello di ruolo_
 
 ## Impostazione della frequenza delle e-mail di riepilogo {#setfrequencyofdigestemails}
 
@@ -178,7 +163,7 @@ Per scaricare il report sull&#39;accesso alle e-mail, fai clic sul pulsante **[!
 
 ## Personalizzazione del dominio e-mail {#customizeemaildomain}
 
-Per personalizzare il dominio e l’ID e-mail da cui gli Allievi ricevono le notifiche, contatta l’[***assistenza di Learning Manager***](https://helpx.adobe.com/it/contact/enterprise-support.other.html#learning-manager) e fornisci i dettagli del dominio che desideri aggiungere e il nuovo ID e-mail.
+Per personalizzare il dominio e l’ID e-mail da cui gli Allievi ricevono le notifiche, contatta l’[***assistenza di Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) e fornisci i dettagli del dominio che desideri aggiungere e il nuovo ID e-mail.
 
 La tua richiesta verrà elaborata e riceverai un’e-mail con un collegamento di conferma al nuovo indirizzo e-mail specificato. Fai clic sul collegamento fornito nel messaggio e-mail per confermare e completare il processo di verifica.
 
@@ -275,6 +260,6 @@ Per disattivare un modello e-mail, selezionalo e fai clic sul pulsante circolare
 
 +++Come si modificano il nome e l’indirizzo del mittente nel modello?
 
-Per modificare il nome e l&#39;indirizzo di posta elettronica del mittente, contatta il [supporto Adobe Learning Manager](https://helpx.adobe.com/it/contact/enterprise-support.other.html#learning-manager).
+Per modificare il nome e l&#39;indirizzo di posta elettronica del mittente, contatta il [supporto Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

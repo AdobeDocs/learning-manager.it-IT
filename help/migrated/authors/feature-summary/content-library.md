@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
 workflow-type: tm+mt
-source-wordcount: '4546'
-ht-degree: 37%
+source-wordcount: '4620'
+ht-degree: 36%
 
 ---
 
@@ -594,11 +594,23 @@ Il contenuto ora appare nell’elenco Pubblicato.
 
 ## Aggiornare il contenuto
 
-Gli Autori possono aggiornare il contenuto nel corso pubblicato. Questo aiuterà gli Allievi a ottenere la versione più recente del contenuto. Per ulteriori informazioni, vedere questo [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
+Gli Autori possono aggiornare il contenuto nel corso pubblicato.
+Per aggiornare il contenuto:
+
+1. Accedi come autore.
+2. Selezionare **[!UICONTROL Libreria dei contenuti]**.
+3. Cerca il contenuto e seleziona **[!UICONTROL Modifica]**.
+4. Rimuovi il contenuto precedente e carica un nuovo file e pubblica.
+
+Questo aiuterà gli Allievi a ottenere la versione più recente del contenuto.
+
+Per ulteriori informazioni, vedere questo [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
 
 ### Controllo della versione dei contenuti per gli Allievi che hanno completato un corso
 
-Adobe Learning Manager consente agli autori opzioni di controllo delle versioni più chiare durante l’aggiornamento del contenuto. Durante l’aggiornamento di una versione del contenuto, gli autori ora visualizzeranno tre opzioni ben definite:
+Adobe Learning Manager ora offre agli autori opzioni più chiare per gestire gli aggiornamenti dei contenuti. Gli Autori possono aggiornare i contenuti già disponibili in un corso. Quando viene aggiunta una nuova versione, il numero di versione viene visualizzato accanto al contenuto.
+
+Quando un Amministratore visita un corso con contenuti aggiornati, vedrà un pulsante Aggiorna accanto alla nuova versione. Gli Amministratori visualizzeranno anche chiare opzioni di aggiornamento per scegliere come la nuova versione dei contenuti viene applicata agli Allievi.
 
 | Stato Allievo | Aggiorna ora | Aggiorna alla fine | Aggiornamento non avviato |
 |---|---|---|---|
@@ -607,23 +619,20 @@ Adobe Learning Manager consente agli autori opzioni di controllo delle versioni 
 | In corso | V2 * | V1 → V2 * | V1 |
 | Completata | V2 * | V2 * | V1 (conservato) |
 
-(*) Indica che il modulo verrà reimpostato all&#39;aggiornamento della versione.
+(*) Indica che il modulo verrà reimpostato quando la versione viene aggiornata.
 
-In **[!UICONTROL Aggiornamento non avviato]**, l’Allievo completato continuerà a visualizzare la versione del contenuto esistente (V1), risolvendo il problema delle schermate bianche impreviste.
+Con l’aggiornamento non avviato, gli allievi che hanno già completato il corso continuano a visualizzare la versione del contenuto originale (V1). In questo modo si evitano problemi di riproduzione imprevisti e si garantisce un’esperienza uniforme per gli Allievi che rivedono i corsi completati.
 
-* **[!UICONTROL Aggiorna ora]**: applica l’aggiornamento del contenuto per tutti gli Allievi (non avviato, gli Allievi in corso e quelli completati verranno spostati nella nuova versione del contenuto ora)
-* **[!UICONTROL Aggiornamento completato]**: applicazione dell’aggiornamento dei contenuti per tutti gli Allievi alla fine (non avviato; gli Allievi completati verranno trasferiti alla nuova versione dei contenuti ora; gli Allievi in corso verranno spostati dopo il completamento)
-* **[!UICONTROL Aggiornamento non avviato]**: applica l’aggiornamento del contenuto solo per gli Allievi non avviati (gli Allievi in corso e completati rimarranno nella versione del contenuto esistente)
+### Opzioni di aggiornamento del contenuto
 
-#### Modifiche all’interfaccia utente
+Quando un amministratore fa clic su **[!UICONTROL Aggiorna]**, può scegliere tra le seguenti opzioni:
 
-| Etichetta precedente | Nuova opzione |
-|---|---|
-| Applicare l’aggiornamento del contenuto a tutti gli Allievi | Aggiorna tutti gli Allievi ora:applica l’aggiornamento dei contenuti a tutti gli Allievi |
-| Applica l’aggiornamento agli Allievi ancora da avviare | Aggiornamento solo Allievi non avviati: applica l’aggiornamento dei contenuti solo per Allievi non avviati |
-| Gli Allievi in corso ricevono un aggiornamento dopo il completamento | Aggiornare tutti gli Allievi alla fine: applicare l’aggiornamento dei contenuti per tutti gli Allievi alla fine |
+* **[!UICONTROL Aggiorna tutti gli Allievi ora]**: applica immediatamente l’aggiornamento dei contenuti per tutti gli Allievi. Gli Allievi Non avviati, In corso e Completati passano immediatamente alla nuova versione.
+* **[!UICONTROL Aggiorna tutti gli Allievi alla fine]**: applica l’aggiornamento per tutti gli Allievi in più fasi. Gli Allievi non avviati e completati ricevono ora la nuova versione. Gli Allievi In corso ricevono l’aggiornamento dopo aver completato la versione corrente.
+* **[!UICONTROL Aggiornamento solo allievi non avviati]**: applica l’aggiornamento solo agli allievi che non hanno ancora iniziato il corso. Gli Allievi In corso e Completati rimangono sulla versione originale.
 
 ![](assets/version-control-options.png)
+_Opzioni di aggiornamento del contenuto disponibili in Impostazioni aggiornamento_
 
 
 ## Elimina contenuto {#deletecontent}

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
 workflow-type: tm+mt
-source-wordcount: '27011'
+source-wordcount: '27129'
 ht-degree: 70%
 
 ---
@@ -56,20 +56,19 @@ Per ulteriori informazioni, consulta questo [articolo](/help/migrated/administra
 
 ### Panoramica
 
-Quando il modulo dei contenuti di un corso completato veniva aggiornato a una versione più recente, gli allievi visualizzavano una schermata bianca. Questo problema si verificava anche quando l’Autore sceglieva di applicare il nuovo contenuto solo agli Allievi che non avevano ancora iniziato il corso. Il problema influiva sull’esperienza utente e causava confusione tra gli Allievi precedenti che tentavano di rivedere il corso, poiché riscontravano problemi di riproduzione.
+Quando il modulo dei contenuti di un corso completato veniva aggiornato a una versione più recente, gli allievi che avevano già completato il corso ricevevano ancora la versione aggiornata del modulo in background. Ciò ha causato un comportamento imprevisto quando si è tentato di rivisitare il corso, poiché il contenuto aggiornato non era destinato a loro.
 
 ### Comportamento esistente
 
-Quando gli Autori aggiornavano il contenuto del corso a una nuova versione (V2) e lo applicavano solo agli Allievi &quot;non ancora avviati&quot;, Adobe Learning Manager aggiornava la versione del modulo per gli Allievi completati in background e questi Allievi visualizzavano una schermata bianca quando tentavano di accedere nuovamente al contenuto, poiché il modulo aggiornato non era più valido per loro.
+Quando gli Autori aggiornavano i contenuti del corso a una nuova versione e sceglievano di applicarli solo agli Allievi che non avevano ancora iniziato il corso, Adobe Learning Manager aggiornava comunque la versione del modulo per gli Allievi che lo avevano già completato. Di conseguenza, questi allievi non riuscivano ad accedere al contenuto originale come previsto.
 
-### Esempi:
-
-* Un Allievo completato ha tentato di rivisitare il corso dopo l’aggiornamento e ha visualizzato una schermata bianca.
-* Un Allievo in corso ha completato il corso, ma in seguito ha riscontrato una schermata bianca dopo che la versione del contenuto era stata aggiornata in modalità invisibile.
+Questo miglioramento garantisce che, quando un modulo del corso viene aggiornato e impostato per essere applicato solo agli Allievi che non hanno ancora iniziato, gli Allievi che hanno già completato il corso manterranno l’accesso ininterrotto alla versione originale.
 
 ### Cosa è cambiato
 
-Adobe Learning Manager introduce opzioni di controllo delle versioni più chiare per gli autori durante l’aggiornamento del contenuto. Durante l’aggiornamento di una versione del contenuto, gli autori ora visualizzeranno tre opzioni ben definite:
+Adobe Learning Manager ora offre agli autori opzioni più chiare per gestire gli aggiornamenti dei contenuti. Gli Autori possono aggiornare i contenuti già disponibili in un corso. Quando viene aggiunta una nuova versione, il numero di versione viene visualizzato accanto al contenuto.
+
+Quando un Amministratore visita un corso con contenuti aggiornati, vedrà un pulsante Aggiorna accanto alla nuova versione. Gli Amministratori visualizzeranno anche chiare opzioni di aggiornamento per scegliere come la nuova versione dei contenuti viene applicata agli Allievi.
 
 | Stato Allievo | Aggiorna ora | Aggiorna alla fine | Aggiornamento non avviato |
 |---|---|---|---|
@@ -78,13 +77,17 @@ Adobe Learning Manager introduce opzioni di controllo delle versioni più chiare
 | In corso | V2 * | V1 → V2 * | V1 |
 | Completata | V2 * | V2 * | V1 (conservato) |
 
-(*) Indica che il modulo verrà reimpostato all&#39;aggiornamento della versione.
+(*) Indica che il modulo verrà reimpostato quando la versione viene aggiornata.
 
-In **[!UICONTROL Aggiornamento non avviato]**, l’Allievo completato continuerà a visualizzare la versione del contenuto esistente (V1), risolvendo il problema delle schermate bianche impreviste.
+Con l’aggiornamento non avviato, gli allievi che hanno già completato il corso continuano a visualizzare la versione del contenuto originale (V1). In questo modo si evitano problemi di riproduzione imprevisti e si garantisce un’esperienza uniforme per gli Allievi che rivedono i corsi completati.
 
-* **[!UICONTROL Aggiorna ora]**: applica l’aggiornamento del contenuto per tutti gli Allievi (non avviato, gli Allievi in corso e quelli completati verranno spostati nella nuova versione del contenuto ora)
-* **[!UICONTROL Aggiornamento completato]**: applicazione dell’aggiornamento dei contenuti per tutti gli Allievi alla fine (non avviato; gli Allievi completati verranno trasferiti alla nuova versione dei contenuti ora; gli Allievi in corso verranno spostati dopo il completamento)
-* **[!UICONTROL Aggiornamento non avviato]**: applica l’aggiornamento del contenuto solo per gli Allievi non avviati (gli Allievi in corso e completati rimarranno nella versione del contenuto esistente)
+### Opzioni di aggiornamento del contenuto
+
+Quando un amministratore fa clic su **[!UICONTROL Aggiorna]**, può scegliere tra le seguenti opzioni:
+
+* **[!UICONTROL Aggiorna tutti gli Allievi ora]**: applica immediatamente l’aggiornamento dei contenuti per tutti gli Allievi. Gli Allievi Non avviati, In corso e Completati passano immediatamente alla nuova versione.
+* **[!UICONTROL Aggiorna tutti gli Allievi alla fine]**: applica l’aggiornamento per tutti gli Allievi in più fasi. Gli Allievi non avviati e completati ricevono ora la nuova versione. Gli Allievi In corso ricevono l’aggiornamento dopo aver completato la versione corrente.
+* **[!UICONTROL Aggiornamento solo allievi non avviati]**: applica l’aggiornamento solo agli allievi che non hanno ancora iniziato il corso. Gli Allievi In corso e Completati rimangono sulla versione originale.
 
 ### Modifiche all’interfaccia utente
 
@@ -94,9 +97,14 @@ In **[!UICONTROL Aggiornamento non avviato]**, l’Allievo completato continuer�
 | Applica l’aggiornamento agli Allievi ancora da avviare | Aggiornamento solo Allievi non avviati: applica l’aggiornamento dei contenuti solo per Allievi non avviati |
 | Gli Allievi in corso ricevono un aggiornamento dopo il completamento | Aggiornare tutti gli Allievi alla fine: applicare l’aggiornamento dei contenuti per tutti gli Allievi alla fine |
 
-![](assets/version-control-options.png)
+<!--![](assets/version-control-options.png)
+_Content update options_-->
 
 Per ulteriori informazioni sulla libreria dei contenuti, consultare questo [articolo](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course).
+
+## Bug corretti in questa versione
+
+* È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
 +++
 
@@ -1575,7 +1583,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -1953,7 +1961,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -2577,7 +2585,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -3087,7 +3095,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli Allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** utilizzata per rappresentare gruppi esterni,**&#x200B;**&#x200B;è&#x200B;**&#x200B;** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** utilizzata per rappresentare gruppi esterni,****&#x200B;è&#x200B;**** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L&#39;URL non è cliccabile nell&#39;e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** vengono modificati. Questo problema è stato risolto.
