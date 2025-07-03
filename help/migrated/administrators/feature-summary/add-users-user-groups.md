@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Aggiungere utenti in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Aggiungere utenti in Adobe Learning Manager
 
-In Adobe Learning Manager, gli utenti sono persone che utilizzano la piattaforma per l’apprendimento o la formazione. Esistono due tipi di utenti: utenti interni ed esterni.
+In Adobe Learning Manager, gli utenti sono Allievi che utilizzano la piattaforma per l’apprendimento o la formazione. Esistono due tipi di utenti: utenti interni ed esterni.
 
 Gli utenti interni sono dipendenti o membri del gruppo della tua organizzazione.
 
-Gli utenti esterni sono persone esterne all’azienda, come clienti, partner, fornitori o clienti, che possono accedere ai contenuti di apprendimento.
+Gli utenti esterni sono Allievi esterni all’azienda, come clienti, partner, fornitori o clienti, che possono accedere ai contenuti di apprendimento.
 
 Adobe Learning Manager (ALM) consente agli amministratori di integrare e gestire utenti interni ed esterni utilizzando vari metodi, tra cui l&#39;immissione manuale, il caricamento di CSV, la registrazione autonoma e le integrazioni di sistema.
 
@@ -248,7 +248,7 @@ Esistono alcune differenze tra le registrazioni interne ed esterne:
 | Utenti interni | Utenti esterni |
 |---|---|
 | Può accedere utilizzando le credenziali Adobe ID o SSO. | È possibile accedere utilizzando un qualsiasi ID e-mail. |
-| La gamification è disponibile. | È disponibile la gamification. L’amministratore deve abilitare la gamification per gli Allievi esterni nelle [Impostazioni gamification](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/gamification). |
+| La gamification è disponibile. | È disponibile la gamification. L’amministratore deve abilitare la gamification per gli Allievi esterni nelle [Impostazioni gamification](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Metti in pausa il profilo di registrazione esterno
 
