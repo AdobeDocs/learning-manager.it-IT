@@ -4,9 +4,9 @@ title: Manuale per sviluppatori di applicazioni
 description: Scopri come integrare e personalizzare le applicazioni utilizzando le API RESTful, affrontando argomenti essenziali come l’autenticazione OAuth 2.0, gli scenari di utilizzo delle API e i modelli di dati. Migliora le tue applicazioni aziendali con funzionalità come la creazione di corsi, il tracciamento dei progressi degli Allievi, la mappatura delle abilità, la certificazione, la gamification e altro ancora. Questa guida fornisce istruzioni dettagliate ed esempi reali per aiutare gli sviluppatori a creare flussi di lavoro diretti ed efficienti. Ideale per gli sviluppatori che desiderano sfruttare le funzionalità di Adobe Learning Manager per la creazione di applicazioni incentrate sugli Allievi.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
 workflow-type: tm+mt
-source-wordcount: '4375'
+source-wordcount: '4396'
 ht-degree: 6%
 
 ---
@@ -22,8 +22,8 @@ Il presente manuale tratta i seguenti argomenti:
 
 * Autenticazione OAuth2.0
 * Modelli di oggetti API
-* Mostra come utilizzare i parametri include, fields e other
-* Fornisce endpoint per casi d&#39;uso reali
+* Includi, campi e altri parametri
+* Casi d&#39;uso reali
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Per accedere in modo sicuro alle API di Adobe Learning Manager, è necessario au
 
 ### Registra un&#39;applicazione
 
-Integrazione di Adobe Learning Manager con applicazioni esterne per una maggiore versatilità. I passaggi prevedono l’accesso all’interfaccia di Amministratore di integrazione, la registrazione dell’applicazione e l’ottenimento di ID client e Segreto. Genera token di autenticazione (OAuth, Refresh e Access Tokens) da ALM, sottolineando l&#39;uso del framework OAuth 2.0 per l&#39;autenticazione e l&#39;autorizzazione. Il token di accesso ha una validità di sette giorni.
+Integrazione di Adobe Learning Manager con applicazioni esterne per una maggiore versatilità. I passaggi prevedono l’accesso all’interfaccia di Amministratore di integrazione, la registrazione dell’applicazione e l’ottenimento di ID client e Segreto. Genera token di autenticazione OAuth 2.0 da Adobe Learning Manager, inclusi token di autorizzazione, aggiornamento e accesso. Utilizza il flusso OAuth 2.0 per autenticare e autorizzare in modo sicuro l’app. Il token di accesso ha una validità di sette giorni.
 
 1. Accedi a Adobe Learning Manager come amministratore di integrazione.
 2. Seleziona **[!UICONTROL Applicazioni]** nel riquadro a sinistra.
@@ -283,7 +283,7 @@ Aggiungi il parametro include all’URL API e specifica le entità correlate da 
 
 **Esempio 1**
 
-Recuperare i dettagli di un utente utilizzando il parametro userID nell&#39;endpoint
+Recuperare i dettagli di un utente utilizzando il parametro userID nell&#39;endpoint.
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -403,7 +403,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
   </td>
   <td>
-  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades 3&rbrace;</br>
+  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades 3}</br>
   </td>
   </tr>
   </table>
@@ -521,7 +521,7 @@ Le API di Adobe Learning Manager consentono agli sviluppatori di accedere agli o
 | BagdeUtente | UserBadge mette in relazione un singolo badge con un singolo utente. Contiene dettagli come quando è stato raggiunto, assertionUrl e così via. |
 | abilità | Il modello di abilità è costituito da livelli e crediti. Le abilità possono essere acquisite dagli Allievi dopo il completamento del corso. |
 | LivelloAbilità | Un livello di abilità comprende uno o più corsi da utilizzare per acquisire un livello e i relativi crediti associati. |
-| OggettoApprendimento | Un oggetto di apprendimento è un’astrazione per vari tipi di oggetti a cui gli utenti possono iscriversi e da cui possono imparare. Attualmente Learning Manager dispone dei quattro tipi di oggetti di apprendimento, Corso, Certificazione, Programma di apprendimento e Risorsa formativa. |
+| learningObject | Un oggetto di apprendimento è un’astrazione per vari tipi di oggetti a cui gli utenti possono iscriversi e da cui possono imparare. Attualmente Learning Manager dispone dei quattro tipi di oggetti di apprendimento, Corso, Certificazione, Programma di apprendimento e Risorsa formativa. |
 | IstanzaOggettoApprendimento | Un’istanza specifica di un oggetto di apprendimento. |
 | RisorsaOggettoApprendimento | Ciò equivale al concetto di modulo . Un corso è composto da uno o più moduli. In Learning Manager, un modulo può essere distribuito in una serie di modi equivalenti tra loro. Pertanto loResource incapsula essenzialmente tutte le risorse equivalenti. |
 | loResourceGrade | Contiene il risultato dell’utilizzo di una risorsa specifica da parte dell’utente nel contesto di un oggetto di apprendimento a cui è iscritto. Contiene informazioni come la durata spesa dall&#39;utente nella risorsa, la percentuale di avanzamento da parte dell&#39;utente, lo stato di superamento/fallimento e il punteggio ottenuto dall&#39;utente in qualsiasi quiz associato. |
@@ -841,8 +841,11 @@ L’utente esterno è stato aggiunto a Adobe Learning Manager. Invia l’URL che
 
 ### Estrarre il report utente con ID utente e dettagli manager
 
-È possibile scaricare un report utente direttamente dall&#39;interfaccia utente (**[!UICONTROL Amministratore]** > **[!UICONTROL Utenti]** > **[!UICONTROL Interno]**). Tuttavia, il report non restituisce l&#39;ID utente e i dettagli del manager associato.
-Utilizzando l’API dei processi per un amministratore, puoi recuperare i dettagli.
+È possibile scaricare un report utente direttamente dall&#39;interfaccia utente amministratore (**[!UICONTROL Amministratore]** > **[!UICONTROL Utenti]** > **[!UICONTROL Interno]**). Tuttavia, il report non restituisce l&#39;ID utente e i dettagli del manager associato.
+
+Utilizza l’API dei processi per scaricare il report. L’API dei processi consente di generare report, operazioni in blocco (iscrizioni o assegnazioni di badge), completamenti di certificazioni o generazione di badge.
+
+Ecco come puoi scaricare il report:
 
 1. Aggiungi il seguente payload all’API dei processi.
 
