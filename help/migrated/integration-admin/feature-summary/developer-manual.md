@@ -4,7 +4,7 @@ title: Manuale per sviluppatori di applicazioni
 description: Scopri come integrare e personalizzare le applicazioni utilizzando le API RESTful, affrontando argomenti essenziali come l’autenticazione OAuth 2.0, gli scenari di utilizzo delle API e i modelli di dati. Migliora le tue applicazioni aziendali con funzionalità come la creazione di corsi, il tracciamento dei progressi degli Allievi, la mappatura delle abilità, la certificazione, la gamification e altro ancora. Questa guida fornisce istruzioni dettagliate ed esempi reali per aiutare gli sviluppatori a creare flussi di lavoro diretti ed efficienti. Ideale per gli sviluppatori che desiderano sfruttare le funzionalità di Adobe Learning Manager per la creazione di applicazioni incentrate sugli Allievi.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 01b5f339fb17db9c1af4e3e1121f9034c84fb974
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '4375'
 ht-degree: 6%
@@ -392,7 +392,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
 **Altri filtri di inclusione**
 
 <table>
- <tbody>
+  <tbody>
   <tr>
    <td>
     <p style="text-align: left;"><b>Programmi di apprendimento</b></p></td>
@@ -403,9 +403,10 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
   </td>
   <td>
-  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades 3&rbrace;</br>
+  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades 3}</br>
   </td>
   </tr>
+  </table>
 
 #### campi
 
@@ -520,7 +521,7 @@ Le API di Adobe Learning Manager consentono agli sviluppatori di accedere agli o
 | BagdeUtente | UserBadge mette in relazione un singolo badge con un singolo utente. Contiene dettagli come quando è stato raggiunto, assertionUrl e così via. |
 | abilità | Il modello di abilità è costituito da livelli e crediti. Le abilità possono essere acquisite dagli Allievi dopo il completamento del corso. |
 | LivelloAbilità | Un livello di abilità comprende uno o più corsi da utilizzare per acquisire un livello e i relativi crediti associati. |
-| OggettoApprendimento | Un oggetto di apprendimento è un’astrazione per vari tipi di oggetti a cui gli utenti possono iscriversi e da cui possono imparare. Attualmente Learning Manager dispone dei quattro tipi di oggetti di apprendimento: Corso, Certificazione, Programma di apprendimento e Risorsa formativa. |
+| OggettoApprendimento | Un oggetto di apprendimento è un’astrazione per vari tipi di oggetti a cui gli utenti possono iscriversi e da cui possono imparare. Attualmente Learning Manager dispone dei quattro tipi di oggetti di apprendimento, Corso, Certificazione, Programma di apprendimento e Risorsa formativa. |
 | IstanzaOggettoApprendimento | Un’istanza specifica di un oggetto di apprendimento. |
 | RisorsaOggettoApprendimento | Ciò equivale al concetto di modulo . Un corso è composto da uno o più moduli. In Learning Manager, un modulo può essere distribuito in una serie di modi equivalenti tra loro. Pertanto loResource incapsula essenzialmente tutte le risorse equivalenti. |
 | loResourceGrade | Contiene il risultato dell’utilizzo di una risorsa specifica da parte dell’utente nel contesto di un oggetto di apprendimento a cui è iscritto. Contiene informazioni come la durata spesa dall&#39;utente nella risorsa, la percentuale di avanzamento da parte dell&#39;utente, lo stato di superamento/fallimento e il punteggio ottenuto dall&#39;utente in qualsiasi quiz associato. |

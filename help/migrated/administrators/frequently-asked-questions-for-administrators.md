@@ -4,9 +4,9 @@ title: Domande frequenti per gli Amministratori
 description: Domande frequenti per gli amministratori Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 52%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++È possibile aggiungere utenti in blocco? Come?
 
-Sì, è possibile aggiungere utenti in blocco utilizzando la funzione che consente di caricare un file CSV. Per ulteriori informazioni, fai clic [qui](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users).
+Sì, è possibile aggiungere utenti in blocco utilizzando la funzione che consente di caricare un file CSV. Per ulteriori informazioni, consulta questo [articolo](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users).
 
 +++
 
@@ -257,7 +257,7 @@ Solo gli Amministratori e i Manager possono creare o visualizzare report. Per ul
 Manager, Autori e Allievi possono visualizzare le notifiche in base alle attività del corso. Per attivare/disattivare le notifiche per tutti gli utenti, l’Amministratore deve procedere come segue:
 
 1. Fai clic su Modelli e-mail nel riquadro a sinistra e scegli le schede Generale, Iscrizioni utenti, Completamenti e Feedback.
-1. Dagli eventi elencati di seguito, fare clic sui pulsanti di attivazione No/Sì accanto a **ogni evento &#x200B;** e scegliere Sì per attivare la notifica. Per disattivare l’invio di notifiche per un evento specifico, fare clic su No.
+1. Dagli eventi elencati di seguito, fare clic sui pulsanti di attivazione No/Sì accanto a ciascun evento e scegliere Sì per attivare la notifica. Per disattivare l’invio di notifiche per un evento specifico, fare clic su No.
 
 +++
 

@@ -2,17 +2,17 @@
 description: Scopri come utilizzare i campi attivi in Adobe Learning Manager per acquisire, organizzare e gestire informazioni utente personalizzate. Migliorare la creazione di report, il filtraggio e la segmentazione degli utenti con configurazioni flessibili dei campi.
 jcr-language: en_us
 title: Configurare i campi attivi in Adobe Learning Manager
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
 
 ---
 
-
 # Campi attivi
 
-I campi attivi in Adobe Learning Manager sono attributi utente personalizzati che consentono agli amministratori di organizzare e gestire gli utenti in modo efficace. Consentono di acquisire informazioni aggiuntive sull&#39;utente, ad esempio reparto, posizione o qualifica. Gli amministratori possono utilizzare questi dati per creare gruppi di utenti, personalizzare l’apprendimento e filtrare i report in modo più efficace.
+I campi attivi in Adobe Learning Manager sono attributi utente personalizzati che consentono agli amministratori di organizzare e gestire gli utenti in modo efficace. Consentono di acquisire informazioni aggiuntive sull&#39;utente, ad esempio reparto, posizione o qualifica. Gli Amministratori possono utilizzare questi dati per creare gruppi di utenti, personalizzare l’apprendimento e filtrare i report in modo più efficace.
 
 Gli attributi utente sono informazioni quali il nome, il cognome e l’indirizzo e-mail di un utente. Questi attributi consentono agli amministratori di:
 
@@ -122,6 +122,4 @@ In alcuni casi, gli Amministratori preferiscono che gli Allievi compilino manual
 
 Se un file CSV non include tutti i campi attivi, l’amministratore deve immettere manualmente i valori mancanti dopo l’importazione.
 
-Per impostazione predefinita, ogni campo attivo deve essere mappato a un campo corrispondente nel file CSV di origine. Tuttavia, se non desideri mappare un campo attivo specifico a nessuna colonna nel file CSV, puoi selezionare il valore **DontImportFromSource** dall&#39;elenco a discesa durante i processi di importazione Box e FTP. Questa opzione è disponibile quando si importano gli utenti tramite connettori FTP o Box. Per ulteriori informazioni sui connettori, consultare questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/connectors).
-
-
+Per impostazione predefinita, ogni campo attivo deve essere mappato a un campo corrispondente nel file CSV di origine. Tuttavia, se non desideri mappare un campo attivo specifico a nessuna colonna nel file CSV, puoi selezionare il valore **DontImportFromSource** dall&#39;elenco a discesa durante i processi di importazione Box e FTP. Questa opzione è disponibile quando si importano gli utenti tramite connettori FTP o Box. Per ulteriori informazioni sui connettori, consultare questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors).
