@@ -4,9 +4,9 @@ title: Manuale per sviluppatori di applicazioni
 description: Scopri come integrare e personalizzare le applicazioni utilizzando le API RESTful, affrontando argomenti essenziali come l’autenticazione OAuth 2.0, gli scenari di utilizzo delle API e i modelli di dati. Migliora le tue applicazioni aziendali con funzionalità come la creazione di corsi, il tracciamento dei progressi degli Allievi, la mappatura delle abilità, la certificazione, la gamification e altro ancora. Questa guida fornisce istruzioni dettagliate ed esempi reali per aiutare gli sviluppatori a creare flussi di lavoro diretti ed efficienti. Ideale per gli sviluppatori che desiderano sfruttare le funzionalità di Adobe Learning Manager per la creazione di applicazioni incentrate sugli Allievi.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
+source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
 workflow-type: tm+mt
-source-wordcount: '4396'
+source-wordcount: '4420'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Il presente manuale tratta i seguenti argomenti:
 
 ## Scenari di utilizzo delle API
 
-Gli sviluppatori possono utilizzare le API di Learning Manager per migliorare o integrare Learning Manager con altre applicazioni aziendali. Puoi creare app Web, desktop o per dispositivi mobili utilizzando qualsiasi tecnologia. Gli sviluppatori possono accedere ai dati delle applicazioni all’interno di Learning Manager, ma la distribuzione è esterna e completamente controllata dall’utente. Le app vengono in genere sviluppate dalle organizzazioni dei clienti per i propri account, mentre i partner Adobe possono creare applicazioni generali per un utilizzo più ampio.
+Gli sviluppatori possono utilizzare le API di Learning Manager per migliorare o integrare Learning Manager con altre applicazioni aziendali. Puoi creare app Web, desktop o per dispositivi mobili utilizzando qualsiasi tecnologia. Gli sviluppatori possono accedere ai dati di Learning Manager, ma puoi controllare dove e come viene utilizzata l’app.
 
 ## Autenticazione tramite OAuth 2.0
 
@@ -79,7 +79,7 @@ Integrazione di Adobe Learning Manager con applicazioni esterne per una maggiore
 
 Dopo aver ottenuto l’ID client e il segreto client, utilizzali per richiedere un token di accesso utilizzato per autenticare le chiamate API.
 
-Per avviare il flusso del codice di autorizzazione, indirizza gli utenti al seguente URL in un browser:
+Per avviare il flusso del codice di autorizzazione, aggiungi il seguente URL in un browser:
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -134,7 +134,17 @@ Un token di accesso è valido per sette giorni. Dopo sette giorni, è necessario
 
 ### Ottieni token di accesso per test e sviluppo
 
-Utilizza lo strumento di generazione dei token Adobe Learning Manager (ALM) per creare rapidamente token di accesso a scopo di test e sviluppo. Questi token sono destinati esclusivamente all&#39;uso personale durante le fasi di sviluppo e debug. Tieni presente che i token di test consentono l&#39;accesso ai dati ALM, quindi è essenziale gestirli in modo sicuro. Non condividere mai i token di prova con altri utenti, non utilizzarli nelle applicazioni di produzione e non includerli in archivi di codice pubblici. Trattali come password per garantire la sicurezza dell’account e dei dati.
+Quando si utilizzano le API di Adobe Learning Manager (ALM), gli sviluppatori devono disporre di un token di accesso OAuth 2.0 valido per autenticare le richieste API. La generazione di questo token tramite il flusso OAuth standard può essere complessa e richiedere molto tempo, in particolare per test rapidi, apprendimento o sviluppo. Adobe Learning Manager fornisce uno strumento di generazione di token per semplificare questo processo.
+
+Questo strumento è ideale durante:
+
+* Build POC (Proof of concept)
+
+* Sviluppo nelle fasi iniziali
+
+* Risoluzione dei problemi di integrazione API
+
+Questi token sono destinati esclusivamente all&#39;uso personale durante le fasi di sviluppo e debug. Tieni presente che i token di test consentono l&#39;accesso ai dati ALM, quindi è essenziale gestirli in modo sicuro. Non condividere mai i token di prova con altri utenti, non utilizzarli nelle applicazioni di produzione e non includerli in archivi di codice pubblici. Trattali come password per garantire la sicurezza dell’account e dei dati.
 
 1. Accedi a Adobe Learning Manager come Amministratore dell’integrazione.
 2. Selezionare **[!UICONTROL Risorse sviluppatore]**, quindi **[!UICONTROL Seleziona token di accesso per test e sviluppo]**.
@@ -403,7 +413,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
   </td>
   <td>
-  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades 3&rbrace;</br>
+  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades 3}</br>
   </td>
   </tr>
   </table>
