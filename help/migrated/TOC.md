@@ -2,9 +2,9 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
+source-git-commit: 648cd1e17aa0e5b95b8454d136accc4b7a054d97
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '680'
 ht-degree: 79%
 
 ---
@@ -57,7 +57,6 @@ ht-degree: 79%
    * [Risorse formative](administrators/feature-summary/job-aids.md)
    * [Certificazioni](administrators/feature-summary/certifications.md)
    * [Cataloghi](administrators/feature-summary/catalogs.md)
-   * [Aggiunta di utenti in blocco](administrators/add-users-in-bulk.md)
    * [Impersonare un Allievo e un Manager](administrators/feature-summary/impersonation-learner-manager.md)
    * [Accessi SSO multipli](administrators/feature-summary/multiple-sso-logins.md)
    * [Configurazione della lingua dell’interfaccia tramite SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
