@@ -4,9 +4,9 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -46,109 +46,213 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 ### Campi
 
 <table>
+
  <tbody>
+
   <tr>
+
    <td>
+
     <p>ID account</p>
+
    </td>
+
    <td>
+
     <p>ID del tuo account. Tieni presente che l’app con etichetta bianca non sarà accessibile agli Allievi che appartengono a nessun altro account.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>ID account aggiuntivi</p>
+
    </td>
+
    <td>
+
     <p>Se lo desideri, aggiungi più account (sottodomini). Aggiungi i sottodomini come separati da virgole senza spazi. Ad esempio, acc01,acc02,acc03 e così via.<br> <b>Nota:</b> è necessario aggiungere l'ID account quando si specificano i sottodomini.</br> </p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome app</p></td>
+
    <td>
+
     <p>Il nome che si desidera utilizzare per l'app.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome breve dell’app</p>
+
    </td>
+
    <td>
+
     <p>Nei casi in cui il nome dell'app è lungo, assegna all'app un nome breve che appare sul dispositivo.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome app interna</p></td>
+
    <td>
+
     <p>Il nome con cui il sistema operativo identifica l'app. Il formato solitamente utilizzato è: com.company-name.product-name.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome app interna - iOS</p>
+
    </td>
+
    <td>
+
     <p>Assegna un nome diverso all’app se gli utenti si trovano in iOS. Si consiglia di utilizzare lo stesso nome sia per iOS che per Android.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Icona app</p>
+
    </td>
+
    <td>
+
     <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato da assegnare al nome è account-id_appIcon.png. Le dimensioni dell'icona dell'app sono di 512 × 512 pixel.<div>Tieni presente che Apple non consente il canale di Alpha nelle icone delle app. Assicurati quindi di rimuovere il canale di Alpha dalla risorsa prima di inviarla.</div></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Schermata iniziale dell’app</p></td>
+
    <td>
+
     <p>Per la schermata iniziale dell'app, fornisci un'immagine (png) che viene visualizzata quando gli utenti avviano l'app. Il formato del nome è account-id_splashIcon.png. Le dimensioni delle schermate iniziali basate su quadrati sono di 1052 × 1052 pixel, quelle basate su cerchi di 768 x 768 pixel.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>ID client e segreto client</p>
+
    </td>
+
    <td>
+
     <p>L’Amministratore dell’integrazione del tuo account fornisce i dettagli durante la registrazione dell’app. L’Amministratore dell’integrazione deve utilizzare quanto segue:<ul><li>Allievo:lettura,allievo:scrittura come ruolo</li><li>app interna name://redirect come URL di reindirizzamento</li></ul></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Logo account</p>
+
    </td>
+
    <td>
+
     <p>URL che ospita il logo dell'organizzazione. Fornisci un collegamento al contenuto come logo dell’account. L’URL deve essere codificato per il Web.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>ID App Store per l’app (iOS)</p>
+
    </td>
+
    <td>
+
     <p>ID richiesto per implementare l’aggiornamento forzato. L’app deve sapere che l’Allievo deve essere reindirizzato all’App Store per aggiornare l’app.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>ID Play Store per Google per l’app (Android)</p>
+
    </td>
+
    <td>
+
     <p>ID richiesto per implementare l’aggiornamento forzato.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Nome host per collegamento profondo</p>
+
    </td>
+
    <td>
+
     <p>Per ospitare i collegamenti diretti, utilizza Learning Manager. Se si desidera utilizzare un altro URL nome host come collegamento profondo, fornire l'URL dell'host. Ad esempio, learningmanager.adobe.com.</p>
+
    </td>
+
   </tr>
+
  </tbody>
+
 </table>
 
 >[!NOTE]
@@ -156,19 +260,42 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 >Fornisci i dati ai tuoi CSAM in modo che possano aggiungerli nel tuo file binario personalizzato dell&#39;app.
 
 
-#### Aggiornare l&#39;associazione del sito per gestire i collegamenti personalizzati
+#### Aggiornare l&#39;associazione del sito per gestire i collegamenti diretti personalizzati
 
 Se utilizzi un dominio personalizzato o learningmanager\*.adobe.com come host, non è necessario intraprendere alcuna azione. Tuttavia, se utilizzate una soluzione personalizzata o un nome host specifico per gli URL, aggiungete i file di associazione del sito.
 
 >[!CAUTION]
 >
->Se i file non sono presenti, i collegamenti non funzioneranno. Assicurati che i file siano presenti.
+>Se i file non sono presenti, i collegamenti diretti non funzioneranno. Assicurati che i file siano presenti.
 
 
 Per ulteriori informazioni, fai riferimento ai seguenti collegamenti:
 
 * [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## Ottieni l’ID del tuo team per App Store
+
+Per ottenere l’ID team:
+
+1. Accedi al tuo account **[!UICONTROL Apple Developer]**.
+2. Seleziona **[!UICONTROL Dettagli iscrizione]** nella parte superiore della pagina e copia il tuo ID team.
+
+Questo ID è necessario per aggiungere la voce dell’app con etichetta bianca nei file di metadati per consentire il collegamento profondo.
+
+## Ottieni l&#39;impronta digitale SHA-256 per Android
+
+Quando si aggiunge la voce bianca dell’app, è necessaria l’impronta digitale SHA-256 per il certificato di firma Android.
+
+Per generare l&#39;impronta digitale SHA-256:
+
+1. Esegui il comando seguente:
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+Nell’output, trova le impronte digitali del certificato, quindi copia il valore SHA-256. Condividi questa impronta digitale in base alle tue esigenze per la configurazione del collegamento profondo.
 
 ## Genera notifiche push
 
