@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 6e26d7c8757eeebe9c34d60aa4cfeafbffb84da9
 workflow-type: tm+mt
-source-wordcount: '27129'
-ht-degree: 70%
+source-wordcount: '27298'
+ht-degree: 69%
 
 ---
 
@@ -101,6 +101,22 @@ Quando un amministratore fa clic su **[!UICONTROL Aggiorna]**, può scegliere tr
 _Content update options_-->
 
 Per ulteriori informazioni sulla libreria dei contenuti, consultare questo [articolo](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course).
+
+## Miglioramenti nel lettore Fluidic
+
+Questa versione porta un lettore Fluidic aggiornato in Adobe Learning Manager con un aspetto moderno e un&#39;esperienza di apprendimento più intuitiva. Il lettore aggiornato include un’interfaccia più pulita, controlli di navigazione migliorati e un design coerente su desktop e dispositivi mobili. Gli Allievi possono accedere e interagire facilmente con i contenuti in qualsiasi modalità di schermo, compresi verticale, orizzontale, schermo intero o visualizzazione standard.
+
+* **Interfaccia fluidic aggiornata**: un aspetto moderno con elementi dell’interfaccia utente aggiornati.
+* **Controlli di navigazione migliorati**: navigazione più fluida e intuitiva per una migliore esperienza di apprendimento.
+* **Progettazione ottimizzata**: l&#39;aspetto e l&#39;usabilità ottimizzati per desktop e dispositivi mobili supportano le modalità di visualizzazione verticale, orizzontale, a schermo intero e standard.
+
+Tutti gli Allievi che accedono ai contenuti tramite Adobe Learning Manager, sia che utilizzino l’esperienza nativa che headless, visualizzeranno automaticamente questi nuovi miglioramenti per l’interfaccia utente e la navigazione. Gli Allievi potrebbero notare un leggero cambiamento nel modo in cui interagiscono con il lettore a causa del layout aggiornato e dei controlli.
+
+>[!NOTE]
+>
+>Questo miglioramento è disponibile solo per il contenuto statico.
+
+Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help/migrated/learners/feature-summary/fluidic-player.md).
 
 ## Bug corretti in questa versione
 
@@ -1583,7 +1599,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -1961,7 +1977,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -2585,7 +2601,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -3095,7 +3111,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli Allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** utilizzata per rappresentare gruppi esterni,**&#x200B;**&#x200B;è&#x200B;**&#x200B;** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** utilizzata per rappresentare gruppi esterni,****&#x200B;è&#x200B;**** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L&#39;URL non è cliccabile nell&#39;e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** vengono modificati. Questo problema è stato risolto.
