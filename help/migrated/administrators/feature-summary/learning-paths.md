@@ -4,10 +4,10 @@ title: Percorsi di apprendimento
 description: Creazione di piani di apprendimento per Amministratori in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 35%
+source-wordcount: '1430'
+ht-degree: 32%
 
 ---
 
@@ -138,6 +138,10 @@ La casella di controllo **[!UICONTROL Consenti agli Allievi di scegliere le ista
 ![](assets/default-instance.png)
 
 *Istanze del percorso di apprendimento*
+
+Gli Allievi possono essere iscritti a un corso tramite un piano di apprendimento o da un Amministratore, anche se il corso è flessibile e richiede all’Allievo di selezionare una sessione. In questi casi, il sistema consente agli Allievi di iscriversi anche se è stato raggiunto il limite di partecipanti, ma non possono avviare il corso finché non diventa disponibile un posto.
+
+La funzione lista d’attesa si applica solo quando gli Allievi si iscrivono autonomamente. Quando una sessione raggiunge il limite di partecipanti, l’Istruttore può visualizzare l’elenco degli Allievi nella lista d’attesa. Se diventano disponibili postazioni, l’istruttore può aggiungere allievi in lista d’attesa fino a quando la sessione non raggiunge di nuovo la capacità.
 
 ## Notifiche
 
