@@ -2,10 +2,10 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 648cd1e17aa0e5b95b8454d136accc4b7a054d97
+source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 79%
+source-wordcount: '688'
+ht-degree: 78%
 
 ---
 
@@ -167,6 +167,7 @@ ht-degree: 79%
    * [Domande frequenti per gli Allievi](learners/frequently-asked-questions-for-learners.md)
    * [Nuovi annunci di Experience League](/help/migrated/new-experience-league-announcement.md)
    * [Come inviare un ticket di supporto all&#39;Experience League](/help/migrated/how-to-submit-support-ticket.md)
+   * [Creazione di un account di prova in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * Knowledge base {#knowledge-base}
    * [Impossibile accedere a Learning Manager](kb/unable-log-in-learning-manager.md)
    * [In Riepilogo apprendimento non vengono visualizzati i dati correnti](kb/learning-summary-not-display-data.md)
