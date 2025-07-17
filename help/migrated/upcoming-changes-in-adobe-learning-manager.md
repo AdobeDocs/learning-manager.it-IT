@@ -110,4 +110,4 @@ Gli amministratori personalizzati possono creare annunci solo per i gruppi di ut
 * Il formato del rapporto rimarrà invariato. Se gli amministratori personalizzati scaricano il report dall’interfaccia utente, il contenuto del report sarà soggetto al relativo ambito.
 * Non sono necessarie modifiche se questo report non viene utilizzato in alcun flusso di lavoro automatico o a valle.
 
-Consulta l&#39;articolo [Note sulla versione](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) per un elenco cumulativo di nuove funzioni e modifiche a Adobe Learning Manager.
+Consulta l&#39;articolo [Note sulla versione](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/release-notes) per un elenco cumulativo di nuove funzioni e modifiche a Adobe Learning Manager.
