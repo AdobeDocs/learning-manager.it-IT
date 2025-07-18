@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: Configurare un account di prova, sandbox o di prova in Adobe Learning Manager
 description: Scopri come creare una prova gratuita di 30 giorni o un account sandbox in Adobe Learning Manager. Seguite semplici passaggi per configurare l'ambiente di test e iniziare rapidamente.
-source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
+exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
+source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # Creazione di un account di prova in Adobe Learning Manager
 
@@ -40,3 +40,4 @@ Per creare un account di prova:
 7. Dopo la configurazione, trova l’ID del tuo account nell’URL del tuo Adobe Learning Manager.
 
    ![](assets/account-id-trial.png)
+
