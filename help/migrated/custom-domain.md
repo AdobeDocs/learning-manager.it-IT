@@ -4,10 +4,10 @@ title: Supporto per il dominio personalizzato
 description: I domini personalizzati non sono supportati in un’istanza Azure di Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 67%
+source-wordcount: '459'
+ht-degree: 65%
 
 ---
 
@@ -25,13 +25,14 @@ Ad esempio, vorresti personalizzare il tuo dominio in modo che i tuoi utenti ott
 
 >[!NOTE]
 >
->Come prerequisito, è necessario registrare il dominio e quindi l’Adobe ti guiderà nella personalizzazione dell’URL.
+>Come prerequisito, è necessario registrare il dominio e quindi Adobe ti guiderà nella personalizzazione dell&#39;URL.
 
 
 La funzione di dominio personalizzato è disponibile a un costo aggiuntivo. Per saperne di più, contatta il tuo Customer Success Manager.
 
 * Per il ruolo Allievo, il dominio inizierà con `https://cdn.<customer_custom_domain>/` Ad esempio, `https://cdn.elearningstage1.cpdomaintest.in/`
 * Per tutti gli altri ruoli, il dominio inizierà con `https://<customer_custom_domain>/`. Ad esempio: `https://elearningstage1.cpdomaintest.in/`
+* L&#39;URL di accesso effettivo sarà `https://<customer_custom_domain>/acapindex` o `https://<customer_custom_domain>/login`. Sostituisci `<customer_custom_domain>` con il dominio effettivo della tua organizzazione.
 
 `<customer_custom_domain>` è la parte personalizzabile.
 
@@ -45,9 +46,9 @@ Applica i passaggi seguenti per configurare un dominio personalizzato.
 
 1. Il cliente deve **aggiungere tre record CNAME** nel dominio:
 
-   * **learning.acme.com:** endpoint pubblico ALB di Learning Manager condiviso dall’Adobe
+   * **learning.acme.com:** endpoint pubblico ALB di Learning Manager condiviso da Adobe
    * **lrs.learning.acme.com:** endpoint pubblico ALB indicato da learning.acme.com
-   * **cdn.learning.acme.com:** endpoint CDN condiviso dall&#39;Adobe
+   * **cdn.learning.acme.com:** endpoint CDN condiviso da Adobe
 
 1. Il cliente deve fornire certificati SSL per questi domini:
 
