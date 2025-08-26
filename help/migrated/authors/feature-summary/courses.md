@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7163'
+source-wordcount: '7321'
 ht-degree: 71%
 
 ---
@@ -600,6 +600,26 @@ Inserisci i seguenti dettagli su questa pagina:
 
 1. Per ripubblicare il corso con gli aggiornamenti, fai clic su **[!UICONTROL Ripubblica]**.
 
+### Consenti agli istruttori di contrassegnare l’esito positivo
+
+Adobe Learning Manager consente agli istruttori di contrassegnare lo stato di successo degli Allievi in un’aula o in un modulo aula virtuale. Gli Autori possono concedere agli Istruttori l’autorizzazione a contrassegnare lo stato di successo degli Allievi durante la creazione di moduli aula o aula virtuale. Gli istruttori possono contrassegnare l’esito positivo di un Allievo come Superato o Non riuscito, assicurandosi che i progressi vengano aggiornati di conseguenza.
+
+Per consentire agli istruttori di contrassegnare l’esito positivo dell’Allievo:
+
+1. Accedi ad Adobe Learning Manager come autore.
+2. Seleziona **[!UICONTROL Crea corsi]** nella pagina principale.
+3. Seleziona **[!UICONTROL Aggiungi]**.
+4. Digitare i dettagli necessari e selezionare **[!UICONTROL Aggiungi moduli]**.
+5. Seleziona **[!UICONTROL Modulo classe virtuale]** o **[!UICONTROL Modulo classe]**.
+6. Digitare i dettagli necessari e selezionare le date.
+7. Seleziona l&#39;opzione **[!UICONTROL Consenti all&#39;istruttore di contrassegnare l&#39;esito positivo]**.
+
+   ![L&#39;istruzione &quot;Consenti all&#39;istruttore di contrassegnare l&#39;esito positivo?&quot; la casella di controllo è evidenziata e gli autori possono consentire agli istruttori di registrare lo stato di successo dell&#39;allievo per un modulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   _Schermata Dettagli della sessione con l’opzione Consenti all’Istruttore di contrassegnare l’esito positivo evidenziata per i moduli Classe o Classe virtuale_
+
+8. Seleziona **[!UICONTROL Fine]**.
+
+
 ## Elenco di controllo di osservazione
 
 I manager, oltre agli Istruttori, ora possono rivedere un modulo Elenco di controllo. I manager del personale, così come i manager non gerarchici, ad esempio quelli dei punti vendita o delle posizioni, possono rivedere e completare l’elenco di controllo.
@@ -805,7 +825,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
 
-Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/it/captivate/classic/publish-project-to-captivate-prime.html).
+Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacia del corso {#courseeffectiveness}
 
@@ -850,7 +870,7 @@ Quando i corsi sono impostati come obbligatori:
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++Come rimuovere &quot;Cerca nomina Manager&quot; per un corso?
++++Come rimuovere “cerca nomina Manager” per un corso?
 
 Segui i passaggi riportati di seguito:
 
@@ -884,7 +904,7 @@ In un programma di apprendimento, è possibile solo aggiungere corsi a cui ti se
 
 +++Come accertarsi che tutti gli Allievi non possano visualizzare tutti i corsi?
 
-Puoi farlo tramite i cataloghi. Per impostazione predefinita, un catalogo predefinito contiene tutti i corsi aggiunti a Learning Manager.
+È possibile ottenere questo risultato per mezzo dei cataloghi. Per impostazione predefinita, un catalogo predefinito contiene tutti i corsi aggiunti a Learning Manager.
 
 Devi disabilitare il catalogo predefinito e creare cataloghi personalizzati.
 
@@ -903,13 +923,13 @@ Devi disabilitare il catalogo predefinito e creare cataloghi personalizzati.
 
 +++
 
-+++Come iscriverti nuovamente a un corso completato?
++++Come iscriversi nuovamente a un corso completato?
 
 È impossibile annullare il completamento di un corso. Un Allievo **non può essere iscritto nuovamente** a un corso completato.
 
 +++
 
-+++In che modo gli Allievi possono visualizzare il corso anche dopo averlo completato?
++++Come possono gli Allievi visualizzare il corso anche dopo averlo completato?
 
 Un Allievo può visualizzare un corso completato facendo clic sul pulsante Rivedi nel corso.
 
@@ -921,7 +941,7 @@ Procedi come descritto di seguito:
 
 +++
 
-+++Come aggiungere un file di risorse nel corso?
++++Come aggiungere file di risorse nel corso?
 
 Durante la creazione di un corso, puoi aggiungere al corso file video, audio, PDF o di testo pertinenti per consentire all’Allievo di accedere a materiale didattico aggiuntivo.
 
@@ -929,7 +949,7 @@ Durante la creazione di un corso, puoi aggiungere al corso file video, audio, PD
 
 +++
 
-+++Come si impostano più tentativi nel modulo?
++++Come si impostano più tentativi sul modulo?
 
 **Prerequisito:** L&#39;amministratore deve abilitare l&#39;opzione **Tentativi multipli** in **Impostazioni > Generale** nell&#39;app di amministrazione.
 
@@ -939,7 +959,7 @@ Per ulteriori informazioni, consulta la [sezione sui tentativi multipli](courses
 
 +++
 
-+++È possibile scaricare il contenuto caricato su Adobe Learning Manager per modificarlo?
++++È possibile scaricare il contenuto caricato su Adobe Learning Manager per modificarne il contenuto?
 
 No, il contenuto caricato su Learning Manager è un file zip pubblicato e non è il file di origine. Pertanto, anche se il contenuto è stato scaricato non può essere modificato in uno strumento di creazione. Per modificare il contenuto è necessario un file di origine.
 

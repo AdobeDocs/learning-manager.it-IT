@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 82%
+source-wordcount: '1223'
+ht-degree: 71%
 
 ---
 
@@ -83,6 +83,26 @@ Puoi visualizzare il numero di Allievi confermati che stanno partecipando alla s
 
    ![](assets/markattendance.png)
    *Contrassegna partecipazione Allievo*
+
+## Contrassegna come completato gli Allievi
+
+Gli istruttori possono contrassegnare lo stato di successo di ciascun Allievo come Superato o Non riuscito direttamente dalla pagina Allievi. Questa funzione consente agli istruttori di registrare con precisione il risultato di sessioni in aula o in aula virtuale in base alle prestazioni dell’Allievo.
+
+Per contrassegnare il successo per gli Allievi:
+
+1. Accedi a Adobe Learning Manager come Istruttore.
+2. Seleziona **[!UICONTROL Sessioni pianificate]** nel riquadro di navigazione a sinistra.
+3. Seleziona **[!UICONTROL Allievi]**.
+4. Seleziona gli Allievi, quindi seleziona **[!UICONTROL Azioni]**.
+5. Seleziona una delle opzioni seguenti per segnalare l’esito positivo per gli Allievi selezionati:
+
+   * **[!UICONTROL Contrassegna come partecipante e superato]**: gli allievi contrassegnati come superato hanno completato correttamente il modulo.
+   * **[!UICONTROL Contrassegna come Partecipato/Non riuscito]**: gli Allievi contrassegnati come Non riuscito hanno completato il modulo ma non lo hanno superato.
+
+   ![Il menu a discesa Azioni che evidenzia le opzioni &quot;Contrassegna come Partecipato e Superato&quot; e &quot;Contrassegna come Partecipato e Non riuscito&quot; consente agli istruttori di impostare lo stato di successo di ciascun Allievo](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _Pagina Allievi che mostra il menu Azioni con le opzioni Contrassegna come partecipato e Contrassegna come partecipato e Non riuscito evidenziate per la registrazione dei risultati degli Allievi_
+
+6. Seleziona **[!UICONTROL Sì]** nella richiesta di conferma.
 
 ## Invio di e-mail agli Allievi {#sendemailstolearners}
 
