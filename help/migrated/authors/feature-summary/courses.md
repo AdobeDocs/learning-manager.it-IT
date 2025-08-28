@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '7321'
-ht-degree: 71%
+source-wordcount: '7433'
+ht-degree: 70%
 
 ---
 
@@ -513,6 +513,24 @@ La valutazione è un aspetto importante di qualsiasi LMS. Le valutazioni online 
 
 Pensa ai dipendenti di un negozio o agli addetti al magazzino sottoposti a valutazione per le attività che dovrebbero svolgere quotidianamente. Potrebbe trattarsi dei passaggi da seguire per riparare una macchina da caffè o delle attività che riguardano l’imballaggio di un materiale. Gli Istruttori possono valutare i dipendenti per tali attività sulla base di un elenco di controllo e indicare se hanno superato o meno la valutazione.
 
+### Sostituire i moduli nei corsi pubblicati
+
+Adobe Learning Manager offre agli Autori strumenti per creare, modificare e gestire corsi composti da più moduli di contenuto. Quando il contenuto di un corso deve essere aggiornato o migliorato, gli Autori possono sostituire i moduli esistenti senza interrompere l’avanzamento dell’Allievo.
+
+Per sostituire i moduli:
+
+1. Accedi ad Adobe Learning Manager come autore.
+2. Seleziona **[!UICONTROL Corsi]** nel riquadro di navigazione a sinistra.
+3. Seleziona un corso qualsiasi, quindi seleziona **[!UICONTROL Modifica]**.
+4. Seleziona il modulo da modificare.
+5. Modificare il titolo e la descrizione.
+6. Selezionare il modulo utilizzando l&#39;opzione **Contenuto**.
+   ![](assets/replace-the-module.png)
+7. Seleziona **[!UICONTROL Fine]**.
+8. Selezionare **[!UICONTROL Ripubblica]**.
+
+Gli Allievi manterranno i progressi negli altri moduli, ma dovranno completare il nuovo modulo per completare il corso.
+
 ### Creazione di un elenco di controllo {#createachecklist}
 
 Solo un Autore può creare un elenco di controllo. Un elenco di controllo è un tipo di modulo di attività. Durante l’impostazione di un modulo di attività, l’Autore può selezionare un’attività come **Elenco di controllo**, come illustrato di seguito:
@@ -825,7 +843,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
 
-Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/it/captivate/classic/publish-project-to-captivate-prime.html).
+Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacia del corso {#courseeffectiveness}
 

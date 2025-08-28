@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Temi colore
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 44%
+source-wordcount: '1217'
+ht-degree: 43%
 
 ---
 
@@ -174,7 +174,7 @@ Nell’elenco seguente vengono visualizzati i componenti personalizzabili. Per p
    <td>
     <p>Font</p></td>
    <td>
-    <p>Per applicare i font, è necessario un CDN. Inoltre, devi condividere la famiglia di font da applicare.</p>
+    <p>Gli amministratori possono contattare il team di supporto Adobe Learning Manager all'indirizzo <a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a> per la modifica dei font. Per applicare i font, è necessario un CDN. Inoltre, devi condividere la famiglia di font da applicare.</p>
     <p><b>Nota:</b> la famiglia di font deve essere supportata in tutti i browser.</p></td>
   </tr>
   <tr>

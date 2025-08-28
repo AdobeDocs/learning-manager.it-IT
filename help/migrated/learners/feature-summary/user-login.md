@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Accesso
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 33%
+source-wordcount: '221'
+ht-degree: 24%
 
 ---
 
@@ -28,19 +28,24 @@ Segui questi passaggi per creare il tuo account utilizzando l&#39;URL dell&#39;e
 
    Viene visualizzata la schermata di accesso.
 
-1. Fai clic su Accedi.
+1. Seleziona Accedi.
 
-   ![](assets/adobeid-signin.png)
+   ![](assets/login-page.png)
 
    *Accedi con nome utente e password*
 
-1. Immetti Adobe ID, password e fai clic su Accedi.
+1. Digita Adobe ID, password e fai clic su Accedi.
 
    Se hai dimenticato la password, fai clic su Password dimenticata? e fornisci l’id e-mail utilizzato per la creazione di Adobe ID.
 
-<!--
+   <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
--->
+   -->
+
+1. Digita le tue informazioni nei campi Attivi per completare il tuo profilo.
+
+   ![](assets/complete-the-profile.png)
+   _Digitare le informazioni sui campi attivi per completare la configurazione del profilo_
 
 1. In alternativa, puoi utilizzare l’Enterprise ID facendo clic sul collegamento Accedi con un’Enterprise ID.
 
