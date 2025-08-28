@@ -843,7 +843,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
 
-Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
+Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/it/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacia del corso {#courseeffectiveness}
 
