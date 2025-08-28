@@ -2,9 +2,9 @@
 title: Novità della versione di ottobre di Adobe Learning Manager
 description: Scopri le nuove funzioni, i miglioramenti e gli aggiornamenti importanti della versione di ottobre 2025 di Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7012876539448af3433273f369011e3e0bd07407
+source-git-commit: c16f18e5ab5df120ab5fb40bbf77af2b3f6f43bb
 workflow-type: tm+mt
-source-wordcount: '8104'
+source-wordcount: '8390'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,50 @@ d. **[!UICONTROL Come e-mail]**
 8. Seleziona **[!UICONTROL Salva]**.
 
 Solo gli Allievi nell’ambito dell’Amministratore personalizzato potranno visualizzare l’annuncio. Per informazioni sulla creazione di più tipi di annunci, consulta questo [articolo](/help/migrated/administrators/feature-summary/announcements.md).
+
+### Reimpostazione dell&#39;ambito da parte degli amministratori personalizzati
+
+Gli amministratori personalizzati possono reimpostare l’ambito degli annunci pubblicati se un amministratore ne ha modificato l’ambito. Una volta reimpostato l’ambito, l’ambito aggiornato verrà applicato all’annuncio e solo gli Allievi che rientrano nel nuovo ambito potranno visualizzare l’annuncio.
+
+Per reimpostare l&#39;ambito:
+
+1. Accedi a Adobe Learning Manager come amministratore personalizzato.
+2. Seleziona **[!UICONTROL Annuncio]** nel riquadro di navigazione a sinistra.
+3. Seleziona la scheda **[!UICONTROL Pubblicato]**.
+4. Seleziona un annuncio, quindi seleziona l’icona delle impostazioni.
+5. Seleziona **[!UICONTROL Modifica]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Schermata dell&#39;annuncio che mostra gli annunci pubblicati con opzioni di modifica, pubblicazione e altre opzioni_
+
+6. Selezionare **Ripristina**.
+
+   ![](assets/reset-the-scope.png)
+   _Annuncio che mostra una notifica di modifica dell&#39;ambito, con un&#39;opzione che consente agli amministratori personalizzati di reimpostare e aggiornare la selezione dell&#39;ambito in base alle nuove autorizzazioni di accesso_
+
+L’ambito verrà aggiornato e solo gli utenti all’interno dell’ambito aggiornato potranno visualizzare l’annuncio.
+
+### Modifica l’annuncio tramite l’interfaccia utente dell’amministratore
+
+Gli amministratori possono visualizzare gli annunci creati da amministratori personalizzati tramite la propria interfaccia. Possono modificare questi annunci solo modificando o rimuovendo l&#39;ambito assegnato. Se non vengono apportate modifiche all&#39;ambito, gli amministratori non possono apportare ulteriori modifiche all&#39;annuncio.
+
+Per modificare l’annuncio tramite l’interfaccia utente dell’amministratore:
+
+1. Accedi a Adobe Learning Manager come amministratore.
+2. Seleziona **[!UICONTROL Annuncio]** nel riquadro di navigazione a sinistra.
+3. Seleziona la scheda **[!UICONTROL Pubblicato]**.
+4. Seleziona un annuncio, quindi seleziona l’icona delle impostazioni.
+5. Seleziona **[!UICONTROL Modifica]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Schermata dell&#39;annuncio che mostra gli annunci pubblicati con opzioni di modifica, pubblicazione e altre opzioni_
+
+6. Selezionare **[!UICONTROL Rimuovi]**.
+
+   ![](assets/remove-the-scope.png)
+   _Schermata dell&#39;annuncio che indica che è necessario rimuovere l&#39;ambito per consentire agli amministratori di modificare gli annunci creati per gruppi di utenti con ambito_
+
+L’Amministratore può modificare l’annuncio dopo aver rimosso l’ambito.
 
 ## Applicare tag agli utenti nelle bacheche social
 
@@ -834,15 +878,13 @@ L’API crea o aggiorna lo stato dell’oggetto di apprendimento per le impostaz
 
 **Panoramica**
 
-L’integrazione con Go1 è stata migliorata per supportare la gestione delle playlist, la creazione di percorsi di apprendimento e i flussi di lavoro di certificazione ricorrenti, durante la transizione a un modello di contenuto per l’anteprima e l’acquisto.
+L’integrazione Go1 è stata migliorata per consentire la cura diretta dei corsi Go1 per la creazione di programmi di apprendimento (LP) in Adobe Learning Manager. Questo aggiornamento supporta l’inclusione di corsi Go1 nelle certificazioni ricorrenti e introduce una nuova versione dell’esperienza Hub dei contenuti Go1, consentendo una cura più efficiente dei corsi.
 
 **Novità**
 
 * Crea e gestisci le playlist direttamente in Go1 utilizzando l&#39;assistenza chat basata su IA o la selezione manuale.
-* Converti facilmente le playlist Go1 in percorsi di apprendimento Adobe Learning Manager.
 * Includi i corsi Go1 nei cicli di certificazione ricorrenti con ripristino automatico dell’avanzamento.
 * Interfaccia di rilevamento dei contenuti aggiornata per una migliore navigazione e cura dei contenuti.
-* Transizione dai contenuti gratuiti al modello di costo trasparente.
 
 **Vantaggi principali**
 
@@ -863,29 +905,32 @@ L’integrazione con Go1 è stata migliorata per supportare la gestione delle pl
 * Programmi di formazione mirati alla conformità che richiedono aggiornamenti periodici dei contenuti e cicli di distribuzione.
 * I team di apprendimento stanno cercando di ridurre il sovraccarico di cura dei contenuti tramite l&#39;assistenza IA.
 
-### Creare una playlist Go1
+### Aggiungere una playlist Go1 a un percorso di apprendimento
 
-Gli Amministratori possono creare playlist con corsi Go1 personalizzati in base a diversi gruppi di Allievi in base a posizione, ruolo, prodotto e altri criteri. Le sequenze di riproduzione possono essere create manualmente o generate utilizzando l&#39;intelligenza artificiale.
+Gli Amministratori possono creare un percorso di apprendimento che include una playlist Go1, in modo che gli Allievi possano accedere a corsi di terze parti selezionati come parte del loro corso di formazione.
 
-Per creare una sequenza brani:
+Per creare un percorso di apprendimento:
 
 1. Accedi a Adobe Learning Manager come amministratore.
-2. Seleziona **[!UICONTROL Marketplace dei contenuti]** nel riquadro di navigazione a sinistra.
+2. Seleziona **[!UICONTROL Percorsi di apprendimento]** nel riquadro di navigazione a sinistra.
+3. Seleziona **[!UICONTROL Aggiungi]**.
 
-   ![](assets/select-content-marketplace.png)
-   _Esplora e aggiungi i migliori corsi Go1 alle tue playlist selezionando Contenuti del marketplace in Adobe Learning Manager_
+   ![](assets/select-add-to-lp.png)
+   _Seleziona Aggiungi nella sezione Percorsi di apprendimento per creare e organizzare nuovi programmi di formazione strutturati per gli Allievi_
 
-3. Seleziona **[!UICONTROL Hub dei contenuti]** e quindi **[!UICONTROL Libreria]**.
-4. Seleziona **[!UICONTROL Crea playlist]** e scegli una delle seguenti opzioni:
+4. Digita i dettagli richiesti e seleziona **[!UICONTROL Salva]**. Per ulteriori informazioni, consulta questo [articolo](/help/migrated/administrators/feature-summary/learning-paths.md).
+5. Seleziona **[!UICONTROL Aggiungi corsi Go1]**.
+
+   ![testo alternativo](assets/select-go1-courses.png)
+   _Aggiungere corsi Go1 alla playlist di sviluppo delle competenze dei tecnici di vendita per espandere le opzioni di apprendimento con contenuti di terze parti selezionati_
+
+6. Nella **[!UICONTROL libreria]**, cerca e seleziona **[!UICONTROL Crea playlist]** e scegli una delle seguenti opzioni:
 a. **[!UICONTROL con IA]**: crea una playlist con l&#39;aiuto di AI.
 b. **[!UICONTROL da solo]**: crea una playlist aggiungendo manualmente i corsi.
 
-   ![](assets/select-create-playlist.png)
-   _Crea una nuova playlist in Adobe Learning Manager selezionando Crea playlist per organizzare e distribuire corsi mirati per gli Allievi_
-
 **Creare una playlist con AI**
 
-Gli amministratori possono digitare la descrizione della playlist nel prompt dell&#39;intelligenza artificiale. L’IA cura i corsi correlati e crea una playlist in base ai requisiti.
+Gli amministratori possono digitare la descrizione della playlist nel prompt dell&#39;intelligenza artificiale. L’IA cura i corsi correlati e crea una playlist in base ai requisiti. L’intelligenza artificiale genera le playlist interpretando l’obiettivo di apprendimento o il messaggio fornito dall’utente. Durante la creazione di una playlist, gli amministratori possono selezionare di curare i contenuti &quot;con IA&quot;, che consente al sistema di utilizzare modelli di lingua di grandi dimensioni per comprendere gli obiettivi di apprendimento specificati e le preferenze dei contenuti, come la durata e il tipo. L’IA cerca quindi nella libreria dei contenuti gli oggetti di apprendimento pertinenti che corrispondono a questi criteri.
 
 Per creare una playlist con IA:
 
@@ -900,17 +945,25 @@ Per creare una playlist con IA:
    ![](assets/type-a-prompt.png)
    _Digita il tuo obiettivo di apprendimento per creare una playlist personalizzata, aiutando Adobe Learning Manager a consigliare corsi mirati su misura per le esigenze degli Allievi_
 
-4. Scegli le abilità dall’elenco, quindi seleziona la durata del corso e digita la playlist.
-5. Seleziona **[!UICONTROL Genera playlist]**.
+4. Scegli le abilità dall’elenco.
 
-   ![](assets/select-generate-playlist.png)
-   _Personalizza la tua playlist in Adobe Learning Manager selezionando le abilità e le abilità pertinenti, la durata del corso_
+   ![](assets/select-skills.png)
+   _Scegliere le abilità dall&#39;elenco per la cura dei corsi per il tecnico di vendita_
+5. Seleziona la durata del corso e digita la playlist.
+6. Seleziona **[!UICONTROL Genera playlist]**. La playlist viene creata con 10 corsi e gli Amministratori possono utilizzarla per creare un percorso di apprendimento.
 
+   ![](assets/created-playlist.png)
+   _Rivedi la tua playlist di miglioramento delle abilità del tecnico di vendita selezionata in Adobe Learning Manager_
+7. Seleziona **[!UICONTROL Aggiungi alla libreria]**.
+8. Seleziona **Sì** nella richiesta di conferma.
+9. Selezionare la playlist dalla **[!UICONTROL Seleziona playlist per importare il prompt]**.
 
-La playlist viene creata con 10 corsi e gli Amministratori possono utilizzarla per creare un percorso di apprendimento.
+   ![](assets/add-playlist-to-lp.png)
+   _Selezionare e importare la sequenza di riproduzione Miglioramento competenze tecnico commerciale dalla libreria Go1 in Adobe Learning Manager_
 
-![](assets/created-playlist.png)
-_Rivedi la tua playlist di miglioramento delle abilità del tecnico di vendita selezionata in Adobe Learning Manager_
+10. Seleziona **[!UICONTROL Aggiungi playlist al percorso di apprendimento]** e quindi **[!UICONTROL Publish]**.
+
+I corsi presenti nella playlist verranno aggiunti al percorso di apprendimento. Gli Amministratori possono quindi iscrivere gli Allievi, che possono iniziare immediatamente a seguire i corsi.
 
 **Creazione manuale di una playlist**
 
@@ -937,43 +990,6 @@ Per creare manualmente una sequenza brani:
 5. Cerca e seleziona i corsi richiesti.
 
 La playlist è stata creata con corsi correlati e gli Amministratori possono utilizzarla per creare un percorso di apprendimento.
-
-### Aggiungere una playlist Go1 a un percorso di apprendimento
-
-Gli Amministratori possono creare un percorso di apprendimento che include una playlist Go1, in modo che gli Allievi possano accedere a corsi di terze parti selezionati come parte del loro corso di formazione.
-
-Per creare un percorso di apprendimento:
-
-1. Accedi a Adobe Learning Manager come amministratore.
-2. Seleziona **[!UICONTROL Percorsi di apprendimento]** nel riquadro di navigazione a sinistra.
-3. Seleziona **[!UICONTROL Aggiungi]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Seleziona Aggiungi nella sezione Percorsi di apprendimento per creare e organizzare nuovi programmi di formazione strutturati per gli Allievi_
-
-4. Digita i dettagli richiesti e seleziona **[!UICONTROL Salva]**. Per ulteriori informazioni, consulta questo [articolo](/help/migrated/administrators/feature-summary/learning-paths.md).
-5. Seleziona **[!UICONTROL Aggiungi corsi Go1]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Aggiungere corsi Go1 alla playlist di sviluppo delle competenze dei tecnici di vendita per espandere le opzioni di apprendimento con contenuti di terze parti selezionati_
-
-6. Nella **[!UICONTROL Libreria]**, cerca e seleziona la playlist nella schermata Seleziona **[!UICONTROL Corsi Go1]**.
-
-   >[!NOTE]
-   >
-   >Assicurati di impostare il filtro Creato da me per trovare facilmente la tua playlist.
-
-   ![](assets/select-save-to-add-playlist.png)
-   _Selezionare una playlist per i tecnici delle vendite dalla libreria dei corsi Go1 in Adobe Learning Manager_
-
-7. Seleziona **[!UICONTROL Aggiungi alla libreria]** e quindi **[!UICONTROL Salva]**.
-
-   ![](assets/add-playlist-to-lp.png)
-   _Selezionare e importare la sequenza di riproduzione Miglioramento competenze tecnico commerciale dalla libreria Go1 in Adobe Learning Manager_
-
-8. Seleziona **[!UICONTROL Aggiungi]** e quindi **[!UICONTROL Publish]**.
-
-I corsi presenti nella playlist verranno aggiunti al percorso di apprendimento. Gli Amministratori possono quindi iscrivere gli Allievi, che possono iniziare immediatamente a seguire i corsi.
 
 ## Salvataggio dell’avanzamento dello stato del lettore per le lingue
 
@@ -1044,6 +1060,18 @@ In precedenza, i file role.csv e user_role.csv potevano essere caricati solo in 
 
 * Le aziende globali gestiscono i team regionali caricando più file utente incrementali per ogni area geografica (UE, America, Asia), consentendo agli amministratori di aggiornare gli utenti e assegnare nuovi ruoli per ogni area geografica in un unico flusso di lavoro.
 * Le grandi aziende automatizzano l&#39;onboarding e le autorizzazioni acquisendo regolarmente aggiornamenti utente incrementali dai sistemi HR. Ciò supporta aggiornamenti senza interruzioni dei profili utente e delle assegnazioni granulari dei ruoli senza intervento manuale.
+
+### Nuove colonne aggiunte ai file CSV
+
+Sono state introdotte tre nuove colonne per migliorare i dati acquisiti nelle esportazioni/importazioni CSV utente, ruolo e ruolo utente:
+
+* **Stato registrazione utente (user.csv)**: indica lo stato di registrazione corrente dell&#39;utente.
+* **Stato ruolo (role.csv)**: indica lo stato corrente dei ruoli all&#39;interno del sistema.
+* **Stato ruolo utente (user_role.csv)**: indica lo stato dell&#39;associazione utente-ruolo.
+
+Scarica [CSV di esempio](assets/sample-csv-Incremnetal.zip) qui.
+
+
 
 ## Ripristinare i consigli nell’app Salesforce
 
@@ -1704,4 +1732,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

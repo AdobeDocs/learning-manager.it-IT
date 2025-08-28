@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
 workflow-type: tm+mt
 source-wordcount: '7433'
 ht-degree: 70%
@@ -507,12 +507,6 @@ Gli autori possono aggiungere collegamenti HTML nel modulo di attività e impost
 
 1. Seleziona **[!UICONTROL Aggiungi]** e pubblica il corso.
 
-## Elenco di controllo {#create-checklist}
-
-La valutazione è un aspetto importante di qualsiasi LMS. Le valutazioni online sono uno dei metodi principali per valutare la comprensione di un argomento da parte di un Allievo. Ma spesso, è necessario valutare la comprensione di una persona mentre è sul lavoro osservandola / la sua esecuzione dei compiti necessari.
-
-Pensa ai dipendenti di un negozio o agli addetti al magazzino sottoposti a valutazione per le attività che dovrebbero svolgere quotidianamente. Potrebbe trattarsi dei passaggi da seguire per riparare una macchina da caffè o delle attività che riguardano l’imballaggio di un materiale. Gli Istruttori possono valutare i dipendenti per tali attività sulla base di un elenco di controllo e indicare se hanno superato o meno la valutazione.
-
 ### Sostituire i moduli nei corsi pubblicati
 
 Adobe Learning Manager offre agli Autori strumenti per creare, modificare e gestire corsi composti da più moduli di contenuto. Quando il contenuto di un corso deve essere aggiornato o migliorato, gli Autori possono sostituire i moduli esistenti senza interrompere l’avanzamento dell’Allievo.
@@ -530,6 +524,12 @@ Per sostituire i moduli:
 8. Selezionare **[!UICONTROL Ripubblica]**.
 
 Gli Allievi manterranno i progressi negli altri moduli, ma dovranno completare il nuovo modulo per completare il corso.
+
+## Elenco di controllo {#create-checklist}
+
+La valutazione è un aspetto importante di qualsiasi LMS. Le valutazioni online sono uno dei metodi principali per valutare la comprensione di un argomento da parte di un Allievo. Ma spesso, è necessario valutare la comprensione di una persona mentre è sul lavoro osservandola / la sua esecuzione dei compiti necessari.
+
+Pensa ai dipendenti di un negozio o agli addetti al magazzino sottoposti a valutazione per le attività che dovrebbero svolgere quotidianamente. Potrebbe trattarsi dei passaggi da seguire per riparare una macchina da caffè o delle attività che riguardano l’imballaggio di un materiale. Gli Istruttori possono valutare i dipendenti per tali attività sulla base di un elenco di controllo e indicare se hanno superato o meno la valutazione.
 
 ### Creazione di un elenco di controllo {#createachecklist}
 
@@ -843,7 +843,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
 
-Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/it/captivate/classic/publish-project-to-captivate-prime.html).
+Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacia del corso {#courseeffectiveness}
 
