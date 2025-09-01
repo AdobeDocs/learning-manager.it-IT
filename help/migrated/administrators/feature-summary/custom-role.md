@@ -4,7 +4,7 @@ title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 31%
@@ -300,7 +300,7 @@ Per assegnare più ruoli personalizzati a un utente, attieniti alla seguente pro
 
 1. Accedi come amministratore e seleziona **[!UICONTROL Utenti]**.
 2. Seleziona **[!UICONTROL Ruoli personalizzati]** nel pannello a sinistra.
-3. Crea un nuovo ruolo personalizzato e aggiungi privilegi di account, cataloghi, oggetti di apprendimento o ambiti. Consulta i passaggi indicati [qui](#create-a-custom-role).
+3. Crea un nuovo ruolo personalizzato e aggiungi privilegi di account, cataloghi, oggetti di apprendimento o ambiti. Fai riferimento ai [passaggi indicati qui](#create-a-custom-role).
 4. Aggiungi utenti al ruolo personalizzato.
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ Il caricamento di un file CSV in Adobe Learning Manager consente l’assegnazion
 
 Ora puoi assegnare più ruoli a un utente tramite l’importazione CSV caricando due file in Box:
 
-* role.csv
-* user_role.csv.
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 Il file user_role.csv include i campi Ruolo personalizzato e ID utente.
 
