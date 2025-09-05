@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Account condivisi tra pari
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 57%
+source-wordcount: '696'
+ht-degree: 52%
 
 ---
 
@@ -53,6 +53,18 @@ Learning Manager offre la possibilità di condividere le postazioni acquistate m
 1. Fai clic su Aggiungi per aggiungere l’account condiviso tra pari.
 
    Se un Amministratore condivide postazioni con un utente di pari livello, questo non può condividerle con nessun altro. Tuttavia, l’utente di pari livello può acquistare separatamente alcune postazioni e condividerle.
+
+## Visualizzare le postazioni condivise dagli account condivisi tra pari
+
+Gli amministratori possono visualizzare il numero di postazioni condivise dagli account condivisi tra pari nell’interfaccia di amministrazione.
+
+Per visualizzare le postazioni condivise dall’account condiviso tra pari:
+
+1. Accedi a Adobe Learning Manager come amministratore.
+2. Seleziona **[!UICONTROL Utenti]**, quindi seleziona **[!UICONTROL Interni]**.
+
+![](assets/peer-account-seats.png)
+_Sezione Utenti che mostra il numero di postazioni condivise dall’account condiviso tra pari_
 
 ## Visualizzazione dei report associati agli account condivisi tra pari {#viewreportsassociatedwithpeeraccounts}
 

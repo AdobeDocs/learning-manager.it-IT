@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 71%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -115,7 +115,9 @@ Per inviare e-mail agli Allievi, nella pagina Allievi dell’applicazione Istrut
 
 ## Acquisire le risposte di invito
 
-Puoi visualizzare le risposte agli inviti nella sezione Allievi. Accedi a una sessione, seleziona **[!UICONTROL Allievi]** e seleziona la risposta all’invito dal menu a discesa.
+Gli istruttori possono acquisire le risposte agli inviti degli Allievi solo quando l’opzione **[!UICONTROL Rispondi agli inviti]** è abilitata dall’amministratore ACAP. Per abilitare questa funzione, gli amministratori devono contattare il team di supporto all&#39;indirizzo [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+
+Al termine, puoi visualizzare le risposte all’invito nella sezione **[!UICONTROL Allievi]**. Accedi a una sessione, seleziona **[!UICONTROL Allievi]** e seleziona la risposta all’invito dal menu a discesa.
 
 ![](assets/invitation-status.png)
 
