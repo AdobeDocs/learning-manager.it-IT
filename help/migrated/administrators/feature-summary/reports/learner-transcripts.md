@@ -144,9 +144,9 @@ Le colonne seguenti consentono di acquisire l&#39;attività, l&#39;avanzamento o
 | Highest_Quiz_score_max | Il punteggio massimo del quiz per il modulo. Può essere vuoto se l’Allievo non ha tentato il quiz o se il contenuto non contiene quiz. |
 | Tentativi effettuati | Numero totale di tentativi compiuti dall’Allievo per questo modulo. |
 | Numero massimo di tentativi consentiti | Numero massimo di tentativi consentiti per l’Allievo per utilizzare il modulo. |
-| Commenti sui contenuti inviati | Commenti del manager di un Allievo dopo il completamento di un oggetto di apprendimento.<br>I dati dei commenti di invio forniti dall&#39;istruttore sono inclusi nel modulo di invio dei file . Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
+| Commenti sui contenuti inviati | Commenti del manager di un Allievo dopo il completamento di un oggetto di apprendimento.<br>I dati dei commenti di invio forniti dall&#39;istruttore sono inclusi nel modulo di invio dei file . Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
 | Origine completamento | <b>Nota:</b> per i flussi di lavoro di partecipazione al connettore VC, quando un Allievo viene contrassegnato come partecipante automatico, nell&#39;origine viene visualizzato &quot;SELF, (learner_email)&quot;. |
-| Commento di completamento | I commenti aggiunti dall’Amministratore quando contrassegna un Allievo come completo dopo aver completato un corso, una certificazione o un percorso di apprendimento. L’Amministratore può aggiungere i commenti di completamento per uno o più Allievi. Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses#completion-comments">Commenti di completamento</a>. |
+| Commento di completamento | I commenti aggiunti dall’Amministratore quando contrassegna un Allievo come completo dopo aver completato un corso, una certificazione o un percorso di apprendimento. L’Amministratore può aggiungere i commenti di completamento per uno o più Allievi. Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/courses#completion-comments">Commenti di completamento</a>. |
 
 **Informazioni relative agli oggetti di apprendimento**
 
@@ -278,7 +278,7 @@ Tieni traccia degli Allievi con date di scadenza imminenti per corsi chiave, per
 
 | Colonna | Descrizione |
 |---|---|
-| Dopo | Rappresenta il numero di Allievi che hanno acquisito un’abilità prima di un periodo definito (in giorni) oltre il quale l’abilità viene considerata obsoleta o richiede un aggiornamento. Utile per identificare gli Allievi con obiettivi di abilità prossimi o scaduti.<br>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">livelli di abilità</a>. |
+| Dopo | Rappresenta il numero di Allievi che hanno acquisito un’abilità prima di un periodo definito (in giorni) oltre il quale l’abilità viene considerata obsoleta o richiede un aggiornamento. Utile per identificare gli Allievi con obiettivi di abilità prossimi o scaduti.<br>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/skills-levels">livelli di abilità</a>. |
 | Nome | Nome completo dell’Allievo a cui è assegnata l’abilità. |
 | Nome del manager | Nome del manager dell’Allievo responsabile della segnalazione. |
 | Titoli delle righe | Il nome dell’abilità specifica assegnata agli Allievi visualizzato in questa riga. Utilizzata come intestazione di raggruppamento per riepilogare i dati relativi alle abilità degli Allievi in ciascuna categoria di abilità. |
