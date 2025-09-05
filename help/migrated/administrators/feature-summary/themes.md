@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Temi colore
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1261'
 ht-degree: 43%
 
 ---
@@ -186,6 +186,17 @@ Nell’elenco seguente vengono visualizzati i componenti personalizzabili. Per p
     <ul>
      <li><b>Formato immagine consigliato:</b> PNG, JPG, JPEG</li>
      <li><b>Dimensioni consigliate: </b>1400x908 px</li>
+    </ul></td>
+  </tr>
+   <tr>
+   <td>
+    <p>Favicon</p></td>
+   <td>
+    <p>Gli amministratori non possono modificare la favicon per l’account Adobe Learning Manager. Per aggiornare la favicon, contatta il team di supporto all'indirizzo <a href="mailto:learningmanagersupport@adobe.com">learningmanagersupport@adobe.com</a> </p>
+    <p>Devi disporre dell’immagine da applicare allo sfondo dell’Allievo.</p>
+    <ul>
+     <li><b>Formato immagine consigliato:</b>PNG</li>
+     <li><b>Dimensioni consigliate: </b>32x32 px</li>
     </ul></td>
   </tr>
  </tbody>

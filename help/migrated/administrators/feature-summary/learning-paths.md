@@ -4,9 +4,9 @@ title: Percorsi di apprendimento
 description: Creazione di piani di apprendimento per Amministratori in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1442'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ Le istanze del percorso di apprendimento visualizzano un riquadro aggiuntivo, **
 
 Nel riquadro **Corsi** sono indicate le istanze del corso visibili agli Allievi iscritti in questa istanza.
 
-La casella di controllo **[!UICONTROL Consenti agli Allievi di scegliere le istanze (Percorso di apprendimento flessibile)]** è applicabile solo ai corsi. Per tutti i percorsi di apprendimento figlio sarà disponibile un’opzione che consente di mappare un’istanza del programma di apprendimento su un percorso di apprendimento. L’opzione di collegamento è impostata su Istanza predefinita di default.
+La casella di controllo **[!UICONTROL Consenti agli Allievi di scegliere le istanze (Percorso di apprendimento flessibile)]** è applicabile solo ai corsi. Questa opzione consente agli Allievi di cambiare istanza nel percorso di apprendimento. Per tutti i percorsi di apprendimento figlio sarà disponibile un’opzione che consente di mappare un’istanza del programma di apprendimento su un percorso di apprendimento. L’opzione di collegamento è impostata su Istanza predefinita di default.
 
 ![](assets/default-instance.png)
 

@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Dashboard di Group Success
 description: Ulteriori informazioni sulla dashboard di Group Success in Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,19 @@ Un amministratore può abilitare e creare i dashboard assegnando un nome, selezi
 L’Amministratore deve abilitare la Dashboard di successo del gruppo per l’account. Per abilitare la Dashboard di Group Success, effettua le seguenti operazioni:
 
 1. Accedi come amministratore.
-2. Seleziona **[!UICONTROL Impostazioni]**&#x200B;quindi seleziona **[!UICONTROL Report]**.
+2. Seleziona **[!UICONTROL Impostazioni]**quindi seleziona **[!UICONTROL Report]**.
 3. Selezionare l&#39;interruttore **[!UICONTROL Visibilità dashboard]**.
 4. Digitare il nome del dashboard, ad esempio **[!UICONTROL Dashboard di Gestione archivi]**.
    ![](assets/enable-gsd.png)
    _Campi per il nome del dashboard, il gruppo di utenti e la selezione del percorso di apprendimento_
 5. Selezionare **[!UICONTROL Visibilità panoramica]** per abilitare la sezione della panoramica nel dashboard. Questa sezione consente di visualizzare l’avanzamento di un massimo di 50 Allievi.
+
+   >[!NOTE]
+   >
+   >Se nel team sono presenti più di 50 Allievi o più di 50 oggetti di apprendimento, passa alla scheda **[!UICONTROL Trascrizione Allievo]** anziché alla scheda **[!UICONTROL Panoramica]**.
+
 6. Per la sezione **[!UICONTROL Trascrizione Allievo]**, seleziona le colonne richieste che desideri visualizzare.
+
 
    * Allievo
    * Percorsi e corsi

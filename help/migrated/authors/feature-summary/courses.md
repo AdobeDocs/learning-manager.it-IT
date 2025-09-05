@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '7433'
-ht-degree: 70%
+source-wordcount: '7540'
+ht-degree: 69%
 
 ---
 
@@ -737,7 +737,19 @@ Viene visualizzata la finestra delle informazioni del corso. Il corso è in moda
 
 ## Ritiro di un corso {#retireacourse}
 
+Gli amministratori possono abilitare l&#39;opzione di ritiro per l&#39;account Adobe Learning Manager. Questa funzione consente agli amministratori di ritirare un corso, rendendolo non disponibile per nuove iscrizioni e consentendo agli Allievi attualmente iscritti di mantenere l’accesso.
+
 Se un corso viene ritirato, verrà nascosto agli Allievi, anche se sono iscritti o hanno già completato il corso. Se ritiri un corso, non puoi iscrivervi nuovi allievi. Gli allievi già iscritti possono seguire il corso.
+
+Per abilitare l&#39;opzione Ritiro per l&#39;account Adobe Learning Manager:
+
+1. Accedi a Adobe Learning Manager come amministratore.
+2. Seleziona **[!UICONTROL Impostazioni]**, quindi seleziona **[!UICONTROL Generali]**.
+3. Selezionate una delle opzioni di smobilizzo tra le seguenti:
+   * Una volta ritirati, gli Allievi iscritti saranno in grado di visualizzare ed eseguire azioni, ma gli Allievi non ancora iscritti perderanno l’accesso.
+   * Una volta ritirati, sia gli Allievi iscritti che quelli non ancora iscritti perderanno l’accesso.
+
+Gli Amministratori possono ritirare un corso dalla pagina **[!UICONTROL Corsi]**.
 
 Per ritirare un corso, vai alla scheda del corso, passa con il cursore del mouse sulle opzioni e fai clic su Ritira corso.
 
@@ -843,7 +855,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
 
-Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/it/captivate/classic/publish-project-to-captivate-prime.html).
+Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacia del corso {#courseeffectiveness}
 
