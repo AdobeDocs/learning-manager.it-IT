@@ -60,7 +60,7 @@ Le Trascrizioni Allievi in Adobe Learning Manager tengono traccia dei corsi di f
 3. Seleziona **[!UICONTROL Report personalizzati]** in Report, quindi seleziona **[!UICONTROL Report Excel]**.
 4. Seleziona **[!UICONTROL Trascrizioni Allievi]**.
 
-   ![]()
+   ![] ()
 
 5. Selezionare **[!UICONTROL Genera nuovo]**.
 6. Seleziona l’intervallo di date per il quale desideri che venga generata la trascrizione. Per impostazione predefinita, la data **[!UICONTROL Da]** è la data di registrazione dell’Allievo e la data **[!UICONTROL A]** è sempre la data corrente. Puoi modificare solo la data di inizio da quando hai bisogno dei dati.
@@ -74,12 +74,12 @@ b.Selezionare cataloghi specifici dall&#39;elenco a discesa **[!UICONTROL Selezi
        * In Corso
        * Non Avviato
        * Annullata L&#39;Iscrizione
-   8. Opzioni avanzate: seleziona **[!UICONTROL Opzioni avanzate]** per scaricare le trascrizioni e includere quanto segue:
+   &#x200B;8. Opzioni avanzate: seleziona **[!UICONTROL Opzioni avanzate]** per scaricare le trascrizioni e includere quanto segue:
 
    a. Scarica le trascrizioni per gli Allievi eliminati da un account selezionando la casella di controllo **[!UICONTROL Includi Allievi eliminati]**.
 b. Scarica le informazioni a livello di modulo nella trascrizione dell’Allievo abilitando la casella di controllo **[!UICONTROL Abilita informazioni a livello di modulo]**. In questo caso, i nomi dei moduli e il tempo impiegato per ogni modulo vengono recuperati come parte della trascrizione, se questa opzione è abilitata.
 c. Scarica i dati sulle abilità e i fogli di riepilogo abilitando la casella di controllo **[!UICONTROL Includi dati sulle abilità e fogli di riepilogo]**. Per ulteriori informazioni, vedere la sezione Report Excel.
-9. È inoltre possibile selezionare i valori delle colonne da inserire nel report. In questo modo è possibile scaricare i report con valori di colonna specifici in base alle esigenze. Seleziona le colonne dal menu a discesa.
+&#x200B;9. È inoltre possibile selezionare i valori delle colonne da inserire nel report. In questo modo è possibile scaricare i report con valori di colonna specifici in base alle esigenze. Seleziona le colonne dal menu a discesa.
 
    
 
