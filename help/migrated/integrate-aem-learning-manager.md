@@ -4,9 +4,9 @@ title: Integrazione di Adobe Learning Manager con AEM
 description: Learning Manager è un sistema di gestione dell’apprendimento con un sistema di gestione dei contenuti di apprendimento integrato. Gli utenti gestiscono i propri contenuti di apprendimento caricandoli su Learning Manager, in modo che Learning Manager esegua il controllo delle versioni, l’assegnazione ai corsi, la definizione della visibilità agli Allievi, il monitoraggio della frequenza e la segnalazione agli amministratori.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
+source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
 workflow-type: tm+mt
-source-wordcount: '3117'
+source-wordcount: '3116'
 ht-degree: 55%
 
 ---
@@ -52,7 +52,7 @@ Installa il pacchetto dei contenuti Learning Manager utilizzando il gestore pacc
 
 >[!NOTE]
 >
->Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#how-to-work-with-packages).
+>Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Come Autore AEM, apri il gestore pacchetti AEM.
 1. Fai clic sul pulsante **[!UICONTROL Carica pacchetto]**.
