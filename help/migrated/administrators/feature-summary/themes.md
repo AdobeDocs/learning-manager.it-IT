@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Temi colore
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 43%
+source-wordcount: '1295'
+ht-degree: 42%
 
 ---
 
@@ -86,6 +86,8 @@ Sceglie il tema desiderato dall’elenco a discesa, regola le impostazioni e fai
 Durante l’anteprima Live delle modifiche, la finestra a comparsa di anteprima Live del tema rimane visualizzata nella parte inferiore della schermata. Puoi scegliere di ridurre a icona la finestra a comparsa.
 
 ## Più branding {#multiple-branding}
+
+Gli amministratori possono applicare più stili di branding all’interno dell’organizzazione. Il branding può essere personalizzato in base ai campi attivi, consentendo a diversi gruppi di utenti di sperimentare un branding personalizzato in base al loro profilo o ruolo.
 
 Ecco come implementare più elementi di branding:
 
