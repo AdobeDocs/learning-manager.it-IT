@@ -4,9 +4,9 @@ title: Integrazione di Adobe Learning Manager con AEM
 description: Learning Manager è un sistema di gestione dell’apprendimento con un sistema di gestione dei contenuti di apprendimento integrato. Gli utenti gestiscono i propri contenuti di apprendimento caricandoli su Learning Manager, in modo che Learning Manager esegua il controllo delle versioni, l’assegnazione ai corsi, la definizione della visibilità agli Allievi, il monitoraggio della frequenza e la segnalazione agli amministratori.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '3138'
+source-wordcount: '3163'
 ht-degree: 54%
 
 ---
@@ -52,7 +52,7 @@ Installa il pacchetto dei contenuti Learning Manager utilizzando il gestore pacc
 
 >[!NOTE]
 >
->Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#how-to-work-with-packages).
+>Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Come Autore AEM, apri il gestore pacchetti AEM.
 1. Fai clic sul pulsante **[!UICONTROL Carica pacchetto]**.
@@ -411,7 +411,7 @@ Per configurare il widget Corsi salvati in siti AEM:
 5. Seleziona **[!UICONTROL Corsi salvati]** dal menu a discesa nelle **[!UICONTROL Proprietà]**.
 6. Seleziona **[!UICONTROL Fine]** e aggiorna la pagina in modalità **[!UICONTROL Anteprima]** o **[!UICONTROL Publish]**.
 
-Il widget mostrerà agli Allievi i corsi salvati.
+Gli Allievi possono visualizzare i corsi salvati nella striscia **[!UICONTROL Salvato da me]** nella pagina principale dell’Allievo.Selezionando la striscia **[!UICONTROL Salvato da me]**, gli Allievi visualizzano la pagina del catalogo e il numero esatto di corsi con segnalibro.
 
 Quando applichi un altro filtro nel catalogo, vengono visualizzati solo i risultati corrispondenti a tale filtro. Gli oggetti con segnalibro non vengono inclusi automaticamente.
 
