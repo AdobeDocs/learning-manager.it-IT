@@ -2,9 +2,9 @@
 description: Le Trascrizioni allievi in Adobe Learning Manager (ALM) consentono agli Amministratori di monitorare i progressi degli allievi in corsi, moduli, percorsi di apprendimento e certificazioni. Supporta le valutazioni delle prestazioni, il monitoraggio della conformità, gli audit e le relazioni esterne. Il report offre un riepilogo completo del coinvolgimento e delle prestazioni di un Allievo.
 jcr-language: en_us
 title: Trascrizioni Allievi in Adobe Learning Manager
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 85799b32f3a24fc0e6beb34ae39a502ff8e7a7b4
 workflow-type: tm+mt
-source-wordcount: '4221'
+source-wordcount: '4354'
 ht-degree: 8%
 
 ---
@@ -59,9 +59,6 @@ Le Trascrizioni Allievi in Adobe Learning Manager tengono traccia dei corsi di f
 2. Seleziona **[!UICONTROL Report]** dal menu di navigazione a sinistra.
 3. Seleziona **[!UICONTROL Report personalizzati]** in Report, quindi seleziona **[!UICONTROL Report Excel]**.
 4. Seleziona **[!UICONTROL Trascrizioni Allievi]**.
-
-   ![] ()
-
 5. Selezionare **[!UICONTROL Genera nuovo]**.
 6. Seleziona l’intervallo di date per il quale desideri che venga generata la trascrizione. Per impostazione predefinita, la data **[!UICONTROL Da]** è la data di registrazione dell’Allievo e la data **[!UICONTROL A]** è sempre la data corrente. Puoi modificare solo la data di inizio da quando hai bisogno dei dati.
 7. Selezionate una delle seguenti opzioni:
@@ -74,15 +71,12 @@ b.Selezionare cataloghi specifici dall&#39;elenco a discesa **[!UICONTROL Selezi
        * In Corso
        * Non Avviato
        * Annullata L&#39;Iscrizione
-   &#x200B;8. Opzioni avanzate: seleziona **[!UICONTROL Opzioni avanzate]** per scaricare le trascrizioni e includere quanto segue:
+   8. Opzioni avanzate: seleziona **[!UICONTROL Opzioni avanzate]** per scaricare le trascrizioni e includere quanto segue:
 
    a. Scarica le trascrizioni per gli Allievi eliminati da un account selezionando la casella di controllo **[!UICONTROL Includi Allievi eliminati]**.
 b. Scarica le informazioni a livello di modulo nella trascrizione dell’Allievo abilitando la casella di controllo **[!UICONTROL Abilita informazioni a livello di modulo]**. In questo caso, i nomi dei moduli e il tempo impiegato per ogni modulo vengono recuperati come parte della trascrizione, se questa opzione è abilitata.
 c. Scarica i dati sulle abilità e i fogli di riepilogo abilitando la casella di controllo **[!UICONTROL Includi dati sulle abilità e fogli di riepilogo]**. Per ulteriori informazioni, vedere la sezione Report Excel.
-&#x200B;9. È inoltre possibile selezionare i valori delle colonne da inserire nel report. In questo modo è possibile scaricare i report con valori di colonna specifici in base alle esigenze. Seleziona le colonne dal menu a discesa.
-
-   
-
+9. È inoltre possibile selezionare i valori delle colonne da inserire nel report. In questo modo è possibile scaricare i report con valori di colonna specifici in base alle esigenze. Seleziona le colonne dal menu a discesa.
 Le trascrizioni vengono generate e scaricate nel computer come file .zip quando i dati sulle abilità non sono inclusi. Se la casella di controllo Dati abilità è abilitata, le trascrizioni vengono generate e scaricate come . file xlsx.
 
 ### Genera trascrizione Allievo utilizzando copia-incolla
@@ -90,9 +84,6 @@ Le trascrizioni vengono generate e scaricate nel computer come file .zip quando 
 Per acquisire le trascrizioni degli Allievi può volerci molto tempo, perché queste possono essere ottenute solo per un allievo o un gruppo di utenti alla volta. In questo caso, con la funzione copia-incolla, puoi copiare la lista di ID e-mail degli Allievi e copiarla in un solo momento.
 
 1. Seleziona la scheda **[!UICONTROL ID e-mail]** per immettere l’elenco copiato di ID e-mail univoci.
-
-   
-
 2. Incolla gli ID e-mail univoci degli Allievi che desideri aggiungere, separati da virgola, punto e virgola o interruzione di riga.
 3. Selezionare **[!UICONTROL Convalida ID e-mail]** per verificare se l&#39;ID e-mail immesso è valido. Se l’ID e-mail inserito non è corretto, viene evidenziato in rosso con un messaggio di convalida.
 
@@ -138,15 +129,15 @@ Le colonne seguenti consentono di acquisire l&#39;attività, l&#39;avanzamento o
 | % di avanzamento | % di avanzamento corrente dell’Allievo che segue il corso, la certificazione o il percorso di apprendimento. |
 | Tempo trascorso (minuti) | Il tempo di apprendimento impiegato dall’Allievo nell’LO, le righe a livello di modulo mostrano il tempo di apprendimento dedicato al singolo modulo. Le righe a livello di corso/percorso di apprendimento/certificato mostrano il tempo di apprendimento aggregato impiegato. |
 | Valutazione | Indica l’esito dell’attività dell’Allievo. ‘Superata’ indica che l’utente ha soddisfatto i criteri di successo, altrimenti la valutazione è “Non superata”. |
-| Punteggio_quiz | L’ultimo punteggio del quiz ottenuto dall’Allievo. Può essere vuoto, se l’Allievo non ha tentato il quiz o se il contenuto non include quiz o se l’Amministratore/Istruttore non ha assegnato alcun punteggio. |
-| Quiz_score_max | Gli ultimi punteggi massimi del quiz per il modulo. Può essere vuoto se l’Allievo non ha tentato il quiz o se il contenuto non contiene quiz. |
-| Highest_Quiz_score | Il punteggio più alto del quiz ottenuto dall’Allievo dopo vari tentativi. Può essere vuoto, se l’Allievo non ha tentato il quiz o se il contenuto non include quiz, oppure se l’Amministratore o l’Istruttore non ha assegnato alcun punteggio. |
-| Highest_Quiz_score_max | Il punteggio massimo del quiz per il modulo. Può essere vuoto se l’Allievo non ha tentato il quiz o se il contenuto non contiene quiz. |
+| Punteggio_quiz | La colonna viene utilizzata per registrare il punteggio ottenuto dall’ultimo tentativo di quiz. Ad esempio, se un utente esegue più tentativi (ad esempio, ottiene un punteggio di 10, 50 e 30 in tre tentativi), nella colonna Punteggio_quiz verrà visualizzato il punteggio ottenuto nell’ultimo tentativo, ovvero 30. Supponiamo che un quiz abbia un punteggio massimo di 100 e che un utente tenti tre volte, segnando 30, 60 e 90. La colonna Punteggio_quiz mostrerà 90 (il punteggio più recente), mentre il punteggio_quiz_più_alto mostrerà 90 (il punteggio migliore tra tutti i tentativi) e il punteggio_massimo_quiz rimarrà 100 (il punteggio massimo possibile). |
+| Quiz_score_max | La colonna Quiz_score_max rappresenta il punteggio massimo che può essere ottenuto per un quiz o modulo specifico. Poiché Quiz_score_max rimane costante, è utile nei report mostrare il punteggio totale ottenibile per un quiz o modulo, indipendentemente dalle prestazioni dell’utente. |
+| Highest_Quiz_score | La colonna Highest_Quiz_score rappresenta il punteggio più alto ottenuto da un utente su tutti i tentativi relativi a un quiz specifico. Ad esempio, se un utente effettua tre tentativi con un punteggio di 10, 20 e 15, nel punteggio più alto del quiz verrà visualizzato 20, in quanto è il punteggio più alto ottenuto. |
+| Highest_Quiz_score_max | Il punteggio massimo possibile associato al tentativo di quiz più elevato eseguito da un Allievo in più tentativi. Non è il punteggio più alto raggiunto dall’Allievo. Al contrario, acquisisce il punteggio massimo che era possibile nel tentativo in cui l’Allievo otteneva il punteggio più alto. |
 | Tentativi effettuati | Numero totale di tentativi compiuti dall’Allievo per questo modulo. |
 | Numero massimo di tentativi consentiti | Numero massimo di tentativi consentiti per l’Allievo per utilizzare il modulo. |
-| Commenti sui contenuti inviati | Commenti del manager di un Allievo dopo il completamento di un oggetto di apprendimento.<br>I dati dei commenti di invio forniti dall&#39;istruttore sono inclusi nel modulo di invio dei file . Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
-| Origine completamento | <b>Nota:</b> per i flussi di lavoro di partecipazione al connettore VC, quando un Allievo viene contrassegnato come partecipante automatico, nell&#39;origine viene visualizzato &quot;SELF, (learner_email)&quot;. |
-| Commento di completamento | I commenti aggiunti dall’Amministratore quando contrassegna un Allievo come completo dopo aver completato un corso, una certificazione o un percorso di apprendimento. L’Amministratore può aggiungere i commenti di completamento per uno o più Allievi. Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/courses#completion-comments">Commenti di completamento</a>. |
+| Commenti sui contenuti inviati | Commenti del manager di un Allievo dopo il completamento di un oggetto di apprendimento.<br>I dati dei commenti di invio forniti dall&#39;istruttore sono inclusi nel modulo di invio dei file . Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
+| Origine completamento | Si riferisce all’origine o al metodo con cui viene registrato il completamento di un corso, programma di apprendimento o certificazione da parte di un Allievo. Consente agli amministratori di comprendere in che modo il completamento è stato raggiunto o registrato nel sistema. La colonna indica se il completamento è stato segnalato, registrato automaticamente o agevolato da un ruolo o una configurazione specifica. <b>Nota:</b> per i flussi di lavoro di partecipazione al connettore VC, quando un Allievo viene contrassegnato come partecipante automatico, nell&#39;origine viene visualizzato &quot;SELF, (learner_email)&quot;. |
+| Commento di completamento | I commenti aggiunti dall’Amministratore quando contrassegna un Allievo come completo dopo aver completato un corso, una certificazione o un percorso di apprendimento. L’Amministratore può aggiungere i commenti di completamento per uno o più Allievi. |
 
 **Informazioni relative agli oggetti di apprendimento**
 
@@ -204,8 +195,6 @@ La finestra di dialogo Trascrizioni Allievi consente inoltre di scaricare i dati
 * Riepilogo competenze I
 * Riepilogo competenze II
 
-
-
 ### Cosa contiene il foglio I del Riepilogo dell’apprendimento
 
 Tieni traccia di percorsi di apprendimento, corsi o certificazioni utilizzati attivamente. Tenere traccia dell’attività in corso e delle date di scadenza imminenti per i corsi di formazione.
@@ -219,9 +208,6 @@ Tieni traccia di percorsi di apprendimento, corsi o certificazioni utilizzati at
 ### Come interpretare i dati
 
 Questo report Riepilogo apprendimento I tiene traccia dei due percorsi di apprendimento assegnati all’Allievo.
-Dall&#39;esempio,
-
-
 
 * L’utente è iscritto a due percorsi di apprendimento e ne ha avviati entrambi.
 * Nessuno dei percorsi di apprendimento è stato ancora completato.
@@ -239,10 +225,6 @@ Tieni traccia dell’attività di apprendimento per Allievo. Tieni traccia delle
 * Numero di oggetti di apprendimento con data di scadenza tra N giorni: identifica gli oggetti di apprendimento con scadenza entro il numero di giorni successivo (in questo caso, 7 giorni), consentendo di tenere traccia delle scadenze imminenti.
 
 ### Come interpretare i dati
-
-Dall&#39;esempio,
-
-
 
 * L’Allievo è iscritto a due oggetti di apprendimento e ha iniziato entrambi.
 * Nessun oggetto di apprendimento completato.
@@ -278,7 +260,7 @@ Tieni traccia degli Allievi con date di scadenza imminenti per corsi chiave, per
 
 | Colonna | Descrizione |
 |---|---|
-| Dopo | Rappresenta il numero di Allievi che hanno acquisito un’abilità prima di un periodo definito (in giorni) oltre il quale l’abilità viene considerata obsoleta o richiede un aggiornamento. Utile per identificare gli Allievi con obiettivi di abilità prossimi o scaduti.<br>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/skills-levels">livelli di abilità</a>. |
+| Dopo | Rappresenta il numero di Allievi che hanno acquisito un’abilità prima di un periodo definito (in giorni) oltre il quale l’abilità viene considerata obsoleta o richiede un aggiornamento. Utile per identificare gli Allievi con obiettivi di abilità prossimi o scaduti.<br>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">livelli di abilità</a>. |
 | Nome | Nome completo dell’Allievo a cui è assegnata l’abilità. |
 | Nome del manager | Nome del manager dell’Allievo responsabile della segnalazione. |
 | Titoli delle righe | Il nome dell’abilità specifica assegnata agli Allievi visualizzato in questa riga. Utilizzata come intestazione di raggruppamento per riepilogare i dati relativi alle abilità degli Allievi in ciascuna categoria di abilità. |
@@ -307,8 +289,6 @@ La cronologia dei download delle trascrizioni degli Allievi consente agli Ammini
 
 Dopo aver scaricato una Trascrizione Allievo, la pagina Trascrizioni allievi elenca tutte le trascrizioni generate da chiunque nella piattaforma.
 
-
-
 L&#39;elenco mostra i seguenti attributi:
 
 * Da e A: durata delle trascrizioni da scaricare.
@@ -332,8 +312,6 @@ Tutti i corsi che fanno parte di un percorso di apprendimento (LP) verranno visu
 Se un Allievo è stato eliminato dalla piattaforma, la sua trascrizione non mostrerà i suoi record in alcun report generato per il gruppo di utenti di cui faceva parte. Ciò significa che i record degli Allievi eliminati verranno esclusi da qualsiasi report filtrato creato utilizzando i filtri dei gruppi di utenti.
 
 Tuttavia, puoi comunque scaricare i dati degli Allievi eliminati. Se hai selezionato l’opzione **[!UICONTROL Includi allievi eliminati]** durante l’impostazione dei filtri per la generazione del report, puoi scaricare il report per gli allievi eliminati.
-
-
 
 **Comportamento per gli amministratori personalizzati**
 

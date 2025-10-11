@@ -4,9 +4,9 @@ title: Integrazione di Adobe Learning Manager con AEM
 description: Learning Manager è un sistema di gestione dell’apprendimento con un sistema di gestione dei contenuti di apprendimento integrato. Gli utenti gestiscono i propri contenuti di apprendimento caricandoli su Learning Manager, in modo che Learning Manager esegua il controllo delle versioni, l’assegnazione ai corsi, la definizione della visibilità agli Allievi, il monitoraggio della frequenza e la segnalazione agli amministratori.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3273'
 ht-degree: 52%
 
 ---
@@ -52,7 +52,7 @@ Installa il pacchetto dei contenuti Learning Manager utilizzando il gestore pacc
 
 >[!NOTE]
 >
->Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#how-to-work-with-packages).
+>Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Come Autore AEM, apri il gestore pacchetti AEM.
 1. Fai clic sul pulsante **[!UICONTROL Carica pacchetto]**.
@@ -411,7 +411,7 @@ Nella sezione **[!UICONTROL Impostazioni generali]** è possibile scegliere i co
 }
 ```
 
-### Configurare i widget Corsi salvati nei siti AEM
+### Configurare i widget dei corsi salvati nei siti AEM
 
 Il widget Corsi salvati consente agli Allievi di visualizzare i corsi contrassegnati o salvati direttamente sulle pagine di apprendimento, fornendo un facile accesso ai corsi che desiderano rivisitare o completare in un secondo momento.
 

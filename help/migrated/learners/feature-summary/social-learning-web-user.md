@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Apprendimento sociale in Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3038'
-ht-degree: 78%
+source-wordcount: '3443'
+ht-degree: 68%
 
 ---
 
@@ -229,6 +229,64 @@ Quando visualizzi i post in formato bacheca, puoi ordinarli in base a **Post** e
 
 * Se scegli **Post**, le bacheche verranno ordinate in base al numero di post inseriti nella bacheca.
 * Se scegli **Collaboratori**, le bacheche verranno ordinate in base al numero di utenti che hanno commentato o risposto nei thread.
+
+## Applicare tag agli utenti nelle bacheche social
+
+Gli Allievi con accesso alla bacheca social possono assegnare tag ad altri utenti in post e commenti di apprendimento sociale utilizzando il formato @username. L’assegnazione di tag funziona tramite l’app o le API. Solo gli utenti con accesso alla bacheca possono essere contrassegnati, mantenendo le interazioni pertinenti e private.
+
+* Gli utenti con tag ricevono notifiche in-app e e-mail
+* Le notifiche includono collegamenti diretti al contenuto
+* Gli utenti esterni alla bacheca non possono essere taggati
+* Gli utenti eliminati vengono visualizzati come &quot;Anonimi&quot;
+
+>[!NOTE]
+>
+>Gli Allievi non possono assegnare tag ai gruppi di utenti o utilizzare @all menzioni per impedire la posta indesiderata.
+
+### Applicare tag agli utenti nei post delle bacheche social
+
+Puoi assegnare tag a specifici membri della bacheca in post o commenti utilizzando @username. L’assegnazione di tag è limitata ai membri con accesso a quella bacheca.
+Per assegnare tag agli utenti in una bacheca social:
+
+1. Accedi a Adobe Learning Manager come Allievo.
+2. Seleziona **[!UICONTROL Apprendimento sociale]** nel riquadro di navigazione a sinistra.
+
+   ![](/help/migrated/assets/select-social-learning-admin.png)
+   _Abilita l’apprendimento collaborativo selezionando Apprendimento sociale per accedere alle aree discussioni, condividere approfondimenti e assegnare tag agli utenti per il coinvolgimento interattivo_
+
+3. Seleziona **[!UICONTROL Nuovo post]**.
+
+   ![](assets/select-new-post.png)
+   _Avvia una nuova discussione selezionando Nuovo post in Apprendimento sociale per condividere le conoscenze con gli utenti con tag_
+
+4. Prima di assegnare i tag agli utenti, selezionare la bacheca dall&#39;opzione **[!UICONTROL Pubblica in un&#39;area discussioni]**.
+
+   ![](assets/select-boards-in-social-board.png)
+   _Seleziona un&#39;area discussioni per pubblicare post e assegnare tag agli utenti, consentendo conversazioni collaborative mirate in Apprendimento sociale_
+
+5. Digita i dettagli del post, quindi assegna un tag a un utente inserendo il simbolo @ seguito dal nome (ad esempio, @andrew). Quando si digita @ seguito dalle prime tre lettere del nome dell&#39;utente, viene visualizzato un elenco di utenti corrispondenti.
+
+   ![](assets/type-a-user-tag.png)
+   _Per aggiungere tag agli utenti nel post di discussione, digita @ seguito dal nome utente per abilitare la collaborazione mirata nelle bacheche di apprendimento sociale_
+
+6. Seleziona l’utente desiderato dall’elenco.
+7. Seleziona **[!UICONTROL Post]**.
+
+Gli utenti con tag ricevono notifiche in-app e e-mail con un collegamento diretto al post. Ciò rende le discussioni più mirate e collaborative.
+
+### Applicazione di tag agli utenti in base all’ambito della bacheca
+
+L’assegnazione di tag con restrizioni di ambito consente di assegnare tag solo agli Allievi autorizzati ad accedere a una bacheca specifica. In questo modo si mantiene la privacy impedendo l’assegnazione di tag agli utenti al di fuori dell’ambito.
+
+Se tenti di assegnare tag agli Allievi che non rientrano nell’ambito della bacheca, non verrà visualizzato alcun suggerimento e non potrai assegnarli.
+
+### Applicare tag agli utenti eliminati
+
+Se a un utente eliminato viene assegnato un tag in un post di Apprendimento sociale, il suo nome viene visualizzato come &quot;Anonimo&quot; nel post. Il commento e il tag rimangono visibili per il contesto, ma i collegamenti o i dettagli del profilo non vengono visualizzati.
+
+![](assets/deleted-users-tagged.png)
+_Post di Apprendimento sociale che evidenzia come un utente eliminato appare anonimo quando viene taggato_
+
 
 ### Filtro abilità {#skillfilter}
 

@@ -3,10 +3,10 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3619'
-ht-degree: 72%
+source-wordcount: '3850'
+ht-degree: 67%
 
 ---
 
@@ -523,6 +523,89 @@ Prendi visione dei prerequisiti del processo di migrazione prima di avviare la m
 ## Verifica migrazione {#registration}
 
 Dopo aver eseguito la migrazione dei dati e dei contenuti di formazione dall’LMS legacy della tua organizzazione, verifica i dati e i contenuti importati utilizzando le varie funzionalità degli oggetti di apprendimento. Ad esempio, è possibile accedere all’applicazione Learning Manager come Amministratore e verificare la disponibilità dei dati e dei contenuti relativi ai moduli e ai corsi importati.
+
+### Verifica della migrazione tramite API
+
+Una nuova API di migrazione, `runStatus`, consente agli amministratori di integrazione di tenere traccia dell&#39;avanzamento delle esecuzioni di migrazione attivate tramite l&#39;API.
+
+L&#39;API `runStatus` fornisce inoltre un collegamento diretto per scaricare i registri degli errori in formato CSV per le esecuzioni completate. Il collegamento per il download rimane attivo per sette giorni e i registri vengono conservati per un mese.
+
+**Curva di esempio**
+
+**Endpoint**
+
+```
+GET /bulkimport/runStatus
+```
+
+**Parametri**
+
+* **migrationProjectId**: (obbligatorio). Identificatore univoco di un progetto di migrazione. Un progetto di migrazione viene utilizzato per trasferire dati e contenuti da un sistema di gestione dell’apprendimento (LMS) esistente a Adobe Learning Manager. Ogni progetto di migrazione può essere costituito da più sprint, ovvero unità più piccole delle attività di migrazione.
+
+* **sprintId**: (obbligatorio). Identificatore univoco di uno sprint all&#39;interno di un progetto di migrazione. Uno sprint è un sottoinsieme delle attività di migrazione che include elementi di apprendimento specifici (ad esempio, corsi, moduli, record dell’Allievo) da migrare da un LMS esistente a Adobe Learning Manager. Ogni sprint può essere eseguito in modo indipendente, consentendo una migrazione graduale.
+
+* **sprintRunId**: (obbligatorio). Identificatore univoco utilizzato per tenere traccia dell&#39;esecuzione di uno sprint specifico in un progetto di migrazione. È associato al processo di migrazione effettivo per gli elementi definiti in uno sprint. Lo sprintRunId consente di monitorare, risolvere e gestire il processo di migrazione.
+
+**Risposta**
+
+```
+{
+  "sprintId": 2510080,
+  "sprintRunId": 2740845,
+  "migrationProjectId": 2509173,
+  "startTime": 1746524711052,
+  "endTime": 1746524711052,
+  [
+    {
+      "id": 2609923,
+      "lastHeartbeatTime": 1746524711052,
+      "objectName": "content",
+      "jobState": "COMPLETED",
+      "errorCsvLink": "",
+      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 2609922,
+      "lastHeartbeatTime": 1746524713577,
+      "objectName": "course",
+      "jobState": "WAITING_IN_QUEUE",
+      "errorCsvLink": "",
+      "errorLogLink": null,
+      "sequenceNumber": 2
+    }
+  ]
+}
+```
+
+Inoltre, la risposta API `startRun` ora include l&#39;ID del progetto di migrazione, l&#39;ID dello sprint e l&#39;ID dell&#39;esecuzione dello sprint, necessari per eseguire una query sul nuovo endpoint di stato.
+
+```
+curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+```
+
+Fornisce la seguente risposta. La risposta contiene:
+
+* `migrationId`
+* `sprintId`
+* `sprintRunId`
+
+**Risposta**
+
+```
+{
+  "status": "OK",
+  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
+  "source": {
+    "info": "Success",
+    "migrationInfo": {
+      "migrationProjectId": "001",
+      "sprintId": "10001",
+      "sprintRunId": "7"
+    }
+  }
+}
+```
 
 ## Aggiornamento nella migrazione {#retrofittinginmigration}
 

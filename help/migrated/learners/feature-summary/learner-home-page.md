@@ -4,10 +4,10 @@ title: Pagina principale dell’Allievo
 description: Dopo che l’Amministratore ha abilitato il layout immersivo, l’Allievo, dopo aver effettuato l’accesso all’app, viene accolto con un’interfaccia utente completamente rinnovata.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 40%
+source-wordcount: '1203'
+ht-degree: 39%
 
 ---
 
@@ -143,7 +143,11 @@ Il widget Calendario ha le seguenti funzioni. È possibile visualizzare:
 * I corsi di formazione raggruppati per mese. Scorri a destra o a sinistra.
 * I prossimi corsi in aula o virtuali disponibili per l&#39;iscrizione.
 * I prossimi corsi in aula o virtuali ai quali sei iscritto.
+* Sessioni in aula o in aula virtuale completate
 * I corsi in aula o virtuali approvati dal Manager.
+
+Puoi applicare il filtro **[!UICONTROL Visualizza solo sessioni registrate]** per visualizzare solo le sessioni registrate nel calendario.
+
 
 ## Feed dei social {#socialfeed}
 

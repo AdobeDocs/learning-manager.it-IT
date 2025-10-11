@@ -4,10 +4,10 @@ title: Contenuti del marketplace
 description: Learning Manager ora offre la possibilità di esplorare i contenuti del marketplace e acquistare corsi di formazione. Esplora oltre 70.000 corsi che trattano un’ampia gamma di argomenti, disponibili in più formati. Scegli tra playlist selezionate che rispondono a una vasta gamma di ruoli e soddisfano le tue esigenze di apprendimento e aggiornamento delle competenze.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 10%
 
 ---
 
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Hub dei contenuti
 
-L’Hub dei contenuti consente agli Amministratori di creare un elenco delle playlist richieste dall’app per allievi. La pagina Hub dei contenuti è sempre visibile agli amministratori nel ruolo di Allievo, poiché consente di creare comodamente elenchi di playlist. Per aiutarti a creare elenchi con le giuste playlist, gli Amministratori possono rendere questa pagina accessibile a un numero limitato di Esperti in materia nel loro account.
+Gli amministratori possono accedere alla piattaforma Go1 direttamente in Adobe Learning Manager. Accedi a **[!UICONTROL Marketplace dei contenuti]** e seleziona **[!UICONTROL Hub dei contenuti]**.
 
-Adobe Learning Manager si sincronizza regolarmente con il Content Hub, assicurando che le nuove aggiunte e gli aggiornamenti vengano automaticamente riportati nella piattaforma.
-
-Tutti i contenuti sono mappati sulle lingue supportate, consentendo agli amministratori di filtrare e gestire i contenuti in modo più efficace in base alle preferenze della lingua.
+L’Hub dei contenuti replica la piattaforma Go1, consentendo agli amministratori di sfogliare i corsi, creare più playlist ed esplorare i contenuti, offrendo un’esperienza Go1 uniforme in Adobe Learning Manager.
 
 ## Modelli e-mail
 

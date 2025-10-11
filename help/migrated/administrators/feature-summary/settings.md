@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Impostazioni
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 64%
+source-wordcount: '3697'
+ht-degree: 63%
 
 ---
 
@@ -411,6 +411,10 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">Ritiro</td>
    <td>Selezionate una delle opzioni di smobilizzo tra le seguenti:<li>Una volta ritirati, gli Allievi iscritti saranno in grado di visualizzare ed eseguire azioni, ma gli Allievi non ancora iscritti perderanno l’accesso.</li><li>Una volta ritirati, sia gli Allievi iscritti che quelli non ancora iscritti perderanno l’accesso.</li><div><b>Nota:</b> puoi ritirare corsi, percorsi di apprendimento o certificazioni dalle relative pagine di panoramica.</div> </td>
   </tr>
+  <tr>
+   <td height="19">Mostra tutti i corsi iscritti nei risultati della ricerca</td>
+   <td>Se questa opzione è attivata, l’Allievo può visualizzare il corso nei risultati di ricerca anche se fa parte del percorso di apprendimento o della certificazione a cui è iscritto.</td>
+  </tr>
  </tbody>
 </table>
 
@@ -420,7 +424,7 @@ Attivare o disattivare le seguenti impostazioni:
    <td>
     <p>Percorsi di apprendimento</p></td>
    <td>
-    <p>Se l’opzione <b>Abilita funzioni estese dei Percorsi di apprendimento</b> è abilitata, gli Amministratori potranno includere i Percorsi di apprendimento in altri e combinare questi ultimi con i corsi. L’opzione è irreversibile.<br></p></td>
+    <p>Se l’opzione <b>Abilita funzioni estese dei percorsi di apprendimento</b> è selezionata, gli Amministratori potranno includere i percorsi di apprendimento all’interno dell’opzione Percorsi di apprendimento e combinarli con i corsi. L’opzione è irreversibile.<br></p></td>
   </tr>
   <tr>
    <td>

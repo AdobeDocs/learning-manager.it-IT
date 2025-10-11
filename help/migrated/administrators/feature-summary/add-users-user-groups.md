@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aggiungere utenti in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 1%
+source-wordcount: '2451'
+ht-degree: 2%
 
 ---
 
@@ -172,6 +172,37 @@ Per registrare gli utenti:
 
 L&#39;utente riceve un&#39;e-mail di verifica. L&#39;utente deve selezionare il collegamento nell&#39;e-mail per attivare il proprio account e iniziare a utilizzare Adobe Learning Manager.
 
+### Scaricare il report utente
+
+Gli amministratori possono esportare e scaricare i dati degli utenti come report completo. Esportando questi dati, gli amministratori possono tenere traccia dell’attività degli allievi, monitorare il ciclo di vita dell’account, identificare gli utenti inattivi e conservare record accurati a scopo di conformità, controllo e creazione di report.
+
+Per scaricare il report utente:
+
+1. Accedi a Adobe Learning Manager come amministratore.
+2. Seleziona **Utenti**, quindi scegli **Interni**.
+3. Selezionare **Esporta dati utente**. Quando il report sarà pronto, riceverai una notifica.
+
+   ![](assets/select-export-user-data.png)
+   _Nelle sezioni utente interno viene visualizzata l&#39;opzione per esportare e scaricare il report utente._
+4. Seleziona la notifica e scarica il report utente.
+
+Il report include le seguenti informazioni:
+
+* Nome
+* E-mail
+* Stato
+* Data di aggiunta (fuso orario UTC)
+* Data di eliminazione (fuso orario UTC)
+* Data ultimo accesso (fuso orario UTC)
+* Adobe ID
+* userState
+* profilo
+* Lingua dell’interfaccia
+* Lingua del contenuto
+* Fuso orario
+* ID utente interno
+* E-mail del manager
+
 ## Utenti esterni
 
 Adobe Learning Manager consente di aggiungere utenti esterni all’azienda, ad esempio clienti, partner, fornitori o clienti, per accedere ai contenuti di apprendimento. Dopo averli aggiunti, puoi raggrupparli, assegnare corsi e tenere traccia dei progressi di apprendimento.
@@ -239,7 +270,7 @@ Esistono alcune differenze tra le registrazioni interne ed esterne:
 | Utenti interni | Utenti esterni |
 |---|---|
 | Può accedere utilizzando le credenziali Adobe ID o SSO. | È possibile accedere utilizzando un qualsiasi ID e-mail. |
-| La gamification è disponibile. | È disponibile la gamification. L’amministratore deve abilitare la gamification per gli Allievi esterni nelle [Impostazioni gamification](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/gamification). |
+| La gamification è disponibile. | È disponibile la gamification. L’amministratore deve abilitare la gamification per gli Allievi esterni nelle [Impostazioni gamification](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Metti in pausa il profilo di registrazione esterno
 
@@ -266,6 +297,32 @@ Per riprendere un utente esterno:
 
 ![](assets/resume-an-external-user.png)
 _Opzione per riprendere un profilo di registrazione esterno sospeso in precedenza_
+
+### Modificare il profilo esterno
+
+Gli Amministratori possono riassegnare gli Allievi da un profilo esterno a un profilo diverso.
+
+Per modificare il profilo esterno:
+
+1. Accedi a Adobe Learning Manager come amministratore.
+2. Seleziona **[!UICONTROL Utenti]**, quindi seleziona **[!UICONTROL Esterni]**.
+3. Selezionare **[!UICONTROL Posti usati]** nell&#39;elenco dei profili esterni.
+
+   ![](assets/select-learners-external-profile.png)
+   _Sezione del profilo esterno che mostra il numero di postazioni utilizzate_
+
+4. Seleziona l’Allievo, quindi seleziona **[!UICONTROL Azioni]**.
+
+   ![](assets/select-change-profile-external-learner.png)
+   _Pagina del profilo esterno che evidenzia l’opzione Modifica profilo per spostare gli Allievi in un altro profilo_
+
+5. Seleziona **[!UICONTROL Modifica profilo]**.
+6. Cerca e seleziona il profilo esterno.
+
+   ![](assets/search-and-select-profile.png)
+   _Il prompt Modifica profilo visualizza le opzioni per la ricerca nel profilo esterno_
+
+L’Allievo selezionato si sposta sul profilo esterno selezionato.
 
 ### Monitoraggio dell&#39;utilizzo della postazione esterna
 

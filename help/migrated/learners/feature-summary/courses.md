@@ -4,10 +4,10 @@ jcr-language: en_us
 title: I miei insegnamenti
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3080'
-ht-degree: 63%
+source-wordcount: '3307'
+ht-degree: 59%
 
 ---
 
@@ -291,6 +291,19 @@ Per modificare l’istanza del corso, effettua quanto segue:
 
    L&#39;istanza appena selezionata viene registrata. Se un Allievo è iscritto a un’istanza del corso appartenente a un altro LO e aggiorna l’istanza del corso appartenente al programma di apprendimento flessibile, dopo un avviso verrà automaticamente annullato l’iscrizione agli altri oggetti di apprendimento.
 
+## Gestione dell&#39;avanzamento basata sulla lingua
+
+È possibile monitorare separatamente l’avanzamento dell’Allievo per ciascuna lingua, affinché il passaggio da una lingua all’altra nel lettore non influisca sull’avanzamento raggiunto in precedenza. L’avanzamento di ciascun modulo viene mantenuto in modo indipendente a livello di utente e di modulo, impedendo che venga sovrascritto quando gli allievi esplorano i contenuti in lingue diverse.
+
+Ad esempio, se un Allievo raggiunge il 75% di avanzamento in inglese e poi passa allo spagnolo, il ritorno all’inglese riprende dal 75% anziché tornare allo 0%. Ogni lingua memorizza il proprio stato di avanzamento, consentendo agli Allievi di navigare e completare senza problemi i contenuti in più lingue senza perdere i singoli progressi.
+
+I seguenti tipi di contenuto non sono supportati per l’avanzamento dell’Allievo in base alla lingua:
+
+* Il contenuto video e audio non è supportato.
+* I contenuti di terze parti, inclusi Go1, LinkedIn Learning, getAbstract e Harvard ManageMentor, non sono supportati.
+* Per i contenuti che non inviano dati a Learning Record Store (LRS) non verrà registrato né salvato l’avanzamento.
+* Gli utenti dell’app per dispositivi mobili non possono tenere traccia dell’avanzamento di questa funzione durante la modalità offline.
+
 ## Completamento di un corso {#completingacourse}
 
 Come Allievo, puoi completare il numero richiesto di moduli in un corso per il completamento del corso. I criteri di completamento del corso dipendono dal numero di moduli impostati come obbligatori dall’Autore. Quando ti iscrivi a un corso con un criterio di completamento minimo, puoi visualizzare il criterio di completamento nel riquadro a destra della pagina Corso.
@@ -319,6 +332,19 @@ La scheda Discussione non è disponibile per gli utenti esterni.
 
 ![](assets/learning-program200s.jpg)
 *Scheda Discussione*
+
+## Registra interesse per i corsi
+
+Gli Allievi possono registrare il proprio interesse per i corsi che non hanno un’istanza attiva.
+
+Per registrare gli interessi:
+
+1. Accedi a Adobe Learning Manager come Allievo.
+2. Passa al **[!UICONTROL Catalogo]** e seleziona il corso che non ha un&#39;istanza attiva.
+3. Seleziona **[!UICONTROL Registra interesse]** nella pagina della panoramica del corso.
+
+   ![](assets/register-interest.png)
+   _Sezione della panoramica del corso nell’interfaccia utente dell’Allievo, con evidenziazione dell’opzione Registra interesse_
 
 ## Ciclo di vita del corso {#courselifecycle}
 

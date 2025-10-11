@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '5673'
-ht-degree: 52%
+source-wordcount: '5803'
+ht-degree: 51%
 
 ---
 
@@ -693,7 +693,7 @@ Gli Amministratori iscrivono alcuni Allievi ai corsi obbligatori, come richiesto
 
 ## Utenti
 
-+++Includi Allievi
++++Includi gli Allievi
 
 Seleziona i gruppi di utenti e i singoli Allievi (utilizzando l’ID e-mail o il nome) che desideri includere. Aggiungi tutti i gruppi di utenti in un’intersezione nello stesso set. Per aggiungere un altro gruppo di utenti a un’unione, utilizza un nuovo set di inclusione.
 
@@ -788,7 +788,36 @@ Gli Allievi possono utilizzare l’applicazione per dispositivi Adobe Learning M
 
    ![](assets/qr-code-download-01.png)
 
-   *Condivisione del codice QR con i collaboratori*
+   *Condivisione del codice QR con gli Allievi*
+
+## Scarica il report dell’Allievo interessato
+
+Visualizza [Registra interesse per i corsi](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) per scoprire come gli Allievi possono registrare il loro interesse.
+
+Gli Amministratori possono visualizzare l’interesse degli Allievi e scaricare il report Allievi interessati dalla pagina di panoramica del corso.
+
+Per scaricare il report Allievo interessato:
+
+1. Accedi a Adobe Learning Manager come amministratore.
+2. Vai a **[!UICONTROL Corsi]** e seleziona il corso.
+3. Seleziona **[!UICONTROL Allievi interessati]**.
+
+   ![](assets/select-interested-learner.png)
+   _La pagina della panoramica del corso dell’interfaccia di amministrazione mostra la sezione Allievi interessati per visualizzare e scaricare il report_
+4. Seleziona Azioni, quindi seleziona Esporta report.
+Il report con l’elenco degli Allievi interessati verrà scaricato. Il report include le seguenti colonne:
+
+   * ID corso
+   * Nome Allievo
+   * E-mail
+   * Tipo
+   * Stato
+   * Data e ora di registrazione (UTC)
+   * Stato attivo
+
+>[!NOTE]
+>
+>Il report includerà l’UUID dell’Allievo se è abilitato per l’account.
 
 ## Ciclo di vita del corso {#courselifecycle}
 
@@ -812,7 +841,7 @@ Come Amministratore, puoi regolare le impostazioni di notifica. Per ulteriori in
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++Come si reimposta un modulo come amministratore?
++++Come si ripristina un modulo come amministratore?
 
 Nella pagina Allievi di un corso, scegli l’Allievo o un gruppo, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Ripristina moduli]**.
 
@@ -830,7 +859,7 @@ Passa il mouse su una scheda del corso e fai clic su **[!UICONTROL Copia URL]**.
 
 +++
 
-+++Come riaprire un&#39;istanza?
++++Come riaprire un’istanza?
 
 Per riaprire un’istanza ritirata, fai clic sul menu a discesa nell’istanza e poi fai clic su **[!UICONTROL Riapri istanza]**.
 

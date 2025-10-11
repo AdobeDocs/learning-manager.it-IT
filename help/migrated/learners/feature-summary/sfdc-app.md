@@ -4,10 +4,10 @@ title: App Learning Manager per Salesforce
 description: Salesforce&trade; è la soluzione CRM più diffusa tra i team di vendita e marketing. Tramite l’app Adobe Learning Manager in Salesforce, gli Allievi possono accedere a tutti i contenuti di apprendimento all’interno dell’interfaccia Salesforce. Gli Allievi possono accedere ai contenuti di apprendimento assegnati come corsi, programmi di apprendimento e risorse formative dall’interno di Salesforce. Gli utenti possono inoltre ricevere notifiche relative a iscrizioni e annunci dall’Amministratore.
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 75%
+source-wordcount: '500'
+ht-degree: 62%
 
 ---
 
@@ -48,3 +48,14 @@ Un’istantanea rappresentativa della vista Allievo nell’app Adobe Learning Ma
 Puoi fare clic sul collegamento di disconnessione nella parte inferiore della pagina degli Allievi, come indicato nell’istantanea sopra, per eseguire la **disconnessione** dall’app Adobe Learning Manager. Dopo la disconnessione, verrai reindirizzato alla pagina di benvenuto dell&#39;app Adobe Learning Manager.
 
 Puoi eseguire la connessione o la disconnessione dall’app ogni volta che vuoi.
+
+## Ripristinare i consigli nell’app Salesforce
+
+Gli Allievi possono ripristinare i ruoli e le preferenze di apprendimento senza dover lasciare Salesforce o accedere all’app nativa Adobe Learning Manager. L’app Adobe Learning Manager Salesforce ora include il pulsante **[!UICONTROL Ripristina interessi]**.
+
+Per reimpostare gli interessi e i consigli dall’app Salesforce:
+
+1. Accedi all’app Adobe Learning Manager per Salesforce come Allievo.
+2. Seleziona l&#39;opzione **[!UICONTROL Ripristina interessi]** nella parte inferiore.
+
+Il consiglio o l’interesse dell’Allievo verrà reimpostato dall’app Adobe Learning Manager Salesforce.

@@ -4,10 +4,10 @@ title: Gestisci ruoli personalizzati tramite file CSV
 description: L’Amministratore di integrazione può aggiungere vari ruoli personalizzati al proprio account in un’unica soluzione tramite CSV e può assegnare lo stesso ruolo a vari utenti. Questo approccio automatizza il processo di creazione dei ruoli personalizzati.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 81%
+source-wordcount: '992'
+ht-degree: 72%
 
 ---
 
@@ -178,7 +178,7 @@ Nella sezione Sincronizza impostazioni, abilitare l&#39;opzione **[!UICONTROL At
 
 *Selezionare l&#39;opzione Abilita sincronizzazione automatica*
 
-Quando si sceglie questa opzione, è possibile pianificare l’orario della sincronizzazione sull&#39;ora esatta specificata nel campo dell’ora della sincronizzazione. Se si specifica l’ora di sincronizzazione come 12:00, i ruoli personalizzati vengono aggiornati esattamente all’ora specificata per ogni giorno.
+Quando si sceglie questa opzione, è possibile pianificare l’orario della sincronizzazione sull&#39;ora esatta specificata nel campo dell’ora della sincronizzazione. Se si specifica l&#39;ora di sincronizzazione come 12:00, i ruoli personalizzati vengono aggiornati esattamente all&#39;ora specificata ogni giorno.
 
 Se si desidera sincronizzare i dati on-demand, fare clic su **[!UICONTROL Sync Now]** (Sincronizza adesso).
 
@@ -189,3 +189,34 @@ In qualsiasi account il nome di un ruolo deve essere univoco. Pertanto, un ruolo
 Analogamente, nell’interfaccia utente di amministrazione non è possibile assegnare a un utente un ruolo configurabile creato tramite CSV, perché questi ruoli non saranno disponibili.
 
 Tuttavia il CSV di assegnazione utenti può essere utilizzato per assegnare ruoli creati dall&#39;interfaccia utente.
+
+## Supporto incrementale e multi-incrementale per ruoli personalizzati
+
+Gli amministratori possono assegnare ruoli personalizzati per utenti incrementali in modo più efficiente. Possono caricare i dati utente, ruolo e ruolo utente senza dover ricaricare l&#39;intero dataset ogni volta.
+
+Per ogni file di importazione utente caricato, crea cartelle separate in FTP utilizzando la seguente struttura:
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**Dettagli file**
+
+* File di importazione utente: user1.csv
+* File di ruolo: user1_role.csv
+* File di mappatura dei ruoli utente: user1_user_role.csv
+
+Scarica [CSV di esempio](/help/migrated/assets/sample-csv-Incremnetal.zip) qui.
+
+Ogni file di importazione utente è direttamente collegato ai file di mapping ruolo e ruolo utente corrispondenti, garantendo un&#39;elaborazione incrementale corretta.
