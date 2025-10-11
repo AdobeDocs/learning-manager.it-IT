@@ -131,7 +131,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
