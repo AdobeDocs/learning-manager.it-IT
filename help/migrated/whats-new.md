@@ -2,7 +2,7 @@
 description: Scopri le nuove funzioni e i miglioramenti nella versione di ottobre 2025 di Adobe Learning Manager
 jcr-language: en_us
 title: Novità della versione di ottobre 2025 di Adobe Learning Manager
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 2df852f933fb0fb7b010dec5426a886b9e7b8ad5
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -176,7 +176,7 @@ Questo processo semplificato garantisce che continuino a ricevere raccomandazion
 
 Adobe Learning Manager ora dispone di un pulsante **[!UICONTROL Ripristina interessi]** nell’app Salesforce. Gli Allievi possono ora ripristinare i ruoli e le preferenze di apprendimento senza dover lasciare Salesforce o accedere all’app nativa Adobe Learning Manager.
 
-Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce[, consulta &#x200B;](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app)Consigli per la reimpostazione.
+Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce[, consulta ](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app)Consigli per la reimpostazione.
 
 ## Miglioramento del widget Calendario
 
@@ -815,7 +815,7 @@ Per ulteriori informazioni sul report Risorse formative, visualizzare il [report
 * Nell’app per Allievi, la pressione di TAB nel lettore Fluidic si bloccava sul pulsante &quot;Accedi a schermo intero&quot;. La navigazione tramite tastiera ora si sposta correttamente su tutti gli elementi dello schermo.
 * Passando il cursore del mouse sui nomi dei corsi lunghi nella dashboard di conformità dell’app Manager ora viene visualizzato il nome completo dei corsi registrati o conformi.
 * Per la colonna Visibilità modulo in module.csv sono accettati solo i formati Condiviso o NASCOSTO. Qualsiasi altro valore attiverà un errore durante la migrazione, impedendo gli errori nel back-end.
-* La creazione di un nuovo amministratore con un’e-mail con lettere maiuscole e minuscole non genera più voci utente duplicate quando l’UUID è disattivato. Il sistema ora gestisce in modo coerente le e-mail casing per evitare duplicati.
+* La creazione di un nuovo amministratore con un messaggio e-mail composto di maiuscole e minuscole non genera più voci utente duplicate quando UUID è disattivato. Il sistema ora gestisce in modo coerente le e-mail casing per evitare duplicati.
 * I PDF di note ora vengono visualizzati correttamente per i corsi in lingue quali arabo, greco, ebraico, hindi, thai e ucraino. In precedenza, i personaggi apparivano distorti nel PDF scaricato anche se venivano visualizzati correttamente nel lettore.
 
 ## Requisiti di sistema
