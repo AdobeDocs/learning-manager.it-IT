@@ -26,7 +26,7 @@ In qualità di Amministratore di sistema nella console di amministrazione, una d
 
    ![](assets/configure-sso-step1.png)
 
-1. A seconda del tipo di utente, seleziona **[!UICONTROL **&#x200B; Utenti interni &#x200B;** o**&#x200B; Utenti esterni &#x200B;**.]**
+1. A seconda del tipo di utente, seleziona **[!UICONTROL **&#x200B; Utenti interni &#x200B;** o&#x200B;**&#x200B; Utenti esterni &#x200B;**.]**
 
 
 

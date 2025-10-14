@@ -31,7 +31,7 @@ La cache del browser e i cookie potrebbero impedire l’accesso alla piattaforma
 
 Di seguito sono riportate le guide specifiche per browser per la pulizia della cache:
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=it)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=it)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ Di seguito sono riportate le guide specifiche per browser per la pulizia della c
 
 ## Utilizzo della modalità in incognito
 
-Usa la modalità di navigazione in incognito del browser e accedi ad Adobe Learning Manager. Consulta le [istruzioni](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=it&amp;oco=0).
+Usa la modalità di navigazione in incognito del browser e accedi ad Adobe Learning Manager. Consulta le [istruzioni](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=it&oco=0).
 
 ## Contatta l’amministratore
 

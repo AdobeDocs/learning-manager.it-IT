@@ -33,7 +33,7 @@ Scopri le nuove funzioni e i miglioramenti nella versione di novembre 2024 di Ad
 
 >[!NOTE]
 >
->Guarda questo [webinar](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) per ulteriori informazioni sulle nuove funzioni di questa versione.
+>Guarda questo [webinar](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course) per ulteriori informazioni sulle nuove funzioni di questa versione.
 
 ## Ricerca basata sull&#39;intelligenza artificiale in Adobe Learning Manager
 

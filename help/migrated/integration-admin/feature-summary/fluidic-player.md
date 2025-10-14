@@ -31,7 +31,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta [Lettore Fluidic](../..
 
 Ecco alcuni esempi di come è possibile utilizzare il lettore Fluidic incorporabile.
 
-* Puoi utilizzare il lettore Fluidic incorporabile nel tuo sito Web **&#x200B; **&#x200B;per elencare i corsi a cui sono iscritti i dipendenti e fornire anche un collegamento per avviare una formazione nella stessa pagina. Ciò significa che gli Allievi possono seguire i corsi di formazione sul sito Web Intranet.
+* Puoi utilizzare il lettore Fluidic incorporabile nel tuo sito Web **&#x200B; &#x200B;**&#x200B;per elencare i corsi a cui sono iscritti i dipendenti e fornire anche un collegamento per avviare una formazione nella stessa pagina. Ciò significa che gli Allievi possono seguire i corsi di formazione sul sito Web Intranet.
 
 * Se sei impegnato nel settore della formazione, potresti avere un sito Web in cui i clienti possono acquistare corsi. È possibile integrare il lettore incorporabile con lo stesso sito Web in modo che i clienti possano utilizzare i contenuti acquistati all’interno del sito Web.
 
@@ -183,7 +183,7 @@ Si tratta di un&#39;operazione che deve essere eseguita da un team IT o da un co
 
    Puoi ottenere il token configurando il lettore Fluidic incorporabile nell’amministratore dell’integrazione. Puoi ottenere il token di autenticazione che puoi utilizzare come token di accesso.
 
-   Esempio di URL creato: https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&amp;access_token=&quot;+accToken
+   Esempio di URL creato: https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
 
    Qui lo_id sarà l’ID del corso, del programma di apprendimento, della certificazione e della risorsa formativa.
 

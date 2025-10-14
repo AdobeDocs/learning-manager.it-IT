@@ -105,7 +105,7 @@ Questo documento contiene suggerimenti di base per risolvere alcuni dei problemi
 1. Per aprire la finestra di dialogo **Vai alla cartella**, premi i tasti **Comando + Maiusc + G**.
 1. Digita &quot;**/var/folders**&quot; (senza virgolette) e premi Invio.
 1. Cerca &quot;**elthor**&quot; nella barra di ricerca e apri la cartella.
-1. Ordinare le cartelle in base alla **&#x200B; **&#x200B;Data di modificae aprire la cartella più recente. Questa cartella contiene i registri dell&#39;applicazione più recenti.
+1. Ordinare le cartelle in base alla **&#x200B; &#x200B;**&#x200B;Data di modificae aprire la cartella più recente. Questa cartella contiene i registri dell&#39;applicazione più recenti.
 
 ## Come abilitare la registrazione avanzata? {#howtoenableadvancedlogging}
 

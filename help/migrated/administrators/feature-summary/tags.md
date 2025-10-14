@@ -40,7 +40,7 @@ Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe
 
 1. Puoi modificare solo un tag alla volta. Per modificare un tag, procedi come segue:
 
-   * Seleziona il tag da modificare > apri il menu a **&#x200B; **&#x200B;[!UICONTROL Azioni] > fai clic su **[!UICONTROL Modifica]**.
+   * Seleziona il tag da modificare > apri il menu a **&#x200B; &#x200B;**&#x200B;[!UICONTROL Azioni] > fai clic su **[!UICONTROL Modifica]**.
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica tag]**. Inserisci il nuovo nome del tag e fai clic su **[!UICONTROL Salva]**.
 

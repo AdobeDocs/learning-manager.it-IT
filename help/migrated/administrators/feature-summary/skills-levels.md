@@ -257,7 +257,7 @@ In altre parole, ogni volta che iscrivi nuovamente un gruppo di utenti per avvia
 
 +++Come posso assegnare un’abilità a un corso?
 
-Consulta la sezione [Assegnazione di abilità a un corso ](skills-levels.md#assignskilltocourse) per ulteriori informazioni sulla procedura.
+Consulta la sezione [Assegnazione di abilità a un corso &#x200B;](skills-levels.md#assignskilltocourse) per ulteriori informazioni sulla procedura.
 +++
 
 +++Come si modifica un livello di abilità?
