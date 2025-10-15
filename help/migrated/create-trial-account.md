@@ -16,7 +16,7 @@ Puoi facilmente configurare un account di prova gratuito di 30 giorni in Adobe L
 
 Per creare un account di prova:
 
-1. Passa a [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html).
+1. Passa a [Adobe Learning Manager](https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html).
 2. Seleziona **[!UICONTROL Versione di prova gratuita di 30 giorni]**.
 
    ![](assets/free-trial.png)
