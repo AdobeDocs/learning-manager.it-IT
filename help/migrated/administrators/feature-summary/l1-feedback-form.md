@@ -2,7 +2,7 @@
 description: Ulteriori informazioni sulla creazione di moduli di feedback L1 per gli Allievi
 jcr-language: en_us
 title: Modulo di feedback L1
-source-git-commit: 70baa9d9871fb05e988973b61ce0af105459afb3
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Crea le traduzioni delle domande nel modulo di feedback in più lingue. Tuttavia
 
 ## Impostare un modulo di feedback come predefinito
 
-Gli Amministratori possono stabilire un modulo di feedback predefinito per corsi a ritmo personalizzato, in aula, in aula virtuale e misti. Una volta configurato, questo modulo predefinito verrà presentato automaticamente agli Allievi al completamento di qualsiasi corso. Questo modulo predefinito verrà applicato a tutti i corsi a meno che l’amministratore non scelga di assegnare un modulo di feedback diverso per corsi specifici.
+Gli Amministratori possono stabilire un modulo di feedback predefinito per corsi a ritmo personalizzato, in aula, in aula virtuale e misti. Una volta impostato un modulo predefinito, questo viene applicato automaticamente a tutti i corsi appena creati. Gli Allievi vedranno questo modulo dopo aver completato un corso. Se necessario, gli Amministratori possono scegliere di assegnare un modulo di feedback diverso per corsi specifici.
 
 ![](assets/set-as-default.png)
 _Nella schermata dei moduli di feedback viene visualizzata l&#39;opzione per impostare il modulo di feedback predefinito_
