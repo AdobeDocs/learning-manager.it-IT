@@ -139,8 +139,8 @@ Gli amministratori possono digitare la descrizione della sequenza di riproduzion
 12. Seleziona **Sì** nella richiesta di conferma.
 13. Selezionare la sequenza di riproduzione dalla **[!UICONTROL Seleziona sequenza di riproduzione da importare]**.
 
-   ![](assets/add-playlist-to-lp.png)
-   _Selezionare e importare la sequenza di riproduzione Miglioramento competenze tecnico commerciale dalla libreria Go1 in Adobe Learning Manager_
+    ![](assets/add-playlist-to-lp.png)
+    _Selezionare e importare la sequenza di riproduzione Miglioramento competenze tecnico commerciale dalla libreria Go1 in Adobe Learning Manager_
 
 14. Seleziona **[!UICONTROL Aggiungi playlist al percorso di apprendimento]** e quindi **[!UICONTROL Publish]**.
 
