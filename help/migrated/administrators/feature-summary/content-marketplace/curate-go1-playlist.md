@@ -2,9 +2,9 @@
 description: Scopri come creare e aggiungere una sequenza di riproduzione Go1 a un percorso di apprendimento in Adobe Learning Manager. Questa guida descrive le istruzioni dettagliate e le procedure consigliate per l'integrazione di sequenze di riproduzione.
 jcr-language: en_us
 title: Curare la sequenza di riproduzione Go1 nel percorso di apprendimento Adobe Learning Manager
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -139,8 +139,8 @@ Gli amministratori possono digitare la descrizione della sequenza di riproduzion
 12. Seleziona **Sì** nella richiesta di conferma.
 13. Selezionare la sequenza di riproduzione dalla **[!UICONTROL Seleziona sequenza di riproduzione da importare]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Selezionare e importare la sequenza di riproduzione Miglioramento competenze tecnico commerciale dalla libreria Go1 in Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Selezionare e importare la sequenza di riproduzione Miglioramento competenze tecnico commerciale dalla libreria Go1 in Adobe Learning Manager_
 
 14. Seleziona **[!UICONTROL Aggiungi playlist al percorso di apprendimento]** e quindi **[!UICONTROL Publish]**.
 
@@ -216,6 +216,10 @@ Per eliminare la sequenza di riproduzione:
    _Schermata di gestione della sequenza di riproduzione, evidenziazione dell&#39;opzione Elimina sequenza di riproduzione_
 
 La sequenza di riproduzione selezionata verrà eliminata dalla libreria Go1.
+
+### Condividere la playlist
+
+L’opzione Condividi playlist non è supportata nell’integrazione Go1 con Adobe Learning Manager. Questa opzione verrà rimossa dall’interfaccia utente nella prossima versione.
 
 ## Limite del corso superato
 
