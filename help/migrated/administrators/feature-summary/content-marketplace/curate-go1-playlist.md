@@ -2,7 +2,7 @@
 description: Scopri come creare e aggiungere una sequenza di riproduzione Go1 a un percorso di apprendimento in Adobe Learning Manager. Questa guida descrive le istruzioni dettagliate e le procedure consigliate per l'integrazione di sequenze di riproduzione.
 jcr-language: en_us
 title: Curare la sequenza di riproduzione Go1 nel percorso di apprendimento Adobe Learning Manager
-source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
+source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Adobe Learning Manager offre assistenza basata sull’intelligenza artificiale p
 
 Per creare una sequenza di riproduzione con l&#39;IA:
 
-1. Seleziona l&#39;opzione **[!UICONTROL Chat con AI]** nell&#39;Hub dei contenuti Go1.
+1. Seleziona l&#39;opzione **[!UICONTROL Chat con AI]** nell&#39;Hub dei contenuti **Go1**.
 
    ![](assets/select-chat-with-ai.png)
    _Schermata Hub dei contenuti che mostra l&#39;opzione Chat con IA, in cui gli amministratori possono interagire con l&#39;Assistente AI per porre domande_
@@ -139,8 +139,8 @@ Gli amministratori possono digitare la descrizione della sequenza di riproduzion
 12. Seleziona **Sì** nella richiesta di conferma.
 13. Selezionare la sequenza di riproduzione dalla **[!UICONTROL Seleziona sequenza di riproduzione da importare]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Selezionare e importare la sequenza di riproduzione Miglioramento competenze tecnico commerciale dalla libreria Go1 in Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Selezionare e importare la sequenza di riproduzione Miglioramento competenze tecnico commerciale dalla libreria Go1 in Adobe Learning Manager_
 
 14. Seleziona **[!UICONTROL Aggiungi playlist al percorso di apprendimento]** e quindi **[!UICONTROL Publish]**.
 
