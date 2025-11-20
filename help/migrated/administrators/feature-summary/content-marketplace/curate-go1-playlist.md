@@ -2,7 +2,7 @@
 description: Scopri come creare e aggiungere una sequenza di riproduzione Go1 a un percorso di apprendimento in Adobe Learning Manager. Questa guida descrive le istruzioni dettagliate e le procedure consigliate per l'integrazione di sequenze di riproduzione.
 jcr-language: en_us
 title: Curare la sequenza di riproduzione Go1 nel percorso di apprendimento Adobe Learning Manager
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Aggiungi i corsi Go1 direttamente ai percorsi di apprendimento e alle certificaz
 
 Per creare un percorso di apprendimento con corsi Go1:
 
-1. Accedi a Adobe Learning Manager come amministratore.
+1. Accedi a **Adobe Learning Manager** come amministratore.
 2. Seleziona **[!UICONTROL Percorsi di apprendimento]** nel riquadro di navigazione a sinistra.
 3. Seleziona **[!UICONTROL Aggiungi]**.
 
