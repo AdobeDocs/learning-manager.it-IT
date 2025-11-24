@@ -72,12 +72,12 @@ c. Selezionare **[!UICONTROL Stato iscrizione]**. Questo elenco a discesa contie
        * In Corso
        * Non Avviato
        * Annullata L&#39;Iscrizione
-   8. Opzioni avanzate: seleziona **[!UICONTROL Opzioni avanzate]** per scaricare le trascrizioni e includere quanto segue:
+   &#x200B;8. Opzioni avanzate: seleziona **[!UICONTROL Opzioni avanzate]** per scaricare le trascrizioni e includere quanto segue:
 
    a. Scarica le trascrizioni per gli Allievi eliminati da un account selezionando la casella di controllo **[!UICONTROL Includi Allievi eliminati]**.
 b. Scarica le informazioni a livello di modulo nella trascrizione dell’Allievo abilitando la casella di controllo **[!UICONTROL Abilita informazioni a livello di modulo]**. In questo caso, i nomi dei moduli e il tempo impiegato per ogni modulo vengono recuperati come parte della trascrizione, se questa opzione è abilitata.
 c. Scarica i dati sulle abilità e i fogli di riepilogo abilitando la casella di controllo **[!UICONTROL Includi dati sulle abilità e fogli di riepilogo]**. Per ulteriori informazioni, vedere la sezione Report Excel.
-9. È inoltre possibile selezionare le colonne da inserire nel report. In questo modo è possibile scaricare i report con valori di colonna specifici in base alle esigenze. Seleziona le colonne dal menu a discesa.
+&#x200B;9. È inoltre possibile selezionare le colonne da inserire nel report. In questo modo è possibile scaricare i report con valori di colonna specifici in base alle esigenze. Seleziona le colonne dal menu a discesa.
 Le trascrizioni vengono generate e scaricate nel computer come file .zip quando i dati sulle abilità non sono inclusi. Se la casella di controllo Dati abilità è abilitata, le trascrizioni vengono generate e scaricate come . file xlsx.
 
 ### Genera trascrizione Allievo utilizzando copia-incolla
