@@ -2,9 +2,9 @@
 description: Scopri come accedere, scaricare e interpretare il Report di feedback in Adobe Learning Manager. Informazioni sulle colonne dei report, sui tipi di domande, sulle risposte dei manager e degli allievi e su come le informazioni sul feedback supportano la valutazione dei corsi di formazione e il miglioramento continuo.
 jcr-language: en_us
 title: Report di feedback in Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '856'
 ht-degree: 8%
 
 ---
@@ -102,4 +102,6 @@ Nel report a livello di oggetto di apprendimento vengono visualizzate le seguent
 | Versione feedback | Numero di versione del modulo di feedback |
 | Lingua Allievo | Lingua selezionata dall’Allievo |
 
-
+>[!NOTE]
+>
+>Il report a livello di oggetto di apprendimento include anche le domande aggiunte al modulo di feedback. Ogni domanda viene visualizzata come intestazione di colonna e le risposte dell’Allievo alle domande vengono visualizzate nelle righe corrispondenti di seguito.
