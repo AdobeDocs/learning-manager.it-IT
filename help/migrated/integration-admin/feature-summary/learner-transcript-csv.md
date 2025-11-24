@@ -4,7 +4,7 @@ title: Interpretazione del CSV Trascrizione Allievo
 description: Interpretazione del CSV Trascrizione Allievo
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 88%
@@ -29,9 +29,9 @@ Queste informazioni possono essere utili per qualsiasi sviluppatore che intenda 
 
 ## Recupero di Trascrizione Allievo dall’interfaccia utente {#fetchlearnertranscriptfromtheuserinterface}
 
-L’allievo può scaricare la propria trascrizione da Impostazioni profilo. Per ulteriori informazioni, consulta *** [Scarica trascrizione Allievo](../../administrators/feature-summary/learner-transcripts.md)***.
+L’allievo può scaricare la propria trascrizione da Impostazioni profilo. Per ulteriori informazioni, consulta ***[Download della trascrizione Allievo](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***.
 
-Gli amministratori possono generare Trascrizioni Allievi per l’intera organizzazione, un set specifico di utenti o un set specifico di oggetti di apprendimento oppure un set specifico di utenti e oggetti di apprendimento. Possono inoltre ottenere tutti i record di apprendimento relativi a un intervallo di tempo e indicare se sono necessarie informazioni a livello di modulo (per impostazione predefinita, le informazioni a livello di modulo vengono omesse). Per ulteriori dettagli, consultare [***Scarica Trascrizioni Allievi***](../../administrators/feature-summary/learner-transcripts.md).
+Gli amministratori possono generare Trascrizioni Allievi per l’intera organizzazione, un set specifico di utenti o un set specifico di oggetti di apprendimento oppure un set specifico di utenti e oggetti di apprendimento. Possono inoltre ottenere tutti i record di apprendimento relativi a un intervallo di tempo e indicare se sono necessarie informazioni a livello di modulo (per impostazione predefinita, le informazioni a livello di modulo vengono omesse). Per ulteriori dettagli, consultare [***Scarica Trascrizioni Allievi***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 <!--Update above link?-->
 

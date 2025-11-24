@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '27340'
 ht-degree: 70%
@@ -18,7 +18,7 @@ ht-degree: 70%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
@@ -131,7 +131,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1610,7 +1610,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -1892,7 +1892,7 @@ Un Amministratore può concedere privilegi speciali a un gruppo di utenti, selez
 
 **Modifiche dei valori nelle colonne dell’ora**
 
-Nelle colonne dell’ora delle trascrizioni Allievi, i minuti sono arrotondati al valore più vicino e il valore dei secondi è 00. Per ulteriori informazioni, consulta [***Colonne dell’ora***](../administrators/feature-summary/learner-transcripts.md#datetime).
+Nelle colonne dell’ora delle trascrizioni Allievi, i minuti sono arrotondati al valore più vicino e il valore dei secondi è 00. Per ulteriori informazioni, consulta [***Colonne dell’ora***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Problemi risolti in questa versione {#Issuesfixedinthisrelease-3}
 
@@ -1988,7 +1988,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -2035,7 +2035,7 @@ Data di pubblicazione: 30 maggio 2019
 * Le competenze ora supportano l’assegnazione di valori di credito in formato decimale. Ciò consente agli autori di assegnare un valore di credito di livello decimale a un determinato corso. Per ulteriori informazioni, consulta [***Supporto decimale***](../administrators/feature-summary/skills-levels.md#decimal).
 * Creazione automatizzata di ruoli personalizzati. Per ulteriori informazioni, consulta [***Configurazione dei ruoli tramite file CSV***](../integration-admin/feature-summary/configure-role-csv-files.md).
 * Gli invii di certificazioni esterne e moduli di attività sono ora facoltativi. Ciò consente a Manager e Istruttori di valutare senza dover inviare nulla. Per ulteriori informazioni, vedere [***Invio facoltativo***](../managers/feature-summary/learning-objects.md#optional).
-* Download di trascrizioni allievi per utenti eliminati. Per ulteriori informazioni, consulta [***Trascrizioni allievi***](../administrators/feature-summary/learner-transcripts.md).
+* Download di trascrizioni allievi per utenti eliminati. Per ulteriori informazioni, consulta [***Trascrizioni allievi***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 * Supporto per le seguenti lingue:
 
    * Coreano
@@ -2612,7 +2612,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -2969,7 +2969,7 @@ Alcune delle funzioni migliorate sono elencate di seguito per riferimento.
 
 **Trascrizione Allievo**
 
-Learning Manager fornisce una funzionalità per generare trascrizioni per gli allievi Learning Manager dell’organizzazione. Per ulteriori informazioni, consulta il [contenuto della guida della funzionalità Trascrizioni allievi](../administrators/feature-summary/learner-transcripts.md).
+Learning Manager fornisce una funzionalità per generare trascrizioni per gli allievi Learning Manager dell’organizzazione. Per ulteriori informazioni, consulta il [contenuto della guida della funzionalità Trascrizioni allievi](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 **Esporta distintivo come PDF**
 
@@ -3122,7 +3122,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli Allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** utilizzata per rappresentare gruppi esterni,**&#x200B;**&#x200B;è&#x200B;**&#x200B;** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** utilizzata per rappresentare gruppi esterni,****&#x200B;è&#x200B;**** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L&#39;URL non è cliccabile nell&#39;e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** vengono modificati. Questo problema è stato risolto.

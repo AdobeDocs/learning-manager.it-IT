@@ -2,7 +2,7 @@
 description: Scopri le nuove funzioni e i miglioramenti nella versione di ottobre 2025 di Adobe Learning Manager
 jcr-language: en_us
 title: Novità della versione di ottobre 2025 di Adobe Learning Manager
-source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -176,7 +176,7 @@ Questo processo semplificato garantisce che continuino a ricevere raccomandazion
 
 Adobe Learning Manager ora dispone di un pulsante **[!UICONTROL Ripristina interessi]** nell’app Salesforce. Gli Allievi possono ora ripristinare i ruoli e le preferenze di apprendimento senza dover lasciare Salesforce o accedere all’app nativa Adobe Learning Manager.
 
-Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce[, consulta &#x200B;](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app)Consigli per la reimpostazione.
+Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce[, consulta ](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app)Consigli per la reimpostazione.
 
 ## Miglioramento del widget Calendario
 
@@ -731,7 +731,7 @@ Queste modifiche garantiscono che i completamenti contrassegnati dopo la data de
 ![I report Trascrizione Allievo mostrano le date di completamento contrassegnate (evidenziate in giallo) per il tracciamento del completamento del corso in Adobe Learning](/help/migrated/assets/mark-completion-column.png)
 _Il report Trascrizione Allievo mostra una nuova colonna in giallo che evidenzia le date di completamento individuali per ogni utente_
 
-Per ulteriori informazioni sul report Trascrizione Allievo, visualizza [Trascrizione Allievo](/help/migrated/administrators/feature-summary/learner-transcripts.md).
+Per ulteriori informazioni sul report Trascrizione Allievo, visualizza [Trascrizione Allievo](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Report utente avanzato con campi dati estesi
 
@@ -774,7 +774,7 @@ Le organizzazioni possono ora includere gli utenti sospesi (quelli con profili e
 >
 >Questo flag è disabilitato per impostazione predefinita per gli account esistenti e deve essere richiesto esplicitamente per i nuovi account.
 
-Per ulteriori informazioni, leggi l’articolo [Trascrizione Allievo](/help/migrated/administrators/feature-summary/learner-transcripts.md).
+Per ulteriori informazioni, leggi l’articolo [Trascrizione Allievo](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Report risorse formative con collegamenti di accesso diretto
 

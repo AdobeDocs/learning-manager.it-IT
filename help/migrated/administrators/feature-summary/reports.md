@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rapporti
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '7809'
-ht-degree: 52%
+source-wordcount: '7576'
+ht-degree: 53%
 
 ---
 
@@ -448,17 +448,11 @@ Come Amministratore, puoi scaricare i report per i corsi. Procedi come segue:
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
-### Trascrizioni allievi {#LearnerTranscripts-1}
+### Trascrizioni Allievi {#LearnerTranscripts-1}
 
-Adobe Learning Manager consente agli Amministratori di un’organizzazione di generare le trascrizioni associate agli Allievi. Il report Trascrizione Allievo contiene quanto segue:
+Adobe Learning Manager consente agli Amministratori di un’organizzazione di generare le trascrizioni associate agli Allievi.
 
-1. Trascrizione Allievo: dashboard attività di apprendimento
-1. Abilità: dashboard delle abilità
-1. Dashboard di conformità
-
-Le trascrizioni degli allievi nei report Excel mostrano le colonne Crediti richiesti e Crediti guadagnati in numeri decimali.
-
-Per informazioni sulla generazione di report Trascrizione Allievo e per ulteriori informazioni, consulta [Trascrizioni Allievi](learner-transcripts.md).
+Per ulteriori informazioni, vedere [Trascrizione Allievo](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Report annunci {#announcementsreports}
 
@@ -750,22 +744,7 @@ Per scaricare un report, attieniti alla seguente procedura: apri **[!UICONTROL C
 
 Come amministratore, ora puoi recuperare sia i feedback degli allievi (L1) che i feedback dei manager (L3) per i corsi di formazione selezionati per un periodo specificato.
 
-Puoi esportare i dati dall’interfaccia utente o tramite il connettore PowerBI per un’analisi più approfondita.
-
-I report dei feedback L1 e L3 consentono di scaricare un report di feedback consolidato per le risposte L1 e L3 dei corsi di formazione selezionati per un periodo di **un anno** o fino a 10 corsi di formazione selezionati per un qualsiasi intervallo di date.
-
-Accedi come Amministratore, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]**, quindi fai clic su **[!UICONTROL Report di feedback]** nell’elenco dei report.
-
-![](assets/download-feedbackreport.png)
-*Scarica report feedback*
-
-Facendo clic su Scarica dopo aver selezionato i filtri, riceverai una notifica per scaricare il report in formato CSV.
-
-Il report scaricato conterrà dettagli quali il nome e il tipo del corso di formazione, il nome dell’istanza, il nome dell’Allievo e l’indirizzo e-mail, il tipo di feedback (L1 o L3) e le date del feedback inviato per i nuovi dati.
-
-Per i dati esistenti prima dell’implementazione di questa funzione, verrà visualizzata la data di completamento LO, la domanda del feedback L1, il testo effettivo autonomo e il testo della classe in colonne diverse, le rispettive risposte del feedback L1, il nome e l’e-mail del manager, il valore del feedback L3 e la data di invio e i campi attivi.
-
-Puoi anche esportare i dati dall’interfaccia utente o in Power BI, che supporta tutti i corsi di formazione per qualsiasi intervallo di date per un’analisi più approfondita.
+Per ulteriori informazioni, vedere [Report di feedback](/help/migrated/administrators/feature-summary/reports/feedback-report.md).
 
 ### Report dei corsi di formazione {#training-report}
 
@@ -1035,7 +1014,7 @@ Il foglio di report del dashboard esportato fornisce informazioni dettagliate an
    *Assi per i report*
 
 1. Scegli l’intervallo/il criterio **[!UICONTROL asse Y]** secondario per il report dalle opzioni a discesa. Ad esempio, per un’opzione di iscrizione al programma di apprendimento, scegli uno o più stati dal menu a discesa Stati. I dati dell’intervallo secondario sono rappresentati sotto forma di grafici a linea.
-1. Scegli i criteri dell’asse X&#x200B;**&#x200B;** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
+1. Scegli i criteri dell’asse X**** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
 1. Nella sezione Intervallo di tempo, scegli l’opzione appropriata dal menu a discesa. Le opzioni disponibili sono:
 
    * Ultimo mese

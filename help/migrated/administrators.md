@@ -4,7 +4,7 @@ title: Amministratori
 description: Continua a leggere per scoprire le funzionalità e le domande frequenti relative a Learning Manager associate al ruolo di Amministratore.
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * [Temi colore e branding](administrators/feature-summary/themes.md)
 * [Integrazione Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
-* [Trascrizioni Allievi](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [Trascrizioni Allievi](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
 * [Gamification](administrators/feature-summary/gamification.md)
 * [Aggiunta di utenti/gruppi di utenti](administrators/feature-summary/add-users-user-groups.md)
 * [Distintivi](administrators/feature-summary/badges.md)
