@@ -2,7 +2,7 @@
 description: Scopri come accedere, scaricare e interpretare il Report di feedback in Adobe Learning Manager. Informazioni sulle colonne dei report, sui tipi di domande, sulle risposte dei manager e degli allievi e su come le informazioni sul feedback supportano la valutazione dei corsi di formazione e il miglioramento continuo.
 jcr-language: en_us
 title: Report di feedback in Adobe Learning Manager
-source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
+source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 8%
@@ -69,6 +69,10 @@ Di seguito sono riportate le colonne predefinite del report a livello di account
 | Data di completamento | Data in cui l’Allievo ha completato il corso di formazione |
 | Data del feedback | Data in cui l’Allievo ha inviato il feedback |
 | Lingua originale del feedback L1 | Lingua in cui l’Allievo ha inviato originariamente il feedback L1 |
+| Domanda 1 della scala Likert L3 | Misura le prestazioni dell’Allievo dopo il corso di formazione utilizzando una scala di valutazione |
+| Risposta 1 scala Likert L3 | Risposta del manager a questa domanda su scala Likert |
+| Domanda 1 del testo libero L3 | Domanda in formato testo libero aggiunta al modulo di feedback L3 per i Manager; può essere configurata come facoltativa o obbligatoria |
+| Risposta testo libero L3 1 | Risposta del manager alla domanda in formato testo libero |
 
 Le seguenti colonne vengono visualizzate nel report a livello di account in base ai quattro tipi di domande aggiunte al modulo di feedback:
 
@@ -83,10 +87,7 @@ Le seguenti colonne vengono visualizzate nel report a livello di account in base
 | Risposta Likert 1 | Risposta alla domanda Likert 1 |
 | Testo domanda 1 | Prima domanda con testo aperto nel modulo |
 | Risposta testuale 1 | Risposta dell’Allievo alla domanda testuale 1 |
-| Domanda 1 della scala Likert L3 | Misura le prestazioni dell’Allievo dopo il corso di formazione utilizzando una scala di valutazione |
-| Risposta 1 scala Likert L3 | Risposta del manager a questa domanda su scala Likert |
-| Domanda 1 del testo libero L3 | Domanda in formato testo libero aggiunta al modulo di feedback L3 per i Manager; può essere configurata come facoltativa o obbligatoria |
-| Risposta testo libero L3 1 | Risposta del manager alla domanda in formato testo libero |
+
 
 >[!NOTE]
 >
