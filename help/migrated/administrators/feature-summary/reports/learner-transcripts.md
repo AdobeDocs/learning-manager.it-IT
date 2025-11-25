@@ -2,9 +2,9 @@
 description: Le Trascrizioni allievi in Adobe Learning Manager (ALM) consentono agli Amministratori di monitorare i progressi degli allievi in corsi, moduli, percorsi di apprendimento e certificazioni. Supporta le valutazioni delle prestazioni, il monitoraggio della conformità, gli audit e le relazioni esterne. Il report offre un riepilogo completo del coinvolgimento e delle prestazioni di un Allievo.
 jcr-language: en_us
 title: Trascrizioni Allievi in Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
 workflow-type: tm+mt
-source-wordcount: '4823'
+source-wordcount: '4818'
 ht-degree: 7%
 
 ---
@@ -63,21 +63,23 @@ Le Trascrizioni Allievi in Adobe Learning Manager tengono traccia dei corsi di f
 5. Selezionare **[!UICONTROL Genera nuovo]**.
 6. Seleziona l’intervallo di date per il quale desideri che venga generata la trascrizione. Puoi modificare sia la data di inizio che quella di fine utilizzando l&#39;opzione **[!UICONTROL Scegli data]** nel menu a discesa dell&#39;intervallo di date.
 7. Selezionate una delle seguenti opzioni:
-a. Seleziona i nomi degli Allievi nella sezione **[!UICONTROL Seleziona Allievi]**. Puoi selezionare utenti o gruppi di utenti oppure copiare e incollare gli indirizzi e-mail degli Allievi per i quali desideri generare le trascrizioni. Per ulteriori informazioni, consulta la sezione [Generazione della trascrizione Allievo](#generate-learner-transcript-using-copy-paste) utilizzando il comando copia-incolla. Nel caso in cui non venga effettuata alcuna selezione, il valore predefinito è Tutti.
-b.Selezionare cataloghi specifici dall&#39;elenco a discesa **[!UICONTROL Seleziona cataloghi]**. La trascrizione viene scaricata solo per i cataloghi specificati. Nel caso in cui non venga effettuata alcuna selezione, il valore predefinito è Tutti.
-c. Selezionare **[!UICONTROL Stato iscrizione]**. Questo elenco a discesa contiene le seguenti opzioni:
+   1. Seleziona i nomi degli Allievi nella sezione **[!UICONTROL Seleziona Allievi]**. Puoi selezionare utenti o gruppi di utenti oppure copiare e incollare gli indirizzi e-mail degli Allievi per i quali desideri generare le trascrizioni. Per ulteriori informazioni, consulta la sezione [Generazione della trascrizione Allievo](#generate-learner-transcript-using-copy-paste) utilizzando il comando copia-incolla. Nel caso in cui non venga effettuata alcuna selezione, il valore predefinito è Tutti.
+   1. Seleziona cataloghi specifici dall&#39;elenco a discesa **[!UICONTROL Seleziona cataloghi]**. La trascrizione viene scaricata solo per i cataloghi specificati. Nel caso in cui non venga effettuata alcuna selezione, il valore predefinito è Tutti.
+   1. Selezionare **[!UICONTROL Stato iscrizione]**. Questo elenco a discesa contiene le seguenti opzioni:
 
-       * Seleziona tutto
-       * Completato
-       * In Corso
-       * Non Avviato
-       * Annullata L&#39;Iscrizione
-   &#x200B;8. Opzioni avanzate: seleziona **[!UICONTROL Opzioni avanzate]** per scaricare le trascrizioni e includere quanto segue:
+      * Seleziona tutto
+      * Completata
+      * In corso
+      * Non avviata
+      * Non iscritto
 
-   a. Scarica le trascrizioni per gli Allievi eliminati da un account selezionando la casella di controllo **[!UICONTROL Includi Allievi eliminati]**.
-b. Scarica le informazioni a livello di modulo nella trascrizione dell’Allievo abilitando la casella di controllo **[!UICONTROL Abilita informazioni a livello di modulo]**. In questo caso, i nomi dei moduli e il tempo impiegato per ogni modulo vengono recuperati come parte della trascrizione, se questa opzione è abilitata.
-c. Scarica i dati sulle abilità e i fogli di riepilogo abilitando la casella di controllo **[!UICONTROL Includi dati sulle abilità e fogli di riepilogo]**. Per ulteriori informazioni, vedere la sezione Report Excel.
-&#x200B;9. È inoltre possibile selezionare le colonne da inserire nel report. In questo modo è possibile scaricare i report con valori di colonna specifici in base alle esigenze. Seleziona le colonne dal menu a discesa.
+8. Opzioni avanzate: seleziona **[!UICONTROL Opzioni avanzate]** per scaricare le trascrizioni e includere quanto segue:
+
+   1. Scarica le trascrizioni per gli Allievi che sono stati eliminati da un account selezionando la casella di controllo **[!UICONTROL Includi Allievi eliminati]**.
+   1. Scarica le informazioni a livello di modulo nella trascrizione Allievo abilitando la casella di controllo **[!UICONTROL Abilita informazioni a livello di modulo]**. In questo caso, i nomi dei moduli e il tempo impiegato per ogni modulo vengono recuperati come parte della trascrizione, se questa opzione è abilitata.
+   1. Scarica i dati sulle abilità e i fogli di riepilogo abilitando la casella di controllo **[!UICONTROL Includi dati sulle abilità e fogli di riepilogo]**. Per ulteriori informazioni, vedere la sezione Report Excel.
+
+9. È inoltre possibile selezionare le colonne da inserire nel report. In questo modo è possibile scaricare i report con valori di colonna specifici in base alle esigenze. Seleziona le colonne dal menu a discesa.
 Le trascrizioni vengono generate e scaricate nel computer come file .zip quando i dati sulle abilità non sono inclusi. Se la casella di controllo Dati abilità è abilitata, le trascrizioni vengono generate e scaricate come . file xlsx.
 
 ### Genera trascrizione Allievo utilizzando copia-incolla
@@ -137,7 +139,7 @@ Le colonne seguenti consentono di acquisire l&#39;attività, l&#39;avanzamento o
 | Highest_Quiz_score_max | Il punteggio massimo del quiz per il modulo. Può essere vuoto se l’Allievo non ha tentato il quiz o se il contenuto non contiene quiz. Il punteggio massimo possibile associato al tentativo di assegnazione del punteggio più alto al quiz eseguito da un Allievo in più tentativi. Non è il punteggio più alto raggiunto dall’Allievo. Al contrario, acquisisce il punteggio massimo che era possibile nel tentativo in cui l’Allievo otteneva il punteggio più alto. |
 | Tentativi effettuati | Numero totale di tentativi compiuti dall’Allievo per questo modulo. |
 | Numero massimo di tentativi consentiti | Numero massimo di tentativi consentiti per l’Allievo per utilizzare il modulo. |
-| Commenti sui contenuti inviati | Commenti del manager di un Allievo dopo il completamento di un oggetto di apprendimento.<br>I dati dei commenti di invio forniti dall&#39;istruttore sono inclusi nel modulo di invio dei file . Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
+| Commenti sui contenuti inviati | Commenti del manager di un Allievo dopo il completamento di un oggetto di apprendimento.<br>I dati dei commenti di invio forniti dall&#39;istruttore sono inclusi nel modulo di invio dei file . Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
 | Origine completamento | Si riferisce all’origine o al metodo con cui viene registrato il completamento di un corso, percorso di apprendimento o certificazione da parte di un Allievo. Consente agli amministratori di comprendere in che modo il completamento è stato raggiunto o registrato nel sistema. La colonna indica se il completamento è stato segnalato automaticamente o se è stato facilitato da un ruolo o da una configurazione specifica. Nota: per i flussi di lavoro di partecipazione al connettore VC, quando un Allievo viene contrassegnato come automatico, nell’origine viene visualizzato &quot;SELF, &lt;e-mail_Allievo>&quot;. |
 | Commento di completamento | I commenti aggiunti dall’Amministratore quando contrassegna un Allievo come completo dopo aver completato un corso, una certificazione o un percorso di apprendimento. L’Amministratore può aggiungere i commenti di completamento per uno o più Allievi. |
 
@@ -262,7 +264,7 @@ Tieni traccia degli Allievi con date di scadenza imminenti per corsi chiave, per
 
 | Colonna | Descrizione |
 |---|---|
-| Dopo | Rappresenta il numero di Allievi che hanno acquisito un’abilità prima di un periodo definito (in giorni) oltre il quale l’abilità viene considerata obsoleta o richiede un aggiornamento. Utile per identificare gli Allievi con obiettivi di abilità prossimi o scaduti.<br>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/skills-levels"> livelli di abilità</a>. |
+| Dopo | Rappresenta il numero di Allievi che hanno acquisito un’abilità prima di un periodo definito (in giorni) oltre il quale l’abilità viene considerata obsoleta o richiede un aggiornamento. Utile per identificare gli Allievi con obiettivi di abilità prossimi o scaduti.<br>Per ulteriori informazioni, vedere <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> livelli di abilità</a>. |
 | Nome | Nome completo dell’Allievo a cui è assegnata l’abilità. |
 | Nome del manager | Nome del manager dell’Allievo responsabile della segnalazione. |
 | Titoli delle righe | Il nome dell’abilità specifica assegnata agli Allievi visualizzato in questa riga. Utilizzata come intestazione di raggruppamento per riepilogare i dati relativi alle abilità degli Allievi in ciascuna categoria di abilità. |
