@@ -2,10 +2,10 @@
 description: Scopri come accedere, scaricare e interpretare il Report di feedback in Adobe Learning Manager. Informazioni sulle colonne dei report, sui tipi di domande, sulle risposte dei manager e degli allievi e su come le informazioni sul feedback supportano la valutazione dei corsi di formazione e il miglioramento continuo.
 jcr-language: en_us
 title: Report di feedback in Adobe Learning Manager
-source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 8%
+source-wordcount: '902'
+ht-degree: 7%
 
 ---
 
@@ -92,6 +92,16 @@ Le seguenti colonne vengono visualizzate nel report a livello di account in base
 >[!NOTE]
 >
 >Il report a livello di account include anche eventuali campi attivi configurati per gli Allievi.
+
+## Scarica report a livello di oggetto di apprendimento
+
+Per scaricare il report a livello di oggetto di apprendimento:
+
+1. Accedi a Adobe Learning Manager come amministratore.
+2. Seleziona **[!UICONTROL Corsi]** dal menu di navigazione a sinistra.
+3. Seleziona un corso qualsiasi, quindi seleziona **[!UICONTROL Visualizza corso]**.
+4. Seleziona **[!UICONTROL Feedback L1]**.
+5. Seleziona **[!UICONTROL Esporta report]**, quindi seleziona **[!UICONTROL OK]**.
 
 Nel report a livello di oggetto di apprendimento vengono visualizzate le seguenti colonne:
 

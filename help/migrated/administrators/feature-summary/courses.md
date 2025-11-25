@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5832'
 ht-degree: 51%
 
 ---
@@ -355,6 +355,11 @@ Nel PDF è possibile vedere lo stesso gruppo di allievi che vede un Istruttore.
 Quando si scarica il PDF, è possibile visualizzare il fuso orario (ora UTC) utilizzato per la creazione del corso.
 
 ## Aggiungi feedback L1 e L3 {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>Se questa opzione di feedback non è visibile nel tuo account, è già stato eseguito l’aggiornamento al nuovo modulo di feedback L1. Per ulteriori informazioni, visualizzare il [modulo di feedback L1](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+
 
 Puoi aggiungere le opzioni di feedback L1 e L3 mentre crei i corsi:
 

@@ -2,9 +2,9 @@
 description: Scopri le nuove funzioni e i miglioramenti nella versione di ottobre 2025 di Adobe Learning Manager
 jcr-language: en_us
 title: Novità della versione di ottobre 2025 di Adobe Learning Manager
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '5638'
+source-wordcount: '5573'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,6 @@ La versione di ottobre 2025 di Adobe Learning Manager introduce miglioramenti si
 * API migliorate per l’analisi e la migrazione: le API nuove e migliorate offrono un migliore tracciamento delle prestazioni dei quiz, il monitoraggio dello stato della migrazione e il supporto per l’assegnazione di tag agli utenti nell’apprendimento sociale.
 
 ## Experience Builder
-
->[!IMPORTANT]
->
->Siamo lieti di annunciare che Experience Builder, lo strumento innovativo per la creazione di portali di apprendimento personalizzabili, sarà disponibile a partire dalla versione di ottobre 2025 di Adobe Learning Manager.
->
->Continua a seguirci per ricevere informazioni aggiornate in vista della data di rilascio. Ti aspettiamo per scoprire come utilizzare Experience Builder per trasformare i tuoi portali di apprendimento.
->
->Per qualsiasi domanda o informazione aggiuntiva, contatta il tuo Customer Success Manager.
 
 Experience Builder è uno strumento senza codice o a basso codice in Adobe Learning Manager che consente di creare portali di apprendimento personalizzati. Consente di progettare portali di apprendimento di marca e intuitivi senza dover possedere competenze tecniche o conoscenze approfondite in materia di codifica.
 Con Experience Builder, gli Amministratori possono creare facilmente pagine, menu e widget per offrire esperienze di apprendimento personalizzate per il proprio pubblico.
@@ -176,7 +168,7 @@ Questo processo semplificato garantisce che continuino a ricevere raccomandazion
 
 Adobe Learning Manager ora dispone di un pulsante **[!UICONTROL Ripristina interessi]** nell’app Salesforce. Gli Allievi possono ora ripristinare i ruoli e le preferenze di apprendimento senza dover lasciare Salesforce o accedere all’app nativa Adobe Learning Manager.
 
-Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce[, consulta &#x200B;](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app)Consigli per la reimpostazione.
+Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce[, consulta ](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app)Consigli per la reimpostazione.
 
 ## Miglioramento del widget Calendario
 

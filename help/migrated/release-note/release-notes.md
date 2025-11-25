@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: 093092c826b014c2d582c6cc32da08464403a1bf
 workflow-type: tm+mt
-source-wordcount: '27340'
-ht-degree: 70%
+source-wordcount: '27782'
+ht-degree: 69%
 
 ---
 
@@ -18,10 +18,62 @@ ht-degree: 70%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
+
++++Aggiornamento 103: versione di novembre 2025 di Adobe Learning Manager
+
+Data di pubblicazione: mercoledì 25 novembre 2025
+
+## Novità di questa versione
+
+### Experience Builder
+
+Experience Builder è ora disponibile per tutti gli account Adobe Learning Manager, consentendo ai clienti di creare esperienze di apprendimento con marchio completo utilizzando componenti a basso codice e layout flessibili. Experience Builder consente agli amministratori di creare portali di apprendimento personalizzati e pagine che rispondono perfettamente ai dispositivi mobili.
+
+Per gli account esistenti, l&#39;aggiornamento di Experience Builder verrà implementato automaticamente. La funzione Experience Builder non è disponibile per gli account che continuano a utilizzare la precedente interfaccia utente o l’interfaccia classica.
+
+Per ulteriori informazioni, visualizza [Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/overview.md).
+
+### Interfaccia Web per dispositivi mobili Adobe Learning Manager
+
+L’interfaccia Web mobile è stata ricostruita su un codebase moderno per offrire tempi di caricamento più veloci, tempi di risposta migliori e un’esperienza di apprendimento più intuitiva su tutti i dispositivi.
+
+L’esperienza Web per dispositivi mobili aggiornata è abilitata per tutti i nuovi account per impostazione predefinita. Anche gli account esistenti riceveranno automaticamente l’aggiornamento, tranne quando Apprendimento sociale è abilitato. In questi casi, l’esperienza mobile precedente rimarrà attiva fino a quando l’Apprendimento sociale non verrà migrato al nuovo framework compatibile.
+
+>[!NOTE]
+>
+>Apprendimento sociale non è supportato nella nuova interfaccia Web per dispositivi mobili di Adobe Learning Manager.
+
+### Miglioramenti del lettore Fluidic
+
+In precedenza, il pulsante Avanti nel lettore Fluidic non mostrava il titolo del modulo successivo, rendendo difficile per gli Allievi anticipare il passaggio successivo nel percorso di apprendimento.
+
+Con questo miglioramento, il pulsante Avanti ora include il titolo del modulo successivo, che consente agli Allievi di:
+
+* Prima di continuare, individua i contenuti disponibili.
+* Naviga tra i moduli con maggiore chiarezza e sicurezza.
+* Mantenere un contesto migliore durante l’intero flusso del corso.
+
+![](assets/fluidic-player-next.png)
+_Il lettore Fluidic ora mostra il pulsante Avanti con il titolo del modulo successivo_
+
+### Modulo di feedback L1
+
+Il feedback L1 poteva essere configurato solo all’interno dei singoli oggetti di apprendimento, il che limitava la flessibilità e impediva agli amministratori di utilizzare moduli diversi nel catalogo. Gli Amministratori possono ora creare e utilizzare più moduli di feedback L1 e ogni modulo di feedback può essere assegnato a corsi, percorsi di apprendimento e certificazioni specifici. Il modulo ora supporta diversi tipi di domande, tra cui Efficacia del corso, Server dei criteri di rete, Scala di collegamento e Testo libero.
+
+I moduli di feedback possono essere tradotti in altre lingue, mantenendo la stessa struttura delle domande in tutte le lingue. I report ora includono Nome modulo feedback e Versione modulo feedback per identificare il modulo acquisito da ogni risposta.
+
+**Casi di utilizzo**
+
+* Assegna moduli di feedback personalizzati a diversi programmi di formazione. Ad esempio, i corsi sulle vendite possono utilizzare domande incentrate su Server dei criteri di rete, mentre i corsi sulla conformità possono utilizzare domande su scala Likert ed Efficacia del corso per misurare la chiarezza e la comprensione delle politiche.
+* Usa moduli di feedback separati in base ai moduli di apprendimento. Ad esempio, tre diversi moduli per moduli combinati, moduli a ritmo personalizzato e moduli classe.
+
+Per ulteriori informazioni, visualizzare il [modulo di feedback L1](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+
++++
 
 +++Aggiornamento 102: versione di ottobre 2025 di Adobe Learning Manager
 
@@ -131,7 +183,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1610,7 +1662,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -1988,7 +2040,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli Allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -2612,7 +2664,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) per aggiornare gli utenti in un&#39;applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -3122,7 +3174,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli Allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** utilizzata per rappresentare gruppi esterni,**&#x200B;**&#x200B;è&#x200B;**&#x200B;** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** utilizzata per rappresentare gruppi esterni,****&#x200B;è&#x200B;**** rimossa dal corpo e dal titolo dei modelli di posta elettronica. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L&#39;URL non è cliccabile nell&#39;e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** vengono modificati. Questo problema è stato risolto.
