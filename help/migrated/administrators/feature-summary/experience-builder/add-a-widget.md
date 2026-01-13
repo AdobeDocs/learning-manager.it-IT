@@ -2,9 +2,9 @@
 title: Aggiungere e configurare i widget in Experience Builder
 description: Scopri come aggiungere, personalizzare e configurare vari widget in Experience Builder in Adobe Learning Manager. Questa guida descrive i widget di uso comune come calendari, categorie, stato di conformità, corsi e percorsi, gamification, contenuti HTML, IFrames, apprendimento sociale e altro ancora.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Gli Amministratori aggiungono il widget Categorie a una pagina per mostrare le o
 
 Per ulteriori informazioni sulla configurazione di cataloghi e consigli, consultate gli articoli [Cataloghi](/help/migrated/administrators/feature-summary/catalogs.md) e [Recommendations](/help/migrated/recommendations-adobe-learning-manager.md).
 
+<b>Nota</b>: nel widget Categorie, quando è selezionato Catalogo, l&#39;elenco viene ordinato in base alla data di creazione per impostazione predefinita. Vengono visualizzati per primi i cataloghi creati più di recente.
+
 ### Aggiungere un widget di categoria
 
 In una società di servizi finanziari, team diversi spesso hanno bisogno di accedere a corsi di formazione specifici per ogni ruolo. Il widget Categorie consente di organizzare i contenuti di apprendimento in riquadri chiari e cliccabili, rendendo più facile per i team di vendita e CSM trovare rapidamente ciò di cui hanno bisogno.
@@ -85,8 +87,8 @@ Per configurare il widget Categorie:
 9. Digitare un **[!UICONTROL titolo del widget]** e una **[!UICONTROL descrizione del widget]**.
 10. Cercare e scegliere un catalogo dall&#39;**[!UICONTROL origine categoria]**.
 
-    ![](assets/configure-calendar-widget.png)
-    _Configurare le opzioni del widget Categorie per impostare il titolo e la descrizione del widget e selezionare l&#39;origine della categoria_
+   ![](assets/configure-calendar-widget.png)
+   _Configurare le opzioni del widget Categorie per impostare il titolo e la descrizione del widget e selezionare l&#39;origine della categoria_
 
 11. Seleziona **[!UICONTROL Aggiungi widget]**.
 
@@ -153,7 +155,7 @@ Per configurare il widget Corsi e percorsi:
 
 ![](assets/configure-course-paths.png)
 _Widget Corsi e percorsi in cui gli amministratori impostano il titolo e la descrizione del widget e selezionano Corsi o Percorsi di apprendimento da visualizzare come schede interattive_
-&#x200B;11. Seleziona **[!UICONTROL Aggiungi widget]**.
+11. Seleziona **[!UICONTROL Aggiungi widget]**.
 
 Il widget Corsi e percorsi verrà aggiunto alla pagina. Gli amministratori possono aggiungere altri widget e pubblicare la pagina.
 
@@ -182,14 +184,14 @@ Per configurare il widget Casella dei contenuti:
 9. Digitare il testo nell&#39;**[!UICONTROL etichetta del pulsante di azione]** e fornire un collegamento.
 10. Selezionate una delle opzioni per Riempimento sfondo:
 
-    * **[!UICONTROL Colore]**: selezionare il colore dal selettore colore o digitare il codice colore nel campo di testo.
-    * **[!UICONTROL Immagine]**: individua e carica un&#39;immagine.
+   * **[!UICONTROL Colore]**: selezionare il colore dal selettore colore o digitare il codice colore nel campo di testo.
+   * **[!UICONTROL Immagine]**: individua e carica un&#39;immagine.
 
 11. Regolare l&#39;altezza della casella utilizzando l&#39;opzione **[!UICONTROL Altezza casella contenuto]**.
 12. Selezionate le opzioni di formattazione del testo.
 
-    ![](assets/configure-content-box.png)
-    _Schermata di personalizzazione del widget Casella dei contenuti, in cui gli amministratori possono immettere un titolo, una descrizione, un&#39;etichetta del pulsante di azione e un collegamento_
+   ![](assets/configure-content-box.png)
+   _Schermata di personalizzazione del widget Casella dei contenuti, in cui gli amministratori possono immettere un titolo, una descrizione, un&#39;etichetta del pulsante di azione e un collegamento_
 
 13. Seleziona **[!UICONTROL Aggiungi widget]**.
 
