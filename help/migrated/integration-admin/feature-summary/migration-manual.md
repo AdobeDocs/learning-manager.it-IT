@@ -3,10 +3,10 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
+source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
 workflow-type: tm+mt
-source-wordcount: '4438'
-ht-degree: 59%
+source-wordcount: '4483'
+ht-degree: 58%
 
 ---
 
@@ -27,6 +27,10 @@ A partire da oggi, gli Amministratori di un’organizzazione possono accedere al
 ## Processo di migrazione {#apidescription}
 
 In questa sezione vengono illustrati i prerequisiti per la migrazione, le fasi principali del processo di migrazione, gli sprint di migrazione, le specifiche, i passaggi relativi alla migrazione di dati e contenuti:
+
+### Importante avviso sulla migrazione
+
+Tenere presente che le tempistiche della migrazione dipendono in larga misura dalla qualità e dalle dimensioni dei dati. Se hai bisogno di migrazione durante l&#39;onboarding, pianifica questa attività con largo anticipo e collabora strettamente con il team di onboarding di Adobe Learning Manager per evitare ritardi.
 
 ### Prerequisiti {#prerequisites}
 
