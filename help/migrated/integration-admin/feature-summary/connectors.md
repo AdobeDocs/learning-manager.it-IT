@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
+source-git-commit: 795f465a0a2a96a8f1b5bc8b120736c25b412303
 workflow-type: tm+mt
 source-wordcount: '15789'
 ht-degree: 59%
@@ -2145,7 +2145,7 @@ Quando un Allievo fa clic su Corso, Certificato o Percorso di apprendimento, vie
 
 ### Esperienza senza accesso {#non-logged-in-experience}
 
-L’esperienza senza accesso consente di creare un’esperienza in tempo reale per gli utenti che non hanno effettuato l’accesso. Ad esempio, un&#39;esperienza senza accesso funge da pagina di destinazione per campagne di marketing per incoraggiare l&#39;iscrizione.
+L’esperienza senza accesso consente di creare esperienze di apprendimento per utenti che non hanno effettuato l’accesso. Ad esempio, un&#39;esperienza senza accesso funge da pagina di destinazione per campagne di marketing per incoraggiare l&#39;iscrizione.
 
 L&#39;esperienza senza accesso in Adobe Learning Manager può essere configurata utilizzando il connettore **[!UICONTROL Accesso ai dati di formazione]**. Il connettore offre le seguenti offerte:
 
@@ -2235,7 +2235,7 @@ Dopo che un Autore ha impostato i prezzi per vari corsi, percorsi di apprendimen
 
 >[!NOTE]
 >
->Nella versione di marzo 2024 di Adobe Learning Manager è stato introdotto il supporto per [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=it).
+>Nella versione di marzo 2024 di Adobe Learning Manager è stato introdotto il supporto per [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Fai clic su **[!UICONTROL Esporta metadati di formazione]** > **[!UICONTROL Su richiesta]**.
