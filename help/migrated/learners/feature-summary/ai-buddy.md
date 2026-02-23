@@ -2,17 +2,22 @@
 description: L’Assistente all’intelligenza artificiale degli Allievi (Beta) è un compagno di chat basato su GenAI in Adobe Learning Manager che aiuta gli Allievi a ottenere risposte rapide e precise dai contenuti di apprendimento assegnati. Tramite le query in linguaggio naturale, gli Allievi possono recuperare immediatamente risposte mirate con citazioni chiare, semplificando la ricerca delle informazioni corrette, la verifica delle fonti e l’apprendimento in modo efficiente senza dover cercare nell’intero corso.
 jcr-language: en_us
 title: Assistente AI Allievo (Beta) in Adobe Learning Manager
-source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
+exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
+source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
 
-
 # Introduzione
 
 L’Assistente AI (Beta) per gli Allievi consente loro di trovare rapidamente le risposte dai contenuti di apprendimento assegnati senza sfogliare l’intero corso. Puoi porre domande in un linguaggio semplice e ricevere risposte accurate e mirate con collegamenti sorgente al contenuto del corso pertinente.
+
+>[!IMPORTANT]
+>
+>L’Assistente all’intelligenza artificiale degli Allievi è attualmente in versione beta e verrà rilasciato tramite un rollout graduale. L&#39;accesso può variare a seconda dell&#39;utente.
+
 
 ## Cos&#39;è l&#39;Assistente AI?
 
@@ -173,15 +178,13 @@ L’Assistente all’intelligenza artificiale dell’Allievo risponde alle doman
 
 * L’assistente utilizza contenuti dei cataloghi interni che l’amministratore abilita per l’assistente di intelligenza artificiale dell’Allievo.
 
-* Se non hai accesso a un corso, una risorsa formativa o un oggetto di apprendimento, l’assistente non lo utilizza per generare risposte.
-
 * Durante il recupero delle informazioni, l&#39;assistente rispetta il ruolo, l&#39;appartenenza ai gruppi e le autorizzazioni del catalogo.
 
 ### Quali contenuti non utilizza l&#39;Assistente AI
 
 L’Assistente all’intelligenza artificiale dell’Allievo limita le risposte all’ambito di apprendimento assegnato.
 
-* Non utilizza contenuti da cataloghi condivisi, acquisiti, esterni o altri cataloghi non interni.
+* Non utilizza contenuti di cataloghi predefiniti, condivisi, acquisiti, esterni o altri cataloghi non interni.
 
 * Non recupera informazioni da librerie di contenuti di terze parti come LinkedIn Learning o Go1.
 
