@@ -3,25 +3,25 @@ description: L’Assistente all’intelligenza artificiale degli Allievi (Beta) 
 jcr-language: en_us
 title: Assistente AI Allievo (Beta) in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
+source-git-commit: e009abe66258700cf28d3cf212a2d086689e179c
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
 
-# Introduzione
+# Allievo assistente
 
-L’Assistente AI (Beta) per gli Allievi consente loro di trovare rapidamente le risposte dai contenuti di apprendimento assegnati senza sfogliare l’intero corso. Puoi porre domande in un linguaggio semplice e ricevere risposte accurate e mirate con collegamenti sorgente al contenuto del corso pertinente.
+L’Assistente all’intelligenza artificiale degli Allievi (Beta) consente agli Allievi di trovare rapidamente le risposte dai contenuti di apprendimento assegnati senza sfogliare l’intero corso. Puoi porre domande in un linguaggio semplice e ricevere risposte accurate e mirate con collegamenti sorgente al contenuto del corso pertinente.
 
 >[!IMPORTANT]
 >
 >L’Assistente all’intelligenza artificiale degli Allievi è attualmente in versione beta e verrà rilasciato tramite un rollout graduale. L&#39;accesso può variare a seconda dell&#39;utente.
 
 
-## Cos&#39;è l&#39;Assistente AI?
+## Che cos’è l’Assistente all’intelligenza artificiale degli Allievi?
 
-AI Assistant è un compagno di chat basato su GenAI in Adobe Learning Manager che fornisce risposte rapide e precise alle domande degli Allievi utilizzando i contenuti di apprendimento affidabili disponibili in Adobe Learning Manager. Include anche le citazioni, in modo che gli Allievi conoscano sempre la fonte delle informazioni.
+L’Assistente all’intelligenza artificiale degli allievi è un compagno di chat basato su GenAI in Adobe Learning Manager che fornisce risposte rapide e precise alle domande degli allievi utilizzando i contenuti di apprendimento affidabili disponibili in Adobe Learning Manager. Include anche le citazioni, in modo che gli Allievi conoscano sempre la fonte delle informazioni.
 
 ## Perché usarlo?
 
