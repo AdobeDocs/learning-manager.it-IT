@@ -1,11 +1,11 @@
 ---
-description: Assistente IA (Beta) per gli Allievi è un compagno di chat basato su GenAI in Adobe Learning Manager che aiuta gli Allievi a ottenere risposte rapide e precise dai contenuti di apprendimento assegnati. Tramite le query in linguaggio naturale, gli Allievi possono recuperare immediatamente risposte mirate con citazioni chiare, semplificando la ricerca delle informazioni corrette, la verifica delle fonti e l’apprendimento in modo efficiente senza dover cercare nell’intero corso.
+description: L’Assistente AI (Beta) per gli Allievi è un compagno di chat basato su GenAI in Adobe Learning Manager che aiuta gli Allievi a ottenere risposte rapide e precise dai contenuti di apprendimento assegnati. Tramite le query in linguaggio naturale, gli Allievi possono recuperare immediatamente risposte mirate con citazioni chiare, semplificando la ricerca delle informazioni corrette, la verifica delle fonti e l’apprendimento in modo efficiente senza dover cercare nell’intero corso.
 jcr-language: en_us
-title: Assistente all’intelligenza artificiale (Beta) per gli Allievi in Adobe Learning Manager
+title: Assistente all’intelligenza artificiale per gli Allievi in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 64765bdd9f364267f7c7f5d23a03cc576b875be3
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
