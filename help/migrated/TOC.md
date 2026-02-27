@@ -2,10 +2,10 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 70%
+source-wordcount: '784'
+ht-degree: 69%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 70%
    * [Note sulla versione](release-note/release-notes.md)
    * [Requisiti di sistema](system-requirements.md)
    * [App Adobe Learning Manager per Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
-   * [Conformità di Learning Manager al GDPR](kb/prime-gdpr.md)
+   * [Conformità di Adobe Learning Manager al GDPR](kb/prime-gdpr.md)
+  <!-- * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md) -->
    * [Accessibilità in Learning Manager](accessibility-learning-manager.md)
    * [Supporto per il dominio personalizzato](custom-domain.md)
    * [Transizione dall’FTP di Adobe Manager](transition-from-ftp-manager.md)
@@ -163,7 +164,7 @@ ht-degree: 70%
    * [Notifiche per l’utente](learners/feature-summary/user-notifications.md)
    * [Annunci](learners/feature-summary/announcements.md)
    * [Gestione delle liste di attesa e di frequenza](learners/feature-summary/waitlist-attendance-management.md)
-   * [Assistente AI per gli Allievi](learners/feature-summary/ai-buddy.md)
+   * [Assistente AI per gli Allievi](learners/feature-summary/learner-ai-assistant.md)
    * [Ricerca basata sull&#39;intelligenza artificiale in Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [App Learning Manager per Salesforce](learners/feature-summary/sfdc-app.md)
    * [Integrazione Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
@@ -176,7 +177,7 @@ ht-degree: 70%
 * Manager {#manager}
    * [Accesso utente](managers/feature-summary/user-login.md)
    * [Dashboard per i Manager](managers/feature-summary/manager-dashboard.md)
-   * [Rapporti](managers/feature-summary/reports.md)
+   * [Report](managers/feature-summary/reports.md)
    * [Oggetti di apprendimento](managers/feature-summary/learning-objects.md)
    * [Notifiche per l’utente](managers/feature-summary/user-notifications.md)
    * [Trascrizioni Allievi](managers/feature-summary/learner-transcripts.md)
