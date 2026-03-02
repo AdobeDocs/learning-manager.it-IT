@@ -27,7 +27,7 @@ La tabella seguente mappa i livelli dell&#39;account FedRAMP ai ruoli specifici 
 
 Per gestire l&#39;accesso amministrativo, Adobe Learning Manager utilizza un modello di controllo di accesso basato sui ruoli. I ruoli amministrativi vengono assegnati solo da amministratori autorizzati.
 
-Per ulteriori informazioni, vedere [Ruoli personalizzati in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+Per ulteriori informazioni, vedere [Ruoli personalizzati in Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/custom-role)
 
 ## Tipi di identità e autenticazione consigliata
 
@@ -41,12 +41,12 @@ Adobe Admin Console supporta tre tipi di identità per gli account amministrator
 
 Per ulteriori informazioni, consultate i seguenti riferimenti:
 
-* [Tipi di identità](https://helpx.adobe.com/enterprise/using/admin-console.html)
-* [Autenticazione utente e password sicure](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
+* [Tipi di identità](https://helpx.adobe.com/it/enterprise/using/admin-console.html)
+* [Autenticazione utente e password sicure](https://helpx.adobe.com/it/enterprise/using/authentication-settings.html)
 
 ## Assegnazione dei ruoli e controllo di accesso
 
-L&#39;accesso agli account amministrativi in Adobe Learning Manager è controllato tramite l&#39;assegnazione esplicita del [ruolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) da un amministratore esistente. Le caratteristiche principali di un accesso amministrativo sicuro includono:
+L&#39;accesso agli account amministrativi in Adobe Learning Manager è controllato tramite l&#39;assegnazione esplicita del [ruolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/user-management/add-users-user-groups) da un amministratore esistente. Le caratteristiche principali di un accesso amministrativo sicuro includono:
 
 * I ruoli amministrativi vengono assegnati solo da amministratori autorizzati.
 * L&#39;accesso è basato sui ruoli e ha un ambito in base alle autorizzazioni assegnate.
@@ -69,12 +69,12 @@ Per applicare 2FA in Adobe Admin Console:
 >
 >L’Adobe consiglia di applicare 2FA e di non lasciarla facoltativa agli utenti. L’applicazione di 2FA può richiedere fino a 24 ore. Per gli utenti di Federated ID, applica l&#39;autenticazione basata su conoscenza al provider di identità.
 
-Per ulteriori informazioni, vedere [Autenticazione sicura dell&#39;utente](https://helpx.adobe.com/enterprise/using/authentication-settings.html).
+Per ulteriori informazioni, vedere [Autenticazione sicura dell&#39;utente](https://helpx.adobe.com/it/enterprise/using/authentication-settings.html).
 
 
 ## Accedi come amministratore
 
-ALM [Gli amministratori](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-admin) accedono direttamente alla piattaforma ALM utilizzando le credenziali dell&#39;organizzazione gestite tramite l&#39;Admin Console.
+ALM [Gli amministratori](https://experienceleague.adobe.com/it/docs/learning-manager/using/get-started/getting-started-admin) accedono direttamente alla piattaforma ALM utilizzando le credenziali dell&#39;organizzazione gestite tramite l&#39;Admin Console.
 
 ### Assegnare un ruolo di amministratore
 
@@ -89,7 +89,7 @@ Per assegnare il ruolo Amministratore in ALM:
 
 I ruoli amministrativi personalizzati consentono ai clienti di delegare le attività amministrative mantenendo al contempo il controllo centralizzato sui privilegi a livello di account. Gli amministratori personalizzati possono essere assegnati a specifici gruppi di utenti o cataloghi.
 
-Per ulteriori informazioni, vedere [Aggiungere utenti e gruppi di utenti](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups).
+Per ulteriori informazioni, vedere [Aggiungere utenti e gruppi di utenti](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/user-management/add-users-user-groups).
 
 ## Configurazione dei metodi di accesso e di SSO
 
@@ -100,7 +100,7 @@ Gli amministratori ALM controllano i metodi di accesso disponibili per tutti gli
 
 L’Adobe consiglia di utilizzare Federated ID/SAML 2.0 SSO come metodo di accesso per tutti gli utenti interni. Ciò garantisce il pieno controllo dell&#39;autenticazione da parte del provider di identità dell&#39;organizzazione, consentendo l&#39;applicazione centralizzata di MFA e la revoca immediata dell&#39;account alla partenza dell&#39;utente.
 
-Per ulteriori informazioni, vedere [Impostazioni](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/settings).
+Per ulteriori informazioni, vedere [Impostazioni](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/settings).
 
 ## Impostazioni predefinite sicure consigliate per il provisioning
 
@@ -140,7 +140,7 @@ Gli account amministrativi vengono utilizzati per eseguire attività operative q
 
 Gli amministratori devono seguire le politiche di controllo degli accessi interni e di gestione delle modifiche della propria organizzazione durante l&#39;esecuzione di azioni amministrative.
 
-Consulta [Domande frequenti per gli amministratori di Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
+Consulta [Domande frequenti per gli amministratori di Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
 
 
 ### Gerarchia e delega dei ruoli
@@ -161,7 +161,7 @@ Le organizzazioni che gestiscono account di amministratore ALM devono seguire le
 * **Accesso minimo in piedi**: evitare di utilizzare account di amministratore di primo livello per le attività di routine. Riserva l&#39;accesso completo come amministratore per le attività che lo richiedono.
 * **Protezione della sessione**: configurare Durata massima della sessione e Tempo massimo di inattività in Admin Console > Impostazioni > Impostazioni avanzate per limitare l&#39;esposizione da sessioni automatiche.
 
-Per ulteriori informazioni, vedere [Panoramica di Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
+Per ulteriori informazioni, vedere [Panoramica di Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html).
 
 ### Gestire gli account utente sotto il controllo dell’amministratore
 
@@ -174,8 +174,8 @@ Gli amministratori ALM gestiscono gli account utente interni ed esterni. Le oper
 
 Per ulteriori informazioni, consultate i seguenti riferimenti:
 
-* [Aggiungere utenti e gruppi di utenti](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)
-* [Rimuovere utenti](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)
+* [Aggiungere utenti e gruppi di utenti](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/user-management/add-users-user-groups)
+* [Rimuovere utenti](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/purge-users)
 
 ## Dismissione dei conti amministrativi
 
@@ -203,8 +203,8 @@ Quando un amministratore di sistema lascia l&#39;organizzazione o modifica i ruo
 
 Per ulteriori informazioni, consultate i seguenti riferimenti:
 
-* [Creazione, aggiornamento o rimozione di account utente nell&#39;Admin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
-* [Come lasciare l&#39;account di proprietà dell&#39;organizzazione](https://helpx.adobe.com/enterprise/using/leave-organization.html)
+* [Creazione, aggiornamento o rimozione di account utente nell&#39;Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html)
+* [Come lasciare l&#39;account di proprietà dell&#39;organizzazione](https://helpx.adobe.com/it/enterprise/using/leave-organization.html)
 
 ### Rimuovi il ruolo di amministratore ALM
 
@@ -217,7 +217,7 @@ Per revocare l&#39;accesso come Amministratore ALM senza eliminare l&#39;account
 
 L’utente torna al ruolo di Allievo. La cronologia di apprendimento e le iscrizioni ai corsi vengono mantenute.
 
-Per ulteriori informazioni, vedere [Aggiungere utenti e gruppi di utenti](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups).
+Per ulteriori informazioni, vedere [Aggiungere utenti e gruppi di utenti](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/user-management/add-users-user-groups).
 
 ### Eliminare ed eliminare gli utenti
 
@@ -226,7 +226,7 @@ Quando un utente esce completamente dall&#39;organizzazione e il suo account dev
 * Elimina l’utente: Utenti > Interno > seleziona utente > Azioni > Elimina utente. Questo disattiva l’account e rimuove l’accesso attivo.
 * Svuota l’utente: dopo l’eliminazione, accedi a Utenti > Pulizia utente, seleziona il mese di eliminazione, seleziona l’utente e scegli Azioni > Svuota utente. La rimozione definitiva rimuove tutti i record utente.
 
-Per ulteriori informazioni, vedere [Rimuovi utenti](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users).
+Per ulteriori informazioni, vedere [Rimuovi utenti](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/purge-users).
 
 
 ## Sicurezza e responsabilità condivisa
@@ -236,7 +236,7 @@ Adobe Learning Manager opera secondo un modello di responsabilità condivisa:
 * Adobe è responsabile della protezione della piattaforma e dell&#39;infrastruttura ALM sottostante.
 * I clienti sono responsabili della gestione dell&#39;accesso amministrativo, dell&#39;assegnazione dei ruoli e delle attività del ciclo di vita degli utenti all&#39;interno del proprio account ALM.
 
-Ulteriori informazioni sulle procedure di sicurezza di Adobe Learning Manager sono disponibili in [Cenni preliminari sulla sicurezza di Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+Ulteriori informazioni sulle procedure di sicurezza di Adobe Learning Manager sono disponibili in [Cenni preliminari sulla sicurezza di Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=it)
 
 ## Manutenzione dei documenti
 
