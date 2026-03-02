@@ -94,7 +94,7 @@ Adobe Learning Manager supporta l&#39;esportazione di dati di configurazione rel
 
 * L’API dei processi ALM supporta la generazione su richiesta di report utente (incluse le assegnazioni di ruoli) in formato CSV. Questi possono essere pianificati e utilizzati da strumenti di conformità esterni o SIEM.
 
-Per ulteriori informazioni, vedere [Manuale per sviluppatori di applicazioni di Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual).
+Per ulteriori informazioni, vedere [Manuale per sviluppatori di applicazioni di Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/developer-manual).
 
 ## Adobe Learning Manager fornisce un’API tramite la quale è possibile visualizzare e regolare a livello di programmazione le impostazioni relative alla sicurezza?
 
