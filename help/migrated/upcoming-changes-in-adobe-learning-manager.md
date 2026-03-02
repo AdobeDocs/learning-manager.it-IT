@@ -2,10 +2,10 @@
 title: Novità della versione di aprile 2026 di Adobe Learning Manager
 description: Scopri le nuove funzioni, i miglioramenti e gli aggiornamenti importanti nella versione di aprile 2026 di Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: bff4227db5cb1d419d66c59688989de1406b0458
+source-git-commit: 4f97f09df89e2fc38f013ce817f6d0fee38773d0
 workflow-type: tm+mt
-source-wordcount: '7458'
-ht-degree: 1%
+source-wordcount: '8124'
+ht-degree: 0%
 
 ---
 
@@ -564,7 +564,7 @@ Il miglioramento introduce il supporto multilingue per le domande sugli elenchi 
 
 In Adobe Learning Manager oggi:
 
-* Tutti i moduli rivolti agli Allievi (SCORM, PDF, HTML, ecc.) possono essere forniti in più lingue di contenuto, consentendo agli Allievi di scegliere la lingua preferita.
+* Tutti i moduli rivolti agli Allievi (SCORM, PDF, HTML, ecc.) possono essere disponibili in più lingue dei contenuti, consentendo agli allievi di scegliere la lingua preferita.
 
 * In un modulo di elenco di controllo, i revisori (istruttori/manager) valutano gli allievi in base alle domande definite in tale elenco di controllo.
 
@@ -839,7 +839,7 @@ Questo miglioramento migliora l’esperienza di riproduzione dei contenuti Adobe
 
 * Per diapositive non video:
 
-   * Visualizza i controlli di spostamento tra diapositive (diapositiva successiva/precedente, ecc.) anziché una barra temporale non funzionale.
+   * Visualizza i controlli di spostamento tra le diapositive (diapositiva successiva/precedente, ecc.) anziché una barra temporale non funzionale.
 
       * In questo modo si evita di mostrare controlli irrilevanti o non funzionanti su alcuni tipi di diapositive.
 
@@ -936,7 +936,7 @@ Il tempo di inattività viene sottratto, in modo da registrare solo il tempo di 
 | **Captivate** | Intervallo basato su diapositive | Impossibile rilevare lo stato inattivo |
 | **nell’istruzione xAPI** | Scheda attiva | Tabulazione inattiva |
 | **HTML** | Tempo di apertura del lettore con scheda attiva | Tabulazione inattiva |
-| **Produttore/consumatore LTI** | Se il contenuto LTI viene riprodotto all&#39;interno del lettore di ALM (ovvero, ALM utilizza il contenuto LTI ospitato su un altro LMS che funge da produttore), viene applicata questa logica relativa al tempo impiegato.<br><br>Tuttavia, se il contenuto viene riprodotto al di fuori dell&#39;LMS (ovvero, se il contenuto è ospitato in ALM, ALM è il produttore, ma la riproduzione avviene in un lettore esterno), questa parte della logica di calcolo del tempo non si applica.  <br>**Nota**: consumer LTI non supportato in Adobe Learning Manager. | Tabulazione inattiva |
+| **Produttore/consumatore LTI** | Se il contenuto LTI viene riprodotto all&#39;interno del lettore di ALM (ovvero, ALM utilizza contenuto LTI ospitato su un altro LMS che funge da produttore), viene applicata questa logica relativa al tempo impiegato.<br><br>Tuttavia, se il contenuto viene riprodotto al di fuori dell&#39;LMS (ovvero, il contenuto è ospitato in ALM, ALM è il produttore, ma la riproduzione avviene in un lettore esterno), questa parte della logica di calcolo del tempo non si applica.  <br>**Nota**: consumer LTI non supportato in Adobe Learning Manager. | Tabulazione inattiva |
 
 **Nota**:
 
@@ -1012,9 +1012,66 @@ Ciò è previsto nei casi in cui il tempo di inattività ha avuto risultati gonf
 
 Nessuno; la modifica è automatica.
 
+## Aggiornamento ai report Trascrizione Allievo per gli Amministratori
 
+Stiamo aggiornando i report Trascrizione Allievo (LT) per gli Amministratori al fine di supportare meglio le valutazioni basate su elenchi di controllo e il feedback dei revisori.
 
+## Cosa cambia?
 
+### &#x200B;1. Rinomina colonna in Trascrizione apprendimento Amministratore
+
+Colonna **Commento invio** esistente in Admin Learning
+La trascrizione sarà:
+
+1. **Rinominato in:** `Reviewer's remarks`
+
+### Dati visualizzati in questa colonna:
+
+* **Per i moduli di invio:**
+La colonna continuerà a visualizzare il commento di invio (nessuna modifica del comportamento).
+
+* **Per i moduli dell&#39;elenco di controllo:**
+Nella colonna verrà visualizzato il commento di valutazione (le note del revisore dell&#39;elenco di controllo).
+
+Questa modifica si applica a tutte le origini Admin LT:
+
+* LT scaricato dall’interfaccia utente di amministrazione
+* LT ottenuto tramite l’API dei processi
+* LT generati tramite connettori
+
+Dopo questa modifica, la stessa colonna riporterà: - Commenti di invio per i moduli di invio
+
+* Commenti di valutazione per i moduli dell’elenco di controllo
+
+Sotto il nuovo nome di intestazione **Note del revisore**.
+
+### &#x200B;2. Nuova colonna nelle esportazioni delle trascrizioni di apprendimento basate sul connettore
+
+Per le trascrizioni di apprendimento esportate dal connettore:
+
+* Alla fine del report verrà aggiunta una nuova colonna denominata **Note del revisore**.
+* Questa colonna conterrà i commenti del revisore, in linea con il comportamento descritto in precedenza:
+   * Commenti di invio per i moduli di invio
+   * Commenti di valutazione per i moduli dell’elenco di controllo
+
+## Impatto su integrazioni e automazioni esistenti
+
+Se utilizzi i report Trascrizione Allievo in integrazioni personalizzate, automazioni o strumenti di reporting esterni, verifica i seguenti scenari:
+
+| Scenario | Impatto | Azione richiesta |
+|----------|--------|----------------|
+| I campi in Admin LT vengono identificati in base al nome della colonna (ad esempio, &quot;Commento inoltro&quot;) | L&#39;intestazione di colonna verrà modificata in Note del revisore. | Sì. Aggiornare le mappature o la logica che fanno riferimento al commento Invio per utilizzare le osservazioni del revisore. |
+| I campi in Admin LT vengono identificati solo in base alla posizione delle colonne (basata su indice) | La posizione di questa colonna rimane la stessa in Admin LT. | Di solito nessuna azione. Se la logica non dipende dal testo dell&#39;intestazione, non è necessaria alcuna modifica per Admin LT, è sufficiente modificare il nome della colonna se attualmente viene utilizzata la colonna &quot;Commenti di invio&quot;. |
+| Si utilizza LT esportato dal connettore e si basa su un numero di colonne fisso o su una posizione specifica dell&#39;ultima colonna | Alla fine del report viene aggiunta una nuova colonna. | Sì. Regolare la logica di analisi o convalida in modo da tenere conto di una colonna aggiuntiva alla fine del file. |
+| Usa LT esportato dal connettore e mappa per nome colonna | Sarà disponibile una nuova colonna Commenti del revisore. | Facoltativo. Non è richiesta alcuna modifica a meno che non si desideri utilizzare i nuovi dati dei commenti del revisore/elenco di controllo. |
+
+**Operazioni da eseguire**
+
+* Esamina gli script, i processi ETL, i dashboard o le integrazioni che utilizzano i report Trascrizione Allievo.
+* Se si fa riferimento al vecchio nome di colonna _Commento invio_, aggiornare la configurazione o il codice in modo da utilizzare il nuovo nome di colonna Commenti del revisore.
+* Se si utilizzano esportazioni LT basate su connettore e si presuppone un numero fisso di colonne o un&#39;ultima colonna fissa, aggiornare la logica per gestire una colonna aggiuntiva alla fine dell&#39;esportazione.
+
+Se l&#39;implementazione corrente si basa esclusivamente sulle posizioni delle colonne in Admin LT e non convalida o dipende dal testo dell&#39;intestazione di colonna, non è richiesta alcuna modifica per Admin LT stessa. Solo le esportazioni di connettori richiedono attenzione quando si utilizza un layout fisso.
 
 
 
@@ -2710,4 +2767,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
