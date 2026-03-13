@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Installazione del pacchetto Salesforce
-description: Learning Manager offre un pacchetto dell’app Salesforce. Una volta installato e configurato in SFDC, gli addetti alle vendite possono svolgere le proprie attività di formazione all’interno del portale SFDC. Questa app consente agli utenti di SFDC di esplorare nuovi corsi di formazione, visualizzare i consigli e consultarli direttamente all’interno del portale SFDC. Gli utenti ricevono anche gli annunci inviati dagli Amministratori sotto forma di masthead direttamente nell’app all’interno del portale SFDC.
+description: Learning Manager offre un pacchetto dell’app Salesforce. Una volta installato e configurato in SFDC, gli addetti alle vendite possono svolgere le proprie attività di formazione all’interno del portale SFDC. Questa app consente agli utenti di SFDC di esplorare nuovi corsi di formazione, visualizzare i consigli e consultarli direttamente all’interno del portale SFDC. Gli utenti ricevono inoltre gli annunci inviati dagli Amministratori sotto forma di masthead direttamente nell’app all’interno del portale SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: d998e8f55c64a47de3d6171c0e2a82070021c98f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 47%
+source-wordcount: '1065'
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 47%
 
 ## Panoramica
 
-Learning Manager offre un pacchetto dell’app Salesforce. Una volta installato e configurato in SFDC, gli addetti alle vendite possono svolgere le proprie attività di formazione all’interno del portale SFDC. Questa app consente agli utenti di SFDC di esplorare nuovi corsi di formazione, visualizzare i consigli e consultarli direttamente all’interno del portale SFDC. Gli utenti ricevono anche gli annunci inviati dagli Amministratori sotto forma di masthead direttamente nell’app all’interno del portale SFDC.
+Learning Manager offre un pacchetto dell’app Salesforce. Una volta installato e configurato in SFDC, gli addetti alle vendite possono svolgere le proprie attività di formazione all’interno del portale SFDC. Questa app consente agli utenti di SFDC di esplorare nuovi corsi di formazione, visualizzare i consigli e consultarli direttamente all’interno del portale SFDC. Gli utenti ricevono inoltre gli annunci inviati dagli Amministratori sotto forma di masthead direttamente nell’app all’interno del portale SFDC.
 
 ### Configurazione nell’app Learning Manager
 
@@ -30,10 +30,10 @@ Learning Manager offre un pacchetto dell’app Salesforce. Una volta installato 
 
 ### Creazione dell’account nell’app Salesforce
 
-1. Crea un account nella pagina di registrazione di Salesforce. È necessario creare un account Salesforce nella versione per sviluppatori o enterprise.  [URL di iscrizione sviluppatore](https://developer.salesforce.com/signup). Per registrarti a Salesforce, assicurati di utilizzare l’ID e-mail che hai utilizzato per Learning Manager.
+1. Crea un account nella pagina di registrazione di Salesforce. È necessario creare un account Salesforce nella versione sviluppatore o enterprise.  [URL di registrazione per sviluppatori](https://developer.salesforce.com/signup). Per registrarti a Salesforce, assicurati di utilizzare l’ID e-mail che hai utilizzato per Learning Manager.
 1. Verifica il tuo account tramite l’e-mail di verifica.
 1. Crea una password e accedi a Salesforce.
-1. Annota l’URL di Salesforce dopo l’accesso (ad esempio, site.lightning.force.com)
+1. Annota l’URL di Salesforce dopo l’accesso (ad esempio, sito.lightning.force.com)
 
 ### Installazione del pacchetto Learning Manager
 
@@ -47,13 +47,13 @@ Se desideri installare il pacchetto, devi innanzitutto eliminare il pacchetto es
 >
 >L’app Adobe Learning Manager è supportata solo nella visualizzazione Salesforce Lightning.
 
-1. Avvia [URL del pacchetto Learning Manager](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
+1. Avvia [URL del pacchetto Learning Manager](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS).
 1. Nella pagina **Accesso**, fare clic su **[!UICONTROL Usa dominio personalizzato]**.
-1. Immetti l&#39;URL del pacchetto e fai clic su **[!UICONTROL Continua]**. Nella pagina di installazione deve essere selezionata l’opzione Installa solo per gli amministratori. Non cambiare questa opzione.
+1. Immetti l’URL del pacchetto e fai clic su **[!UICONTROL Continua]**. Nella pagina di installazione, seleziona l’opzione Installa solo per gli Amministratori. Non cambiare questa opzione.
 1. Fai clic su **[!UICONTROL Installa]**. Una volta installato il pacchetto, fai clic su **[!UICONTROL Fine]**. Si apre la pagina Pacchetti installati in cui puoi visualizzare il pacchetto Adobe Learning Manager installato.
 
 1. Vai all’App Launcher (accanto a Configurazione) e cerca Adobe Learning Manager.
-1. Per configurare l&#39;app, fai clic su **[!UICONTROL Configura]**.
+1. Per configurare l’app, fai clic su **[!UICONTROL Configura]**.
 1. Fai clic su **[!UICONTROL Nuovo]** e aggiungi i seguenti dettagli:
 
    * **Configurazione:** immetti il nome che preferisci.
@@ -93,7 +93,7 @@ Per aggiungere il dominio di Adobe agli URL affidabili, effettua le seguenti ope
 
 ### Abilitazione delle notifiche per l’app Learning Manager
 
-1. Nell&#39;angolo superiore destro, fai clic su **Configurazione**.
+1. In alto a destra, fai clic su **Configurazione**.
 1. Cerca le notifiche personalizzate.
 1. Fai clic su **[!UICONTROL Nuovo]**.
 1. Immetti i seguenti dettagli:
@@ -113,7 +113,7 @@ Per aggiungere il dominio di Adobe agli URL affidabili, effettua le seguenti ope
 
 ### Disinstallazione di Learning Manager da Salesforce
 
-1. Nell’app Salesforce, passa a Pacchetti installati.
+1. Nell’app Salesforce, vai a Pacchetti installati.
 1. Fai clic su **[!UICONTROL Disinstalla]**.
 
 ## Configurazione di Learning Manager per gli utenti Salesforce
@@ -142,7 +142,7 @@ Il passo successivo consiste nel fornire l’autorizzazione per accedere all’a
 
 *Aggiungi autorizzazioni per accedere all’app Learning Manager*
 
-Quando installi il pacchetto, viene creato un nuovo set di autorizzazioni: **Utente Adobe Learning Manager**. Accedi al set di autorizzazioni e aggiungi gli utenti.
+Quando installi il pacchetto, viene creato un nuovo set di autorizzazioni: **Utente di Adobe Learning Manager**. Accedi al set di autorizzazioni e aggiungi gli utenti.
 
 Seleziona gli utenti e assegna le autorizzazioni di conseguenza. Gli Allievi ora possono accedere all’app Learning Manager.
 
