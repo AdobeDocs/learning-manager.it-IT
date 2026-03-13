@@ -2,24 +2,29 @@
 title: Novità della versione di aprile 2026 di Adobe Learning Manager
 description: Scopri le nuove funzioni, i miglioramenti e gli aggiornamenti importanti nella versione di aprile 2026 di Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 4f97f09df89e2fc38f013ce817f6d0fee38773d0
+source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
 workflow-type: tm+mt
-source-wordcount: '8124'
+source-wordcount: '20211'
 ht-degree: 0%
 
 ---
 
-# Prossime modifiche in Adobe Learning Manager
+# Aggiornamenti in Adobe Learning Manager
 
-<!-- >>[!IMPORTANT]
+>[!IMPORTANT]
 >
->The Adobe Learning Manager October 2025 release is now live. View [What's New](/help/migrated/whats-new.md) for more information on the latest features and enhancements. This page will be updated with the new features and enhancements for the next release. Stay tuned for more updates. -->
+>Le funzioni di questa versione sono disponibili in versione beta. Le funzionalità e il comportamento possono cambiare prima della disponibilità generale. Condividi feedback tramite i tuoi usuali canali di supporto Adobe.
 
-## Panoramica della versione
 
-La versione di aprile 2026 di Adobe Learning Manager introduce un ampio set di miglioramenti che semplificano l’apprendimento per gli Allievi, semplificano la gestione per gli Amministratori e rendono più flessibile l’attività degli Istruttori. Tra questi, una navigazione più chiara nel lettore Fluidic con un’etichetta &quot;Modulo successivo&quot; e un pulsante di uscita dedicato, supporto per più sessioni Zoom simultanee che consentono ai team di eseguire classi virtuali parallele senza configurazione manuale e una migliore visibilità per i corsi condivisi, mostrando l’autore reale anziché l’autore esterno negli account condivisi tra pari. L’aggiornamento espone anche le date di scadenza degli oggetti di apprendimento nelle API degli Allievi per consentire ai LXP di evidenziare i corsi di formazione sensibili al tempo, aggiunge il supporto multilingue per le risorse formative in modo che una risorsa formativa possa contenere tutte le versioni linguistiche e consente agli Amministratori di limitare l’avvio dei moduli definendo finestre di inizio/fine utili per coorti o programmi a tempo.
+Questo documento riassume le nuove funzioni, i miglioramenti e gli aggiornamenti nella versione di aprile 2026 di Adobe Learning Manager. Usalo per pianificare le modifiche per la tua organizzazione e capire cosa è disponibile per Allievi, Amministratori e Autori.
 
-I sistemi esterni che utilizzano l’LTI possono ora impostare automaticamente la lingua del lettore, offrendo agli allievi un’esperienza linguistica uniforme su tutte le piattaforme. Sono disponibili anche diversi aggiornamenti dell’elenco di controllo, tra cui punteggio ponderato, testo multilingue delle domande e commenti facoltativi dei revisori per ottenere feedback più approfonditi. ALM ora acquisisce più tentativi di quiz controllati all&#39;interno dei contenuti SCORM e segnala ogni tentativo in modo pulito nel reporting L2. Gli istruttori possono inoltre generare essi stessi codici QR per l’iscrizione istantanea e il tracciamento della partecipazione durante le sessioni di persona e il contenuto delle Captivate viene riprodotto in modo più pulito con un sommario unificato, tacche di completamento a livello di diapositiva ed esportazioni di note affidabili. In generale, la versione è incentrata su chiarezza, coerenza, preparazione multilingue, efficienza dell&#39;amministratore e fornitura di formazione più flessibile.
+**Per gli Allievi:** il lettore Fluidic ora mostra il nome del modulo successivo e un pulsante Esci chiaro. La lingua del lettore può essere impostata tramite LTI per un’esperienza uniforme su più piattaforme. Il contenuto di Captivate include un sommario unificato, i segni di graduazione di completamento a livello di diapositiva e le esportazioni di note affidabili. Il supporto multilingue è disponibile per risorse formative, domande sull’elenco di controllo e tracce di testo video (VTT). L’Assistente all’intelligenza artificiale consente agli Allievi di ottenere risposte all’interno dell’esperienza di apprendimento.
+
+**Per amministratori e autori:** il connettore Zoom supporta più sessioni VILT simultanee. I corsi condivisi negli account condivisi tra pari visualizzano l’autore reale invece di &quot;Autore esterno&quot;. Gli amministratori possono limitare l’avvio dei moduli. Le date di scadenza degli oggetti di apprendimento sono esposte nelle API degli Allievi. I moduli dell’elenco di controllo supportano il punteggio ponderato, il testo multilingue delle domande e i commenti facoltativi dei revisori. I certificati personalizzati offrono un editor drag-and-drop con campi dinamici e sfondi generati dall’intelligenza artificiale. Experience Builder non connesso consente di creare pagine di apprendimento pubbliche senza richiedere l’accesso.
+
+**Per gli istruttori:** genera codici QR per l&#39;iscrizione e la partecipazione alla sessione dell&#39;istanza. Aggiungi commenti o feedback durante la valutazione dell’elenco di controllo.
+
+**Report e analisi:** il contenuto SCORM può ora segnalare più tentativi di quiz nel report L2. Il calcolo del tempo impiegato per l’apprendimento è stato migliorato nelle Trascrizioni allievi. I report Trascrizione Allievo per gli Amministratori sono stati aggiornati. Sono disponibili miglioramenti della ricerca avanzata.
 
 ## Navigazione lettore Fluidic: mostra il nome del modulo successivo
 
@@ -49,7 +54,7 @@ Per i moduli PDF, il lettore regola i controlli su una riga separata, in modo ch
 
 **Aggiornamento amministratore > Branding > Anteprima lettore**
 
-L’anteprima del lettore in Amministratore > Branding ora riflette la nuova etichetta, ad esempio Modulo successivo: lezione 2. Ciò consente agli amministratori di visualizzare il comportamento di navigazione aggiornato.
+L’anteprima del lettore in Admin > Branding ora riflette la nuova etichetta, ad esempio Modulo successivo: Lezione 2. Ciò consente agli amministratori di visualizzare il comportamento di navigazione aggiornato.
 
 ### Vantaggi principali
 
@@ -113,7 +118,7 @@ Per gli Allievi che utilizzano principalmente telefoni o tablet:
 
 ### Panoramica
 
-Il prossimo aggiornamento al connettore Zoom migliorerà notevolmente il modo in cui Adobe Learning Manager gestisce il training VILT (Virtual Instructor-Led Training). In precedenza, gli utenti potevano creare una sola sessione di Zoom alla volta. Con il nuovo aggiornamento, amministratori e autori possono pianificare più sessioni di Zoom contemporaneamente utilizzando l’integrazione standard.
+L’aggiornamento del connettore Zoom migliora il modo in cui Adobe Learning Manager gestisce il corso di formazione VILT (Virtual Instructor-Led Training). In precedenza, gli utenti potevano creare una sola sessione di Zoom alla volta. Con il nuovo aggiornamento, amministratori e autori possono pianificare più sessioni di Zoom contemporaneamente utilizzando l’integrazione standard.
 
 ### Novità
 
@@ -157,53 +162,53 @@ Con il connettore aggiornato:
 
 #### Migliore pianificazione VILT su larga scala
 
-Le organizzazioni possono ora:
+Le organizzazioni ora possono:
 
-* Esecuzione simultanea di più aule virtuali basate su Zoom (ad esempio, percorsi paralleli in un vertice virtuale, coorti regionali o sessioni di formazione separate per i partner).
+* Eseguire contemporaneamente più aule virtuali basate su Zoom (ad esempio, percorsi paralleli in un vertice virtuale, coorti regionali o sessioni di formazione separate per i partner).
 
-* Evita i colli di bottiglia che in precedenza forzavano gli amministratori a serializzare le sessioni o che si affidavano alla gestione manuale dello zoom.
+* Evita i colli di bottiglia che in precedenza costringevano gli amministratori a serializzare le sessioni o a affidarsi alla gestione manuale dello zoom.
 
-#### Riduzione del sovraccarico di lavoro per amministratori e autori
+#### Riduzione del sovraccarico di amministrazione e di authoring
 
-Il miglioramento elimina:
+Questo miglioramento elimina:
 
-* Creazione manuale di riunioni con Zoom esterne a Adobe Learning Manager.
+* Creazione manuale di riunioni Zoom al di fuori di Adobe Learning Manager.
 
-* Copia e incolla gli URL di Zoom in ogni istanza del corso per le sessioni sovrapposte.
+* Copia e incolla gli URL di Zoom in ogni istanza del corso per sovrapporre le sessioni.
 
-* Rischio di collegamenti non configurati correttamente, riunioni errate o monitoraggio di presenze mancate.
+* Rischio di collegamenti non configurati correttamente, di allegati a riunioni errate o di mancata verifica della partecipazione.
 
-Amministratori e Autori possono gestire tutte le sessioni di Zoom da Adobe Learning Manager, utilizzando flussi di lavoro familiari.
+Gli amministratori e gli autori possono gestire tutte le sessioni di Zoom da Adobe Learning Manager utilizzando flussi di lavoro familiari.
 
-#### Migliore allineamento con il provisioning di Zoom e i ruoli di istruttore
+#### Migliore allineamento con il provisioning dello zoom e i ruoli di istruttore
 
-Legando le riunioni ai singoli account Zoom del docente:
+Collegando le riunioni a singoli istruttori, gli account Zoom:
 
 * Ogni istruttore può operare entro i propri limiti di licenza Zoom.
 
-* Le organizzazioni possono utilizzare il modello di provisioning Zoom esistente (un account per istruttore, per BU, ecc.) continuando a integrarsi completamente con Adobe Learning Manager.
+* Le organizzazioni possono utilizzare il modello di provisioning Zoom esistente (un account per istruttore, per unità di business, ecc.) pur continuando a integrarsi completamente con Adobe Learning Manager.
 
-* Evita il collo di bottiglia a punto singolo che comporta l’utilizzo di un utente Zoom condiviso con amministratore privilegiato per tutte le sessioni.
+* Evita il collo di bottiglia di un singolo punto quando si utilizza un utente zoom super-amministratore condiviso per tutte le sessioni.
 
 ### Casi d’uso
 
 #### Eventi e vertici virtuali a più tracce
 
-I team di formazione dei clienti che eseguono eventi di grandi dimensioni (ad esempio, bootcamp di prodotti, vertici con i partner o settimane di certificazione) possono:
+I team di formazione del cliente che eseguono eventi di grandi dimensioni (ad esempio, avvii di prodotti, vertici con i partner o settimane di certificazione) possono:
 
-* Configurare più sessioni basate su Zoom nello stesso intervallo di tempo (per tracce o argomenti diversi).
+* Configurare più sessioni basate sullo zoom nello stesso intervallo di tempo (per tracce o argomenti diversi).
 
-* Puoi gestirli tutti come moduli VILT nei corsi e percorsi di apprendimento Adobe Learning Manager.
+* Gestisci tutti come moduli VILT nei corsi e nei percorsi di apprendimento di Adobe Learning Manager.
 
-* Offre agli Allievi un’esperienza unificata, mentre il connettore gestisce tutta la creazione della riunione Zoom sottostante.
+* Offri agli Allievi un’esperienza unificata, mentre il connettore gestisce tutte le operazioni di creazione della riunione Zoom.
 
 #### Formazione globale per partner e clienti
 
 Le organizzazioni che formano clienti e partner in diverse aree geografiche possono:
 
-* Eseguire sessioni di Zoom separate per EMEA, APAC e Americhe a orari sovrapposti in modo che corrispondano agli orari di lavoro locali.
+* Eseguire sessioni di zoom separate per EMEA, APAC e Americhe in momenti sovrapposti per far corrispondere le ore lavorative locali.
 
-* Evitate di forzare una singola fascia oraria globale o la configurazione manuale dello zoom per altre coorti.
+* Evita di forzare un singolo intervallo di tempo globale o la configurazione manuale dello zoom per coorti aggiuntive.
 
 #### Abilitazione interna
 
@@ -249,7 +254,7 @@ Per i clienti che eseguono scenari multi-tenant o extended-enterprise:
 
 * Lo stesso corso viene visualizzato con un branding autore coerente tra gli account.
 
-* L’esperienza dell’Allievo è in linea con le aspettative dell’account principale (ad esempio, viene visualizzato &quot;Cloud Academy Team&quot; invece di &quot;Autore esterno&quot;).
+* L’esperienza dell’Allievo è allineata alle aspettative dell’account principale (ad esempio, se si visualizza il nome dell’autore dell’account di origine anziché &quot;Autore esterno&quot;).
 
 ### Casi d’uso
 
@@ -259,55 +264,55 @@ L&#39;azienda utilizza ALM con:
 
 * Un account principale a cui appartengono i corsi canonici e
 
-* Account condivisi tra pari che acquisiscono contenuti tramite cataloghi condivisi.
+* Account peer che acquisiscono contenuti tramite cataloghi condivisi.
 
-Gli Allievi negli account condivisi tra pari devono sapere quale team aziendale ha creato un corso per indirizzare correttamente domande o suggerimenti di miglioramento.
+Gli Allievi negli account dei colleghi devono sapere quale team aziendale ha creato un corso per indirizzare correttamente domande o suggerimenti di miglioramento.
 
 Con questo miglioramento:
 
-* I corsi condivisi ora visualizzano il nome dell’autore enterprise corretto negli account condivisi tra pari.
+* I corsi condivisi ora visualizzano il nome dell’autore aziendale corretto negli account condiviso tra pari.
 
-* Il carico di supporto interno dell’azienda viene ridotto perché gli Allievi e gli Amministratori locali sanno a chi rivolgersi.
+* Il carico di supporto interno dell’azienda viene ridotto perché gli Allievi e gli Amministratori locali sanno chi contattare.
 
 #### Condivisione interna multi-BU
 
-Dove una Business Unit cura l&#39;apprendimento per gli altri:
+Dove un&#39;unità aziendale cura l&#39;apprendimento per gli altri:
 
-* Il BU proprietario può essere identificato nel campo Autore in tutti gli account di consumo.
+* L’unità di vendita proprietaria può essere identificata nel campo di authoring in tutti gli account di consumo.
 
-* Gli amministratori L&amp;D locali possono vedere rapidamente se un corso viene gestito localmente o da un altro BU e collaborare di conseguenza.
+* Gli amministratori locali di L&amp;D possono verificare rapidamente se un corso viene mantenuto in locale o da un altro BU e collaborare di conseguenza.
 
-## Esponi la data di scadenza (ritiro automatico) degli Oggetti di apprendimento nelle API degli Allievi
+## Esponi la data di scadenza dell’oggetto di apprendimento (ritiro automatico) nelle API dell’Allievo
 
 ### Panoramica
 
-Questo miglioramento rende disponibile la data di ritiro automatico di un oggetto di apprendimento (LO) direttamente tramite le API rivolte agli Allievi di Adobe Learning Manager. Quando un corso, un percorso di apprendimento o una certificazione sono configurati con una data di scadenza o ritiro automatico, tali informazioni fanno ora parte dei dati LO restituiti dagli endpoint principali dell’Allievo.
+Questo miglioramento rende la data di ritiro automatico di un oggetto di apprendimento disponibile direttamente tramite le API Adobe Learning Manager rivolte agli Allievi. Quando un corso, un percorso di apprendimento o una certificazione sono configurati con una data di scadenza o di ritiro automatico, tali informazioni fanno ora parte dei dati di apprendimento restituiti dagli endpoint chiave dell’Allievo.
 
 ### Novità
 
-#### Nuovo campo per scadenza/ritiro automatico nelle API degli oggetti di apprendimento degli Allievi
+#### Nuovo campo di scadenza/ritiro automatico nelle API degli oggetti di apprendimento Allievo
 
-* Le API degli LO degli Allievi (ad esempio, gli endpoint che restituiscono gli oggetti di apprendimento all’esperienza dell’Allievo e a piattaforme esterne) ora includono la data di scadenza dell’LO (data di ritiro automatico configurata per tale oggetto di apprendimento).
+* Le API di apprendimento dell’Allievo (ad esempio, gli endpoint che restituiscono gli oggetti di apprendimento all’esperienza dell’Allievo e alle piattaforme esterne) ora includono la data di scadenza dell’apprendimento (la data di ritiro automatico configurata per tale oggetto di apprendimento).
 
-* Questo campo viene restituito come parte dell&#39;entità LO in risposte quali:
+* Questo campo viene restituito come parte dell’entità LO in risposte quali:
 
-   * Ottieni oggetto di apprendimento (dettagli LO).
+   * Ottieni oggetto di apprendimento (dettagli oggetto di apprendimento).
 
-   * Dati LO utilizzati per popolare la pagina principale dell’Allievo, il catalogo e i risultati della ricerca.
+   * I dati di apprendimento utilizzati per popolare la home dell’Allievo, il catalogo e i risultati di ricerca.
 
-* Il campo integra l’attuale completamentoScadenza già esistente a livello di istanza; il nuovo campo è specificamente la data di smobilizzo automatico a livello di LO.
+* Il campo integra l’elemento completionDeadline esistente che esiste già a livello di istanza; il nuovo campo è specificamente la data di smobilizzo automatico a livello di apprendimento.
 
-#### Disponibilità in esperienze di apprendimento basate su ricerca
+#### Disponibilità nelle esperienze degli Allievi basate su ricerche
 
-Poiché la data di scadenza è esposta come parte della rappresentazione LO basata su ricerca, è ora disponibile ovunque ALM o una piattaforma esterna utilizzi:
+Poiché la data di scadenza è esposta come parte della rappresentazione dell&#39;oggetto di ricerca, è ora disponibile ovunque ALM o una piattaforma esterna utilizzi:
 
 * API di ricerca o
 
-* cataloghi e suggerimenti basati sulla ricerca per creare visualizzazioni per gli allievi.
+* cataloghi basati sulla ricerca e suggerimenti per creare viste dell’allievo.
 
 **Ambito ed esclusioni**
 
-Il miglioramento si applica solo alle API degli Allievi.
+Questo miglioramento si applica solo alle API Allievo.
 
 ### Vantaggi principali
 
@@ -457,7 +462,7 @@ Ciò migliora l’esperienza dell’Allievo: invece di affrontare moduli a cui �
 
 #### Casi d’uso
 
-* **Programma di abilitazione basato su coorte**: in questo programma, ogni settimana sblocca un nuovo modulo. Il contenuto per la Settimana 1 è disponibile immediatamente, mentre la Settimana 2 è visibile ma non può essere avviata fino a una data specificata. La Settimana 3 segue lo stesso processo di controllo. Gli Allievi possono visualizzare l’intero percorso di apprendimento, ma il sistema controlla quando possono effettivamente iniziare ciascun passaggio.
+* **Programma di abilitazione basato su coorte**: in questo programma, ogni settimana viene aperto un nuovo modulo. Il contenuto per la Settimana 1 è disponibile immediatamente, mentre la Settimana 2 è visibile ma non può essere avviata fino a una data specificata. La Settimana 3 segue lo stesso processo di controllo. Gli Allievi possono visualizzare l’intero percorso di apprendimento, ma il sistema controlla quando possono effettivamente iniziare ciascun passaggio.
 
 * **Corso di formazione su prodotti o campagne con scadenze precise**: i team di marketing o di prodotto possono creare un modulo di formazione a cui accedere solo quando è attiva una campagna o quando è ancora disponibile una versione specifica di un prodotto. Questa finestra iniziale assicura che gli allievi non inizino un modulo su una versione del prodotto fuori produzione dopo l’ora di fine specificata.
 
@@ -530,7 +535,7 @@ Per tutti i tipi di elenco di controllo:
 
    * Selezionare Sì/No.
 
-   * Scegliere i punteggi nella scala definita.
+   * Selezionare i punteggi nella scala definita.
 
 * Il report **Elenco di controllo** è stato aggiornato per includere, per domande con peso diverso:
 
@@ -682,7 +687,7 @@ In questo modo, il feedback non viene solo archiviato, ma viene trasmesso attiva
 
 >[!IMPORTANT]
 >
->Tieni presente che la funzione sarà disponibile solo dopo averla abilitata nell’account. Contatta il supporto ALM o il Customer Success Manager.
+>Tieni presente che la funzione sarà disponibile solo dopo averla abilitata nell’account. Contatta il supporto di ALM.
 
 
 Attualmente, ALM supporta tentativi multipli a livello di LMS tramite la funzione MQA (Multiple Quiz Attempt):
@@ -701,7 +706,7 @@ Attualmente, ALM supporta tentativi multipli a livello di LMS tramite la funzion
 
 Tuttavia, se il file di contenuti stesso (ad esempio, un quiz Articola SCORM) implementa la propria logica dei tentativi multipli, il report del quiz L2 di ALM al momento non distingue o traccia correttamente tali tentativi interni.
 
-Questo miglioramento introduce il monitoraggio a livello di contenuto di più tentativi per i quiz, consentendo a Adobe Learning Manager di acquisire con precisione ogni tentativo all’interno del contenuto stesso nel report del quiz L2. È progettato per situazioni in cui lo strumento di authoring dei contenuti (come Articola SCORM) gestisce i tentativi di quiz in modo indipendente. Con questa funzione, i tentativi verranno riportati correttamente nel report ALM senza dipendere dalle impostazioni MQA (Multiple Quiz Attempt) di livello LMS.
+Questo miglioramento introduce il monitoraggio a livello di contenuto di più tentativi per i quiz, consentendo a Adobe Learning Manager di acquisire con precisione ogni tentativo all’interno del contenuto stesso nel report del quiz L2. È progettato per situazioni in cui lo strumento di authoring dei contenuti (come Articola SCORM) gestisce i tentativi di quiz in modo indipendente. Con questa funzione, i tentativi vengono riportati correttamente nel report ALM senza dipendere dalle impostazioni MQA (Multiple Quiz Attempt) di livello LMS.
 
 ### Novità
 
@@ -719,13 +724,13 @@ Quando tali contenuti vengono utilizzati in un corso:
 
 * Gli Allievi vedranno un solo tentativo a livello di LMS:
 
-   * La panoramica del corso e la vista del modulo non mostreranno un pulsante &quot;ritenta&quot; LMS per quel modulo.
+   * La panoramica del corso e la vista del modulo non espongono un pulsante LMS &quot;re-attempt&quot; (ritenta) per tale modulo.
 
    * La gestione dei tentativi (ad esempio, i tentativi all’interno del quiz) è regolata dal contenuto stesso.
 
 #### Report
 
-Il report del quiz L2 verrà aggiornato per considerare ogni tentativo a livello di contenuto come una riga di tentativo separata:
+Il report del quiz L2 considera ogni tentativo a livello di contenuto come una riga di tentativo separata:
 
 * Ogni tentativo di quiz interno configurato nel contenuto viene visualizzato come propria riga nel report del quiz L2, ad esempio come sono rappresentati oggi i tentativi a livello di LMS.
 
@@ -769,7 +774,7 @@ a livello di sessione. È progettato per le situazioni in cui gli Allievi entran
 
 #### Codici QR generati dall’istruttore
 
-* Gli istruttori potranno generare codici QR a livello di sessione per:
+* Gli istruttori possono generare codici QR a livello di sessione per:
 
    * Iscriviti all’istanza: gli Allievi eseguono la scansione per iscriversi all’istanza che include la sessione corrente.
 
@@ -781,7 +786,7 @@ a livello di sessione. È progettato per le situazioni in cui gli Allievi entran
 
 #### Confezionamento di codici QR
 
-Il PDF del codice QR esportato includerà:
+Il PDF del codice QR esportato include:
 
 * Nome del corso
 
@@ -801,7 +806,7 @@ Ciò consente agli istruttori e ai coordinatori di identificare e stampare il co
 
 ### Casi d’uso
 
-* Le organizzazioni che eseguono grandi volumi di sessioni in loco (ad esempio, formazione sul prodotto per professionisti) possono consentire agli istruttori di stampare codici QR specifici per sessione che registrano e contrassegnano la partecipazione con una scansione.
+* Le organizzazioni che eseguono grandi quantità di sessioni in loco (ad esempio, formazione sul prodotto per professionisti) possono consentire agli istruttori di stampare codici QR specifici per sessione che registrano e contrassegnano la partecipazione con una scansione.
 
 * Nei corsi di formazione per la vendita al dettaglio, la produzione industriale e l’assistenza sanitaria, in cui gli Allievi spesso partecipano alle sessioni direttamente dal pavimento o senza pre-iscrizione, è possibile inserire un codice QR &quot;Iscrizione + Partecipazione&quot; sulla porta. Ciò consente agli Allievi di provvedere autonomamente all’iscrizione e alla partecipazione tramite telefono.
 
@@ -811,27 +816,27 @@ Ciò consente agli istruttori e ai coordinatori di identificare e stampare il co
 
 ### Panoramica
 
-Questo miglioramento migliora l’esperienza di riproduzione dei contenuti Adobe Captivate all’interno del lettore Adobe Learning Manager (ALM), in particolare in seguito alle recenti modifiche apportate all’architettura di Captivate. L&#39;obiettivo è consentire agli Allievi di interagire con i moduli Captivate in modalità nativa in ALM, garantendo al contempo che la navigazione, il tracciamento del completamento e la creazione di note siano chiari, coerenti e affidabili.
+Questo miglioramento migliora l’esperienza di riproduzione dei contenuti Adobe Captivate nel lettore Adobe Learning Manager (ALM), in particolare in seguito alle recenti modifiche apportate all’architettura di Captivate. L&#39;obiettivo è quello di consentire agli studenti di interagire con i moduli Captivate in modalità nativa in ALM, garantendo al contempo che la navigazione, il tracciamento del completamento e la creazione di note siano chiari, coerenti e affidabili.
 
 ### Novità
 
-#### Esperienza sommario unificata
+#### Esperienza del sommario unificato
 
 * Sul lato sinistro del lettore viene visualizzato solo il sommario ALM.
 
-* Il sommario di Captivate verrà nascosto quando il modulo viene riprodotto all&#39;interno di ALM.
+* Il sommario di Captivate è nascosto quando il modulo viene riprodotto in ALM.
 
-* In questo modo si eliminano le duplicazioni, si garantisce un&#39;unica fonte di verità per la navigazione e si libera spazio su schermo.
+* Questo elimina le duplicazioni, garantisce un&#39;unica fonte di verità per la navigazione e libera spazio sullo schermo.
 
 #### Feedback sul completamento visivo
 
-* Il sommario ALM mostrerà segni di graduazione verdi (o indicatori visivi equivalenti) che indicano il completamento a livello di diapositiva.
+* Il sommario ALM mostra segni di graduazione verdi (o segnali visivi equivalenti) che indicano il completamento a livello di diapositiva.
 
-* Man mano che gli Allievi avanzano nelle diapositive Captivate, il sommario ALM riflette le diapositive completate, in linea con le aspettative degli Allievi per i lettori del corso moderni.
+* Man mano che gli Allievi avanzano attraverso le diapositive Captivate, il sommario ALM riflette quali diapositive sono state completate, in linea con le aspettative degli Allievi per i lettori del corso moderni.
 
-#### Controlli di avanzamento contestuali
+#### Controlli dell’avanzamento contestuale
 
-* I controlli del lettore verranno adattati in base al tipo di diapositiva:
+* I controlli del lettore si adattano in base al tipo di diapositiva:
 
    * Per le diapositive video:
 
@@ -839,23 +844,23 @@ Questo miglioramento migliora l’esperienza di riproduzione dei contenuti Adobe
 
 * Per diapositive non video:
 
-   * Visualizza i controlli di spostamento tra le diapositive (diapositiva successiva/precedente, ecc.) anziché una barra temporale non funzionale.
+   * Visualizzare i controlli di spostamento tra le diapositive (diapositiva successiva/precedente, ecc.) invece di una barra temporale non funzionante.
 
       * In questo modo si evita di mostrare controlli irrilevanti o non funzionanti su alcuni tipi di diapositive.
 
 #### Navigazione semplificata
 
-* La barra di navigazione separata del modulo (ALM) e la barra di navigazione del corso verranno unite in un&#39;unica barra intuitiva.
+* La barra di navigazione separata del modulo (ALM) e la barra di navigazione del corso vengono unite in un’unica barra intuitiva.
 
 * Questa navigazione unificata:
 
-   * Distingue chiaramente lo spostamento all’interno del modulo Captivate rispetto al ritorno al livello del corso o del modulo.
+   * Distingue chiaramente il passaggio attraverso il modulo Captivate rispetto al passaggio al livello corso/modulo.
 
-   * Riduce la confusione causata da più barre con scopi sovrapposti.
+   * Riduce la confusione causata da più barre con scopi di sovrapposizione.
 
-#### Collegamento note affidabile
+#### Collegamento di note affidabili
 
-* Le note verranno collegate ai numeri delle diapositive anziché alle marche temporali.
+* Le note sono collegate ai numeri di diapositiva anziché alle marche temporali.
 
 * Questa modifica:
 
@@ -869,7 +874,7 @@ Questo miglioramento migliora l’esperienza di riproduzione dei contenuti Adobe
 
 * Indicazioni precise di completamento e avanzamento: le tacche a livello di diapositiva e i controlli contestuali aiutano gli allievi a capire dove si trovano e cosa resta.
 
-* Creazione di note ed esportazioni più affidabili: legando le note alle diapositive anziché a timestamp fragili, gli utenti possono recuperare un flusso di lavoro affidabile da note a PDF, anche con il contenuto di Captivate basato su diapositive.
+* Creazione ed esportazione di note più affidabili: legando le note alle diapositive invece di timestamp fragili, gli utenti riacquistano un flusso di lavoro affidabile da note a PDF, anche con il contenuto di Captivate basato su diapositive.
 
 * Flusso di lavoro dell’autore mantenuto: gli autori mantengono la semplicità della pubblicazione diretta su ALM di Captivate, mentre gli Allievi ottengono un’esperienza di riproduzione moderna e integrata senza costi di authoring aggiuntivi.
 
@@ -1021,17 +1026,17 @@ Stiamo aggiornando i report Trascrizione Allievo (LT) per gli Amministratori al 
 ### &#x200B;1. Rinomina colonna in Trascrizione apprendimento Amministratore
 
 Colonna **Commento invio** esistente in Admin Learning
-La trascrizione sarà:
+Trascrizione:
 
 1. **Rinominato in:** `Reviewer's remarks`
 
 ### Dati visualizzati in questa colonna:
 
 * **Per i moduli di invio:**
-La colonna continuerà a visualizzare il commento di invio (nessuna modifica del comportamento).
+La colonna continua a visualizzare il commento di invio (nessuna modifica del comportamento).
 
 * **Per i moduli dell&#39;elenco di controllo:**
-Nella colonna verrà visualizzato il commento di valutazione (le note del revisore dell&#39;elenco di controllo).
+La colonna ora visualizza il commento di valutazione (le note del revisore dell&#39;elenco di controllo).
 
 Questa modifica si applica a tutte le origini Admin LT:
 
@@ -1039,7 +1044,7 @@ Questa modifica si applica a tutte le origini Admin LT:
 * LT ottenuto tramite l’API dei processi
 * LT generati tramite connettori
 
-Dopo questa modifica, la stessa colonna riporterà: - Commenti di invio per i moduli di invio
+Dopo questa modifica, la stessa colonna riporta: - Commenti di invio per i moduli di invio
 
 * Commenti di valutazione per i moduli dell’elenco di controllo
 
@@ -1049,8 +1054,8 @@ Sotto il nuovo nome di intestazione **Note del revisore**.
 
 Per le trascrizioni di apprendimento esportate dal connettore:
 
-* Alla fine del report verrà aggiunta una nuova colonna denominata **Note del revisore**.
-* Questa colonna conterrà i commenti del revisore, in linea con il comportamento descritto in precedenza:
+* Alla fine del report viene aggiunta una nuova colonna denominata **Note del revisore**.
+* Questa colonna contiene i commenti del revisore, in linea con il comportamento descritto in precedenza:
    * Commenti di invio per i moduli di invio
    * Commenti di valutazione per i moduli dell’elenco di controllo
 
@@ -1060,10 +1065,10 @@ Se utilizzi i report Trascrizione Allievo in integrazioni personalizzate, automa
 
 | Scenario | Impatto | Azione richiesta |
 |----------|--------|----------------|
-| I campi in Admin LT vengono identificati in base al nome della colonna (ad esempio, &quot;Commento inoltro&quot;) | L&#39;intestazione di colonna verrà modificata in Note del revisore. | Sì. Aggiornare le mappature o la logica che fanno riferimento al commento Invio per utilizzare le osservazioni del revisore. |
+| I campi in Admin LT vengono identificati in base al nome della colonna (ad esempio, &quot;Commento di invio&quot;) | L&#39;intestazione di colonna viene modificata in Note del revisore. | Sì. Aggiornare le mappature o la logica che fanno riferimento al commento Invio per utilizzare le osservazioni del revisore. |
 | I campi in Admin LT vengono identificati solo in base alla posizione delle colonne (basata su indice) | La posizione di questa colonna rimane la stessa in Admin LT. | Di solito nessuna azione. Se la logica non dipende dal testo dell&#39;intestazione, non è necessaria alcuna modifica per Admin LT, è sufficiente modificare il nome della colonna se attualmente viene utilizzata la colonna &quot;Commenti di invio&quot;. |
 | Si utilizza LT esportato dal connettore e si basa su un numero di colonne fisso o su una posizione specifica dell&#39;ultima colonna | Alla fine del report viene aggiunta una nuova colonna. | Sì. Regolare la logica di analisi o convalida in modo da tenere conto di una colonna aggiuntiva alla fine del file. |
-| Usa LT esportato dal connettore e mappa per nome colonna | Sarà disponibile una nuova colonna Commenti del revisore. | Facoltativo. Non è richiesta alcuna modifica a meno che non si desideri utilizzare i nuovi dati dei commenti del revisore/elenco di controllo. |
+| Usa LT esportato dal connettore e mappa per nome colonna | È disponibile una nuova colonna Commenti del revisore. | Facoltativo. Non è richiesta alcuna modifica a meno che non si desideri utilizzare i nuovi dati dei commenti del revisore/elenco di controllo. |
 
 **Operazioni da eseguire**
 
@@ -1074,1697 +1079,1383 @@ Se utilizzi i report Trascrizione Allievo in integrazioni personalizzate, automa
 Se l&#39;implementazione corrente si basa esclusivamente sulle posizioni delle colonne in Admin LT e non convalida o dipende dal testo dell&#39;intestazione di colonna, non è richiesta alcuna modifica per Admin LT stessa. Solo le esportazioni di connettori richiedono attenzione quando si utilizza un layout fisso.
 
 
+## Esperienza senza accesso in Experience Builder
 
+L’esperienza senza accesso in Experience Builder consente alle organizzazioni di visualizzare i contenuti di apprendimento e le pagine del portale a tutti i visitatori, inclusi quelli che non hanno effettuato l’accesso. Questa funzione è progettata per attirare, informare e coinvolgere i potenziali Allievi offrendo un’anteprima fluida e con marchio delle offerte di formazione prima di richiedere l’accesso o l’iscrizione.
 
+Questa funzione consente di creare e personalizzare pagine pubbliche utilizzando la stessa intuitiva interfaccia di trascinamento disponibile in Generatore di esperienza standard. È possibile mostrare cataloghi di corsi, categorie, percorsi e contenuti statici avanzati, tra cui immagini, testo, HTML e immagini incorporate, per chiunque visiti il portale. In questo modo è più semplice evidenziare i programmi di apprendimento, promuovere nuovi corsi e fornire informazioni essenziali a un pubblico più ampio.
 
+I visitatori possono sfogliare il catalogo, visualizzare i dettagli su corsi e istanze e utilizzare la ricerca globale per esplorare le opportunità di formazione disponibili. Tuttavia, per le azioni che richiedono l’identità di un utente, ad esempio l’iscrizione a un corso, l’accesso a funzioni personalizzate (come Calendario, Conformità, Classifica o Apprendimento sociale) o la partecipazione a corsi di formazione, il visitatore dovrà effettuare l’accesso. Questo approccio garantisce che le informazioni sensibili e personalizzate rimangano al sicuro, pur consentendo un&#39;esperienza di anteprima completa.
 
+Gli amministratori possono configurare le pagine e i widget visibili agli utenti che non hanno effettuato l’accesso, in modo da visualizzare solo il contenuto appropriato. Le pagine possono essere impostate in modo da essere accessibili sia agli utenti che hanno effettuato l’accesso che a quelli che non l’hanno fatto, oppure in modo esclusivo per uno di questi gruppi. Experience Builder offre una modalità di anteprima che consente di vedere esattamente come appariranno le pagine ai visitatori prima della pubblicazione.
 
+Per abilitare questa funzione, l&#39;amministratore dell&#39;integrazione ALM deve attivare il connettore di accesso ai dati di formazione. Questo connettore garantisce che i metadati del corso siano accessibili al pubblico.
 
+Il branding e la localizzazione sono completamente supportati e consentono di personalizzare i titoli delle pagine, i favicon e le impostazioni della lingua in modo che siano in linea con l&#39;identità dell&#39;organizzazione e soddisfino le esigenze del pubblico. Come parte della transizione a questa esperienza avanzata, la funzionalità della pagina principale precedente per gli utenti non connessi sarà dichiarata obsoleta. Pertanto, tutti i nuovi contenuti pubblici devono essere creati utilizzando Experience Builder.
 
+### Scopo della funzione
 
+L’esperienza senza accesso in Experience Builder consente alle organizzazioni di mostrare pubblicamente i contenuti di apprendimento e le pagine del portale a chiunque, senza richiedere agli utenti di accedere. Questo consente di attirare, informare e coinvolgere i potenziali Allievi fornendo un’anteprima dei corsi di formazione e delle risorse disponibili prima che sia necessaria l’iscrizione o l’autenticazione.
 
+### Casi d&#39;uso reali su esperienze senza accesso
 
+* **Marketing e sensibilizzazione**: le organizzazioni possono promuovere i propri programmi di formazione a un pubblico esterno, ad esempio potenziali clienti, partner o candidati, rendendo pubblicamente accessibili i cataloghi dei corsi e i dettagli dei programmi.
+* **Esplorazione pre-iscrizione**: gli Allievi possono sfogliare i corsi disponibili, visualizzare le panoramiche ed esplorare le categorie prima di decidere di iscriversi o accedere, aiutandoli a prendere decisioni consapevoli in merito all’iscrizione.
+* **Portali di formazione aziendali**: le aziende possono fornire un portale pubblico per informazioni sulla conformità o sull&#39;onboarding, consentendo ai nuovi assunti o appaltatori di vedere quale formazione è disponibile prima di ricevere le credenziali.
+* **Pagine di destinazione evento o campagna**: le organizzazioni che eseguono campagne di apprendimento o eventi possono creare pagine pubbliche dedicate per evidenziare corsi, pianificazioni o risorse in primo piano, aumentando la visibilità e il coinvolgimento.
+* **SEO e individuabilità**: rendendo pubbliche pagine e cataloghi selezionati, le organizzazioni migliorano la visibilità dei motori di ricerca, aiutando le persone a scoprire le offerte di apprendimento online.
 
+### Concetti chiave dell’esperienza senza accesso
 
+L’esperienza non registrata di Experience Builder ti consente di mostrare pubblicamente contenuti di apprendimento e pagine di portali, consentendo ai visitatori di sfogliare senza accedere.
 
+* **Creare pagine e menu pubblici**: è possibile impostare pagine e un menu singolo a cui tutti possono accedere, indipendentemente dallo stato di accesso.
+* **Aggiungere solo i widget supportati**: sono inclusi i widget che non richiedono contesto utente (categorie, corsi e percorsi di apprendimento, casella di contenuto, HTML, iframe), mentre i widget specifici dell&#39;utente vengono nascosti.
+* **Configura il comportamento adattivo della pagina**: decidi se visualizzare una pagina sia per gli utenti che hanno effettuato l’accesso che per quelli che non l’hanno fatto, e il sistema adatta i widget visibili e il contenuto in base allo stato di accesso.
+* **Anteprima di entrambe le esperienze**: le opzioni di anteprima consentono di visualizzare le pagine con gli utenti che hanno effettuato l’accesso e quelli che non l’hanno fatto, con differenze a livello di visibilità e contenuto del widget.
+* **Abilita ricerca globale**: i visitatori cercano corsi e contenuti, ma ottengono solo funzionalità di ricerca di base senza integrazione avanzata di intelligenza artificiale.
+* **Consenti ai visitatori di sfogliare il catalogo e le panoramiche del corso**: i visitatori possono esplorare pagine del catalogo, dettagli del corso e istanze, ma devono accedere per iscriversi o accedere a funzioni personalizzate.
+* **Personalizzare il branding e la localizzazione**: hai impostato le icone preferite e le impostazioni della lingua in modo che corrispondano alle esigenze di branding e accessibilità della tua organizzazione.
+* **Abilita il connettore di accesso ai dati di formazione**: attiva questo connettore per esportare i metadati del corso per la visualizzazione pubblica, mantenendo aggiornate le pagine senza accesso.
+* **Gestire un traffico elevato con un&#39;infrastruttura condivisa**: il sistema gestisce grandi volumi di visitatori anonimi utilizzando risorse condivise e limitando la velocità.
+* **Ottimizza per SEO**: la piattaforma prepara le pagine pubbliche per l’indicizzazione dei motori di ricerca, semplificando la ricerca dei contenuti di apprendimento.
 
+### Prerequisiti per l’esperienza senza accesso
 
+* Prima di poter utilizzare l’esperienza senza accesso, è necessario abilitare il Connettore di accesso ai dati di formazione nell’Amministratore dell’integrazione.
+* Il connettore esporta i metadati del corso in un repository pubblico, che mantiene aggiornate le pagine senza accesso.
 
+#### Inizializzazione del connettore Accesso ai dati di formazione
 
-<!-- See this [article](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) for more information on Learner Transcript report.
+Il connettore TDA (Training Data Access) è un prerequisito critico per l&#39;attivazione della nuova funzione di creazione di esperienze senza accesso in ALM. Questo connettore facilita l’esportazione dei metadati di formazione, consentendo al portale di visualizzare le informazioni sul corso agli utenti che non hanno effettuato l’accesso.
 
-The downloaded Learner Transcript report contains the new column: Mark Completed Date (UTC TimeZone).
+* **Attivazione del connettore**: è necessario abilitare il connettore TDA dal pannello di amministrazione dell’integrazione. Questo passaggio abilita la funzionalità di Experience Builder senza accesso e rende visibili le opzioni dell&#39;interfaccia utente pertinenti nell&#39;interfaccia di amministrazione.
+* **Esportazione di metadati**: una volta attivato, il connettore esporta i metadati di formazione essenziali (ad esempio nome del corso, descrizione, panoramica, valutazione, durata e abilità) da ALM a un repository pubblico. Questi dati vengono utilizzati per popolare pagine e widget che non hanno effettuato l’accesso.
+* **Pianificazione e sincronizzazione**: il processo di esportazione può essere pianificato (ad esempio, ogni giorno) per garantire che nel portale vengano visualizzati gli aggiornamenti più recenti del corso. Le modifiche apportate in ALM verranno visualizzate nelle pagine non connesse dopo il successivo ciclo di esportazione, in base alla frequenza di memorizzazione nella cache e di esportazione.
+* **Disponibilità funzionalità**: le funzionalità del generatore di esperienze senza accesso, tra cui creazione di menu, supporto del widget e visibilità del catalogo, sono accessibili solo dopo l&#39;inizializzazione del connettore TDA. Se il connettore non è abilitato, Experience Builder rimarrà limitato agli scenari utente connessi.
+* **Migrazione e supporto**: per gli account che passano da funzioni precedenti della pagina principale senza accesso, l’inizializzazione del connettore TDA è il primo passo verso la migrazione. Garantisce la possibilità di utilizzare la flessibilità del nuovo Experience Builder e funzionalità avanzate.
 
-![Learner Transcript reports showing marked completed dates (highlighted in yellow) for course completion tracking in Adobe Learning](/help/migrated/assets/mark-completion-column.png)
-_Learner Transcript report displays a new column in yellow highlighting individual completion dates for each user_
 
-## Enhanced User Report with extended data fields
+### Cosa possono fare i visitatori senza effettuare l’accesso
 
-**Overview**
+In un sito Experience Builder non connesso, i visitatori possono sfogliare il catalogo dei corsi di formazione aprendo la pagina del catalogo per i cataloghi pubblici. Possono utilizzare filtri quali catalogo, prodotto, ruolo, tipo, abilità e tag, a seconda della configurazione del sito. I visitatori possono anche cercare i corsi di formazione utilizzando la barra di ricerca globale nell’intestazione (se abilitata) e visualizzare i risultati della ricerca direttamente nella pagina del catalogo.
 
-The User Report now includes additional fields to improve user tracking and organizational mapping.
+I visitatori possono visualizzare i dettagli del corso di formazione aprendo le pagine di panoramica per corsi, percorsi di apprendimento e certificazioni. In queste pagine sono visualizzati i metadati principali, inclusi titolo, descrizione, autore, durata, formato, tag e abilità.
 
-**What's new**
+Inoltre, i visitatori possono esplorare contenuti statici e promozionali. Possono leggere blocchi di testo e di contenuto RTF, visualizzare banner e porzioni di immagine e interagire con i frame incorporati come micrositi, video o strumenti esterni.
 
-* Internal User ID column: Provides unique internal identifiers for smooth user tracking across different systems and API endpoints.
-* Manager Email column: Includes direct manager contact information for organizational hierarchy tracking.
+Se un visitatore fa clic su Iscriviti o tenta di avviare un corso di formazione, il sistema richiede di effettuare l&#39;accesso o di registrarsi. Dopo aver eseguito correttamente l’accesso, il visitatore viene reindirizzato alla pagina appropriata, che si tratti della home page, di una pagina personalizzata o del corso di formazione specifico selezionato.
 
-**Key benefits**
+### Cosa non è disponibile senza effettuare l’accesso
 
-* Simplified user identification and eliminates issues when mapping users across multiple systems.
-* Supports downstream user management workflows through integration capabilities.
-* Improved organizational mapping and better understanding of reporting relationships.
-* Maintains organizational boundaries and prevents accidental cross-communication.
+In un sito Experience Builder non connesso, i visitatori non possono accedere a funzionalità o contenuti che richiedono l&#39;autenticazione dell&#39;utente. Non sono in grado di iscriversi ai corsi di formazione, avviare o seguire corsi o accedere a widget personalizzati come Il mio apprendimento, Calendario, Conformità, Classifica o Apprendimento sociale. Questi widget dipendono dai dati specifici dell&#39;utente e sono disponibili solo dopo l&#39;accesso.
 
-### User Report with the new column
+Inoltre, i visitatori non possono eseguire azioni quali l’iscrizione a un corso o l’accesso a contenuti che richiedono il tracciamento dell’avanzamento o del contesto dell’utente. Se si tenta di iscriversi o di avviare un corso di formazione, viene richiesto al visitatore di effettuare l’accesso o di registrarsi prima di procedere.
 
-See this [article](/help/migrated/administrators/feature-summary/reports.md#user-activity-dashboards) to learn how to download the User Report. 
+### Widget supportati in modalità senza accesso
 
-The downloaded User Report file contains the new columns: Internal User ID and Manager Email.
+In modalità senza accesso, sono supportati solo i widget che non richiedono dati specifici dell’utente. Queste comprendono:
 
-![User Report showing the internal user ID and manager email columns highlighted in yellow](/help/migrated/assets/user-report-columns.png) 
-_User Reports highlighting internal user IDs and manager email addresses to streamline user management_
+* Widget Categorie, che visualizza le categorie di formazione disponibili.
+* Widget di corsi e percorsi, che mostra corsi e percorsi di apprendimento dal catalogo pubblico.
+* Casella dei contenuti per l&#39;aggiunta di testo statico, immagini o contenuto promozionale.
+* widget HTML, per incorporare contenuti HTML personalizzati.
+* Widget Iframe, per visualizzare siti, video o strumenti esterni all’interno della pagina.
+* I widget che richiedono un contesto utente, ad esempio Il mio apprendimento, Calendario, Conformità, Classifica e Apprendimento sociale, non sono disponibili in modalità di accesso non effettuato.
 
-## FTP User Report with Internal User ID support
+### Pagine e menu nell’esperienza senza accesso
 
-**Overview**
+* È supportato un solo menu senza accesso, visibile a tutti i visitatori senza autenticazione.
+* Le pagine possono essere aggiunte sia ai menu di accesso che a quelli senza accesso; se una pagina è presente in entrambi, i widget e il contenuto vengono adattati in base allo stato di accesso dell’utente.
+* I menu che non hanno effettuato l’accesso non dispongono di personalizzazione o definizione dei destinatari. Tutti vedono lo stesso set di pagine.
+* I widget che non sono supportati in modalità senza accesso vengono nascosti automaticamente; il layout di pagina viene regolato per riempire gli spazi.
+* La gestione di menu e pagine (aggiunta, anteprima, eliminazione) è simile alla modalità di accesso, ma con adeguamenti per i vincoli non di accesso.
 
-The FTP-based User Report now includes Internal User ID support, providing a unified approach to data export and integration for headless implementations.
+### Comportamento di ricerca e catalogo
 
-**What's new**
+In modalità senza accesso, gli utenti possono accedere alla pagina del catalogo e utilizzare la ricerca per sfogliare i corsi e i percorsi di apprendimento disponibili. La pagina del catalogo mostra tutti i corsi pubblici, insieme ai filtri e alle funzionalità di ricerca, seguendo le stesse impostazioni dell’account della modalità di accesso. Quando un utente esegue la ricerca, i risultati vengono visualizzati nella pagina del catalogo e gli utenti possono visualizzare le pagine di panoramica del corso e dell’istanza senza effettuare l’accesso. Tuttavia, azioni come l&#39;iscrizione richiedono l&#39;accesso.
 
-* User Reports are now available through [Custom FTP](/help/migrated/integration-admin/feature-summary/connectors.md#custom-ftp) alongside existing reports (Gamification Transcripts, Learner Transcripts, Trainings Report).
-* The Internal User ID column is now consistent across all export methods (FTP, Jobs API, and UI).
+Se un utente tenta di effettuare l&#39;iscrizione, il sistema richiede che prima acceda. La ricerca di utenti non connessi è più semplice di quella per gli utenti connessi e non include funzionalità avanzate come l&#39;integrazione di Assistente AI.
 
-**Key benefits**
+### Implementazione tecnica
 
-* Simplified data management with a single source for all necessary reports.
-* Better data consistency by ensuring uniform user identification across reporting periods.
-* Automated workflow support by enabling bulk operations and analytics workflows with consistent identifiers.
-The User Report downloaded from FTP folder contains the new column, Internal User ID.
+#### Configurazione del connettore di accesso ai dati di formazione
 
-## Include suspended users in Learner Transcripts
+Prima di poter utilizzare la funzione experience builder senza accesso, devi abilitare il connettore di accesso ai dati di formazione nel pannello di amministrazione dell’integrazione. Questo connettore esporta i metadati del corso di formazione da ALM a un repository pubblico, rendendolo accessibile tramite API per le pagine non connesse. La configurazione del connettore è un prerequisito per l&#39;attivazione della funzionalità e garantisce che il portale visualizzi informazioni aggiornate sul corso di formazione.
 
-**Overview**
+#### Esportazione e sincronizzazione dei metadati
 
-Organizations can now include suspended users (those with disabled external profiles) in Learner Transcripts, ensuring comprehensive historical learning data retention.
+Il connettore esporta i campi di metadati chiave quali nome del corso, panoramica, descrizione, valutazione, durata e abilità. È possibile pianificare le esportazioni (ad esempio, giornalmente) per mantenere il portale sincronizzato con ALM. È possibile che non tutti i campi di metadati siano inclusi. Per un elenco completo, consultare il reparto tecnico. I dati esportati vengono utilizzati per popolare le pagine senza accesso e le modifiche in ALM verranno visualizzate dopo il successivo ciclo di esportazione.
 
-**What's new**
+#### Frequenza di memorizzazione nella cache e di esportazione
 
-* Configurable suspended user visibility with an account-level flag to include suspended users in the Learner Transcripts.
-* Historical data retention even after deactivation of suspended external profiles.
+Per gestire gli aggiornamenti dei dati, il sistema utilizza la frequenza di esportazione back-end e la cache front-end. Le modifiche apportate in ALM si riflettono sul portale dopo l&#39;esportazione pianificata e l&#39;aggiornamento della cache. A causa di questi meccanismi, alcuni aggiornamenti potrebbero non essere visualizzati immediatamente. Se hai bisogno di aggiornamenti più rapidi, modifica la pianificazione dell&#39;esportazione o cancella la cache in base alle esigenze.
 
-**Implementation requirements**
+#### Supporto della personalizzazione CSS/JS
 
-* Contact your Customer Success Manager (CSM) to enable the account-level flag.
+È possibile applicare CSS e JavaScript personalizzati sia alle pagine che hanno effettuato l’accesso che a quelle che non l’hanno fatto, utilizzando la scheda personalizzazione. Ciò consente di mantenere un branding coerente, aggiungere elementi dell&#39;interfaccia utente personalizzati e migliorare l&#39;esperienza utente nel portale. Tutte le personalizzazioni vengono applicate a livello globale, garantendo un aspetto unificato.
 
->[!NOTE]
->
->This flag is disabled by default for existing accounts and must be explicitly requested for new accounts.
+#### Differenze e branding degli URL (favicon, titolo pagina)
 
-## Scoped announcement permissions for custom administrators
+Le pagine che non hanno effettuato l’accesso e che vi hanno effettuato l’accesso possono avere URL diversi per distinguere gli stati degli utenti. Puoi personalizzare la favicon e il titolo della pagina per il tuo portale, contribuendo a rafforzare l&#39;identità del tuo marchio. Queste funzioni sono disponibili in Experience Builder; verifica con il team tecnico lo stato più recente del supporto per i dispositivi che non hanno effettuato l&#39;accesso.
 
-**Overview**
+### Prestazioni e scalabilità
 
-Custom administrators can now create announcements, but only for their assigned user groups or catalogs. This prevents unintended communication across organizational boundaries.
+#### Stack condiviso e stack premium
 
-**What's new**
+Lo stack condiviso consente a più clienti di utilizzare il generatore di esperienze senza accesso su un&#39;infrastruttura comune, che supporta livelli di traffico standard. Lo stack premium è un&#39;opzione a pagamento che fornisce risorse dedicate, funzionalità in tempo reale e limiti di posti più elevati per i clienti con esigenze avanzate. Seleziona lo stack in base ai requisiti di traffico e business previsti.
 
-* Custom administrators can only create announcements for users within their assigned scope.
-* Announcements can be scoped to specific user groups or catalogs.
-* Full administrators maintain visibility and control over all announcements, including those created by scoped custom administrators.
+#### Limiti di traffico e limiti di velocità
 
-**Key benefits**
+Lo stack condiviso impone limiti di traffico per garantire un utilizzo corretto tra i clienti. I tecnici implementeranno la limitazione delle tariffe per evitare che un singolo cliente utilizzi tutte le risorse. Se si pianificano campagne di marketing o si prevede un traffico elevato, coordinarsi con la progettazione per comprendere i limiti ed evitare interruzioni del servizio. La limitazione della velocità consente di mantenere la stabilità del sistema e le prestazioni per tutti gli utenti.
 
-* Targeted communication ensuring announcements reach only relevant audiences.
-* Reduced information overload by preventing irrelevant notifications from reaching unintended users.
-* Maintains organizational boundaries and prevents accidental cross-communication.
+#### Considerazioni su multi-tenancy e SEO
 
-**Important considerations**
+La piattaforma supporta il multi-tenancy, consentendo a più clienti di ospitare i propri portali su un&#39;infrastruttura condivisa. Le pagine senza accesso sono compatibili con SEO, insieme a sitemap.xml e robots.txt per ottimizzare la visibilità dei motori di ricerca. Ciò garantisce che il portale sia individuabile e indicizzato correttamente dai motori di ricerca.
 
-* If a custom administrator's scope changes, affected announcements display a warning icon and require individual scope resets.
-* Each announcement must be updated individually when scope changes occur.
-* The Notification Announcement report shows only learners within the custom administrator's assigned scope.
+### Migrazione e rimozione
 
-**Use cases**
+#### Transizione dalla pagina principale esistente senza accesso
 
-* Franchise organizations where regional managers need to communicate only with their franchisees.
-* Large organizations with regional or departmental administrators targeting announcements to their teams.
+Dovresti ricreare la tua home page utilizzando il nuovo Experience Builder per una maggiore flessibilità, il supporto del widget e una migliore esperienza utente. Il piano di transizione assicura interruzioni minime e supporto continuo.
 
-### Create announcement for the assigned scope
+#### Piano di comunicazione
 
-A custom administrator can create announcements limited to their assigned user groups and catalogs, ensuring messages reach the right audience and preventing unnecessary notifications.
+I clienti che utilizzano la pagina principale precedente riceveranno una comunicazione chiara sulla tempistica della rimozione e sui passaggi di migrazione. Verrà fornito il supporto per consentire di spostare la pagina principale nella nuova piattaforma Experience Builder, in modo da trarre vantaggio dalle nuove funzioni e dagli aggiornamenti in corso.
 
-To create an announcement for the assigned scope:
+### Supporto per localizzazione e accesso
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Announcement]** in the left navigation pane.
-3. Select **[!UICONTROL Add]**. 
-   
-   ![](/help/migrated/assets/create-add-announcement.png)
-   _Announcements page in Adobe Learning Manager, where administrators can create and manage announcements for targeted user groups_
+#### Logica di fallback locale
 
-4. Select the **[!UICONTROL Announcement Type]** from the dropdown menu.
-        a. **[!UICONTROL As Notification]**
-        b. **[!UICONTROL As Masthead]**
-        c. **[!UICONTROL As Recommendation]**
-        d. **[!UICONTROL As Email]**
-5. Select **[!UICONTROL As Masthead]**. 
-6. Select the language and upload an image for the masthead. 
-7. Optionally, add a URL for the action button. 
-   
-   ![](/help/migrated/assets/announcement-screen.png)
-   _Create Announcement screen allowing administrators to set announcement type, upload attachments, and add action buttons_
+Il sistema visualizza le pagine nelle impostazioni locali in cui sono state create. Se la lingua di un utente non è disponibile, il sistema utilizza una logica di fallback per selezionare la successiva lingua migliore disponibile. Ciò garantisce agli utenti di visualizzare sempre i contenuti in una lingua supportata, migliorando l&#39;accessibilità e la soddisfazione degli utenti.
 
-    The assigned scope is pre-selected in the **[!UICONTROL Scope]** section and cannot be modified by administrators.
-    
-    >[!NOTE]
-    >
-    >**[!UICONTROL For Notification]** and **[!UICONTROL Email]** announcements, they can include additional user groups and catalogs if these overlap with their assigned scope.
+#### Tipi di accesso supportati
 
-8. Select **[!UICONTROL Save]**.
+L&#39;esperienza senza accesso supporta tutti i tipi di accesso disponibili in ALM, inclusi SSO e accesso standard. Gli utenti possono sfogliare i contenuti senza accedere e verrà richiesto di accedere quando necessario, ad esempio per iscriversi a un corso o accedere a funzioni personalizzate. Ciò garantisce una transizione fluida dalla navigazione al coinvolgimento.
 
-Only learners within the custom administrator's scope will be able to view the announcement. See this [article](/help/migrated/administrators/feature-summary/announcements.md) to learn how to create multiple types of announcements. 
 
-### Reset the scope by Custom administrators
+### API senza accesso
 
-Custom administrators can reset the scope of their published announcements if an administrator has changed the scope of them. Once the scope is reset, the updated scope will be applied to the announcement, and only learners within the new scope will be able to see the announcement.
+#### API oggetto di apprendimento Amministratore
 
-To reset the scope:
+Le pagine Experience Builder e i portali headless non connessi spesso organizzano o filtrano i corsi in base al prodotto e al ruolo. L’API di Admin LO è stata migliorata per garantire che queste associazioni siano sempre accessibili per le integrazioni back-end e headless, nonché per il connettore TDA.
 
-1. Log in to Adobe Learning Manager as a custom administrator.
-2. Select **[!UICONTROL Announcement]** in the left navigation pane.
-3. Select **[!UICONTROL Published]** tab.
-4. Select any announcement and then select setting icon. 
-5. Select **[!UICONTROL Edit]**. 
+**Endpoint e comportamento**
 
-   ![](assets/select-edit-published-announcement.png)
-   _Announcement screen showing the published announcements with edit, publish and other options_
+Continuerai a utilizzare l’endpoint LO di amministrazione esistente:
 
-6. Select **Reset**. 
+```
+GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
+```
 
-   ![](assets/reset-the-scope.png)
-   _Announcement showing a scope change notification, with an option for custom administrators to reset and update the scope selection to reflect new access permissions_
+Dove:
 
-The scope will be updated, and only users within the updated scope will be able to view the announcement.
+* loId è l’ID dell’oggetto di apprendimento (ad esempio corso:12345).
+* enforcedFields[learningObject] indica all&#39;API di includere in modo esplicito i prodotti e i ruoli per l&#39;oggetto di apprendimento.
 
-### Edit the announcement through administrator UI
+A tale scopo, assicurati che le associazioni di prodotto e ruolo degli LO siano presenti nella risposta quando richiesto tramite enforcedFields. La risposta contiene quindi, in attributi, i metadati del prodotto e del ruolo necessari per calcolare o esporre i prodotti (rec\_products) e i ruoli (rec\_roles) consigliati per Experience Builder e altri consumer.
 
-Administrators can view announcements created by custom administrators through their interface. They have the ability to edit these announcements only by modifying or removing the assigned scope. If scope changes are not made, administrators cannot make further edits to the announcement.
+Una chiamata tipica di un amministratore o di un&#39;integrazione ha un aspetto simile al seguente:
 
-To edit the announcement through administrator UI:
+```
+url -X GET \
+ "https://{your-domain}/primeapi/v2/learningObjects/course:12345?enforcedFields[learningObject]=products,roles" \
+ -H "Authorization: Bearer {admin\_token}" \
+ -H "Accept: application/vnd.api+json
+```
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Announcement]** in the left navigation pane.
-3. Select **[!UICONTROL Published]** tab.
-4. Select any announcement and then select setting icon.
-5. Select **[!UICONTROL Edit]**. 
+Il JSON LO restituito ha la stessa struttura di base di prima, ma ora puoi fare affidamento sui campi prodotto/ruolo presenti quando li richiedi con enforcedFields. Le integrazioni che non utilizzano enforcedFields continuano a comportarsi come prima.
 
-   ![](assets/select-edit-published-announcement.png)
-   _Announcement screen showing the published announcements with edit, publish and other options_
+#### Elenco Oggetti di apprendimento - Supporto JobAid nel filtro effectiveModifiedDate
 
-6. Select **[!UICONTROL Remove]**. 
-   
-   ![](assets/remove-the-scope.png)
-   _Announcement screen indicating that scope must be removed to allow administrators to edit announcements created for scoped user groups_
+**Scopo**
 
-Administrator can edit the announcement after removing the scope.
+Il connettore Accesso ai dati di formazione (TDA) e le implementazioni headless devono spesso eseguire una sincronizzazione incrementale, in base alla **data effettiva di modifica** degli oggetti di apprendimento. Fino a questa versione, le risorse formative (jobAid di tipo LO) non venivano gestite correttamente se combinate con i filtri effectiveModifiedDate. Questa versione corregge questo problema in modo che le risorse formative possano essere sincronizzate in modo incrementale come corsi e percorsi di apprendimento.
 
-## Tag users in social boards
+**Endpoint e comportamento**
 
-**Overview**
+L&#39;endpoint dell&#39;elenco di oggetti di apprendimento esistente viene utilizzato con i filtri di data e il tipo di oggetto di apprendimento:
 
-Social learning boards now support user tagging functionality, enabling more targeted discussions and improved collaboration within learning communities. Learners can be tagged in social learning posts and comments through the learner app, APIs, and Adobe Learning Manager reference site.
+```
+GET /primeapi/v2/learningObjects
+ ?filter.effectiveModifiedDate.fromDate=2025-03-15T13:14:56.000Z
+ &filter.effectiveModifiedDate.toDate=2025-03-20T13:14:56.000Z
+ &filter.loTypes=jobAid
+```
 
-**What's new**
+In precedenza, quando filter.loTypes=jobAid veniva combinato con un intervallo effectiveModifiedDate, il filtro escludeva effettivamente le risorse formative e la chiamata si comportava come se le risorse formative non fossero supportate.
 
-* **@username tagging**: Users can tag other board members using the "@username" format.
-* **Scope-restricted tagging**: Only users with access to the specific board can be tagged, ensuring privacy and relevance.
-* **Multi-channel notifications**: Tagged users receive both in-app and email notifications with direct links to relevant posts or comments.
-
-**Key features**
-
-* Users outside the board's scope cannot be tagged, preventing unwanted notifications.
-* If a tagged user is deleted from the system, their mention appears as "anonymous".
-* Tagging user groups or "@all" is not permitted to prevent notification spam.
-
-**Use cases**
-
-* Healthcare professionals seeking input from specific colleagues on medical cases.
-* Subject matter experts being consulted on specialized topics.
-* Team discussions requiring input from specific stakeholders.
-* Knowledge sharing sessions with targeted expert involvement.
-
-### Tag users in social board posts
-
-Learners can now tag specific board members in posts or comments using @username. Tagging is limited to members with access to that board.
-
-To tag users in a social board:
-
-1. Log in to Adobe Learning Manager as a learner. 
-2. Select **[!UICONTROL Social Learning]** in the left navigation pane.
-   
-   ![](/help/migrated/assets/select-social-learning-admin.png)
-   _Enable collaborative learning by selecting Social Learning to access discussion boards, share insights, and tag users for interactive engagement_
-
-3. Select **[!UICONTROL New Post]**.
-   
-   ![](assets/select-new-post.png)
-   _Start a new discussion by selecting New Post in Social Learning to share knowledge with the tagged users_
-
-4. Before tagging users, select the board from the **[!UICONTROL Post this to a Discussion Board]** option.
-
-   ![](assets/select-boards-in-social-board.png)
-   _Select a discussion board to post and tag users, enabling targeted collaborative conversations in Social Learning_
-
-5. Type your post details, then tag a user by entering the @ symbol followed by their name (for example, @andrew). When you type @ followed by the first three letters of the user's name, it displays a list of matching users.
- 
-   ![](assets/type-a-user-tag.png)
-   _Tag users in your discussion post by typing @ followed by the username to enable targeted collaboration within Social Learning boards_
-
-6. Select the desired user from the list.
-7. Select **[!UICONTROL Post]**. 
-
-The tagged users receive both in-app and email notifications with a direct link to the post, making discussions more targeted and collaborative.
-
-### Tag users based on the board's scope
-
-Scope-restricted tagging allows users to tag only those learners who have permission to access a specific board. This helps maintain privacy by preventing tagging of users outside the scope. 
-
-If you try tagging learners who are outside the board's scope, no suggestions will appear, and you won't be able to tag them. Refer to this [article](/help/migrated/administrators/feature-summary/social-learning-configurations-as-an-admin.md) to learn more about Social Learning Scope. 
-
-## Tag deleted users in comments
-
-If a user who has been deleted is tagged in a Social Learning post, their name will show as Anonymous in the post. The comment and tag remain visible for context, but profile link or details are not shown.
-
-![](assets/deleted-users-tagged.png) 
-_Social Learning post highlighting how a deleted user appears as Anonymous when tagged_
-
-## Job Aids report with direct access links
-
-**Overview**
-
-The Job Aids report has been enhanced to include direct download links to job aids, streamlining content management and audit processes for administrators and authors.
-
-**What's new**
-
-* Job Aid Link column: Direct access to job aid files and external URLs from within the report.
-* Role-based access control: Link accessibility depends on user roles and catalog permissions.
-* Deleted job aids remain accessible if still linked to active courses.
-
-**Key benefits**
-
-* Direct file downloads and URL access from within the report.
-* Eliminates manual effort in locating and downloading job aids for compliance or accessibility audits. 
-
-**Use cases**
-
-* Authors or administrators conduct regular accessibility audits on job aids, as required by large organizations.
-* Any scenario where quick, role-based access to job aid files is needed for review or compliance.
-
-### Job Aids Report with the new column
-
-See this [article](/help/migrated/administrators/feature-summary/reports.md#job-aids-report) to learn how to download Job Aids Report.
-
-The Job Aids Report can be downloaded from the Reports section and now includes direct download links for each job aid.
-
-![](assets/job-aid-report.png) 
-_Job Aids Report displays direct download links, making it easy to access and download job aids in Adobe Learning Manager_
-
-## API updates
-
-### Learner API enhancements for quiz performance tracking
-
-**Overview**
-
-The `GET /loResourceGrades` API has been enhanced to provide detailed quiz performance data, enabling more sophisticated analytics and automated decision-making.
-
-**What's new**
-
-The API response now includes two additional fields:
-
-* **[!UICONTROL highestScore]**: The best score achieved by a learner across all quiz attempts
-* **[!UICONTROL maxScore]**: The total possible score for the quiz
-
-**API response example**
+A partire da questo aggiornamento, la chiamata restituisce solo oggetti di apprendimento JobAid il cui effectiveModifiedDate rientra nella finestra specificata.
 
 ```
 {
-    "links": {
-        "self": "https://learningmanagerstage1.adobe.com/primeapi/v2/loResourceGrades/course:15067_30122_41715_1_3400468"
-    },
-    "data": {
-        "id": "course:15067_30122_41715_1_3400468",
-        "type": "learningObjectResourceGrade",
-        "attributes": {
-            "completed": false,
-            "duration": 0,
-            "hasPassed": false,
-            "highestScore": 0,
-            "maxScore": 0,. 
-            "progressPercent": 0,
-            "score": 0
-        },
-        "relationships": {
-            "loResource": {
-                "data": {
-                    "id": "course:15067_30122_41715_1",
-                    "type": "learningObjectResource"
-                }
-            }
-        }
-    }
+ "links": {
+ "self": "https://acapapiserver/primeapi/v2/learningObjects?page[limit]=10&filter.effectiveModifiedDate.fromDate=2026-01-19T13:14:56.000Z&filter.effectiveModifiedDate.toDate=2026-01-21T13:14:56.000Z&filter.loTypes=jobAid"
+ },
+ "data": [
+ {
+ "id": "jobAid:144968",
+ "type": "learningObject",
+ "attributes": {
+ "authorNames": ["Author"],
+ "dateCreated": "2026-01-20T08:48:55.000Z",
+ "datePublished": "2026-01-20T08:48:55.000Z",
+ "dateUpdated": "2026-01-20T08:48:55.000Z",
+ "effectiveModifiedDate": "2026-01-05T07:31:18.000Z",
+ "loType": "jobAid",
+ "loFormat": "Content",
+ "loResourceType": "Content",
+ "localizedMetadata": [
+ {
+ "description": "Link jobAid new",
+ "locale": "en-US",
+ "name": "Link jobAid new"
+ },
+ {
+ "description": "Link jobAid new fre",
+ "locale": "fr-FR",
+ "name": "Link jobAid new fre"
+ }
+ ],
+ "relationships": {
+ "authors": {
+ "data": [
+ { "id": "13385176", "type": "user" }
+ ]
+ },
+ "instances": {
+ "data": [
+ { "id": "jobAid:144891\_-1", "type": "learningObjectInstance" }
+ ]
+ }
+ }
+ }
+ }
+ ]
 }
 ```
 
-In response, **course:15067_30122_41715_1_3400468** is the ID of the Learning Object resource grade for which the information is being requested. The `learningObjectResourceGrad`e id can be obtained from the `GET /enrollments/{id}` API.  
+Ciò significa che ora è possibile implementare in modo sicuro le sincronizzazioni incrementali delle risorse formative basate su effectiveModifiedDate, come già avviene per altri tipi.
 
-**Key benefits**
+Se si omette filter.loTypes=jobAid, il comportamento degli altri tipi di LO rimane invariato; la modifica interessa solo la combinazione di JobAid con tale filtro.
 
-* Enables detailed quiz performance analysis for learning effectiveness measurement.
-* Supports progression rules based on highest achievement rather than most recent attempts.
-* Provides complete picture of learner quiz performance over time.
+#### **API menu: filtro menu non connesso**
 
-**How the API works**
+**Scopo**
 
-1. A user attempts a quiz multiple times; each attempt is recorded.
-2. The API provides both the highest score achieved and the maximum possible score for the quiz.
-3. External systems can use this data to trigger automated actions, such as enrolling users in new courses based on their best performance.
+Experience Builder e headless front-end necessitano di un modo semplice per recuperare il **menu senza accesso** , quello che definisce la navigazione per i visitatori pubblici. Prima di questa versione, dovevi recuperare tutti i menu e quindi applicare una logica personalizzata per identificare quale rappresentava la navigazione senza accesso. Questa versione aggiunge un semplice filtro lato server.
 
-**Use cases**
+**Endpoint e comportamento**
 
-* Headless learning systems require automated enrollment decisions.
-* Learning analytics platforms tracking learner achievement patterns.
-* Compliance systems with performance-based progression requirements.
-
-### Migration API enhancements
-
-**Overview**
-Adobe Learning Manager now supports the migration of various data objects into an account via the migration process. This process can be initiated via both APIs and the User Interface. When a migration fails, errors are available for download via the interface. These errors are useful in debugging migration errors and managing the migration runs. 
-
-With this release, the error logs will also be available to download via the APIs for efficient, programmatic error tracking and debugging.
-
-**API changes**
-
-There is a new migration API, `runStatus`, which allows integration administrators to check the status of migration runs triggered via the API, something not possible in previous versions of Adobe Learning Manager. 
-
-Additionally, `runStatus` API now provides a direct link to download error logs (CSV) for completed runs. Note that the link is valid for seven days only, and the logs are retained for one month.
-
-The `startRun` API's response has been updated to include the migration project ID, sprint ID, and sprint run ID, which are required to query the new status endpoint. 
-
-#### runStatus API
-
-**Description**
-
-Retrieves the status of an existing migration run.
-
-**Endpoint**
+Utilizzare l&#39;endpoint di elenco Menu esistente con un nuovo parametro di query:
 
 ```
-GET /bulkimport/runStatus
+GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true
 ```
 
-**Parameters**
+I punti chiave:
 
-* **migrationProjectId**: (Required). A unique identifier for a migration project. A migration project is used to transfer data and content from an existing Learning Management System (LMS) to Adobe Learning Manager. Each migration project can consist of multiple sprints, which are smaller units of migration tasks.
+* include=pages,subMenus.pages è facoltativo ma consigliato quando si desidera visualizzare i dettagli della pagina e del sottomenu nella stessa risposta.
+* isNonLoggedIn=true è una novità di questa release e indica al server di restituire solo i menu contrassegnati come non connessi.
 
-* **sprintId**: (Required). A unique identifier for a sprint within a migration project. A sprint is a subset of migration tasks that includes specific learning items (e.g., courses, modules, learner records) to be migrated from an existing LMS to Adobe Learning Manager. Each sprint can be executed independently, allowing for phased migration.
+Senza il parametro isNonLoggedIn, l&#39;endpoint si comporta esattamente come prima e restituisce i menu in base al comportamento predefinito esistente. Con isNonLoggedIn=true, in genere restituisce il singolo menu utilizzato dall&#39;esperienza senza accesso per l&#39;account (poiché normalmente esiste un menu senza accesso per account).
 
-* **sprintRunId**: (Required). A unique identifier used to track the execution of a specific sprint within a migration project. It's associated with the actual migration process for the items defined in a sprint. The sprintRunId helps in monitoring, troubleshooting, and managing the migration job.
-
-**Response**
-
-```
-{
-  "sprintId": 2510080,
-  "sprintRunId": 2740845,
-  "migrationProjectId": 2509173,
-  "startTime": 1746524711052,
-  "endTime": 1746524711052,
-  [
-    {
-      "id": 2609923,
-      "lastHeartbeatTime": 1746524711052,
-      "objectName": "content",
-      "jobState": "COMPLETED",
-      "errorCsvLink": "",
-      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
-      "sequenceNumber": 1
-    },
-    {
-      "id": 2609922,
-      "lastHeartbeatTime": 1746524713577,
-      "objectName": "course",
-      "jobState": "WAITING_IN_QUEUE",
-      "errorCsvLink": "",
-      "errorLogLink": null,
-      "sequenceNumber": 2
-    }
-  ]
-}
-```
-
-#### startRun API
-
-The `startRun` API response was updated to include three additional fields- migrationProjectId, sprintId, and sprintRunId. These fields allow users to track and query the status of specific migration runs using the new runStatus API.
+In pratica, un cliente può ora emettere:
 
 ```
-curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+curl -X GET \
+ "https://{your-domain}/primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true" \
+ -H "Authorization: Bearer {admin\_token}" \
+ -H "Accept: application/vnd.api+json"
 ```
 
-Produces the following response. The response contains:
+e ripristina la struttura di navigazione senza accesso con una sola chiamata, con tutte le pagine che dovrebbero essere visibili ai visitatori anonimi.
 
-* migrationId
-* sprintId
-* sprintRunId
+Ciò è particolarmente utile quando si crea un sito senza intestazione per cui non è stato effettuato l&#39;accesso e si desidera eseguire il mirroring della stessa navigazione utilizzata da Experience Builder o quando si esegue il debug per verificare se il menu senza accesso è stato configurato correttamente.
 
-**Response**
+### Consenti elenco di domini personalizzati
 
-```
-{
-  "status": "OK",
-  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
-  "source": {
-    "info": "Success",
-    "migrationInfo": {
-      "migrationProjectId": "001",
-      "sprintId": "10001",
-      "sprintRunId": "7"
-    }
-  }
-}
-```
+Lo stack non connesso è costituito da:
 
-### Social API changes (user tag, comments, and replies)
+* Un dominio CDN pubblico (ad esempio cpcontents.adobe.com o yourdomain.example.com) che fornisce layout, codice JSON di configurazione e risorse statiche.
+* Endpoint di Elasticsearch pubblico (ES) che serve i dati del catalogo e della ricerca, ma solo se la richiesta proviene da un **dominio elencato consentito** per l&#39;account ALM.
 
-**Overview**
+Quando introduci un dominio personalizzato, funziona senza problemi, seguendo il processo esistente per l’aggiunta di un dominio personalizzato.
 
-Adobe Learning Manager now supports @user tagging functionality in Social Learning boards, enabling learners to mention and notify peers within posts, comments, and replies. This feature enhances collaboration and content discovery across the platform.
+#### Prerequisiti
 
-This release introduces new API capabilities to support user mentions, including enhanced POST and GET endpoints, as well as a new search functionality for tagged users.
+Prima di autorizzare un dominio personalizzato per gli utenti che non effettuano l’accesso:
 
-**API changes overview**
+1. Il dominio personalizzato è configurato per l&#39;account ALM (ad esempio, DNS per academy.yourcompany.com punta ad Adobe / Akamai e viene eseguito il provisioning dei certificati).
+2. Il connettore **Accesso ai dati di formazione** è abilitato per l&#39;account.
+3. La funzionalità **Experience Builder** non connesso è abilitata (lato Adobe).
 
-* Updated POST APIs for creating posts/comments/replies with user mentions
-* Updated GET APIs with user mention data in responses
+Queste fasi garantiscono che:
 
-**Format of user mentions**
+* L&#39;account dispone di un **account JSON** non connesso (spesso indicato come accountConfig / experienceBuilderConfig), che include campi come cpDomain, almDomain, almCdnBaseUrl, esBaseUrl e i domini consentiti elencati.
+* Lo stack non connesso sa dove fornire i dati e da quali domini deve accettare le richieste.
 
-A user is mentioned using the format: @(user:userId)
+#### Funzionamento di Consenti elenchi
 
-#### Create post with mentions
+L’elenco degli indirizzi consentiti viene archiviato nella configurazione esportata da TDA e nello stack non connesso. Tale configurazione include:
 
-**Endpoint**
+* I domini ALM (cpDomain, almDomain).
+* **URL di base CDN** per il contenuto non connesso (almCdnBaseUrl).
+* **URL di base per la ricerca pubblica** (esBaseUrl).
+* L’elenco dei domini che possono effettuare chiamate pubbliche senza accesso per quell’account.
 
-```
-POST /primeapi/v2/posts
-```
+Per utilizzare Experience Builder senza accesso in un dominio personalizzato:
 
-**Description**
+* Il browser deve caricare il HTML non connesso da quel dominio personalizzato (o dal dominio CDN ALM non connesso, a seconda della configurazione).
+* Le chiamate da tale dominio agli endpoint pubblici ES e CDN devono essere accettate. Ciò accade solo se il dominio è presente nell&#39;elenco degli indirizzi consentiti.
 
-Create a new social learning post with user mentions.
+Questa versione aggiunge un nuovo dominio CDN non connesso, cpcontents.adobe.com, e specifica che deve essere inserito nei **domini consentiti** nel connettore TDA. Per gli utenti nativi esistenti non connessi, questo richiede un aggiornamento.
 
-**Request body**
+#### Elenco Consentiti di un dominio personalizzato
 
-```
-{
-  "data": {
-    "type": "post",
-    "attributes": {
-      "boardId": 13282,
-      "accountId": 11152,
-      "text": "<p>This is a new post mentioning @[user:11257229]</p>",
-      "createdByUserId": 11257228,
-      "postType": "discussion"
-    },
-    "id": null
-  }
-}
-```
+**Configurare il dominio personalizzato in ALM**
 
-**Response**
+Utilizza Adobe per registrare il tuo dominio, ad esempio academy.yourcompany.com, come dominio personalizzato per il tuo account ALM. Aggiornare DNS per puntare ad Adobe Akamai come indicato e attendere il completamento di SSL e routing.
 
-Standard post creation response with mention data included in the _userMentions_ relationship.
+A questo punto, sia il traffico connesso che quello non connesso possono raggiungere ALM attraverso tale dominio, ma le chiamate di ricerca e catalogo non collegate possono ancora essere bloccate se il dominio non è inserito nell’elenco Consentiti.
 
-#### Create comment with mentions
+**Abilita TDA e Experience Builder non connesso**
 
-**Endpoint**
+Assicurati che:
 
-```
-POST /primeapi/v2/comments
-```
+* Il connettore **Training Data Access** è abilitato.
+* La funzionalità **non connesso di Experience Builder** è attivata per l&#39;account.
 
-**Description** 
+L’abilitazione di TDA crea o aggiorna il JSON dell’account non connesso. Per i nuovi account, il processo inserisce nell’elenco Consentiti anche il nuovo dominio CDN non connesso (cpcontent.adobe.com) per impostazione predefinita, pertanto l’endpoint ES pubblico prevede chiamate da tale dominio.
 
-Add a comment to a post with user mentions.
+Per gli account che utilizzavano già lo stack precedente non connesso, i connettori esistenti devono essere eliminati e ricreati per raccogliere il nuovo dominio.
 
-**Request body**
+**Aggiungere il dominio personalizzato all&#39;elenco Consentiti**
 
-```
-{
-  "data": {
-    "type": "comment",
-    "attributes": {
-      "postId": 20746,
-      "accountId": 11152,
-      "text": "<p>Test Comment @[user:11257229]</p>",
-      "createdByUserId": 11257228,
-      "commentLevel": 0
-    },
-    "id": null
-  }
-}
-```
+La parte critica sta dicendo allo stack ES non connesso che academy.yourcompany.com è un&#39;origine approvata. Esistono due percorsi comuni.
 
-#### Create reply with mentions
+1. **Riattivare il connettore TDA (semplice, self-service)**
 
-**Endpoint**
+Gli utenti nativi non connessi esistenti dovranno eliminare e riabilitare la connessione TDA in modo che il nuovo dominio venga inserito automaticamente nell’elenco Consentiti. In questo modo si ottengono due risultati:
 
-```
-POST /primeapi/v2/replies
-```
+1. Il JSON dell’account non connesso viene rigenerato.
+2. I domini inseriti nell’elenco Consentiti vengono aggiornati per includere il nuovo dominio CDN non connesso e il dominio personalizzato.
 
-**Description**
+Questa operazione è consigliata quando si dispone di un numero limitato di account e può tollerare la disattivazione temporanea e la riattivazione del connettore.
 
-Reply to a comment with user mentions.
+1. **Verificare che il dominio sia effettivamente inserito nell&#39;elenco Consentiti**
 
-**Request body**
+Dopo l’inserimento nell’elenco Consentiti, apri il sito non connesso sul dominio personalizzato e controlla le chiamate di rete del browser.
+
+Desideri visualizzare:
+
+* Richieste ad almCdnBaseUrl (ad esempio <https://cpcontent.adobe.com/>...) che succede con 200/304.
+* Richieste a esBaseUrl (API di ricerca pubblica, ad esempio <https://primeapps.adobe.com/almsearch/api/v1/>) operazione riuscita, restituendo JSON con i dati di ricerca/catalogo.
+
+Se queste chiamate restituiscono errori 4xx o espliciti che suggeriscono &quot;dominio non attendibile&quot; o &quot;origine non consentita&quot;, l’elenco Consentiti è incompleto o non configurato correttamente e il supporto deve modificarlo.
+
+L’LLD non connesso rileva inoltre che la configurazione dell’account può contenere un valore di dominio previsto. In fase di runtime, il sito verifica che il dominio nell&#39;URL corrisponda a quanto impostato nella configurazione; in caso contrario, l&#39;utente può essere reindirizzato a una pagina di errore. In questo modo è possibile evitare che la configurazione di un cliente sia accessibile tramite il dominio di un altro cliente.
+
+### Utilizzo dei consigli in Experience Builder senza accesso
+
+Experience Builder non connesso consente di creare pagine di apprendimento pubbliche in cui i visitatori possono sfogliare il catalogo e visualizzare i contenuti evidenziati prima di accedere. Anche se questi visitatori sono anonimi, puoi comunque presentare i corsi di formazione consigliati utilizzando metadati e widget.
+
+Nell’app per Allievi che ha effettuato l’accesso, i consigli possono essere personalizzati in base al profilo, alla cronologia, alle abilità e ai progressi dell’Allievo. Nell&#39;esperienza **senza accesso**, l&#39;identità dell&#39;Allievo non è ancora presente, pertanto la piattaforma non può essere personalizzata per utente.
+
+Recommendations in modalità senza accesso:
+
+* **Selezionato o basato su regole**: basato su catalogo, prodotto, ruolo, etichette, tag e altri metadati.
+* **Orientamento ai segmenti**: &quot;consigliato agli sviluppatori&quot;, &quot;consigliato ai partner&quot;, &quot;in primo piano per i principianti&quot;.
+* **Orientamento al marketing**: utilizzato per attirare e guidare i visitatori a iscriversi una volta effettuato l’accesso.
+
+### Metadati e API che supportano i suggerimenti
+
+Dietro le quinte, le pagine non connesse utilizzano:
+
+* **Connettore TDA** per esportare i metadati degli oggetti di apprendimento (corsi, percorsi, certificazioni, risorse formative) in un indice di ricerca pubblico.
+* **stack di ricerca pubblico** per rispondere alle query dei widget non connessi (catalogo, ricerca, corsi e percorsi, categorie).
+* L&#39;API **Admin Learning Objects** per esporre i metadati di prodotto e ruolo che possono essere utilizzati per le regole dei suggerimenti.
+
+In questa versione, l’API degli oggetti di apprendimento (API) di amministrazione è stata estesa in modo che le associazioni di prodotti e ruoli siano disponibili in modo affidabile:
 
 ```
-{
-  "data": {
-    "type": "reply",
-    "attributes": {
-      "postId": 20746,
-      "accountId": 11152,
-      "text": "<p>Thanks for the update @[user:11257229]</p>",
-      "createdByUserId": 11257228,
-      "commentLevel": 1,
-      "parentCommentId": 55621
-    },
-    "id": null
-  }
-}
+GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
 ```
 
-#### Retrieve posts with mentions
+Ciò consente ai widget e alle integrazioni headless di creare consigli basati su regole utilizzando prodotti, ruoli, etichette di catalogo, tag e altri campi in modo coerente.
 
-**Endpoint**
+### Progettazione delle sezioni dei suggerimenti con i widget di Experience Builder
 
-```
-GET /primeapi/v2/posts/{id}
-```
+Puoi creare sezioni di suggerimenti su pagine non connesse combinando **widget Experience Builder** con filtri per metadati.
 
-**Description**
+#### **Widget Corsi e percorsi**
 
-Retrieve post details, including mentioned users.
+Utilizza il widget **Corsi e percorsi** per visualizzare una riga o una griglia di elementi consigliati. Nella configurazione è possibile scegliere:
 
-**Response**
+* Cataloghi da cui estrarre.
+* Etichette di catalogo, prodotti, ruoli o tag da utilizzare come filtri.
+* Indica se visualizzare corsi, percorsi, certificazioni, risorse formative o una combinazione.
+* Ordinamento e numero massimo di elementi.
 
-```
-{
-  "links": {
-    "self": "https://learningmanager.adobe.com/primeapi/v2/posts/7522"
-  },
-  "data": {
-    "id": "7522",
-    "type": "post",
-    "attributes": {
-      "commentCount": 3,
-      "dateCreated": "2025-06-10T11:33:29.000Z",
-      "dateUpdated": "2025-06-25T14:52:04.000Z",
-      "downVote": 0,
-      "postingType": "DEFAULT",
-      "richText": "<p>my updated fourth post @[user:14707776] second mention my first post</p>",
-      "state": "ACTIVE",
-      "text": "my updated fourth post @[user:14707776] second mention my first post",
-      "upVote": 0,
-      "viewsCount": 0
-    },
-    "relationships": {
-      "createdBy": {
-        "data": {
-          "id": "14707776",
-          "type": "user"
-        }
-      },
-      "parent": {
-        "data": {
-          "id": "3971",
-          "type": "board"
-        }
-      },
-      "userMentions": {
-        "data": [
-          {
-            "id": "14707776",
-            "type": "user"
-          }
-        ]
-      }
-    }
-  },
-  "included": [
-    {
-      "id": "14707776",
-      "type": "user",
-      "attributes": {
-        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg",
-        "binUserId": "45664b87-75a3-43ec-b0b7-5064958eac6f",
-        "email": "user@example.com",
-        "enrollOnClick": false,
-        "fields": {
-          "Location": "BLR"
-        },
-        "gamificationEnabled": true,
-        "lastLoginDate": "2025-06-27T11:21:17.000Z",
-        "name": "John Doe",
-        "pointsEarned": 1690,
-        "pointsRedeemed": 0,
-        "preferredResolution": "AUTO",
-        "profile": "admin",
-        "roles": [
-          "Learner",
-          "Admin",
-          "Author",
-          "Instructor",
-          "Integration Admin",
-          "Manager"
-        ],
-        "state": "ACTIVE",
-        "userType": "Internal"
-      },
-      "relationships": {
-        "account": {
-          "data": {
-            "id": "9238",
-            "type": "account"
-          }
-        }
-      }
-    }
-  ]
-}
-```
+Ad esempio, potete creare:
 
-### Social API changes (user search)
+* &quot;Consigliato agli sviluppatori&quot;: filtra in base a un prodotto o ruolo utilizzato per il contenuto degli sviluppatori.
+* &quot;Inizia qui&quot;: filtra in base a un&#39;etichetta come &quot;Starter&quot; o &quot;Onboarding&quot;.
+* &quot;In evidenza questo trimestre&quot;: filtro basato su un&#39;etichetta con limiti di tempo come featureq3-2026.
 
-**Endpoint**
+Il widget non impara dal comportamento, ma mostra tutto ciò che corrisponde alle regole di metadati definite. Dal punto di vista di un visitatore, tuttavia, sembra una striscia di consigli.
+
+#### **Widget Categorie**
+
+Utilizza il widget **Categorie** per consentire ai visitatori di accedere ai set di contenuti &quot;consigliati&quot;, anche se non conoscono i nomi dei prodotti.
+
+Potete configurare porzioni che rappresentano ciascuna un segmento, ad esempio:
+
+* &quot;Per gli amministratori&quot;
+* &quot;Per i team di vendita&quot;
+* &quot;Per i partner&quot;
+* &quot;Per linea di prodotto&quot;
+
+Ogni riquadro può collegarsi a:
+
+* Pagina di un catalogo filtrato, ad esempio il catalogo filtrato in base a determinati prodotti o etichette.
+* Una pagina dedicata senza accesso che utilizza corsi e percorsi preconfigurati per quel segmento.
+
+In questo modo si ottiene un&#39;esperienza &quot;percorsi consigliati per segmento&quot; senza personalizzazione.
+
+### Creazione di consigli basati sui segmenti
+
+Poiché i visitatori non connessi non dispongono ancora di un profilo ALM, è utile progettare i suggerimenti **per segmento** e consentire ai visitatori di effettuare la selezione autonomamente.
+
+1. Utilizza una **home page non registrata** che spiega brevemente a chi si rivolge l&#39;Accademia e mostra un piccolo numero di punti di ingresso del segmento (ad esempio, &quot;Sviluppatori&quot;, &quot;Commercianti&quot;, &quot;Partner&quot;, &quot;Nuovi dipendenti&quot;). Questa operazione può essere eseguita con un widget Categorie, una semplice casella Contenuto o una sezione HTML con pulsanti.
+2. Per ogni segmento, crea una **pagina dedicata non connessa** in Experience Builder. In questa pagina utilizza uno o più widget di corsi e percorsi configurati con filtri che rappresentano i &quot;suggerimenti&quot; per il gruppo. Ad esempio, per &quot;Sviluppatori&quot; potete filtrare su:
+   1. Catalogo = &quot;Formazione pubblica&quot;
+   2. Prodotto = &quot;Adobe Experience Manager&quot;
+   3. Tags = &quot;Fondamenti per sviluppatori&quot;
+3. Utilizzare queste pagine di segmenti come destinazione delle campagne di marketing e come destinazione dei riquadri nella home page del sito non connesso.
+
+I visitatori percepiscono che stanno visualizzando consigli su misura per la loro situazione, anche se la logica è definita in fase di progettazione tramite i metadati.
+
+### Transizione da consigli non connessi a consigli personalizzati
+
+I suggerimenti non connessi riguardano principalmente la **individuabilità** e la **conversione**. Quando i visitatori decidono di iscriversi o iniziare un corso di formazione, accedono e diventano Allievi a tempo pieno con un profilo e una cronologia.
+
+Il flusso abituale è:
+
+1. Un visitatore individua i contenuti attraverso le sezioni dei suggerimenti non registrate (consigli di casa, pagine di destinazione dei segmenti, righe in evidenza).
+2. Fai clic su una panoramica del corso o del percorso e scegli di iscriverti o iniziare.
+3. ALM richiede di registrarsi o accedere.
+4. Dopo l’accesso, l’esperienza Allievo standard che ha effettuato l’accesso subentra, tra cui:
+   1. &quot;Il mio apprendimento&quot;
+   2. Catalogo connesso con avanzamento personale
+   3. Tutti i sistemi di raccomandazione interni utilizzati per gli Allievi esistenti.
+
+In altre parole, i consigli di accesso li aiutano a decidere cosa fare dopo e continuare.
+
+### Come utilizzare le risorse formative nel nuovo Experience Builder non connesso
+
+Nell&#39;**interfaccia utente**, le risorse formative partecipano a esperienze senza accesso principalmente tramite i widget che possono mostrare gli oggetti di apprendimento:
+
+1. **Widget di corsi e percorsi**
+Questo widget può mostrare più tipi di LO, incluse le risorse formative. Nelle pagine senza accesso, è possibile configurarlo per:
+   1. Includere o escludere esplicitamente le risorse formative.
+   2. Filtra le risorse formative per catalogo, prodotto, ruolo, etichette, tag e altri metadati.
+   3. Presentali insieme a corsi e percorsi o come una striscia &quot;Risorse&quot; separata.
+
+Ad esempio, in una pagina di destinazione pubblica è possibile configurare una striscia denominata &quot;Risorse utili&quot; che mostra solo risorse formative e un’altra striscia denominata &quot;Corsi consigliati&quot; che mostra corsi e percorsi.
+
+1. **Pagina del catalogo e ricerca**
+Le superfici **catalogo** e **ricerca** non registrate utilizzano l&#39;indice di ricerca pubblico (alimentato dal connettore Accesso ai dati della formazione). L&#39;indice ora supporta correttamente le risorse formative, pertanto:
+   1. I risultati della ricerca senza accesso possono includere risorse formative.
+   2. Filtri catalogo non registrati (per tipo, prodotto, tag, ecc.) possono includere risorse formative, a condizione che la configurazione dell’account e i widget siano impostati per visualizzarli.
+2. **Pagine di panoramica LO**
+Quando un visitatore fa clic su una risorsa formativa da un qualsiasi widget o dal catalogo, viene visualizzata una **pagina di panoramica dell&#39;LO** per tale risorsa formativa in modalità senza accesso. Da lì, possono leggere la sua descrizione e i metadati. Il download o l’utilizzo effettivo in genere richiede ancora l’accesso, ma la presenza e l’individuazione della risorsa formativa stessa vengono gestite dall’esperienza senza accesso.
+
+### Come visualizzare le risorse formative tramite le API senza accesso
+
+Sul **lato API**, le risorse formative sono supportate da:
+
+1. **Connettore Accesso ai dati di formazione e ricerca pubblica**
+TDA esporta i metadati della risorsa formativa insieme ad altri tipi di LO nell’indice di ricerca pubblico che serve le query di ricerca e catalogo non registrate. Questo è ciò su cui si basano Experience Builder e i front-end headless.
+2. Elenco **Oggetti di apprendimento con effectiveModifiedDate**
+In questa versione, l’endpoint dell’elenco di oggetti di apprendimento è stato corretto in modo che le risorse formative funzionino correttamente con il filtro effectiveModifiedDate. Ora puoi chiamare:
 
 ```
-GET /primeapi/v2/users/search?q={searchTerm}&context=tagging
+GET /primeapi/v2/learningObjects
+ ?filter.effectiveModifiedDate.fromDate=2026-01-19T13:14:56.000Z
+ &filter.effectiveModifiedDate.toDate=2026-01-21T13:14:56.000Z
+ &filter.loTypes=jobAid
 ```
 
-**Description**
+Prima di questa modifica, la combinazione di effectiveModifiedDate con loTypes=jobAid non restituiva le risorse formative in modo affidabile. Ciò significa che:
 
-Search for users available for tagging based on social scope settings.
+1. I tuoi lavori TDA o ETL possono **sincronizzare in modo incrementale le risorse formative** per esperienze senza accesso, allo stesso modo dei corsi e dei percorsi.
+2. Qualsiasi implementazione headless che crea una directory pubblica della risorsa formativa può eseguire query sulle modifiche in base a effectiveModifiedDate e loType=jobAid.
 
-**Request parameters**
+**Nota**:
 
+Nello stato senza accesso:
 
-* q (required): Search term (minimum 3 characters).
-* context: Set to "tagging" to get users eligible for mentions.
-* boardId (optional): Board ID to filter users based on access permissions.
+* Le risorse formative sono principalmente **individuabili**: i visitatori possono vedere che esistono, leggere le descrizioni e comprendere come supportano argomenti o corsi.
+* Il **consumo** effettivo (download o apertura del contenuto della risorsa formativa) in genere richiede ancora l&#39;accesso, soprattutto se le risorse formative sono considerate parte di contenuto interno o con licenza.
 
-**Response**
+### Modifiche nella breve descrizione nella ricerca LO (senza accesso)
 
-```
-{
-  "data": [
-    {
-      "id": "11257229",
-      "type": "user",
-      "attributes": {
-        "name": "Jane Smith",
-        "email": "jane.smith@example.com",
-        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg",
-        "userType": "Internal",
-        "state": "ACTIVE"
-      }
-    }
-  ]
-}
-```
+Nello stack non connesso, la ricerca e l’elenco degli oggetti di apprendimento (LO) sono basati sul connettore Accesso ai dati di formazione (TDA) e su un indice di Elasticsearch pubblico. In passato, questo stack utilizzava un singolo campo di panoramica/descrizione per ogni LO. I clienti che creavano portali headless senza accesso desideravano mostrare la stessa breve descrizione sui riquadri LO visualizzata nell’interfaccia utente dell’Allievo che aveva effettuato l’accesso, anziché la sola panoramica lunga.
 
-### Implementation guidelines
+La modifica introduce il supporto per l&#39;LO **breve descrizione** nelle API di ricerca ed elenco non registrate:
 
-#### Character limits
+* Per **corsi**, la semantica dell&#39;interfaccia utente esistente è:
+* Le schede per l’accesso mostrano una breve descrizione (campo di 140 caratteri), se presente, altrimenti tornano alla lunga panoramica dettagliata.
+* Per i **percorsi di apprendimento**, l’interfaccia utente che ha effettuato l’accesso utilizza il campo Benefit come descrizione breve, se definita, e torna alla panoramica in caso contrario.
+* Per le **certificazioni** viene utilizzata una breve descrizione, con una panoramica della certificazione più lunga come fallback.
+* Per **risorse formative**, viene utilizzato il campo di descrizione principale.
 
-* Posts: 4000-character limit applies, with each tagged user reducing available characters by a fixed amount.
-* Comments: 1000-character limit.
+### Altre modifiche
 
-#### Mention validation
+#### Limitazione per cui due account non possono condividere lo stesso dominio personalizzato
 
-* Users can only be tagged by username or email (not UUID).
-* Internal users cannot tag external users and vice versa.
-* Tagging availability follows existing social scope settings.
-* Board permissions determine tagging eligibility (Public/Private).
+Nelle architetture di Adobe Learning Manager senza accesso e con accesso, un **dominio personalizzato** (ad esempio, academy.example.com) viene considerato come una chiave univoca globale che deve essere mappata esattamente a un account ALM, pertanto la piattaforma applica una restrizione rigida in base alla quale **due account non possono condividere lo stesso dominio personalizzato**. Questo è richiesto per sicurezza, routing e SEO: il livello di routing e lo stack non connesso utilizzano il dominio per cercare la configurazione corretta dell’account (inclusi il relativo account non connesso JSON, i menu Experience Builder, il branding e gli endpoint TDA/di ricerca),
 
-#### Notifications
+Consentendo lo stesso dominio personalizzato su due account, non sarebbe possibile garantire quali dati dell&#39;account vengono restituiti, potrebbe causare una perdita tra tenant e danneggiare gli artefatti generati come sitemap.xml e robots.txt prodotti per account ma rilevati dai motori di ricerca per host. Dal punto di vista operativo, ciò significa che quando si assegna o si sposta un dominio personalizzato, è necessario prima assicurarsi che non sia associato a nessun altro account (o cancellarlo) e gli strumenti interni di Adobe rifiuteranno i tentativi di associare lo stesso dominio a più account.
 
-* Multiple mentions of the same user in one post result in a single notification.
-* Original post owner receives notifications only when specifically tagged.
+#### Cache del browser delle risorse nell’esperienza senza accesso
 
-#### Error handling
+Nell’esperienza senza accesso di Adobe Learning Manager, la memorizzazione delle risorse nella cache dei browser è una parte fondamentale della strategia di prestazioni e scalabilità, poiché le pagine pubbliche devono gestire un traffico di marketing ampio, a volte piccante, con bassa latenza e carico di origine minimo. Risorse statiche e semistatiche come la shell di HTML senza accesso (ad esempio, index.html/guest.html), la configurazione a livello di account JSON (account.json o config.json), il layout di pagina JSON di Experience Builder (menu, layout di widget, impostazioni delle schede), CSS, JS, immagini e favicon vengono forniti da un CDN Akamai (cpcontents.adobe.com / cpcontent.adobe.com) con intestazioni di cache che incoraggiano il riutilizzo sia lato CDN che lato browser, in modo che dopo il caricamento della prima pagina il browser possa eseguire il rendering delle pagine successive senza accesso in gran parte dalla propria cache, riconvalidando solo quando necessario tramite ETag o Ultima modifica.
 
-* Invalid user IDs in mentions return validation errors.
-* GDPR and soft-deleted users appear anonymous in tagged content.
+## Risorse formative multilingue
 
-### Language-based learner progress
+### Introduzione
 
-Currently, learner progress is tracked only for the selected locale language, causing significant progress loss when switching languages/locales in the player. This limitation creates poor user experience where learners lose their learning progress when exploring content in different languages.
+Le risorse formative multilingue in Adobe Learning Manager (ALM) consentono agli autori e agli amministratori di fornire documenti di supporto, guide o risorse in più lingue all&#39;interno di una singola voce della risorsa formativa. Gli Allievi di diverse aree geografiche possono accedere ai materiali pertinenti nella lingua preferita, migliorando la comprensione, la conformità e l’esperienza dell’utente.
 
-**Current issues**
+### Comportamento precedente
 
-* **Progress override**: The progress for each module in the player is tracked at both the user and module levels. This leads to a situation where a user's progress is overridden when they switch back to a previously used locale for the same module.
-* **Progress reset**: For instance, if a learner achieves 75% progress in Locale A (English) and then switches to Locale B (Spanish), upon returning to Locale A, their progress resets to 0% instead of resuming from 75%.
+In precedenza, le risorse formative in ALM supportavano solo un singolo file di contenuto per risorsa formativa, anche quando il nome e la descrizione potevano essere localizzati. Per fornire la stessa risorsa in più lingue, gli autori dovevano creare risorse formative separate per ogni lingua. Ciò ha portato a duplicazioni, confusione e aumento del sovraccarico amministrativo. Non esisteva un modo unificato per gestire le risorse multilingue, il che rendeva difficile garantire la coerenza e tenere traccia dell&#39;utilizzo.
 
-To resolve these limitations, the API has been enhanced to support locale-specific progress tracking:
+### Casi d’uso
 
-* **Locale-specific storage**: When a learner switches locales (for example, from Locale A to Locale B) within the player, the system now saves the progress state separately for each locale of the content.
-* **Progress resumption**: When the user switches back to a previously used locale (from Locale B back to Locale A), the content resumes from where they left off in that specific locale.
-* **Independent progress tracking**: Each locale maintains its own state of progress, allowing learners to explore content in multiple languages without losing their individual progress in each language.
+* **Abilitazione della forza lavoro globale**: consegna di manuali di sicurezza, guide di processo o documenti di riferimento in più lingue a una forza lavoro diversificata.
+* **Conformità alle normative**: assicurati che tutti i dipendenti ricevano la stessa documentazione sulla conformità nella loro lingua nativa.
+* **Onboarding coerente**: fornisci elenchi di controllo di onboarding o domande frequenti nelle lingue locali per i nuovi assunti in tutto il mondo.
+* **Duplicazione ridotta**: gestisci tutte le versioni linguistiche di una risorsa formativa in un&#39;unica voce, semplificando gli aggiornamenti e la creazione di report.
 
-#### API changes
+### Funzioni principali
 
-The following APIs have been enhanced to support the new locale parameter:
+* **Supporto di più lingue**: allega un file o un URL univoco per ogni lingua supportata all&#39;interno di una singola risorsa formativa.
+* **Nome e descrizione localizzati**: immettere il nome e la descrizione della risorsa formativa in ogni lingua.
+* **Gestione unificata**: modifica, aggiornamento e creazione di report per tutte le versioni linguistiche da un&#39;unica posizione.
+* **Compatibilità con le versioni precedenti**: le risorse formative monolingua esistenti vengono replicate automaticamente in tutte le lingue aggiunte fino al caricamento di nuovi file.
 
-* GET Player State API
-* POST Player State API
+### Creare una risorsa formativa multilingue
 
-#### GET Player State API
+1. Accedi al ruolo Autore e seleziona **Risorse formative**.
+2. Seleziona **Crea risorsa formativa**.
+3. Immetti il nome e la descrizione della risorsa formativa nella lingua predefinita.
+4. Aggiungi il file di contenuto principale o l’URL per la lingua predefinita.
+5. Salva la risorsa formativa.
 
-**Endpoint**
+### Aggiungere altre lingue
 
-```
-GET /primeapi/v2/users/{userId}/playerState
-```
+1. Nell&#39;editor della risorsa formativa, seleziona **Aggiungi lingua**.
+2. Selezionare la lingua o le lingue desiderate dall&#39;elenco.
+3. Per ogni lingua aggiunta:
+   * Immetti il nome e la descrizione localizzati.
+   * Carica il file di contenuto corrispondente o fornisci un URL specifico per la lingua.
+4. Ripetete questa operazione per tutte le lingue richieste.
 
-**Description**
+### Modificare e gestire le lingue
 
-Retrieves the current state of a learning object for a specific user and locale.
+1. Per aggiornare un file o una descrizione per una lingua specifica, selezionare la scheda Lingua e apportare le modifiche necessarie.
+2. Se dopo la pubblicazione della risorsa formativa viene aggiunta una lingua, il file originale viene assegnato automaticamente alla nuova lingua fino a quando non viene caricato un file univoco.
+3. Rimuovi o sostituisci i file per qualsiasi lingua in base alle esigenze.
 
-**Parameters**
+### Publish e l’esperienza degli allievi
 
-|Parameter |Type |Location |Required |Description |
-|---|---|---|---|---|
-|userId |String |Path |Yes |Unique identifier of the user |
-|loId |String |Query |Yes |Learning Object identifier in format lo:{id} |
-|loResourceId |String |Query |Yes |Learning Object resource identifier in format course:{loId_loInstanceId_moduleId_moduleVersion}|
-|csrf_token |String |Query |Yes |CSRF protection token |
-|locale |String |Query |Optional |Locale identifier for language-specific progress (e.g., "en-US", "es-ES") |
+1. Dopo aver aggiunto tutte le lingue e tutti i file, pubblica la risorsa formativa.
+2. Gli Allievi visualizzano la risorsa formativa nella lingua dei contenuti selezionati, con il file o l’URL appropriato.
+3. Se la lingua di un Allievo non è disponibile, viene visualizzato il file della lingua predefinita.
 
-**Example request**
+### Report
 
-```
-GET /primeapi/v2/users/12345/playerState?loId=lo:67890&loResourceId=course:67890_1_mod123_v2&csrf_token=abc123&locale=en-US
-```
+1. Scarica i report delle risorse formative per visualizzare i dettagli di tutti i file e le lingue associati a ciascuna risorsa formativa.
+2. I report includono la lingua, il nome file e i dati di utilizzo per il tracciamento.
 
-**Response behavior**
+### Procedure ottimali
 
-* If the locale parameter is provided and a locale-specific state exists, the API returns the progress for that locale.
-* If the locale parameter is provided but no locale-specific state exists, the API performs a fallback search for the default state.
-* If the locale parameter is omitted, the API returns the default state (maintains backward compatibility).
-* For headless requests where the locale is null, the API falls back to the default state lookup.
+* Traduzione accurata di nomi, descrizioni e file di contenuto.
+* Rivedi e aggiorna regolarmente i file per garantire coerenza tra le lingue.
+* Utilizzare chiare convenzioni di denominazione per distinguere i file in base alla lingua.
+* Prova l’esperienza dell’Allievo cambiando le lingue dei contenuti per verificare la corretta distribuzione dei file.
 
-#### POST Player State API
+### Risoluzione dei problemi
 
-**Endpoint**
+* **File mancante per una lingua**: viene visualizzato il file predefinito. Assicurati che in tutte le lingue sia caricato il file corretto.
+* **Risorse formative precedenti**: aggiungi nuovi file di lingua per sostituire gli originali replicati automaticamente.
+* **Lingua errata visualizzata**: controlla le impostazioni della lingua del contenuto dell’Allievo e la configurazione della lingua della risorsa formativa.
 
-POST /primeapi/v2/users/{userId}/playerState
+Le risorse formative multilingue consentono di fornire risorse di supporto a un pubblico globale in una singola voce, ridurre la duplicazione e garantire che ogni Allievo riceva le informazioni corrette nella lingua preferita. Questa funzione migliora l’accessibilità, la conformità e l’efficienza amministrativa in Adobe Learning Manager.
 
-**Description**
+## Ottieni risposte con l’Assistente all’intelligenza artificiale per gli Allievi
 
-Updates or creates the current state of a learning object for a specific user and locale.
+L’Assistente all’intelligenza artificiale per gli Allievi è un assistente conversazionale basato sull’intelligenza artificiale in Adobe Learning Manager progettato per aiutarti a trovare più rapidamente le informazioni di cui hai bisogno. Ponendo domande in linguaggio naturale, è possibile ottenere spiegazioni contestuali, corsi pertinenti e recuperare informazioni dai contenuti di apprendimento, senza sfogliare manualmente i cataloghi.
 
-**Parameters**
+### Funzionalità
 
-|Parameter |Type |Location |Required |Description |
-|---|---|---|---|---|
-|userId |String |Path |Yes |Unique identifier of the user |
-|loId |String |Query |Yes |Learning Object identifier in format lo:{id} |
-|loResourceId |String |Query |Yes |Learning Object resource identifier in format course:{loId_loInstanceId_moduleId_moduleVersion} |
-|csrf_token |String |Query |Yes |CSRF protection token |
-|locale |String |Query |Optional |Locale identifier for language-sp|
+* **Risposta intelligente alle domande:** gestisce le conversazioni sia a turno singolo che a turno multiplo, consentendo di porre domande in modo naturale. Le risposte derivano da corsi, percorsi di apprendimento, certificazioni e risorse formative.
+* **Risposte basate sul contenuto con citazioni:** estrae informazioni direttamente dai materiali di apprendimento e include citazioni che rimandano al corso, al modulo o alla risorsa originale.
+* **Ampia compatibilità dei contenuti:** supporta un&#39;ampia gamma di formati, inclusi documenti, presentazioni, video, file audio, contenuti HTML e moduli SCORM (Sharable Content Object Reference Model).
+* **Esperienza utente uniforme:** disponibile come pannello laterale nelle pagine degli Allievi, mantenendo la cronologia della chat basata sulla sessione per la continuità.
+* **Controlli di amministratore affidabili:** gli amministratori possono abilitare o disabilitare l&#39;assistente, limitare l&#39;accesso da parte dei gruppi di utenti e scegliere i cataloghi interni utilizzati come origine per le risposte generate dall&#39;intelligenza artificiale.
 
-**Request body**
+### Vantaggi
 
-The request body contains the Learning Object state data specific to the locale.
+* **Accesso più rapido alle conoscenze:** ricevi risposte immediate alle tue domande, eliminando la necessità di navigare in più corsi o documenti.
+* **Maggiore coinvolgimento:** le interazioni conversazionali rendono l&#39;esperienza di apprendimento più naturale, intuitiva e accessibile.
+* **Migliore comprensione:** puoi porre domande di follow-up per chiarire i concetti ed esplorare gli argomenti in modo più approfondito.
+* **Supporto scalabile per l&#39;apprendimento:** risposte automatizzate basate sull&#39;intelligenza artificiale che riducono al minimo la dipendenza da esperti e team di supporto specializzati.
 
-**Example request**
+Ulteriori informazioni su [Assistente AI per gli Allievi](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
 
-```
-POST /primeapi/v2/users/12345/playerState?loId=lo:67890&loResourceId=course:67890_1_mod123_v2&csrf_token=abc123&locale=en-US
-```
+## Supporto di tracce di testo video (VTT) multilingue
 
-```
-{
-  "progress": 75,
-  "completionStatus": "incomplete",
-  "timeSpent": 1800,
-  "lastAccessedPage": 5,
-  // Additional state data
-}
-```
+Il supporto delle tracce di testo video (VTT) multilingue in Adobe Learning Manager consente agli autori di fornire sottotitoli e didascalie per contenuti video e audio in più lingue. Questa funzione semplifica la localizzazione, rendendo i corsi di formazione accessibili a un pubblico globale e garantendo la conformità agli standard di accessibilità. Gli autori possono generare, tradurre, rivedere e modificare automaticamente i file VTT direttamente all’interno della piattaforma.
 
-The API creates or updates the Learning Object state for the specified locale.
+### Casi di utilizzo
 
-## Go1 integration enhancements
+* **Formazione globale:** distribuisci contenuti video con sottotitoli in più lingue per raggiungere gli Allievi internazionali.
+* **Conformità all&#39;accessibilità:** fornite sottotitoli agli utenti audiolesi nella lingua preferita.
+* **Localizzazione più rapida:** ridurre l&#39;impegno manuale e accelerare l&#39;implementazione dei contenuti generando e traducendo automaticamente i file VTT.
+* **Esperienza coerente:** assicurati che tutti gli allievi ricevano le stesse informazioni, indipendentemente dalla lingua.
 
-**Overview**
+### Funzioni principali
 
-Go1 integration is enhanced to allow direct curation of Go1 courses for creating Learning Programs (LP) within Adobe Learning Manager. This update supports the inclusion of Go1 courses in recurring certifications and introduces a new version of the Go1 content hub experience, enabling more efficient course curation.
+* **Traduzione multilingue:** traduci i sottotitoli in una delle 39 lingue non inglesi supportate.
+* **Revisione e modifica in-app:** rivedere, modificare e scaricare i file VTT prima della pubblicazione.
+* **Notifiche:** ricezione di notifiche in-app al termine della generazione e della traduzione VTT.
+* **Pubblicazione fluida:** sottotitoli finalizzati da Publish a cui gli Allievi possono accedere nella lingua scelta.
 
-**What's new**
+### Caricare contenuti e generare VTT
 
-* Create and manage playlists directly within Go1 using AI chat assistance or manual selection.
-* Include Go1 courses in recurring certification cycles with automatic progress reset.
-* Upgraded content discovery interface for improved browsing and content curation.
+1. Accedi alla Libreria dei contenuti e seleziona **Aggiungi > Contenuto**.
+2. Carica il file MP3 o MP4.
+3. Nella finestra di dialogo di caricamento, seleziona l&#39;opzione per **Generare le traduzioni**.
+4. Selezionare la lingua del contenuto originale (l&#39;impostazione predefinita è la lingua del file).
+5. Seleziona altre lingue di destinazione per la traduzione (fino a 39 supportate).
+6. Seleziona **Salva**. Il sistema inizia a generare e a tradurre i file VTT.
 
-**Key benefits**
+### Monitorare l’avanzamento
 
-* AI-assisted playlist creation significantly speeds content grouping and delivery.
-* Enables use of Go1 content for recurring regulatory training requirements.
-* Clear preview-and-purchase model supports informed content investment decisions.
-* Improved discovery and curation tools for better content management.
+1. Dopo il salvataggio, la nuova voce di contenuto viene visualizzata nella libreria dei contenuti.
+2. Un indicatore di avanzamento mostra lo stato della generazione e della traduzione VTT.
+3. Una volta completato il processo, riceverai una notifica in-app.
 
-**Important notes**
+### Rivedere e modificare i file VTT
 
-* All Go1 features require an active Go1 license.
-* Previous free Go1 content will be decommissioned. Organizations must preview and purchase required content bundles.
-* Administrators and authors can create and manage playlists; learners maintain view-only access.
+1. Nella Libreria dei contenuti, apri il contenuto in modalità **Modifica**.
+2. Per ogni lingua, selezionate il collegamento **Revisione** accanto al file VTT.
+3. In un pop-up vengono visualizzati i sottotitoli per quella lingua.
+4. Modifica i sottotitoli direttamente nella finestra a comparsa o scarica il file VTT per la modifica offline.
+5. Dopo aver apportato le modifiche, carica o incolla di nuovo i sottotitoli revisionati nella finestra a comparsa.
+6. Salvate le modifiche.
 
-**Use cases**
+### Sottotitoli Publish
 
-* Organizations requiring extensive external content libraries for comprehensive training programs.
-* Compliance-focused training programs needing regular content updates and delivery cycles.
-* Learning teams are seeking to reduce content curation overhead through AI assistance.
+1. Quando sei soddisfatto/a dei sottotitoli in tutte le lingue, pubblica il contenuto.
+2. Durante la visualizzazione del video, gli Allievi visualizzano le opzioni per i sottotitoli in tutte le lingue pubblicate.
 
-### Add Go1 playlist to a Learning Path
+### Informazioni aggiuntive
 
-Administrators can create a learning path that includes a Go1 playlist, so learners can access selected third-party courses as part of their training.
+* **Lingue supportate:** Tutte le 39 lingue non inglesi supportate da Adobe Learning Manager.
+* **Notifiche:** gli autori ricevono una notifica al termine della generazione e della traduzione VTT.
+* **Flessibilità di modifica:** i sottotitoli possono essere modificati in-app o offline e ricaricati.
+* **Scalabilità:** progettata per esigenze di localizzazione e accessibilità su scala aziendale.
+* **Nessuna necessità di caricamento manuale VTT:** il sistema può generare file VTT da zero utilizzando il video/audio caricato.
 
-To create a learning path:
+### Procedure consigliate
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Learning Paths]** in the left navigation pane. 
-3. Select **[!UICONTROL Add]**. 
+* Prima della pubblicazione, verifica sempre l’accuratezza dei sottotitoli generati automaticamente.
+* Fornire traduzioni per tutti i principali gruppi di Allievi per massimizzare l’accessibilità.
+* Utilizza il sistema di notifica per restare aggiornato sullo stato dell’elaborazione.
+* Aggiorna regolarmente i sottotitoli se il contenuto video cambia.
 
-   ![](assets/select-add-to-lp.png)
-   _Select Add in the Learning Paths section to create and organize new structured training programs for your learners_
+### Risoluzione dei problemi
 
-4. Type the required details and select **[!UICONTROL Save]**. See this [article](/help/migrated/administrators/feature-summary/learning-paths.md) for more information. 
-5. Select **[!UICONTROL Add Go1 Courses]**.
+* Se la generazione VTT non riesce, assicurati che il file sia in un formato supportato (MP3/MP4).
+* Per le lingue mancanti, verifica che siano supportate e selezionate durante il caricamento.
+* Se i sottotitoli non sono sincronizzati, utilizza l’editor in-app per regolare i tempi.
 
-   ![alt text](assets/select-go1-courses.png)
-   _Add Go1 courses to your Sales Engineers Skill Development playlist to expand learning options with curated third-party content_
+Il supporto multilingue per il VTT consente di offrire esperienze di apprendimento video accessibili e localizzate in modo efficiente. Utilizzando la generazione automatica, la traduzione e la modifica in-app, puoi assicurarti che i tuoi contenuti raggiungano e supportino tutti gli Allievi, indipendentemente dalla lingua.
 
-6. In the **[!UICONTROL Library]**, search for and select **[!UICONTROL Create playlist]** and choose from one of the following:
-    a. **[!UICONTROL with AI]**: Create a playlist with the help of AI.
-    b. **[!UICONTROL by myself]**: Create a playlist by manually adding courses to it. 
+## Progettare certificati personalizzati
 
-**Create a playlist with AI**
+I certificati personalizzati in Adobe Learning Manager (ALM) consentono ad amministratori e autori di progettare, gestire ed emettere certificati personalizzati per gli Allievi. La funzione include un editor drag-and-drop, campi dinamici, supporto multilingue e sfondi generati dall&#39;intelligenza artificiale, in modo che le organizzazioni possano creare certificati con marchio senza competenze tecniche.
 
-Administrators can type the playlist description in the AI prompt. The AI will curate the related courses and create a playlist based on the requirements. AI generates playlists by interpreting the learning goal or prompt provided by the user. When creating a playlist, admins can select to curate content 'with AI' which allows the system to use large language models to understand the specified learning objectives and content preferences like duration and type. The AI then searches the content library for relevant learning objects that match these criteria.
+### Comportamento precedente
 
-To create a playlist with AI:
+In precedenza, la creazione di certificati in ALM era limitata dalla rigidità dei modelli, dalla mancanza di personalizzazione e dalle barriere tecniche (come la modifica dei HTML). I clienti richiedevano modi più semplici per progettare certificati, aggiungere campi dinamici (come il nome dell’Allievo o dell’Istruttore) e supportare più lingue, il tutto mantenendo la coerenza del marchio e l’attrattiva visiva.
 
-1. Select **[!UICONTROL Create playlist]** and then select **[!UICONTROL with AI]**.
-   
-   ![](assets/select-by-AI-playlist.png)
-   _Create curated playlists with AI, which enables automated course recommendations tailored to learner needs_
+### Casi d’uso
 
-2. Type a short description about your playlist in the **[!UICONTROL Enter your learning goal]** text field.
-3. Select **[!UICONTROL Next]**. 
-   
-   ![](assets/type-a-prompt.png)
-   _Type your learning goal to create a custom playlist, helping Adobe Learning Manager recommend targeted courses tailored to your learners' needs_
+* **Riconoscimento con marchio**: rilascia certificati con loghi, colori e font aziendali per conformità, formazione o realizzazione.
+* **Personalizzazione dinamica**: compila automaticamente i nomi degli Allievi, degli Istruttori e di altri campi attivi.
+* **Distribuzione multilingue**: fornisci certificati in più lingue per gli Allievi globali.
+* **Design flessibile**: crea certificati orizzontali o verticali, utilizza sfondi generati dall&#39;intelligenza artificiale e visualizza l&#39;anteprima prima della pubblicazione.
 
-4. Choose the skills from the list.
-   
-   ![](assets/select-skills.png)
-   _Choose the skills from the list to curate the courses for the Sales Engineer_
-5. Select the course duration and type for your playlist.
-6. Select **[!UICONTROL Generate playlist]**. The playlist is created with 10 courses, and administrators can use it to create a Learning Path.
-   
-   ![](assets/created-playlist.png)
-   _Review your curated Sales Engineer Skills Enhancement Playlist in Adobe Learning Manager_
-7. Select **[!UICONTROL Add to Library]**.
-8. Select **Yes** in the confirmation prompt.
-9. Select the playlist from the **[!UICONTROL Select playlist to import prompt]**. 
+### Accedere a certificati personalizzati
 
-   ![](assets/add-playlist-to-lp.png)
-   _Select and import the Sales Engineer Skills Enhancement Playlist from the Go1 Library in Adobe Learning Manager_
+1. Vai alla sezione **Risultati raggiunti** nella home page dell&#39;amministratore (precedentemente denominati **Distintivi**).
+2. Selezionare **Certificati** per visualizzare, creare o gestire i modelli di certificato.
 
-10. Select **[!UICONTROL Add Playlists to Learning Path]** and then **[!UICONTROL Publish]**. 
+### Creare un certificato
 
-The courses in the playlist will be added to the Learning Path. Administrators can then enroll learners, who can immediately begin taking the courses.
+1. Selezionare **Crea certificato**.
+2. Selezionate l’orientamento verticale o orizzontale.
+3. Seleziona un modello esistente o inizia da un&#39;area di lavoro vuota.
+4. Immettere un nome di certificato e la lingua predefinita.
+5. Utilizza l’editor di trascinamento della selezione per aggiungere:
+   * Campi di testo (con font, colore e opzioni di posizionamento)
+   * Immagini (loghi, icone, ecc.)
+   * Campi dinamici (nome dell’Allievo, nome dell’Istruttore, ecc.)
+   * Sfondi di certificati (tinta unita, immagine caricata o immagine generata dall&#39;intelligenza artificiale)
+6. Per sfondi generati dall&#39;intelligenza artificiale: immetti un messaggio (ad esempio, &quot;studenti in una classe&quot;) per generare sfondi utilizzando l&#39;intelligenza artificiale.
 
-**Create a playlist manually**
+### Aggiungi campi dinamici
 
-Manually select courses that best match learners' requirements and curate additional relevant courses.
+I campi dinamici nei certificati personalizzati di Adobe Learning Manager sono segnaposto che vengono compilati automaticamente con le informazioni pertinenti, ad esempio il nome dell’Allievo, del istruttore o altri dati specifici dell’account, al momento della generazione del certificato, consentendo di creare certificati personalizzati e sensibili al contesto senza modifiche manuali.
 
-To create a playlist manually:
+1. Inserisci variabili dinamiche, ad esempio il nome dell’Allievo, dell’Istruttore o di altri campi attivi.
+2. I campi vengono compilati automaticamente quando viene rilasciato il certificato.
 
-1. Select **[!UICONTROL Create playlist]** and then select **[!UICONTROL by myself]**.
-   
-   ![](assets/select-manual-playlist.png)
-   _Manually create a playlist giving administrators full control to curate courses based on specific learner needs_
+### Supporto multilingue
 
-2. Type the title and description of your playlist.
- 
-   ![](assets/type-title-and-description.png)
-   _Add a title and description to your playlist in Adobe Learning Manager to clearly define its purpose and help guide learners toward targeted skill development_
+1. Aggiungi nuove lingue (ad esempio, francese e tedesco) al certificato.
+2. Immetti il testo tradotto per ogni lingua.
+3. Gestire le traduzioni e visualizzare in anteprima i certificati in ogni lingua.
 
-3. Select **[!UICONTROL Create]**. 
-4. Select **[!UICONTROL Add item]** to add the related courses. 
-   
-   ![](assets/add-items.png)
-   _Add items to your Sales Engineers Skill Development playlist in Adobe Learning Manager to curate targeted courses_
+### Anteprima e pubblicazione
 
-5. Search and select the required courses. 
+1. Utilizza la funzione di anteprima per vedere come apparirà il certificato agli Allievi.
+2. Scaricate o stampate l’anteprima per la revisione.
+3. Salva come bozza per continuare a modificare in seguito o pubblica quando è pronto.
 
-The playlist has been created with related courses, and administrators can use it to create a learning path. 
+### Applicare i certificati
 
-## Save player state progress for languages
+1. Gli amministratori possono impostare i certificati predefiniti per l’account.
+2. Gli Autori possono allegare certificati a istanze specifiche degli oggetti di apprendimento (corsi, percorsi, ecc.).
+3. Selezionare certificati diversi a livello di istanza in base alle esigenze.
 
-**Overview**
+### Gestire i certificati
 
-The Fluidic Player now saves your progress separately for each language within a module. This means you can switch between languages and pick up exactly where you left off in each one, instead of losing your progress and starting over.
+1. Visualizzare i certificati pubblicati e bozze nella libreria.
+2. Modifica, aggiorna o elimina i modelli in base alle esigenze.
+3. I certificati possono essere riutilizzati in più istanze.
 
-**Key benefits**
+I certificati personalizzati in ALM forniscono un modo flessibile per progettare e rilasciare certificati personalizzati, con marchio e multilingue. La funzione semplifica la gestione dei certificati, migliora il riconoscimento degli Allievi e supporta le esigenze di conformità globale e branding.
 
-* Jump between languages and resume from your exact position in each one.
-* Perfect for learners who need to access content in multiple languages during their learning journey.
-* Complete the module in any language while maintaining progress in all languages you've accessed.
+## Risorse formative multilingue
 
-**Use cases**
+Le risorse formative multilingue in Adobe Learning Manager (ALM) consentono agli autori e agli amministratori di fornire documenti di supporto, guide o risorse in più lingue all&#39;interno di una singola voce della risorsa formativa. Gli Allievi di diverse aree geografiche possono accedere ai materiali pertinenti nella lingua preferita, il che migliora l’accessibilità, la conformità e l’esperienza utente.
 
-* Global organizations with employees who speak multiple languages and may need to reference content in their native language and English.
-* Compliance training where learners might start in one language but need to complete in another for certification purposes.
-* Technical training programs where learners might understand concepts better in their native language but need English terminology for their work.
+### Comportamento precedente
 
-**Important notes**
+In precedenza, ALM consentiva un solo file di contenuto per risorsa formativa, anche se il nome e la descrizione potevano essere localizzati. Per fornire la stessa risorsa in più lingue, gli autori dovevano creare risorse formative separate per ogni lingua. Ciò ha portato a duplicazioni, confusione e un maggiore sforzo amministrativo. Non esisteva un modo unificato per gestire le risorse multilingue, il che rendeva difficile garantire la coerenza e tenere traccia dell&#39;utilizzo.
 
-* The Fluidic Player's language preference is retained within a session. If a learner changes the language and moves to another module, the new language is used for subsequent modules, as long as the player remains open.
-* The grade (completion status) is still tracked at the module level, not per locale. The first locale in which the completion criteria are met will update the grade for the module. If a learner completes the module in one language and then switches to another, any further grade updates will be overwritten from the previous grade, but progress for each locale is still preserved.
+### Casi d’uso
 
-## Custom roles import support in incremental user import
+* **Abilitazione della forza lavoro globale**: consegna di manuali di sicurezza, guide di processo o documenti di riferimento in più lingue a una forza lavoro diversificata.
+* **Conformità alle normative**: assicurati che tutti i dipendenti ricevano la stessa documentazione sulla conformità nella loro lingua nativa.
+* **Onboarding coerente**: fornisci elenchi di controllo di onboarding o domande frequenti nelle lingue locali per i nuovi assunti in tutto il mondo.
+* **Duplicazione ridotta**: gestisci tutte le versioni linguistiche di una risorsa formativa in un&#39;unica voce, semplificando gli aggiornamenti e la creazione di report.
 
-Adobe Learning Manager now supports custom role imports in the existing multi-incremental user import workflow (regular full user import + incremental enabled flow). This enhancement allows role.csv and user_role.csv files to be uploaded and processed incrementally, without requiring full data uploads each time.
+### Creare una risorsa formativa multilingue
 
-Previously, role.csv and user_role.csv files could only be uploaded in full mode, meaning administrators had to include all previously added role definitions and assignments in every upload. With this new incremental support, only new or modified role data needs to be uploaded, reducing overheads and improving efficiency.
+1. Accedi al ruolo Autore e seleziona **Risorse formative**.
+2. Seleziona **Crea risorsa formativa**.
+3. Immetti il nome e la descrizione della risorsa formativa nella lingua predefinita.
+4. Carica il file di contenuto principale o fornisci un URL per la lingua predefinita.
+5. Salva la risorsa formativa.
 
-**What's new**
+### Aggiungere altre lingue
 
-1. Incremental support for custom roles and role assignments:
+1. Nell&#39;editor della risorsa formativa, seleziona **Aggiungi lingua**.
+2. Selezionare la lingua o le lingue desiderate dall&#39;elenco.
+3. Per ogni lingua aggiunta:
+   * Immetti il nome e la descrizione localizzati.
+   * Carica il file di contenuto corrispondente o fornisci un URL specifico per la lingua.
+4. Ripetete questa operazione per tutte le lingue richieste.
 
-    * role.csv  and  user_role.csv can now be processed incrementally in the multi-file incremental workflow.
-    * No need to upload all existing role and user role data with every import.
+### Modificare e gestire le lingue
 
-2. Enhanced multi-incremental workflow implementation:
+1. Per aggiornare un file o una descrizione per una lingua specifica, selezionare la scheda Lingua e apportare le modifiche necessarie.
+2. Se dopo la pubblicazione della risorsa formativa viene aggiunta una lingua, il file originale viene assegnato automaticamente alla nuova lingua fino a quando non viene caricato un file univoco.
+3. Rimuovi o sostituisci i file per qualsiasi lingua in base alle esigenze.
 
-    * Create separate folders in FTP for each uploaded user import file.
-    * Each folder contains:
+### Publish e l’esperienza degli allievi
 
-        * The user import file- (File1.csv)
-        * Corresponding role and role assignment files- (File1_role.csv, File1_user_role.csv)
+1. Dopo aver aggiunto tutte le lingue e tutti i file, pubblica la risorsa formativa.
+2. Gli Allievi visualizzano la risorsa formativa nella lingua dei contenuti selezionati, con il file o l’URL appropriato.
+3. Se la lingua di un Allievo non è disponibile, viene visualizzato il file della lingua predefinita.
 
-    For example, user1.csv corresponds to user1_role.csv (custom roles) and user1_user_roles.csv (user-role mapping).
+### Report
 
-    **Example FTP structure before processing:**
+1. Scarica i report delle risorse formative per visualizzare i dettagli di tutti i file e le lingue associati a ciascuna risorsa formativa.
+2. I report includono la lingua, il nome file e i dati di utilizzo per il tracciamento.
 
-    ```
-    import/user/internal/  
-         File1.csv  
-         File2.csv  
-        File3.csv  
+Le risorse formative multilingue in ALM consentono di fornire risorse di supporto a un pubblico globale in un&#39;unica voce, ridurre la duplicazione e garantire che ogni Allievo riceva le informazioni corrette nella lingua preferita. Questa funzione migliora l’accessibilità, la conformità e l’efficienza amministrativa in Adobe Learning Manager.
 
-    UserRole/  
-        File1_role.csv  
-        File1_user_role.csv  
-        File2_role.csv  
-        File2_user_role.csv  
-        File3_role.csv  
-        File3_user_role.csv  
-    ```
- 
-3. Adobe Learning Manager also supports up to 20 incremental user CSVs and their corresponding custom roles CSVs, making it suitable for large-scale operations.
+## Miglioramenti della riproduzione per i corsi generati da Captivate
 
-**Use cases**
+L&#39;aggiornamento migliora notevolmente l&#39;esperienza di riproduzione per i contenuti Adobe Captivate all&#39;interno di ALM introducendo un&#39;interfaccia unificata e semplificata.
 
-* Global companies manage regional teams by uploading multiple incremental user files for each region (EU, America, Asia), allowing administrators to update users and assign new roles for each region in a single workflow.
-* Large enterprises automate onboarding and permissions by regularly ingesting incremental user updates from HR systems. This supports seamless updates to user profiles and granular role assignments without manual intervention.
+Il lettore ALM ora visualizza un singolo sommario consolidato, nascondendo il sommario della Captivate e fornisce indicatori di completamento chiari a livello di diapositiva, comprese tacche verdi per il tracciamento dell&#39;avanzamento visivo.
 
-### New columns added to CSV files
+Il sistema semplifica la navigazione unendo i controlli di moduli e corsi in un’unica barra intuitiva, riducendo la possibilità di confusione per gli Allievi.
 
-Three new columns have been introduced to enhance the data captured in user, role, and user-role CSV exports/imports:
+I controlli di avanzamento con riconoscimento del contesto consentono di migliorare l&#39;usabilità visualizzando le barre di avanzamento video solo sulle diapositive video e i controlli di spostamento tra diapositive solo sulle diapositive non video.
 
-* **User Registration State (user.csv)**: Indicates the current registration status of the user.
-* **Role State (role.csv)**: Indicates the current status of roles within the system.
-* **User Role State (user_role.csv)**: Indicates the status of the user-role association. 
+Inoltre, le note vengono ora collegate ai numeri delle diapositive anziché alle marche temporali, in modo da garantire l&#39;affidabilità delle esportazioni dei PDF e risolvere le incongruenze di formato precedenti.
 
->[!NOTE]
->
->The above CSV changes apply only to the accounts that use incremental users.
+## Miglioramenti all’elenco di controllo
 
-Download the [sample CSVs](assets/sample-csv-Incremnetal.zip) here. 
+### Supporto multilingue per elenco di controllo
 
-## Reset recommendations in Salesforce app
+Questa funzione consente di creare e gestire moduli di elenchi di controllo in più lingue. Ogni domanda, istruzione e criterio dell’elenco di controllo può essere tradotto, in modo che revisori e allievi interagiscano con l’elenco di controllo nella lingua che preferiscono. Il sistema visualizza l’elenco di controllo nella lingua dei contenuti selezionata dall’utente, migliorando l’accessibilità e la conformità per i team globali.
 
-**Overview**
+1. Aggiungi o modifica un modulo di un elenco di controllo nel corso.
+2. Seleziona tutte le lingue che desideri supportare dalle opzioni della lingua.
+3. Per ogni lingua, inserire le traduzioni per ogni domanda dell&#39;elenco di controllo, istruzione e criterio di valutazione.
+4. Salva le modifiche. L’elenco di controllo viene visualizzato nella lingua del contenuto selezionato del revisore o dell’Allievo.
+5. Se in seguito si aggiunge una nuova lingua, fornire le traduzioni per tutte le domande e i criteri prima della pubblicazione.
+6. Quando scarichi i report dell’elenco di controllo, seleziona la lingua preferita per visualizzare il report in quella lingua.
 
-Previously, learners using the Adobe Learning Manager Salesforce app could only select roles and recommendation preferences once. If their role changed, they were required to access the native Adobe Learning Manager app to update their profile and receive relevant course recommendations. This made the learning experience and contributed to lower engagement within the Salesforce environment.
+### Ponderazione delle domande nell’elenco di controllo per le valutazioni dell’istruttore
 
-**What's new**
+Questa funzione consente di assegnare punteggi massimi (ponderazione) diversi a ciascuna domanda dell’elenco di controllo. È possibile riflettere la diversa importanza o difficoltà di ciascuna domanda, il che supporta valutazioni più accurate e significative. Il sistema calcola il punteggio totale in base ai dati immessi e determina se l’Allievo supera o non supera i criteri impostati.
 
-Adobe Learning Manager now features a  **[!UICONTROL Reset Interests]** button within the Salesforce app. Learners can now reset their roles and learning preferences without needing to leave Salesforce or sign in into the native Adobe Learning Manager app. This enhancement streamlines access to personalized learning content, ensuring recommendations remain relevant as users' roles evolve.
+1. Quando si aggiunge un modulo elenco di controllo, selezionare **Punteggio personalizzato**.
+2. Per ogni domanda dell’elenco di controllo, imposta un punteggio massimo univoco che ne rifletta l’importanza.
+3. Definisci il punteggio di superamento complessivo per l’elenco di controllo.
+4. Salva e pubblica l’elenco di controllo.
+5. In qualità di Istruttore o Revisore, valuta ciascun Allievo assegnando un punteggio per ogni domanda (fino al massimo impostato).
+6. Il sistema calcola il punteggio totale e determina lo stato di superamento/non superamento.
+7. Scarica i report dell&#39;elenco di controllo per visualizzare sia i punteggi raggiunti che i punteggi massimi per ogni domanda e il punteggio totale.
 
-**Use cases**
+### Elenco di controllo con funzionalità di creazione dei commenti per il revisore
 
-* Learners who change job roles, teams, or responsibilities can quickly reset their preferences to receive updated and relevant course recommendations all within the Salesforce app.
-* By removing the need to switch to the native Adobe Learning Manager app, the learning journey is smoother, encouraging ongoing engagement and consumption of recommended content through Salesforce.
-* Administrators benefit from higher rates of learning completion and better alignment between user roles and recommended content, without extra support or guidance on switching platforms.
+Questa funzione consente ai revisori di aggiungere commenti o feedback durante la valutazione dell’elenco di controllo. Puoi fornire un feedback personalizzato e actionable per ogni Allievo. Puoi anche scegliere di visualizzare il tuo nome con i tuoi commenti per la trasparenza. Tutti i commenti vengono salvati nella trascrizione dell’Allievo e inclusi nei report dell’elenco di controllo.
 
-### Reset interest in the Salesforce app
+1. Durante l&#39;impostazione dell&#39;elenco di controllo, abilitare **Note del revisore**.
+2. Facoltativamente, abilita **Mostra il nome del revisore all’Allievo** se desideri che il tuo nome venga visualizzato con i tuoi commenti.
+3. Durante la valutazione, immetti commenti o feedback per l’Allievo nel campo Commenti fornito.
+4. Seleziona se i commenti devono essere visibili all’Allievo.
+5. Inviare la valutazione. Se questa opzione è attivata, l’Allievo vede le tue osservazioni e il tuo nome insieme ai relativi risultati.
+6. Tutti i commenti vengono salvati nella trascrizione dell’Allievo e inclusi nei report dell’elenco di controllo per riferimento futuro.
 
-To reset the interests and recommendations from the Salesforce app:
+## Miglioramenti della ricerca avanzata
 
-1. Log in to Adobe Learning Manager app for Salesforce as a learner.
-2. Select **[!UICONTROL Reset Interests]** option at the bottom.
+I risultati della ricerca in Ricerca avanzata sono ora più accurati e pertinenti. Le corrispondenze esatte delle parole chiave vengono classificate di livello superiore sia nella ricerca di contenuti che nei metadati, rendendo più facile per gli Allievi trovare con precisione ciò che stanno cercando.
 
-The learner's recommendation or interest will be reset from the Adobe Learning Manager Salesforce app. 
+Gli Allievi possono ora vedere nei risultati di ricerca anche gli Oggetti di apprendimento a cui sono stati iscritti, anche se non fanno parte di un catalogo accessibile, garantendo che non vadano persi contenuti pertinenti. Inoltre, la classificazione delle risorse formative è stata migliorata sia nella ricerca avanzata che nella ricerca all’interno dei contenuti, superando più rapidamente le risorse più rilevanti.
 
-## Create learning portals with Experience Builder
 
->[!IMPORTANT]
->
->We are excited to announce that Experience Builder, the innovative tool for creating customizable learning portals, will be available following the October 2025 release of Adobe Learning Manager.
->
->Stay tuned for more updates as we approach the release date. We look forward to seeing how you use Experience Builder to transform your learning portals.
->
->For any questions or additional information, contact your Customer Success Manager.
+## Equivalenti e alternative
 
-**Introduction**
+### Panoramica
 
-Experience Builder is a no-code/low-code tool in Adobe Learning Manager that helps you create customized learning portals. It allows you to design branded, user-friendly learning portals without needing technical skills or extensive coding knowledge.
-With Experience Builder, you can create new pages, menus, and widgets to deliver personalized learning experiences for your audience quickly and easily. With Experience Builder, you can quickly create new pages, menus, and widgets to deliver personalized learning experiences for your audience.
+In molte organizzazioni, gli Allievi si trovano in situazioni di formazione in cui diversi corsi possono legittimamente soddisfare lo stesso requisito?ad esempio, quando un nuovo corso sostituisce uno più vecchio, quando un corso più completo può sostituirlo con uno più breve o quando è necessario offrire un corso sostitutivo speciale.
 
-**Problem statement**
+La funzione Corsi alternativi o Percorso di apprendimento offre ad ALM un modo formale per dire:
 
-Before Experience Builder, organizations faced several challenges:
+&quot;Se l’Allievo ha completato questo corso di formazione, considera che abbia soddisfatto il relativo requisito di formazione.&quot;
 
-1. **Limited customization**: Portals had fixed designs with few options to reflect your brand. Administrators could only make basic changes, such as modifying headers, footers, or colors, which limited the ability to create unique experiences.
-2. **Cost**: Building custom portals required expensive developers and long timelines, often taking 6 to 9 months to complete. This approach increased the total cost of ownership and delayed deployment.
-3. **Generic experiences**: Everyone saw the same content, even if it wasn't relevant to their role or needs. This lack of personalization reduced learner engagement and satisfaction.
-4. **Technical barriers**: Non-technical administrators struggled to create or update portals because they needed coding knowledge or external support.
+La funzione funziona per tutti i corsi e percorsi di apprendimento, garantisce il rispetto dei requisiti a valle quali prerequisiti e regole di conformità, e lo fa senza costringere gli Allievi a occuparsi dei contenuti ridondanti. Continua inoltre a riportare in modo accurato ciò che è stato completato direttamente rispetto a ciò che è stato soddisfatto tramite un&#39;alternativa.
 
-Experience Builder solves these problems by providing a simple, no-code/low-code solution for creating personalized, branded portals.
+Alla base, la funzione introduce il concetto di completamento alternativo: uno stato di completamento speciale creato automaticamente quando un Allievo completa un corso di formazione sorgente configurato che conta per un altro corso di formazione target.
 
-It allows administrators to design portals that meet their organization's needs without relying on technical expertise or external developers.
+### Equivalenza e alternative
 
-**Key benefits**
+Alcune relazioni di formazione sono bidirezionali, il che significa che ogni corso può soddisfare i requisiti dell’altro. Si tratta in effetti di uno scenario in cui due corsi di formazione sono trattati come intercambiabili. Al contrario, le relazioni unidirezionali consentono a un corso di formazione di soddisfare il requisito per un altro, ma non viceversa. ALM modella entrambi gli scenari utilizzando lo stesso meccanismo di completamento*alternativo sottostante.
 
-**Easy customization**
+* **Relazione bidirezionale:** il completamento di uno dei corsi di formazione soddisfa i requisiti dell&#39;altro.
+* **Relazione unidirezionale:** il completamento del corso di formazione A soddisfa il corso di formazione B, ma il completamento del corso di formazione B non soddisfa il livello A. Ciò è comune quando una versione più recente o più completa deve essere conteggiata ai fini di un requisito precedente, ma non viceversa.
 
-* Design portals that match your brand with custom headers, footers, logos, and layouts.
-* Use widgets to add dynamic content like courses, categories, and HTML elements.
-* Create pages and menus tailored to specific audiences, ensuring learners see relevant content.
+Le alternative sono più spesso utilizzate negli scenari **unidirezionali**?ad esempio, quando un corso di superset più completo copre tutto in un corso di sottoinsieme più semplice. Il completamento del soprainsieme deve soddisfare il requisito per il sottoinsieme, ma non necessariamente il contrario.
 
-**No-code/low-code solution**
+* Un corso più recente ed esteso che deve essere conteggiato ai fini di un requisito precedente.
+* Un corso progettato per un pubblico specifico (ad esempio, una variante regionale o adattata all’accessibilità*e) che soddisfa ancora lo stesso requisito del corso principale.
+* Una nuova versione avanzata di un corso che l’organizzazione desidera contare per un requisito precedente, ma la versione precedente non deve contare per il nuovo requisito.
 
-* Administrators can create and manage portals without coding knowledge, making it accessible to non-technical users.
-* Drag-and-drop functionality simplifies the process of building pages and menus.
+In Alternative, la relazione è normalmente **unidirezionale**. Se il Corso A è un’alternativa al Corso B, il completamento di A può soddisfare i requisiti di B, ma il completamento di B non soddisfa necessariamente A.
 
-**Personalized learning**
+Sia l&#39;equivalenza che l&#39;alternativa condividono lo stesso meccanismo sottostante in ALM: quando un corso di formazione di origine configurato viene completato, ALM genera automaticamente un completamento alternativo per uno o più corsi di formazione di destinazione.
 
-* Configure pages and menus to display content relevant to specific user groups, such as sales teams, designers, or engineers.
-* Use hidden pages to provide exclusive content accessible only through direct links.
+### Quali problemi risolve questo?
 
-**Global reach**
+Senza alternative ed equivalenza, amministratori e allievi si trovano ad affrontare diversi problemi ricorrenti:
 
-* Create multilingual pages to support learners around the world.
-* Localize content to cater to diverse audiences and improve accessibility.
+* Agli Allievi viene spesso richiesto di ripetere i corsi relativi ai contenuti già completati in una versione o in un formato diverso.
+* L’aggiornamento dei programmi di conformità è più semplice perché gli amministratori possono sostituire o ristrutturare i corsi di formazione senza forzare gli Allievi che hanno completato versioni precedenti a riprendere contenuti equivalenti o sostituiti.
+* La logica dei prerequisiti è rigida. Se un percorso richiede come prerequisito un determinato corso, non c’è modo corretto di riconoscere che un altro corso di formazione è sufficiente.
+* Le relazioni e gli audit sono più difficili. Non vi è alcun segnale formale che indichi che un requisito è stato soddisfatto tramite un completamento alternativo e nessun modo semplice per rintracciare la fonte del credito.
 
-**Mobile-friendly**
+Le funzioni Alternative ed Equivalenza risolvono questi problemi mediante:
 
-* Learners can access content on any device, including phones and tablets.
-* Preview pages in both desktop and mobile views to ensure a smooth experience.
+* Impedire agli Allievi di duplicare le attività quando le alternative sono valide.
+* Consentire agli amministratori di modificare le strutture di formazione (ad esempio, scambiare un corso all’interno di un percorso) senza interrompere i completamenti per gli Allievi che hanno seguito la versione precedente.
+* Consentire ai prerequisiti e ai controlli di conformità di rispettare sia i completamenti diretti sia quelli alternativi o equivalenti.
+* Registrare chiaramente, nelle trascrizioni e nei rapporti, se un corso di formazione è stato completato direttamente o è stato soddisfatto tramite un rapporto alternativo, insieme al quale l’addestramento è servito come fonte.
 
-**Real-world use cases**
+### Funzionamento concettuale della funzione
 
-**Branded portals**
+La funzione si basa su tre idee principali: **relazioni**, **completamento alternativo** e **comportamento downstream**.
 
-* Create a learning portal that looks like your company's website, complete with logos, colors, and layouts.
-* For example, a healthcare company can design a portal that matches its corporate branding while integrating learning content.
+#### Rapporti tra i corsi di formazione
 
-**Role-based learning**
+Gli Amministratori definiscono le relazioni tra corsi e percorsi di apprendimento. Per ogni relazione, è possibile scegliere una **origine** e una o più **destinazioni**. Un singolo corso può avere fino a 30 obiettivi, a seconda del numero di corsi di formazione precedenti o correlati che deve soddisfare.
 
-* Build pages for specific roles, like engineers, sales teams, or designers.
-* For instance, sales teams might see product training, while engineers access technical courses.
+Per Equivalenza, gli amministratori possono rendere la relazione **bidirezionale** se desiderano che entrambi i corsi di formazione si soddisfino a vicenda. Per le alternative, gli amministratori normalmente mantengono la direzione di un*senso per indicare che sono consentite solo alcune sostituzioni.
 
-**Product training**
+Queste relazioni vengono memorizzate a livello di formazione, non a livello di Allievo. Una volta configurati e abilitati, si applicano a tutti i completamenti attuali e futuri del corso di formazione di origine, in base alle impostazioni a livello di account*ad esempio se il completamento retroattivo è abilitato o meno.
 
-* Set up separate pages for different products, such as Photoshop, Illustrator, or other offerings.
-* Each page can include widgets displaying courses, certifications, and resources related to the product.
+### Completamento alternativo
 
-**Employee and customer training**
+Quando un Allievo completa un corso di formazione di origine, ALM esamina tutte le relazioni alternative o equivalenti configurate e, per ogni corso di formazione di destinazione pertinente, crea un **record di completamento alternativo**. Questo record è diverso da un normale completamento:
 
-* Use the portal for onboarding new employees, training external partners, or educating customers about your products.
-* For example, a software company can create a portal for customer tutorials and troubleshooting guides.
+* Contrassegna il corso di formazione di destinazione per l’Allievo ma tiene traccia del completamento tramite alternanza o equivalenza piuttosto che direttamente.
+* Registra quale addestramento sorgente è stato utilizzato per soddisfare la destinazione.
+* È memorizzato in una struttura dedicata in modo che il reporting possa distinguere tra completamenti diretti e alternativi.
 
-**Localized content**
+Gli Allievi vedranno il completamento alternativo anche se non sono iscritti. Il report Trascrizione Allievo (LT) include solo i record dei corsi di formazione a cui l’Allievo si è iscritto.
 
-* Offer content in multiple languages for global learners.
-* For instance, a multinational company can create pages in English, Spanish, and French to cater to its diverse workforce.
+### Esperienza dell’app per Allievi per completamenti alternativi e equivalenti
 
-### Building blocks of Experience Builder
+I completamenti alternativi ed equivalenti vengono presentati in modo distinto nell’app per allievi, in modo che gli allievi possano capire chiaramente in che modo è stato soddisfatto un requisito di formazione, mantenendo la coerenza con le trascrizioni e i report.
 
-The main components and building blocks of Experience Builder are structured to provide flexibility, ease of use, and targeted learning experiences. Below is a detailed breakdown:
+#### Comportamento scheda LO
 
-#### Pages
+#### Stato di completamento alternativo
 
-Pages are the foundation of building a learning portal in Experience Builder. Administrators can create new pages tailored to specific audiences or purposes. Additionally, administrators can:
+Quando un Allievo completa un corso di formazione tramite una relazione alternativa o equivalente, la scheda Oggetto di apprendimento (LO) mostra uno stato distinto come **Completato tramite alternativo**.\
+Questa distinzione visiva aiuta gli Allievi a distinguere tra completamenti diretti e completamenti concessi tramite relazioni configurate.
 
-* Create custom pages with flexible layouts (rows and columns).
-* Add widgets to populate pages with content.
-* Manage page lifecycle with draft and published states.
-* Hide pages from menus while keeping them accessible via direct links.
+#### Indicatore del metodo di completamento
 
-For example, a page for sales training might include widgets displaying relevant courses, testimonials, and a calendar of upcoming sessions.
+La scheda LO include un indicatore del metodo di completamento (ad esempio, un&#39;etichetta o un&#39;icona) per mostrare che il completamento è stato raggiunto tramite un **alternativo**.\
+Se un completamento alternativo viene successivamente revocato a causa di modifiche quali il completamento retroattivo o l&#39;eliminazione del corso di formazione di origine, la scheda LO viene aggiornata in modo da riflettere **Alternativo (revocato)**.
 
-#### Menus
+#### Dettagli sulla trasparenza e sull’audit
 
-Menus organize pages into navigable structures for learners. Administrators can:
+Gli Allievi possono aprire la scheda LO per visualizzare ulteriori dettagli, tra cui:
 
-* Create custom menus to group pages for specific user groups.
-* Add hierarchy and ordering to prioritize visibility for specific audiences.
-* Include submenus for grouping related pages.
+* Il corso o il percorso di apprendimento di origine che ha concesso il completamento alternativo
+* Data di completamento associata al corso di formazione di origine
 
-For example, a menu called Resources might include pages for eBooks, videos, and FAQs.
+Ciò garantisce la trasparenza e supporta le verifiche di audit e conformità.
 
-#### Widgets
+#### Filtraggio e visualizzazioni
 
-Widgets allow administrators to add dynamic content and functionality to pages. The following widgets are available:
+#### Filtro metodo di completamento
 
-* Calendar
-* Categories
-* Compliance Status
-* Courses & Paths
-* Content Box
-* Gamification
-* HTML
-* Iframe
-* My Learning
-* Social Learning
+L’app per Allievi fornisce un filtro che consente loro di distinguere tra:
 
-For example, a page might include a Courses & Paths widget to display recommended courses and a Calendar widget for upcoming training sessions.
+* Completamenti **diretti**
+* **Completamenti alternativi**
+* **Tutti** i completamenti
 
-#### Branding tools
+Ciò consente agli Allievi di comprendere rapidamente in che modo sono stati soddisfatti i loro requisiti di apprendimento.
 
-Experience Builder provides tools to customize the appearance of the portal. Administrators can:
+#### Visualizzazioni Trascrizione e avanzamento
 
-* Customize headers, footers, and layouts to match corporate branding.
-* Use CSS and JavaScript for advanced styling.
+Il filtro per il metodo di completamento è disponibile nelle visualizzazioni Allievo*rivolto verso il volto, ad esempio:
 
-For example, a healthcare company might use branding tools to create a portal that matches their corporate website's look and feel.
+* Trascrizioni dell’apprendimento
+* Sezioni di verifica avanzamento e completamento
 
-### Get started with Experience Builder
+Questi pareri indicano chiaramente quali corsi di formazione sono stati completati direttamente e quali sono stati soddisfatti mediante alternative o equivalenza.
 
-A software company wants to build a training portal for its customers. The portal will have pages for different products like Photoshop and Illustrator, organized in menus. It will include widgets that show courses, certifications, and upcoming training sessions.
+#### Allineamento report
 
-#### Create a page
+La logica di filtro nell’app per Allievi è allineata alla colonna **Metodo di completamento** utilizzata nei report.\
+Ciò garantisce coerenza tra ciò che gli Allievi vedono nell’interfaccia utente e ciò che gli Amministratori vedono nelle esportazioni e nei report di conformità.
 
-To create a page in Adobe Learning Manager:
+#### Termina *a* flusso finale
 
-1. Log in to Adobe Learning Manager as an administrator. 
-2. Select **[!UICONTROL Branding]** in the left navigation pane. 
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select **[!UICONTROL Create page]**.
+#### Per gli Allievi
 
-   ![](assets/select-create-page.png)
-   _Custom Pages screen showing the Create page option to design new custom learning experiences_
+1. Passa a **Il mio apprendimento** o **Corsi completati** nell’app per Allievi.
+2. Rivedi le schede LO per identificare i corsi di formazione contrassegnati come **Completati tramite Alternativo**.
+3. Apri una scheda LO per visualizzare i dettagli sul corso di formazione di origine e la data di completamento.
+4. Utilizza il menu dei filtri nelle visualizzazioni Trascrizione o Elenco corsi per selezionare **Diretto**, **Alternativo** o **Tutto**.
+5. Esamina l’elenco aggiornato in base al metodo di completamento selezionato.
 
-5. Type the **[!UICONTROL Page name]** (for example, Photoshop training).
-6. Type the **[!UICONTROL Page description]** (for example, Learn how to use Photoshop effectively). 
-7. Select the page type from the following:
+#### Per amministratori e autori
 
-    * **[!UICONTROL Build using ALM widgets]**: Administrator can create a page using the existing Adobe Learning Manager widgets.
-    * **[!UICONTROL External page]**: The administrator can add a URL for the external page. If you select the page type as external, add the URL in the Page URL text field.
+1. Configura relazioni equivalenti o alternative tra corsi o percorsi di apprendimento nell’interfaccia di amministrazione.
+2. Verifica che i completamenti alternativi si riflettano correttamente sulle schede LO e nei filtri rivolti all’Allievo*.
+3. Utilizza le visualizzazioni e i report degli Allievi per confermare la coerenza tra l’interfaccia utente e i dati esportati.
+4. Se un corso di formazione di origine viene ritirato o eliminato, verifica che le schede LO interessate vengano aggiornate di conseguenza (ad esempio, visualizzando **Alternativo (revocato)** quando applicabile).
 
-8. Select the **[!UICONTROL Change icon]** to change the page's icon.
- 
-   ![](assets/create-page-screen.png)
-   _Courses page creation screen displaying options to type the page name, description, type, and icon for a customized learner page_
-9. Select **[!UICONTROL Add New Language]** to add the default language for the page. 
-10. Select **[!UICONTROL Save]**. 
+## Comportamento di completamento e incompletamento retroattivo
 
-The page has been created and saved as a draft in the Custom Pages section. Administrators can edit and design the drafted pages using the widgets. 
+ALM supporta il completamento retroattivo e l&#39;incompletamento retroattivo per garantire che le relazioni alternative ed equivalenti rimangano accurate nel tempo, anche quando le relazioni vengono create, modificate o rimosse dopo che gli Allievi hanno già completato il corso di formazione.
 
-#### Design page in Experience Builder
+### Completamento retroattivo
 
-Adobe Learning Manager enables administrators to design pages tailored to their requirements using customizable widgets.
-To design the page in Experience Builder:
+#### Definizione
 
-1. Log in to Adobe Learning Manager as an administrator. 
-2. Select **[!UICONTROL Branding]** in the left navigation pane. 
-3. Select **[!UICONTROL Custom Pages]** and then select the required page. 
-4. Select **[!UICONTROL Page Design]**.  
-5. Select **[!UICONTROL Edit]**. 
- 
-   ![](assets/edit-the-page.png)
-   _Edit mode allows administrators to design course pages by organizing sections and adding widgets in their preferred language_
+Quando il completamento retroattivo è abilitato, gli Allievi che hanno completato un corso di origine in passato ricevono automaticamente un completamento alternativo per il corso di destinazione se in seguito viene creata una relazione equivalente o alternativa.\
+Ciò garantisce che l’apprendimento storico venga rispettato senza richiedere agli Allievi di riprendere i corsi di formazione.
 
-6. Choose the options from **[!UICONTROL Select section layout]** dropdown.
-7. Select a section from the following based on the number and size of the widgets you want to add in the section:
+#### Come funziona
 
-    * **[!UICONTROL 1 column-Full section width]**: Content spans the entire section width for maximum space.
-    * **[!UICONTROL 2 columns-1/2 section width each]**: Two equal-width columns split the section evenly.
-    * **[!UICONTROL 2 columns-2/3 and 1/3 section width respectively]**: Main content takes two-thirds, side content one-third.
-    * **[!UICONTROL 2 columns-1/3 and 2/3 section width respectively]**: Side content takes one-third, main content two-thirds.
-    * **[!UICONTROL 3 columns-1/3 section width each]**: Three equal-width columns divide the section into thirds.
- 
-   ![](assets/select-section-layout.png)
-   _Section layout selection dialog allows administrators to choose single or multi-column widget arrangements for custom page design_
+1. Un amministratore abilita il completamento retroattivo a livello di account.
+2. L’Amministratore definisce una relazione equivalente o alternativa tra un corso di formazione di origine e uno di destinazione.
+3. Il sistema analizza i record di completamento cronologici per il corso di formazione di origine.
+4. Agli Allievi idonei viene concesso un completamento alternativo per il corso di formazione di destinazione.
+5. Questi record vengono visualizzati come **Completati tramite Alternativo** nelle trascrizioni e nei report degli Allievi.
 
-8. Select **[!UICONTROL Proceed]**.
-9. Select **[!UICONTROL Add widget]**.
- 
-   ![](assets/select-add-widgets.png)
-   _The page design screen allows administrators to select and add widgets to customize their course pages_
+### Incompletamento retroattivo
 
-10. Choose the required widget and then select **[!UICONTROL Proceed]**. 
-11. Configure the widget and select **[!UICONTROL Add widget]**. See this [section](#add-and-configure-widgets) for adding and configuring the widgets.
-12. Select **[!UICONTROL Save]** and choose from the following options:
+#### Definizione
 
-    * **[!UICONTROL Save as Draft]**: The page will be saved as a draft. The administrator can edit the page later.
-    * **[!UICONTROL Save & Publish]**: The page will be published, and the administrator can add this page to the Menu. 
-   
-   ![](assets/select-save-options.png)
-   _Save options allow administrators to choose between saving a page as a draft for future editing or publishing it for learner access_
+Quando l’opzione Incompletamento retroattivo è abilitata, i completamenti alternativi vengono revocati se la relazione equivalente o alternativa sottostante viene rimossa o se il corso di formazione di origine viene eliminato.\
+Ciò garantisce che il sistema rifletta le relazioni di formazione correnti e valide.
 
-The page can be saved as a draft or published. Administrators can edit drafts before publishing and can also update and republish published pages.
+#### Come funziona
 
-#### Add and configure widgets
+1. Un amministratore abilita il completamento retroattivo a livello di account.
+2. L’Amministratore rimuove una relazione alternativa o equivalente oppure elimina il corso di formazione di origine.
+3. Il sistema identifica gli Allievi che hanno ricevuto un completamento alternativo tramite la relazione interessata.
+4. I record di completamento alternativi corrispondenti vengono revocati.
+5. I record revocati sono contrassegnati come **Alternativi (revocati)** nelle trascrizioni e nei report per la visibilità del controllo.
 
-**Calendar widget**
+### Impatto sui prerequisiti
 
-This widget visually presents courses and schedules in calendar format. It supports filters by catalog, enrollment status, location, product, and role. The responsive design adapts to various grid sizes.
+I completamenti alternativi, inclusi quelli concessi retroattivamente, vengono trattati come completamenti validi durante la valutazione dei prerequisiti.\
+Se un Allievo ha completato **tramite Alternativa**, può continuare con i corsi che richiedono il corso di destinazione.
 
-To configure the Calendar widget:
+Se un completamento alternativo viene successivamente revocato tramite incompletamento retroattivo, l’Allievo può perdere l’idoneità ai corsi che dipendevano da tale prerequisito.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
-2. Select **[!UICONTROL Calendar]** and then select **[!UICONTROL Proceed]**.
- 
-   ![](assets/select-calendar.png)
-   _Widget selection screen highlighting the Calendar widget option to display training sessions in a calendar_
+### Impatto su percorsi di apprendimento e certificazioni
 
-3. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
- 
-   ![](assets/configure-calendar-widget.png)
-   _Calendar widget customization screen, where administrators can set the widget title, description, and select catalogs_
+I completamenti alternativi contribuiscono al progresso e al completamento dei percorsi di apprendimento e delle certificazioni.\
+Gli Allievi possono avanzare o completare questi programmi quando i corsi di formazione richiesti vengono soddisfatti tramite relazioni alternative o equivalenti.
 
-4. Select a catalog by searching to display its courses and learning paths within the **[!UICONTROL Calendar]** widget.
-5. Select **[!UICONTROL Add Widget]**.
+Se un completamento alternativo viene revocato, i percorsi di apprendimento o le certificazioni interessati possono perdere lo stato di avanzamento o completamento fino a quando il requisito non viene soddisfatto tramite un completamento valido.
 
-The Calendar widget will be added to the page. Administrator can add other widgets and publish the page.
+### Fine *al* fine del flusso di lavoro
 
-**Categories widget**
+#### Abilitazione del completamento o incompletamento retroattivo
 
-This widget displays categories (e.g., roles, catalogs) as tiles, leading to filtered views or specific pages.
+1. Gli amministratori passano alle impostazioni account e abilitano il completamento retroattivo e/o l’incompletamento retroattivo.
+2. Gli Amministratori creano, modificano o rimuovono relazioni equivalenti o alternative tra i corsi di formazione.
 
-To configure the Categories widget:
+#### Azioni di sistema
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).  
-2. Select **[!UICONTROL Categories]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-categories-widget.png)
-   _Widget selection screen highlighting the Categories widget option to organize learning content by catalog, product, or role for easy navigation_
+* **Per il completamento retroattivo:**\
+  Il sistema concede completamenti alternativi in base ai completamenti dell&#39;origine cronologica.
+* **Per incompletamento retroattivo:**\
+  Il sistema revoca i completamenti alternativi quando vengono rimosse le relazioni o vengono eliminati i corsi di formazione di origine.
 
-3. Select the details to display on the category cards:
+#### Esperienza di apprendimento
 
-    * **[!UICONTROL Category Image]**
-    * **[!UICONTROL Category Description]**
+Gli Allievi visualizzano gli stati di completamento aggiornati sulle schede LO e nelle trascrizioni, ad esempio:
 
-4. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
-5. Search for and choose a catalog from the **[!UICONTROL Category source]**.
- 
-   ![](assets/configure-calendar-widget.png)
-   _Configure Categories widget options to set widget title and description, and select the category source_
+* **Completato tramite alternativo**
+* **Alternativo (Revocato)**
 
-6. Select **[!UICONTROL Add Widget]**.
+I controlli dei prerequisiti, l’avanzamento del percorso di apprendimento e lo stato della certificazione vengono aggiornati in modo dinamico in base allo stato di completamento corrente.
 
-The Categories widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Relazioni e audit
 
-**Compliance widget**
+Tutte le modifiche retroattive sono riportate nel report Trascrizione Allievo (LT).\
+I report distinguono chiaramente tra completamenti diretti, completamenti alternativi e completamenti alternativi revocati per supportare conformità, indagini di supporto e audit.
 
-This widget supports filtering similar to a calendar, but is focused on compliance-related learning objects. It allows learners to modify or remove compliance label filters dynamically.
+### Comportamento di completamento e incompletamento retroattivo
 
-To configure the Compliance widget:
+ALM supporta il completamento retroattivo e l&#39;incompletamento retroattivo per garantire che le relazioni alternative ed equivalenti rimangano accurate nel tempo, anche quando le relazioni vengono create, modificate o rimosse dopo che gli Allievi hanno già completato il corso di formazione.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).  
-2. Select **[!UICONTROL Compliance Status]** and then select **[!UICONTROL Proceed]**.
- 
-   ![](assets/select-compliance-status.png)
-   _Widget selection screen highlighting the Compliance Status widget used to display learner enrollments with deadlines and status indicators_
+#### Completamento retroattivo
 
-3. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
- 
-   ![](assets/configure-compliance.png)
-   _Compliance Status widget screen, where administrators can set the widget title and description to display enrollment deadlines and status for learners_
+#### Definizione
 
-4. Select **[!UICONTROL Add widget]**.
+Quando il completamento retroattivo è abilitato, gli Allievi che hanno completato un corso di origine in passato ricevono automaticamente un completamento alternativo per il corso di destinazione se in seguito viene creata una relazione equivalente o alternativa.\
+Ciò garantisce che l’apprendimento storico venga rispettato senza richiedere agli Allievi di riprendere i corsi di formazione.
 
-The Compliance status widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Come funziona
 
-**Courses and paths widget**
+1. Un amministratore abilita il completamento retroattivo a livello di account.
+2. L’Amministratore definisce una relazione equivalente o alternativa tra un corso di formazione di origine e uno di destinazione.
+3. Il sistema analizza i record di completamento cronologici per il corso di formazione di origine.
+4. Agli Allievi idonei viene concesso un completamento alternativo per il corso di formazione di destinazione.
+5. Questi record vengono visualizzati come **Completati tramite Alternativo** nelle trascrizioni e nei report degli Allievi.
 
-This widget displays a strip of course or path tiles, customizable to show different details. 
+#### Incompletamento retroattivo
 
-To configure the Courses and Paths widget:
+#### Definizione
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
-2. Select **[!UICONTROL Courses & Paths]**.
- 
-   ![](assets/select-course-path.png)
-   _Widget selection screen highlighting the Courses & Paths widget for displaying courses, learning paths, certifications, and job aids as interactive cards for learners_
+Quando l’opzione Incompletamento retroattivo è abilitata, i completamenti alternativi vengono revocati se la relazione equivalente o alternativa sottostante viene rimossa o se il corso di formazione di origine viene eliminato.\
+Ciò garantisce che il sistema rifletta le relazioni di formazione correnti e valide.
 
-3. Select **[!UICONTROL Proceed]**. 
-4. Type **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**. 
-5. Select the catalogs or manually choose up to 25 courses to display.
-    
-   ![](assets/configure-course-paths.png)
-   _Courses & Paths widget where administrators set the widget title, description, and select courses or learning paths to display as interactive cards_
+#### Come funziona
 
-6. Select **[!UICONTROL Add widget]**. 
+1. Un amministratore abilita il completamento retroattivo a livello di account.
+2. L’Amministratore rimuove una relazione alternativa o equivalente oppure elimina il corso di formazione di origine.
+3. Il sistema identifica gli Allievi che hanno ricevuto un completamento alternativo tramite la relazione interessata.
+4. I record di completamento alternativi corrispondenti vengono revocati.
+5. I record revocati sono contrassegnati come **Alternativi (revocati)** nelle trascrizioni e nei report per la visibilità del controllo.
 
-The Courses & Paths widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Impatto sui prerequisiti
 
-**Content Box widget**
+I completamenti alternativi, inclusi quelli concessi retroattivamente, vengono trattati come completamenti validi durante la valutazione dei prerequisiti.\
+Se un Allievo ha completato **tramite Alternativa**, può continuare con i corsi che richiedono il corso di destinazione.
 
-This widget allows creating sections with titles, descriptions, images, and CTAs. 
+Se un completamento alternativo viene successivamente revocato tramite incompletamento retroattivo, l’Allievo può perdere l’idoneità ai corsi che dipendevano da tale prerequisito.
 
-To configure Content Box widget:
+#### Impatto su percorsi di apprendimento e certificazioni
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
-2. Select **[!UICONTROL Content Box]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-content-box.png)
-   _Widget selection screen highlighting the Content Box widget for displaying custom images, text, and action buttons to enhance learner engagement_
+I completamenti alternativi contribuiscono al progresso e al completamento dei percorsi di apprendimento e delle certificazioni.\
+Gli Allievi possono avanzare o completare questi programmi quando i corsi di formazione richiesti vengono soddisfatti tramite relazioni alternative o equivalenti.
 
-3. Type the **[!UICONTROL Title]** and **[!UICONTROL Description]**.
-4. Type the text into the **[!UICONTROL Action button label]** and provide a link. 
-5. Select any of the options for Background fill:
+Se un completamento alternativo viene revocato, i percorsi di apprendimento o le certificazioni interessati possono perdere lo stato di avanzamento o completamento fino a quando il requisito non viene soddisfatto tramite un completamento valido.
 
-    * **[!UICONTROL Color]**: Select the color from the color picker or type the color code in the text field.
-    * **[!UICONTROL Image]**: Browse and upload a picture.
+#### Fine *al* fine del flusso di lavoro
 
-6. Adjust the box height using the **[!UICONTROL Content box height]** option. 
-7. Select the text formatting options.
- 
-   ![](assets/configure-content-box.png)
-   _Content Box widget customization screen, where administrators can enter a title, description, action button label, and link_
+#### Abilitazione del completamento o incompletamento retroattivo
 
-8. Select **[!UICONTROL Add widgets]**. 
+1. Gli amministratori passano alle impostazioni account e abilitano il completamento retroattivo e/o l’incompletamento retroattivo.
+2. Gli Amministratori creano, modificano o rimuovono relazioni equivalenti o alternative tra i corsi di formazione.
 
-The Content Box widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Azioni di sistema
 
-**Gamification widget**
+* **Per il completamento retroattivo:**\
+  Il sistema concede completamenti alternativi in base ai completamenti dell&#39;origine cronologica.
+* **Per incompletamento retroattivo:**\
+  Il sistema revoca i completamenti alternativi quando vengono rimosse le relazioni o vengono eliminati i corsi di formazione di origine.
 
-This widget shows gamification and points earned by learners in a leaderboard format. It has been updated for Experience Builder with a name, description, and localization customization.
+#### Esperienza di apprendimento
 
-To configure the Gamification widget:
+Gli Allievi visualizzano gli stati di completamento aggiornati sulle schede LO e nelle trascrizioni, ad esempio:
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
-2. Select **[!UICONTROL Gamification]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-gamification.png)
-   _Widget selection screen highlighting the Gamification widget used to display learning activities and achievements on the leaderboard_
+* **Completato tramite alternativo**
+* **Alternativo (Revocato)**
 
-3. Type the **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**. 
-4. Select **[!UICONTROL Add widgets]**. 
+I controlli dei prerequisiti, l’avanzamento del percorso di apprendimento e lo stato della certificazione vengono aggiornati in modo dinamico in base allo stato di completamento corrente.
 
-The Gamification widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Relazioni e audit
 
-**HTML widget**
+Tutte le modifiche retroattive sono riportate nel report Trascrizione Allievo (LT).\
+I report distinguono chiaramente tra completamenti diretti, completamenti alternativi e completamenti alternativi revocati per supportare conformità, indagini di supporto e audit.
 
-This widget allows custom HTML, CSS, and JS code to be embedded, providing flexibility for static content like testimonials. 
+### Webhook per equivalenti e alternative
 
-To configure the HTML widget:
+ALM fornisce eventi webhook dedicati per completamenti equivalenti e alternativi per supportare automazione, integrazioni e sincronizzazione con sistemi esterni.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
-2. Select **[!UICONTROL HTML]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-html.png)
-   _Widget selection screen highlighting the HTML widget for customizing pages using HTML, CSS, and JavaScript code_
+Questi eventi consentono ai consumatori esterni di distinguere in modo affidabile tra completamenti diretti e completamenti concessi attraverso relazioni alternative o equivalenti.
 
-3. Type your **[!UICONTROL HTML]**, **[!UICONTROL CSS]**, and **[!UICONTROL JavaScript]** code in the respective fields. 
-4. Select **[!UICONTROL Add widget]**. 
+#### Panoramica
 
-The HTML widget will be added to the page. Administrators can add other widgets and publish the page.
+Quando un Allievo completa un corso tramite una relazione alternativa o equivalente, ALM attiva un evento webhook separato dal webhook di completamento del corso standard.\
+Ciò garantisce che le integrazioni possano rispondere in modo diverso a completamenti alternativi, se necessario.
 
-**IFrame widget**
+Gli eventi webhook vengono attivati anche quando si verifica un completamento retroattivo o un incompletamento retroattivo, che copre gli aggiornamenti storici e le modifiche delle relazioni.
 
-This widget allows embedding external web applications or webpages directly within the page. Includes options to name, describe, and localize the iframe content.
+#### Comportamento evento webhook
 
-To configure the Iframe widget:
+* Un evento webhook distinto viene attivato quando un Allievo riceve lo stato **Completato tramite Alternativa** per un corso di destinazione.
+* L’evento viene generato quando l’Allievo completa un corso di origine configurato che soddisfa la destinazione tramite una relazione equivalente o alternativa.
+* Questo webhook non viene attivato per il completamento diretto del corso.
+* Quando l’opzione completamento retroattivo o incompletamento retroattivo è abilitata, gli eventi webhook vengono emessi per ogni Allievo interessato e corso di destinazione.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
-2. Select **[!UICONTROL Iframe]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-iframe.png)
-   _Widget selection screen highlighting the Iframe widget for embedding external applications or web pages within a selected section_
+#### Dettagli payload webhook
 
-3. Type the URL in the **[!UICONTROL Page linked to Action button]** option.
-4. Adjust the Iframe height using the **[!UICONTROL Iframe height]** option.     
- 
-   ![](assets/configure-iframe.png)
-   _Iframe widget customization screen, where administrators can enter a page URL and specify iframe height to embed external content_
+Il payload del webhook di completamento alternativo include i seguenti attributi chiave:
 
-5. Select **[!UICONTROL Add widget]**. 
+* **ID Allievo**\
+  Identifica l’Allievo che ha ricevuto il completamento alternativo.
 
-The Iframe widget will be added to the page. Administrators can add other widgets and publish the page.
+* **Corso di origine**\
+  Il corso o il percorso di apprendimento completato direttamente dall’Allievo.
 
-**My Learning widget**
+* **Corso di destinazione**\
+  Il corso contrassegnato come completato tramite la relazione alternativa o equivalente.
 
-This widget is similar to the Courses and Paths widget, but filters content specifically for each learner, showing their personalized set of enrolled learning objects.
+* **Metodo di completamento**\
+  Indica che il metodo di completamento è **alternativo**.
 
-To configure the My Learning widget:
+* **Data di completamento**\
+  Derivato dalla data di completamento del corso di origine.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
-2. Select **[!UICONTROL My Learning]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-my-learning.png)
-   _Widget selection screen, highlighting the My Learning widget used to display the learner's personalized list of enrolled courses_
+* **Tipo di relazione**\
+  Specifica se la relazione è **equivalente** o **alternativa**.
 
-3. Type the **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
-4. Select **[!UICONTROL Add widget]**.
+Per gli scenari di incompletamento retroattivo, gli eventi webhook indicano che un completamento alternativo esistente è stato revocato.
 
-My Learning widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Considerazioni sull&#39;integrazione
 
-**Social Learning widget**
+I sistemi esterni possono utilizzare questi eventi webhook per:
 
-This widget enables social collaboration functionalities such as posts, comments, and user tagging within the platform. It is enhanced for Experience Builder with customization options, including name and localization.
+* Aggiorna record Allievo
+* Sincronizzare lo stato di completamento
+* Attivare notifiche o flussi di lavoro a valle
+* Gestisci audit trail per scopi di conformità
 
-To configure the Social Learning widget:
+I consumer di webhook devono distinguere esplicitamente tra i completamenti **diretti** e **alternativi**.\
+I completamenti alternativi non concedono premi di abilità, distintivi o gamification e devono essere gestiti di conseguenza nei sistemi a valle.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
-2. Select **[!UICONTROL Social Learning]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-social-learning.png) 
-   _Widget selection screen highlighting the Social Learning widget for displaying a posts to encourage collaboration and engagement_
+### Impatto del ritiro e dell’eliminazione dei corsi di formazione sorgente in equivalenti e alternative
 
-3. Type the **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
-4. Select **[!UICONTROL Add widget]**. 
+Lo stato del ciclo di vita di un corso di formazione di origine (ritirato o eliminato) influisce direttamente sul modo in cui i completamenti alternativi ed equivalenti vengono mantenuti per gli Allievi. ALM gestisce questi scenari in modo diverso per mantenere l&#39;accuratezza storica, assicurando al contempo la validità delle relazioni correnti.
 
-The Social Learning widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Ritiro del corso di formazione di origine
 
-#### Organize pages into a menu
+##### Definizione
 
-Menus help organize and link pages in Experience Builder, making it easy for learners to navigate your learning portal. Administrators can create menus, add pages to them, and customize which menus are shown to specific audiences. 
+Se un corso viene ritirato, non è più disponibile per nuove iscrizioni, ma viene mantenuto nel sistema a scopo di riferimento storico, report e audit.
 
-**Create a menu**
+##### Impatto
 
-To create a menu:
+* I completamenti alternativi esistenti concessi tramite il corso di origine ritirato restano validi.
+* Gli Allievi che hanno completato in precedenza il corso di origine continuano a sostenere il completamento alternativo per il corso di destinazione.
+* Il corso ritirato non genera nuovi completamenti alternativi, poiché non può essere completato da nuovi allievi.
+* Le trascrizioni e i report degli Allievi continuano a visualizzare **Completato tramite Alternativo** per gli Allievi interessati.
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Menu]** and then select **[!UICONTROL Create]**.
- 
-   ![](assets/select-create-menu.png)
-   _Menu screen showing options to view, organize, and create customized menus for different learner groups_
+#### Eliminazione dei corsi di formazione di origine
 
-4. Type the **[!UICONTROL Menu name]** (for example, Product Training) and select the user group in the **[!UICONTROL Visible to]** option.
-   
-   ![](assets/type-menu-name.png)
-   _Create menu screen, where administrators can enter a menu name for internal use and specify user groups to control menu visibility_
+#### Definizione
 
-5. Choose the custom page from the **[!UICONTROL Select pages]** option. 
- 
-   ![](assets/select-custom-pages.png)
-   _Page selection screen, highlighting the option to include the custom page for user groups and customize the menu order_
+L’eliminazione di un corso lo rimuove completamente dal sistema, compresi i record di completamento e le relazioni configurate.
 
-6. Select **[!UICONTROL Preview menu]** to view the menu before saving it. 
-7. Select **[!UICONTROL Save]**.
+#### Impatto
 
-The created menu will be visible for the selected learners. They can access the custom pages through their Learner UI. 
- 
-![](assets/view-the-custom-pages.png)
-_Learner UI displaying the custom page with featured training modules and easy navigation from the sidebar menu_
+* Se l’opzione Incompletamento retroattivo è abilitata, tutti i completamenti alternativi concessi tramite il corso di origine eliminato vengono revocati.
+* Le trascrizioni e i report degli Allievi vengono aggiornati per mostrare **Alternativo (revocato)** per il controllo e la visibilità della conformità.
+* Gli Allievi potrebbero perdere lo stato di avanzamento o completamento nei percorsi di apprendimento, nelle certificazioni o nei prerequisiti che dipendevano dal completamento alternativo revocato.
+* Non è possibile concedere ulteriori completamenti alternativi dal corso eliminato.
 
-#### Manage pages lifecycle
+#### Flusso di lavoro
 
-Administrators can use the Custom Pages section to edit, delete, and duplicate the pages.
+1. Un Amministratore ritira o elimina il corso di origine utilizzando l’interfaccia di amministrazione.
+2. Il sistema valuta tutti i completamenti alternativi ed equivalenti derivati dal corso di origine.
+3. Lo stato di completamento viene aggiornato in base allo stato del corso:
+   * **Ritirato:** i completamenti alternativi esistenti rimangono invariati.
+   * **Eliminati:** completamenti alternativi revocati se l&#39;incompletamento retroattivo è abilitato.
+4. Le trascrizioni e i report degli Allievi riflettono lo stato aggiornato per supportare i requisiti di conformità e audit.
 
-**Edit the page**
+### Nessun concatenamento delle relazioni
 
-To edit the custom pages:
+ALM non supporta il concatenamento di relazioni alternative o equivalenti. I completamenti alternativi vengono concessi solo per relazioni configurate direttamente e non si sovrappongono a più livelli di corsi.
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select the required page and then select **[!UICONTROL Edit]**. 
-5. Select **[!UICONTROL Save]**.
+#### Concetto: nessun concatenamento delle relazioni
 
-The page will be updated with the changes. 
+#### Definizione
 
-![](assets/edit-the-page-custom.png)
-_Edit the custom page, allowing administrators to update the page name, description, and type_
+Per concatenamento si intende la possibilità di consentire la propagazione di relazioni alternative o equivalenti tra più corsi.\
+Ad esempio, se il Corso A è un’alternativa al Corso B e il Corso B è un’alternativa al Corso C, il concatenamento implicherebbe che il completamento del Corso A conceda il completamento del Corso C.
 
-**Delete the page**
+#### Policy
 
-To delete the page:
+Concatenamento non supportato.\
+Le relazioni alternative ed equivalenti vengono valutate solo a un singolo livello. Il completamento di un corso di origine consente il completamento alternativo solo al corso o ai corsi di destinazione immediati, non a qualsiasi destinazione a valle.
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select the required page.
-5. Select **[!UICONTROL Action]** and then select **[!UICONTROL Delete]**. 
- 
-![](assets/duplicate-the-page.png)
-_Custom Pages screen displaying options to delete custom pages created for product training_
+#### Flusso di lavoro
 
-**Duplicate the page**
+#### Impostazione delle relazioni
 
-To duplicate the page:
+Un amministratore definisce relazioni alternative o equivalenti tra i corsi, ad esempio:
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select the required page.
-5. Select **[!UICONTROL Action]** and then select **[!UICONTROL Duplicate]**. 
- 
-![](assets/duplicate-the-page.png)
-_Custom Pages screen displaying options to duplicate the custom pages created for product training_
+* Corso A → Corso B
+* Corso B → Corso C
 
-#### Preview the pages
+#### Evento di completamento
 
-To preview the pages:
+Un Allievo completa direttamente il corso A.
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select the required page and then select **[!UICONTROL Page Design]**
-5. Select **[!UICONTROL Edit]** and then select **[!UICONTROL Preview page]** to view the portal's preview. 
+#### Azione di sistema
 
-![](assets/preview-page.png)
-_Page preview showing a custom page layout with a banner, featured courses_
+* Se viene definita la relazione A → B, il sistema concede un completamento alternativo per il corso B.
+* Il sistema non consente il completamento alternativo per il corso C, anche se esiste una relazione B → C.
 
-#### Localize the pages
+#### Requisito di completamento diretto
 
-When an admin adds multiple languages to the custom pages, add the widget details for each language in the corresponding language tab next to the default language tab.
+Per ricevere un completamento alternativo per il corso C, l’Allievo deve:
 
-![](assets/localize-pages.png) 
-_Administrators can add widget details for additional languages, such as French, alongside the default language_
+* Completamento diretto del corso B oppure
+* Completa un corso configurato in modo esplicito come alternativa diretta o equivalente per il corso C.
 
-#### Set up hidden pages
+### Implicazioni
 
-The hide pages option allows administrators to keep the Learner UI clean by showing fewer pages. Administrators can hide pages from the menu so learners don't see them in learner UI, but learners can still reach those pages in other ways. For example, the Catalog page can be hidden from the menu but accessed through other navigation paths.
- 
-![](assets/select-hidden-pages.png)
-_Menu configuration screen showing hidden pages such as Catalog, Social Learning, Skills, and Badges_ -->
+#### Nessun vantaggio indiretto
 
+Gli Allievi non possono ricevere i crediti di completamento per i corsi nelle fasi successive di una catena di relazioni a meno che ciascun corso (o il suo alternativo diretto) non venga completato.\
+Ciò garantisce che i requisiti di apprendimento siano soddisfatti in modo esplicito e prevedibile.
 
+#### Audit e reporting semplificati
 
+I report e le trascrizioni degli allievi visualizzano i completamenti alternativi solo per le relazioni dirette.\
+In questo modo si evitano audit trail complessi e multi-hop e si garantisce chiarezza durante la revisione delle modalità di concessione di un completamento.
 
+### Condivisione del catalogo con account condivisi tra pari: relazioni non condivise
 
-<!-- We're excited to share several important updates coming to Adobe Learning Manager with the upcoming releases. These enhancements aim to streamline admin workflows, improve data reporting accuracy, and strengthen role-based controls.
+La condivisione del catalogo consente la condivisione degli oggetti di apprendimento (LO) tra account condivisi tra pari, ma le relazioni alternative e equivalenti vengono gestite in modo indipendente all’interno di ciascun account e non vengono condivise.
 
-These changes are designed to reduce manual effort, support automation, and improve governance across training operations.
+#### Concetto: condivisione di cataloghi e relazioni
 
-## Capture instructor-marked completions in Learner Transcript
+#### Condivisione catalogo
 
-### Audience  
+Gli account possono condividere cataloghi con account condivisi tra pari per fornire accesso a corsi, percorsi di apprendimento e altri oggetti di apprendimento negli account.
 
-Administrator and automation owners 
+#### Relazione non condivisa
 
-### Overview 
+Le relazioni alternative, equivalenti e di completamento alternativo configurate nell’account di origine non vengono condivise o replicate quando un catalogo viene condiviso.\
+Ogni account gestisce e valuta le proprie relazioni in modo indipendente.
 
-In Adobe Learning Manager, when using incremental Learner Transcripts (LT) for automation workflows, instructor-marked completions made after the session date are not captured. The completion timestamp reflects the original session end time (not the time the instructor marked the completion). Since these updates fall outside the one-day change window used for incremental LT generation, as a result, learners' attendance and completion data are excluded from reports, leading to inaccurate or incomplete downstream reporting and potential compliance gaps. 
+### Flusso di lavoro
 
-### What has changed 
+#### Condivisione catalogo
 
-Learner Transcript (LT) reports include completions marked by instructors after the session date. This ensures that any delayed attendance marking is correctly reflected in the transcript export. 
+Un amministratore dell&#39;account **A** condivide un catalogo contenente oggetti di apprendimento con **Account B**.
 
-Attendance states like "Attended with pass/fail" will appear automatically in incremental LT exports. 
+#### Configurazione delle relazioni
 
-### What's new 
+Per l’account A possono essere definite relazioni alternative o equivalenti tra gli oggetti di apprendimento nel catalogo condiviso.
 
-* New column: Mark Completed Date (UTC TimeZone). 
-* Completion Source is available at module level. 
-* Compatible with connector-based or job API-generated LT reports. 
+#### Accesso all’account condiviso tra pari
 
-![](assets/capture-instructor.png)
+L’account B riceve l’accesso agli oggetti di apprendimento condivisi ma non eredita alcuna relazione alternativa o equivalente configurata nell’account A.
 
-**Action required**
+#### Gestione indipendente
 
-* If your automation depends on column positions, ensure logic accounts for the new column. 
-* If using column names, no changes are required. 
-* Retrofitted completions (manual imports) are not included. 
+Se l’account B richiede un comportamento alternativo o equivalente, l’amministratore dell’account B deve configurare manualmente le relazioni all’interno dell’account.
 
-## Download links in Job Aids report
+#### Implicazioni
 
-### Audience 
+#### Nessuna propagazione automatica delle relazioni
 
-Administrator, custom administrator, and automation owners 
+Le relazioni alternative ed equivalenti non sono automaticamente disponibili negli account condivisi tra pari tramite condivisione del catalogo.
 
-### Overview 
+#### È richiesta la configurazione manuale
 
-The Job Aids report includes a direct download link for each job aid, allowing quick access from the report itself. 
+Ogni account condiviso tra pari è responsabile della definizione e della gestione delle proprie relazioni per gli oggetti di apprendimento condivisi.
 
-### What's new  
+#### Considerazioni sulla coerenza
 
-A new column, **[!UICONTROL Job Aid Link]**, has been added to the third position in the report. It links directly to the job aid if it's a file or shows the external URL provided by the author. 
+Il comportamento di completamento, il soddisfacimento dei prerequisiti e la creazione di rapporti possono differire tra account a meno che le relazioni non siano intenzionalmente allineate tramite la configurazione manuale.
 
-Users with access (admin/authors and custom roles) can download the job aid using this link. 
 
-![](assets/download-links-for-job-aid.png) 
+### Comportamento a valle
 
-### Action required 
+Una volta che esiste un completamento alternativo per un corso di formazione di destinazione, ALM lo utilizza nei controlli a valle:
 
-* Review automated workflows using Job Aids reports (using Jobs API). 
-* If the script is based on column position, update scripts accordingly. 
-* No action is needed if using column names. 
+* Se il corso di formazione di destinazione è un **prerequisito** per altri corsi di formazione, l’Allievo è idoneo per tali corsi di formazione come se avesse completato la destinazione.
+* Se la destinazione è un **corso obbligatorio in un percorso di apprendimento**, la logica di completamento del percorso può considerare che l’Allievo abbia completato quella parte e procedere a contrassegnare il percorso come completato quando vengono soddisfatte altre condizioni.
+* La conformità e altre dashboard come ad esempio Dashboard di successo del gruppo, che si basano sul rispetto di un requisito di formazione, possono includere Allievi che dispongono solo di completamenti alternativi.
 
-## Internal User ID and Manager Email columns added to User Report
+Il sistema distingue tra completamento effettivo e completamento alternativo in modo che:
 
-### Audience 
+* Se l’Allievo in seguito segue direttamente il corso di formazione di destinazione e lo completa, questo completamento diretto può ignorare la necessità di un completamento alternativo.
+* Se la relazione tra origine e destinazione viene rimossa o modificata, ALM può rimuovere o regolare i completamenti alternativi senza toccare i completamenti originali, a condizione che gli incompletamenti retroattivi siano abilitati per l&#39;account.
 
-Administrators (and custom administrators) using the **[!UICONTROL User Report]** (**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]** > **[!UICONTROL Export User data]**) downloaded from the administrator User Interface. 
+I completamenti alternativi sono progettati per non interferire con l’effettiva attività dell’Allievo nel corso di formazione di destinazione. Agiscono come una sovrapposizione che può essere rivista se le relazioni cambiano.
 
-### Overview 
-
-To assist in user identification and integration workflows, two columns, **[!UICONTROL Internal User ID]** and **[!UICONTROL Manager Email]** have been added to the User report, exported via the User Interface. 
-
-### What's new 
-
-The User report includes a user's internal user ID and their manager's email address, to map them uniquely across different tools or API endpoints. 
-
-### Action required 
-
-* If using this report in automated flows, then this newly added column should be taken care of in automation.  
-* No changes are needed if workflows are not impacted. 
-
-## Scoped announcement permissions for custom administrators
-
-### Audience 
-
-Custom administrators 
-
-### Overview 
-
-Custom administrators can create announcements only for the user groups or catalogs within their defined scope. 
-
-### What's new 
-
-* Scoping rules allow custom administrators to create announcements for specific user groups or catalogs only. 
-* When defining a custom role, administrators can assign announcement permissions with scope on user groups or catalogs. 
-* Custom administrators are limited to creating announcements within their given scope. 
-* The notification announcement report for custom administrators will display learners only within their assigned scope. 
-
-### Action required 
-
-* The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
-* No modifications are necessary if this report is not utilized in any automated or downstream workflow.
-
-See the [Release notes](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
