@@ -1343,7 +1343,7 @@ Se si omette filter.loTypes=jobAid, il comportamento degli altri tipi di LO rima
 
 **Scopo**
 
-Experience Builder e headless front-end necessitano di un modo semplice per recuperare il **menu senza accesso** , quello che definisce la navigazione per i visitatori pubblici. Prima di questa versione, dovevi recuperare tutti i menu e quindi applicare una logica personalizzata per identificare quale rappresentava la navigazione senza accesso. Questa versione aggiunge un semplice filtro lato server.
+Experience Builder e i frontend headless richiedono un metodo semplice per recuperare il **menu non connesso**, quello che definisce la navigazione per i visitatori pubblici. Prima di questa versione, dovevi recuperare tutti i menu e quindi applicare una logica personalizzata per identificare quale rappresentava la navigazione senza accesso. Questa versione aggiunge un semplice filtro lato server.
 
 **Endpoint e comportamento**
 
@@ -1378,7 +1378,7 @@ Ciò è particolarmente utile quando si crea un sito senza intestazione per cui 
 Lo stack non connesso è costituito da:
 
 * Un dominio CDN pubblico (ad esempio cpcontents.adobe.com o yourdomain.example.com) che fornisce layout, codice JSON di configurazione e risorse statiche.
-* Endpoint di Elasticsearch pubblico (ES) che serve i dati del catalogo e della ricerca, ma solo se la richiesta proviene da un **dominio elencato consentito** per l&#39;account ALM.
+* Endpoint di Elasticsearch pubblico (ES) che fornisce dati di catalogo e di ricerca, ma solo se la richiesta proviene da un dominio **consentito** per l&#39;account ALM.
 
 Quando introduci un dominio personalizzato, funziona senza problemi, seguendo il processo esistente per l’aggiunta di un dominio personalizzato.
 
