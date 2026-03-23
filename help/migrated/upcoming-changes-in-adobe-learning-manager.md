@@ -2,9 +2,9 @@
 title: Novità della versione di aprile 2026 di Adobe Learning Manager
 description: Scopri le nuove funzioni, i miglioramenti e gli aggiornamenti importanti nella versione di aprile 2026 di Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
+source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
 workflow-type: tm+mt
-source-wordcount: '20211'
+source-wordcount: '20175'
 ht-degree: 0%
 
 ---
@@ -162,53 +162,53 @@ Con il connettore aggiornato:
 
 #### Migliore pianificazione VILT su larga scala
 
-Le organizzazioni ora possono:
+Le organizzazioni possono ora:
 
-* Eseguire contemporaneamente più aule virtuali basate su Zoom (ad esempio, percorsi paralleli in un vertice virtuale, coorti regionali o sessioni di formazione separate per i partner).
+* Esecuzione simultanea di più aule virtuali basate su Zoom (ad esempio, percorsi paralleli in un vertice virtuale, coorti regionali o sessioni di formazione separate per i partner).
 
-* Evita i colli di bottiglia che in precedenza costringevano gli amministratori a serializzare le sessioni o a affidarsi alla gestione manuale dello zoom.
+* Evita i colli di bottiglia che in precedenza forzavano gli amministratori a serializzare le sessioni o che si affidavano alla gestione manuale dello zoom.
 
-#### Riduzione del sovraccarico di amministrazione e di authoring
+#### Riduzione del sovraccarico di lavoro per amministratori e autori
 
-Questo miglioramento elimina:
+Il miglioramento elimina:
 
-* Creazione manuale di riunioni Zoom al di fuori di Adobe Learning Manager.
+* Creazione manuale di riunioni con Zoom esterne a Adobe Learning Manager.
 
-* Copia e incolla gli URL di Zoom in ogni istanza del corso per sovrapporre le sessioni.
+* Copia e incolla gli URL di Zoom in ogni istanza del corso per le sessioni sovrapposte.
 
-* Rischio di collegamenti non configurati correttamente, di allegati a riunioni errate o di mancata verifica della partecipazione.
+* Rischio di collegamenti non configurati correttamente, riunioni errate o monitoraggio di presenze mancate.
 
-Gli amministratori e gli autori possono gestire tutte le sessioni di Zoom da Adobe Learning Manager utilizzando flussi di lavoro familiari.
+Amministratori e Autori possono gestire tutte le sessioni di Zoom da Adobe Learning Manager, utilizzando flussi di lavoro familiari.
 
-#### Migliore allineamento con il provisioning dello zoom e i ruoli di istruttore
+#### Migliore allineamento con il provisioning di Zoom e i ruoli di istruttore
 
-Collegando le riunioni a singoli istruttori, gli account Zoom:
+Legando le riunioni ai singoli account Zoom del docente:
 
 * Ogni istruttore può operare entro i propri limiti di licenza Zoom.
 
-* Le organizzazioni possono utilizzare il modello di provisioning Zoom esistente (un account per istruttore, per unità di business, ecc.) pur continuando a integrarsi completamente con Adobe Learning Manager.
+* Le organizzazioni possono utilizzare il modello di provisioning Zoom esistente (un account per istruttore, per BU, ecc.) continuando a integrarsi completamente con Adobe Learning Manager.
 
-* Evita il collo di bottiglia di un singolo punto quando si utilizza un utente zoom super-amministratore condiviso per tutte le sessioni.
+* Evita il collo di bottiglia a punto singolo che comporta l’utilizzo di un utente Zoom condiviso con amministratore privilegiato per tutte le sessioni.
 
 ### Casi d’uso
 
 #### Eventi e vertici virtuali a più tracce
 
-I team di formazione del cliente che eseguono eventi di grandi dimensioni (ad esempio, avvii di prodotti, vertici con i partner o settimane di certificazione) possono:
+I team di formazione dei clienti che eseguono eventi di grandi dimensioni (ad esempio, bootcamp di prodotti, vertici con i partner o settimane di certificazione) possono:
 
-* Configurare più sessioni basate sullo zoom nello stesso intervallo di tempo (per tracce o argomenti diversi).
+* Configurare più sessioni basate su Zoom nello stesso intervallo di tempo (per tracce o argomenti diversi).
 
-* Gestisci tutti come moduli VILT nei corsi e nei percorsi di apprendimento di Adobe Learning Manager.
+* Puoi gestirli tutti come moduli VILT nei corsi e percorsi di apprendimento Adobe Learning Manager.
 
-* Offri agli Allievi un’esperienza unificata, mentre il connettore gestisce tutte le operazioni di creazione della riunione Zoom.
+* Offre agli Allievi un’esperienza unificata, mentre il connettore gestisce tutta la creazione della riunione Zoom sottostante.
 
 #### Formazione globale per partner e clienti
 
 Le organizzazioni che formano clienti e partner in diverse aree geografiche possono:
 
-* Eseguire sessioni di zoom separate per EMEA, APAC e Americhe in momenti sovrapposti per far corrispondere le ore lavorative locali.
+* Eseguire sessioni di Zoom separate per EMEA, APAC e Americhe a orari sovrapposti in modo che corrispondano agli orari di lavoro locali.
 
-* Evita di forzare un singolo intervallo di tempo globale o la configurazione manuale dello zoom per coorti aggiuntive.
+* Evitate di forzare una singola fascia oraria globale o la configurazione manuale dello zoom per altre coorti.
 
 #### Abilitazione interna
 
@@ -264,55 +264,55 @@ L&#39;azienda utilizza ALM con:
 
 * Un account principale a cui appartengono i corsi canonici e
 
-* Account peer che acquisiscono contenuti tramite cataloghi condivisi.
+* Account condivisi tra pari che acquisiscono contenuti tramite cataloghi condivisi.
 
-Gli Allievi negli account dei colleghi devono sapere quale team aziendale ha creato un corso per indirizzare correttamente domande o suggerimenti di miglioramento.
+Gli Allievi negli account condivisi tra pari devono sapere quale team aziendale ha creato un corso per indirizzare correttamente domande o suggerimenti di miglioramento.
 
 Con questo miglioramento:
 
-* I corsi condivisi ora visualizzano il nome dell’autore aziendale corretto negli account condiviso tra pari.
+* I corsi condivisi ora visualizzano il nome dell’autore enterprise corretto negli account condivisi tra pari.
 
-* Il carico di supporto interno dell’azienda viene ridotto perché gli Allievi e gli Amministratori locali sanno chi contattare.
+* Il carico di supporto interno dell’azienda viene ridotto perché gli Allievi e gli Amministratori locali sanno a chi rivolgersi.
 
 #### Condivisione interna multi-BU
 
-Dove un&#39;unità aziendale cura l&#39;apprendimento per gli altri:
+Dove una Business Unit cura l&#39;apprendimento per gli altri:
 
-* L’unità di vendita proprietaria può essere identificata nel campo di authoring in tutti gli account di consumo.
+* Il BU proprietario può essere identificato nel campo Autore in tutti gli account di consumo.
 
-* Gli amministratori locali di L&amp;D possono verificare rapidamente se un corso viene mantenuto in locale o da un altro BU e collaborare di conseguenza.
+* Gli amministratori L&amp;D locali possono vedere rapidamente se un corso viene gestito localmente o da un altro BU e collaborare di conseguenza.
 
-## Esponi la data di scadenza dell’oggetto di apprendimento (ritiro automatico) nelle API dell’Allievo
+## Esponi la data di scadenza (ritiro automatico) degli Oggetti di apprendimento nelle API degli Allievi
 
 ### Panoramica
 
-Questo miglioramento rende la data di ritiro automatico di un oggetto di apprendimento disponibile direttamente tramite le API Adobe Learning Manager rivolte agli Allievi. Quando un corso, un percorso di apprendimento o una certificazione sono configurati con una data di scadenza o di ritiro automatico, tali informazioni fanno ora parte dei dati di apprendimento restituiti dagli endpoint chiave dell’Allievo.
+Questo miglioramento rende disponibile la data di ritiro automatico di un oggetto di apprendimento (LO) direttamente tramite le API rivolte agli Allievi di Adobe Learning Manager. Quando un corso, un percorso di apprendimento o una certificazione sono configurati con una data di scadenza o ritiro automatico, tali informazioni fanno ora parte dei dati LO restituiti dagli endpoint principali dell’Allievo.
 
 ### Novità
 
-#### Nuovo campo di scadenza/ritiro automatico nelle API degli oggetti di apprendimento Allievo
+#### Nuovo campo per scadenza/ritiro automatico nelle API degli oggetti di apprendimento degli Allievi
 
-* Le API di apprendimento dell’Allievo (ad esempio, gli endpoint che restituiscono gli oggetti di apprendimento all’esperienza dell’Allievo e alle piattaforme esterne) ora includono la data di scadenza dell’apprendimento (la data di ritiro automatico configurata per tale oggetto di apprendimento).
+* Le API degli LO degli Allievi (ad esempio, gli endpoint che restituiscono gli oggetti di apprendimento all’esperienza dell’Allievo e a piattaforme esterne) ora includono la data di scadenza dell’LO (data di ritiro automatico configurata per tale oggetto di apprendimento).
 
-* Questo campo viene restituito come parte dell’entità LO in risposte quali:
+* Questo campo viene restituito come parte dell&#39;entità LO in risposte quali:
 
-   * Ottieni oggetto di apprendimento (dettagli oggetto di apprendimento).
+   * Ottieni oggetto di apprendimento (dettagli LO).
 
-   * I dati di apprendimento utilizzati per popolare la home dell’Allievo, il catalogo e i risultati di ricerca.
+   * Dati LO utilizzati per popolare la pagina principale dell’Allievo, il catalogo e i risultati della ricerca.
 
-* Il campo integra l’elemento completionDeadline esistente che esiste già a livello di istanza; il nuovo campo è specificamente la data di smobilizzo automatico a livello di apprendimento.
+* Il campo integra l’attuale completamentoScadenza già esistente a livello di istanza; il nuovo campo è specificamente la data di smobilizzo automatico a livello di LO.
 
-#### Disponibilità nelle esperienze degli Allievi basate su ricerche
+#### Disponibilità in esperienze di apprendimento basate su ricerca
 
-Poiché la data di scadenza è esposta come parte della rappresentazione dell&#39;oggetto di ricerca, è ora disponibile ovunque ALM o una piattaforma esterna utilizzi:
+Poiché la data di scadenza è esposta come parte della rappresentazione LO basata su ricerca, è ora disponibile ovunque ALM o una piattaforma esterna utilizzi:
 
 * API di ricerca o
 
-* cataloghi basati sulla ricerca e suggerimenti per creare viste dell’allievo.
+* cataloghi e suggerimenti basati sulla ricerca per creare visualizzazioni per gli allievi.
 
 **Ambito ed esclusioni**
 
-Questo miglioramento si applica solo alle API Allievo.
+Il miglioramento si applica solo alle API degli Allievi.
 
 ### Vantaggi principali
 
@@ -816,27 +816,27 @@ Ciò consente agli istruttori e ai coordinatori di identificare e stampare il co
 
 ### Panoramica
 
-Questo miglioramento migliora l’esperienza di riproduzione dei contenuti Adobe Captivate nel lettore Adobe Learning Manager (ALM), in particolare in seguito alle recenti modifiche apportate all’architettura di Captivate. L&#39;obiettivo è quello di consentire agli studenti di interagire con i moduli Captivate in modalità nativa in ALM, garantendo al contempo che la navigazione, il tracciamento del completamento e la creazione di note siano chiari, coerenti e affidabili.
+Questo miglioramento migliora l’esperienza di riproduzione dei contenuti Adobe Captivate all’interno del lettore Adobe Learning Manager (ALM), in particolare in seguito alle recenti modifiche apportate all’architettura di Captivate. L&#39;obiettivo è consentire agli Allievi di interagire con i moduli Captivate in modalità nativa in ALM, garantendo al contempo che la navigazione, il tracciamento del completamento e la creazione di note siano chiari, coerenti e affidabili.
 
 ### Novità
 
-#### Esperienza del sommario unificato
+#### Esperienza sommario unificata
 
 * Sul lato sinistro del lettore viene visualizzato solo il sommario ALM.
 
-* Il sommario di Captivate è nascosto quando il modulo viene riprodotto in ALM.
+* Il sommario della Captivate è nascosto quando il modulo viene riprodotto all&#39;interno di ALM.
 
-* Questo elimina le duplicazioni, garantisce un&#39;unica fonte di verità per la navigazione e libera spazio sullo schermo.
+* In questo modo si eliminano le duplicazioni, si garantisce un&#39;unica fonte di verità per la navigazione e si libera spazio su schermo.
 
 #### Feedback sul completamento visivo
 
-* Il sommario ALM mostra segni di graduazione verdi (o segnali visivi equivalenti) che indicano il completamento a livello di diapositiva.
+* Il sommario ALM mostra segni di graduazione verdi (o indicatori visivi equivalenti) che indicano il completamento a livello di diapositiva.
 
-* Man mano che gli Allievi avanzano attraverso le diapositive Captivate, il sommario ALM riflette quali diapositive sono state completate, in linea con le aspettative degli Allievi per i lettori del corso moderni.
+* Man mano che gli Allievi avanzano nelle diapositive Captivate, il sommario ALM riflette le diapositive completate, in linea con le aspettative degli Allievi per i lettori del corso moderni.
 
-#### Controlli dell’avanzamento contestuale
+#### Controlli di avanzamento contestuali
 
-* I controlli del lettore si adattano in base al tipo di diapositiva:
+* I controlli del lettore verranno adattati in base al tipo di diapositiva:
 
    * Per le diapositive video:
 
@@ -844,23 +844,23 @@ Questo miglioramento migliora l’esperienza di riproduzione dei contenuti Adobe
 
 * Per diapositive non video:
 
-   * Visualizzare i controlli di spostamento tra le diapositive (diapositiva successiva/precedente, ecc.) invece di una barra temporale non funzionante.
+   * Visualizza i controlli di spostamento tra le diapositive (diapositiva successiva/precedente, ecc.) anziché una barra temporale non funzionale.
 
       * In questo modo si evita di mostrare controlli irrilevanti o non funzionanti su alcuni tipi di diapositive.
 
 #### Navigazione semplificata
 
-* La barra di navigazione separata del modulo (ALM) e la barra di navigazione del corso vengono unite in un’unica barra intuitiva.
+* La barra di navigazione separata del modulo (ALM) e la barra di navigazione del corso vengono unite in un&#39;unica barra intuitiva.
 
 * Questa navigazione unificata:
 
-   * Distingue chiaramente il passaggio attraverso il modulo Captivate rispetto al passaggio al livello corso/modulo.
+   * Distingue chiaramente lo spostamento all’interno del modulo Captivate rispetto al ritorno al livello del corso o del modulo.
 
-   * Riduce la confusione causata da più barre con scopi di sovrapposizione.
+   * Riduce la confusione causata da più barre con scopi sovrapposti.
 
-#### Collegamento di note affidabili
+#### Collegamento note affidabile
 
-* Le note sono collegate ai numeri di diapositiva anziché alle marche temporali.
+* Le note sono collegate ai numeri delle diapositive anziché alle marche temporali.
 
 * Questa modifica:
 
@@ -1417,42 +1417,42 @@ Questa versione aggiunge un nuovo dominio CDN non connesso, cpcontents.adobe.com
 
 Utilizza Adobe per registrare il tuo dominio, ad esempio academy.yourcompany.com, come dominio personalizzato per il tuo account ALM. Aggiornare DNS per puntare ad Adobe Akamai come indicato e attendere il completamento di SSL e routing.
 
-A questo punto, sia il traffico connesso che quello non connesso possono raggiungere ALM attraverso tale dominio, ma le chiamate di ricerca e catalogo non collegate possono ancora essere bloccate se il dominio non è inserito nell’elenco Consentiti.
+A questo punto, sia il traffico connesso che quello non connesso possono raggiungere ALM attraverso quel dominio, ma le chiamate di ricerca e catalogo non effettuate possono ancora essere bloccate se il dominio non è consentito.
 
-**Abilita TDA e Experience Builder non connesso**
+**Abilita TDA e Experience Builder senza accesso**
 
 Assicurati che:
 
-* Il connettore **Training Data Access** è abilitato.
-* La funzionalità **non connesso di Experience Builder** è attivata per l&#39;account.
+* **Connettore Accesso ai dati di formazione** abilitato.
+* La funzionalità **Experience Builder** non connesso è attivata per l&#39;account.
 
-L’abilitazione di TDA crea o aggiorna il JSON dell’account non connesso. Per i nuovi account, il processo inserisce nell’elenco Consentiti anche il nuovo dominio CDN non connesso (cpcontent.adobe.com) per impostazione predefinita, pertanto l’endpoint ES pubblico prevede chiamate da tale dominio.
+L’abilitazione di TDA crea o aggiorna il codice JSON dell’account non connesso. Per i nuovi account, per impostazione predefinita il processo consente anche l’elenco dei nuovi domini CDN non connessi (cpcontent.adobe.com), pertanto l’endpoint pubblico ES prevede chiamate da tale dominio.
 
-Per gli account che utilizzavano già lo stack precedente non connesso, i connettori esistenti devono essere eliminati e ricreati per raccogliere il nuovo dominio.
+Per gli account che utilizzavano già lo stack precedente non connesso, i connettori esistenti devono essere eliminati e ricreati per selezionare il nuovo dominio.
 
-**Aggiungere il dominio personalizzato all&#39;elenco Consentiti**
+**Aggiungere il dominio personalizzato all&#39;elenco degli indirizzi consentiti**
 
 La parte critica sta dicendo allo stack ES non connesso che academy.yourcompany.com è un&#39;origine approvata. Esistono due percorsi comuni.
 
 1. **Riattivare il connettore TDA (semplice, self-service)**
 
-Gli utenti nativi non connessi esistenti dovranno eliminare e riabilitare la connessione TDA in modo che il nuovo dominio venga inserito automaticamente nell’elenco Consentiti. In questo modo si ottengono due risultati:
+Gli attuali utenti nativi non connessi dovranno eliminare e riattivare la connessione TDA in modo che il nuovo dominio venga automaticamente inserito nell’elenco dei domini consentiti. In questo modo si ottengono due risultati:
 
 1. Il JSON dell’account non connesso viene rigenerato.
-2. I domini inseriti nell’elenco Consentiti vengono aggiornati per includere il nuovo dominio CDN non connesso e il dominio personalizzato.
+2. I domini consentiti vengono aggiornati per includere il nuovo dominio CDN non connesso e il dominio personalizzato.
 
-Questa operazione è consigliata quando si dispone di un numero limitato di account e può tollerare la disattivazione temporanea e la riattivazione del connettore.
+Questa opzione è consigliata quando si dispone di un numero limitato di account e si può tollerare la disattivazione temporanea e la riattivazione del connettore.
 
-1. **Verificare che il dominio sia effettivamente inserito nell&#39;elenco Consentiti**
+1. **Verificare che il dominio sia effettivamente consentito**
 
-Dopo l’inserimento nell’elenco Consentiti, apri il sito non connesso sul dominio personalizzato e controlla le chiamate di rete del browser.
+Dopo aver consentito l&#39;inserimento nell&#39;elenco, apri il sito non connesso nel dominio personalizzato e analizza le chiamate di rete del browser.
 
 Desideri visualizzare:
 
-* Richieste ad almCdnBaseUrl (ad esempio <https://cpcontent.adobe.com/>...) che succede con 200/304.
-* Richieste a esBaseUrl (API di ricerca pubblica, ad esempio <https://primeapps.adobe.com/almsearch/api/v1/>) operazione riuscita, restituendo JSON con i dati di ricerca/catalogo.
+* Richieste a almCdnBaseUrl (ad esempio <https://cpcontent.adobe.com/>...) con 200/304.
+* Richieste a esBaseUrl (API di ricerca pubblica, ad esempio <https://primeapps.adobe.com/almsearch/api/v1/>...) operazione riuscita, restituzione di JSON con dati di ricerca/catalogo.
 
-Se queste chiamate restituiscono errori 4xx o espliciti che suggeriscono &quot;dominio non attendibile&quot; o &quot;origine non consentita&quot;, l’elenco Consentiti è incompleto o non configurato correttamente e il supporto deve modificarlo.
+Se queste chiamate restituiscono 4xx o errori espliciti che suggeriscono &quot;dominio non attendibile&quot; o &quot;origine non consentita&quot;, l&#39;elenco degli indirizzi consentiti è incompleto o non configurato correttamente e il supporto deve modificarlo.
 
 L’LLD non connesso rileva inoltre che la configurazione dell’account può contenere un valore di dominio previsto. In fase di runtime, il sito verifica che il dominio nell&#39;URL corrisponda a quanto impostato nella configurazione; in caso contrario, l&#39;utente può essere reindirizzato a una pagina di errore. In questo modo è possibile evitare che la configurazione di un cliente sia accessibile tramite il dominio di un altro cliente.
 
@@ -1730,6 +1730,7 @@ Il supporto delle tracce di testo video (VTT) multilingue in Adobe Learning Mana
 
 ### Funzioni principali
 
+* **Generazione automatica VTT:** carica un file video o audio e genera automaticamente i sottotitoli VTT nella lingua originale.
 * **Traduzione multilingue:** traduci i sottotitoli in una delle 39 lingue non inglesi supportate.
 * **Revisione e modifica in-app:** rivedere, modificare e scaricare i file VTT prima della pubblicazione.
 * **Notifiche:** ricezione di notifiche in-app al termine della generazione e della traduzione VTT.
@@ -1737,9 +1738,9 @@ Il supporto delle tracce di testo video (VTT) multilingue in Adobe Learning Mana
 
 ### Caricare contenuti e generare VTT
 
-1. Accedi alla Libreria dei contenuti e seleziona **Aggiungi > Contenuto**.
+1. Accedi alla Libreria dei contenuti e seleziona **Aggiungi contenuto**.
 2. Carica il file MP3 o MP4.
-3. Nella finestra di dialogo di caricamento, seleziona l&#39;opzione per **Generare le traduzioni**.
+3. Nella finestra di dialogo di caricamento, seleziona l&#39;opzione per **Generare la traduzione**.
 4. Selezionare la lingua del contenuto originale (l&#39;impostazione predefinita è la lingua del file).
 5. Seleziona altre lingue di destinazione per la traduzione (fino a 39 supportate).
 6. Seleziona **Salva**. Il sistema inizia a generare e a tradurre i file VTT.
@@ -1954,10 +1955,7 @@ Questa funzione consente ai revisori di aggiungere commenti o feedback durante l
 
 ## Miglioramenti della ricerca avanzata
 
-I risultati della ricerca in Ricerca avanzata sono ora più accurati e pertinenti. Le corrispondenze esatte delle parole chiave vengono classificate di livello superiore sia nella ricerca di contenuti che nei metadati, rendendo più facile per gli Allievi trovare con precisione ciò che stanno cercando.
-
-Gli Allievi possono ora vedere nei risultati di ricerca anche gli Oggetti di apprendimento a cui sono stati iscritti, anche se non fanno parte di un catalogo accessibile, garantendo che non vadano persi contenuti pertinenti. Inoltre, la classificazione delle risorse formative è stata migliorata sia nella ricerca avanzata che nella ricerca all’interno dei contenuti, superando più rapidamente le risorse più rilevanti.
-
+Questa versione include il miglioramento nella ricerca nel contenuto mostrando i corsi con il contenuto corrispondente alla query di livello più alto. Inoltre, le risorse formative sono ora incluse nella classifica di ricerca avanzata.
 
 ## Equivalenti e alternative
 
@@ -2458,4 +2456,3 @@ Il sistema distingue tra completamento effettivo e completamento alternativo in 
 * Se la relazione tra origine e destinazione viene rimossa o modificata, ALM può rimuovere o regolare i completamenti alternativi senza toccare i completamenti originali, a condizione che gli incompletamenti retroattivi siano abilitati per l&#39;account.
 
 I completamenti alternativi sono progettati per non interferire con l’effettiva attività dell’Allievo nel corso di formazione di destinazione. Agiscono come una sovrapposizione che può essere rivista se le relazioni cambiano.
-
