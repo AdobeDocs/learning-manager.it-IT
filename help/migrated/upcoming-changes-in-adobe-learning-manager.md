@@ -2,9 +2,9 @@
 title: Novità della versione di aprile 2026 di Adobe Learning Manager
 description: Scopri le nuove funzioni, i miglioramenti e gli aggiornamenti importanti nella versione di aprile 2026 di Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
+source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
 workflow-type: tm+mt
-source-wordcount: '20175'
+source-wordcount: '20997'
 ht-degree: 0%
 
 ---
@@ -1343,7 +1343,7 @@ Se si omette filter.loTypes=jobAid, il comportamento degli altri tipi di LO rima
 
 **Scopo**
 
-Experience Builder e i frontend headless richiedono un metodo semplice per recuperare il **menu non connesso**, quello che definisce la navigazione per i visitatori pubblici. Prima di questa versione, dovevi recuperare tutti i menu e quindi applicare una logica personalizzata per identificare quale rappresentava la navigazione senza accesso. Questa versione aggiunge un semplice filtro lato server.
+Experience Builder e headless front-end necessitano di un modo semplice per recuperare il **menu senza accesso** , quello che definisce la navigazione per i visitatori pubblici. Prima di questa versione, dovevi recuperare tutti i menu e quindi applicare una logica personalizzata per identificare quale rappresentava la navigazione senza accesso. Questa versione aggiunge un semplice filtro lato server.
 
 **Endpoint e comportamento**
 
@@ -1378,7 +1378,7 @@ Ciò è particolarmente utile quando si crea un sito senza intestazione per cui 
 Lo stack non connesso è costituito da:
 
 * Un dominio CDN pubblico (ad esempio cpcontents.adobe.com o yourdomain.example.com) che fornisce layout, codice JSON di configurazione e risorse statiche.
-* Endpoint di Elasticsearch pubblico (ES) che fornisce dati di catalogo e di ricerca, ma solo se la richiesta proviene da un dominio **consentito** per l&#39;account ALM.
+* Endpoint di Elasticsearch pubblico (ES) che serve i dati del catalogo e della ricerca, ma solo se la richiesta proviene da un **dominio elencato consentito** per l&#39;account ALM.
 
 Quando introduci un dominio personalizzato, funziona senza problemi, seguendo il processo esistente per l’aggiunta di un dominio personalizzato.
 
@@ -2456,3 +2456,91 @@ Il sistema distingue tra completamento effettivo e completamento alternativo in 
 * Se la relazione tra origine e destinazione viene rimossa o modificata, ALM può rimuovere o regolare i completamenti alternativi senza toccare i completamenti originali, a condizione che gli incompletamenti retroattivi siano abilitati per l&#39;account.
 
 I completamenti alternativi sono progettati per non interferire con l’effettiva attività dell’Allievo nel corso di formazione di destinazione. Agiscono come una sovrapposizione che può essere rivista se le relazioni cambiano.
+
+## Modifiche al report Trascrizioni apprendimento in questa versione
+
+### Colonna Metodo di completamento
+
+La colonna Metodo di completamento indica il modo in cui ogni record della Trascrizione Allievo dell’Amministratore è stato completato.
+
+Valori:
+
+* Diretta (per completamenti diretti)
+* Alternativo (per i completamenti ottenuti tramite relazioni alternative)
+* Alternativa revocata (quando tutti i completamenti alternativi sono revocati a causa di incompletamento retroattivo e rimozione della relazione)
+
+>[!NOTE]
+>
+>Questa colonna non è visibile nel LT dell’Allievo; è disponibile solo in Admin LT a scopo di report e tracciamento.
+
+#### Impatto
+
+Abilita audit trail, monitoraggio della conformità e trasparenza chiari per gli amministratori in merito alle modalità di completamento di un corso.
+
+### Tracciamento del completamento alternativo nelle Trascrizioni Allievi
+
+I completamenti alternativi consentono agli Allievi di ricevere i crediti di completamento per un corso o percorso di apprendimento target quando hanno completato un corso o percorso di origine equivalente, in base alle relazioni stabilite.
+
+Nella Trascrizione Allievo (LT), i completamenti alternativi influiscono su tre colonne esistenti: stato, data di completamento e origine di completamento:
+
+* **Stato**: lo stato può essere Completato anche se l’Allievo non ha completato direttamente il corso o percorso target, a causa di un completamento alternativo. Gli altri stati (Non avviato, In corso, Non registrato) non sono interessati dalle alternative. Le alternative influiscono solo su Completato.
+* **Data di completamento**: la data di completamento di un completamento alternativo viene ereditata dal corso o percorso di origine che ha attivato il completamento alternativo. Se l’Allievo completa direttamente l’oggetto in un secondo momento, la data viene aggiornata per riflettere il completamento diretto.
+* **Origine completamento**: questa colonna acquisisce gli ID del corso di formazione o dei percorsi di origine che hanno fornito il completamento alternativo. Se sono attive più origini, vengono elencati tutti gli ID rilevanti; se le origini vengono revocate (con incompletamento retroattivo abilitato), rimangono solo le origini attive. La colonna Origine completamento elenca tutti gli ID di formazione di origine attivi (separati da virgole) e, se esistono più origini, viene utilizzata la prima data di completamento.
+
+#### Impatto
+
+I completamenti alternativi riducono la riconciliazione manuale, automatizzano il monitoraggio dei progressi nei percorsi di apprendimento e nelle certificazioni e supportano i requisiti di conformità.
+
+>[!NOTE]
+>
+>Nelle Trascrizioni allievi non viene visualizzata la colonna Metodo di completamento; questa colonna è disponibile solo in LT amministratore.
+
+### Logica della data di completamento per le alternative
+
+La colonna Data di completamento nella Trascrizione Allievo (LT) è un campo esistente utilizzato per registrare quando un Allievo ottiene il completamento di un corso o di un percorso di apprendimento, sia in modo diretto che alternativo. Per i completamenti alternativi, la data di completamento viene ereditata dal corso o percorso di origine che ha attivato il completamento alternativo. Ciò significa che la data riflette il momento in cui l’Allievo ha completato l’origine, non la destinazione.
+
+Se un Allievo completa successivamente direttamente il corso o il percorso target, la data di completamento viene aggiornata alla data di completamento diretto, ignorando la data di completamento alternativa precedente.
+
+Non è stata aggiunta alcuna nuova colonna per le date di completamento alternative; la colonna Data completamento esistente viene utilizzata sia per i completamenti diretti che per quelli alternativi. Nei casi in cui più origini possono fornire un completamento alternativo per una destinazione, viene utilizzata la prima data di completamento alternativo attiva tra le origini. Se un&#39;origine viene revocata (con incompletamento retroattivo abilitato), la data di completamento viene aggiornata alla prima origine attiva successiva oppure viene cancellata se non rimangono origini attive.
+
+#### Impatto
+
+La logica della data di completamento garantisce un tracciamento storico accurato e la coerenza dei report, in particolare quando i completamenti alternativi vengono revocati o aggiornati.
+
+### Completamenti alternativi revocati
+
+I completamenti alternativi revocati si verificano quando il completamento alternativo di un Allievo per un corso o percorso di apprendimento target viene rimosso a causa della revoca di tutte le relazioni di origine, a condizione che l’incompletamento retroattivo sia abilitato nell’account.
+
+#### Condizioni di attivazione
+
+* L’incompletamento retroattivo deve essere abilitato per l’account; in caso contrario, la rimozione delle relazioni di origine non revoca i completamenti alternativi.
+* La revoca avviene solo quando vengono rimosse tutte le relazioni di origine attive per una destinazione. Se rimane almeno un&#39;origine, il completamento alternativo persiste e la colonna dell&#39;origine del completamento viene aggiornata in modo da riflettere solo le altre origini attive.
+
+#### Impatto
+
+* Stato: se tutti i completamenti alternativi sono stati revocati e non vi è alcun completamento diretto, lo stato viene aggiornato (ad esempio, da Completato a Non avviato o In corso a seconda dei casi).
+* Data di completamento: la data di completamento viene cancellata se non rimangono origini attive e l’Allievo non ha completato direttamente l’oggetto.
+* Origine completamento: la colonna Origine completamento viene aggiornata per rimuovere le origini revocate; se tutte sono revocate, viene cancellata.
+
+Se l’Allievo ha un completamento diretto, la revoca delle alternative non influisce sullo stato di completamento o sulla data di completamento.
+
+**Nota**:
+
+1. Se più origini hanno fornito un completamento alternativo e solo alcune sono state revocate, la LT riflette le restanti origini attive e la prima data di completamento.
+2. Se tutte le origini sono state revocate e non è presente un completamento diretto, l’Allievo perde lo stato di completamento per la destinazione.
+
+### Report migliorati per le osservazioni del revisore dell’elenco di controllo
+
+I commenti dei revisori dei moduli dell’elenco di controllo sono ora inclusi nel report LT in una colonna rinominata Revisori Note.
+
+#### Impatto
+
+Allievi e amministratori possono visualizzare feedback consolidati, migliorando la trasparenza e supportando la valutazione delle prestazioni.
+
+### Calcolo del tempo di apprendimento migliorato
+
+Il report LT ora utilizza una logica perfezionata per distinguere tra il tempo attivo e inattivo dedicato ai moduli di apprendimento, in base all’attività degli utenti e allo stato attivo delle schede.
+
+#### Impatto
+
+Fornisce una misurazione più accurata del coinvolgimento nell&#39;apprendimento, supportando la conformità e l&#39;analisi.
