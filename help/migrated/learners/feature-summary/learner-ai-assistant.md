@@ -3,9 +3,9 @@ description: Ottieni risposte rapide e precise dai tuoi contenuti di apprendimen
 jcr-language: en_us
 title: Assistente all’intelligenza artificiale per gli Allievi in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
+source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ L&#39;Assistente all&#39;intelligenza artificiale è un compagno di chat generat
 
 - **Controlli amministratore**
    - Attivare o disattivare la funzione a livello di account
-   - Controllare l&#39;accesso per gruppi di utenti
    - Seleziona i cataloghi inclusi per le risposte basate su IA
    - Requisito di accettazione delle Condizioni d’uso in base alle linee guida di Adobe AI
 
@@ -148,32 +147,30 @@ Le organizzazioni possono personalizzare i prompt incorporati per riflettere i p
 
 ![Assistente Allievo abilitato all’intelligenza artificiale](assets/learner-ai-assistant-new.png)
 
-Gli amministratori selezionano i gruppi di utenti e i cataloghi **interni** che possono accedere alla funzione Assistente intelligenza artificiale. Assicurati che i cataloghi assegnati includano solo il contenuto di apprendimento appropriato per le risposte e le citazioni basate su IA e che tali cataloghi siano **interni** (non **condivisi**, **acquisiti** o **esterni**).
+Gli amministratori selezionano i cataloghi **interni** che possono accedere alla funzione Assistente intelligenza artificiale. Assicurati che i cataloghi assegnati includano solo il contenuto di apprendimento appropriato per le risposte e le citazioni basate su IA e che tali cataloghi siano **interni** (non **condivisi**, **acquisiti** o **esterni**).
 
-Prima di configurare l&#39;Assistente all&#39;intelligenza artificiale, verifica di disporre delle credenziali di amministratore e di aver identificato i gruppi di utenti e i cataloghi a cui devono avere accesso.
+Prima di configurare l&#39;Assistente all&#39;intelligenza artificiale, verifica di disporre delle credenziali di amministratore e di disporre dell&#39;accesso ai cataloghi.
 
 ### Configurare l&#39;accesso Assistente intelligenza artificiale
 
 Per abilitare l’Assistente all’intelligenza artificiale dell’Allievo:
 
-1. Accedi a Adobe Learning Manager come amministratore.
+&#x200B;1. Accedi a Adobe Learning Manager come amministratore.
 
-2. Selezionare **Impostazioni** dalla home page.
-   ![Console di amministrazione con opzione Impostazioni nel riquadro sinistro](assets/settings-menu.png)
+2.Selezionare **Impostazioni** dalla home page.
+![Console di amministrazione con l&#39;opzione Impostazioni nel riquadro sinistro](assets/settings-menu.png)
 
-3. Seleziona **Assistente AI Allievo (Beta)** dal menu **Impostazioni**.
-   ![La console dell’amministratore visualizza l’opzione Assistente intelligenza artificiale Allievo nel riquadro a sinistra](assets/learner-assistant-ai-beta.png)
+&#x200B;3. Seleziona **Assistente AI Allievo (Beta)** dal menu **Impostazioni**.
+![La console dell’amministratore visualizza l’opzione Assistente intelligenza artificiale Allievo nel riquadro a sinistra](assets/learner-assistant-ai-beta.png)
 
-4. Seleziona l’interruttore per attivare **Assistente AI Allievo (Beta)**.
-   ![Nella console Amministratori viene visualizzato l’interruttore abilitato per l’Assistente AI Allievo](assets/learner-assistant-toggle.png)
+&#x200B;4. Seleziona l’interruttore per attivare **Assistente AI Allievo (Beta)**.
+<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+<!--5. Select one or more user groups from the **Eligible user groups** option.-->
+<!--5. Select **Save** to apply the user group settings.-->
 
-5. Seleziona uno o più gruppi di utenti dall&#39;opzione **Gruppi di utenti idonei**.
+&#x200B;5. Selezionare uno o più cataloghi dall&#39;opzione **Cataloghi idonei**.
 
-6. Seleziona **Salva** per applicare le impostazioni del gruppo di utenti.
-
-7. Seleziona uno o più cataloghi dall&#39;opzione **Cataloghi idonei**.
-
-8. Seleziona **Salva** per applicare le impostazioni del catalogo.
+&#x200B;6. Selezionare **Salva** per applicare le impostazioni del catalogo.
 
 >[!IMPORTANT]
 >
