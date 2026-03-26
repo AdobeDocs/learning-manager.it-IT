@@ -2,7 +2,7 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 67%
@@ -37,7 +37,6 @@ ht-degree: 67%
    * [Modifiche e deprecazioni delle API in Adobe Learning Manager](api-deprecations-list.md)
    * [Consigli in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Assegnazione di etichette bianche in Adobe Learning Manager](white-label.md)
-   * [Documentazione API per l’interazione col lettore incorporato](/help/migrated/embedded-player-interaction.md)
 * Guida introduttiva {#get-started}
    * [Guida introduttiva come Amministratore](administrators/feature-summary/getting-started-admin.md)
    * [Guida introduttiva come Autore](authors/feature-summary/getting-started-author.md)
@@ -135,6 +134,7 @@ ht-degree: 67%
    * [App Learning Manager per Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Impostazioni](integration-admin/feature-summary/settings.md)
    * [Gestisci ruoli personalizzati tramite file CSV](integration-admin/feature-summary/configure-role-csv-files.md)
+   * [Documentazione API per l’interazione col lettore incorporato](/help/migrated/embedded-player-interaction.md)
 * Autori {#authors}
    * [Accesso utente](authors/feature-summary/user-login.md)
    * [Libreria dei contenuti](authors/feature-summary/content-library.md)
