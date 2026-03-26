@@ -2,9 +2,9 @@
 title: Novità della versione di aprile 2026 di Adobe Learning Manager
 description: Scopri le nuove funzioni, i miglioramenti e gli aggiornamenti importanti nella versione di aprile 2026 di Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
+source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
 workflow-type: tm+mt
-source-wordcount: '20997'
+source-wordcount: '20223'
 ht-degree: 0%
 
 ---
@@ -366,78 +366,6 @@ L’aggiunta di date di scadenza nell’API LO consente ai creatori di esperienz
 
 * Costruisci campagne &quot;Ultima occasione per completare&quot;.
 
-## Supporto multilingue per risorse formative
-
-### Panoramica
-
-Questo miglioramento estende il modello di localizzazione di Adobe Learning Manager alle risorse formative, consentendo agli autori di allegare file di contenuto diversi per lingua a una singola risorsa formativa. Invece di creare risorse formative separate per ogni lingua, gli autori possono ora gestire tutte le versioni localizzate come una risorsa formativa logica.
-
-### Novità
-
-#### Caricamento di contenuti specifici per ogni lingua per le risorse formative
-
-Gli autori possono allegare file diversi per lingua supportata a una singola risorsa formativa, come corsi e altri LO.
-
-L’esperienza di creazione/modifica della risorsa formativa ora supporta:
-
-* Selezione di una lingua.
-
-* Caricamento del file specifico della lingua per la stessa lingua nella stessa entità Risorsa formativa.
-
-#### Gestione coerente della lingua nell’interfaccia utente del lettore e dell’Allievo
-
-Il lettore Fluidic è stato aggiornato in modo che quando un Allievo apre una risorsa formativa, viene visualizzata la variante di contenuto corrispondente alla lingua dell’Allievo (se disponibile).
-
-Gli Amministratori e gli Autori possono visualizzare le risorse formative come singoli oggetti con varianti di lingua, anziché come elementi separati per lingua.
-
-### Vantaggi principali
-
-#### Risorsa formativa unica per tutte le lingue
-
-Gli autori possono evitare di creare risorse formative separate per lingua.
-
-Tutte le varianti della lingua della stessa risorsa formativa (ad esempio, una procedura, un SOP, un PDF dell’elenco di controllo o una guida di riferimento) possono essere gestite in un’unica posizione.
-
-#### Migliore esperienza per gli Allievi globali
-
-Gli Allievi visualizzano automaticamente la risorsa formativa nella lingua preferita, ovvero:
-
-* Meno confusione sulla versione da aprire.
-
-* Riduzione del rischio di accesso a copie fuori dalle impostazioni locali o obsolete.
-
-Ciò è particolarmente utile nelle organizzazioni multilingue in cui la stessa documentazione relativa a processi o prodotti deve essere disponibile in più lingue.
-
-### Casi d’uso
-
-#### Implementazione globale del contenuto di riferimento
-
-Un’azienda deve fornire risorse formative in diverse lingue agli Allievi in tutto il mondo, ad esempio:
-
-* Schede di riferimento del prodotto.
-
-* Elabora elenchi di controllo.
-
-* Supporta i playbook
-
-Invece di creare risorse formative separate come &quot;Product Quick Start - EN&quot;, &quot;Product Quick Start - DE&quot;, &quot;Product Quick Start - JP&quot;, ecc., possono creare una risorsa formativa, allegare file localizzati per ogni lingua e consentire ad ALM di fornire la versione corretta a ciascun Allievo in base alle impostazioni della lingua.
-
-#### Documentazione rivolta ai clienti o ai partner per più mercati
-
-Per le accademie di clienti e partner, le risorse formative possono includere:
-
-* Schede di imbroglio di prodotti
-
-* Guide di integrazione
-
-* Flussi di lavoro di supporto
-
-Con risorse formative multilingue:
-
-* Ogni partner vede la versione localizzata senza essere costretto a scegliere tra voci specifiche della lingua.
-
-* I team di marketing e abilitazione possono gestire una risorsa formativa per argomento in tutte le lingue.
-
 ## Imposta la restrizione sull&#39;ora di inizio del modulo
 
 ### Panoramica
@@ -560,60 +488,6 @@ Ciò consente l&#39;analisi delle prestazioni complessive e delle prestazioni sp
 * **Osservazioni sulla sicurezza e sulla conformità**: nel settore sanitario, manifatturiero o dell&#39;assistenza sul campo, è possibile assegnare punteggi massimi più elevati alle fasi di sicurezza critiche, in modo da garantire che l&#39;assenza di un&#39;azione critica per la sicurezza abbia un impatto maggiore sul punteggio totale rispetto all&#39;assenza di una fase procedurale minore.
 
 * **Coaching e calibrazione**: con il numero massimo di punteggi per domanda raggiunti, i manager possono vedere esattamente dove gli Allievi hanno ottenuto risultati insoddisfacenti e calibrare gli Istruttori su come ottenere punteggi uniformi.
-
-## Supporto multilingue per domande dell&#39;elenco di controllo
-
-### Panoramica
-
-Il miglioramento introduce il supporto multilingue per le domande sugli elenchi di controllo, consentendo ai revisori di valutare e assegnare un punteggio agli elenchi di controllo nella lingua preferita. Questa funzione è particolarmente utile nelle aree multilingue e nelle distribuzioni globali, in quanto consente agli autori di creare domande di elenchi di controllo localizzate per ogni lingua di contenuto supportata, mantenendo un singolo modulo di elenchi di controllo e un processo di valutazione coerente.
-
-In Adobe Learning Manager oggi:
-
-* Tutti i moduli rivolti agli Allievi (SCORM, PDF, HTML, ecc.) possono essere disponibili in più lingue dei contenuti, consentendo agli allievi di scegliere la lingua preferita.
-
-* In un modulo di elenco di controllo, i revisori (istruttori/manager) valutano gli allievi in base alle domande definite in tale elenco di controllo.
-
-### Novità
-
-**Authoring**
-
-* Gli Autori ora possono aggiungere domande dell’elenco di controllo in tutte le lingue selezionate a livello di corso.
-
-* Per ogni elenco di controllo:
-
-   * L’Autore deve fornire un testo di domanda equivalente in ogni lingua di contenuto in cui si trova il corso.
-
-   * Gli autori hanno la responsabilità di garantire che il significato di ogni domanda sia coerente in tutte le lingue.
-
-**Esperienza di revisione**
-
-* I revisori visualizzeranno le domande dell’elenco di controllo e l’interfaccia utente di valutazione nella lingua del contenuto selezionato.
-
-* Quando una domanda viene valutata in una lingua:
-
-   * La valutazione (punteggio, Sì/No, stato) è logicamente la stessa in tutte le lingue. Si tratta di un elenco di controllo singolo con visualizzazioni in più lingue, non di elenchi di controllo separati per lingua.
-
-**Report**
-
-Il report Elenco di controllo visualizzerà il testo della domanda nella lingua del contenuto dell&#39;utente:
-
-* Un amministratore o un revisore che esegue il report in ciascuna lingua visualizza i nomi delle domande localizzate per tale lingua.
-
-* Le risposte e i punteggi sottostanti rimangono invariati; vengono tradotte solo le etichette delle domande.
-
-### Vantaggi principali
-
-* **Migliore esperienza di revisione**: i revisori possono lavorare interamente nella propria lingua, leggendo domande e registrando valutazioni senza barriere linguistiche.
-
-* **Allineamento normativo e delle policy**: nelle aree con requisiti di uguaglianza linguistica (ad esempio, olandese/francese in Belgio), le liste di controllo ora possono soddisfare gli stessi standard di altri materiali di apprendimento, riducendo i rischi di conformità.
-
-* **Logica di valutazione coerente**: mentre il testo è localizzato, la valutazione e il punteggio vengono condivisi in tutte le lingue, assicurando che i risultati siano confrontabili e gestiti a livello centrale.
-
-### Casi d’uso
-
-* I franchising di più paesi che operano in più lingue possono distribuire un singolo corso e una checklist fornendo al contempo esperienze di revisione localizzate in ogni territorio.
-
-* Qualsiasi azienda globale con istruttori locali (ad esempio, EMEA, LATAM, APAC) può fare in modo che i revisori lavorino nella propria lingua locale condividendo la stessa progettazione e creazione di report dell&#39;elenco di controllo globale.
 
 ## Elenco di controllo con funzionalità di creazione dei commenti per il revisore
 
