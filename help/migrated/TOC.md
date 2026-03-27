@@ -2,7 +2,7 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 65%
@@ -130,7 +130,7 @@ ht-degree: 65%
       * [Pacchetto per il sito di riferimento ALM per AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [Integrazione di Learning Manager con AEM](integrate-aem-learning-manager.md)
    * [Installazione del pacchetto Salesforce su Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
-   * [Guida alla distribuzione](#deployment-guide)
+   * Guida alla distribuzione {#deployment-guide}
       * [Introduzione](/help/migrated/deployment-guide/introduction.md)
       * [Connettori di terze parti](/help/migrated/deployment-guide/third-party-connectors.md)
       * [Migrazione degli utenti](/help/migrated/deployment-guide/user-migration.md)
