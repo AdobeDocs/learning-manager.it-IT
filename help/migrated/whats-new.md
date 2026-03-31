@@ -168,7 +168,7 @@ Questo processo semplificato garantisce che continuino a ricevere raccomandazion
 
 Adobe Learning Manager ora dispone di un pulsante **[!UICONTROL Ripristina interessi]** nell’app Salesforce. Gli Allievi possono ora ripristinare i ruoli e le preferenze di apprendimento senza dover lasciare Salesforce o accedere all’app nativa Adobe Learning Manager.
 
-Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app), consulta [Consigli per la reimpostazione.
+Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce[&#128279;](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app), consulta Consigli per la reimpostazione.
 
 ## Miglioramento del widget Calendario
 
