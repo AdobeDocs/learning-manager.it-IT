@@ -2,13 +2,13 @@
 description: Scopri le nuove funzioni e i miglioramenti nella versione di ottobre 2025 di Adobe Learning Manager
 jcr-language: en_us
 title: Novità della versione di ottobre 2025 di Adobe Learning Manager
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
+source-git-commit: 95b65499b5becfb34abbceb5dc3d98dfa51b0e31
 workflow-type: tm+mt
-source-wordcount: '5573'
+source-wordcount: '5648'
 ht-degree: 0%
 
 ---
-
 
 # Novità della versione di ottobre 2025 di Adobe Learning Manager
 
@@ -168,7 +168,7 @@ Questo processo semplificato garantisce che continuino a ricevere raccomandazion
 
 Adobe Learning Manager ora dispone di un pulsante **[!UICONTROL Ripristina interessi]** nell’app Salesforce. Gli Allievi possono ora ripristinare i ruoli e le preferenze di apprendimento senza dover lasciare Salesforce o accedere all’app nativa Adobe Learning Manager.
 
-Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce[, consulta &#x200B;](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app)Consigli per la reimpostazione.
+Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app), consulta [Consigli per la reimpostazione.
 
 ## Miglioramento del widget Calendario
 
@@ -229,7 +229,7 @@ In precedenza, selezionando la striscia **[!UICONTROL Salvato da me]** venivano 
 
 All’interno del catalogo, gli Allievi possono applicare filtri aggiuntivi per affinare la ricerca. Quando viene applicato un filtro, vengono visualizzati solo i corsi che soddisfano i criteri selezionati. I corsi contrassegnati in precedenza vengono visualizzati solo se corrispondono al filtro applicato.
 
-AEM Per ulteriori informazioni sul widget dei corsi salvati nei siti AEM, vedere [Configurare i widget dei corsi salvati](/help/migrated/integrate-aem-learning-manager.md#configure-my-saved-courses-widgets-in-aem-sites).
+Per ulteriori informazioni sul widget dei corsi salvati nei siti AEM, vedere [Configurare i widget dei corsi salvati](/help/migrated/integrate-aem-learning-manager.md#configure-my-saved-courses-widgets-in-aem-sites).
 
 ## Supporto per visualizzare i nomi degli Autori nei corsi condivisi
 
@@ -274,6 +274,7 @@ La risposta dell&#39;API `startRun` è stata aggiornata per includere l&#39;ID d
 Recupera lo stato di un&#39;esecuzione di migrazione esistente.
 
 **Endpoint**
+È disponibile un nuovo endpoint:
 
 ```
 GET /bulkimport/runStatus
@@ -822,5 +823,3 @@ Consulta le [note sulla versione](/help/migrated/release-note/release-notes.md) 
 
 * [Versione di maggio 2025 di Adobe Learning Manager](/help/migrated/whats-new-may-2025.md)
 * [Versione di novembre 2025 di Adobe Learning Manager](/help/migrated/whats-new-nov-24.md)
-
-
