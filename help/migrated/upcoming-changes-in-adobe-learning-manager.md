@@ -2,9 +2,9 @@
 title: Novità della versione di aprile 2026 di Adobe Learning Manager
 description: Scopri le nuove funzioni, i miglioramenti e gli aggiornamenti importanti nella versione di aprile 2026 di Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
+source-git-commit: 33f503b69b979bfa962387388b453492a44cac5d
 workflow-type: tm+mt
-source-wordcount: '20223'
+source-wordcount: '20354'
 ht-degree: 0%
 
 ---
@@ -1449,7 +1449,7 @@ Quando un visitatore fa clic su una risorsa formativa da un qualsiasi widget o d
 
 Sul **lato API**, le risorse formative sono supportate da:
 
-1. **Connettore Accesso ai dati di formazione e ricerca pubblica**
+1. Il connettore Accesso ai dati di formazione di **e la ricerca pubblica**
 TDA esporta i metadati della risorsa formativa insieme ad altri tipi di LO nell’indice di ricerca pubblico che serve le query di ricerca e catalogo non registrate. Questo è ciò su cui si basano Experience Builder e i front-end headless.
 2. Elenco **Oggetti di apprendimento con effectiveModifiedDate**
 In questa versione, l’endpoint dell’elenco di oggetti di apprendimento è stato corretto in modo che le risorse formative funzionino correttamente con il filtro effectiveModifiedDate. Ora puoi chiamare:
@@ -2405,11 +2405,27 @@ Se l’Allievo ha un completamento diretto, la revoca delle alternative non infl
 
 ### Report migliorati per le osservazioni del revisore dell’elenco di controllo
 
-I commenti dei revisori dei moduli dell’elenco di controllo sono ora inclusi nel report LT in una colonna rinominata Revisori Note.
+I commenti dei revisori dei moduli dell’elenco di controllo sono ora inclusi nelle Trascrizioni allievi (LT) in una colonna rinominata: **Note del revisore** (in precedenza: commento di invio).
 
 #### Impatto
 
-Allievi e amministratori possono visualizzare feedback consolidati, migliorando la trasparenza e supportando la valutazione delle prestazioni.
+Gli Allievi e gli Amministratori possono visualizzare i feedback consolidati e chiaramente etichettati dei revisori nelle esportazioni LT (interfaccia utente, API dei processi e connettori), migliorando la trasparenza, la verificabilità e supportando valutazioni e programmi di formazione delle prestazioni più accurati.
+
+#### Cosa è cambiato
+
+**Colonne rinominate**
+
+| Area | Nome colonna precedente | Nuovo nome colonna | Note |
+| --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
+| Trascrizioni Allievi (Amministratore) | Commento di invio | Osservazioni del revisore | Si applica a tutte le origini Admin LT: interfaccia utente, API dei processi, connettori, se applicabile. |
+
+Questa modifica si applica in modo uniforme a tutte le origini di Admin LT (esportazioni dell&#39;interfaccia utente, report API dei processi ed esportazioni basate sul connettore, se applicabile). LT esportato dal connettore presenterà le osservazioni di Reviewer come colonna dedicata alla fine (per i connettori che non hanno esposto in precedenza il commento Invio), garantendo che le integrazioni a valle possano distinguere il feedback del revisore dagli altri commenti.
+
+>[!NOTE]
+>
+>Per le Trascrizioni allievi per gli allievi, la colonna precedentemente denominata &quot;Commento di invio&quot; è ora rinominata &quot;Commenti del revisore&quot; ed è compilata con il commento del revisore dell’elenco di controllo quando è attivata.
+
+
 
 ### Calcolo del tempo di apprendimento migliorato
 
