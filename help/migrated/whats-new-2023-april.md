@@ -3,10 +3,10 @@ title: Novità di questa versione (aprile 2023)
 description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '3205'
-ht-degree: 60%
+source-wordcount: '3234'
+ht-degree: 69%
 
 ---
 
@@ -25,7 +25,7 @@ Sono stati apportati diversi miglioramenti all’esperienza di formazione con Is
 ### Cosa è cambiato
 
 * La pagina Abilità dell’app dell’Amministratore consente di caricare la mappatura Abilità-Istruttore.
-* Nella pagina Abilità è disponibile una nuova colonna, Istruttori. La colonna mostra il numero di istruttori rispetto all’abilità. Se fai clic sul numero nella colonna Istruttori, verrai reindirizzato a una finestra a comparsa che mostra il numero di istruttori assegnati a un’abilità.
+* Nella pagina Abilità è disponibile una nuova colonna, Istruttori. La colonna mostra il numero di istruttori rispetto all’abilità. Facendo clic sul numero nella colonna Istruttori, si verrà reindirizzati a una finestra a comparsa che mostra il numero di Istruttori assegnati a un’abilità.
 
 Per ulteriori informazioni, consulta [Assegnazione di abilità agli Istruttori](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
@@ -33,11 +33,11 @@ Per ulteriori informazioni, consulta [Assegnazione di abilità agli Istruttori](
 
 ### Assistente alla pianificazione
 
-Gestire i conflitti nelle registrazioni di Istruttori e aule o aule virtuali. Se desideri sapere in quale data e ora è disponibile un istruttore prima di assegnarlo al corso, utilizza l’Assistente alla pianificazione.
+Gestire i conflitti nelle registrazioni di Istruttori e aule o aule virtuali. Se desideri sapere a che ora e data è disponibile un Istruttore prima di assegnarlo al corso, utilizza l’Assistente pianificazione.
 
 Gli Autori, gli Amministratori e gli Amministratori/Autori personalizzati possono utilizzare l’Assistente pianificazione.
 
-Per ulteriori informazioni, vedere [Assistente alla pianificazione](/help/migrated/authors/feature-summary/courses.md#scheduling-assistant).
+Per ulteriori informazioni, consultate [Assistente pianificazione](/help/migrated/authors/feature-summary/courses.md#scheduling-assistant).
 
 ## App per dispositivi mobili di Adobe Learning Manager
 
@@ -45,7 +45,7 @@ Una nuovissima app per dispositivi mobili Adobe Learning Manager per Android e i
 
 ![Nuova immagine dell&#39;interfaccia della mappa mobile](assets/mobile-app.png)
 
-Scarica il dispositivo mobile da Google Play Store e Apple App Store. Agli utenti della versione precedente dell’app verrà richiesto di scaricare e installare la nuova app.
+Scarica il dispositivo mobile dal Google Play Store e dall’App Store Apple. Agli utenti della versione precedente dell’app verrà richiesto di scaricare e installare la nuova app.
 
 In questa versione, l’app supporta le seguenti funzioni:
 
@@ -68,7 +68,7 @@ La nuova app per dispositivi mobili supporta le seguenti funzioni chiave in ques
 **Elementi non supportati in questa versione**
 
 * Supporto per tentativi multipli di un modulo quiz in un corso quando viene seguito dall’app mobile.
-* Opzioni di ricerca che consentono di specificare i parametri di ricerca, ad esempio i metadati del corso, i tag e le abilità per specificare l’ambito di ricerca.
+* Opzioni di ricerca che consentono di specificare i parametri di ricerca, come i metadati del corso, i tag e le abilità per specificare l’ambito della ricerca.
 * Annunci personalizzati abilitati all’amministratore che vengono mostrati come popup all’utente nell’app per dispositivi mobili.
 * Non puoi aggiungere abilità alla pagina delle abilità nell’app.
 * Seguire corsi in modalità offline.
@@ -152,7 +152,7 @@ Dopo aver creato l’account di prova, i corsi nel marketplace dei contenuti div
 
 ## Chatbot
 
-Parla in chat con uno o più agenti utilizzando un chatbot. Questa funzione può essere utilizzata solo dagli amministratori e dagli amministratori personalizzati degli account di prova.
+Chatta con un agente o più agenti usando un chatbot. Questa funzione può essere utilizzata solo dagli amministratori e dagli amministratori personalizzati degli account di prova.
 
 Il chatbot ha le seguenti funzioni:
 
@@ -188,7 +188,7 @@ La funzionalità di ricerca è stata migliorata anche per gli Allievi. Gli Allie
 
 ### Popup in conflitto per gli oggetti di apprendimento
 
-Quando un Allievo ha sessioni in conflitto, nella pagina Panoramica viene visualizzata una finestra a comparsa all’iscrizione. Se un Allievo si iscrive alla pagina del catalogo o della panoramica e ha già sessioni in conflitto, viene attivato un popup in conflitto con i dettagli della sessione in conflitto. Anche se un Allievo ha una sessione in conflitto, può iscriversi alla nuova sessione.
+La pagina Panoramica visualizza una finestra a comparsa durante l’iscrizione quando un Allievo ha sessioni in conflitto. Se si effettua l’iscrizione dalla pagina del catalogo o della panoramica e un Allievo ha già sessioni in conflitto, si attiverà una finestra a comparsa di conflitto con i dettagli della relativa sessione. Anche se un Allievo ha una sessione in conflitto, può iscriversi alla nuova sessione.
 
 ![avviso](assets/learner-pop-up.png)
 
@@ -228,10 +228,10 @@ Un amministratore può cambiare istanza per gli Allievi. Seleziona un corso da A
 ![testo alternativo](assets/switch-instance-admin.png)
 _Cambia istanza da Admin Console_
 
-![cambia istanza selezione](assets/switch-instances-select.png)
+![cambia istanza, seleziona](assets/switch-instances-select.png)
 _Messaggio per cambiare istanza_
 
-Non puoi cambiare istanza finché nessuna istanza del corso non viene completata dall’app per Allievi o Amministratori.
+Non puoi cambiare istanza fino a quando una qualsiasi istanza del corso non viene completata dall’app Allievo o Amministratore.
 
 Gli Autori, durante la creazione di un corso, possono alternare l’attivazione o la disattivazione di &quot;Instance Switch&quot;. Commutazione istanza è disponibile solo per i corsi gratuiti.
 
@@ -241,7 +241,7 @@ Per ulteriori informazioni, vedere [Configurazione istanza](/help/migrated/autho
 
 Gli Allievi possono passare da un’istanza del corso in lista d’attesa a un’altra. Questi possono anche passare da un’istanza del corso a un percorso di apprendimento o a una certificazione.
 
-Dopo l’iscrizione al percorso di apprendimento o alla certificazione, nella pagina del corso gli allievi possono fare clic su Visualizza istanze, quindi cambiare istanza.
+Dopo aver effettuato l’iscrizione al percorso di apprendimento o alla certificazione, nella pagina del corso gli Allievi possono fare clic su Visualizza istanze, quindi cambiare istanza.
 
 >[!NOTE]
 >
@@ -261,7 +261,7 @@ Per ulteriori informazioni, consulta [Report di verifica dell’utente](/help/mi
 
 Questo report registra il tempo (in minuti) trascorso quotidianamente da un Istruttore che tiene le sessioni assegnate. Il report può essere scaricato per un periodo di tre mesi dalla data di inizio selezionata.
 
-Per ulteriori informazioni, consulta [Rapporto sull’utilizzo degli istruttori](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Per ulteriori informazioni, consulta [Report utilizzo Istruttori](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
 ![report sull&#39;utilizzo degli istruttori](assets/instructor-utilization.png)
 
@@ -279,7 +279,7 @@ Amministratori e Autori potranno inviare comunicazioni e-mail mirate ad hoc agli
 
 *Invia e-mail a livello di istanza*
 
-Nella finestra di dialogo Crea annuncio, l’opzione Digita come e-mail e Formazione sono selezionate per impostazione predefinita, insieme all’istanza. Specificate l’oggetto, digitate il messaggio e fate clic su Salva.
+Nella finestra di dialogo Crea annuncio, l’opzione Digita come e-mail e Formazione sono selezionate per impostazione predefinita, insieme all’istanza. Specifica l’oggetto, digita il messaggio e fai clic su Salva.
 
 Per ulteriori informazioni, consulta [E-mail a livello di istanza](/help/migrated/administrators/feature-summary/courses.md#send-instance-level-emails).
 
@@ -432,8 +432,7 @@ Vengono aggiunti i seguenti attributi:
 | Descrizione | Nuovo parametro/risposta | Endpoint |
 |--- |--- |--- |
 | Elenca tutte le città | filter.cityName=true/false | GET /primeapi/v2/data |
-| Cercare e filtrare le città | filter.cityName=city_name<br>Supporta anche un elenco di città separate da virgole |
-| GET /primeapi/v2/search |
+| Cercare e filtrare le città | filter.cityName=city_name<br>Supporta anche un elenco di città separate da virgole | GET /primeapi/v2/search |
 | Dettagli sala resi | include=room | GET /primeapi/v2/users/`<id>`/calendar |
 | Oggetto di apprendimento per filtrare le città | filter.cityName=city_name <br> Supporta anche un elenco di città separate da virgole. | GET /primeapi/v2/learningObjects |
 | Aggiungi pannello Città | La risposta contiene un nuovo attributo, filterPanelSetting=true/false. | GET /primeapi/v2/account |
@@ -451,7 +450,7 @@ Sono stati aggiunti i seguenti campi:
 
 ### Aula in videoconferenza
 
-Eseguire una ricerca basata sulla posizione per i corsi VC. Nel modello di risorse è presente un nuovo attributo roomLocation che indica la posizione a mano libera fornita durante la creazione di un corso VC.
+Esegui la ricerca basata sulla posizione per i corsi tenuti nelle aule virtuali. Nel modello di risorse è presente un nuovo attributo roomLocation che indica la posizione a mano libera fornita durante la creazione di un corso VC.
 
 Sono state apportate le seguenti modifiche:
 
@@ -484,7 +483,7 @@ Un nuovo parametro di query, sugionType. I valori accettati sono:
 
 **Endpoint**: GET /primeapi/v2/search/tips/?sugionType=learnerHistory
 
-### Filtraggio gruppo di utenti
+### Filtro del gruppo di utenti
 
 Le API di ricerca e degli oggetti di apprendimento forniranno filtri per recuperare tutti gli oggetti di apprendimento appartenenti al gruppo di utenti tramite i filtri specificati. Le API supportano i filtri come elenco separato da virgole.
 
@@ -530,7 +529,7 @@ DELETE /userGroups/{id}/users
 
 * L&#39;API GET /users/{userId}/userGroups dispone di un nuovo parametro, filter.announGroupsOnly, che accetta un valore booleano (true/false). Questa funzione filtra solo i gruppi di utenti annunciati dall’Amministratore. Il valore predefinito di questo parametro è false.
 * L’API GET /learningObjects include un nuovo parametro, filter.announGroups, che accetta gli ID dei gruppi di annunci per filtrare i risultati.
-* GET L’API /search dispone di un nuovo parametro, filter.announGroups, che accetta gli ID dei gruppi di annunci per filtrare i risultati.
+* L’API /search dispone di un nuovo parametro, filter.announGroups, che accetta gli ID dei gruppi di annunci per filtrare i risultati.
 
 Di seguito viene fornito un esempio di risposta:
 

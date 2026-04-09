@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di luglio
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 685220000be6be524c0829fe400abec911cf067e
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2392'
 ht-degree: 2%
 
 ---

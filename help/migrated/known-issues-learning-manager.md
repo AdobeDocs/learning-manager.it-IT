@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Problemi noti in Learning Manager
+description: Di seguito sono riportati i problemi noti di ogni aggiornamento di Learning Manager. L’elenco è cumulativo e contiene problemi noti di aggiornamenti precedenti.
 contentowner: saghosh
 preview: true
-source-git-commit: 6f9bac5e4a434c4073409d2f7e78645deabc6685
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 60%
+source-wordcount: '253'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +20,7 @@ Di seguito sono riportati i problemi noti di ogni aggiornamento di Learning Mana
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Aggiornamento</b></p></td> 
+   <td><p><b>Aggiorna</b></p></td> 
    <td><p><b>Problemi noti</b></p></td> 
   </tr> 
   <tr> 
@@ -46,7 +47,7 @@ Di seguito sono riportati i problemi noti di ogni aggiornamento di Learning Mana
   </tr> 
   <tr> 
    <td><p>39</p></td> 
-   <td><p>Il collegamento ipertestuale al numero di corsi e certificazioni all’interno delle etichette modali include corsi ombra e certificazioni ricorrenti. Quando si fa clic sul collegamento ipertestuale, questi corsi e certificazioni potrebbero non venire elencati causando una mancata corrispondenza nei numeri.</p></td> 
+   <td><p>Il collegamento ipertestuale al numero di corsi e certificazioni all'interno delle etichette modali include corsi fantasma e certificazioni ricorrenti. Quando si fa clic sul collegamento ipertestuale, questi corsi e certificazioni potrebbero non venire elencati causando una mancata corrispondenza nei numeri.</p></td> 
   </tr> 
   <tr> 
    <td><p>37</p></td> 

@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Limiti di velocità delle API in Learning Manager
+description: Adobe Learning Manager espone una ricca suite di API REST che aiuta i clienti a creare applicazioni che si integrano con Learning Manager o persino esperienze utente ed estensioni personalizzate ai flussi di lavoro che aiutano la loro azienda.
 contentowner: saghosh
 preview: true
-source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 51%
+source-wordcount: '1801'
+ht-degree: 80%
 
 ---
 
@@ -110,7 +111,7 @@ Puoi facilmente verificarlo colpendo questo endpoint con velocità inferiori a 5
 
 Per semplificare, è possibile consultare questo codice JavaScript di esempio che illustra questo aspetto. Fai clic su questo [violino](https://jsfiddle.net/ACAPJS/9yv8zcmL/) e vedere il codice in azione.
 
-Questa applicazione richiede di fornire un token di applicazione del ruolo Allievo per l’account. Per informazioni sui token API, consulta il [Manuale per sviluppatori di applicazioni](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/). Per generare i token, puoi utilizzare la funzionalità Helper token nella sezione Risorse sviluppatore dell’applicazione Amministratore di integrazione Learning Manager.
+Questa applicazione richiede di fornire un token di applicazione del ruolo Allievo per l’account. Per informazioni sui token API, consulta il [Manuale per sviluppatori di applicazioni]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/). Per generare i token, puoi utilizzare la funzionalità Helper token nella sezione Risorse sviluppatore dell’applicazione Amministratore di integrazione Learning Manager.
 
 Questa applicazione sta effettuando 10 chiamate all’API fittizia in un ciclo continuo. Poiché il limite di velocità è (5, 2) per l’API fittizia; il limite di velocità verrà superato dopo che le prime chiamate 5+2 ricevute da Learning Manager avranno esito positivo e verrà visualizzata una risposta corretta.
 
@@ -147,8 +148,8 @@ Nella tabella seguente vengono indicati i limiti per i vari endpoint V2. Attualm
   </tr> 
   <tr> 
    <td><p>DELETE</p></td> 
-   <td><p>25, 10 <br></p></td> 
-   <td><p>20, 10<br></p></td> 
+   <td><p>(25, 10) <br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>PATCH</p></td> 
@@ -157,18 +158,18 @@ Nella tabella seguente vengono indicati i limiti per i vari endpoint V2. Attualm
   </tr> 
   <tr> 
    <td><p>POST</p></td> 
-   <td><p>30, 10<br></p></td> 
-   <td><p>30, 10<br></p></td> 
+   <td><p>(30, 10)<br></p></td> 
+   <td><p>(30, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>PUT</p></td> 
-   <td><p>20, 10<br></p></td> 
-   <td><p>20, 10<br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>GET</p></td> 
    <td><p>(100, 100)<br></p></td> 
-   <td><p>100, 30)<br></p></td> 
+   <td><p>(100, 30)<br></p></td> 
   </tr> 
  </tbody>
 </table>

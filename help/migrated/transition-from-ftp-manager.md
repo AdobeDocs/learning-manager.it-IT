@@ -1,11 +1,11 @@
 ---
 title: Transizione dall’FTP di Adobe Manager
-description: Adobe Learning Manager supporta un nuovo connettore che utilizza il protocollo SFTP della famiglia AWS Transfer. Puoi sostituire qualsiasi client FTP open source con l’FTP di Adobe Manager.
+description: Adobe Learning Manager supporta un nuovo connettore utilizzando il protocollo SFTP della famiglia AWS Transfer. Puoi sostituire qualsiasi client FTP open source con l’FTP di Adobe Manager.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 67%
+source-wordcount: '1053'
+ht-degree: 69%
 
 ---
 
@@ -53,7 +53,7 @@ Se si dispone già di una chiave SSH, incollare la chiave pubblica nel campo **[
 
 ### Crea un’autenticazione di base utilizzando una password
 
-Questo è il meccanismo di autenticazione di base. Selezionare la prima opzione **[!UICONTROL Crea autenticazione di base utilizzando una password]**. Immetti la password, quindi fai clic su **[!UICONTROL Connetti]**.
+Questo è il meccanismo di autenticazione di base. Selezionare la prima opzione **[!UICONTROL Crea autenticazione di base utilizzando una password]**. Inserisci la password, quindi fai clic su **[!UICONTROL Connetti]**.
 
 Hai creato una connessione.
 

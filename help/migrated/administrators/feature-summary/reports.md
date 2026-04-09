@@ -1,17 +1,17 @@
 ---
 description: Informazioni sui report associati al ruolo di amministratore nell’applicazione Learning Manager.
 jcr-language: en_us
-title: Rapporti
+title: Report
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '7576'
-ht-degree: 53%
+source-wordcount: '7660'
+ht-degree: 63%
 
 ---
 
-# Rapporti
+# Report
 
 Informazioni sui report associati al ruolo di amministratore nell’applicazione Learning Manager.
 
@@ -21,11 +21,11 @@ Adobe Learning Manager consente di creare vari report per tracciare, monitorare 
 
 Il processo di generazione dei report è simile sia per gli Amministratori che per i Manager. I Manager possono visualizzare i report corrispondenti ai loro subordinati mentre l’Amministratore può visualizzare tutti i report a livello di organizzazione.
 
-I report sono aggregati in un dashboard. Un report deve esistere all’interno di un dashboard. Un **[!UICONTROL dashboard predefinito]** esiste per impostazione predefinita nella pagina dei report. Qualsiasi report aggiunto viene spostato nel dashboard predefinito. Per aggiungere report ai singoli dashboard, utilizza la freccia a discesa e scegli **[!UICONTROL Aggiungi report]**. Per ulteriori informazioni sulla creazione dei dashboard, fai riferimento alla sezione Dashboard in questa pagina.
+I report sono aggregati in un dashboard. Un report deve esistere all’interno di un dashboard. Un **[!UICONTROL Dashboard predefinito]** esiste per impostazione predefinita nella pagina dei report. Qualsiasi report aggiunto viene spostato nel dashboard predefinito. Per aggiungere report ai singoli dashboard, utilizza la freccia del menu a discesa e scegli **[!UICONTROL Aggiungi Report]**. Per ulteriori informazioni sulla creazione dei dashboard, fai riferimento alla sezione Dashboard in questa pagina.
 
 ## Tipi di report {#typesofreports}
 
-Adobe Learning Manager supporta quattro tipi principali di report come completamento, tempo impiegato, abilità ed efficacia. È possibile utilizzare i seguenti tipi di report per generare report di oltre 300 varianti:
+Adobe Learning Manager supporta quattro tipi principali di report come completamento, tempo impiegato, abilità ed efficacia. Puoi utilizzare i seguenti tipi di report per generare report di oltre 300 varianti:
 
 * Statistiche di consegna del corso per allievi
 * Efficacia del report sui corsi
@@ -191,12 +191,12 @@ Il report sulla formazione ha due colonne aggiuntive:
 
 >[!INFO]
 >
->In questo corso verrà illustrato come generare report del dashboard dal database.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
+>In questo corso verrà illustrato come generare report dashboard dal database.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
 
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
-Visualizza un report di riepilogo di tutte le attività di apprendimento nella piattaforma. In questa pagina sono disponibili le seguenti informazioni di riepilogo per il team dell’utente ROOT selezionato e i profili esterni. È inoltre possibile selezionare un intervallo di tempo:
+Visualizza un report di riepilogo di tutte le attività di apprendimento sulla piattaforma. In questa pagina sono disponibili le seguenti informazioni di riepilogo per il team dell’utente ROOT selezionato e i profili esterni. È inoltre possibile selezionare un intervallo di tempo:
 
 * Riepilogo dell’apprendimento sotto forma di Iscrizioni, Visualizzazioni e Completamenti
 * Abilità principali
@@ -205,27 +205,27 @@ Visualizza un report di riepilogo di tutte le attività di apprendimento nella p
 ![](assets/summary-charts.png)
 *Grafici di riepilogo*
 
-Se sono presenti manager di livello principale interni, questi verranno visualizzati uno dopo l&#39;altro.
+Se sono presenti manager di livello ROOT interni, questi verranno visualizzati uno dopo l’altro.
 
 Tutti i profili esterni verranno elencati dopo i profili interni (utenti di livello ROOT interni).
 
-Se un profilo esterno dispone di un manager, la gerarchia dei manager verrà visualizzata nell&#39;elenco a discesa **[!UICONTROL Visualizzazione dati per]**. L’utente verrà elencato nella gerarchia dei manager nella pagina di tutti i dettagli (Riepilogo dell’apprendimento, conformità e stato delle abilità)
+Se un profilo esterno dispone di un manager, la gerarchia dei manager verrà visualizzata nell’elenco a discesa **[!UICONTROL Mostra dati per]**. L’utente verrà elencato nella gerarchia dei manager nella pagina di tutti i dettagli (Riepilogo dell’apprendimento, conformità e stato delle abilità)
 
-In caso contrario, nell’elenco verranno visualizzati tutti i dettagli dei singoli utenti.
+In caso contrario, tutti i dettagli dei singoli utenti verranno visualizzati nell’elenco.
 
 Per visualizzare dettagli più specifici sulle iscrizioni dei vari team interni, fai clic su **[!UICONTROL Dettagli di riepilogo dell’apprendimento]**.
 
 ![](assets/learning-sunnarydetails.png)
 *Dettagli del riepilogo dell’apprendimento*
 
-Quando fai clic su un’iscrizione, puoi visualizzare gli Allievi per ogni Manager e gli oggetti di apprendimento ai quali sono iscritti. Puoi anche visualizzare i dettagli di avanzamento e completamento di ogni allievo.
+Quando fai clic su un’iscrizione, puoi visualizzare gli allievi per ogni manager e gli oggetti di apprendimento ai quali sono iscritti. È anche possibile visualizzare i dettagli di avanzamento e completamento di ogni allievo.
 
 ![](assets/learners-for-a-manager.png)
 *Allievi assegnati a un manager*
 
 Fai clic su un qualsiasi team ed esporta il relativo report come file CSV. Un amministratore può esportare il report per qualsiasi gruppo di utenti o singolo utente selezionando il gruppo di utenti o il singolo utente, quindi esportando i dettagli dall&#39;elenco a discesa **[!UICONTROL Azione]**.
 
-Inoltre, è possibile visualizzare un grafico a barre delle abilità in corso e acquisite. Puoi aggiungere/rimuovere le abilità che desideri includere nel grafico.
+Inoltre, è possibile visualizzare un grafico a barre delle abilità in corso e di quelle acquisite. Puoi aggiungere/rimuovere le abilità che desideri includere nel grafico.
 
 ![](assets/skill-status-stackedbarchart.png)
 *Grafico a barre sovrapposte dello stato delle abilità*
@@ -401,7 +401,7 @@ La scheda **[!UICONTROL Report di esempio]** consente di visualizzare alcuni rep
 
 ### Report dashboard {#dashboardreports}
 
-Un dashboard è una raccolta di report. I report possono essere raggruppati in una dashboard a tua scelta. Per visualizzare tutte le bacheche che hai creato, fai clic sulla scheda della bacheca. Nell&#39;elenco a discesa **[!UICONTROL Visualizza dashboard]** è possibile selezionare la bacheca predefinita o un dashboard creato dall&#39;utente.
+Un dashboard è una raccolta di report. I report possono essere raggruppati in un dashboard di tua scelta. Fai clic sulla scheda delle bacheche per visualizzare tutte le bacheche create. Nell’elenco a discesa **[!UICONTROL Visualizza dashboard]** è possibile selezionare la bacheca predefinita o un dashboard da te creato.
 
 ### Report Excel {#excelreports}
 
@@ -443,7 +443,7 @@ Come Amministratore, puoi scaricare i report per i corsi. Procedi come segue:
 
 >[!INFO]
 >
->In questo corso imparerai come esportare i report del corso e configurare gli abbonamenti e-mail per tali report.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+>In questo corso di formazione imparerai come esportare i report del corso e configurare le iscrizioni e-mail per questi report.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
 
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
@@ -511,7 +511,7 @@ Per scaricare un report, esegui una delle seguenti operazioni:
 Dopo aver selezionato **[!UICONTROL Report risorse formative]** nell&#39;elenco, verranno visualizzate due opzioni:
 
 ![report risorse formative](assets/job-aids-new.png)
-*Download del report di iscrizione degli utenti delle risorse formative*
+*Scarica report di iscrizione utente risorse formative*
 
 **Tutte le risorse formative**: se il numero di risorse formative nell&#39;account è inferiore a 10 milioni, il report generato conterrà le informazioni di iscrizione di tutte le risorse formative. Questa sarà la selezione predefinita. Se il numero di righe supera i 10 milioni, verrà visualizzato un errore ed è necessario selezionare manualmente le risorse formative richieste.
 
@@ -572,7 +572,7 @@ Il report scaricato comprende i seguenti campi:
 
 ### Report di prova di verifica del contenuto {#contentaudittrailreports}
 
-Utilizza il generatore di report **[!UICONTROL Prova di verifica del contenuto]** per generare un report di tutte le modifiche apportate a un corso per tutta la durata della sua vita nel sistema. Il report generato presenta le seguenti informazioni recuperate.
+Utilizza il generatore di report di **[!UICONTROL prova di verifica del contenuto]** per generare un report di tutte le modifiche apportate a un corso per tutta la durata della sua vita nel sistema. Il report generato presenta le seguenti informazioni recuperate.
 
 * ID oggetto
 * Nome oggetto
@@ -693,7 +693,7 @@ Gli Amministratori possono scaricare la trascrizione di gamification in formato 
 
 1. Fai clic su **[!UICONTROL Genera]** per generare il report.
 
-   Dopo aver generato il report di un Allievo, è necessario essere in grado di esportare le informazioni correnti e del livello raggiunto per tutti gli utenti (interni, esterni o eliminati) dell’account. Puoi anche controllare le date dei livelli raggiunti da un Allievo:
+   Dopo aver generato il report di un Allievo, è possibile esportare le informazioni correnti e del livello raggiunto per tutti gli utenti (interni, esterni o eliminati) dell’account. Puoi anche controllare le date dei livelli raggiunti da un Allievo:
 
    * Data acquisizione Bronzo
    * Data acquisizione Argento
@@ -733,7 +733,7 @@ Il report viene scaricato come file CSV. Il file contiene le seguenti colonne:
 
 ### Report di iscrizione e annullamento dell’iscrizione {#enrollmentandunenrollmentreport}
 
-Amministratori e Manager possono estrarre un report degli Allievi iscritti e con iscrizione annullata. Come Amministratore, puoi visualizzare tutti gli allievi, gli Amministratori e i Manager registrati o con iscrizione annullata a un’istanza di un corso, un programma di apprendimento o una certificazione ed esportare il report. In qualità di Manager, invece, puoi recuperare solo un report dei membri del team. Come Manager, non puoi visualizzare gli Allievi eliminati o il tuo nome nell’applicazione per Manager come Allievo iscritto o con iscrizione annullata.
+Amministratori e Manager possono estrarre un report degli allievi iscritti e con iscrizione annullata. Come Amministratore, puoi visualizzare tutti gli allievi, gli Amministratori e i Manager registrati o con iscrizione annullata a un’istanza di un corso, un programma di apprendimento o una certificazione ed esportare il report. Come Manager, invece, puoi recuperare solo un report per i membri del tuo team. Come Manager, non puoi visualizzare gli allievi eliminati o il tuo nome nell’applicazione per Manager come Allievo iscritto o con iscrizione annullata.
 
 Per scaricare un report, attieniti alla seguente procedura: apri **[!UICONTROL Corso/Programma di apprendimento/Certificazione]** > **[!UICONTROL Allievi]** > **[!UICONTROL Azione]** > **[!UICONTROL Esporta report]**.
 
@@ -752,7 +752,7 @@ Learning Manager supporta il report del corso di formazione, che consente agli A
 
 Nell’app di amministrazione, fai clic su **[!UICONTROL Report]** > **[!UICONTROL Report personalizzati]** > **[!UICONTROL Report Excel]** > **[!UICONTROL Report dei corsi di formazione]**.
 
-Puoi scaricare i report per:
+È possibile scaricare i report per:
 
 * Corsi di formazione selezionati (massimo 10): seleziona uno o più corsi di formazione (fino a un massimo di 10) da qualsiasi catalogo
 * Corsi di formazione all’interno dei cataloghi selezionati (massimo 5) (sarà possibile selezionare fino a cinque cataloghi)
@@ -777,9 +777,9 @@ Il report conterrà i seguenti campi:
 
 ### Report di riepilogo della sessione {#session-summary-report}
 
-Il Report di riepilogo della sessione contiene tutte le sessioni pianificate per un Allievo entro una data specificata.
+Il report di riepilogo della sessione contiene tutte le sessioni pianificate per un allievo entro una data specificata.
 
-Ciò consente all’Amministratore di esportare tutti i dettagli della sessione aula e virtuale che rientrano nell’intervallo di date specificato. L’Amministratore può anche esportare il report della sessione in relazione a corsi di formazione o Istruttori specifici.
+Ciò consente all’Amministratore di esportare tutti i dettagli della sessione aula e virtuale che rientrano nell’intervallo di date specificato. L’Amministratore può inoltre esportare il report della sessione in relazione a corsi di formazione o istruttori specifici.
 
 Ciò aiuterà anche l’Amministratore a comprendere le sessioni pianificate su base mensile e a identificare la pianificazione degli istruttori e le sessioni già tenute.
 
@@ -799,11 +799,11 @@ Il csv scaricato contiene i seguenti campi:
 * Durata della sessione (in minuti)
 * Posti in totale
 * Posizione
-* Nome istanza
+* Nome dell’istanza
 * Nome del corso
 * ID corso
 * Nome dell’istruttore
-* E-mail dell’Istruttore
+* E-mail dell’istruttore
 * Conteggio delle iscrizioni
 * Tipo di sessione
 * Limite per la lista d’attesa
@@ -911,14 +911,14 @@ Puoi ottenere i tuoi report preferiti tramite e-mail iscrivendoti.
 
 >[!INFO]
 >
->In questo corso di formazione verrà illustrato come impostare gli abbonamenti e-mail per i report del dashboard.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
+>In questo corso di formazione verrà illustrato come impostare le sottoscrizioni e-mail per i report del dashboard.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
 Nella pagina **[!UICONTROL Report]**, fai clic sulla scheda **[!UICONTROL Abbonamento]**. Viene visualizzata la pagina di iscrizione ai report.
 
-Per selezionare il nome del report dall’elenco a discesa, inizia a digitare il nome del report nel campo Report. Scegli la frequenza dell’e-mail dal menu a discesa. È possibile aggiungere l’oggetto dell’e-mail e fornire un ID e-mail alternativo.
+Inizia a digitare il nome del report nel campo Report per selezionare il nome del report dall’elenco a discesa. Scegli la frequenza dell’e-mail dal menu a discesa. È possibile aggiungere l’oggetto dell’e-mail e fornire un ID e-mail alternativo.
 
 È possibile modificare ed eliminare le iscrizioni.
 
@@ -950,7 +950,7 @@ Per scaricare questo report, effettua le seguenti operazioni:
 
 ## Creazione di un dashboard {#createadashboard}
 
-1. Per iniziare a creare le tue bacheche, fai clic su Aggiungi dashboard sul lato destro della pagina.
+1. Fai clic su Aggiungi dashboard sul lato destro della pagina, per iniziare a creare le tue bacheche.
 
    ![](assets/add-dashboards.png)
    *Aggiungi dashboard*
@@ -971,7 +971,7 @@ Per aggiungere report alla bacheca, fai clic sul menu a discesa nell’angolo su
 
 Le bacheche condivise sono una raccolta di report condivisi con te da altri utenti all’interno della tua organizzazione. Tutti i report aggiunti a una bacheca condivisa vengono condivisi automaticamente con altri utenti che hanno accesso a tale bacheca.
 
-Puoi condividere la bacheca nei due modi seguenti:
+Esistono due modi per condividere una bacheca:
 
 * Inserendo nel campo **[!UICONTROL Condividi con]** gli utenti con cui il dashboard è condiviso.
 * Selezionando Modifica bacheca nell’elenco a discesa e inserendo i dettagli utente per la condivisione del dashboard.
@@ -1014,7 +1014,7 @@ Il foglio di report del dashboard esportato fornisce informazioni dettagliate an
    *Assi per i report*
 
 1. Scegli l’intervallo/il criterio **[!UICONTROL asse Y]** secondario per il report dalle opzioni a discesa. Ad esempio, per un’opzione di iscrizione al programma di apprendimento, scegli uno o più stati dal menu a discesa Stati. I dati dell’intervallo secondario sono rappresentati sotto forma di grafici a linea.
-1. Scegli i criteri dell’asse X&#x200B;**&#x200B;** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
+1. Scegli i criteri dell’asse X**** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
 1. Nella sezione Intervallo di tempo, scegli l’opzione appropriata dal menu a discesa. Le opzioni disponibili sono:
 
    * Ultimo mese
@@ -1132,7 +1132,7 @@ Questo report sui gruppi di utenti consente di confrontare le prestazioni di un 
 
 Inoltre, puoi creare gruppi di utenti personalizzati mediante la funzione Aggiungi utenti/gruppi utenti in Learning Manager. Dopo aver creato i gruppi di utenti è possibile generare report per tali gruppi di utenti personalizzati con l’aiuto di un elenco di attributi come posizione, ramo.
 
-Nell&#39;asse X, scegliere l&#39;opzione dell&#39;attributo utente e selezionare l&#39;attributo dall&#39;elenco a discesa **seleziona** accanto ad esso. Per creare un report gruppo di utenti personalizzato in base a questi attributi, è inoltre necessario scegliere il gruppo di utenti appropriato nel filtro.
+Nell&#39;asse X, scegliere l&#39;opzione dell&#39;attributo utente e selezionare l&#39;attributo dall&#39;elenco a discesa **seleziona** accanto ad esso. Per creare un report personalizzato per gruppo di utenti in base a questi attributi, dovrai anche scegliere il gruppo utenti appropriato nel filtro.
 
 ## Visualizzazione dei report {#viewingreports}
 
@@ -1181,13 +1181,13 @@ Fai clic sulla freccia a discesa nell’angolo superiore destro di ogni report p
 
 **[!UICONTROL Modifica]** Per tornare ai valori iniziali durante la modifica dei dati, fare clic su Ripristina. Fai clic su Salva dopo aver modificato i valori.
 
-**[!UICONTROL Sposta nel dashboard]** Puoi spostare il report corrente in un altro dashboard, scelto nell&#39;elenco dei dashboard.
+**[!UICONTROL Sposta nel dashboard]** puoi spostare il report corrente in un altro dashboard, scelto nell’elenco dei dashboard.
 
-**[!UICONTROL Crea una copia]** Puoi copiare il report sullo stesso dashboard o su uno diverso, scelto nell&#39;elenco dei dashboard.
+**[!UICONTROL Crea una copia]** Puoi copiare il report sullo stesso dashboard o su uno diverso, scelto nell’elenco dei dashboard.
 
-**[!UICONTROL Elimina]** Fare clic su Elimina per rimuovere il report. Viene visualizzato un messaggio di conferma/avviso prima di poter eliminare il report.
+**[!UICONTROL Elimina]** fai clic su Elimina per rimuovere il report. Viene visualizzato un messaggio di conferma/avviso prima di poter eliminare il report.
 
-**[!UICONTROL Ridimensiona]** puoi ridimensionare i report nei formati 1×1 (medio) e 2×2 (grande).
+**[!UICONTROL Ridimensiona]** puoi ridimensionare i report nei formati 1×1 (medio) e 2×2 (ampio).
 
 ## Generazione e visualizzazione di report per un account condiviso tra pari {#generateandviewreportsforpeeraccount}
 
