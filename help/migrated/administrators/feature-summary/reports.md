@@ -11,7 +11,7 @@ ht-degree: 63%
 
 ---
 
-# Report
+# Report {#reports}
 
 Informazioni sui report associati al ruolo di amministratore nell’applicazione Learning Manager.
 
