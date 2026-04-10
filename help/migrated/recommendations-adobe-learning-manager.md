@@ -204,7 +204,7 @@ Dopo aver selezionato Consigli nel pannello a sinistra, l’Allievo visualizza u
 
 Facendo clic su Imposta consigli, l’Allievo passa al popup di selezione del prodotto.
 
-![ popup di selezione del prodotto](assets/product-selection-popup.png)
+![&#x200B; popup di selezione del prodotto](assets/product-selection-popup.png)
 *Selezionare i prodotti*
 
 Quindi, nel prossimo popup, l’Allievo può selezionare il ruolo.
@@ -240,7 +240,7 @@ Ogni scheda contiene i pulsanti Valutazione, Immagine della carta, Titolo, Abili
 
 ### Schede salvate da me
 
-![ schede salvate](assets/cards-saved-by-me.png)
+![&#x200B; schede salvate](assets/cards-saved-by-me.png)
 *Schede salvate*
 
 Ogni scheda contiene i pulsanti Valutazione, Immagine della scheda, Titolo, Abilità, Data di pubblicazione, Autore, Durata, Barra di avanzamento e il pulsante Avvia o Esplora o Continua o Revisiona.
