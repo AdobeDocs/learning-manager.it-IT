@@ -4,10 +4,10 @@ title: Integrazione di Okta Active Directory con Adobe Learning Manager
 description: Integrazione di Okta Active Directory con Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 55%
+source-wordcount: '587'
+ht-degree: 60%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe Learning Manager supporta l’SSO avviato dal provider di identità (Ident
 
    1. Nel campo URL Single Sign-on, digita l&#39;URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
    1. Nel campo URL pubblico digitare l&#39;URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. Nella casella a discesa **Formato ID nome**, seleziona **Indirizzo e-mail**.
+   1. Nella casella a discesa **Formato ID Nome** seleziona **Indirizzo e-mail**.
    1. Nel menu a discesa **Nome utente applicazione** seleziona Nome utente Okta.
    1. Se si desidera fornire attributi aggiuntivi, è possibile aggiungerli nella **Dichiarazione degli Attributi** (facoltativo)
 
@@ -89,41 +89,41 @@ Adobe Learning Manager supporta l’SSO avviato dal provider di identità (Ident
 
    Una volta completata la procedura, fai clic su **[!UICONTROL Avanti]**.
 
-1. La scheda **Feedback** è facoltativa. Dopo aver selezionato le opzioni e fornito il tuo feedback, fai clic su **[!UICONTROL Fine]**.
+1. La scheda **Feedback** è facoltativa. Once you have selected the options and given your feedback, click **[!UICONTROL Finish]**.
 
    ![](assets/cp-saml-integration-step3.png)
 
-   *Completare la configurazione SAML*
+   *Complete SAML setup*
 
 ## Estrai l’URL e il file di metadati avviati da IDP
 
-Per visualizzare l’URL e il file di metadati avviati da IdP/SP, effettua le operazioni riportate di seguito:
+Per visualizzare l’URL e il file di metadati avviati da IdP/SP, esegui la procedura riportata di seguito:
 
 1. Apri l’applicazione creata.
-1. Nella scheda **Single Sign-On**, fai clic su **[!UICONTROL Visualizza istruzioni]**.
+1. Under the **Single Sign-On** tab, click **[!UICONTROL View Instructions]**.
 
    ![](assets/cp-prime-sso.png)
 
-   *Selezionare la scheda SSO*
+   *Select SSO tab*
 
-   **Per IDP:**
+   **For IDP:**
 
    1. L’URL Single Sign-On del provider di identità è l’URL avviato da IdP.
-   1. Copia tutto il testo presente nel campo **Facoltativo**.
+   1. Copy all the text that is present under the **Optional** field.
    1. Apri un nuovo documento di blocco note e incolla il testo copiato.
-   1. Fai clic su **[!UICONTROL File]** > **[!UICONTROL Salva con nome]** > &quot;filename.xml&quot;. Questo sarà il file di metadati.
+   1. Click **[!UICONTROL File]** > **[!UICONTROL Save as]** > &quot;filename.xml&quot;. Questo sarà il file di metadati.
 
-   **Per SP:**
+   **For SP:**
 
    1. L’URL Single Sign-On del provider di identità è l’URL avviato da IdP.
    1. L’emittente del provider di identità è l’ID entità.
-   1. Copia tutto il testo presente nel campo **Facoltativo**.
+   1. Copy all the text that is present under the **Optional** field.
    1. Apri un nuovo documento di blocco note e incolla il testo copiato.
-   1. Fai clic su **[!UICONTROL File]** > **[!UICONTROL Salva con nome]** > **[!UICONTROL nomefile.xml]**. Questo sarà il file di metadati.
+   1. Click **[!UICONTROL File]** > **[!UICONTROL Save as]** > **[!UICONTROL filename.xml]**. Questo sarà il file di metadati.
 
    ![](assets/cp-saml-integration-step4.png)
 
-   *Salva file XML SP*
+   *Save SP XML file*
 
    È necessario salvare il file in formato XML.
 
@@ -136,4 +136,5 @@ Per configurare l’SSO di Adobe Learning Manager, procedi come indicato nell’
 article not in TOC
 
 [SSO Authentication](/help/migrated/kb/sso-authentication-for-learning-manager.md)
+
 -->

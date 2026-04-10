@@ -4,10 +4,10 @@ title: Rimozione delle API da Adobe Learning Manager
 description: Con l’evoluzione delle API in Adobe Learning Manager, le API vengono periodicamente riorganizzate o aggiornate. Quando le API si evolvono, le API precedenti sono obsolete e alla fine rimosse. Questa pagina contiene le informazioni necessarie per eseguire la migrazione da versioni API obsolete a versioni API più recenti e stabili.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 670d0477b246af2a0257e41eca799817e391b348
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 32%
+source-wordcount: '579'
+ht-degree: 34%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 32%
 
 ## Rimozione delle API nella versione di marzo 2024 di Adobe Learning Manager
 
-<!-- ### Changes in Rate Limits
+<!--
+ ### Changes in Rate Limits
 
 With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
@@ -51,6 +52,7 @@ The following table lists the rate and burst limits for the APIs.
         <td>5</td>
     </tr>
 </table>
+
 -->
 
 ### Modifiche ai limiti di offset
@@ -59,13 +61,15 @@ A causa dell&#39;elevato numero di record recuperati dal valore di offset e del 
 
 Per recuperare altri record, utilizza l&#39;API **Processi di GET**.
 
-<!--### Exclude paths 
+<!--
+### Exclude paths 
 
 At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
 We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call. 
 
-We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.-->
+We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.
+-->
 
 #### Percorsi obsoleti
 
@@ -74,16 +78,16 @@ I percorsi seguenti sono obsoleti:
 * /learningObjects
    * Percorsi obsoleti:
       * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
+      * instance.loResources.resources
    * Nuovi tracciati:
       * enrollment.loInstance.loResources
-      * instances.loResources
+      * instance.loResources
 
 * /learningObjects/{id}
    * Percorso obsoleto:
-      * enrollment.instances.subLoInstances.learningObject
+      * enrollment.instance.subLoInstances.learningObject
    * Nuovo percorso:
-      * enrollment.instances.subLoInstances
+      * enrollment.instance.subLoInstances
 
 * /enrollments
    * Percorso obsoleto:
@@ -97,7 +101,8 @@ I percorsi seguenti sono obsoleti:
    * Nuovo percorso:
       * instance.subLoInstances
 
-<!--### Instance summary count changes 
+<!--
+### Instance summary count changes 
 
 Currently, in the LO summary endpoint, you fetch the number of all possible instances. For example, for a course, you can view the number of enrollments and waitlists in the response for **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. You can then view the completionCount and enrollmentCount in the response. If the course is a VC or classroom, you can also view its seat limit and waitlist limit. 
 
@@ -107,7 +112,8 @@ In the next release of Adobe Learning Manager, in the LO Instance summary endpoi
 
 >[!NOTE]
 >
->For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.-->
+>For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.
+-->
 
 ### Ordina per nome
 
@@ -145,7 +151,7 @@ Il gruppo di colleghi diventerà un account e gli Allievi vedranno una stringa c
 
 Nelle versioni precedenti di Adobe Learning Manager, il report Annuncio notifica non disponeva di filtri. per cui venivano scaricate tutte le notifiche di un account.
 
-Nella versione di novembre 2023, è stato aggiunto un filtro per data, con cui è possibile scaricare le notifiche entro un periodo specificato.  Tuttavia, puoi scaricare il report solo per gli ultimi sei mesi.
+Nella versione di novembre 2023, è stato aggiunto un filtro per data, con cui è possibile scaricare le notifiche entro un periodo specificato.  È comunque possibile scaricare il report relativo solo alle notifiche degli ultimi sei mesi.
 
 ### Rimozione dei valori di offset elevati nell&#39;endpoint GET /users
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Dashboard per i Manager
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 46%
+source-wordcount: '1507'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,7 @@ Nella vista team sono visualizzati i team, i relativi membri e le rispettive isc
 
 *Nella visualizzazione Team sono visualizzati i team, i relativi membri e le rispettive iscrizioni*
 
-Facendo clic sui nomi dei team, ad esempio Team di Venkatesh, è possibile visualizzare i membri del team di Venkatesh insieme al numero totale di iscrizioni, progressi e completamenti per un oggetto di apprendimento.
+Facendo clic sui nomi dei team, ad esempio, il team di Venkatesh, è possibile visualizzare i membri del team insieme al numero totale di iscrizioni, ai progressi e ai completamenti per un oggetto di apprendimento.
 
 ![](assets/ls-click-team-names.png)
 
@@ -139,7 +139,8 @@ Ciò ti consente di monitorare l&#39;avanzamento complessivo dell&#39;apprendime
 ![](assets/download-report.png)
 _Download dei report_
 
-<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+<!--
+On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -197,7 +198,8 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*-->
+*Export and email data*
+-->
 
 ## Abilità del team {#teamskills}
 
@@ -213,7 +215,7 @@ Questa previsione si basa su calcoli di sistema che forniscono una prospettiva f
 
 Per visualizzare lo stato delle abilità di un team, segui i passaggi seguenti:
 
-1. Fai clic su **[!UICONTROL Abilità team]** dal riquadro a sinistra nella sezione Visualizzazione team personale.
+1. Fai clic su **[!UICONTROL Abilità si team]** nel riquadro di sinistra nella sezione La mia vista team.
 1. Per visualizzare le abilità mostrate, fai clic sul filtro Abilità e selezionane una dall’elenco a discesa.
 1. Per selezionare un livello (Livello 1, Livello 2 o Livello 3), fai clic sul menu a discesa del livello.
 1. In base all’abilità e al livello selezionato, viene visualizzato un grafico con lo stato dell’abilità. Passando il mouse sul grafico, è possibile visualizzare le seguenti percentuali relative allo stato dell’abilità: **Acquisizione in corso** e **Acquisita**.
@@ -232,13 +234,13 @@ Per prevedere la % di completamento di un’abilità da parte del team, procedi 
 
    *Selezionare il collegamento ipertestuale Configura*
 
-1. Dalla finestra di dialogo di configurazione a comparsa, inserisci un valore percentuale per l’abilità che desideri configurare nel campo **% di completamento prevista** e la data entro la quale desideri venga raggiunta la % di completamento stabilita nel campo **Data stabilita**.**&#x200B;**
+1. Dalla finestra di dialogo di configurazione a comparsa, inserisci un valore percentuale per l’abilità che desideri configurare nel campo **% di completamento prevista** e la data entro la quale desideri venga raggiunta la % di completamento stabilita nel campo **Data stabilita**.****
 
    ![](assets/configure-tracker.png)
 
    *Immettere la percentuale di completamento prevista*
 
-1. Per visualizzare l’output relativo alla previsione, fai clic sul pulsante **Stima**. L’output è simile a quello riportato nella schermata seguente.
+1. Per visualizzare l’output relativo alla previsione, fai clic sul pulsante **Stima**. L’output è simile a quello riportato nella seguente schermata.
 
    ![](assets/skill-tracker-output.png)
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 54%
+source-wordcount: '1655'
+ht-degree: 67%
 
 ---
 
@@ -21,9 +21,11 @@ Adobe Learning Manager include una funzione denominata Gamification, progettata 
 
 Per impostazione predefinita, sono disponibili alcuni punti e dati di gamification di esempio per consentire agli utenti di comprendere il modello. Puoi modificare i punti di conseguenza.
 
-<!--A sample illustration is provided below that shows all the tasks and points.
+<!--
+A sample illustration is provided below that shows all the tasks and points.
 
-![](assets/gamification-feb12-e1439214291423.png)-->
+![](assets/gamification-feb12-e1439214291423.png)
+-->
 
 ## Impostazioni di gamification {#gamificationsettings}
 
@@ -48,11 +50,11 @@ Gli Amministratori possono configurare punti di gamification per gli Allievi, pr
 
 ## Attività {#tasks}
 
-Sono disponibili cinque attività di gamification degli Allievi per le quali l’Amministratore può impostare i punti. Un’illustrazione che descrive tutte le attività e i punti degli Allievi è riportata di seguito:
+Sono disponibili cinque attività di gamification degli Allievi per le quali gli Amministratori possono impostare i punti. Di seguito è riportata un’illustrazione che descrive tutte le attività e i punti degli Allievi:
 
 >[!NOTE]
 >
->I punti di gamification per gli Allievi all’interno di un’attività particolare non sono cumulabili. Tuttavia, i punti vengono aggiunti all’account degli Allievi in modo cumulativo se gli Allievi ottengono questi punti in diverse attività.
+>I punti di gamification per gli Allievi all’interno di un’attività particolare non sono cumulabili. Tuttavia, i punti vengono aggiunti all’account degli Allievi in maniera cumulativa se gli Allievi ottengono questi punti in diverse attività.
 
 Durante l’assegnazione dei corsi ai punti, l’Amministratore deve assicurarsi che gli Allievi ottengano i punti in maniera progressiva.
 
@@ -75,7 +77,7 @@ All’interno di un’attività, i punti non sono assegnati agli Allievi in mani
 
 **Per Allievi proattivi (a)**
 
-Questa attività è applicabile quando gli Allievi si registrano al numero prescritto di corsi e lo completano entro un mese/trimestre/anno. In questo caso, l’Amministratore può abilitare questa attività per assegnare punti e incoraggiarli.
+Questa attività è applicabile quando gli Allievi si iscrivono al numero prescritto di corsi e lo completano entro un mese/trimestre/anno. In questo caso, l’Amministratore può attivare questa attività per assegnare punti e incoraggiarli.
 
 Possibili scenari:
 
@@ -234,7 +236,7 @@ Puoi disattivare la funzionalità Gamification per utenti interni ed esterni.
 
 ## Gamification a livello di gruppo {#grouplevelgamification}
 
-Gli Amministratori possono definire l’area di validità della gamification modificando le impostazioni per l’area di validità. Puoi abilitare la gamification in modo selettivo tra utenti, gruppi o posizioni di profilo simili.
+Gli Amministratori possono definire l’area di validità della gamification modificando le impostazioni per l’area di validità. Puoi abilitare la gamification in modo selettivo fra utenti, gruppi o posizioni di profilo simili.
 
 1. Nell’accesso come Amministratore, fai clic su **[!UICONTROL Gamification]** nel riquadro a sinistra.
 1. Apri **[!UICONTROL Gamification]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Impostazioni ambito]**. Viene visualizzata la finestra di dialogo [!UICONTROL Impostazioni ambito di gamification].

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '5832'
-ht-degree: 51%
+source-wordcount: '5898'
+ht-degree: 60%
 
 ---
 
@@ -80,7 +80,7 @@ Per creare un’istanza,
 
 >[!INFO]
 >
->In questo corso imparerai come modificare i dettagli e le proprietà delle istanze.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+>In questo corso di formazione verrà illustrato come modificare i dettagli e le proprietà dell&#39;istanza.<br><br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
@@ -205,7 +205,7 @@ Il file Excel contiene fogli di lavoro per ogni istanza. Un foglio di lavoro è 
 >
 >L’attivazione dell’iscrizione multipla determina l’aggiunta di più righe al report Trascrizione Allievo per ogni corso (una riga per ogni istanza).
 >
->Se hai configurato l’automazione dei report che prevede una sola riga per corso, prima di abilitare la funzione Iscrizione multipla devi apportare le modifiche necessarie all’automazione dei report.
+>Se hai configurato l’automazione dei report che prevede una sola riga per corso, devi apportare le modifiche necessarie all’automazione dei report prima di abilitare la funzione Iscrizione multipla.
 
 ### Gestisci l’elenco degli Allievi per un corso {#managelearnerslistforacourse}
 
@@ -227,7 +227,7 @@ Puoi inoltre esportare l’elenco degli Allievi in un foglio Excel. Per esportar
 
 >[!NOTE]
 >
->Se sono presenti più istanze per un corso, l’elenco degli Allievi in Excel viene fornito separatamente in ogni scheda. L’elenco degli Allievi include nome, stato e criteri di selezione degli Allievi. Lo stato degli Allievi può essere **Non avviato**, **In corso** o **Completato**.
+>Se sono presenti più istanze per un corso, l’elenco degli Allievi in Excel viene fornito separatamente in ogni scheda. L’elenco degli Allievi include nome, stato e criteri di selezione degli Allievi. Lo stato degli Allievi può essere **Non avviato** o **In corso** o **Completato**.
 
 ### Esportazione degli Allievi in attesa di approvazione
 
@@ -235,7 +235,7 @@ Un Amministratore, un Manager o un Amministratore personalizzato può esportare 
 
 L’opzione sarà disponibile quando nessun Allievo è iscritto/in attesa di approvazione al corso approvato dal Manager e verrà generato un report vuoto. Puoi anche esportare quando gli Allievi sono in attesa di approvazione, iscritti, in sospeso o disiscritti.
 
-Il report contiene i dati degli utenti attivi, eliminati e sospesi se sono in attesa di approvazione. Il report contiene anche i dati degli utenti interni ed esterni che si trovano in attesa di approvazione.
+Il report contiene i dati degli utenti attivi, eliminati e sospesi se sono in attesa di approvazione. Il report contiene inoltre i dati degli utenti interni ed esterni che si trovano in attesa di approvazione.
 
 Se un Allievo che era in attesa di approvazione si disiscrive, il suo resoconto non sarà presente nel report. Se un Allievo che era in attesa di approvazione viene iscritto al corso da un Amministratore/Manager/Amministratore personalizzato, il suo resoconto sarà presente nel report.
 
@@ -316,7 +316,7 @@ Adobe Learning Manager consente agli Amministratori di scaricare l’elenco degl
 Seguire le colonne disponibili nel report Lista d&#39;attesa:
 
 * Nome del corso
-* Nome istanza
+* Nome dell’istanza
 * ID istanza
 * Stato istanza
 * Nome utente
@@ -371,7 +371,7 @@ Puoi aggiungere le opzioni di feedback L1 e L3 mentre crei i corsi:
 
 ### Feedback L1 obbligatorio {#mandatory-l1-feedback}
 
-Puoi rendere obbligatorie tutte le domande o la prima domanda in un feedback L1.
+Puoi rendere obbligatorie la prima o tutte le domande in un feedback L1.
 
 ![](assets/make-all-questionsmandatory.png)
 
@@ -389,7 +389,7 @@ Se per qualche motivo le due domande obbligatorie non contengono testo, le doman
 >
 >Non è sufficiente attivare queste impostazioni nell’istanza del programma di apprendimento. È inoltre necessario abilitare queste impostazioni a livello di istanza del corso per ogni corso del programma di apprendimento.
 
-Nella pagina Valori predefiniti istanza, se attivi **[!UICONTROL Rendi tutte le domande obbligatorie]**, tutte le nuove istanze create in seguito erediteranno queste impostazioni.
+Nella pagina Impostazioni predefinite istanza, se attivi l’opzione **[!UICONTROL Rendi tutte le domande obbligatorie]**, tutte le nuove istanze create successivamente erediteranno tali impostazioni.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
@@ -399,25 +399,25 @@ Nella pagina Valori predefiniti istanza, se attivi **[!UICONTROL Rendi tutte le 
 
 Nelle versioni precedenti di Learning Manager, l’Amministratore poteva abilitare il feedback L1 per il programma di apprendimento.
 
-In questa versione di Learning Manager, l’Amministratore può inviare feedback L1 per tutti i corsi inclusi nel programma di apprendimento. L’Amministratore deve assicurarsi che il feedback L1 sia abilitato per tutti i corsi a livello di istanza del corso.
+In questa versione di Learning Manager, l’Amministratore può inviare feedback L1 per tutti i corsi inclusi nel programma di apprendimento. L’amministratore deve assicurarsi che il feedback L1 sia abilitato per tutti i corsi a livello di istanza del corso.
 
 1. Per abilitare il feedback L1 per ogni corso, nell’app di amministrazione fai clic su **[!UICONTROL Programmi di apprendimento]** > **[!UICONTROL Visualizza programma di apprendimento]**.
 
 1. Fai clic su **[!UICONTROL Istanze]** > **[!UICONTROL Feedback L1 Abilitato]**.
 
-1. Abilita l&#39;opzione **[!UICONTROL Abilita per ogni corso]**.
+1. Attiva l’opzione **[!UICONTROL Abilita per ogni corso]**.
 
    ![](assets/enable-l1-feedbackforcourse.png)
 
    *Abilita feedback corso*
 
-   L’attivazione di questa opzione solo a livello di programma di apprendimento non attiverà il feedback L1 per i corsi all’interno di questo programma. Per abilitare il feedback L1, accedi a ogni corso del programma di apprendimento e abilita l’interruttore Feedback L1.
+   L’attivazione di questa opzione solo a livello di programma di apprendimento non attiverà il feedback L1 per i corsi all’interno di questo programma. Per abilitare il feedback L1, accedi a ogni corso del programma di apprendimento e abilita l’opzione Feedback L1.
 
    ![](assets/l1-reaction-feedback.png)
 
    *Abilita feedback L1 per ogni corso*
 
-   Se il feedback L1 è abilitato per tutti i corsi, ma è disabilitato nell’istanza del programma di apprendimento, il feedback L1 non verrà attivato per i corsi.
+   Se il feedback L1 è abilitato per tutti i corsi, ma è disabilitato nell’istanza del programma di apprendimento, il feedback L1 non sarà attivato per i corsi.
 
 ### Report dei quiz specifici per ogni lingua
 
@@ -425,7 +425,7 @@ I report dei quiz consentono di valutare le prestazioni di un Allievo che ha com
 
 Learning Manager a oggi facilita l’apprendimento in 13 lingue di interfaccia e 32 lingue di contenuti. Sebbene questa opzione sia di facile utilizzo e permetta di supportare gli Allievi di tutto il mondo, è difficile per gli Amministratori recuperare i report tentati in varie lingue.
 
-I report dei quiz visualizzano i dati in lingue diverse purché il corso sia disponibile in più lingue. Finora, i report generati dall’Amministratore mostravano le risposte una sotto l’altra, indipendentemente dalla lingua in cui il quiz veniva tentato. **Ad esempio**, se un utente avesse fatto un quiz in olandese, l’Amministratore sarebbe stato in grado di visualizzare solo i report dei quiz svolti dagli utenti in olandese. L’Amministratore che aveva selezionato l’inglese come lingua di interfaccia non era in grado di visualizzare contemporaneamente i report per tutti gli utenti, indipendentemente dalla lingua scelta.
+I report dei quiz visualizzano i dati in lingue diverse purché il corso sia disponibile in più lingue. Finora i report generati dall’Amministratore mostravano le risposte una sotto l’altra, indipendentemente dalla lingua in cui il quiz veniva svolto. **Per esempio**, se un utente avesse fatto un quiz in olandese, l’Amministratore sarebbe stato in grado di visualizzare solo i report dei quiz svolti dagli utenti in olandese. L’Amministratore che aveva selezionato l’inglese come lingua di interfaccia non era in grado di visualizzare contemporaneamente i report per tutti gli utenti, indipendentemente dalla lingua scelta.
 
 Adesso, invece, l’Amministratore è in grado di visualizzare contemporaneamente tutti i report dei quiz svolti dagli Allievi, indipendentemente dalla lingua dei contenuti selezionata. I quiz tentati in lingue diverse verranno aggiunti come colonne extra nel report del quiz.
 
@@ -433,9 +433,9 @@ Adesso, invece, l’Amministratore è in grado di visualizzare contemporaneament
 
 *Abilita feedback L1 a livello di account*
 
-Un amministratore potrà abilitare il feedback L1 per i corsi e i programmi di apprendimento di nuova creazione attivando questa impostazione a livello di account. Tuttavia, l’attivazione di questa impostazione non influisce sui corsi e sui programmi di apprendimento esistenti
+Un amministratore potrà abilitare il feedback L1 per i corsi e il programma di apprendimento creati di recente attivando questa impostazione a livello di account. Tuttavia, l’attivazione di questa impostazione non influisce sui corsi e sui programmi di apprendimento esistenti.
 
-Se questa opzione è attivata, il feedback sarà attivato per impostazione predefinita per tutti i nuovi corsi di formazione e le nuove istanze. Nel caso in cui un autore/amministratore visiti l’istanza, l’istanza viene attivata per impostazione predefinita e disattivata manualmente, poi viene quindi rispettata.
+Se questa opzione è attivata, in tutti i nuovi corsi di formazione e nelle nuove istanze, il feedback sarà attivato per impostazione predefinita. Nel caso in cui un autore/amministratore visiti l’istanza, l’istanza viene attivata per impostazione predefinita e disattivata manualmente, poi viene quindi rispettata.
 
 Per abilitare il feedback L1, nell’app di amministrazione fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Feedback]**.
 
@@ -475,7 +475,7 @@ Di seguito è riportato un esempio dei risultati del questionario L1 come riferi
 
 *Domande di feedback sul corso di esempio*
 
-Una volta abilitato il feedback L3, puoi visualizzare le opzioni come mostrato nell’istantanea seguente:
+Una volta abilitato il feedback L3, puoi visualizzare le opzioni come mostrato nell’istantanea riportata di seguito:
 
 ![](assets/l3-feedback-desc-questions.png)
 
@@ -493,7 +493,7 @@ Di seguito è riportato un esempio dei risultati del questionario L3 come riferi
 
 È possibile impostare il questionario di feedback L1 e L3 e i promemoria a livello di account.
 
-1. Fai clic su **[!UICONTROL Impostazioni]** e quindi su **[!UICONTROL Feedback]** nel riquadro a sinistra dopo aver effettuato l’accesso come Amministratore.\
+1. Fai clic su **[!UICONTROL Impostazioni]** e poi su **[!UICONTROL Feedback]** nel riquadro di sinistra dopo l’accesso come Amministratore.\
    La pagina delle impostazioni di feedback viene visualizzata con due schede: **[!UICONTROL Feedback L1]** e **[!UICONTROL Feedback L3]**.\
    La scheda **[!UICONTROL Feedback L1]** è costituita da un elenco di questionari **[!UICONTROL Feedback L1]** predefiniti per i corsi in aula e autonomi e dalle impostazioni del promemoria. Nella scheda **[!UICONTROL Feedback L3]** è possibile visualizzare le impostazioni predefinite per le istruzioni e i promemoria del feedback L3.
 
@@ -502,7 +502,7 @@ Di seguito è riportato un esempio dei risultati del questionario L3 come riferi
    Nella scheda **[!UICONTROL Feedback L3]** è possibile modificare l&#39;istruzione di feedback predefinita.\
    Fai clic su **[!UICONTROL Aggiungi nuovo promemoria]** nella parte inferiore della pagina e scegli quando inviare i promemoria.
 
-1. Fai clic su **[!UICONTROL Salva]** nell&#39;angolo superiore destro della pagina.
+1. Fai clic su **[!UICONTROL Salva]** nell’angolo in alto a destra della pagina.
 
 Nel feedback L1, puoi visualizzare due serie di domande insieme a una domanda predefinita. La prima serie di domande si riferisce a corsi autonomi che possono essere utilizzati anche per corsi basati su attività. La seconda serie di domande può essere utilizzata per i corsi in aula e in aula virtuale.
 
@@ -570,11 +570,11 @@ Quando scarichi un report dopo aver selezionato un filtro di stato, il report Tr
 
 ## Visualizzazione dei corsi {#viewingcourses}
 
-In qualità di Amministratore, puoi visualizzare un elenco di tutti i corsi disponibili.   Fai clic su **[!UICONTROL Corsi]** nel riquadro a sinistra per visualizzare l’elenco dei corsi con opzioni di ricerca e filtro. Puoi inoltre visualizzare la percentuale di efficacia di ogni corso nelle miniature.
+Come Amministratore, puoi visualizzare un elenco di tutti i corsi disponibili.   Fai clic su **[!UICONTROL Corsi]** nel riquadro a sinistra per visualizzare l’elenco dei corsi con opzioni di ricerca e filtro. Puoi inoltre visualizzare la percentuale di efficacia di ogni corso nelle miniature.
 
 >[!NOTE]
 >
->Puoi ritirare un corso dopo che gli Allievi lo hanno frequentato o se desideri sospendere un corso specifico dopo averlo pubblicato. Puoi ritirare un corso solo quando è nello stato Pubblicato. È possibile visualizzare l’elenco di tutti i corsi ritirati facendo clic sulla scheda **[!UICONTROL Ritirati]**.
+>Puoi ritirare un corso dopo che gli Allievi lo hanno frequentato o se desideri sospendere un corso specifico dopo averlo pubblicato. Puoi ritirare un corso solo quando è nello stato Pubblicato. Puoi visualizzare l’elenco di tutti i corsi ritirati facendo clic sulla scheda **[!UICONTROL Ritirato]**.
 
 ## Visualizzare punteggi dei quiz {#viewquizscores}
 
@@ -665,10 +665,10 @@ Come per il grafico a torta mostrato sopra, viene dato un maggiore peso al feedb
 
 Adobe Learning Manager consente di individuare i corsi/programmi di apprendimento che cerchi rapidamente e con facilità. Puoi cercare i corsi in due modi:
 
-1. Utilizzando il campo di ricerca. Fai clic sull’icona di ricerca visualizzata nell’angolo in alto a destra. Viene visualizzato un campo di ricerca. Digita il nome del corso o le parole chiave associate ai tuoi corsi per individuare i corsi/programmi di apprendimento. Puoi anche eseguire ricerche utilizzando tag predefiniti come Captivate, C, Java e HTML. I tag sono ricercabili all’interno del campo di ricerca, il che significa che vengono visualizzati nel campo di ricerca durante la digitazione.
+1. Utilizzando il campo di ricerca. Fai clic sull’icona di ricerca visualizzata nell’angolo in alto a destra. Viene visualizzato un campo di ricerca. Immetti il nome del corso o qualsiasi parola chiave associata ai corsi per individuare i corsi/programmi di apprendimento. Puoi inoltre effettuare la ricerca tramite tag predefiniti come Captivate, C, Java e HTML. I tag sono ricercabili all’interno del campo di ricerca, il che significa che vengono visualizzati nel campo di ricerca durante la digitazione.
 1. Applicando un filtro all’elenco di corsi/programmi di apprendimento. Puoi filtrare i corsi per stato, come Tutti, Pubblicati, Bozza e Ritirati. Nella modalità Amministratore, il filtro bozza non viene visualizzato.
 
-Puoi eseguire una ricerca in base alle competenze facendo clic sulle Competenze e scegliendole. In qualità di Amministratore, puoi ordinare i corsi in quattro modi per individuare meglio il corso richiesto. Fai clic su Ordina per e scegli l’ordine alfabetico crescente o decrescente, la data di aggiornamento del corso o l’efficacia dei corsi.
+Puoi eseguire una ricerca in base alle competenze facendo clic sulle Competenze e scegliendole. Come Amministratore puoi ordinare i corsi in quattro modi, per meglio individuare il corso richiesto. Fai clic su Ordina per e scegli l’ordine alfabetico crescente o decrescente, la data di aggiornamento del corso o l’efficacia dei corsi.
 
 <!--![](assets/admin-sortby.png)-->
 
@@ -726,15 +726,15 @@ Viene visualizzata la finestra di dialogo di riepilogo, che mostra il numero di 
 
 ### Aggiunta di commenti durante l’iscrizione degli allievi {#enroll-comments}
 
-<!---![](assets/enroll-learners-dialog.png)-->
+<!--![](assets/enroll-learners-dialog.png)-->
 
 In qualità di Amministratore o Manager, puoi aggiungere commenti durante l’iscrizione di allievi a un corso. Puoi aggiungere ulteriori informazioni sulla coorte di utenti che vengono iscritti. Questi dati vengono esportati nei report sui corsi.
 
-Il commento **non** è visualizzato per l’Allievo.
+Il commento **non** viene mostrato all’Allievo.
 
 Quando un Amministratore genera il report sul corso dell’Allievo, qualsiasi commento aggiunto viene visualizzato nel report. Viene visualizzata la finestra di dialogo di riepilogo, che mostra il numero di utenti dei set di inclusione e di esclusione e di utenti già iscritti all’istanza del corso.
 
-Nella finestra di dialogo **[!UICONTROL Registra Allievi]**, espandi l’opzione **[!UICONTROL Opzioni avanzate]**. Nel campo **[!UICONTROL Commento aggiuntivo]**, immettere il commento richiesto.
+Nella finestra di dialogo **[!UICONTROL Registra Allievi]**, espandi l’opzione **[!UICONTROL Opzioni avanzate]**. Nel campo **[!UICONTROL Commento aggiuntivo]**, immetti il commento richiesto.
 
 ![](assets/comment-for-learner.png)
 
@@ -767,7 +767,7 @@ Utilizzando la ricerca con completamento automatico, puoi:
 
 Dopo aver eseguito una ricerca, non è possibile filtrare gli Allievi per istanze. L’opzione per selezionare un’istanza dall’elenco a discesa **[!UICONTROL Seleziona istanza]** è disattivata.
 
-Inoltre, utilizzando i risultati della ricerca, è possibile scegliere un Allievo o un gruppo di utenti ed eseguire le azioni seguenti:
+Inoltre, utilizzando i risultati della ricerca, puoi scegliere un Allievo o Gruppo utenti ed eseguire le azioni seguenti:
 
 * Annulla l’iscrizione
 * Contrassegna completamento
@@ -828,13 +828,13 @@ Il report con l’elenco degli Allievi interessati verrà scaricato. Il report i
 
 Il ciclo di vita tipico di un corso è il seguente:
 
-**Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli Allievi. A questo punto puoi eliminare un corso.
+**Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli allievi. A questo punto, è possibile eliminare un corso.
 
-**Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli Allievi.
+**Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli allievi.
 
 **Ritirato** - Dopo aver pubblicato un corso, un Autore può attribuirgli lo stato Ritirato se desidera che il corso non venga più visualizzato nel catalogo dei corsi per gli allievi. A questo punto, è possibile ripubblicare o eliminare un corso.
 
-**Eliminato** - A un corso viene attribuito lo stato Eliminato quando viene rimosso completamente dall’applicazione Adobe Learning Manager. I corsi possono essere eliminati dagli Autori solo quando si trovano nello stato Bozza. Puoi anche eliminare i corsi dallo stato Ritirato.
+**Eliminato** - A un corso viene attribuito lo stato Eliminato quando viene rimosso completamente dall’applicazione Adobe Learning Manager. I corsi possono essere eliminati dagli Autori solo quando si trovano nello stato Bozza. È anche possibile eliminare i corsi dallo stato ritirato.
 
 ![](assets/lifecycle-03.png)
 

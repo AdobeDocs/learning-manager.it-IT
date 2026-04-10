@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Applicazione desktop Adobe Learning Manager
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 76%
+source-wordcount: '1694'
+ht-degree: 79%
 
 ---
 
@@ -52,7 +52,7 @@ Effettua le seguenti operazioni per acquisire registrazioni video e pubblicarle 
 
    **Schermata** Registra le azioni eseguite sullo schermo del monitor. Selezionando l’icona dello schermo, lo schermo viene messo in evidenza da una finestra di dialogo di registrazione al centro dello stesso.
 
-   **Entrambi** Registra le azioni dell&#39;Assistente vocale e dello schermo. Selezionando l&#39;ultima icona, lo schermo viene evidenziato e l&#39;utente riceve una finestra dal vivo insieme ad essa.
+   **Entrambi** Registra le azioni dell&#39;Assistente vocale e dello schermo. Selezionando l’ultima icona, lo schermo viene messo in evidenza e l’utente visualizza una finestra Live.
 
 1. Imposta le preferenze di registrazione.
 
@@ -91,8 +91,10 @@ Per acquisire una schermata, esegui le seguenti operazioni:
 1. Fai clic sull’icona della schermata nella home page dell’applicazione desktop Learning Manager.
 1. Per acquisire solo una parte dello schermo, fai clic sull’icona di acquisizione parziale dello schermo. Per acquisire l’intero schermo, fai clic sull’icona di acquisizione dell’intero schermo.
 
-   <!--![](assets/capture-screenshot.png)
-   *Capture a screenshot*-->
+   <!--
+   ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
+   -->
 
 1. Per aiutare gli altri allievi a comprendere e a conservare meglio la presentazione o i contenuti statici, aggiungi annotazioni ai contenuti.
 1. Per modificare la schermata, [fai clic qui](adobe-learning-manager-app-for-desktop.md#Editing) e per pubblicare una schermata, [fai clic qui](adobe-learning-manager-app-for-desktop.md#Publishing).
@@ -134,7 +136,7 @@ Per tagliare, fai clic sul pulsante **[!UICONTROL Inizia taglio]** o sull&#39;ic
 
 ## Panoramica e zoom (qualsiasi registrazione video) {#panampzoomanyvideorecording}
 
-L&#39;azione Panning e zoom può essere eseguita solo sulle registrazioni video **Entrambe** (webcam e schermo). Per impostazione predefinita, è selezionata l’intera webcam o schermata. Seleziona un punto di manipolazione d’angolo e trascinalo per selezionare la parte di schermo che deve essere visualizzata o messa a fuoco. Fare doppio clic sulla finestra per visualizzare lo schermo intero.
+L&#39;azione Panning e zoom può essere eseguita solo sulle registrazioni video **Entrambe** (webcam e schermo). Per impostazione predefinita, è selezionata l’intera webcam o schermata. Seleziona un punto di manipolazione d’angolo e trascinalo per selezionare la parte di schermo che deve essere visualizzata o messa a fuoco. Fai doppio clic sulla finestra per selezionare l’intero schermo.
 
 ![](assets/pan-zoom-artboard10.png)
 *Panning e zoom*
@@ -181,7 +183,7 @@ Una volta apportate tutte le modifiche, fai clic su **[!UICONTROL Condividi]** >
 
 ## Ricerca nella galleria Learning Manager desktop {#browsingcaptivateprimedesktopgallery}
 
-Tutte le registrazioni e le schermate vengono salvate nell’applicazione desktop Adobe Learning Manager. Per sfogliare questi file, fai clic su **[!UICONTROL Galleria]** dal pannello di navigazione a sinistra della home page.
+Tutte le registrazioni e le schermate vengono salvate nell’applicazione desktop Adobe Learning Manager. Per individuare i file, fai clic su **[!UICONTROL Galleria]** dal pannello di navigazione di sinistra della home page.
 
 >[!NOTE]
 >
@@ -197,7 +199,7 @@ Per modificare o eliminare un file dalla galleria, fai clic sui tre punti nella 
 
 Le notifiche in Learning Manager vengono visualizzate nella finestra delle notifiche anche se l’Allievo non ha effettuato l’accesso all’applicazione Web Learning Manager. Le notifiche includono post o bacheche creati o seguiti dagli utenti o a cui gli utenti hanno partecipato. Facendo clic sulla notifica, l’utente accede al Web di Apprendimento sociale di Learning Manager.
 
-Per disattivare l&#39;audio delle notifiche, fare clic sul menu **[!UICONTROL Profilo*]* > &#x200B;** [!UICONTROL Impostazioni] > **[!UICONTROL Disattiva audio notifiche]**.
+Per disattivare l&#39;audio delle notifiche, fare clic sul menu **[!UICONTROL Profilo*]* > **[!UICONTROL Impostazioni] > **[!UICONTROL Disattiva audio notifiche]**.
 
 ## Impostazioni dell’applicazione desktop Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
 

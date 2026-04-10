@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '7540'
-ht-degree: 69%
+source-wordcount: '7631'
+ht-degree: 75%
 
 ---
 
@@ -45,7 +45,7 @@ Per creare un corso, procedi nel seguente modo:
    * **Approvato dal Manager:** corsi approvati dai Manager. Gli Allievi possono registrarsi a questi corsi, ma non vengono iscritti direttamente senza l’approvazione del Manager. Una richiesta di notifica viene inviata ai Manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del Manager, gli allievi risultano iscritti ai corsi.
    * **Iscrizione autonoma:** gli allievi possono iscriversi direttamente a questo tipo di corsi.
 
-1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**. Per pubblicare il corso, fai clic su **[!UICONTROL Publish]**.
+1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**. Per pubblicare il corso, fai clic su **[!UICONTROL Pubblica]**.
 
 ## Creazione di un corso - Flusso di lavoro avanzato {#createacourseadvancedworkflow}
 
@@ -95,16 +95,16 @@ Per creare un corso, procedi nel seguente modo:
 
 1. **Più iscrizioni**
 
-   In questo modo, è possibile iscrivere gli allievi a più istanze del corso in uno o più periodi.
+   Utilizzando questa opzione, puoi iscrivere gli Allievi in più di un’istanza del corso in uno o più periodi diversi.
 
    Abilita l’opzione **Iscrizione multipla** per passare da un’iscrizione a un altro corso di un Allievo. Se è stata abilitata la commutazione istanza, non è possibile utilizzare l’iscrizione multipla.
 
 1. Seleziona i corsi propedeutici che devono essere completati prima di iniziare il corso. Fai clic sul campo Corsi e scegli dall’elenco dei corsi.
-1. Abilita la casella di controllo **Abilita** **Prerequisiti** se desideri che i corsi propedeutici siano resi obbligatori.
+1. Abilita la casella di controllo **Abilita** **prerequisiti** se desideri che i corsi propedeutici siano resi obbligatori.
 1. Aggiungi parole chiave come tag relativi al tuo corso. Questi tag aiutano gli allievi a individuare facilmente il tuo corso durante la ricerca. Tutti questi tag vengono aggiunti automaticamente in base ai moduli aggiunti. Se desideri aggiungere altri tag a questo corso, puoi inserirli.
 1. Aggiungi parole chiave come tag relativi al tuo corso. Questi tag aiutano gli allievi a individuare facilmente il tuo corso durante la ricerca. Tutti questi tag vengono aggiunti automaticamente in base ai moduli aggiunti. Se desideri aggiungere altri tag a questo corso, puoi inserirli.
 1. Nel campo Ritiro automatico, seleziona una data in cui il corso viene ritirato. L’Amministratore deve prima abilitare l’opzione Ritiro automatico.
-1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**. Per pubblicare il corso, fai clic su **[!UICONTROL Publish]**.
+1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**. Per pubblicare il corso, fai clic su **[!UICONTROL Pubblica]**.
 
 ### Aggiungi etichette di conformità a corso/percorso di apprendimento/certificazione {#add-custom-compliance-label}
 
@@ -179,9 +179,9 @@ Nella sezione **[!UICONTROL Risorse]**, la casella di controllo Mostra le risors
 
 ## Assistente pianificazione
 
-Gestisci i conflitti nella prenotazione di Istruttori e aule. Se desideri sapere in quale data e ora è disponibile un istruttore prima di assegnarlo al corso, utilizza l’Assistente alla pianificazione.
+Gestisci i conflitti nella prenotazione di Istruttori e aule. Se desideri sapere a che ora e data è disponibile un Istruttore prima di assegnarlo al corso, utilizza l’Assistente pianificazione.
 
-Durante la creazione di un corso VC o CR, fai clic su Assistente alla pianificazione.
+Durante la creazione di un corso, fai clic su Assistente pianificazione per un corso virtuale o in aula.
 
 ![Selezionare l&#39;Assistente alla pianificazione](assets/scheduling-assistant.png)
 
@@ -216,11 +216,11 @@ Nel campo Istruttore, digita il nome dell’Istruttore o Inserisci parte del nom
 
 Cerca un Istruttore con una o più abilità. La ricerca utilizza l’operatore AND.
 
-La ricerca delle abilità può essere effettuata solo per nome di abilità parziale o completo, non per livello di abilità.
+Le abilità possono essere cercate solo inserendo il relativo nome parziale o completo, non per livello.
 
 Nell’Assistente, inserisci il nome dell’Istruttore, la posizione e il limite di posti.
 
-Puoi anche cercare le abilità, che verrebbero visualizzate dopo aver fatto clic sull’icona del filtro presente sul lato destro della casella di ricerca dell’Istruttore. La schermata seguente mostra il pulsante.
+Puoi inoltre cercare l’abilità, che verrebbe visualizzata dopo aver fatto clic sull’icona del filtro presente sul lato destro della casella di ricerca dell’Istruttore La schermata seguente mostra il pulsante.
 
 ![Immettere le abilità per l&#39;istruttore](assets/scheduling-assistant-instructor-skill.png)
 
@@ -256,7 +256,7 @@ L&#39;Assistente alla pianificazione è disponibile anche nella pagina Istanza p
 
 Durante la creazione di un corso, un programma di apprendimento, una certificazione o una risorsa formativa, gli autori possono inserire diversi tipi di contenuti, come testi o immagini, oppure applicare varie opzioni di formattazione del testo.
 
-Quando si crea un corso, è possibile visualizzare Editor di testo RTF nel campo Panoramica del corso. Potete formattare il contenuto, aggiungere immagini, collegamenti ipertestuali e così via.
+Quando si crea un corso, è possibile visualizzare l’Editor di testo RTF nel campo Panoramica del corso. È possibile formattare i contenuti, aggiungere immagini, collegamenti ipertestuali e così via.
 
 ![](assets/rich-text-editor-author.png)
 
@@ -292,7 +292,7 @@ Il testo RTF è composto da markup HTML. Senza CSS, il rendering del markup caus
 
 ### Stile predefinito
 
-Il foglio di stile CSS allegato contiene lo stile applicato da Learning Manager. Lo stile è adattato in base alla maggioranza dei casi d’uso. Scarica il file CSS allegato e importalo nell’app web in base alle tue convenzioni e al tuo sistema di compilazione. Le classi CSS definite hanno lo spazio dei nomi ql-editor e non interferiscono con gli stili esistenti.
+Il foglio di stile CSS allegato contiene lo stile applicato da Learning Manager. Lo stile è adattato in base alla maggioranza dei casi d’uso. Scarica il file CSS allegato e importalo nell’app web in base alle tue convenzioni e al tuo sistema di compilazione. Le classi CSS definite utilizzano lo spazio dei nomi ql-editor e non interferiscono con i tuoi stili esistenti.
 
 ### Personalizzare gli stili
 
@@ -377,7 +377,7 @@ Una volta che l’Amministratore ha abilitato i tentativi multipli, come Autore 
    <td>
     <p>Blocca il modulo tra i tentativi 0:0:1 Formato: Giorni/Ore/Minuti</p></td>
    <td>
-    <p>È possibile bloccare i moduli per un periodo di tempo specifico tra un tentativo e l'altro selezionando la casella di controllo "<b>Blocca modulo tra i tentativi 0:0:1 Formato: Giorni/Ore/Minuti</b>". Quando un modulo è bloccato, l’Allievo non può visitarlo fino a quando il periodo di blocco previsto non è trascorso. </p>
+    <p>È possibile bloccare i moduli per un periodo di tempo specifico tra un tentativo e l'altro selezionando la casella di controllo "<b>Blocca modulo tra i tentativi 0:0:1 Formato: Giorni/Ore/Minuti</b>". Quando un modulo è bloccato, l’Allievo non può visitarlo finché il periodo di blocco previsto non è trascorso. </p>
     <p>È possibile definire i criteri di fine di un tentativo selezionando le caselle di controllo '<b>Chiusura lettore</b>' o '<b>Completamento</b>'.</p></td>
   </tr>
   <tr>
@@ -390,7 +390,7 @@ Una volta che l’Amministratore ha abilitato i tentativi multipli, come Autore 
    <td>
     <p>Completamento</p></td>
    <td>
-    <p>Se la fine di un tentativo viene impostata in base al <b>Completamento</b>, essa verrà determinata sulla base dei criteri di successo del contenuto. Gli Allievi non possono ritentare il modulo finché il contenuto non invierà le informazioni di completamento. I dettagli relativi a blocco del modulo e al tentativo sono comunicati all’Allievo una volta completato il tentativo.</p></td>
+    <p>Se la fine di un tentativo viene impostata in base al <b>Completamento</b>, essa verrà determinata sulla base dei criteri di successo del contenuto. Gli allievi non possono ritentare il modulo finché il contenuto non invierà le informazioni di completamento. I dettagli relativi a blocco del modulo e al tentativo sono comunicati all’Allievo una volta completato il tentativo.</p></td>
   </tr>
   <tr>
    <td>
@@ -454,16 +454,16 @@ Per aggiungere un modulo di contenuto, procedi come descritto di seguito:
 
    *Aggiungere un modulo classe*
 
-   Durante la creazione di un corso, nella finestra di dialogo di configurazione Aula virtuale, imposta il sistema di conferenza sulla connessione di Microsoft Teams creata. Seleziona se desideri avere un organizzatore della riunione per l’evento.
+   Quando crei un corso, nella finestra di dialogo di configurazione dell’Aula virtuale, imposta il sistema di conferenza sulla connessione Microsoft Teams che hai creato. Seleziona se desideri avere un organizzatore della riunione per l’evento.
 
    Se selezioni Sì, inserisci il nome dell’organizzatore. Digita il nome e seleziona l’organizzatore.
 
    **Esclusione della sala d&#39;attesa**
 
-   * Se selezioni Sì, qualsiasi Allievo può partecipare alla riunione.
-   * Se selezioni No, viene inviata una richiesta all’organizzatore per consentire o impedire all’Allievo di partecipare alla riunione.
+   * Se selezioni Sì, qualsiasi Allievo potrà partecipare alla riunione.
+   * Se selezioni No, l’organizzatore riceverà una richiesta per consentire o impedire agli allievi di partecipare alla riunione.
 
-   **Nota:** se un Allievo desidera unirsi ai Microsoft Teams come ospite, deve inserire l’e-mail. L’e-mail deve essere presente in Learning Manager.
+   **Nota:** se un Allievo desidera unirsi a Microsoft Teams come ospite, deve inserire l’e-mail. L’e-mail deve essere presente in Learning Manager.
 
    **Modulo attività:** in questa modalità gli allievi devono completare una serie di attività, ad esempio laboratori, esercitazioni, questionari e altre attività di apprendimento. Inserisci il titolo, la descrizione e l’URL esterno come riferimento. Per salvare le modifiche, fai clic su **[!UICONTROL Fine]**.
 
@@ -632,7 +632,7 @@ Per consentire agli istruttori di contrassegnare l’esito positivo dell’Allie
 6. Digitare i dettagli necessari e selezionare le date.
 7. Seleziona l&#39;opzione **[!UICONTROL Consenti all&#39;istruttore di contrassegnare l&#39;esito positivo]**.
 
-   ![L&#39;istruzione &quot;Consenti all&#39;istruttore di contrassegnare l&#39;esito positivo?&quot; la casella di controllo è evidenziata e gli autori possono consentire agli istruttori di registrare lo stato di successo dell&#39;allievo per un modulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![L&#39;istruzione &quot;Consenti all&#39;istruttore di contrassegnare l&#39;esito positivo?&quot; la casella di controllo è evidenziata e gli autori possono consentire agli istruttori di registrare lo stato di successo dell’allievo per un modulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Schermata Dettagli della sessione con l’opzione Consenti all’Istruttore di contrassegnare l’esito positivo evidenziata per i moduli Classe o Classe virtuale_
 
 8. Seleziona **[!UICONTROL Fine]**.
@@ -795,13 +795,13 @@ Per passare alla modalità Amministratore
 
    *Iscrizione degli allievi a un corso*
 
-1. Nell’angolo in alto a destra della finestra di dialogo Iscrivi allievi puoi vedere che l’opzione **Istanza predefinita** è selezionata. Non appena un corso viene creato da un Autore, viene creata un’istanza predefinita del corso.
+1. Nell’angolo in alto a destra della finestra di dialogo Iscrivi allievi puoi vedere che l’opzione **Istanza predefinita** è selezionata. Non appena un corso viene creato da un Autore, viene creata anche un’istanza predefinita del corso.
 
    ![](assets/default-instance.png)
 
    *Visualizza istanza predefinita di un corso*
 
-1. Inizia a digitare il nome di un Allievo nel campo Includi allievi e seleziona l’Allievo. Qui puoi anche aggiungere gruppi di utenti. Se desideri iscrivere tutti gli Allievi nell’account Learning Manager, inizia a digitare tutti. Puoi inoltre iscrivere gli allievi in un team.
+1. Inizia a digitare il nome di un Allievo nel campo Includi allievi e seleziona l’Allievo. Qui puoi anche aggiungere gruppi di utenti. Se desideri iscrivere tutti gli Allievi nel tuo account Learning Manager, digita “tutti”. Puoi inoltre iscrivere gli allievi in un team.
 
    ![](assets/include-learners.png)
 
@@ -831,8 +831,10 @@ Un URL persistente è sempre fisso. Tuttavia gli utenti che non dispongono di Co
 
 Ora è possibile modificare l’URL della sala permanente ella pagina **Istanza del corso**.
 
-<!--| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
-|---|---|-->
+<!--
+| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
+|---|---|
+-->
 
 ## Annullamento dell’iscrizione degli allievi a un corso {#unenrolllearnersfromacourse}
 
@@ -855,7 +857,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
 
-Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/it/captivate/classic/publish-project-to-captivate-prime.html).
+Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacia del corso {#courseeffectiveness}
 
@@ -934,7 +936,7 @@ In un programma di apprendimento, è possibile solo aggiungere corsi a cui ti se
 
 +++Come accertarsi che tutti gli Allievi non possano visualizzare tutti i corsi?
 
-È possibile ottenere questo risultato per mezzo dei cataloghi. Per impostazione predefinita, un catalogo predefinito contiene tutti i corsi aggiunti a Learning Manager.
+Puoi farlo tramite i cataloghi. Per impostazione predefinita, un catalogo predefinito contiene tutti i corsi aggiunti a Learning Manager.
 
 Devi disabilitare il catalogo predefinito e creare cataloghi personalizzati.
 
@@ -942,7 +944,7 @@ Devi disabilitare il catalogo predefinito e creare cataloghi personalizzati.
 1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Cataloghi]**.
 1. Crea un catalogo facendo clic su **[!UICONTROL Crea]**. Immetti i dettagli e fai clic su **[!UICONTROL Salva]**.
 
-1. Nelle opzioni del catalogo appena creato, puoi selezionare diversi tipi di apprendimento da aggiungere, ad esempio programma di apprendimento, certificazione o corso.
+1. Nelle opzioni del catalogo appena creato, è possibile selezionare diversi tipi di apprendimento da aggiungere, ad esempio programma di apprendimento, certificazione o corso.
 1. Nella sezione Programma di apprendimento fai clic su **[!UICONTROL Aggiungi contenuto]**.
 1. Nel riquadro a sinistra, fai clic su **[!UICONTROL Condividi internamente]** o **[!UICONTROL Condividi esternamente]** a seconda del pubblico di destinazione.
 
@@ -981,7 +983,7 @@ Durante la creazione di un corso, puoi aggiungere al corso file video, audio, PD
 
 +++Come si impostano più tentativi sul modulo?
 
-**Prerequisito:** L&#39;amministratore deve abilitare l&#39;opzione **Tentativi multipli** in **Impostazioni > Generale** nell&#39;app di amministrazione.
+**Prerequisito:** l’Amministratore deve abilitare l’opzione **Tentativi multipli** in **Impostazioni > Generale** nell’app di amministrazione.
 
 In qualità di Autore, nella pagina della panoramica del corso, abilita l’opzione **Consenti più tentativi**.
 
@@ -991,6 +993,6 @@ Per ulteriori informazioni, consulta la [sezione sui tentativi multipli](courses
 
 +++È possibile scaricare il contenuto caricato su Adobe Learning Manager per modificarne il contenuto?
 
-No, il contenuto caricato su Learning Manager è un file zip pubblicato e non è il file di origine. Pertanto, anche se il contenuto è stato scaricato non può essere modificato in uno strumento di creazione. Per modificare il contenuto è necessario un file di origine.
+No, il contenuto caricato su Learning Manager è un file .zip pubblicato e non è il file di origine. Pertanto, anche se il contenuto è stato scaricato non può essere modificato in uno strumento di creazione. Per modificare il contenuto è necessario un file di origine.
 
 +++

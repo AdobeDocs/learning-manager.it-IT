@@ -4,10 +4,10 @@ title: Guida introduttiva come Allievo
 description: Utilizza la pagina introduttiva per sfogliare i principali percorsi di apprendimento di Adobe Learning Manager.
 contentowner: manochan
 exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
-source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 77%
+source-wordcount: '675'
+ht-degree: 87%
 
 ---
 
@@ -43,13 +43,13 @@ Se accedi a Learning Manager tramite iPad o tablet Android, fai riferimento alla
 
 La linea temporale di apprendimento mostra la pianificazione dei corsi che l’Allievo è tenuto a completare. In questa sezione, puoi visualizzare gli avvisi per tutti i corsi e i programmi di apprendimento in ordine crescente di scadenza. Le scadenze per ognuna delle attività di apprendimento vengono visualizzate nel riquadro a sinistra.
 
-Fai clic su ciascun oggetto di apprendimento nella sezione a sinistra per visualizzare le informazioni corrispondenti come schede del corso nel riquadro a destra. Puoi fare clic sul riquadro del corso, del programma di apprendimento o della certificazione per visualizzare le informazioni complete di ciascun oggetto di apprendimento.
+Fai clic su ciascun oggetto di apprendimento nella sezione a sinistra per visualizzare le informazioni corrispondenti come schede del corso nel riquadro a destra. Puoi fare clic sul titolo di certificazione/programma di apprendimento/corso per visualizzare le informazioni complete relative a ogni oggetto di apprendimento.
 
 Passa il mouse sull’area della linea temporale per visualizzare la barra di scorrimento sul lato destro. Utilizza la barra di scorrimento per scorrere verso l’alto o il basso e visualizzare più avvisi.
 
 ## Utenti dell’applicazione per iPad e Android {#ipadandandroidappusers}
 
-Nell’app Learning Manager per iPad o tablet Android, dopo aver effettuato l’accesso come Allievo, puoi visualizzare le informazioni nella scheda Home come segue:
+Nell’app di Learning Manager per iPad o tablet Android, dopo aver effettuato l’accesso come Allievo, puoi visualizzare le informazioni nella°Scheda Pagina iniziale°come indicato di seguito:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
@@ -65,7 +65,7 @@ Per accedere alle funzionalità di apprendimento e del catalogo, tocca il menu a
 
 Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non sei in linea. Scarica e segui i corsi in modalità non in linea e sincronizza il contenuto nell’app online appena sei connesso alla rete.
 
-1. Tocca Menu a discesa in alto e tocca Opzione di apprendimento. Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
+1. Tocca il menu a discesa°Menu°nella sezione superiore, quindi tocca l’opzione°Apprendimento. Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
 1. Tocca l’icona di download nella parte inferiore di ogni riquadro relativo agli oggetti di apprendimento per scaricare il contenuto di apprendimento.
 
 ![](assets/download-ipad.png)
@@ -74,7 +74,8 @@ Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non
 
 1. Quando sei online, viene visualizzato un messaggio in una barra nella parte superiore dell’app in cui ti viene chiesto se desideri sincronizzare i contenuti online. Tocca la barra colorata rossa se la risposta è sì. Una barra colorata verde indica che il contenuto è sincronizzato con l’app online.
 
-<!--### Track device storage
+<!--
+### Track device storage
 
 You can monitor your device storage periodically.
 
@@ -86,4 +87,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/device-storage-detailed-e1439211162955.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+-->

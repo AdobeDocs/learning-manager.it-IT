@@ -4,10 +4,10 @@ title: Percorsi di apprendimento
 description: Creazione di piani di apprendimento per Amministratori in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 32%
+source-wordcount: '1461'
+ht-degree: 61%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 32%
 
 ## Che cos’è un percorso di apprendimento?
 
-Spesso, gli Amministratori sono interessati a creare un curriculum dettagliato che offra conoscenze approfondite su un particolare argomento o un&#39;area di competenza. Può anche trattarsi di una sequenza di corsi di formazione che i dipendenti o i clienti devono completare. Per consentire ciò, questa serie di corsi deve essere aggregata a dei programmi al fine di creare un pacchetto di formazione completo.
+Spesso gli Amministratori hanno bisogno di creare programmi formativi per offrire conoscenze approfondite su un particolare argomento o specializzazione. Tali programmi possono comprendere una serie di corsi di formazione da far completare a dipendenti e clienti. Per consentire ciò, questa serie di corsi deve essere aggregata a dei programmi al fine di creare un pacchetto di formazione completo.
 
-È qui che entra in gioco il percorso di apprendimento. Un percorso di apprendimento è un percorso che un Allievo deve seguire per padroneggiare una materia nel tempo. Gli Allievi possono gestire la propria esperienza di formazione, oltre che acquisire e conservare le conoscenze in modo autonomo e con maggiore efficacia.
+Ed è qui che entra in gioco il percorso di apprendimento. Un percorso di apprendimento è un programma che un Allievo deve seguire per specializzarsi gradualmente in una materia. Gli Allievi possono gestire la propria esperienza di formazione, oltre che acquisire e conservare le conoscenze in modo autonomo e con maggiore efficacia.
 
-Ad esempio, durante l’inserimento di nuovi dipendenti, un’azienda offre formazione su politiche e procedure, cultura, storia e così via. Un percorso di apprendimento consente di configurare i corsi in base alle esigenze dei dipendenti in modo che questi possano iscriversi in base al percorso di apprendimento impostato per loro. tu scegli e puoi iscrivere gli utenti a questo percorso in modo che possano progredire da corso a corso.
+Ad esempio, durante l’inserimento di nuovi dipendenti, un’azienda offre formazione su politiche e procedure, cultura, storia e così via. Un percorso di apprendimento consente di configurare i corsi in base alle esigenze dei dipendenti in modo che questi possano iscriversi in base al percorso di apprendimento impostato per loro. L’Amministratore sceglie e poi iscrive gli utenti a questo percorso per permettergli di andare avanti corso dopo corso.
 
 ## Creazione e configurazione di percorsi di apprendimento
 
@@ -33,8 +33,8 @@ Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe
 
 I percorsi di apprendimento facilitano la realizzazione di un programma di apprendimento. Ecco alcuni dei vantaggi principali di un percorso di apprendimento:
 
-1. Assegnazione diretta di abilità e livelli di abilità a un percorso di apprendimento. Non è necessario associare i crediti relativi alle abilità. Una volta completato un percorso di apprendimento, l’Allievo raggiunge il livello di abilità indicato.
-1. Possibilità di incorporare un percorso di apprendimento esistente in uno nuovo. La funzionalità di incorporamento è disponibile solo per 1 livello di incorporamento. Pertanto, un percorso di apprendimento che contiene già un percorso incorporato non può essere incorporato in un nuovo percorso.
+1. Assegnazione diretta di abilità e livelli di abilità a un percorso di apprendimento. Non è necessario che i crediti siano associati ai livelli di abilità. Dopo aver completato un percorso di apprendimento, l’Allievo raggiunge il livello di abilità indicato.
+1. Possibilità di incorporare un percorso di apprendimento esistente in uno nuovo. Tale funzionalità consente di incorporare un percorso di apprendimento in uno nuovo solo se non contiene già un percorso incorporato.
 1. Possibilità di aggiungere Prerequisti, Risorse formative e Risorse a livello di percorso di apprendimento.
 1. Possibilità di creare sezioni. Ogni sezione può avere un titolo.
 1. Possibilità di rendere le sezioni obbligatorie e impostare i criteri di completamento.
@@ -57,7 +57,7 @@ Nell&#39;opzione **Tipo di iscrizione**, selezionare **Iscrizione autonoma** o *
 
 Dopo aver creato il percorso di apprendimento, selezionalo e poi aggiungi i corsi.
 
-Puoi anche aggiungere abilità e assegnare un distintivo al percorso di apprendimento. Per aggiungere una o più abilità, selezionale dall’elenco a discesa **[!UICONTROL Scegli un’abilità]**. Seleziona anche i relativi livelli.
+Puoi anche aggiungere abilità e assegnare un distintivo al percorso di apprendimento. Per aggiungere una o più abilità, seleziona quella o quelle desiderate dall’elenco a discesa **[!UICONTROL Scegli un’abilità]**. Seleziona anche i relativi livelli.
 
 ![](assets/add-skills.png)
 
@@ -71,7 +71,7 @@ Seleziona il livello di prodotti, ruoli e ruoli dalla sezione **[!UICONTROL Sugg
 
 *Consiglio*
 
-Scegli il tipo di ordinamento delle sezioni e dei corsi di formazione tra Ordinati o Non ordinati in base alle tue preferenze.
+Scegli il tipo di ordinamento delle sezioni e dei corsi di formazione fra Ordinati o Non ordinati in base alle tue preferenze.
 
 Se selezioni Ordinati, i corsi vengono visualizzati nell’ordine in cui sono stati creati. Se scegli Non ordinati, i corsi non vengono messi in sequenza. Gli Allievi possono completare i corsi in qualsiasi ordine.
 
@@ -89,21 +89,21 @@ Dopo aver selezionato i corsi o il percorso di apprendimento, fai clic su **[!UI
 
 Nel percorso di apprendimento puoi effettuare le seguenti operazioni:
 
-**Creare e configurare una sezione:** Viene creata una sezione per raggruppare più corsi di formazione che completano un&#39;area o un componente sostanziale del corso di formazione. Ogni sezione può avere un titolo Ogni sezione può anche essere contrassegnata come Obbligatoria con specifici requisiti di completamento.
+**Creare e configurare una sezione:** una sezione consente di raggruppare più corsi di formazione comprendenti un’area o gran parte del corso di formazione. Ogni sezione può avere un titolo ed essere contrassegnata come obbligatoria mediante specifici requisiti di completamento.
 
-**Rendere i corsi obbligatori in ogni sezione:** Per rendere i corsi di formazione obbligatori o meno all&#39;interno del percorso di apprendimento, attivare o disattivare la casella di controllo Obbligatorio. Se abiliti la casella di controllo, puoi rendere obbligatori tutti i corsi di formazione o alcuni di essi.
+**Rendere i corsi obbligatori in ogni sezione:** per rendere i corsi di formazione obbligatori o meno all’interno del percorso di apprendimento, attiva o disattiva la casella di controllo Obbligatorio. Se attivi la casella di controllo, puoi rendere obbligatori tutti i corsi di formazione o alcuni di essi.
 
 ![](assets/choose-mandatory.png)
 
 *Rendere obbligatori i corsi in ogni sezione*
 
-**Modificare l&#39;ordine:** È possibile spostare i corsi verso l&#39;alto o il basso e modificare l&#39;ordine.
+**Modificare l’ordine:** puoi spostare i corsi verso l’alto o il basso e modificare il relativo ordine.
 
 ![](assets/rearrange.png)
 
 *Riordinare il corso di formazione*
 
-**Rimuovi un corso:** Nella scheda del corso, fai clic su X e rimuovi il corso dal percorso di apprendimento.
+**Rimuovere un corso:** nella scheda del corso, fai clic su X, quindi rimuovi il corso dal percorso di apprendimento.
 
 ![](assets/remove-course.png)
 
@@ -133,7 +133,7 @@ Le istanze del percorso di apprendimento visualizzano un riquadro aggiuntivo, **
 
 Nel riquadro **Corsi** sono indicate le istanze del corso visibili agli Allievi iscritti in questa istanza.
 
-La casella di controllo **[!UICONTROL Consenti agli Allievi di scegliere le istanze (Percorso di apprendimento flessibile)]** è applicabile solo ai corsi. Questa opzione consente agli Allievi di cambiare istanza nel percorso di apprendimento. Per tutti i percorsi di apprendimento figlio sarà disponibile un’opzione che consente di mappare un’istanza del programma di apprendimento su un percorso di apprendimento. L’opzione di collegamento è impostata su Istanza predefinita di default.
+La casella di controllo **[!UICONTROL Consenti agli Allievi di scegliere le istanze (Percorso di apprendimento flessibile)]** è applicabile solo ai corsi. Questa opzione consente agli Allievi di cambiare istanza nel percorso di apprendimento. Per tutti i percorsi di apprendimento figlio sarà disponibile un’opzione che consentirà di collegare un’istanza di un programma di apprendimento a un percorso di apprendimento. L’opzione di collegamento è impostata su Istanza predefinita di default.
 
 ![](assets/default-instance.png)
 
@@ -169,15 +169,16 @@ Segui i passaggi riportati di seguito:
 
 ## Importante
 
-Subito dopo l’aggiornamento, la funzionalità esistente Programmi di apprendimento verrà rinominata Percorso di apprendimento. Se desideri continuare a chiamarla Programmi di apprendimento, utilizza la funzione &quot;Terminologie&quot; per applicare il termine desiderato, per l’appunto Programma di apprendimento.
+La funzionalità esistente Programmi di apprendimento verrà rinominata Percorso di apprendimento subito dopo la release. Se desideri continuare a chiamarla Programmi di apprendimento, utilizza la funzione &quot;Terminologie&quot; per applicare il termine desiderato, per l’appunto Programma di apprendimento.
 
-I percorsi di apprendimento offrono una serie di funzionalità. alcune delle quali saranno disponibili subito dopo l’aggiornamento, e sia gli Amministratori che gli Autori potranno iniziare a utilizzarle. Funzionalità estese quali &quot;Sezioni&quot;, &quot;Aggiungi percorso di apprendimento a un altro&quot;, ecc. sono disattivati e possono essere attivati selezionando la casella di controllo indicata di seguito.
+I percorsi di apprendimento offrono una serie di funzionalità. alcune delle quali saranno disponibili subito dopo l’aggiornamento, e sia gli Amministratori che gli Autori potranno iniziare a utilizzarle. Le funzionalità estese quali &quot;Sezioni&quot;, &quot;Aggiungi percorso di apprendimento a un altro&quot;, ecc. sono disattivate e possono essere attivate selezionando la casella di controllo indicata di seguito.
 
-Gli Allievi possono continuare a seguire i programmi di apprendimento (ora denominati percorsi di apprendimento) e gli Autori/Amministratori a crearli. Per sfruttare le funzionalità estese del percorso di apprendimento indicate in precedenza, l’Amministratore deve abilitare l’impostazione come indicato di seguito. Una volta attivate, saranno disponibili tutte le nuove funzionalità estese del percorso di apprendimento.
+Gli Allievi potranno continuare a seguire i programmi di apprendimento (ora denominati percorsi di apprendimento) e gli Autori/Amministratori a crearli. Per sfruttare le funzionalità estese del percorso di apprendimento elencate sopra, l’Amministratore dovrà attivare l’impostazione come indicato di seguito. Una volta attivata, saranno disponibili tutte le nuove funzionalità estese del percorso di apprendimento.
 
 Nella pagina **[!UICONTROL Impostazioni]** > **[!UICONTROL Generali]** è disponibile una nuova opzione per abilitare i percorsi di apprendimento. Se attivi questa opzione, puoi aggiungere corsi e programmi di apprendimento a un percorso di apprendimento. Una volta abilitata, l’opzione non può essere modificata.
 
-<!-- ## Other Learning Path-related details 
+<!--
+ ## Other Learning Path-related details 
 
 ### Learning Path option is disabled/unchecked in Admin Settings
 
@@ -249,4 +250,5 @@ Nella pagina **[!UICONTROL Impostazioni]** > **[!UICONTROL Generali]** è dispon
 
 **Reporting**
 
-* Same changes as that of Reporting stated above. -->
+* Same changes as that of Reporting stated above. 
+-->

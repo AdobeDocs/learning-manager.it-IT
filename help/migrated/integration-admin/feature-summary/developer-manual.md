@@ -4,10 +4,10 @@ title: Manuale per sviluppatori di applicazioni
 description: Scopri come integrare e personalizzare le applicazioni utilizzando le API RESTful, affrontando argomenti essenziali come l’autenticazione OAuth 2.0, gli scenari di utilizzo delle API e i modelli di dati. Migliora le tue applicazioni aziendali con funzionalità come la creazione di corsi, il tracciamento dei progressi degli Allievi, la mappatura delle abilità, la certificazione, la gamification e altro ancora. Questa guida fornisce istruzioni dettagliate ed esempi reali per aiutare gli sviluppatori a creare flussi di lavoro diretti ed efficienti. Ideale per gli sviluppatori che desiderano sfruttare le funzionalità di Adobe Learning Manager per la creazione di applicazioni incentrate sugli Allievi.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
+source-git-commit: fe3070cbbeb1eac84e13fbed0262797064480aea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 5%
+source-wordcount: '4583'
+ht-degree: 6%
 
 ---
 
@@ -61,7 +61,7 @@ Integrazione di Adobe Learning Manager con applicazioni esterne per una maggiore
    * **[!UICONTROL Solo per questo account?]**
 
       * **[!UICONTROL Sì]**: se scegli Sì, l’applicazione non sarà visibile ad altri amministratori account.
-      * **[!UICONTROL No]** - se scegli No, anche altri amministratori account potranno accedere a questa applicazione, ma dovranno usare l&#39;ID dell&#39;applicazione. L’ID applicazione viene generato e visualizzato nella modalità di modifica dell’applicazione di Learning Manager.
+      * **[!UICONTROL No]** - se scegli No, anche altri amministratori account potranno accedere a questa applicazione, ma dovranno usare l&#39;ID dell&#39;applicazione. L’ID dell’applicazione viene generato e visualizzato nella modalità di modifica dell’applicazione di Learning Manager.
 
      ![testo alternativo](assets/register-an-app.png)
 
@@ -155,19 +155,19 @@ Questi token sono destinati esclusivamente all&#39;uso personale durante le fasi
 
    ![](assets/type-client-id.png)
 
-4. Aggiungi **[!UICONTROL ID client]** e **[!UICONTROL Segreto client]** per ottenere il token di aggiornamento. Quindi seleziona **[!UICONTROL Invia]**. OAuth viene precompilato dal passaggio precedente.
+4. Aggiungi **[!UICONTROL ID client]** e **[!UICONTROL Segreto client]** per ottenere il token di aggiornamento. Quindi seleziona **[!UICONTROL Invia]**. The OAuth is pre-populated from the previous step.
 
    ![](assets/get-refresh-token.png)
 
-5. Aggiungi l’ID client e il segreto client per ottenere il token di accesso. Quindi seleziona **[!UICONTROL Invia]**.
+5. Add the Client ID and the Client Secret to get the access token. Quindi seleziona **[!UICONTROL Invia]**.
 
    ![](assets/get-access-token.png)
 
-6. Aggiungi il token di accesso e seleziona Invia per ottenere i relativi dettagli.
+6. Add the access token and select Submit to get the access token details.
 
    ![](assets/type-access-token.png)
 
-Dopo aver selezionato **[!UICONTROL Invia]**, il token di accesso viene verificato e riceverai il seguente oggetto JSON:
+Upon selecting **[!UICONTROL Submit]**, the access token is verified, and You will receive the following JSON object:
 
 ```
 { 
@@ -180,73 +180,73 @@ Dopo aver selezionato **[!UICONTROL Invia]**, il token di accesso viene verifica
 } 
 ```
 
-Come in precedenza, il token di accesso per il test scade tra sette giorni.
+As before, the access token for testing expires in seven days.
 
-### Utilizza uno strumento API per testare gli endpoint
+### Use an API tool for testing the endpoints
 
-Sebbene sia possibile utilizzare qualsiasi strumento di testing API di terze parti, utilizzeremo Postman per testare gli endpoint. Negli esempi riportati in questo documento viene utilizzato Postman per il test degli endpoint.
+While you can use any third-party API testing tool, we&#39;ll use Postman to test the endpoints. The examples in this document use Postman for testing the endpoints.
 
-1. Apri Postman e crea una nuova richiesta.
-2. Seleziona la scheda Autorizzazione.
-3. Imposta Tipo di autenticazione su Bearer Token.
+1. Open Postman and create a new request.
+2. Select the Authorization tab.
+3. Set the Auth Type to Bearer Token.
 
    ![](assets/developer-manual-1.png)
-4. Incolla nel campo Token il token di accesso ottenuto dalla sezione precedente.
+4. Paste the access token that you obtained from the previous section, in the Token field.
 
    ![](assets/developer-manual-2.png)
 
-5. Aggiungere quanto segue nella scheda Intestazioni.
+5. Add the following in the Headers tab.
 
-   * Chiave: Accetta
-   * Valore: application/json
-6. Immetti l’endpoint API nel campo URL. Esempio: [https://learningmanager.adobe.com/learningManager/api/v2/users](https://learningmanager.adobe.com/learningManager/api/v2/users)
-Per ulteriori informazioni, consulta la [Guida di riferimento all’API di Adobe Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
-7. Seleziona Invia per effettuare la richiesta API.
+   * Key: Accept
+   * Value: application/json
+6. Enter your API endpoint in the URL field. Example: [https://learningmanager.adobe.com/learningManager/api/v2/users](https://learningmanager.adobe.com/learningManager/api/v2/users)
+View [Adobe Learning Manager API Reference](https://learningmanager.adobe.com/docs/primeapi/v2/) for more information.
+7. Select Send to make the API request.
 
-## Tipi di API
+## Types of APIs
 
-### API per amministratori
+### Admin APIs
 
-Le API di amministrazione di Adobe Learning Manager consentono agli amministratori di automatizzare e gestire le operazioni di apprendimento su larga scala.
+Adobe Learning Manager&#39;s Admin APIs allow administrators to automate and manage learning operations at a scale.
 
-Utilizzando le API di amministrazione, gli sviluppatori possono:
+Using the Admin APIs, developers can:
 
 >[!NOTE]
 >
->L&#39;elenco non è esaustivo.
+>The list is not exhaustive.
 
-* **Gestione di utenti e gruppi**: creazione, aggiornamento ed eliminazione di utenti o assegnazione di utenti a gruppi.
-* **Iscrizione degli Allievi**: iscrizione automatica a corsi, percorsi di apprendimento o certificazioni.
-* **Monitoraggio dell’avanzamento dell’Allievo**: recupero dello stato di avanzamento del corso/modulo, dei punteggi del quiz e dello stato di completamento.
-* **Generazione di report**: accesso ai dati su attività, coinvolgimento e prestazioni degli Allievi.
-* **Gestione contenuto**: creazione e organizzazione di corsi e oggetti di apprendimento.
+* **Manage users and groups**: Create, update, and delete users or assign them to groups.
+* **Enroll learners**: Automate enrollment into courses, Learning Paths, or certifications.
+* **Track learner progress**: Retrieve course/module progress, quiz scores, and completion status.
+* **Generate reports**: Access data on learner activity, engagement, and performance.
+* **Manage content**: Create and organize courses, and Learning Objects.
 
-Per ulteriori informazioni, vedere [Adobe Learning Manager API Reference](https://learningmanager.adobe.com/docs/primeapi/v2/).
+View [Adobe Learning Manager API Reference](https://learningmanager.adobe.com/docs/primeapi/v2/) for more information.
 
-### API Allievo
+### Learner APIs
 
-Le API per Allievi sono progettate per gli utenti autenticati (Allievi) e consentono di accedere a informazioni specifiche per gli Allievi. Queste API consentono attività quali:
+The Learner APIs are designed for authenticated users (learners) and allow you to access learner-specific information. These APIs allow tasks like:
 
-* Accesso ai corsi e all’avanzamento di un Allievo
-* Recupero di distintivi o certificazioni ottenuti
-* Aggiornamento delle informazioni del profilo Allievo
-* Visualizzazione delle abilità associate ai corsi completati
+* Accessing a learner&#39;s courses and progress
+* Fetching badges or certifications earned
+* Updating learner profile information
+* Viewing skills associated with completed courses
 
-**Punti chiave:**
+**Key points:**
 
-* Queste API richiedono un token utente autenticato, che garantisce la sicurezza e la privacy dei dati.
-* Le API sono pensate per scenari in cui gli utenti sono completamente registrati e connessi, piuttosto che utenti anonimi o condivisi.
+* These APIs require an authenticated user token, ensuring data security and privacy.
+* The APIs are intended for scenarios where users are fully registered and logged in, rather than anonymous or shared users.
 
-Per ulteriori informazioni, vedere [Adobe Learning Manager API Reference](https://learningmanager.adobe.com/docs/primeapi/v2/).
+View [Adobe Learning Manager API Reference](https://learningmanager.adobe.com/docs/primeapi/v2/) for more information.
 
-## Progettazione API e parametri comuni
+## API design and common parameters
 
-Le API forniscono agli sviluppatori l’accesso alle risorse chiave di Learning Manager, come utenti, corsi, abilità, certificazioni e programmi di apprendimento. Seguono i principi REST, utilizzando i metodi HTTP (GET, POST, PUT, DELETE) per le operazioni sui dati.
+The APIs provide developers with access to key Learning Manager resources like users, courses, skills, certifications, and learning programs. It follows REST principles, using HTTP methods (GET, POST, PUT, DELETE) for data operations.
 
 | | |
 |--|--|
-| Metodi | GET, PUT, POST, DELETE |
-| Formato | application/vnd.api+json, applicazione/json. [Ulteriori informazioni](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types) sui tipi MIME comuni. |
+| Methods | GET, PUT, POST, DELETE |
+| Formato | application/vnd.api+json, application/json. [Learn more](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types) about common MIME types. |
 | URL di base | [https://learningmanager.adobe.com/primeapi/v2/](https://learningmanager.adobe.com/primeapi/v2/) |
 
 ### Parametri comuni
@@ -282,14 +282,14 @@ Aggiungi il parametro include all’URL API e specifica le entità correlate da 
 |---|---|
 | istanze | Restituisce tutte le istanze dell’oggetto di apprendimento |
 | enrollment | Restituisce i dettagli dell&#39;iscrizione per l&#39;utente |
-| instances.loResources.resources | Recupera moduli e risorse all’interno di un’istanza |
+| instance.loResources.resources | Recupera moduli e risorse all’interno di un’istanza |
 | risorsesupplementari | Restituisce risorse supplementari associate |
-| skills.skillLevel.badge | Recupera i livelli di abilità e i badge associati |
+| skill.skillLevel.badge | Recupera i livelli di abilità e i badge associati |
 | prerequisiteLOs | Include i prerequisiti per gli oggetti di apprendimento |
 | subLO | Recupera oggetti di apprendimento secondario (utilizzati in LP o certificazioni) |
-| subLOs.enrollment | Iscrizione a oggetti di apprendimento secondari |
-| instances.badge | Badge assegnato per il completamento di un’istanza del corso |
-| subLOs.subLOs.instances.loResources.resources | Risorse nidificate in profondità all&#39;interno di un&#39;istanza sub-LO |
+| subLO.enrollment | Iscrizione a oggetti di apprendimento secondari |
+| instance.badge | Badge assegnato per il completamento di un’istanza del corso |
+| subLOs.subLOs.instance.loResources.resources | Risorse nidificate in profondità all&#39;interno di un&#39;istanza sub-LO |
 
 **Esempio 1**
 
@@ -410,10 +410,10 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
     <p style="text-align: left;"><b>Corso</b></p></td>
   </tr>
   <tr>
-  <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
+  <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instance.loResources.resources.room</br><br>subLOs.instance.loResources.room</br><br>subLOs.additionalResources</br><br>subrollLOs.enrollements ment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.additionalLOs.instance.loResources.resources</br>
   </td>
   <td>
-  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades 3&rbrace;</br>
+  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades</br>
   </td>
   </tr>
   </table>
@@ -521,13 +521,13 @@ Le API di Adobe Learning Manager consentono agli sviluppatori di accedere agli o
 
 | Oggetto di Learning Manager | Descrizione |
 |----|----|
-| account | Incapsula i dettagli di un cliente Learning Manager. |
+| account | Contiene i dettagli di un cliente Learning Manager. |
 | badge | Un distintivo è un token che gli Allievi ottengono quando raggiungono traguardi specifici durante un corso. |
 | catalogo | Catalogo è una raccolta di oggetti di apprendimento. |
-| all’interfaccia  | Utente è il modello chiave di Learning Manager. Gli utenti sono in genere gli Allievi interni o esterni di un’organizzazione che utilizzano gli Oggetti di apprendimento. Tuttavia, possono svolgere altri ruoli, quali Autore e Manager, insieme al ruolo di Allievo. L’ID utente, il tipo e l’e-mail sono alcuni degli attributi incorporati. |
+| utente | Utente è il modello chiave di Learning Manager. Gli utenti sono in genere gli Allievi interni o esterni di un’organizzazione che utilizzano gli Oggetti di apprendimento. Tuttavia, possono svolgere altri ruoli, quali Autore e Manager, insieme al ruolo di Allievo. L’ID utente, il tipo e l’e-mail sono alcuni degli attributi incorporati. |
 | risorsa | Rappresenta ogni risorsa contenuto all&#39;interno di un modulo. Tutte le risorse incapsulate in un &quot;loResource&quot; sono equivalenti in termini di obiettivo di apprendimento, ma differiscono l’una dall’altra in termini di tipo di erogazione o impostazioni locali del contenuto. |
 | NotificheUtente | Questo modello contiene informazioni di notifica relative a un Allievo. |
-| AbilitàUtente | L’AbilitàUtente indica quanto di un singolo livello di abilità viene raggiunto da un singolo utente. |
+| AbilitàUtente | L’AbilitàUtente indica quanto di un singolo livello di abilità sia stato raggiunto da un singolo utente. |
 | BagdeUtente | UserBadge mette in relazione un singolo badge con un singolo utente. Contiene dettagli come quando è stato raggiunto, assertionUrl e così via. |
 | abilità | Il modello di abilità è costituito da livelli e crediti. Le abilità possono essere acquisite dagli Allievi dopo il completamento del corso. |
 | LivelloAbilità | Un livello di abilità comprende uno o più corsi da utilizzare per acquisire un livello e i relativi crediti associati. |
@@ -536,7 +536,7 @@ Le API di Adobe Learning Manager consentono agli sviluppatori di accedere agli o
 | RisorsaOggettoApprendimento | Ciò equivale al concetto di modulo . Un corso è composto da uno o più moduli. In Learning Manager, un modulo può essere distribuito in una serie di modi equivalenti tra loro. Pertanto loResource incapsula essenzialmente tutte le risorse equivalenti. |
 | loResourceGrade | Contiene il risultato dell’utilizzo di una risorsa specifica da parte dell’utente nel contesto di un oggetto di apprendimento a cui è iscritto. Contiene informazioni come la durata spesa dall&#39;utente nella risorsa, la percentuale di avanzamento da parte dell&#39;utente, lo stato di superamento/fallimento e il punteggio ottenuto dall&#39;utente in qualsiasi quiz associato. |
 | calendario | Un oggetto calendario è un elenco di corsi in aula o in aula virtuale a cui l’utente può iscriversi. |
-| InformazioniFeedbackL1 | Il feedback L1 contiene le risposte fornite dall’Allievo alle domande di feedback associate agli oggetti di apprendimento. In genere viene raccolto dopo che l’utente ha completato un oggetto di apprendimento se è configurato per raccogliere tali feedback dagli Allievi. |
+| InformazioniFeedbackL1 | Il feedback L1 contiene le risposte fornite dall’Allievo alle domande di feedback associate agli oggetti di apprendimento. In genere viene creato dopo che l’utente ha completato un oggetto di apprendimento°configurato°per raccogliere tali feedback dagli Allievi. |
 | iscrizione | Questa astrazione include i dettagli relativi alla transazione che rappresenta l’assegnazione di un utente specifico a un’istanza specifica dell’oggetto di apprendimento. |
 
 
@@ -1224,7 +1224,7 @@ Esempio di payload richiesto:
    GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/course:1171899?include=instances.loResources
    ```
 
-   b. Elenca tutto il contenuto dei moduli.
+   b. Elencare tutto il contenuto dei moduli.
 
    ```
    GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/course:1171899?include=instances.loResources.resources
@@ -1324,7 +1324,7 @@ Quando si utilizzano le API di Adobe Learning Manager (Adobe Learning Manager), 
 |---|---|---|
 | 400 | Richiesta non valida | Verificare la presenza di parametri mancanti o non validi nella richiesta. Verifica i campi obbligatori e la formattazione corretta. Ad esempio, sintassi non valida per filtri, campi o parametri di inclusione. |
 | 401 | Token non autorizzato non valido o mancante | Assicurati che il token di accesso sia corretto e incluso nell&#39;intestazione Autorizzazione. Verifica che il token sia attivo. Quando richiedi il token, utilizza anche l’ID client e il segreto client corretti. |
-| 403 | Proibito. Nessun accesso | Non si dispone dell&#39;autorizzazione per accedere alla risorsa. Verifica che il token abbia gli ambiti corretti (admin:read, learner:write, ecc.). |
+| 403 | Proibito. Nessun accesso | Non si dispone dell&#39;autorizzazione per accedere alla risorsa. Verifica che il token abbia gli ambiti corretti (amministratore:read, allievo:write e così via). |
 | 404 | Risorsa non trovata | L&#39;endpoint o l&#39;ID della risorsa non è corretto o non esiste. Verificare che la risorsa esista nell&#39;elenco dei parametri. |
 | 406 | Non accettabile - Intestazione di accettazione errata | Aggiungi questa intestazione alla richiesta: Accetta: application/vnd.api+json <br>Le API Adobe Learning Manager richiedono rigorosamente questo tipo di contenuto.</br> |
 | 500 | Errore interno del server | Si tratta di un problema sul lato server. Riprova più tardi o segnala il problema ai team di supporto Adobe Learning Manager se continua. |
@@ -1332,7 +1332,8 @@ Quando si utilizzano le API di Adobe Learning Manager (Adobe Learning Manager), 
 
 
 
-<!--# Application developer manual
+<!--
+# Application developer manual
 
 >[!NOTE]
 >

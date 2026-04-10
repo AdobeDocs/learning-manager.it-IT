@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '4620'
-ht-degree: 36%
+source-wordcount: '4664'
+ht-degree: 44%
 
 ---
 
@@ -196,9 +196,9 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
   Puoi anche aggiungere contenuto HTML generato da Captivate, Presenter o Presenter Video Express.
 
-1. Adobe Learning Manager supporta i sottotitoli per i contenuti video caricati in Adobe Learning Manager. Ora gli Autori possono caricare il file contenente i sottotitoli insieme al file video.
+1. Adobe Learning Manager supporta i sottotitoli per i contenuti video caricati in Adobe Learning Manager. Ora gli autori possono caricare il file contenente le didascalie insieme al file video.
 
-   Gli studenti possono quindi visualizzare le didascalie durante la riproduzione del modulo video.
+   Gli Allievi possono quindi visualizzare i sottotitoli durante la riproduzione del modulo video.
 
    Il formato supportato è [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
@@ -206,7 +206,7 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
    In qualità di autore, quando caricherai un contenuto video o audio, puoi anche caricare il file VTT che contiene i sottotitoli.
 
-   I sottotitoli vengono quindi visualizzati nel lettore Fluidic. I sottotitoli sono inoltre conformi agli standard [WCAG2.0](https://www.w3.org/TR/WCAG20/).
+   I sottotitoli vengono quindi visualizzati nel lettore Fluidic. I sottotitoli sono conformi anche agli [standard WCAG2.0](https://www.w3.org/TR/WCAG20/).
 
    Quando aggiungi un contenuto video alla libreria, puoi anche aggiungere il file VTT, che **deve** essere un file valido.
 
@@ -224,7 +224,7 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
 
    Come autore, ogni volta che modificate il contenuto, video o audio, Adobe Learning Manager richiede un nuovo file vtt.
 
-   Dopo aver aggiunto questo contenuto a un corso e quando lo visualizzi in anteprima come Allievo, puoi visualizzare i sottotitoli nel video.
+   Dopo aver aggiunto questo contenuto a un corso e quando visualizzi in anteprima il corso come studente, puoi vedere le didascalie nel video.
 
    Sul lettore, attiva o disattiva il pulsante CC del lettore Fluidic per visualizzare o nascondere le didascalie.
 
@@ -245,7 +245,7 @@ Il supporto del formato WebVTT non è disponibile per:
 
 ### Supporto per il catalogo condiviso
 
-Se un account del venditore condivide un catalogo che contiene i corsi e questi contengono i moduli, audio o video con i sottotitoli, i corsi devono comportarsi allo stesso modo nell’account dell’acquirente.
+Se un account venditore condivide un catalogo che contiene i corsi, e i corsi contengono i moduli, audio o video con i sottotitoli, i corsi devono essere identici a quelli disponibili nell’account acquirente.
 
 La propagazione del modulo deve funzionare correttamente dall’account venditore all’account acquirente. Questo può includere: modifica/elimina/aggiunta del file vtt nel modulo.
 
@@ -300,9 +300,9 @@ Dopo che un Amministratore crea le cartelle dei contenuti, come autore puoi cari
 
 **Esempio di utilizzo**
 
-Ad esempio, le agenzie desiderano mantenere il pieno controllo del contenuto e chi lo sovrasta deve avere accesso a tutto il contenuto. Allo stesso tempo, i creatori di contenuti delle agenzie devono avere accesso solo ai propri contenuti e, in alcuni casi, ai contenuti di qualcun altro.
+Ad esempio, le agenzie vogliono mantenere il controllo completo dei contenuti e gli utenti che supervisionano i contenuti devono avere accesso a tutti i contenuti. Allo stesso tempo, i creatori di contenuti delle agenzie devono avere accesso solo ai propri contenuti e, in alcuni casi, ai contenuti di qualcun altro.
 
-La libreria di contenuti con contenuto esistente (ad esempio, il contenuto caricato prima della configurazione delle cartelle dei contenuti) viene definita come **cartella pubblica**. Impossibile ritirare o eliminare la cartella. Il contenuto che fa parte della cartella pubblica è accessibile a tutti i tipi di autori. Una volta configurate le cartelle dei contenuti, gli autori standard e gli autori personalizzati devono selezionare la cartella in cui deve essere inserito il contenuto durante il caricamento di nuovo contenuto.
+La Libreria dei contenuti con i contenuti esistenti (ovvero i contenuti caricati prima di configurare le cartelle dei contenuti) viene definita come **cartella pubblica**. Questa cartella non può essere ritirata o eliminata. I contenuti che fanno parte della cartella pubblica sono accessibili a tutti i tipi di autori. Una volta configurate le cartelle dei contenuti, gli autori standard e gli autori personalizzati devono selezionare la cartella in cui inserire il contenuto, mentre caricano il nuovo contenuto.
 
 >[!NOTE]
 >
@@ -314,9 +314,9 @@ Quando aggiungi un contenuto, puoi scegliere la cartella in cui risiederà il co
 
 *Aggiungere contenuti alla cartella*
 
-Se scegli **Pubblico**, il contenuto sarà visibile a tutti gli autori. Per impostazione predefinita, tutti i contenuti presenti nell’account che non fanno parte di alcuna cartella vengono inseriti nella cartella pubblica.
+Se scegli **Pubblico**, il contenuto sarà visibile a tutti gli autori. Per impostazione predefinita, tutti i contenuti presenti nell’account che non fanno parte di alcuna cartella si troveranno nella cartella pubblica.
 
-Tieni presente che le cartelle dei contenuti sono semplicemente dei comparti virtuali usati per collegare il contenuto. Nel caso in cui un contenuto venga inserito in due cartelle, significa che il file di contenuto è sempre un singolo file ma collegato a più cartelle. Pertanto, nel caso in cui il contenuto venga aggiornato dall&#39;autore personalizzato-1 che ha accesso a custom-folder-1, lo stesso contenuto aggiornato si rifletterà anche in custom-folder-2 a cui accede l&#39;autore-2 personalizzato.
+Tieni presente che le cartelle dei contenuti sono semplicemente dei comparti virtuali usati per collegare il contenuto. Se un contenuto viene inserito in due cartelle, significa che il file di contenuto è sempre un unico file ma collegato a più cartelle. Pertanto, nel caso in cui il contenuto venga aggiornato dall’autore personalizzato 1 con accesso alla cartella personalizzata 1, lo stesso contenuto aggiornato si rifletterà anche nella cartella personalizzata 2 cui accede l’autore personalizzato 2.
 
 Nella Libreria dei contenuti sono disponibili due opzioni per la gestione delle cartelle di contenuti:
 
@@ -340,7 +340,7 @@ Si tratta di un elenco che visualizza tutte le cartelle create nell’account.
 
 ## Spostamento del contenuto nella cartella {#movecontenttofolder}
 
-Per spostare il contenuto di una cartella pubblica in una cartella privata,
+Per spostare un contenuto da una cartella pubblica a una cartella privata:
 
 1. Selezionare la cartella **pubblica** dall&#39;elenco a discesa **Tutte le cartelle**.
 
@@ -358,7 +358,7 @@ Per spostare il contenuto di una cartella pubblica in una cartella privata,
 
 ## Copia del contenuto nella cartella {#copycontenttofolder}
 
-Quando si copia una cartella, viene aggiunto un tag alla cartella. L&#39;operazione di copia non creerà copie del contenuto, ma aggiungerà solo un&#39;associazione con le cartelle specificate.
+Quando si copia una cartella, viene aggiunto un tag alla cartella. L’operazione di copia non consiste nella creazione di copie del contenuto, ma solo nell’aggiunta di un’associazione con le cartelle specificate.
 
 ![](assets/copy-content-to-folder.png)
 
@@ -366,9 +366,9 @@ Quando si copia una cartella, viene aggiunto un tag alla cartella. L&#39;operazi
 
 ## Scollegamento della cartella {#unlinkfolder}
 
-Per scollegare si intende la rimozione del contenuto dalla cartella selezionata.
+Scollegare significa rimuovere il contenuto dalla cartella selezionata.
 
-È possibile scollegare il contenuto da una cartella specificata **SOLO** se è associato anche ad altre cartelle. Se il contenuto non è collegato, è associato solo a una cartella, si consiglia di utilizzare l&#39;operazione MOVE.
+È possibile scollegare il contenuto da una cartella specificata **SOLO** se è associato anche ad altre cartelle. Se il contenuto da scollegare è associato solo a una cartella, è consigliabile utilizzare l’operazione SPOSTA.
 
 >[!NOTE]
 >
@@ -415,7 +415,7 @@ Per scollegare si intende la rimozione del contenuto dalla cartella selezionata.
      <li>In base alla percentuale minima richiesta</li>
      <li>Opzioni Quiz superato o Tentativi nei quiz</li>
     </ul>
-    <p><b>NOTA:</b> è possibile modificare solo i contenuti HTML di Captivate, Presenter Video Express o Presenter.</p></td>
+    <p><b>NOTA:</b> È possibile modificare contenuti HTML solo da Captivate, Presenter Video Express o Presenter.</p></td>
   </tr>
  </tbody>
 </table>
@@ -481,26 +481,26 @@ L’ID univoco del contenuto è un codice univoco assegnato a ciascun elemento d
 
 ### Che cos’è la data di scadenza
 
-La data di scadenza contrassegna i contenuti che potrebbero essere obsoleti o non più necessari. Anche dopo la data di scadenza, il contenuto rimane disponibile, ma ricorda agli autori e agli amministratori di controllarlo e aggiornarlo se necessario. In base alle impostazioni, il contenuto scaduto può essere rimosso da nuove iscrizioni o archiviato. Analogamente all’ID univoco del contenuto, la Data di scadenza funziona allo stesso modo per tutte le versioni linguistiche, consentendo di mantenere il contenuto pulito e aggiornato per tutti.
+La data di scadenza contrassegna i contenuti che potrebbero essere obsoleti o non più necessari. Anche dopo la data di scadenza, il contenuto rimane disponibile, ma ricorda agli autori e agli amministratori di controllarlo e aggiornarlo se necessario. In base alle impostazioni, il contenuto scaduto può essere rimosso da nuove iscrizioni o archiviato. Like the Content unique ID, the Expiry Date works the same way for all language versions, helping keep content clean and up to date for everyone.
 
 * Il contenuto rimane disponibile anche dopo la scadenza.
 * Se viene selezionata una data passata, viene visualizzato un avviso.
-* Il campo scadenza accetta qualsiasi data compresa tra il 1990 e il 2037.
+* The expiry field accepts any date between 1990 and 2037.
 
-Ciò consente alle organizzazioni di mantenere la pertinenza del contenuto senza rimuovere accidentalmente gli elementi pubblicati.
+This helps organizations maintain content relevance without accidentally removing published items.
 
-L’ID univoco del contenuto e la Data di scadenza si applicano a tutte le versioni linguistiche di un gruppo di contenuti, garantendo un’esperienza uniforme per tutti gli utenti, indipendentemente dalla lingua. Gli autori possono utilizzare l’ID univoco del contenuto per cercare e trovare rapidamente contenuti specifici, semplificando la gestione e l’aggiornamento dei materiali di formazione.
+The Content unique ID and Expiry Date apply to all language versions of a content group, ensuring a consistent experience for all users, no matter the language. Authors can use the Content unique ID to quickly search for and find specific content, making it easier to manage and update training materials.
 
-Il **[!UICONTROL report sulla formazione]** include ora due nuove colonne: **[!UICONTROL Data di scadenza contenuto (fuso orario UTC)]** e **[!UICONTROL ID univoco contenuto]**, per tenere traccia dell&#39;ID univoco del contenuto e della data di scadenza. Questi campi possono essere aggiunti tramite interfaccia utente o migrazione e l’amministratore può monitorarli centralmente tramite i report di formazione.
+The **[!UICONTROL Training report]** now includes two new columns: **[!UICONTROL Content Expiry Date (UTC TimeZone)]** and **[!UICONTROL Content Unique ID]**, to track Content unique ID and Expiry Date. Questi campi possono essere aggiunti tramite interfaccia utente o migrazione e l’amministratore può monitorarli centralmente tramite i report di formazione.
 
 ### Aggiungi ID univoco del contenuto e data di scadenza
 
-Durante la creazione del contenuto, gli autori possono aggiungere un ID univoco del contenuto e impostare una data di scadenza.
+Authors can add a Content unique ID and set an Expiry Date date when creating content.
 
-Per aggiungere l’ID univoco del contenuto e la data di scadenza:
+To add Content unique ID and Expiry Date:
 
 1. Accedi come Autore.
-2. Selezionate **[!UICONTROL Crea contenuto]** o **[!UICONTROL Libreria dei contenuti]** nel pannello a sinistra.
+2. Select **[!UICONTROL Create Content]** or select **[!UICONTROL Content Library]** in the left panel.
 
    ![](assets/create-content.png)
    _Selezionare Crea contenuto nella home page_
@@ -508,69 +508,69 @@ Per aggiungere l’ID univoco del contenuto e la data di scadenza:
 3. Seleziona **[!UICONTROL Aggiungi]**, quindi seleziona **[!UICONTROL Contenuto]** nella home page dell&#39;autore.
 
    ![](assets/add-content.PNG)
-   _Selezionare Aggiungi contenuto nella libreria dei contenuti_
+   _Select Add content in the Content Library_
 
-4. Digita **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]**
+4. Type the **[!UICONTROL Name]** and **[!UICONTROL Description]**
 
-5. Selezionare il contenuto dall&#39;opzione **[!UICONTROL Aggiungi file di contenuto]**
-6. Selezionare la cartella dall&#39;opzione **[!UICONTROL Aggiungi alla cartella]** per aggiungere il contenuto alla cartella.
+5. Select the content from the **[!UICONTROL Add Content File]** option
+6. Select the folder from **[!UICONTROL Add to Folder]** option to add the content to folder.
 
    ![](assets/add-a-new-content.png)
-   _Aggiungi nuovo contenuto_
+   _Add new content_
 
-7. Digitare l&#39;ID del contenuto caricato nel campo **[!UICONTROL ID univoco contenuto]**. L’ID deve essere univoco e rispettare le linee guida di denominazione corrette. L&#39;ID non deve contenere spazi o caratteri non ASCII. Se immetti un ID duplicato, viene visualizzato un messaggio di errore.
+7. Digitare l&#39;ID del contenuto caricato nel campo **[!UICONTROL ID univoco contenuto]**. The ID must be unique and follow the correct naming guidelines. The ID must not contain non-ASCII characters or spaces. If you enter a duplicate ID, an error message is displays.
 
    ![](assets/content-unique-id.png)
-   _Campo per l&#39;immissione di un ID contenuto alfanumerico univoco_
+   _Field for entering a unique alphanumeric Content ID_
 
-8. Seleziona la data di scadenza per il contenuto. Questa data non influisce sulla disponibilità dei contenuti o sull’accesso degli Allievi. Puoi scegliere una data compresa tra il 1990 e il 2037. Se è selezionata una data già trascorsa, viene visualizzato un avviso ma è comunque possibile pubblicare il contenuto.
+8. Select the Expiry Date for the content. This date does not affect content availability or learner access. You can choose any date between 1990 and 2037. If a past date is selected, a warning appears, but the content can still be published.
 9. Seleziona **[!UICONTROL Salva]**.
 Il contenuto caricato viene ora visualizzato nella **[!UICONTROL Libreria dei contenuti]**.
 
-### Impostare l’ID univoco del contenuto e la data di scadenza per le lingue
+### Set Content unique ID and Expiry Date for languages
 
-L’ID univoco del contenuto e la Data di scadenza sono definiti a livello di gruppo di contenuti, ovvero sono impostati una volta e si applicano automaticamente a tutte le versioni linguistiche del contenuto.
+The Content Unique ID and Expiry Date are defined at the content group level, meaning they are set once and automatically apply to all language versions of the content.
 
-1. Selezionare il contenuto nella **[!UICONTROL Libreria dei contenuti]**.
+1. Select the content in the **[!UICONTROL Content Library]**.
 2. Seleziona **[!UICONTROL Modifica]**.
-3. Selezionare **[!UICONTROL Aggiungi nuova lingua]**.
-4. Selezionare una lingua dall&#39;elenco.
+3. Select **[!UICONTROL Add New Language]**.
+4. Select any language from the list.
 5. Seleziona **[!UICONTROL Salva]**.
-L’ID univoco del contenuto e la Data di scadenza sono ora visualizzati nella versione del contenuto specifica della lingua, come in questo esempio in tedesco.
+The Content unique ID and Expiry Date are now displayed on the language-specific version of the content, such as German in this example.
 
-### Eseguire ricerche utilizzando l&#39;ID univoco del contenuto
+### Search using the Content unique ID
 
-Puoi utilizzare l’ID univoco del contenuto per cercare il contenuto in tutte le versioni linguistiche, semplificando l’individuazione e la gestione di elementi specifici. Inoltre, sia l’ID univoco del contenuto che la Data di scadenza sono inclusi nei report di formazione per garantire coerenza nel tracciamento e nel reporting.
+You can use the Content Unique ID to search for content across all language versions, making it easier to locate and manage specific items. Additionally, both the Content Unique ID and Expiry Date are included in training reports for consistent tracking and reporting.
 
-1. Avvia **[!UICONTROL Libreria dei contenuti]**.
-2. Digitare **[!UICONTROL ID univoco contenuto]** nella barra di ricerca.
+1. Launch the **[!UICONTROL Content Library]**.
+2. Type the **[!UICONTROL Content unique ID]** in the search bar.
 
    ![](assets/search-unique-id.png)
-   _Ricerca di contenuto mediante l&#39;ID univoco contenuto_
-3. Seleziona il contenuto per visualizzarlo o modificarlo.
+   _Searching content using the Content unique ID_
+3. Select the content to view or edit it.
 
-### Supporto per la migrazione dei contenuti
+### Content migration support
 
-Durante la migrazione dei contenuti, puoi includere **expiryDate** e **uniqueContentId** nel file module_version.csv. In questo modo, è possibile garantire la continuità dei metadata quando si spostano i contenuti tra sistemi diversi.
+When migrating content, you can include the **expiryDate** and **uniqueContentId** in the module_version.csv file. This ensures continuity of metadata when moving content between systems.
 
 ### Segnalazione delle modifiche
 
-Nel report del corso di formazione sono ora disponibili due nuove colonne, ID univoco del contenuto e Data di scadenza del contenuto. Questi campi consentono agli amministratori di monitorare in modo più efficace le date di scadenza dei contenuti.
+Two new columns, Content unique ID and Content Expiry Date, are now available in the Training Report. These fields help administrators monitor content expiration dates more effectively.
 
 ## Ritiro di contenuti {#retirecontent}
 
-Una volta pubblicato un contenuto, non puoi eliminarlo. Devi prima ritirare il contenuto. Quando contrassegni un contenuto come Ritirato, il contenuto non è più visibile agli studenti. Il contenuto viene spostato anche nella sezione **[!UICONTROL Ritirato]**.
+Una volta pubblicato un contenuto, non puoi eliminarlo. Devi prima ritirare il contenuto. Quando contrassegni un contenuto come Ritirato, il contenuto non è più visibile agli studenti. The content also moves to the **[!UICONTROL Retired]** section.
 
 Per ritirare un contenuto, attieniti alla seguente procedura:
 
-* In **[!UICONTROL Libreria dei contenuti]**, seleziona i contenuti che desideri ritirare.
-* Seleziona **[!UICONTROL Azione]**, quindi seleziona **[!UICONTROL Ritira]**.
+* In **[!UICONTROL Content library]**, select the content you want to retire.
+* Select **[!UICONTROL Action]** and then select **[!UICONTROL Retire]**.
 
 I contenuti utilizzati negli oggetti di apprendimento non vengono modificati. Gli Allievi possono continuare ad accedere al contenuto.
 
 >[!NOTE]
 >
->Puoi anche aggiungere contenuti dalla sezione **[!UICONTROL Ritirato]**, passare alla **[!UICONTROL Libreria dei contenuti]** e selezionare **[!UICONTROL Ritirato]**. Selezionare **[!UICONTROL Aggiungi contenuto]**. Per ulteriori dettagli, vedere [Aggiungere contenuto statico](content-library.md#addstaticcontent).
+>You can also add content from the **[!UICONTROL Retired]** section, navigate to **[!UICONTROL Content Library]** and then select **[!UICONTROL Retired]**. Select **[!UICONTROL Add Content]**. For more details, see [Add static content](content-library.md#addstaticcontent).
 
 
 ## Ricerca dei contenuti {#searchforcontent}
@@ -588,25 +588,25 @@ Una volta che hai ritirato un contenuto, puoi decidere di ripubblicarlo e tornar
 Per ripubblicare il contenuto ritirato,
 
 1. Passa alla scheda **Ritirato** e seleziona il contenuto che desideri ripubblicare.
-1. Seleziona **Azione** > **Ripubblica**.
+1. Select **Action** > **Republish**.
 
 Il contenuto ora appare nell’elenco Pubblicato.
 
-## Aggiornare il contenuto
+## Update the content
 
-Gli Autori possono aggiornare il contenuto nel corso pubblicato.
-Per aggiornare il contenuto:
+Authors can update the content in the published course.
+To update the content:
 
-1. Accedi come autore.
-2. Selezionare **[!UICONTROL Libreria dei contenuti]**.
-3. Cerca il contenuto e seleziona **[!UICONTROL Modifica]**.
-4. Rimuovi il contenuto precedente e carica un nuovo file e pubblica.
+1. Login as an author.
+2. Select **[!UICONTROL Content Library]**.
+3. Search for the content and select **[!UICONTROL Edit]**.
+4. Remove older content and upload new file and publish.
 
-Questo aiuterà gli Allievi a ottenere la versione più recente del contenuto.
+This will help learners get the latest version of the content.
 
-Per ulteriori informazioni, vedere questo [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
+Check out this [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) for more information.
 
-### Controllo della versione dei contenuti per gli Allievi che hanno completato un corso
+### Content version control for learners who have completed a course
 
 Adobe Learning Manager ora offre agli autori opzioni più chiare per gestire gli aggiornamenti dei contenuti. Gli Autori possono aggiornare i contenuti già disponibili in un corso. Quando viene aggiunta una nuova versione, il numero di versione viene visualizzato accanto al contenuto.
 
@@ -632,7 +632,7 @@ Quando un amministratore fa clic su **[!UICONTROL Aggiorna]**, può scegliere tr
 * **[!UICONTROL Aggiornamento solo allievi non avviati]**: applica l’aggiornamento solo agli allievi che non hanno ancora iniziato il corso. Gli Allievi In corso e Completati rimangono sulla versione originale.
 
 ![](assets/version-control-options.png)
-_Opzioni di aggiornamento del contenuto disponibili in Impostazioni aggiornamento_
+_Content update options available in Update settings_
 
 
 ## Elimina contenuto {#deletecontent}
@@ -646,18 +646,18 @@ Ricorda che i corsi esistenti che utilizzano il contenuto eliminato dalla librer
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++ Come si carica un contenuto SCORM in Adobe Learning Manager?
++++ How to upload a SCORM content in Adobe Learning Manager?
 
-Crea un corso di e-learning conforme allo standard SCORM in qualsiasi strumento, ad esempio Adobe Captivate, e pubblica il contenuto come file zip. Quindi in Adobe Learning Manager, carica il file zip nel catalogo e imposta i criteri di completamento e successo.
+Crea un corso di e-learning conforme allo standard SCORM in qualsiasi strumento, ad esempio Adobe Captivate, e pubblica il contenuto come file zip. Then in Adobe Learning Manager, upload the zip file in the catalog, and set the completion and success criteria.
 +++
 
-+++Come si carica una nuova versione dello stesso contenuto in Adobe Learning Manager?
++++How do I upload a new version of the same content to Adobe Learning Manager?
 
-In Adobe Learning Manager, la libreria dei contenuti conserva anche le versioni dei contenuti caricati. Se si apporta una modifica al contenuto, ad esempio una presentazione di PowerPoint, e si ricarica la presentazione nella libreria, il numero di versione viene incrementato di una unità. Questo ti aiuta a tenere traccia delle modifiche nel tuo contenuto. Una nuova versione del contenuto può essere applicata contemporaneamente a tutti gli oggetti di apprendimento oppure puoi applicare singoli aggiornamenti per ogni corso.
+In Adobe Learning Manager, the content library also maintains versions of your uploaded contents. Se apporti modifiche al contenuto, ad esempio a una presentazione di PowerPoint, e carichi nuovamente la presentazione nella libreria, il numero di versione aumenta di un’unità. Questo ti aiuta a tenere traccia delle modifiche nel tuo contenuto. Una nuova versione del contenuto può essere applicata contemporaneamente a tutti gli oggetti di apprendimento oppure puoi applicare singoli aggiornamenti per ogni corso.
 +++
 
-+++Come si modificano i dettagli di un corso in una lingua diversa?
++++How to edit the details of a course in a different language?
 Dopo aver aggiunto una o più lingue, come descritto nella sezione precedente, fai clic sulla scheda di ciascuna lingua e aggiungi/modifica le informazioni sul corso.
 
-&lt;!—![](assets/edit-course-language.png)—>
+<!--![](assets/edit-course-language.png)-->
 +++

@@ -2,10 +2,10 @@
 title: Consigli in Adobe Learning Manager
 description: Il nucleo del motore di consigli è basato sul nuovo algoritmo di classificazione dei corsi di Learning Manager. L’algoritmo utilizza 50 milioni di punti dati e cinque anni di dati di apprendimento aggregati su milioni di utenti per classificare i corsi in base alla probabilità di iscrizione. Questa classificazione garantisce che la maggior parte dei corsi a cui è possibile effettuare l’iscrizione sia visualizzata in anticipo agli Allievi.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 57%
+source-wordcount: '1490'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,10 @@ Gli amministratori dispongono di un flusso di lavoro guidato in Learning Manager
 
 1. Fai clic su **[!UICONTROL Procedi]** per passare al nuovo sistema di consigli aggiornato.
 
-   <!--![Proceed to the new system](assets/image521152.png)
-   *Select the Proceed button*-->
+   <!--
+   ![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*
+   -->
 
 1. Crea i parametri di consiglio per Prodotti e Ruoli.
 
@@ -151,7 +153,7 @@ Inserisci questi file CSV e contatta il team Customer Success per scaricare i fo
 Dopo aver caricato entrambi i file CSV, fai clic su Vai in diretta. Questo renderà visibile agli Allievi il nuovo sistema di consigli.
 
 ![vai in diretta](assets/computerdescription-automatically.png)
-*Attivare i suggerimenti*
+*Rendi i consigli disponibili*
 
 Il sistema di consigli è ora disponibile agli Allievi.
 
@@ -202,7 +204,7 @@ Dopo aver selezionato Consigli nel pannello a sinistra, l’Allievo visualizza u
 
 Facendo clic su Imposta consigli, l’Allievo passa al popup di selezione del prodotto.
 
-![menu a comparsa per la selezione di prodotti](assets/product-selection-popup.png)
+![ popup di selezione del prodotto](assets/product-selection-popup.png)
 *Selezionare i prodotti*
 
 Quindi, nel prossimo popup, l’Allievo può selezionare il ruolo.
@@ -238,7 +240,7 @@ Ogni scheda contiene i pulsanti Valutazione, Immagine della carta, Titolo, Abili
 
 ### Schede salvate da me
 
-![schede salvate](assets/cards-saved-by-me.png)
+![ schede salvate](assets/cards-saved-by-me.png)
 *Schede salvate*
 
 Ogni scheda contiene i pulsanti Valutazione, Immagine della scheda, Titolo, Abilità, Data di pubblicazione, Autore, Durata, Barra di avanzamento e il pulsante Avvia o Esplora o Continua o Revisiona.
@@ -247,7 +249,7 @@ Non sarà presente alcuna barra di avanzamento nella scheda dopo che un Allievo 
 
 ### Schede su striscia super rilevante
 
-![strip card estremamente pertinenti](assets/super-relevant-cards.png)
+![schede strip di livello superiore](assets/super-relevant-cards.png)
 *Schede pertinenti*
 
 Ogni scheda contiene i pulsanti Valutazione, Immagine della scheda, Titolo, Abilità, Data di pubblicazione, Autore, Durata, Barra di avanzamento e il pulsante Avvia o Esplora o Continua o Revisiona.

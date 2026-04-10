@@ -3,10 +3,10 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: a620f70fbdfc01eb089c70586a548288c8b8290b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '4600'
-ht-degree: 57%
+source-wordcount: '4636'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ Manuale di riferimento per gli Amministratori di integrazione che desiderano ese
 
 ## Scenario di utilizzo {#usagescenario}
 
-In generale, le aziende di grandi dimensioni dispongono di un proprio LMS interno o di un sistema di gestione dell’apprendimento legacy fornito da un qualsiasi rivenditore. LMS è costituito dai contenuti di formazione aziendale e dai dati di formazione. Quando un’azienda acquista Learning Manager, potrebbe essere utile spostare i contenuti e i dati LMS esistenti in Learning Manager per sfruttare i vantaggi di un LMS moderno e intuitivo senza perdere i dati legacy dell’organizzazione.
+In generale, le aziende di grandi dimensioni dispongono di un proprio LMS interno o di un sistema di gestione dell’apprendimento legacy fornito da un qualsiasi rivenditore. Un LMS è costituito dai contenuti e dai dati di formazione dell’azienda. Quando un’azienda acquista Learning Manager, potrebbe essere nel suo interesse trasferire i contenuti e i dati LMS esistenti a Learning Manager in modo da sfruttare i vantaggi offerti da un LMS moderno e intuitivo senza perdere i propri dati legacy.
 
 Learning Manager fornisce le specifiche e gli strumenti necessari in modo che l’Amministratore di integrazione dell’organizzazione sia in grado di configurare ed eseguire le attività di migrazione.
 
@@ -26,7 +26,7 @@ A partire da oggi, gli Amministratori di un’organizzazione possono accedere al
 
 ## Processo di migrazione {#apidescription}
 
-In questa sezione vengono illustrati i prerequisiti per la migrazione, le fasi principali del processo di migrazione, gli sprint di migrazione, le specifiche, i passaggi relativi alla migrazione di dati e contenuti:
+I prerequisiti per la migrazione, i passaggi chiave del processo di migrazione, gli sprint di migrazione, le specifiche, i passaggi per la migrazione dei dati e dei contenuti sono spiegati in questa sezione come esposto di seguito:
 
 ### Importante avviso sulla migrazione
 
@@ -37,13 +37,13 @@ Tenere presente che le tempistiche della migrazione dipendono in larga misura da
 Il team di Adobe Learning Manager prevede che gli Amministratori di integrazione dell’organizzazione effettuino le seguenti operazioni prima di intraprendere il processo di migrazione:
 
 * L’Amministratore di integrazione estrae dati e contenuti dall’LMS in uso e trasforma i dati nei formati di file definiti da Learning Manager.
-* Learning Manager non supporta l’importazione di utenti nell’ambito del processo di migrazione e prevede che l’importazione di utenti venga eseguita dall’organizzazione mediante connettori. Adobe Systems prevede che i connettori vengano configurati prima del processo di migrazione. Per ulteriori informazioni, fai riferimento alla [Guida ai connettori di Learning Manager](connectors.md).
+* Learning Manager non supporta l’importazione di utenti nell’ambito del processo di migrazione e prevede che l’importazione di utenti venga eseguita dall’organizzazione mediante connettori. Adobe Systems prevede che i connettori vengano configurati prima del processo di migrazione. Per ulteriori informazioni, fai riferimento alla funzione [Guida ai connettori di Learning Manager](connectors.md).
 
 Learning Manager consiglia agli Amministratori di provare a eseguire il processo di migrazione in un account di prova prima di migrare dati e contenuti all’ambiente di produzione di Learning Manager.
 
 ### Passaggi chiave del processo di migrazione {#keystepsofmigrationprocess}
 
-I passaggi principali coinvolti nella migrazione di contenuti e dati da un LMS esistente a Learning Manager sono i seguenti:
+I passaggi chiave del processo di migrazione di contenuti e dati da un LMS esistente a Learning Manager sono i seguenti:
 
 1. Il partner o l’Amministratore di integrazione valuta i dati e i contenuti LMS esistenti di cui deve essere eseguita la migrazione.
 1. L’Amministratore di integrazione valuta gli strumenti e le specifiche forniti da Learning Manager per l’inserimento di dati e contenuti.
@@ -59,7 +59,7 @@ L’organizzazione può iniziare a utilizzare l’LMS di Learning Manager insiem
 
 ### Area di validità degli oggetti di migrazione {#scopeofmigrationobjects}
 
-Puoi migrare i contenuti solo per i seguenti oggetti di apprendimento:
+È possibile migrare i contenuti solo per i seguenti oggetti di apprendimento:
 
 * Modulo
 * Distintivi
@@ -109,7 +109,7 @@ Esecuzione script è il processo di avvio di un processo di migrazione sprint. �
 
 **Specifica CSV**
 
-Learning Manager offre un set di [specifiche CSV standard](migration-manual.md#main-pars_header_140933605). È consigliabile prendere visione delle specifiche CSV prima di avviare il processo di migrazione. L’Amministratore di integrazione dell’organizzazione può analizzare i formati di dati esistenti e mapparli per farli coincidere con gli elementi del modello CSV forniti da Learning Manager.
+Learning Manager offre un set di [specifiche CSV standard](migration-manual.md#main-pars_header_140933605). È consigliabile prendere visione delle specifiche CSV prima di avviare il processo di migrazione. L’Amministratore di integrazione della tua organizzazione può analizzare i formati di dati esistenti e mapparli in modo che corrispondano agli elementi del modello CSV forniti da Learning Manager.
 
 **Tag progetto di migrazione**
 
@@ -179,7 +179,7 @@ Di seguito sono riportate le specifiche CSV aggiornate che puoi utilizzare per m
    <td>
     <p>course_instance.xlsx</p></td>
    <td>
-    <p>metadati per course_instance.csv; </p></td>
+    <p>Metadati per course_instance.csv </p></td>
    <td> </td>
   </tr>
   <tr>
@@ -225,7 +225,7 @@ Di seguito sono riportate le specifiche CSV aggiornate che puoi utilizzare per m
    <td>
     <p>skill_course.xlsx</p></td>
    <td>
-    <p>metadati per skill_course.csv</p></td>
+    <p>Metadati per skill_course.csv</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -316,7 +316,7 @@ Di seguito sono riportate le specifiche CSV aggiornate che puoi utilizzare per m
    <td>
     <p>job_aid_course.xlsx</p></td>
    <td>
-    <p>metadati per job_aid_course.csv</p></td>
+    <p>Metadati per job_aid_course.csv</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -361,7 +361,7 @@ Di seguito sono riportate le specifiche CSV aggiornate che puoi utilizzare per m
    <td>
     <p>job_aid_enrollment.xlsx</p></td>
    <td>
-    <p>metadati per job_aid_enrollment.csv</p></td>
+    <p>Metadati per job_aid_enrollment.csv</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -373,7 +373,7 @@ Di seguito sono riportate le specifiche CSV aggiornate che puoi utilizzare per m
     <p><br>
       Metadati per user_course_grade.csv</p></td>
    <td>
-    <p>Specifica i dati dei record Allievi richiesti nel file .csv anche se non sono obbligatori. Senza queste informazioni, anche se il file .csv viene elaborato per la migrazione, l’applicazione Learning Manager potrebbe non riflettere alcun dato. il file sample-csvs.zip contiene sette file .csv con convenzione di denominazione simile a quella riportata sopra.</p></td>
+    <p>Specifica i dati dei record Allievi richiesti nel file .csv anche se non sono obbligatori. Senza queste informazioni, anche se il file .csv viene elaborato per la migrazione, l’applicazione Learning Manager potrebbe non riflettere alcun dato. Il file sample-csvs.zip contiene sette file .csv con convenzione di denominazione simile a quanto riportato sopra.</p></td>
   </tr>
   <tr>
    <td>
@@ -423,7 +423,7 @@ Per evitare confusione, la colonna dell’ordine è stata rimossa dalle specific
 
 ## Procedura di migrazione {#migrationprocedure}
 
-Prima di iniziare la procedura di migrazione, è importante tenere presente quanto segue:
+Prima di avviare la procedura di migrazione, è importante tenere conto dei seguenti aspetti:
 
 * Solo un progetto di migrazione può essere attivo in un account in qualsiasi momento. All’interno di un progetto, solo uno sprint può essere attivo in un dato momento.
 * Non è possibile annullare un’Esecuzione già in corso nel processo di migrazione. Tuttavia, è possibile utilizzare l’opzione di eliminazione esistente all’interno di ciascuna funzionalità di Learning Manager per annullare qualsiasi migrazione di dati o contenuti.
@@ -435,9 +435,11 @@ Pianificare il progetto di migrazione è molto importante. È consigliabile sudd
 
 <!--**Create FTP account**-->
 
-<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
+<!--
+Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-A sample snapshot of project files and folder of FTP is shown below for your reference. -->
+A sample snapshot of project files and folder of FTP is shown below for your reference. 
+-->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
@@ -445,11 +447,11 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 Crea la cartella di caricamento dei contenuti seguendo un procedimento analogo a quello seguito per la creazione della cartella FTP. Fai clic su Migrazione nel riquadro di sinistra e seleziona Richiedi cartella di caricamento contenuti nella parte inferiore della pagina visualizzata.
 
-Riceverai un’e-mail da Box con il collegamento alla cartella condivisa. Se non disponi di un account Box, fai clic su Iscrizione e creane uno. Le istruzioni di accesso vengono inviate all’ID e-mail dell’Amministratore di integrazione.
+Riceverai un’e-mail da Box con il link alla cartella condivisa. Se non disponi di un account Box, fai clic su Iscrizione e creane uno. Le istruzioni di accesso vengono inviate all’ID e-mail dell’Amministratore di integrazione.
 
 **Caricamento di dati (file .csv) in cartelle FTP o Box**
 
-La creazione di un account FTP o Box costituisce un prerequisito ai fini dello sviluppo di un progetto di migrazione. In questa fase puoi creare un progetto di migrazione e uno sprint nell’applicazione Learning Manager.  Per creare il progetto di migrazione, consultare la sezione **Procedura di migrazione dei dati e dei contenuti** in questa pagina.
+La creazione di un account FTP o Box costituisce un prerequisito ai fini dello sviluppo di un progetto di migrazione. In questa fase puoi creare un progetto di migrazione e uno sprint nell’applicazione Learning Manager.  Fai riferimento alla sezione relativa alla **Procedura di migrazione di dati e contenuti** in questa pagina per creare un progetto di migrazione.
 
 Nell’account FTP o Box, fai clic sul nome della cartella dei progetti e quindi sul nome dello sprint. All’interno della cartella degli sprint, puoi caricare i file di dati .csv di cui desideri eseguire la migrazione. Per caricare, fai clic sul pulsante Carica file in alto nel server FTP o Box e rilascia i file .csv. Di seguito è riportata un’istantanea di esempio dopo il caricamento su FTP come riferimento.
 
@@ -459,11 +461,11 @@ Puoi tornare al progetto di migrazione di Learning Manager, fare clic su **[!UIC
 
 **Caricamento dei contenuti di formazione nelle cartelle di contenuto**
 
-Carica i contenuti di formazione dell’LMS esistente nel tuo account Box. Se hai già creato lo sprint e il progetto di migrazione, l’account Box popolerà il campo relativo al nome di sprint e progetto di migrazione. Puoi caricare i contenuti nello stesso percorso. Per creare il progetto di migrazione, consultare la sezione **Procedura di migrazione dei dati e dei contenuti** in questa pagina.
+Carica i contenuti di formazione dell’LMS esistente nel tuo account Box. Se hai già creato lo sprint e il progetto di migrazione, l’account Box popolerà il campo relativo al nome di sprint e progetto di migrazione. Puoi caricare i contenuti nello stesso percorso. Fai riferimento alla sezione relativa alla **Procedura di migrazione di dati e contenuti** in questa pagina per creare un progetto di migrazione.
 
-È possibile trascinare e rilasciare i file di contenuto oppure fare clic su **[!UICONTROL Carica]** e selezionare i file dal desktop. Se le dimensioni del file dei contenuti sono troppo grandi, si potrebbe verificare un ritardo nel caricamento dei file. A seconda delle dimensioni del file, il tempo necessario per caricarli nell’account Box varia.
+È possibile trascinare e rilasciare i file di contenuto oppure fare clic su **[!UICONTROL Carica]** e selezionare i file dal desktop. Se le dimensioni del file dei contenuti sono troppo grandi, si potrebbe verificare un ritardo nel caricamento dei file. Il tempo necessario per caricare i file nel tuo account Box varia a seconda delle dimensioni del file.
 
-Di seguito è riportata un’istantanea dell’account Box di esempio dopo il caricamento dei contenuti, come riferimento:
+Di seguito viene mostrata, come riferimento, un’istantanea di esempio dell’account Box in seguito al caricamento dei contenuti:
 
 ![](assets/box-account.png)
 
@@ -479,15 +481,15 @@ Una volta effettuato l’accesso ai server FTP e Box e caricato il contenuto, i 
 
 ## Procedura di migrazione di dati e contenuti {#dataandcontentmigrationprocedure}
 
-La procedura per migrare i dati e i contenuti dell’LMS aziendale a Learning Manager viene descritta di seguito:
+La procedura per migrare i contenuti e i dati LMS dell’azienda a Learning Manager viene illustrata di seguito:
 
-Prendi visione dei prerequisiti del processo di migrazione prima di avviare la migrazione. Consulta la sezione [Specifiche CSV e CSV di esempio](migration-manual.md#main-pars_header_140933605) in questa pagina e prepara i CSV per la migrazione di dati e contenuti.
+Prendi visione dei prerequisiti del processo di migrazione prima di avviare la migrazione. Fai riferimento alla sezione [Specifiche CSV e CSV di esempio](migration-manual.md#main-pars_header_140933605) in questa pagina e preparare i CSV per la migrazione dei dati e dei contenuti.
 
 1. Accedi all’applicazione Learning Manager come Amministratore di integrazione e fai clic su **[!UICONTROL Migrazione]** nel riquadro a sinistra.
 
    Viene visualizzata la home page dei progetti di migrazione. Se la tua organizzazione ha già creato progetti di migrazione, puoi visualizzare l’elenco di tutti i progetti in questa pagina.
 
-1. Fai clic su **[!UICONTROL Nuovo]** nell’angolo in alto a destra della pagina per creare un progetto di migrazione. In alternativa, è possibile fare clic sul collegamento **[!UICONTROL Creazione di un progetto di migrazione]** nella pagina per creare un progetto di migrazione. Viene visualizzata la pagina Crea un progetto di migrazione.
+1. Fai clic su **[!UICONTROL Nuovo]** nell’angolo in alto a destra della pagina per creare un progetto di migrazione. In alternativa, è possibile fare clic sul collegamento **[!UICONTROL Creazione di un progetto di migrazione]** nella pagina per creare un progetto di migrazione. Viene visualizzata la pagina Creazione di un progetto di migrazione.
 
    Se non hai ancora creato una cartella FTP, ti verrà chiesto di creare una cartella FTP nell’account. Si tratta di un passaggio obbligatorio prima di iniziare a creare un progetto di migrazione.
 
@@ -503,11 +505,11 @@ Prendi visione dei prerequisiti del processo di migrazione prima di avviare la m
    ![](assets/users-modified-sprint.png)
    *Migrazione sprint*
 
-   Seleziona la casella di controllo denominata **Sono stati aggiunti o modificati utenti dall’ultima esecuzione**, per sincronizzare l’elenco di utenti con l’applicazione Learning Manager. Se stai effettuando la migrazione di contenuti e dati all’applicazione Learning Manager, questa operazione potrebbe non essere richiesta. Tuttavia, qualora sia trascorso un certo intervallo di tempo tra la precedente migrazione sprint e l’ultima, è consigliabile effettuare la sincronizzazione dell’elenco degli utenti. Questo passaggio consente la sincronizzazione del database Learning Manager con gli utenti dell’LMS.
+   Seleziona la casella di controllo denominata **Sono stati aggiunti o modificati utenti dall’ultima esecuzione** per sincronizzare l’elenco degli utenti con l’applicazione Learning Manager. Se stai effettuando la migrazione di contenuti e dati all’applicazione Learning Manager, questa operazione potrebbe non essere richiesta. Tuttavia, qualora sia trascorso un certo intervallo di tempo tra la precedente migrazione sprint e l’ultima, è consigliabile effettuare la sincronizzazione dell’elenco degli utenti. Questo passaggio consente la sincronizzazione del database Learning Manager con gli utenti dell’LMS.
 
    La sincronizzazione è consigliata durante la migrazione di enrollment.csv e user_course_grade.csv. Questo passaggio consente la sincronizzazione del database Learning Manager con il database di migrazione e assicura che tutti gli utenti i cui record devono essere migrati nello sprint siano disponibili nel database di migrazione.
 
-1. È possibile avviare la migrazione sprint con i dati e i contenuti caricati. Fai clic sul collegamento **[!UICONTROL Aggiorna]** prima di avviare l’esecuzione dello sprint per sincronizzare le cartelle FTP e dei contenuti con l’applicazione Learning Manager.
+1. È possibile avviare la migrazione sprint con i dati e i contenuti caricati. Fai clic sul collegamento **[!UICONTROL Aggiorna]** prima di avviare l’esecuzione dello sprint per sincronizzare l’FTP e le cartelle dei contenuti con l’applicazione Learning Manager.
 
    ![](assets/sprint1-filesupload.png)
    *Avvia migrazione sprint*
@@ -528,7 +530,7 @@ Prendi visione dei prerequisiti del processo di migrazione prima di avviare la m
    ![](assets/sprint-list.png)
    *Visualizza elenco di sprint*
 
-1. Dopo aver caricato i CSV aggiornati più di recente, puoi fare clic su Riesegui nell’angolo in alto a destra della pagina. Riesegui elabora nuovamente tutti gli elementi di dati, ignorando quelli che non presentano modifiche. Una volta che sei soddisfatto della migrazione degli elementi di dati in uno sprint, puoi contrassegnare la migrazione dello sprint come completata facendo clic sull’apposito pulsante nella parte superiore della pagina. Potrai avviare un nuovo sprint con più elementi di dati in un secondo momento. Una volta che uno Sprint è stato contrassegnato come completato, non è possibile rieseguirlo. Allo stesso modo, in un progetto di migrazione è possibile avere un numero qualsiasi di sprint. Una volta ottenuto lo stato di migrazione di tutti gli spint, puoi contrassegnare il progetto di migrazione come completato facendo clic sul collegamento **Contrassegna progetto come completato** nella pagina Elenco sprint.
+1. Dopo aver caricato i CSV aggiornati più di recente, puoi fare clic su Riesegui nell’angolo in alto a destra della pagina. Riesegui elabora nuovamente tutti gli elementi di dati, ignorando quelli che non presentano modifiche. Una volta che sei soddisfatto della migrazione degli elementi di dati in uno sprint, puoi contrassegnare la migrazione dello sprint come completata facendo clic sull’apposito pulsante nella parte superiore della pagina. Potrai avviare un nuovo sprint con più elementi di dati in un secondo momento. Una volta che uno Sprint è stato contrassegnato come completato, non è possibile rieseguirlo. Allo stesso modo, in un progetto di migrazione è possibile avere un numero qualsiasi di sprint. Una volta che sei soddisfatto dello stato di migrazione di tutti gli sprint, puoi contrassegnare il progetto di migrazione come completato facendo clic sul collegamento **Contrassegna progetto come completato** nella pagina dell’elenco di sprint.
 
    Prima di contrassegnare il progetto di migrazione come completato, è necessario assicurarsi che tutti gli sprint del progetto siano completi. Dopo aver contrassegnato il progetto di migrazione come completato, non è possibile tornare indietro e creare eventuali sprint in tale progetto o apportare modifiche al progetto stesso. È necessario creare un altro progetto di migrazione e aggiungere sprint a esso.
 
@@ -739,7 +741,7 @@ Di seguito sono riportate le specifiche CSV aggiornate che puoi utilizzare per m
 
 3-learning_program_enrollment.xlsx contiene le descrizioni dei metadati richiesti per il file retrofit_learning_program_enrollment.csv.
 
-4-user_course_grades.xlsx-contiene le descrizioni dei metadati richiesti per il file retrofit_user_course_grades.csv.
+4-user_course_grades.xlsx contiene le descrizioni dei metadati richiesti per il file retrofit_user_course_grades.csv.
 [csv-specific.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -762,13 +764,13 @@ Learning Manager fornisce due tipi di ID univoci per gli utenti:
 * ID e-mail
 * UUID (ID universalmente univoco)
 
-Learning Manager supporta UUID per fornire flessibilità alle organizzazioni nel controllo degli account utente. In qualità di Amministratore, se disponi di UUID degli utenti in un account, puoi modificare gli ID e-mail degli utenti per tale account.
+Learning Manager supporta UUID per fornire flessibilità alle organizzazioni nel controllo degli account utente. Come amministratore, se disponi di un UUID degli utenti in un account, puoi modificare gli ID e-mail degli utenti per quell’account.
 
 **Scenario di utilizzo dell’UUID in un’organizzazione**
 
 Consideriamo uno scenario in cui un dipendente A entra a far parte di un’azienda denominata Learning Manager, come appaltatore. Durante il periodo del contratto, l’azienda di Learning Manager potrebbe non fornire l’ID e-mail dell’azienda come ```A@example.com```, ma considerare solo l’account e-mail personale del dipendente, ad esempio ```A@gmail.com```. Dopo aver completato 6 mesi di periodo di contratto, se lo stesso dipendente A si aggiunge a Learning Manager come dipendente a tempo pieno, Learning Manager potrebbe voler modificare il suo ID e-mail con l’ID e-mail dell’azienda: ```A@example.com```.
 
-L’accesso UUID all’account utente sarà vantaggioso per Learning Manager nello scenario sopra menzionato. L’azienda Learning Manager può facilmente sostituire l’ID e-mail personale del dipendente A con un ID e-mail ufficiale. I record del dipendente rilevanti per questo account non sono interessati da questa modifica.
+L’accesso UUID all’account utente rappresenta un vantaggio per Learning Manager nello scenario sopra citato. Learning Manager può facilmente sostituire l’ID e-mail personale del dipendente A con un ID e-mail ufficiale. I record del dipendente rilevanti per questo account non sono interessati da questa modifica.
 
 ## Identificazione utente singolo {#singleuseridentification}
 
@@ -779,11 +781,11 @@ Learning Manager identifica e ricorda la modalità con cui viene aggiunto un ute
 
 ## Assegnazione del ruolo di Manager {#assigningmanagerrole}
 
-Non è possibile assegnare direttamente un ruolo di Manager a un qualsiasi utente in Learning Manager. Un utente X può diventare Manager Learning Manager solo quando si imposta un attributo Manager di qualsiasi utente (ad esempio, Y) in quell’account come X.
+Non è possibile assegnare direttamente un ruolo di Manager a un qualsiasi utente in Learning Manager. Un utente X può diventare Manager Learning Manager solo se viene impostato un attributo Manager di qualsiasi utente (ad esempio, Y) in quell’account come X.
 
 In uno scenario in cui X è Manager degli utenti, ad esempio, A, B e C, se X lascia l’organizzazione, è necessario assicurarsi che l’attributo Manager di A, B e C sia impostato sul nuovo Manager. In alternativa, è possibile impostare temporaneamente l’attributo Manager di questi utenti come ROOT e assegnare il nuovo nome Manager in un secondo momento.
 
-Per ulteriori informazioni su questo argomento, fare riferimento ai seguenti contenuti della Guida:
+Per ulteriori informazioni su questo argomento, consulta il seguente contenuto della Guida:
 
 * [Domande frequenti sul caricamento di CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Guida all’aggiunta di utenti](/help/migrated/administrators/feature-summary/add-users-user-groups.md)

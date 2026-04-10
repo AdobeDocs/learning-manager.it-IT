@@ -4,10 +4,10 @@ title: Utenti di iPad e tablet Android
 description: Impostazioni per gli utenti di iPad e tablet Android
 contentowner: manochan
 exl-id: 19abe9d6-b48e-4027-bb72-95d7c767c1ec
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 57%
+source-wordcount: '196'
+ht-degree: 74%
 
 ---
 
@@ -25,7 +25,7 @@ Per accedere alle funzionalità di apprendimento e del catalogo, tocca il menu a
 
 ## Accesso all’app non in linea {#accesstheappoffline}
 
-Puoi accedere all’app di Learning Manager offline in iPad e tablet Android Google Nexus 9. Scarica e segui i corsi in modalità non in linea e sincronizza il contenuto nell’app online appena sei connesso alla rete.
+Puoi accedere all’applicazione di Learning Manager per iPad e tablet Android Google Nexus 9 quando non sei in linea. Scarica e segui i corsi in modalità non in linea e sincronizza il contenuto nell’app online appena sei connesso alla rete.
 
 1. Tocca il menu a discesa **Menu** in alto e tocca l&#39;opzione **Apprendimento**. Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
 1. Tocca l’icona di download nella parte inferiore di ogni riquadro relativo agli oggetti di apprendimento per scaricare il contenuto di apprendimento.
@@ -34,7 +34,8 @@ Puoi accedere all’app di Learning Manager offline in iPad e tablet Android Goo
 
 1. Quando sei online, viene visualizzato un messaggio in una barra nella parte superiore dell’app in cui ti viene chiesto se desideri sincronizzare i contenuti online. Tocca la barra colorata rossa se la risposta è sì. Una barra colorata verde indica che il contenuto è sincronizzato con l’app online.
 
-<!--## Track device storage {#trackdevicestorage}
+<!--
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -46,4 +47,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+-->

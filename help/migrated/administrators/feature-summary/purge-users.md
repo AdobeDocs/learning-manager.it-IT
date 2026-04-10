@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rimuovere utenti
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 52%
+source-wordcount: '1143'
+ht-degree: 57%
 
 ---
 
@@ -27,17 +27,19 @@ L’azione di rimozione dell’utente può avere i seguenti risultati:
 * La rimozione di un utente in Learning Manager non rimuove quel determinato utente da eventuali applicazioni esterne (sistemi di terze parti o altre applicazioni che hai realizzato). Contattare i proprietari delle applicazioni esterne per rimuovere gli utenti da tali applicazioni.
 * Se un utente rimosso è indicato nelle impostazioni di configurazione di un connettore, tale connettore viene disabilitato. Per riprendere il connettore, è necessario che sia riconfigurato dall’amministratore.
 
-<!---### Manage users
+<!--
+### Manage users
 
 In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
 [![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-If you're unable to launch the training, write to <almacademy@adobe.com>.-->
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+-->
 
 ## Come rimuovere gli utenti
 
-Per rimuovere gli utenti, effettua le seguenti operazioni:
+Per rimuovere gli utenti, attieniti alla seguente procedura:
 
 1. In qualità di Amministratore, seleziona **[!UICONTROL Utenti]** dal riquadro a sinistra. Viene visualizzata la pagina **[!UICONTROL Utenti interni]**.
 1. Elimina gli utenti che desideri rimuovere. Per farlo, seleziona uno o più utenti mediante la casella di controllo. Apri il menu a discesa **[!UICONTROL Azione]** e seleziona **[!UICONTROL Elimina utente.]**
@@ -47,7 +49,7 @@ Per rimuovere gli utenti, effettua le seguenti operazioni:
 
    *Selezionare un utente da rimuovere*
 
-1. Apri il menu a discesa **[!UICONTROL Azioni]** e seleziona **[!UICONTROL Rimuovi utente]**.
+1. Apri il menu a discesa **[!UICONTROL Azioni]** e selezionare **[!UICONTROL Rimuovi utente]**.
 
    ![](assets/purge-2.png)
 
@@ -63,7 +65,7 @@ Per rimuovere gli utenti, effettua le seguenti operazioni:
 
 >[!NOTE]
 >
->Una volta aggiunto nuovamente l’utente eliminato al sistema, i ruoli precedenti (ad esempio Amministratore, Manager, Autore, Istruttore ecc.) non verranno mantenuti.Verranno aggiunti con il ruolo di Allievo.
+>Una volta che l’utente eliminato è stato aggiunto nuovamente al sistema, i ruoli precedenti (ad esempio Amministratore, Manager, Autore, Istruttore ecc.) non verrà conservato.Verranno aggiunti con il ruolo di Allievo.
 
 ## Rimuovere gli utenti in blocco
 
@@ -116,7 +118,7 @@ Puoi ordinare gli utenti filtrati in base al **[!UICONTROL ID utente univoco]** 
 >
 >La rimozione degli utenti comporta la rimozione definitiva dei dati. Prima di procedere, ricontrollare la selezione.
 
-+++Informazioni sui risultati dell’azione Rimuovi utente
++++Scopri i risultati dell’azione Rimuovi utente
 
 <table>
  <tbody>
@@ -169,7 +171,7 @@ Puoi ordinare gli utenti filtrati in base al **[!UICONTROL ID utente univoco]** 
    <td>Sì</td>
   </tr>
   <tr>
-   <td><strong>Rimozione di altri utenti Enterprise (utenti privati che non sono utenti interni o esterni di Learning Manager)</strong></td>
+   <td><strong>Rimozione di altri utenti Enterprise (utenti privati che non sono utenti Learning Manager interni o esterni)</strong></td>
    <td> </td>
   </tr>
   <tr>

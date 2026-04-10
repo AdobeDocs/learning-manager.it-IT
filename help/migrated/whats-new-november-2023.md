@@ -2,10 +2,10 @@
 title: Novità di questa versione
 description: Scopri le nuove funzioni e i miglioramenti nella versione di novembre 2023 di Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 70%
+source-wordcount: '2375'
+ht-degree: 73%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## Interfaccia utente rinnovata
 
-L’interfaccia utente di Adobe Learning Manager è stata aggiornata per offrire un’esperienza più moderna e pulita. Le landing page sono state rinnovate per i ruoli Amministratore e Autore, mentre il tema dell’interfaccia utente è stato modificato per tutti i ruoli. Tuttavia, non è stata apportata alcuna modifica alla posizione di menu, pulsanti o collegamenti e potrai trovarli esattamente nella posizione in cui si trovavano prima.
+L’interfaccia utente di Adobe Learning Manager è stata aggiornata per offrire un’esperienza più moderna e pulita. Le landing page sono state rinnovate per i ruoli Amministratore e Autore, mentre il tema dell’interfaccia utente è stato modificato per tutti i ruoli. Tuttavia, la posizione di menu, pulsanti o link è rimasta invariata, perciò gli utenti troveranno questi elementi esattamente dove sono sempre stati.
 
 Le modifiche del tema verranno applicate automaticamente agli account che utilizzano quello predefinito; invece, gli aggiornamenti del tema dell’interfaccia utente non interesseranno gli account che ne utilizzano uno personalizzato. Ciò significa che, per accedere ai nuovi aggiornamenti del tema, tali account dovranno ripristinare quello predefinito.
 
@@ -68,7 +68,7 @@ In questa versione, è stato aggiunto un menu a discesa nella finestra di dialog
 
 Nelle versioni precedenti di Adobe Learning Manager, il report Annuncio notifica non disponeva di filtri. per cui venivano scaricate tutte le notifiche di un account.
 
-In questa versione è stato aggiunto un filtro per data, con cui è possibile scaricare le notifiche entro un periodo di tempo specificato.  Tuttavia, puoi scaricare il report solo per gli ultimi sei mesi.
+In questa versione è stato aggiunto un filtro per data, con cui è possibile scaricare le notifiche entro un periodo di tempo specificato.  È comunque possibile scaricare il report relativo solo alle notifiche degli ultimi sei mesi.
 
 ### Modifiche nei dati di rivisita del corso nel report di iscrizione
 
@@ -149,7 +149,7 @@ Nella pagina Ruoli personalizzati, sono state aggiunte le seguenti opzioni di So
 
 Selezionando Sola lettura, gli Amministratori personalizzati possono visualizzare tutti gli utenti, ma non modificare i relativi dati, e creare un portale di autoregistrazione per loro.
 
-**Piani di apprendimento**:
+**Piani di apprendimento**
 
 Selezionando Sola lettura, gli Amministratori personalizzati non possono aggiungere o modificare Piani di apprendimento. Possono, invece, scaricare report dei piani di apprendimento e visualizzarne i dettagli, ma non modificarli.
 
@@ -165,7 +165,7 @@ Selezionando Sola lettura, gli Amministratori personalizzati possono visualizzar
 
 Se è selezionata l’opzione Autorizzazione utente o Tutto il gruppo di utenti e l’Amministratore personalizzato tenta di scaricare le Trascrizioni allievi, l’opzione Includi allievi eliminati restituirà nel report tutti gli allievi eliminati.
 
-### Rapporti
+### Report
 
 Gli Amministratori personalizzati possono accedere ai seguenti report in base all’ambito definito:
 
@@ -206,11 +206,13 @@ Gli Amministratori personalizzati possono accedere ai seguenti report in base al
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
+<!--
+| Report | Available | Scope |
 |--- |--- |
 | Content Audit Trail | Yes | Full Catalog |
 | User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+|Login Access | Yes | Full User |
+-->
 
 ## Integrazione avanzata di Connect
 

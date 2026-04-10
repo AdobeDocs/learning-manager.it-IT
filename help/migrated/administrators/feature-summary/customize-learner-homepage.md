@@ -4,10 +4,10 @@ title: Personalizzazione della pagina principale dell’Allievo
 description: Un Amministratore può personalizzare la pagina principale dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 46%
+source-wordcount: '1159'
+ht-degree: 63%
 
 ---
 
@@ -37,7 +37,7 @@ Gli amministratori possono impostare l’interfaccia utente (aspetto) dall’app
 
 Gli Amministratori possono passare alla visualizzazione immersiva dei widget dell’interfaccia utente, personalizzare quindi widget/funzionalità e abilitare l’interfaccia utente immersiva.
 
-La schermata **Home page Allievo** contiene le sezioni seguenti:
+La schermata **Pagina principale dell’Allievo** contiene queste sezioni:
 
 ## Opzione di layout immersivo {#immersivelayoutoption}
 
@@ -80,15 +80,15 @@ Se sono presenti meno di 1000 Allievi, l’intero account viene considerato come
 >
 >La casella di controllo **Esplora abilità** è stata spostata in Impostazioni > Generale.
 
-Questa opzione verrà attivata e disattivata se viene scelta l’esperienza immersiva. Questa casella di controllo verrà abilitata solo per l’esperienza classica.
+Questa opzione sarà attivata e visualizzata in grigio se scegli l’esperienza immersiva. Questa casella di controllo verrà abilitata solo per l’esperienza classica.
 
 ![](assets/option-immersive.png)
 
 *Impostazioni della pagina principale dell’Allievo*
 
-Il layout immersivo è l’impostazione predefinita per tutti i nuovi account. Il layout è controllato da widget che un amministratore può abilitare o disabilitare. In base al modo in cui i widget vengono posizionati, lo stesso si riflette nella pagina principale dell’Allievo.
+Il layout immersivo è l’impostazione predefinita per tutti i nuovi account. Il layout è controllato da widget che possono essere attivati o disattivati da un Amministratore. In base a come sono posizionati i widget, lo stesso si riflette sulla pagina principale dell’Allievo.
 
-Ecco i widget che puoi abilitare/disabilitare.
+Ecco i widget che puoi attivare/disattivare.
 
 Utilizzandoli, puoi visualizzare l’anteprima dell’interfaccia utente dell’Allievo prima che venga pubblicata.
 
@@ -111,7 +111,7 @@ Per gli account esistenti, l&#39;opzione **Immersiva** sarà **DISATTIVATA**. È
     <p>Masthead</p></td>
    <td>
     <p><b>Cos’è un Masthead e come si personalizzano gli Allievi Masthead? </b><br></p>
-    <p>È un banner di benvenuto per gli Allievi. Il banner può essere un’immagine o un video. Puoi indirizzare il masthead a gruppi di utenti specifici e un Allievo lo visualizza non appena arriva alla pagina principale. Un gruppo di utenti può visualizzare più heri images o video in base al piano di destinazione impostato dall’amministratore. </p>
+    <p>È un banner di benvenuto per gli Allievi. e può essere un’immagine o un video. Puoi indirizzare il masthead a gruppi di utenti specifici e un Allievo lo visualizzerà non appena accede alla pagina principale. Un gruppo di utenti può vedere più immagini o video hero in base al piano di destinazione impostato dall’Amministratore. </p>
     <p>Ecco in che modo un Amministratore carica un banner:</p>
     <ol>
      <li>Nel pannello a sinistra, fai clic su <b>Annunci</b>.<br></li>
@@ -127,7 +127,7 @@ Per gli account esistenti, l&#39;opzione **Immersiva** sarà **DISATTIVATA**. È
    <td>
     <p>Il mio apprendimento</p></td>
    <td>
-    <p>Mostra gli Oggetti di apprendimento visitati di recente dall’Allievo. </p></td>
+    <p>Mostra gli oggetti di apprendimento visitati di recente dall’Allievo. </p></td>
   </tr>
   <tr>
    <td>
@@ -160,29 +160,33 @@ Per gli account esistenti, l&#39;opzione **Immersiva** sarà **DISATTIVATA**. È
     <p>Quando questa opzione è attiva, il widget consiglia corsi di formazione per gruppi di utenti specifici. Ogni gruppo di utenti può essere indirizzato a uno o più corsi di formazione e il piano di destinazione deve essere basato su un periodo di tempo. <br></p>
     <ul>
      <li>
-      <p>In primo luogo, l'amministratore <a href="announcements.md#recommendation">crea un annuncio</a> di tipo <b>Come suggerimento</b>, quindi seleziona il corso di formazione richiesto e utilizza i gruppi. Un Allievo appartenente a un gruppo di utenti potrà visualizzare il corso di formazione consigliato.</p></li>
+      <p>Innanzitutto, l’Amministratore <a href="announcements.md#recommendation">crea un annuncio</a> di tipo <b>Come consiglio</b>, quindi seleziona il corso di formazione richiesto e utilizza i gruppi. Un Allievo appartenente a un gruppo di utenti vedrà il corso di formazione consigliato.</p></li>
      <li>
       <p>In secondo luogo, l’Amministratore può anche decidere se i consigli devono essere visualizzati immediatamente o in una data specifica.</p></li>
     </ul></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on area of interest</p></td>
    <td>
     <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
   <tr>
    <td>
     <p>Sfoglia per catalogo<br></p></td>
    <td>
     <p>Mostra i cataloghi come riquadri sulla pagina principale. </p></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on peer activity<br></p></td>
    <td>
     <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
  </tbody>
 </table>
 
@@ -277,7 +281,7 @@ Nella pagina **Generale** sono disponibili le seguenti opzioni:
   </tr>
   <tr>
    <td>
-    <p>Richiedi agli utenti di selezionare le aree di interesse (abilità) <br></p></td>
+    <p>Richiedi agli utenti di selezionare le aree di interesse (competenze) <br></p></td>
    <td>
     <p>Vale solo per le esperienze immersive. Scegli <b>Sì</b> o <b>No</b>. <br></p></td>
   </tr>
