@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Account condivisi tra pari
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 52%
+source-wordcount: '905'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ _Sezione Utenti che mostra il numero di postazioni condivise dall’account cond
 
 Dopo aver stabilito un account condiviso tra pari, è possibile creare report anche per gli account condivisi tra pari. In qualità di Amministratore, se avvii la richiesta di account condiviso tra pari, puoi visualizzare i report relativi a esso.
 
-Se anche l’utente di pari livello desidera visualizzare i report dell’amministratore, deve inviare all’amministratore una richiesta separata di account condiviso tra pari.
+Se anche l’utente di pari livello desidera visualizzare i report dell’Amministratore deve inviargli una richiesta separata di account condiviso tra pari.
 
 Per sapere come generare e visualizzare i cataloghi condivisi dell’account condiviso tra pari, consulta [Visualizzazione report utente di pari livello](reports.md#main-pars_header_894271250).
 
@@ -89,16 +89,48 @@ Se non desideri più condividere postazioni o acquisti con un account, puoi elim
 
 ## Report utente di account condivisi tra pari {#download-peer-account}
 
-L’Amministratore può visualizzare il report utente dell’account condiviso tra pari. L’amministratore dell’account principale può richiedere l’accesso al report e una volta che l’amministratore dell’account condiviso tra pari accetta, l’amministratore principale sarà in grado di visualizzare il numero di utenti registrati nell’account condiviso tra pari e potrà scaricare il report utente per tale account.
+L’Amministratore può visualizzare il report utente dell’account condiviso tra pari. L’Amministratore dell’account principale può richiedere l’accesso al report e una volta che l’Amministratore dell’account condiviso tra pari accetta, l’Amministratore principale sarà in grado di visualizzare il numero di utenti registrati nell’ account condiviso tra pari e potrà scaricare il report utente per tale account.
 
 1. Nella pagina Account condivisi tra pari, fai clic su **[!UICONTROL Aggiungi]**.
-1. Abilita l&#39;opzione **[!UICONTROL Richiedi l&#39;autorizzazione per scaricare i report utente per l&#39;intero account]**.
+1. Abilita l’opzione **[!UICONTROL Richiedi l’autorizzazione per scaricare i report utente per l’intero account]**.
 
 ![](assets/image034.png)
 
 *Visualizza report utente di un account condiviso tra pari*
 
 Per scaricare i report degli account condivisi tra pari, fai clic su **[!UICONTROL Scarica]**.
+
+## Visualizzazione del nome dell’autore per i corsi condivisi (inclusi i corsi acquisiti in precedenza)
+
+Adobe Learning Manager visualizza il **nome dell’autore originale** per i corsi condivisi o acquisiti tramite account condivisi tra pari.
+
+In precedenza, i corsi acquisiti da account condivisi tra pari venivano spesso visualizzati con il nome dell’autore come **Autore esterno**. Questa funzione è stata migliorata per migliorare l’attribuzione e la chiarezza dei contenuti.
+
+### Come funziona
+
+* Quando un corso viene condiviso da un account condiviso tra pari, Learning Manager ora risolve e visualizza il **nome effettivo dell’autore** dall’account di origine.
+* Questo comportamento si applica a:
+   * Corsi condivisi di recente
+   * Corsi acquisiti prima dell’introduzione di questo miglioramento
+
+### Comportamento retroattivo
+
+Questo miglioramento viene applicato **retroattivamente**.\
+I corsi acquisiti da account condivisi tra pari prima di questa modifica visualizzano automaticamente il nome dell’autore corretto.
+
+Non è richiesta alcuna azione da parte di amministratori o autori:
+
+* Non è necessario condividere nuovamente il corso
+* Non è necessario pubblicare nuovamente o modificare il corso
+* Le iscrizioni e l’avanzamento degli Allievi esistenti rimangono invariati
+
+### Cosa non cambia
+
+* La proprietà e le autorizzazioni del corso rimangono invariate
+* Viene aggiornato solo il **nome autore visualizzato**
+* I report, le iscrizioni e la struttura del corso non sono interessati
+
+Ciò garantisce un’attribuzione accurata e coerente degli autori a tutti i contenuti condivisi, inclusi i corsi storici acquisiti tramite account condivisi tra pari.
 
 ## Domande frequenti {#frequentlyaskedquestions}
 

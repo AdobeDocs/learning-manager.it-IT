@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 69%
+source-wordcount: '1898'
+ht-degree: 47%
 
 ---
 
@@ -19,7 +19,7 @@ Leggi questo articolo per scoprire come gestire i partecipanti, inviare e-mail r
 
 In qualità di istruttore, puoi vedere le sessioni o i moduli con revisioni in sospeso.
 
-Nella pagina Sessioni/Moduli, è disponibile la colonna **Revisioni in sospeso** che mostra il numero di revisioni in sospeso per la sessione/attività corrispondente.
+Nella pagina delle sessioni/dei moduli, è disponibile la colonna **Revisioni in sospeso** che mostra il numero di revisioni in sospeso per il corso/l’attività corrispondente.
 
 ## Gestione della lista d’attesa per la sessione {#managewaitlistforyoursession}
 
@@ -49,7 +49,7 @@ Il nuovo **[!UICONTROL Report della lista d’attesa]** di Adobe Learning Manage
 Seguire le colonne disponibili nel report Lista d&#39;attesa:
 
 * Nome del corso
-* Nome istanza
+* Nome dell’istanza
 * ID istanza
 * Stato istanza
 * Nome utente
@@ -83,6 +83,99 @@ Puoi visualizzare il numero di Allievi confermati che stanno partecipando alla s
 
    ![](assets/markattendance.png)
    *Contrassegna partecipazione Allievo*
+
+### Scaricare i codici QR per l’iscrizione e la partecipazione degli Allievi
+
+Gli istruttori possono scaricare i codici QR per le sessioni assegnate, per consentire agli Allievi di iscriversi a un’istanza del corso e contrassegnare la partecipazione o il completamento scansionando il codice QR.
+
+Ciò consente agli istruttori di gestire la partecipazione alla sessione in modo indipendente, senza richiedere l’assistenza dell’amministratore.
+
+I seguenti passaggi sono adatti a entrambi:
+
+* Sessioni in aula fisica
+* Sessioni online in aula
+
+Per una sessione fisica in aula, in qualità di Istruttore, devi generare il codice QR corretto e incollarlo nella classe (o farlo circolare) in cui gli Allievi partecipano alla sessione, in modo che possano scansionare il codice QR e contrassegnare la loro iscrizione o partecipazione o entrambi a seconda del codice QR.
+
+In qualità di Istruttore, per una sessione in aula online puoi inviare il codice QR generato tramite posta, un sistema di messaggistica o qualsiasi altro mezzo, in modo che gli Allievi possano scansionare il codice QR e contrassegnare la propria iscrizione o partecipazione o entrambi, a seconda del codice QR.
+
+
+#### Scaricare i codici QR per una sessione
+
+1. Accedi a Adobe Learning Manager con il ruolo **Istruttore**.
+2. Passa alla **Dashboard Istruttore**.
+3. Apri l&#39;**istanza del corso** pertinente.
+4. Selezionare la scheda **Sessioni**.
+5. Scegli una sessione a te assegnata.
+6. Seleziona **Codice QR sessione**.
+   ![](assets/instructor-QR-code.png)
+
+Puoi scaricare i seguenti codici QR:
+
+* **Codice QR di iscrizione**: consente agli Allievi di iscriversi all’istanza del corso
+* **Codice QR di partecipazione**: indica la partecipazione alla sessione
+* **Codice QR iscrizione e partecipazione** - iscrive gli Allievi e contrassegna la partecipazione in un’unica scansione
+
+Il codice QR viene scaricato come PDF e può essere condiviso digitalmente o visualizzato durante la sessione.
+
+#### Cosa succede quando gli Allievi acquisiscono il codice QR
+
+* Gli Allievi acquisiscono il codice QR tramite un dispositivo mobile.
+* Adobe Learning Manager convalida l’Allievo e la sessione.
+* In base al tipo di codice QR:
+   * Gli Allievi sono iscritti all’istanza del corso oppure
+   * La partecipazione e il completamento vengono registrati per la sessione
+
+Tutti gli aggiornamenti vengono riportati automaticamente nei record, nelle trascrizioni e nei report degli Allievi.
+
+#### Note
+
+* I codici QR sono disponibili solo per gli istruttori assegnati alla sessione.
+* Le regole di iscrizione, partecipazione e completamento configurate per il corso e la sessione continuano ad applicarsi.
+* I flussi di lavoro esistenti relativi all’avanzamento degli Allievi e alla creazione di report rimangono invariati.
+
+#### Casi d’uso
+
+* Le organizzazioni che eseguono grandi volumi di sessioni in loco (ad esempio, formazione sul prodotto per professionisti) possono consentire agli istruttori di stampare codici QR specifici per sessione che registrano e contrassegnano la partecipazione con una scansione.
+
+* Nei corsi di formazione per la vendita al dettaglio, la produzione industriale e l’assistenza sanitaria, in cui gli Allievi spesso partecipano alle sessioni direttamente dal pavimento o senza pre-iscrizione, è possibile inserire un codice QR &quot;Iscrizione + Partecipazione&quot; sulla porta. Ciò consente agli Allievi di provvedere autonomamente all’iscrizione e alla partecipazione tramite telefono.
+
+* Gli eventi di formazione per partner o clienti consentono al formatore on-site di adattarsi facilmente alle modifiche della stanza, a sessioni aggiuntive o a partecipanti aggiuntivi senza dover consultare l&#39;amministratore per nuovi codici QR.
+
+### Inviti del calendario
+
+* Quando un Allievo o un Istruttore è iscritto a una sessione di un’aula o di un’aula virtuale, Learning Manager invia un invito nel calendario (file ICS).
+* L&#39;invito del calendario include:
+   * Data e ora della sessione
+   * Dettagli della sessione
+   * **Collegamento diretto alla sessione** nella descrizione del calendario
+
+I partecipanti possono aprire l&#39;evento del calendario e partecipare alla sessione direttamente dal proprio calendario.
+
+#### Partecipazione a una sessione da Gmail
+
+1. Apri **Calendario di Google**.
+2. Selezionare l&#39;evento sessione.
+3. Nei dettagli dell&#39;evento, fare clic sul collegamento **session join**.
+4. La sessione si apre direttamente in Adobe Learning Manager o nello strumento per aula virtuale configurato.
+
+Non è necessario aprire l’e-mail originale per accedere al collegamento della sessione.
+
+#### Partecipazione a una sessione da altri client del calendario
+
+Il collegamento della sessione è incluso nel corpo dell&#39;evento del calendario ed è accessibile da:
+
+* Microsoft Outlook
+* Calendario di Apple
+* Altre applicazioni di calendario che supportano file ICS
+
+#### Note
+
+* Gli inviti al calendario vengono generati automaticamente da Learning Manager.
+* Le informazioni sul fuso orario nell’invito del calendario vengono adattate in base al fuso orario selezionato dell’Allievo.
+* Questo miglioramento si applica agli inviti del calendario appena generati.
+* Gli amministratori e gli istruttori non richiedono alcuna configurazione aggiuntiva.
+
 
 ## Contrassegna come completato gli Allievi
 

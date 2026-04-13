@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
 source-wordcount: '15959'
 ht-degree: 72%
@@ -146,9 +146,9 @@ Di seguito viene descritto come creare gli oggetti:
 
 1. Scaricare e installare i pacchetti per creare gli oggetti personalizzati.
 
-   * [Pacchetto 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
-   * [Pacchetto 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
-   * [Pacchetto 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
+   * [Pacchetto 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS)
+   * [Pacchetto 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX)
+   * [Pacchetto 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic)
 
 1. Rinomina gli oggetti personalizzati in Salesforce.
 1. Seleziona gli eventi e fai clic su **[!UICONTROL Salva]**.
@@ -2258,7 +2258,7 @@ Dopo che un Autore ha impostato i prezzi per vari corsi, percorsi di apprendimen
 
 >[!NOTE]
 >
->Nella versione di marzo 2024 di Adobe Learning Manager è stato introdotto il supporto per [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=it).
+>Nella versione di marzo 2024 di Adobe Learning Manager è stato introdotto il supporto per [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Fai clic su **[!UICONTROL Esporta metadati di formazione]** > **[!UICONTROL Su richiesta]**.

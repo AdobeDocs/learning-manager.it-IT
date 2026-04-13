@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rimuovere utenti
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 57%
+source-wordcount: '1457'
+ht-degree: 45%
 
 ---
 
@@ -234,6 +234,49 @@ Puoi ordinare gli utenti filtrati in base al **[!UICONTROL ID utente univoco]** 
 </table>
 
 +++
+
+### Rimozione automatica degli utenti eliminati{#auto-purge}
+
+La rimozione automatica degli utenti eliminati è una funzione che rimuove i dati per gli utenti che sono già stati eliminati in ALM. La rimozione avviene dopo un periodo di conservazione configurabile, concentrandosi sulle operazioni in blocco in modo che gli account dei clienti di grandi dimensioni possano essere gestiti in modo efficiente senza compromettere le prestazioni.
+
+Il flusso di eliminazione in blocco può elaborare fino a 10.000 utenti per batch. La funzione è posizionata come servizio in background incentrato sull&#39;affidabilità per l&#39;eliminazione di grandi volumi.
+
+In qualità di amministratore, puoi specificare la durata entro la quale è possibile eliminare gli utenti rimossi. Per ulteriori informazioni, visualizzare [Impostazioni amministratore](/help/migrated/administrators/feature-summary/settings.md).
+
+#### Funzionamento:
+
+* Fornire la rimozione automatica configurabile per gli utenti eliminati a livello di account
+* Assicurati che gli utenti vengano rimossi entro 24 ore dal momento in cui soddisfano i criteri di rimozione
+* Supporta l&#39;eliminazione in blocco di un massimo di 10.000 utenti al giorno** senza compromettere le prestazioni del sistema
+* Mantenere i tempi di risposta globali del sistema e l&#39;integrità del database durante l&#39;esecuzione di queste operazioni
+* Gestione automatizzata della conservazione dei dati per rispettare gli obblighi GDPR
+
+#### Cosa non fa:
+
+* Il flusso di eliminazione in blocco verrà eseguito solo come processo cron pianificato (non su richiesta per richiesta)
+
+### Abilitazione dell’opzione Rimozione automatica
+
+1. Accedi a Adobe Learning Manager come Amministratore.
+2. Passa alla sezione **Configura** > **Impostazioni** > **Nozioni di base** > **Generali**.
+3. Scorri verso il basso la pagina fino a **Rimuovi automaticamente utenti eliminati**.
+   ![](assets/auto-purge1.png)
+   *Opzione di rimozione automatica*
+   >[!NOTE]
+   >
+   >Se **Rimuovi automaticamente utenti eliminati** non è abilitato, nella parte inferiore della sezione dell&#39;opzione verrà visualizzato un messaggio che indica **Non configurato**.
+4. Seleziona **Modifica**.
+5. Selezionare la casella di controllo **Abilita**.
+6. Immettere la durata dopo la quale la rimozione deve avere effetto.
+   >[!NOTE]
+   >
+   >Il valore minimo deve essere un anno. Puoi anche incrementarlo di 1. Tuttavia, non è possibile immettere un valore come 1,5 anni o 2,5 anni. Se richiedi un valore personalizzato come durata, contatta l&#39;assistenza clienti.
+7. Seleziona **Salva**. ALM visualizza un messaggio di conferma dettagliato.
+   ![](assets/auto-purge2.png)
+   *Attivazione e immissione della durata*
+8. Selezionare **Sì** per confermare e salvare l&#39;impostazione.
+   ![](assets/auto-purge3.png)
+   *Messaggio di conferma*
 
 ## Domande frequenti {#frequentlyaskedquestions}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Impostazioni
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
+source-git-commit: 2265b277aa58ab9273de704e9f79ed28fdcd64a4
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 63%
+source-wordcount: '3974'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 Scopri ulteriori informazioni sulle impostazioni dell’account Learning Manager che è possibile configurare come Amministratore.
 
-È possibile modificare le impostazioni del profilo di Amministratore e aggiornare le impostazioni dell’account. Visualizza le informazioni di profilo, aggiungi/modifica la foto profilo e modifica il contenuto di **[!UICONTROL Informazioni su di me]**. Aggiorna le tue informazioni aziendali e configura i metodi di accesso per gli utenti e l’integrazione di Connect tramite le impostazioni dell’account.
+È possibile modificare le impostazioni del profilo di Amministratore e aggiornare le impostazioni dell’account. Visualizza le informazioni di profilo, aggiungi/modifica la foto profilo e modifica il contenuto **[!UICONTROL Informazioni su di me]**. Aggiorna le tue informazioni aziendali e configura i metodi di accesso per gli utenti e l’integrazione di Connect tramite le impostazioni dell’account.
 
 ![](assets/settings-admin.png)
 
@@ -71,19 +71,19 @@ Se attivi la casella di controllo &quot;Tentativi multipli&quot;, gli Autori pos
 
 **Moderazione del corso**
 
-Fai clic su **[!UICONTROL Generale]** dal riquadro a sinistra e seleziona l’opzione Moderazione del corso per abilitare la funzionalità di moderazione dei corsi. Per ulteriori informazioni su questa funzione, consulta [Moderazione del corso](courses.md#main-pars_header_1879001177).
+Fai clic su **[!UICONTROL Generale]** dal riquadro a sinistra e seleziona l’opzione Moderazione del corso per abilitare la funzione di moderazione dei corsi. Per maggiori informazioni su questa funzione, consulta [Moderazione del corso](courses.md#main-pars_header_1879001177).
 
 **Forum di discussione**
 
-Se abiliti la casella di controllo Forum di discussione, Allievi e Istruttori possono pubblicare commenti per i corsi utilizzando la scheda Discussione nella pagina Corsi dell’app Allievi. Tuttavia, se le impostazioni a livello del corso indicano che questa funzione non è selezionata, le impostazioni a livello del corso hanno la precedenza sulle impostazioni dell’Amministratore.
+Se abiliti la casella di controllo Forum di discussione, allievi e Istruttori possono pubblicare commenti per i corsi utilizzando la scheda Discussione nella pagina Corsi dell’app allievi. Tuttavia, se le impostazioni a livello del corso indicano che questa funzione non è selezionata, le impostazioni a livello del corso hanno la precedenza sulle impostazioni dell’Amministratore.
 
 **Dashboard Allievo**
 
-Nel riquadro a sinistra, fai clic su Dashboard Allievo. Questa pagina consente di scegliere i widget da visualizzare nella pagina allievi. Seleziona i widget che desideri attivare nella pagina allievi. Tutti i widget non selezionati non verranno visualizzati nella pagina Allievi.
+Nel riquadro a sinistra, fai clic su Dashboard Allievo. Questa pagina consente di scegliere i widget da visualizzare nella pagina allievi. Seleziona i widget che desideri attivare nella pagina allievi. Tutti i widget non selezionati non verranno visualizzati nella pagina allievi.
 
 **Adobe Connect**
 
-Fai clic su **[!UICONTROL Adobe Connect]** nel riquadro a sinistra per configurare l’account Adobe Connect in modo che ospiti sessioni in aula virtuale. Per ulteriori informazioni, consulta la guida alle funzionalità di [Adobe Connect](adobeconnect-integration.md).
+Fai clic su **[!UICONTROL Adobe Connect]** nel riquadro di sinistra per configurare l’account Adobe Connect in modo che ospiti sessioni in aula virtuale. Per ulteriori informazioni, consulta la guida alle funzionalità di [Adobe Connect](adobeconnect-integration.md).
 
 ## Impostazioni generali {#general}
 
@@ -101,7 +101,7 @@ Attivare o disattivare le seguenti impostazioni:
   </tr>
   <tr>
    <td>Mostra efficacia corso</td>
-   <td>Se questa opzione viene attivata, gli allievi possono visualizzare l’attuale efficacia del corso nel riquadro del corso. Questa funzione è disponibile solo per i corsi. La valutazione a stelle non è supportata per i programmi di apprendimento o i certificati. È disponibile per corsi e programmi di apprendimento ma non per le certificazioni.</td>
+   <td>Se questa opzione è attivata, gli allievi possono verificare l’attuale efficacia del corso nel riquadro del corso. Questa funzione è disponibile solo per i corsi. La valutazione a stelle non è supportata per i programmi di apprendimento o i certificati. È disponibile per corsi e programmi di apprendimento ma non per le certificazioni.</td>
   </tr>
   <tr>
    <td>Moderazione del corso</td>
@@ -121,8 +121,13 @@ Attivare o disattivare le seguenti impostazioni:
   </tr>
   <tr>
    <td>Visibilità abilità/tag</td>
-   <td>Mostra tutte le abilità e i tag agli allievi. Puoi mostrare tutte le abilità e i tag o mostrare le abilità e i tag assegnati o quelli che fanno parte dei Cataloghi visibili all’Allievo.</td>
-  </tr>
+   <td>Mostra tutte le abilità e i tag agli allievi. Puoi mostrare tutte le abilità e i tag o mostrare le abilità e i tag assegnati o quelli che fanno parte dei Cataloghi visibili all’Allievo.
+   <p><b>Importante-Assistente Allievo e visibilità del catalogo</b></p>
+   <p>Se l’account utilizza l’Assistente Allievo, ricorda che i cataloghi selezionati come origini di contenuto per l’Assistente non hanno un ambito definito dalla visibilità del catalogo per Allievo. L’Assistente può utilizzare il contenuto dei cataloghi configurati anche quando alcuni corsi di formazione non sono visibili a un determinato Allievo nella vista Catalogo.</p>
+   <p>L’Adobe consiglia di selezionare solo i cataloghi che contengono contenuti che si ritiene opportuni (sotto forma di riepilogo o di spiegazione) per tutti gli Allievi che possono accedere a Assistente Allievo. </p>
+   </td>
+
+</tr>
   <tr>
    <td>ID di Oggetti di apprendimento univoci</td>
    <td>Se questa opzione è attivata, un Amministratore o un Autore può aggiungere un ID univoco per ciascun Oggetto di apprendimento.</td>
@@ -164,8 +169,13 @@ Attivare o disattivare le seguenti impostazioni:
    <td>Se questa opzione è attivata, gli utenti interni vengono eliminati automaticamente se non accedono al sistema per un numero specificato di giorni. Questa funzione è applicabile solo agli utenti che dispongono del ruolo di <b>Allievo</b>. Per ripristinare l’accesso, gli utenti devono contattare l’amministratore.<br></td>
   </tr>
   <tr>
+   <td height="20">Elimina automaticamente utenti rimossi</td>
+   <td>Se questa opzione è attivata, gli utenti interni vengono eliminati automaticamente se non accedono al sistema per un numero specificato di giorni. Questa funzione è applicabile solo agli utenti con il ruolo di allievo. Per ripristinare l’accesso, gli utenti devono contattare l’amministratore. Dopo aver abilitato l'opzione, puoi specificare l'intervallo di tempo in anni dopo il quale gli utenti rimossi verranno eliminati definitivamente da ALM.</td>
+  </tr>
+  <tr>
+  <tr>
    <td>Mostra Etichette catalogo</td>
-   <td>Se questa opzione è attivata, gli Amministratori e gli Autori possono impostare etichette del catalogo e valori e collegarli agli Oggetti di apprendimento. Selezionando questa opzione, gli Autori possono inoltre aggiungere ai cataloghi corsi, percorsi di apprendimento, certificazioni o risorse formative.</td>
+   <td>Se questa opzione è attivata, gli Amministratori e gli Autori possono impostare etichette del Catalogo e valori e collegarli agli Oggetti di apprendimento. Selezionando questa opzione, gli Autori possono inoltre aggiungere ai cataloghi corsi, percorsi di apprendimento, certificazioni o risorse formative.</td>
   </tr>
   <tr>
    <td>Gli allievi possono visualizzare i propri punteggi</td>
@@ -206,20 +216,20 @@ Attivare o disattivare le seguenti impostazioni:
     </ol>
     <p>Inoltre puoi:</p>
     <ul>
-     <li>Fai clic sull'icona <b>Ripristina</b> per ripristinare i valori predefiniti nei campi <b>Guida</b> e <b>Contatta l'amministratore</b>.</li>
+     <li>Fare clic sull’icona <b>Ripristina</b> per ripristinare i valori predefiniti nei campi <b>Aiuto</b> e <b>Contatta l’Amministratore</b>.</li>
      <li>Personalizzare il collegamento nel piè di pagina per tutte le lingue. Fai clic sull’elenco a discesa <b>Lingua</b>, seleziona la lingua e aggiungi il <b>Nome</b> e l’<b>URL</b> nei campi specificati. Dopo aver salvato le modifiche, i collegamenti aggiornati vengono visualizzati nel piè di pagina.<br></li>
     </ul></td>
   </tr>
   <tr>
    <td>Report fuso orario<br></td>
    <td>
-    <p>Imposta una preferenza a livello di account per esportare la trascrizione di apprendimento nei seguenti fusi orari:</p>
+    <p>Impostare una preferenza a livello di account per esportare la trascrizione di apprendimento nei seguenti fusi orari:</p>
     <ul>
      <li>UTC (comportamento predefinito)</li>
      <li>Preferenza di fuso orario a livello di account</li>
     </ul>
-    <p>La Trascrizione Allievo scaricata tramite l’API dei processi consente di scaricare anche i dati nel fuso orario selezionato.</p>
-    <p><b>Nota: </b>Per impostazione predefinita non sono previste modifiche alla Trascrizione Allievo subito dopo l’aggiornamento. Gli Amministratori possono configurare questa impostazione da Amministratore &gt; Impostazioni &gt; Generale &gt; Report fuso orario.</p></td>
+    <p>La Trascrizione Allievo scaricata tramite l’API dei processi comprende anche i dati del fuso orario selezionato.</p>
+    <p><b>Nota: </b>per impostazione predefinita non sono previste modifiche alla Trascrizione Allievo subito dopo l’aggiornamento. Gli amministratori possono configurare questa impostazione da Amministratore &gt; Impostazioni &gt; Generale &gt; Report fuso orario.</p></td>
   </tr>
  </tbody>
 </table>
@@ -287,12 +297,17 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">Quando l’Allievo avvia l’app per allievi, nelle sezioni Il mio apprendimento e Catalogo potrà vedere i filtri nei rispettivi pannelli.</td>
   </tr>
   <tr>
-   <td height="20">Nota: per impostazione predefinita, i filtri Formato e Durata vengono disattivati e non appaiono agli Allievi subito dopo l’aggiornamento. L’amministratore deve abilitarle. </td>
+   <td height="20">Nota: per impostazione predefinita, i filtri Formato e Durata vengono disattivati e non appaiono agli allievi subito dopo l’aggiornamento. L’amministratore deve abilitarle. </td>
   </tr>
   <tr>
    <td height="20">Mostra Elenco cataloghi</td>
-   <td>Se questa opzione è attivata, gli allievi possono consultare un elenco di tutti i Cataloghi disponibili. Gli allievi possono utilizzare questa opzione per perfezionare il modo in cui vengono visualizzati gli Oggetti di apprendimento.</td>
-  </tr>
+   <td>Se questa opzione è attivata, gli allievi possono consultare un elenco di tutti i Cataloghi disponibili. Gli allievi possono utilizzare questa opzione per perfezionare il modo in cui vengono visualizzati gli Oggetti di apprendimento.
+   <p><b>Importante-Assistente Allievo e visibilità del catalogo</b></p>
+   <p>Se l’account utilizza l’Assistente Allievo, ricorda che i cataloghi selezionati come origini di contenuto per l’Assistente non hanno un ambito definito dalla visibilità del catalogo per Allievo. L’Assistente può utilizzare il contenuto dei cataloghi configurati anche quando alcuni corsi di formazione non sono visibili a un determinato Allievo nella vista Catalogo.</p>
+   <p>L’Adobe consiglia di selezionare solo i cataloghi che contengono contenuti che si ritiene opportuni (sotto forma di riepilogo o di spiegazione) per tutti gli Allievi che possono accedere a Assistente Allievo. </p>
+   </td>
+
+</tr>
   <tr>
    <td height="20">Terminologia del prodotto</td>
    <td>Learning Manager ha una terminologia standard utilizzata nel prodotto. Modifica la terminologia in base alle esigenze dell’organizzazione.</td>
@@ -305,11 +320,6 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="20">Registra automaticamente utenti</td>
    <td>Se questa opzione è attivata, gli utenti appena importati vengono registrati automaticamente. Per impostazione predefinita, gli utenti devono essere registrati manualmente per poter iniziare a usare Learning Manager.</td>
   </tr>
-  <tr>
-   <td height="20">Elimina automaticamente utenti interni</td>
-   <td>Se questa opzione è attivata, gli utenti interni vengono eliminati automaticamente se non accedono al sistema per un numero specificato di giorni. Questa funzione è applicabile solo agli utenti con il ruolo di Allievo. Per ripristinare l’accesso, gli utenti devono contattare l’amministratore.</td>
-  </tr>
-  <tr>
    <td height="20">Mostra Etichette catalogo</td>
    <td>Se questa opzione è attivata, gli Amministratori e gli Autori possono impostare etichette del Catalogo e valori e collegarli agli Oggetti di apprendimento.</td>
   </tr>
@@ -325,7 +335,7 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">Per gli account attivi, le e-mail di riepilogo saranno disabilitate per impostazione predefinita, ma l’amministratore può abilitarle manualmente.</td>
   </tr>
   <tr>
-   <td height="19">Per gli account di prova, l’opzione per le e-mail di riepilogo rimarrà disabilitata e l’amministratore non potrà abilitarla.</td>
+   <td height="19">Per gli account di prova, l’opzione delle e-mail di riepilogo resterà disabilitata e l’amministratore non potrà abilitarla.</td>
   </tr>
   <tr>
    <td height="19">Se la funzione è disabilitata, allora:</td>
@@ -343,7 +353,7 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">L’Amministratore può abilitare e modificare l’opzione E-mail di riepilogo.</td>
   </tr>
   <tr>
-   <td height="20">Dalle Impostazioni profilo nell’app per Allievi, un Allievo (non nell’elenco DND) può scegliere di iscriversi/annullare l’iscrizione all’e-mail di riepilogo.</td>
+   <td height="20">Da Impostazioni profilo nell’app per gli allievi, un allievo (non nell’elenco DND) può scegliere di iscriversi/annullare l’iscrizione alle e-mail di riepilogo.</td>
   </tr>
   <tr>
    <td height="20">Attiva icone per la scheda di formazione</td>
@@ -360,7 +370,7 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">1. Fai clic su Aggiungi altro, immetti il nome e l’URL o l’ID e-mail nei campi specificati. Aggiungere all’URL il prefisso http:// o https://.</td>
   </tr>
   <tr>
-   <td height="19">2. Per applicare la modifica in tutte le lingue, fai clic su Replica. In questo modo, tutte le lingue ricevono il nome e l’URL.</td>
+   <td height="19">2. Per applicare la modifica in tutte le lingue, fare clic su Replica. In questo modo, tutte le lingue ricevono il nome e l’URL.</td>
   </tr>
   <tr>
    <td height="19">3. Per salvare le modifiche, fai clic su Salva. Un messaggio a comparsa conferma la modifica. Dopo aver fatto clic su OK, il piè di pagina viene compilato con i collegamenti appena aggiunti.</td>
@@ -369,14 +379,14 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">Inoltre puoi:</td>
   </tr>
   <tr>
-   <td height="19">Fai clic sull’icona Ripristina per ripristinare i valori predefiniti nei campi Aiuto e Contatta l’Amministratore.</td>
+   <td height="19">Fare clic sull’icona Ripristina per ripristinare i valori predefiniti nei campi Aiuto e Contatta l’Amministratore.</td>
   </tr>
   <tr>
-   <td height="20">Personalizzare il collegamento nel piè di pagina per tutte le lingue. Fai clic sull’elenco a discesa Lingua, seleziona la lingua e aggiungi il Nome e l’URL nei campi specificati. Dopo aver salvato le modifiche, i collegamenti aggiornati vengono visualizzati nel piè di pagina.</td>
+   <td height="20">Personalizzare il collegamento nel piè di pagina per tutte le lingue. Fare clic sull’elenco a discesa Lingua, selezionare la lingua e aggiungere il Nome e l’URL nei campi specificati. Dopo aver salvato le modifiche, i collegamenti aggiornati vengono visualizzati nel piè di pagina.</td>
   </tr>
   <tr>
    <td rowspan="5" height="96">Report fuso orario</td>
-   <td> Imposta una preferenza a livello di account per esportare la trascrizione di apprendimento nei seguenti fusi orari:</td>
+   <td> Impostare una preferenza a livello di account per esportare la trascrizione di apprendimento nei seguenti fusi orari:</td>
   </tr>
   <tr>
    <td height="19">UTC (comportamento predefinito)</td>
@@ -385,10 +395,10 @@ Attivare o disattivare le seguenti impostazioni:
    <td height="19">Preferenza di fuso orario a livello di account</td>
   </tr>
   <tr>
-   <td height="19">La Trascrizione Allievo scaricata tramite l’API dei processi consente di scaricare anche i dati nel fuso orario selezionato.</td>
+   <td height="19">La Trascrizione Allievo scaricata tramite l’API dei processi comprende anche i dati del fuso orario selezionato.</td>
   </tr>
   <tr>
-   <td height="20">Nota: per impostazione predefinita non sono previste modifiche alla Trascrizione Allievo subito dopo l’aggiornamento. Gli Amministratori possono configurare questa impostazione da Amministratore &gt; Impostazioni &gt; Generale &gt; Report fuso orario.</td>
+   <td height="20">Nota: per impostazione predefinita non sono previste modifiche alla Trascrizione Allievo subito dopo l’aggiornamento. Gli amministratori possono configurare questa impostazione da Amministratore &gt; Impostazioni &gt; Generale &gt; Report fuso orario.</td>
   </tr>
   <tr>
    <td height="19">Integrazione con Badgr</td>
@@ -400,12 +410,12 @@ Attivare o disattivare le seguenti impostazioni:
    <td>
     <ul>
      <li>Se l’opzione <b>Efficacia del corso</b> viene attivata, gli allievi possono visualizzare solo il valore dell’efficacia del corso.</li>
-     <li> Se l’opzione <b>Valutazione a stelle</b> viene attivata, gli allievi potranno visualizzare solo la valutazione media a stelle e il numero di allievi che hanno valutato il corso.<br></li>
+     <li>Se l’opzione <b>Valutazione a stelle</b> viene attivata, gli allievi potranno visualizzare solo la valutazione media a stelle e il numero di allievi che hanno valutato il corso.<br></li>
     </ul>
-    <p>Questa funzione è disponibile solo per i corsi. La valutazione a stelle non è supportata per i programmi di apprendimento o i certificati.<br><br><b>Nota: </b>Questa modifica riguarda solo l’app per allievi. </p>
+    <p>Questa funzione è disponibile solo per i corsi. La valutazione a stelle non è supportata per i programmi di apprendimento o i certificati.<br><br><b>Nota: </b>questa modifica riguarda solo l’app per Allievi. </p>
     <p>In tutte le altre app (amministratore, autore, manager, amministratore personalizzato, autore personalizzato), le modifiche apportate alle impostazioni (valutazione a stelle/efficacia del corso/disattivazione della valutazione a stelle) non avranno alcun effetto. </p>
-    <p>Per i nuovi account, nella sezione <b>Mostra valutazioni</b> l'opzione <b>Valutazione a stelle</b> sarà attivata per impostazione predefinita.</p>
-    <p>Per gli account esistenti, se in precedenza era attivata l’opzione <b>Efficacia del corso</b>, la sezione <b>Mostra valutazioni</b> verrà attivata con l’opzione Controllo efficacia selezionata. Se l’opzione <b>Efficacia del corso</b>s è disattivata, anche la sezione <b>Mostra valutazioni</b> verrà disabilitata. Quando la sezione <b>Mostra valutazioni</b> è abilitata, l'opzione <b>Valutazione a stelle</b> verrà abilitata per impostazione predefinita.</p></td>
+    <p>Per i nuovi account, la sezione <b>Mostra valutazioni</b> avrà l’opzione <b>Valutazione a stelle</b> attivata per impostazione predefinita.</p>
+    <p>Per gli account esistenti, se in precedenza <b>Efficacia del corso</b> era attivata, la sezione <b>Mostra valutazioni</b> verrà attivata con l’opzione Controllo efficacia selezionata. Se l’opzione <b>Efficacia del corso</b> viene disattivata, anche la sezione <b>Mostra valutazioni</b> verrà disabilitata. Quando la sezione <b>Mostra valutazione</b> viene attivata, l’opzione <b>Valutazione a stelle</b> viene abilitata per impostazione predefinita.</p></td>
   </tr>
   <tr>
    <td height="19">Ritiro</td>
@@ -439,6 +449,15 @@ Attivare o disattivare le seguenti impostazioni:
     <td>
       <p>Se questa opzione è attivata, puoi scegliere un’origine esterna da cui importare le abilità. Le abilità per le risorse di apprendimento esistenti verranno importate nel repository delle abilità una volta durante l’esecuzione iniziale. Per tutte le successive importazioni di risorse di apprendimento, le abilità verranno importate nel repository delle abilità solo per gli elementi appena importati.
       Una volta attivata l’opzione, l’azione è irreversibile. Non è possibile disattivare o passare a un'altra sorgente in un secondo momento.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>Corsi/percorsi alternativi</p>
+    </td>
+    <td>
+      <p>Quando gli Allievi completano un corso/percorso, è possibile contrassegnare come completato un altro insieme di corsi/percorsi specificato tramite l’opzione Alternativa. Gli Allievi non verranno automaticamente iscritti a Corsi/Percorsi contrassegnati come completati tramite alternativo e riceveranno solo crediti, distintivi e punti per il corso/percorso effettivamente completato. Le opzioni disponibili sono: Completamenti retroattivi attivati e Incompletamenti retroattivi attivati.
       </p>
     </td>
   </tr>
@@ -481,14 +500,14 @@ Activity
 
 ## Impostazioni profilo {#profilesettings}
 
-1. Fai clic sulla freccia a discesa nell’angolo in alto a destra, accanto a foto/account e scegli **[!UICONTROL Impostazioni profilo]**.
-1. Dalla finestra a comparsa, puoi aggiungere/modificare una foto passando il mouse sopra di essa e facendo clic su **[!UICONTROL Modifica]** nell&#39;area della foto profilo.
-1. Aggiungi/modifica il contenuto di **[!UICONTROL Informazioni su]** facendo clic su **[!UICONTROL Modifica]** accanto al contenuto.
+1. Fai clic sulla freccia a discesa nell’angolo superiore destro, accanto a foto/account e scegli **[!UICONTROL Impostazioni profilo]**.
+1. Dalla finestra a comparsa, puoi aggiungere/modificare una foto passando il mouse sopra di essa e facendo clic su **[!UICONTROL Modifica]** nell’area della foto profilo.
+1. Aggiungi/modifica il contenuto della sezione **[!UICONTROL Informazioni]** facendo clic su **[!UICONTROL Modifica]** vicino a essa.
 1. Fai clic su **[!UICONTROL Salva].**
 
 ## Cartella dei contenuti {#content-folder}
 
-Learning Manager supporta le cartelle dei contenuti privati. Un amministratore può configurare le cartelle dei contenuti privati e fornirne l’accesso ad autori personalizzati specifici utilizzando i ruoli personalizzati. Gli autori standard (chiamati anche autori completi) continuano ad avere accesso a tutti i contenuti dell’account. Pertanto, gli autori completi hanno accesso a tutte le cartelle e a tutti i contenuti.
+Learning Manager supporta le cartelle dei contenuti privati. Un amministratore può configurare le cartelle dei contenuti privati e fornirne l’accesso ad autori personalizzati specifici utilizzando dei ruoli personalizzati. Gli autori standard (chiamati anche autori completi) continuano ad avere accesso a tutti i contenuti dell’account. Pertanto, gli autori completi hanno accesso a tutte le cartelle e a tutti i contenuti.
 
 Le cartelle dei contenuti possono essere configurate dagli amministratori. Solo una volta configurate, le cartelle dei contenuti diventano visibili agli autori che possono inserire il contenuto in una o più cartelle.
 
@@ -531,11 +550,11 @@ Per aggiungere una cartella, fai clic su **[!UICONTROL Aggiungi]** nell&#39;ango
 
 **Eliminazione di una cartella**
 
-È inoltre possibile eliminare una cartella. Selezionare la cartella da eliminare, fare clic sul menu Azioni e quindi su **[!UICONTROL Elimina cartella]**.
+È anche possibile eliminare una cartella. Seleziona la cartella da eliminare, fai clic sul menu Azioni, quindi su **[!UICONTROL Elimina cartella]**.
 
 >[!NOTE]
 >
->Le cartelle possono essere eliminate quando tutti i contenuti associati sono associati anche ad altre cartelle. Se è presente un contenuto collegato solo alla cartella da eliminare, sposta prima il contenuto in un&#39;altra cartella, quindi eliminala.
+>Le cartelle possono essere eliminate quando tutti i contenuti associati sono associati anche ad altre cartelle. Se è presente un contenuto collegato solo alla cartella da eliminare, sposta prima il contenuto in un’altra cartella, quindi eliminala.
 
 ## Aule
 
@@ -563,11 +582,11 @@ Aggiungi i seguenti elementi:
 
 Puoi anche aggiungere la posizione con l’aiuto di un file CSV. Il file CSV deve contenere i campi:
 
-* name
+* nome
 * info
 * url
 * seatlimit
-* Regione di 
+* Regione di
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
 
@@ -592,5 +611,5 @@ Per ulteriori informazioni, consulta la sezione relativa a [Cartella dei contenu
 
 +++Come si aggiunge l’esercizio finanziario per l’account?
 
-In **[!UICONTROL Impostazioni]** > **[!UICONTROL Informazioni di base]**, fai clic su **[!UICONTROL Modifica]**. Dall&#39;elenco a discesa **[!UICONTROL L&#39;anno fiscale inizia da]**, selezionare il mese.
+In **[!UICONTROL Impostazioni]** > **[!UICONTROL Informazioni di base]**, fai clic su **[!UICONTROL Modifica]**. Dall’elenco a discesa **[!UICONTROL L’esercizio finanziario inizia da]**, seleziona il mese.
 +++

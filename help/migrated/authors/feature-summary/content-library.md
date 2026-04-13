@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4664'
-ht-degree: 44%
+source-wordcount: '5368'
+ht-degree: 38%
 
 ---
 
@@ -43,9 +43,21 @@ La tabella seguente mostra i tipi di file interattivi e statici che è possibile
      <li>SCORM 1.2</li>
      <li>SCORM 2004</li>
      <li>AICC</li>
-     <li>TinCan</li>
+     <li>xAPI</li>
     </ul>
-    <p></p></td>
+    <p><b>Importante: Assistente Allievo e valutazioni basate su SCORM</b></p>
+    <p>Se per il tuo account è abilitato l’Assistente Allievo e carichi i pacchetti SCORM/xAPI in cataloghi configurati come origini di contenuto dell’Assistente Allievo, tieni presente quanto segue:</p>
+    <ul>
+      <li>Gli Allievi possono utilizzare l’Assistente Allievo per porre domande sul contenuto all’interno di tali pacchetti.</li>
+      <li>L’Assistente può generare spiegazioni o riepiloghi che rivelano in modo efficace le risposte alle domande dei quiz incorporate nel corso SCORM (ad esempio, ripetendo il feedback o spiegando l’opzione "corretta").</li>
+   </ul>
+   <p>Per le valutazioni ad alto rischio o strutturate (come gli esami di conformità o certificazione), l’Adobe consiglia:</p>
+   <ul>
+      <li>Conservazione di contenuti SCORM con elevata valutazione in cataloghi non configurati come origini Assistente Allievo oppure</li>
+      <li>Progettare le valutazioni in modo che la semplice riformulazione del materiale di apprendimento non esponga banalmente le risposte corrette.</li>
+   </ul>
+   <p>Questo comportamento è previsto: Adobe Learning Manager non impedisce all’Allievo di spiegare i contenuti che si trovano nei cataloghi selezionati esplicitamente come origini di intelligenza artificiale.</p>
+    </td>
    <td>
     <p>zip</p></td>
   </tr>
@@ -250,6 +262,77 @@ Se un account venditore condivide un catalogo che contiene i corsi, e i corsi co
 La propagazione del modulo deve funzionare correttamente dall’account venditore all’account acquirente. Questo può includere: modifica/elimina/aggiunta del file vtt nel modulo.
 
 Una volta caricato il contenuto, puoi visualizzare una notifica facendo clic sull’icona raffigurante una campana nell’angolo in alto a destra della pagina. Ogni volta che modifichi un contenuto e lo carichi nuovamente, ricevi una notifica. Se apporti le modifiche, solo tu ricevi la notifica, e non gli altri autori.
+
+### Supporto VTT multilingue
+
+Il supporto delle tracce di testo video (VTT) multilingue in Adobe Learning Manager consente agli autori di fornire sottotitoli e didascalie per contenuti video e audio in più lingue. Questa funzione semplifica la localizzazione, rendendo i corsi di formazione accessibili a un pubblico globale e garantendo la conformità agli standard di accessibilità. Gli autori possono generare, tradurre, rivedere e modificare automaticamente i file VTT direttamente all’interno della piattaforma.
+
+#### Casi d’uso
+
+* Formazione globale: distribuisci contenuti video con sottotitoli in più lingue per raggiungere gli Allievi internazionali.
+* Conformità all’accessibilità: fornisci sottotitoli agli utenti audiolesi nella lingua preferita.
+* Localizzazione più rapida: riduzione delle operazioni manuali e implementazione più rapida dei contenuti grazie alla generazione e alla traduzione automatiche dei file VTT.
+* Esperienza coerente: garantisce che tutti gli Allievi ricevano le stesse informazioni, indipendentemente dalla lingua.
+
+#### Funzioni principali
+
+* Generazione VTT automatica: carica un file video o audio e genera automaticamente i sottotitoli VTT nella lingua originale.
+* Traduzione multilingue: traduci i sottotitoli in una delle 39 lingue non inglesi supportate.
+* Revisione e modifica in-app: revisione, modifica e download dei file VTT prima della pubblicazione.
+* Notifiche: ricevi notifiche in-app al termine della generazione e della traduzione VTT.
+* Pubblicazione fluida: Publish ha finalizzato i sottotitoli in modo che gli allievi possano accedervi nella lingua scelta.
+
+#### Caricare contenuti e generare VTT
+
+1. Accedi alla Libreria dei contenuti e seleziona [!UICONTROL Aggiungi contenuto].
+2. Carica il file MP3 o MP4.
+3. Nella finestra di dialogo di caricamento, seleziona l&#39;opzione per **Generare la traduzione**.
+4. Selezionare la lingua del contenuto originale (l&#39;impostazione predefinita è la lingua del file).
+5. Seleziona altre lingue di destinazione per la traduzione (fino a 39 supportate).
+6. Seleziona [!UICONTROL Salva]. Il sistema inizia a generare e a tradurre i file VTT.
+
+#### Monitorare l’avanzamento
+
+1. Dopo il salvataggio, la nuova voce di contenuto viene visualizzata nella libreria dei contenuti.
+2. Un indicatore di avanzamento mostra lo stato della generazione e della traduzione VTT.
+3. Una volta completato il processo, riceverai una notifica in-app.
+
+#### Rivedere e modificare i file VTT
+
+1. Nella Libreria dei contenuti, apri il contenuto in modalità **Modifica**.
+2. Per ogni lingua, selezionate il collegamento Revisione accanto al file VTT.
+3. In un pop-up vengono visualizzati i sottotitoli per quella lingua.
+4. Modifica i sottotitoli direttamente nella finestra a comparsa o scarica il file VTT per la modifica offline.
+5. Dopo aver apportato le modifiche, carica o incolla di nuovo i sottotitoli revisionati nella finestra a comparsa.
+6. Salvate le modifiche.
+
+#### Sottotitoli Publish
+
+1. Quando sei soddisfatto/a dei sottotitoli in tutte le lingue, pubblica il contenuto.
+2. Durante la visualizzazione del video, gli Allievi visualizzano le opzioni per i sottotitoli in tutte le lingue pubblicate.
+
+#### Informazioni aggiuntive
+
+* Lingue supportate: tutte le 39 lingue non inglesi supportate da Adobe Learning Manager.
+* Notifiche: gli autori ricevono una notifica al termine della generazione e della traduzione VTT.
+* Flessibilità di modifica: i sottotitoli possono essere modificati in-app o offline e ricaricati.
+* Scalabilità: progettata per esigenze di localizzazione e accessibilità su scala aziendale.
+* Non è necessario caricare manualmente il VTT: il sistema può generare file VTT da zero utilizzando il video/audio caricato.
+
+#### Procedure consigliate
+
+* Prima della pubblicazione, verifica sempre l’accuratezza dei sottotitoli generati automaticamente.
+* Fornire traduzioni per tutti i principali gruppi di Allievi per massimizzare l’accessibilità.
+* Utilizza il sistema di notifica per restare aggiornato sullo stato dell’elaborazione.
+* Aggiorna regolarmente i sottotitoli se il contenuto video cambia.
+
+#### Risoluzione dei problemi
+
+* Se la generazione VTT non riesce, assicurati che il file sia in un formato supportato (MP3/MP4).
+* Per le lingue mancanti, verifica che siano supportate e selezionate durante il caricamento.
+* Se i sottotitoli non sono sincronizzati, utilizza l’editor in-app per regolare i tempi.
+* Il supporto multilingue per il VTT consente di offrire esperienze di apprendimento video accessibili e localizzate in modo efficiente. Utilizzando la generazione automatica, la traduzione e la modifica in-app, puoi assicurarti che i tuoi contenuti raggiungano e supportino tutti gli Allievi, indipendentemente dalla lingua.
+
 
 ## Crea un quiz {#createaquiz}
 
@@ -481,26 +564,26 @@ L’ID univoco del contenuto è un codice univoco assegnato a ciascun elemento d
 
 ### Che cos’è la data di scadenza
 
-La data di scadenza contrassegna i contenuti che potrebbero essere obsoleti o non più necessari. Anche dopo la data di scadenza, il contenuto rimane disponibile, ma ricorda agli autori e agli amministratori di controllarlo e aggiornarlo se necessario. In base alle impostazioni, il contenuto scaduto può essere rimosso da nuove iscrizioni o archiviato. Like the Content unique ID, the Expiry Date works the same way for all language versions, helping keep content clean and up to date for everyone.
+La data di scadenza contrassegna i contenuti che potrebbero essere obsoleti o non più necessari. Anche dopo la data di scadenza, il contenuto rimane disponibile, ma ricorda agli autori e agli amministratori di controllarlo e aggiornarlo se necessario. In base alle impostazioni, il contenuto scaduto può essere rimosso da nuove iscrizioni o archiviato. Analogamente all’ID univoco del contenuto, la Data di scadenza funziona allo stesso modo per tutte le versioni linguistiche, consentendo di mantenere il contenuto pulito e aggiornato per tutti.
 
 * Il contenuto rimane disponibile anche dopo la scadenza.
 * Se viene selezionata una data passata, viene visualizzato un avviso.
-* The expiry field accepts any date between 1990 and 2037.
+* Il campo scadenza accetta qualsiasi data compresa tra il 1990 e il 2037.
 
-This helps organizations maintain content relevance without accidentally removing published items.
+Ciò consente alle organizzazioni di mantenere la pertinenza del contenuto senza rimuovere accidentalmente gli elementi pubblicati.
 
-The Content unique ID and Expiry Date apply to all language versions of a content group, ensuring a consistent experience for all users, no matter the language. Authors can use the Content unique ID to quickly search for and find specific content, making it easier to manage and update training materials.
+L’ID univoco del contenuto e la Data di scadenza si applicano a tutte le versioni linguistiche di un gruppo di contenuti, garantendo un’esperienza uniforme per tutti gli utenti, indipendentemente dalla lingua. Gli autori possono utilizzare l’ID univoco del contenuto per cercare e trovare rapidamente contenuti specifici, semplificando la gestione e l’aggiornamento dei materiali di formazione.
 
-The **[!UICONTROL Training report]** now includes two new columns: **[!UICONTROL Content Expiry Date (UTC TimeZone)]** and **[!UICONTROL Content Unique ID]**, to track Content unique ID and Expiry Date. Questi campi possono essere aggiunti tramite interfaccia utente o migrazione e l’amministratore può monitorarli centralmente tramite i report di formazione.
+Il **[!UICONTROL report sulla formazione]** include ora due nuove colonne: **[!UICONTROL Data di scadenza contenuto (fuso orario UTC)]** e **[!UICONTROL ID univoco contenuto]**, per tenere traccia dell&#39;ID univoco del contenuto e della data di scadenza. Questi campi possono essere aggiunti tramite interfaccia utente o migrazione e l’amministratore può monitorarli centralmente tramite i report di formazione.
 
 ### Aggiungi ID univoco del contenuto e data di scadenza
 
-Authors can add a Content unique ID and set an Expiry Date date when creating content.
+Durante la creazione del contenuto, gli autori possono aggiungere un ID univoco del contenuto e impostare una data di scadenza.
 
-To add Content unique ID and Expiry Date:
+Per aggiungere l’ID univoco del contenuto e la data di scadenza:
 
 1. Accedi come Autore.
-2. Select **[!UICONTROL Create Content]** or select **[!UICONTROL Content Library]** in the left panel.
+2. Selezionate **[!UICONTROL Crea contenuto]** o **[!UICONTROL Libreria dei contenuti]** nel pannello a sinistra.
 
    ![](assets/create-content.png)
    _Selezionare Crea contenuto nella home page_
@@ -508,69 +591,69 @@ To add Content unique ID and Expiry Date:
 3. Seleziona **[!UICONTROL Aggiungi]**, quindi seleziona **[!UICONTROL Contenuto]** nella home page dell&#39;autore.
 
    ![](assets/add-content.PNG)
-   _Select Add content in the Content Library_
+   _Selezionare Aggiungi contenuto nella libreria dei contenuti_
 
-4. Type the **[!UICONTROL Name]** and **[!UICONTROL Description]**
+4. Digita **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]**
 
-5. Select the content from the **[!UICONTROL Add Content File]** option
-6. Select the folder from **[!UICONTROL Add to Folder]** option to add the content to folder.
+5. Selezionare il contenuto dall&#39;opzione **[!UICONTROL Aggiungi file di contenuto]**
+6. Selezionare la cartella dall&#39;opzione **[!UICONTROL Aggiungi alla cartella]** per aggiungere il contenuto alla cartella.
 
    ![](assets/add-a-new-content.png)
-   _Add new content_
+   _Aggiungi nuovo contenuto_
 
-7. Digitare l&#39;ID del contenuto caricato nel campo **[!UICONTROL ID univoco contenuto]**. The ID must be unique and follow the correct naming guidelines. The ID must not contain non-ASCII characters or spaces. If you enter a duplicate ID, an error message is displays.
+7. Digitare l&#39;ID del contenuto caricato nel campo **[!UICONTROL ID univoco contenuto]**. L’ID deve essere univoco e rispettare le linee guida di denominazione corrette. L&#39;ID non deve contenere spazi o caratteri non ASCII. Se immetti un ID duplicato, viene visualizzato un messaggio di errore.
 
    ![](assets/content-unique-id.png)
-   _Field for entering a unique alphanumeric Content ID_
+   _Campo per l&#39;immissione di un ID contenuto alfanumerico univoco_
 
-8. Select the Expiry Date for the content. This date does not affect content availability or learner access. You can choose any date between 1990 and 2037. If a past date is selected, a warning appears, but the content can still be published.
+8. Seleziona la data di scadenza per il contenuto. Questa data non influisce sulla disponibilità dei contenuti o sull’accesso degli Allievi. Puoi scegliere una data compresa tra il 1990 e il 2037. Se è selezionata una data già trascorsa, viene visualizzato un avviso ma è comunque possibile pubblicare il contenuto.
 9. Seleziona **[!UICONTROL Salva]**.
 Il contenuto caricato viene ora visualizzato nella **[!UICONTROL Libreria dei contenuti]**.
 
-### Set Content unique ID and Expiry Date for languages
+### Impostare l’ID univoco del contenuto e la data di scadenza per le lingue
 
-The Content Unique ID and Expiry Date are defined at the content group level, meaning they are set once and automatically apply to all language versions of the content.
+L’ID univoco del contenuto e la Data di scadenza sono definiti a livello di gruppo di contenuti, ovvero sono impostati una volta e si applicano automaticamente a tutte le versioni linguistiche del contenuto.
 
-1. Select the content in the **[!UICONTROL Content Library]**.
+1. Selezionare il contenuto nella **[!UICONTROL Libreria dei contenuti]**.
 2. Seleziona **[!UICONTROL Modifica]**.
-3. Select **[!UICONTROL Add New Language]**.
-4. Select any language from the list.
+3. Selezionare **[!UICONTROL Aggiungi nuova lingua]**.
+4. Selezionare una lingua dall&#39;elenco.
 5. Seleziona **[!UICONTROL Salva]**.
-The Content unique ID and Expiry Date are now displayed on the language-specific version of the content, such as German in this example.
+L’ID univoco del contenuto e la Data di scadenza sono ora visualizzati nella versione del contenuto specifica della lingua, come in questo esempio in tedesco.
 
-### Search using the Content unique ID
+### Eseguire ricerche utilizzando l&#39;ID univoco del contenuto
 
-You can use the Content Unique ID to search for content across all language versions, making it easier to locate and manage specific items. Additionally, both the Content Unique ID and Expiry Date are included in training reports for consistent tracking and reporting.
+Puoi utilizzare l’ID univoco del contenuto per cercare il contenuto in tutte le versioni linguistiche, semplificando l’individuazione e la gestione di elementi specifici. Inoltre, sia l’ID univoco del contenuto che la Data di scadenza sono inclusi nei report di formazione per garantire coerenza nel tracciamento e nel reporting.
 
-1. Launch the **[!UICONTROL Content Library]**.
-2. Type the **[!UICONTROL Content unique ID]** in the search bar.
+1. Avvia **[!UICONTROL Libreria dei contenuti]**.
+2. Digitare **[!UICONTROL ID univoco contenuto]** nella barra di ricerca.
 
    ![](assets/search-unique-id.png)
-   _Searching content using the Content unique ID_
-3. Select the content to view or edit it.
+   _Ricerca di contenuto mediante l&#39;ID univoco contenuto_
+3. Seleziona il contenuto per visualizzarlo o modificarlo.
 
-### Content migration support
+### Supporto per la migrazione dei contenuti
 
-When migrating content, you can include the **expiryDate** and **uniqueContentId** in the module_version.csv file. This ensures continuity of metadata when moving content between systems.
+Durante la migrazione dei contenuti, puoi includere **expiryDate** e **uniqueContentId** nel file module_version.csv. In questo modo, è possibile garantire la continuità dei metadata quando si spostano i contenuti tra sistemi diversi.
 
 ### Segnalazione delle modifiche
 
-Two new columns, Content unique ID and Content Expiry Date, are now available in the Training Report. These fields help administrators monitor content expiration dates more effectively.
+Nel report del corso di formazione sono ora disponibili due nuove colonne, ID univoco del contenuto e Data di scadenza del contenuto. Questi campi consentono agli amministratori di monitorare in modo più efficace le date di scadenza dei contenuti.
 
 ## Ritiro di contenuti {#retirecontent}
 
-Una volta pubblicato un contenuto, non puoi eliminarlo. Devi prima ritirare il contenuto. Quando contrassegni un contenuto come Ritirato, il contenuto non è più visibile agli studenti. The content also moves to the **[!UICONTROL Retired]** section.
+Una volta pubblicato un contenuto, non puoi eliminarlo. Devi prima ritirare il contenuto. Quando contrassegni un contenuto come Ritirato, il contenuto non è più visibile agli studenti. Il contenuto viene spostato anche nella sezione **[!UICONTROL Ritirato]**.
 
 Per ritirare un contenuto, attieniti alla seguente procedura:
 
-* In **[!UICONTROL Content library]**, select the content you want to retire.
-* Select **[!UICONTROL Action]** and then select **[!UICONTROL Retire]**.
+* In **[!UICONTROL Libreria dei contenuti]**, seleziona i contenuti che desideri ritirare.
+* Seleziona **[!UICONTROL Azione]**, quindi seleziona **[!UICONTROL Ritira]**.
 
 I contenuti utilizzati negli oggetti di apprendimento non vengono modificati. Gli Allievi possono continuare ad accedere al contenuto.
 
 >[!NOTE]
 >
->You can also add content from the **[!UICONTROL Retired]** section, navigate to **[!UICONTROL Content Library]** and then select **[!UICONTROL Retired]**. Select **[!UICONTROL Add Content]**. For more details, see [Add static content](content-library.md#addstaticcontent).
+>Puoi anche aggiungere contenuti dalla sezione **[!UICONTROL Ritirato]**, passare alla **[!UICONTROL Libreria dei contenuti]** e selezionare **[!UICONTROL Ritirato]**. Selezionare **[!UICONTROL Aggiungi contenuto]**. Per ulteriori dettagli, vedere [Aggiungere contenuto statico](content-library.md#addstaticcontent).
 
 
 ## Ricerca dei contenuti {#searchforcontent}
@@ -588,25 +671,25 @@ Una volta che hai ritirato un contenuto, puoi decidere di ripubblicarlo e tornar
 Per ripubblicare il contenuto ritirato,
 
 1. Passa alla scheda **Ritirato** e seleziona il contenuto che desideri ripubblicare.
-1. Select **Action** > **Republish**.
+1. Seleziona **Azione** > **Ripubblica**.
 
 Il contenuto ora appare nell’elenco Pubblicato.
 
-## Update the content
+## Aggiornare il contenuto
 
-Authors can update the content in the published course.
-To update the content:
+Gli Autori possono aggiornare il contenuto nel corso pubblicato.
+Per aggiornare il contenuto:
 
-1. Login as an author.
-2. Select **[!UICONTROL Content Library]**.
-3. Search for the content and select **[!UICONTROL Edit]**.
-4. Remove older content and upload new file and publish.
+1. Accedi come autore.
+2. Selezionare **[!UICONTROL Libreria dei contenuti]**.
+3. Cerca il contenuto e seleziona **[!UICONTROL Modifica]**.
+4. Rimuovi il contenuto precedente e carica un nuovo file e pubblica.
 
-This will help learners get the latest version of the content.
+Questo aiuterà gli Allievi a ottenere la versione più recente del contenuto.
 
-Check out this [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) for more information.
+Per ulteriori informazioni, vedere questo [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
 
-### Content version control for learners who have completed a course
+### Controllo della versione dei contenuti per gli Allievi che hanno completato un corso
 
 Adobe Learning Manager ora offre agli autori opzioni più chiare per gestire gli aggiornamenti dei contenuti. Gli Autori possono aggiornare i contenuti già disponibili in un corso. Quando viene aggiunta una nuova versione, il numero di versione viene visualizzato accanto al contenuto.
 
@@ -632,7 +715,7 @@ Quando un amministratore fa clic su **[!UICONTROL Aggiorna]**, può scegliere tr
 * **[!UICONTROL Aggiornamento solo allievi non avviati]**: applica l’aggiornamento solo agli allievi che non hanno ancora iniziato il corso. Gli Allievi In corso e Completati rimangono sulla versione originale.
 
 ![](assets/version-control-options.png)
-_Content update options available in Update settings_
+_Opzioni di aggiornamento del contenuto disponibili in Impostazioni aggiornamento_
 
 
 ## Elimina contenuto {#deletecontent}
@@ -646,17 +729,17 @@ Ricorda che i corsi esistenti che utilizzano il contenuto eliminato dalla librer
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++ How to upload a SCORM content in Adobe Learning Manager?
++++ Come si carica un contenuto SCORM in Adobe Learning Manager?
 
-Crea un corso di e-learning conforme allo standard SCORM in qualsiasi strumento, ad esempio Adobe Captivate, e pubblica il contenuto come file zip. Then in Adobe Learning Manager, upload the zip file in the catalog, and set the completion and success criteria.
+Crea un corso di e-learning conforme allo standard SCORM in qualsiasi strumento, ad esempio Adobe Captivate, e pubblica il contenuto come file zip. Quindi in Adobe Learning Manager, carica il file zip nel catalogo e imposta i criteri di completamento e successo.
 +++
 
-+++How do I upload a new version of the same content to Adobe Learning Manager?
++++Come si carica una nuova versione dello stesso contenuto in Adobe Learning Manager?
 
-In Adobe Learning Manager, the content library also maintains versions of your uploaded contents. Se apporti modifiche al contenuto, ad esempio a una presentazione di PowerPoint, e carichi nuovamente la presentazione nella libreria, il numero di versione aumenta di un’unità. Questo ti aiuta a tenere traccia delle modifiche nel tuo contenuto. Una nuova versione del contenuto può essere applicata contemporaneamente a tutti gli oggetti di apprendimento oppure puoi applicare singoli aggiornamenti per ogni corso.
+In Adobe Learning Manager, la libreria dei contenuti conserva anche le versioni dei contenuti caricati. Se apporti modifiche al contenuto, ad esempio a una presentazione di PowerPoint, e carichi nuovamente la presentazione nella libreria, il numero di versione aumenta di un’unità. Questo ti aiuta a tenere traccia delle modifiche nel tuo contenuto. Una nuova versione del contenuto può essere applicata contemporaneamente a tutti gli oggetti di apprendimento oppure puoi applicare singoli aggiornamenti per ogni corso.
 +++
 
-+++How to edit the details of a course in a different language?
++++Come si modificano i dettagli di un corso in una lingua diversa?
 Dopo aver aggiunto una o più lingue, come descritto nella sezione precedente, fai clic sulla scheda di ciascuna lingua e aggiungi/modifica le informazioni sul corso.
 
 <!--![](assets/edit-course-language.png)-->

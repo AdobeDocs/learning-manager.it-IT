@@ -3,10 +3,10 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4636'
-ht-degree: 70%
+source-wordcount: '5322'
+ht-degree: 61%
 
 ---
 
@@ -479,6 +479,127 @@ Una volta effettuato l’accesso ai server FTP e Box e caricato il contenuto, i 
 
 *Percorsi CSV nell’account Box*
 
+## Migrazione per alternative ed equivalenti
+
+### Panoramica
+
+Questo argomento descrive il modello di dati basato su CSV e il comportamento di migrazione per l’introduzione dell’equivalenza degli oggetti di apprendimento (LO) nel sistema.
+
+### File CSV esistenti (contesto)
+
+Questi file CSV esistono già nella piattaforma e forniscono l’oggetto di apprendimento principale, il modulo e il contesto di completamento (elenco non esaustivo):
+
+* user_course_grade.csv
+* moduleversione
+* module.csv
+* course.csv
+* course_module.csv
+
+Questi file continuano a essere utilizzati così come sono e non vengono modificati dalla nuova funzione di equivalenza, ma formano i dati sottostanti su cui opererà l’equivalenza.
+
+### Nuovi file CSV per alternative
+
+Sono stati introdotti due nuovi CSV per supportare le relazioni alternative GLI e i relativi completamenti da parte degli utenti.
+
+#### &#x200B;1. equivalence_relations.csv
+
+Definisce le mappature di equivalenza tra gli oggetti di apprendimento (LO) di origine e di destinazione, che possono essere corsi o percorsi di apprendimento (LP).
+
+**Schema:**
+
+* sourceId
+* sourceloType (corso/programma di apprendimento)
+* targetId
+* targetLotype (corso/programma di apprendimento)
+* dateCreated
+* relationshipStatus (ACTIVE/DELETE)
+* dateModified
+
+**Scopo:**
+
+* Rappresenta una relazione di equivalenza tra due LO.
+* relationshipStatus controlla se la relazione è attualmente attiva o eliminata.
+* dateCreated e dateModified supportano il controllo.
+
+#### equivalence_user_completion.csv
+
+Acquisisce informazioni di completamento a livello di utente per oggetti di apprendimento equivalenti, in linea con le relazioni definite in equivalence_relations.csv.
+
+**Schema:**
+
+* userID
+* sourceId
+* sourceloType (corso/programma di apprendimento)
+* targetId
+* targetLotype (corso/programma di apprendimento)
+* dateCompleted
+
+**Scopo:**
+
+* Registra in modo esplicito quali **completamenti degli oggetti di apprendimento di destinazione** devono essere dedotti per un utente in base alla relazione di equivalenza e al completamento degli oggetti di apprendimento di origine esistenti.
+* Funge da **origine autorevole** per i completamenti dell&#39;utente associati ai dati equivalenti migrati.
+
+### Regole di migrazione e semantica comportamentale
+
+#### &#x200B;1. Nessun supporto Retrofit per i nuovi file CSV equivalenti
+
+* Tutti i dati relativi all’equivalenza devono essere inseriti tramite migrazione.
+* Il sistema non supporta scenari in cui:
+   * I dati LO (corsi/LP) sono stati creati tramite l’interfaccia utente e
+   * Le relazioni di equivalenza vengono successivamente importate solo tramite file CSV.
+
+Ciò significa che:
+
+* Il modello supportato è: le definizioni degli LO e le loro relazioni di equivalenza sono gestite come parte di un flusso di migrazione coerente.
+* I flussi ibridi in cui gli LO creati dall&#39;interfaccia utente vengono modificati con l&#39;equivalenza solo CSV non sono supportati.
+
+#### &#x200B;2. Nessun completamento/incompletamento retroattivo da relazioni migrate
+
+Quando viene introdotta una relazione di equivalenza tramite migrazione (ovvero tramite equivalence_relations.csv):
+
+* Il sistema non eseguirà calcoli retroattivi di completamento o incompletamento basati esclusivamente su tale relazione.
+* Al contrario, tutti i dati di completamento dell’utente richiesti devono essere forniti esplicitamente tramite equivalence_user_completion.csv.
+
+**Implicazione:**
+
+* equivalence_user_completion.csv è l&#39;unica fonte di verità per tutti i completamenti che devono essere riconosciuti al momento della migrazione come risultato dell&#39;equivalenza.
+* La piattaforma non tenterà di dedurre o riempire nuovamente tali completamenti dall’avanzamento del corso esistente.
+
+#### &#x200B;3. Comportamento per i nuovi completamenti dopo la migrazione
+
+Se:
+
+* Una relazione di equivalenza è stata creata tramite migrazione e
+* Un Allievo completa successivamente l’LO di origine (post-migrazione),
+
+quindi:
+
+* Il sistema attiverà completamenti alternativi per l’LO di destinazione, vale a dire che l’equivalenza si comporta normalmente in futuro per i completamenti di nuove sorgenti.
+
+**Distinzione chiave:**
+
+* **Al momento della migrazione:** i completamenti devono pervenire tramite equivalence_user_completion.csv.
+* **Dopo la migrazione:** la logica di runtime nativa gestirà i completamenti alternativi quando un oggetto di apprendimento di origine viene completato di recente.
+
+#### &#x200B;4. Impatto sugli oggetti di apprendimento di ordine superiore
+
+I completamenti alternativi in arrivo tramite CSV (ad esempio, tramite equivalence_user_completion.csv) attiveranno la ricalcolo degli LO di ordine superiore.
+
+Gli LO di ordine superiore possono includere:
+
+* Percorsi di apprendimento
+
+**Implicazioni tecniche:**
+
+* L&#39;assimilazione di equivalence_user_completion.csv non è un&#39;operazione &quot;invisibile&quot;: avvia la stessa logica di ricalcolo/rollup che verrebbe attivata dai normali completamenti in fase di runtime.
+* I sistemi che integrano o pianificano questa migrazione devono pianificare il carico e i tempi dei ricalcoli.
+
+## Webhook per alternative
+
+Quando un Allievo completa un corso tramite un’iscrizione alternativa o una relazione, Adobe Learning Manager genera un evento webhook dedicato distinto dal webhook di completamento del corso standard, che consente alle integrazioni di applicare una logica di gestione diversa per i completamenti alternativi. Gli eventi webhook vengono generati anche per il completamento retroattivo e l’incompletamento retroattivo, che coprono le modifiche storiche allo stato del corso, comprese quelle guidate dagli aggiornamenti delle relazioni, in modo che i sistemi esterni rimangano sincronizzati con lo stato di completamento corrente dell’Allievo.
+
+Per informazioni sui webhook per Alternative, visualizza [Webhook per Alternative](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-alternates)
+
 ## Procedura di migrazione di dati e contenuti {#dataandcontentmigrationprocedure}
 
 La procedura per migrare i contenuti e i dati LMS dell’azienda a Learning Manager viene illustrata di seguito:
@@ -789,3 +910,9 @@ Per ulteriori informazioni su questo argomento, consulta il seguente contenuto d
 
 * [Domande frequenti sul caricamento di CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Guida all’aggiunta di utenti](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
+
+## Modifiche API
+
+La versione di aprile 2026 di Adobe Learning Manager offre miglioramenti mirati all’API pubblica nelle aree delle alternative e degli equivalenti, dell’accesso ai contenuti con finestra di tempo, dei tentativi di quiz basati sui contenuti, delle esperienze degli Allievi non registrate e della gestione delle risorse formative. Questi aggiornamenti sono progettati per rimanere ampiamente compatibili con le versioni precedenti, consentendo al contempo modelli di integrazione più precisi ed estensibili.
+
+Per le modifiche API, visualizza [Modifiche API](/help/migrated/api-changes-alm.md).

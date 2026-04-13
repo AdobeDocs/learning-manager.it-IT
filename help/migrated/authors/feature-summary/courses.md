@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '7631'
-ht-degree: 75%
+source-wordcount: '8840'
+ht-degree: 65%
 
 ---
 
@@ -531,7 +531,9 @@ La valutazione è un aspetto importante di qualsiasi LMS. Le valutazioni online 
 
 Pensa ai dipendenti di un negozio o agli addetti al magazzino sottoposti a valutazione per le attività che dovrebbero svolgere quotidianamente. Potrebbe trattarsi dei passaggi da seguire per riparare una macchina da caffè o delle attività che riguardano l’imballaggio di un materiale. Gli Istruttori possono valutare i dipendenti per tali attività sulla base di un elenco di controllo e indicare se hanno superato o meno la valutazione.
 
-### Creazione di un elenco di controllo {#createachecklist}
+È possibile creare un elenco di controllo in più lingue.
+
+### Creare un elenco di controllo in più lingue {#createachecklist}
 
 Solo un Autore può creare un elenco di controllo. Un elenco di controllo è un tipo di modulo di attività. Durante l’impostazione di un modulo di attività, l’Autore può selezionare un’attività come **Elenco di controllo**, come illustrato di seguito:
 
@@ -539,9 +541,26 @@ Solo un Autore può creare un elenco di controllo. Un elenco di controllo è un 
 
 *Creare un elenco di controllo*
 
-Dopo aver scelto l’opzione **Elenco di controllo**, visualizzerai alcune opzioni aggiuntive.
+1. Dopo aver scelto l’opzione **Elenco di controllo**, visualizzerai alcune opzioni aggiuntive.
 
-**Tipo elenco di controllo:** scegli un’opzione, **Sì/No** oppure **1-5**. Se scegli Sì/No, l’elenco di controllo conterrà domande a cui è possibile rispondere solo con sì o no. Se scegli 1-5, puoi visualizzare un elenco di controllo Likert, in cui puoi valutare una domanda su una scala di cinque punti.
+2. **Tipo elenco di controllo:** scegli un’opzione, **Sì/No** oppure **1-5**. Se scegli Sì/No, l’elenco di controllo conterrà domande a cui è possibile rispondere solo con sì o no. Se scegli 1-5, puoi visualizzare un elenco di controllo Likert, in cui puoi valutare una domanda su una scala di cinque punti.
+
+3. Selezionare **Configura**. Viene visualizzata la finestra Elenco di controllo.
+4. Inserisci tutte le domande che desideri. Puoi inserire le stesse domande anche nelle lingue aggiuntive.
+
+   ![](assets/multi-lang-support-for-checklists2.png)
+   *Sono disponibili altre lingue*
+
+   ![](assets/multi-lang-support-for-checklists3.png)
+   *Ad esempio, le domande vengono immesse anche in francese*
+
+   >[!NOTE]
+   >
+   >ALM non traduce automaticamente le domande in queste lingue aggiuntive. Devi tradurre le domande nelle rispettive lingue.
+
+5. Seleziona **Salva**. Le domande vengono salvate in tutte le lingue.
+6. Seleziona tutte le altre opzioni pertinenti e seleziona **Aggiungi**. L’elenco di controllo viene creato in tutte le lingue in cui è disponibile il corso.
+
 
 **Criteri di superamento:**
 
@@ -573,6 +592,8 @@ Ora aggiungi le domande dell’elenco di controllo. Fai clic su **[!UICONTROL Ag
 *Aggiungi domande all&#39;elenco di controllo*
 
 Per aggiungere altre domande, fai clic su **[!UICONTROL Aggiungi altro]**.
+
+
 
 Salva le modifiche, aggiungi il modulo e pubblica il corso.
 
@@ -617,6 +638,218 @@ Inserisci i seguenti dettagli su questa pagina:
    *Assegnare un ruolo di istruttore a un utente*
 
 1. Per ripubblicare il corso con gli aggiornamenti, fai clic su **[!UICONTROL Ripubblica]**.
+
+### Elenco di controllo con commenti
+
+
+La creazione di commenti nell&#39;elenco di controllo consente agli autori di abilitare il **feedback contestuale** durante le valutazioni basate sull&#39;elenco di controllo.\
+Quando questa opzione è attivata, i revisori (istruttori o manager) possono aggiungere commenti per spiegare i risultati della valutazione oltre i punteggi o lo stato di superamento/errore.
+
+Questa funzionalità trasforma gli elenchi di controllo da strumento puramente valutativo a **meccanismo di apprendimento basato sul feedback**, migliorando la comprensione degli Allievi, la trasparenza e le azioni di follow-up.
+
+In questo modo, gli autori possono:
+
+* Abilitare i commenti dei revisori negli elenchi di controllo
+* Controllare se i commenti sono visibili agli Allievi
+* Controlla se il nome del revisore viene mostrato agli Allievi
+* Assicurati che i commenti dei revisori vengano acquisiti nelle trascrizioni e nei report degli allievi
+
+#### Casi d’uso
+
+#### Valutazione delle prestazioni
+
+Fornire un feedback chiaro sui punti di forza, le lacune e le aree di miglioramento osservati durante le valutazioni reali o basate sui ruoli.
+
+#### Formazione con istruttore e VILT
+
+Consenti agli istruttori di spiegare perché un Allievo ha superato o meno una valutazione basata su un elenco di controllo.
+
+#### Scenari di conformità e audit
+
+Gestire una traccia verificabile che spieghi le decisioni relative alla valutazione dell&#39;elenco di controllo.
+
+#### Ambienti con più revisori
+
+Aiuta gli Allievi a identificare chi li ha valutati e segui per ottenere chiarimenti.
+
+#### Abilita commenti elenco di controllo
+
+1. Aprire un corso esistente o crearne uno nuovo.
+2. Aggiungi un modulo elenco di controllo o apri un modulo elenco di controllo esistente per la modifica.
+3. Nel pannello di configurazione dell’elenco di controllo:
+   1. Selezionare **Note revisore**. Durante la revisione dell’elenco di controllo, i revisori possono aggiungere le proprie osservazioni o feedback. Dopo la pubblicazione, questa impostazione non può essere modificata.
+   2. (Facoltativo) Seleziona **Mostra il nome del revisore all’Allievo**. Ciò consente agli Allievi di visualizzare il nome del revisore che ha rivisto il modulo dell’elenco di controllo.
+4. Salva la configurazione dell’elenco di controllo.
+5. Publish il corso per rendere l’elenco di controllo disponibile per le valutazioni.
+
+L’elenco di controllo ora supporta i commenti del revisore durante la valutazione dell’Allievo.
+
+#### Cosa succede durante la valutazione
+
+Sebbene gli autori non eseguano valutazioni, è utile comprendere come viene utilizzata la configurazione:
+
+* I revisori visualizzano un **campo Commenti** durante la valutazione degli Allievi
+* I revisori possono aggiungere commenti contestuali durante l’invio
+* Se abilitato:
+   * Gli Allievi visualizzano i commenti dei revisori
+   * Gli allievi visualizzano il nome del revisore
+
+#### Esperienza Allievo (se attivata)
+
+* Quando gli Allievi aprono un elenco di controllo completato:
+* Viene visualizzato il risultato dell’elenco di controllo (esito positivo/negativo o punteggio).
+* Vengono visualizzati i commenti dei revisori (se attivati)
+* Viene visualizzato il nome del revisore (se abilitato).
+
+Ciò aiuta gli Allievi a comprendere chiaramente i risultati della valutazione e i passaggi successivi.
+
+#### Note chiave per gli autori
+
+* Il commento dell&#39;elenco di controllo è **facoltativo** e deve essere abilitato in modo esplicito
+* La visibilità dei commenti e l&#39;identità del revisore è **completamente controllata dall&#39;autore**
+* Compatibile con:
+   * Revisori singoli o multipli
+   * Elenchi di controllo basati su punteggio, Sì/No e ridimensionati
+* Nessun impatto sugli elenchi di controllo esistenti a meno che non vengano aggiornati dall&#39;autore
+
+### Creare un elenco di controllo multilingue
+
+Il supporto multilingue per gli elenchi di controllo consente agli autori di creare **un singolo modulo elenco di controllo con domande disponibili in più lingue**.\
+Quando questa opzione è attivata, i revisori visualizzano automaticamente le domande dell&#39;elenco di controllo nella **lingua del contenuto selezionata**, garantendo valutazioni coerenti e localizzate tra team globali.
+
+In questo modo si elimina la necessità di creare e gestire **elenchi di controllo separati per lingua**, riducendo la duplicazione e semplificando la manutenzione dei corsi.
+
+Grazie al supporto di elenchi di controllo multilingue, gli autori possono:
+
+* Aggiungi domande dell&#39;elenco di controllo in più lingue all&#39;interno dello stesso elenco di controllo
+* Mantenere la parità di lingua tra le domande dell&#39;elenco di controllo
+* Verificare che i revisori vedano le domande dell&#39;elenco di controllo localizzate automaticamente nella lingua del contenuto
+* Scarica report elenco di controllo nella lingua selezionata
+
+#### Casi d’uso
+
+#### Valutazioni globali della forza lavoro
+
+Consentire ai manager e agli istruttori di tutte le aree geografiche di valutare gli Allievi utilizzando le domande dell’elenco di controllo localizzato.
+
+#### Valutazioni standardizzate tra le aree geografiche
+
+Mantenere un&#39;unica struttura di valutazione, supportando più lingue per aree geografiche diverse.
+
+#### Addestramento operativo e sulla conformità
+
+Assicurati che i valutatori comprendano chiaramente i criteri della lista di controllo nella loro lingua nativa, riducendo gli errori di interpretazione.
+
+#### Riduzione della duplicazione dei contenuti
+
+Evitare di creare e gestire più moduli di elenchi di controllo per lingue diverse.
+
+#### Come creare un elenco di controllo multilingue
+
+1. Aprire un corso esistente o crearne uno nuovo.
+2. Aggiungi un modulo elenco di controllo.
+3. Nelle impostazioni del corso, aggiungi le **lingue dei contenuti** richieste (ad esempio, inglese, francese, tedesco).
+4. Salva la configurazione del corso.
+
+#### Come configurare le domande dell’elenco di controllo in più lingue
+
+1. Apri la configurazione del modulo elenco di controllo.
+2. Passa alla sezione **Configurare le domande**.
+3. Utilizzare le **schede della lingua** per passare da una lingua all&#39;altra.
+4. Per ogni lingua:
+   * Aggiungi la versione tradotta di ogni domanda dell’elenco di controllo
+   * Mantenere un significato e un intento di valutazione equivalenti in più lingue
+5. Definire i criteri dell&#39;elenco di controllo (Sì/No, basato su scala o su punteggio) in base alle esigenze.
+
+Ogni versione della lingua rappresenta lo stesso elenco di controllo, non un modulo separato.
+
+Salva la configurazione dell’elenco di controllo e pubblica il corso. L’elenco di controllo è ora disponibile in tutte le lingue configurate.
+
+#### Esperienza del revisore
+
+* I revisori visualizzano le domande dell&#39;elenco di controllo in **lingua del contenuto selezionato**
+* Durante la valutazione non è necessario cambiare lingua manualmente
+* Se un revisore cambia la lingua del contenuto, le domande dell’elenco di controllo si adattano automaticamente
+
+### Assegna pesi alle domande dell’elenco di controllo
+
+La ponderazione delle domande negli elenchi di controllo consente agli autori di creare **elenchi di controllo basati su punteggi** in cui singole domande degli elenchi di controllo possono avere **punteggi massimi diversi**.
+
+Invece di trattare tutti gli elementi dell’elenco di controllo allo stesso modo, gli Autori possono definire domande ponderate e impostare un **punteggio totale minimo** richiesto per il superamento di un Allievo.
+
+Questa funzionalità consente valutazioni più accurate e flessibili, in particolare per la **formazione basata sulle prestazioni, basata sulla valutazione e orientata alla conformità**.
+
+Con la ponderazione delle domande nell’elenco di controllo, gli autori possono:
+
+* Crea un **tipo di elenco di controllo basato su punteggio**
+* Assegna **punteggi massimi** diversi alle singole domande dell&#39;elenco di controllo
+* Definisci un **punteggio totale minimo** necessario per superare l&#39;elenco di controllo
+* Usa una scala di punteggio estesa (intervallo configurabile fino a 10)
+* Visualizzare il punteggio ottenuto rispetto al punteggio massimo nei report
+
+#### Casi d’uso
+
+#### Valutazioni con istruttore
+
+Valutare gli Allievi utilizzando criteri di punteggio dettagliati anziché semplici risultati Sì/No.
+
+#### POS e formazione operativa
+
+Assegnare un peso maggiore alle fasi critiche e un peso inferiore alle attività minori.
+
+#### Conformità e preparazione alla certificazione
+
+Assicurati che gli Allievi soddisfino una soglia di competenza minima definita prima di passare.
+
+#### Analisi comparativa delle competenze e delle prestazioni
+
+Sostenere valutazioni strutturate in cui il completamento parziale contribuisce ancora al punteggio complessivo.
+
+#### Come creare un elenco di controllo ponderato
+
+1. Aprire un corso esistente o crearne uno nuovo.
+2. Aggiungi un modulo elenco di controllo o apri un modulo elenco di controllo esistente per la modifica.
+3. Nel pannello Configurazione elenco di controllo, scegli il tipo di elenco di controllo **Punteggio personalizzato**.
+4. Ciò consente di abilitare il punteggio per domanda e il calcolo del punteggio totale.
+5. Aggiungi le domande dell’elenco di controllo in base alle esigenze.
+6. Per ogni domanda:
+   * Definisci il **punteggio massimo** (ad esempio, 5, 10, 20)
+7. Assicurati che i punteggi delle domande riflettano la loro importanza relativa.
+
+Domande diverse possono avere punteggi massimi diversi all’interno dello stesso elenco di controllo.
+
+#### Definire i criteri di superamento
+
+1. Specificare il **punteggio totale minimo** necessario per superare l&#39;elenco di controllo. Il sistema calcola automaticamente il punteggio totale possibile in base alla ponderazione delle domande.
+2. Salva la configurazione dell’elenco di controllo e pubblica il corso.
+
+L’elenco di controllo è ora abilitato con il punteggio ponderato per le valutazioni degli istruttori.
+
+#### Esperienza del revisore
+
+* I revisori visualizzano ogni domanda dell&#39;elenco di controllo con **punteggio massimo**
+* I revisori assegnano punteggi per domanda durante la valutazione
+* Il sistema calcola:
+   * Punteggio totale ottenuto
+   * Stato di superamento o di non superamento in base a criteri definiti
+
+#### Esperienza dell’Allievo
+
+* Gli Allievi visualizzano lo stato di completamento dell’elenco di controllo (esito positivo/negativo)
+* Se questa opzione è attivata, gli allievi possono anche visualizzare:
+   * Commenti del revisore
+   * Nome revisore
+* La logica di assegnazione del punteggio viene applicata in modo coerente nelle valutazioni
+
+#### Note per gli autori
+
+* Gli elenchi di controllo ponderati sono più adatti per **valutazioni formali**
+* I punteggi delle domande devono essere calibrati con attenzione per evitare risultati distorti
+* Compatibile con:
+   * Revisori singoli o multipli
+   * Commenti del revisore (se attivato)
+* Gli elenchi di controllo esistenti non sono interessati a meno che non vengano aggiornati esplicitamente.
+
 
 ### Consenti agli istruttori di contrassegnare l’esito positivo
 
@@ -857,7 +1090,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
 
-Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/it/captivate/classic/publish-project-to-captivate-prime.html).
+Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacia del corso {#courseeffectiveness}
 
