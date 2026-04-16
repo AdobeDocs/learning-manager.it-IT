@@ -3,15 +3,17 @@ description: Illustra come Experience Builder può pubblicare pagine di apprendi
 jcr-language: en_us
 title: Configurare e gestire le pagine senza accesso in Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: ef6f7a9acd27b7fb4c08fe9a8b366d628d199050
+source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
 workflow-type: tm+mt
-source-wordcount: '6051'
+source-wordcount: '6058'
 ht-degree: 1%
 
 ---
 
 
-# Introduzione
+# Esperienza senza accesso in Experience Builder
+
+## Introduzione
 
 L’esperienza senza accesso in Experience Builder consente alle organizzazioni di visualizzare i contenuti di apprendimento e le pagine del portale a tutti i visitatori, inclusi quelli che non hanno effettuato l’accesso. Questa funzione è progettata per attirare, informare e coinvolgere i potenziali Allievi offrendo un’anteprima fluida e con marchio delle offerte di formazione prima di richiedere l’accesso o l’iscrizione.
 
@@ -29,7 +31,7 @@ Il branding e la localizzazione sono completamente supportati e consentono di pe
 
 L’esperienza senza accesso in Experience Builder consente alle organizzazioni di mostrare pubblicamente i contenuti di apprendimento e le pagine del portale a chiunque, senza richiedere agli utenti di accedere. Questo consente di attirare, informare e coinvolgere i potenziali Allievi fornendo un’anteprima dei corsi di formazione e delle risorse disponibili prima che sia necessaria l’iscrizione o l’autenticazione.
 
-## Casi d&#39;uso reali su esperienze senza accesso
+## Casi d&#39;uso reali di esperienza senza accesso
 
 - **Marketing e sensibilizzazione**: le organizzazioni possono promuovere i propri programmi di formazione a un pubblico esterno, ad esempio potenziali clienti, partner o candidati, rendendo pubblicamente accessibili i cataloghi dei corsi e i dettagli dei programmi.
 - **Esplorazione pre-iscrizione**: gli Allievi possono sfogliare i corsi disponibili, visualizzare le panoramiche ed esplorare le categorie prima di decidere di iscriversi o accedere, aiutandoli a prendere decisioni consapevoli in merito all’iscrizione.
