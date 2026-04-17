@@ -3,9 +3,9 @@ title: Creare e personalizzare un certificato
 description: I certificati personalizzati in Adobe Learning Manager (ALM) consentono ad amministratori e autori di progettare, gestire ed emettere certificati personalizzati per gli Allievi.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 54755d739e7f7396f7a9adc28b413cf69af189cc
+source-git-commit: 0d4e8f06c3a9a3dcd6461036ec7fbfa4a54c0b58
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2845'
 ht-degree: 0%
 
 ---
@@ -240,6 +240,30 @@ Questo vale per la sanità, la finanza, la pubblica amministrazione e altri sett
 - Gli amministratori possono passare a modelli basati su progettazioni nel tempo, a partire da programmi ad alta priorità.
 - Se la migrazione non può mantenere una mappatura (ad esempio, i distintivi disattivati a metà percorso), il sistema torna al modello predefinito globale in modo che gli allievi non vengano bloccati.
 
+## Eccezioni di cui tenere conto quando si utilizzano certificati personalizzati
+
+L’esperienza di creazione di certificati personalizzata introdotta in M45 amplia le modalità di creazione e gestione dei certificati. Le seguenti eccezioni si applicano quando si utilizzano certificati creati prima di questa versione:
+
+### I certificati esistenti vengono mantenuti ma non modificabili
+
+I certificati creati prima di M45 e già associati agli oggetti di apprendimento vengono migrati automaticamente. Questi certificati continuano a essere rilasciati per gli oggetti di apprendimento esistenti. Dopo la migrazione, sono disponibili in modalità di sola lettura. Non è possibile modificarne il layout o il contenuto.
+
+Per aggiornare le progettazioni dei certificati, creare un nuovo modello di certificato utilizzando l&#39;editor di certificati personalizzato.
+
+### I nuovi oggetti di apprendimento utilizzano i certificati appena creati
+
+Gli oggetti di apprendimento creati dopo la versione di aprile 2026 devono utilizzare certificati creati tramite il nuovo editor. I certificati migrati non sono disponibili per la selezione durante la configurazione di nuovi oggetti di apprendimento.
+
+Gli amministratori possono creare nuovi certificati e impostarli come predefiniti in modo da semplificare il riutilizzo.
+
+### È necessario abilitare certificati e distintivi durante la creazione
+
+Gli Autori devono abilitare esplicitamente i certificati o i distintivi per ogni oggetto di apprendimento. In questo modo i certificati vengono rilasciati solo per gli oggetti di apprendimento a cui sono destinati.
+
+### La creazione del certificato richiede una configurazione singola
+
+Le organizzazioni che utilizzano certificati per più oggetti di apprendimento devono pianificare il tempo necessario per ricreare i modelli utilizzati più di frequente. L&#39;editor di trascinamento è stato progettato per rendere questo processo rapido e coerente.
+
 ## Creare un certificato personalizzato
 
 1. Accedi a Adobe Learning Manager come **Amministratore**.
@@ -261,8 +285,8 @@ Questo vale per la sanità, la finanza, la pubblica amministrazione e altri sett
 8. Nel menu a discesa, seleziona una lingua predefinita.
 9. Selezionare **Crea**. Se si sceglie il modello vuoto, sotto il nome del certificato verrà visualizzata un&#39;area di lavoro vuota.
 10. Aggiungi elementi: **Testo**, **Immagine**, **Valore dinamico** e **Sfondo certificato**.
-    ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Aggiungere elementi al certificato*
+   ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Aggiungere elementi al certificato*
 
 11. Per **Testo**, aggiungi contenuto sotto **Testo preformattato** o **Modelli di testo** oppure testo personalizzato. Il testo viene visualizzato nell&#39;area di lavoro. Quando il testo è selezionato, le opzioni di formattazione vengono visualizzate sopra l&#39;area di lavoro. Per rimuovere i contenuti non desiderati, seleziona l&#39;icona **Elimina** nell&#39;angolo superiore destro dell&#39;area di lavoro.
 12. Per aggiungere le immagini, seleziona **Immagine** accanto a **Aggiungi elementi**. Carica immagini dal computer o seleziona immagini dagli elenchi delle categorie.
@@ -270,12 +294,12 @@ Questo vale per la sanità, la finanza, la pubblica amministrazione e altri sett
 14. Seleziona **Sfondo certificato** per applicare colori o immagini. Per creare immagini con Adobe Firefly, selezionare **Genera immagine**.
 15. Nel campo Prompt, descrivi ciò che desideri (fino a 100 caratteri) e seleziona **Genera**. In base al messaggio, vengono visualizzate quattro opzioni per l’immagine.
 16. Selezionare l&#39;immagine desiderata. Viene applicato come sfondo del certificato.
-    ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Aggiungi immagine al certificato*
+   ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Aggiungi immagine al certificato*
 
 17. Seleziona **Anteprima** per rivedere il certificato prima della pubblicazione. In questo modo è possibile comprendere l’aspetto del certificato.
-    ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Anteprima del certificato*
+   ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Anteprima del certificato*
 
 18. Nell’anteprima, puoi salvare su Google Drive, scaricare, stampare o utilizzare altre opzioni, come le proprietà di annotazione o del documento.
 19. Seleziona **Salva come bozza** per continuare in un secondo momento oppure seleziona **Publish** per pubblicare il certificato. Dopo la pubblicazione, gli Allievi possono scaricare il certificato quando soddisfano l’obiettivo intermedio configurato.
