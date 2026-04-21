@@ -3,9 +3,9 @@ title: Creare e personalizzare un certificato
 description: I certificati personalizzati in Adobe Learning Manager (ALM) consentono ad amministratori e autori di progettare, gestire ed emettere certificati personalizzati per gli Allievi.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 0d4e8f06c3a9a3dcd6461036ec7fbfa4a54c0b58
+source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ I certificati personalizzati in Adobe Learning Manager cambiano il modo in cui g
 Gli amministratori possono:
 
 - Progettare i certificati in un editor visivo in stile area di lavoro anziché scrivere codice.
-- Allega certificati a corsi, percorsi di apprendimento e certificazioni con impostazioni predefinite flessibili.
+- Allegare certificati ai corsi con impostazioni predefinite flessibili.
 - Utilizza sfondi generativi basati sull&#39;Adobe Firefly tenendo conto delle esigenze di marchio e conformità.
 
   >[!NOTE]
@@ -285,8 +285,8 @@ Le organizzazioni che utilizzano certificati per più oggetti di apprendimento d
 8. Nel menu a discesa, seleziona una lingua predefinita.
 9. Selezionare **Crea**. Se si sceglie il modello vuoto, sotto il nome del certificato verrà visualizzata un&#39;area di lavoro vuota.
 10. Aggiungi elementi: **Testo**, **Immagine**, **Valore dinamico** e **Sfondo certificato**.
-    ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Aggiungere elementi al certificato*
+   ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Aggiungere elementi al certificato*
 
 11. Per **Testo**, aggiungi contenuto sotto **Testo preformattato** o **Modelli di testo** oppure testo personalizzato. Il testo viene visualizzato nell&#39;area di lavoro. Quando il testo è selezionato, le opzioni di formattazione vengono visualizzate sopra l&#39;area di lavoro. Per rimuovere i contenuti non desiderati, seleziona l&#39;icona **Elimina** nell&#39;angolo superiore destro dell&#39;area di lavoro.
 12. Per aggiungere le immagini, seleziona **Immagine** accanto a **Aggiungi elementi**. Carica immagini dal computer o seleziona immagini dagli elenchi delle categorie.
@@ -294,12 +294,12 @@ Le organizzazioni che utilizzano certificati per più oggetti di apprendimento d
 14. Seleziona **Sfondo certificato** per applicare colori o immagini. Per creare immagini con Adobe Firefly, selezionare **Genera immagine**.
 15. Nel campo Prompt, descrivi ciò che desideri (fino a 100 caratteri) e seleziona **Genera**. In base al messaggio, vengono visualizzate quattro opzioni per l’immagine.
 16. Selezionare l&#39;immagine desiderata. Viene applicato come sfondo del certificato.
-    ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Aggiungi immagine al certificato*
+   ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Aggiungi immagine al certificato*
 
 17. Seleziona **Anteprima** per rivedere il certificato prima della pubblicazione. In questo modo è possibile comprendere l’aspetto del certificato.
-    ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Anteprima del certificato*
+   ![Creazione di un certificato personalizzato](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Anteprima del certificato*
 
 18. Nell’anteprima, puoi salvare su Google Drive, scaricare, stampare o utilizzare altre opzioni, come le proprietà di annotazione o del documento.
 19. Seleziona **Salva come bozza** per continuare in un secondo momento oppure seleziona **Publish** per pubblicare il certificato. Dopo la pubblicazione, gli Allievi possono scaricare il certificato quando soddisfano l’obiettivo intermedio configurato.

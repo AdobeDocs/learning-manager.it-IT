@@ -2,13 +2,13 @@
 description: Informazioni sulle Trascrizioni Allievi
 jcr-language: en_us
 title: Modifiche alle Trascrizioni Allievi
-source-git-commit: cd0737061029e75953fa23cf3d12409b1407772a
+exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
+source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
-
 
 # Modifiche alle Trascrizioni Allievi nella versione di aprile
 
@@ -80,9 +80,11 @@ Se l’Allievo ha un completamento diretto, la revoca delle origini alternative 
 
 ## Report migliorati per le osservazioni del revisore dell’elenco di controllo
 
-I commenti dei revisori dei moduli dell’elenco di controllo sono ora inclusi nel report Trascrizione Allievo in una colonna rinominata, **Note del revisore**.
+Questa modifica si applica in modo uniforme a tutte le origini Admin LT (esportazioni dell&#39;interfaccia utente, report delle API dei processi e connettori, se applicabile). LT esportato dal connettore presenterà le osservazioni di Reviewer come colonna dedicata alla fine (per i connettori che non hanno esposto in precedenza il commento Invio), garantendo che le integrazioni a valle possano distinguere il feedback del revisore dagli altri commenti.
 
-**Impatto**: consente agli Allievi e agli Amministratori di visualizzare il feedback consolidato, migliorando la trasparenza e supportando la valutazione delle prestazioni.
+>[!NOTE]
+>
+>Per le Trascrizioni allievi per gli allievi, la colonna precedentemente denominata **Commento di invio** è stata rinominata **Commenti del revisore** e compilata con il commento del revisore dell’elenco di controllo quando è stata abilitata.
 
 ## Calcolo del tempo di apprendimento migliorato
 
