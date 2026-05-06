@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
 workflow-type: tm+mt
-source-wordcount: '29372'
-ht-degree: 76%
+source-wordcount: '29433'
+ht-degree: 75%
 
 ---
 
@@ -24,6 +24,18 @@ ht-degree: 76%
  </tbody>
 </table>
 -->
+
++++Aggiornamento 106: versione di aprile 2026 di Adobe Learning Manager
+
+Data di pubblicazione: 30 aprile 2026
+
+## Bug corretto
+
+**Sovrascrittura VTT bloccata dal limite di caratteri:** È stato risolto un problema a causa del quale l&#39;utente non era in grado di sovrascrivere il file VTT generato automaticamente da ALM a causa del limite di caratteri nella modalità di revisione/modifica. Il limite di caratteri è stato ora portato a un milione in modalità di modifica VTT.
+
+
++++
+
 
 +++Aggiornamento 105: versione di aprile 2026 di Adobe Learning Manager
 

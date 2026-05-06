@@ -4,20 +4,26 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '15959'
+source-wordcount: '15927'
 ht-degree: 72%
 
 ---
 
 # Connettori Learning Manager
 
+## Introduzione
+
 Le aziende usano altre applicazioni e altri sistemi che devono essere integrati con Learning Manager. I connettori sono utilità di supporto all’implementazione di integrazioni basate sui dati, come l’importazione di dati in Learning Manager da sistemi esterni.  e all’esportazione di dati in sistemi esterni da Learning Manager.
 
 Learning Manager fornisce connettori Salesforce e FTP. Tramite il connettore Salesforce, gli Amministratori di integrazione di un’organizzazione possono integrare l’applicazione Salesforce con Learning Manager. Come integratore, puoi utilizzare il connettore FTP per importare automaticamente un set di utenti nell’applicazione aziendale.
 
 Learning Manager offre inoltre connettori Lynda, getAbstract e Harvard Management System. Questi connettori consentono agli allievi di accedere e seguire i corsi messi a disposizione da Lynda.com, getAbstract e Harvard ManageMentor.
+
+>[!NOTE]
+>
+>Questa funzione è parzialmente disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 Continua a leggere per scoprire come configurare e utilizzare ciascuno di questi connettori in Learning Manager.
 
@@ -668,11 +674,11 @@ Il connettore getAbstract viene utilizzato dai clienti enterprise di getAbstract
 
 1. Se devi configurare il connettore getAbstract per la prima volta, fai clic su Connetti.
 
-   <!--
-Configura l’account FTP Exavault prima di configurare il connettore.
+<!--
+Configure the Exavault FTP account before you configure this connector.
 
-Assicurati di condividere le credenziali FTP con il tuo fornitore di contenuti per accedere ai feed.
--->
+   Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. Immetti un nome per la connessione nel campo Nome connessione.
 
@@ -732,11 +738,11 @@ Il connettore Harvard ManageMentor viene utilizzato dai clienti enterprise di Ha
 
 1. Se devi configurare il connettore Harvard ManageMentor per la prima volta, fai clic su Connetti.
 
-   <!--
-Configura l’account FTP Exavault prima di configurare il connettore.
+<!--
+Configure the Exavault FTP account before you configure this connector.
 
-Assicurati di condividere le credenziali FTP con il tuo fornitore di contenuti per accedere ai feed.
--->
+Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. Immetti un nome per la connessione nel campo Nome connessione. Fai clic su Connetti per salvare la connessione.
 1. Se disponi già di una connessione configurata, nella home page fai clic su Harvard ManageMentor > Gestione connessioni. Fai clic sulla connessione di cui desideri modificare la connessione esistente.
@@ -1006,7 +1012,7 @@ Il processo di importazione degli utenti consente all’Amministratore Learning 
 
 L’Amministratore Learning Manager può applicare filtri agli utenti prima di importarli. Ad esempio, può scegliere di importare tutti gli utenti della gerarchia sotto uno o più Manager specifici.
 
-Per configurare   miniOrange   contatta il team CSM di Learning Manager.
+Per configurare il connettore miniOrange, contatta il team CSM di Learning Manager.
 
 ### Configurazione del connettore miniOrange {#configure-mini-orange-connector}
 
@@ -1028,7 +1034,7 @@ Per configurare   miniOrange   contatta il team CSM di Learning Manager.
 
    *Importazione di utenti interni*
 
-1. Nella pagina di mappatura, a sinistra   sono visualizzate le colonne di Learning Manager, mentre a destra   sono visualizzate le colonne miniOrange. Seleziona un nome appropriato per la colonna, mappato al nome della colonna di Learning Manager.
+1. Le colonne di Learning Manager sono visualizzate nella parte sinistra della pagina di mappatura, quelle di MiniOrnage nella parte destra. Seleziona un nome appropriato per la colonna, mappato al nome della colonna di Learning Manager.
 
    ![](assets/map-attributes.png)
 
@@ -1165,7 +1171,7 @@ L’opzione di importazione utente interno consente di pianificare automaticamen
 
 Una volta stabilita la connessione, puoi mappare le colonne dei file CSV che si trovano nella cartella Box agli attributi corrispondenti di Learning Manager. Questo passaggio è obbligatorio.
 
-1. Nella pagina Mappa attributi, a sinistra   sono visualizzate le colonne previste di Learning Manager, mentre sul lato destro   sono visualizzati i nomi delle colonne CSV. Inizialmente, sul lato destro viene visualizzata una casella di selezione vuota. Importa un qualsiasi modello CSV facendo clic su Scegli file.
+1. Nella pagina Mapping attributi, le colonne previste di Learning Manager sono visualizzate a sinistra, i nomi delle colonne CSV destra. Inizialmente, sul lato destro viene visualizzata una casella di selezione vuota. Importa un qualsiasi modello CSV facendo clic su Scegli file.
 1. Il passaggio precedente consente di compilare l’elenco a discesa di selezione sulla destra con tutti i nomi delle colonne CSV. Seleziona un nome appropriato per la colonna, mappato al nome della colonna di Learning Manager.
 
    *Il campo Manager deve essere mappato a un campo di tipo indirizzo e-mail. Prima di poter utilizzare il connettore è necessario mappare tutte le colonne.*
@@ -1832,7 +1838,7 @@ Per configurare il connettore ADFS , contatta il team CSM di Learning Manager.
 
    *Importa utente in Learning Manager*
 
-1. Nella pagina di mappatura, a sinistra   sono visualizzate le colonne di Learning Manager, mentre a destra   sono visualizzate le colonne di ADFS. Seleziona un nome appropriato per la colonna, mappato al nome della colonna di Learning Manager.
+1. Le colonne di Learning Manager sono visualizzate nella parte sinistra della pagina di mappatura, quelle di ADFS nella parte destra. Seleziona un nome appropriato per la colonna, mappato al nome della colonna di Learning Manager.
 
    ![](assets/adfs4.jpg)
 

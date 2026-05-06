@@ -3,18 +3,22 @@ jcr-language: en_us
 title: Dashboard di Group Success
 description: Ulteriori informazioni sulla dashboard di Group Success in Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
 # Dashboard di Group Success
 
-## Panoramica del dashboard di Group Success
+## Introduzione
 
 La Dashboard di successo dei gruppi (GSD) in Adobe Learning Manager consente agli amministratori e ai manager di monitorare i progressi degli Allievi in tempo quasi reale (60 minuti di ritardo dall’iscrizione, dall’avanzamento o dal completamento alla riflessione sul dashboard) in tutti i reparti o gruppi di utenti. Supporta il tracciamento proattivo del completamento del corso, l’iscrizione e le azioni in sospeso, semplificando la gestione dell’apprendimento per i team. Per ulteriori informazioni sui gruppi di utenti, consulta questo [articolo](/help/migrated/administrators/feature-summary/add-users-user-groups.md).
+
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Principali casi d’uso
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
 workflow-type: tm+mt
-source-wordcount: '8840'
+source-wordcount: '8841'
 ht-degree: 65%
 
 ---
@@ -80,9 +80,9 @@ Per creare un corso, procedi nel seguente modo:
    Puoi attivare l’opzione per i seguenti tipi di corso:
 
    * Autonomo
+   * Classe virtuale
    * Aula
    * Activity
-   * Misto
 
    Nota: durante la duplicazione di un corso, se hai abilitato l’opzione Configurazione istanza nel corso di origine, l’opzione rimane disabilitata nel corso di destinazione.
 

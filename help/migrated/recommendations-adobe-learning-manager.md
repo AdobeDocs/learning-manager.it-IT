@@ -2,14 +2,16 @@
 title: Consigli in Adobe Learning Manager
 description: Il nucleo del motore di consigli è basato sul nuovo algoritmo di classificazione dei corsi di Learning Manager. L’algoritmo utilizza 50 milioni di punti dati e cinque anni di dati di apprendimento aggregati su milioni di utenti per classificare i corsi in base alla probabilità di iscrizione. Questa classificazione garantisce che la maggior parte dei corsi a cui è possibile effettuare l’iscrizione sia visualizzata in anticipo agli Allievi.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 58%
+source-wordcount: '1514'
+ht-degree: 56%
 
 ---
 
 # Consigli in Adobe Learning Manager
+
+## Introduzione
 
 Adobe Learning Manager ha introdotto un sistema nuovo e rinnovato di suggerimenti per i corsi. Questa funzione di consigli utilizza algoritmi di intelligenza artificiale e gli interessi degli utenti come Prodotti, Ruoli e Livelli per fornire consigli sui contenuti personalizzati. Gli amministratori possono impostare il proprio account in base a Prodotti, Ruoli e Livelli.
 
@@ -17,14 +19,9 @@ Il nuovo sistema di consigli ti consente di creare parametri personalizzati che 
 
 Per iniziare con questa funzione, attivala nell’app per Amministratori.
 
-## Attivare e configurare i suggerimenti
-
-1. Carica il corso e i dati utente (facoltativi).
-1. Rendi visibili le modifiche.
-1. Dopo aver attivato e configurato i suggerimenti, carica i dati in Adobe Learning Manager per ricevere consigli e iniziare a lavorare. Tali dati comprendono:
-
-   * Dati del corso
-   * Dati utente (facoltativo)
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Algoritmo di classificazione del corso
 
@@ -152,8 +149,13 @@ Inserisci questi file CSV e contatta il team Customer Success per scaricare i fo
 
 Dopo aver caricato entrambi i file CSV, fai clic su Vai in diretta. Questo renderà visibile agli Allievi il nuovo sistema di consigli.
 
+Una volta attivata, la raccomandazione PRL non può essere ripristinata allo stato precedente. Durante l’attivazione, Adobe Learning Manager presenta una richiesta di conferma per informarti che la modifica è permanente. Fino a quando il consiglio non sarà stato attivato, potete comunque annullare o modificare le modifiche.
+
 ![vai in diretta](assets/computerdescription-automatically.png)
 *Rendi i consigli disponibili*
+
+![vai in diretta](assets/recommendations-irreversible.png)
+*Avviso di suggerimento*
 
 Il sistema di consigli è ora disponibile agli Allievi.
 

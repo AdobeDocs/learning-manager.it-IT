@@ -2,13 +2,13 @@
 description: Ulteriori informazioni sulla creazione di moduli di feedback L1 per gli Allievi
 jcr-language: en_us
 title: Modulo di feedback L1
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
-
 
 # Modulo di feedback L1
 
@@ -29,6 +29,10 @@ La funzione offre maggiore flessibilità consentendo agli amministratori di:
 * Assegna moduli personalizzati in base alle esigenze
 
 Il **[!UICONTROL Report di feedback L1]** e il **[!UICONTROL Report di feedback]** (Report personalizzato) ora includono due nuove colonne: Nome modulo feedback e Versione feedback. Queste colonne forniscono dettagli sui moduli di feedback utilizzati.
+
+>[!NOTE]
+>
+>Questa funzione - **Report di feedback L1** - non è disponibile negli ambienti autorizzati FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Crea modulo di feedback L1
 
@@ -70,7 +74,7 @@ Per creare un modulo di feedback L1:
      ![](assets/numerical.png)\
      _Aggiungere una domanda in scala numerica/Server dei criteri di rete al modulo di feedback_
 
-   c. **[!UICONTROL Scala Likert]**: gli allievi possono specificare il grado di accettazione di un’istruzione, da Fortemente in disaccordo a Fortemente in accordo.
+   c. **[!UICONTROL Scala Likert]**: gli Allievi possono specificare il grado di accettazione di un’istruzione, da Fortemente in disaccordo a Fortemente in accordo.
 
    * Digita la domanda nel campo di testo **[!UICONTROL Domanda]**.
    * Per rendere obbligatoria la domanda, seleziona l&#39;interruttore **[!UICONTROL Obbligatorio]**.
@@ -166,6 +170,3 @@ Segui gli stessi passaggi per modificare i moduli di feedback predefiniti per un
 >[!NOTE]
 >
 >Se non modifichi il modulo, il corso utilizzerà il modulo di feedback predefinito.
-
-
-

@@ -3,14 +3,16 @@ jcr-language: en_us
 title: Admin AI Assistant (beta) in Adobe Learning Manager
 description: Ulteriori informazioni sull'Assistente AI di Adobe Learning Manager Admin (Beta)
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---
 
 # Admin AI Assistant (beta) in Adobe Learning Manager
+
+## Introduzione
 
 Nelle configurazioni di apprendimento complesse, gli Amministratori potrebbero avere difficoltà a trovare contenuti o completare attività a causa di menu complicati e flussi di lavoro disconnessi. Ad esempio, per attività come l’esecuzione di report o l’accesso a informazioni specifiche può essere necessario spostarsi su più schermate. Admin AI Assistant (beta) ti aiuta a trovare le informazioni giuste per comprendere e completare le attività in modo efficiente.
 
@@ -20,7 +22,12 @@ Utilizza le funzionalità di intelligenza artificiale di Adobe per abilitare le 
 
 Questo assistente riduce la dipendenza dalla navigazione manuale, riduce i tempi di individuazione e consente di visualizzare rapidamente informazioni utili.
 
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
+
 <!--
+help\migrated\feature-availability-in-fedramp-authorized-environment.md
 ## Key benefits
 
 * Perform common administrator tasks faster with conversational guidance.
