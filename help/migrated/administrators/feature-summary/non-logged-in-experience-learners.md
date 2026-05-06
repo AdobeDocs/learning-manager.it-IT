@@ -2,10 +2,10 @@
 title: Esperienza senza accesso per gli Allievi
 description: Il portale nativo di Adobe Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili. L’esperienza senza accesso consente agli Allievi di esplorare i corsi senza accedere a un portale.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 664b9c867fc767e11d4d91e3be9ae172e7e85035
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 39%
+source-wordcount: '650'
+ht-degree: 38%
 
 ---
 
@@ -24,6 +24,10 @@ Il corso di formazione può quindi essere esportato dal connettore.
 >Assicurati che l’opzione Learning Manager nativo sia selezionata.
 
 L’Amministratore può modificare e configurare la pagina principale, che è destinata agli utenti che non effettuano l’accesso.
+
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## API Allievo
 

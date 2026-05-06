@@ -3,9 +3,9 @@ title: Equivalenti e alternative in Adobe Learning Manager
 description: Offre un'esperienza di apprendimento senza problemi ed elimina i corsi di formazione ridondanti con Equivalenti e Alternative in ALM. Questa nuova funzionalità consente agli amministratori di configurare regole unidirezionali (alternative) o bidirezionali (equivalenti), in cui il completamento di un corso di formazione garantisce automaticamente il completamento alternativo per un altro
 jcr-language: en-us
 exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: '3474'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ La funzione Corsi alternativi o Percorso di apprendimento offre ad ALM un modo f
 La funzione funziona per tutti i corsi e percorsi di apprendimento, garantisce il rispetto dei requisiti a valle quali prerequisiti e regole di conformità, e lo fa senza costringere gli Allievi a occuparsi dei contenuti ridondanti. Continua inoltre a riportare in modo accurato ciò che è stato completato direttamente rispetto a ciò che è stato soddisfatto tramite un&#39;alternativa.
 
 Alla base, la funzione introduce il concetto di completamento alternativo: uno stato di completamento speciale creato automaticamente quando un Allievo completa un corso di formazione sorgente configurato che conta per un altro corso di formazione target.
+
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Relazioni alternative
 
@@ -69,7 +73,7 @@ Gli Amministratori definiscono le relazioni tra corsi e percorsi di apprendiment
 
 Per gli equivalenti, gli amministratori possono rendere la relazione bidirezionale se desiderano che entrambi i corsi di formazione si soddisfino a vicenda. Per le alternative, gli amministratori normalmente mantengono la direzione di un*senso per indicare che sono consentite solo alcune sostituzioni.
 
-Queste relazioni vengono memorizzate a livello di formazione, non a livello di Allievo. Una volta configurati e abilitati, potrebbero applicare   a tutti i completamenti attuali e futuri del corso di formazione sorgente, in base alle impostazioni a livello di account*ad esempio se è abilitato il completamento retroattivo.
+Queste relazioni vengono memorizzate a livello di formazione, non a livello di Allievo. Una volta configurati e abilitati, possono essere applicati a tutti i completamenti attuali e futuri del corso di formazione di origine, in base alle impostazioni a livello di account*ad esempio, se il completamento retroattivo è abilitato o meno.
 
 ### Completamento alternativo
 
@@ -320,7 +324,7 @@ Il report di iscrizione lascia vuoto il campo Origine completamento in caso di c
 
 Quando una destinazione viene rimossa dall’origine (o l’origine stessa viene eliminata), il report di iscrizione potrebbe non visualizzare lo stesso stato **Alternativo o Alternativo (Revocato)** come mostrato nella Trascrizione Allievo.
 
-Anche quando   **Le alternative** sono disabilitate, le voci della cronologia nelle righe **Controllo contenuto** o **Iscrizione** potrebbero ancora visualizzare le attività relative alle alternative.
+Anche quando **Alternative** sono disattivate, le voci della cronologia nelle righe **Controllo contenuto** o **Iscrizione** possono comunque visualizzare le attività relative alle alternative.
 
 La data di completamento può precedere la data di iscrizione quando un LO viene completato tramite un percorso alternativo **prima** dell’iscrizione effettiva dell’Allievo. Poiché i completamenti alternativi possono verificarsi indipendentemente dallo stato dell’Allievo (**Iscritto**, **Non iscritto** o **In corso**), gli Allievi possono completare prima l’LO e solo in seguito iscriversi al corso di destinazione.
 

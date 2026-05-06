@@ -3,20 +3,26 @@ description: Ottieni risposte rapide e precise dai tuoi contenuti di apprendimen
 jcr-language: en_us
 title: Assistente all’intelligenza artificiale per gli Allievi in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
 
 # Assistente AI per gli Allievi
 
+## Introduzione
+
 L’Assistente AI (Beta) per gli Allievi consente loro di trovare rapidamente le risposte dai contenuti di apprendimento assegnati senza sfogliare l’intero corso. Puoi porre domande in un linguaggio semplice e ricevere risposte accurate e mirate con collegamenti sorgente al contenuto del corso pertinente.
 
 >[!IMPORTANT]
 >
 >L’Assistente AI per gli Allievi è attualmente disponibile come funzione beta. Le funzionalità, gli scenari supportati e le limitazioni possono cambiare con l&#39;evolversi della funzionalità.
+
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 
 ## Che cos’è l’Assistente all’intelligenza artificiale per gli Allievi
@@ -158,7 +164,7 @@ Per abilitare l’Assistente all’intelligenza artificiale dell’Allievo:
 &#x200B;1. Accedi a Adobe Learning Manager come amministratore.
 
 2.Selezionare **Impostazioni** dalla home page.
-![Console di amministrazione con l&#39;opzione Impostazioni nel riquadro sinistro](assets/settings-menu.png)
+![Console di amministrazione con opzione Impostazioni nel riquadro sinistro](assets/settings-menu.png)
 
 &#x200B;3. Seleziona **Assistente AI Allievo (Beta)** dal menu **Impostazioni**.
 ![La console dell’amministratore visualizza l’opzione Assistente intelligenza artificiale Allievo nel riquadro a sinistra](assets/learner-assistant-ai-beta.png)

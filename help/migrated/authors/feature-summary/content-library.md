@@ -3,9 +3,9 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '5368'
+source-wordcount: '5385'
 ht-degree: 38%
 
 ---
@@ -266,6 +266,10 @@ Una volta caricato il contenuto, puoi visualizzare una notifica facendo clic sul
 ### Supporto VTT multilingue
 
 Il supporto delle tracce di testo video (VTT) multilingue in Adobe Learning Manager consente agli autori di fornire sottotitoli e didascalie per contenuti video e audio in più lingue. Questa funzione semplifica la localizzazione, rendendo i corsi di formazione accessibili a un pubblico globale e garantendo la conformità agli standard di accessibilità. Gli autori possono generare, tradurre, rivedere e modificare automaticamente i file VTT direttamente all’interno della piattaforma.
+
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 #### Casi d’uso
 

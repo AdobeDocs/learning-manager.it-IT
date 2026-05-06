@@ -3,18 +3,24 @@ jcr-language: en_us
 title: Ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 description: Scopri la ricerca basata sull'intelligenza artificiale in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 3c8bee8994ab13aacf8f4e1f4c9371f5808e17ce
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # Ricerca avanzata di intelligenza artificiale in Adobe Learning Manager
 
+## Introduzione
+
 La funzionalità di ricerca di Adobe Learning Manager migliora l&#39;esperienza degli utenti consentendo loro di trovare i contenuti pertinenti in modo efficiente e di utilizzarli nel modo corretto.
 
 Adobe Learning Manager introduce una funzionalità di ricerca basata sull&#39;intelligenza artificiale che combina ricerca lessicale e semantica. Questa funzionalità avanzata consente agli Allievi di trovare i contenuti pertinenti in modo efficiente. La ricerca avanzata basata sull&#39;intelligenza artificiale comprende il significato della query e fornisce risultati pertinenti.
+
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Vantaggi principali
 

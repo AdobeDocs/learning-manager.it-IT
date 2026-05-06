@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Report
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '7660'
+source-wordcount: '7677'
 ht-degree: 63%
 
 ---
@@ -708,6 +708,10 @@ Gli Amministratori possono scaricare la trascrizione di gamification in formato 
 
 Questo report contiene la cronologia e i motivi dei punti di gamification degli Allievi guadagnati per ogni regola.
 
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
+
 ### Scarica il report
 
 1. Seleziona l’URL dell’audit trail di gamification.
@@ -1014,7 +1018,7 @@ Il foglio di report del dashboard esportato fornisce informazioni dettagliate an
    *Assi per i report*
 
 1. Scegli l’intervallo/il criterio **[!UICONTROL asse Y]** secondario per il report dalle opzioni a discesa. Ad esempio, per un’opzione di iscrizione al programma di apprendimento, scegli uno o più stati dal menu a discesa Stati. I dati dell’intervallo secondario sono rappresentati sotto forma di grafici a linea.
-1. Scegli i criteri dell’asse X&#x200B;**&#x200B;** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
+1. Scegli i criteri dell’asse X**** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
 1. Nella sezione Intervallo di tempo, scegli l’opzione appropriata dal menu a discesa. Le opzioni disponibili sono:
 
    * Ultimo mese

@@ -3,16 +3,24 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di aprile
 jcr-language: en_us
 title: Novità della versione di aprile 2026 di Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 971a9c79fc2b831b990e30a44a2eeab5d5c5ce63
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
 
 # Novità della versione di aprile 2026 di Adobe Learning Manager
 
-**Per gli Allievi:** il lettore Fluidic ora mostra il nome del modulo successivo e un pulsante Esci chiaro. La lingua del lettore può essere impostata tramite LTI per un’esperienza uniforme su più piattaforme. Il nome del parametro personalizzato è &#39;locale&#39; e accetta il codice delle impostazioni internazionali. Ad esempio, locale=fr-FR. Il contenuto di Captivate include un sommario unificato, i segni di graduazione di completamento a livello di diapositiva e le esportazioni di note affidabili. Il supporto multilingue è disponibile per risorse formative, domande sull’elenco di controllo e tracce di testo video (VTT). L’Assistente all’intelligenza artificiale consente agli Allievi di ottenere risposte all’interno dell’esperienza di apprendimento.
+**Per gli Allievi:** il lettore Fluidic ora mostra il nome del modulo successivo e un pulsante Esci chiaro.
+
+La lingua del lettore può essere impostata tramite LTI per un’esperienza uniforme su più piattaforme. Il nome del parametro personalizzato è &#39;locale&#39; e accetta il codice delle impostazioni internazionali. Ad esempio, locale=fr-FR. Il contenuto di Captivate include un sommario unificato, i segni di graduazione di completamento a livello di diapositiva e le esportazioni di note affidabili.
+
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
+
+Il supporto multilingue è disponibile per risorse formative, domande sull’elenco di controllo e tracce di testo video (VTT). L’Assistente all’intelligenza artificiale consente agli Allievi di ottenere risposte all’interno dell’esperienza di apprendimento.
 
 **Per amministratori e autori:** il connettore Zoom supporta più sessioni VILT simultanee. I corsi condivisi negli account condivisi tra pari visualizzano l’autore reale invece di &quot;Autore esterno&quot;. Gli amministratori possono limitare l’avvio dei moduli. Le date di scadenza degli oggetti di apprendimento sono esposte nelle API degli Allievi. I moduli dell’elenco di controllo supportano il punteggio ponderato, il testo multilingue delle domande e i commenti facoltativi dei revisori. I certificati personalizzati offrono un editor drag-and-drop con campi dinamici e sfondi generati dall’intelligenza artificiale. Experience Builder non connesso consente di creare pagine di apprendimento pubbliche senza richiedere l’accesso.
 
@@ -97,6 +105,10 @@ Visualizza [Esperienza senza accesso in Experience Builder](/help/migrated/admin
 I risultati della ricerca in Ricerca avanzata sono ora più accurati e pertinenti. Le corrispondenze esatte delle parole chiave vengono classificate di livello superiore sia nella ricerca di contenuti che nei metadati, rendendo più facile per gli Allievi trovare con precisione ciò che stanno cercando.
 
 Gli Allievi possono ora vedere nei risultati di ricerca anche gli Oggetti di apprendimento a cui sono stati iscritti, anche se non fanno parte di un catalogo accessibile, garantendo che non vadano persi contenuti pertinenti. Inoltre, la classificazione delle risorse formative è stata migliorata sia nella ricerca avanzata che nella ricerca all’interno dei contenuti, superando più rapidamente le risorse più rilevanti.
+
+>[!NOTE]
+>
+>Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Risorse formative multilingue
 
