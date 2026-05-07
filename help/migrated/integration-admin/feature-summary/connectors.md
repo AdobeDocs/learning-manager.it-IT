@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 71b68a6d08d1337afd915162d8130a6ad2379886
 workflow-type: tm+mt
-source-wordcount: '15927'
+source-wordcount: '15926'
 ht-degree: 72%
 
 ---
@@ -182,7 +182,7 @@ Di seguito viene descritto come creare gli oggetti:
 
 Learning Manager offre un pacchetto dell’app Salesforce. Una volta installato e configurato in SFDC, gli addetti alle vendite possono svolgere le proprie attività di formazione all’interno del portale SFDC. Questa app consente agli utenti di SFDC di esplorare nuovi corsi di formazione, visualizzare i consigli e consultarli direttamente all’interno del portale SFDC. Gli utenti ricevono inoltre gli annunci inviati dagli Amministratori sotto forma di masthead direttamente nell’app all’interno del portale SFDC.
 
-### Configurazione nell’app Learning Manager {#setup-in-learning-manager-app}
+### Configurazione dell’app Learning Manager {#setup-in-learning-manager-app}
 
 1. Accedi al tuo account Amministratore Learning Manager come Amministratore dell’integrazione.
 1. Fai clic su **[!UICONTROL Applicazioni]** > **[!UICONTROL App in primo piano]**.
@@ -652,6 +652,7 @@ Il connettore Lynda è utilizzato dai clienti enterprise di Lynda.com che deside
 
 1. È anche possibile fare clic su Stato esecuzione nel riquadro sinistro in qualsiasi momento per visualizzare il riepilogo di tutte le esecuzioni per questo connettore, in ordine cronologico. Puoi visualizzare la data di inizio e la durata della sincronizzazione, il tipo di sincronizzazione (se si tratta di una sincronizzazione su richiesta) e lo stato della sincronizzazione (se la sincronizzazione è in corso o è completa).
 
+
    >[!NOTE]
    >
    >Quando elimini e ricrei una connessione, le precedenti esecuzioni del connettore vengono visualizzate nuovamente. È possibile visualizzare tutte le esecuzioni effettuate prima di eliminare la connessione.
@@ -715,6 +716,7 @@ Configure the Exavault FTP account before you configure this connector.
 
 1. È anche possibile fare clic su Stato esecuzione nel riquadro sinistro in qualsiasi momento per visualizzare il riepilogo di tutte le esecuzioni per questo connettore, in ordine cronologico. Puoi visualizzare la data di inizio e la durata della sincronizzazione, il tipo di sincronizzazione (se si tratta di una sincronizzazione su richiesta) e lo stato della sincronizzazione (se la sincronizzazione è in corso o è completa).
 
+
    >[!NOTE]
    >
    >Quando elimini e ricrei una connessione, le precedenti esecuzioni del connettore vengono visualizzate nuovamente. È possibile visualizzare tutte le esecuzioni effettuate prima di eliminare la connessione.
@@ -768,6 +770,7 @@ Ensure that you share this FTP credentials with your content provider to access 
    Per automatizzare la sincronizzazione in modo che venga eseguita a intervalli di alcuni giorni, specifica il numero di giorni nel campo Ripeti n. giorni. La sincronizzazione assicura l’aggiornamento dell’account con la versione più recente dei resoconti e dei riepiloghi di Harvard ManageMentor.
 
 1. È anche possibile fare clic su Stato esecuzione nel riquadro sinistro in qualsiasi momento per visualizzare il riepilogo di tutte le esecuzioni per questo connettore, in ordine cronologico. Puoi visualizzare la data di inizio e la durata della sincronizzazione, il tipo di sincronizzazione (se si tratta di una sincronizzazione su richiesta) e lo stato della sincronizzazione (se la sincronizzazione è in corso o è completa).
+
 
    >[!NOTE]
    >
@@ -851,11 +854,12 @@ L’Amministratore può impostare le attività di pianificazione secondo i requi
 ![](assets/configure-connector.png)
 *Configurazione del connettore Workday*
 
-1. Fai clic su Connetti dopo avere inserito le informazioni in tutti i campi pertinenti.
+Fai clic su Connetti dopo avere inserito le informazioni in tutti i campi pertinenti.
 
-   >[!NOTE]
-   >
-   >Puoi anche sincronizzare più connessioni Workday con il tuo account Learning Manager.
+
+>[!NOTE]
+>
+>Puoi anche sincronizzare più connessioni Workday con il tuo account Learning Manager.
 
 Nella pagina di panoramica, è possibile specificare il nome della connessione per l’integrazione. Scegli l’azione da eseguire tra le seguenti opzioni:
 
@@ -964,8 +968,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 
 ### Esporta {#export-1}
 
-Puoi esportare tutte le abilità utilizzate da un utente da Learning Manager in Workday. Vengono esportate solo tutte le abilità utente attive e Learning Manager non esporta le abilità ritirate. Puoi anche connettere più Learning Manager\
-account allo stesso connettore Workday. Se i nomi delle abilità sono gli stessi in due account Learning Manager, vengono mappati alla stessa abilità in Workday. Prima di aggiornare l’abilità in Workday, nel caso in cui due account Learning Manager utilizzino lo stesso account Workday, è consigliabile aggiornare i nomi delle abilità in tutti gli account Learning Manager.
+Puoi esportare tutte le abilità utilizzate da un utente da Learning Manager in Workday. Vengono esportate solo tutte le abilità utente attive e Learning Manager non esporta le abilità ritirate. Puoi anche connettere più account Learning Manager allo stesso connettore Workday. Se i nomi delle abilità sono gli stessi in due account Learning Manager, vengono mappati alla stessa abilità in Workday. Prima di aggiornare l’abilità in Workday, nel caso in cui due account Learning Manager utilizzino lo stesso account Workday, è consigliabile aggiornare i nomi delle abilità in tutti gli account Learning Manager.
 
 +++Abilità utente - Configura
 
@@ -1889,6 +1892,7 @@ Nell’accesso come Amministratore, fai clic sul nome del corso aula virtuale. F
 
 Con l’integrazione di Adobe Learning Manager e Adobe Connect per la creazione di moduli o sessioni aula virtuale, il tuo account Connect dovrebbe supportare le sale riunioni con un numero di sale e utenti simultanei adeguato alle tue esigenze. Queste sale riunioni vengono utilizzate per ospitare i moduli aula virtuale di Learning Manager. Una nuova sala riunioni Connect viene creata in modo dinamico da Learning Manager per ciascun modulo o sessione aula virtuale all’interno di Learning Manager.
 
+
 >[!NOTE]
 >
 >È necessario acquistare Adobe Connect e Adobe Learning Manager separatamente.
@@ -2091,19 +2095,19 @@ Adobe Learning Manager utilizza un connettore per aula virtuale che può essere 
 
 Il connettore Microsoft Teams collega i sistemi Learning Manager e Microsoft Teams per consentire la sincronizzazione automatica dei dati. L’elenco riportato di seguito descrive le funzioni del connettore Microsoft Teams:
 
-**Configurare sessioni virtuali utilizzando Microsoft Teams**
+### Configurare le sessioni virtuali utilizzando Microsoft Teams
 
 Questo connettore consente di integrare l’account Adobe Learning Manager con l’account Microsoft Teams. Una volta integrato, il connettore consente a un Autore in Learning Manager di utilizzare Microsoft Teams come fornitore di servizi tecnologici per i moduli aula virtuale creati in Learning Manager.
 
-**Consenti ai Microsoft Teams di autenticare gli Allievi quando entrano in un’aula virtuale**
+### Consentire a Microsoft Teams di autenticare gli Allievi quando entrano in un’aula virtuale
 
 L’organizzatore della riunione può configurare la sala d’attesa in modo da limitare l’ingresso alla riunione e controllare le altre opzioni della riunione disponibili su Microsoft Teams.
 
-**Utilizzare la sincronizzazione automatizzata di completamento degli utenti**
+### Utilizzare la sincronizzazione automatizzata di completamento degli utenti
 
 Il processo di sincronizzazione automatizzato di completamento degli utenti consente a un Amministratore Learning Manager di recuperare automaticamente i record di completamento e l’URL della registrazione della riunione su Teams.
 
-Per ulteriori informazioni, consulta [**Installazione del connettore Microsoft Teams in Adobe Learning Manager**](install-microsoft-teams-connector.md).
+Per ulteriori informazioni, consulta [Installazione del connettore Microsoft Teams in Adobe Learning Manager](install-microsoft-teams-connector.md).
 
 ## Connettore di accesso ai dati di formazione {#training-data-access}
 
@@ -2158,13 +2162,13 @@ Puoi utilizzare questi URL per recuperare i dati utilizzando le API.
 
 ### Crea il sito Web in AEM {#create-website-in-aem}
 
-**Prerequisito:** Installare il pacchetto AEM dal [**repository GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+**Prerequisito:** Installare il pacchetto AEM dal [repository GitHub](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
 1. Utilizza gli URL di base e recupero, l’ID client, il segreto client e il token di aggiornamento amministratore, quindi crea una configurazione in AEM.
 1. Crea il sito Web utilizzando i componenti AEM.
 1. Pubblica il sito Web.
 
-Per ulteriori informazioni, consulta questo [**documento**](../../adobe-learning-manager-integration-aem.md).
+Per ulteriori informazioni, consulta questo [documento](../../adobe-learning-manager-integration-aem.md).
 
 ### Allievi {#learners}
 
@@ -2181,11 +2185,11 @@ L&#39;esperienza senza accesso in Adobe Learning Manager può essere configurata
 * Offerta standard
 * Offerta premium
 
-**Offerta standard**
+#### Offerta standard
 
 L’offerta standard prevede la creazione della versione nativa di Adobe Learning Manager. Gli utenti possono creare un’esperienza headless solo dimostrativa, senza accesso. L’esperienza headless dimostrativa non è scalabile e non deve essere utilizzata in un ambiente di produzione.
 
-**Offerta premium**
+#### Offerta premium
 
 L&#39;offerta premium consente agli utenti di creare un&#39;interfaccia headless configurata dal connettore **[!UICONTROL Accesso ai dati di formazione]**. Per scenari di apprendimento misto, ottieni anche limiti di posti in tempo reale, posti occupati, limiti della lista d’attesa e conteggi delle liste d’attesa. I clienti possono utilizzare queste API per creare funzionalità di ricerca e filtro e un riepilogo completo del corso per gli Allievi non connessi.
 
@@ -2217,7 +2221,7 @@ Il connettore si integra con Adobe Commerce inviando i dati di formazione alla p
 
 Oltre ad avviare un acquisto, il connettore ne raccoglie anche i dettagli da Adobe Commerce, utilizzato da Adobe Learning Manager per convalidare l’acquisto e sbloccare l’accesso al corso di formazione.
 
-**Prerequisiti**
+### Prerequisiti
 
 1. Abilita [RabbitMq](https://devdocs.magento.com/cloud/project/services-rabbit.html) o qualsiasi altro broker di messaggi.
 1. Abilita [CRON](https://devdocs.magento.com/cloud/env/variables-deploy.html#cron_consumers_runner).
@@ -2264,7 +2268,7 @@ Dopo che un Autore ha impostato i prezzi per vari corsi, percorsi di apprendimen
 
 >[!NOTE]
 >
->Nella versione di marzo 2024 di Adobe Learning Manager è stato introdotto il supporto per [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=it).
+>Nella versione di marzo 2024 di Adobe Learning Manager è stato introdotto il supporto per [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Fai clic su **[!UICONTROL Esporta metadati di formazione]** > **[!UICONTROL Su richiesta]**.
@@ -2297,7 +2301,7 @@ Come con Learning Manager nativo, dopo aver effettuato l’accesso, puoi aggiung
 
 ### Configurazione del connettore Adobe Commerce {#setup-commerce-connector}
 
-#### Prerequisiti {#pre-requisites}
+#### Prerequisiti {#pre-requisite}
 
 L’Amministratore abilita la casella di controllo **Abilita i prezzi per i corsi di formazione** in **Impostazioni > Generali**, tramite l’app Amministratore. Se l’opzione è abilitata, gli Autori possono specificare i prezzi per i corsi di formazione. Quando aggiungi una connessione ad Adobe Commerce, questa casella di controllo viene selezionata e applicata automaticamente.
 
