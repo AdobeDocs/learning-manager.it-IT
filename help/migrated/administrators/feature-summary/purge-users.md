@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rimuovere utenti
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1441'
 ht-degree: 45%
 
 ---
@@ -239,7 +239,7 @@ Puoi ordinare gli utenti filtrati in base al **[!UICONTROL ID utente univoco]** 
 
 La rimozione automatica degli utenti eliminati è una funzione che rimuove i dati per gli utenti che sono già stati eliminati in ALM. La rimozione avviene dopo un periodo di conservazione configurabile, concentrandosi sulle operazioni in blocco in modo che gli account dei clienti di grandi dimensioni possano essere gestiti in modo efficiente senza compromettere le prestazioni.
 
-Il flusso di eliminazione in blocco può elaborare fino a 10.000 utenti per batch. La funzione è posizionata come servizio in background incentrato sull&#39;affidabilità per l&#39;eliminazione di grandi volumi.
+La funzione è posizionata come servizio in background incentrato sull&#39;affidabilità per l&#39;eliminazione di grandi volumi.
 
 In qualità di amministratore, puoi specificare la durata entro la quale è possibile eliminare gli utenti rimossi. Per ulteriori informazioni, visualizzare [Impostazioni amministratore](/help/migrated/administrators/feature-summary/settings.md).
 
@@ -247,7 +247,7 @@ In qualità di amministratore, puoi specificare la durata entro la quale è poss
 
 * Fornire la rimozione automatica configurabile per gli utenti eliminati a livello di account
 * Assicurati che gli utenti vengano rimossi entro 24 ore dal momento in cui soddisfano i criteri di rimozione
-* Supporta l&#39;eliminazione in blocco di un massimo di 10.000 utenti al giorno** senza compromettere le prestazioni del sistema
+* Supporto dell&#39;eliminazione in blocco di un massimo di 5.000 utenti al giorno
 * Mantenere i tempi di risposta globali del sistema e l&#39;integrità del database durante l&#39;esecuzione di queste operazioni
 * Gestione automatizzata della conservazione dei dati per rispettare gli obblighi GDPR
 
