@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Connettori Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71b68a6d08d1337afd915162d8130a6ad2379886
+source-git-commit: 061433edb12bf10287e56899e01dcc462c9ba5f0
 workflow-type: tm+mt
-source-wordcount: '15926'
+source-wordcount: '15903'
 ht-degree: 72%
 
 ---
@@ -1068,29 +1068,29 @@ Per configurare e utilizzare il connettore, attieniti alla seguente procedura.
 1. Nella home page di Learning Manager, passa il mouse sulla miniatura dello Zoom. Viene visualizzato un menu. Fai clic sull&#39;opzione **[!UICONTROL Connetti]** dal menu.
 
    <!--
-![](assets/connectors.png)
+   ![](assets/connectors.png)
 
-*Riquadro connettore zoom*
--->
+   *Zoom connector tile* 
+   -->
 
 1. Viene visualizzata la pagina del connettore Zoom. Inserisci i dettagli del tuo account nei rispettivi campi per integrare e sincronizzare il feed utente. Per i dettagli, rivolgiti all’Amministratore dell’account del connettore.
 
    <!--
-![](assets/bluejeans-connecotrpage.png)
-*Connettiti a BlueJeans/Zoom*
--->
+   ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* 
+   -->
 
->[!NOTE]
->
->Come studente, mentre abiliti il connettore, utilizza lo stesso id e-mail utilizzato per l’account Learning Manager per abilitare i feed utente in Learning Manager.
+   >[!NOTE]
+   >
+   >Come studente, mentre abiliti il connettore, utilizza lo stesso id e-mail utilizzato per l’account Learning Manager per abilitare i feed utente in Learning Manager.
 
 1. Una volta stabilita la connessione, come Autore crea un corso VC con Zoom come sistema di conferenza.
 
    <!--
-![](assets/vc.jpg)
-
-*Creazione di un corso VC*
--->
+   ![](assets/vc.jpg)
+   
+   *Create a VC course* 
+   -->
 
 1. Amministratori, manager e allievi possono iscrivere gli allievi al corso creato. Al momento dell’iscrizione, l’Allievo riceve un’e-mail. L’Allievo può accedere al proprio account Learning Manager per visualizzare i dettagli del programma e seguire il corso.
 1. Al termine del corso, il rapporto sul completamento viene inviato a Learning Manager. L’Amministratore può visualizzare il report sul completamento per controllare la partecipazione e il punteggio degli Allievi.
@@ -1340,11 +1340,11 @@ Il connettore LinkedIn Learning è utilizzato dai clienti enterprise di LinkedIn
 1. Se devi configurare il connettore LinkedIn Learning per la prima volta, fai clic su [!UICONTROL Connetti].
 
    <!--
-Configura l’account FTP Exavault prima di configurare il connettore.
+   Configure the Exavault FTP account before you configure this connector.
 
-![](assets/configure.jpg)
-*Configura connessione*
--->
+   ![](assets/configure.jpg)
+   *Configure connection*
+   -->
 
 1. Nella pagina di connessione, specifica un nome per il connettore. Inserisci appkey e chiave privata per la connessione.
 
