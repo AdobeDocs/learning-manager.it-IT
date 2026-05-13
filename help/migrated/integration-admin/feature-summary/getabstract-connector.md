@@ -165,4 +165,4 @@ Per garantire il corretto funzionamento della sincronizzazione:
    - report_export_yyyy_MM_dd_HHmmss.xlsx oppure
    - report_export_yyyy_MM_dd.xlsx
 
-Scarica un [file di esempio del feed utente getAbstract](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en) per comprendere il formato.
+Scarica un [file di esempio del feed utente getAbstract](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=it) per comprendere il formato.

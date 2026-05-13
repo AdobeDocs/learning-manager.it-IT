@@ -178,7 +178,7 @@ Per mappare gli attributi:
 3. Nella pagina **Mappa attributi**:
    - Il **lato sinistro** mostra i campi obbligatori in Adobe Learning Manager.
    - Sul **lato destro** sono visualizzati i nomi delle colonne CSV. Inizialmente, questo lato contiene menu a discesa vuoti.
-   - Seleziona **Scegli CSV** per caricare un file CSV di esempio. In questo modo viene compilato il menu a discesa di destra con i nomi delle colonne del file CSV. Consulta [questo articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv).
+   - Seleziona **Scegli CSV** per caricare un file CSV di esempio. In questo modo viene compilato il menu a discesa di destra con i nomi delle colonne del file CSV. Consulta [questo articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/migration-manual#csv).
    - Associa ciascun campo Adobe Learning Manager alla colonna CSV corrispondente.
 
    ![](assets/ftp-connector6.png)

@@ -83,7 +83,7 @@ Per visualizzare i dati di formazione su un sito Web headless o basato su AEM Si
 2. Utilizza **URL di base**, **URL CDN**, **ID client**, **Segreto client** e **Token di aggiornamento amministratore** per creare una configurazione in AEM.
 3. Creare il sito utilizzando i componenti AEM.
 4. Publish è il sito per gli Allievi.
-5. Per informazioni dettagliate sulla configurazione completa, vedere [questo articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) e [questo articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
+5. Per informazioni dettagliate sulla configurazione completa, vedere [questo articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) e [questo articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
 
 ### Esperienza di apprendimento
 
