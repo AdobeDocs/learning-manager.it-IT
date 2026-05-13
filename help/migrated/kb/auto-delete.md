@@ -4,10 +4,10 @@ title: L’utente viene eliminato automaticamente in Learning Manager
 description: Un utente viene eliminato da Learning Manager anche se l’Amministratore non ha mai eseguito alcuna azione di questo tipo.
 contentowner: nluke
 exl-id: 9e293da3-bcbf-4798-b391-aef53ef8d946
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: dafb4c35d868e44c022a0d96919792b5a41f62b0
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 61%
+source-wordcount: '235'
+ht-degree: 69%
 
 ---
 
@@ -41,7 +41,7 @@ In Adobe Learning Manager è disponibile un’opzione che consente di eliminare 
 
 1. Fai clic su **[!UICONTROL Salva]** per mantenere le impostazioni configurate.
 
-### Se sei un Allievo esterno:
+### Per gli Allievi esterni:
 
 1. Accedi come **Amministratore**.
 1. In **Gestisci**, fai clic su **[!UICONTROL Utenti]** > **[!UICONTROL Esterni]**.
@@ -55,5 +55,5 @@ In Adobe Learning Manager è disponibile un’opzione che consente di eliminare 
 
    *Selezionare l&#39;opzione Impostazioni avanzate*
 
-1. Nel campo **Requisiti di accesso**, immetti il numero di giorni per l’eliminazione automatica di un Allievo che non ha effettuato l’accesso al sistema.
+1. Nel campo **Requisiti di accesso** specifica dopo quanti giorni eliminare automaticamente un Allievo che non ha effettuato l’accesso al sistema.
 1. Fai clic su **[!UICONTROL Salva]** per mantenere le impostazioni configurate.
