@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b170bc6e9f6b53c58b42b83635bb2de497c5f5fa
+source-git-commit: bb212865016726f84a240702533a099ac11e481a
 workflow-type: tm+mt
 source-wordcount: '5898'
 ht-degree: 60%
@@ -243,7 +243,7 @@ Se un Allievo che era in attesa di approvazione si disiscrive, il suo resoconto 
 
 Grazie alla funzione di iscrizione in blocco di Adobe Learning Manager, gli Amministratori possono iscrivere in modo efficiente gruppi di Allievi a corsi, certificazioni o programmi di apprendimento caricando un file CSV. Questo processo consente di risparmiare tempo, garantisce coerenza e supporta la scalabilità dell&#39;organizzazione. Inoltre, gli amministratori e gli istruttori possono aggiornare le informazioni degli Allievi, la partecipazione e i completamenti in blocco mediante il caricamento di file CSV, riducendo al minimo il lavoro manuale e garantendo l’accuratezza dei dati.
 
-Puoi utilizzare lo stesso formato di file CSV per l’iscrizione, la partecipazione e il completamento. È sufficiente immettere gli ID e-mail degli Allievi nella colonna &quot;E-mail&quot; e salvare il file con un nome basato sull’azione, ad esempio bulk_enrollment.csv, bulk_attendance.csv o bulk_completion.csv. È supportato solo il formato CSV. Formato UTF-8 non supportato. Scarica il [file CSV di esempio](/help/migrated/administrators/feature-summary/assets/Sample-Bulk-Action-CSV.csv).
+Puoi utilizzare lo stesso formato di file CSV per l’iscrizione, la partecipazione e il completamento. È sufficiente immettere gli ID e-mail degli Allievi nella colonna &quot;E-mail&quot; e salvare il file con un nome basato sull’azione, ad esempio bulk_enrollment.csv, bulk_attendance.csv o bulk_completion.csv. È supportato solo il formato CSV. Formato UTF-8 non supportato. Scarica il [file CSV di esempio](/help/migrated/administrators/feature-summary/assets/Sample-Bulk-Action-CSV.xlsx).
 
 ### Iscrizione di allievi in blocco tramite un file CSV
 
