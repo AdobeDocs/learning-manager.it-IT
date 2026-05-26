@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '9424'
 ht-degree: 61%
@@ -137,7 +137,7 @@ Ora il corso/percorso di apprendimento/certificazione è considerato un tipo di 
 >
 >Gli Autori possono anche aggiungere etichette di conformità a un corso, percorso di apprendimento o certificazione esistente modificandoli.
 
-## Creare un’istanza
+## Creare un’istanza {#createaninstance}
 
 Per creare un’istanza, effettuate le seguenti operazioni:
 
@@ -149,6 +149,7 @@ Per creare un’istanza, effettuate le seguenti operazioni:
 
    * Nel campo **[!UICONTROL Nome istanza]**, immetti il nome dell’istanza che desideri associare al corso. Assicurati di utilizzare un nome univoco per l’istanza.
    * **Data di inizio:** Questa è la data di inizio del corso. Due e-mail di promemoria possono essere inviate all’Allievo in due date diverse, selezionate, prima di questa data di inizio. La data di inizio deve essere una data precedente alla data di completamento. Una volta selezionata la data di inizio, questa data verrà evidenziata in blu nel calendario nella sezione **Avvisi di notifica** dell&#39;istanza.
+     ![](assets/start-date-instance.png)
      ![](assets/start-date-highlighted-instance.png)
    * Specifica la scadenza per il completamento dell’istanza. Gli Allievi devono ottenere lo stato di completamento del corso entro questa data.
    * Selezionare **[!UICONTROL Mostra più opzioni]** per visualizzare altre opzioni di scadenza.
@@ -157,18 +158,16 @@ Per creare un’istanza, effettuate le seguenti operazioni:
    * **[!UICONTROL Fuso orario]:** Cercare e quindi selezionare il **[!UICONTROL Fuso orario]** dal menu a discesa.
 
 6. Seleziona **Salva**.
-   ![](assets/start-date-instance.png)
 
 ### Impostare i promemoria e-mail prima della data di inizio
 
 Puoi impostare i promemoria e-mail solo dopo aver salvato le informazioni sull’intera istanza. Dopo aver selezionato **Salva**, l&#39;istanza si riduce a icona e passa alla modalità di modifica.
 
 1. Selezionare la casella **Avvisi di notifica**.
-2. Nel calendario, seleziona una data precedente alla data di inizio del corso per il primo promemoria.
+2. Nel calendario selezionare una data precedente alla data di inizio dell&#39;istanza per il primo promemoria.
 3. Seleziona **Aggiungi promemoria** a destra.
-4. **Modello e-mail:** selezionare un modello dall&#39;elenco a ** a discesa
-5. **Ricorrenza:** Selezionare un tipo di ricorrenza dall&#39;elenco a discesa.
-Seleziona il segno di spunta blu a destra per salvare la data del promemoria. Ricorda che ogni data del promemoria deve essere salvata separatamente.
+4. **Modello e-mail:** selezionare un modello dall&#39;elenco a discesa
+5. **Ricorrenza:** Selezionare un tipo di ricorrenza dall&#39;elenco a discesa. Seleziona il segno di spunta blu a destra per salvare la data del promemoria. Ricorda che ogni data del promemoria deve essere salvata separatamente.
    ![](assets/start-date-reminder1.png)
 6. Seleziona una data precedente a quella di inizio del corso per il secondo promemoria, ripeti la procedura e seleziona il segno di spunta blu a destra per salvare anche questa data promemoria.
    ![](assets/start-date-reminder2.png)
