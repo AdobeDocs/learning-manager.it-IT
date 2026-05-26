@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '29433'
+source-wordcount: '29658'
 ht-degree: 75%
 
 ---
@@ -25,7 +25,48 @@ ht-degree: 75%
 </table>
 -->
 
-+++Aggiornamento 106: versione di aprile 2026 di Adobe Learning Manager
++++Aggiornamento 107: versione patch di maggio 2026 di Adobe Learning Manager
+
+Data di pubblicazione: 26 maggio 2026
+
+## Miglioramenti (istanza e e e-mail di invito alla sessione)
+
+**Data di inizio per un&#39;istanza:** In qualità di amministratore o autore, ora puoi includere una data di inizio per un&#39;istanza quando crei o modifichi un&#39;istanza.
+
+**Promemoria e-mail prima della data di inizio:** Questo è correlato al campo **Data di inizio** appena introdotto in un&#39;istanza. In qualità di Amministratore o Autore, ora puoi impostare due promemoria e-mail in momenti diversi prima della data di inizio di un’istanza con vari tipi di ricorrenze.
+
+Per ulteriori informazioni, vedere [Creazione di un&#39;istanza](/help/migrated/administrators/feature-summary/courses.md#createinstanceofacourse) per l&#39;amministratore e [Creazione di un&#39;istanza](/help/migrated/authors/feature-summary/courses.md#createaninstance) per l&#39;autore.
+
+**E-mail di invito alla sessione:** quando un utente viene aggiunto come istruttore per un tipo di sessione CR/VCR, l&#39;istruttore riceve un&#39;e-mail di notifica automatica. L&#39;aspetto di questa posta è stato migliorato esteticamente. Per ulteriori informazioni, consulta [Inviti al calendario](/help/migrated/instructors/feature-summary/learners.md#calendarinvites)
+
+## Modifiche API
+
+### Avvia disponibilità nell’API getLO
+
+**Miglioramento dell’API GET /learningObjects**
+
+L’API GET /learningObjects ora include un nuovo attributo startDate nella risorsa learningObjectInstance quando viene inclusa la relazione tra le istanze.
+
+**Endpoint**
+
+GET /learningObjects/{id}?include=instance
+
+**Modifica**
+
+È stato aggiunto un nuovo campo, startDate, in:
+incluso[].attributes.startDate
+
+**Descrizione**
+
+startDate rappresenta la data e l’ora di inizio pianificate di un’istanza dell’oggetto di apprendimento.
+
+Per ulteriori informazioni, [consulta Modifiche API nella versione di maggio](/help/migrated/api-changes-alm-may.md).
+
+
++++
+
+
++++Aggiornamento 106: versione patch di aprile 2026 di Adobe Learning Manager
 
 Data di pubblicazione: 30 aprile 2026
 

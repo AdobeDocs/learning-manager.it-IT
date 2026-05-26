@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '8841'
-ht-degree: 65%
+source-wordcount: '9424'
+ht-degree: 61%
 
 ---
 
@@ -49,15 +49,16 @@ Per creare un corso, procedi nel seguente modo:
 
 ## Creazione di un corso - Flusso di lavoro avanzato {#createacourseadvancedworkflow}
 
-1. Accedi ad Adobe Learning Manager come Autore, poiché solo gli Autori hanno i diritti per creare corsi. Nella pagina della Guida introduttiva, fai clic su **[!UICONTROL Crea corsi]**.
-1. Nella pagina **Panoramica corso**, inserisci il nome del corso. Inserisci una breve descrizione, che verrà visualizzata sulla scheda del corso. La descrizione non deve superare i 140 caratteri. Quindi inserisci la panoramica dettagliata del corso, che verrà visualizzata nella pagina dei dettagli del corso. Questa descrizione non deve superare i 1500 caratteri.
-1. Per rendere il tuo corso disponibile in altre lingue, fai clic su Aggiungi nuova lingua nell’angolo in alto a sinistra della pagina. Seleziona la lingua o le lingue in cui desideri rendere disponibile il tuo corso. Fai clic su **[!UICONTROL Salva]**. Per ulteriori informazioni, consulta [Aggiunta di contenuto per lingue diverse](/help/migrated/authors/feature-summary/content-library.md).
-1. **Modifica delle impostazioni corsi**-
+1. Accedi ad Adobe Learning Manager come Autore, poiché solo gli Autori hanno i diritti per creare corsi. Nella pagina Home, seleziona **[!UICONTROL Crea corsi]**. Si apre la pagina Catalogo corsi e viene visualizzato un elenco di corsi.
+2. Seleziona **Aggiungi** in alto a destra. Viene aperta una pagina per creare un nuovo corso.
+3. Immetti un nome per il corso e una breve descrizione. Questa descrizione viene visualizzata nella scheda del corso. La descrizione non deve superare i 140 caratteri. Quindi inserisci la panoramica dettagliata del corso, che verrà visualizzata nella pagina dei dettagli del corso. Questa descrizione non deve superare i 1500 caratteri.
+4. Per rendere il tuo corso disponibile in altre lingue, fai clic su Aggiungi nuova lingua nell’angolo in alto a sinistra della pagina. Seleziona la lingua o le lingue in cui desideri rendere disponibile il tuo corso. Fai clic su **[!UICONTROL Salva]**. Per ulteriori informazioni, consulta [Aggiunta di contenuto per lingue diverse](/help/migrated/authors/feature-summary/content-library.md).
+5. **Modifica delle impostazioni corsi**-
 
-   1. Nella pagina Impostazioni corso, scegli un’abilità per il corso. Dall’elenco a discesa Abilità, scegli l’abilità richiesta. Dall’elenco a discesa Livello, scegli il livello richiesto.
-   1. Scegli le abilità e il livello del corso e imposta i crediti per l’abilità. Aggiungi più abilità, se necessario.
-   1. Se necessario, aggiungi le etichette di conformità personalizzate al corso. Consulta [Aggiungere etichette di conformità a corso/percorso di apprendimento/certificazione](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-   1. Dall’elenco a discesa **Tipo di iscrizione**, scegli il tipo di iscrizione.
+   a. Nella pagina Impostazioni corso, scegli un’abilità per il corso. Dall’elenco a discesa Abilità, scegli l’abilità richiesta. Dall’elenco a discesa Livello, scegli il livello richiesto.
+b. Scegli le abilità e il livello del corso e imposta i crediti per l’abilità. Aggiungi più abilità, se necessario.
+c. Se necessario, aggiungi le etichette di conformità personalizzate al corso. Consulta [Aggiungere etichette di conformità a corso/percorso di apprendimento/certificazione](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+d. Dall’elenco a discesa **Tipo di iscrizione**, scegli il tipo di iscrizione.
 
    I tipi di iscrizioni sono descritti di seguito:
 
@@ -65,13 +66,15 @@ Per creare un corso, procedi nel seguente modo:
    * **Approvato dal Manager:** corsi approvati dai Manager. Gli Allievi possono registrarsi a questi corsi, ma non vengono iscritti direttamente senza l’approvazione del Manager. Una richiesta di notifica viene inviata ai Manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del Manager, gli allievi risultano iscritti ai corsi.
    * **Iscrizione autonoma:** gli allievi possono iscriversi direttamente a questo tipo di corsi.
 
-1. Scegli se impostare un prezzo per il corso o se renderlo gratuito. Se desideri rendere il corso a pagamento, seleziona l’opzione **[!UICONTROL A pagamento]** e specifica il prezzo. Il prezzo viene quindi visualizzato nella scheda del corso e nella pagina con la panoramica del corso di un Allievo.
+6. Scegli se impostare un prezzo per il corso o se renderlo gratuito. Se desideri rendere il corso a pagamento, seleziona l’opzione **[!UICONTROL A pagamento]** e specifica il prezzo. Il prezzo viene quindi visualizzato nella scheda del corso e nella pagina con la panoramica del corso di un Allievo.
 
-   NOTA: questa opzione viene attivata solo quando viene configurato il connettore Adobe Commerce.
+   >[!NOTE]
+   >
+   >Questa opzione è attiva solo quando è configurato il connettore Adobe Commerce.
 
-1. Se desideri offrire agli allievi la possibilità di annullare la propria iscrizione al corso, attiva la casella di controllo **Gli allievi possono annullare l’iscrizione**.
+7. Se desideri offrire agli allievi la possibilità di annullare la propria iscrizione al corso, attiva la casella di controllo **Gli allievi possono annullare l’iscrizione**.
 
-1. **Configurazione istanza**
+8. **Configurazione istanza**
 
    Se attivi questa opzione, gli Allievi che si trovano nello stato In corso possono visitare altre istanze ed iscriversi. Un Allievo può quindi mantenere l’avanzamento dell’istanza precedente.
 
@@ -84,7 +87,9 @@ Per creare un corso, procedi nel seguente modo:
    * Aula
    * Activity
 
-   Nota: durante la duplicazione di un corso, se hai abilitato l’opzione Configurazione istanza nel corso di origine, l’opzione rimane disabilitata nel corso di destinazione.
+   >[!NOTE]
+   >
+   >Durante la duplicazione di un corso, se hai attivato l’opzione Configurazione istanza nel corso di origine, l’opzione rimane disattivata nel corso di destinazione.
 
    **L&#39;opzione di istanza non è supportata per**:
 
@@ -93,18 +98,18 @@ Per creare un corso, procedi nel seguente modo:
 
    La configurazione della commutazione di istanza non verrà propagata agli account condivisi tra pari se condivisa tramite il catalogo; l’opzione rimane disattivata nel corso di destinazione.
 
-1. **Più iscrizioni**
+9. **Più iscrizioni**
 
    Utilizzando questa opzione, puoi iscrivere gli Allievi in più di un’istanza del corso in uno o più periodi diversi.
 
    Abilita l’opzione **Iscrizione multipla** per passare da un’iscrizione a un altro corso di un Allievo. Se è stata abilitata la commutazione istanza, non è possibile utilizzare l’iscrizione multipla.
 
-1. Seleziona i corsi propedeutici che devono essere completati prima di iniziare il corso. Fai clic sul campo Corsi e scegli dall’elenco dei corsi.
-1. Abilita la casella di controllo **Abilita** **prerequisiti** se desideri che i corsi propedeutici siano resi obbligatori.
-1. Aggiungi parole chiave come tag relativi al tuo corso. Questi tag aiutano gli allievi a individuare facilmente il tuo corso durante la ricerca. Tutti questi tag vengono aggiunti automaticamente in base ai moduli aggiunti. Se desideri aggiungere altri tag a questo corso, puoi inserirli.
-1. Aggiungi parole chiave come tag relativi al tuo corso. Questi tag aiutano gli allievi a individuare facilmente il tuo corso durante la ricerca. Tutti questi tag vengono aggiunti automaticamente in base ai moduli aggiunti. Se desideri aggiungere altri tag a questo corso, puoi inserirli.
-1. Nel campo Ritiro automatico, seleziona una data in cui il corso viene ritirato. L’Amministratore deve prima abilitare l’opzione Ritiro automatico.
-1. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]**. Per pubblicare il corso, fai clic su **[!UICONTROL Pubblica]**.
+10. Seleziona i corsi propedeutici che devono essere completati prima di iniziare il corso. Fai clic sul campo Corsi e scegli dall’elenco dei corsi.
+11. Abilita la casella di controllo **Abilita** **prerequisiti** se desideri che i corsi propedeutici siano resi obbligatori.
+12. Aggiungi parole chiave come tag relativi al tuo corso. Questi tag aiutano gli allievi a individuare facilmente il tuo corso durante la ricerca. Tutti questi tag vengono aggiunti automaticamente in base ai moduli aggiunti. Se desideri aggiungere altri tag a questo corso, puoi inserirli.
+13. Aggiungi parole chiave come tag relativi al tuo corso. Questi tag aiutano gli allievi a individuare facilmente il tuo corso durante la ricerca. Tutti questi tag vengono aggiunti automaticamente in base ai moduli aggiunti. Se desideri aggiungere altri tag a questo corso, puoi inserirli.
+14. Nel campo Ritiro automatico, seleziona una data in cui il corso viene ritirato. L’Amministratore deve prima abilitare l’opzione Ritiro automatico.
+15. Per salvare le modifiche, seleziona **[!UICONTROL Salva]**. Per pubblicare il corso, fai clic su **[!UICONTROL Pubblica]**.
 
 ### Aggiungi etichette di conformità a corso/percorso di apprendimento/certificazione {#add-custom-compliance-label}
 
@@ -131,6 +136,64 @@ Ora il corso/percorso di apprendimento/certificazione è considerato un tipo di 
 >[!NOTE]
 >
 >Gli Autori possono anche aggiungere etichette di conformità a un corso, percorso di apprendimento o certificazione esistente modificandoli.
+
+## Creare un’istanza
+
+Per creare un’istanza, effettuate le seguenti operazioni:
+
+1. Accedi come **Autore**.
+2. Seleziona il corso per il quale desideri creare un’istanza e apri il corso.
+3. Seleziona **Istanze** nel pannello di navigazione a sinistra. Viene aperta la pagina **Istanze**. Ogni corso ha un’istanza per impostazione predefinita. Puoi modificare l’istanza predefinita o aggiungere istanze. Non è possibile eliminare questa istanza del corso.
+4. Fai clic su **[!UICONTROL Aggiungi nuova istanza]** nell’angolo in alto a destra delle informazioni sul corso. Viene visualizzata una nuova istanza del corso.
+5. Immetti le proprietà dell’istanza:
+
+   * Nel campo **[!UICONTROL Nome istanza]**, immetti il nome dell’istanza che desideri associare al corso. Assicurati di utilizzare un nome univoco per l’istanza.
+   * **Data di inizio:** Questa è la data di inizio del corso. Due e-mail di promemoria possono essere inviate all’Allievo in due date diverse, selezionate, prima di questa data di inizio. La data di inizio deve essere una data precedente alla data di completamento. Una volta selezionata la data di inizio, questa data verrà evidenziata in blu nel calendario nella sezione **Avvisi di notifica** dell&#39;istanza.
+     ![](assets/start-date-highlighted-instance.png)
+   * Specifica la scadenza per il completamento dell’istanza. Gli Allievi devono ottenere lo stato di completamento del corso entro questa data.
+   * Selezionare **[!UICONTROL Mostra più opzioni]** per visualizzare altre opzioni di scadenza.
+   * **[!UICONTROL Scadenza iscrizione]:** Data entro la quale un Allievo deve iscriversi a un oggetto di apprendimento in caso di iscrizione autonoma.
+   * **[!UICONTROL Scadenza annullamento iscrizione]:** Puoi scegliere di limitare l’annullamento dell’iscrizione da parte dello stesso Allievo fissando una scadenza per l’annullamento dell’iscrizione.
+   * **[!UICONTROL Fuso orario]:** Cercare e quindi selezionare il **[!UICONTROL Fuso orario]** dal menu a discesa.
+
+6. Seleziona **Salva**.
+   ![](assets/start-date-instance.png)
+
+### Impostare i promemoria e-mail prima della data di inizio
+
+Puoi impostare i promemoria e-mail solo dopo aver salvato le informazioni sull’intera istanza. Dopo aver selezionato **Salva**, l&#39;istanza si riduce a icona e passa alla modalità di modifica.
+
+1. Selezionare la casella **Avvisi di notifica**.
+2. Nel calendario, seleziona una data precedente alla data di inizio del corso per il primo promemoria.
+3. Seleziona **Aggiungi promemoria** a destra.
+4. **Modello e-mail:** selezionare un modello dall&#39;elenco a ** a discesa
+5. **Ricorrenza:** Selezionare un tipo di ricorrenza dall&#39;elenco a discesa.
+Seleziona il segno di spunta blu a destra per salvare la data del promemoria. Ricorda che ogni data del promemoria deve essere salvata separatamente.
+   ![](assets/start-date-reminder1.png)
+6. Seleziona una data precedente a quella di inizio del corso per il secondo promemoria, ripeti la procedura e seleziona il segno di spunta blu a destra per salvare anche questa data promemoria.
+   ![](assets/start-date-reminder2.png)
+
+## Visualizza le proprietà dell’istanza {#viewpropertiesoftheinstance}
+
+1. **Moduli:** il numero di moduli creati dall’Autore del corso
+2. **Sessioni:** Il numero di moduli aula virtuale e aula nel corso
+3. **Obiettivi:** Obiettivi degli Allievi
+4. **Avvisi di notifica:** opzione per inviare due e-mail di promemoria prima della data di inizio del corso
+
+### Azioni {#actions}
+
+* **Salva nelle impostazioni del corso:** Salva le impostazioni dell&#39;istanza nel corso da cui è stata creata.
+* **Applica impostazioni predefinite:** Applica le impostazioni predefinite trovate nella pagina **Configura** > **Impostazioni predefinite istanza**.
+* **Istanza ritirata:** istanza ritirata. L&#39;istanza non sarà più disponibile.
+* **Elimina istanza:** Elimina l&#39;istanza specifica.
+
+
+>[!NOTE]
+>
+>Non è possibile eliminare l&#39;istanza predefinita o una copia dell&#39;istanza predefinita. In questi casi, l’opzione Elimina istanza non sarà visualizzata nell’elenco a discesa Azione.
+
+* **Notifica agli Allievi in lista di attesa:** Notifica agli Allievi in lista di attesa che esiste un’altra istanza a cui possono iscriversi
+* **Invia e-mail agli Allievi iscritti:** Invia e-mail agli Allievi sugli annunci importanti
 
 ## Punti di gamification
 
