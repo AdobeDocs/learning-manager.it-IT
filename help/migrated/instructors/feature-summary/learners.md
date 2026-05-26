@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -142,7 +142,7 @@ Tutti gli aggiornamenti vengono riportati automaticamente nei record, nelle tras
 
 * Gli eventi di formazione per partner o clienti consentono al formatore on-site di adattarsi facilmente alle modifiche della stanza, a sessioni aggiuntive o a partecipanti aggiuntivi senza dover consultare l&#39;amministratore per nuovi codici QR.
 
-### Inviti del calendario
+### Inviti del calendario {#calendarinvites}
 
 * Quando un Allievo o un Istruttore è iscritto a una sessione di un’aula o di un’aula virtuale, Learning Manager invia un invito nel calendario (file ICS).
 * L&#39;invito del calendario include:
