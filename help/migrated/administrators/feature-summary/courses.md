@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: bb212865016726f84a240702533a099ac11e481a
+source-git-commit: 24fe199514c70bc081eda47b3e8d8dca9d8faba3
 workflow-type: tm+mt
-source-wordcount: '5898'
-ht-degree: 60%
+source-wordcount: '6106'
+ht-degree: 58%
 
 ---
 
@@ -49,17 +49,32 @@ Per creare un’istanza,
 1. Immetti le proprietà dell’istanza:
 
    * Nel campo **[!UICONTROL Nome istanza]**, immetti il nome dell’istanza che desideri associare al corso. Assicurati di utilizzare un nome univoco per l’istanza.
+   * **Data di inizio:** Questa è la data di inizio del corso. Due e-mail di promemoria possono essere inviate all’Allievo in due date diverse, selezionate, prima di questa data di inizio. La data di inizio deve essere una data precedente alla data di completamento. Una volta selezionata la data di inizio, questa data verrà evidenziata in blu nel calendario nella sezione **Avvisi di notifica** dell&#39;istanza.
+     ![](assets/start-date-highlighted-instance.png)
    * Specifica la scadenza per il completamento dell’istanza. Gli Allievi devono ottenere lo stato di completamento del corso entro questa data.
-   * Fai clic su **[!UICONTROL Mostra altre opzioni]** per visualizzare altre opzioni di scadenza.
+   * Selezionare **[!UICONTROL Mostra più opzioni]** per visualizzare altre opzioni di scadenza.
    * **[!UICONTROL Scadenza iscrizione]:** Data entro la quale un Allievo deve iscriversi a un oggetto di apprendimento in caso di iscrizione autonoma.
    * **[!UICONTROL Scadenza annullamento iscrizione]:** Puoi scegliere di limitare l’annullamento dell’iscrizione da parte dello stesso Allievo fissando una scadenza per l’annullamento dell’iscrizione.
    * **[!UICONTROL Fuso orario]:** Cercare e quindi selezionare il **[!UICONTROL Fuso orario]** dal menu a discesa.
 
-   Un Amministratore può decidere di impostare scadenze di completamento per un corso o un programma di apprendimento sulla base di requisiti. Tuttavia è consigliabile impostarne una per i corsi di formazione in classe o nella classe aula virtuale.
+   Seleziona **Salva**.
+   ![](assets/start-date-instance.png)
 
-   ![](assets/create-an-instance.png)
+#### Impostare i promemoria e-mail prima della data di inizio
 
-   *Impostare la scadenza per il completamento*
+Puoi impostare i promemoria e-mail solo dopo aver salvato le informazioni sull’intera istanza. Dopo aver selezionato **Salva**, l&#39;istanza si riduce a icona e passa alla modalità di modifica.
+
+1. Selezionare la casella **Avvisi di notifica**.
+2. Nel calendario, seleziona una data precedente alla data di inizio del corso per il primo promemoria.
+3. Seleziona **Aggiungi promemoria** a destra.
+4. **Modello e-mail:** selezionare un modello dall&#39;elenco a ** a discesa
+5. **Ricorrenza:** Selezionare un tipo di ricorrenza dall&#39;elenco a discesa.
+Seleziona il segno di spunta blu a destra per salvare la data del promemoria. Ricorda che ogni data del promemoria deve essere salvata separatamente.
+   ![](assets/start-date-reminder1.png)
+6. Seleziona una data precedente a quella di inizio del corso per il secondo promemoria, ripeti la procedura e seleziona il segno di spunta blu a destra per salvare anche questa data promemoria.
+   ![](assets/start-date-reminder2.png)
+
+Un Amministratore può decidere di impostare scadenze di completamento per un corso o un programma di apprendimento sulla base di requisiti. Tuttavia è consigliabile impostarne una per i corsi di formazione in classe o nella classe aula virtuale.
 
 ### Visualizza le proprietà dell’istanza {#viewpropertiesoftheinstance}
 

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -146,9 +146,12 @@ Tutti gli aggiornamenti vengono riportati automaticamente nei record, nelle tras
 
 * Quando un Allievo o un Istruttore è iscritto a una sessione di un’aula o di un’aula virtuale, Learning Manager invia un invito nel calendario (file ICS).
 * L&#39;invito del calendario include:
+
    * Data e ora della sessione
    * Dettagli della sessione
    * **Collegamento diretto alla sessione** nella descrizione del calendario
+
+  ![](assets/calendar-invite-session.png)
 
 I partecipanti possono aprire l&#39;evento del calendario e partecipare alla sessione direttamente dal proprio calendario.
 
