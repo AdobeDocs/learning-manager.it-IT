@@ -3,9 +3,9 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '5322'
+source-wordcount: '5320'
 ht-degree: 61%
 
 ---
@@ -862,7 +862,7 @@ Di seguito sono riportate le specifiche CSV aggiornate che puoi utilizzare per m
 
 3-learning_program_enrollment.xlsx contiene le descrizioni dei metadati richiesti per il file retrofit_learning_program_enrollment.csv.
 
-4-user_course_grades.xlsx contiene le descrizioni dei metadati richiesti per il file retrofit_user_course_grades.csv.
+4-user_course_grades.xlsx-contiene le descrizioni dei metadati richiesti per il file retrofit_user_course_grades.csv.
 [csv-specific.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -889,7 +889,7 @@ Learning Manager supporta UUID per fornire flessibilità alle organizzazioni nel
 
 **Scenario di utilizzo dell’UUID in un’organizzazione**
 
-Consideriamo uno scenario in cui un dipendente A entra a far parte di un’azienda denominata Learning Manager, come appaltatore. Durante il periodo del contratto, l’azienda di Learning Manager potrebbe non fornire l’ID e-mail dell’azienda come ```A@example.com```, ma considerare solo l’account e-mail personale del dipendente, ad esempio ```A@gmail.com```. Dopo aver completato 6 mesi di periodo di contratto, se lo stesso dipendente A si aggiunge a Learning Manager come dipendente a tempo pieno, Learning Manager potrebbe voler modificare il suo ID e-mail con l’ID e-mail dell’azienda: ```A@example.com```.
+Consideriamo uno scenario in cui un dipendente A entra a far parte di un’azienda denominata Learning Manager, come appaltatore. Durante il periodo del contratto, l’azienda di Learning Manager potrebbe non fornire l’ID e-mail dell’azienda come `A@example.com`, ma considerare solo l’account e-mail personale del dipendente, ad esempio `A@gmail.com`. Dopo aver completato 6 mesi di periodo di contratto, se lo stesso dipendente A si aggiunge a Learning Manager come dipendente a tempo pieno, Learning Manager potrebbe voler modificare il suo ID e-mail con l’ID e-mail dell’azienda: `A@example.com`.
 
 L’accesso UUID all’account utente rappresenta un vantaggio per Learning Manager nello scenario sopra citato. Learning Manager può facilmente sostituire l’ID e-mail personale del dipendente A con un ID e-mail ufficiale. I record del dipendente rilevanti per questo account non sono interessati da questa modifica.
 
