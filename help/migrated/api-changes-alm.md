@@ -458,7 +458,7 @@ La colonna dell’ordine precedente deve essere considerata come rimossa o ignor
 - La mappatura richiesta principale rimane:
    - ID programma di apprendimento ↔ ID corso (e qualsiasi altra colonna ancora documentata come ID, learningProgramId, courseId e date).
 
-Fai sempre riferimento alle [_specifiche CSV_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) più recenti dal tuo account Learning Manager (tramite csv_specific.zip) per confermare il set di intestazioni e i requisiti correnti.
+Fai sempre riferimento alle [_specifiche CSV_](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/migration-manual) più recenti dal tuo account Learning Manager (tramite csv_specific.zip) per confermare il set di intestazioni e i requisiti correnti.
 
 ## TimeZoneCode sulle istanze del corso
 
