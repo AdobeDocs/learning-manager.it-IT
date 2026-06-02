@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
+source-git-commit: de174f32cdf0458e6e20e3263eefd1da1fc2da3d
 workflow-type: tm+mt
-source-wordcount: '29658'
+source-wordcount: '29617'
 ht-degree: 75%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 75%
 
 Data di pubblicazione: 26 maggio 2026
 
-## Miglioramenti (istanza e e e-mail di invito alla sessione)
+## Miglioramenti in questa versione
 
-**Data di inizio per un&#39;istanza:** In qualità di amministratore o autore, ora puoi includere una data di inizio per un&#39;istanza quando crei o modifichi un&#39;istanza.
+**Data di inizio per un&#39;istanza:** In qualità di amministratore o autore, ora puoi includere una data di inizio per un&#39;istanza quando crei o modifichi un&#39;istanza. La data di inizio può essere visualizzata nell’interfaccia Allievo solo tramite l’API.
 
 **Promemoria e-mail prima della data di inizio:** Questo è correlato al campo **Data di inizio** appena introdotto in un&#39;istanza. In qualità di Amministratore o Autore, ora puoi impostare due promemoria e-mail in momenti diversi prima della data di inizio di un’istanza con vari tipi di ricorrenze.
 
@@ -589,8 +589,8 @@ La nuova app Adobe Learning Manager su Microsoft Teams è progettata per favorir
 **Problemi noti in questo aggiornamento**
 
 * Il pulsante Condividi sul catalogo degli Allievi non funziona come previsto nel browser safari e nell’app MS Teams per dispositivi mobili e iPad.
-* Le notifiche non vengono visualizzate nella scheda Attività una volta che l’app è stata rimossa in altri computer.
-Quando viene fatto clic sulle notifiche nella scheda Attività dell’app su iPhone 14 non avviene nulla.
+* Le notifiche non vengono visualizzate nella scheda Attività dopo che l&#39;app è stata rimossa da altri computer.
+Quando fai clic sulle notifiche nella scheda Attività dell’app in iPhone 14, non accade nulla.
 * Nell’app MS Teams, le notifiche di Learning Manager (completato, iscritto, in scadenza e scaduto) non mostrano lo stato e il nome del corso nella scheda Attività.
 * Viene visualizzata una finestra a comparsa con contenuti XML quando l’Amministratore di integrazione non approva l’app MS Teams.
 * La lingua dell’interfaccia utente nell’app Adobe Learning Manager su MS Teams a volte non cambia come previsto quando viene modificata.
@@ -615,8 +615,8 @@ Quando viene fatto clic sulle notifiche nella scheda Attività dell’app su iPh
 
 ### Miglioramenti Delle Prestazioni In Questa Versione
 
-In caso di iscrizione in serie degli Allievi, non verrà generato alcun file di registro per ogni Allievo.
-È stata ottimizzata l’elaborazione dei piani di apprendimento per gli account di grandi dimensioni. In questo modo si evitano problemi di ricerca o ritardi.
+Quando viene eseguita un’iscrizione in blocco degli Allievi, non viene generato alcun file registro per ciascun Allievo.
+Abbiamo ottimizzato l’elaborazione dei piani di apprendimento per gli account di grandi dimensioni. In questo modo si evitano problemi di ricerca o ritardi.
 +++
 
 +++Aggiornamento 87

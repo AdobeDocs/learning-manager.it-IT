@@ -2,13 +2,13 @@
 description: Modifiche API in ALM
 jcr-language: en_us
 title: Modifiche alle API nella versione di aprile
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
 source-wordcount: '4093'
 ht-degree: 0%
 
 ---
-
 
 # Modifiche alle API nella versione di aprile 2026
 
@@ -288,7 +288,7 @@ Questa struttura consente ai client:
 
 ### Compatibilità con le versioni precedenti: 
 
-```/resources/{resourceId}```
+`/resources/{resourceId}`
 
 L&#39;endpoint della risorsa legacy rimane disponibile:
 
@@ -314,7 +314,7 @@ Le integrazioni che attualmente memorizzano o fanno riferimento ai vecchi ID di 
    - Utilizza resource.attributes.locale per selezionare l’URL corretto (location / downloadUrl) per la lingua dell’Allievo.
    - Implementa il comportamento di fallback (ad esempio, fallback a en-US) se la lingua esatta di un Allievo non è disponibile.
 - _API e archiviazione_
-   - Per le nuove integrazioni, memorizza gli _ID di risorsa in nuovo formato_ (```jobAid:<jobAidId>_<version>_<localeCode>```) per abilitare il recupero univoco specifico per le impostazioni internazionali.
+   - Per le nuove integrazioni, memorizza gli _ID di risorsa in nuovo formato_ (`jobAid:<jobAidId>_<version>_<localeCode>`) per abilitare il recupero univoco specifico per le impostazioni internazionali.
    - Gli ID legacy possono ancora essere utilizzati con /resources/{resourceId}, ma non distinguono tra le impostazioni internazionali.
 
 ## Vincoli relativi alle fasce orarie per l&#39;avvio dei moduli
@@ -323,13 +323,13 @@ Alcune esperienze di apprendimento devono essere disponibili solo entro una fine
 
 I metadati delle fasce orarie sono disponibili attraverso il punto finale:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 A livello di risorsa dell’oggetto di apprendimento, un oggetto timeSlot potrebbe ora essere presente negli attributi, con i valori startTime e endTime in UTC. Specifica la finestra durante la quale è possibile avviare la risorsa.
 
 Prima di avviare un modulo, le integrazioni possono chiamare un nuovo endpoint di convalida:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 Questo endpoint, destinato agli scenari di lettura da parte dell’Allievo, indica se l’Allievo è attualmente autorizzato ad avviare la risorsa, tenendo conto della fascia oraria configurata, del tipo di recapito e di altre regole di back-end.
 
@@ -341,7 +341,7 @@ Alcuni pacchetti di contenuti implementano il proprio tentativo di tracciamento 
 
 Attraverso:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 le risorse dell’oggetto di apprendimento possono ora esporre un attributo booleano hasContentDrivenAttemptTracking. In questo caso, il quiz o il modulo gestisce i tentativi internamente (ad esempio, tramite logica SCORM o xAPI) e i contatori dei tentativi standard della piattaforma potrebbero non riflettere completamente l’esperienza dell’Allievo.
 
@@ -353,11 +353,11 @@ Questa versione introduce un&#39;importante __modifica comportamentale__ nel for
 
 In precedenza, gli ID delle risorse Risorsa formativa utilizzavano un formato come:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 Nella versione di aprile 2026, questo è sostituito da un formato semplificato e più esplicito:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 Ad esempio:
 
@@ -365,9 +365,9 @@ risorsa formativa:131032_2_fr_FR
 
 I componenti sono:
 
-- ```<jobAidId>```: ID risorsa formativa numerico (ad esempio, 131032),
-- ```<version>```: numero di versione della risorsa formativa (ad esempio, 2),
-- ```<localeCode>```: il codice delle impostazioni internazionali (ad esempio, en_US, fr_FR, es_ES).
+- `<jobAidId>`: ID risorsa formativa numerico (ad esempio, 131032),
+- `<version>`: numero di versione della risorsa formativa (ad esempio, 2),
+- `<localeCode>`: il codice delle impostazioni internazionali (ad esempio, en_US, fr_FR, es_ES).
 
 Qualsiasi integrazione che indicizzi risorse o persista negli ID risorse risorsa formativa deve aggiornare la logica di analisi e archiviazione per riconoscere il nuovo formato. Poiché gli identificatori stessi cambiano, è consigliabile ricostruire tutti gli indici locali digitati dagli ID delle risorse della risorsa formativa dopo l’aggiornamento alla versione di aprile 2026.
 
@@ -657,7 +657,7 @@ _Come posso reimpostare a livello di programmazione il completamento di un Allie
 
 Usa il nuovo endpoint:
 
-```POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion```
+`POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion`
 Questa operazione reimposta il completamento per l&#39;istanza di destinazione quando le autorizzazioni e lo stato lo consentono.
 
 _Come si verifica se un Allievo ha completato un corso tramite un oggetto di apprendimento alternativo o equivalente?_
@@ -668,7 +668,7 @@ _Come posso trovare tutte le alternative che soddisfano un determinato oggetto d
 
 Utilizza il seguente endpoint:
 
-```GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}```
+`GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}`
 
 e utilizzare la matrice di dati (per le alternative) e meta.count (per il numero totale di alternative).
 
@@ -676,10 +676,10 @@ _Come faccio a sapere se un Allievo è autorizzato ad avviare un modulo in quest
 
 Innanzitutto, recuperare il timeSlot della risorsa da:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 e quindi utilizzare:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 _Cosa significa hasContentDrivenAttemptTracking in una risorsa?_
 
@@ -689,7 +689,7 @@ _Come posso ottenere menu appropriati per gli utenti non connessi (esperienze pu
 
 Usa:
 
-```GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true```
+`GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true`
 
 Restituisce strutture di menu e pagine filtrate per utenti anonimi, adatte a Experience Builder o ad altri siti headless.
 
@@ -701,10 +701,10 @@ _Cosa è cambiato nel formato dell&#39;ID della risorsa formativa e come devo ge
 
 Il formato ID è cambiato da valori quali:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 a:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 ad esempio jobAid:131032_2_fr_FR. Qualsiasi sistema che memorizzi o analizzi gli ID delle risorse risorsa formativa deve essere aggiornato e dovresti pianificare la ricostruzione degli indici locali basati su questi ID dopo l&#39;aggiornamento alla versione di aprile 2026.

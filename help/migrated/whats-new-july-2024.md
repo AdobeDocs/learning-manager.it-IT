@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di luglio
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2336'
 ht-degree: 2%
 
 ---
@@ -123,7 +123,7 @@ Gli Allievi riceveranno notifiche push ogni volta che saltano una scadenza del c
 
 L’API di ricerca include le seguenti modifiche:
 
-Gli Allievi possono cercare i tag nei filtri del catalogo utilizzando l’API ```GET /search```. Gli Allievi possono cercare i tag selezionando ```tag``` come valore per il parametro ```filter.loTypes```.
+Gli Allievi possono cercare i tag nei filtri del catalogo utilizzando l’API `GET /search`. Gli Allievi possono cercare i tag selezionando `tag` come valore per il parametro `filter.loTypes`.
 
 **Curva di esempio**
 
@@ -131,13 +131,13 @@ Gli Allievi possono cercare i tag nei filtri del catalogo utilizzando l’API ``
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-I nuovi filtri, postazione disponibile, lista d&#39;attesa disponibile e filtro intervallo di tempo sono stati aggiunti alle seguenti API: ```GET /search``` e `GET /learningObjects`.
+I nuovi filtri, postazione disponibile, lista d&#39;attesa disponibile e filtro intervallo di tempo sono stati aggiunti alle seguenti API: `GET /search` e `GET /learningObjects`.
 
-I nuovi filtri `filter.session.includeEnrollmentDeadline` sono stati aggiunti all&#39;API ```GET /search``` seguente.
+I nuovi filtri `filter.session.includeEnrollmentDeadline` sono stati aggiunti all&#39;API `GET /search` seguente.
 
 ### API dell’account
 
-Le nuove colonne `custom_injections`, `showComplianceLabel` e `complianceLabelDefaultID` sono state aggiunte all&#39;API ```GET /account``` per ottenere i dati dell&#39;account dell&#39;endpoint utente.
+Le nuove colonne `custom_injections`, `showComplianceLabel` e `complianceLabelDefaultID` sono state aggiunte all&#39;API `GET /account` per ottenere i dati dell&#39;account dell&#39;endpoint utente.
 
 ### API Oggetti di apprendimento
 
