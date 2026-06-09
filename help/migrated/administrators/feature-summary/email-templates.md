@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Modelli e-mail
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
@@ -35,7 +35,7 @@ Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe
 
 Gli Amministratori possono facilmente attivare, disattivare o modificare questi modelli e-mail.
 
-I modelli e-mail menzionati di seguito fanno parte di questo gruppo di modelli.
+I modelli e-mail menzionati di seguito fanno parte di questo gruppo di modelli:
 
 **Aggiornamento avanzamento:** Questo modello notifica a un Allievo che lo stato di completamento e l’avanzamento di un percorso di apprendimento sono stati ricalcolati automaticamente a causa di una modifica del profilo attivo o della configurazione del percorso di apprendimento. Chiede all’Allievo di rivedere eventuali nuovi requisiti in sospeso e intraprendere azioni per completare il percorso di apprendimento.
 
