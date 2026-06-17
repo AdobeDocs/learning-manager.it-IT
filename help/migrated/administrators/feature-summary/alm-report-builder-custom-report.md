@@ -32,7 +32,7 @@ b. Nome utente\manager
 c. Oggetto di apprendimento\Nome oggetto di apprendimento
 d. Stato di conformità utente\Completamento %
 e. Stato di conformità utente\% conformità
-!   [](assets/image012.png)
+!   [&#128279;](assets/image012.png)
 7. Riordinate le colonne trascinandole nell&#39;area di lavoro.
 8. Per rinominare una colonna, immettere un nome nel campo alias della colonna. L&#39;alias viene visualizzato come intestazione di colonna nel file scaricato.
 9. Seleziona **Salva report**.

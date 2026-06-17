@@ -27,7 +27,7 @@ Questo report aiuta i responsabili della formazione e gli amministratori L&amp;D
 8. Scegli **Iscrizione - Data iscrizione** e imposta la granularità su **Mese**. Scegli **Gruppo di utenti campo attivo - Nome gruppo di utenti**. Entrambi vengono visualizzati come tag: **Iscrizione - Data di iscrizione (mese)** e **Gruppo di utenti campo attivo - Nome gruppo di utenti**.
 9. Nella riga **Iscrizione - Tempo impiegato**, seleziona **Aggrega per** e scegli **Somma**.
 10. Nella riga **Oggetto di apprendimento - Conteggio utenti iscrizione**, seleziona **Aggrega per** e scegli **Conteggio**.
-   ![](assets/image038.jpg)
+    ![](assets/image038.jpg)
 11. Selezionare **Aggiungi filtro**. Scegli **Iscrizione - Data iscrizione** e seleziona un intervallo relativo, ad esempio **Ultimi 3 mesi**, oppure immetti un intervallo di date specifico.
 12. Selezionare **+ Aggiungi ordinamento**. Ordina in base a **Iscrizione - Data di iscrizione** crescente, quindi aggiungi un ordinamento secondario in base al **tempo totale impiegato** decrescente.
 13. Selezionate **Salva report** e selezionate **Azioni** > **Scarica** per scaricare il report.

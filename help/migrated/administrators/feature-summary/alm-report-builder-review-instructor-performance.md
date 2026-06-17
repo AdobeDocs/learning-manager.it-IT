@@ -28,9 +28,9 @@ Questo report consente ai manager di formazione di identificare gli istruttori p
 9. Per visualizzare anche il totale delle iscrizioni, aggiungi **Stato** una seconda volta. Applica **Count if** a **Non avviato**. Digitare l&#39;alias _Totale iscrizioni_.
    ![](assets/image035.png)
 10. Filtra **Nomi istruttore** per non svuotare.
-   ![](assets/image036.jpg)
+    ![](assets/image036.jpg)
 11. Ordina in base a **Completamenti totali** che scendono fino a presentare prima gli istruttori con le prestazioni più elevate.
-   ![](assets/image037.png)
+    ![](assets/image037.png)
 12. Seleziona Salva report e seleziona **Azioni** > **Scarica** per scaricare il report.
 
 Il report scaricato riassume l’efficienza degli istruttori confrontando il totale delle sessioni di formazione, i completamenti degli allievi e le iscrizioni non iniziate per ogni istruttore, contribuendo a valutare il coinvolgimento, le prestazioni di completamento e le potenziali esigenze di follow-up della formazione.

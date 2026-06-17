@@ -58,7 +58,7 @@ Questo report mostra i totali di completamento mensili per catalogo in un period
 9. Aggiungi un filtro: **La data di completamento** è compresa nell&#39;ultimo anno.
    ![](assets/image044.png)
 10. Ordina per **Data completamento** crescente.
-   ![](assets/image_045.png)
+    ![](assets/image_045.png)
 11. Selezionate **Salva report** e selezionate **Azioni** > **Scarica** per scaricare il report.
 
 ## Procedure ottimali
