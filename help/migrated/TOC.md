@@ -2,10 +2,10 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+source-git-commit: a5e02f0ed0a691becbf52e310682360c0ba67a20
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 61%
+source-wordcount: '1070'
+ht-degree: 53%
 
 ---
 
@@ -82,8 +82,26 @@ ht-degree: 61%
       * [Contenuti del marketplace](administrators/feature-summary/content-marketplace.md)
       * [Corsi Go1 al percorso di apprendimento](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [Modulo di feedback L1](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
+   * Report Builder {#report-builder}
+      * [Report Builder in Adobe Learning Manager](administrators/feature-summary/alm-report-builder.md)
+      * [Report Builder: concetti e terminologia](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
+      * [Set di dati disponibili nel Report Builder](administrators/feature-summary/alm-report-builder-datasets.md)
+      * [Introduzione a un modello di Report Builder](administrators/feature-summary/alm-create-report.md)
+      * [Personalizzare un modello di Report Builder duplicato](administrators/feature-summary/alm-report-builder-customize-duplicated-template.md)
+      * [Creare un report personalizzato nel Report Builder](administrators/feature-summary/alm-report-builder-custom-report.md)
+      * [Applica raggruppamento e aggregazioni nel Report Builder](administrators/feature-summary/alm-report-builder-group-by-and-aggregations.md)
+      * [Aggiungere e combinare i filtri in un report](administrators/feature-summary/alm-report-builder-add-combine-filters.md)
+      * [Ordina colonne report nel Report Builder](administrators/feature-summary/alm-report-builder-sort-report-columns.md)
+      * [Verifica le prestazioni dell’istruttore con il Report Builder](administrators/feature-summary/alm-report-builder-review-instructor-performance.md)
+      * [Tenere traccia del coinvolgimento del gruppo di utenti nel Report Builder](administrators/feature-summary/alm-report-builder-track-engagement.md)
+      * [Crea un report sulle tendenze nel Report Builder](administrators/feature-summary/alm-report-builder-build-trend-report.md)
+      * [Scarica, condividi e iscriviti a un report](administrators/feature-summary/alm-report-builder-download-share-subscribe.md)
+      * [Duplicare e riutilizzare un report nel Report Builder](administrators/feature-summary/alm-report-builder-duplicate-reuse.md)
+      * [Limitazioni del Report Builder in Adobe Learning Manager](administrators/feature-summary/alm-report-builder-limitations.md)
+      * [Domande frequenti](administrators/feature-summary/alm-report-builder-faq.md)
    * [Rapporti](administrators/feature-summary/reports.md)
    * [Dashboard di Group Success](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
+   * [Configurazione dell’iscrizione con un solo clic a Adobe Learning Manager](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
    * [Percorsi di apprendimento](administrators/feature-summary/learning-paths.md)
    * [Alternative e equivalenza](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [Piani di apprendimento](administrators/feature-summary/learning-plans.md)
@@ -190,6 +208,7 @@ ht-degree: 61%
    * [Accesso](learners/feature-summary/user-login.md)
    * [Impostazioni profilo](learners/feature-summary/settings.md)
    * [Cataloghi](learners/feature-summary/catalogs.md)
+   * [Iscrizione con un clic](learners/feature-summary/learner-one-click-enrollment.md)
    * [Il mio apprendimento](learners/feature-summary/courses.md)
    * [Lettore Fluidic](learners/feature-summary/fluidic-player.md)
    * [Programmi di apprendimento](learners/feature-summary/learning-programs.md)
@@ -232,7 +251,7 @@ ht-degree: 61%
    * [Creazione di un account di prova in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * Modifiche API {#api-changes}
    * [Modifiche alle API nella versione di aprile](/help/migrated/api-changes-alm.md)
-   * [Modifiche alle API nella versione patch di maggio](/help/migrated/api-changes-alm-may.md)
+   * [Modifiche API nella versione di maggio](/help/migrated/api-changes-alm-may.md)
 * Knowledge base {#knowledge-base}
    * [Impossibile accedere a Learning Manager](kb/unable-log-in-learning-manager.md)
    * [In Riepilogo apprendimento non vengono visualizzati i dati correnti](kb/learning-summary-not-display-data.md)
