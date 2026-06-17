@@ -2,12 +2,12 @@
 description: Note sulla versione di Adobe Learning Manager
 jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
-contentowner: jayakarr
+contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: de174f32cdf0458e6e20e3263eefd1da1fc2da3d
+source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
 workflow-type: tm+mt
-source-wordcount: '29617'
-ht-degree: 75%
+source-wordcount: '30634'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,82 @@ ht-degree: 75%
 </table>
 -->
 
-+++Aggiornamento 107: versione patch di maggio 2026 di Adobe Learning Manager
++++Aggiornamento 108: versione di giugno 2026 di Adobe Learning Manager
+
+Data di pubblicazione: 17 giugno 2026
+
+## Novità di questa versione
+
+**Report Builder:** Report Builder in Adobe Learning Manager è uno strumento di reporting self-service che consente agli amministratori di creare e scaricare report personalizzati selezionando solo le colonne richieste, applicando filtri flessibili e accedendo a dati coerenti, il tutto da un&#39;unica interfaccia. Elimina la necessità di affidarsi a report preconfigurati fissi e alla post-elaborazione manuale in strumenti esterni, consentendo agli utenti di configurare, salvare e riutilizzare i report con facilità. Affrontando limitazioni quali strutture rigide delle colonne, opzioni di filtro limitate e origini dati incoerenti, il Report Builder semplifica i flussi di lavoro di reporting, garantisce approfondimenti accurati e risparmia tempo, integrando i report standard esistenti per i casi d&#39;uso predefiniti. Per ulteriori informazioni, consulta [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
+
+**Iscrizione con un solo clic:** L’iscrizione con un solo clic consente agli Allievi di aprire un collegamento diretto a un modulo condiviso dagli Amministratori e iniziare ad accedere immediatamente al contenuto, senza doversi iscrivere prima e quindi avviare il corso separatamente. Ciò semplifica l’accesso, risparmia tempo e migliora l’esperienza di apprendimento complessiva. Per ulteriori informazioni, vedere [Iscrizione con un solo clic](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md).
+
+**Disponibilità dei corsi acquisiti nelle certificazioni ricorrenti:** In precedenza, i corsi acquisiti potevano essere aggiunti solo alle certificazioni perpetue. Le certificazioni ricorrenti non mostravano i corsi acquisiti nel pannello di selezione del corso, impedendo agli account dei destinatari di utilizzare contenuti condivisi per programmi che richiedono un rinnovo periodico. I corsi acquisiti sono ora disponibili sia nelle certificazioni perpetue che in quelle ricorrenti. Per ulteriori informazioni, vedere [Funzioni del catalogo condiviso nell&#39;applicazione di ricezione](/help/migrated/administrators/feature-summary/catalogs.md#sharedcatalogfeaturesinreceiverapplication).
+
+**Migrazione della sessione VILT a Adobe Learning Manager:** Adobe Learning Manager ora supporta la migrazione in blocco e l&#39;aggiornamento dei dati della sessione di formazione con istruttore virtuale (VILT) tramite file CSV. Utilizza questo flusso di lavoro per configurare le date di inizio dell’istanza, associare le istanze del percorso di apprendimento alle istanze del corso e configurare le sessioni in aula virtuale per Microsoft Teams, Adobe Connect e Zoom. Per ulteriori informazioni, consulta [Manuale di migrazione](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofviltsessiontoalm)
+
+## Miglioramenti in questa versione
+
+**Inversione dell’ordine di scala Likert:** In Adobe Learning Manager, la scala Likert viene utilizzata per valutare l’esperienza dell’Allievo con gli oggetti di apprendimento. La scala Likert nel modulo Feedback sull’esperienza di apprendimento è stata invertita in modo da corrispondere all’ordine standard da sinistra a destra. In precedenza, la scala Likert aveva un ordine da destra a sinistra, in contrasto con l&#39;ordine standard da sinistra a destra. Il punteggio inizia ora con Fortemente in disaccordo a sinistra e termina con Strongly Agree a destra.
+
+**E-mail ad hoc inviate agli Allievi dagli Istruttori:** In precedenza, l’opzione Invia e-mail a tutti consentiva solo agli Istruttori di copiare gli indirizzi e-mail dei destinatari. Ora consente agli istruttori di inviare e-mail ad hoc direttamente agli allievi utilizzando la stessa opzione. È possibile utilizzare l’opzione Copia e-mail solo per copiare gli indirizzi e-mail dei destinatari.
+
+### Passaggi
+
+1. Accedi come Istruttore.
+2. Passa a Sessioni precedenti nel pannello di navigazione a sinistra. Nella pagina viene visualizzato un elenco delle sessioni passate.
+3. Selezionare un nome di sessione dall&#39;elenco delle sessioni passate.
+4. Seleziona Allievi nel pannello di navigazione a sinistra.
+   ![](assets/instructor-send-email1.png)
+5. Seleziona un Allievo dall’elenco degli Allievi.
+6. Nell&#39;elenco a discesa **Azioni** in alto a destra vengono visualizzate altre opzioni, incluse quelle disattivate. Una delle opzioni disponibili è **Invia e-mail a tutti**.
+   ![](assets/instructor-send-email2.png)
+
+**Rimozione automatica degli utenti eliminati:** La rimozione automatica degli utenti eliminati è stata impostata su un anno come periodo minimo richiesto per l&#39;eliminazione. Questo è stato migliorato per contenere un numero anche in &quot;giorni&quot;. Gli amministratori ora possono richiedere questa modifica contattando il proprio Customer Success Manager e ottenerne la modifica dal back-end.
+
+## Bug corretti
+
+**Authoring**
+
+1. Le lingue con bassi punteggi di qualità di traduzione non vengono più visualizzate nella finestra modale di generazione dei sottotitoli durante la generazione automatica dei file dei sottotitoli VTT. In questo modo si evita che vengano fornite agli Allievi traduzioni di scarsa qualità, come la rendering inaccurato dei caratteri cinesi.
+
+2. Il modello E-mail di benvenuto (interno) ora dispone di configurazioni indipendenti per i metodi di accesso Adobe ID e SSO. In precedenza, entrambi i metodi di accesso condividevano un singolo canale del modello, causando la riattivazione del modello quando SSO era stato configurato dopo la disattivazione del modello, con conseguente invio di e-mail di benvenuto non intenzionali agli allievi.
+
+**Certificazione**
+
+Le certificazioni ricorrenti ora originano i corsi dalla versione più recente (principale) della certificazione anziché dalla versione originale (principale). Ciò garantisce che i contenuti aggiornati del corso vengano inclusi correttamente in ogni ciclo di certificazione.
+
+**Libreria dei contenuti e ruoli personalizzati**
+
+1. Gli Autori personalizzati con accesso limitato a cartelle di contenuti selezionate possono ora visualizzare in anteprima i moduli del corso AICC e Tincan utilizzando l’opzione Anteprima come Allievo senza ricevere un errore &quot;Contenuto non disponibile&quot;.
+
+2. Gli Autori personalizzati con accesso a cartelle di contenuti e cataloghi selezionati possono ora aprire le risorse del corso nella vista Anteprima come Allievo senza incontrare un errore di accesso 403.
+
+**Dati e report**
+
+La sincronizzazione dei dati di registrazione è stata stabilizzata risolvendo un errore del connettore del database e i payload di record di dimensioni eccessive nella pipeline dei dati. I record delle iscrizioni vengono ora trasmessi in modo affidabile ai sistemi di reporting a valle.
+
+**Pubblicazione e API**
+
+Le API pubbliche **Search** e **Categories** ora restituiscono gli ID catalogo nel formato numerico corretto. In precedenza, gli ID di catalogo venivano restituiti nel formato di stringa non valido &quot;catalog123&quot; anziché nell’ID numerico previsto.
+
+**interfaccia utente e amministrazione**
+
+1. La pagina Istanza del corso per i corsi nominati dal Manager non mostra più un layout interrotto per gli utenti Amministratore e Amministratore personalizzato. È stata corretta una regressione CSS che causava l’overflow degli elementi senza ritorno a capo.
+
+2. Gli utenti esterni che fanno clic sui collegamenti dell’invito alla sessione VILT dal proprio indirizzo e-mail ora vengono reindirizzati correttamente al metodo di accesso configurato (ad esempio, Adobe ID) invece di essere instradati in modo errato alla pagina di accesso SSO interna.
+
+**Assistente AI**
+
+L’Assistente AI ora fornisce una risposta corretta quando viene chiesto se è possibile aggiungere un percorso di apprendimento a una certificazione. In precedenza, l’assistente restituiva una risposta affermativa non accurata; ora afferma correttamente che solo i corsi possono essere aggiunti alle certificazioni in Adobe Learning Manager.
+
+## Problema noto
+
+**Tempo impiegato nelle trascrizioni degli allievi per la partecipazione a un’aula basata su QR:** Il tempo impiegato per la visualizzazione come 0 minuti per gli allievi che hanno contrassegnato autonomamente la partecipazione tramite codice QR è stato confermato come funzionante. La durata della sessione registrata nella Trascrizione Allievo deriva dai dati xAPI emessi al momento del completamento. Nei casi in cui i dati di pianificazione della sessione non vengono ancora confermati nel database al momento del completamento dell&#39;elaborazione, viene registrata una durata pari a zero. Nessuna correzione applicata per questa versione.
+
++++
+
++++Aggiornamento 107: versione di maggio 2026 di Adobe Learning Manager
 
 Data di pubblicazione: 26 maggio 2026
 
@@ -66,7 +141,7 @@ Per ulteriori informazioni, [consulta Modifiche API nella versione di maggio](/h
 +++
 
 
-+++Aggiornamento 106: versione patch di aprile 2026 di Adobe Learning Manager
++++Aggiornamento 106: versione di aprile 2026 di Adobe Learning Manager
 
 Data di pubblicazione: 30 aprile 2026
 
