@@ -2,10 +2,10 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: a5e02f0ed0a691becbf52e310682360c0ba67a20
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 53%
+source-wordcount: '964'
+ht-degree: 59%
 
 ---
 
@@ -82,23 +82,6 @@ ht-degree: 53%
       * [Contenuti del marketplace](administrators/feature-summary/content-marketplace.md)
       * [Corsi Go1 al percorso di apprendimento](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [Modulo di feedback L1](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
-   * Report Builder {#report-builder}
-      * [Report Builder in Adobe Learning Manager](administrators/feature-summary/alm-report-builder.md)
-      * [Report Builder: concetti e terminologia](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
-      * [Set di dati disponibili nel Report Builder](administrators/feature-summary/alm-report-builder-datasets.md)
-      * [Introduzione a un modello di Report Builder](administrators/feature-summary/alm-create-report.md)
-      * [Personalizzare un modello di Report Builder duplicato](administrators/feature-summary/alm-report-builder-customize-duplicated-template.md)
-      * [Creare un report personalizzato nel Report Builder](administrators/feature-summary/alm-report-builder-custom-report.md)
-      * [Applica raggruppamento e aggregazioni nel Report Builder](administrators/feature-summary/alm-report-builder-group-by-and-aggregations.md)
-      * [Aggiungere e combinare i filtri in un report](administrators/feature-summary/alm-report-builder-add-combine-filters.md)
-      * [Ordina colonne report nel Report Builder](administrators/feature-summary/alm-report-builder-sort-report-columns.md)
-      * [Verifica le prestazioni dell’istruttore con il Report Builder](administrators/feature-summary/alm-report-builder-review-instructor-performance.md)
-      * [Tenere traccia del coinvolgimento del gruppo di utenti nel Report Builder](administrators/feature-summary/alm-report-builder-track-engagement.md)
-      * [Crea un report sulle tendenze nel Report Builder](administrators/feature-summary/alm-report-builder-build-trend-report.md)
-      * [Scarica, condividi e iscriviti a un report](administrators/feature-summary/alm-report-builder-download-share-subscribe.md)
-      * [Duplicare e riutilizzare un report nel Report Builder](administrators/feature-summary/alm-report-builder-duplicate-reuse.md)
-      * [Limitazioni del Report Builder in Adobe Learning Manager](administrators/feature-summary/alm-report-builder-limitations.md)
-      * [Domande frequenti](administrators/feature-summary/alm-report-builder-faq.md)
    * [Rapporti](administrators/feature-summary/reports.md)
    * [Dashboard di Group Success](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Configurazione dell’iscrizione con un solo clic a Adobe Learning Manager](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
