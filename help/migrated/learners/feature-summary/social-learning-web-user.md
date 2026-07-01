@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
 source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3443'
-ht-degree: 68%
+source-wordcount: '3455'
+ht-degree: 76%
 
 ---
 
@@ -23,7 +23,7 @@ Allo stesso modo, la funzione di apprendimento sociale di Learning Manager conse
 
 I vari tipi di contenuti che possono essere condivisi su questa piattaforma sono video, audio, schermate, testi, domande e sondaggi. Gli utenti possono inoltre condividere i propri programmi di apprendimento online con i colleghi utilizzando il **bookmarklet Condividi sul social**. Per ulteriori informazioni, consulta [Condividere su Apprendimento sociale](share-to-social.md).
 
-È possibile pubblicare contenuti anche in una bacheca con l&#39;aiuto dell&#39;**applicazione desktop Adobe Learning Manager**. Per ulteriori informazioni, consulta [App Adobe Learning Manager per desktop](../adobe-learning-manager-app-for-desktop.md).
+È anche possibile pubblicare contenuti in una bacheca mediante **l’applicazione desktop Adobe Learning Manager**. Per ulteriori informazioni, consulta [App Adobe Learning Manager per desktop](../adobe-learning-manager-app-for-desktop.md).
 
 Solo se l’Amministratore abilita Apprendimento sociale, la funzione è visibile agli Allievi.
 
@@ -137,11 +137,11 @@ I contenuti vengono creati come post all’interno di una bacheca. Per creare un
 
 1. Seleziona uno dei seguenti tipi di contenuti per la pubblicazione: testo, domanda, video, audio, sondaggio e schermata. I contenuti esistenti possono essere caricati dal sistema degli utenti o dalla galleria dell’applicazione desktop Adobe Learning Manager.
 
-   Utilizza l’app desktop Adobe Learning Manager per registrare video o audio e acquisire una schermata. Per ulteriori informazioni, vedere [Applicazione desktop Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
+   Utilizza l’app desktop Adobe Learning Manager per registrare video o audio e acquisire una schermata. Per ulteriori informazioni, consulta [Applicazione desktop Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
-1. Cerca una bacheca o un’abilità correlata al post. Se la bacheca non esiste, fare clic su **[!UICONTROL Crea una nuova bacheca]**.
+1. Cerca una bacheca o un’abilità correlata al post. Se la bacheca non esiste, fai clic su **[!UICONTROL Crea una nuova bacheca]**.
 
    ![](assets/create-a-new-board-04.png)
 
@@ -153,7 +153,7 @@ I contenuti vengono creati come post all’interno di una bacheca. Per creare un
 
    * **Pubblico** - La partecipazione e la visibilità dei post sono disponibili per tutti gli utenti.
    * **Privato** - Il post è visibile solo al creatore della bacheca, ai moderatori e agli utenti aggiunti alla bacheca.
-   * **Limitato** - Solo il proprietario, l’amministratore e i moderatori della bacheca possono creare post. Altri utenti possono partecipare commentando/rispondendo, votando a favore o contro e così via.
+   * **Limitato** - Solo il proprietario, l’amministratore e i moderatori della bacheca possono creare post. Gli altri utenti possono partecipare aggiungendo commenti/risposte, assegnando voti a favore/sfavore e così via.
 
    <!--![](assets/new-board-05.png)-->
 
@@ -161,13 +161,13 @@ I contenuti vengono creati come post all’interno di una bacheca. Per creare un
    >
    >Nell’app Social Learning, solo un **Amministratore** è in grado di creare una scheda privata con gruppi utente (interni/esterni).
    >
-   >Qualsiasi altro utente tranne Amministratore, Autore, Allievo, Manager, Istruttore, ecc. **impossibile** creare bacheche private con gruppi utente. Non possono visualizzare la sezione **gruppi di utenti** durante la creazione di una scheda privata.
+   >Qualsiasi altro utente tranne Amministratore, Autore, Allievo, Manager, Istruttore, ecc. **non può** creare bacheche private con gruppi di utenti. Non possono visualizzare la sezione **Gruppi utente** durante la creazione di una scheda privata.
 
    Solo Amministratore: quando scegli **Privato**, vengono visualizzate due opzioni: **Utenti** e **Gruppi utente**. Scegli l’opzione **Gruppi utente**, quindi aggiungi i gruppi di utenti con cui desideri condividere la bacheca privata.
 
    Nel campo Gruppi utente, puoi scegliere gruppi interni, esterni o personalizzati. La bacheca privata sarà quindi visibile a tutti i gruppi di utenti specificati, indipendentemente dalle impostazioni dell’ambito.
 
-1. Per condividere il contenuto, fai clic su **[!UICONTROL Post]**. Facendo clic su Pubblica, l’utente riceve una notifica.
+1. Per condividere contenuti, fai clic su **[!UICONTROL Pubblica]**. Facendo clic su Pubblica, l’utente riceve una notifica.
 
    Il contenuto viene pubblicato in base all’impostazione di cura impostata dall’amministratore per i contenuti di Apprendimento sociale che possono essere curati da [Moderatori della bacheca/Esperti in materia](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
 
@@ -245,8 +245,7 @@ Gli Allievi con accesso alla bacheca social possono assegnare tag ad altri utent
 
 ### Applicare tag agli utenti nei post delle bacheche social
 
-Puoi assegnare tag a specifici membri della bacheca in post o commenti utilizzando @username. L’assegnazione di tag è limitata ai membri con accesso a quella bacheca.
-Per assegnare tag agli utenti in una bacheca social:
+Puoi assegnare tag a specifici membri della bacheca in post o commenti utilizzando @username. L’assegnazione di tag è limitata ai membri con accesso a quella bacheca.Per assegnare tag agli utenti in una bacheca social:
 
 1. Accedi a Adobe Learning Manager come Allievo.
 2. Seleziona **[!UICONTROL Apprendimento sociale]** nel riquadro di navigazione a sinistra.
@@ -320,11 +319,11 @@ Gli Allievi possono scaricare i contenuti, inclusi gli allegati, dalla piattafor
 
 *Scarica un post sui social*
 
-Puoi scaricare il contenuto dalle sezioni Post o Commenti o Risposte. Puoi scaricare un solo file alla volta.
+Puoi scaricare il contenuto dalle sezioni Post, Commenti o Risposte. Puoi scaricare un solo file alla volta.
 
 Entrambi i tipi di utenti (interni o esterni) devono essere in grado di scaricare il contenuto.
 
-Il pulsante Scarica può essere visualizzato anche nei risultati della ricerca di post o commenti o risposte.
+Il pulsante Scarica è disponibile anche nei risultati di ricerca per post, commenti o risposte.
 
 Non è ancora possibile scaricare un post nell’app per dispositivi mobili. Questa funzione sarà disponibile a breve.
 
@@ -443,7 +442,7 @@ La storia social consente agli utenti di aggiungere o creare storie con post cre
 
 Per aggiungere un post a una storia, procedi come indicato di seguito:
 
-1. Fai clic sull&#39;icona del menu compresso nell&#39;angolo superiore destro di un post e seleziona **[!UICONTROL Aggiungi alla mia storia]**.
+1. Fai clic sull’icona del menu compresso nell’angolo in alto a destra di un post e fai clic su **[!UICONTROL Aggiungi alla mia storia]**.
 
    ![](assets/add-to-my-story-05.png)
 
@@ -560,7 +559,7 @@ Sia in Le mie bacheche che in Tutte le bacheche gli utenti possono ordinare le b
 
 *Ordina le bacheche per pertinenza e data*
 
-Durante la creazione di un post, se non sono presenti bacheche pertinenti per il post, fai clic su [Crea una nuova bacheca](social-learning-web-user.md#Creatingcontentasapost).  Per visualizzare, modificare, eliminare, segnalare, copiare l’URL e aggiungere una bacheca all’elenco delle bacheche preferite, segui i passaggi riportati di seguito:
+Quando crei un post, se non sono disponibili bacheche pertinenti al post, fai clic su [Crea una nuova bacheca](social-learning-web-user.md#Creatingcontentasapost).  Per visualizzare, modificare, eliminare, segnalare, copiare l’URL e aggiungere una bacheca all’elenco delle bacheche preferite, procedi come indicato di seguito:
 
 1. Fai clic sul nome della bacheca o su **[!UICONTROL Vai alla bacheca]**.
 1. Dalla pagina delle bacheche, fai clic sull’icona del menu compresso e seleziona un’opzione dall’elenco a discesa.
