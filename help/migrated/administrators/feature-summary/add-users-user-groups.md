@@ -6,7 +6,7 @@ contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
 source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2451'
+source-wordcount: '2511'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Gli amministratori possono aggiungere manualmente un utente fornendo il proprio 
 
 >[!INFO]
 >
->Guarda questo corso di formazione sulla ALM Academy per ulteriori informazioni sull&#39;aggiunta di singoli utenti in Adobe Learning Manager.<br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
+>Guarda questo corso di formazione su ALM Academy per ulteriori informazioni sull&#39;aggiunta di singoli utenti in Adobe Learning Manager.<br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
 
 Per aggiungere un singolo utente a Adobe Learning Manager:
 
@@ -57,8 +57,7 @@ Per aggiungere un singolo utente a Adobe Learning Manager:
    ![](assets/add-a-user-prompt.png)
    _Campi per immettere nome, e-mail, identificatore univoco e profilo per un nuovo utente_
 5. Cerca il manager dell’utente e seleziona il nome dall’elenco dei manager.
-6. Seleziona **Aggiungi**.
-L’utente riceve un’e-mail di benvenuto contenente un URL di accesso.
+6. Seleziona **Aggiungi**.L’utente riceve un’e-mail di benvenuto contenente un URL di accesso.
 
 
 ### Consenti registrazione autonoma per utenti interni
@@ -270,7 +269,7 @@ Esistono alcune differenze tra le registrazioni interne ed esterne:
 | Utenti interni | Utenti esterni |
 |---|---|
 | Può accedere utilizzando le credenziali Adobe ID o SSO. | È possibile accedere utilizzando un qualsiasi ID e-mail. |
-| La gamification è disponibile. | È disponibile la gamification. L’amministratore deve abilitare la gamification per gli Allievi esterni nelle [Impostazioni gamification](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/gamification). |
+| La gamification è disponibile. | La gamification è disponibile. L’amministratore deve abilitare la gamification per gli Allievi esterni nelle [Impostazioni gamification](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/gamification). |
 
 ### Metti in pausa il profilo di registrazione esterno
 
@@ -340,7 +339,7 @@ Gli amministratori possono modificare i dettagli degli utenti, eliminare gli ute
 
 >[!INFO]
 >
->Guarda questo corso di formazione dell&#39;Accademia ALM per scoprire come assegnare e rimuovere ruoli, inviare un&#39;e-mail di benvenuto ed eliminare ed eliminare gli utenti.<br>[.[pulsante]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
+>Guarda questo corso di formazione su ALM Academy per scoprire come assegnare e rimuovere ruoli, inviare un&#39;e-mail di benvenuto ed eliminare ed eliminare utenti.<br>[![pulsante]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
 
 ### Modifica un utente
 

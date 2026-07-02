@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 57%
+source-wordcount: '627'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 ## Panoramica {#overview}
 
-Salesforce™ è una delle soluzioni CRM più popolari tra i team di vendita e marketing. Tramite l’app Adobe Learning Manager in Salesforce puoi consentire agli utenti di accedere a tutti i contenuti di apprendimento direttamente dalla loro interfaccia Salesforce. Gli utenti possono accedere ai contenuti di apprendimento a loro assegnati come corsi, programmi di apprendimento, risorse formative e altro dall’interno di Salesforce. Gli utenti possono inoltre ricevere notifiche relative a iscrizioni e annunci dall’Amministratore.
+Salesforce™ è una delle soluzioni CRM più popolari tra i team di marketing e vendite. Tramite l’app Adobe Learning Manager in Salesforce puoi consentire agli utenti di accedere a tutti i contenuti di apprendimento direttamente dalla loro interfaccia Salesforce. Gli utenti possono accedere ai contenuti di apprendimento a loro assegnati come corsi, programmi di apprendimento, risorse formative e altro dall’interno di Salesforce. Gli utenti possono inoltre ricevere notifiche relative a iscrizioni e annunci dall’Amministratore.
 
 Al momento, l’app Salesforce non è disponibile poiché è in attesa di approvazione da AppExchange di Salesforce. Se desideri visualizzare un’anteprima della versione beta dell’app, contatta l’Account Manager o il team di supporto di Learning Manager.
 
@@ -36,7 +36,7 @@ Scopri come installare e configurare l’app Learning Manager per Salesforce seg
 
 1. Per installare l’app Learning Manager nel tuo account Salesforce, utilizza il pacchetto installabile fornito dal tuo Account Manager o dal Customer Success Manager. È necessario disporre dei privilegi di amministratore per l’account Salesforce in cui desideri installare questa app.
 
-1. Scegli l&#39;opzione appropriata per te come mostrato nell&#39;istantanea e fai clic su **[!UICONTROL Installa]**.
+1. Scegli l’opzione appropriata per te come mostrato nell’immagine della schermata qui sotto e fai clic su **[!UICONTROL Installa]**.
 
    ![](assets/install-options.png)
 
@@ -52,9 +52,9 @@ Scopri come installare e configurare l’app Learning Manager per Salesforce seg
 
 Il team di Learning Manager consiglia all’amministratore di Salesforce di aggiungere anche l’elemento di visualizzazione delle notifiche di Learning Manager al layout della pagina principale. Questo elemento consente agli utenti Salesforce di ricevere notifiche su eventuali compiti e altri annunci di Learning Manager, anche quando non sono all’interno del contesto dell’app per Allievi.
 
-Per aggiungere il componente di notifica di Learning Manager al layout della pagina principale, segui i passaggi:
+Per aggiungere questo elemento al layout della pagina principale, segui i passaggi riportati di seguito:
 
-1. Fai clic su **[!UICONTROL Configurazione]** nell&#39;angolo in alto a destra. L’opzione per modificare il layout della pagina principale viene visualizzata nel riquadro a sinistra, come illustrato nell’istantanea seguente.
+1. Fai clic su **[!UICONTROL Configurazione]** nell&#39;angolo in alto a destra. L’opzione per modificare il layout della pagina principale appare nel riquadro a sinistra, come mostrato nella schermata seguente.
 
    ![](assets/homepage-component.png)
 

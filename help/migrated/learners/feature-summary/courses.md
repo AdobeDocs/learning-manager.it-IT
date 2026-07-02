@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
 source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3307'
-ht-degree: 59%
+source-wordcount: '3331'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ I corsi vengono creati dagli Autori. Gli Allievi possono seguire i corsi e gli A
 
 ## Panoramica {#overview}
 
-Adobe Learning Manager consente agli Allievi di accedere ai corsi, ai programmi di apprendimento e alle certificazioni. Gli Allievi possono esplorare tutti i corsi disponibili tramite il catalogo o registrandosi ai corsi di propria scelta. Gli Allievi possono visualizzare tutti i corsi a cui sono iscritti e quelli a loro assegnati nella scheda Apprendimento.
+Adobe Learning Manager consente agli Allievi di accedere ai corsi, ai programmi di apprendimento e alle certificazioni. Gli Allievi possono esplorare tutti i corsi disponibili tramite il catalogo o registrandosi ai corsi di propria scelta. Gli Allievi possono visualizzare tutti i corsi registrati e i corsi assegnati nella scheda Apprendimento.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Adobe Learning Manager consente agli Allievi di accedere ai corsi, ai programmi 
 
 ## Visualizzazione degli oggetti di apprendimento {#viewingcourses}
 
-Puoi visualizzare un elenco di tutti i corsi disponibili come Allievo. Fai clic su Il mio apprendimento dalla pagina Home o dal riquadro a sinistra per visualizzare tutti i corsi a cui ti sei iscritto.
+Puoi visualizzare un elenco di tutti i corsi disponibili come Allievo. Fai clic su Il mio apprendimento nella pagina principale o nel riquadro a sinistra per visualizzare tutti i corsi a cui sei iscritto.
 
 ![](assets/view-courses.png)
 *Visualizza corsi assegnati*
@@ -67,10 +67,10 @@ Fai clic sulla freccia rivolta verso il basso nell’angolo in basso a destra de
 
 Adobe Learning Manager consente di individuare i corsi che cerchi rapidamente e con facilità. Puoi eseguire una ricerca tra i corsi nei modi seguenti:
 
-1. Fai clic sull’icona di ricerca visualizzata nell’angolo in alto a destra. Viene visualizzato un campo di ricerca. Digita il nome del corso/programma di apprendimento o qualsiasi parola chiave associata ai tuoi corsi. Puoi cercare i corsi per metadati, note, abilità, distintivi o tag. I tag sono ricercabili all’interno del campo di ricerca, il che significa che vengono visualizzati nel campo di ricerca durante la digitazione.
+1. Fai clic sull’icona di ricerca visualizzata nell’angolo in alto a destra. Viene visualizzato un campo di ricerca. Digita il nome del programma di apprendimento/corso o delle parole chiave associate ai corsi. Puoi cercare i corsi per metadati, note, abilità, distintivi o tag. I tag sono ricercabili all’interno del campo di ricerca, il che significa che vengono visualizzati nel campo di ricerca durante la digitazione.
 1. Lo studente può perfezionare i risultati della ricerca nella pagina del catalogo utilizzando tipo, abilità, tag e stato.
 
-Puoi ordinare i corsi per pertinenza, nome o data di pubblicazione facendo clic su Ordina per e scegliendo dal menu a discesa.
+Puoi ordinare i corsi in base alla pertinenza, al nome o alla data di pubblicazione facendo clic su Ordina per e scegliendo un’opzione dal menu a discesa.
 
 Nella pagina dei risultati della ricerca, puoi filtrare i corsi in base alla **durata** e al **formato**. Questo offre maggiore flessibilità nella ricerca di corsi e garantisce che i corsi siano adatti a te.
 
@@ -83,12 +83,12 @@ Nella pagina dei risultati della ricerca, puoi filtrare i corsi in base alla **d
 1. Gli Allievi possono iscriversi direttamente a un corso/programma di apprendimento:
 
    1. Se il corso/programma di apprendimento prevede l’iscrizione diretta, l’Allievo viene iscritto immediatamente.
-   1. Se il corso o il programma di apprendimento è di tipo approvato dal manager, l’Allievo passa allo stato **approvazione in sospeso**. Dopo l’approvazione del Manager, l’Allievo è iscritto al corso.
+   1. Se il corso/programma di apprendimento deve essere approvato dal Manager, all’Allievo viene assegnato lo stato **In attesa di approvazione**. Dopo l’approvazione del Manager, l’Allievo è iscritto al corso.
    1. Se gli Allievi si iscrivono a un corso con lista d’attesa (se si tratta di un corso in aula), devono aspettare che qualcuno abbandoni il corso o che l’Amministratore approvi la loro richiesta per il corso.
 
 Gli Allievi possono iscriversi direttamente a molti corsi in base alle loro esigenze. Nella scheda Corsi vengono visualizzati tutti i corsi registrati/assegnati.
 
-Tuttavia, è possibile passare a uno dei corsi elencati nel catalogo passando il mouse sopra di esso e facendo clic su Esplora. Viene visualizzata la pagina di iscrizione. Fai clic su Iscrivimi nell’angolo superiore destro della pagina, per includere il corso nell’elenco.
+Tuttavia, hai la possibilità di scorrere tra i corsi elencati nel catalogo passando il mouse su di esso e facendo clic su Esplora. Viene visualizzata la pagina di iscrizione. Fai clic su Iscrivimi nell’angolo superiore destro della pagina, per includere il corso nell’elenco.
 
 Possono essere presenti più istanze/sessioni per ogni corso/programma di apprendimento. Nel catalogo, fai clic sul nome della sezione dedicata al corso/programma di apprendimento per visualizzarne i dettagli. Puoi visualizzare l’iscrizione all’istanza del corso/programma di apprendimento in base alla data di scadenza di ciascuna istanza del corso/programma di apprendimento.
 
@@ -124,10 +124,10 @@ Un amministratore può cambiare istanza per gli Allievi. Seleziona un corso da A
 ![testo alternativo](assets/switch-instance-admin.png)
 _Cambia istanza da Admin Console_
 
-![cambia istanza selezione](assets/switch-instances-select.png)
+![cambia istanza, seleziona](assets/switch-instances-select.png)
 _Messaggio per cambiare istanza_
 
-Non puoi cambiare istanza finché nessuna istanza del corso non viene completata dall’app per Allievi o Amministratori.
+Non puoi cambiare istanza fino a quando una qualsiasi istanza del corso non viene completata dall’app Allievo o Amministratore.
 
 Gli Autori, durante la creazione di un corso, possono alternare l’attivazione o la disattivazione di &quot;Instance Switch&quot;. Commutazione istanza è disponibile solo per i corsi gratuiti.
 
@@ -139,12 +139,12 @@ Come Allievo, potrai valutare un corso solo dopo l’iscrizione. Puoi visualizza
 
 1. Cerca un corso inserendo il nome del corso nella barra di ricerca. In alternativa, puoi scegliere dall’elenco visualizzato dei corsi facendo clic su **Il mio apprendimento** o **Catalogo** nel riquadro a sinistra.
 
-1. Dopo aver selezionato un corso, fai clic su **[!UICONTROL Iscriviti]**.
+1. Dopo aver selezionato un corso, fai clic su **[!UICONTROL Iscrivimi]**.
 
    ![](assets/cp-sr-enroll.png)
    *Iscriviti a un corso*
 
-1. Seleziona il numero di stelle per valutare un corso, considerando che 1 è il minimo e 5 è il massimo. Quindi fai clic su **[!UICONTROL Invia]**.
+1. Seleziona il numero di stelle per valutare un corso, considerando che 1 è il minimo e 5 è il massimo. Dopodiché, fai clic su **[!UICONTROL Invia]**.
 
    ![](assets/cp-sr-srsubmitt.png)
    *Invio della valutazione del corso*
@@ -158,7 +158,7 @@ Come Allievo, potrai valutare un corso solo dopo l’iscrizione. Puoi visualizza
 
    Se desideri inviare nuovamente il feedback, puoi farlo facendo clic sul messaggio. Dopo l’invio, il messaggio di conferma viene visualizzato per tre secondi, al termine dei quali viene mostrata la valutazione. Se desideri modificarla, puoi selezionare un numero di stelle diverso e procedere con un nuovo invio.
 
-Puoi ordinare i corsi in base alla media delle valutazioni fornite. Puoi ordinare i dati dal menu a discesa Ordina per nell&#39;angolo superiore destro, disponibile in **Catalogo**.
+Puoi ordinare i corsi in base alla media delle valutazioni fornite. Puoi ordinare i dati dal menu a discesa Ordina per nell’angolo in alto a destra, disponibile in **Catalogo**.
 
 ## Partecipazione a un corso {#consumingnbspacourse}
 
@@ -187,9 +187,9 @@ Puoi visualizzare tutti i moduli del corso in una finestra del browser.
 * Facendo clic su Rivedi quando il corso è stato completato.
 * Facendo clic su Continua quando il corso non è ancora stato completato.
 
-**Schermo intero** Fai clic sull&#39;icona Schermo intero nell&#39;angolo in basso a destra del lettore per visualizzare il corso nella finestra a schermo intero.
+**Schermo intero** Fai clic sull’icona Schermo intero nell’angolo inferiore destro del lettore per visualizzare il corso in una finestra a schermo intero.
 
-**Pulsanti di navigazione** È possibile fare clic sulle frecce su/giù per spostarsi tra le diapositive nei contenuti PDF, docx e pptx. I tasti freccia della diapositiva possono essere utilizzati per passare agli argomenti successivi per tutti i tipi di contenuto.
+**Pulsanti di navigazione** Puoi fare clic sulle frecce su/giù per scorrere le diapositive nel contenuto in formato pdf, docx e pptx. I tasti freccia della diapositiva possono essere utilizzati per passare agli argomenti successivi per tutti i tipi di contenuto.
 
 **Chiudi il corso** Fai clic sull’icona di chiusura (x) nell’angolo superiore destro del lettore per uscire dal corso.
 
@@ -201,14 +201,14 @@ Se un corso ha più istanze, gli allievi avranno la possibilità di scegliere e 
 
 ## Valutazione a stelle
 
-Solo dopo l’iscrizione a un corso, l’Allievo può fornire un feedback a stelle al corso. Nella pagina della Panoramica del corso, l’Allievo può valutare il corso con le stelle (1 minimo, 5 massimo).
+Gli Allievi possono fornire un feedback a stelle del corso solo dopo l’iscrizione. Nella pagina della Panoramica del corso, l’Allievo può valutare il corso con le stelle (1 minimo, 5 massimo).
 
 ![](assets/star-rating.png)
 *Fornire una valutazione a stelle come feedback*
 
-Un Allievo potrà selezionare un numero di stelle (su 5) e inviare la valutazione. L’Allievo può inoltre modificare la selezione facendo clic su un numero di stelle diverso. Una volta inviato, verrà visualizzato un messaggio di ringraziamento per il feedback.
+L’Allievo può selezionare un numero di stelle (da 1 a 5) e inviare la valutazione. La valutazione può essere modificata facendo clic su un numero di stelle diverso. Una volta inviato il feedback, visualizzerai un messaggio di ringraziamento.
 
-Se l’Allievo desidera inviare nuovamente il feedback, può farlo facendo clic sul messaggio. Il pulsante **Invia** viene riabilitato. Un Allievo può fornire valutazioni a stelle più volte dopo l’iscrizione a un corso. Si terrà sempre in considerazione la valutazione più recente.
+Se l’Allievo desidera inviare nuovamente il feedback, può farlo facendo clic sul messaggio. Il pulsante **Invia** viene riabilitato. L’Allievo può fornire valutazioni a stelle più volte dopo l’iscrizione a un corso. Si terrà sempre in considerazione la valutazione più recente.
 
 Una volta che l’Allievo fornisce una valutazione a stelle, la media di queste e il conteggio degli Allievi che hanno fornito un feedback compariranno nella pagina **Panoramica corso**.
 
@@ -219,7 +219,7 @@ Per tutti gli account esistenti, questa funzione è disabilitata. Gli Amministra
 
 ## Contenuti del marketplace
 
-L’opzione Contenuti del marketplace si trova nel riquadro a sinistra nell’app per gli Allievi. Facendo clic su questa opzione, puoi visualizzare tutti i corsi/intero catalogo e le playlist selezionate.
+L’opzione Contenuti del marketplace si trova nel riquadro a sinistra nell’app per gli Allievi. Facendo clic questa opzione, puoi visualizzare tutti i corsi, l’intero catalogo e le playlist selezionate.
 
 Puoi vedere i corsi presenti sull’intero catalogo nella pagina seguente. Ogni corso mostra la durata e l’argomento generale a cui appartiene. Puoi scegliere l’argomento dal filtro a sinistra della pagina.
 
@@ -237,7 +237,7 @@ In qualità di Allievo, nella sezione **Playlist selezionata** puoi esprimere in
 
 Dopo aver espresso il tuo interesse per un corso o un training, questo viene memorizzato e l’Amministratore può quindi recuperare la registrazione.
 
-Nell’app per Allievi, tutti gli Amministratori hanno accesso ai Contenuti del marketplace. Se l’Amministratore ha revocato l’accesso, gli allievi non possono visualizzare la scheda Contenuti del marketplace.
+All’interno dell’app per gli Allievi, tutti gli Amministratori hanno accesso ai Contenuti del marketplace. Gli Allievi non possono visualizzare la scheda dei Contenuti del marketplace se l’Amministratore ha revocato loro l’accesso.
 
 Gli Allievi invitati dall’Amministratore possono esplorare i Contenuti del marketplace.
 
@@ -256,7 +256,7 @@ Puoi esplorare e visualizzare in anteprima il corso e vedere se soddisfa le tue 
 
 ## Hub dei contenuti
 
-L’Hub dei contenuti consente agli Amministratori e agli Esperti in materia (SME) di creare un elenco delle playlist richieste dall’app per Allievi. Una volta creato l’elenco, gli amministratori possono scaricare il modulo di richiesta di acquisto e condividerlo con l’agente di vendita Adobe.
+L’Hub dei contenuti consente agli amministratori e agli esperti in materia (SME) di creare un elenco delle playlist richieste dall’app per gli allievi. Una volta creato l’elenco, gli Amministratori possono scaricare il modulo di richiesta di acquisto e condividerlo con l’agente delle vendite Adobe.
 
 Gli Amministratori possono invitare gli SME a creare elenchi con le playlist a cui sono interessati
 
@@ -277,7 +277,7 @@ Per modificare l’istanza del corso, effettua quanto segue:
    ![](assets/learning-program200s.jpg)
    *Selezionare un programma di apprendimento*
 
-1. Utilizza i pulsanti di scelta per scegliere se visualizzare tutti i corsi o i corsi con istanze non selezionate. Tieni presente che se l’Allievo ha completato l’istanza, non può passare a un’altra istanza.
+1. Utilizza i pulsanti di opzione per scegliere se visualizzare tutti i corsi o i corsi con istanze non selezionate. Tieni presente che se l’Allievo ha completato l’istanza non può passare a un’altra istanza.
 
    ![](assets/radio-buttons.jpg)
    *Visualizza tutti i corsi o i corsi con istanze non selezionate*
@@ -289,7 +289,7 @@ Per modificare l’istanza del corso, effettua quanto segue:
 
 1. Per applicare l’istanza selezionata, fai clic su **[!UICONTROL Aggiorna iscrizione]**. L’opzione Aggiorna iscrizione è disponibile nella parte superiore destra della pagina.
 
-   L&#39;istanza appena selezionata viene registrata. Se un Allievo è iscritto a un’istanza del corso appartenente a un altro LO e aggiorna l’istanza del corso appartenente al programma di apprendimento flessibile, dopo un avviso verrà automaticamente annullato l’iscrizione agli altri oggetti di apprendimento.
+   L’istanza appena selezionata è stata iscritta. Se un Allievo è iscritto a un’istanza del corso parte di un altro oggetto di apprendimento e aggiorna l’istanza del corso parte del programma di apprendimento flessibile, la sua iscrizione sarà automaticamente annullata dagli altri oggetti di apprendimento dopo un avviso.
 
 ## Gestione dell&#39;avanzamento basata sulla lingua
 
@@ -352,7 +352,7 @@ Il ciclo di vita tipico di un corso è il seguente:
 
 **Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli allievi.
 
-**Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli Allievi.
+**Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli allievi.
 
 **Ritirato** - Dopo aver pubblicato un corso, un Autore può attribuirgli lo stato Ritirato se desidera che il corso non venga più visualizzato nel catalogo dei corsi per gli allievi.
 

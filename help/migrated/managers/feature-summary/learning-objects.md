@@ -5,8 +5,8 @@ title: Oggetti di apprendimento
 exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 60%
+source-wordcount: '1741'
+ht-degree: 75%
 
 ---
 
@@ -29,7 +29,7 @@ Come Manager, puoi visualizzare un elenco di tutti i corsi disponibili. Fai clic
 
 >[!NOTE]
 >
->È possibile visualizzare l’elenco di tutti i corsi ritirati facendo clic sulla scheda **Ritirati**.
+>Puoi visualizzare l’elenco di tutti i corsi ritirati facendo clic sulla scheda **Ritirato**.
 
 ## Visualizzare punteggi dei quiz {#viewquizscores}
 
@@ -66,7 +66,7 @@ Puoi inoltre esportare l’elenco degli Allievi in un foglio Excel. Per esportar
 
 >[!NOTE]
 >
->Se sono presenti più istanze per un corso, l’elenco degli Allievi in Excel viene fornito separatamente in ogni scheda. L’elenco degli Allievi include nome, stato e criteri di selezione degli Allievi. Lo stato degli Allievi può essere **Non avviato**, **In corso** o **Completato**.
+>Se sono presenti più istanze per un corso, l’elenco degli Allievi in Excel viene fornito separatamente in ogni scheda. L’elenco degli Allievi include nome, stato e criteri di selezione degli Allievi. Lo stato degli Allievi può essere **Non avviato** o **In corso** o **Completato**.
 
 ## Visualizzare feedback L1 e L3 {#viewl1andl3feedback}
 
@@ -110,10 +110,10 @@ Come per il grafico a torta mostrato sopra, viene dato un maggiore peso al feedb
 
 Adobe Learning Manager consente di individuare rapidamente i corsi e i percorsi di apprendimento desiderati. Puoi cercare i corsi in due modi:
 
-1. Utilizzando il campo di ricerca. Fai clic sull’icona di ricerca visualizzata nell’angolo in alto a destra. Viene visualizzato un campo di ricerca. Digita il nome del corso o le parole chiave associate ai tuoi corsi per individuare i corsi/percorsi di apprendimento. Puoi anche eseguire ricerche utilizzando tag predefiniti come Captivate, C, Java e HTML. I tag sono ricercabili all’interno del campo di ricerca, il che significa che vengono visualizzati nel campo di ricerca durante la digitazione. La ricerca può essere effettuata utilizzando l’ID univoco.
+1. Utilizzando il campo di ricerca. Fai clic sull’icona di ricerca visualizzata nell’angolo in alto a destra. Viene visualizzato un campo di ricerca. Digita il nome del corso o le parole chiave associate ai tuoi corsi per individuare i corsi/percorsi di apprendimento. Puoi inoltre effettuare la ricerca tramite tag predefiniti come Captivate, C, Java e HTML. I tag sono ricercabili all’interno del campo di ricerca, il che significa che vengono visualizzati nel campo di ricerca durante la digitazione. La ricerca può essere effettuata utilizzando l’ID univoco.
 1. Applicando un filtro all’elenco di corsi/percorsi di apprendimento/certificazioni. Puoi filtrare i corsi per stato come Tutti, Pubblicati e Ritirati.
 
-Puoi eseguire una ricerca in base alle competenze selezionando **Competenze** e scegliendole. In qualità di Manager, puoi ordinare i corsi in quattro modi, per meglio individuare il corso richiesto. Fai clic su Ordina per e scegli l’ordine alfabetico crescente o decrescente, la data di aggiornamento o di creazione del corso o l’efficacia dei corsi:
+Puoi eseguire una ricerca in base alle competenze selezionando **Competenze** e scegliendole. Come Manager puoi ordinare i corsi in quattro modi, per meglio individuare il corso richiesto. Fai clic su Ordina per e scegli l’ordine alfabetico crescente o decrescente, la data di aggiornamento o di creazione del corso o l’efficacia dei corsi:
 
 * Nome (a-z)
 * Nome (z-a)
@@ -169,7 +169,7 @@ Puoi visualizzare i punteggi dei quiz di qualsiasi percorso di apprendimento in 
 
 Il Manager può annullare l’iscrizione di un Allievo se l’Allievo non ha ancora iniziato il percorso di apprendimento.
 
-## Contrassegnare il completamento {#markcompletion}
+## Contrassegna completamento {#markcompletion}
 
 Un Manager può contrassegnare un LP come completo per gli Allievi. Per ulteriori informazioni, consulta [Contrassegno del completamento](../../administrators/feature-summary/learning-paths.md).
 
@@ -179,8 +179,8 @@ Un Manager può contrassegnare un LP come completo per gli Allievi. Per ulterior
 
 Puoi iscrivere gli Allievi alla certificazione in due modi. Applica i passaggi seguenti per iscrivere gli Allievi.
 
-1. Dopo aver effettuato l’accesso come Manager, fai clic su Certificazioni nel riquadro a sinistra. Dall’elenco della scheda Pubblicati, passa il mouse su ogni certificazione e fai clic su Iscrivi Allievi. In alternativa, fai clic su qualsiasi riquadro della certificazione pubblicato e fai clic su Allievi nel riquadro a sinistra. Fai clic su + Iscriviti sul lato destro della pagina Allievi per iniziare ad aggiungere gli Allievi.
-1. È possibile visualizzare la finestra di dialogo a comparsa Iscrivi Allievi dopo aver fatto clic sull’opzione Iscrivi Allievi in ciascuno dei due passaggi precedenti. Inizia a digitare il nome dell’Allievo, il profilo e scegli il nome dell’Allievo dall’elenco a discesa, quindi fai clic su Salva.
+1. Fai clic su Certificazioni nel riquadro a sinistra dopo aver effettuato l’accesso come Manager. Nell’elenco delle schede Pubblicato, passa il mouse su ciascuna certificazione e fai clic su Iscrivi Allievi. Oppure, fai clic su qualsiasi riquadro di certificazione pubblicata e fai clic su Allievi nel riquadro a sinistra. Fai clic su + Iscriviti sul lato destro della pagina degli Allievi per iniziare ad aggiungere Allievi.
+1. Puoi visualizzare la finestra a comparsa Iscrivi Allievi dopo aver fatto clic sull’opzione di iscrizione degli Allievi da ciascuno dei due passaggi sopra. Inizia a digitare il profilo e il nome dell’Allievo e scegli il nome dell’Allievo dall’elenco a discesa, quindi fai clic su Salva.
 
 ## Annullamento dell’iscrizione degli Allievi {#Unenrollmentforlearners-1}
 
@@ -192,7 +192,7 @@ Un Manager può contrassegnare il completamento della Certificazione. Per ulteri
 
 ## Notifiche del manager circa l’approvazione del corso per un allievo {#manager-notifications-course-approval}
 
-Quando tenta di accettare o rifiutare l’iscrizione di un Allievo, ora un Manager può visualizzare i dettagli della sessione (**Videoconferenze** o **Aula**) nella finestra popup.
+Quando tenta di accettare o rifiutare l’iscrizione di un allievo, ora un manager può visualizzare i dettagli della sessione (**Videoconferenze** o **Aula**) nella finestra popup.
 
 ![](assets/approve-a-learner.png)
 
