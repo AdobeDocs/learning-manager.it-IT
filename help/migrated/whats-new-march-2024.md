@@ -6,7 +6,7 @@ contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
 source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
 workflow-type: tm+mt
-source-wordcount: '3903'
+source-wordcount: '3960'
 ht-degree: 1%
 
 ---
@@ -176,7 +176,7 @@ Se il numero di utenti in un gruppo di utenti è elevato, nel menu a discesa **S
             <td>
                 <ul>
                     <li>La selezione dell’istanza è disattivata durante la ricerca di un utente.</li>
-                    <li>Se il numero di utenti supera, ad esempio, 50.000, verrà visualizzato un messaggio aggiuntivo per scaricare i dati per un'analisi più dettagliata in un secondo momento. La barra di ricerca è ora in evidenza e visualizza un utente nel formato Nome, e-mail | UUID.</li>
+                    <li>Se il numero di utenti supera, ad esempio, 50.000, verrà visualizzato un messaggio aggiuntivo per scaricare i dati per un'analisi più dettagliata in un secondo momento. La barra di ricerca è ora in evidenza e visualizza un utente nel formato Nome, e-mail | UUID</li>
                     <li>Se il numero di utenti nel gruppo di utenti è inferiore a 10.000, indipendentemente dall’iscrizione, è possibile eseguire azioni a livello di singolo utente e azioni di massa. In questo caso, l’elenco degli utenti non viene disattivato.</li>
                 </ul>
             </td>
@@ -203,7 +203,7 @@ Se il numero di utenti in un gruppo di utenti è elevato, nel menu a discesa **S
             </td>
             <td>
                 <ul>
-                    <li>Se il numero di utenti supera, ad esempio, 50.000, verrà visualizzato un messaggio aggiuntivo per scaricare i dati per un'analisi più dettagliata in un secondo momento. La barra di ricerca è ora in evidenza e visualizza un utente nel formato Nome, e-mail | UUID.</li>
+                    <li>Se il numero di utenti supera, ad esempio, 50.000, verrà visualizzato un messaggio aggiuntivo per scaricare i dati per un'analisi più dettagliata in un secondo momento. La barra di ricerca è ora in evidenza e visualizza un utente nel formato Nome, e-mail | UUID</li>
                     <li>Nella pagina Pulizia utente, per gli utenti eliminati, è stata rimossa la funzionalità di ordinamento in data **Data eliminazione**. Puoi ordinare solo in base agli UUID.</li>
                 </ul>
             </td>
@@ -266,9 +266,7 @@ Durante la ricerca di qualsiasi utente, le opzioni **Scarica Allievo** e **Espor
 
 * Le colonne Tag e Abilità nel report dei corsi di formazione vengono modificate in Tag e Abilità.
 * Report [Prova di verifica della gamification](administrators/feature-summary/reports.md#gamification-audit-trail) aggiunto.
-* Se un account contiene più di 280000 Allievi assegnati a un’abilità, il report Allievo dell’abilità viene scaricato come un file CSV compresso.
-Se l’account contiene meno di 250000 Allievi, lo stesso report viene scaricato come file CSV.
-Nella pagina Amministratore, seleziona **Amministratore** > **Abilità** > **Abilità** > **Allievi**. Il report viene scaricato come CSV.
+* Se un account contiene più di 280000 Allievi assegnati a un’abilità, il report Allievo dell’abilità viene scaricato come un file CSV compresso.Se l’account contiene meno di 250000 Allievi, lo stesso report viene scaricato come file CSV.Nella pagina Amministratore, seleziona **Amministratore** > **Abilità** > **Abilità** > **Allievi**. Il report viene scaricato come CSV.
 * Il [report di riepilogo della sessione](administrators/feature-summary/reports.md#session-summary-report) contiene due nuove colonne: Informazioni sulla posizione e Area geografica.
 
 ## Modifiche alla creazione di classi
@@ -283,8 +281,7 @@ In qualità di Amministratore, puoi applicare restrizioni a un Autore per modifi
 
 ## Modifiche a un percorso di apprendimento flessibile
 
-Tutti gli account (vecchi e nuovi) in inizieranno a includere Scadenza iscrizione, Scadenza annullamento iscrizione e Limite di posti nell’app per Allievi per un percorso di apprendimento flessibile.
-Gli Allievi ora potranno iscriversi a un percorso di apprendimento flessibile senza selezionare alcuna istanza del corso.
+Tutti gli account (vecchi e nuovi) in inizieranno a includere Scadenza iscrizione, Scadenza annullamento iscrizione e Limite di posti nell’app per Allievi per un percorso di apprendimento flessibile.Gli Allievi ora potranno iscriversi a un percorso di apprendimento flessibile senza selezionare alcuna istanza del corso.
 
 ## Nuovo attivatore per i piani di apprendimento
 
@@ -372,8 +369,7 @@ In questa versione dell’app per dispositivi mobili, gli Allievi possono pianif
 * Ricordamelo tra 3 giorni
 * Ricordamelo tra una settimana
 
-Su Android: se fai clic sulla notifica push verrai indirizzato alla pagina **Panoramica del corso**.
-Su iOS: facendo clic sulla notifica push verrai indirizzato alla pagina Home dell’app. Si tratta di una limitazione nota in iOS.
+Su Android: se fai clic sulla notifica push verrai indirizzato alla pagina **Panoramica del corso**.Su iOS: facendo clic sulla notifica push verrai indirizzato alla pagina Home dell’app. Si tratta di una limitazione nota in iOS.
 
 ### Modifiche all’elenco di controllo nell’app per Allievi in Salesforce
 
@@ -454,7 +450,7 @@ Le API /account e /user?include=account restituiscono quattro campi, che vengono
 
 Un nuovo attributo, isExpiredSubmission, in learningObjectResource, che indica se l&#39;invio nella risorsa è scaduto o meno.
 
-* GET API /account: restituisce il nuovo attributo **expireSubmissionDuration** X, dove X è il numero di giorni impostato. Se non impostato, verrà restituito 0
+* API /account: restituisce il nuovo attributo **expireSubmissionDuration** X, dove X è il numero di giorni impostato. Se non impostato, verrà restituito 0
 * L&#39;API GET /LO con risorsa include il nuovo attributo **isExpiredSubmission**&quot; True o False.
    * True se l&#39;inoltro è scaduto e &quot;submissionUrl&quot; non viene visualizzato.
    * Se è False, l&#39;invio non è scaduto e &quot;submissionUrl&quot; viene recuperato.
@@ -492,15 +488,15 @@ I percorsi seguenti sono obsoleti:
 * /learningObjects
    * Percorsi obsoleti:
       * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
+      * instance.loResources.resources
    * Percorsi esistenti:
       * enrollment.loInstance
-      * instances.loResources
+      * instance.loResources
 * /learningObjects/{id}
    * Percorso obsoleto:
-      * enrollment.instances.subLoInstances.learningObject
+      * enrollment.instance.subLoInstances.learningObject
    * Percorso esistente:
-      * enrollment.instances.subLoInstances
+      * enrollment.instance.subLoInstances
 * /enrollments
    * Percorso obsoleto:
       * loInstance.learningObject.enrollment

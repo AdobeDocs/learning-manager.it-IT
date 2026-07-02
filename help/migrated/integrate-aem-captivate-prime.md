@@ -5,8 +5,8 @@ description: Scopri come integrare Adobe Learning Manager con Adobe Experience M
 contentowner: saghosh
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 44%
+source-wordcount: '1058'
+ht-degree: 74%
 
 ---
 
@@ -34,7 +34,7 @@ Installa il pacchetto dei contenuti Learning Manager utilizzando il gestore pacc
 
 >[!NOTE]
 >
->Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#how-to-work-with-packages).
+>Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Come Autore AEM, apri il gestore pacchetti AEM.
 
@@ -69,7 +69,7 @@ L’Amministratore AEM richiede un token di aggiornamento dall’account Learnin
    * ID client, ovvero l’ID dell’applicazione.
    * Segreto del client, presente nella descrizione.
 
-1. Ottieni il codice OAuth. Devi usare API v2 nell’URI di reindirizzamento.
+1. Ottieni codice OAuth. Devi usare API v2 nell’URI di reindirizzamento.
 1. Fai clic su **[!UICONTROL Invia]** e ottieni il token di aggiornamento.
 
 ## Configurazione del widget in AEM {#configurethewidgetinaem}
@@ -78,7 +78,7 @@ Per la configurazione del widget, l’autore AEM richiede solo il token di aggio
 
 Puoi anche impostare più configurazioni di account in più pagine.
 
-1. Fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Captivate configurazione widget Learning Manager]**.
+1. Fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Captivate configurazione widget Learning Manager]**.
 1. Fai clic su **[!UICONTROL Crea]**.
 1. Immetti qui il token di aggiornamento. Configura altre impostazioni.
 1. Il nome host deve essere modificato in &quot;learningmanagereu&quot; per le regioni dell’UE.
@@ -91,7 +91,7 @@ L’autore AEM deve prima aggiungere il componente nel modello AEM
 
 L’autore AEM potrà quindi trascinare e rilasciare il componente Adobe Learning Manager e configurarlo di conseguenza.
 
-Il componente Learning Manager richiede che la configurazione creata nel passaggio precedente venga mappata alla pagina.  L&#39;autore può mappare la configurazione modificando le proprietà della pagina in **[!UICONTROL Avanzate]** > **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione cloud]** e fornire il percorso di configurazione. In questo modo, l’Autore può creare configurazioni per più account Learning Manager e collegare ciascuna di esse a pagine diverse. Se una configurazione non è collegata alla pagina, il componente leggerà ricorrentemente la configurazione dalla pagina padre fino a quando non ne trova una.
+Il componente Learning Manager richiede di collegare alla pagina la configurazione creata nel passaggio precedente.  L&#39;autore può mappare la configurazione modificando le proprietà della pagina in **[!UICONTROL Avanzate]** > **[!UICONTROL Configurazione]** > **[!UICONTROL Configurazione cloud]** e fornire il percorso di configurazione. In questo modo, l’Autore può creare configurazioni per più account Learning Manager e collegare ciascuna di esse a pagine diverse. Se una configurazione non è collegata alla pagina, il componente leggerà ricorrentemente la configurazione dalla pagina padre fino a quando non ne trova una.
 
 ## Allievo {#learner}
 
@@ -118,7 +118,7 @@ In caso di mancanza di consigli, il widget sarà vuoto.
 
 ## Supporto per Skyline
 
-Skyline è la versione cloud dell&#39;AEM. Devi prima installare Skyline dal gestore dei pacchetti. Per utilizzare il componente Skyline nell’AEM, un utente deve essere presente nell’account Learning Manager. In altre parole, l’indirizzo e-mail dell’utente deve esistere nell’account.
+Skyline è la versione cloud di AEM. È necessario prima installare Skyline dal gestore pacchetti. Per utilizzare il componente Skyline in AEM, un utente deve essere presente nell’account Learning Manager. In altre parole, l’indirizzo e-mail dell’utente deve esistere nell’account.
 
 ## Implementa Skyline
 
@@ -126,7 +126,7 @@ La procedura per configurare Skyline è indicata nel [repository GitHub](https:/
 
 ## Widget Catalogo
 
-Il widget Catalogo mostra i corsi di formazione da un catalogo specifico o da un set di cataloghi a un utente. Nella sezione Proprietà delle proprietà della pagina, seleziona Catalogo dalle opzioni elencate.
+Nel widget Catalogo vengono visualizzati i corsi di formazione da un catalogo specifico o da un insieme di cataloghi per un utente. Seleziona Catalogo fra le opzioni elencate nella sezione Proprietà all’interno delle proprietà della pagina.
 
 ![](assets/catalog-widget.png)
 
@@ -134,19 +134,19 @@ Il widget Catalogo contiene le seguenti opzioni:
 
 * **[!UICONTROL ID catalogo]:** ID catalogo separati da virgole per i quali è necessario visualizzare i corsi di formazione.
 * **[!UICONTROL Ordinamento]:** Ordinamento per il corso di formazione. Le opzioni sono: name, date, dateCreated, dateEnrolled e così via.
-* **[!UICONTROL Stato dell’Allievo]:** restituisce tutti i corsi di formazione che utilizzano i seguenti filtri: enrolled, started, completed, e notenrolled. I risultati della ricerca non verranno visualizzati se l&#39;opzione di ordinamento è dateEnrolled, dueDate o dateEnrolled.
+* **[!UICONTROL Stato dell’Allievo]:** restituisce tutti i corsi di formazione che utilizzano i seguenti filtri: enrolled, started, completed, e notenrolled. I risultati della ricerca non verranno visualizzati se l’ opzione di ordinamento è dateEnrolled, dueDate o dateEnrolled.
 * **[!UICONTROL Nome dell’abilità]:** Abilità utilizzata per filtrare il corso di formazione esatto.
 * **[!UICONTROL Nome del tag]:** Il tag utilizzato per filtrare i risultati esatti.
 
 Di seguito sono riportati alcuni componenti aggiuntivi che è possibile personalizzare:
 
-**[!UICONTROL Tipi di oggetti di apprendimento]:** Filtrare in base al tipo di oggetto di apprendimento. I tipi supportati sono: corso, certificazione, risorsa formativa e programma di apprendimento.
+**[!UICONTROL Tipi di oggetti di apprendimento]:** Filtrare in base al tipo di oggetto di apprendimento. I tipi supportati sono: course, certification, jobAid e learningProgram.
 
-Nell&#39;AEM, il titolo di una carta in una striscia sarà inizialmente vuoto. Nelle proprietà, digita il nome del titolo in widgets.html.
+In AEM, il titolo di una scheda all’interno di una striscia sarà inizialmente vuoto. Nelle proprietà, digita il nome del titolo su widgets.html.
 
 **Personalizzazione**
 
-È possibile personalizzare l&#39;aspetto del layout utilizzando widgets.html. È possibile modificare l&#39;aspetto delle schede visualizzate e personalizzare il tema.
+È possibile personalizzare il layout utilizzando widgets.html. È possibile modificare l’aspetto delle schede che vengono visualizzate e personalizzare il tema.
 
 Nella sezione **[!UICONTROL Impostazioni generali]** è possibile scegliere i colori primari e secondari delle schede e specificare le proprietà per personalizzare il tema.
 
@@ -173,9 +173,9 @@ Nella sezione **[!UICONTROL Impostazioni generali]** è possibile scegliere i co
 
 ### Ignora l’iscrizione agli oggetti di apprendimento di ordine superiore
 
-Se la casella di controllo **[!UICONTROL Ignora l’iscrizione agli oggetti di apprendimento di ordine superiore]** è abilitata e un utente è iscritto direttamente a un programma di apprendimento o a una certificazione, nei widget verranno visualizzati i corsi per tale certificazione o programma di apprendimento.
+Se la casella di controllo **[!UICONTROL Ignora l’iscrizione agli oggetti di apprendimento di ordine superiore]** è attivata e un utente è iscritto direttamente al programma di apprendimento o alla certificazione, visualizzerà i corsi di tale certificazione o programma di apprendimento nei widget.
 
-Se la casella di controllo è disattivata, i corsi presenti nel programma di apprendimento o nella certificazione a cui l’utente non si è iscritto direttamente non verranno visualizzati.
+Se la casella di controllo è disattivata, l’utente non visualizzerà i corsi presenti nel programma di apprendimento o nella certificazione a cui non si è registrato direttamente.
 
 ![](assets/higher-order-lo.png)
 
@@ -183,4 +183,4 @@ L’impostazione viene quindi applicata al widget.
 
 ### Protezione
 
-I campi ID client e Segreto del client vengono aggiunti. Inoltre, il token di aggiornamento viene nascosto. Dopo che un utente ha creato l&#39;intera configurazione, se l&#39;utente apre nuovamente la configurazione per modificarla o se un altro utente apre questa configurazione, il token di aggiornamento verrà mascherato.
+I campi ID client e Segreto del client vengono aggiunti. Inoltre, il token di aggiornamento viene nascosto. Una volta creata l’intera configurazione, se l’utente apre di nuovo la configurazione per modificarla, o se qualcun altro apre tale configurazione, il token di aggiornamento verrà nascosto.
