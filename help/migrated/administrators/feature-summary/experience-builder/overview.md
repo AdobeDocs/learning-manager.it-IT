@@ -2,13 +2,13 @@
 description: Scopri di più su Experience Builder, uno strumento senza codice o a basso codice disponibile in Adobe Learning Manager che consente agli amministratori di progettare e pubblicare pagine con marchio e facili da usare senza competenze tecniche.
 jcr-language: en_us
 title: Experience Builder in Adobe Learning Manager
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: 8d06c2cf-816e-4ad5-85f7-bc26e9d70d51
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
-
 
 # Panoramica
 
@@ -18,8 +18,7 @@ Con Experience Builder, gli amministratori possono creare facilmente pagine, men
 
 Molte organizzazioni hanno difficoltà a personalizzare i portali di apprendimento senza assistenza tecnica o costosi integratori di sistema. Desiderano portali che corrispondano al proprio marchio, forniscano contenuti mirati e si adattino a diversi gruppi di Allievi pur rimanendo veloci e facili da creare.
 
-Experience Builder è uno strumento senza codice o a basso codice in Adobe Learning Manager che consente di creare portali di apprendimento personalizzati. Consente di progettare portali di apprendimento di marca e intuitivi senza dover possedere competenze tecniche o conoscenze approfondite in materia di codifica.
-Con Experience Builder, puoi creare nuove pagine, menu e widget per offrire esperienze di apprendimento personalizzate per il tuo pubblico in modo semplice e veloce. Con Experience Builder, puoi creare rapidamente nuove pagine, menu e widget per offrire esperienze di apprendimento personalizzate per il tuo pubblico.
+Experience Builder è uno strumento senza codice o a basso codice in Adobe Learning Manager che consente di creare portali di apprendimento personalizzati. Consente di progettare portali di apprendimento di marca e intuitivi senza dover possedere competenze tecniche o conoscenze approfondite in materia di codifica.Con Experience Builder, puoi creare nuove pagine, menu e widget per offrire esperienze di apprendimento personalizzate per il tuo pubblico in modo semplice e veloce. Con Experience Builder, puoi creare rapidamente nuove pagine, menu e widget per offrire esperienze di apprendimento personalizzate per il tuo pubblico.
 
 ## Il problema che Experience Builder risolve
 

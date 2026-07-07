@@ -5,7 +5,7 @@ title: Riepilogo delle nuove funzioni di novembre 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3307'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Il nuovo **[!UICONTROL Report della lista d’attesa]** di Adobe Learning Manage
 Seguire le colonne disponibili nel report Lista d&#39;attesa:
 
 * Nome del corso
-* Nome istanza
+* Nome dell’istanza
 * ID istanza
 * Stato istanza
 * Nome utente
@@ -151,8 +151,7 @@ Per scaricare il report dalla sezione Amministratore e istruttore, fai riferimen
 
 ## Accessibilità nella pagina principale dell’Allievo
 
-Adobe Learning Manager ora supporta il testo alternativo per tutti i masthead per migliorare l’accessibilità per gli Allievi. Ciò consente agli Allievi con esigenze particolari di utilizzare gli assistenti vocali per leggere il testo alternativo e comprendere l’immagine. Potete selezionare più lingue e fornire testo alternativo per ogni lingua. Assicurati di aggiungere il testo alternativo nelle rispettive lingue. Assicurati che il logo aziendale nel tuo account includa anche testo alternativo con il nome dell’azienda.
-Per ulteriori informazioni, fai riferimento a questo articolo [Annuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead).
+Adobe Learning Manager ora supporta il testo alternativo per tutti i masthead per migliorare l’accessibilità per gli Allievi. Ciò consente agli Allievi con esigenze particolari di utilizzare gli assistenti vocali per leggere il testo alternativo e comprendere l’immagine. Potete selezionare più lingue e fornire testo alternativo per ogni lingua. Assicurati di aggiungere il testo alternativo nelle rispettive lingue. Assicurati che il logo aziendale nel tuo account includa anche testo alternativo con il nome dell’azienda.Per ulteriori informazioni, fai riferimento a questo articolo [Annuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead).
 
 ## Supporto per hindi
 
@@ -228,7 +227,7 @@ La colonna della cartella utilizza il tipo di dati stringa ed è facoltativa. Di
 * Se aggiungi un nuovo nome di cartella per un modulo già presente in un’altra cartella, il nuovo valore non sovrascriverà né sostituirà la cartella assegnata. Il modulo verrà aggiunto alla nuova cartella e rimarrà disponibile anche nella cartella esistente.
 * Se il valore è vuoto, per impostazione predefinita la cartella sarà **[!UICONTROL Pubblica]**.
 
-Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/4-module_version.xlsx) di module_version_csv.
+Per ulteriori informazioni, fai riferimento al file della specifica ](assets/4-module_version.xlsx) di [module_version_csv.
 
 ### Modifiche alla migrazione dei moduli - Criteri di completamento
 
@@ -258,7 +257,7 @@ Di seguito sono riportate le condizioni per le nuove colonne:
    * Il tipo di dati deve essere una stringa e i valori supportati sono `QUIZ_ATTEMPTED`, `QUIZ_PASSED` e `QUIZPASSED_OR_LIMITREACHED`.
    * Quando `completionCriteria` è impostato su `QUIZ`, immetti il valore del quiz appropriato nella colonna `quizData`.
 
-Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/4-module_version.xlsx) di module_version_csv.
+Per ulteriori informazioni, fai riferimento al file della specifica ](assets/4-module_version.xlsx) di [module_version_csv.
 
 ### Modifiche nella migrazione del corso - Criteri di completamento
 
@@ -528,7 +527,7 @@ Gli amministratori possono trovare queste modifiche ai report nella sezione **Am
 Il report **[!UICONTROL Trascrizioni apprendimento]** conterrà due nuove colonne:
 
 * **[!UICONTROL ID modulo]**: visualizza l&#39;identificatore univoco per ogni modulo. Questa nuova colonna è stata aggiunta dopo la colonna **[!UICONTROL Modulo]** esistente.
-* **[!UICONTROL ID istanza corso]**: visualizza l’identificatore univoco per ogni istanza del corso. Questa nuova colonna è stata aggiunta dopo la colonna **[!UICONTROL Istanza]** esistente.
+* **[!UICONTROL ID istanza corso]**: visualizza l’identificatore univoco per ogni istanza del corso.Questa nuova colonna è stata aggiunta dopo la colonna **[!UICONTROL Istanza]** esistente.
 * **[!UICONTROL Commento di completamento]**: questa colonna acquisisce i commenti immessi dall&#39;amministratore quando contrassegna il completamento dell&#39;utente. Questa nuova colonna è stata aggiunta alla fine del report.
 
 
