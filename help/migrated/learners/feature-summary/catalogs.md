@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
 source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 6%
+source-wordcount: '461'
+ht-degree: 26%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 6%
 
 Scopri come usare i cataloghi in Learning Manager per visualizzare gli oggetti di apprendimento disponibili per un Allievo
 
-**Il catalogo** comprende tutti i corsi, i programmi di apprendimento, le certificazioni e le risorse formative disponibili per un ruolo Allievo nell’account aziendale.
+**Il catalogo** comprende tutti i corsi, i programmi di apprendimento, le certificazioni e le risorse formative disponibili per il ruolo Allievo nell’account della società.
 
-Gli Allievi possono visualizzare tutti gli oggetti di apprendimento assegnati e idonei (programmi di apprendimento, corsi e certificazioni) nel **Catalogo predefinito**. Questi oggetti di apprendimento sono specifici di ogni Allievo in base al ruolo, alla qualifica, al gruppo di utenti, al profilo e così via.
+Gli Allievi possono visualizzare tutti gli oggetti di apprendimento assegnati e disponibili (programmi di apprendimento, corsi e certificazioni) nel°**Catalogo predefinito**. °Questi oggetti di apprendimento sono specifici per ciascun Allievo in base a ruolo, titolo, gruppo utenti, profilo e così via.
 
 Puoi ordinare gli oggetti di apprendimento in base a diverse categorie, come Prodotti, Ruoli di lavoro, Tipi, Tempo necessario, Abilità e Parole chiave. Puoi anche filtrare utilizzando le opzioni nel riquadro a sinistra: per Oggetti di apprendimento, Abilità e Stato di completamento.
 
-Utilizza la barra di ricerca nella parte superiore della pagina per immettere i nomi degli oggetti di apprendimento più comuni. Gli Allievi possono passare dalla visualizzazione a griglia a quella a elenco selezionando questa icona di ![](assets/icon-list.png).
+Utilizza la barra di ricerca nella parte superiore della pagina per immettere il nome degli oggetti di apprendimento più frequenti. Gli Allievi possono passare dalla visualizzazione a griglia a quella a elenco selezionando questa icona di ![](assets/icon-list.png).
 
 ![](assets/catalogs.png)
 *Visualizzare i cataloghi*
@@ -32,7 +32,7 @@ Utilizza la barra di ricerca nella parte superiore della pagina per immettere i 
 
 *Filtra il corso di formazione in base al formato*
 
-Puoi anche filtrare in base alla durata di un corso di formazione. Il filtro relativo alla durata non comprende la durata del modulo di verifica o di quello precedente alla lavorazione.
+Puoi anche filtrare in base alla durata del corso di formazione. Il filtro relativo alla durata non comprende la durata del modulo di verifica o di quello precedente alla lavorazione.
 
 ![](assets/image015.png)
 

@@ -5,7 +5,7 @@ title: Riepilogo delle nuove funzioni di novembre 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3307'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Il nuovo **[!UICONTROL Report della lista d’attesa]** di Adobe Learning Manage
 Seguire le colonne disponibili nel report Lista d&#39;attesa:
 
 * Nome del corso
-* Nome istanza
+* Nome dell’istanza
 * ID istanza
 * Stato istanza
 * Nome utente
@@ -151,8 +151,7 @@ Per scaricare il report dalla sezione Amministratore e istruttore, fai riferimen
 
 ## Accessibilità nella pagina principale dell’Allievo
 
-Adobe Learning Manager ora supporta il testo alternativo per tutti i masthead per migliorare l’accessibilità per gli Allievi. Ciò consente agli Allievi con esigenze particolari di utilizzare gli assistenti vocali per leggere il testo alternativo e comprendere l’immagine. Potete selezionare più lingue e fornire testo alternativo per ogni lingua. Assicurati di aggiungere il testo alternativo nelle rispettive lingue. Assicurati che il logo aziendale nel tuo account includa anche testo alternativo con il nome dell’azienda.
-Per ulteriori informazioni, fai riferimento a questo articolo [Annuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead).
+Adobe Learning Manager ora supporta il testo alternativo per tutti i masthead per migliorare l’accessibilità per gli Allievi. Ciò consente agli Allievi con esigenze particolari di utilizzare gli assistenti vocali per leggere il testo alternativo e comprendere l’immagine. Potete selezionare più lingue e fornire testo alternativo per ogni lingua. Assicurati di aggiungere il testo alternativo nelle rispettive lingue. Assicurati che il logo aziendale nel tuo account includa anche testo alternativo con il nome dell’azienda.Per ulteriori informazioni, fai riferimento a questo articolo [Annuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead).
 
 ## Supporto per hindi
 
@@ -528,7 +527,7 @@ Gli amministratori possono trovare queste modifiche ai report nella sezione **Am
 Il report **[!UICONTROL Trascrizioni apprendimento]** conterrà due nuove colonne:
 
 * **[!UICONTROL ID modulo]**: visualizza l&#39;identificatore univoco per ogni modulo. Questa nuova colonna è stata aggiunta dopo la colonna **[!UICONTROL Modulo]** esistente.
-* **[!UICONTROL ID istanza corso]**: visualizza l’identificatore univoco per ogni istanza del corso. Questa nuova colonna è stata aggiunta dopo la colonna **[!UICONTROL Istanza]** esistente.
+* **[!UICONTROL ID istanza corso]**: visualizza l’identificatore univoco per ogni istanza del corso.Questa nuova colonna è stata aggiunta dopo la colonna **[!UICONTROL Istanza]** esistente.
 * **[!UICONTROL Commento di completamento]**: questa colonna acquisisce i commenti immessi dall&#39;amministratore quando contrassegna il completamento dell&#39;utente. Questa nuova colonna è stata aggiunta alla fine del report.
 
 
