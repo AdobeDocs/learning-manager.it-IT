@@ -245,14 +245,14 @@ Le organizzazioni che utilizzano certificati per più oggetti di apprendimento d
 ## Creare un certificato personalizzato
 
 1. Accedi a Adobe Learning Manager come **Amministratore**.
-2. Nella sezione **Configura**, seleziona **Risultati raggiunti**. Viene aperta la pagina **Distintivi**.   ![Creazione di un certificato personalizzato
+2. Nella sezione **Configura**, seleziona **Risultati raggiunti**. Viene aperta la pagina **Distintivi**.   !&lbrack;Creazione di un certificato personalizzato
    *Passa a Risultati nel pannello di navigazione a sinistra*
 
-3. Nel pannello di navigazione a sinistra, seleziona **Certificati**. Viene visualizzata la pagina **Certificati**.   ![Creazione di un certificato personalizzato
+3. Nel pannello di navigazione a sinistra, seleziona **Certificati**. Viene visualizzata la pagina **Certificati**.   !&lbrack;Creazione di un certificato personalizzato
    *Pagina del certificato*
 
 4. Nell&#39;area superiore destra della pagina, selezionare **Nuovo certificato**. Viene visualizzata la finestra di dialogo **Crea nuovo certificato**.
-5. Selezionare **Orizzontale** o **Verticale**, a seconda dell&#39;aspetto desiderato per il certificato. Dopo aver selezionato un orientamento, viene visualizzato un modello vuoto e modelli già pronti per tale orientamento.   ![Creazione di un certificato personalizzato
+5. Selezionare **Orizzontale** o **Verticale**, a seconda dell&#39;aspetto desiderato per il certificato. Dopo aver selezionato un orientamento, viene visualizzato un modello vuoto e modelli già pronti per tale orientamento.   !&lbrack;Creazione di un certificato personalizzato
    *Opzione Orizzontale o Verticale*
 
 6. Seleziona un modello vuoto o esistente.
@@ -260,15 +260,15 @@ Le organizzazioni che utilizzano certificati per più oggetti di apprendimento d
 8. Nel menu a discesa, seleziona una lingua predefinita.
 9. Selezionare **Crea**. Se si sceglie il modello vuoto, sotto il nome del certificato verrà visualizzata un&#39;area di lavoro vuota.
 10. Aggiungi elementi: **Testo**, **Immagine**, **Valore dinamico** e **Sfondo certificato**.
-   ![Creazione di un certificato personalizzato
-   *Aggiungere elementi al certificato*
+    !&lbrack;Creazione di un certificato personalizzato
+    *Aggiungere elementi al certificato*
 
 11. Per **Testo**, aggiungi contenuto sotto **Testo preformattato** o **Modelli di testo** oppure testo personalizzato. Il testo viene visualizzato nell&#39;area di lavoro. Quando il testo è selezionato, le opzioni di formattazione vengono visualizzate sopra l&#39;area di lavoro. Per rimuovere i contenuti non desiderati, seleziona l&#39;icona **Elimina** nell&#39;angolo superiore destro dell&#39;area di lavoro.
 12. Per aggiungere le immagini, seleziona **Immagine** accanto a **Aggiungi elementi**. Carica immagini dal computer o seleziona immagini dagli elenchi delle categorie.
 13. Seleziona **Valore dinamico** per aggiungere dettagli di base, etichette del catalogo e campi attivi.
 14. Seleziona **Sfondo certificato** per applicare colori o immagini.
-15. Seleziona **Anteprima** per rivedere il certificato prima della pubblicazione. In questo modo è possibile comprendere l’aspetto del certificato.   ![Creazione di un certificato personalizzato
-   *Anteprima del certificato*
+15. Seleziona **Anteprima** per rivedere il certificato prima della pubblicazione. In questo modo è possibile comprendere l’aspetto del certificato.   !&lbrack;Creazione di un certificato personalizzato
+    *Anteprima del certificato*
 
 16. Nell’anteprima, puoi salvare su Google Drive, scaricare, stampare o utilizzare altre opzioni, come le proprietà di annotazione o del documento.
 17. Seleziona **Salva come bozza** per continuare in un secondo momento oppure seleziona **Publish** per pubblicare il certificato. Dopo la pubblicazione, gli Allievi possono scaricare il certificato quando soddisfano l’obiettivo intermedio configurato.
@@ -281,7 +281,7 @@ Dopo aver salvato un certificato in **Pubblicato** o **Bozze**, è possibile mod
 2. Nel pannello di navigazione a sinistra, seleziona **Certificati**. Viene visualizzata la pagina **Certificati**.
 3. Selezionare la scheda **Pubblicato** o **Bozze** per il certificato desiderato.
 4. Apri il menu delle azioni (**...**) per il certificato e seleziona **Modifica**.
-   ![Modifica certificato dal menu Azioni
+   !&lbrack;Modifica certificato dal menu Azioni
    *Opzione Modifica nel menu a discesa*
 
 5. Apportare le modifiche desiderate.
@@ -299,7 +299,7 @@ Utilizzare **Clona** se si desidera una copia di un certificato per un nuovo nom
 2. Nel pannello di navigazione a sinistra, seleziona **Certificati**. Viene visualizzata la pagina **Certificati**.
 3. Selezionare la scheda **Pubblicato** o **Bozze** per il certificato desiderato.
 4. Apri il menu delle azioni (**...**) per il certificato e seleziona **Clona**.
-   ![Clona certificato dal menu Azioni
+   !&lbrack;Clona certificato dal menu Azioni
    *Opzione Clona nel menu a discesa*
 
 5. Apportare le modifiche desiderate.
@@ -317,11 +317,11 @@ Utilizzare **Clona** se si desidera una copia di un certificato per un nuovo nom
 3. Selezionare la scheda **Pubblicato** o **Bozze** per il certificato desiderato.
 
 4. Apri il menu Azioni (**...**) per il certificato e seleziona **Rinomina**.
-   ![Rinominare il certificato dal menu Azioni
+   !&lbrack;Rinominare il certificato dal menu Azioni
    *Opzione Rinomina nel menu a discesa*
 
 5. Nella finestra di dialogo **Rinomina certificato**, immettere il nuovo nome.
-   ![Finestra di dialogo Rinomina certificato
+   !&lbrack;Finestra di dialogo Rinomina certificato
    *Immettere un nuovo nome*
 
 6. Seleziona **Salva**. Learning Manager mostra un messaggio di conferma.
@@ -337,9 +337,9 @@ Impossibile annullare l&#39;eliminazione di un certificato. Procedere solo se si
 1. Nella sezione **Configura**, seleziona **Risultati raggiunti**. Viene aperta la pagina **Distintivi**.
 2. Nel pannello di navigazione a sinistra, seleziona **Certificati**. Viene visualizzata la pagina **Certificati**.
 3. Selezionare la scheda **Pubblicato** o **Bozze** per il certificato desiderato.
-4. Apri il menu delle azioni (**...**) per il certificato e seleziona **Elimina**. Adobe Learning Manager mostra un messaggio di conferma.   ![Eliminare il certificato dal menu Azioni
+4. Apri il menu delle azioni (**...**) per il certificato e seleziona **Elimina**. Adobe Learning Manager mostra un messaggio di conferma.   !&lbrack;Eliminare il certificato dal menu Azioni
    *Opzione Elimina nel menu a discesa
-   ![Conferma dell&#39;eliminazione del certificato
+   !&lbrack;Conferma dell&#39;eliminazione del certificato
    *Messaggio di conferma*
 
 5. Selezionare **Sì**. Se il certificato non è allegato a un oggetto di apprendimento o a un’istanza, Learning Manager completa l’eliminazione e potrebbe mostrare un’altra conferma.
@@ -360,5 +360,5 @@ Impossibile annullare l&#39;eliminazione di un certificato. Procedere solo se si
 2. Nel pannello di navigazione a sinistra, seleziona **Certificati**. Viene visualizzata la pagina **Certificati**.
 3. Selezionare la scheda **Pubblicato** o **Bozze** per il certificato desiderato.
 4. Apri il menu delle azioni (**...**) per il certificato, seleziona **Imposta come predefinito**, quindi seleziona una delle quattro opzioni. Learning Manager mostra un messaggio di conferma.
-5. Selezionare **Sì**. Learning Manager mostra un’altra conferma. Il certificato mostra un&#39;etichetta **Predefinita per** con la categoria selezionata (ad esempio, **Predefinita per i corsi di formazione**).   ![Impostazione predefinita per l&#39;etichetta di categoria nel certificato
+5. Selezionare **Sì**. Learning Manager mostra un’altra conferma. Il certificato mostra un&#39;etichetta **Predefinita per** con la categoria selezionata (ad esempio, **Predefinita per i corsi di formazione**).   !&lbrack;Impostazione predefinita per l&#39;etichetta di categoria nel certificato
    *Dopo che è diventato il certificato predefinito*
