@@ -5,7 +5,7 @@ title: Gestione dei gruppi di utenti in Adobe Learning Manager | Organizzazione 
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
 source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
