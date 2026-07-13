@@ -6,7 +6,7 @@ contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
 source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3421'
 ht-degree: 1%
 
 ---
@@ -192,8 +192,7 @@ Poiché Adobe Learning Manager non esporrà direttamente i record e lo schema de
 
 ### Creazione di un database dagli eventi dell’oggetto di apprendimento
 
-Gli eventi oggetto di apprendimento espongono `loId` e `loType` per identificare un&#39;entità. Tuttavia, questi attributi da soli non sono sufficienti per creare un database esterno di oggetti di apprendimento. I clienti avranno bisogno di campi aggiuntivi per descrivere ulteriormente l’oggetto di apprendimento.
-Esistono due metodi per recuperare i dati aggiuntivi:
+Gli eventi oggetto di apprendimento espongono `loId` e `loType` per identificare un&#39;entità. Tuttavia, questi attributi da soli non sono sufficienti per creare un database esterno di oggetti di apprendimento. I clienti avranno bisogno di campi aggiuntivi per descrivere ulteriormente l’oggetto di apprendimento.Esistono due metodi per recuperare i dati aggiuntivi:
 
 #### Genera un report dei dati di formazione per recuperare tutti i dati
 
@@ -239,8 +238,7 @@ ALM ha un timeout di connessione configurato su 10 secondi e un timeout del sock
 
 ### Conservazione dei dati
 
-Gli eventi sono conservati per 7 giorni. Se non vengono elaborati entro questo periodo di tempo, vengono persi definitivamente. Se il ripristino avviene nell&#39;ultimo giorno e occorre più tempo, il sistema non estenderà il periodo di conservazione.
-Se gli eventi vengono prodotti più velocemente di quanto vengono utilizzati, alcuni eventi potrebbero andare perduti. Sebbene ciò sia raro, gli abbonati devono monitorare per evitare che diventi un problema a lungo termine.
+Gli eventi sono conservati per 7 giorni. Se non vengono elaborati entro questo periodo di tempo, vengono persi definitivamente. Se il ripristino avviene nell&#39;ultimo giorno e occorre più tempo, il sistema non estenderà il periodo di conservazione.Se gli eventi vengono prodotti più velocemente di quanto vengono utilizzati, alcuni eventi potrebbero andare perduti. Sebbene ciò sia raro, gli abbonati devono monitorare per evitare che diventi un problema a lungo termine.
 
 ### Webhook disabilitati
 
