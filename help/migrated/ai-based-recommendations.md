@@ -6,8 +6,8 @@ contentowner: saghosh
 exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 75%
+source-wordcount: '285'
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 75%
 
 Adobe Learning Manager include una pagina principale dell’Allievo, moderna, maggiormente basata sui contenuti e personalizzata in base alle sue preferenze. I consigli per l’apprendimento basati sull’intelligenza artificiale mirano a migliorare il coinvolgimento degli allievi e a identificare e ad affrontare le lacune.
 
-L’algoritmo di raccomandazione è progettato per raccogliere più fonti di input, tra cui i dati di settore sui ruoli di lavoro, i titoli e le descrizioni che Adobe ha ricavato dai propri partner. Questi dati vengono quindi utilizzati per addestrare gli algoritmi dell’intelligenza artificiale degli Adobi in modo che Learning Manager possa creare una mappa in grado di collegare le competenze allineate al settore a titoli e/o designazioni professionali. Questo diventa un input dell’algoritmo di raccomandazione
+L’algoritmo di raccomandazione è progettato per raccogliere più fonti di input, tra cui i dati di settore sui ruoli di lavoro, i titoli e le descrizioni che Adobe ha ricavato dai propri partner. Questi dati vengono quindi utilizzati per addestrare gli algoritmi dell’intelligenza artificiale di Adobe in modo che Learning Manager possa creare una mappa che colleghi le competenze allineate al settore a titoli e/o designazioni professionali. Questo diventa un input dell’algoritmo di raccomandazione
 
 Learning Manager utilizza quindi algoritmi di modellazione degli argomenti per analizzare i contenuti della formazione all’interno di un account e associarli alle competenze.
 

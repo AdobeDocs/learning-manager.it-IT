@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
 source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 49%
+source-wordcount: '618'
+ht-degree: 57%
 
 ---
 
@@ -40,7 +40,7 @@ Gli Amministratori di un’organizzazione possono configurare le impostazioni de
 
 1. Fai clic su **[!UICONTROL Integra].**
 
-   Dopo l’autenticazione dell’ID e-mail, Learning Manager visualizza il messaggio quando Connect è integrato correttamente. Puoi iniziare a visualizzare i corsi in aula virtuale utilizzando Adobe Connect.
+   Dopo l’autenticazione dell’id e-mail, Learning Manager mostra il messaggio quando Connect è integrato correttamente. Puoi iniziare a visualizzare i corsi in aula virtuale utilizzando Adobe Connect.
 
    L’Amministratore dell’account Adobe Connect deve accettare i termini e condizioni d’uso di Adobe Connect. In caso di mancata accettazione, l’autenticazione di accesso potrebbe non riuscire. Dopo averlo creato, accedi all’account Adobe Connect una volta. Al primo accesso, viene visualizzata una pagina di termini e condizioni.
 
@@ -64,7 +64,7 @@ Con l’integrazione di Adobe Learning Manager e Adobe Connect per la creazione 
 
 Se l’ospitante del corso in aula virtuale non partecipa alla sessione, la partecipazione non viene registrata automaticamente per gli Allievi che hanno partecipato alla sessione. In tali scenari, l’Amministratore può registrare manualmente la partecipazione.
 
-Fai clic sul corso in aula virtuale, quindi su Partecipazione nel riquadro a sinistra della pagina seguente e registra la partecipazione.
+Fai clic sul corso in aula virtuale, quindi su Partecipazione nel riquadro a sinistra della pagina riportata di seguito e registra la partecipazione.
 
 ## Supporto per seminari Adobe Connect con un vasto pubblico
 

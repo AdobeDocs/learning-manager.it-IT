@@ -2,13 +2,13 @@
 title: Personalizzazione in Experience Builder
 jcr-language: en_us
 description: Scopri come Experience Builder in Adobe Learning Manager consente una profonda personalizzazione delle esperienze degli Allievi. Configura i piè di pagina, applica CSS e JavaScript globali, regola i riquadri dei corsi e personalizza i widget per creare portali di apprendimento dinamici e con marchio, riducendo al contempo i costi di implementazione.
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: d1eb3ef5-bcee-4aa9-bd27-f0545077d6ab
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
-
 
 # Panoramica
 
@@ -71,5 +71,3 @@ Configura i menu in modo che vengano visualizzati in posizioni diverse (barra a 
 Integrazione di strumenti esterni
 * **Incorporare applicazioni esterne**: il widget iFrame consente di incorporare applicazioni Web o pagine Web esterne direttamente in una pagina personalizzata, creando un&#39;esperienza più fluida per l&#39;Allievo.
 * **Creazione di componenti dinamici con API**: il widget HTML consente di aggiungere JavaScript per consentire agli utenti di interagire, ad esempio, con le API degli Allievi. Utilizzando questo approccio, puoi creare esperienza nell’ambiente Learning Manager nativo senza dover creare una nuova applicazione.
-
-
