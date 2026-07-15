@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 88%
+source-wordcount: '588'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Learning Manager supporta quattro tipi di moduli del corso. Se sei responsabile 
        <td><img src="assets/classroom-module.png">
         <p><a href="how-to-choose-modules.md#main-pars_text_1432182659">Quando scegliere i moduli classe?</a></p></td>
        <td><img src="assets/self-placed-module.png">
-        <p><a href="how-to-choose-modules.md#main-pars_text_735062721">Quando scegliere i moduli a ritmo personalizzato? </a></p></td>
+        <p><a href="how-to-choose-modules.md#main-pars_text_735062721">Quando scegliere i moduli personalizzati? </a></p></td>
       </tr>
      </tbody>
     </table></td>
@@ -55,7 +55,7 @@ Learning Manager supporta quattro tipi di moduli del corso. Se sei responsabile 
     <p><strong>Vantaggi</strong></p>
     <ul>
      <li>Il vantaggio principale di questo tipo di corso di formazione è l’interazione sociale tra gli Allievi. </li>
-     <li>Puoi scegliere i moduli classe per i corsi che richiedono molta collaborazione di persona e il coinvolgimento degli Allievi. </li>
+     <li>Puoi scegliere i moduli classe per i corsi che necessitano di molta collaborazione di persona e partecipazione degli allievi. </li>
      <li>Inoltre, se l’argomento del corso è complesso, nuovo o prevede la capacità degli Allievi di pianificare e comprendere i concetti, un modulo classe rappresenta la scelta ideale.</li>
     </ul></td>
   </tr>
@@ -74,7 +74,7 @@ Learning Manager supporta quattro tipi di moduli del corso. Se sei responsabile 
     <p><strong>Vantaggi</strong></p>
     <ul>
      <li>Puoi scegliere questo tipo di modulo per gli Allievi che sono in grado di gestire in autonomia i propri tempi di apprendimento. </li>
-     <li>Quando desideri raggiungere più Allievi in meno tempo e </li>
+     <li>Puoi coinvolgere un maggior numero di Allievi in minor tempo. </li>
      <li>Puoi controllare i costi associati.</li>
     </ul></td>
   </tr>

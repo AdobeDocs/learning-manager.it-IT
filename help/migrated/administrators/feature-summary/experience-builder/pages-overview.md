@@ -2,13 +2,13 @@
 description: Scopri come le pagine di Experience Builder consentono di creare spazi personalizzabili per organizzare e presentare contenuti didattici, risorse ed elementi interattivi.
 jcr-language: en_us
 title: Pagine in Experience Builder
-source-git-commit: 4e210c2a6eb3356fbf342ac113712cb1b0f8f1c9
+exl-id: 234f9f2d-dbac-4dba-8080-8d0028bcb39a
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
-
 
 # Panoramica
 

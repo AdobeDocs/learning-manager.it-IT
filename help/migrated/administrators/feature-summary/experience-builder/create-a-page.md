@@ -2,13 +2,13 @@
 title: Creare una pagina in Experience Builder
 description: Scopri come creare nuove pagine in Experience Builder in Adobe Learning Manager. In questa guida vengono descritti la selezione dei modelli, l'assegnazione di nomi alle pagine, l'impostazione delle proprietà delle pagine e la pubblicazione delle pagine personalizzate.
 jcr-langauge: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: eebaca0b-c490-41c8-a8be-9b2a0bc5ad2b
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
 
 ---
-
 
 # Creare una pagina personalizzata in Experience Builder
 
@@ -114,7 +114,7 @@ Per configurare un widget nella pagina personalizzata del corso di formazione su
 7. Seleziona **[!UICONTROL Aggiungi widget]**.
 8. Seleziona **[!UICONTROL Salva]** e scegli una delle seguenti opzioni:
 a. **[!UICONTROL Salva come bozza]**: la pagina verrà salvata come bozza. L’amministratore può modificare la pagina in un secondo momento.
-b. **[!UICONTROL Salva e Publish]**: la pagina verrà pubblicata e l&#39;amministratore può aggiungerla al menu.
+b. **[!UICONTROL Salva e Publish]**: la pagina verrà pubblicata e l&#39;amministratore potrà aggiungerla al menu.
 
    ![](assets/select-save-options.png)
    _Le opzioni di salvataggio consentono agli amministratori di scegliere tra il salvataggio di una pagina come bozza per la modifica futura o la pubblicazione per l&#39;accesso degli Allievi_
