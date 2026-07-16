@@ -5,8 +5,8 @@ description: Integrazione Learning Manager con Slack
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 44%
+source-wordcount: '469'
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,7 @@ L’app Learning Manager per lo Slack non è supportata in un’istanza Azure di
 
 ## Installazione dell’app Adobe Learning Manager {#installingadobecaptivateprimeapp}
 
-Come Allievo, puoi installare l’app CP Prime nel tuo account di Slack. Per installare l’app, apri la directory dell’app dal tuo account Slack e cerca Learning Manager. Scarica e installa l’app. Se l’app non è approvata nel tuo account, contatta l’Amministratore dell’integrazione per l’approvazione. Se è già stata approvata, potrai accedere.
+Come Allievo, puoi installare l’app CP Prime nel tuo account di Slack. Per installare l’app, apri la directory dell’app dal tuo account Slack e cerca Learning Manager. Scarica e installa l’app. Se l’app non è approvata nel tuo account, rivolgiti all’Amministratore dell’integrazione per l’approvazione. Se è già stata approvata, potrai accedere.
 
 ## Come approvare l’accesso dell’Allievo se sei un Amministratore dell’integrazione {#approvinglearnersigninasanintegrationadmin}
 
@@ -36,7 +36,7 @@ In qualità di Amministratore dell’integrazione, segui questi passaggi per app
 
    ![](assets/approval.png)
 
-1. Torna alla pagina **[!UICONTROL Applicazioni]**. Una volta approvato, lo Slack dovrebbe essere visualizzato nella scheda **[!UICONTROL App esterne]**.
+1. Torna alla pagina **[!UICONTROL Applicazioni]**. Una volta approvato, dovresti visualizzare Slack nella scheda **[!UICONTROL App esterne]**.
 1. Ora gli Allievi possono accedere al proprio account Prime utilizzando Slack.
 
 ## Funzionalità di Primebot {#primebotfunctionalities}

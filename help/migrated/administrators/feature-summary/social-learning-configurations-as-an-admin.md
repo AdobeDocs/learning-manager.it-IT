@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '3756'
-ht-degree: 62%
+source-wordcount: '3793'
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ L’Apprendimento sociale consente agli Allievi di studiare ovunque si trovino e
 Per abilitare e configurare la funzione di Apprendimento sociale, procedi come indicato di seguito:
 
 1. Fai clic su **[!UICONTROL Apprendimento sociale]** nel pannello di navigazione a sinistra. Verrai reindirizzato alla pagina delle attività.
-1. Se attivi la funzione **[!UICONTROL Apprendimento sociale]** per la prima volta, utilizza il pulsante **[!UICONTROL Abilita]** nella pagina Attività. In caso contrario, può essere abilitata dalla pagina **[!UICONTROL Impostazioni]**.
+1. Se attivi la funzione **[!UICONTROL Apprendimento sociale]** per la prima volta, utilizza il pulsante **[!UICONTROL Abilita]** nella pagina Attività. In caso contrario, puoi abilitarla dalla pagina **[!UICONTROL Impostazioni]**.
 
    Viene visualizzata una finestra di dialogo a comparsa, simile a quella riportata nella schermata sottostante.
 
@@ -55,7 +55,7 @@ Nelle sezioni della classifica social, un utente può vedere tutti gli utenti de
 
 Se ti sono stati concessi privilegi di utente speciale, potrai vedere tutti gli utenti dell’account nella tua classifica, indipendentemente dagli ambiti degli utenti.
 
-Se gli utenti speciali diventano PMI guadagnando punti sufficienti, vengono visualizzati nell&#39;elenco **[!UICONTROL Primi esperti in materia]** nel social leader-board.
+Se gli utenti speciali diventano SME guadagnando punti sufficienti, compaiono nell’elenco dei **[!UICONTROL Principali esperti in materia]** nella classifica social.
 
 Le modifiche verranno applicate tra 60 minuti.
 
@@ -71,15 +71,15 @@ Sono disponibili sezioni separate per abilitare gli utenti interni ed esterni.
 
 **Abilita per Allievi interni**
 
-In questa sezione, puoi scegliere la caratteristica utente per definire l’ambito di apprendimento sociale per gli utenti interni. Gli utenti con le stesse caratteristiche **valore** condividono lo stesso spazio di apprendimento sociale.
+In questa sezione puoi scegliere la caratteristica dell’utente per definire l’ambito dell’apprendimento sociale per gli utenti interni. Gli utenti con lo stesso **valore** di caratteristiche condividono lo stesso spazio di Apprendimento sociale.
 
-Dall&#39;elenco a discesa **Caratteristica utente**, scegli l&#39;opzione richiesta.
+Dall’elenco a discesa **Caratteristica utente** scegli l’opzione richiesta.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *Selezionare le caratteristiche utente per definire l&#39;ambito*
 
-Per impostazione predefinita, l&#39;opzione **[!UICONTROL Tutti gli utenti interni]** nell&#39;opzione dell&#39;elenco a discesa Caratteristica utente è sempre selezionata.
+Per impostazione predefinita, l’opzione **[!UICONTROL Tutti gli utenti interni]** nell’elenco a discesa Caratteristica utente è sempre selezionata.
 
 Puoi definire l’ambito degli utenti interni in base ai relativi campi attivi.
 
@@ -165,7 +165,7 @@ Nelle sezioni della classifica social, un utente può vedere tutti gli utenti de
 
 Se ti sono stati concessi privilegi di utente speciale, potrai vedere tutti gli utenti dell’account nella tua classifica, indipendentemente dagli ambiti degli utenti.
 
-Se gli utenti speciali diventano PMI guadagnando punti sufficienti, vengono visualizzati nell&#39;elenco **[!UICONTROL Primi esperti in materia]** nel social leader-board.
+Se gli utenti speciali diventano SME guadagnando punti sufficienti, compaiono nell’elenco dei **[!UICONTROL Principali esperti in materia]** nella classifica social.
 
 Le modifiche verranno applicate tra 60 minuti.
 
@@ -225,7 +225,7 @@ L’Amministratore può abilitare l’opzione di cura automatica dei contenuti d
 
 Quando un utente carica un contenuto su una bacheca, un algoritmo basato su intelligenza artificiale preleva il testo dal contenuto; il testo viene quindi trasferito sul motore di cura. Il motore di cura tenta di individuare le abilità presenti nel contenuto.
 
-Le abilità previste dal contenuto caricato sono confrontate con quelle della bacheca in cui il contenuto è stato caricato.  Se una competenza corrisponde a un punteggio di confidenza superiore al 50% dell’abilità della bacheca, il contenuto viene pubblicato nella bacheca. Se il punteggio di confidenza è inferiore a 50%, il contenuto viene inviato per la cura manuale.
+Le abilità previste del contenuto caricato sono abbinate a quelle della bacheca in cui è stato caricato il contenuto.  Se un’abilità corrisponde a un punteggio di confidenza delle abilità della bacheca di oltre il 50%, il contenuto viene pubblicato sulla bacheca. Se il punteggio di confidenza è inferiore a 50%, il contenuto viene inviato per la cura manuale.
 
 Quando un contenuto viene sottoposto a cura automatica, all’utente viene notificato che il contenuto è disponibile sulla bacheca su cui era stato precedentemente caricato.
 
@@ -241,13 +241,13 @@ Quando un contenuto viene sottoposto a cura automatica, all’utente viene notif
 
 ## Domande frequenti sulla cura automatica dei contenuti {#faq-auto-curation}
 
-+++Quanto tempo ha uno SME per curare un post?
++++Quanto tempo impiega uno SME per curare un post?
 
-Uno SME ha un minimo di 24 ore per curare un post, A causa delle differenze di fuso orario, può essere aumentato a 47 ore.
+Uno SME ha un minimo di 24 ore per curare un post, In base alle differenze di fuso orario, il numero di ore potrebbe aumentare a 47.
 
 +++
 
-+++Si passa al gruppo successivo di tre PMI se tutte e tre sono disponibili? Sono sempre tre gli SME che vengono invitati?
++++Viene passato al successivo gruppo di SME se tutti e tre sono disponibili? Sono sempre tre gli SME che vengono invitati?
 
 La richiesta di cura viene inviata ai primi tre SME il primo giorno. Se non rispondono, la richiesta passa ai tre SME successivi il giorno dopo.
 
@@ -257,17 +257,17 @@ Se i moderatori della bacheca non rispondono, la richiesta viene approvata autom
 
 +++
 
-+++Se due SME si occupano della cura e uno no - la richiesta viene inoltrata al quarto SME o la richiesta prende la media delle valutazioni attribuite dal primo giro di SME al post?
++++Se due SME si occupano della cura e uno no, la richiesta viene trasferita al quarto SME o alla richiesta viene attribuita la media delle valutazioni attribuite dal primo giro di SME?
 
 Per approvare il post è necessario un punteggio del 50%. Allo stesso modo, un tasso di rifiuto del 50% viene usato per respingere il post. Ad ogni approvazione di uno SME, si valuta se ha raggiunto il 50%.
 
 Se non raggiunge il 50% dopo un giorno, viene inviato al successivo gruppo di SME alla scadenza delle precedenti richieste di cura senza risposta.
 
-Ad esempio, il primo giorno la richiesta cura viene inviata a tre SME e uno di loro la approva, mentre due non rispondono. Il giorno successivo, la richiesta di cura passa al successivo gruppo di tre SME; a questo livello, attualmente, vi sono quattro SME attivi in totale. Almeno due SME devono approvare la richiesta per poter ottenere l’approvazione per l’attività di cura(nel caso in cui 2 approvino e 2 respingano, verrà preso qualsiasi valore che per primo raggiunga il 50%).
+Ad esempio, il primo giorno la richiesta cura viene inviata a tre SME e uno di loro la approva, mentre due non rispondono. Il giorno successivo, la richiesta di cura passa al successivo gruppo di tre SME; a questo livello, attualmente, vi sono quattro SME attivi in totale. Almeno due SEM devono approvarlo per ottenere l&#39;approvazione della cura.(Nel caso in cui 2 approvi e 2 rifiuti, qualsiasi cosa raggiunga il primo 50% verrà presa.)
 
 +++
 
-+++Da ciò che risulta, un &quot;Moderatore&quot; viene assegnato solo (e non è obbligatorio) quando qualcuno crea una nuova bacheca - In quali casi un Allievo può assegnare un &quot;Moderatore&quot; a una bacheca se gli SME verranno assegnati all’abilità a cui è associata una bacheca?
++++Da ciò che risulta, un “Moderatore” viene assegnato solamente (e non è obbligatorio) quando qualcuno crea una nuova bacheca - In quali casi un allievo può assegnare un “Moderatore” a una bacheca se gli SME verranno assegnati all’abilità a cui è associata una bacheca?
 
 Di seguito sono riportate le responsabilità di un moderatore di una Bacheca social:
 
@@ -284,7 +284,7 @@ Come stabilito, gli SME vengono aggiunti/assegnati in base alle abilità, Questo
 
 +++
 
-+++Qual è la differenza tra un &quot;moderatore&quot; dell’apprendimento sociale e uno &quot;SME&quot; dell’apprendimento sociale?
++++Qual è la differenza tra un “moderatore” dell’Apprendimento sociale e uno “SME” dell’apprendimento sociale?
 
 **Moderatori:** proprietari secondari della bacheca. Vengono aggiunti dai creatori durante la creazione della bacheca in modo che possano controllare la bacheca in assenza del creatore. Per impostazione predefinita, il creatore della bacheca è il moderatore.
 
@@ -292,7 +292,7 @@ Come stabilito, gli SME vengono aggiunti/assegnati in base alle abilità, Questo
 
 +++
 
-+++Se due o tre SME sono assegnati a un’abilità - L’approvazione o il rifiuto di un post sull’Apprendimento sociale dipende dalla cura di tutti gli SME o da chi lo cura per primo?
++++Se due o tre SME vengono assegnati a un’abilità - L’approvazione o il rifiuto di un post sull’Apprendimento sociale dipende sulla cura di tutti gli SME o da chi lo cura per primo?
 
 Per approvare il post è necessario un punteggio del 50%. Allo stesso modo, un tasso di rifiuto del 50% viene usato per respingere il post. Ad ogni approvazione di uno SME, si valuta se ha raggiunto il 50%.
 
@@ -300,7 +300,7 @@ Se non raggiunge il 50% dopo un giorno, viene inviato al successivo gruppo di SM
 
 +++
 
-## Trend {#trends}
+## Tendenze {#trends}
 
 Le tendenze dell’attività sociale dell’Allievo possono essere visualizzate e monitorate nella scheda Attività nella sezione Tendenze. È possibile consultare i dati relativi a diversi periodi di tempo, ad esempio gli ultimi sette giorni, il mese scorso, gli ultimi tre mesi e l’intero periodo.
 
@@ -433,7 +433,7 @@ In base alle abilità utilizzate principalmente dagli utenti finali di Learning 
 
 ## Requisiti per diventare SME {#requirementstobeansme}
 
-Per diventare SME è necessario ottenere punti SME attraverso attività di Apprendimento sociale. L’Amministratore può assegnare punti a una PMI in base alla sua esperienza nel livello di abilità.
+Per diventare SME è necessario ottenere punti SME attraverso attività di Apprendimento sociale. L’Amministratore può assegnare punti a un SME sulla base della sua esperienza nel livello di abilità.
 
 ## Aggiunta di SME a un’abilità {#addingsmestoaskill}
 
@@ -463,7 +463,7 @@ Per aggiungere SME a un’abilità, segui la procedura descritta di seguito:
 
 1. Selezionando la casella di controllo **[!UICONTROL Abilita numero minimo di punti SME]**, è possibile impostare un limite al numero minimo di punti richiesti affinché un utente venga visualizzato come SME nell’elenco dei principali SME. Una volta impostato il valore di soglia, gli SME con un numero di punti inferiore o uguale al numero di punti minimo richiesto non sono riportati negli elenchi di SME.
 
-   Se la casella di controllo **[!UICONTROL Abilita punti SME minimi]** non è selezionata, i primi tre utenti con punti più alti sono considerati gli SME per quella determinata abilità.
+   Se la casella di controllo **[!UICONTROL Abilita numero minimo di punti SME]** non è selezionata, i primi tre utenti con il punteggio più alto vengono considerati come SME per quella specifica abilità.
 
 1. Fai clic sul pulsante **[!UICONTROL Salva]** per visualizzare le modifiche apportate.
 
@@ -484,11 +484,11 @@ Per aggiungere SME a un’abilità, segui la procedura descritta di seguito:
 
 ## Attività social per il piano di fatturazione degli utenti attivi su base mensile {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Ogni volta che un utente crea una nuova bacheca social, post social o commento social, verrebbe conteggiata come attività valida da contare nel piano **Utente attivazione mensile**(MAU) se l&#39;account segue il modello di fatturazione MAU. Per ulteriori informazioni, fai riferimento alla [gestione della fatturazione](billing-management.md).
+Ogni volta che un utente crea una nuova bacheca social, un post social o un commento social, tale attività viene considerata come un’attività valida da imputare al piano **Utenti mensili attivi** (MAU) se l’account segue il modello di fatturazione MAU. Per ulteriori informazioni, fai riferimento alla [gestione della fatturazione](billing-management.md).
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++Come abilitare l’apprendimento sociale per gli Allievi esterni?
++++Come abilitare l’Apprendimento sociale per gli Allievi esterni?
 
 In **[!UICONTROL Apprendimento sociale]** > **[!UICONTROL Impostazioni]**, nella sezione Impostazioni ambito, abilita l’opzione **[!UICONTROL Abilita per Allievi esterni]**. Dall’elenco a discesa, scegli un profilo esterno e definisci l’ambito di apprendimento per tale profilo.
 

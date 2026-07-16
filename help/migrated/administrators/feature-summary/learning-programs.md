@@ -7,8 +7,8 @@ preview: true
 exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 77%
+source-wordcount: '1491'
+ht-degree: 91%
 
 ---
 
@@ -38,7 +38,7 @@ Gli Amministratori possono creare programmi di apprendimento. Per creare un prog
 
    **Nota**
 
-   Tutti i tipi di corso possono essere aggiunti a un programma di apprendimento. Questi includono corsi in aula e in aula virtuale, attività, corsi autonomi e misti. I corsi nominati e quelli approvati dal Manager non vengono visualizzati durante la selezione dei corsi nei programmi di apprendimento.
+   Tutti i tipi di corso possono essere aggiunti a un programma di apprendimento. Questi comprendono corsi in aula e in aula virtuale, attività, corsi a ritmo personalizzato e misti. I corsi nominati e quelli approvati dal Manager non vengono visualizzati durante la selezione dei corsi nei programmi di apprendimento.
 
 1. È necessario aggiungere corsi al programma di apprendimento prima di pubblicarlo. Fai clic sulla scheda **[!UICONTROL Catalogo]** per associare i corsi al programma di apprendimento. Viene visualizzato un elenco di tutti i corsi disponibili.
 
@@ -50,7 +50,7 @@ Gli Amministratori possono creare programmi di apprendimento. Per creare un prog
 
    Visualizza l’elenco di tutti i corsi aggiunti al tuo programma di apprendimento nella scheda **[!UICONTROL Curriculum]**. L’etichetta aggiunta è visibile per i corsi aggiunti, in basso nella scheda del corso nella pagina **[!UICONTROL Catalogo]**.
 
-1. Fai clic su **[!UICONTROL Torna ai programmi]** nella parte superiore del riquadro sinistro per visualizzare un elenco di tutti i programmi di apprendimento. Adesso puoi visualizzare il programma di apprendimento appena aggiunto all’elenco.
+1. Fai clic su **[!UICONTROL Torna ai programmi]** nel riquadro in alto a sinistra per visualizzare un elenco di tutti i programmi di apprendimento. Adesso puoi visualizzare il programma di apprendimento appena aggiunto all’elenco.
 1. Puoi pubblicare il programma di apprendimento facendo clic su Panoramica nel riquadro a sinistra e selezionando Azioni>Pubblica. Puoi inoltre pubblicare il programma di apprendimento nella vista Corsi e istanze facendo clic su Pubblica nell’angolo in alto a destra della pagina.
 
 ## Aggiunta di Allievi a un programma di apprendimento {#addlearnerstoalearningprogram}
@@ -65,7 +65,7 @@ Oltre che per gli [apprendimenti o i moduli](shared-catalog-full-control.md), è
 
 Un amministratore può ripristinare l’avanzamento di un corso all’interno di un programma di apprendimento.
 
-Da un programma di apprendimento, l’Amministratore può ripristinare l’avanzamento del corso.
+Da un programma di apprendimento, l’amministratore può ripristinare l’avanzamento del corso.
 
 Per ripristinare un corso, l’amministratore deve selezionare un corso dal menu a discesa Corsi.
 
@@ -86,7 +86,7 @@ Gli allievi possono ora avviare i moduli dei corsi selezionati dall’inizio.
 1. Viene visualizzata una nuova istanza del corso.
 1. Fai clic sulle icone di modifica (come mostrato dalla freccia rossa nell’immagine) nella nuova istanza per modificare i valori del programma di apprendimento/corso, quali scadenza, nome dell’istanza, feedback e badge. Una volta apportate le modifiche, fai clic sul segno di spunta accanto al valore modificato per salvare le modifiche. Fai clic sul segno X per annullare le modifiche.
 
-Un amministratore può aggiungere corsi di tipo aula e aula virtuale a un programma di apprendimento. La sessione assegnata dall’Autore durante la creazione del corso diventa l’istanza predefinita. Quando l’Amministratore aggiunge corsi a un programma di apprendimento, esso viene mappato all’istanza predefinita di tutti i corsi per impostazione predefinita. L’Amministratore può tuttavia modificare la mappatura delle istanze. Il numero di corsi aggiunti in un programma di apprendimento è visibile anche nella pagina delle istanze, come illustrato di seguito.
+L’Amministratore può aggiungere corsi di tipo aula e aula virtuale a un programma di apprendimento. La sessione assegnata dall’Autore durante la creazione del corso diventa l’istanza predefinita. Quando l’Amministratore aggiunge corsi a un programma di apprendimento, esso viene mappato all’istanza predefinita di tutti i corsi per impostazione predefinita. L’Amministratore può tuttavia modificare la mappatura delle istanze. Il numero di corsi aggiunti in un programma di apprendimento è visibile anche nella pagina delle istanze, come illustrato di seguito.
 
 **Modifica della mappatura delle istanze**
 
@@ -96,7 +96,7 @@ Per modificare la mappatura delle istanze, fai clic sul conteggio dei corsi nell
 
 ## Creare programmi di formazione flessibili {#flexible}
 
-Utilizzando programmi di apprendimento flessibili, gli Allievi possono seguire corsi di formazione che non si limitano a quello offerto dall’istanza predefinita. Un Amministratore crea istanze diverse per soddisfare le esigenze degli Allievi. Questo tipo di programma di apprendimento è in genere una classe o una sessione in aula virtuale. Per garantire che a tutti gli Allievi venga offerta l’opportunità di partecipare, un Amministratore può creare più istanze di una sessione del corso per adattarle a fusi orari diversi.
+Utilizzando programmi di formazione flessibili, gli studenti possono seguire corsi di formazione che non si limitano a quello offerto dall’istanza predefinita. Un amministratore crea istanze diverse per soddisfare le esigenze degli allievi. Questo tipo di programma di formazione è in genere una lezione o una sessione di videoconferenza. Per garantire che a tutti gli allievi venga offerta l’opportunità di partecipare, un amministratore può creare più istanze di una sessione del corso per adattarle a fusi orari diversi.
 
 Un amministratore può inoltre mappare un’istanza di un programma di apprendimento su un’istanza di un corso selezionata dall’allievo.
 
@@ -126,7 +126,7 @@ Scegli il tipo di istanza dall’elenco a discesa per visualizzare i punteggi ba
 
 ## Visualizzare feedback L1 e L3 {#viewl1andl3feedback}
 
-In qualità di Amministratore, puoi abilitare i feedback L1 e L3 per un programma di apprendimento. Il feedback L1 fornito dall’Allievo sarà visibile nella scheda Feedback L1 e il feedback L3 fornito dal Manager nella scheda Feedback L3.
+In qualità di Amministratore, puoi abilitare il feedback L1 e L3 per un programma di apprendimento. Il feedback L1 fornito dall’Allievo sarà visibile nella scheda Feedback L1 e il feedback L3 fornito dal Manager verrà visualizzato nella scheda Feedback L3.
 
 ## Annullamento dell’iscrizione degli Allievi {#unenrollmentforlearners}
 

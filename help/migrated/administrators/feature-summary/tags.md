@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
 source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 63%
+source-wordcount: '775'
+ht-degree: 71%
 
 ---
 
@@ -40,7 +40,7 @@ Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe
 
 1. Puoi modificare solo un tag alla volta. Per modificare un tag, procedi come segue:
 
-   * Seleziona il tag da modificare > apri il menu a **&#x200B; &#x200B;**&#x200B;[!UICONTROL Azioni] > fai clic su **[!UICONTROL Modifica]**.
+   * Seleziona il tag da modificare > apri il menu a ** **[!UICONTROL Azioni] > fai clic su **[!UICONTROL Modifica]**.
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica tag]**. Inserisci il nuovo nome del tag e fai clic su **[!UICONTROL Salva]**.
 
@@ -83,4 +83,4 @@ In qualità di Amministratore, puoi autorizzare l’Autore a creare tag facendo 
 
 * Se l’utente non dispone delle autorizzazioni necessarie per creare nuovi tag, viene visualizzato un messaggio di errore che indica che il tag selezionato non è più valido. Gli autori possono contattare gli amministratori per modificare i tag non validi.
 
-  Gli autori non possono creare o salvare tag non validi. Possono rimuovere i tag non validi e aggiungere qualsiasi altro tag valido esistente e continuare.
+  Gli autori non possono creare o salvare tag non validi. Possono rimuovere i tag non validi, aggiungere qualsiasi altro tag valido esistente e procedere.
