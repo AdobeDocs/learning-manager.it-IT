@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Notifiche
-description: La funzionalità Notifiche è applicabile a tutti gli utenti di Adobe Learning Manager. Tuttavia, ogni utente ottiene diversi tipi di notifiche in diversi scenari in base al proprio ruolo.
+description: La funzionalità Notifiche è applicabile a tutti gli utenti di Adobe Learning Manager. Tuttavia, ogni utente ottiene diversi tipi di notifiche a seconda degli scenari e dei ruoli.
 contentowner: manochan
 exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
 source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 66%
+source-wordcount: '740'
+ht-degree: 78%
 
 ---
 
@@ -39,9 +39,9 @@ Viene visualizzata una finestra di notifica di esempio per il ruolo di Amministr
 
 *Visualizzare le notifiche dell&#39;amministratore*
 
-Questa finestra a comparsa mostra un riepilogo di tutte le notifiche, l’ora in cui sono state inviate e una barra di scorrimento. Puoi visualizzare il numero delle notifiche più recenti in base al numero evidenziato sopra l’icona delle notifiche. Ad esempio, se dall’ultimo accesso hai ricevuto cinque notifiche, sopra l’icona delle notifiche verrà visualizzato il numero 5. Questi numeri scompaiono quando visualizzi tutte le notifiche più recenti.
+Questa finestra a comparsa mostra un riepilogo di tutte le notifiche, insieme all’ora in cui sono state inviate e a una barra di scorrimento. Puoi visualizzare il numero delle notifiche più recenti in base al numero evidenziato sopra l’icona delle notifiche. Ad esempio, se dall’ultimo accesso hai ricevuto cinque notifiche, sopra l’icona delle notifiche verrà visualizzato il numero 5. Questi numeri scompaiono quando visualizzi tutte le notifiche più recenti.
 
-Fai clic sul collegamento **[!UICONTROL Mostra tutte le notifiche]** nella parte inferiore della finestra a comparsa delle notifiche per visualizzare tutte le notifiche in una nuova pagina. Nella pagina delle notifiche, puoi visualizzare quanto segue:
+Fai clic sul collegamento°**[!UICONTROL Mostra tutte le notifiche]** nella parte inferiore della finestra a comparsa delle notifiche per visualizzare tutte le notifiche in una nuova pagina. Nella pagina delle notifiche, puoi visualizzare quanto segue:
 
 * **Tutte le notifiche**: visualizza qui tutte le notifiche
 * **In sospeso**: visualizza qui le notifiche in sospeso
@@ -90,7 +90,7 @@ Quando gli Allievi non rispettano le scadenze, le e-mail di escalation possono e
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++Come si configurano le notifiche dei promemoria sull’istanza?
++++Come posso configurare le notifiche dei promemoria sull’istanza?
 
-In un&#39;istanza, fare clic su Avvisi di notifica. Viene aperto un calendario che indica la scadenza fissata per il corso evidenziato in rosso. Fai clic sulla data evidenziata per visualizzare i promemoria impostati per l’Allievo. Imposta i promemoria, come illustrato nella presente [sezione](user-notifications.md#Setupmultilevelescalationnotifications).
+In un’istanza, fai clic su Avvisi di notifica. Viene aperto un calendario che indica la scadenza fissata per il corso evidenziato in rosso. Fai clic sulla data evidenziata per visualizzare i promemoria impostati per l’Allievo. Imposta i promemoria, come illustrato nella presente [sezione](user-notifications.md#Setupmultilevelescalationnotifications).
 +++

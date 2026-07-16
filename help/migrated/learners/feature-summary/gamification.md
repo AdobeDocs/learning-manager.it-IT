@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
 source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 70%
+source-wordcount: '1468'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Alcune delle funzioni di Classifica per gli Allievi:
 
 * Gli Allievi iscritti a un’istanza del programma di apprendimento possono vedersi reciprocamente i propri punti se la gamification è abilitata per quell’istanza.
 * Fai clic su **[!UICONTROL Aggiungi colleghi]** per includere il membro del team con cui confrontarti. L’immagine del profilo del membro del team viene aggiunta alla scala della linea temporale nella parte superiore della pagina della classifica. Questa scala della linea temporale mostra i punti all’inizio e sposta la posizione verso destra all’ottenimento di più punti rispetto ai membri del team. Puoi confrontarlo solo con altri membri dello stesso gruppo.
-* **Gruppi di utenti:** in qualsiasi momento puoi scegliere i profili dei membri del team con cui desideri confrontare il tuo punteggio, utilizzando l&#39;opzione **[!UICONTROL Confrontami con]**. Nel campo Seleziona gruppi di utenti, digita e scegli il gruppo. Di seguito sono elencati l&#39;elenco di tutti i membri del team e i punti più recenti. Gli utenti interni ed esterni possono visualizzare l’elenco, ma solo gli utenti interni possono cercare altri Allievi interni.
+* **Gruppi utente:** in qualsiasi momento puoi scegliere i profili dei membri del team con cui desideri confrontare il tuo punteggio, tramite l’opzione **[!UICONTROL Confrontami con]**. Nel campo Seleziona gruppi utente, digita e scegli il gruppo. L’elenco di tutti i membri del team insieme ai punteggi più recenti sono elencati di seguito. Gli utenti interni ed esterni possono visualizzare l’elenco, ma solo gli utenti interni possono cercare altri Allievi interni.
 
 * Inoltre, la finestra di dialogo Persone con un livello simile al tuo mostra i nomi dei membri del team con un livello superiore, inferiore o uguale al tuo.
 * Quando un utente esterno si converte in uno interno, la linea temporale viene aggiornata automaticamente.
@@ -97,7 +97,7 @@ Puoi visualizzare i seguenti possibili scenari:
 
 **Per Allievi proattivi (a)**
 
-Questa attività è applicabile quando gli Allievi si registrano al numero prescritto di corsi e lo completano entro un mese/trimestre/anno. In questo caso, l’Amministratore può abilitare questa attività per assegnare punti e incoraggiarli.
+Questa attività è applicabile quando gli Allievi si iscrivono al numero prescritto di corsi e lo completano entro un mese/trimestre/anno. In questo caso, l’Amministratore può attivare questa attività per assegnare punti e incoraggiarli.
 
 Possibili scenari:
 
@@ -150,7 +150,7 @@ Possibili scenari per il perfezionamento dei livelli in una specifica competenza
 
 >[!NOTE]
 >
->Periodo di tempo non applicabile per questa attività. L’Amministratore può modificare il numero di livelli per ogni scenario. Se gli Allievi raggiungono un livello superiore e quindi un livello inferiore di una competenza, guadagnano punti solo per il livello superiore.
+>Periodo di tempo non applicabile per questa attività. L’Amministratore può modificare il numero di livelli per ciascuno scenario. Se gli Allievi raggiungono un livello superiore e quindi un livello inferiore di una competenza, guadagnano punti solo per il livello superiore.
 
 **Punti per il completamento rapido**
 

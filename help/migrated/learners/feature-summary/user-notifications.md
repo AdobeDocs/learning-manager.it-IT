@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
 source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 72%
+source-wordcount: '467'
+ht-degree: 80%
 
 ---
 

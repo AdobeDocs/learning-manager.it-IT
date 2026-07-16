@@ -4,20 +4,19 @@ title: Domande frequenti per gli Allievi
 description: Domande frequenti per gli Allievi di Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
+source-git-commit: f6e98e56cc03fa92464bf2ed277fcf6a71b4e0b4
 workflow-type: tm+mt
-source-wordcount: '2374'
-ht-degree: 55%
+source-wordcount: '2402'
+ht-degree: 78%
 
 ---
-
-
 
 # Domande frequenti per gli Allievi
 
 +++Come mi iscrivo a un’offerta di corso?
 
-Nel catalogo dei corsi sono visualizzati tutti i corsi per i quali sei idoneo. Se è il Manager a definire i corsi a te destinati, ricevi una notifica con l’opzione per accettare o rifiutare il corso.
+Nel catalogo dei corsi vengono visualizzati tutti i corsi per cui sei idoneo. Se è il Manager a definire i corsi a te destinati, ricevi una notifica con l’opzione per accettare o rifiutare il corso.
 
 Tuttavia, hai la possibilità di scorrere tra i corsi elencati in CATALOGO utilizzando i passaggi seguenti:
 
@@ -36,29 +35,29 @@ Per ulteriori informazioni sull&#39;accesso offline, fai riferimento alla funzio
 
 +++
 
-+++Come si cercano i corsi?
++++Come cerco corsi?
 
-Puoi cercare qualsiasi oggetto di apprendimento utilizzando il campo di ricerca a testo libero nelle schede Catalogo e Contenuti di apprendimento.
+Puoi cercare uno qualsiasi degli oggetti di apprendimento tramite il campo di ricerca di testo libero nelle schede relative ai contenuti di apprendimento e Catalogo.
 
 Fai clic nel campo di ricerca. Puoi abilitare la ricerca durante la digitazione in questo campo. Visualizza i risultati di ricerca nel menu a discesa e scegli l’opzione appropriata per visualizzare i risultati.
 
 +++
 
-+++Posso visualizzare i punti di apprendimento dei miei colleghi?
++++Posso visualizzare i punti di apprendimento degli altri Allievi?
 
-Sì, puoi confrontare i punti di apprendimento con i tuoi colleghi. Passa il mouse sopra al cerchio del profilo. Puoi visualizzare qui i tuoi punti. Per visualizzare la finestra di dialogo Classifica, fare clic su Vai a Classifica. In questa finestra di dialogo, puoi visualizzare l’elenco dei tuoi colleghi in base al punteggio simile.
+Sì, puoi confrontare i punti di apprendimento con i tuoi colleghi. Passa il mouse sopra al cerchio del profilo. Puoi visualizzare qui i tuoi punti. Per visualizzare la finestra di dialogo Classifica, fai clic su Vai alla classifica. In questa finestra di dialogo, puoi visualizzare l’elenco dei tuoi colleghi in base al punteggio simile.
 
 Per ulteriori informazioni, consulta la funzionalità [Classifica](feature-summary/gamification.md).
 
 +++
 
-+++Che cos’è l’efficacia dei corsi?
++++Qual è l’efficacia dei corsi?
 
-L’efficacia dei corsi viene valutata per comprendere l’utilità di un corso per gli Allievi. Viene calcolata in base al feedback ricevuto da un dato numero di utenti per un corso specifico. Se la percentuale di Allievi che fornisce un feedback è più alta, la valutazione dell’efficacia del corso è elevata.
+L’efficacia dei corsi è valutata per comprendere l’utilità di un corso per gli Allievi. Viene calcolata in base al feedback ricevuto da un dato numero di utenti per un corso specifico. Se la percentuale di Allievi che fornisce un feedback è più alta, la valutazione dell’efficacia del corso è elevata.
 
 È una combinazione di risultati dei feedback degli allievi sul contenuto del corso, risultati del quiz sul corso per un Allievo e feedback del Manager che valuta un Allievo in base agli allievi del corso.
 
-Nella scheda Corsi, un Allievo può visualizzare la valutazione dell’efficacia del corso nelle miniature
+Nella scheda Corsi, un Allievo può visualizzare la valutazione dell’efficacia di un corso sulle anteprime
 
 Fai clic sul valore di efficacia del corso per visualizzare i dettagli relativi alla sua efficacia. Viene visualizzata una finestra a comparsa.
 
@@ -66,29 +65,29 @@ Fai clic sulla freccia rivolta verso il basso nell’angolo in basso a destra de
 
 +++
 
-+++Qual è la differenza tra apprendimento e catalogo?
++++Qual è la differenza tra l’apprendimento e il catalogo?
 
-Nella scheda Apprendimento puoi visualizzare tutti i [corsi](feature-summary/courses.md), i [programmi di apprendimento](feature-summary/learning-programs.md) e le [certificazioni](feature-summary/certifications.md) a cui hai effettuato l’iscrizione o che ti sono state assegnate. Puoi anche passare alla scheda Apprendimento facendo clic sul collegamento Vai a Apprendimento.
+Nella scheda Apprendimento puoi visualizzare tutti i [corsi](feature-summary/courses.md), i [programmi di apprendimento](feature-summary/learning-programs.md) e le [certificazioni](feature-summary/certifications.md) a cui hai effettuato l’iscrizione o che ti sono state assegnate. Puoi inoltre passare alla scheda di apprendimento facendo clic sul collegamento Vai all’apprendimento.
 
-Nella scheda Catalogo puoi visualizzare tutti i corsi, i programmi di apprendimento e le certificazioni disponibili per il tuo ruolo nell’account aziendale. Potete anche passare alla scheda Catalogo facendo clic sul collegamento Vai al catalogo.
+Nella scheda Catalogo, puoi utilizzare tutti i corsi, i programmi di apprendimento e le certificazioni disponibili per il ruolo nell’account aziendale. Puoi inoltre passare alla scheda Catalogo, facendo clic sul collegamento Vai al catalogo.
 
 +++
 
-+++Che cos’è una sequenza temporale di apprendimento?
++++Che cos’è una linea temporale di apprendimento?
 
 In questa sezione puoi visualizzare gli avvisi per tutti i corsi, le certificazioni e i programmi di apprendimento in ordine crescente di scadenza. Le scadenze per ognuna delle attività di apprendimento vengono visualizzate nel riquadro a sinistra.
 
-Fai clic su ciascun oggetto di apprendimento per visualizzare le informazioni corrispondenti nel riquadro a destra. Puoi fare clic sul riquadro del corso, del programma di apprendimento o della certificazione per visualizzare le informazioni complete di ciascun oggetto di apprendimento.
+Fai clic su ciascun oggetto di apprendimento per visualizzare le informazioni corrispondenti nel riquadro a destra. Puoi fare clic sul titolo di certificazione/programma di apprendimento/corso per visualizzare le informazioni complete relative a ogni oggetto di apprendimento.
 
 Passa il mouse sull’area della linea temporale per visualizzare la barra di scorrimento sul lato destro. Utilizza la barra di scorrimento per scorrere verso l’alto o il basso e visualizzare più avvisi.
 
 +++
 
-+++Che cos&#39;è una mappa delle abilità?
++++Che cos’è una mappa di abilità?
 
 La mappa delle abilità racchiude i set di abilità, le conoscenze e le caratteristiche di un dipendente in un’organizzazione. Queste mappe delle abilità aiutano le aziende/organizzazioni a impostare o incrementare le prestazioni previste per i dipendenti. Le abilità consentono ai dipendenti di allineare i loro comportamenti alle aspettative dell’organizzazione.
 
-Quando gli Allievi completano l’accettazione di alcuni corsi, possono verificare la propria reputazione rispetto a ciascuna abilità visualizzando le mappe di abilità.
+Quando gli allievi completano l’accettazione di alcuni corsi, possono verificare la loro reputazione in relazione a ciascuna abilità visualizzando le mappe di abilità.
 
 ## Visualizza mappe di abilità
 
@@ -98,7 +97,7 @@ Per ulteriori informazioni, consulta la funzionalità [Abilità e livelli](featu
 
 +++
 
-+++Posso accedere a Learning Manager tramite smartphone?
++++Posso accedere a Learning Manager con lo smartphone?
 
 Sì, puoi accedere a Learning Manager su smartphone, iPad o qualsiasi altro tablet Android.
 
@@ -106,7 +105,7 @@ Per ulteriori informazioni su questa funzionalità, fai riferimento alla funzion
 
 +++
 
-+++Posso accedere a Learning Manager in iPad?
++++Posso accedere a Learning Manager con l’iPad?
 
 Sì, Learning Manager è accessibile tramite iPad. Puoi scaricare l’app dall’app store o da Google Play.
 
@@ -120,15 +119,15 @@ Se disponi dell’Adobe ID, puoi accedere a Learning Manager. Segui le istruzion
 
 +++
 
-+++Come raggiungere un livello di abilità?
++++Come ottenere un livello di abilità?
 
 Ogni volta che acquisisci un nuovo livello di abilità, puoi ottenere nuovi crediti. I crediti sono associati ai livelli di abilità. Per ulteriori informazioni su abilità e livelli, fai riferimento alla funzionalità [abilità e livelli](feature-summary/skills-levels.md).
 
 +++
 
-+++Dove posso visualizzare la cronologia/i report di tutti i miei programmi di apprendimento?
++++Dove posso visualizzare la cronologia/i rapporti di tutti i miei elementi di apprendimento?
 
-Puoi visualizzare la cronologia di tutti gli elementi di apprendimento nella home page. Fai clic sulla scheda Apprendimento e in ciascuna delle schede Corsi, Programmi e Certificazioni puoi scegliere Completato per visualizzare l’elenco di tutti i corsi completati.
+Puoi visualizzare la cronologia di tutti gli elementi di apprendimento nella home page. Fai clic sulla scheda Apprendimento e in ogni scheda Corsi, Programmi e Certificazioni puoi scegliere Completato per visualizzare l’elenco di tutti gli elementi di apprendimento completati.
 
 +++
 
@@ -138,11 +137,11 @@ Puoi esprimere interesse nell’iscriverti a qualsiasi corso in aula senza alcun
 
 +++
 
-+++Qual è la differenza tra crediti e punti di gamification?
++++Qual è la differenza tra punti di gamification e crediti?
 
 Ogni volta che acquisisci un nuovo livello di abilità, puoi ottenere nuovi crediti. I crediti sono associati ai livelli di abilità. Per ulteriori informazioni sui crediti, sulle abilità e sui livelli, fai riferimento alla funzionalità [abilità e livelli](feature-summary/skills-levels.md).
 
-Ottieni punti di gamification ogni volta che completi un&#39;attività. Attualmente, sono disponibili sei attività di gamification disponibili in Learning Manager. Al termine di ogni attività, si acquisisce un numero specifico di punti associati a tale attività. Per ulteriori informazioni, consulta la funzionalità [gamification](feature-summary/gamification.md).
+Ottieni punti di gamification ogni volta che completi un’attività. Attualmente, sono disponibili sei attività di gamification disponibili in Learning Manager. Al termine di ogni attività, acquisisci un numero specifico di punti associati a tale attività. Per ulteriori informazioni, consulta la funzionalità [gamification](feature-summary/gamification.md).
 
 +++
 
@@ -158,17 +157,17 @@ Per ulteriori informazioni, consulta la funzionalità [distintivi](feature-summa
 
 +++
 
-+++Che cos&#39;è un programma di apprendimento?
++++Cos’è un programma di apprendimento?
 
 I programmi di apprendimento sono un set di corsi progettati specificatamente per soddisfare specifici obiettivi di apprendimento. Solo gli amministratori possono creare programmi di apprendimento per gli Allievi. Quando un Amministratore assegna un’istanza del programma di apprendimento agli Allievi, questi vedono che **programma &#x200B;** nella scheda Programmi. Gli Allievi possono inoltre visualizzare e iscriversi a tutti i programmi di apprendimento del tipo registrazione autonoma.
 
 Per iniziare il programma di apprendimento, fai clic sul programma a te assegnato. Puoi visualizzare le informazioni dettagliate di tale particolare programma.
 
-Nell&#39;angolo superiore destro della pagina del programma di apprendimento viene visualizzato il pulsante **Avvia programma**. Fai clic su **[!UICONTROL Avvia programma]** per iniziare a seguire il corso.
+Un pulsante **Inizia programma** viene visualizzato nell’angolo superiore destro della pagina del programma di apprendimento. Fai clic su **[!UICONTROL Inizia programma]** per accettare il corso.
 
 +++
 
-+++Come si ottengono i punti (gamification)?
++++Come posso ottenere punti (gamification)?
 
 Al termine di ogni corso riceverai punti online.
 
@@ -179,15 +178,15 @@ In base ai punti ottenuti al completamento del corso, ti vengono assegnati i seg
 1. 3500 punti - livello Gold
 1. 5000 punti - livello Platino
 
-Se necessario, puoi visualizzare i punti di livello correnti nel profilo e nella destinazione per raggiungere punti più alti.
+Puoi visualizzare i punti del livello corrente nel profilo e cercare di ottenere più punti, se necessario.
 
 Per ulteriori informazioni, fai riferimento alla [funzionalità Gamification](feature-summary/gamification.md).
 
 +++
 
-+++È possibile riprodurre i contenuti di formazione a schermo intero?
++++Posso riprodurre il mio contenuto di formazione a schermo intero?
 
-Tutti i corsi in Learning Manager vengono riprodotti nei browser. Puoi visualizzare i corsi a schermo intero utilizzando il lettore Fluidic di Learning Manager.
+Tutti i corsi in Learning Manager sono riprodotti nei browser. Puoi visualizzare i corsi a schermo intero utilizzando il lettore Fluidic di Learning Manager.
 
 Per ulteriori informazioni sul lettore, fai riferimento alla [funzionalità lettore Fluidic](feature-summary/fluidic-player.md).
 
@@ -213,38 +212,38 @@ Fai clic sull’icona della barra multifunzione accanto ai nomi dell’argomento
 Puoi creare note durante la lettura del contenuto del corso seguendo questi passaggi:
 
 1. Fai clic sulla sezione del corso che desideri accettare.
-1. Nella parte inferiore della schermata del lettore del corso, fai clic sull’icona + Note per aprire la sezione Note.
+1. Nella parte inferiore della schermata di riproduzione del corso, fai clic sull’icona + Note per aprire la sezione Note.
 1. Aggiungi le note e fai clic su Aggiungi. Le note sono salvate.
 
 >[!NOTE]
 >
->La funzione di applicazione del segnalibro è supportata solo per il contenuto di output di Presenter 11 e versioni successive di Captivate HTML 9 e versioni successive.
+>La funzione di applicazione del segnalibro è supportata solo per il contenuto di output di Presenter 11 e versioni successive di Captivate 9 e versioni successive.
 
 **Scarica/Invia per e-mail le note del corso**
 
 Puoi scaricare o inviare via e-mail le note del corso seguendo i passaggi riportati di seguito:
 
 1. Fai clic sulla sezione del corso per cui visualizzare le note.
-1. Fare clic sulla scheda **Note** accanto alla scheda **Moduli**.
+1. Fai clic sulla scheda **Note** accanto alla scheda **Moduli**.
 
-1. Fai clic su **[!UICONTROL Scarica note]** per scaricarle in formato pdf.
-1. Fai clic su **[!UICONTROL Note e-mail]** per ricevere le note tramite e-mail al tuo account e-mail.
-
-+++
-
-+++Posso aggiungere i miei corsi di formazione segnalati autonomamente a Learning Manager? Come?
-
-Attualmente non supportiamo questa funzione in Learning Manager 1.0. Tuttavia, puoi ottenere certificazioni esterne. Queste certificazioni esterne ti vengono assegnate dall’Amministratore della tua organizzazione. Contatta il Manager per iscriverti alle certificazioni esterne.
+1. Fai clic su **[!UICONTROL Scarica note]** per scaricare come PDF.
+1. Fai clic su **[!UICONTROL Invia note tramite e-mail]** per ricevere le note come e-mail nel proprio account.
 
 +++
 
-+++Posso visualizzare l’elenco dei corsi in base al mio percorso di apprendimento?
++++Posso aggiungere i miei elementi di apprendimento con rapporto creato autonomamente a Learning Manager? Come?
+
+Attualmente, questa funzione non è supportata in Learning Manager 1.0. Tuttavia, esiste una disposizione per accettare certificazioni esterne. Queste certificazioni esterne ti vengono assegnate dall’Amministratore della tua organizzazione. Contatta il Manager per iscriverti alle certificazioni esterne.
+
++++
+
++++Posso visualizzare l’elenco di corsi in base al mio percorso di apprendimento?
 
 Attualmente questa funzione non è disponibile.
 
 +++
 
-+++Come posso fornire una valutazione o un feedback sui corsi?
++++Come fornisco una valutazione o un feedback sui corsi?
 
 Riceverai una notifica di completamento del corso insieme al collegamento per fornire un feedback.
 
@@ -263,7 +262,7 @@ Per ulteriori informazioni sulle certificazioni per gli Allievi, fai riferimento
 
 +++
 
-+++Come si visualizzano e stampano le trascrizioni dei corsi di formazione?
++++Come visualizzo e stampo le trascrizioni di apprendimento?
 
 Attualmente, le trascrizioni di apprendimento non sono fornite in Learning Manager 1.0.
 
@@ -285,7 +284,7 @@ Il Manager comunica inoltre tramite e-mail.
 
 +++
 
-+++Ricevo notifiche e promemoria per I MIEI CORSI?
++++Ottengo notifiche e promemoria per I MIEI CORSI?
 
 Sì, puoi visualizzarli facendo clic sull’icona delle notifiche nell’angolo superiore destro della finestra.
 
@@ -293,7 +292,7 @@ Vengono visualizzate le finestre a comparsa delle notifiche.
 
 +++
 
-+++Come posso cercare corsi e programmi di apprendimento?
++++Come cerco corsi e programmi di apprendimento?
 
 Puoi cercare corsi in due modi:
 
@@ -313,11 +312,11 @@ A seconda della scelta, puoi visualizzare l’elenco filtrato di corsi e sceglie
 
 +++
 
-+++Come posso seguire un corso online?
++++Come partecipo a un corso online?
 
 Oltre ai corsi in aula, tutti gli altri tre tipi di corso (misto, ritmo personalizzato e aula virtuale) disponibili in Learning Manager possono essere considerati come corsi online.
 
-In alcune occasioni, sarai automaticamente iscritto alla formazione. Questi corsi verranno visualizzati nella scheda CORSI. Puoi cercare il corso che desideri seguire e quindi fare clic sul pulsante Esplora e iscriviti nella pagina.
+In alcune occasioni, sarai automaticamente iscritto alla formazione. Questi corsi verranno visualizzati nella scheda CORSI. Puoi cercare il corso che desideri frequentare e fare quindi clic sul pulsante di esplorazione e registrazione nella pagina.
 
 >[!NOTE]
 >
@@ -331,13 +330,13 @@ Puoi visualizzare l’avanzamento del corso e aggiungere le note.
 
 +++
 
-+++Che cos’è l’apprendimento misto?
++++Cos’è l’apprendimento misto?
 
 L’apprendimento misto è un approccio all’apprendimento e all’insegnamento che combina e allinea l’apprendimento in sessioni dal vivo con opportunità di apprendimento online. I corsi di Learning Manager sono caratterizzati da metodi di apprendimento misti.
 
 +++
 
-+++Che cos&#39;è il modulo autonomo?
++++Cos’è il modulo autonomo?
 
 In questo modulo, gli Allievi possono iniziare e completare un modulo del corso in base alla propria pianificazione al proprio ritmo. Ad esempio, video, file audio, lezioni in aula preregistrate.
 
@@ -354,7 +353,7 @@ Sì, puoi esportare i contenuti delle note come PDF con i passaggi seguenti:
 
 +++
 
-+++Dove posso scaricare la versione desktop dell&#39;app?
++++Dove posso scaricare la versione desktop dell&#39;app? 
 
 Segui i passaggi riportati di seguito per scaricare la versione desktop:
 
@@ -365,4 +364,3 @@ Segui i passaggi riportati di seguito per scaricare la versione desktop:
 Verrà avviato il download dell&#39;applicazione.
 
 +++
-

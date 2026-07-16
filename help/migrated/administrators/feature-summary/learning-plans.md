@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
 source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 60%
+source-wordcount: '1640'
+ht-degree: 82%
 
 ---
 
@@ -35,7 +35,7 @@ Per creare un piano di apprendimento, devi accedere come Amministratore.
    ![](assets/add-learning-plandialog.png)
 
 1. Nell’elenco a discesa **[!UICONTROL Si verifica quando]** scegli l’evento richiesto. Gli amministratori possono aggiungere un evento alla volta.
-Le opzioni determinano quando un Allievo segue il corso. Dopo aver selezionato il tipo di evento, seleziona il corso di formazione, i corsi, il programma di apprendimento o la certificazione appropriati.
+Le opzioni determinano quando un Allievo svolge il corso. Dopo aver selezionato il tipo di evento, seleziona il training, i corsi, il programma di apprendimento o la certificazione appropriati.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Gli eventi sono:
 
 ![](assets/new-learner-is-added.png)
 
-**2 - L’Allievo viene aggiunto a un gruppo:** Quando un nuovo utente o un dipendente entra a far parte di un gruppo.  Immetti e seleziona il gruppo di utenti dall’elenco a discesa a cui è applicabile questo evento. Puoi scegliere più gruppi. Inoltre, puoi assegnare questo evento a tutti i membri esistenti di questi gruppi selezionando l’opzione.
+**2 - L’Allievo viene aggiunto a un gruppo:** Quando un nuovo utente o un dipendente entra a far parte di un gruppo.  Immetti e seleziona dall’elenco a discesa il gruppo di utenti a cui è applicabile questo evento. Puoi scegliere più gruppi. Inoltre, puoi assegnare questo evento a tutti i membri esistenti di questi gruppi selezionando l’opzione.
 
 ![](assets/learner-gets-addedtoagroup.png)
 
@@ -59,11 +59,11 @@ Questo piano di apprendimento è specificatamente progettato per utenti ***di gr
 ![](assets/learner-removed-from-group.png)
 
 
-**4 - L’Allievo completa un corso, un percorso di apprendimento o una certificazione:** L’evento viene attivato quando un Allievo completa un oggetto di apprendimento, ad esempio un corso, un programma di apprendimento o altro. Seleziona l’oggetto di apprendimento per il quale è applicabile l’evento. Seleziona lo stato di completamento per l’evento. Puoi anche scegliere il gruppo di utenti a cui l’Allievo appartiene. Immetti il numero di giorni. Dopo aver completato l’oggetto di apprendimento, questo evento viene attivato. Seleziona l’opzione se desideri assegnare questo evento agli utenti esistenti che hanno già completato l’oggetto di apprendimento.
+**4 - L’Allievo completa un corso, un percorso di apprendimento o una certificazione:** L’evento viene attivato quando un Allievo completa un oggetto di apprendimento, ad esempio un corso, un programma di apprendimento o altro. Seleziona l’oggetto di apprendimento per il quale è applicabile l’evento. Seleziona lo stato di completamento per l’evento. Puoi anche scegliere il gruppo di utenti a cui l’Allievo appartiene. Immetti il numero di giorni. Dopo aver completato l’oggetto di apprendimento, questo evento viene attivato. Seleziona questa opzione per assegnare questo evento agli utenti esistenti che hanno già completato questo oggetto di apprendimento.
 
 ![](assets/learner-completealearningobject.png)
 
-**5 - L’Allievo non supera un modulo di un corso:** l’evento viene attivato quando un Allievo non supera un oggetto di apprendimento come corso, programma di apprendimento e così via. Seleziona l’oggetto di apprendimento per il quale è applicabile l’evento. Puoi anche scegliere il gruppo di utenti a cui appartiene questo Allievo.
+**5 - L’Allievo non supera un modulo di un corso:** l’evento viene attivato quando un Allievo non supera un oggetto di apprendimento come corso, programma di apprendimento e così via. Seleziona l’oggetto di apprendimento per il quale è applicabile l’evento. Puoi anche scegliere il gruppo di utenti a cui l’Allievo appartiene.
 
 ![](assets/learner-fails-module.png)
 
@@ -95,16 +95,16 @@ Quando viene aggiunto un piano di apprendimento, un Amministratore può annullar
 
 Nell’app di amministrazione, fai clic su **[!UICONTROL Piani di apprendimento]** > **[!UICONTROL Aggiungi]**.
 
-Le sezioni successive rappresentano i trigger in cui è stata aggiunta l&#39;opzione **[!UICONTROL Annulla iscrizione al corso di formazione]**.
+Le sezioni successive mostrano le attivazioni disponibili laddove sia stata aggiunta l’opzione **[!UICONTROL Annulla iscrizione al corso di formazione]**.
 
 ![](assets/unenroll-courses.png)
 
 ## L’Allievo viene rimosso da un gruppo {#learnergetsremovedfromagroup}
 
-1. Aggiungi uno o più gruppi utente. Nel caso in cui siano stati selezionati più gruppi, il piano viene attivato nel momento in cui un Allievo viene rimosso da uno dei gruppi sopramenzionati.
-1. Scegli l&#39;azione come **[!UICONTROL Annulla iscrizione al corso di formazione]**.
+1. Aggiungi uno o più gruppi utente. Nel caso in cui siano stati selezionati più gruppi , il piano viene attivato nel momento in cui un Allievo viene rimosso da uno dei gruppi sopramenzionati.
+1. Scegli l’azione **[!UICONTROL Annulla iscrizione al corso di formazione]**.
 
-   1. L’Amministratore può scegliere i corsi di formazione da cui verrà annullata l’iscrizione dell’utente quando verrà rimosso dal gruppo di utenti.
+   1. L’ Amministratore può scegliere i corsi di formazione da cui verrà annullata l’iscrizione dell’utente quando verrà rimosso dal gruppo utenti.
    1. L’istanza e la data di completamento non saranno applicabili in questo scenario.
 
 ![](assets/image038.png)
@@ -112,7 +112,7 @@ Le sezioni successive rappresentano i trigger in cui è stata aggiunta l&#39;opz
 ## L’Allievo completa un corso di formazione {#learnercompletesatraining}
 
 1. Aggiungi uno o più gruppi utente. Nel caso in cui siano stati selezionati più gruppi, il piano viene attivato nel momento in cui un Allievo completa il corso di formazione specificato.
-1. Scegli l&#39;azione come **[!UICONTROL Annulla iscrizione al corso di formazione]**.
+1. Scegli l’azione **[!UICONTROL Annulla iscrizione al corso di formazione]**.
 
    1. L’Amministratore può scegliere i corsi di formazione da cui verrà annullata l’iscrizione dell’utente quando verrà aggiunto al gruppo utenti.
    1. L’istanza e la data di completamento non saranno applicabili in questo caso.
@@ -122,7 +122,7 @@ Le sezioni successive rappresentano i trigger in cui è stata aggiunta l&#39;opz
 ## L&#39;Allievo non ha superato un modulo di un corso
 
 1. Aggiungi uno o più gruppi utente. Nel caso in cui siano stati selezionati più gruppi, il piano viene attivato nel momento in cui un Allievo non supera il corso di formazione specificato.
-1. Scegli l&#39;azione come **[!UICONTROL Annulla iscrizione al corso di formazione]**.
+1. Scegli l’azione **[!UICONTROL Annulla iscrizione al corso di formazione]**.
 
    1. L’Amministratore può scegliere i corsi di formazione da cui verrà annullata l’iscrizione dell’utente quando verrà aggiunto al gruppo utenti.
    1. L’istanza e la data di completamento non saranno applicabili in questo caso.
@@ -139,7 +139,7 @@ Le sezioni successive rappresentano i trigger in cui è stata aggiunta l&#39;opz
 
 ## L’Allievo ottiene un livello di abilità {#learnerachievesaskilllevel}
 
-1. Specifica l’abilità da raggiungere.
+1. Specifica l’abilità da ottenere.
 1. Aggiungi uno o più gruppi utente. Nel caso in cui siano stati selezionati più gruppi, il piano viene attivato nel momento in cui un Allievo ottiene l’abilità selezionata.
 
 ![](assets/image045.png)
@@ -150,7 +150,7 @@ Le sezioni successive rappresentano i trigger in cui è stata aggiunta l&#39;opz
 1. Aggiungi uno o più gruppi utente. Nel caso in cui siano stati selezionati più gruppi, il piano viene attivato in quella data e viene annullata l’iscrizione degli utenti che fanno parte dei gruppi selezionati.
 1. Scegli l’azione Annulla iscrizione al corso di formazione.
 
-   1. L’Amministratore può scegliere i corsi di formazione da cui verrà annullata l’iscrizione dell’utente quando verrà annullata nella data specificata.
+   1. L’Amministratore può scegliere i corsi di formazione da cui verrà annullata l’iscrizione dell’utente quando ciò avverrà nella data specificata.
    1. L’istanza e la data di completamento non saranno applicabili in questo caso.
 
 ![](assets/image047.png)
@@ -166,7 +166,7 @@ Dopo aver creato un piano di apprendimento, l’Amministratore può modificarlo 
 
 ## Attivazione di un piano di apprendimento {#enablealearningplan}
 
-Per impostazione predefinita, tutti i nuovi piani di apprendimento creati sono in stato disattivato. È necessario abilitare un piano per l’assegnazione di un Allievo. Quando abiliti la casella di controllo **[!UICONTROL Allievi correnti]**, l’evento viene abilitato da solo.
+Per impostazione predefinita, tutti i nuovi piani di apprendimento creati sono in stato disattivato. È necessario attivare un piano per potervi assegnare un Allievo. Quando attivi la casella **[!UICONTROL Allievi correnti]** l’evento viene attivato automaticamente.
 
 Per attivare un piano di apprendimento,
 
@@ -201,12 +201,12 @@ Puoi filtrare i piani di apprendimento in base al tipo di evento utilizzato dura
 
 1. Come si imposta Learning Manager per configurare le iscrizioni automatiche per la registrazione dei nuovi assunti?
 
-   Nell&#39;elenco a discesa **[!UICONTROL Si verifica quando]**, scegli l&#39;opzione **[!UICONTROL Nuovo Allievo aggiunto]**. Quindi assegna gli oggetti di apprendimento, l’istanza e la data di completamento dell’Allievo. Sia gli Amministratori che gli Autori possono creare eventi di iscrizione automatica. Abilita l’evento dopo averlo creato.
+   Nell’elenco a discesa **[!UICONTROL Si verifica quando]** scegli l’opzione **[!UICONTROL Viene aggiunto un nuovo Allievo]**. Quindi assegna gli oggetti di apprendimento, l’istanza e la data di completamento dell’Allievo. Gli Amministratori e gli Autori possono creare eventi di iscrizione automatica. Attiva l’evento dopo averlo creato.
 
-1. Come si imposta un piano di apprendimento/iscrizione automatica per un corso in aula e in aula virtuale?
+1. Come si imposta un piano di apprendimento/un’iscrizione automatica per una classe e un corso per una classe virtuale?
 
-   È consigliabile configurare l’istanza del corso con i dettagli richiesti per la sessione. Quindi configura un piano di apprendimento e mapparlo all’istanza del corso che è già stata creata.
+   È consigliabile configurare l’istanza del corso con i dettagli richiesti per la sessione. Imposta quindi un piano di apprendimento e mappalo all’istanza del corso già creata.
 
-1. Come si visualizza l’elenco degli Allievi iscritti a un piano di apprendimento specifico?
+1. Come si visualizza l’elenco degli Allievi iscritti a uno specifico piano di apprendimento?
 
    Quando viene creata l’istanza Automatico, fai clic su **[!UICONTROL Corso]** > **[!UICONTROL Allievi]** e scegli l’istanza richiesta dall’elenco a discesa **[!UICONTROL Istanza]**.

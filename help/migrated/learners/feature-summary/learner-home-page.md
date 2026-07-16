@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Pagina principale dell’Allievo
-description: Dopo che l’Amministratore ha abilitato il layout immersivo, l’Allievo, dopo aver effettuato l’accesso all’app, viene accolto con un’interfaccia utente completamente rinnovata.
+description: Dopo che l’Amministratore ha attivato il layout immersivo, l’Allievo, in seguito all’accesso all’app, troverà un’interfaccia utente completamente rinnovata.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 39%
+source-wordcount: '1205'
+ht-degree: 53%
 
 ---
 
@@ -81,7 +81,7 @@ _Barra laterale e barra di ricerca_
 
 ### Masthead {#masthead}
 
-Presenta un carosello di video o immagini con un URL incorporato. L’Amministratore [può caricare qualsiasi immagine o risorsa video](../../administrators/feature-summary/announcements.md#masthead) come masthead e impostarne la visibilità per un gruppo di Allievi.
+Presenta una sequenza di immagini o video con un URL incorporato. L’Amministratore [può caricare qualsiasi immagine o risorsa video](../../administrators/feature-summary/announcements.md#masthead) come masthead e impostarne la visibilità per un gruppo di Allievi.
 
 ![](assets/learner-masthead.png)
 
@@ -89,7 +89,7 @@ Presenta un carosello di video o immagini con un URL incorporato. L’Amministra
 
 ### Elenco Il mio apprendimento {#mylearninglist}
 
-Visualizza il corso di formazione seguito dall’Allievo. Questi corsi di formazione sono visualizzati come schede allineate orizzontalmente. Puoi fare clic sul pulsante destro o sinistro per sfogliare i corsi.
+Visualizza il corso di formazione che l’Allievo ha seguito. Tali corsi di formazione vengono visualizzati come schede allineate orizzontalmente. Puoi fare clic sul pulsante destro o sinistro per sfogliare i corsi.
 
 ![](assets/learner-my-learning-list.png)
 
@@ -169,23 +169,23 @@ Le abilità di profilo vengono usate per i suggerimenti sui corsi. Se l’Ammini
 ![](assets/profile-skills.png)
 *Visualizzare le abilità del profilo*
 
-Se un Allievo si iscrive a un corso, solo le abilità esterne basate su un punteggio verranno aggiunte alle abilità di profilo. Inoltre, un Allievo può cercare, selezionare e aggiungere abilità esterne al proprio profilo.Se un Allievo accede all’app per Allievi per la prima volta e se le sue abilità sono già presenti, le abilità verranno visualizzate in Profilo personale.
+Se un Allievo si iscrive a un corso, solo le abilità esterne basate su un punteggio verranno aggiunte alle abilità di profilo. Inoltre, l’Allievo può cercare, selezionare e aggiungere al suo profilo abilità esterne.Se un Allievo accede all’app per gli Allievi per la prima volta e le sue abilità sono già presenti, queste saranno visualizzate in Profilo personale.
 
 ## Consiglio in base alla tua area di interesse {#recommendationbasedonyourareaofinterest}
 
-Visualizza i corsi di formazione in base all’area di interesse prescelta. Il consiglio è guidato da un algoritmo di apprendimento automatico.
+Visualizza i corsi di formazione in base all’area di interesse prescelta. Il consiglio viene generato da un algoritmo di apprendimento automatico.
 
 ![](assets/learner-recommendation.png)
 
 *Visualizza corsi consigliati*
 
-Per suggerimenti più mirati, puoi aggiornare le tue abilità facendo clic su **Visualizza/Aggiorna**.
+Per consigli più mirati, puoi aggiornare le tue abilità facendo clic su **“Visualizza/Aggiorna”.**.
 
 Dopo aver aggiunto un’abilità, i consigli futuri diventeranno più mirati e saranno basati sulle tue preferenze.
 
 Se l’Amministratore ha disattivato l’opzione **Esplora abilità**, è possibile aggiungere interessi alle proprie abilità.
 
-I corsi di formazione vengono visualizzati come schede. Quando passi il mouse su una scheda, puoi visualizzare ulteriori dettagli del corso.
+I corsi di formazione vengono visualizzati come schede. Quando passi il mouse su una scheda, puoi visualizzare maggiori dettagli relativi al corso.
 
 È supportata anche la terminologia del prodotto.
 
@@ -215,4 +215,4 @@ Per aggiungere le abilità, fai clic su **[!UICONTROL Aggiungi]**.
 
 ## Consiglio in base all’attività dei colleghi {#recommendationbasedonpeeractivity}
 
-Visualizza i corsi di formazione in base a ciò che stanno seguendo i colleghi. Anche questo consiglio è generato da un algoritmo di apprendimento automatico. I consigli si basano sulla formazione per Allievi personalizzati e allineati al settore.
+Mostra i corsi di formazione in base a quelli seguiti dai colleghi. Anche questo consiglio è generato da un algoritmo di apprendimento automatico. I consigli si basano sulla formazione per Allievi personalizzati e allineati al settore.

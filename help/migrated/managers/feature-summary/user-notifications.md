@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 80%
+source-wordcount: '471'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 Configurazione delle notifiche utente per Manager.
 
-La funzionalità Notifiche è applicabile a tutti gli utenti di Adobe Learning Manager 1.0. Tuttavia, ogni utente ottiene diversi tipi di notifiche a seconda degli scenari e dei ruoli. Tutti gli avvisi e le notifiche agli utenti vengono visualizzati tramite la finestra a comparsa delle notifiche.
+La funzione Notifiche è applicabile a tutti gli utenti di Adobe Learning Manager 1.0. Tuttavia, ogni utente ottiene diversi tipi di notifiche a seconda degli scenari e dei ruoli. Tutti gli avvisi e le notifiche agli utenti vengono visualizzati tramite la finestra a comparsa delle notifiche.
 
 ## Notifiche di accesso {#accessnotifications}
 
