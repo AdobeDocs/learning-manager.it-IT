@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
+source-git-commit: 79de9fe16c4397ff769072c9f57868649664806f
 workflow-type: tm+mt
-source-wordcount: '30524'
+source-wordcount: '30900'
 ht-degree: 72%
 
 ---
@@ -19,11 +19,27 @@ ht-degree: 72%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
+
++++Aggiornamento 109: versione di luglio 2026 di Adobe Learning Manager
+
+Data di pubblicazione: 16 luglio 2026
+
+## Bug corretti
+
+**Modelli e-mail:** le e-mail di promemoria per le sessioni future sono state inviate senza informazioni su data e ora della sessione per gli Allievi iscritti alle istanze del corso. Questo problema è stato risolto per popolare correttamente i dettagli di pianificazione della sessione nel modello e-mail. Gli Allievi ora ricevono le e-mail di promemoria della sessione imminenti che includono la data e l’ora della sessione pertinente, fornendo informazioni complete sulla pianificazione.
+
+**Connettori:** Gli autori hanno riscontrato a intermittenza errori HTTP 400 durante la duplicazione o la modifica di corsi in aula/aula virtuale basati su connettori. Una volta attivato, il problema persisteva e bloccava le successive azioni di creazione o modifica del corso fino a quando la sessione non veniva aggiornata. Questo problema è stato risolto per garantire la duplicazione e la modifica affidabili dei corsi basati su connettori. Gli Autori possono ora duplicare, creare e modificare i corsi in aula/aula virtuale senza riscontrare 400 errori ricorrenti.
+
+**Codifica richiesta API CMS:** Un flusso di lavoro della piattaforma automatizzato generava richieste di download ripetute all&#39;API HTTP CMS con URL codificati in modo errato, causando errori HTTP 500 intermittenti e, a volte, migliaia di richieste non valide al secondo. La logica di codifica URL è stata corretta per garantire che i percorsi delle risorse contenenti caratteri speciali, come gli spazi, siano codificati correttamente prima dell&#39;invio delle richieste. Le richieste di download per NetStorage ora vengono eseguite correttamente, eliminando gli errori API ricorrenti e i picchi di richieste.
+
+**Resilienza del flusso di lavoro di traduzione:** Le richieste di traduzione da Bokmal in inglese a norvegese non sono riuscite perché la coppia di lingue non è supportata dal servizio di traduzione sottostante, causando l&#39;interruzione dell&#39;intero flusso di lavoro di traduzione. La logica di gestione della traduzione è stata migliorata per gestire con facilità coppie di lingue non supportate e isolare i singoli errori di traduzione. Le richieste di traduzione per le lingue non supportate vengono ora ignorate e segnalate in modo appropriato, mentre le traduzioni per tutte le altre lingue di destinazione supportate continuano a essere elaborate correttamente.
+
++++
 
 +++Aggiornamento 108: versione di giugno 2026 di Adobe Learning Manager
 
@@ -51,7 +67,7 @@ Data di pubblicazione: 17 giugno 2026
 4. Seleziona Allievi nel pannello di navigazione a sinistra.
    ![](assets/instructor-send-email1.png)
 5. Seleziona un Allievo dall’elenco degli Allievi.
-6. Nell&#39;elenco a discesa **Azioni** in alto a destra vengono visualizzate altre opzioni, incluse quelle disattivate. Una delle opzioni disponibili è **Invia e-mail a tutti**.
+6. Nell&#39;elenco a discesa **Azioni** in alto a destra vengono visualizzate altre opzioni, incluse quelle disattivate. **Invia messaggio e-mail a tutti** è una delle opzioni disponibili.
    ![](assets/instructor-send-email2.png)
 
 **Rimozione automatica degli utenti eliminati:** La rimozione automatica degli utenti eliminati è stata impostata su un anno come periodo minimo richiesto per l&#39;eliminazione. Questo è stato migliorato per contenere un numero anche in &quot;giorni&quot;. Gli amministratori ora possono richiedere questa modifica contattando il proprio Customer Success Manager e ottenerne la modifica dal back-end.
@@ -424,7 +440,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -662,8 +678,8 @@ La nuova app Adobe Learning Manager su Microsoft Teams è progettata per favorir
 **Problemi noti in questo aggiornamento**
 
 * Il pulsante Condividi sul catalogo degli Allievi non funziona come previsto nel browser safari e nell’app MS Teams per dispositivi mobili e iPad.
-* Le notifiche non vengono visualizzate nella scheda Attività dopo che l&#39;app è stata rimossa da altri computer.
-Quando fai clic sulle notifiche nella scheda Attività dell’app in iPhone 14, non accade nulla.
+* Le notifiche non vengono visualizzate nella scheda Attività una volta che l’app è stata rimossa in altri computer.
+Quando viene fatto clic sulle notifiche nella scheda Attività dell’app su iPhone 14 non avviene nulla.
 * Nell’app MS Teams, le notifiche di Learning Manager (completato, iscritto, in scadenza e scaduto) non mostrano lo stato e il nome del corso nella scheda Attività.
 * Viene visualizzata una finestra a comparsa con contenuti XML quando l’Amministratore di integrazione non approva l’app MS Teams.
 * La lingua dell’interfaccia utente nell’app Adobe Learning Manager su MS Teams a volte non cambia come previsto quando viene modificata.
@@ -688,8 +704,8 @@ Quando fai clic sulle notifiche nella scheda Attività dell’app in iPhone 14, 
 
 ### Miglioramenti Delle Prestazioni In Questa Versione
 
-Quando viene eseguita un’iscrizione in blocco degli Allievi, non viene generato alcun file registro per ciascun Allievo.
-Abbiamo ottimizzato l’elaborazione dei piani di apprendimento per gli account di grandi dimensioni. In questo modo si evitano problemi di ricerca o ritardi.
+In caso di iscrizione in serie degli Allievi, non verrà generato alcun file di registro per ogni Allievo.
+È stata ottimizzata l’elaborazione dei piani di apprendimento per gli account di grandi dimensioni. In questo modo si evitano problemi di ricerca o ritardi.
 +++
 
 +++Aggiornamento 87
@@ -1904,7 +1920,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -2282,7 +2298,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -2908,7 +2924,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -3418,7 +3434,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**&#x200B;** veniva **&#x200B;**&#x200B;rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**** veniva **** rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L’URL non è cliccabile nell’e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** venivano modificati. Questo problema è stato risolto.
