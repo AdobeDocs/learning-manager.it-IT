@@ -5,8 +5,8 @@ description: Un annuncio è un messaggio multimediale (testo, immagine o video) 
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
 source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 57%
+source-wordcount: '1072'
+ht-degree: 67%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 
 Un annuncio è un messaggio multimediale (testo, immagine o video) che un Amministratore trasmette a un insieme di utenti definito.
 
-L’Amministratore può trasmettere gli annunci agli Allievi informandoli dell’occorrenza di un evento o di un’attività. L’annuncio può essere una combinazione di testo, immagini o video. È possibile collegare a un annuncio oggetti di apprendimento quali corsi, programmi di apprendimento e certificazioni.
+L’Amministratore può trasmettere gli annunci agli Allievi informandoli di un evento o un’attività. L’annuncio può essere una combinazione di testo, immagini o video. È possibile collegare a un annuncio oggetti di apprendimento quali corsi, programmi di apprendimento e certificazioni.
 
 Esistono quattro tipi di annunci:
 
@@ -25,7 +25,7 @@ Esistono quattro tipi di annunci:
 
 ## Notifica {#notification}
 
-1. Come amministratore, fai clic su Annunci nel riquadro a sinistra.
+1. Fai clic su Annunci nel riquadro sinistro, come Amministratore.
 1. Fai clic su Aggiungi nell’angolo in alto a destra della pagina.
 1. Dall’elenco a discesa Tipo, seleziona l’opzione **Come notifica**.
 
@@ -44,7 +44,7 @@ Esistono quattro tipi di annunci:
 
    Inizia a digitare il nome del gruppo di utenti nella casella di testo e scegli l’opzione desiderata dall’elenco a discesa. Allo stesso modo, scegli il corso di formazione digitando il nome dell’oggetto nella casella di testo.
 
-1. Fate clic su Impostazioni avanzate nella finestra di dialogo. Puoi eseguire le azioni seguenti:
+1. Fai clic su Impostazioni avanzate nella finestra di dialogo. Puoi eseguire le azioni seguenti:
 
    * Rendi l’annuncio un annuncio Sticky, selezionando la casella di controllo Abilita annuncio Sticky.
    * Seleziona il termine di consegna per l’annuncio.
@@ -53,7 +53,7 @@ Esistono quattro tipi di annunci:
 1. Fai clic su **[!UICONTROL Salva]**.
 1. Nella scheda Bozze fare clic sull&#39;icona delle impostazioni accanto a un annuncio e quindi su invia.
 
-Se l’allegato multimediale è di grandi dimensioni, caricarlo potrebbe richiedere tempo. Dopo aver fatto clic su Salva, riceverai un messaggio a comparsa con un messaggio durante l’elaborazione del caricamento. Riceverai una notifica al termine del caricamento dell’allegato.
+Se l’allegato multimediale è di grandi dimensioni, caricarlo potrebbe richiedere tempo. Dopo aver fatto clic su Salva, si aprirà un messaggio a comparsa relativo all’elaborazione del caricamento. Riceverai una notifica al termine del caricamento dell’allegato.
 
 ## Masthead {#masthead}
 
@@ -121,13 +121,13 @@ Quando fai clic su **[!UICONTROL Salva]**, puoi scegliere se pubblicare l’annu
 
 ## Elenco Bozze, Pianificati e Inviati {#draftscheduledandsentlist}
 
-Nel login di Amministratore, puoi visualizzare tutti gli annunci in tre schede, ad esempio Bozze, Pianificato e Inviato.
+Se accedi come Amministratore, puoi visualizzare tutti gli annunci delle tre schede: Bozze, Pianificati e Inviati.
 
 <!--![](assets/three-tabs-announcement1.png)-->
 
 ### Bozze {#draft}
 
-Nella scheda Bozze è possibile visualizzare tutti gli annunci creati da un amministratore ma non ancora trasmessi o non ancora programmati per la trasmissione.
+Nella scheda Bozze, puoi visualizzare tutti gli annunci creati da un Amministratore ma non ancora trasmessi o non ancora pianificati per la trasmissione.
 
 Per impostazione predefinita, tutti gli annunci sono impostati per la trasmissione immediata. Se scegli l’opzione Impostazioni > Invia per un annuncio non pianificato, questo viene trasmesso immediatamente. Per pianificare la trasmissione di un annuncio, scegli la data di inizio e di fine nelle Impostazioni avanzate.
 
@@ -135,7 +135,7 @@ Per impostazione predefinita, tutti gli annunci sono impostati per la trasmissio
 
 Nella scheda Pianificati, puoi visualizzare tutti gli annunci pianificati per la trasmissione in una data successiva.
 
-### Inviato {#sent}
+### Inviati {#sent}
 
 Nella scheda Inviati, puoi visualizzare tutti gli annunci già trasmessi.
 
