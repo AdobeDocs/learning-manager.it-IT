@@ -5,8 +5,8 @@ hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
 source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 67%
+source-wordcount: '2091'
+ht-degree: 74%
 
 ---
 
@@ -32,7 +32,7 @@ Gli Allievi non possono iscriversi a più istanze da un’app per dispositivi mo
 >
 >L’attivazione dell’iscrizione multipla determina l’aggiunta di più righe al report Trascrizione Allievo per ogni corso (una riga per ogni istanza).
 >
->Se hai configurato l’automazione dei report che prevede una sola riga per corso, prima di abilitare la funzione Iscrizione multipla devi apportare le modifiche necessarie all’automazione dei report.
+>Se hai configurato l’automazione dei report che prevede una sola riga per corso, devi apportare le modifiche necessarie all’automazione dei report prima di abilitare la funzione Iscrizione multipla.
 
 ### Formato dei distintivi in un’istanza con iscrizioni multiple
 
@@ -56,7 +56,7 @@ argument_object=
 
 Questa versione di Adobe Learning Manager includerà un nuovo connettore, che utilizzerà il protocollo SFTP della famiglia di prodotti AWS Transfer.
 
-Questa modifica sostituisce anche il connettore ExaVault, che non sarà più disponibile per i nuovi utenti. È possibile utilizzare qualsiasi client FTP open source in sostituzione di ExaVault. Per ulteriori informazioni, consulta [Transizione da FTP Manager di Adobe](transition-from-ftp-manager.md).
+Questa modifica sostituisce anche il connettore ExaVault, che non sarà più disponibile per i nuovi utenti. È possibile utilizzare qualsiasi client FTP open source in sostituzione di ExaVault. Per ulteriori informazioni, consulta [Transizione da Adobe FTP Manager](transition-from-ftp-manager.md).
 
 ## Promemoria in Outlook per classi e sessioni virtuali
 
@@ -527,9 +527,9 @@ Richiesta di esempio
 
 ### Modifiche API di ricerca nell’implementazione radice (lingua inglese)
 
-Lo stemming consiste nel ridurre una parola alla sua radice. Questo assicura che le varianti di una parola corrispondano durante la ricerca. Ad esempio, camminare e camminare possono essere associati alla stessa parola radice: camminare. Una volta effettuata la ricerca, l&#39;occorrenza di una delle due parole corrisponderà all&#39;altra.
+Lo stemming è il processo di riduzione di una parola alla sua forma radicale. Questo assicura che le varianti di una parola corrispondano durante la ricerca. Ad esempio, camminando e camminato possono essere collegati alla stessa radice di parola: camminare. Una volta effettuata la ricerca, l&#39;occorrenza di una delle due parole corrisponderà all&#39;altra.
 
-In questa versione è stato aggiunto lo stemming per le lingue inglesi, che include le seguenti varianti: en_US, en_AU, en_GB.
+In questa versione sono state aggiunte impostazioni locali in inglese, che include le seguenti varianti: en_US, en_AU, en_GB.
 
 L’attributo stemmed indica se è necessario effettuare lo stemming nei risultati della ricerca. Per impostazione predefinita, questo valore è impostato su False.
 
@@ -586,7 +586,7 @@ I seguenti elementi non sono supportati durante la visualizzazione di contenuti 
 * Corsi, piani di apprendimento o certificazioni Flex.
 * Corsi avanzati, piani di apprendimento o certificazioni.
 * Corsi con quiz a risposta multipla, piani di apprendimento o certificazioni.
-* Harvard Manage Mentor, Content Marketplace, GetAbstract o Corsi LinkedIn, piani di apprendimento o certificazioni.
+* Corsi, piani di apprendimento o certificazioni relativi a Harvard Manage Mentor, Contenuti del marketplace, GetAbstract o LinkedIn.
 * Piani di apprendimento e certificati con i prerequisiti abilitati.
 * Corsi, piani di apprendimento o certificazioni ritirati.
 * Corsi, piani di apprendimento o certificazioni con scadenza scaduta.
@@ -606,7 +606,7 @@ I seguenti elementi non sono supportati per Prodotto/Ruolo/Livello nel nuovo sis
 * Adobe Experience Manager, Teams, SFDC e Senza accesso.
 * L’app per dispositivi mobili non supporta la modifica di Prodotti e ruoli nella pagina Suggerimenti.
 * Impossibile eseguire la mappatura durante la migrazione.
-* Applicazione automatica di tag a LinkedIn, marketplace dei contenuti e altri corsi, piani di apprendimento o certificazioni esterni.
+* Applicazione automatica di tag a LinkedIn, Contenuti del marketplace e altri corsi, piani di apprendimento o certificazioni esterni.
 * Ripristino basato su abilità o classico dopo l’attivazione.
 * Il menu di ricerca per Prodotti e ruoli nell’app per gli Allievi.
 * Mappatura in blocco di corsi, piani di apprendimento o certificazioni e utenti nell’app per Amministratori.
