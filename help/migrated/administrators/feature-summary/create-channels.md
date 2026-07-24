@@ -43,7 +43,7 @@ Per abilitare la funzionalità **Canali**:
 
    ![Abilita funzionalità canali](assets/enable-channels-feature.png)
 
-   *Abilita la funzione Canale nella scheda **Impostazioni**per consentire agli amministratori di creare canali per l&#39;account.*
+   *Abilita la funzione Canale nella scheda **Impostazioni**&#x200B;per consentire agli amministratori di creare canali per l&#39;account.*
 
 1. Abilita **funzione Canale**.
 
@@ -98,7 +98,7 @@ Create un canale per definire la sorgente di contenuto da sottoporre alla scansi
 
    ![Verifica connessione origine canale](assets/test-channel-source-connection.png)
 
-   *Utilizza **Prova ora**per verificare che i video siano stati recuperati dall&#39;origine prima di creare il canale.*
+   *Utilizza **Prova ora**&#x200B;per verificare che i video siano stati recuperati dall&#39;origine prima di creare il canale.*
 
 1. Seleziona **Crea canale**. Il canale viene creato e aggiunto all&#39;elenco **Canali**.
 

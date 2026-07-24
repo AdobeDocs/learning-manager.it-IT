@@ -127,7 +127,7 @@ Per aggiungere un’aula:
 
    ![Scheda Tutte le posizioni](assets/all-locations-tab.png)
 
-   *Selezionare la scheda **Tutte le aule**per aggiungere un&#39;aula.*
+   *Selezionare la scheda **Tutte le aule**&#x200B;per aggiungere un&#39;aula.*
 
 1. Seleziona **Aggiungi** > **Nuova posizione** dall’angolo in alto a destra.
 

@@ -41,18 +41,18 @@ L’esportazione completa corrente dell’utente (tipo di processo generateUsers
 | D cliente | 7,7 milioni di utenti (migrazione) |
 
 
-* A questi livelli, la pipeline di esportazione viene eseguita con un utilizzo della CPU di circa il 90% durante il recupero, l’elaborazione e l’archiviazione dei dati.
-* I dashboard a valle (Power BI, Salesforce, integrazioni personalizzate) acquisiscono nuovamente i record utente invariati a ogni esecuzione, sprecando larghezza di banda e tempo di elaborazione.
-* Non è possibile chiedere &quot;quali utenti sono cambiati dall&#39;ultima esportazione?&quot; utilizzando l’API corrente.
+&#x200B;* A questi livelli, la pipeline di esportazione viene eseguita con un utilizzo della CPU di circa il 90% durante il recupero, l’elaborazione e l’archiviazione dei dati.
+&#x200B;* I dashboard a valle (Power BI, Salesforce, integrazioni personalizzate) acquisiscono nuovamente i record utente invariati a ogni esecuzione, sprecando larghezza di banda e tempo di elaborazione.
+&#x200B;* Non è possibile chiedere &quot;quali utenti sono cambiati dall&#39;ultima esportazione?&quot; utilizzando l’API corrente.
 
 ## Quando utilizzare il reporting incrementale
 
 Utilizza l’esportazione incrementale quando è necessario mantenere un sistema esterno sincronizzato con i dati utente di Adobe Learning Manager. Casi d’uso tipici:
 
-* Mantenere aggiornato un dashboard aziendale (Power BI, Tableau, SFDC) con le modifiche apportate al profilo utente.
-* Invio dei sistemi di gestione delle identità downstream con modifiche a ruoli, stati o metadati.
-* Esecuzione di pipeline di sincronizzazione differenziale notturne o orarie invece di ricariche complete.
-* Riduzione dei costi di caricamento e trasferimento dei dati delle API per gli account con milioni di utenti.
+&#x200B;* Mantenere aggiornato un dashboard aziendale (Power BI, Tableau, SFDC) con le modifiche apportate al profilo utente.
+&#x200B;* Invio dei sistemi di gestione delle identità downstream con modifiche a ruoli, stati o metadati.
+&#x200B;* Esecuzione di pipeline di sincronizzazione differenziale notturne o orarie invece di ricariche complete.
+&#x200B;* Riduzione dei costi di caricamento e trasferimento dei dati delle API per gli account con milioni di utenti.
 
 Utilizza l’esportazione completa (generateUsers) quando è necessaria una baseline autorevole, ad esempio alla prima configurazione o dopo un lungo intervallo tra le sincronizzazioni.
 
@@ -73,9 +73,9 @@ Il report CSV dell’utente corrente viene inviato come processo tramite l’API
 
 Il payload supporta tre filtri opzionali:
 
-* `expandMetadata` - Passare true per esportare i metadati come colonna separata.
-* `fetchActiveUsers` - Passare true per esportare solo gli utenti attivi.
-* `peerAccountId` - Per generare il report utente per un account condiviso tra pari.
+&#x200B;* `expandMetadata` - Passare true per esportare i metadati come colonna separata.
+&#x200B;* `fetchActiveUsers` - Passare true per esportare solo gli utenti attivi.
+&#x200B;* `peerAccountId` - Per generare il report utente per un account condiviso tra pari.
 
 ## Colonne CSV
 
@@ -129,9 +129,9 @@ Tipo di processo: generateUsers. Solo ruolo di amministratore.
 
 ## Limitazioni
 
-* Nessun filtro basato su date: ogni esecuzione esporta tutti gli utenti.
-* Non fattibile per gli account di grandi dimensioni: esaurimento delle risorse di pipeline superiore a ~1 milione di utenti.
-* Nessuna funzionalità incrementale o differenziale.
+&#x200B;* Nessun filtro basato su date: ogni esecuzione esporta tutti gli utenti.
+&#x200B;* Non fattibile per gli account di grandi dimensioni: esaurimento delle risorse di pipeline superiore a ~1 milione di utenti.
+&#x200B;* Nessuna funzionalità incrementale o differenziale.
 
 ## Report utente incrementale (generateUserIncrementalReport)
 
@@ -174,13 +174,13 @@ Un utente viene incluso in un report incrementale se uno qualsiasi dei seguenti 
 
 I seguenti campi vengono visualizzati nell&#39;output CSV ma non attivano l&#39;inclusione in un&#39;esportazione incrementale quando vengono modificati:
 
-* excludeFromGamification
-* pointsEarned
-* lastLoginDate
-* dateDeleted
-* dateCreated
-* userSource
-* lastSocialActivityDate
+&#x200B;* excludeFromGamification
+&#x200B;* pointsEarned
+&#x200B;* lastLoginDate
+&#x200B;* dateDeleted
+&#x200B;* dateCreated
+&#x200B;* userSource
+&#x200B;* lastSocialActivityDate
 
 ## Formato di output
 
@@ -313,16 +313,16 @@ Passaggio 4: ripeti l’operazione finché una risposta non restituisce meno di 
 
 Il report incrementale dell&#39;utente è intenzionalmente incluso nell&#39;ambito. Le seguenti funzionalità non rientrano nell&#39;ambito:
 
-* Non è un report di audit dell’utente: non elenca i campi specifici modificati.
-* Nessun confronto tra valori vecchi e nuovi: nel report vengono visualizzati solo i valori dei campi correnti.
-* Nessun timestamp per modifica: non viene rilevato il tempo delle singole modifiche dei campi.
-* Nessuna indicazione del numero di modifiche: un utente modificato una volta e un utente modificato dieci volte vengono visualizzati identici nell’esportazione.
-* Il formato del report esistente è invariato: la struttura delle colonne CSV è uguale a quella del report utente completo.
+&#x200B;* Non è un report di audit dell’utente: non elenca i campi specifici modificati.
+&#x200B;* Nessun confronto tra valori vecchi e nuovi: nel report vengono visualizzati solo i valori dei campi correnti.
+&#x200B;* Nessun timestamp per modifica: non viene rilevato il tempo delle singole modifiche dei campi.
+&#x200B;* Nessuna indicazione del numero di modifiche: un utente modificato una volta e un utente modificato dieci volte vengono visualizzati identici nell’esportazione.
+&#x200B;* Il formato del report esistente è invariato: la struttura delle colonne CSV è uguale a quella del report utente completo.
 
 ## Integrazione dei connettori
 
 Il report utente incrementale è progettato per essere utilizzato nei connettori Adobe Learning Manager (Power BI, Salesforce e altri) come sostituzione a discesa del report utente completo nelle normali pipeline di sincronizzazione. Ciò consente ai connettori che utilizzano attualmente generateUsers di eseguire la migrazione al modello incrementale senza modifiche allo schema dei dati downstream.
 
-* Il file CSV di output è compatibile con le colonne per il report completo dell’utente.
-* I connettori possono utilizzare il report incrementale per la sincronizzazione differenziale e tornare al report completo per il bootstrap o il ripristino.
-* Supporto per l’integrazione dei connettori (PowerBI, SFDC)
+&#x200B;* Il file CSV di output è compatibile con le colonne per il report completo dell’utente.
+&#x200B;* I connettori possono utilizzare il report incrementale per la sincronizzazione differenziale e tornare al report completo per il bootstrap o il ripristino.
+&#x200B;* Supporto per l’integrazione dei connettori (PowerBI, SFDC)

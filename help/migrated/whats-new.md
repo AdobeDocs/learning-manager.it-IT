@@ -95,11 +95,11 @@ Live Hub è un&#39;esperienza di formazione virtuale basata sull&#39;intelligenz
 
 Punti salienti:
 
-- Migliora l’apprendimento dal vivo con un’esperienza Adobe Learning Manager nativa che migliora la qualità dell’istruzione e i risultati degli Allievi.
-- Dai ai tuoi Istruttori un co-facilitatore basato sull&#39;intelligenza artificiale che guida il coinvolgimento attraverso sondaggi intelligenti, supporto di domande e risposte e approfondimenti della sala d&#39;intervento.
-- Aiuta i tuoi Allievi a ottenere di più da ogni sessione con riepiloghi generati dall&#39;intelligenza artificiale e registrazioni di sessione ricercabili per argomento.
-- Misura ciò che conta con le analisi di coinvolgimento che vanno oltre la partecipazione per rivelare una reale partecipazione all&#39;apprendimento.
-- Aiuta gli Autori a utilizzare il Finder di istruttori basato sull’intelligenza artificiale per abbinare l’Istruttore giusto in base a competenze, disponibilità, orari preferiti, fuso orario e utilizzo corrente.
+&#x200B;- Migliora l’apprendimento dal vivo con un’esperienza Adobe Learning Manager nativa che migliora la qualità dell’istruzione e i risultati degli Allievi.
+&#x200B;- Dai ai tuoi Istruttori un co-facilitatore basato sull&#39;intelligenza artificiale che guida il coinvolgimento attraverso sondaggi intelligenti, supporto di domande e risposte e approfondimenti della sala d&#39;intervento.
+&#x200B;- Aiuta i tuoi Allievi a ottenere di più da ogni sessione con riepiloghi generati dall&#39;intelligenza artificiale e registrazioni di sessione ricercabili per argomento.
+&#x200B;- Misura ciò che conta con le analisi di coinvolgimento che vanno oltre la partecipazione per rivelare una reale partecipazione all&#39;apprendimento.
+&#x200B;- Aiuta gli Autori a utilizzare il Finder di istruttori basato sull’intelligenza artificiale per abbinare l’Istruttore giusto in base a competenze, disponibilità, orari preferiti, fuso orario e utilizzo corrente.
 
 ## Generatore di modelli e-mail basati su componenti
 
