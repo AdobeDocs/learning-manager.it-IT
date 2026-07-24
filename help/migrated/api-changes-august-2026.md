@@ -18,7 +18,7 @@ Questa versione aggiunge tre nuovi endpoint API pubblici con ambito di amministr
 
 Questi endpoint funzionano solo con gruppi di utenti personalizzati. I gruppi gestiti dal sistema, ad esempio il gruppo Tutti gli utenti e i gruppi di utenti generati automaticamente, hanno il valore readOnly: true nella risposta API e non possono essere modificati o eliminati tramite questi endpoint.
 
-Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Endpoint API gruppi di utenti
 
@@ -205,7 +205,7 @@ Il flusso di lavoro di apprendimento esterno tramite API riflette il flusso di l
 
 Tutti e cinque gli endpoint hanno un ambito Allievo. Un Allievo può accedere solo ai propri invii: l’API restituisce un errore se un Allievo tenta di accedere ai dati di un altro Allievo.
 
-Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Endpoint API di apprendimento esterni
 
