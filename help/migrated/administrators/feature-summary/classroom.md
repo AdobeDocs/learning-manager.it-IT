@@ -1,192 +1,267 @@
 ---
-jcr-language: en_us
-title: Aggiungere aule
-description: Gli amministratori possono ora creare una libreria di aule. Per ogni aula, gli amministratori possono configurare i metadati che includono nome della posizione, limite di partecipanti e informazioni aggiuntive come l’URL. Autori e gli Amministratori possono quindi utilizzare questi percorsi preconfigurati per configurare di eventi di formazione guidati da istruttori (moduli aula).
-contentowner: saghosh
-exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
-source-git-commit: 8cb8a95812c97b0b59a2ae5188500cfafe09bd27
+title: Aggiungi aule
+description: Scopri come gli Amministratori possono configurare le impostazioni e aggiungere, migrare, modificare ed eliminare aule in Adobe Learning Manager e come aggiungere traduzioni per un’aula.
+source-git-commit: 6f2b9abf305665fe0b66007411455bd2210ee248
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 54%
+source-wordcount: '1641'
+ht-degree: 3%
 
 ---
 
-# Aula
 
-## Panoramica
+# Aggiungi aule
 
-Gli amministratori possono ora creare una libreria di aule. Per ogni aula, gli amministratori possono configurare i metadati che includono nome della posizione, limite di partecipanti e informazioni aggiuntive come l’URL. Autori e gli Amministratori possono quindi utilizzare questi percorsi preconfigurati per configurare di eventi di formazione guidati da istruttori (moduli aula).
+Gli Amministratori possono creare e gestire una libreria di aule da riutilizzare durante la configurazione di eventi di formazione guidati da istruttore nel modulo Aula e Aula virtuale. Per ogni posizione, puoi definire dettagli quali il nome della posizione, il limite di partecipanti e ulteriori informazioni, incluso un URL. Gli Autori possono quindi selezionare questi percorsi predefiniti durante la creazione di un corso.
 
-È possibile aggiungere un’aula nei due modi riportati di seguito.
-
-## Aggiungere un’aula a partire dall’interfaccia utente
-
-È possibile aggiungere un’aula utilizzando l’interfaccia utente:
-
-1. Nell’app Amministratore (l’interfaccia utente per i ruoli di amministratore), fai clic su **[!UICONTROL Impostazioni]** > **[!UICONTROL Aule]**.
-
-1. Fai clic su **[!UICONTROL Aggiungi]** > **[!UICONTROL Nuova posizione]**.
-
-1. Nella finestra di dialogo **[!UICONTROL Aula]**, inserisci le informazioni seguenti:
-
-   * Digitare il **[!UICONTROL nome del percorso]**. Usa un nome unico. In caso contrario, ti verrà mostrato un messaggio di errore in Learning Manager.
-   * Inserisci la descrizione dell’aula nel campo **[!UICONTROL Informazioni aula]**. Questo campo è facoltativo.
-   * Inserisci l’**[!UICONTROL URL dell’aula]**. Gli Allievi possono visualizzare queste informazioni nei dettagli dell’aula. L’URL può anche essere una posizione su una mappa, se necessario. Questo campo è opzionale.
-   * Digitare e selezionare l&#39;**[!UICONTROL area geografica]**. Questo campo è facoltativo.
-   * Inserisci il numero di posti disponibili nel campo **[!UICONTROL Limite partecipanti]**. Quest’informazione si riferisce al numero di posti a sedere disponibili nell’aula. Quando si crea l’evento di formazione vero e proprio, questo valore può essere modificato.
-
-   ![](assets/add-classroom-location.png)
-
-   *Aggiungi aula*
-
-Dopo aver aggiunto l’aula, la pagina **[!UICONTROL Impostazioni]** > **[!UICONTROL Aule]** elenca le sale riunioni:
-
-![](assets/list-meeting-rooms.png)
-
-*Visualizza tutte le sale riunioni*
-
-L’elenco contiene i seguenti campi:
-
-**[!UICONTROL Nome aula]**: nome dell’aula.
-
-**[!UICONTROL Sessioni future]**: numero di eventi che si verificheranno nel percorso corrispondente. Fai clic sul numero per visualizzare i dettagli in una finestra di dialogo.
-
-![](assets/sessions-list.png)
-
-*Visualizza sessioni future*
-
-Nella finestra di dialogo vengono visualizzati i dettagli di ogni sessione, come il nome, il nome del corso di formazione che include la sessione e il programma. L’ora visualizzata si adatta al fuso orario di sistema dell’Allievo.
-
-Il campo **[!UICONTROL Sessioni future]** visualizza **zero** quando l&#39;aula non è utilizzata per alcuna sessione o quando l&#39;aula è associata a sessioni passate.
-
-**[!UICONTROL Limite partecipanti]** - Visualizza la capacità dell&#39;aula.
-
-**URL aula** - URL fornito durante la creazione dell’aula.
-
-**Informazioni sulla posizione**: le informazioni sull’aula che hai fornito durante la creazione.
-
-### Modificare le aule
-
-Per modificare l’aula, procedi come segue:
-
-1. Nell’app Amministratore (l’interfaccia utente per i ruoli di amministratore), seleziona **[!UICONTROL Impostazioni]** > **[!UICONTROL Aule]**.
-
-1. Passa il mouse sulla posizione dell’aula che desideri modificare.
-
-1. Seleziona l’icona **[!UICONTROL Modifica aula]**.
-
-1. Modifica la posizione dell&#39;aula e seleziona **[!UICONTROL Salva]**.
-
-## Aggiungere un’aula con CSV
-
-In alternativa, puoi aggiungere una o più aule importando un file CSV contenente le informazioni dell’aula.
-
-In **[!UICONTROL App per amministratori]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Aule]** > **[!UICONTROL Aggiungi]**, fai clic sul pulsante **[!UICONTROL Percorsi importazione in blocco]**. Individua il percorso contenente il file CSV e selezionalo.
-
-Il file CSV utilizza questi campi per memorizzare i dettagli relativi a una o più aule:
-
-* name
-* info
-* url
-* Regione di 
-* seatLimit
-
-I titoli possono essere personalizzati.
-
-Il file CSV deve contenere obbligatoriamente tutte le colonne nello stesso ordine specificato qui.
-
-Dopo l’importazione del file CSV da parte del sistema, le aule vengono aggiunte alla libreria.
-
-## Cercare le aule
-
-Per cercare le classi, seleziona il corso in aula virtuale, quindi vai a **[!UICONTROL Istanze]** > **[!UICONTROL Sessioni]**. Gli Autori e gli Amministratori possono iniziare a digitare il nome dell’aula, e vedranno apparire i risultati pertinenti. In seguito possono selezionare una posizione dai risultati visualizzati. Se nei risultati del tipo successivo non viene visualizzata alcuna aula, l’utente può comunque aggiungere il nome della nuova aula. Tieni presente che l’aula che crei in questo modo, usando il flusso di creazione di una sessione, non viene aggiunta alla libreria di aule creata dall’Amministratore.
-
-Quando aggiungi un’aula, la piattaforma di apprendimento ti fa sapere anche se l’aula è già stata prenotata nella fascia oraria selezionata. Fornisce anche dei suggerimenti con fasce orarie alternative. In questo modo, se decide di utilizzare la stessa aula, l’Autore può modificare l’orario della riunione.
-
-![](assets/classroom-search.png)
-
-*Cerca classi*
-
-## L’Amministratore
-
-In qualità di Amministratore, puoi gestire gli Istruttori e le istanze del corso.
-
-### Configurazione degli istruttori:
-
-Nell&#39;app per amministratori, in **[!UICONTROL Impostazioni]** > **[!UICONTROL Generali]**, gli amministratori possono trovare l&#39;opzione **[!UICONTROL Gestione Istruttori]**. Questa funzione garantisce che solo gli utenti approvati in precedenza assegnati come istruttori possano essere aggiunti per condurre sessioni.
-
-Per assegnare un Istruttore, effettua le seguenti operazioni:
-
-1. Passa alla pagina **[!UICONTROL Guida introduttiva]** e seleziona **[!UICONTROL Utenti]** nel riquadro a sinistra.
-
-1. Selezionare l&#39;utente desiderato.
-
-1. Assegna all&#39;utente il ruolo di istruttore selezionando **[!UICONTROL Azioni]** > **[!UICONTROL Assegna ruolo]**.
-
-### Annullamento delle sessioni:
-
-Nella pagina **[!UICONTROL Istanza del corso]**, gli amministratori possono annullare una o più sessioni. Quando le sessioni vengono annullate, il sistema rimuove tutti i dettagli della sessione ma mantiene il limite di partecipanti.
-
-Inoltre, gli amministratori possono:
-
-* **[!UICONTROL Visualizza iscrizione]**: ottieni informazioni sugli Allievi iscritti e in lista d’attesa per ogni sessione.
-* **[!UICONTROL Annullamento dell’iscrizione degli Allievi]**: rimozione degli Allievi da un corso con sessioni annullate senza modifica dello stato di iscrizione.
-* **[!UICONTROL Gestione delle presenze]**: contrassegna la partecipazione per le sessioni, anche se queste vengono annullate.
-* **[!UICONTROL Completamento del corso]**: gli amministratori possono contrassegnare un corso come completato anche se le sessioni sono state annullate.
-* **[!UICONTROL Riprogrammazione]**: pianifica le sessioni annullate per le date successive e aggiungi un istruttore durante la riprogrammazione.
-
-Tieni presente che, dopo l’annullamento, gli Allievi rimangono iscritti all’istanza di formazione. Il loro stato di iscrizione (ad esempio iscrizione confermata, in lista d’attesa e in attesa di approvazione del manager) rimane invariato. Questa funzione è utile in quanto l’amministratore può impostare e riprogrammare la sessione annullata in futuro.
-
-## Autore
-
-Se l’amministratore seleziona l’opzione **[!UICONTROL Gestione Istruttori]**, l’autore può cercare e aggiungere solo utenti con il ruolo di istruttore alle sessioni in aula, in aula virtuale, agli elenchi di controllo e ai moduli che richiedono l’invio di file.
-
-Inoltre, l’autore può:
-
-* Aggiungere e rimuovere istruttori dalle sessioni esistenti.
-* Aggiungere istruttori alle sessioni esistenti che dispongono già di uno o più istruttori.
-
-Pertanto, dopo che un amministratore ha abilitato l&#39;opzione **[!UICONTROL Gestione Istruttori]**, solo gli utenti con il ruolo di istruttore possono essere aggiunti come tali.
+Per impostazione predefinita, Adobe Learning Manager utilizza un formato di posizione per campi singoli. Per le organizzazioni che gestiscono le aule in più paesi e lingue, Learning Manager supporta anche un formato strutturato a quattro campi che include **Paese**, **Stato/Provincia/Area geografica**, **Città** e **Nome aula**. Questo formato fornisce funzionalità aggiuntive come il filtro basato sulla posizione e il supporto della lingua per le singole posizioni. Gli amministratori possono passare al formato a quattro campi tramite una migrazione una tantum.
 
 >[!NOTE]
 >
->Questo non si applica alla migrazione delle sessioni tramite il file CSV. In questo caso, anche un utente che non dispone del ruolo di Istruttore può essere aggiunto come tale.
+>Se il formato dell’aula in quattro campi non è abilitato, gli Autori e gli Allievi possono continuare a utilizzare le aule come di consueto. Il formato della posizione di un singolo campo esistente rimane disponibile e non è necessario apportare modifiche. Per ulteriori informazioni, visualizzare [Migrare al metodo a quattro campi](#migrate-classroom-locations-to-the-four-field-format).
 
-Nella pagina **[!UICONTROL Istanza del corso]**, un autore può annullare una o più sessioni. Quando le sessioni vengono annullate, il sistema rimuove tutti i dettagli della sessione ma mantiene il limite di partecipanti.
+## Configurare le impostazioni dell’aula
 
-Pertanto, un autore può utilizzare i collegamenti **[!UICONTROL Annulla sessione]** per annullare una o più sessioni in aula o in aula virtuale disponibili nella stessa istanza del corso o in istanze diverse.
+Gli Amministratori possono controllare se gli Autori possono creare e gestire aule. Utilizza le impostazioni **Aule** per definire il livello di accesso disponibile per gli Autori.
 
-## Limitare l’elenco di possibili istruttori
+Per configurare le impostazioni di **aule**:
 
-Al momento, gli utenti possono aggiungere qualsiasi utente registrato nel campo “Istruttore” durante la creazione di un’aula o di una sessione in aula virtuale. Questo è possibile anche su questa versione.
+1. Accedi a Adobe Learning Manager come **Amministratore**.
+1. Seleziona **Impostazioni** > **Aule**.
 
-Tuttavia, gli amministratori dispongono ora di un’opzione aggiuntiva per limitare il numero di utenti che possono essere inseriti come istruttori sulla piattaforma. In questo modo, è possibile evitare che vengano aggiunti nuovi istruttori per errore durante la creazione di una sessione.
+   Viene visualizzata la pagina **Aule**.
 
-## Annullare una sessione esistente
+1. Selezionare la scheda **Impostazioni**.
 
-Gli Autori e gli Amministratori possono annullare una sessione e riprogrammarla, se necessario.
+   ![Scheda Impostazioni per le aule](assets/classroom-locations-settings-tab.png)
 
-Quando una sessione viene annullata, il sistema invia un’e-mail con la notifica dell’annullamento della riunione a tutti gli Allievi e gli Istruttori iscritti. L’e-mail include i dettagli della sessione aggiornata.
+   *Abilitare i privilegi di autore per aula e aula virtuale dalla scheda **Impostazioni**.*
 
-Il modello **[!UICONTROL Annullamento della sessione]** ti aiuta ad annullare una sessione.
+1. Seleziona **Modifica**.
 
-Sulla pagina **[!UICONTROL Istanza del corso]**, ogni sessione elencata in un’istanza di corso include un’opzione per annullare la sessione.
+   L&#39;interruttore diventa modificabile e consente di aggiornare le seguenti impostazioni:
 
-![](assets/cancel-session.png)
+   | **Impostazione** | **Descrizione** |
+   |---|---|
+   | **Consenti agli autori di creare percorsi** | Abilita questa opzione per consentire agli Autori di creare aula e aula virtuale dei moduli durante la creazione di sessioni di formazione con istruttore. |
+   | **Consenti agli autori di modificare ed eliminare le posizioni** | Abilita questa opzione per consentire agli Autori di modificare o eliminare aula e aula virtuale. |
 
-*Annullare una sessione esistente*
+1. Seleziona **Salva**.
 
-Cliccando sul link **[!UICONTROL Annulla sessione]**, visualizzerai un avviso.
+## Creare e gestire aule
 
-Nella finestra di dialogo dell’avviso, cliccando sul pulsante **[!UICONTROL Procedi]**, il sistema annullerà la sessione.
+Gli amministratori possono creare e gestire aule che gli autori possono riutilizzare durante la creazione di sessioni di formazione in aula e aula virtuale. Adobe Learning Manager supporta due formati di percorso:
 
-Il sistema annulla anche i seguenti dettagli dopo l’annullamento di una sessione:
+* **Formato campo singolo**: ogni aula è identificata da un singolo campo **Nome aula**. Per ulteriori informazioni, visualizza [Aggiungi un’aula utilizzando un formato a campo singolo](#add-a-classroom-location-using-a-single-field-format).
+* **Formato a quattro campi**: ogni aula è organizzata in **Paese**, **Stato/Provincia/Regione**, **Città** e **Nome aula**, semplificando la gestione delle aule in più aree geografiche. Se il tuo account utilizza attualmente il formato a campo singolo, completa la migrazione una tantum prima di passare al formato a quattro campi. Per ulteriori informazioni, visualizzare [Migrare al metodo a quattro campi](#migrate-classroom-locations-to-the-four-field-format).
 
-* Data di inizio della sessione
-* Data finale della sessione
-* Orario di inizio della sessione
-* Orario finale della sessione
-* Istruttori aggiunti alla sessione
-* URL aula virtuale
-* Posizione/luogo aggiunti alla sessione
-* Limite della lista d’attesa aggiunto dall’istruttore
+### Aggiungere un’aula in un formato campo singolo
+
+Puoi aggiungere un’aula utilizzando il formato a campo singolo:
+
+1. Accedi a Adobe Learning Manager come **Amministratore**.
+1. Seleziona **Impostazioni** > **Aule**.
+1. Seleziona **Aggiungi** > **Nuova posizione**.
+1. Immetti i seguenti dettagli nella finestra di dialogo **Aule**:
+
+   1. Digitare il **nome del percorso**. Usa un nome unico. In caso contrario, ti verrà mostrato un messaggio di errore in Learning Manager.
+   1. Inserisci la descrizione dell’aula nel campo **Informazioni aula**. Questo campo è facoltativo.
+   1. Inserisci l’**URL dell’aula**. Gli Allievi possono visualizzare queste informazioni nei dettagli dell’aula. L’URL può anche essere una posizione su una mappa, se necessario. Questo campo è opzionale.
+   1. Digitare e selezionare l&#39;**area geografica**. Questo campo è facoltativo.
+   1. Digitare il numero di posti disponibili nel campo **Limite partecipanti**. Indica la capacità dell’aula. Questo valore può essere modificato durante la creazione dell’evento di formazione vero e proprio guidato da un istruttore.
+      ![Aggiungi un’aula in formato campo singolo](assets/add-classroom-location-single-field-format.jpeg)
+      *Aggiungi un’aula in formato campo singolo.*
+
+### Migrare le aule nel formato a quattro campi
+
+Se il tuo account utilizza il formato legacy per l’aula in un singolo campo, migra le aule esistenti prima di abilitare il formato a quattro campi. Il formato a quattro campi organizza i dati della posizione in **Paese**, **Stato/Provincia/Regione**, **Città** e **Nome della posizione**, semplificando la gestione delle posizioni tra più aree geografiche.
+
+Questa migrazione è un processo una tantum. Una volta scelto il formato a quattro campi, non è possibile ripristinare l’account al formato a campo singolo.
+
+Per migrare i percorsi esistenti:
+
+1. Passa a **Amministratore** > **Aule** e seleziona la scheda **Impostazioni**.
+1. Seleziona **Esporta** nella sezione **Migrazione formato posizione**.
+
+   Viene scaricato un file CSV con le aule esistenti. Sono disponibili le seguenti colonne:
+
+   1. **room_id**: identificatore univoco per la posizione.
+   1. **lingua**: lingua per il nome e le informazioni sulla posizione tradotti.
+   1. **nome**: nome della classe.
+   1. **paese**: paese in cui si trova l’aula.
+   1. **stato**: stato, provincia o area geografica in cui si trova l&#39;aula.
+   1. **città**: città in cui si trova l&#39;aula.
+   1. **info**: dettagli aggiuntivi, come il nome dell&#39;edificio, il piano o il numero della stanza.
+   1. **url**: URL associato al percorso, ad esempio un collegamento di mappa.
+   1. **limite posti**: capacità massima dell’aula.
+
+   >[!NOTE]
+   >
+   >Il file CSV esportato include sempre le colonne del formato della posizione per quattro campi, anche se questo non è abilitato.
+
+   ![Verifica avanzamento migrazione](assets/location-format-migration-progress.png)
+
+   *Controllare l&#39;avanzamento della migrazione prima di passare al formato di percorso a quattro campi.*
+
+1. Per ogni nome di colonna, aggiorna il file CSV con le informazioni richieste, ad esempio Paese, Stato, Città e tutte le altre informazioni richieste.
+1. Seleziona **Importa** e carica il file CSV aggiornato.
+
+   Adobe Learning Manager convalida i dati e aggiorna l’avanzamento della migrazione.
+
+1. Quando la barra di avanzamento della migrazione raggiunge il 100%, seleziona **Passa al nuovo formato a 4 campi**. Lo stato della **migrazione del formato del percorso** viene aggiornato a **Migrazione completata**.
+
+   ![Stato di completamento della migrazione del formato della posizione](assets/location-format-migration-complete.png)
+
+   *Aggiornamenti della migrazione del formato della posizione allo stato di completamento della migrazione.*
+
+## Aggiungere aule in un formato a quattro campi
+
+Dopo aver completato la migrazione una tantum, gli Amministratori possono creare aule nel formato a quattro campi. Gli Autori possono quindi riutilizzare questi percorsi durante la creazione di sessioni di formazione con istruttore. Gli Amministratori possono aggiungere aule singolarmente o importare più aule da un file CSV.
+
+### Aggiungere un’aula
+
+Utilizza le aule per standardizzare le sedi di formazione e semplificare la pianificazione delle sessioni per gli Autori.
+
+Per aggiungere un’aula:
+
+1. Nell&#39;app di amministrazione, seleziona **Impostazioni** > **Aule**.
+
+   ![Scheda Tutte le posizioni](assets/all-locations-tab.png)
+
+   *Selezionare la scheda **Tutte le aule**&#x200B;per aggiungere un&#39;aula.*
+
+1. Seleziona **Aggiungi** > **Nuova posizione** dall’angolo in alto a destra.
+
+   Viene visualizzata la finestra a comparsa **Aula**.
+
+   ![Finestra a comparsa Aula](assets/classroom-location-popup-window.png)
+
+   *Immetti i dettagli nella finestra a comparsa Aula.*
+
+1. Nella finestra a comparsa **Aula**, immetti i seguenti dettagli:
+
+   | **Campo** | **Descrizione** |
+   |---|---|
+   | **Paese** | Seleziona il paese in cui si trova l&#39;aula. |
+   | **Stato/Provincia/Regione** | Selezionare lo stato, la provincia o l&#39;area geografica. |
+   | **Città** | Seleziona la città in cui si trova l&#39;aula. |
+   | **Nome località** | Immetti il nome dell’aula o della stanza. |
+   | **Informazioni sulla posizione** | Immetti ulteriori dettagli, ad esempio il nome dell’edificio, il piano o il numero della stanza. |
+   | **URL percorso** | Immettete un URL per il percorso, ad esempio un collegamento mappa. |
+   | **Limite di posti** | Inserisci la capacità massima dell’aula. |
+
+1. Seleziona **Salva**.
+
+   L’aula è stata salvata ed elencata nella scheda **Tutte le aule**.
+
+### Importa aule in blocco
+
+Utilizza l’importazione in blocco per aggiungere più aule o aggiornare le aule esistenti utilizzando un file CSV.
+
+Per importare le aule in blocco:
+
+1. Nell&#39;app di amministrazione, seleziona **Impostazioni** > **Aule**.
+1. Seleziona **Scarica CSV** dalla scheda **Tutte le posizioni**.
+
+   Viene scaricato un file CSV contenente le aule esistenti. Sono disponibili le seguenti colonne:
+
+   1. **room_id**: identificatore univoco per la posizione.
+   1. **lingua**: lingua per il nome e le informazioni sulla posizione tradotti.
+   1. **nome**: nome della classe.
+   1. **paese**: paese in cui si trova l’aula.
+   1. **stato**: stato, provincia o area geografica in cui si trova l&#39;aula.
+   1. **città**: città in cui si trova l&#39;aula.
+   1. **info**: dettagli aggiuntivi, come il nome dell&#39;edificio, il piano o il numero della stanza.
+   1. **url**: URL associato al percorso, ad esempio un collegamento di mappa.
+   1. **limite posti**: capacità massima dell’aula.
+
+1. Per ogni nome di colonna, aggiorna il file CSV con le informazioni richieste, ad esempio Paese, Stato, Città e tutte le altre informazioni richieste.
+1. Seleziona **Aggiungi** > **Percorsi di importazione in blocco** dall&#39;angolo in alto a destra.
+
+   Viene visualizzata la finestra a comparsa **Import Locations CSV**.
+
+   ![Finestra a comparsa Importa CSV ubicazioni](assets/import-locations-csv-popup.png)
+
+   *Trascina il file CSV con le informazioni aggiornate.*
+
+1. Trascina il file CSV aggiornato nell’area di caricamento.
+1. Seleziona **Importa**.
+
+   Le aule vengono aggiornate.
+
+## Aggiungere traduzioni per un’aula
+
+Aggiungi le traduzioni per i campi **Nome aula** e **Informazioni aula** per visualizzare i dettagli dell’aula nelle lingue preferite dell’Allievo.
+
+Per aggiungere traduzioni per un’aula:
+
+1. Seleziona **Tutte le aule** > **Aggiungi** dalle **aule**.
+1. Seleziona **Nuova posizione**.
+
+   Viene visualizzata la finestra a comparsa **Aula**.
+
+1. Selezionare **Aggiungi nuova lingua**.
+
+   Viene visualizzata la finestra a comparsa **Aggiungi nuova lingua**.
+
+   ![Finestra a comparsa Aggiungi nuova lingua](assets/add-new-language-popup.png)
+
+   *Selezionare le lingue dalla finestra a comparsa Aggiungi nuova lingua.*
+
+1. Seleziona **Salva**.
+
+   Le traduzioni vengono salvate e visualizzate agli utenti.
+
+>[!NOTE]
+>
+>Solo i campi **Nome percorso** e **Informazioni percorso** supportano le traduzioni. I dettagli relativi alla posizione, ad esempio **Paese**, **Stato/Provincia/Regione** e **Città**, non vengono tradotti.
+
+## Modificare un’aula
+
+Per modificare l’aula, effettua le seguenti operazioni:
+
+1. Nell&#39;app di amministrazione, seleziona **Impostazioni** > **Aule**.
+1. Passa il mouse sulla posizione dell’aula che desideri modificare.
+
+   ![Icona di modifica per un&#39;aula](assets/edit-classroom-location-icon.png)
+
+   *Passa il mouse sulla posizione dell’aula richiesta e seleziona l’icona di modifica.*
+
+1. Seleziona l’icona **Modifica aula**.
+
+   Viene visualizzata la finestra a comparsa Aula.
+
+1. Modifica la posizione dell’aula e seleziona **Salva**.
+
+## Eliminare un’aula
+
+Per eliminare un’aula, effettua le seguenti operazioni:
+
+1. Nell&#39;app di amministrazione, seleziona **Impostazioni** > **Aule**.
+1. Passa il mouse sulla posizione dell’aula che desideri eliminare.
+1. Seleziona l&#39;icona **Elimina aula**.
+
+   Viene visualizzata la finestra a comparsa Conferma richiesta.
+
+   ![Finestra popup richiesta di conferma](assets/delete-classroom-location-confirmation.png)
+
+   *Selezionare Elimina per confermare l&#39;eliminazione di un&#39;aula.*
+
+1. Selezionare **Elimina**.
+
+## Domande frequenti
+
+1. **Cosa succede alle aule esistenti dopo il completamento della migrazione?**<br>
+Puoi abilitare il formato di percorso a quattro campi solo dopo che tutte le posizioni esistenti sono state migrate, manualmente o tramite caricamento CSV. Una volta attivato il formato a quattro campi, tutti i corsi esistenti che utilizzano Aule visualizzano le posizioni nel nuovo formato.
+
+1. **È necessario ristrutturare manualmente il file CSV esportato in modo che corrisponda al formato della posizione dei quattro campi?**<br>
+No. Il file CSV esportato utilizza sempre il formato di posizione a quattro campi, indipendentemente dal fatto che sia attualmente abilitato. È sufficiente aggiornare i valori mancanti prima di importare il file.
+
+1. **La migrazione influisce sui report di Adobe Learning Manager?**<br>
+Sì. Dopo la migrazione, i report che includono le informazioni sull’aula visualizzano le aule nel seguente formato:
+
+   **Paese > Stato/Provincia/Regione > Città > Nome località**
+
+   Questo formato sostituisce il precedente valore di posizione per un singolo campo.
+
+1. **Cosa succede se non si abilita il formato di percorso a quattro campi?**<br>
+Per gli Autori e gli Allievi non cambia nulla. Le aule continuano a essere visualizzate e a funzionare come oggi, utilizzando il formato a campo singolo esistente fino a quando un amministratore non completa la migrazione e abilita il formato a quattro campi.

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 79de9fe16c4397ff769072c9f57868649664806f
+source-git-commit: 47de040030c841641b9a554eac1a40c0ee0835a8
 workflow-type: tm+mt
-source-wordcount: '30900'
-ht-degree: 72%
+source-wordcount: '33111'
+ht-degree: 67%
 
 ---
 
@@ -24,6 +24,123 @@ ht-degree: 72%
  </tbody>
 </table>
 -->
+
++++Aggiornamento 110: versione di agosto 2026 di Adobe Learning Manager
+
+>[!IMPORTANT]
+>
+>Le funzioni descritte in queste note sulla versione sono disponibili come parte della versione beta. Le funzioni beta di Adobe Learning Manager sono fornite a scopo di valutazione e possono essere modificate, limitate o rimosse prima del rilascio di disponibilità generale. I nomi delle funzioni, il comportamento e le opzioni di configurazione sono soggetti a modifiche senza preavviso.
+
+## Rilascia evidenziazioni
+
+La versione di agosto 2026 di Adobe Learning Manager offre progressi significativi per l&#39;apprendimento personalizzato, l&#39;intelligenza artificiale, la creazione di report e le integrazioni. I corsi adattivi introducono regole di visibilità e completamento dei moduli guidati dall’utente, consentendo a un singolo corso di presentare contenuti diversi a diversi Allievi in base al proprio ruolo, area geografica o profilo, eliminando la necessità di mantenere versioni dei corsi separate.
+
+Il Gradebook completo di tutte le funzionalità aggiunge un punteggio ponderato e un calcolo aggregato di esito positivo/negativo ai corsi, fornendo alle organizzazioni una misura precisa e configurabile delle prestazioni degli Allievi oltre il semplice tracciamento del completamento.
+
+Sul fronte dell’IA, l’Assistente all’intelligenza artificiale per gli Allievi ottiene riepiloghi dei corsi, un confronto degli oggetti di apprendimento, risposte di Adobe Experience League e query sui contenuti di terze parti dai cataloghi Go1 e LinkedIn Learning; un nuovo agente del percorso di apprendimento guida gli Allievi attraverso una conversazione per generare automaticamente un percorso di apprendimento in sequenza personalizzato; e l’Agente Insights porta le query in linguaggio naturale nei report degli Amministratori. Tutte le funzionalità di intelligenza artificiale sono regolate da un nuovo sistema di crediti di intelligenza artificiale di generazione nella pagina Fatturazione, che offre agli amministratori limiti di utilizzo per ciascuna funzionalità e avvisi di consumo.
+
+La gestione dei contenuti è rafforzata dal generatore di modelli e-mail basati su componenti WYSIWYG, dalla struttura gerarchica delle cartelle dei contenuti con accesso basato sui ruoli, dalla funzione di apprendimento esterno per l’invio e l’approvazione di corsi di formazione off-platform e dalla nuova funzione Canali che aggrega i contenuti video dalle pagine Web aziendali e dalle pagine Confluence.
+
+Per ulteriori informazioni, consulta [Novità e modifiche nella versione di agosto 2026 di Adobe Learning Manager](/help/migrated/whats-new.md).
+
+## Modifiche rivoluzionarie nella versione
+
+### Funzione di apprendimento esterno: nuove colonne nella Trascrizione Allievo
+
+Questi aggiungono campi personalizzati di apprendimento esterno specifici dell’account al report LT. In Admin LT, alla fine vengono aggiunte le nuove colonne dei campi personalizzati; in Allievo LT, Nome apprendimento esterno e Commento di completamento vengono inseriti accanto ai relativi campi modulo e revisore, con gli altri campi personalizzati aggiunti alla fine.
+
+Ulteriori informazioni sui [report delle modifiche nella versione di agosto 2026 di Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### ID del corso di formazione principale per le certificazioni nella trascrizione Allievo
+
+In questo modo viene aggiunta una nuova colonna ID corso principale sia ad Admin LT che ad Allievo LT. La colonna viene visualizzata alla fine del report e consente di identificare il contesto di certificazione principale per il record dell’Allievo.
+
+Ulteriori informazioni sui [report delle modifiche nella versione di agosto 2026 di Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Allineamento del formato data-ora del webhook con la Trascrizione Allievo
+
+In questo modo i valori di data e ora dell’oggetto dati webhook vengono standardizzati sulla base di una precisione in minuti. I secondi vengono sempre emessi come 00, allineando le marche temporali del webhook al formato di report LT.
+
+Ulteriori informazioni sui [report delle modifiche nella versione di agosto 2026 di Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Colonna Peso nella Trascrizione Allievo
+
+Nel report LT viene aggiunta una colonna Peso per i moduli dei corsi abilitati per Gradebook. Il peso del modulo viene visualizzato direttamente nell’output del report.
+
+Ulteriori informazioni sui [report delle modifiche nella versione di agosto 2026 di Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Dettagli dell’autore del corso condiviso nell’API di learningObjects
+
+I dettagli aggiornano la risposta LO dell’API di learningObjects per i corsi condivisi, in modo che gli account di ricezione non mostrino più l’Amministratore che accetta come Autore. Negli account condivisi tra pari vengono visualizzati solo i dettagli originali dell’autore esterno; il comportamento dell’account principale rimane invariato.
+
+### Rilevamento intento in AI Orchestrator Agent
+
+L&#39;agente di orchestrator AI sposta il rilevamento intenti per le richieste a query singola in orchestrator e rimuove gli interruttori manuali dell&#39;interfaccia utente. Il routing delle query può variare tra i flussi Q&amp;A e PLP a seconda dell&#39;intento rilevato.
+
+## Bug corretti nella versione
+
+**Trascrizione Allievo:** Le date nel report Trascrizione Allievo registravano 00 per secondi, mentre nel webhook i secondi venivano visualizzati come dovrebbero, in due cifre. Questo problema è stato risolto. La Trascrizione Allievo ora mostra correttamente anche i secondi a due cifre.
+
+**Istanza:** quando una sessione Microsoft Teams o Adobe Connect VC è stata annullata dalla pagina dell&#39;istanza, alcuni dettagli della sessione associata sono rimasti dopo l&#39;aggiornamento della pagina. Questo problema è stato risolto e le sessioni annullate ora rimuovono correttamente tutti i dettagli associati, incluse le impostazioni di esclusione di organizzatore Teams e della sala d’attesa e l’istruttore principale di Connect.
+
+**API:** un problema in un flusso di lavoro AWS automatizzato ha causato ripetute richieste di download all&#39;API HTTP CMS per l&#39;utilizzo di URL codificati in modo errato, provocando errori HTTP 500 intermittenti e volumi elevati di traffico non valido. Il flusso di lavoro è stato aggiornato per inserire correttamente gli spazi di codifica URL e altri caratteri speciali negli URL delle richieste di download. Di conseguenza, le richieste di download delle risorse dell’account vengono elaborate correttamente, riducendo gli errori e migliorando l’affidabilità del recupero automatico delle risorse.
+
+**Allievo:** un problema ha causato la visualizzazione corretta della formattazione in corsivo applicata nella sezione Panoramica dettagliata di un corso durante la creazione, ma non nella pagina della panoramica del corso rivolta all’Allievo dopo la pubblicazione. La logica di rendering è stata aggiornata per mantenere la formattazione in corsivo del testo quando il contenuto del corso viene pubblicato. Di conseguenza, il corsivo applicato nella sezione Panoramica dettagliata viene visualizzato correttamente e in modo uniforme per gli Allievi nella pagina di panoramica del corso pubblicata.
+
+**Certificazioni personalizzate:** l&#39;anteprima del certificato presentava uno sfondo bianco vuoto quando un&#39;immagine SVG veniva caricata come sfondo del certificato di risultato. Il processo di rendering dell’anteprima del certificato è stato aggiornato per supportare e visualizzare correttamente le immagini di sfondo SVG caricate. Di conseguenza, le anteprime dei certificati ora eseguono il rendering dello sfondo SVG configurato come previsto, fornendo una rappresentazione accurata del certificato finale.
+
+**Autore:** la generazione di file VTT per lunghi video interattivi potrebbe subire ritardi significativi, con tempi di elaborazione superiori a due ore per alcuni caricamenti. Questo problema è stato studiato e ottimizzato per migliorare le prestazioni e l&#39;affidabilità della generazione VTT per file video di grandi dimensioni. Di conseguenza, i file VTT vengono ora generati in modo più efficiente, fornendo un flusso di lavoro di sottotitolazione più rapido e coerente per i caricamenti video interattivi.
+
+**API:** Alcuni record di completamento degli Allievi non venivano restituiti dall’API di esportazione report, anche se i dati di completamento esistevano nel back-end, corrispondevano all’intervallo di date specificato e ai filtri del gruppo di utenti e soddisfacevano tutti i criteri del report. Il processo di esportazione dei report per i completamenti degli Allievi in più processi e la logica di recupero dei dati sono stati migliorati per garantire che i record di completamento idonei vengano inclusi in modo coerente nelle esportazioni API. Le risposte API di esportazione dei report ora restituiscono dati completi sul completamento dell’Allievo per gli utenti i cui timestamp di completamento rientrano nell’intervallo di date richiesto e nell’ambito del filtro, fornendo risultati di reporting più precisi e affidabili.
+
+**Webhook:** quando un Allievo si è iscritto a una sessione successivamente annullata, l’iscrizione a un’altra sessione dello stesso corso non ha attivato un nuovo evento webhook di iscrizione a meno che l’Allievo non sia stato prima annullato dalla sessione annullata. Ciò ha causato la mancanza di aggiornamenti di registrazione validi per i sistemi downstream per le istanze annullate o completate in precedenza. Il flusso del webhook è stato aggiornato in modo che un nuovo evento di iscrizione venga attivato quando un Allievo si iscrive a un’altra sessione dello stesso corso dopo l’annullamento o il completamento della sessione precedente, garantendo che l’attività di iscrizione venga segnalata in modo coerente.
+
+**Le richieste API:** delle API degli amministratori per i percorsi di apprendimento che includevano dati correlati estesi (ad esempio istanze, iscrizioni, risorse e livelli) hanno subito un significativo degrado delle prestazioni, con tempi di risposta che sono aumentati da cinque a otto secondi fino a 45-60 secondi, con un impatto sui flussi di lavoro di integrazione e sui sistemi a valle. Sono state implementate ottimizzazioni delle prestazioni per includere richieste di oggetti di apprendimento pesanti per migliorare l’efficienza del recupero dei dati. Le chiamate API del percorso di apprendimento che includono complesse relazioni nidificate ora restituiscono risultati in modo più coerente e con tempi di risposta migliorati, contribuendo a garantire prestazioni di integrazione affidabili.
+
+**E-mail e notifiche:** gli Allievi che hanno completato i corsi di certificazione ricorrenti hanno ricevuto e-mail di completamento del corso anche se il modello e-mail di completamento era stato disattivato nel corso originale. Ciò si verificava perché le certificazioni ricorrenti creavano nuovi corsi e istanze senza copiare le impostazioni originali di notifica a livello di corso, facendo in modo che i corsi duplicati utilizzassero le configurazioni e-mail predefinite. Il processo di ricorrenza è stato aggiornato per mantenere le impostazioni di notifica del corso durante la duplicazione dei corsi. Di conseguenza, le e-mail di completamento ora vengono inviate solo se esplicitamente abilitate nella configurazione originale del corso.
+
+**Allievo:** gli annunci Masthead configurati con video mostravano solo il fotogramma video iniziale nella home page dell’Allievo e la riproduzione non veniva avviata automaticamente come previsto. Il comportamento di riproduzione video è stato aggiornato per garantire che i video masthead supportati vengano riprodotti automaticamente quando l’annuncio viene caricato. Gli Allievi possono ora visualizzare gli annunci masthead basati su video senza richiedere la riproduzione manuale, fornendo un’esperienza più coinvolgente.
+
+**Allievo:** il widget **Di tendenza nella tua rete** ha visualizzato in modo errato una scheda vuota **Inizia apprendimento** in entrambe le righe orizzontali. Questo problema è stato risolto eseguendo il rendering della scheda a stato vuoto appropriata per ogni riga. Nella prima riga viene visualizzato il collegamento **Vai al catalogo**, mentre nella seconda viene visualizzata la scheda **Inizia apprendimento** come previsto.
+
+**API:** Quando gli Allievi ordinavano il catalogo in base al nome in ordine crescente (A-Z), l’API pubblica restituiva risultati utilizzando l’ordinamento con distinzione tra maiuscole e minuscole, facendo sì che i nomi dei corsi in maiuscolo (AA, BB, CC) venissero visualizzati prima dei nomi in minuscolo (aa, bb) anziché in base all’ordine alfabetico standard. La logica di ordinamento è stata aggiornata per utilizzare il confronto senza distinzione tra maiuscole e minuscole. I risultati del catalogo ora vengono visualizzati nella sequenza alfabetica prevista indipendentemente dalla combinazione di maiuscole e minuscole, garantendo un ordinamento coerente dei nomi dei corsi.
+
+**CR-VC:** quando un nuovo istruttore è stato aggiunto a un corso VC, non è stato inviato alcun messaggio e-mail di invito alla sessione se il modello e-mail &quot;Sei stato aggiunto come Istruttore/Organizzatore/Co-organizzatore&quot; è stato disabilitato, impedendo agli istruttori di ricevere i dettagli della sessione. La logica di notifica è stata corretta per garantire che gli inviti alla sessione di istruttore siano generati indipendentemente dal modello.
+
+**Comune client:** quando la durata di un modulo di attività veniva aggiornata dopo l’aggiunta del corso a un piano di apprendimento AET (Auto Enrollment Trigger), l’anteprima dell’Allievo continuava a visualizzare la durata dall’istanza AET anziché la durata aggiornata dall’istanza del corso predefinita. Questo problema è stato risolto assicurandosi che l’anteprima dell’Allievo recuperi la durata del modulo dall’istanza del corso corretta. Le anteprime degli Allievi ora mostrano con precisione l’ultima durata del modulo pubblicata, rispecchiando gli aggiornamenti apportati al contenuto del corso.
+
+**Allievo:** in una certificazione ordinata, gli allievi potevano ignorare un primo corso non riuscito e accedere a un secondo corso bloccato completando i relativi prerequisiti, consentendo di contrassegnare la certificazione come completata quando il requisito era impostato su un corso qualsiasi. La convalida è stata aggiornata per applicare in modo coerente le regole relative all’ordine dei corsi e al blocco. Gli Allievi possono ora completare i requisiti di certificazione solo nella sequenza definita, impedendo ai corsi bloccati di contribuire al completamento della certificazione.
+
+**API:** Quando una risorsa è stata aggiunta a un corso senza una descrizione, l&#39;API GET /learningObject/{id} non ha restituito una descrizione appena aggiunta se la risorsa è stata aggiornata in seguito. Ciò ha comportato l’esposizione dei metadati di risorse non aggiornati tramite l’API. Il problema di sincronizzazione è stato risolto e ora l’API restituisce la descrizione della risorsa più recente indipendentemente dal momento in cui è stata aggiunta.
+
+**API:** Quando un modulo è stato migrato con una descrizione e la descrizione è stata successivamente aggiornata, il valore aggiornato è stato salvato correttamente nella tabella del modulo, ma non è stato riflesso nell&#39;interfaccia utente. L&#39;interfaccia utente ha continuato a visualizzare la descrizione precedente perché era originata dal record content_group, che non veniva aggiornato durante la modifica. Questo problema di sincronizzazione è stato risolto e le descrizioni aggiornate del modulo sono ora riflesse in modo uniforme nell’interfaccia utente dopo la migrazione.
+
+**Modelli e configurazione e-mail:** quando gli amministratori hanno aggiornato il banner e-mail nelle impostazioni dei modelli e-mail, il nuovo banner è stato visualizzato correttamente in Outlook Desktop ma non in Outlook Web, causando un&#39;esperienza e-mail incoerente tra i client. Il rendering del modello e-mail è stato aggiornato per garantire la compatibilità dei banner nelle piattaforme Outlook. I banner e-mail aggiornati ora vengono visualizzati correttamente sia nella versione desktop di Outlook che in quella Web di Outlook.
+
+## Problemi noti nella versione
+
+### I nomi delle colonne non sono localizzati nel file CSV delle aule esportato
+
+Quando le impostazioni internazionali dell’interfaccia utente sono impostate su una lingua diversa dall’inglese, il file CSV esportato dalla pagina Aule visualizza i nomi delle colonne (riga di intestazione) in inglese anziché nella lingua selezionata.
+
+Questo comportamento si verifica durante l’esportazione delle aule dal profilo Amministratore > Impostazioni > Aule. Anche se i dati della posizione all’interno del file vengono restituiti correttamente, le intestazioni di colonna non vengono tradotte in modo da corrispondere alle impostazioni internazionali dell’interfaccia utente scelte dall’Amministratore. Di conseguenza, un Amministratore che utilizza impostazioni internazionali diverse dall’inglese visualizza i nomi delle colonne in inglese in un ambiente altrimenti localizzato.
+
+Viene interessata solo la riga di intestazione; i dati della posizione sottostante nel file esportato non sono interessati. Questa versione non include alcuna correzione e il problema è in fase di valutazione per una versione futura.
+
+### Limiti del campo Durata credito immessi a 9999,99
+
+Quando un utente immette un valore di Durata credito maggiore di 9999,99, ad esempio 999999, nel modulo di modifica della sessione, al momento del salvataggio il valore viene limitato in modo invisibile a 9999,99, senza alcun errore di convalida o avviso mostrato all&#39;utente. Il campo ha un attributo HTML max impostato su 9999.99, che applica questo limite a livello di browser senza avvisare l&#39;utente che il suo input è stato rifiutato o modificato. Non è stata applicata alcuna correzione per questa versione, poiché il funzionamento di questo comportamento è stato confermato.
+
+### Il messaggio di errore non indica una riga della lingua predefinita mancante nei caricamenti CSV
+
+Quando un caricamento CSV per una posizione strutturata contiene righe solo in lingue non predefinite, ad esempio fr,de e nessuna riga nella lingua predefinita dell’account, il messaggio di errore restituito è Impostazioni internazionali alla riga 1 del CSV e la colonna 2 non è valida o non è supportata. Ciò non indica che il problema effettivo sia una riga della lingua predefinita mancante. Ciò impedisce agli utenti di caricare CSV multiconali e diagnosticare il problema solo dai messaggi di errore. Questo problema è stato eliminato per questa versione senza applicazione di correzioni.
+
+### Il campo Limite partecipanti consente di impostare valori non realistici fino a 4.294.967.295
+
+Il campo Limite partecipanti nella modalità Aula accetta qualsiasi valore fino a 4.294.967.295 ( ~4,3 miliardi), un massimale tecnicamente determinato dal tipo di dati sottostante anziché da un vincolo aziendale realistico. Gli utenti possono inserire e salvare un numero di postazioni non realistico, ad esempio 1.000.000.000, senza che venga rifiutato da una convalida a livello aziendale.
+Non è stata applicata alcuna correzione per questa versione; non è stato ancora concordato o applicato un massimo realistico per l’azienda.
+
++++
 
 +++Aggiornamento 109: versione di luglio 2026 di Adobe Learning Manager
 
@@ -67,7 +184,7 @@ Data di pubblicazione: 17 giugno 2026
 4. Seleziona Allievi nel pannello di navigazione a sinistra.
    ![](assets/instructor-send-email1.png)
 5. Seleziona un Allievo dall’elenco degli Allievi.
-6. Nell&#39;elenco a discesa **Azioni** in alto a destra vengono visualizzate altre opzioni, incluse quelle disattivate. **Invia messaggio e-mail a tutti** è una delle opzioni disponibili.
+6. Nell&#39;elenco a discesa **Azioni** in alto a destra vengono visualizzate altre opzioni, incluse quelle disattivate. Una delle opzioni disponibili è **Invia e-mail a tutti**.
    ![](assets/instructor-send-email2.png)
 
 **Rimozione automatica degli utenti eliminati:** La rimozione automatica degli utenti eliminati è stata impostata su un anno come periodo minimo richiesto per l&#39;eliminazione. Questo è stato migliorato per contenere un numero anche in &quot;giorni&quot;. Gli amministratori ora possono richiedere questa modifica contattando il proprio Customer Success Manager e ottenerne la modifica dal back-end.
@@ -678,8 +795,8 @@ La nuova app Adobe Learning Manager su Microsoft Teams è progettata per favorir
 **Problemi noti in questo aggiornamento**
 
 * Il pulsante Condividi sul catalogo degli Allievi non funziona come previsto nel browser safari e nell’app MS Teams per dispositivi mobili e iPad.
-* Le notifiche non vengono visualizzate nella scheda Attività una volta che l’app è stata rimossa in altri computer.
-Quando viene fatto clic sulle notifiche nella scheda Attività dell’app su iPhone 14 non avviene nulla.
+* Le notifiche non vengono visualizzate nella scheda Attività dopo che l&#39;app è stata rimossa da altri computer.
+Quando fai clic sulle notifiche nella scheda Attività dell’app in iPhone 14, non accade nulla.
 * Nell’app MS Teams, le notifiche di Learning Manager (completato, iscritto, in scadenza e scaduto) non mostrano lo stato e il nome del corso nella scheda Attività.
 * Viene visualizzata una finestra a comparsa con contenuti XML quando l’Amministratore di integrazione non approva l’app MS Teams.
 * La lingua dell’interfaccia utente nell’app Adobe Learning Manager su MS Teams a volte non cambia come previsto quando viene modificata.
@@ -704,8 +821,8 @@ Quando viene fatto clic sulle notifiche nella scheda Attività dell’app su iPh
 
 ### Miglioramenti Delle Prestazioni In Questa Versione
 
-In caso di iscrizione in serie degli Allievi, non verrà generato alcun file di registro per ogni Allievo.
-È stata ottimizzata l’elaborazione dei piani di apprendimento per gli account di grandi dimensioni. In questo modo si evitano problemi di ricerca o ritardi.
+Quando viene eseguita un’iscrizione in blocco degli Allievi, non viene generato alcun file registro per ciascun Allievo.
+Abbiamo ottimizzato l’elaborazione dei piani di apprendimento per gli account di grandi dimensioni. In questo modo si evitano problemi di ricerca o ritardi.
 +++
 
 +++Aggiornamento 87
@@ -871,9 +988,9 @@ La versione di Adobe Learning Manager di novembre 2022 è costituita dai seguent
 * Il dashboard Conformità visualizza dati errati per gli Allievi non conformi.
 * Durante l’aggiunta di un report, non è possibile selezionare corsi o cataloghi in cui la lingua dell’interfaccia non è stata aggiunta alla lingua del contenuto.
 * In questa versione sono state aggiunte le seguenti lingue dei contenuti:
-   * Bulgaro
-   * Fiammingo
-   * Portoghese (Brasile)
+  * Bulgaro
+  * Fiammingo
+  * Portoghese (Brasile)
 
 ### Problemi noti in questo aggiornamento
 
@@ -904,9 +1021,9 @@ La versione di Adobe Learning Manager di novembre 2022 è costituita dai seguent
 * Gli amministratori e gli istruttori possono aggiungere commenti per gli utenti che non hanno partecipato a sessioni ILT/VILT.
 * Miglioramento delle prestazioni durante il download di report di grandi dimensioni.
 * Quando l’e-mail diretta a un utente non viene consegnata, l’Amministratore riceve una notifica e-mail. L’e-mail contiene un link che consente di scaricare un file CSV con l’elenco degli utenti a cui non sono state consegnate le e-mail. L’Amministratore può quindi intraprendere le azioni necessarie.
-   * L’e-mail viene attivata quando un messaggio di posta viene rimosso o non viene recapitato.
-   * L’e-mail viene attivata una volta al giorno per tutti gli amministratori aggiunti all’elenco.
-   * Il link scade tra sette giorni.
+  * L’e-mail viene attivata quando un messaggio di posta viene rimosso o non viene recapitato.
+  * L’e-mail viene attivata una volta al giorno per tutti gli amministratori aggiunti all’elenco.
+  * Il link scade tra sette giorni.
 * Viene mostrato un messaggio di errore durante l’integrazione di un account Adobe Connect già integrato con un altro account Learning Manager.
 +++
 
@@ -1206,14 +1323,14 @@ Data di pubblicazione: 28 settembre 2021
 
 * Sul browser mobile, i collegamenti diretti sono stati abilitati per le funzioni seguenti:
 
-   * Tutte le bacheche
-   * Bacheca pubblica e post
-   * Bacheca privata e post con accesso
-   * Bacheca privata e post senza accesso
-   * Bacheca limitata e post
-   * Commento al post
-   * Risposta al commento
-   * Profilo utente social
+  * Tutte le bacheche
+  * Bacheca pubblica e post
+  * Bacheca privata e post con accesso
+  * Bacheca privata e post senza accesso
+  * Bacheca limitata e post
+  * Commento al post
+  * Risposta al commento
+  * Profilo utente social
 
 * Per gli account che utilizzano un dominio personalizzato, l’app per gli Allievi non mostrerà la favicon.
 * Su AEM, il componente Learning Manager elimina la configurazione di altri componenti.
@@ -1659,8 +1776,8 @@ Data di pubblicazione: 23 settembre 2020
 
 * Per identificare tutti i corsi cui è iscritto ogni studente e lo stato di completamento, includere i seguenti campi nel dashboard, Report di sottoscrizione:
 
-   * UUID
-   * Indirizzo e-mail
+  * UUID
+  * Indirizzo e-mail
 
 **Trascrizione Allievo**
 
@@ -2165,10 +2282,10 @@ In questo aggiornamento, all’Autore viene mostrato un **messaggio di avviso ch
 
 * Nei browser indicati di seguito, quando si passa il mouse sul riquadro sinistro, il testo viene visualizzato dopo un leggero ritardo.
 
-   * Edge 42.17134.1.0
-   * Edge 44.17763.1.0
-   * Internet Explorer 11.1006
-   * Internet Explorer 11.615
+  * Edge 42.17134.1.0
+  * Edge 44.17763.1.0
+  * Internet Explorer 11.1006
+  * Internet Explorer 11.615
 
 * Un Allievo può accedere a una sala riunioni Connect prima e dopo la sessione.
 
@@ -2348,10 +2465,10 @@ Data di pubblicazione: 30 maggio 2019
 * Download di trascrizioni allievi per utenti eliminati. Per ulteriori informazioni, consulta [***Trascrizioni allievi***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 * Supporto per le seguenti lingue:
 
-   * Coreano
-   * Turco
-   * Olandese
-   * Polacco
+  * Coreano
+  * Turco
+  * Olandese
+  * Polacco
 
 **Problemi noti**
 
@@ -3821,8 +3938,8 @@ Data di pubblicazione: 09 dicembre 2015
 * I problemi relativi ai collegamenti URL nei modelli e-mail sono stati corretti.
 * È ora disponibile il supporto per
 
-   * Da Publish a Learning Manager
-   * Supporto del caricamento di contenuto più veloce per la versione CP 8 (è richiesta la patch CP803)
+  * Da Publish a Learning Manager
+  * Supporto del caricamento di contenuto più veloce per la versione CP 8 (è richiesta la patch CP803)
 
 +++
 

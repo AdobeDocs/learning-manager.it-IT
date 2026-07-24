@@ -3,9 +3,9 @@ description: Ottieni risposte rapide e precise dai tuoi contenuti di apprendimen
 jcr-language: en_us
 title: Assistente all’intelligenza artificiale per gli Allievi in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '3153'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Introduzione
 
-L’Assistente AI (Beta) per gli Allievi consente loro di trovare rapidamente le risposte dai contenuti di apprendimento assegnati senza sfogliare l’intero corso. Puoi porre domande in un linguaggio semplice e ricevere risposte accurate e mirate con collegamenti sorgente al contenuto del corso pertinente.
+Utilizza l’Assistente all’intelligenza artificiale per ottenere risposte rapide e precise dai contenuti di apprendimento assegnati, generare riepiloghi dei corsi, confrontare oggetti di apprendimento, trovare risposte sulle procedure e creare percorsi di apprendimento personalizzati, il tutto senza dover sfogliare interi corsi.
 
 >[!IMPORTANT]
 >
@@ -32,27 +32,41 @@ L&#39;Assistente all&#39;intelligenza artificiale è un compagno di chat generat
 ### Funzionalità
 
 - **Risposta intelligente alle domande**
-   - Conversazioni a turno singolo e a turni multipli
-   - Conoscenza della lingua naturale in inglese
-   - Risposte derivate da corsi, certificazioni, percorsi di apprendimento e risorse formative
-   - Chiarire le domande quando le query sono ambigue
+  - Conversazioni a turno singolo e a turni multipli
+  - Conoscenza della lingua naturale in inglese
+  - Risposte derivate da corsi, certificazioni, percorsi di apprendimento e risorse formative
+  - Chiarire le domande quando le query sono ambigue
 
 - **Origini contenuto e citazioni**
-   - Recupera le risposte dalle risorse disponibili nei cataloghi supportati
-   - Fornisce citazioni con collegamenti diretti ai materiali di origine
-   - Supporta tutti i formati di contenuto Learning Manager (statico e interattivo): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), video (MP4, MOV, WMV), HTML, SCORM 2004 e SCORM 1.2
+  - Recupera le risposte dalle risorse disponibili nei cataloghi supportati
+  - Fornisce citazioni con collegamenti diretti ai materiali di origine
+  - Supporta tutti i formati di contenuto Learning Manager (statico e interattivo): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), video (MP4, MOV, WMV), HTML, SCORM 2004 e SCORM 1.2
 
 - **Esperienza utente**
-   - Interfaccia del pannello laterale accessibile da tutte le pagine dell’Allievo
-   - Design reattivo che si adatta all&#39;area dei contenuti
-   - Cronologia chat gestita nella sessione del browser
-   - Pulisci la lavagna al nuovo accesso o all&#39;aggiornamento della pagina
-   - Tono amichevole, chiaro e pedagogicamente sonoro
+  - Interfaccia del pannello laterale accessibile da tutte le pagine dell’Allievo
+  - Design reattivo che si adatta all&#39;area dei contenuti
+  - Cronologia chat gestita nella sessione del browser
+  - Pulisci la lavagna al nuovo accesso o all&#39;aggiornamento della pagina
+  - Tono amichevole, chiaro e pedagogicamente sonoro
 
 - **Controlli amministratore**
-   - Attivare o disattivare la funzione a livello di account
-   - Seleziona i cataloghi inclusi per le risposte basate su IA
-   - Requisito di accettazione delle Condizioni d’uso in base alle linee guida di Adobe AI
+  - Attivare o disattivare la funzione a livello di account
+  - Seleziona i cataloghi inclusi per le risposte basate su IA
+  - Requisito di accettazione delle Condizioni d’uso in base alle linee guida di Adobe AI
+
+## Quali operazioni può eseguire l&#39;Assistente AI
+
+L’Assistente all’intelligenza artificiale è un compagno di chat generativo basato sull’intelligenza artificiale che risponde alle domande utilizzando i contenuti di apprendimento assegnati. Ogni risposta include citazioni con collegamenti diretti al materiale sorgente in modo da poter verificare le informazioni e continuare l’apprendimento nel contesto.
+
+Oltre a rispondere alle domande, l&#39;Assistente all&#39;intelligenza artificiale può:
+
+- **Riepilogo degli oggetti di apprendimento**: genera una rapida panoramica di qualsiasi corso, risorsa formativa, percorso di apprendimento o certificazione nel catalogo senza aprirlo
+- **Confronto degli oggetti di apprendimento**: identificazione delle differenze tra due corsi affiancati per decidere quale soddisfa i tuoi obiettivi di apprendimento
+- **Rispondere alle domande sulle procedure** — trova le risposte da Adobe Experience League, la documentazione ufficiale della guida di Adobe, per domande sull’utilizzo di Adobe Learning Manager come Allievo
+- **Eseguire una query sui contenuti di terze parti**: porre domande sui corsi Go1 o LinkedIn Learning se l’amministratore ha aggiunto tali cataloghi
+- **Crea un percorso di apprendimento personalizzato**: fai una conversazione guidata con l&#39;Assistente all&#39;intelligenza artificiale per creare un piano di apprendimento personalizzato e in sequenza in base ai tuoi obiettivi, allo sfondo e al tempo disponibile.
+
+L&#39;amministratore controlla i cataloghi utilizzati dall&#39;Assistente AI. Se non hai accesso a un corso, l&#39;Assistente all&#39;intelligenza artificiale non presenterà informazioni al riguardo.
 
 ## Tipi di contenuto supportati
 
@@ -164,7 +178,7 @@ Per abilitare l’Assistente all’intelligenza artificiale dell’Allievo:
 &#x200B;1. Accedi a Adobe Learning Manager come amministratore.
 
 2.Selezionare **Impostazioni** dalla home page.
-![Console di amministrazione con opzione Impostazioni nel riquadro sinistro](assets/settings-menu.png)
+![Console di amministrazione con l&#39;opzione Impostazioni nel riquadro sinistro](assets/settings-menu.png)
 
 &#x200B;3. Seleziona **Assistente AI Allievo (Beta)** dal menu **Impostazioni**.
 ![La console dell’amministratore visualizza l’opzione Assistente intelligenza artificiale Allievo nel riquadro a sinistra](assets/learner-assistant-ai-beta.png)
@@ -239,11 +253,128 @@ Per cancellare la conversazione corrente e ricominciare, seleziona **Nuova chat*
 
 L’Assistente AI fornisce agli Allievi risposte rapide e contestuali, supporta più tipi di contenuto e offre citazioni inline per la trasparenza. Gli amministratori possono controllare l’accesso, verificando che l’Assistente all’intelligenza artificiale sia personalizzato in base alle esigenze dell’organizzazione e migliori l’esperienza di apprendimento.
 
+## Ottieni riepiloghi e risposte da oggetti di apprendimento specifici in Learning Assistant
+
+L’Assistente all’apprendimento di Adobe Learning Manager può generare un riepilogo di qualsiasi corso, risorsa formativa, percorso di apprendimento o certificazione presente nel catalogo\. Il riepilogo viene ricavato dal contenuto del corso e dalle trascrizioni dei moduli archiviati nel catalogo.
+
+### Ricerca di un corso
+
+1. Apri _Learning Assistant_ dalla home page dell&#39;Allievo.
+2. Nel pannello Chat, digita / per avviare una ricerca di contenuti.
+
+>[!NOTE]
+>
+>La ricerca degli oggetti di apprendimento non aggiunti al catalogo non è possibile. Puoi accedere a qualsiasi contenuto a cui hai accesso, ma l’Assistente Allievo recupera solo il riepilogo dal contenuto del modulo.
+
+1. Digita il nome del corso, della risorsa formativa, del percorso di apprendimento o della certificazione che desideri riepilogare. Viene visualizzato un elenco di tipo\-ahead degli elementi di catalogo corrispondenti.
+2. Seleziona l’oggetto di apprendimento dall’elenco.
+
+### Generare una rapida panoramica di un corso
+
+Usa questa funzione quando hai bisogno di un’istantanea rapida e affidabile di un corso senza aprirlo completamente\. Gli scenari più comuni includono:
+
+- Revisione o uso del pennello durante l’apprendimento
+  *Scenario:* un rappresentante di vendita ha completato un corso &quot;Nozioni fondamentali sulla negoziazione&quot; sei mesi fa e ha ora una grande chiamata di rinnovo del cliente domani. Invece di rivedere tutti e quattro i moduli, viene chiesto a Learning Assistant di riepilogare il corso e di aggiornare rapidamente le principali tattiche di negoziazione trattate.
+- Decidere se iscrivere_
+  *Scenario:* un nuovo manager vede &quot;Guidare attraverso la modifica&quot; consigliato nel proprio catalogo, ma non è sicuro che sia adatto per la situazione del proprio team attuale. Chiedono prima un riepilogo, si concentrano molto sulla gestione remota dei cambiamenti del team e decidono di iscriversi perché corrisponde a ciò di cui hanno bisogno.
+- Preparazione o riferimento di un argomento_
+  *Scenario:* un tecnico del supporto sta per partecipare a una chiamata di un cliente relativa a una funzionalità del prodotto che non ha toccato da tempo. Anziché seguire un corso di formazione della durata di 45 minuti, chiede all’Assistente di apprendimento di riepilogare il corso pertinente per aggiornare rapidamente i passaggi chiave e la terminologia prima della chiamata.
+
+1. Nell’input della chat, digita una query come riepiloga questo corso o fornisci un riepilogo del corso.
+2. Seleziona **Invia** per inviare la query.
+3. Learning Assistant genera e visualizza un riepilogo in base ai moduli del corso e ai contenuti archiviati nel catalogo.
+
+### Procedure ottimali
+
+- Utilizza nomi di corso specifici durante la ricerca per ottenere risultati del completamento automatico precisi.
+- Puoi richiedere riepiloghi per corsi, risorse formative, programmi di apprendimento e certificazioni.
+- Prima di iscriverti, rivedi il riepilogo per determinare rapidamente se un corso soddisfa i tuoi obiettivi di apprendimento.
+
+## Confronto di oggetti di apprendimento in Learning Assistant
+
+L’Assistente apprendimento di Adobe Learning Manager consente di confrontare fino a due oggetti di apprendimento affiancati nel catalogo. Utilizza questa funzione per comprendere le differenze di contenuto, ambito o punto di interesse tra due corsi prima dell’iscrizione.
+
+### Seleziona oggetti di apprendimento da confrontare
+
+1. Apri _Learning Assistant_ dalla home page dell&#39;Allievo.
+2. Nel pannello Chat, digita / per avviare una ricerca di contenuti.
+3. Digita il nome del primo oggetto di apprendimento. Viene visualizzato un elenco con completamento automatico degli elementi del catalogo corrispondenti.
+4. Seleziona il primo oggetto di apprendimento dall’elenco.
+5. Digita / nuovamente e cerca il secondo oggetto di apprendimento.
+6. Seleziona il secondo oggetto di apprendimento dall’elenco.
+
+>[!NOTE]
+>
+>Puoi confrontare un massimo di due oggetti di apprendimento in una singola query.
+
+### Richiedi il confronto
+
+1. Nell’input della chat, digita una query che indichi la differenza tra questi due corsi o confronta questi oggetti di apprendimento.
+2. Seleziona _Invia_ per inviare la query.
+3. Learning Assistant genera e visualizza un confronto che evidenzia le differenze nei contenuti tra i due oggetti di apprendimento.
+
+### Procedure ottimali
+
+- Prima di confrontare i singoli corsi, rivedere i riepiloghi dei singoli corsi per una breve comprensione dei singoli corsi.
+- Utilizza i risultati del confronto per identificare il corso che tratta gli argomenti più rilevanti per il tuo ruolo o la lacuna nelle abilità.
+- Se gli elementi del catalogo non vengono visualizzati nel tipo di anticipo, conferma con l’amministratore che entrambi gli oggetti di apprendimento fanno parte del catalogo assegnato.
+
+## Risposte agli Experienci League in Learning Assistant
+
+Informazioni su come Learning Assistant di Adobe Learning Manager può rispondere alle domande degli Allievi utilizzando i contenuti di Adobe Experience League, inclusi i collegamenti agli articoli della Guida pertinenti.
+
+### Experience League sull’utilizzo di Learning Assistant
+
+L&#39;Assistente apprendimento di Adobe Learning Manager può trovare le risposte da [Adobe Experience League](/help/migrated/user-guide.md), il sito ufficiale della guida e della documentazione di Adobe. Quando un Allievo pone una domanda procedurale o di istruzioni, Learning Assistant può recuperare una risposta pertinente e includere un collegamento all’Experience League completo.
+
+### Quali tipi di domande può rispondere Learning Assistant?
+
+Learning Assistant può rispondere a domande su come utilizzare Adobe Learning Manager come Allievo. Alcuni esempi:
+
+- Come iscriversi a un corso nominato dal Manager
+- Come accedere a un programma di apprendimento o a una certificazione
+- Come trovare e visualizzare i corsi completati
+
+Quando Learning Assistant trova una risposta pertinente in Experience League, la risposta include un collegamento all’articolo di origine che consente di esplorare la documentazione completa.
+
+### Quali sono le differenze rispetto ad Admin Assistant
+
+[Admin Assistant](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) in Adobe Learning Manager ha fornito risposte di origine Experience League per gli amministratori dalle versioni precedenti. Il miglioramento di agosto 2026 estende questa funzionalità all’Assistente all’apprendimento rivolto agli Allievi, in modo che questi possano ricevere assistenza anche senza uscire dalla piattaforma.
+
+Sia l’Assistente amministratore che l’Allievo che si trova di fronte a Learning Assistant utilizzano lo stesso contenuto di Experience League sottostante per generare le risposte.
+
+## Supporto per contenuti di terze parti in Learning Assistant
+
+L’Assistente all’apprendimento di Adobe Learning Manager può rispondere alle domande degli Allievi sugli Oggetti di apprendimento di qualsiasi contenuto di terze parti disponibile sulla piattaforma, nonché del contenuto nativo di Adobe Learning Manager. Prima che gli Allievi possano eseguire query su questi corsi, un Amministratore deve aggiungere il catalogo Go1 o LinkedIn Learning a Adobe Learning Manager.
+
+### Funzionamento del supporto dei cataloghi di terze parti
+
+>[!IMPORTANT]
+>
+>Come prerequisito, un Amministratore deve aggiungere i cataloghi richiesti all’Assistente Allievo. Per ulteriori informazioni, vedere[Configurare l&#39;accesso all&#39;Assistente all&#39;intelligenza artificiale](https://experienceleague.adobe.com/it/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+
+
+Quando un Amministratore aggiunge un catalogo Go1 o LinkedIn Learning a Adobe Learning Manager, il contenuto del catalogo passa attraverso un processo di acquisizione pianificato. Al termine dell’acquisizione, gli oggetti di apprendimento del catalogo diventano disponibili per l’esecuzione di query da parte di Learning Assistant.
+
+L’assimilazione in genere viene completata entro una o due ore dall’aggiunta del catalogo da parte dell’amministratore.
+
+Una volta completata l’assimilazione, gli Allievi possono porre domande sui corsi Go1 o LinkedIn Learning nello stesso modo in cui interrogano il contenuto nativo di Adobe Learning Manager. Ad esempio, un Allievo può richiedere il riepilogo di un corso Go1 o confrontare un corso LinkedIn Learning con un corso Adobe Learning Manager utilizzando il comando /.
+
+- Adobe Learning Manager non dispone di trascrizioni di contenuti per contenuti di terze parti, quindi le trascrizioni non vengono utilizzate per recuperare le risposte. Le risposte vengono recuperate solo dai metadati disponibili, ad esempio titolo, descrizione e panoramica.
+- Al momento è supportato solo _inglese_.
+
+### Requisiti
+
+Per consentire a Learning Assistant di eseguire una query sul contenuto Go1 o LinkedIn Learning:
+
+- Un amministratore deve aggiungere il catalogo Go1 o LinkedIn Learning pertinente a Adobe Learning Manager.
+- L’acquisizione del catalogo pianificata deve essere completata prima che i corsi siano disponibili per l’esecuzione di query.
+- Gli Oggetti di apprendimento devono far parte del catalogo assegnato all’Allievo.
 
 ## Risoluzione dei problemi relativi a AI Assistant
 
 > **NOTA**
-> Dopo aver configurato un nuovo catalogo, attendi 4-5 ore prima che i contenuti vengano indicizzati e siano disponibili per le risposte dell&#39;Assistente AI.
+> Dopo aver configurato un nuovo catalogo, attendete 4-5 ore prima che il contenuto sia indicizzato e disponibile per le risposte dell&#39;Assistente AI.
 
 ### Nessun accesso ai contenuti
 
@@ -291,3 +422,11 @@ L’Assistente AI fornisce agli Allievi risposte rapide e contestuali, supporta 
 - Contenuto non appropriato
 
 L’Assistente AI è progettato per rispondere alle domande solo in base ai contenuti di apprendimento assegnati e non risponde alle domande che esulano dall’ambito.
+
+### I corsi Go1 o LinkedIn Learning non vengono visualizzati nella ricerca di Learning Assistant
+
+Conferma con il tuo amministratore che il catalogo Go1 o LinkedIn Learning è stato aggiunto a Adobe Learning Manager e che l’acquisizione del catalogo è stata completata. L’ingestione può richiedere fino a una o due ore dopo l’aggiunta del catalogo.
+
+### Un corso aggiunto di recente non è ancora disponibile
+
+Attendi il completamento della sincronizzazione del catalogo pianificata. Se il corso non viene visualizzato dopo due ore, contatta l’amministratore per confermare che la connessione al catalogo è attiva.
