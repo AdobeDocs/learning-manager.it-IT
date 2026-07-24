@@ -3,9 +3,9 @@ description: Come Autore, scopri come creare corsi adattivi per gli Allievi.
 jcr-language: en_us
 title: Corsi adattativi per Autori
 contentowner: mmanuel
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Dopo aver aggiunto un modulo di contenuto, configura le relative regole adattive
 
 **Regole chiave:**
 
-* Un Allievo che appartiene a più gruppi di utenti ottiene il risultato più restrittivo: se un gruppo rende obbligatorio un modulo, questo è obbligatorio per quell’Allievo.
+* Se un gruppo rende obbligatorio un modulo, tale modulo è obbligatorio per quell’Allievo.
 * È necessario configurare almeno un modulo come **Obbligatorio** per almeno un gruppo di utenti prima di poter pubblicare. Il sistema blocca la pubblicazione finché non viene soddisfatta questa condizione.
 
 ### Corso con stato Bozza
@@ -120,6 +120,10 @@ Tieni presente che non è più possibile modificare le impostazioni di visibilit
 
 ![](assets/ac-author-008.png)
 
+>[!NOTE]
+>
+>Un Allievo non può essere messo in lista d’attesa nel passaggio da un’istanza all’altra, l’iscrizione verrà bloccata.
+
 ### Aggiungere o modificare i moduli
 
 1. Apri il corso pubblicato.
@@ -142,7 +146,7 @@ Un Allievo che passa a un’altra istanza di un corso adattivo prosegue il suo a
 
 * I moduli già completati rimangono completati nella nuova istanza.
 * Le postazioni vengono utilizzate solo per i moduli visibili non completati nella nuova istanza.
-* Se i moduli visibili nella nuova istanza non hanno postazioni disponibili, l’Allievo viene inserito in lista d’attesa per tali sessioni.
+* Non possono essere messi in lista d’attesa quando non sono disponibili postazioni per un’istanza. L’iscrizione verrà bloccata.
 
 ## Gestire i limiti di posti e le liste di attesa nei corsi adattivi
 

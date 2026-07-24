@@ -3,9 +3,9 @@ description: Consegna di un corso a più gruppi di destinatari controllando i mo
 jcr-language: en_us
 title: Corsi adattivi in Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: ffaf107e8077b6a6270fa2f8afc76e721d393702
+source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,16 @@ Le regole adattive si applicano solo ai **moduli di contenuto**. Quanto segue si
 
 - **Moduli di preparazione:** visualizzati da tutti gli allievi prima dell’inizio del contenuto principale.
 - **Moduli di verifica:** disponibili per tutti gli Allievi. Il completamento di un test comporta il completamento del corso indipendentemente dallo stato del modulo del contenuto.
-- **Risorse formative e risorse:** visibili a tutti gli Allievi iscritti in qualsiasi momento.
+- **Prerequisiti:** se per un corso sono stati configurati dei prerequisiti, tutti gli allievi devono soddisfarli prima di iscriversi, indipendentemente dal gruppo di utenti a cui appartengono. I prerequisiti non sono adattivi e non possono essere definiti per gruppi di utenti specifici.
+
+Anche le risorse formative e le risorse associate al corso non sono adattive. Sono visibili a tutti gli Allievi iscritti.
+
+Abilità, punti di gamification e distintivi vengono assegnati in base al primo completamento del corso da parte dell’Allievo e non sono interessati da nuovi completamenti risultanti da modifiche del profilo.
+
+>[!NOTE]
+>
+>Quando un corso adattivo fa parte di un LO di ordine superiore condiviso esternamente, il corso adattivo viene copiato come corso regolare nell’account per bambini.
+
 
 ## Disponibilità funzionalità
 
