@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '9424'
-ht-degree: 61%
+source-wordcount: '10009'
+ht-degree: 57%
 
 ---
 
@@ -55,10 +55,10 @@ Per creare un corso, procedi nel seguente modo:
 4. Per rendere il tuo corso disponibile in altre lingue, fai clic su Aggiungi nuova lingua nell’angolo in alto a sinistra della pagina. Seleziona la lingua o le lingue in cui desideri rendere disponibile il tuo corso. Fai clic su **[!UICONTROL Salva]**. Per ulteriori informazioni, consulta [Aggiunta di contenuto per lingue diverse](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modifica delle impostazioni corsi**-
 
-   a. Nella pagina Impostazioni corso, scegli un’abilità per il corso. Dall’elenco a discesa Abilità, scegli l’abilità richiesta. Dall’elenco a discesa Livello, scegli il livello richiesto.
-b. Scegli le abilità e il livello del corso e imposta i crediti per l’abilità. Aggiungi più abilità, se necessario.
-c. Se necessario, aggiungi le etichette di conformità personalizzate al corso. Consulta [Aggiungere etichette di conformità a corso/percorso di apprendimento/certificazione](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-d. Dall’elenco a discesa **Tipo di iscrizione**, scegli il tipo di iscrizione.
+   a. Nella pagina Impostazioni corso, scegli un’abilità per il corso. Dall’elenco a discesa Abilità, scegli l’abilità richiesta. Quindi, dall’elenco a discesa Livello, scegli il livello richiesto.
+   b. Scegli le abilità e il livello del corso e imposta i crediti per l’abilità. Aggiungi altre abilità, se necessario.
+   c. Se necessario, aggiungi le etichette di conformità personalizzate al corso. Consulta [Aggiungere etichette di conformità a corso/percorso di apprendimento/certificazione](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+   d. Dall&#39;elenco a discesa **Tipo di iscrizione**, scegli il tipo di iscrizione.
 
    I tipi di iscrizioni sono descritti di seguito:
 
@@ -111,7 +111,89 @@ d. Dall’elenco a discesa **Tipo di iscrizione**, scegli il tipo di iscrizione.
 14. Nel campo Ritiro automatico, seleziona una data in cui il corso viene ritirato. L’Amministratore deve prima abilitare l’opzione Ritiro automatico.
 15. Per salvare le modifiche, seleziona **[!UICONTROL Salva]**. Per pubblicare il corso, fai clic su **[!UICONTROL Pubblica]**.
 
-### Aggiungi etichette di conformità a corso/percorso di apprendimento/certificazione {#add-custom-compliance-label}
+## Configurare Gradebook per un corso {#configuregradebookforacourse}
+
+Imposta il punteggio ponderato per un corso in Adobe Learning Manager in modo che ogni Allievo riceva un punteggio aggregato calcolato dalle prestazioni del modulo e in modo che il completamento del corso possa essere legato al raggiungimento di una soglia minima del punteggio.
+
+Gradebook viene configurato a livello di corso durante la creazione di un nuovo corso. Non può essere aggiunto a un corso pubblicato esistente.
+
+>[!NOTE]
+>
+>Per consentire agli Allievi di visualizzare il Gradebook in un corso, un Amministratore deve prima abilitare **la visibilità del Gradebook** a livello di account.
+
+### Abilitare Gradebook per un corso
+
+* Accedi a Adobe Learning Manager come autore.
+* Nella barra di navigazione a sinistra, seleziona **Corsi** e quindi **Aggiungi** per creare un nuovo corso.
+* Immetti il nome del corso, la descrizione e altri dettagli obbligatori.
+* Nella sezione **Moduli**, individua l&#39;interruttore **Gradebook**.
+
+  ![](assets/image_0003.png)
+
+* Seleziona l&#39;interruttore **Gradebook** per abilitarlo. Sotto di esso vengono visualizzate due opzioni. Entrambe sono attivate per impostazione predefinita:
+  * **Mostra Gradebook agli Allievi:** Gli Allievi visualizzano una scheda **Gradebook** nel lettore del corso che mostra i punteggi del modulo, la scomposizione del peso e il risultato aggregato. Disattiva questa opzione per calcolare i livelli internamente senza esporli agli Allievi.
+  * **Includi moduli che non contribuiscono al voto finale:** I moduli non classificabili (PDF, video, audio e simili) vengono visualizzati in Gradebook. I moduli senza punteggio non contribuiscono al punteggio finale dell’Allievo.
+
+### Aggiungi moduli e assegna la ponderazione
+
+Dopo aver abilitato Gradebook, aggiungi i moduli di contenuto e assegna una percentuale di ponderazione a ciascun modulo con punteggio. Prima di poter salvare la configurazione, le percentuali di ponderazione devono essere sommate esattamente a 100.
+
+1. Selezionare **Aggiungi moduli**.
+2. Nel selettore di moduli, seleziona i moduli da aggiungere e seleziona **Aggiungi**. I moduli vengono visualizzati nella sezione **Contenuto**. I moduli con punteggio, SCORM, contenuti Captivate, AICC, xAPI, quiz nativi, moduli attività, sessioni in aula e sessioni in aula virtuale visualizzano un campo di input **Ponderazione**. I moduli senza punteggio mostrano un trattino nella colonna Peso.
+3. Immettere un valore percentuale nel campo **Ponderazione** per ogni modulo con punteggio. Un indicatore di **peso totale** si aggiorna durante la digitazione e deve raggiungere esattamente il **100%** prima di poter salvare.
+
+   ![](assets/image_0004.png)
+
+4. Per i moduli con più tipi di recapito: la ponderazione può essere assegnata solo se **tutti** i tipi di recapito nel modulo supportano il punteggio. Se un tipo di consegna non supporta il punteggio, non è possibile pesare l&#39;intero modulo.
+
+>[!NOTE]
+>
+>Non è necessario che la scala di punteggio corrisponda tra i tipi di recapito. Una sessione in classe con un punteggio su 100 e un modulo SCORM con un punteggio su 10 possono coesistere nello stesso Gradebook. La formula normalizza automaticamente ogni contributo.
+
+### Imposta il punteggio minimo di superamento
+
+* Nell’editor del corso, individua la sezione **Criteri di superamento**.
+* Nel campo **Punteggio aggregato minimo tra i moduli**, immettere una percentuale compresa tra 0 e 100.
+* Un valore di **0** indica che il corso viene completato solo in base al completamento del modulo richiesto, senza soglia di punteggio aggregata.
+* Un valore superiore a 0 indica che l’Allievo deve completare i moduli richiesti E soddisfare o superare questo punteggio aggregato.
+* Nel campo **Moduli obbligatori**, immetti il numero richiesto o selezionalo dal menu a discesa.
+
+  ![](assets/image_0005.png)
+
+* Seleziona **Salva**.
+
+Il punteggio minimo di superamento è visibile agli Allievi nella scheda **Gradebook**, in modo che conoscano la soglia prima di iniziare.
+
+### Configurare le impostazioni del punteggio per i moduli con più tentativi
+
+Quando un modulo consente più tentativi, scegliere il punteggio dei tentativi da utilizzare nel calcolo Gradebook.
+
+* Nell’editor del corso, individua un modulo per il quale sono abilitati più tentativi.
+
+  ![](assets/image_0006.png)
+
+* Individuare l&#39;impostazione **Punteggio da utilizzare** accanto al modulo.
+* Seleziona **Più recente** o **Più recente**:
+  * **Più recente:** viene sempre utilizzato il punteggio dei tentativi più recente. Un punteggio più basso in un tentativo successivo sostituisce un punteggio più alto precedente.
+  * **Massimo:** viene mantenuto il punteggio migliore di qualsiasi tentativo. Un punteggio inferiore in un tentativo successivo non riduce il punteggio memorizzato.
+
+  ![](assets/image_0007.png)
+
+* Seleziona **Salva**.
+
+### Publish del corso
+
+Dopo aver configurato tutte le impostazioni del Gradebook, pubblica il corso utilizzando il flusso di lavoro standard. Seleziona **Salva**, quindi seleziona **Publish** per rendere il corso disponibile agli Allievi.
+
+### Procedure ottimali
+
+* Assegna un fattore di ponderazione che rifletta l’importanza relativa di ciascun modulo. Assegnare percentuali più elevate ai moduli più critici per l’obiettivo di apprendimento.
+* Abilita **Mostra disegno agli Allievi** a meno che non ci sia un motivo specifico per nascondere i punteggi. Gli Allievi che possono visualizzare il peso e il punteggio di esecuzione si trovano in una posizione migliore per assegnare le priorità alle proprie attività.
+* Imposta il punteggio minimo richiesto prima dell’iscrizione degli Allievi. La modifica dopo le iscrizioni attive può influire sui completamenti in corso.
+* Usa **Massimo** per l’impostazione a tentativi multipli quando i moduli sono valutazioni che gli Allievi devono riprovare. Utilizza **Ultime** per acquisire il livello di conoscenza corrente anziché le prestazioni migliori.
+* Verifica che l&#39;indicatore **Peso totale** mostri esattamente il 100% prima di salvare.
+
+## Aggiungi etichette di conformità a corso/percorso di apprendimento/certificazione {#add-custom-compliance-label}
 
 Per aggiungere le etichette di conformità ai corsi, segui questi passaggi:
 
@@ -210,16 +292,16 @@ Puoi assegnare i punti di gamification a livello di corso e di istanza del corso
    * **[!UICONTROL Al completamento]**: seleziona questo pulsante se desideri che l’Allievo ottenga 100 punti quando completa un corso.
    * **Altre regole**
 
-      * **[!UICONTROL Completamento anticipato]**: se selezioni questa opzione, i primi 30 Allievi ottengono 100 punti quando completano un corso.
-      * **[!UICONTROL Completamento tempestivo]**: se selezioni questa opzione, gli Allievi ottengono 100 punti se completano un corso entro 999 giorni.
+     * **[!UICONTROL Completamento anticipato]**: se selezioni questa opzione, i primi 30 Allievi ottengono 100 punti quando completano un corso.
+     * **[!UICONTROL Completamento tempestivo]**: se selezioni questa opzione, gli Allievi ottengono 100 punti se completano un corso entro 999 giorni.
 
 1. Se selezioni **[!UICONTROL Usa impostazioni personalizzate]**, vengono mostrate le seguenti opzioni:
 
    * **[!UICONTROL Al completamento]**: seleziona questo pulsante se desideri che l’Allievo ottenga 100 punti quando completa un corso.
    * **Altre regole**
 
-      * **[!UICONTROL Completamento anticipato]**: se selezioni questa opzione, puoi determinare quanti Allievi riceveranno i punti specificati.
-      * **[!UICONTROL Completamento tempestivo]**: se selezioni questa opzione, puoi determinare il numero di punti che gli Allievi otterranno se completano un corso entro un periodo di tempo specificato.
+     * **[!UICONTROL Completamento anticipato]**: se selezioni questa opzione, puoi determinare quanti Allievi riceveranno i punti specificati.
+     * **[!UICONTROL Completamento tempestivo]**: se selezioni questa opzione, puoi determinare il numero di punti che gli Allievi otterranno se completano un corso entro un periodo di tempo specificato.
 
    ![punti di gamification](assets/gamification-custom-settings.png)
 
@@ -512,6 +594,10 @@ Per aggiungere un modulo di contenuto, procedi come descritto di seguito:
 
    **Modulo classe:** gli allievi partecipano di persona alle lezioni, assistiti da un Istruttore qualificato. Inserisci il titolo e la descrizione della sessione e impostane la durata. Puoi anche specificare la posizione della classe e gli Istruttori che condurranno la sessione. Per salvare le modifiche, fai clic su **[!UICONTROL Fine]**.
 
+   >[!NOTE]
+   >
+   >La possibilità di creare una nuova posizione qui dipende dall’impostazione Consenti agli autori di creare posizioni configurata dall’amministratore. Se è disabilitata, puoi cercare e selezionare solo le posizioni che l’Amministratore ha già aggiunto. Per ulteriori informazioni, visualizza [Aggiungi aule](../../../migrated/administrators/feature-summary/classroom.md).
+
    ![](assets/classroom-module.png)
 
    *Aggiungere un modulo classe*
@@ -753,8 +839,8 @@ Sebbene gli autori non eseguano valutazioni, è utile comprendere come viene uti
 * I revisori visualizzano un **campo Commenti** durante la valutazione degli Allievi
 * I revisori possono aggiungere commenti contestuali durante l’invio
 * Se abilitato:
-   * Gli Allievi visualizzano i commenti dei revisori
-   * Gli allievi visualizzano il nome del revisore
+  * Gli Allievi visualizzano i commenti dei revisori
+  * Gli allievi visualizzano il nome del revisore
 
 #### Esperienza Allievo (se attivata)
 
@@ -770,8 +856,8 @@ Ciò aiuta gli Allievi a comprendere chiaramente i risultati della valutazione e
 * Il commento dell&#39;elenco di controllo è **facoltativo** e deve essere abilitato in modo esplicito
 * La visibilità dei commenti e l&#39;identità del revisore è **completamente controllata dall&#39;autore**
 * Compatibile con:
-   * Revisori singoli o multipli
-   * Elenchi di controllo basati su punteggio, Sì/No e ridimensionati
+  * Revisori singoli o multipli
+  * Elenchi di controllo basati su punteggio, Sì/No e ridimensionati
 * Nessun impatto sugli elenchi di controllo esistenti a meno che non vengano aggiornati dall&#39;autore
 
 ### Creare un elenco di controllo multilingue
@@ -892,15 +978,15 @@ L’elenco di controllo è ora abilitato con il punteggio ponderato per le valut
 * I revisori visualizzano ogni domanda dell&#39;elenco di controllo con **punteggio massimo**
 * I revisori assegnano punteggi per domanda durante la valutazione
 * Il sistema calcola:
-   * Punteggio totale ottenuto
-   * Stato di superamento o di non superamento in base a criteri definiti
+  * Punteggio totale ottenuto
+  * Stato di superamento o di non superamento in base a criteri definiti
 
 #### Esperienza dell’Allievo
 
 * Gli Allievi visualizzano lo stato di completamento dell’elenco di controllo (esito positivo/negativo)
 * Se questa opzione è attivata, gli allievi possono anche visualizzare:
-   * Commenti del revisore
-   * Nome revisore
+  * Commenti del revisore
+  * Nome revisore
 * La logica di assegnazione del punteggio viene applicata in modo coerente nelle valutazioni
 
 #### Note per gli autori
@@ -908,8 +994,8 @@ L’elenco di controllo è ora abilitato con il punteggio ponderato per le valut
 * Gli elenchi di controllo ponderati sono più adatti per **valutazioni formali**
 * I punteggi delle domande devono essere calibrati con attenzione per evitare risultati distorti
 * Compatibile con:
-   * Revisori singoli o multipli
-   * Commenti del revisore (se attivato)
+  * Revisori singoli o multipli
+  * Commenti del revisore (se attivato)
 * Gli elenchi di controllo esistenti non sono interessati a meno che non vengano aggiornati esplicitamente.
 
 
@@ -927,7 +1013,7 @@ Per consentire agli istruttori di contrassegnare l’esito positivo dell’Allie
 6. Digitare i dettagli necessari e selezionare le date.
 7. Seleziona l&#39;opzione **[!UICONTROL Consenti all&#39;istruttore di contrassegnare l&#39;esito positivo]**.
 
-   ![L&#39;istruzione &quot;Consenti all&#39;istruttore di contrassegnare l&#39;esito positivo?&quot; la casella di controllo è evidenziata e gli autori possono consentire agli istruttori di registrare lo stato di successo dell’allievo per un modulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![La casella di controllo &quot;Consenti all’istruttore di contrassegnare l’esito positivo?&quot; è evidenziata e gli autori possono consentire agli istruttori di registrare lo stato di successo dell’Allievo per un modulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Schermata Dettagli della sessione con l’opzione Consenti all’Istruttore di contrassegnare l’esito positivo evidenziata per i moduli Classe o Classe virtuale_
 
 8. Seleziona **[!UICONTROL Fine]**.
@@ -1152,7 +1238,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
 
-Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/it/captivate/classic/publish-project-to-captivate-prime.html).
+Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacia del corso {#courseeffectiveness}
 

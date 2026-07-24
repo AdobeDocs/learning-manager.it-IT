@@ -3,10 +3,10 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '5385'
-ht-degree: 38%
+source-wordcount: '5992'
+ht-degree: 33%
 
 ---
 
@@ -128,9 +128,15 @@ La tabella seguente mostra i tipi di file interattivi e statici che è possibile
  </tbody>
 </table>
 
+## Anteprima del contenuto del corso {#previewcontentlibrary}
+
+Puoi visualizzare in anteprima il contenuto del corso una volta aggiunto alla Libreria dei contenuti. Per visualizzare l’anteprima, seleziona l’icona occhio alla fine della riga del rispettivo corso.
+
+![](assets/preview-content-library.png)
+
 ## Aggiunta di nuovi contenuti alla libreria {#addnewcontentinthelibrary}
 
-**Gli autori** possono aggiungere contenuti in ALM. In ALM sono presenti due tipi di contenuto: **[!UICONTROL Contenuto]** e **[!UICONTROL Quiz]**. Per informazioni su come aggiungere contenuti, consulta [Aggiungere contenuti statici](content-library.md#addstaticcontent) e [Creare un quiz](content-library.md##createaquiz).
+**Gli autori** possono aggiungere contenuti in ALM. In ALM sono presenti due tipi di contenuto: **[!UICONTROL Contenuto]** e **[!UICONTROL Quiz]**. Per informazioni su come aggiungere contenuti, consulta [Aggiungere contenuti statici](content-library.md#addstaticcontent) e [Creare un quiz](content-library.md#createaquiz).
 
 ## Aggiunta di contenuti statici {#addstaticcontent}
 
@@ -243,7 +249,7 @@ La libreria dei contenuti registra anche il controllo delle versioni per i conte
    La stessa visualizzazione è presente nell’**app per Allievi** e nell’**Anteprima come Allievo**.
 
    Quando **aggiungi, aggiorni o elimini** il file vtt, ricevi una notifica.
-Il supporto del formato WebVTT non è disponibile per:
+   Il supporto del formato WebVTT non è disponibile per:
 
    1. Annunci video.
    1. Video riprodotto all’interno dei contenuti di eLearning. Questo dipende dal contenuto.
@@ -425,31 +431,114 @@ Si tratta di un elenco che visualizza tutte le cartelle create nell’account.
 
 È disponibile **solo** quando un amministratore crea una nuova cartella.
 
+### Aggiungere contenuto a una cartella
+
+Quando carichi nuovi contenuti, scegli in quale cartella archiviarli durante il processo di caricamento.
+
+1. Accedi come autore e passa a **Gestisci** > **Libreria dei contenuti** oppure seleziona **Crea contenuto** dalla home page.
+
+2. Seleziona **Aggiungi** > **Contenuto** nell&#39;angolo superiore destro della pagina.
+
+3. Immetti un nome e una descrizione per il contenuto.
+
+4. In **Aggiungi file di contenuto**, trascina il file di contenuto oppure seleziona il campo da sfogliare e caricare.
+   ![](assets/cl2.png)
+
+5. In **Aggiungi alla cartella**, seleziona **Sfoglia cartelle** e seleziona la cartella in cui desideri archiviare il contenuto. Seleziona la cartella da confermare.
+   ![](assets/cl3.png)
+
+6. Seleziona **Aggiungi**.
+
+7. Completare i campi rimanenti, **Durata**, **Tag**, **ID univoco contenuto** e **Data di scadenza**, in base alle esigenze.
+
+8. Seleziona **Salva**. Il file di contenuto viene aggiunto alla raccolta di contenuti e visualizzato nella parte superiore dell&#39;elenco.
+   ![](assets/cl4.png)
+
+>[!NOTE]
+>
+>Non è possibile copiare o spostare il contenuto tra le cartelle pubbliche e private. Se tenti di farlo, Adobe Learning Manager visualizza un errore.
+
+
+## Visualizzare i percorsi delle cartelle nella Libreria dei contenuti
+
+Nella **libreria dei contenuti**, ogni file di contenuto mostra il percorso completo della cartella, ad esempio **Formazione per le vendite** > **Moduli autonomi** > **Risorse PDF**. Questo percorso indica esattamente la posizione del file all&#39;interno della gerarchia.
+
+* Se un file è presente in più cartelle, tutti i percorsi vengono visualizzati separati da virgole.
+
+* Se un percorso è lungo, viene troncato dall&#39;inizio con un&#39;ellisse (...) e viene sempre visualizzato il nome della cartella più profonda.
+
+* I contenuti pubblicati, ritirati e bozza vengono tutti visualizzati nella Libreria dei contenuti e mostrano i relativi percorsi di cartella.
+
+![](assets/cl1.png)
+
+## Filtrare il contenuto per cartella
+
+Il filtro **Cartelle** nella Libreria dei contenuti consente di restringere l&#39;elenco in modo da visualizzare solo il contenuto archiviato in cartelle specifiche.
+
+1. Nella **Libreria dei contenuti**, selezionate il menu a discesa **Cartelle** nell&#39;intestazione di colonna.
+   ![](assets/cl5.png)
+   Il menu a discesa mostra la cartella pubblica e un elenco di cartelle private. Impossibile selezionare contemporaneamente le cartelle pubbliche e private. Selezionando uno dei due, l&#39;altro viene deselezionato.
+
+2. Per filtrare in base a una cartella privata specifica:
+   * Se si seleziona una cartella **di livello 1**, vengono selezionate automaticamente tutte le sottocartelle di livello 2 e 3. Queste sottocartelle vengono visualizzate come selezionate ma non possono essere deselezionate singolarmente. Il filtro restituisce tutto il contenuto della cartella Level 1 e delle relative sottocartelle.
+   * Se si seleziona una cartella **di livello 2**, vengono selezionate automaticamente tutte le sottocartelle di livello 3.
+     ![](assets/cl6.png)
+
+3. Utilizzare la casella di ricerca a discesa per trovare una cartella per nome.
+
+4. Puoi selezionare fino a **25 cartelle** alla volta. Se selezioni più di 25, viene visualizzato un errore.
+
 ## Spostamento del contenuto nella cartella {#movecontenttofolder}
 
-Per spostare un contenuto da una cartella pubblica a una cartella privata:
+Lo spostamento del contenuto lo rimuove dalla cartella corrente e lo inserisce nella cartella di destinazione.
 
-1. Selezionare la cartella **pubblica** dall&#39;elenco a discesa **Tutte le cartelle**.
+1. Nella **Libreria dei contenuti**, selezionare la casella di controllo accanto a ogni file dei contenuti che si desidera spostare.
+2. Selezionare **Azioni** > **Organizza contenuto** > **Sposta contenuto nella cartella**. Si apre il pannello **Sposta contenuto nella cartella**.
+3. Selezionare la cartella di destinazione in cui si desidera spostare il contenuto.
+4. Selezionare **Sposta contenuto**. La Libreria dei contenuti si aggiorna per mostrare il nuovo percorso della cartella.
+
+>[!NOTE]
+>
+>Non è possibile spostare il contenuto da una cartella privata a una cartella pubblica o da una cartella pubblica a una privata.
+
+
+<!--
+
+1. Select **Public** folder from the **All Folders** drop-down list.
 
    ![](assets/list-of-public-folders.png)
 
-   *Visualizza tutti i contenuti caricati*
+   *View all uploaded content*
 
-1. Scegli il contenuto che desideri spostare in una cartella. Quindi fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Organizza contenuto]** > **[!UICONTROL Sposta contenuto nella cartella]**.
+1. Choose the content that you'd like to move it to a folder. Then click **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**. 
 
    ![](assets/move-content-to-folder.png)
 
-   *Sposta un contenuto selezionato nella cartella*
+   *Move a selected content to folder*
 
-1. Scegli la cartella in cui desideri spostare il contenuto. Fai clic su **[!UICONTROL Sposta]**.
+1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.
+-->
 
 ## Copia del contenuto nella cartella {#copycontenttofolder}
 
-Quando si copia una cartella, viene aggiunto un tag alla cartella. L’operazione di copia non consiste nella creazione di copie del contenuto, ma solo nell’aggiunta di un’associazione con le cartelle specificate.
+La copia crea un collegamento al contenuto di una cartella aggiuntiva senza rimuoverlo dalla posizione corrente. Il file di dati non viene duplicato.
+
+1. Nella **Libreria dei contenuti**, selezionare la casella di controllo accanto a ogni file dei contenuti che si desidera copiare.
+2. Selezionare **Azioni** > **Organizza contenuto** > **Copia contenuto nella cartella**. Viene aperto il pannello **Copia contenuto nella cartella**, che mostra la gerarchia delle cartelle.
+3. Selezionare la cartella o le cartelle di destinazione in cui si desidera visualizzare il contenuto.
+4. Selezionare **Copia contenuto**. La libreria dei contenuti si aggiorna per mostrare i nuovi percorsi di cartella per il contenuto copiato.
+
+>[!NOTE]
+>
+>Non è possibile copiare il contenuto da una cartella privata a una cartella pubblica o da una cartella pubblica a una privata.
+
+<!--
+Copying a folder means that you'd be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
 
 ![](assets/copy-content-to-folder.png)
 
-*Copiare una cartella*
+*Copy a folder*
+-->
 
 ## Scollegamento della cartella {#unlinkfolder}
 
@@ -464,6 +553,26 @@ Scollegare significa rimuovere il contenuto dalla cartella selezionata.
 ![](assets/unlink-a-folder.png)
 
 *Scollegare una cartella*
+
+## Aggiungere un modulo a un corso sfogliando le cartelle
+
+Quando aggiungi un modulo a ritmo personalizzato a un corso, puoi sfogliare la gerarchia delle cartelle per individuare il file di contenuti corretto invece di cercare per nome.
+
+1. Accedi come autore e passa a **Corsi** nella barra di navigazione a sinistra.
+
+2. Seleziona **Aggiungi** per creare un nuovo corso o aprire un corso esistente in modalità di modifica.
+
+3. Passa alla sezione **Moduli** e seleziona **Contenuto** > **Aggiungi moduli**.
+
+4. Nella finestra di dialogo **Seleziona tipo modulo**, seleziona **Autonomo** come tipo di modulo. Viene visualizzata la finestra di dialogo **Modulo autonomo**.
+
+5. Selezionare **Sfoglia cartelle** per aprire la gerarchia delle cartelle.
+
+6. Spostarsi tra i livelli di cartella per individuare il modulo che si desidera aggiungere. Selezionare il file di contenuto.
+
+7. Seleziona **Aggiungi**. Il modulo viene aggiunto al corso.
+
+8. Completa tutti i campi del corso rimanenti e seleziona **Salva**.
 
 ## Aggiunta di contenuto per lingue diverse {#addcontentfordifferentlanguages}
 
@@ -525,10 +634,10 @@ Nella sezione Criteri di completamento puoi impostare le opzioni indicate di seg
 * **Tentativi nei quiz:** lo stato viene segnalato come Completo se gli studenti tentano di superare il quiz, indipendentemente dal fatto che lo superino o meno.
 * **Quiz superato o limite raggiunto:** lo stato viene segnalato come Completo se gli studenti superano il quiz o hanno effettuato tutti i tentativi consentiti. Ad esempio, se il numero di tentativi impostati nel corso è pari a due:
 
-   * Se gli Allievi accettano il primo tentativo e lo superano, lo stato viene segnalato come Completato e Superato.
-   * Se gli Allievi effettuano il primo tentativo e falliscono, lo stato viene segnalato come Incompleto e Non riuscito poiché il limite dei tentativi non è ancora stato raggiunto.
-   * Se gli Allievi rispondono nuovamente al quiz ma non riescono, lo stato viene segnalato come Completato e Non riuscito.
-   * Se gli Allievi tentano di ripetere il quiz e lo superano, lo stato viene segnalato come Completato e Superato.
+  * Se gli Allievi accettano il primo tentativo e lo superano, lo stato viene segnalato come Completato e Superato.
+  * Se gli Allievi effettuano il primo tentativo e falliscono, lo stato viene segnalato come Incompleto e Non riuscito poiché il limite dei tentativi non è ancora stato raggiunto.
+  * Se gli Allievi rispondono nuovamente al quiz ma non riescono, lo stato viene segnalato come Completato e Non riuscito.
+  * Se gli Allievi tentano di ripetere il quiz e lo superano, lo stato viene segnalato come Completato e Superato.
 
 ## Impostazione dei criteri di successo {#setsuccesscriteria}
 

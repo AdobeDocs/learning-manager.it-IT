@@ -1,18 +1,18 @@
 ---
 title: Ti diamo il benvenuto nella guida utente di Adobe Learning Manager
-description: Scopri le offerte più recenti di Adobe Learning Manager (in precedenza, Adobe Captivate Prime). Partendo dall’inizio, visita ogni sezione oppure entra nella Community per seguire un progetto.
+description: Scopri le offerte più recenti di Adobe Learning Manager (in precedenza, Adobe Captivate Prime). Parti dall’inizio, visita ogni sezione singolarmente o mettiti in contatto con la community per prepararti per un progetto.
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: f384503e2e0a7833c737bfdb94bdf2ad9e3d2736
+source-git-commit: 3376f0d23e3c964360b782ce1678b533eee4e65d
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 19%
+source-wordcount: '142'
+ht-degree: 45%
 
 ---
 
 # Ti diamo il benvenuto nella guida utente di Adobe Learning Manager
 
-Continua a leggere per scoprire cosa ti offre Adobe Learning Manager (in precedenza Adobe Captivate Prime). Partendo dall’inizio, visita ogni sezione oppure entra nella Community per seguire un progetto.
+Continua a leggere per scoprire cosa ti offre Adobe Learning Manager (in precedenza Adobe Captivate Prime). Parti dall’inizio, visita ogni sezione singolarmente o mettiti in contatto con la community per prepararti per un progetto.
 
 ## Partecipa alla conversazione {#jointheconversation}
 
@@ -35,7 +35,7 @@ Visita la [community degli utenti Adobe Learning Manager](https://community.adob
     <a href="system-requirements.md">
     <img alt="requisiti di sistema" src="assets/prime-reqs.jpeg">
     </a>
-    <a href="whats-new.md"><strong>Requisiti di sistema </strong></a>
+    <a href="system-requirements.md"><strong>Requisiti di sistema</strong></a>
     </p>
    </td>
    <td>

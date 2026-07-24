@@ -2,13 +2,13 @@
 description: Ulteriori informazioni su come le impostazioni di base consentono di personalizzare Adobe Learning Manager in base alla struttura dell’organizzazione e all’esperienza degli Allievi
 jcr-language: en_us
 title: Impostazioni di base
-source-git-commit: c5fa60b3c08d4ec007d632febb353e3c8da234ba
+exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
+source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
 workflow-type: tm+mt
-source-wordcount: '4494'
-ht-degree: 4%
+source-wordcount: '5914'
+ht-degree: 3%
 
 ---
-
 
 # Impostazioni di base in Adobe Learning Manager
 
@@ -106,8 +106,8 @@ Per ottimizzare i tassi di risposta, è buona norma configurare i promemoria aut
 2. **Definire la pianificazione del promemoria**: nel pannello **Impostazioni promemoria** visualizzato, utilizza i menu a discesa e i campi di input per configurare il promemoria:
 
    a. **[!UICONTROL Quando inviare]**: seleziona se il promemoria viene inviato **[!UICONTROL Al completamento del corso]** o **[!UICONTROL Dopo il completamento del corso]**.
-b. **[!UICONTROL Ricorrenza]**: seleziona la frequenza del promemoria, ad esempio Ogni settimana.
-c. **[!UICONTROL Per]**: specifica la durata totale (in settimane) per cui verranno inviati i promemoria, ad esempio 4 settimane.
+   b. **[!UICONTROL Ricorrenza]**: seleziona la frequenza del promemoria (ad esempio, Ogni settimana).
+   c. **[!UICONTROL Per]**: specifica la durata totale (in settimane) per cui verranno inviati i promemoria, ad esempio 4 settimane.
 
 3. **[!UICONTROL Salvare il promemoria]**: seleziona l&#39;icona del segno di spunta blu per salvare la nuova configurazione del promemoria. Puoi ripetere questa procedura per aggiungere altri promemoria, se necessario.
 
@@ -140,7 +140,7 @@ Per garantire che i manager forniscano feedback tempestivi, è necessario impost
 1. **[!UICONTROL Aggiungi un nuovo promemoria]**: per creare un nuovo promemoria, seleziona il collegamento **[!UICONTROL Aggiungi nuovo promemoria]**.
 2. **[!UICONTROL Definire la pianificazione del promemoria]**: nel pannello **[!UICONTROL Impostazioni promemoria]**, seleziona i menu a discesa e i campi di input per configurare il promemoria:
 a. **[!UICONTROL Quando inviare]**: seleziona quando inviare il promemoria. Le opzioni disponibili sono: **[!UICONTROL Al completamento del corso]** e **[!UICONTROL Dopo il completamento del corso]**.
-b. **[!UICONTROL Ricorrenza]**: seleziona la frequenza del promemoria. Se la ricorrenza è **[!UICONTROL Una volta]**, significa che il manager riceverà una notifica per fornire feedback. Le opzioni disponibili sono: Una volta, Ogni giorno, Ogni settimana e Ogni mese.
+b. **[!UICONTROL Ricorrenza]**: seleziona la frequenza del promemoria. Se la ricorrenza è **[!UICONTROL Once]**, significa che il manager riceverà una notifica per fornire feedback. Le opzioni disponibili sono: Una volta, Ogni giorno, Ogni settimana e Ogni mese.
 3. Dopo aver impostato la pianificazione, seleziona l’icona del segno di spunta blu per salvare la configurazione del promemoria. Il promemoria viene visualizzato nell’elenco dei promemoria esistenti.
 
    ![testo alternativo](../settings/assets/Picture9.png)
@@ -238,6 +238,10 @@ Adobe Learning Manager dispone di una determinata terminologia di prodotto per d
 
 Per ulteriori informazioni, consultate Terminologia del prodotto in Adobe Learning Manager.
 
+### Crediti
+
+Quando questa opzione è attivata, gli Autori e gli Istruttori possono registrare il numero di crediti di istruzione per ogni sessione o modulo. I crediti rappresentano il tempo di istruzione in cui un Allievo riceve un credito per aver completato l’attività. I valori dei crediti vengono visualizzati nelle trascrizioni degli Allievi e nei report di apprendimento e contribuiscono al calcolo della durata totale per i percorsi di apprendimento. Se si disattiva questa impostazione, i valori di credito immessi in precedenza vengono mantenuti e ripristinati se l&#39;impostazione viene riattivata.
+
 ### Aggiornamento della versione del modulo
 
 Questa opzione consente agli Amministratori di aggiornare il contenuto di un modulo senza interrompere l’avanzamento degli Allievi già iscritti ai corsi contenenti tale modulo. Ciò garantisce che gli Allievi possano continuare il loro percorso di apprendimento senza problemi, mentre gli Autori possono mantenere aggiornati i contenuti. Con l’opzione attivata, gli autori possono caricare una nuova versione di un modulo (ad esempio, pacchetti SCORM, AICC o xAPI) per sostituire quella esistente.
@@ -260,6 +264,10 @@ Questa opzione elimina gli utenti che non accedono a Adobe Learning Manager per 
 * Gli utenti interni che sono stati inattivi per una durata definita vengono eliminati automaticamente.
 * Gli utenti vengono avvisati prima dell&#39;eliminazione, dando loro l&#39;opportunità di accedere e impedire la rimozione.
 * Per ripristinare l’accesso, un utente eliminato deve contattare l’amministratore dell’account.
+
+### Rimozione automatica utenti eliminati
+
+Rimuovi automaticamente e definitivamente gli utenti dal sistema che si trovano nello stato Eliminato per un periodo di tempo specificato. Una volta rimossi, tutti i dati utente associati vengono rimossi definitivamente e non possono essere recuperati.
 
 ### Mostra Etichette catalogo
 
@@ -395,6 +403,215 @@ Questa funzione è particolarmente utile per le organizzazioni che vendono più 
 *Checkpoint semplificato: riduce la necessità per gli Allievi di effettuare acquisti separati per ogni elemento del corso di formazione.
 * Gestione delle SKU: gli Amministratori possono gestire le SKU per corsi, percorsi di apprendimento e certificazioni per garantire il tracciamento e la creazione di report corretti.
 
+### Corsi/percorsi alternativi
+
+Quando gli Allievi completano un corso/percorso, è possibile contrassegnare come completato un altro insieme di corsi/percorsi specificato tramite l’opzione Alternativa. Ciò è utile quando i corsi coprono contenuti equivalenti o sovrapposti. Ad esempio, quando un nuovo corso sostituisce una versione precedente o quando esistono varianti internazionali dello stesso corso di formazione. Gli Allievi non vengono iscritti automaticamente ai corsi/percorsi contrassegnati come completati tramite alternativo e riceveranno solo crediti, distintivi e punti per il corso/percorso effettivamente completato. I completamenti alternativi vengono visualizzati nella Trascrizione Allievo e vengono conteggiati ai fini di qualsiasi percorso di apprendimento o certificazione che include il corso alternativo.
+
+**Attivazione dei completamenti retroattivi (irreversibile)**
+Se gli Allievi hanno completato un corso/percorso in precedenza e un altro corso/percorso viene aggiunto successivamente in Corsi/percorsi alternativi, questi verranno contrassegnati anche come completati tramite alternativa per gli Allievi. Ciò si applica retroattivamente a tutti i completamenti passati, non solo alle iscrizioni in futuro. Utilizza questa opzione se desideri che i completamenti storici vengano conteggiati per i corsi alternativi appena aggiunti. Una volta attivata, questa opzione non può essere disattivata.
+
+**Attiva incompletamenti retroattivi (irreversibili)**
+Se un corso/percorso viene rimosso da Corsi/percorsi alternativi, gli Allievi che erano stati precedentemente contrassegnati come completati tramite alternativi verranno contrassegnati come incompleti. Ciò riguarda tutti gli Allievi il cui completamento era basato solo sull’alternativa, non quelli che hanno completato direttamente il corso. La loro trascrizione rifletterà lo stato incompleto aggiornato. Una volta attivata, questa opzione non può essere disattivata.
+
+### Visibilità Gradebook
+
+Quando questa opzione è attivata, gli Autori possono controllare la visibilità dei grafici a livello di corso, consentendo agli Allievi di visualizzare i punteggi ponderati del modulo, il punteggio del corso aggregato e lo stato di superamento/fallimento direttamente nel lettore del corso. Se questa impostazione è disattivata a livello di account, gli Allievi non possono visualizzare il Gradebook in alcun corso, indipendentemente dalla configurazione dei singoli corsi. I punteggi e i calcoli dei Gradebook continuano a essere eseguiti in background per scopi di reporting da parte dell&#39;amministratore anche quando la visibilità dell&#39;Allievo è disattivata.
+
+**Abilita visualizzazione Gradebook per gli Allievi**
+
+Attiva l’autorizzazione a livello di account che consente agli Autori di mostrare o nascondere il libro di testo per corso. Una volta abilitata questa opzione, gli Autori visualizzano un’opzione Mostra graduato agli allievi nell’editor del corso. Gli Allievi vedranno una scheda Gradebook nel lettore del corso per qualsiasi corso in cui l’Autore lo abbia abilitato. La disattivazione di questa impostazione a livello di account sovrascrive tutte le configurazioni a livello di corso. Gli Allievi non visualizzeranno il Gradebook in alcun corso fino a quando l’impostazione non verrà riabilitata.
+
+### Apprendimento esterno
+
+Quando questa opzione è attivata, gli Allievi possono inviare e tenere traccia delle attività di apprendimento completate al di fuori di Adobe Learning Manager, ad esempio certificazioni, workshop, conferenze e corsi esterni, direttamente dal loro dashboard Allievo. Gli invii vengono esaminati e approvati dal diretto manager dell’Allievo prima di essere registrati. Una volta approvata, l’attività di apprendimento esterna viene aggiunta alla Trascrizione Allievo e viene conteggiata ai fini del record di apprendimento complessivo dell’Allievo. Gli Amministratori possono configurare i campi che gli Allievi devono compilare quando inviano un’attività di apprendimento esterna, inclusi i campi personalizzati specifici dell’organizzazione.
+
+**Abilita**
+
+Attiva la funzione di apprendimento esterno per tutti gli Allievi dell’account. Una volta abilitato, un modulo di invio diventa disponibile sulla dashboard Allievo. Gli Allievi possono immettere dettagli quali il nome del corso di formazione, la durata, la data, il punteggio e la prova di completamento. L&#39;invio viene inviato al proprio manager per la revisione e l&#39;approvazione. Gli invii approvati vengono visualizzati nella Trascrizione Allievo e nei report dell’Amministratore. Gli invii rifiutati non vengono registrati nella trascrizione.
+
+>[!NOTE]
+>
+>L’attivazione di questa impostazione aggiunge nuove colonne alla Trascrizione Allievo per gli invii di apprendimento esterni. Se la tua organizzazione utilizza flussi di lavoro automatizzati o integrazioni per l’elaborazione dei dati di trascrizione degli Allievi, prima di abilitare questa opzione rivedi tali flussi di lavoro automatizzati per garantire la compatibilità con la struttura di trascrizione aggiornata.
+
+L’apprendimento esterno è un tipo di attività di apprendimento per la formazione fuori piattaforma. Gli Allievi lo utilizzano per registrare corsi di formazione che non esistono in Adobe Learning Manager, ad esempio un esame di certificazione di settore, una conferenza professionale, una sessione di mentoring o un corso accademico.
+
+1. Un **Allievo** compila un modulo di invio con i dettagli del corso di formazione esterno e facoltativamente carica la prova di completamento.
+
+2. Il **manager** dell’Allievo riceve una notifica per esaminare l’invio e lo approva o lo rifiuta con un commento facoltativo.
+
+3. Al momento dell’approvazione, l’invio viene aggiunto alla **Trascrizione Allievo**, dove gli Amministratori possono visualizzarlo e creare report.
+
+Questo flusso di lavoro consente alle organizzazioni di combinare i corsi di formazione obbligatori per la conformità in-platform con l&#39;apprendimento ad-hoc e autogestito completato dal personale nel mondo reale e di tenere traccia di entrambi in un unico sistema.
+
+L’apprendimento esterno è una funzionalità configurabile. Gli Amministratori determinano se il modulo è disponibile per gli Allievi, quali campi vengono visualizzati nel modulo di invio e se ogni campo è obbligatorio o facoltativo. I campi personalizzati possono essere aggiunti per acquisire informazioni specifiche dell’organizzazione, ad esempio un tipo di corso di formazione o un numero di riferimento del certificato.
+
+### Ciclo di vita stato invio
+
+Ogni invio di apprendimento esterno si sposta attraverso un set definito di stati:
+
+| **Stato** | **Significato** |
+|-------------------|--------------------------------------------------------------------------------|
+| In attesa di approvazione | L’Allievo ha inviato la richiesta; la richiesta è in attesa di revisione da parte del Manager. |
+| Approvato | Il Manager ha approvato l’invio; viene visualizzato nella Trascrizione Allievo. |
+| Rifiutato | Il manager ha rifiutato l’invio; l’Allievo può inviare una nuova richiesta. |
+
+Un Allievo può modificare un inoltro mentre è in stato **In attesa di approvazione**. Una volta che un Manager entra in azione, l’invio non può più essere modificato. Se un inoltro viene rifiutato, l’Allievo invia una nuova richiesta di apprendimento esterno anziché modificare quella rifiutata.
+
+### Disponibilità e visibilità delle funzioni
+
+Gli amministratori controllano la disponibilità dell’apprendimento esterno tramite un’unica impostazione a livello di account:
+
+**Quando è abilitato l’apprendimento esterno:**
+
+* Gli Allievi visualizzano la scheda **Apprendimento esterno** nella navigazione e possono inviare nuove richieste
+* I Manager visualizzano la scheda **Apprendimento esterno** nel dashboard del team e possono rivedere gli invii
+* Le Trascrizioni per Amministratori e Allievi includono dati di apprendimento esterni per gli invii approvati
+
+**Quando l’apprendimento esterno è disattivato:**
+
+* Gli Allievi che non hanno inviato in precedenza non vedono un’interfaccia di apprendimento esterna
+
+* Gli Allievi che hanno inviato in precedenza possono ancora visualizzare la cronologia e lo stato degli invii, ma non possono creare nuovi invii
+
+* I Manager mantengono l’accesso alla scheda Apprendimento esterno se il loro team ha inviato in precedenza; in caso contrario, la scheda viene rimossa.
+
+* I dati di trascrizione esistenti per gli invii approvati non sono interessati
+
+#### Campi principali
+
+Questi campi sono disponibili per tutti gli account per impostazione predefinita. Gli Amministratori possono scegliere quali campi mostrare nel modulo di invio dell’Allievo e contrassegnarli come obbligatori o facoltativi.
+
+| **Campo** | **Tipo** | **Note** |
+| --- | --- | --- |
+| Titolo | Testo | Il nome dell’apprendimento esterno, del corso o della certificazione. |
+| Descrizione/note | Testo | L’Allievo può aggiungere dettagli sul provider di formazione o sul contesto. |
+| Data/Intervallo di date | Data/ora | Data di inizio, data di fine o entrambe. Supporta ore, minuti, settimana, mese, giorni o anno. |
+| Durata | Durata (ore) | Tempo impiegato per la formazione esterna. |
+| Punteggio | Numero | Punteggio ricevuto dall’Allievo, se applicabile. |
+| Allegati | Caricamento file | Prova di completamento. L’Allievo può inviare un certificato, una trascrizione o altra documentazione. |
+
+#### Campi personalizzati
+
+Gli amministratori possono aggiungere fino a 10 campi personalizzati per acquisire informazioni aggiuntive specifiche dell’organizzazione. I campi personalizzati supportano i seguenti tipi:
+
+| **Tipo** | **Descrizione** |
+|------------|------------------------------------------------------------------|
+| Testo | Inserimento di testo in formato libero. |
+| Numero | Ingresso numerico. |
+| Casella di controllo | Alternare un singolo sì/no. |
+| A discesa | Selezione singola da un elenco di opzioni definito dall&#39;amministratore. |
+
+### Prove di completamento dei requisiti dei file
+
+* **Tipi di file supportati:** PDF, DOC, DOCX, PNG, JPEG, JPG
+
+* **Dimensione massima file:** 50 MB per allegato
+
+#### Cosa controllano gli Amministratori per l’apprendimento esterno
+
+L’apprendimento esterno è **disabilitato per impostazione predefinita** per tutti gli account. È necessario abilitarla esplicitamente prima che gli Allievi possano inviare richieste o prima che i Manager possano visualizzare la scheda Revisione.
+
+Quando attivi apprendimento esterno:
+
+* Gli Allievi possono accedere alla scheda **Apprendimento esterno** e inviare nuove richieste
+
+* I Manager ottengono l&#39;accesso alla scheda di revisione **Apprendimento esterno**
+
+* Le Trascrizioni per Amministratori e Allievi ottengono le colonne di reporting per le attività di apprendimento esterne approvate. Una volta abilitato l’apprendimento esterno, può influire sui report Trascrizione Allievo. Se la tua organizzazione utilizza i dati della Trascrizione Allievo per l’automazione, esamina e aggiorna i flussi di lavoro dipendenti per tenere conto dei nuovi campi di apprendimento esterni e dei nuovi record.
+
+Quando disabiliti l’apprendimento esterno dopo che è stato in uso:
+
+* I nuovi invii degli Allievi sono bloccati
+
+* Gli Allievi con approvazione inviata in sospeso possono essere modificati
+
+* I manager con invii precedenti possono ancora agire su richieste in sospeso
+
+* I dati di trascrizione per gli invii approvati in precedenza restano invariati
+
+* Puoi riattivare la funzione in qualsiasi momento. Quando la funzione è disattivata, non si perdono dati.
+
+#### Abilita o disabilita l’apprendimento esterno
+
+**Attenzione:** l’abilitazione dell’apprendimento esterno aggiunge nuove colonne alla Trascrizione Allievo amministratore: **Nome apprendimento esterno**, **Commento di completamento** ed eventuali campi personalizzati configurati per l’account. Le colonne dei campi personalizzati vengono visualizzate alla fine della trascrizione.
+
+Se l’organizzazione utilizza Trascrizione Allievo nelle pipeline di reporting a valle o nei flussi di lavoro automatizzati, aggiorna tali sistemi per gestire le nuove colonne prima di abilitare questa funzione.
+
+1. Accedi a Adobe Learning Manager come amministratore.
+
+2. Nel riquadro di navigazione a sinistra, seleziona **Impostazioni**.
+
+3. Selezionare **Generale**.
+
+4. Scorri fino alla sezione **Apprendimento esterno**.
+
+5. Seleziona la casella di controllo **Abilita apprendimento esterno** per abilitare la funzione.
+
+6. Seleziona **Salva**.
+
+Gli Allievi ora possono inviare richieste di apprendimento esterne. I loro manager riceveranno le notifiche nella piattaforma quando vengono creati gli invii.
+
+Per disattivare la funzione, segui gli stessi passaggi e disabilita l&#39;opzione.
+
+#### Configurazione del modulo di apprendimento esterno
+
+Dopo aver attivato la funzione, configura i campi da visualizzare nel modulo di invio per gli allievi.
+
+1. In **Impostazioni > Generali**, apri la sezione **Apprendimento esterno**.
+
+2. In **Configurazione modulo**, verifica l’elenco dei campi predefiniti.
+
+3. Seleziona la casella di controllo accanto a ogni campo per visualizzarlo o nasconderlo nel modulo Allievo.
+
+4. Per ogni campo visibile, seleziona **Obbligatorio** per controllare se gli Allievi devono completarlo prima di inviarlo.
+
+5. Seleziona **Salva**.
+
+**Nota:** il campo **Titolo** è sempre obbligatorio e non può essere nascosto o reso facoltativo.
+
+Il modulo di invio per gli Allievi riflette immediatamente le modifiche. Gli invii esistenti non sono interessati dalle modifiche alla configurazione dei moduli.
+
+#### Aggiungi e gestisci campi personalizzati
+
+Puoi aggiungere fino a 10 campi personalizzati per acquisire informazioni specifiche per la tua organizzazione.
+
+**Aggiungi un campo personalizzato**
+
+1. In **Impostazioni > Generali**, apri la sezione **Apprendimento esterno**.
+
+2. Espandere **Campi personalizzati**.
+
+3. Selezionare **Nuovo campo**.
+
+4. Selezionare un **tipo di campo**: **testo**, **numero**, **casella di controllo** o **elenco a discesa**.
+
+   1. Se selezioni **Menu a discesa**, immetti l’elenco di valori tra cui gli Allievi possono scegliere. Puoi aggiungere fino a 100 valori a discesa.
+
+   2. Digitare il nome del campo ed eventualmente la relativa descrizione.
+
+5. Selezionare o deselezionare l&#39;opzione **Obbligatorio** per i nuovi campi personalizzati.
+
+6. Seleziona **Salva**.
+
+Il nuovo campo viene visualizzato immediatamente nel modulo di invio per gli Allievi.
+
+**Modificare un campo personalizzato**
+
+1. In **Impostazioni > Generali**, apri la sezione **Apprendimento esterno**.
+
+2. Accanto al campo personalizzato che desideri modificare, seleziona **Modifica**.
+
+3. Aggiorna il nome del campo o, per i campi a discesa, aggiungi, modifica o rimuovi valori.
+
+4. Seleziona **Salva**.
+
+La modifica del nome di un campo o dei valori del menu a discesa non modifica i dati già acquisiti negli invii esistenti. Solo i nuovi invii utilizzano le etichette e le opzioni aggiornate.
+
+**IMPORTANTE**
+
+Una volta aggiunto un campo personalizzato, non è possibile eliminarlo. Puoi solo modificarlo. Se desideri che un campo non venga visualizzato nel modulo di un Allievo, deseleziona il campo.
+
+
 ### Impostazioni del lettore
 
 Questa opzione consente agli Autori di personalizzare il lettore Fluidic per diversi corsi a livello di corso. Gli Autori possono configurare la modalità di visualizzazione dei contenuti di formazione per gli Allievi nel lettore. Ciò include le impostazioni relative alla lingua del contenuto, alle preferenze dell’interfaccia e alle opzioni di riproduzione.
@@ -406,9 +623,9 @@ I Manager possono contrassegnare il completamento del corso tramite:
 
 * Modulo Elenco di controllo: il modulo Elenco di controllo consente ai Manager di valutare le prestazioni degli Allievi in base a task o criteri specifici. Gli Autori devono abilitare questo modulo durante la creazione del corso e assegnare i Manager come revisori.
 * Pagina del corso: Nella pagina del corso:
-a.    Seleziona la scheda **[!UICONTROL Allievi]** nel riquadro a sinistra.
-b.    Seleziona l’Allievo di cui desideri contrassegnare la partecipazione.
-c.    Selezionare **[!UICONTROL Azioni]** > **[!UICONTROL Contrassegna Completamento]**.
+a. Seleziona la scheda **[!UICONTROL Allievi]** nel riquadro a sinistra.
+b. Seleziona l’Allievo di cui desideri contrassegnare la partecipazione.
+c. Seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Contrassegna completamento]**.
 
 **Note aggiuntive:**
 
@@ -422,16 +639,16 @@ Questa opzione consente agli Autori di ritirare i contenuti di formazione (corsi
 1. Una volta ritirati, gli Allievi iscritti saranno in grado di visualizzare ed eseguire azioni, ma gli Allievi non ancora iscritti perderanno l’accesso:
 a. Allievi iscritti:
 i. Gli Allievi già iscritti al corso o al percorso di apprendimento ritirato possono ancora accedere al contenuto.
-ii. Possono continuare a eseguire azioni come il completamento del corso o la visualizzazione del materiale.
+ii. Possono continuare a eseguire azioni quali il completamento del corso o la visualizzazione del materiale.
 b. Allievi non ancora iscritti:
-i. Gli Allievi che non si sono iscritti al corso o al percorso di apprendimento prima del ritiro non potranno più visualizzare i contenuti nel catalogo.
-ii. Perderanno completamente l&#39;accesso ai contenuti ritirati.
+i. Gli Allievi che non si sono iscritti al corso o al percorso di apprendimento prima del ritiro non vedranno più il contenuto nel catalogo.
+ii. Perderanno interamente l&#39;accesso ai contenuti ritirati.
 2. Una volta ritirati, sia gli Allievi iscritti che quelli non ancora iscritti perderanno l’accesso:
 a. Allievi iscritti:
-i. Gli Allievi già iscritti al corso o al percorso di apprendimento perderanno l’accesso ai contenuti una volta ritirati.
+i. Gli Allievi già iscritti al corso o al percorso di apprendimento perderanno l’accesso al contenuto una volta ritirato.
 ii. Non potranno più visualizzare o eseguire azioni sui contenuti ritirati.
 b. Allievi non ancora iscritti:
-i. Anche gli Allievi che non si sono iscritti al corso o al percorso di apprendimento perderanno l’accesso poiché i contenuti non verranno più visualizzati nel catalogo.
+i. Anche gli Allievi che non si sono iscritti al corso o al percorso di apprendimento perderanno l’accesso poiché il contenuto non sarà più visualizzato nel catalogo.
 
 ### Ritira automaticamente
 
@@ -459,11 +676,3 @@ Le abilità dei provider di contenuti esterni vengono aggiunte al repository di 
 2. Seleziona un provider di contenuti dal menu a discesa **[!UICONTROL Seleziona origine abilità]**.
 3. Seleziona **[!UICONTROL Salva]**.
 Una volta attivata, l’opzione è irreversibile. Non è possibile disattivare o passare a un&#39;altra sorgente in un secondo momento.
-
-
-
-
-
-
-
-

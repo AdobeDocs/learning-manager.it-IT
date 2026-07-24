@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Lettore Fluidic
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 48%
+source-wordcount: '650'
+ht-degree: 52%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 48%
 
 Leggi questo articolo per apprendere come utilizzare il lettore Fluidic per i corsi.
 
-Il lettore Fluidic è una piattaforma che consente agli Allievi di visualizzare i contenuti senza interruzioni, per un’esperienza di apprendimento davvero integrata. Tutti i formati supportati vengono riprodotti in modo uniforme in questo lettore. Gli Autori e gli Amministratori possono visualizzare in anteprima il contenuto mediante il lettore.
+Il lettore Fluidic è una piattaforma che consente agli Allievi di visualizzare i contenuti senza interruzioni, per un’esperienza di apprendimento davvero integrata. Tutti i formati supportati vengono riprodotti in modo coerente nel lettore. Gli Autori e gli Amministratori possono visualizzare in anteprima il contenuto mediante il lettore.
 
 ## Funzionalità del lettore {#playerfeatures}
 
@@ -38,7 +38,7 @@ Il lettore Fluidic è una piattaforma che consente agli Allievi di visualizzare 
 * Facendo clic su Rivedi quando il corso è stato completato.
 * Facendo clic su Continua quando il corso non è ancora stato completato.
 
-**Schermo intero** Fai clic sull&#39;icona Schermo intero nell&#39;angolo in basso a destra del lettore per visualizzare il corso nella finestra a schermo intero.
+**Schermo intero** Fai clic sull’icona Schermo intero nell’angolo inferiore destro del lettore per visualizzare il corso in una finestra a schermo intero.
 
 **Pulsanti di navigazione** Utilizza le frecce su/giù per scorrere le diapositive nel contenuto in formato pdf, docx e pptx. I tasti freccia della diapositiva possono essere utilizzati per passare agli argomenti successivi per tutti i tipi di contenuto.
 
@@ -70,3 +70,18 @@ Il lettore mobile Fluidic dispone delle seguenti funzioni:
 * Se la barra di navigazione non interagisce con, scompare dopo 3 secondi.
 * La barra di navigazione rimarrà attiva fino alla chiusura delle voci del menu di navigazione (Sommario, Note, Impostazioni).
 
+**Supporto per 11 lingue**: il lettore Fluidic supporta 11 lingue. :
+
+| Lingua | Territorio | Identificatore IBM |
+|---|---|---|
+| Arabo | Arabia Saudita | ar-SA |
+| Cinese tradizionale | Hong Kong R.A.S. della Cina | zh-Hant-HK |
+| Cinese tradizionale | Taiwan | zh-Hant-TW |
+| Ceco | Repubblica Ceca | cs-CZ |
+| Danese | Danimarca | da-DK |
+| Ebraico | Israele | he-IL |
+| Ungherese | Ungheria | hu-HU |
+| Indonesiano | Indonesia | id-ID |
+| Rumeno | Romania | ro-RO |
+| Tailandese | Thailandia | th-TH |
+| Ucraino | Ucraina | uk-UA |
