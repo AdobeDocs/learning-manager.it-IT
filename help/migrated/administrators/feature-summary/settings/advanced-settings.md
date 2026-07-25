@@ -3,9 +3,9 @@ description: Ulteriori informazioni sulla configurazione delle impostazioni avan
 jcr-language: en_us
 title: Impostazioni avanzate in Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2391'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,10 @@ Le cartelle dei contenuti privati supportano fino a tre livelli di nidificazione
 
 Questa struttura offre alle organizzazioni la flessibilità di rispecchiare l&#39;organizzazione dei contenuti reali, in base all&#39;area tematica, al tipo di distribuzione, al pubblico o al team, anziché gestire migliaia di file in un elenco semplice.
 
-Solo gli amministratori possono creare, modificare o eliminare le cartelle a qualsiasi livello. Autori e utenti personalizzati interagiscono con la gerarchia ma non possono modificarla.
+>[!NOTE]
+>
+>Solo gli amministratori possono creare, modificare o eliminare le cartelle a qualsiasi livello. Autori e utenti personalizzati interagiscono con la gerarchia ma non possono modificarla. Inoltre, gli amministratori personalizzati con accesso a qualsiasi cartella di livello principale possono creare, modificare o eliminare le cartelle in tale cartella principale.
+
 
 ### Regole di denominazione delle cartelle
 
@@ -71,7 +74,7 @@ I nomi delle cartelle devono essere univoci all’interno dello stesso livello a
 
 ### Come vengono visualizzati i percorsi delle cartelle
 
-Nella Libreria dei contenuti viene visualizzato il percorso completo della cartella di ogni file di contenuto. Ad esempio, **Programmi di formazione** > **Onboarding** > **Risorse SCORM**. Questo percorso mostra la posizione completa del contenuto.
+Nella Libreria dei contenuti viene visualizzato il percorso completo della cartella di ogni file di contenuto. Ad esempio, **Programmi di formazione** / **Onboarding** / **Risorse SCORM**. Questo percorso mostra la posizione completa del contenuto.
 
 Se un file è presente in più cartelle, tutti i percorsi vengono visualizzati separati da virgole. Se un percorso è lungo, viene troncato dall&#39;inizio con un&#39;ellisse (...) e viene sempre visualizzato il nome della cartella più profonda.
 
@@ -140,7 +143,7 @@ Con una struttura a tre livelli:
 
 * Livello 3: moduli o risorse specifici per area geografica (PDF delle normative sulla privacy, Policy deck locali, file di valutazione)
 
-I team di autori regionali possono accedere solo alle filiali di livello 1 o 2. Possono trovare, aggiornare e riutilizzare solo le risorse pertinenti alla loro giurisdizione senza visualizzare o modificare accidentalmente il contenuto di un&#39;altra area geografica.
+Nel caso di autori locali, essendo un ruolo personalizzato, è possibile selezionare solo la cartella di livello 1 durante la creazione di un ruolo personalizzato. La selezione della cartella di livello 2 non è un&#39;opzione. Possono trovare, aggiornare e riutilizzare solo le risorse pertinenti alla loro giurisdizione senza visualizzare o modificare accidentalmente il contenuto di un&#39;altra area geografica.
 
 **Caso di utilizzo 2 - Programma di onboarding su larga scala con molti ruoli**
 
@@ -212,7 +215,7 @@ In qualità di amministratore di Adobe Learning Manager, puoi creare e gestire l
 Prima di procedere con l’eliminazione, tieni presente le seguenti regole:
 
 * È possibile eliminare una cartella vuota a qualsiasi livello.
-* Non è possibile eliminare una cartella se contiene contenuto non collegato ad altre cartelle. Sposta prima il contenuto in un’altra cartella.
+* È possibile eliminare solo le cartelle vuote. Le cartelle contenenti contenuto non possono essere eliminate, indipendentemente dal fatto che il contenuto sia collegato ad altre cartelle o meno.
 * Quando si elimina una cartella principale, vengono eliminate anche tutte le relative sottocartelle. Quando selezionate una cartella principale, vengono selezionati automaticamente tutti i relativi elementi secondari.
 
 #### Eliminare la cartella principale

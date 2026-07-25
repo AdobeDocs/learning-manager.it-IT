@@ -3,9 +3,9 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '5992'
+source-wordcount: '6048'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Quando carichi nuovi contenuti, scegli in quale cartella archiviarli durante il 
 4. In **Aggiungi file di contenuto**, trascina il file di contenuto oppure seleziona il campo da sfogliare e caricare.
    ![](assets/cl2.png)
 
-5. In **Aggiungi alla cartella**, seleziona **Sfoglia cartelle** e seleziona la cartella in cui desideri archiviare il contenuto. Seleziona la cartella da confermare.
+5. In **Aggiungi alla cartella**, sfoglia la cartella o cerca la cartella nel campo di ricerca.
    ![](assets/cl3.png)
 
 6. Seleziona **Aggiungi**.
@@ -461,7 +461,7 @@ Quando carichi nuovi contenuti, scegli in quale cartella archiviarli durante il 
 
 ## Visualizzare i percorsi delle cartelle nella Libreria dei contenuti
 
-Nella **libreria dei contenuti**, ogni file di contenuto mostra il percorso completo della cartella, ad esempio **Formazione per le vendite** > **Moduli autonomi** > **Risorse PDF**. Questo percorso indica esattamente la posizione del file all&#39;interno della gerarchia.
+Nella **Libreria dei contenuti**, ogni file di contenuto mostra il percorso completo della cartella, ad esempio **Formazione alle vendite** / **Moduli autonomi** / **Risorse PDF**. Questo percorso indica esattamente la posizione del file all&#39;interno della gerarchia.
 
 * Se un file è presente in più cartelle, tutti i percorsi vengono visualizzati separati da virgole.
 
@@ -490,16 +490,17 @@ Il filtro **Cartelle** nella Libreria dei contenuti consente di restringere l&#3
 
 ## Spostamento del contenuto nella cartella {#movecontenttofolder}
 
-Lo spostamento del contenuto lo rimuove dalla cartella corrente e lo inserisce nella cartella di destinazione.
+Lo spostamento del contenuto lo rimuove dalla cartella corrente e lo inserisce nella cartella di destinazione. È possibile selezionare più cartelle private nella finestra di dialogo per spostare il contenuto. Tuttavia, non è possibile selezionare contemporaneamente cartelle pubbliche e private. È possibile selezionare più cartelle private o una singola cartella pubblica.
 
 1. Nella **Libreria dei contenuti**, selezionare la casella di controllo accanto a ogni file dei contenuti che si desidera spostare.
 2. Selezionare **Azioni** > **Organizza contenuto** > **Sposta contenuto nella cartella**. Si apre il pannello **Sposta contenuto nella cartella**.
 3. Selezionare la cartella di destinazione in cui si desidera spostare il contenuto.
 4. Selezionare **Sposta contenuto**. La Libreria dei contenuti si aggiorna per mostrare il nuovo percorso della cartella.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Non è possibile spostare il contenuto da una cartella privata a una cartella pubblica o da una cartella pubblica a una privata.
+>Potete spostare il contenuto da una cartella pubblica a una cartella privata e viceversa. Tuttavia, non è possibile spostare il contenuto in cartelle pubbliche e private nella stessa azione. Se si seleziona una cartella pubblica, non è possibile selezionare alcuna cartella privata e viceversa.
+
 
 
 <!--
