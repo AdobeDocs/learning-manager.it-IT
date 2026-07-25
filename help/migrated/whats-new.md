@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di aprile
 jcr-language: en_us
 title: Novità della versione di agosto 2026 di Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
+source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Funzionalità principali:
 * Massimo 10 percorsi di apprendimento personalizzati visibili nella home page dell’Allievo
 * I percorsi completati possono essere condivisi con i colleghi
 
-Per ulteriori informazioni, consulta [Assistente AI per gli Allievi](/help/migrated/learners/feature-summary/learning-path-agent.md).
+Per ulteriori informazioni, consulta [Agente del percorso di apprendimento](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 ### Agente Insights
 
