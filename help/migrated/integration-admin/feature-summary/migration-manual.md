@@ -3,9 +3,9 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
+source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
 workflow-type: tm+mt
-source-wordcount: '9158'
+source-wordcount: '9051'
 ht-degree: 36%
 
 ---
@@ -1269,17 +1269,6 @@ Adobe Learning Manager convalida ogni riga in course_module_user_group.csv prima
 Se stai eseguendo la migrazione dei contenuti di apprendimento da un’altra piattaforma a Adobe Learning Manager e desideri mantenere l’organizzazione delle cartelle esistente, puoi utilizzare i file CSV per creare una struttura gerarchica di cartelle e associare i file di contenuti alle cartelle appropriate.
 
 Questa migrazione viene in genere eseguita come parte di una migrazione di piattaforma più ampia, dopo che utenti, corsi, moduli e file di contenuti sono già stati importati in Adobe Learning Manager. Questo passaggio di migrazione riorganizza il contenuto nella struttura di cartelle presente nel sistema di origine.
-
-### Prerequisiti
-
-Prima di avviare la migrazione della cartella dei contenuti, verificare quanto segue:
-
-| Prerequisiti | Perché è importante |
-| --- | --- |
-| La funzione Cartelle dei contenuti gerarchici è abilitata per l’account | Se questa funzione non è attiva, la migrazione non riesce. In caso di dubbi, contatta l’Adobe. |
-| Un progetto di migrazione è stato creato nello strumento di migrazione | Tutti i file CSV devono essere eseguiti in un progetto di migrazione per il supporto del tracciamento e della riesecuzione. |
-| Utenti, corsi, moduli e file di contenuti sono già stati migrati (fasi 1-4 della migrazione). | La migrazione delle cartelle è una fase 5, in cui vengono organizzati i contenuti che devono già esistere in Adobe Learning Manager. |
-| L&#39;account amministratore dispone dell&#39;autorizzazione per l&#39;esecuzione della migrazione | Richiesto per attivare gli sprint di migrazione. |
 
 ### Funzionalità della migrazione
 
