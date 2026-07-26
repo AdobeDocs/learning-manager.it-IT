@@ -2,9 +2,9 @@
 description: Tutte le informazioni sulla Gradiva dal punto di vista dell’Allievo
 jcr-language: en_us
 title: Gradebook per gli Allievi
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 45338a2325a1d6b4c31869399acf3331c65afed7
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Puoi aprire la scheda **Gradebook** in qualsiasi momento durante l&#39;iscrizion
 
 * **Prima di iniziare:** Dopo l&#39;iscrizione, viene visualizzato l&#39;elenco completo dei moduli con punteggio con le relative percentuali di peso, i punteggi massimi per ciascuno e i criteri di superamento impostati dall&#39;autore. Questo mostra esattamente come viene valutato il corso prima di iniziare.
 * **Durante l&#39;esecuzione:** mentre si completano moduli e punteggi, il grafico viene aggiornato in modo da mostrare i punteggi ottenuti insieme ai moduli non ancora tentati o in attesa di valutazione.
-* **Dopo aver completato:** il grafico mostra tutti i punteggi finali del modulo, il punteggio aggregato del corso calcolato e un risultato **Superato** nell&#39;intestazione.
+* **Dopo aver completato:** il grafico mostra tutti i punteggi finali del modulo, il punteggio aggregato del corso calcolato e un risultato del **punteggio finale** nell&#39;intestazione.
 
 ## Visualizzare il grafico
 
@@ -78,8 +78,8 @@ Ogni modulo nel blocco appunti mostra uno dei seguenti stati:
 ![](assets/image_0012.png)
 
 | **Stato** | **Cosa significa** |
-|------------|-------------------|
-| **Completato** | Modulo completato e punteggio registrato |
+| ------------ | ------------------- |
+| **Superato** | Modulo completato e punteggio registrato |
 | **In corso** | Modulo avviato ma non ancora completato |
 | **Non avviato** | Modulo non ancora aperto |
 | **Non riuscito** | Il modulo ha ottenuto un punteggio e non ha raggiunto la soglia di superamento del modulo |
