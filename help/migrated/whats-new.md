@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di aprile
 jcr-language: en_us
 title: Novità della versione di agosto 2026 di Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Funzionalità principali:
 * Esplora le cartelle durante la selezione dei moduli durante la creazione del corso
 
 Per ulteriori informazioni sulle funzionalità a livello di amministratore, vedere [Cartelle dei contenuti gerarchici](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). Per ulteriori informazioni sulle funzionalità a livello di autore, vedere [Cartelle dei contenuti gerarchici](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
+
+Se stai eseguendo la migrazione dei contenuti di apprendimento da un’altra piattaforma a Adobe Learning Manager e desideri mantenere l’organizzazione delle cartelle esistente, puoi utilizzare i file CSV per creare una struttura gerarchica di cartelle e associare i file di contenuti alle cartelle appropriate. Ulteriori informazioni sulla migrazione in [Migrare la gerarchia delle cartelle dei contenuti](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
 ## Live Hub
 
