@@ -2,9 +2,9 @@
 description: Tutte le informazioni necessarie per abilitare il Gradebook e renderlo visibile ad autori e allievi
 jcr-language: en_us
 title: Gradebook per l'amministratore
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ Prima che gli Autori possano mostrare il libro di schemi agli Allievi in un cors
 
 L’impostazione **Visibilità gradebook** in **Impostazioni** > **Generali** determina se agli autori è consentito esporre il gradebook agli allievi a livello di corso.
 
+Per ulteriori informazioni, consulta [Visibilità dei grafici](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility).
+
 | Stato impostazione | Effetto |
 | --- | --- |
 | Abilitato | Gli autori possono controllare la visibilità dei gradebook per corso utilizzando l’opzione **Mostra gradebook agli allievi** nell’editor del corso. Gli Allievi visualizzano la scheda **Gradebook** nei corsi in cui è stata abilitata dall’Autore. |
 | Disattivata | Gli allievi non possono visualizzare il Gradebook in alcun corso. Se è disattivata, la configurazione del corso non avrà l’impostazione per mostrare il libro paga agli Allievi. |
-
 
 Ciò significa che l’impostazione a livello di account e l’impostazione a livello di corso funzionano insieme. Entrambi devono essere abilitati affinché un Allievo possa visualizzare il libro di testo.
 
