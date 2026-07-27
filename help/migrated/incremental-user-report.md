@@ -2,9 +2,9 @@
 description: L’API per l’elaborazione incrementale dei report sugli utenti consente agli amministratori di esportare solo gli utenti i cui dati sono stati modificati entro un determinato intervallo di date. In questo modo non è più necessario esportare tutti gli utenti e viene consentita una sincronizzazione più efficiente dei record utente nuovi o aggiornati.
 jcr-language: en_us
 title: Report utente incrementale (API dei processi)
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: aad13507c56f0c2020a97e809edd9fa0b223479f
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1576'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Tipo di processo: generateUsers. Solo ruolo di amministratore.
 
 ## Report utente incrementale (generateUserIncrementalReport)
 
-In questa sezione viene documentata la nuova funzione di report incrementale per gli utenti introdotta in M46. Questo è l&#39;oggetto principale di questo documento.
+In questa sezione viene documentata la nuova funzione - Report utente incrementale.
 
 ## Che cos’è un’esportazione incrementale?
 
@@ -323,6 +323,4 @@ Il report incrementale dell&#39;utente è intenzionalmente incluso nell&#39;ambi
 
 Il report utente incrementale è progettato per essere utilizzato nei connettori Adobe Learning Manager (Power BI, Salesforce e altri) come sostituzione a discesa del report utente completo nelle normali pipeline di sincronizzazione. Ciò consente ai connettori che utilizzano attualmente generateUsers di eseguire la migrazione al modello incrementale senza modifiche allo schema dei dati downstream.
 
-&#x200B;* Il file CSV di output è compatibile con le colonne per il report completo dell’utente.
-&#x200B;* I connettori possono utilizzare il report incrementale per la sincronizzazione differenziale e tornare al report completo per il bootstrap o il ripristino.
-&#x200B;* Supporto per l’integrazione dei connettori (PowerBI, SFDC)
+I connettori possono utilizzare il report incrementale per la sincronizzazione differenziale e tornare al report completo per il bootstrap o il ripristino.

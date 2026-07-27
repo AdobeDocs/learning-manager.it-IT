@@ -5,8 +5,8 @@ title: Guida introduttiva come Allievo
 contentowner: manochan
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 78%
+source-wordcount: '735'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Nell’applicazione Web Learning Manager, dopo aver effettuato l’accesso come 
 
 **Le mie abilità**: puoi inoltre visualizzare la mappa delle abilità nell’angolo superiore destro della pagina. Per ulteriori informazioni, fai riferimento alla funzionalità [mappa abilità](skills-levels.md).
 
-**Widget Oggetto di apprendimento**: si trova proprio sotto Il mio apprendimento e mostra gli oggetti di apprendimento per l’utente. Sotto Il mio apprendimento, puoi visualizzare tutti i [corsi](courses.md), i [programmi di apprendimento](learning-programs.md) e le [certificazioni](certifications.md) a cui hai effettuato l’iscrizione o che ti sono state assegnate. Da questo widget è possibile iniziare direttamente a utilizzare un oggetto di apprendimento o rivisitarne uno.
+**Widget Oggetto di apprendimento**: si trova proprio sotto Il mio apprendimento e mostra gli oggetti di apprendimento per l’utente. Sotto Il mio apprendimento vengono visualizzati tutti i°[corsi](courses.md),°[programmi di apprendimento](learning-programs.md) e°[certificazioni](certifications.md) a cui sei iscritto o assegnato. Da questo widget è possibile iniziare direttamente a utilizzare un oggetto di apprendimento o rivisitarne uno.
 
 **Calendario di apprendimento**: questo widget visualizza l’elenco degli elementi di apprendimento imminenti e pianificati nell’organizzazione per ciascun trimestre. Se ti sei iscritto a un corso specifico, lo stato di iscrizione sarà Iscritto.
 
@@ -42,13 +42,13 @@ Se accedi a Learning Manager tramite iPad o tablet Android, fai riferimento alla
 
 La linea temporale di apprendimento mostra la pianificazione dei corsi che l’Allievo è tenuto a completare. In questa sezione, puoi visualizzare gli avvisi per tutti i corsi e i programmi di apprendimento in ordine crescente di scadenza. Le scadenze per ognuna delle attività di apprendimento vengono visualizzate nel riquadro a sinistra.
 
-Fai clic su ciascun oggetto di apprendimento nella sezione a sinistra per visualizzare le informazioni corrispondenti come schede del corso nel riquadro a destra. Puoi fare clic sul riquadro del corso, del programma di apprendimento o della certificazione per visualizzare le informazioni complete di ciascun oggetto di apprendimento.
+Fai clic su ciascun oggetto di apprendimento nella sezione a sinistra per visualizzare le informazioni corrispondenti come schede del corso nel riquadro a destra. Puoi fare clic sul titolo di certificazione/programma di apprendimento/corso per visualizzare le informazioni complete relative a ogni oggetto di apprendimento.
 
 Passa il mouse sull’area della linea temporale per visualizzare la barra di scorrimento sul lato destro. Utilizza la barra di scorrimento per scorrere verso l’alto o il basso e visualizzare più avvisi.
 
 ## Utenti dell’applicazione per iPad e Android {#ipadandandroidappusers}
 
-Nell’app Learning Manager per iPad o tablet Android, dopo aver effettuato l’accesso come Allievo, puoi visualizzare le informazioni nella scheda Home come segue:
+Nell’app di Learning Manager per iPad o tablet Android, dopo aver effettuato l’accesso come Allievo, puoi visualizzare le informazioni nella°Scheda Pagina iniziale°come indicato di seguito:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
@@ -60,7 +60,7 @@ Per accedere alle funzionalità di apprendimento e del catalogo, tocca il menu a
 
 Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non sei in linea. Scarica e segui i corsi in modalità non in linea e sincronizza il contenuto nell’app online appena sei connesso alla rete.
 
-1. Tocca Menu a discesa in alto e tocca Opzione di apprendimento. Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
+1. Tocca il menu a discesa°Menu°nella sezione superiore, quindi tocca l’opzione°Apprendimento. Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
 1. Tocca l’icona di download nella parte inferiore di ogni riquadro relativo agli oggetti di apprendimento per scaricare il contenuto di apprendimento.
 
    ![](assets/download-ipad.png)
@@ -70,7 +70,7 @@ Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non
 **Controllo dell’archiviazione dispositivo**
 
 È possibile controllare periodicamente l’archiviazione del dispositivo.\
-Tocca l’icona profilo nell’angolo superiore destro dell’app, quindi tocca l’opzione di menu **Archiviazione dispositivo**.
+Tocca l’icona profilo nell’angolo superiore destro dell’app, quindi tocca l’opzione di menu°**Archiviazione dispositivo**.
 
 ![](assets/device-storage-option-ipad.png)
 

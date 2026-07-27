@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
 title: Integrazione Adobe Connect
-description: In qualità di Allievo, puoi usufruire dei corsi di aula virtuale utilizzando Adobe Connect se l’azienda integra Adobe Connect con l’account Learning Manager. Se non riesci a usare Adobe Connect, contatta l’amministratore della tua azienda.
+description: Come Allievo puoi usufruire dei corsi di aula virtuale mediante Adobe Connect se l’azienda consente di integrare Adobe Connect nell’account Learning Manager. °Se non è possibile utilizzare Adobe Connect, contatta°l’amministratore della tua società.
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '285'
+ht-degree: 93%
 
 ---
 
 # Integrazione Adobe Connect
 
-In qualità di Allievo, puoi usufruire dei corsi di aula virtuale utilizzando Adobe Connect se l’azienda integra Adobe Connect con l’account Learning Manager. Se non riesci a usare Adobe Connect, contatta l’amministratore della tua azienda.
+Come Allievo puoi usufruire dei corsi di aula virtuale mediante Adobe Connect se l’azienda consente di integrare Adobe Connect nell’account Learning Manager. °Se non è possibile utilizzare Adobe Connect, contatta°l’amministratore della tua società.
 
 ## Segui corsi di aula virtuale Adobe Connect {#consumeadobeconnectvirtualclassroomcourses}
 
@@ -35,4 +35,4 @@ Se desideri ascoltare le sessioni dell’aula virtuale registrate, fai clic sul 
 
 >[!NOTE]
 >
->In genere, gli URL delle sessioni registrate vengono visualizzati nell’applicazione Learning Manager due ore dopo il completamento della sessione.
+>Di norma, gli URL delle sessioni registrate vengono visualizzati nell’applicazione Learning Manager due ore dopo il completamento della sessione.

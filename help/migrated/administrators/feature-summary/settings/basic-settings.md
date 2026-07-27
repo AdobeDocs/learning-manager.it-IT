@@ -3,9 +3,9 @@ description: Ulteriori informazioni su come le impostazioni di base consentono d
 jcr-language: en_us
 title: Impostazioni di base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '5914'
+source-wordcount: '5921'
 ht-degree: 3%
 
 ---
@@ -413,13 +413,13 @@ Se gli Allievi hanno completato un corso/percorso in precedenza e un altro corso
 **Attiva incompletamenti retroattivi (irreversibili)**
 Se un corso/percorso viene rimosso da Corsi/percorsi alternativi, gli Allievi che erano stati precedentemente contrassegnati come completati tramite alternativi verranno contrassegnati come incompleti. Ciò riguarda tutti gli Allievi il cui completamento era basato solo sull’alternativa, non quelli che hanno completato direttamente il corso. La loro trascrizione rifletterà lo stato incompleto aggiornato. Una volta attivata, questa opzione non può essere disattivata.
 
-### Visibilità Gradebook
+### Visibilità Gradebook {#gradebookvisibility}
 
 Quando questa opzione è attivata, gli Autori possono controllare la visibilità dei grafici a livello di corso, consentendo agli Allievi di visualizzare i punteggi ponderati del modulo, il punteggio del corso aggregato e lo stato di superamento/fallimento direttamente nel lettore del corso. Se questa impostazione è disattivata a livello di account, gli Allievi non possono visualizzare il Gradebook in alcun corso, indipendentemente dalla configurazione dei singoli corsi. I punteggi e i calcoli dei Gradebook continuano a essere eseguiti in background per scopi di reporting da parte dell&#39;amministratore anche quando la visibilità dell&#39;Allievo è disattivata.
 
 **Abilita visualizzazione Gradebook per gli Allievi**
 
-Attiva l’autorizzazione a livello di account che consente agli Autori di mostrare o nascondere il libro di testo per corso. Una volta abilitata questa opzione, gli Autori visualizzano un’opzione Mostra graduato agli allievi nell’editor del corso. Gli Allievi vedranno una scheda Gradebook nel lettore del corso per qualsiasi corso in cui l’Autore lo abbia abilitato. La disattivazione di questa impostazione a livello di account sovrascrive tutte le configurazioni a livello di corso. Gli Allievi non visualizzeranno il Gradebook in alcun corso fino a quando l’impostazione non verrà riabilitata.
+Attiva l’autorizzazione a livello di account che consente agli Autori di mostrare o nascondere il libro di testo per corso. Una volta abilitata questa opzione, gli Autori visualizzano un’opzione Mostra graduato agli allievi nell’editor del corso. Gli Allievi vedranno una scheda Gradebook nel lettore del corso per qualsiasi corso in cui l’Autore lo abbia abilitato. La disattivazione di questa impostazione a livello di account sovrascrive tutte le configurazioni a livello di corso. Gli Allievi non visualizzeranno il Gradebook in alcun corso fino a quando l’impostazione non verrà riabilitata. Per ulteriori informazioni, consulta [Gradebook per l&#39;amministratore](/help/migrated/administrators/feature-summary/alm-admin-gradebook.md).
 
 ### Apprendimento esterno
 

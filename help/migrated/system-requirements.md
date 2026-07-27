@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 62%
+source-wordcount: '605'
+ht-degree: 81%
 
 ---
 
@@ -65,7 +65,7 @@ Per la registrazione audio è necessario un microfono; per la registrazione vide
 
 >[!NOTE]
 >
->Il browser mobile supporta solo il ruolo di Allievo in **layout immersivo**.
+>Il browser mobile supporta solo il ruolo di Allievo nel **layout immersivo**.
 
 >[!NOTE]
 >
@@ -86,9 +86,9 @@ La pagina principale del layout immersivo non è supportata sul browser IE 11.
 ## Dimensioni immagini consigliate {#recommendedsizeofimages}
 
 * Titolo:
-   * Per impostazioni di grandi dimensioni: 1280 x 360 PX
-   * Per impostazioni come medie: 1280 x 273 PX
-   * Per impostazioni di dimensioni ridotte: 1280 x 187 PX
+  * Per impostazioni di grandi dimensioni: 1280 x 360 PX
+  * Per impostazioni come medie: 1280 x 273 PX
+  * Per impostazioni di dimensioni ridotte: 1280 x 187 PX
 * Immagine nella scheda del catalogo: 280 x 100 px
 * Dimensioni della scheda di formazione: 300 x 240 px
 * Banner social: 1600 x 240 px
@@ -222,13 +222,13 @@ Si consiglia di importare file *user.csv* di grandi dimensioni utilizzando il fl
    <td>
     <p>Distintivo esteso nell’applicazione Allievo</p></td>
    <td>
-    <p>90 x 90 pixel</p></td>
+    <p>90x90 pixel</p></td>
   </tr>
   <tr>
    <td>
     <p>Immagine del profilo utente negli obiettivi Allievo</p></td>
    <td>
-    <p>100 x 100 pixel</p></td>
+    <p>100x100 pixel</p></td>
   </tr>
   <tr>
    <td>

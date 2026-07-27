@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
 source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 42%
+source-wordcount: '1316'
+ht-degree: 51%
 
 ---
 
@@ -41,7 +41,7 @@ Viene fornito un set di cinque immagini rappresentative per visualizzare in ante
 
 **Seleziona un tema**
 
-Fai clic su **[!UICONTROL Mostra suggerimenti]** sotto questa sezione per visualizzare i suggerimenti sull&#39;immagine come mostrato di seguito.
+Fai clic su **[!UICONTROL Mostra suggerimenti]** sotto questa sezione per visualizzare i suggerimenti sull’immagine come mostrato di seguito.
 
 ![](assets/themes-preview-images.png)
 
@@ -81,7 +81,7 @@ Fai clic su **[!UICONTROL Anteprima Live]** nell’angolo inferiore sinistro del
 
 *Finestra a comparsa Anteprima dal vivo*
 
-Sceglie il tema desiderato dall’elenco a discesa, regola le impostazioni e fai clic su **[!UICONTROL Anteprima]** per visualizzare le modifiche dal vivo nell’applicazione. Ora è possibile esaminare tutte le funzionalità dell’applicazione e verificare le modifiche. Puoi anche modificare i ruoli durante l’anteprima Live. Una volta che sei soddisfatto delle modifiche, puoi tornare alla funzione a comparsa Anteprima tema dal vivo e fare clic su **[!UICONTROL Applica tema]**.
+Sceglie il tema desiderato dall’elenco a discesa, regola le impostazioni e fai clic su **[!UICONTROL Anteprima]** per visualizzare le modifiche dal vivo nell’applicazione. Ora è possibile esaminare tutte le funzionalità dell’applicazione e verificare le modifiche. Puoi anche modificare i ruoli durante l’anteprima Live. Una volta apportate le modifiche necessarie, puoi tornare alla finestra a comparsa di anteprima Live del tema e fare clic su **[!UICONTROL Applica tema]**.
 
 Durante l’anteprima Live delle modifiche, la finestra a comparsa di anteprima Live del tema rimane visualizzata nella parte inferiore della schermata. Puoi scegliere di ridurre a icona la finestra a comparsa.
 
@@ -146,7 +146,7 @@ Nell’elenco seguente vengono visualizzati i componenti personalizzabili. Per p
     <p> </p>
     <ul>
      <li>Solo fino a 12 colori personalizzati. </li>
-     <li>I colori vengono applicati a tutti gli oggetti di apprendimento. I colori verranno applicati in sequenza a tutti gli oggetti di apprendimento (corsi di formazione) e il codice colore esadecimale è il formato richiesto per tutti i colori, ad esempio#ffffff.</li>
+     <li>I colori vengono applicati a tutti gli oggetti di apprendimento. I colori verranno applicati in sequenza a tutti gli oggetti di apprendimento (corsi di formazione) e per tutti i colori è necessario utilizzare il codice colore esadecimale, ad esempio #ffffff.</li>
      <li>Se viene fornito un solo colore, tale colore viene applicato a tutti gli oggetti di apprendimento.</li>
     </ul>
     <p> </p></td>
@@ -165,7 +165,7 @@ Nell’elenco seguente vengono visualizzati i componenti personalizzabili. Per p
   <tr>
    <td>
     <p>Immagine dell’icona di avanzamento</p></td>
-   <td>Visualizzata durante lo spostamento da una pagina all’altra. Presente dove viene visualizzato il file gif di avanzamento di 4 quadrati. 
+   <td>Visualizzato durante lo spostamento tra le pagine. Presente dove viene visualizzato il file gif di avanzamento di 4 quadrati. 
     <ul>
      <li>Dimensioni consigliate: inferiore o uguale a 32x32 px</li>
      <li>Formato immagine consigliato: GIF, PNG, JPG</li>
@@ -238,7 +238,7 @@ Nella pagina **Generale** sono disponibili le seguenti opzioni:
   </tr>
   <tr>
    <td>
-    <p>Richiedi agli utenti di selezionare le aree di interesse (abilità) <br></p></td>
+    <p>Richiedi agli utenti di selezionare le aree di interesse (competenze) <br></p></td>
    <td>
     <p>Vale solo per le esperienze immersive. Scegli <strong>Sì</strong> o <strong>No</strong>. </p></td>
   </tr>
