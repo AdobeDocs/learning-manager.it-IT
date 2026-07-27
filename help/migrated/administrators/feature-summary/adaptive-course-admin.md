@@ -3,9 +3,9 @@ description: Consegna di un corso a più gruppi di destinatari controllando i mo
 jcr-language: en_us
 title: Corsi adattivi in Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: cf30b15313599f8206b668709f245c3e388d3aa8
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,15 @@ I corsi adattivi possono essere aggiunti ai cataloghi all’interno del tuo acco
 | Condivisione di cataloghi (tra account) | No |
 | Regole di visibilità sui moduli di verifica o di preparazione alla lavorazione | No |
 | Regole di visibilità sui moduli di contenuto di base | Sì |
+| Corso adattivo in un percorso di apprendimento flessibile | Sì |
+
+>[!NOTE]
+>
+>Quando si scarica il **PDF del report di partecipazione** per una sessione all’interno di un corso adattivo che fa parte di un percorso di apprendimento Flex, gli Allievi in lista d’attesa vengono visualizzati nella sezione Attivo del PDF. L’interfaccia del percorso di apprendimento non dispone di una sezione Waitlist dedicata, pertanto non esiste un bucket separato per la lista d’attesa nell’esportazione PDF. Per identificare con precisione gli Allievi nella lista d’attesa, prima di contrassegnare la partecipazione controlla **Amministratore > [Corso adattivo] > Lista d’attesa**.
+
+La colonna **Incorporato in** nel report Lista di attesa identifica le istanze del percorso di apprendimento Flex che contengono questo corso adattivo come componente. Mostra il nome del percorso di apprendimento e l’ID dell’oggetto di apprendimento. Non mostra i percorsi di iscrizione dei singoli allievi. Per i corsi adattivi nidificati all’interno di un percorso di apprendimento secondario che si trova esso stesso all’interno di un percorso di apprendimento principale, in questa colonna viene visualizzato solo il percorso di apprendimento principale diretto.
+
+Quando il corso adattivo fa parte di una **certificazione ricorrente**, il completamento dell’aggiornamento si applica solo all’iscrizione dell’Allievo nel ciclo di certificazione radice. I cicli ricorrenti successivi contengono un&#39;istanza separata del corso adattivo non interessata dall&#39;aggiornamento. Gli Allievi iscritti a un ciclo ricorrente non visualizzano gli aggiornamenti del modulo o i loro completamenti vengono ripristinati. Se la tua organizzazione utilizza corsi adattivi nelle certificazioni ricorrenti, comunica questa limitazione agli amministratori prima di attivare i completamenti dell’aggiornamento.
 
 >[!NOTE]
 >

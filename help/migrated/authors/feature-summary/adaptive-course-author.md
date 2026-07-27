@@ -3,9 +3,9 @@ description: Come Autore, scopri come creare corsi adattivi per gli Allievi.
 jcr-language: en_us
 title: Corsi adattativi per Autori
 contentowner: mmanuel
-source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '3038'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,18 @@ Una volta pubblicato, il corso è disponibile per l’iscrizione. Quando aprono 
 >
 >Una volta pubblicato, il corso non può essere modificato da Adattivo a Normale o viceversa. Verifica la configurazione prima della pubblicazione.
 
+### Comportamento di condivisione del catalogo
+
+Quando un catalogo contenente corsi adattivi viene condiviso esternamente a un account condiviso tra pari, vengono applicati i seguenti comportamenti:
+
+* **Corsi adattativi condivisi direttamente:** I corsi adattativi sono esclusi dal catalogo condiviso. Non sono presenti nel conto di destinazione.
+* **Corsi adattativi all&#39;interno di un percorso di apprendimento o di una certificazione:** Se un programma di apprendimento o una certificazione che contiene un corso adattivo viene condiviso, l&#39;LP o la certificazione stessa viene copiata nell&#39;account di ricezione. Il corso adattivo al suo interno viene copiato come **corso regolare**: la configurazione adattiva, incluse tutte le regole di visibilità e completamento, non viene copiata. Gli Autori nell’account di destinazione visualizzano il corso come un corso regolare con tutti i moduli visibili a tutti gli Allievi.
+* **Corsi adattativi impostati come prerequisiti:** Se un corso adattivo è configurato come prerequisito per un corso, un percorso di apprendimento o una certificazione regolare condivisi, la relazione prerequisiti non viene propagata all&#39;account di destinazione. Il corso principale o l’LO arriva nell’account di ricezione senza prerequisito.
+
+>[!NOTE]
+>
+>Poiché le configurazioni adattive non vengono copiate durante la condivisione del catalogo, prima di condividere un catalogo esternamente esaminare tutte le relazioni dei prerequisiti e le strutture di LP/certificazione. Gli Allievi nell’account di destinazione non riscontreranno lo stesso comportamento adattivo degli Allievi nell’account di origine.
+
 
 ### Aggiornamento di un corso adattivo pubblicato
 
@@ -140,6 +152,14 @@ Tieni presente che non è più possibile modificare le impostazioni di visibilit
 | Modulo cambiato da obbligatorio a facoltativo per il gruppo di utenti di un Allievo | Il modulo rimane visibile; l’Allievo non deve più completarlo per il completamento del corso. |
 | Aggiunta del nuovo modulo obbligatorio (l’Allievo ha già completato il corso) | Il modulo diventa visibile per l’Allievo, ma questi non ottiene né accesso automatico a un posto né vi accede. Il nuovo modulo diventa accessibile solo quando viene attivato il completamento di un aggiornamento. |
 
+>[!NOTE]
+>
+>**Percorso di apprendimento ordinato:** Quando un corso adattivo è incluso in un percorso di apprendimento ordinato, gli Allievi che non dispongono di moduli visibili nel corso adattivo non possono completarlo. In questo modo si impedisce che tutti gli elementi successivi nel percorso di apprendimento ordinato diventino accessibili. Assicurati che ogni Allievo iscritto al percorso di apprendimento appartenga ad almeno un gruppo di utenti che renda visibile almeno un modulo in ogni corso adattivo del percorso.
+
+>[!NOTE]
+>
+>**Percorso di apprendimento regolare - annullamento automatico dell’iscrizione:** quando un Allievo viene annullato automaticamente dall’iscrizione a un corso adattivo all’interno di un percorso di apprendimento regolare perché una modifica del gruppo di utenti ha rimosso tutti i moduli visibili, lo stato del percorso di apprendimento principale rimane iscritto. L’iscrizione al percorso di apprendimento non viene annullata automaticamente. L’Allievo ritiene che il percorso di apprendimento sia stato iscritto alla trascrizione anche se il corso adattivo non è più accessibile. Se i casi di utilizzo richiedono che l’iscrizione al percorso di apprendimento venga annullata anche quando si tratta di un corso adattivo, utilizza un **percorso di apprendimento adattivo** invece di un percorso di apprendimento regolare.
+
 ### Comportamento cambio di istanza
 
 Un Allievo che passa a un’altra istanza di un corso adattivo prosegue il suo avanzamento:
@@ -159,10 +179,16 @@ Quando un Allievo si iscrive a un corso adattivo che include moduli aula o aula 
 * Se tutte le sessioni visibili in aula o in aula virtuale hanno postazioni disponibili, l’Allievo è iscritto e ha accesso completo immediatamente.
 * Se una o più sessioni visibili non hanno postazioni disponibili, l’Allievo viene iscritto e immediatamente inserito in lista d’attesa solo per tali sessioni specifiche. Possono iniziare e progredire immediatamente attraverso tutti gli altri moduli.
 
+### Limite della lista d’attesa
+
+Nei corsi normali, gli istruttori possono configurare un **limite della lista d’attesa**, un limite al numero di allievi che possono essere inseriti nella lista d’attesa per una sessione.
+
+Nei corsi adattivi, l’impostazione **Limite della lista d’attesa** è disabilitata nell’app dell’istruttore e non può essere configurata. Non esiste un limite al numero di allievi che possono essere inseriti in lista d’attesa per una sessione di un corso adattivo. Tutti gli Allievi che tentano di iscriversi quando una sessione è completa vengono inseriti in lista d’attesa senza limitazioni.
+
 La tabella seguente descrive tutti gli scenari di postazioni e liste di attesa per i corsi adattivi.
 
 | Condizione al momento dell’iscrizione | Risultato |
-|---|---|
+| --- | --- |
 | Tutte le sessioni CR/VC visibili hanno postazioni disponibili | Iscritto con accesso completo a tutti i moduli |
 | Una o più sessioni in aula virtuale visibili sono piene | Iscritto; in lista d’attesa solo per le sessioni complete; tutti gli altri moduli immediatamente accessibili |
 | Allievo già iscritto; l’autore aggiunge una nuova sessione obbligatoria in aula/aula virtuale senza postazioni | L’Allievo era in lista d’attesa per la nuova sessione; l’avanzamento esistente e l’accesso non sono stati influenzati |
@@ -170,6 +196,12 @@ La tabella seguente descrive tutti gli scenari di postazioni e liste di attesa p
 | La modifica del gruppo di utenti rimuove una sessione dal set visibile dell’Allievo | Posti liberati immediatamente |
 | L’Allievo completa il corso; diventa visibile una nuova sessione obbligatoria in aula/aula virtuale | Modulo visibile ma senza sedile assegnato automaticamente. L’Allievo deve attivare il completamento dell’aggiornamento per accedere alla sessione. |
 | L’Amministratore o l’Istruttore assegna i posti | Tutte le sessioni in aula in aula in aula per classe virtuale per quell’Allievo vengono cancellate contemporaneamente |
+
+>[!NOTE]
+>
+>**Comportamento del percorso di apprendimento Flex:** quando un corso adattivo fa parte di un percorso di apprendimento Flex, il comportamento della lista d&#39;attesa differisce dall&#39;iscrizione diretta. Se un Allievo seleziona un’istanza del corso adattivo all’interno dell’LP Flex e non sono disponibili postazioni per quell’istanza, viene inserito in lista d’attesa per quell’istanza specifica. Le informazioni sugli Allievi in lista d’attesa per questo scenario sono visibili solo da **Amministratore > [Corso adattivo] > Lista d’attesa** — non vengono visualizzate in **Amministratore > Percorso di apprendimento**. Controlla la scheda Waitlist del corso adattivo per gestire gli Allievi inseriti in una lista d’attesa tramite un programma di apprendimento Flex.
+
+Quando scarichi il **PDF del report di partecipazione** per una sessione di un corso adattivo che fa parte di un percorso di apprendimento Flex, gli Allievi in lista d’attesa vengono visualizzati nella sezione **Active** del PDF. Questo perché l’interfaccia del percorso di apprendimento non dispone di una sezione in lista d’attesa separata. Utilizza **Amministratore > [Corso adattivo] > Lista d’attesa** per identificare gli Allievi in lista d’attesa e distinguerli dai partecipanti confermati prima di contrassegnare la partecipazione.
 
 ### Visualizza la lista d’attesa
 
