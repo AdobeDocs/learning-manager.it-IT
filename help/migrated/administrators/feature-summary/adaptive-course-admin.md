@@ -3,9 +3,9 @@ description: Consegna di un corso a più gruppi di destinatari controllando i mo
 jcr-language: en_us
 title: Corsi adattivi in Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
+source-git-commit: cf30b15313599f8206b668709f245c3e388d3aa8
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -113,10 +113,18 @@ I corsi adattivi possono essere aggiunti ai cataloghi all’interno del tuo acco
 >
 >Quando un percorso di apprendimento o una certificazione contenente un corso adattivo viene condiviso esternamente, l’account ricevente vede il percorso di apprendimento o la certificazione nel proprio catalogo, ma il corso adattivo al suo interno non viene visualizzato. L’oggetto di apprendimento non viene escluso completamente; solo il componente del corso adattivo viene rimosso dalla versione condivisa. Gli autori nell’account di destinazione devono tenere presente che l’oggetto di apprendimento condiviso può avere meno moduli rispetto alla versione di origine.
 
+>[!NOTE]
+>
+>Quando un corso adattivo viene configurato come prerequisito di un altro corso e tale corso principale viene condiviso con un account di ricezione tramite la condivisione del catalogo, il corso prerequisito adattivo non viene condiviso con l’account di ricezione. Ciò vale sia che il prerequisito sia impostato direttamente sul corso sia tramite un oggetto di apprendimento di livello superiore, ad esempio un percorso di apprendimento o una certificazione.
+>
+>Nel conto di ricezione, il corso principale è disponibile ma il prerequisito adattivo è assente. Gli Allievi dell’account di ricezione non risentono dei prerequisiti mancanti perché la dipendenza dai prerequisiti non viene applicata per i contenuti che arrivano tramite la condivisione di cataloghi senza che siano presenti i prerequisiti.
+>
+>Non configurare i corsi adattivi come prerequisiti per i contenuti che si intende condividere esternamente.
+
 ## Configurazioni supportati
 
 | Configurazione | Supportato? |
-|---|---|
+| --- | --- |
 | Corso adattivo in un percorso di apprendimento regolare | Sì (vedi nota sotto) |
 | Corso adattivo in un percorso di apprendimento flessibile | Sì |
 | Corso adattivo in un percorso di apprendimento adattivo | No |
