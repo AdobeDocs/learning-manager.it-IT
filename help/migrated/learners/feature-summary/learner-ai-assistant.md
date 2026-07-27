@@ -3,9 +3,9 @@ description: Ottieni risposte rapide e precise dai tuoi contenuti di apprendimen
 jcr-language: en_us
 title: Assistente all’intelligenza artificiale per gli Allievi in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3167'
 ht-degree: 0%
 
 ---
@@ -175,22 +175,25 @@ Prima di configurare l&#39;Assistente all&#39;intelligenza artificiale, verifica
 
 Per abilitare l’Assistente all’intelligenza artificiale dell’Allievo:
 
-&#x200B;1. Accedi a Adobe Learning Manager come amministratore.
+1. Accedi a Adobe Learning Manager come amministratore.
 
-2.Selezionare **Impostazioni** dalla home page.
-![Console di amministrazione con l&#39;opzione Impostazioni nel riquadro sinistro](assets/settings-menu.png)
+1. Selezionare **Impostazioni** dalla home page.
 
-&#x200B;3. Seleziona **Assistente AI Allievo (Beta)** dal menu **Impostazioni**.
-![La console dell’amministratore visualizza l’opzione Assistente intelligenza artificiale Allievo nel riquadro a sinistra](assets/learner-assistant-ai-beta.png)
+   ![Console di amministrazione con opzione Impostazioni nel riquadro sinistro](assets/settings-menu.png)
 
-&#x200B;4. Seleziona l’interruttore per attivare **Assistente AI Allievo (Beta)**.
-<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
+1. Seleziona **Assistente AI Allievo (Beta)** dal menu **Impostazioni**.
 
-&#x200B;5. Selezionare uno o più cataloghi dall&#39;opzione **Cataloghi idonei**.
+   ![La console dell’amministratore visualizza l’opzione Assistente intelligenza artificiale Allievo nel riquadro a sinistra](assets/learner-assistant-ai-beta.png)
 
-&#x200B;6. Selezionare **Salva** per applicare le impostazioni del catalogo.
+1. Seleziona l’interruttore per attivare **Assistente AI Allievo (Beta)**.
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. Seleziona uno o più cataloghi dall&#39;opzione **Cataloghi idonei**.
+
+1. Seleziona **Salva** per applicare le impostazioni del catalogo.
 
 >[!IMPORTANT]
 >
@@ -202,20 +205,23 @@ Per avviare l&#39;Assistente all&#39;intelligenza artificiale:
 
 1. Accedi a Adobe Learning Manager come Allievo.
 
-2. Seleziona **Chiedi Assistente AI** nella home page.
+1. Seleziona **Chiedi Assistente AI** nella home page.
+
    ![La home page dell’Allievo visualizza Chiedi all’Assistente AI di selezionare e aprire il pannello dell’Assistente AI dell’Allievo](assets/ask-ai-assistant.png)
 
-3. Quando viene visualizzata la schermata **Assistente AI Allievo**, seleziona **Introduzione**.
+1. Quando viene visualizzata la schermata **Assistente AI Allievo**, seleziona **Introduzione**.
+
    ![Selezionare Introduzione per avviare l’Assistente Allievo](assets/get-started-learner-assistant.png)
 
->[!NOTE]
->
->Quando avvii l&#39;Assistente all&#39;intelligenza artificiale per la prima volta, devi fornire il tuo consenso prima di utilizzarlo. La finestra di dialogo di consenso verrà visualizzata solo durante questo avvio iniziale. Per tutti gli avvii successivi, verrai indirizzato direttamente all&#39;Assistente AI per inserire le tue richieste.
+   >[!NOTE]
+   >
+   >Quando avvii l&#39;Assistente all&#39;intelligenza artificiale per la prima volta, devi fornire il tuo consenso prima di utilizzarlo. La finestra di dialogo di consenso verrà visualizzata solo durante questo avvio iniziale. Per tutti gli avvii successivi, verrai indirizzato direttamente all&#39;Assistente AI per inserire le tue richieste.
 
-&#x200B;4. Digita il messaggio nel campo di testo.
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+1. Digita il messaggio nel campo di testo.
 
-&#x200B;5. Premi **Invio** per ricevere una risposta. Rivedi la tua risposta, le tue fonti e i tuoi consigli.
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. Premi **Invio** per ricevere una risposta. Rivedi la tua risposta, le tue fonti e i tuoi consigli.
 
 È possibile:
 
@@ -351,7 +357,7 @@ L’Assistente all’apprendimento di Adobe Learning Manager può rispondere all
 
 >[!IMPORTANT]
 >
->Come prerequisito, un Amministratore deve aggiungere i cataloghi richiesti all’Assistente Allievo. Per ulteriori informazioni, vedere[Configurare l&#39;accesso all&#39;Assistente all&#39;intelligenza artificiale](https://experienceleague.adobe.com/it/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Come prerequisito, un Amministratore deve aggiungere i cataloghi richiesti all’Assistente Allievo. Per ulteriori informazioni, vedere[Configurare l&#39;accesso all&#39;Assistente all&#39;intelligenza artificiale](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Quando un Amministratore aggiunge un catalogo Go1 o LinkedIn Learning a Adobe Learning Manager, il contenuto del catalogo passa attraverso un processo di acquisizione pianificato. Al termine dell’acquisizione, gli oggetti di apprendimento del catalogo diventano disponibili per l’esecuzione di query da parte di Learning Assistant.
