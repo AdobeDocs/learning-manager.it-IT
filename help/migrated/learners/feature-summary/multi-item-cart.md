@@ -2,13 +2,13 @@
 description: Scopri come utilizzare il nuovo supporto per carrelli in ALM per acquistare più SKU.
 jcr-language: en_us
 title: Carrello per più articoli in ALM
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+exl-id: 471b956b-dbeb-4e73-b009-fb217812ce12
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
-
 
 # Carrello per più articoli in ALM
 

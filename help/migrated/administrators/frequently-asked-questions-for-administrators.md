@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
 source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2517'
-ht-degree: 52%
+source-wordcount: '2548'
+ht-degree: 77%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 52%
  </tbody>
 </table>
 
-+++È possibile aggiungere utenti in blocco? Come?
++++È possibile aggiungere utenti in gruppo? Come?
 
 Sì, è possibile aggiungere utenti in blocco utilizzando la funzione che consente di caricare un file CSV. Per ulteriori informazioni, consulta questo [articolo](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users).
 
 +++
 
-+++Se si digita male l’ID e-mail durante la creazione del login per gli Allievi, come posso correggerlo?
++++Ho digitato male l’ID e-mail durante la creazione del login per gli Allievi. Come posso correggerlo?
 
 Per correggere il login di un utente, è necessario importare un file CSV in Learning Manager. Nella parte inferiore della pagina trovi in allegato un file CSV di esempio da poter consultare. L’e-mail è considerata un identificatore univoco di una persona, pertanto non può essere modificata. Procedi come segue:
 
@@ -41,7 +41,7 @@ Per correggere il login di un utente, è necessario importare un file CSV in Lea
 
 Gli utenti dovrebbero essere stati aggiunti alla pagina Allievi.
 
-[File CSV di esempio di Learning Manager.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[File CSV.csv di esempio di Learning Manager](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
@@ -53,7 +53,7 @@ Adobe Learning Manager 1.0 consente di creare notifiche. Per ulteriori informazi
 
 +++Come si aggiungono i certificati per i corsi?
 
-Adobe Learning Manager non fornisce certificati per i corsi. Tuttavia, l’Amministratore può creare distintivi per ogni corso facendo clic sulla scheda Distintivi nel pannello a sinistra. Quando l’Amministratore iscrive gli Allievi a un corso, può anche associarvi un distintivo.
+Adobe Learning Manager non fornisce certificati per i corsi. Tuttavia, l’Amministratore può creare un distintivo per ogni corso facendo clic sulla scheda Distintivi nel pannello a sinistra. Quando l’Amministratore iscrive gli Allievi a un corso, può anche associarvi un distintivo.
 
 +++
 
@@ -65,11 +65,11 @@ Adobe Learning Manager non offre funzioni che consentono di importare firme per 
 
 +++È possibile configurare un calendario per i corsi? Come?
 
-In Adobe Learning Manager 1.0, non è possibile configurare il calendario dei corsi.
+Adobe Learning Manager 1.0 non consente di configurare il calendario dei corsi.
 
 +++
 
-+++Come si iscrivono direttamente gli Allievi in lista d’attesa?
++++Come si iscrivono direttamente gli Allievi in lista di attesa?
 
 Gli Allievi vengono inseriti in liste di attesa per ogni corso in aula che prevede un numero chiuso, in base all’ordine di iscrizione. Gli Amministratori possono selezionare gli Allievi nella lista di attesa e assegnare i posti, ignorando il limite, per qualsiasi corso in aula. Gli Allievi verranno iscritti ai corsi man mano che l’Amministratore assegna un posto.
 
@@ -82,7 +82,7 @@ Per ulteriori informazioni, fai riferimento alla funzionalità [lista d&#39;atte
 
 +++
 
-+++Come si registra la partecipazione degli Allievi al modulo in aula?
++++Come si registra la presenza degli Allievi a un modulo in aula?
 
 Sì, è possibile registrare le presenze procedendo come segue:
 
@@ -96,26 +96,26 @@ Per ulteriori informazioni, fai riferimento alla funzionalità [lista d&#39;atte
 
 +++
 
-+++Come si include l’opzione feedback L3?
++++Come si include l’opzione Feedback L3?
 
 È possibile aggiungere il feedback L3 durante la registrazione degli Allievi ai corsi. Per aggiungere una domanda al feedback L3, procedi come segue:
 
 1. Fai clic su Corsi nel riquadro a sinistra dopo avere effettuato l’accesso come Amministratore. L’elenco di tutti i corsi viene visualizzato nella pagina a destra.
-1. Fai clic sul riquadro del corso a cui desideri aggiungere il feedback L3.
+1. Fai clic sul titolo del corso a cui desideri aggiungere il feedback L3
 1. Fai clic sull’istanza predefinita nel riquadro a sinistra.
 1. Fai clic sul cerchio del pulsante di attivazione accanto a L3 - Modifica comportamento feedback per selezionarlo.
 1. Aggiungi la domanda al feedback L3 nell’area di testo sotto Domanda L3.
 
 +++
 
-+++Come posso cercare la nomina del Manager per un corso nominato dal Manager?
++++Come si cerca la nomina del Manager per un corso nominato dal Manager?
 
 In qualità di Amministratore, puoi cercare i corsi nominati dal Manager procedendo come segue:
 
 1. Fai clic su Corsi nel riquadro a sinistra
 1. Passa il mouse su un corso nominato dal Manager, quindi fai clic su **[!UICONTROL Cerca nomina Manager]**.
 
-1. Nell&#39;elenco delle istanze, fai clic sul collegamento **[!UICONTROL Manager nominati]** seguito dal collegamento **[!UICONTROL Aggiungi Manager]**.
+1. Nell’elenco delle istanze, fai clic sul collegamento **[!UICONTROL Nominato dal Manager]** seguito dal collegamento **[!UICONTROL Aggiungi Manager]**.
 
 1. Aggiungi il nome del Manager, il numero di posti assegnati e poi fai clic sul segno di spunta per salvare le modifiche.
 
@@ -123,13 +123,13 @@ Durante la creazione dei corsi, l’Autore sceglie il tipo di corso come Nominat
 
 +++
 
-+++Come si iscrive un Allievo a un corso specifico?
++++Come si iscrive un Allievo a un determinato corso?
 
 Per registrare gli Allievi ai corsi, procedi come segue:
 
 1. Fai clic su Corsi nel riquadro a sinistra dopo avere effettuato l’accesso come Amministratore. L’elenco di tutti i corsi viene visualizzato nella pagina a destra.
 1. Scegli il corso a cui desideri aggiungere gli Allievi e passa il mouse sopra di esso.
-1. Fai clic su Iscrivi Allievi e aggiungi il loro nome. **Nota:** puoi aggiungere uno o più Allievi alla volta.
+1. Fai clic su Registra Allievi e aggiungi i relativi nomi. **Nota:** puoi aggiungere uno o più Allievi alla volta.
 
 +++
 
@@ -140,7 +140,7 @@ Per assegnare le abilità agli Allievi, procedi come segue:
 1. Dopo aver effettuato l’accesso come Amministratore, fai clic su **[!UICONTROL Abilità]** nel riquadro a sinistra.
 1. Seleziona una o più abilità facendo clic sulle caselle di controllo corrispondenti a ciascuna di esse e fai clic su **[!UICONTROL Azioni]** nell&#39;angolo superiore destro della pagina.
 1. Fai clic su Assegna a utenti.
-1. Inizia a digitare il nome dell&#39;utente, scegli dall&#39;elenco a discesa e fai clic su **[!UICONTROL Salva]**.
+1. Inizia a digitare il nome dell’utente, scegli dall’elenco a discesa e fai clic su **[!UICONTROL Salva]**.
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ Per assegnare le abilità agli Allievi, procedi come segue:
 
 +++
 
-+++Come si crea una sessione per un programma di apprendimento?
++++Come si crea una sessione per un Programma di apprendimento?
 
 Per creare un programma di apprendimento, procedi come segue:
 
@@ -162,13 +162,13 @@ Per creare un programma di apprendimento, procedi come segue:
    >
    >Prima di iscrivere gli Allievi o un’istanza, è necessario pubblicare il programma di apprendimento.
 
-1. Fai clic su Istanze nel riquadro a sinistra e poi su **[!UICONTROL Aggiungi nuove istanze]** nell&#39;angolo a destra della pagina per includere i dettagli dell&#39;istanza.
+1. Fai clic su Istanze nel riquadro a sinistra e poi su **[!UICONTROL Aggiungi nuove istanze]** nell’angolo a destra della pagina per includere i dettagli dell’istanza.
 
 Per ulteriori informazioni sui programmi di apprendimento, fai riferimento alla [funzionalità Programmi di apprendimento.](/help/migrated/administrators/feature-summary/learning-programs.md)
 
 +++
 
-+++Come si modificano o personalizzano i report per tutti i ruoli?
++++Come posso modificare o personalizzare i report per tutti i ruoli?
 
 Per modificare i report, fai clic sulla freccia a discesa nell’angolo in alto a destra di ciascuno di essi. Dopo aver completato le modifiche e visualizzato il report modificato, fai clic su Salva.
 
@@ -178,7 +178,7 @@ Per modificare i report, fai clic sulla freccia a discesa nell’angolo in alto 
 
 È possibile modificare corsi o programmi di apprendimento anche dopo la pubblicazione. Per ulteriori informazioni, fai riferimento ai [corsi](/help/migrated/administrators/feature-summary/courses.md) e ai [programmi di apprendimento](/help/migrated/administrators/feature-summary/learning-programs.md) contenuti della Guida.
 
-Per modificare il profilo aziendale, fai clic su **[!UICONTROL Impostazioni]** nel riquadro a sinistra e poi su **[!UICONTROL Modifica]** nell&#39;angolo superiore destro della pagina.
+Per modificare il profilo aziendale, fai clic su **[!UICONTROL Impostazioni]** nel riquadro a sinistra e poi su su **[!UICONTROL Modifica]** nell’angolo in alto a destra della pagina.
 
 +++
 
@@ -199,7 +199,7 @@ A seconda della scelta, puoi visualizzare l’elenco filtrato di corsi e selezio
 
 +++È possibile modificare i temi dell’applicazione? Come?
 
-Sì, puoi modificare i temi e il branding dell’applicazione Learning Manager in base alle esigenze dell’organizzazione. Viene fornito un set di cinque immagini rappresentative per visualizzare in anteprima le modifiche apportate al tema colore prima di applicarle all’applicazione. Sfoglia queste immagini facendo clic su &lt; e > a sinistra e a destra delle immagini per visualizzarle in anteprima.
+Sì, è possibile modificare i temi e il branding dell’applicazione Learning Manager in base alle esigenze dell’organizzazione. Viene fornito un set di cinque immagini rappresentative per visualizzare in anteprima le modifiche apportate al tema colore prima di applicarle all’applicazione. Sfoglia queste immagini facendo clic su &lt; e > a sinistra e a destra delle immagini per visualizzarle in anteprima.
 
 Fai clic su **[!UICONTROL Branding]** nel riquadro a sinistra per aggiornare il nome dell’organizzazione e modificare il sottodominio, gli stili del registro e i temi. Fai clic su **[!UICONTROL Modifica]** accanto a ciascuno di questi argomenti per modificare il contenuto.
 
@@ -207,7 +207,7 @@ Per ulteriori informazioni, fai riferimento alla [Guida ai temi colore e al bran
 
 +++
 
-+++Come si configurano i distintivi per i corsi?
++++Come si configurano i distintivi dei corsi?
 
 1. Dopo aver effettuato l’accesso come Amministratore, fai clic su Distintivi nel riquadro a sinistra.
 1. Fai clic su Aggiungi nell’angolo in alto a destra della pagina visualizzata.
@@ -216,7 +216,7 @@ Per ulteriori informazioni, fai riferimento alla [Guida ai temi colore e al bran
 
 +++
 
-+++Come si configurano i punti Gamification per i corsi?
++++Come si configurano i punti Gamification dei corsi?
 
 Per configurare punti Gamification per gli Allievi, procedi come segue:
 
@@ -232,17 +232,17 @@ Per ulteriori informazioni, fai riferimento alla [funzionalità Gamification](/h
 Per creare report, procedi come segue:
 
 1. Fai clic su Report nel riquadro a sinistra. Viene visualizzata la pagina di riepilogo del report.
-1. Nella pagina Report, fai clic su **[!UICONTROL Aggiungi]** nell&#39;angolo in alto a destra.
+1. Nella pagina Report, fai clic su **[!UICONTROL Aggiungi]** nell’angolo in alto a destra.
 
    Viene visualizzata la finestra di dialogo **[!UICONTROL Aggiungi report]**.
 
-1. Compila tutti i campi obbligatori e fai clic su Salva.
+1. Compila tutti i campi obbligatori, quindi fai clic su Salva.
 
 Solo gli Amministratori e i Manager possono creare o visualizzare report. Per ulteriori informazioni, fai riferimento alla [funzionalità report](/help/migrated/administrators/feature-summary/reports.md).
 
 +++
 
-+++Come si passa ai ruoli di Allievo, Manager e Autore?
++++Come si passa al ruolo di Allievo, Manager e Autore?
 
 È possibile effettuare l’accesso all’account con altri ruoli, come Allievo, Manager e Autore, senza dover eseguire il log out.
 
@@ -256,18 +256,18 @@ Solo gli Amministratori e i Manager possono creare o visualizzare report. Per ul
 
 Manager, Autori e Allievi possono visualizzare le notifiche in base alle attività del corso. Per attivare/disattivare le notifiche per tutti gli utenti, l’Amministratore deve procedere come segue:
 
-1. Fai clic su Modelli e-mail nel riquadro a sinistra e scegli le schede Generale, Iscrizioni utenti, Completamenti e Feedback.
+1. Fare clic su Modelli e-mail nel riquadro a sinistra, quindi scegliere le schede Generale, Iscrizioni utente, Completamenti e Feedback.
 1. Dagli eventi elencati di seguito, fare clic sui pulsanti di attivazione No/Sì accanto a ciascun evento e scegliere Sì per attivare la notifica. Per disattivare l’invio di notifiche per un evento specifico, fare clic su No.
 
 +++
 
-+++Come posso consentire l’iscrizione esterna ai corsi?
++++Come si consente l’iscrizione esterna ai corsi?
 
 Adobe Learning Manager consente di iscrivere all’applicazione membri esterni al reparto o dipendenti al di fuori dell’organizzazione.
 
 1. Fai clic su **[!UICONTROL Utenti]** nel riquadro a sinistra.
 1. Fai clic su **[!UICONTROL Esterni]** nel riquadro a sinistra.
-1. Fai clic su **[!UICONTROL Aggiungi]** nell&#39;angolo superiore destro della pagina.
+1. Fai clic su **[!UICONTROL Aggiungi]** nell’angolo in alto a destra della pagina.
 
    Viene visualizzata la finestra di dialogo Aggiungi utente.
 
@@ -320,20 +320,20 @@ Per ulteriori informazioni, fai riferimento alla funzionalità [Gestione fattura
 
 +++
 
-+++È possibile personalizzare la progettazione del certificato? Come?
++++È possibile personalizzare il design del certificato? Come?
 
-In Adobe Learning Manager, puoi riconoscere gli Allievi emettendo distintivi. Per ulteriori informazioni, fai riferimento alla funzionalità Distintivi.  Inoltre, fai riferimento alla funzionalità Certificazione.
+In Adobe Learning Manager puoi premiare gli Allievi emettendo distintivi. Per ulteriori informazioni, fai riferimento alla funzionalità Distintivo  e alla funzionalità Certificazione.
 
 +++
 
-+++Come si imposta il profilo aziendale?
++++Come si configura il profilo aziendale?
 
 1. Dopo aver effettuato l’accesso come Amministratore, fai clic su **[!UICONTROL Informazioni aziendali]** nel riquadro a sinistra.
 1. Aggiungi il profilo, il sottodominio e il logo dell’azienda facendo clic su ognuna di queste opzioni nella pagina.
 
 +++
 
-+++Come posso aggiungere corsi?
++++Come si aggiungono i corsi?
 
 Per aggiungere corsi, è necessario passare al ruolo Autore. Puoi visualizzare l’elenco dei corsi disponibili solo in base al relativo stato, cioè **[!UICONTROL Completati]**, **[!UICONTROL Pubblicati]** e **[!UICONTROL Ritirati]**.
 
@@ -341,7 +341,7 @@ Per visualizzare i corsi, fai clic su **[!UICONTROL Corsi]** nel riquadro a sini
 
 +++
 
-+++Come si aggiungono ruoli diversi all&#39;applicazione?
++++Come si aggiungono ruoli diversi all’applicazione?
 
 Per aggiungere nuovi utenti, procedi come segue:
 
@@ -368,7 +368,7 @@ Puoi trovare l’ID account nel browser in cui è aperto Learning Manager.
 
 +++
 
-+++Esiste un report che è possibile richiamare o che può essere richiamato da altri utenti che mi mostrerà un elenco di tutti i corsi disponibili nel sistema LMS?
++++C’è un report che posso richiamare, o uno che qualcuno può richiamare per me, che mi mostrerà un elenco di tutti i corsi nel sistema LMS?
 
 Sì, puoi estrarre un **[!UICONTROL report sulla formazione]** che contiene tutti i corsi, il programma di apprendimento e la certificazione nel sistema LMS. Per scaricare il report, procedi come segue:
 
@@ -379,7 +379,7 @@ Sì, puoi estrarre un **[!UICONTROL report sulla formazione]** che contiene tutt
 
 +++
 
-+++Dove posso scaricare la versione desktop dell&#39;app?
++++Dove posso scaricare la versione desktop dell&#39;app? 
 
 Segui i passaggi riportati di seguito per scaricare la versione desktop:
 

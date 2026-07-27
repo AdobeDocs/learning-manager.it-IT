@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
 source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 67%
+source-wordcount: '1029'
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ In qualità di Amministratore è possibile creare un Programma di certificazione
    1. Fai clic sulla scheda **[!UICONTROL Bozza]** per visualizzare tutte le certificazioni con lo stato di bozza. Devi completarne la creazione.
    1. Fai clic su **[!UICONTROL Pubblicato]** per visualizzare tutte le certificazioni pubblicate.
    1. Fai clic su **[!UICONTROL Tutti]** per visualizzare le certificazioni in tutti gli stati.
-   1. Ordina e visualizza l’elenco delle certificazioni in ordine crescente o decrescente oppure in base alla data di aggiornamento.
+   1. Ordina e visualizza l’elenco di certificazioni in ordine crescente, decrescente o in base alla data di aggiornamento.
 
 1. Fai clic su **[!UICONTROL Aggiungi]**.
 
@@ -62,7 +62,7 @@ In qualità di Amministratore è possibile creare un Programma di certificazione
   </tr>
   <tr>
    <td>Riassegnazione</td>
-   <td>Scegli se desideri che il certificato venga riassegnato in base alla data di completamento o in base alla data di iscrizione.<br></td>
+   <td>Scegli se fare in modo che il certificato venga riassegnato in base alla data di completamento o in base alla data di iscrizione.<br></td>
   </tr>
   <tr>
    <td>Validità (in mesi) <br></td>
@@ -110,10 +110,10 @@ Seleziona il livello di prodotti, ruoli e ruoli dalla sezione **[!UICONTROL Sugg
 
 Scegli i corsi da aggiungere alla certificazione dalla scheda **[!UICONTROL Corsi]** > **[!UICONTROL Catalogo]**.
 
-Passa il mouse su ogni riquadro del corso e fai clic su + per aggiungerli alla certificazione. Fai clic su **[!UICONTROL Anteprima]** per visualizzare il corso come Allievo prima di aggiungerlo.
+Passa il mouse sui riquadri dei corsi desiderati e fai clic su + per aggiungerli alla certificazione. Fai clic su **[!UICONTROL Anteprima]** per visualizzare il corso come studente prima di aggiungerlo.
 
 1. Fai clic sulla scheda **[!UICONTROL Curriculum]** per visualizzare/verificare l’elenco dei corsi aggiunti.
-1. Fai clic su **[!UICONTROL Publish]**.
+1. Fai clic su **[!UICONTROL Pubblica]**.
 
 ## Mappatura delle istanze del corso per le certificazioni {#courseinstancemappingforcertifications}
 
@@ -126,7 +126,7 @@ Per mappare il corso e l’istanza per le certificazioni:
 1. Dalla finestra a comparsa visualizzata, seleziona l’istanza del corso da consegnare per la certificazione scelta.
 1. Fai clic su Salva.
 
-Un amministratore può aggiungere corsi di tipo aula e aula virtuale a un programma di apprendimento. La sessione assegnata dall’Autore durante la creazione del corso diventa l’istanza predefinita. Quando l’Amministratore aggiunge corsi a un programma di apprendimento, esso viene mappato all’istanza predefinita di tutti i corsi per impostazione predefinita. L’Amministratore può tuttavia modificare la mappatura delle istanze. Il numero di corsi aggiunti in un programma di apprendimento è visibile anche nella pagina delle istanze, come illustrato di seguito.
+L’Amministratore può aggiungere corsi di tipo aula e aula virtuale a un programma di apprendimento. La sessione assegnata dall’Autore durante la creazione del corso diventa l’istanza predefinita. Quando l’Amministratore aggiunge corsi a un programma di apprendimento, esso viene mappato all’istanza predefinita di tutti i corsi per impostazione predefinita. L’Amministratore può tuttavia modificare la mappatura delle istanze. Il numero di corsi aggiunti in un programma di apprendimento è visibile anche nella pagina delle istanze, come illustrato di seguito.
 
 ## Abilitazione del controllo completo del catalogo {#catalog}
 
@@ -150,7 +150,7 @@ Gli Amministratori possono contrassegnare una certificazione come completa utili
 
 1. Apri **[!UICONTROL Certificazione]** > **[!UICONTROL Allievi]**.
 
-   Si apre la pagina Allievi con l’elenco degli Allievi iscritti.
+   La pagina Allievi si apre con l’elenco degli Allievi iscritti.
 
 1. Seleziona uno/più/tutti gli Allievi per contrassegnare il completamento della certificazione utilizzando la casella di controllo disponibile per ogni Allievo.
 1. Fai clic su **[!UICONTROL Azione]** > **[!UICONTROL Contrassegna completamento.]**
@@ -167,7 +167,7 @@ Ora puoi rendere obbligatori i corsi attivando l’opzione **[!UICONTROL Imposta
 
 L’Amministratore può modificare una certificazione dopo la pubblicazione. Quando lo stato del programma di apprendimento è Pubblicato, l’Amministratore può modificare tutte le sezioni della certificazione, quindi ripubblicarla.
 
-Per modificare una certificazione pubblicata, fai clic sulla scheda della certificazione e quindi su **[!UICONTROL Modifica]** nell&#39;angolo superiore destro della pagina.
+Per modificare una certificazione pubblicata, fai clic sulla scheda della certificazione e seleziona **[!UICONTROL Modifica]** nell’angolo in alto a destra della pagina.
 
 Se esci dalla pagina durante la modifica delle sezioni di una certificazione, dovrai pubblicare nuovamente la certificazione. Viene visualizzata una finestra di dialogo di conferma che ti invita a ripubblicare la certificazione.
 
