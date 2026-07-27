@@ -2,7 +2,7 @@
 description: Imposta il punteggio ponderato per gli Allievi in Gradebook in modo che il completamento del corso possa essere collegato al raggiungimento di una soglia minima di punteggio.
 jcr-language: en_us
 title: Gradebook per autori
-source-git-commit: d92f2c03d0b5520afcab0a6843819ddd527a6bd1
+source-git-commit: 37db436b0f108423af185ebba377d8f06c7b7398
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Gradebook viene configurato a livello di corso durante la creazione di un nuovo 
   ![](assets/image_0003.png)
 
 * Seleziona l&#39;interruttore **Gradebook** per abilitarlo. Sotto di esso vengono visualizzate due opzioni. Entrambe sono attivate per impostazione predefinita:
-  * **Mostra Gradebook agli Allievi:** gli Allievi visualizzano una scheda **Gradebook** nel lettore del corso che mostra i punteggi del modulo, la scomposizione del peso e il risultato aggregato. Disattiva questa opzione per calcolare i livelli internamente senza esporli agli Allievi.
+  * **Mostra Gradebook agli Allievi:** Gli Allievi visualizzano una scheda **Gradebook** nel lettore del corso che mostra i punteggi del modulo, la scomposizione del peso e il risultato aggregato. Disattiva questa opzione per calcolare i livelli internamente senza esporli agli Allievi.
   * **Nella sezione Gradebook verranno visualizzati anche i moduli che non contribuiscono al livello finale:** moduli che non fanno parte del requisito del criterio di superamento. Se questa impostazione non è selezionata, verranno visualizzati solo i moduli che fanno parte dei criteri di superamento.
 
 ### Aggiungi moduli e assegna la ponderazione
