@@ -4,9 +4,9 @@ title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
 workflow-type: tm+mt
-source-wordcount: '5437'
+source-wordcount: '5467'
 ht-degree: 24%
 
 ---
@@ -305,6 +305,11 @@ Ciò significa che un amministratore personalizzato con accesso a un catalogo sp
 Quando assegni gli utenti a un ruolo che hai creato, puoi cercare e aggiungere qualsiasi utente nell’account. Le autorizzazioni relative all’utente nei ruoli personalizzati si applicano sempre all’ambito del gruppo di utenti completo e all’ambito del catalogo completo. L&#39;ambito del gruppo di utenti o del catalogo non si applica quando un ruolo personalizzato include autorizzazioni di gestione degli utenti.
 
 Se un amministratore completo riduce l&#39;ambito o rimuove un&#39;autorizzazione dal ruolo, i ruoli creati in precedenza non vengono influenzati immediatamente. Tali ruoli continuano a funzionare con le autorizzazioni esistenti fino a quando un amministratore completo non si apre e salva ciascuno singolarmente.
+
+>[!IMPORTANT]
+>
+>**Solo ruoli creati manualmente**: le funzionalità di amministrazione dei ruoli personalizzate estese si applicano solo ai ruoli creati tramite l&#39;interfaccia di amministrazione di Adobe Learning Manager. I ruoli importati tramite caricamento CSV non sono supportati.
+
 
 ## Concedere autorizzazioni utente avanzate a un ruolo personalizzato
 

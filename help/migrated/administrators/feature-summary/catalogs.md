@@ -4,10 +4,10 @@ title: Cataloghi
 description: I cataloghi sono una raccolta di corsi di apprendimento, programmi di apprendimento e certificazioni. Utilizza i cataloghi per fornire agli Allievi l’accesso a un set personalizzato di oggetti di apprendimento. È possibile associare l’apprendimento a un catalogo durante la creazione di un nuovo catalogo.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+source-git-commit: e8d279fd1c8ba0af01241c4041d016759966bdde
 workflow-type: tm+mt
-source-wordcount: '2593'
-ht-degree: 79%
+source-wordcount: '3238'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,92 @@ Per eliminare un catalogo condiviso, fai clic sul menu a discesa **[!UICONTROL A
 * Non è possibile condividere un catalogo predefinito con account esterni.
 * Non è possibile eliminare un catalogo che hai condiviso esternamente.
 * Non è possibile eliminare un catalogo che è stato condiviso con te da altri account.
+
+## Limitazione delle modifiche a corsi/percorsi di apprendimento acquisiti {#restrictchangesonacquiredcourseslp}
+
+Nelle organizzazioni che utilizzano la condivisione di account, i contenuti di apprendimento vengono spesso creati e gestiti in un account principale e quindi condivisi con account condivisi tra pari tramite cataloghi condivisi. Sebbene questo modello contribuisca a mantenere il contenuto coerente tra più account, può anche comportare modifiche indesiderate nei conti di ricezione.
+
+Ciò consente di proteggere gli oggetti di apprendimento condivisi impedendo agli autori che ricevono gli account di apportare modifiche che potrebbero interrompere la relazione tra l’account di origine e il contenuto condiviso. Ciò consente ai proprietari dei contenuti di gestire la governance centralizzata, garantendo al contempo che gli aggiornamenti dall&#39;account di origine continuino a fluire negli account di ricezione.
+
+Questa funzione consente alle organizzazioni di:
+
+* Mantiene l’integrità del contenuto condiviso da un account di origine.
+* Impedire modifiche accidentali che potrebbero interrompere la sincronizzazione con l&#39;account di origine.
+* Riduzione del sovraccarico di gestione dei contenuti tra più account.
+* Assicurati che gli aggiornamenti apportati nell&#39;account di origine continuino a essere propagati agli account di ricezione.
+* Fornisci avvisi chiari agli autori che tentano di modificare il contenuto condiviso.
+
+Quando un catalogo viene condiviso da un account di origine a un account di destinazione, gli oggetti di apprendimento quali corsi, percorsi di apprendimento e certificazioni diventano disponibili nell’account di destinazione.
+
+Se l’account di ricezione abilita l’opzione Limita modifiche a corsi/percorsi di apprendimento acquisiti, Adobe Learning Manager limiterà la modifica dei contenuti ereditati che provengono dal catalogo condiviso. Gli autori possono comunque utilizzare e utilizzare il contenuto condiviso, ma non possono apportare modifiche che potrebbero interrompere la relazione con l&#39;account di origine.
+
+### Abilitare le restrizioni alla modifica per il contenuto del catalogo condiviso
+
+**Prerequisiti**
+
+L’account deve già ricevere contenuto da un catalogo condiviso.
+
+1. Accedi ad ALM come amministratore.
+2. Seleziona **Cataloghi**.
+3. Selezionate un catalogo condiviso.
+4. Nella sezione **Panoramica** del catalogo condiviso, seleziona l&#39;interruttore **Limita modifiche a corsi/percorsi di apprendimento acquisiti**. Quando questa opzione è attivata, le modifiche apportate alla parte Corsi/Percorsi di apprendimento del catalogo acquisito sono limitate per consentire il flusso degli aggiornamenti dall’account principale a questo account.
+
+   ![](assets/shared-catalog-enabled.png)
+
+5. Seleziona **Aggiorna** per salvare la configurazione.
+
+### Esperienza di creazione
+
+Quando un Autore apre un corso acquisito tramite un catalogo condiviso, il sistema visualizza un messaggio informativo che indica che:
+
+* Il corso proviene da un catalogo condiviso.
+* Le restrizioni alla modifica sono abilitate.
+* Alcune modifiche al contenuto sono limitate.
+
+### Tentativo di modifica del contenuto con restrizioni
+
+Se un autore tenta di modificare un contenuto protetto:
+
+* L’Autore potrebbe visualizzare un avviso che indica che il corso è stato acquisito da un account di origine.
+* L’avvertenza spiega che la modifica del contenuto può interrompere la relazione con l’account di origine.
+* A seconda delle impostazioni, il sistema limita o impedisce le modifiche al contenuto interessato.
+
+Ciò aiuta gli autori a comprendere l’impatto delle loro azioni prima che vengano apportate modifiche.
+
+**Quali modifiche sono limitate?**
+
+Quando le restrizioni di modifica sono attivate, le modifiche al contenuto del corso ereditato sono limitate perché tali componenti sono gestiti dall’account di origine. Queste restrizioni sono progettate per mantenere la sincronizzazione tra gli account.
+
+Di seguito sono riportati alcuni esempi di contenuti in genere gestiti dall&#39;account di origine:
+
+* Metadati del corso
+* Struttura del corso condivisa
+* Contenuti di apprendimento condivisi
+* Configurazioni del percorso di apprendimento condiviso
+
+L&#39;obiettivo è quello di impedire modifiche che potrebbero causare la divergenza della copia dell&#39;account di ricezione rispetto alla versione di origine.
+
+**Quali modifiche rimangono consentite?**
+
+Alcune impostazioni continuano a essere gestite in modo indipendente dall’account di ricezione e rimangono modificabili. Queste sono:
+
+* Personalizzazione dei modelli e-mail
+* Gestione delle istanze
+* Altre configurazioni a livello di account che non hanno origine dall’account di origine.
+
+### Esempio di scenario
+
+#### Prima della restrizione
+
+Un team di apprendimento aziendale gestisce un corso di conformità nell’account di origine e lo condivide con più account regionali.
+
+Un Autore in un account regionale modifica direttamente il corso acquisito. Di conseguenza, la connessione al corso originale potrebbe essere interrotta, impedendo il corretto flusso degli aggiornamenti futuri dall’account di origine.
+
+#### Dopo la restrizione
+
+L’account di ricezione abilita **Limita le modifiche ai corsi/percorsi di apprendimento acquisiti**.
+
+Quando gli Autori delle aree geografiche accedono al corso condiviso, possono visualizzare e assegnare il contenuto, ma i campi protetti non possono essere modificati. Gli aggiornamenti apportati dal conto di origine continuano a essere inviati ai conti di ricezione senza interruzioni.
 
 ## Abilitare il controllo completo del catalogo condiviso {#enablefullcontrolofsharedcatalog}
 
