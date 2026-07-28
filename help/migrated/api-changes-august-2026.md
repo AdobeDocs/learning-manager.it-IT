@@ -2,9 +2,9 @@
 description: Modifiche API in ALM
 jcr-language: en_us
 title: Modifiche alle API nella versione di agosto 2026 di Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3353'
 ht-degree: 3%
 
 ---
@@ -131,9 +131,8 @@ Entrambi i campi possono essere omessi; se si omette un campo, il suo valore cor
 
 | **Parametro** | **Obbligatorio** | **Tipo** | **Descrizione** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| nome | No | stringa | Nuovo nome visualizzato. Se specificato, non deve essere vuoto. Ometti di lasciare invariato. |
+| nome | Sì | stringa | Nuovo nome visualizzato. Se specificato, non deve essere vuoto. Ometti di lasciare invariato. |
 | descrizione | No | stringa | Nuova descrizione. Passare null per cancellare. Ometti di lasciare invariato. |
-| dati | — | null | Deve essere null o assente. Qualsiasi valore diverso da null restituisce un errore 400. |
 
 #### **Risposta 200 OK**
 
@@ -511,7 +510,9 @@ Fornire l&#39;**ID certificazione radice** come input. L’API valuta la cronolo
 
 Ciò significa che due Allievi che eseguono contemporaneamente una query sullo stesso ID di certificazione principale possono ricevere risultati diversi, a seconda della cronologia di iscrizione individuale di ciascun Allievo.
 
-**Nota**: durante la creazione della nuova versione e la migrazione delle iscrizioni potrebbe essere presente una breve finestra durante una ricorrenza in cui l&#39;API potrebbe restituire la versione che sta per essere sostituita anziché quella appena creata.
+>[!NOTE]
+>
+>Durante la creazione della nuova versione e la migrazione delle iscrizioni potrebbe essere presente una breve finestra in cui l’API potrebbe restituire la versione che sta per essere sostituita anziché quella appena creata.
 
 **Esempio**
 

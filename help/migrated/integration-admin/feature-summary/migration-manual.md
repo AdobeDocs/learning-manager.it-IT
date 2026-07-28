@@ -3,9 +3,9 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9051'
+source-wordcount: '9122'
 ht-degree: 36%
 
 ---
@@ -1166,7 +1166,7 @@ Quando si creano le versioni del modulo LTI:
 
 Il sistema di migrazione applica il flusso di lavoro di elaborazione della migrazione standard oltre ai campi specifici dell’LTI.
 
-## Migrazione dei corsi adattivi
+## Migrazione dei corsi adattivi {#migrateadaptivecourses}
 
 Se stai eseguendo la migrazione di corsi da un sistema esterno a Adobe Learning Manager e desideri configurarli come corsi adattivi con visibilità a livello di modulo e regole di completamento per gruppo di utenti, puoi utilizzare due file CSV per definire sia i corsi che le relative regole adattive.
 
@@ -1178,6 +1178,17 @@ La migrazione di un corso adattivo richiede due modifiche al pacchetto CSV di mi
 * **Un nuovo file,** _course_ module_user_group.csv_: una riga per regola da modulo a utente
 
 Entrambi i file devono essere inclusi nello stesso progetto di migrazione.
+
+### Nomi di file CSV aggiornati per la migrazione adattiva dei corsi
+
+I nomi dei file CSV per il corso adattivo e la migrazione del percorso di apprendimento adattivo ora seguono la convenzione per i nomi completi utilizzata da tutti gli altri file di migrazione in Adobe Learning Manager. Ad esempio, learning_object_section.csv anziché lo_section.csv. Se disponi di script di migrazione o modelli esistenti che fanno riferimento ai nomi di formato abbreviato precedenti, aggiornali ai nuovi nomi prima dell&#39;esecuzione della migrazione successiva.
+
+| Vecchio nome | Nuovo nome |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### Aggiornamento di course.csv
 

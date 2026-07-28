@@ -1,11 +1,11 @@
 ---
 jcr-language: en_us
 title: Report Builder in Adobe Learning Manager
-description: Introduzione al Report Builder
+description: Crea, visualizza in anteprima e scarica report personalizzati con le colonne, i filtri e i dati scelti, senza dover ricorrere a strumenti di post-elaborazione.
 contentowner: mmanuel
-source-git-commit: cb488d06aa4996ba4ede49c16def1c82c5eec150
+source-git-commit: a5afd09f5a8ed617383e2aee465cf035c004081d
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Report Builder in Adobe Learning Manager
 
 ## Panoramica
-
-Crea, visualizza in anteprima e scarica report personalizzati con le colonne, i filtri e i dati scelti, senza dover ricorrere a strumenti di post-elaborazione.
 
 Il Report Builder di Adobe Learning Manager offre agli amministratori un’area di lavoro di reporting autonoma per creare esattamente i report di cui hanno bisogno. Invece di scaricare un report fisso e rimodellarlo in uno strumento per fogli di calcolo, puoi selezionare le colonne desiderate, applicare filtri e scaricare un output pulito, tutto da un&#39;unica posizione.
 
