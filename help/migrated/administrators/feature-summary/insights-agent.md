@@ -2,9 +2,9 @@
 description: Insights Agent è una funzione basata sull'intelligenza artificiale in Adobe Learning Manager che consente agli amministratori di eseguire query sui dati degli Allievi utilizzando il linguaggio naturale.
 jcr-language: en_us
 title: Agente Insights (beta) in Adobe Learning Manager
-source-git-commit: f14f2211eabc025d921392711a3382dd62273dc3
+source-git-commit: 03dbee8fdbc83d7e23ee3c4d13fad621e1c80a7e
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -91,10 +91,10 @@ Dopo aver inviato la tua domanda, Insights Agent elabora la tua richiesta e rest
 1. **Disambiguazione (se necessario):** se la domanda contiene un termine ambiguo, ad esempio \&quot;attività di apprendimento\&quot; o \&quot;prestazioni\&quot; o &quot;Assegnami dati sulle prestazioni degli ultimi 3 mesi&quot;, l&#39;assistente visualizza un elenco di opzioni e richiede di selezionarne una prima di procedere. Seleziona l’opzione che corrisponde meglio a ciò che stai cercando. Dopo la domanda iniziale, non è possibile digitare istruzioni aggiuntive. La selezione dalle opzioni fornite rappresenta l&#39;unica interazione disponibile fino a quando non si avvia una nuova query utilizzando l&#39;interfaccia query. Puoi rispondere alla rimozione delle ambiguità solo selezionando una delle opzioni fornite; il follow-up a testo libero non è disponibile in questa versione.
 
 ![](assets/disambiguation.png)
-&#x200B;2. **Approccio:** La sezione **Approccio** descrive i passaggi eseguiti dall&#39;agente per recuperare i dati. Viene visualizzato come pannello scorrevole sotto la domanda. Seleziona l’icona Espandi per visualizzare l’approccio completo. L&#39;analisi di questa sezione consente di confermare che la logica corrisponde all&#39;intento, in particolare per le query complesse. Ad esempio, se richiedi \&quot;tutti gli Allievi iscritti nell’ultimo anno&quot;,\&quot; l’agente può restituire l’iscrizione più recente di ogni Allievo anziché ogni record di iscrizione. La sezione **Approccio** **maggio** o **spiegherà** tale decisione. Se la logica non corrisponde all&#39;intento, avviare una nuova query con termini più specifici.
+2. **Approccio:** La sezione **Approccio** descrive i passaggi eseguiti dall&#39;agente per recuperare i dati. Viene visualizzato come pannello scorrevole sotto la domanda. Seleziona l’icona Espandi per visualizzare l’approccio completo. L&#39;analisi di questa sezione consente di confermare che la logica corrisponde all&#39;intento, in particolare per le query complesse. Ad esempio, se richiedi \&quot;tutti gli Allievi iscritti nell’ultimo anno&quot;,\&quot; l’agente può restituire l’iscrizione più recente di ogni Allievo anziché ogni record di iscrizione. La sezione **Approccio** **maggio** o **spiegherà** tale decisione. Se la logica non corrisponde all&#39;intento, avviare una nuova query con termini più specifici.
 
 ![](assets/approach.png)
-&#x200B;3. **Risultati:** L&#39;agente Insights genera i risultati come testo o tabella. Per le coordinate interpretate in modo ottimale in formato tabulare, l&#39;agente Insights restituisce una tabella. Insights Agent non genera grafici o grafici. Per visualizzare i dati, scarica il file CSV e aprilo nello strumento che preferisci. Se i risultati contengono un massimo di 50 righe, è possibile includere un riepilogo in linguaggio semplice sopra la tabella. Ad esempio, \&quot;Quali corsi non hanno meno di 5 iscrizioni create nell’ultimo anno e chi sono gli autori?\&quot;
+3. **Risultati:** L&#39;agente Insights genera i risultati come testo o tabella. Per le coordinate interpretate in modo ottimale in formato tabulare, l&#39;agente Insights restituisce una tabella. Insights Agent non genera grafici o grafici. Per visualizzare i dati, scarica il file CSV e aprilo nello strumento che preferisci. Se i risultati contengono un massimo di 50 righe, è possibile includere un riepilogo in linguaggio semplice sopra la tabella. Ad esempio, \&quot;Quali corsi non hanno meno di 5 iscrizioni create nell’ultimo anno e chi sono gli autori?\&quot;
 
 ![](assets/results.png)
 
@@ -133,10 +133,11 @@ Dopo ogni risposta, seleziona l’icona con il pollice in alto o il pollice in b
 
 ## Procedure ottimali
 
-- Inizia con una domanda specifica piuttosto che ampia. \&quot;Qual è la percentuale di completamento del corso di formazione sulla sicurezza nel gruppo utenti Nord America?\&quot; restituisce risultati più utili di \&quot;Mostra dati di completamento.\&quot;
+- Inizia con una domanda specifica piuttosto che ampia. \&quot;Qual è la percentuale di completamento del corso di formazione sulla sicurezza nel gruppo utenti Nord America?\&quot; restituisce risultati più utili rispetto a \&quot;Mostra dati di completamento&quot;.&quot;
 - Utilizza i termini Adobe Learning Manager esatti per denominare contenuto e gruppi di Allievi. Nella guida per la scrittura di query sono elencati i termini corretti da utilizzare.
 - Se l&#39;agente fa una domanda chiarificatrice, trattala come un segnale per perfezionare la tua query originale. Più specifica è la domanda, meno sono necessari i chiarimenti.
 - Prima di agire sui risultati, esaminare la sezione **Approccio**, in particolare per le query relative alla conformità in cui l&#39;accuratezza è fondamentale.
+- **Specificare se includere o escludere gli Allievi in lista d&#39;attesa**. Per impostazione predefinita, le query sul conteggio delle iscrizioni includono sia gli Allievi in lista d’attesa che le iscrizioni confermate attive. Se sono necessari solo partecipanti attivi, escludi esplicitamente gli Allievi in lista d’attesa nella query. Ad esempio: &quot;Quanti Allievi sono iscritti direttamente al corso di formazione sulla sicurezza, esclusi gli Allievi inseriti in lista d’attesa?&quot; L&#39;agente comunicherà nella sezione Approccio che l&#39;esclusione è stata applicata. Senza questa istruzione, i totali dell’iscrizione possono includere una percentuale significativa di Allievi in lista d’attesa che non hanno ancora iniziato il contenuto.
 
 
 ## Scrivere query valide per l&#39;agente Insights
@@ -267,9 +268,11 @@ Quando esegui una query sui dati di un corso associato a una certificazione rico
 
 Dopo la creazione del contenuto, l’iscrizione degli allievi o l’aggiornamento dei record di completamento, la disponibilità dei dati nei risultati delle query potrebbe richiedere fino a 30 minuti. Se i risultati appaiono incompleti o non riflettono le attività recenti, attendere 30 minuti e riprovare la query.
 
-**I dati di iscrizione e completamento includono le iscrizioni dirette e indirette**
+**Conteggio iscrizioni dirette e indirette**
 
-Quando esegui una query sui dati di iscrizione o completamento di un corso o percorso di apprendimento, Insights Agent restituisce un conteggio combinato che include sia le iscrizioni dirette (gli Allievi iscritti in modo specifico a quel corso o percorso di apprendimento) che le iscrizioni indirette (gli Allievi che hanno effettuato l’accesso allo stesso contenuto come parte di un altro percorso di apprendimento o certificazione). I risultati non separano questi due tipi di iscrizione.
+Quando si eseguono query sui dati di iscrizione o completamento di un corso o percorso di apprendimento, Insights Agent distingue tra iscrizioni dirette (allievi iscritti specificamente a quel corso o percorso di apprendimento) e indirette (allievi che hanno effettuato l’accesso allo stesso contenuto come parte di un percorso di apprendimento o di una certificazione). Se si richiedono iscrizioni dirette o indirette in modo specifico, l&#39;agente restituisce il conteggio corretto per ogni tipo.
+
+Se la query non specifica l&#39;opzione diretta o indiretta, l&#39;agente potrebbe restituire un conteggio combinato. Per ottenere conteggi separati, includere la distinzione esplicitamente nella query. Ad esempio: &quot;Quanti Allievi sono iscritti direttamente o indirettamente al corso di formazione sulla sicurezza?&quot;
 
 **Le query inviate con script non latini non sono supportate**
 
