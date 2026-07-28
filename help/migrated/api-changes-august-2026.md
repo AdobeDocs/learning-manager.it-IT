@@ -2,9 +2,9 @@
 description: Modifiche API in ALM
 jcr-language: en_us
 title: Modifiche alle API nella versione di agosto 2026 di Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3354'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Questa versione aggiunge tre nuovi endpoint API pubblici con ambito di amministr
 
 Questi endpoint funzionano solo con gruppi di utenti personalizzati. I gruppi gestiti dal sistema, ad esempio il gruppo Tutti gli utenti e i gruppi di utenti generati automaticamente, hanno il valore readOnly: true nella risposta API e non possono essere modificati o eliminati tramite questi endpoint.
 
-Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Endpoint API gruppi di utenti
 
@@ -131,9 +131,8 @@ Entrambi i campi possono essere omessi; se si omette un campo, il suo valore cor
 
 | **Parametro** | **Obbligatorio** | **Tipo** | **Descrizione** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| nome | No | stringa | Nuovo nome visualizzato. Se specificato, non deve essere vuoto. Ometti di lasciare invariato. |
+| nome | Sì | stringa | Nuovo nome visualizzato. Se specificato, non deve essere vuoto. Ometti di lasciare invariato. |
 | descrizione | No | stringa | Nuova descrizione. Passare null per cancellare. Ometti di lasciare invariato. |
-| dati | — | null | Deve essere null o assente. Qualsiasi valore diverso da null restituisce un errore 400. |
 
 #### **Risposta 200 OK**
 
@@ -205,7 +204,7 @@ Il flusso di lavoro di apprendimento esterno tramite API riflette il flusso di l
 
 Tutti e cinque gli endpoint hanno un ambito Allievo. Un Allievo può accedere solo ai propri invii: l’API restituisce un errore se un Allievo tenta di accedere ai dati di un altro Allievo.
 
-Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Endpoint API di apprendimento esterni
 
