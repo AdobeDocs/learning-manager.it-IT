@@ -3,7 +3,7 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
 workflow-type: tm+mt
 source-wordcount: '9051'
 ht-degree: 36%
@@ -1166,7 +1166,7 @@ Quando si creano le versioni del modulo LTI:
 
 Il sistema di migrazione applica il flusso di lavoro di elaborazione della migrazione standard oltre ai campi specifici dell’LTI.
 
-## Migrazione dei corsi adattivi
+## Migrazione dei corsi adattivi {#migrateadaptivecourses}
 
 Se stai eseguendo la migrazione di corsi da un sistema esterno a Adobe Learning Manager e desideri configurarli come corsi adattivi con visibilità a livello di modulo e regole di completamento per gruppo di utenti, puoi utilizzare due file CSV per definire sia i corsi che le relative regole adattive.
 
