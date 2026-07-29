@@ -3,7 +3,7 @@ description: Ulteriori informazioni su come le impostazioni di base consentono d
 jcr-language: en_us
 title: Impostazioni di base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '5921'
 ht-degree: 3%
@@ -202,7 +202,7 @@ Seleziona **[!UICONTROL Modifica]** per limitare gli elementi visibili per gli A
 
 Gli Allievi quindi esplorano le abilità e i tag loro visibili e si iscrivono alle abilità di loro scelta.
 
-### ID di Oggetti di apprendimento univoci
+### ID univoci degli oggetti di apprendimento
 
 L’opzione consente di assegnare un identificatore univoco a ciascun oggetto di apprendimento (ad esempio, corsi, percorsi di apprendimento, certificazioni o risorse formative). In questo modo, ogni oggetto di apprendimento ha un ID distinto, che può essere utile per il tracciamento, la creazione di report e l’integrazione con sistemi esterni.
 
