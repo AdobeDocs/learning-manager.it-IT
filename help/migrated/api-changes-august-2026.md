@@ -2,9 +2,9 @@
 description: Modifiche API in ALM
 jcr-language: en_us
 title: Modifiche alle API nella versione di agosto 2026 di Adobe Learning Manager
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Questa versione aggiunge tre nuovi endpoint API pubblici con ambito di amministr
 
 Questi endpoint funzionano solo con gruppi di utenti personalizzati. I gruppi gestiti dal sistema, ad esempio il gruppo Tutti gli utenti e i gruppi di utenti generati automaticamente, hanno il valore readOnly: true nella risposta API e non possono essere modificati o eliminati tramite questi endpoint.
 
-Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Endpoint API gruppi di utenti
 
@@ -204,7 +204,7 @@ Il flusso di lavoro di apprendimento esterno tramite API riflette il flusso di l
 
 Tutti e cinque gli endpoint hanno un ambito Allievo. Un Allievo può accedere solo ai propri invii: l’API restituisce un errore se un Allievo tenta di accedere ai dati di un altro Allievo.
 
-Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Per i requisiti di autenticazione API, vedere [Autenticazione API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Endpoint API di apprendimento esterni
 
@@ -300,8 +300,8 @@ Verifica l’attributo abilitato di primo livello prima di procedere. Se è fals
 | titolo | TESTO | Sì | Nome del corso di formazione. Sempre presente. Non può essere disabilitato dall&#39;amministratore. |
 | description_notes | TESTO | No | Descrizione o note in formato testo libero. |
 | data | MARCA TEMPORALE | No | Intervallo di date. Forma valore: { &quot;start_date&quot;: &quot;<ISO-Z>&quot;, &quot;end_date&quot;: &quot;<ISO-Z>&quot; }. Entrambi i valori possono essere Null. |
-| punteggio | NUMERO | Sì | Forma valore: { &quot;achievements_score&quot;: <number>, &quot;max_score&quot;: <number> }. Entrambi i valori devono essere numerici. |
-| durata | TESTO | No | Stringa in formato libero, ad esempio &quot;40 ore&quot;. |
+| punteggio | NUMERO | Sì | Forma valore: { &quot;achievements_score&quot;: <number>, &quot;max_score&quot;: <number> }. Entrambi i valori devono essere numerici.  max_score non può essere negativo. |
+| durata | OGGETTO | No | Ad esempio, { &quot;timeSpan&quot;: 8, &quot;period&quot;: &quot;HOURS&quot; }. |
 | allegati | FILE_UPLOAD | Sì | Prova di completamento. **Non** ha passato i campi[] — utilizza invece l&#39;attributo di primo livello submissionUrl. |
 
 I campi personalizzati sono definiti dall&#39;amministratore e restituiti in customFields[]. Gli ID, i tipi, i contrassegni obbligatori, le etichette e le opzioni del menu a discesa variano a seconda della configurazione dell’account.
