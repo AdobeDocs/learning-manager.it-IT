@@ -3,10 +3,10 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: d87afb28445e260e068c05b392c916fd4ba2ef8a
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '6760'
-ht-degree: 48%
+source-wordcount: '8322'
+ht-degree: 39%
 
 ---
 
@@ -1165,3 +1165,182 @@ Quando si creano le versioni del modulo LTI:
 * Continuare a rispettare tutti i requisiti di migrazione delle versioni dei moduli esistenti e le regole di convalida documentate per `module_version.csv`.
 
 Il sistema di migrazione applica il flusso di lavoro di elaborazione della migrazione standard oltre ai campi specifici dell’LTI.
+
+## Migrazione della gerarchia di cartelle dei contenuti {#migratecontentfolderhierarchy}
+
+Se stai eseguendo la migrazione dei contenuti di apprendimento da un’altra piattaforma a Adobe Learning Manager e desideri mantenere l’organizzazione delle cartelle esistente, puoi utilizzare i file CSV per creare una struttura gerarchica di cartelle e associare i file di contenuti alle cartelle appropriate.
+
+Questa migrazione viene in genere eseguita come parte di una migrazione di piattaforma più ampia, dopo che utenti, corsi, moduli e file di contenuti sono già stati importati in Adobe Learning Manager. Questo passaggio di migrazione riorganizza il contenuto nella struttura di cartelle presente nel sistema di origine.
+
+### Funzionalità della migrazione
+
+La migrazione delle cartelle dei contenuti crea fino a tre livelli di cartelle nidificate nella Libreria dei contenuti di Adobe Learning Manager e associa i file di contenuto esistenti alle sottocartelle corrette. I collegamenti del corso e del modulo ai file dei contenuti non sono interessati. Viene modificata solo l&#39;organizzazione della cartella.
+
+La migrazione viene eseguita come processo in background asincrono. Carichi un file CSV, i processi di migrazione in background e puoi monitorare l&#39;avanzamento durante il funzionamento del sistema. La migrazione può essere rieseguita se sono necessarie correzioni; le righe che sono già state elaborate correttamente vengono automaticamente ignorate in un&#39;esecuzione successiva.
+
+### Due fasi della migrazione
+
+La migrazione della cartella dei contenuti ha due fasi indipendenti. Ciascuno può essere eseguito e convalidato separatamente.
+
+| Fase | Cosa fornisci | Che cosa fa |
+| --- | --- | --- |
+| **Fase 1 — Struttura delle cartelle** | `content_folder.csv` | Crea la gerarchia di cartelle di livello 1, 2 e 3 in Adobe Learning Manager |
+| **Fase 2 — Associazione dei contenuti** | `module_version.csv` (aggiornato con il percorso della cartella) | Associa i file dei contenuti alle cartelle corrette durante l’importazione delle versioni dei moduli |
+
+La fase 2 non richiede un file CSV separato: aggiungi una colonna del percorso della cartella al file `module_version.csv` esistente.
+
+### Fase 1: creazione della gerarchia di cartelle
+
+#### Pianificare prima la gerarchia delle cartelle
+
+Prima di preparare il file CSV, mappa la struttura di cartelle o categorie del sistema di origine alla gerarchia a tre livelli di Adobe Learning Manager. Adobe Learning Manager supporta una profondità massima di tre livelli (Livello 1 → Livello 2 → Livello 3). Se il sistema di origine ha una nidificazione più profonda, uniscilo a tre livelli prima di eseguire la migrazione.
+
+>[!NOTE]
+>
+>Se il sistema di origine utilizza le barre (`/`) nei nomi di categorie o cartelle, sostituirle con un trattino (`-`) o un trattino di sottolineatura (`_`) prima di preparare il file CSV. Adobe Learning Manager non consente `/` nei nomi di cartella perché è riservato per la risoluzione del percorso della cartella.
+
+#### content_folder.csv
+
+Utilizzare `content_folder.csv` per definire la gerarchia delle cartelle di destinazione. Ogni riga del file rappresenta una cartella.
+
+**Riferimento colonna:**
+
+| Colonna | Necessario | Descrizione |
+| --- | --- | --- |
+| `id` | Sì | Identificatore univoco assegnato alla cartella. Si tratta del proprio ID di riferimento, ad esempio un ID categoria del sistema di origine. Utilizzato per collegare le cartelle principali e secondarie all’interno del file e per rendere la migrazione rieseguibile in modo sicuro. |
+| `name` | Sì | Nome visualizzato della cartella. Massimo 63 caratteri. Non può contenere una barra (`/`). Deve essere univoco tra le cartelle con lo stesso elemento padre. |
+| `description` | No | Descrizione facoltativa della cartella. Massimo 2.046 caratteri. |
+| `parentExternalId` | No | `id` della cartella padre. Lasciare vuoto per le cartelle di livello 1 (radice). Per le cartelle di livello 2, immettere `id` della principale di livello 1. Per le cartelle di livello 3, immettere `id` dell&#39;elemento padre di livello 2. |
+| `action` | Sì | Operazione da eseguire: `CREATE_FOLDER`, `UPDATE_FOLDER` o `DELETE_FOLDER`. |
+
+**Esempio:**
+
+```
+id,name,description,parentExternalId,action
+folder_001,Training,,, CREATE_FOLDER
+folder_002,Sales,,folder_001,CREATE_FOLDER
+folder_003,Onboarding,,folder_002,CREATE_FOLDER
+folder_004,HR,,,CREATE_FOLDER
+folder_005,Compliance,,folder_004,CREATE_FOLDER
+```
+
+In questo esempio:
+
+* `Training` e `HR` sono cartelle di livello 1 (nessuna principale)
+* `Sales` è una cartella di livello 2 in `Training`
+* `Onboarding` è una cartella di livello 3 in `Sales`
+* `Compliance` è una cartella di livello 2 in `HR`
+
+**Regole di convalida:**
+
+* Una cartella non può essere un proprio predecessore. Non sono consentiti riferimenti circolari
+* La profondità massima delle cartelle è di 3 livelli (Livello 1 → Livello 2 → Livello 3)
+* Due cartelle con lo stesso elemento padre non possono avere lo stesso nome
+* `parentExternalId` deve fare riferimento a un&#39;altra riga nello stesso file CSV o a una cartella esistente già presente nel tuo account
+* Le cartelle principali devono essere elencate prima delle relative cartelle secondarie nel file
+
+>[!NOTE]
+>
+>È possibile fare riferimento a una cartella esistente nell&#39;account (creata prima della migrazione) come padre di una nuova cartella utilizzando il prefisso `existing:` seguito dall&#39;ID della cartella nella colonna `parentExternalId`, ad esempio `existing:12345`.
+
+### Fase 2: Associare i contenuti alle cartelle
+
+I file di contenuto sono associati alle cartelle tramite la colonna `folder` nel file `module_version.csv`. Per questa fase non è richiesto alcun file CSV separato.
+
+#### Aggiornamento della colonna module_version.csv: folder
+
+La colonna `folder` in `module_version.csv` ora supporta i percorsi di cartella oltre ai nomi di cartella semplici.
+
+| valore cartella | Come risolvere il problema |
+| --- | --- |
+| `Sales` (nessuna barra) | Risolve in base al nome della cartella: il comportamento esistente per le cartelle di livello 1 |
+| `Training/Sales/Onboarding` (barre) | Risolve in base al percorso: passa dal livello 1 fino a ciascun livello per raggiungere la sottocartella di destinazione. |
+| `"Training/Sales,HR/Compliance"` (delimitato da virgole, tra virgolette) | Associa il file di dati a più cartelle; ogni percorso viene risolto in modo indipendente |
+| (vuoto) | Nessuna associazione tra cartelle: il contenuto rimane nel percorso predefinito |
+
+**Esempio:**
+
+```
+moduleId,moduleVersion,contentType,...,folder
+MOD001,1,content,...,Training/Sales/Onboarding
+MOD002,1,content,...,HR/Compliance
+MOD003,1,content,...,"Training/Sales,HR/Compliance"
+MOD004,1,content,...,Marketing
+```
+
+>[!IMPORTANT]
+>
+>Quando si associa un file di contenuto a più cartelle, l’elenco separato da virgole deve essere racchiuso tra virgolette doppie nel file CSV, poiché le virgole vengono utilizzate anche come separatori di colonna.
+
+>[!NOTE]
+>
+>Questa fase supporta l&#39;aggiunta di un file di contenuto a una cartella. La rimozione di un file di contenuto da una cartella mediante l’approccio basato sul percorso della cartella non è supportata. Utilizzare l’interfaccia di amministrazione di Adobe Learning Manager per rimuovere le associazioni di cartelle dopo la migrazione.
+
+### Ordine di migrazione
+
+Quando esegui una migrazione completa dei contenuti, carica ed elabora i file nel seguente ordine:
+
+1. `module.csv`: definizione dei moduli
+2. `module_version.csv` (senza percorsi di cartella) - carica contenuto modulo
+3. `course.csv` — crea i tuoi corsi
+4. `course_module.csv` - Collega i moduli ai corsi
+5. `content_folder.csv` — crea gerarchia cartelle (fase 1)
+6. `module_version.csv` (con percorsi di cartella) - Associa contenuto a cartelle (fase 2)
+
+>[!NOTE]
+>
+>È necessario elaborare `content_folder.csv` prima del file di versione del modulo che contiene i percorsi delle cartelle, perché la struttura delle cartelle deve esistere prima che sia possibile associarvi contenuto.
+
+### Convalida e riferimento di errore
+
+Adobe Learning Manager convalida ogni riga in `content_folder.csv` prima dell&#39;elaborazione. Le righe che non superano la convalida vengono ignorate e segnalate come errori. Le righe valide nello stesso file continuano a essere elaborate.
+
+| Scenario | Cosa succede | Risoluzione |
+| --- | --- | --- |
+| Il nome della cartella supera i 63 caratteri | Riga rifiutata | Abbrevia il nome nel file CSV prima di ricaricare |
+| La descrizione supera i 2.046 caratteri | Riga rifiutata | Accorcia la descrizione nel file CSV |
+| Il nome di una cartella contiene una barra (`/`) | Riga rifiutata | Sostituisci `/` con `-` o `_` nel nome della cartella |
+| Due cartelle con lo stesso elemento padre hanno lo stesso nome | Riga rifiutata | Rinominare una delle cartelle duplicate |
+| `parentExternalId` fa riferimento a un ID non trovato nel file o nell&#39;account | Riga rifiutata | Verificare che l&#39;ID della cartella principale sia corretto e che la riga principale sia stata elaborata correttamente |
+| La profondità della cartella supera i 3 livelli | Riga rifiutata | Unico livello gerarchico fino a un massimo di 3 livelli prima della migrazione |
+| Rilevato riferimento circolare (la cartella A è predecessore della cartella B e B è elencata come padre di A) | Rifiutato intero CSV | Verifica la catena `parentExternalId` e rimuovi il riferimento circolare |
+| `action` non è `CREATE_FOLDER`, `UPDATE_FOLDER` o `DELETE_FOLDER` | Riga rifiutata | Correggi il valore `action`: vengono accettati solo questi tre valori |
+| `DELETE_FOLDER` per una cartella che contiene ancora file di contenuto | Riga rifiutata | Sposta i file di contenuto in un’altra cartella prima di eliminarli o rimuovi la riga di eliminazione e la gestione manualmente nell’interfaccia di amministrazione |
+| `UPDATE_FOLDER` per un `id` che non esiste nell&#39;account | Riga rifiutata | Confermare che la cartella è stata creata correttamente in un&#39;esecuzione precedente. Utilizzare `CREATE_FOLDER` per le nuove cartelle |
+| `CREATE_FOLDER` per un `id` già migrato correttamente | Riga ignorata | Nessuna azione necessaria. Questo è il comportamento previsto quando si esegue nuovamente una migrazione. |
+| Il percorso della cartella in `module_version.csv` fa riferimento a una cartella inesistente | Riga modulo rifiutata | Esegui prima lo sprint della struttura delle cartelle o verifica che il nome e il percorso della cartella siano stati scritti correttamente |
+| Doppia barra nel percorso della cartella (ad esempio, `Training//Sales`) | Riga modulo rifiutata | Rimuovi la barra extra dal tracciato |
+
+### Compatibilità con le versioni precedenti
+
+Se utilizzi già `content_folder.csv` o `module_version.csv` nei flussi di lavoro di migrazione, i file esistenti continueranno a funzionare senza modifiche.
+
+| Scenario | Comportamento |
+| --- | --- |
+| `content_folder.csv` esistente senza colonna `parentExternalId` | Funziona in modo identico: le cartelle vengono create come cartelle di livello 1, come prima |
+| `module_version.csv` esistente con nomi di cartella semplici (no `/`) | Funziona in modo identico: i nomi delle cartelle vengono risolti in base alla ricerca del nome, come prima |
+| Nuovo `module_version.csv` con percorsi cartella contenenti `/` | La risoluzione basata su percorso viene attivata automaticamente dalla presenza di `/` |
+| Combinazione di nomi semplici e percorsi nello stesso `module_version.csv` | Ogni riga viene risolta in modo indipendente: entrambi i formati funzionano nello stesso file |
+| Riesecuzione dello stesso `content_folder.csv` | Sicuro: le righe già elaborate correttamente vengono ignorate automaticamente |
+
+### Procedure ottimali
+
+**Preparazione di content_folder.csv**
+
+* Utilizza gli ID di categoria o cartella del sistema di origine come valore `id`. Questi vengono memorizzati in modo permanente per il tracciamento delle ripetizioni e devono rimanere stabili.
+* I nomi delle cartelle non devono superare i 63 caratteri. Tronca nel file CSV prima di caricarlo. La migrazione rifiuterà i nomi che superano il limite.
+* Assicuratevi che non vi siano due cartelle con lo stesso nome principale. Le cartelle che si trovano sotto padri diversi possono condividere un nome.
+* Sebbene l’ordine delle righe nel file non influisca sul risultato, ovvero la migrazione ordina automaticamente le righe, l’elenco delle cartelle principali prima delle cartelle secondarie semplifica la revisione del file.
+
+**Preparazione di module_version.csv con percorsi di cartella**
+
+* La corrispondenza del percorso della cartella non fa distinzione tra maiuscole e minuscole, ma in caso contrario i nomi delle cartelle devono corrispondere esattamente a quelli creati nella fase 1.
+* Eseguire la fase 1 (struttura cartelle) prima di eseguire la fase 2 (associazione contenuti). La risoluzione del percorso controlla le cartelle già esistenti: se una cartella non è ancora stata creata, la riga del modulo avrà esito negativo.
+* Evitare le doppie barre nei percorsi: `Training//Sales` non riuscirà a causa di un segmento di percorso vuoto.
+* Le barre iniziali e finali vengono tagliate automaticamente: `Training/Sales/` e `/Training/Sales` si risolvono entrambe correttamente, ma per maggiore chiarezza non vengono tagliate.
+
+**Esecuzione della migrazione**
+
+* Prima di eseguire il test con un piccolo batch, carica 10-20 righe per verificare il formato CSV prima di ridimensionarlo per adattarlo all’intero set di dati.
+* Completare lo sprint della struttura di cartelle prima di avviare lo sprint della versione del modulo. L’esecuzione in parallelo può causare errori di risoluzione dei percorsi.
+* Al termine di entrambi gli sprint, verifica nell&#39;interfaccia di amministrazione di Adobe Learning Manager che la struttura delle cartelle mostri la gerarchia corretta e che i file di contenuto appaiano nelle cartelle previste.
