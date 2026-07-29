@@ -3,9 +3,9 @@ description: Scopri le nuove funzioni e i miglioramenti, comprese le modifiche a
 jcr-language: en_us
 title: Novità della versione di agosto 2026 di Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -15,23 +15,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Le funzioni descritte in questo articolo sono disponibili come parte della versione beta. Le funzioni beta di Adobe Learning Manager sono fornite a scopo di valutazione e possono essere modificate, limitate o rimosse prima del rilascio di disponibilità generale. I nomi delle funzioni, il comportamento e le opzioni di configurazione sono soggetti a modifiche senza preavviso.
-
-
-## Corsi adattativi
-
-I corsi adattivi consentono di erogare corsi di formazione personalizzati controllando i moduli visualizzati da ciascun Allievo e quelli richiesti in base ai gruppi di utenti a cui appartiene. Un singolo corso presenta in modo dinamico il contenuto corretto alla persona giusta.
-
-Gli autori configurano ogni modulo con **Facoltativo** e **Obbligatorio** per le regole del gruppo di utenti. Gli Allievi appartenenti a gruppi di utenti diversi possono completare set di moduli completamente diversi, pur continuando a completare lo stesso corso. I limiti di posti per le sessioni in aula e in aula virtuale sono ora applicati a livello di modulo, in modo che un Allievo possa essere iscritto a un corso mentre è in lista d’attesa solo per una sessione specifica. Per ulteriori informazioni, consulta [Corsi adattativi - Autore](/help/migrated/authors/feature-summary/adaptive-course-author.md)
-
-Funzionalità principali:
-
-* Regole di visibilità e completamento a livello di modulo per gruppo di utenti
-* Logica di unione OR: se un gruppo rende obbligatorio un modulo, questo è obbligatorio per quell’Allievo
-* Liste di attesa a livello di modulo per le sessioni in aula e in aula virtuale
-* Aggiornamento del completamento attivato quando cambia il profilo di un Allievo
-* Supportato nei percorsi di apprendimento e nelle certificazioni con limitazioni documentate per le certificazioni ricorrenti
-
-Ulteriori informazioni sui corsi adattivi.
 
 ## Gradebook
 
@@ -106,7 +89,6 @@ Punti salienti:
 >[!NOTE]
 >
 >Live Hub è attualmente disponibile in versione beta e sarà disponibile con la prossima versione di agosto di Adobe Learning Manager. La documentazione di Live Hub sarà disponibile una volta rilasciata la funzione.
-
 
 ## Generatore di modelli e-mail basati su componenti
 
