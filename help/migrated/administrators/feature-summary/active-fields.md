@@ -3,9 +3,9 @@ description: Scopri come utilizzare i campi attivi in Adobe Learning Manager per
 jcr-language: en_us
 title: Configurare i campi attivi in Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Con l&#39;aggiunta di attributi personalizzati ai profili utente, i campi attivi
 
 >[!INFO]
 >
->Guarda questo corso di formazione sull&#39;Accademia ALM per scoprire come aggiungere, personalizzare e configurare campi attivi.<br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
+>Guarda questo corso di formazione su ALM Academy per scoprire come aggiungere, personalizzare e configurare campi attivi.<br>[![pulsante](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
 
 ## Aggiungi campi attivi
 
@@ -77,7 +77,7 @@ Per configurare le impostazioni dei campi attivi:
    ![](assets/settings-active-field.png)
    _Selezionare la scheda Impostazioni per personalizzare i campi attivi_
 
-2. Seleziona una o entrambe le opzioni, in base alle esigenze.:
+2. Selezionare una o entrambe le opzioni, in base alle esigenze.
 
    * **Mostra solo campi non compilati all’accesso dell’Allievo:** se questa opzione è selezionata, gli Allievi vedranno solo i campi attivi che non hanno ancora compilato. In questo modo viene richiesto di completare il profilo, garantendo che i dati utente siano accurati e aggiornati. La visualizzazione di questi campi supporta profili di Allievo completi e consente esperienze di apprendimento personalizzate.
    * **Se deselezionata, la pagina &quot;Completa il tuo profilo&quot; non viene visualizzata agli utenti:** Quando questa opzione è disattivata, gli Allievi non visualizzeranno la pagina **Completa il tuo profilo** al momento dell&#39;accesso. Non verrà richiesto di aggiornare o compilare alcuna informazione di profilo e possono accedere direttamente alla piattaforma.
@@ -126,6 +126,6 @@ In alcuni casi, gli Amministratori preferiscono che gli Allievi compilino manual
 
 Se un file CSV non include tutti i campi attivi, l’amministratore deve immettere manualmente i valori mancanti dopo l’importazione.
 
-Per impostazione predefinita, ogni campo attivo deve essere mappato a un campo corrispondente nel file CSV di origine. Tuttavia, se non desideri mappare un campo attivo specifico a nessuna colonna nel file CSV, puoi selezionare il valore **DontImportFromSource** dall&#39;elenco a discesa durante i processi di importazione Box e FTP. Questa opzione è disponibile quando si importano gli utenti tramite connettori FTP o Box. Per ulteriori informazioni sui connettori, consultare questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/connectors).
+Per impostazione predefinita, ogni campo attivo deve essere mappato a un campo corrispondente nel file CSV di origine. Tuttavia, se non desideri mappare un campo attivo specifico a nessuna colonna nel file CSV, puoi selezionare il valore **DontImportFromSource** dall&#39;elenco a discesa durante i processi di importazione Box e FTP. Questa opzione è disponibile quando si importano gli utenti tramite connettori FTP o Box. Per ulteriori informazioni sui connettori, consultare questo [articolo](/help/migrated/integration-admin/feature-summary/connectors.md).
 
 
