@@ -2,9 +2,9 @@
 description: Insights Agent è una funzione basata sull'intelligenza artificiale in Adobe Learning Manager che consente agli amministratori di eseguire query sui dati degli Allievi utilizzando il linguaggio naturale.
 jcr-language: en_us
 title: Agente Insights (beta) in Adobe Learning Manager
-source-git-commit: 03dbee8fdbc83d7e23ee3c4d13fad621e1c80a7e
+source-git-commit: d08f721676a301fc94a36dc58ca1f5508ae8c1b3
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
@@ -133,11 +133,12 @@ Dopo ogni risposta, seleziona l’icona con il pollice in alto o il pollice in b
 
 ## Procedure ottimali
 
-- Inizia con una domanda specifica piuttosto che ampia. \&quot;Qual è la percentuale di completamento del corso di formazione sulla sicurezza nel gruppo utenti Nord America?\&quot; restituisce risultati più utili rispetto a \&quot;Mostra dati di completamento&quot;.&quot;
+- Inizia con una domanda specifica piuttosto che ampia. &quot;Qual è la percentuale di completamento del corso di formazione sulla sicurezza nel gruppo utenti del Nord America?&quot; restituisce risultati più utili di \&quot;Mostra dati di completamento&quot;.
 - Utilizza i termini Adobe Learning Manager esatti per denominare contenuto e gruppi di Allievi. Nella guida per la scrittura di query sono elencati i termini corretti da utilizzare.
 - Se l&#39;agente fa una domanda chiarificatrice, trattala come un segnale per perfezionare la tua query originale. Più specifica è la domanda, meno sono necessari i chiarimenti.
 - Prima di agire sui risultati, esaminare la sezione **Approccio**, in particolare per le query relative alla conformità in cui l&#39;accuratezza è fondamentale.
 - **Specificare se includere o escludere gli Allievi in lista d&#39;attesa**. Per impostazione predefinita, le query sul conteggio delle iscrizioni includono sia gli Allievi in lista d’attesa che le iscrizioni confermate attive. Se sono necessari solo partecipanti attivi, escludi esplicitamente gli Allievi in lista d’attesa nella query. Ad esempio: &quot;Quanti Allievi sono iscritti direttamente al corso di formazione sulla sicurezza, esclusi gli Allievi inseriti in lista d’attesa?&quot; L&#39;agente comunicherà nella sezione Approccio che l&#39;esclusione è stata applicata. Senza questa istruzione, i totali dell’iscrizione possono includere una percentuale significativa di Allievi in lista d’attesa che non hanno ancora iniziato il contenuto.
+- **Numero di iscrizioni dirette e indirette**: quando si eseguono query sui dati di iscrizione o completamento di un corso o di un percorso di apprendimento, Insights Agent distingue tra iscrizioni dirette (allievi iscritti in modo specifico a quel corso o percorso di apprendimento) e indirette (allievi che hanno effettuato l’accesso allo stesso contenuto come parte di un percorso di apprendimento o di una certificazione). Se si richiedono iscrizioni dirette o indirette in modo specifico, l&#39;agente restituisce il conteggio corretto per ogni tipo. Se la query non specifica l&#39;opzione diretta o indiretta, l&#39;agente potrebbe restituire un conteggio combinato. Per ottenere conteggi separati, includere la distinzione esplicitamente nella query. Ad esempio: &quot;Quanti Allievi sono iscritti direttamente o indirettamente al corso di formazione sulla sicurezza?&quot;
 
 
 ## Scrivere query valide per l&#39;agente Insights
@@ -256,23 +257,9 @@ Utilizzatele come punti di partenza. Adattali sostituendo i nomi dei contenuti, 
 
 ## Limitazioni nella versione
 
-**Le certificazioni ricorrenti possono mostrare più opzioni durante il passaggio di rimozione delle ambiguità**
-
-Quando si eseguono query sui dati per una certificazione ricorrente, Insights Agent potrebbe visualizzare più opzioni durante la fase di chiarimento, una per ogni ricorrenza della certificazione, anziché visualizzarla come una singola voce. La selezione di una di queste opzioni può restituire dati errati o incompleti. Si consiglia di non utilizzare Insights Agent per eseguire query sulle certificazioni ricorrenti.
-
-**I corsi che fanno parte di una certificazione ricorrente possono mostrare più opzioni durante il passaggio di rimozione delle ambiguità**
-
-Quando esegui una query sui dati di un corso associato a una certificazione ricorrente, Insights Agent può visualizzare più opzioni durante il passaggio di chiarimento, una per ogni versione del corso creata durante i cicli di certificazione, invece di visualizzarla come una singola voce. La selezione di una di queste opzioni può restituire dati errati o incompleti.
-
 **La visualizzazione dei dati appena aggiunti nei risultati potrebbe richiedere fino a 30 minuti**
 
 Dopo la creazione del contenuto, l’iscrizione degli allievi o l’aggiornamento dei record di completamento, la disponibilità dei dati nei risultati delle query potrebbe richiedere fino a 30 minuti. Se i risultati appaiono incompleti o non riflettono le attività recenti, attendere 30 minuti e riprovare la query.
-
-**Conteggio iscrizioni dirette e indirette**
-
-Quando si eseguono query sui dati di iscrizione o completamento di un corso o percorso di apprendimento, Insights Agent distingue tra iscrizioni dirette (allievi iscritti specificamente a quel corso o percorso di apprendimento) e indirette (allievi che hanno effettuato l’accesso allo stesso contenuto come parte di un percorso di apprendimento o di una certificazione). Se si richiedono iscrizioni dirette o indirette in modo specifico, l&#39;agente restituisce il conteggio corretto per ogni tipo.
-
-Se la query non specifica l&#39;opzione diretta o indiretta, l&#39;agente potrebbe restituire un conteggio combinato. Per ottenere conteggi separati, includere la distinzione esplicitamente nella query. Ad esempio: &quot;Quanti Allievi sono iscritti direttamente o indirettamente al corso di formazione sulla sicurezza?&quot;
 
 **Le query inviate con script non latini non sono supportate**
 
