@@ -5,7 +5,7 @@ title: Novità della versione di ottobre 2025 di Adobe Learning Manager
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
 source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5580'
+source-wordcount: '5644'
 ht-degree: 0%
 
 ---
@@ -169,7 +169,7 @@ Questo processo semplificato garantisce che continuino a ricevere raccomandazion
 
 Adobe Learning Manager ora dispone di un pulsante **[!UICONTROL Ripristina interessi]** nell’app Salesforce. Gli Allievi possono ora ripristinare i ruoli e le preferenze di apprendimento senza dover lasciare Salesforce o accedere all’app nativa Adobe Learning Manager.
 
-Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce[&#128279;](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app), consulta Consigli per la reimpostazione.
+Per ulteriori informazioni sui consigli di reimpostazione nell’app Salesforce](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app), consulta [Consigli per la reimpostazione.
 
 ## Miglioramento del widget Calendario
 
