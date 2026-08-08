@@ -4,10 +4,10 @@ title: Gestisci ruoli personalizzati tramite file CSV
 description: L’Amministratore di integrazione può aggiungere vari ruoli personalizzati al proprio account in un’unica soluzione tramite CSV e può assegnare lo stesso ruolo a vari utenti. Questo approccio automatizza il processo di creazione dei ruoli personalizzati.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 72%
+source-wordcount: '1002'
+ht-degree: 78%
 
 ---
 
@@ -25,8 +25,8 @@ Dopo aver effettuato l’accesso all’account di archiviazione Box, l’Amminis
 
 Per iniziare, scarica i csv e modifica i valori in base alle tue esigenze.
 
-* File di esempio: [role.csv](assets/role.csv)
-* File di esempio: [user_role.csv](assets/user_role.csv)
+* File di esempio: [role.csv](assets/role.zip)
+* File di esempio: [user_role.csv](assets/user-role.zip)
 
 **role.csv**
 
@@ -52,7 +52,7 @@ Per iniziare, scarica i csv e modifica i valori in base alle tue esigenze.
    <td>
     <p>&lt;Entity&gt;</p></td>
    <td>
-    <p>Identifica il tipo di accesso (FULL, WRITE, ENROLL, REPORT, NONE) per ogni tipo di entità come Corso, Catalogo e così via.</p></td>
+    <p>Identificare il tipo di accesso (COMPLETO, SCRITTURA, ISCRIZIONE, REPORT, NESSUNO) per ogni tipo di entità come CORSO, CATALOGO, ecc.</p></td>
    <td>
     <p>COMPLETO</p>
     <p>NESSUNO</p>
@@ -79,7 +79,7 @@ Per iniziare, scarica i csv e modifica i valori in base alle tue esigenze.
   </tr>
   <tr>
    <td>
-    <p>Descrizione</p></td>
+    <p>Description (Descrizione)</p></td>
    <td>
     <p>Descrizione intuitiva che facilita la comprensione dello scopo del ruolo e la successiva consultazione.</p></td>
    <td>
@@ -160,7 +160,7 @@ Entrambi i file CSV devono essere caricati solo tramite Box e non possono essere
 
 I ruoli personalizzati creati utilizzando il file CSV non sono visibili agli amministratori nell’interfaccia utente. Questi ruoli non saranno correlati a o influenzati da ruoli già creati (o creati in seguito) dall’interfaccia utente.
 
-I ruoli personalizzati creati da un file CSV possono essere gestiti interamente tramite il file CSV stesso. Ciò include l&#39;aggiunta, la modifica e l&#39;eliminazione di ruoli.
+I ruoli personalizzati che sono stati creati da un CSV possono essere interamente gestiti tramite CSV stesso. Ciò include l’aggiunta, la modifica e l’eliminazione dei ruoli.
 
 I ruoli assegnati possono essere revocati rimuovendo le voci di assegnazione dal csv user_role. Ma le assegnazione eseguite tramite l’interfaccia utente di amministrazione non sono influenzate.
 
@@ -178,7 +178,7 @@ Nella sezione Sincronizza impostazioni, abilitare l&#39;opzione **[!UICONTROL At
 
 *Selezionare l&#39;opzione Abilita sincronizzazione automatica*
 
-Quando si sceglie questa opzione, è possibile pianificare l’orario della sincronizzazione sull&#39;ora esatta specificata nel campo dell’ora della sincronizzazione. Se si specifica l&#39;ora di sincronizzazione come 12:00, i ruoli personalizzati vengono aggiornati esattamente all&#39;ora specificata ogni giorno.
+Quando si sceglie questa opzione, è possibile pianificare l’orario della sincronizzazione sull&#39;ora esatta specificata nel campo dell’ora della sincronizzazione. Se si specifica l’ora di sincronizzazione come 12:00, i ruoli personalizzati vengono aggiornati esattamente all’ora specificata per ogni giorno.
 
 Se si desidera sincronizzare i dati on-demand, fare clic su **[!UICONTROL Sync Now]** (Sincronizza adesso).
 

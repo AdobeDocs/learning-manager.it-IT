@@ -4,9 +4,9 @@ title: Anteprima come Allievo
 description: Il lettore Fluidic è una piattaforma che consente agli Allievi di visualizzare i contenuti senza interruzioni, per un’esperienza di apprendimento davvero integrata. Tutti i formati supportati vengono riprodotti in modo coerente nel lettore. Gli Autori e gli Amministratori possono visualizzare in anteprima il contenuto mediante il lettore.
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 68%
 
 ---
@@ -33,7 +33,7 @@ Durante la creazione dei corsi, gli Autori possono vedere un’anteprima del cor
 
 Il lettore Fluidic supporta 11 lingue. :
 
-| Lingua | Territorio | Identificatore IBM |
+| Lingua | Territorio | Identificatore |
 |---|---|---|
 | Arabo | Arabia Saudita | ar-SA |
 | Cinese tradizionale | Hong Kong R.A.S. della Cina | zh-Hant-HK |
