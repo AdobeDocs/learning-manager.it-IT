@@ -1,9 +1,9 @@
 ---
 title: Informazioni sul pannello Chat in Hub dal vivo
 description: Scopri come il pannello Chat consente una comunicazione strutturata in tempo reale tra Istruttori e Allievi durante una sessione Hub dal vivo.
-source-git-commit: 203b9dd661ddf9223d3e181c5887e6976ba8213e
+source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Il pannello Chat è disponibile per Istruttori e Allievi. Le azioni e i controll
 | [Accedere al pannello Chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#access-the-chat-panel) | [Accedere al pannello Chat](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#access-the-chat-panel) |
 | [Impostazioni del pannello Chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#chat-panel-settings) | [Gestione dei messaggi della chat](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
 | [Rispondi ai messaggi della chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#reply-to-chat-messages) | [Personalizzare il pannello Chat](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#customize-the-chat-panel) |
-| [Reazione a un messaggio](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [Personalizzare il pannello Chat](#overview) |
-| [Modificare i messaggi della chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) | [Gestione dei messaggi della chat](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
-| [Indica i partecipanti nei messaggi della chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | [Invia messaggi privati](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [Reazione a un messaggio](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [Invia messaggi privati](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [Modificare i messaggi della chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) |  |
+| [Indica i partecipanti nei messaggi della chat](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | |
 | [Avvia una chat privata](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#start-a-private-chat) | |
 | [Bozza delle risposte alle domande dei partecipanti con IA](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) | |
 | [Elimina messaggi](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#delete-messages) | |
