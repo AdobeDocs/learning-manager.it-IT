@@ -3,7 +3,7 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di maggio
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
+source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
@@ -90,7 +90,8 @@ Adobe Learning Manager è una piattaforma multilingue in cui le preferenze lingu
 
 Per gli utenti della piattaforma nativa Adobe Learning Manager, questo miglioramento risolve la necessità di provisioning degli utenti just-in-time. Quando gli utenti creano account e accedono per la prima volta, questa funzione garantisce che le preferenze della lingua vengano acquisite e applicate in modo accurato.
 
-Questa funzione garantisce che le preferenze della lingua degli utenti vengano aggiornate automaticamente quando accedono tramite SAML. Questo consente di offrire un’esperienza personalizzata visualizzando l’interfaccia nella lingua preferita dell’utente.Quando gli utenti accedono tramite SAML, la preferenza della lingua (Interface and Content Language) viene controllata e aggiornata in base alle informazioni fornite durante il processo di accesso.
+Questa funzione garantisce che le preferenze della lingua degli utenti vengano aggiornate automaticamente quando accedono tramite SAML. Questo consente di offrire un’esperienza personalizzata visualizzando l’interfaccia nella lingua preferita dell’utente.
+Quando gli utenti accedono tramite SAML, la preferenza della lingua (Interface and Content Language) viene controllata e aggiornata in base alle informazioni fornite durante il processo di accesso.
 
 La funzione si integra con il processo di accesso SAML per acquisire e aggiornare senza problemi la preferenza della lingua dell&#39;utente.
 
@@ -126,9 +127,11 @@ Per ulteriori informazioni sull&#39;analisi della sessione Connect, vedere quest
 
 ### Criteri di successo per il contenuto mediante la migrazione
 
-Il processo di migrazione in Adobe Learning Manager per l’importazione dei moduli ora supporta la possibilità di aggiungere parametri per la definizione dei criteri di successo.Questa operazione è ora supportata aggiungendo tre nuove colonne facoltative in module_version.csv. Sono disponibili tre nuove colonne facoltative: `successCriteria`, `successQuizData` e `successViewPercent`.
+Il processo di migrazione in Adobe Learning Manager per l’importazione dei moduli ora supporta la possibilità di aggiungere parametri per la definizione dei criteri di successo.
+Questa operazione è ora supportata aggiungendo tre nuove colonne facoltative in module_version.csv. Sono disponibili tre nuove colonne facoltative: `successCriteria`, `successQuizData` e `successViewPercent`.
 
-Questi campi accettano solo valori specifici e il connettore non elaborerà il file se vengono immessi valori non validi.Un modulo di quiz può utilizzare tre tipi di criteri di successo. Può contrassegnare come superato se l’Allievo avvia il contenuto, a seconda di un valore percentuale ottenuto (definito da `successViewPercent`: di seguito), oppure può essere basato sul risultato del modulo del quiz (definito da `successQuizData`: di seguito). Questo valore deve essere compilato secondo le istruzioni riportate di seguito. Per determinare questa condizione viene utilizzato il parametro successCriteria.
+Questi campi accettano solo valori specifici e il connettore non elaborerà il file se vengono immessi valori non validi.
+Un modulo di quiz può utilizzare tre tipi di criteri di successo. Può contrassegnare come superato se l’Allievo avvia il contenuto, a seconda di un valore percentuale ottenuto (definito da `successViewPercent`: di seguito), oppure può essere basato sul risultato del modulo del quiz (definito da `successQuizData`: di seguito). Questo valore deve essere compilato secondo le istruzioni riportate di seguito. Per determinare questa condizione viene utilizzato il parametro successCriteria.
 
 `successCriteria`: accetta `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` o `VIEWPERCENT_OR_QUIZ`.
 
@@ -152,13 +155,14 @@ Modifiche al webhook.
 
 ### Aggiungere l’ID univoco del contenuto e la data di scadenza per il contenuto utilizzando la migrazione
 
-ID univoco del contenuto e Data di scadenza sono ora supportati durante la migrazione. Per abilitare questa funzionalità, sono state aggiunte due colonne aggiuntive: expiryDate e uniqueContentId al file module_version.csv. Per ulteriori informazioni, fai riferimento a [file CSV di esempio](assets/module_version_content.csv) e [file di specifica CSV](assets/4-module_version_content.xlsx).
+ID univoco del contenuto e Data di scadenza sono ora supportati durante la migrazione. Per abilitare questa funzionalità, sono state aggiunte due colonne aggiuntive: expiryDate e uniqueContentId al file module_version.csv. Per ulteriori informazioni, fai riferimento a [file CSV di esempio](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) e [file di specifica CSV](/help/migrated/integration-admin/feature-summary/assets/module-version.zip).
 
 Per ulteriori informazioni sul processo di migrazione, vedere questo [articolo](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 ## Miglioramenti apportati ai webhook
 
-I webhook ora supportano gli eventi per i corsi all’interno dei percorsi di apprendimento (LP) e le certificazioni in caso di iscrizione, annullamento dell’iscrizione o completamento.Ciò include eventi di supporto per ogni corso all’interno del programma di apprendimento o della certificazione, oltre all’evento LO principale.
+I webhook ora supportano gli eventi per i corsi all’interno dei percorsi di apprendimento (LP) e le certificazioni in caso di iscrizione, annullamento dell’iscrizione o completamento.
+Ciò include eventi di supporto per ogni corso all’interno del programma di apprendimento o della certificazione, oltre all’evento LO principale.
 
 Per ulteriori informazioni sui webhook, consulta questo [articolo](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md).
 

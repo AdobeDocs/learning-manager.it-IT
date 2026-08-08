@@ -4,10 +4,10 @@ title: Come scegliere i moduli del corso?
 description: Adobe Learning Manager supporta quattro tipi di moduli del corso. Se sei responsabile della creazione di un programma di apprendimento, potresti chiederti quale tipo di modulo è adatto a soddisfare le esigenze della tua organizzazione. Puoi scegliere i moduli del corso in base al budget della tua organizzazione e alle esigenze del pubblico. Alcuni esempi di utilizzo per ogni tipo di modulo sono spiegati come riferimento qui di seguito.
 contentowner: jayakarr
 exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: fcbe70fb0eef5aae891f6a222112804707dfe626
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 93%
+source-wordcount: '648'
+ht-degree: 75%
 
 ---
 
@@ -106,14 +106,15 @@ Learning Manager supporta quattro tipi di moduli del corso. Se sei responsabile 
   <tr>
    <td><img src="assets/virtual-classroom.png"></td>
    <td>
-    <p>Durante il corso di formazione virtuale, gli Allievi frequentano i corsi online tramite una trasmissione in diretta da parte di un Istruttore. Gli Allievi devono frequentare i corsi nell’ora prestabilita. Tuttavia, possono frequentare i corsi da qualsiasi luogo.</p>
+    <p>Utilizza un modulo aula virtuale quando desideri che gli Allievi partecipino alle sessioni in diretta tenute da Istruttore in un ambiente online. Queste sessioni possono essere tenute utilizzando Live Hub, lo strumento di formazione virtuale dal vivo integrato basato sull’intelligenza artificiale in Learning Manager, o tramite strumenti esterni come Zoom, Microsoft Teams e altro.</p>
     <p> </p>
     <p> </p>
     <p><strong>Vantaggi</strong></p>
     <ul>
-     <li>Puoi scegliere il modulo classe virtuale quando il corso non è complesso.</li>
-     <li>Puoi sceglierlo quando gli Allievi e gli Istruttori fanno parte di team distribuiti in vari luoghi. </li>
-     <li>Puoi risparmiare sui costi di logistica per gli Allievi e gli Istruttori.</li>
+     <li>Ideale per sessioni che richiedono un’interazione in tempo reale con un Istruttore, come discussioni, domande e risposte o apprendimento guidato</li>
+     <li>Consente la formazione di team distribuiti in diverse sedi senza necessità di presenza fisica. </li>
+     <li>Riduce i costi logistici per Allievi e Istruttori.</li>
+     <li>Con Hub live, puoi condurre sessioni direttamente all’interno di Learning Manager senza affidarti a strumenti esterni, garantendo un’esperienza di apprendimento uniforme e integrata. Le sue funzionalità di intelligenza artificiale ti aiutano anche a trovare rapidamente istruttori e fasce orarie adatti.</li>
     </ul></td>
   </tr>
  </tbody>

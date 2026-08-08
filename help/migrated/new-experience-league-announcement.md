@@ -3,12 +3,13 @@ jcr-language: en_us
 title: Annuncio nuova esperienza campionato
 description: Scopri gli annunci più recenti su Experience League.
 exl-id: 26f601cc-3197-4824-91dc-a0a42d1de935
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: e007447a9e7683c5d0fd5ef412e97610d11fb61d
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
+
 
 # Nuovi annunci di Experience League
 

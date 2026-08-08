@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Moduli
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 63%
+source-wordcount: '1098'
+ht-degree: 61%
 
 ---
 
@@ -85,7 +85,7 @@ Nella pagina seguente, puoi visualizzare i moduli di tipo **Invio** e **Elenco d
 ![](assets/modules-list.png)
 *Visualizza elenco di moduli*
 
-Fare clic sul modulo Elenco di controllo. Nella pagina **Elenco di controllo** viene visualizzato quanto segue:
+Fai clic sul modulo Elenco di controllo. Nella pagina **Elenco di controllo** viene visualizzato quanto segue:
 
 * Il nome del modulo
 * Il nome del corso
@@ -115,7 +115,7 @@ Dopo che l’istruttore ha valutato il corso utilizzando l’elenco di controllo
 
 ## Commenti dell’istruttore per il rifiuto di un’attività {#rejection-comments}
 
-Un Allievo può visualizzare il commento di un Istruttore nella notifica inviata per il rifiuto. L’Allievo può quindi rispondere fornendo ulteriori informazioni sotto forma di commenti.
+Un Allievo può vedere il commento di un istruttore nella notifica inviata per il rifiuto. L’Allievo può quindi rispondere fornendo ulteriori informazioni sotto forma di commenti.
 
 Flusso di lavoro:
 
@@ -126,12 +126,12 @@ Flusso di lavoro:
    ![](assets/proof-of-completion.png)
    *Invia prova di completamento*
 
-1. L’Istruttore seleziona quindi il modulo di attività che gli viene assegnato. Nella pagina Invii del modulo, l’istruttore fa clic su **Modifica**. Potrà quindi immettere i commenti per il rifiuto e abilitare l’opzione Mostra commento, in modo che l’Allievo possa visualizzare il commento nella notifica.
+1. L’istruttore seleziona quindi il modulo di attività che gli viene assegnato. Nella pagina Invii del modulo, l’istruttore fa clic su **Modifica**. Potrà quindi immettere i commenti per il rifiuto e abilitare l’opzione Mostra commento, in modo che l’Allievo possa visualizzare il commento nella notifica.
 
    ![](assets/enter-comments.png)
    *Immettere i commenti di completamento*
 
-1. L&#39;istruttore può fare clic su **Rifiuta**. Lo stato dell&#39;invio cambia in **Contrassegnato per il rifiuto**.
+1. L’istruttore può fare clic su **Rifiuta**. Lo stato dell&#39;invio cambia in **Contrassegnato per il rifiuto**.
 
    ![](assets/marked-for-rejection.png)
    *Rifiutare un inoltro*
@@ -141,12 +141,12 @@ Flusso di lavoro:
    ![](assets/rejected-status.png)
    *Visualizza stato rifiuto*
 
-1. L’Allievo ora riceve una notifica in cui comunica che la sua domanda è stata rifiutata. I commenti dell’istruttore appaiono anche nella notifica.
+1. A questo punto, l’Allievo riceve una notifica che segnala che il suo invio è stato rifiutato. I commenti dell’istruttore appaiono anche nella notifica.
 
    ![](assets/notification-of-rejection.png)
    *Ricezione notifica rifiuto*
 
-Per tenere conto delle modifiche, l&#39;Adobe ha aggiornato il modello e-mail per **Invio rifiutato**.
+Per tenere conto delle modifiche, Adobe ha aggiornato il modello e-mail per **Invio rifiutato**.
 
 ## Aggiunta di punteggi e commenti per i moduli di attività {#addscoresandcommentsforactivitymodules}
 
@@ -168,3 +168,16 @@ Per aggiungere punteggi e commenti ai moduli di attività inviati, procedi come 
    *Modificare punteggi e commenti*
 
 1. Fai clic su **[!UICONTROL Salva]**.
+
+## Sessione Live Hub
+
+Per le sessioni create utilizzando Live Hub, la sezione **Live Hub** nella pagina **Panoramica della sessione** consente di accedere rapidamente alle attività principali della sessione.
+
+&#x200B;- **Accedi a un&#39;aula virtuale**: seleziona **Accedi a un&#39;aula** per entrare a far parte dell&#39;aula virtuale o configurarla prima dell&#39;inizio della sessione. Puoi anche selezionare **Copia URL** per copiare il collegamento della sessione e condividerlo con i partecipanti.
+
+&#x200B;- **Visualizza analisi sessione**: selezionare la **pagina Visualizza analisi** per aprire il dashboard di analisi sessione al termine della sessione. Il dashboard fornisce informazioni dettagliate su partecipazione, coinvolgimento, partecipazione degli Allievi e altre metriche delle sessioni.
+
+&#x200B;- **Visualizza registrazione**: se la sessione è stata registrata, selezionare **Visualizza registrazione** per accedere alla registrazione direttamente dalla pagina **Panoramica sessione**. Se non è disponibile alcuna registrazione, la scheda ne indica lo stato.
+
+![Pagina della panoramica della sessione](../../getting-started-with-live-hub/assets/session-overview-page.png)
+*Pagina della panoramica della sessione che mostra la sezione Hub live con accesso alle attività dell&#39;Hub live.*

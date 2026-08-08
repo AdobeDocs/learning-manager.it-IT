@@ -2,20 +2,20 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
+source-git-commit: 13e964e56d6c8adf1f6289ee11ace0e9fa29a083
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 50%
+source-wordcount: '1658'
+ht-degree: 36%
 
 ---
 
 
 # Guida di Learning Manager {#using}
 
-* [Guida utente di Learning Manager](user-guide.md)
+* [Guida utente di Adobe Learning Manager](user-guide.md)
 * Introduzione {#introduction}
-  * [Riepilogo delle nuove funzioni agosto 2026](/help/migrated/whats-new.md)
-  * [Riepilogo delle nuove funzioni aprile 2026](/help/migrated/whats-new-april-2026.md)
+  * [Riepilogo delle nuove funzioni agosto 2026](whats-new.md)
+  * [Riepilogo delle nuove funzioni aprile 2026](whats-new-april-2026.md)
   * [Riepilogo delle nuove funzioni ottobre 2025](/help/migrated/whats-new-october-2025.md)
   * [Riepilogo delle nuove funzioni maggio 2025](/help/migrated/whats-new-may-2025.md)
   * [Riepilogo delle nuove funzioni di novembre 2024](/help/migrated/whats-new-nov-24.md)
@@ -47,7 +47,10 @@ ht-degree: 50%
   * [Guida introduttiva come Allievo](learners/feature-summary/getting-started-learner.md)
   * [Guida introduttiva per i Manager](managers/feature-summary/getting-started-manager.md)
   * [Guida introduttiva come Istruttore in Learning Manager](instructors/feature-summary/getting-started.md)
+  * [Guida introduttiva a Live Hub (Beta)](./getting-started-with-live-hub/getting-started-live-hub.md)
 * L’Amministratore {#admin}
+  * IA in apprendimento (Beta) {#ai-in-learning}
+    * [Abilita Hub dal vivo](./administrators/feature-summary/enable-live-hub.md)
   * [Admin AI Assistant (beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Agente Insights (beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [Accesso utente](administrators/feature-summary/user-login.md)
@@ -58,6 +61,7 @@ ht-degree: 50%
   * [Aggiungere aule](administrators/feature-summary/classroom.md)
   * [Creazione di istanze di corsi e percorsi di apprendimento](administrators/feature-summary/courses.md)
   * [Controllo del tempo di accesso al modulo](/help/migrated/administrators/feature-summary/module-access-time-control.md)
+  * [Gestisci festività](./getting-started-with-live-hub/manage-holidays.md)
   * Experience Builder in Adobe Learning Manager {#experience-builder}
     * [Panoramica](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
     * [Componenti principali di Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -85,7 +89,7 @@ ht-degree: 50%
     * [Corsi Go1 al percorso di apprendimento](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
   * [Modulo di feedback L1](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
   * [Rapporti](administrators/feature-summary/reports.md)
-  * [Report Builder] {#reportbuilder}
+  * Report Builder {#reportbuilder}
     * [Report Builder in Adobe Learning Manager](administrators/feature-summary/alm-report-builder.md)
     * [Report Builder: concetti e terminologia](administrators/feature-summary/report-builder-concepts-terminology.md)
     * [Set di dati disponibili nel Report Builder](administrators/feature-summary/report-builder-available-datasets.md)
@@ -101,7 +105,7 @@ ht-degree: 50%
     * [Scarica, condividi e iscriviti a un report](administrators/feature-summary/download-share-subscribe-report.md)
     * [Duplicare e riutilizzare un report nel Report Builder](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
     * [Domande frequenti](administrators/feature-summary/faq-report-builder.md)
-    * [Limitazioni del Report Builder in Adobe Learning Manager](administrators/feature-summary/limitations-report-builder.md)
+    * [Limitazioni del Report Builder](administrators/feature-summary/limitations-report-builder.md)
   * [Dashboard di Group Success](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
   * [Configurazione dell’iscrizione con un solo clic a Adobe Learning Manager](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
   * [Percorsi di apprendimento](administrators/feature-summary/learning-paths.md)
@@ -109,7 +113,7 @@ ht-degree: 50%
   * [Piani di apprendimento](administrators/feature-summary/learning-plans.md)
   * [Gestione degli ordini e della fatturazione di Learning Manager](administrators/feature-summary/billing-management.md)
   * [Risorse formative](administrators/feature-summary/job-aids.md)
-  * [Crea canali](administrators/feature-summary/create-channels.md)
+  * [Crea canali (beta)](administrators/feature-summary/create-channels.md)
   * [Certificazioni](administrators/feature-summary/certifications.md)
   * [Creare e personalizzare un certificato](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [Cataloghi](administrators/feature-summary/catalogs.md)
@@ -209,6 +213,57 @@ ht-degree: 50%
   * [Modelli e-mail](authors/feature-summary/email-templates-author.md)
   * [Come scegliere i moduli del corso?](authors/how-to-choose-modules.md)
   * [Anteprima come Allievo](authors/feature-summary/fluidic-player.md)
+  * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
+    * [Guida di Adobe Learning Manager Content Composer (Beta)](authors/feature-summary/content-composer/content-composer-help.md)
+    * Introduzione {#get-started}
+      * [Cos’è Composizione contenuti](authors/feature-summary/content-composer/what-is-content-composer.md)
+      * [Funzionamento di Composizione contenuti](authors/feature-summary/content-composer/how-content-composer-works.md)
+      * [A chi si rivolge Composizione contenuti](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [Cosa serve prima di iniziare](authors/feature-summary/content-composer/before-you-start.md)
+      * [Metti a terra il tuo corso nei tuoi documenti](authors/feature-summary/content-composer/ground-course-documents.md)
+      * [Elementi non inclusi in Composizione contenuto](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * Creazione di un corso {#create-course}
+      * [Scrivi un messaggio](authors/feature-summary/content-composer/write-a-prompt.md)
+      * [Completare la descrizione del corso](authors/feature-summary/content-composer/complete-course-brief.md)
+      * [Gestire i file sorgente](authors/feature-summary/content-composer/manage-source-files.md)
+      * [Modificare la struttura del corso](authors/feature-summary/content-composer/edit-course-outline.md)
+      * [Rivedi il corso generato](authors/feature-summary/content-composer/review-generated-course.md)
+      * [Revisione e modifica del quiz](authors/feature-summary/content-composer/review-edit-quiz.md)
+      * [Modificare il testo del corso](authors/feature-summary/content-composer/edit-course-text.md)
+      * [Modifica o aggiungi un’immagine](authors/feature-summary/content-composer/edit-add-image.md)
+      * [Aggiungi un componente contenuto](authors/feature-summary/content-composer/add-content-component.md)
+      * [Anteprima del corso](authors/feature-summary/content-composer/preview-course.md)
+    * Scrivi prompt validi {#write-effective-prompt}
+      * [Scrivi messaggi efficaci in Composizione contenuti](authors/feature-summary/content-composer/write-effective-prompts.md)
+    * Condividere e collaborare {#share}
+      * [Condivisione e collaborazione su un corso di Content Composer](authors/feature-summary/content-composer/share-collaborate.md)
+      * {hide-from-toc}[Condividere un corso per la revisione](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[Condivisione di un corso con gli Allievi](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[Rivedi il corso condiviso](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[Visualizzare e aggiungere commenti a un corso](authors/feature-summary/content-composer/view-add-comments-course.md)
+    * Configurare le impostazioni del corso {#settings}
+      * [Impostazioni generali del corso](authors/feature-summary/content-composer/general-course-settings.md)
+      * [Impostare i criteri di completamento e di successo](authors/feature-summary/content-composer/set-completion-success-criteria.md)
+      * [Configurare le impostazioni del quiz](authors/feature-summary/content-composer/configure-quiz-settings.md)
+      * [Connetti e pubblica su Adobe Learning Manager](authors/feature-summary/content-composer/configure-alm-publish-settings.md)
+    * Gestire i temi del corso {#themes}
+      * [Applicare un tema](authors/feature-summary/content-composer/apply-theme.md)
+      * [Cambia font](authors/feature-summary/content-composer/change-fonts.md)
+      * [Aggiungere un’intestazione e un piè di pagina](authors/feature-summary/content-composer/add-header-footer.md)
+      * [Imposta la modalità chiara o scura](authors/feature-summary/content-composer/set-light-dark-mode.md)
+      * [Personalizzazione avanzata del tema](authors/feature-summary/content-composer/advanced-theme-customization.md)
+      * [Creare un tema](authors/feature-summary/content-composer/create-theme.md)
+      * [Esportare un tema](authors/feature-summary/content-composer/export-theme.md)
+      * [Importare un tema](authors/feature-summary/content-composer/import-theme.md)
+    * Pubblica su Adobe Learning Manager {#publishalm}
+      * [Collaborazione tra Adobe Learning Manager Content Composer e Adobe Learning Manager](authors/feature-summary/content-composer/alm-coco-work-together.md)
+      * [Controllo delle versioni dei moduli in ALM](authors/feature-summary/content-composer/module-version-alm.md)
+      * [Procedure ottimali](authors/feature-summary/content-composer/best-practices-publishing.md)
+      * [Pubblica su Adobe Learning Manager](authors/feature-summary/content-composer/publish-to-alm.md)
+    * Riferimento {#reference}
+      * [Limitazioni di Adobe Learning Manager Content Composer beta](authors/feature-summary/content-composer/content-composer-beta-limitations.md)
+      * [Domande frequenti su Adobe Learning Manager Content Composer](authors/feature-summary/content-composer/content-composer-faq.md)
+      * [Riferimento alla proprietà JSON tema](authors/feature-summary/content-composer/theme-json-reference.md)
   * [Impostazioni](authors/feature-summary/settings.md)
 * Istruttore {#instructor}
   * [Moduli](instructors/feature-summary/modules.md)
@@ -224,7 +279,7 @@ ht-degree: 50%
   * [Programmi di apprendimento](learners/feature-summary/learning-programs.md)
   * [Certificazioni](learners/feature-summary/certifications.md)
   * [Risorse formative](learners/feature-summary/job-aids.md)
-  * [Scopri e interagisci con i canali](learners/feature-summary/discover-and-engage-with-channels.md)
+  * [Scopri e interagisci con i canali (Beta)](learners/feature-summary/discover-and-engage-with-channels.md)
   * [Carrello per più articoli in ALM](learners/feature-summary/multi-item-cart.md)
   * [Gradebook per gli Allievi](learners/feature-summary/alm-learner-gradebook.md)
   * [Invia apprendimento esterno](learners/feature-summary/submit-external-learning.md)
@@ -255,14 +310,75 @@ ht-degree: 50%
   * [Trascrizioni Allievi](managers/feature-summary/learner-transcripts.md)
   * [Impostazioni](managers/feature-summary/settings.md)
   * [Utenti di iPad e tablet Android](managers/feature-summary/ipad-android-tablet-users.md)
-* Guida introduttiva a Live Hub{#getting-started-with-live-hub}
-  * [Informazioni su Live Hub](../migrated/getting-started-with-live-hub/about-live-hub.md)
+* Utilizzo dell’Hub live (Beta) {#work-with-live-hub}
+  * [Requisiti di sistema](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
+  * Ruoli nell’hub live {#roles-in-live-hub}
+    * [L’Amministratore](../migrated/getting-started-with-live-hub/administrator.md)
+    * [Autori](../migrated/getting-started-with-live-hub/authors-in-live-hub-session.md)
+    * [Istruttori](../migrated/getting-started-with-live-hub/instructors-in-a-live-hub-session.md)
+    * [Allievi](../migrated/getting-started-with-live-hub/learners-in-live-hub-session.md)
+  * [Aggiungere e gestire gli Istruttori](../migrated/getting-started-with-live-hub/instructor-management.md)
+  * [Creazione di una sessione di Hub live](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
+  * Partecipa a una sessione di Hub live {#join-a-live-hub-session}
+    * [Schermata di impostazione pre-join](./getting-started-with-live-hub/setup-pre-join-screen-in-live-hub.md)
+    * [Partecipare a una sessione di Hub live come Istruttore](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
+    * [Partecipare a una sessione Hub dal vivo come Allievo](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
+  * [Informazioni sul layout Hub dal vivo](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
+  * Strumenti di coinvolgimento {#engagement-tools}
+    * [Gestire le impostazioni della stanza come Istruttore](../migrated/getting-started-with-live-hub/manage-settings.md)
+    * Pannello Partecipanti {#attendees-panel}
+      * [Informazioni sul pannello Partecipanti](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
+      * [Gestire il pannello Partecipanti](../migrated/getting-started-with-live-hub/manage-the-attendees-panel.md)
+      * [Utilizzare il pannello Partecipanti come Allievo](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
+    * Pannello Chat{#chat-panel}
+      * [Informazioni sul pannello Chat](../migrated/getting-started-with-live-hub/about-the-chat-panel.md)
+      * [Utilizzare il pannello Chat come Istruttore](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md)
+      * [Utilizzare il pannello Chat come Allievo](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md)
+    * Alzare la mano e usare le reazioni {#raise-your-hand-and-use-reactions}
+      * [Informazioni su Alzare la mano e le reazioni](../migrated/getting-started-with-live-hub/about-raise-hand-and-reactions.md)
+      * [Gestire i partecipanti alzando le mani e le reazioni](../migrated/getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md)
+      * [Alza la mano e invia reazioni](../migrated/getting-started-with-live-hub/raise-hand-and-send-reactions.md)
+    * Condivisione dello schermo nelle sessioni {#screen-sharing-in-sessions}
+      * [Informazioni sulla condivisione dello schermo](../migrated/getting-started-with-live-hub/about-the-screen-sharing.md)
+      * [Condividere lo schermo come Istruttore](../migrated/getting-started-with-live-hub/share-your-screen-as-an-instructor.md)
+      * [Condividere lo schermo come Allievo](../migrated/getting-started-with-live-hub/share-your-screen-as-a-learner.md)
+    * Condividere una lavagna{#share-a-whiteboard}
+      * [La lavagna](../migrated/getting-started-with-live-hub/about-the-whiteboard.md)
+      * [Condividere una lavagna](../migrated/getting-started-with-live-hub/share-a-whiteboard.md)
+      * [Usa lavagna come Allievo](../migrated/getting-started-with-live-hub/use-whiteboard-as-a-learner.md)
+    * Sondaggio {#conduct-polls}
+      * [I sondaggi](../migrated/getting-started-with-live-hub/about-the-polls.md)
+      * [Creazione e avvio di un sondaggio](../migrated/getting-started-with-live-hub/create-and-launch-a-poll.md)
+      * [Rispondere a un sondaggio](../migrated/getting-started-with-live-hub/respond-to-a-poll.md)
+    * Crea un quiz{#create-a-quiz}
+      * [Informazioni sul quiz](../migrated/getting-started-with-live-hub/about-the-quiz.md)
+      * [Creare e gestire un quiz](../migrated/getting-started-with-live-hub/create-and-manage-a-quiz.md)
+      * [Tentativo di quiz](../migrated/getting-started-with-live-hub/attempt-a-quiz.md)
+    * [Tenere traccia del coinvolgimento dei partecipanti](../migrated/getting-started-with-live-hub/track-the-participant-engagement.md)
+    * Breakout {#breakouts}
+      * [Informazioni sulle interruzioni](../migrated/getting-started-with-live-hub/about-the-breakouts.md)
+      * [Crea e gestisci sessione di breakout](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
+      * [Partecipare a una sessione di breakout](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
+    * Sottotitoli {#closed-captions}
+      * [Comprendere i sottotitoli codificati](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
+      * [Gestire i sottotitoli codificati come Istruttore](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [Gestire i sottotitoli codificati come Allievo](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+    * Registrazioni e trascrizioni{#recordings-and-transcripts}
+      * [Nozioni di base su registrazioni e trascrizioni](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
+      * [Registrare una sessione](../migrated/getting-started-with-live-hub/record-a-session.md)
+      * [Visualizzare le registrazioni come Allievo](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+    * Dashboard di sessione {#session-dashboard}
+      * [Visualizza dashboard sessione](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
+      * [Componenti del dashboard sessione](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
+  * [Procedure ottimali](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
+  * [Utilizzo dell’Hub live sui dispositivi mobili come Allievo](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * Domande frequenti {#faq}
   * [Domande frequenti per gli Amministratori](administrators/frequently-asked-questions-for-administrators.md)
   * [Domande frequenti per gli Autori](authors/frequently-asked-questions-for-authors.md)
   * [Domande frequenti per gli Istruttori](instructors/frequently-asked-questions-for-instructors.md)
   * [Domande frequenti per i Manager](managers/frequently-asked-questions-for-managers.md)
   * [Domande frequenti per gli Allievi](learners/frequently-asked-questions-for-learners.md)
+  * [Domande frequenti per una sessione Hub live](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [Nuovi annunci di Experience League](/help/migrated/new-experience-league-announcement.md)
   * [Come inviare un ticket di supporto all&#39;Experience League](/help/migrated/how-to-submit-support-ticket.md)
   * [Creazione di un account di prova in Adobe Learning Manager](/help/migrated/create-trial-account.md)
@@ -274,6 +390,7 @@ ht-degree: 50%
 * Segnalazione modifiche {#reporting-changes}
   * [Segnalazione delle modifiche nella versione di agosto 2026](/help/migrated/reporting-changes-august-2026.md)
 * Knowledge base {#knowledge-base}
+  * [Guida alla risoluzione dei problemi per Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
   * [Impossibile accedere a Learning Manager](kb/unable-log-in-learning-manager.md)
   * [In Riepilogo apprendimento non vengono visualizzati i dati correnti](kb/learning-summary-not-display-data.md)
   * [Impossibile caricare il file CSV](kb/unable-to-upload-csv.md)

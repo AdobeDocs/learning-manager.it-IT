@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione, modifica e pubblicazione di corsi
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
 workflow-type: tm+mt
-source-wordcount: '10009'
-ht-degree: 57%
+source-wordcount: '10239'
+ht-degree: 56%
 
 ---
 
@@ -55,10 +55,10 @@ Per creare un corso, procedi nel seguente modo:
 4. Per rendere il tuo corso disponibile in altre lingue, fai clic su Aggiungi nuova lingua nell’angolo in alto a sinistra della pagina. Seleziona la lingua o le lingue in cui desideri rendere disponibile il tuo corso. Fai clic su **[!UICONTROL Salva]**. Per ulteriori informazioni, consulta [Aggiunta di contenuto per lingue diverse](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modifica delle impostazioni corsi**-
 
-   a. Nella pagina Impostazioni corso, scegli un’abilità per il corso. Dall’elenco a discesa Abilità, scegli l’abilità richiesta. Quindi, dall’elenco a discesa Livello, scegli il livello richiesto.
-   b. Scegli le abilità e il livello del corso e imposta i crediti per l’abilità. Aggiungi altre abilità, se necessario.
+   a. Nella pagina Impostazioni corso, scegli un’abilità per il corso. Dall’elenco a discesa Abilità, scegli l’abilità richiesta. Dall’elenco a discesa Livello, scegli il livello richiesto.
+   b. Scegli le abilità e il livello del corso e imposta i crediti per l’abilità. Aggiungi più abilità, se necessario.
    c. Se necessario, aggiungi le etichette di conformità personalizzate al corso. Consulta [Aggiungere etichette di conformità a corso/percorso di apprendimento/certificazione](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-   d. Dall&#39;elenco a discesa **Tipo di iscrizione**, scegli il tipo di iscrizione.
+   d. Dall’elenco a discesa **Tipo di iscrizione**, scegli il tipo di iscrizione.
 
    I tipi di iscrizioni sono descritti di seguito:
 
@@ -592,6 +592,8 @@ Per aggiungere un modulo di contenuto, procedi come descritto di seguito:
 
    **Nota:** un Allievo deve essere disponibile in Microsoft Teams, ma può iscriversi a Learning Manager come ospite.
 
+   Puoi anche creare un corso Live Hub se gli Amministratori hanno abilitato Live Hub per un account ALM. Per creare la sessione VC con Live Hub, visualizza [Creare una sessione Hub live](../../getting-started-with-live-hub/create-a-live-hub-session.md)
+
    **Modulo classe:** gli allievi partecipano di persona alle lezioni, assistiti da un Istruttore qualificato. Inserisci il titolo e la descrizione della sessione e impostane la durata. Puoi anche specificare la posizione della classe e gli Istruttori che condurranno la sessione. Per salvare le modifiche, fai clic su **[!UICONTROL Fine]**.
 
    >[!NOTE]
@@ -1013,7 +1015,7 @@ Per consentire agli istruttori di contrassegnare l’esito positivo dell’Allie
 6. Digitare i dettagli necessari e selezionare le date.
 7. Seleziona l&#39;opzione **[!UICONTROL Consenti all&#39;istruttore di contrassegnare l&#39;esito positivo]**.
 
-   ![La casella di controllo &quot;Consenti all’istruttore di contrassegnare l’esito positivo?&quot; è evidenziata e gli autori possono consentire agli istruttori di registrare lo stato di successo dell’Allievo per un modulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![L&#39;istruzione &quot;Consenti all&#39;istruttore di contrassegnare l&#39;esito positivo?&quot; la casella di controllo è evidenziata e gli autori possono consentire agli istruttori di registrare lo stato di successo dell’allievo per un modulo](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Schermata Dettagli della sessione con l’opzione Consenti all’Istruttore di contrassegnare l’esito positivo evidenziata per i moduli Classe o Classe virtuale_
 
 8. Seleziona **[!UICONTROL Fine]**.

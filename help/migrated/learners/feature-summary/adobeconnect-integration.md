@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Integrazione Adobe Connect
 description: Come Allievo puoi usufruire dei corsi di aula virtuale mediante Adobe Connect se l’azienda consente di integrare Adobe Connect nell’account Learning Manager. °Se non è possibile utilizzare Adobe Connect, contatta°l’amministratore della tua società.
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7babb0c2c656063871be5ae054c5d9f13423abba
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 93%
+source-wordcount: '342'
+ht-degree: 78%
 
 ---
 
@@ -36,3 +36,7 @@ Se desideri ascoltare le sessioni dell’aula virtuale registrate, fai clic sul 
 >[!NOTE]
 >
 >Di norma, gli URL delle sessioni registrate vengono visualizzati nell’applicazione Learning Manager due ore dopo il completamento della sessione.
+
+## Utilizzo delle sessioni Live Hub
+
+Come Allievo, puoi seguire i corsi in aula virtuale utilizzando l’Hub dal vivo se l’azienda ha abilitato l’Hub dal vivo per l’account Learning Manager. Se non riesci a utilizzare Live Hub, contatta l&#39;amministratore della tua azienda. Per informazioni sulla partecipazione alla sessione e sul modo in cui parteciparvi, consulta [Partecipare a una sessione come Allievo](../../getting-started-with-live-hub/join-live-hub-session-as-a-learner.md).

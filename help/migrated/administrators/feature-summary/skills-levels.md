@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Creazione e modifica di abilità e livelli
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: 7f7e7d04943ce65fee3fa9ea801ab832e7c040fe
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 79%
+source-wordcount: '1828'
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ Crea, assegna e modifica abilità e livelli.
 
 La mappa delle abilità racchiude i set di abilità, le conoscenze e le caratteristiche di un dipendente in un’organizzazione. Queste mappe delle abilità aiutano le aziende/organizzazioni a impostare o incrementare le prestazioni previste per i dipendenti. Le abilità consentono ai dipendenti di allineare i loro comportamenti alle aspettative dell’organizzazione.
 
-Adobe Learning Manager ti consente di mappare le prestazioni degli Allievi in base alle loro abilità tramite la mappa delle abilità. Quando gli Allievi completano l’accettazione di alcuni corsi, possono verificare la propria reputazione rispetto a ciascuna abilità visualizzando le mappe di abilità.
+Adobe Learning Manager ti consente di mappare le prestazioni degli Allievi in base alle loro abilità tramite la mappa delle abilità. Quando gli Allievi completano l’accettazione di alcuni corsi, possono verificare la loro reputazione in relazione a ciascuna abilità visualizzando le mappe di abilità.
 
 Lo scopo fondamentale delle abilità in Learning Manager LMS è fornire all’Amministratore uno strumento che allinei l’apprendimento agli obiettivi aziendali.
 
@@ -70,6 +70,25 @@ Per aggiungere un’abilità, attieniti ai passaggi seguenti:
 
    *Visualizza elenco di abilità*
 
+## Aggiungere abilità in blocco
+
+Gli amministratori possono aggiungere più abilità direttamente in Adobe Learning Manager utilizzando l’opzione di caricamento in serie nella finestra di dialogo **Aggiungi abilità**.
+
+Per aggiungere abilità in blocco:
+
+1. Seleziona **Abilità** dal riquadro a sinistra.
+
+1. Seleziona **Aggiungi** > **Aggiungi abilità**. <br> Viene visualizzata una finestra popup di **Aggiungi abilità**.
+
+1. Seleziona **Aggiungi abilità in blocco (Carica CSV)**.
+
+   ![Finestra di dialogo Aggiungi abilità in blocco con l’opzione Carica CSV](assets/add-skills-bulk-upload-csv.png)
+   *Finestra a comparsa Aggiungi abilità che mostra le opzioni per aggiungere le abilità in blocco.*
+
+1. Carica il file CSV con i dettagli delle abilità.
+
+1. Seleziona **Salva**.
+
 ## Assegnazione dell’abilità agli Allievi {#assigntheskilltolearners}
 
 Gli Amministratori possono assegnare abilità agli Allievi.
@@ -88,7 +107,7 @@ Una volta create e salvate, le abilità vengono elencate nella pagina delle abil
 
    ![](assets/add-learners.png)
 
-   *Aggiunta di Allievi*
+   *Aggiunta di allievi*
 
 1. Cerca e aggiungi gli Allievi. Puoi anche aggiungere gruppi di utenti.
 
@@ -152,7 +171,7 @@ Cerca un’abilità digitandone il nome e scegliendola dalle opzioni presenti. A
 
 ## Modifica di un’abilità {#editaskill}
 
-Nella pagina **[!UICONTROL Abilità]**, fai clic sull’abilità che desideri modificare. Nella finestra di dialogo **[!UICONTROL Modifica abilità]**, apporta le modifiche necessarie, ad esempio:
+Nella pagina **[!UICONTROL Abilità]**, fai clic sull’abilità che desideri modificare. Nella finestra di dialogo **[!UICONTROL Modifica abilità]**, apporta le modifiche necessarie, ad esempio
 
 * Aggiunta o eliminazione di un dominio di abilità.
 * Modifica del nome e della descrizione dell’abilità.
@@ -192,13 +211,13 @@ Un’abilità può essere eliminata solo se non è associata ad Allievi, corsi o
 Aggiungi un file CSV composto dalle abilità degli Istruttori. Tali abilità vengono quindi aggiunte al relativo elenco.
 
 1. Nell&#39;angolo superiore destro della schermata, seleziona **[!UICONTROL Aggiungi]** > **[!UICONTROL Assegna abilità all&#39;istruttore]**.
-1. Carica un file CSV. Le colonne del file CSV sono:
+1. Carica un file CSV. Nel file CSV, sono presenti le seguenti colonne:
 
    * Nome abilità
    * Livello di abilità
-   * E-mail istruttore o UUID istruttore
+   * E-mail o UUID dell’Istruttore
 
-   Per gli account abilitati per UUID, sostituisci la colonna E-mail istruttore con UUID istruttore.
+   Per gli account abilitati per UUID, sostituisci la colonna E-mail dell’Istruttore con UUID dell’Istruttore.
 
    Fai clic su Salva.
 
@@ -260,12 +279,12 @@ In altre parole, ogni volta che iscrivi nuovamente un gruppo di utenti per avvia
 Consulta la sezione [Assegnazione di abilità a un corso &#x200B;](skills-levels.md#assignskilltocourse) per ulteriori informazioni sulla procedura.
 +++
 
-+++Come si modifica un livello di abilità?
++++Come posso modificare un livello di abilità?
 
 Per modificare uno o più livelli in un’abilità, modifica l’abilità e le proprietà dei livelli esistenti.
 +++
 
-+++Come posso abilitare i distintivi e le abilità in modo che siano associati al completamento del corso?
++++Come posso impostare distintivi e abilità in modo che siano legati al completamento del corso?
 
 L’Autore può legare le abilità al completamento di un corso durante la creazione del corso. Nella sezione Impostazioni, puoi impostare i criteri dell’abilità sul completamento del corso.
 
@@ -274,7 +293,7 @@ L’Autore può legare le abilità al completamento di un corso durante la creaz
 Per impostare i distintivi sul completamento del corso, abilita il distintivo desiderato nella sezione **[!UICONTROL Istanze]** dell’app Autore.
 +++
 
-+++Un amministratore può contrassegnare un badge come completo anche se il badge mostra &quot;In corso&quot;?
++++L’Amministratore può contrassegnare un distintivo come completo anche se il distintivo viene mostrato come “In corso”?
 
 L’Amministratore può contrassegnare un Oggetto di apprendimento come completo. Le abilità e i distintivi sono associati all’Oggetto di apprendimento e non possono essere contrassegnati separatamente come **[!UICONTROL completi]**.
 
