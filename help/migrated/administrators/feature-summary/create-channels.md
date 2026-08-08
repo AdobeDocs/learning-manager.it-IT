@@ -1,15 +1,15 @@
 ---
-title: Crea canali
+title: Crea canali (beta)
 description: Scopri come abilitare, creare e modificare i canali in Adobe Learning Manager per portare i contenuti di apprendimento basati su video da pagine Web e pagine Confluence Cloud in un’unica posizione ricercabile per gli Allievi.
-source-git-commit: 362d56b5758d55e7aa564893beade853f4c72deb
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 
-# Crea canali
+# Crea canali (beta)
 
 Le organizzazioni spesso memorizzano sessioni di condivisione della conoscenza, registrazioni di formazione e altri contenuti video su contenuti di apprendimento informali, esclusivi per il Web e le pagine di Confluence Cloud. I canali collegano Adobe Learning Manager a queste origini di contenuto, semplificando la ricerca e l’utilizzo dei video senza richiedere agli Allievi di navigare in più sistemi. I canali consentono di organizzare e condividere contenuti di apprendimento basati su video da pagine Web aziendali e pagine di Confluence Cloud in un&#39;unica posizione ricercabile. Invece di effettuare ricerche all’interno di più siti, gli Allievi possono scoprire e accedere alle registrazioni pertinenti direttamente da Adobe Learning Manager. Per ulteriori informazioni, visualizza [Scopri e interagisci con i canali](../../learners/feature-summary/discover-and-engage-with-channels.md).
 
@@ -43,7 +43,7 @@ Per abilitare la funzionalità **Canali**:
 
    ![Abilita funzionalità canali](assets/enable-channels-feature.png)
 
-   *Abilita la funzione Canale nella scheda **Impostazioni**&#x200B;per consentire agli amministratori di creare canali per l&#39;account.*
+   *Abilita la funzione Canale nella scheda **Impostazioni**per consentire agli amministratori di creare canali per l&#39;account.*
 
 1. Abilita **funzione Canale**.
 
@@ -86,19 +86,19 @@ Create un canale per definire la sorgente di contenuto da sottoporre alla scansi
 
    1. **Colore tema canale**: seleziona un colore per personalizzare l’aspetto visivo del canale.
 
-   1. **Profondità di ricerca per indicizzazione**: immettere la profondità di ricerca per indicizzazione delle pagine collegate per ricercare il contenuto video. Supporta una profondità massima di ricerca per indicizzazione di **2**.
+   1. **profondità di ricerca per indicizzazione**: immettere la profondità di ricerca per indicizzazione per le pagine collegate per ricercare il contenuto video. Supporta una profondità massima di ricerca per indicizzazione di **2**.
 
    1. **Frequenza di ricerca per indicizzazione (in ore)**: specificare la frequenza con cui Adobe Learning Manager deve verificare la disponibilità di contenuto nuovo o aggiornato nell&#39;origine.
 
       ![Pianificazione controllo contenuto canale](assets/channel-content-check-schedule.png)
 
-      *Selezionare Mostra impostazioni avanzate per configurare il colore del tema del canale, la profondità di ricerca per indicizzazione e la frequenza di ricerca per indicizzazione.*
+      *Selezionare Mostra impostazioni avanzate per configurare il colore del tema del canale, la profondità della ricerca per indicizzazione e la frequenza della ricerca per indicizzazione.*
 
 1. Seleziona **Prova ora** per convalidare l&#39;origine. I video di esempio vengono recuperati e visualizzati dalla sorgente configurata.
 
    ![Verifica connessione origine canale](assets/test-channel-source-connection.png)
 
-   *Utilizza **Prova ora**&#x200B;per verificare che i video siano stati recuperati dall&#39;origine prima di creare il canale.*
+   *Utilizza **Prova ora**per verificare che i video siano stati recuperati dall&#39;origine prima di creare il canale.*
 
 1. Seleziona **Crea canale**. Il canale viene creato e aggiunto all&#39;elenco **Canali**.
 

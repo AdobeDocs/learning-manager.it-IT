@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Integrazione Adobe Connect
 description: Gli autori possono creare corsi in classe virtuale con Adobe Connect durante la creazione del corso. Per abilitare Adobe Connect per il tuo account Learning Manager, devi contattare l’amministratore della tua organizzazione.
 exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a4ef66561570df00b4312a773b0c041df82114f7
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '419'
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ Gli autori possono creare corsi in classe virtuale con Adobe Connect durante la 
 ## Creazione di un corso di classe virtuale con Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. Nella pagina Corsi personali fai clic su Aggiungi moduli e scegli Classe virtuale. Verrà visualizzata la finestra di dialogo Crea classe virtuale.
-1. Nell&#39;opzione **Sistema conferenze**, scegliere Adobe Connect.
+1. Nell&#39;opzione **Live Virtual Training Tools**, scegli **Adobe Connect**.
 
    ![](assets/create-vc-author.png)
 
@@ -40,3 +40,13 @@ Gli autori possono creare corsi in classe virtuale con Adobe Connect durante la 
 ## Modelli condivisi di Adobe Connect {#sharedtemplatesofadobeconnect}
 
 Per impostazione predefinita, tutti i modelli condivisi creati nell’account Adobe Connect vengono recuperati nell’applicazione Learning Manager. Puoi aggiungere modelli personalizzati rendendoli condivisi nell’account Adobe Connect.
+
+## Creazione di un corso in aula virtuale con Hub dal vivo
+
+Live Hub è la soluzione per aule virtuali nativa di Adobe Learning Manager basata sull&#39;intelligenza artificiale che consente alle organizzazioni di offrire corsi di formazione live senza dover ricorrere a strumenti di conferenza di terze parti.
+
+Quando l’Amministratore abilita Live Hub per il tuo account, questo diventa disponibile nell’elenco **Strumenti di formazione virtuale in tempo reale** insieme ad altri provider supportati, come Adobe Connect.
+
+Live Hub include anche un Finder Istruttori basato sull&#39;intelligenza artificiale che consiglia gli Istruttori in base ai requisiti della classe virtuale, alle competenze richieste e ai dettagli della sessione. Ciò consente di identificare gli istruttori adatti senza dover cercare manualmente l’intero elenco di istruttori.
+
+Per ulteriori informazioni, consulta [Creare una sessione di Hub live](../../getting-started-with-live-hub/create-a-live-hub-session.md).

@@ -3,9 +3,9 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '6048'
+source-wordcount: '6082'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Quando carichi nuovi contenuti, scegli in quale cartella archiviarli durante il 
 4. In **Aggiungi file di contenuto**, trascina il file di contenuto oppure seleziona il campo da sfogliare e caricare.
    ![](assets/cl2.png)
 
-5. In **Aggiungi alla cartella**, sfoglia la cartella o cerca la cartella nel campo di ricerca.
+5. In **Aggiungi alla cartella**, sfoglia la cartella o cerca la cartella nel campo di ricerca. Puoi anche selezionare più cartelle.
    ![](assets/cl3.png)
 
 6. Seleziona **Aggiungi**.
@@ -453,11 +453,6 @@ Quando carichi nuovi contenuti, scegli in quale cartella archiviarli durante il 
 
 8. Seleziona **Salva**. Il file di contenuto viene aggiunto alla raccolta di contenuti e visualizzato nella parte superiore dell&#39;elenco.
    ![](assets/cl4.png)
-
->[!NOTE]
->
->Non è possibile copiare o spostare il contenuto tra le cartelle pubbliche e private. Se tenti di farlo, Adobe Learning Manager visualizza un errore.
-
 
 ## Visualizzare i percorsi delle cartelle nella Libreria dei contenuti
 
@@ -486,7 +481,7 @@ Il filtro **Cartelle** nella Libreria dei contenuti consente di restringere l&#3
 
 3. Utilizzare la casella di ricerca a discesa per trovare una cartella per nome.
 
-4. Puoi selezionare fino a **25 cartelle** alla volta. Se selezioni più di 25, viene visualizzato un errore.
+4. Puoi selezionare più cartelle alla volta.
 
 ## Spostamento del contenuto nella cartella {#movecontenttofolder}
 

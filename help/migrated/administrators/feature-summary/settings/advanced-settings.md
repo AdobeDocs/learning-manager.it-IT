@@ -3,9 +3,9 @@ description: Ulteriori informazioni sulla configurazione delle impostazioni avan
 jcr-language: en_us
 title: Impostazioni avanzate in Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
 workflow-type: tm+mt
-source-wordcount: '2391'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Questa struttura offre alle organizzazioni la flessibilità di rispecchiare l&#3
 
 >[!NOTE]
 >
->Solo gli amministratori possono creare, modificare o eliminare le cartelle a qualsiasi livello. Autori e utenti personalizzati interagiscono con la gerarchia ma non possono modificarla. Inoltre, gli amministratori personalizzati con accesso a qualsiasi cartella di livello principale possono creare, modificare o eliminare le cartelle in tale cartella principale.
+>Solo gli amministratori possono creare, modificare o eliminare le cartelle a qualsiasi livello. Gli amministratori personalizzati con accesso a qualsiasi cartella di livello principale possono creare, modificare o eliminare le cartelle in tale cartella principale.
 
 
 ### Regole di denominazione delle cartelle
@@ -98,22 +98,7 @@ Nella tabella seguente vengono descritte le operazioni che ogni ruolo può esegu
 | Cartelle di livello 1 per account | Nessun limite |
 | Sottocartelle di livello 2 per cartella di livello 1 | 25 |
 | Sottocartelle di livello 3 per cartella di livello 2 | 25 |
-| Profondità massima cartella | 3 livelli |
-
-
-### Comportamento selezione cartella
-
-Quando si seleziona una cartella, ad esempio, quando si filtra o si elimina una cartella, la selezione si sovrappone alla gerarchia nel modo seguente:
-
-* Se si seleziona una cartella **di livello 1**, vengono selezionate automaticamente tutte le cartelle di livello 2 e 3 sottostanti.
-
-* Se si seleziona una cartella **di livello 2**, vengono selezionate automaticamente tutte le cartelle di livello 3 sottostanti. Non sono selezionate altre cartelle di livello 2 nella stessa cartella di livello 1.
-
-* Se si seleziona una cartella di **livello 3**, viene selezionata solo tale cartella. Non sono selezionate altre cartelle.
-
->[!NOTE]
->
->Quando si seleziona una sottocartella senza selezionarne la principale, nella cartella principale non viene visualizzato un indicatore di selezione parziale o misto. Questo è intenzionale. Perché una cartella principale può contenere contenuto, non solo sottocartelle. Selezionare una cartella principale significa &quot;includere tutto il contenuto in questa cartella e tutto ciò che si trova sotto di essa&quot;. Un indicatore parziale suggerisce che il contenuto della cartella principale è parzialmente incluso, il che sarebbe fuorviante. Se si desidera filtrare solo in base a una sottocartella specifica, selezionare direttamente tale sottocartella. Se desiderate che tutto il contenuto si trovi in una cartella principale e nelle relative sottocartelle, selezionate la cartella principale.
+| Profondità massima cartelle | 3 livelli |
 
 ### Quando utilizzare una struttura di cartelle gerarchica
 
@@ -202,7 +187,7 @@ In qualità di amministratore di Adobe Learning Manager, puoi creare e gestire l
 
 >[!NOTE]
 >
->Ogni cartella può contenere fino a 25 sottocartelle dirette. Il livello 3 corrisponde alla profondità massima. Non è possibile creare una sottocartella all&#39;interno di una cartella di livello 3.
+>Ogni cartella può contenere fino a 25 sottocartelle dirette. Il livello 3 rappresenta la profondità massima. Non è possibile creare una sottocartella all&#39;interno di una cartella di livello 3.
 
 #### Rinominare una cartella
 
@@ -216,7 +201,7 @@ Prima di procedere con l’eliminazione, tieni presente le seguenti regole:
 
 * È possibile eliminare una cartella vuota a qualsiasi livello.
 * È possibile eliminare solo le cartelle vuote. Le cartelle contenenti contenuto non possono essere eliminate, indipendentemente dal fatto che il contenuto sia collegato ad altre cartelle o meno.
-* Quando si elimina una cartella principale, vengono eliminate anche tutte le relative sottocartelle. Quando selezionate una cartella principale, vengono selezionati automaticamente tutti i relativi elementi secondari.
+* Quando si elimina una cartella principale, vengono eliminate anche tutte le relative sottocartelle, a condizione che la cartella e tutte le relative sottocartelle siano vuote. Quando selezionate una cartella principale, vengono selezionati automaticamente tutti i relativi elementi secondari.
 
 #### Eliminare la cartella principale
 
@@ -229,11 +214,6 @@ Prima di procedere con l’eliminazione, tieni presente le seguenti regole:
 1. Nella pagina **Cartella dei contenuti** selezionare la casella di controllo accanto alla sottocartella che si desidera eliminare.
 2. Seleziona **Azioni** > **Elimina cartella** nell&#39;angolo superiore destro della pagina.
 3. Confermare l&#39;eliminazione quando richiesto. La sottocartella viene eliminata.
-
->[!CAUTION]
->
->L&#39;eliminazione di una cartella è permanente. Assicurati che tutto il contenuto all&#39;interno della cartella sia stato spostato in un&#39;altra posizione prima di confermare.
-
 
 #### Configurare l&#39;accesso alle cartelle per i ruoli personalizzati
 
@@ -267,9 +247,6 @@ Le seguenti procedure consentono di creare una struttura di cartelle che si adat
 3. **I nomi devono essere brevi, descrittivi e univoci all&#39;interno dell&#39;elemento padre.** Evita nomi generici come &quot;Modulo 1&quot; o &quot;Contenuto&quot;. Utilizza identificatori sensati per gli autori che esplorano la libreria.
 
 4. **Assegna l&#39;accesso al ruolo personalizzato solo al livello 1.** Poiché l&#39;accesso si sovrappone automaticamente, l&#39;assegnazione al livello 1 è sufficiente e consente di gestire l&#39;accesso in modo semplice. Non è necessario aggiornare l&#39;accesso quando si aggiungono sottocartelle di livello 2 o 3.
-
-5. **Spostare il contenuto prima di eliminare le cartelle.** Se una cartella contiene contenuto non collegato in altri punti, l&#39;eliminazione viene bloccata. Creare un&#39;abitudine di revisione del contenuto delle cartelle prima dell&#39;eliminazione.
-
 
 <!--
 
@@ -315,6 +292,29 @@ To add a content folder, follow the steps:
 * **[!UICONTROL Add a folder]**: To add a folder, select the folder, and then select **[!UICONTROL Add]** on the upper-right corner of the screen.
 * **[!UICONTROL Delete a folder]**: To delete a folder, select the folder to delete, select the **[!UICONTROL Actions]** menu, and then select **[!UICONTROL Delete Folder]**.
 -->
+
+## Vacanze
+
+L&#39;impostazione **Vacanze** in Adobe Learning Manager consente di definire le festività a livello di organizzazione. Le festività vengono visualizzate nel calendario dell’Istruttore come giorni non lavorativi, influendo sulla disponibilità dell’Istruttore durante la pianificazione dal vivo
+Sessioni hub.
+
+### Punti chiave
+
+Le festività sono un insieme di giorni non lavorativi gestiti a livello di account, con le seguenti proprietà:
+
+- Solo l’Amministratore può aggiungere, modificare o eliminare festività.
+
+- Le festività si applicano a tutta l’organizzazione e vengono visualizzate nel calendario di ogni istruttore come giorni non lavorativi.
+
+- Poiché le festività contrassegnano gli istruttori come non disponibili, le sessioni Live Hub non possono essere pianificate in tali date.
+
+- Per ogni festività sono necessari una data e un nome. La descrizione è facoltativa.
+
+- Puoi aggiungere le festività una alla volta o importare più festività contemporaneamente utilizzando un file CSV.
+
+- Una volta aggiunte, le festività vengono visualizzate nella pagina **Vacanze**, in cui è possibile visualizzarle, cercarle e gestirle.
+
+Per ulteriori informazioni, visualizzare [Gestione festività](../../../getting-started-with-live-hub/manage-holidays.md).
 
 ## Aule
 

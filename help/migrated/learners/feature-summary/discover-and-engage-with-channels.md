@@ -1,15 +1,15 @@
 ---
 title: Scopri e interagisci con i canali
 description: Scopri come trovare, abbonarsi, guardare, aggiungere Mi piace e partecipare alle discussioni sui contenuti video disponibili tramite i canali in Adobe Learning Manager.
-source-git-commit: 4e24819c42a357c5d3c425d5e1c42b87835ed747
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
 
 
-# Scopri e interagisci con i canali
+# Scopri e interagisci con i canali (Beta)
 
 I canali aiutano gli Allievi a scoprire e accedere a contenuti di apprendimento informale basati su video, selezionati nelle pagine Web e Cloud Confluence all’interno di Adobe Learning Manager. Gli amministratori creano i canali collegandoli alle pagine Web aziendali o alle pagine Cloud Confluence che ospitano sessioni di condivisione e trasferimento delle conoscenze registrate.
 
