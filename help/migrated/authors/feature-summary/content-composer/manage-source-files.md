@@ -2,9 +2,9 @@
 description: Carica documenti, policy o videoregistratori esistenti per consolidare l'intelligenza artificiale nei contenuti dell'organizzazione. Scegliete se limitare la generazione solo a quei file o consentire all'intelligenza artificiale di integrarsi con le sue conoscenze generali.
 jcr-language: en_us
 title: Gestire i file sorgente
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ Formati supportati:
 | PowerPoint (.ppt/.pptx) | 100 MB |
 | MS Word (.doc/.docx) | 100 MB |
 | File di testo (.txt) | 100 MB |
-| Immagini (.png, .jpg) | 100 MB |
 
 Seleziona **Continua** per generare la struttura del corso.
 

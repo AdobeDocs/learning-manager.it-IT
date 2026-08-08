@@ -2,7 +2,8 @@
 description: Il prompt è l’input più importante in Composizione contenuti. Un prompt specifico, ad esempio l’assegnazione di un nome al pubblico, 2-3 argomenti e un segnale di ambito, produce un breve risultato più preciso, un contorno più forte e meno editing a valle.
 jcr-language: en_us
 title: Scrivi messaggi efficaci in Composizione contenuti
-source-git-commit: 9890dbe1895ff1b88e2ea946acaf40012980d5c5
+hide: true
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
