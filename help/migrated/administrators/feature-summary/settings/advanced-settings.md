@@ -302,17 +302,17 @@ Sessioni hub.
 
 Le festività sono un insieme di giorni non lavorativi gestiti a livello di account, con le seguenti proprietà:
 
-- Solo l’Amministratore può aggiungere, modificare o eliminare festività.
+&#x200B;- Solo l’Amministratore può aggiungere, modificare o eliminare festività.
 
-- Le festività si applicano a tutta l’organizzazione e vengono visualizzate nel calendario di ogni istruttore come giorni non lavorativi.
+&#x200B;- Le festività si applicano a tutta l’organizzazione e vengono visualizzate nel calendario di ogni istruttore come giorni non lavorativi.
 
-- Poiché le festività contrassegnano gli istruttori come non disponibili, le sessioni Live Hub non possono essere pianificate in tali date.
+&#x200B;- Poiché le festività contrassegnano gli istruttori come non disponibili, le sessioni Live Hub non possono essere pianificate in tali date.
 
-- Per ogni festività sono necessari una data e un nome. La descrizione è facoltativa.
+&#x200B;- Per ogni festività sono necessari una data e un nome. La descrizione è facoltativa.
 
-- Puoi aggiungere le festività una alla volta o importare più festività contemporaneamente utilizzando un file CSV.
+&#x200B;- Puoi aggiungere le festività una alla volta o importare più festività contemporaneamente utilizzando un file CSV.
 
-- Una volta aggiunte, le festività vengono visualizzate nella pagina **Vacanze**, in cui è possibile visualizzarle, cercarle e gestirle.
+&#x200B;- Una volta aggiunte, le festività vengono visualizzate nella pagina **Vacanze**, in cui è possibile visualizzarle, cercarle e gestirle.
 
 Per ulteriori informazioni, visualizzare [Gestione festività](../../../getting-started-with-live-hub/manage-holidays.md).
 

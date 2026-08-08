@@ -173,11 +173,11 @@ Per aggiungere punteggi e commenti ai moduli di attività inviati, procedi come 
 
 Per le sessioni create utilizzando Live Hub, la sezione **Live Hub** nella pagina **Panoramica della sessione** consente di accedere rapidamente alle attività principali della sessione.
 
-- **Accedi a un&#39;aula virtuale**: seleziona **Accedi a un&#39;aula** per entrare a far parte dell&#39;aula virtuale o configurarla prima dell&#39;inizio della sessione. Puoi anche selezionare **Copia URL** per copiare il collegamento della sessione e condividerlo con i partecipanti.
+&#x200B;- **Accedi a un&#39;aula virtuale**: seleziona **Accedi a un&#39;aula** per entrare a far parte dell&#39;aula virtuale o configurarla prima dell&#39;inizio della sessione. Puoi anche selezionare **Copia URL** per copiare il collegamento della sessione e condividerlo con i partecipanti.
 
-- **Visualizza analisi sessione**: selezionare la **pagina Visualizza analisi** per aprire il dashboard di analisi sessione al termine della sessione. Il dashboard fornisce informazioni dettagliate su partecipazione, coinvolgimento, partecipazione degli Allievi e altre metriche delle sessioni.
+&#x200B;- **Visualizza analisi sessione**: selezionare la **pagina Visualizza analisi** per aprire il dashboard di analisi sessione al termine della sessione. Il dashboard fornisce informazioni dettagliate su partecipazione, coinvolgimento, partecipazione degli Allievi e altre metriche delle sessioni.
 
-- **Visualizza registrazione**: se la sessione è stata registrata, selezionare **Visualizza registrazione** per accedere alla registrazione direttamente dalla pagina **Panoramica sessione**. Se non è disponibile alcuna registrazione, la scheda ne indica lo stato.
+&#x200B;- **Visualizza registrazione**: se la sessione è stata registrata, selezionare **Visualizza registrazione** per accedere alla registrazione direttamente dalla pagina **Panoramica sessione**. Se non è disponibile alcuna registrazione, la scheda ne indica lo stato.
 
 ![Pagina della panoramica della sessione](../../getting-started-with-live-hub/assets/session-overview-page.png)
 *Pagina della panoramica della sessione che mostra la sezione Hub live con accesso alle attività dell&#39;Hub live.*
