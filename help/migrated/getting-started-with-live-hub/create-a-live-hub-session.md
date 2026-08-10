@@ -138,9 +138,9 @@ Per aggiungere Istruttori tramite il Finder Istruttori:
 
 Gli Allievi possono essere iscritti a un corso Hub dal vivo nei due modi seguenti:
 
-1. Un **Amministratore** iscrive gli Allievi al corso in base ai requisiti dell’organizzazione. Per ulteriori informazioni, visualizza [Creare istanze del corso e percorsi di apprendimento](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses).
+1. Un **Amministratore** iscrive gli Allievi al corso in base ai requisiti dell’organizzazione. Per ulteriori informazioni, visualizza [Creare istanze del corso e percorsi di apprendimento](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/courses).
 
-1. Gli Allievi possono iscriversi direttamente al corso dalla pagina **Catalogo**. Se il corso è configurato per l’iscrizione autonoma, gli Allievi vengono iscritti immediatamente e possono accedere al corso da **I miei Allievi**. Per ulteriori informazioni, consulta [I miei insegnamenti](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses).
+1. Gli Allievi possono iscriversi direttamente al corso dalla pagina **Catalogo**. Se il corso è configurato per l’iscrizione autonoma, gli Allievi vengono iscritti immediatamente e possono accedere al corso da **I miei Allievi**. Per ulteriori informazioni, consulta [I miei insegnamenti](https://experienceleague.adobe.com/it/docs/learning-manager/using/learner/courses).
 
 Dopo l’iscrizione, gli Allievi vengono aggiunti al corso e ricevono una notifica nel proprio account Adobe Learning Manager. A seconda delle impostazioni di notifica e-mail dell’account, gli Allievi possono anche ricevere un invito a partecipare al corso tramite e-mail.
 
