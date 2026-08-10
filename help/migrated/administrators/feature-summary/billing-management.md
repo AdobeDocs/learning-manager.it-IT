@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestione degli ordini e della fatturazione di Learning Manager
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 37%
+source-wordcount: '2660'
+ht-degree: 48%
 
 ---
 
@@ -291,90 +291,92 @@ I report vengono salvati nella cartella Download del browser.
 
 Per annullare un abbonamento attivo, contatta il team di supporto di Learning Manager.
 
-## Crediti di intelligenza artificiale {#genaicredits}
+<!--
+## Gen AI credits {#genaicredits}
 
-### Come funzionano i crediti di intelligenza artificiale
+### How Gen AI credits work
 
-I crediti di intelligenza artificiale vengono utilizzati ogni volta che un Allievo interagisce con una funzione basata sull’intelligenza artificiale, ad esempio quando pone una domanda tramite l’Assistente intelligenza artificiale o genera un consiglio di apprendimento personalizzato. Prima dell’inizio di ogni interazione, Adobe Learning Manager verifica che i crediti siano disponibili. Se sono disponibili crediti, l’interazione procede. Se il saldo è esaurito, l’Allievo riceve un messaggio che indica che la funzione non è temporaneamente disponibile.
+Gen AI credits are consumed each time a learner interacts with an AI-powered feature — for example, when asking a question through the AI Assistant or generating a personalized learning recommendation. Before each interaction begins, Adobe Learning Manager checks that credits are available. If credits are available, the interaction proceeds. If the balance has been exhausted, the learner sees a message that the feature is temporarily unavailable.
 
-I crediti vengono acquistati come parte di una licenza di Adobe Experience Platform Agent Orchestrator. La licenza è gestita nel tuo Adobe Admin Console e Adobe Learning Manager si connette automaticamente a esso per rilevare i crediti disponibili.
+Credits are purchased as part of an Adobe Experience Platform Agent Orchestrator license. That license is managed in your Adobe Admin Console, and Adobe Learning Manager connects to it automatically to detect available credits.
 
-**Regola di priorità del credito:** Se il tuo piano Adobe Learning Manager include i crediti Gen AI in bundle e disponi anche di una licenza Agent Orchestrator, i crediti in bundle vengono utilizzati per primi. I crediti di Agent Orchestrator vengono utilizzati solo dopo l&#39;esaurimento dei crediti inclusi.
+**Credit priority rule:** If your Adobe Learning Manager plan includes bundled Gen AI credits and you also have an Agent Orchestrator license, the bundled credits are consumed first. Agent Orchestrator credits are used only after the bundled credits are exhausted.
 
-**Pool di crediti condivisi:** se l&#39;organizzazione dispone di più account Adobe Learning Manager collegati alla stessa organizzazione Adobe Admin Console, tutti gli account vengono ricavati da un singolo pool di crediti condivisi.
+**Shared credit pools:** If your organization has multiple Adobe Learning Manager accounts all linked to the same Adobe Admin Console organization, all accounts draw from a single shared credit pool.
 
 >[!IMPORTANT]
 >
->Per impostazione predefinita, tutte le funzioni di intelligenza artificiale generica sono disattivate. Per consentire agli Allievi di accedere a ogni funzione, è necessario abilitarla e impostare un limite di utilizzo dei crediti.
+>All Gen AI features are turned off by default. You must enable each feature and set a credit usage limit before learners can access it.
 
-### Accedi alla scheda Crediti di intelligenza artificiale generica
+### Access the Gen AI Credits tab
 
-1. Seleziona **[!UICONTROL Amministratore]** > **[!UICONTROL Fatturazione]**.
-2. Seleziona la scheda **[!UICONTROL Crediti]**.
+1. Select **[!UICONTROL Admin]** > **[!UICONTROL Billing]**.
+2. Select the **[!UICONTROL Credits]** tab.
 
-La scheda **Crediti** è visibile solo quando i crediti di intelligenza artificiale generica sono stati acquistati o erano storicamente attivi nell&#39;account. Se la scheda non è visibile, verifica che il tuo account sia collegato a un&#39;organizzazione Adobe Admin Console che dispone di una licenza di Agent Orchestrator attiva.
+The **Credits** tab is visible only when Gen AI credits have been purchased or were historically active on the account. If the tab is not visible, verify that your account is linked to an Adobe Admin Console organization that has an active Agent Orchestrator license.
 
-### Tabella funzionalità Gen AI
+### Gen AI Features table
 
-Nella tabella **Funzionalità IA di generazione** sono elencate tutte le funzionalità di intelligenza artificiale disponibili nell&#39;account.
+The **Gen AI Features** table lists every AI feature available on the account.
 
-| Colonna | Descrizione |
+| Column | Description |
 |---|---|
-| **Nome funzionalità** | Nome della funzione AI. Selezionare il nome per accedere alla pagina delle impostazioni della funzionalità. |
-| **Stato** | Indica se la funzionalità è attiva o disattivata. Attivate/disattivate la funzione dalla relativa pagina delle impostazioni. |
-| **Limite massimo utilizzo crediti** | Numero massimo di crediti che questa funzione può utilizzare durante il periodo del contratto. Deve essere impostato prima che la funzione possa essere abilitata. Si applica solo alle funzionalità rivolte agli Allievi. |
-| **Crediti utilizzati** | Totale crediti utilizzati da questa funzione dalla data di inizio del contratto, aggiornati in tempo reale. |
+| **Feature Name** | Name of the AI feature. Select the name to go to that feature's settings page. |
+| **Status** | Whether the feature is on or off. Toggle the feature from its settings page. |
+| **Max Credits Usage Limit** | Maximum credits this feature can consume during the contract period. Must be set before the feature can be enabled. Applies to learner-facing features only. |
+| **Credits Used** | Total credits consumed by this feature since the contract start date, updated in real time. |
 
-### Abilitare una funzione Gen AI
+### Enable a Gen AI feature
 
-1. Nella scheda **[!UICONTROL Crediti]**, individua la funzionalità nella tabella **Funzionalità basate su IA generazione**.
-2. Nella colonna **Limite massimo utilizzo crediti**, immettere il numero massimo di crediti che questa funzione può utilizzare durante il periodo del contratto.
-3. Seleziona il nome della funzione per passare alla pagina **Impostazioni funzionalità**.
-4. Nella pagina **Impostazioni funzionalità**, attiva la funzionalità.
-5. Completa qualsiasi configurazione aggiuntiva, ad esempio l’assegnazione di Allievi e cataloghi all’Assistente AI.
+1. On the **[!UICONTROL Credits]** tab, locate the feature in the **Gen AI Features** table.
+2. In the **Max Credits Usage Limit** column, enter the maximum number of credits this feature can consume during the contract period.
+3. Select the feature name to go to its **Feature Settings** page.
+4. On the **Feature Settings** page, toggle the feature on.
+5. Complete any additional configuration, such as assigning learners and catalogs to the AI Assistant.
 
-### Cosa succede quando i crediti si esauriscono
+### What happens when credits run out
 
-- Se una funzione raggiunge il **limite massimo di utilizzo dei crediti**, gli allievi visualizzano un messaggio che indica che la funzione non è temporaneamente disponibile. Aumenta il limite in qualsiasi momento dalla scheda **Crediti**.
-- Se i crediti complessivi dell’account sono esauriti, tutte le funzioni di intelligenza artificiale generica smettono di funzionare per gli Allievi fino all’acquisto di crediti aggiuntivi. I report sull’utilizzo e le metriche del credito rimangono accessibili agli amministratori.
-- Se un Allievo interagisce a metà quando i crediti sono esauriti, l’interazione viene completata. Tutte le interazioni successive vengono bloccate.
-- Gli amministratori possono impostare un limite di credito superiore al numero di crediti acquistati. La sovrallocazione è consentita e al momento del rinnovo può verificarsi un conguaglio.
+- If a feature reaches its **Max Credits Usage Limit**, learners see a message that the feature is temporarily unavailable. Raise the limit at any time from the **Credits** tab.
+- If overall account credits are exhausted, all Gen AI features stop working for learners until additional credits are purchased. Usage reports and credit metrics remain accessible to admins.
+- If a learner is mid-interaction when credits are exhausted, that interaction completes. All subsequent interactions are blocked.
+- Admins can set a credit limit higher than the number of purchased credits. Over-allocation is permitted, and a true-up can happen at renewal.
 
-### Grafico Utilizzo crediti mensili
+### Monthly Credits Usage chart
 
-Sotto la tabella Funzionalità di intelligenza artificiale generica, un grafico **Utilizzo mensile dei crediti** mostra i crediti utilizzati per ogni funzione al mese. Per impostazione predefinita, il grafico mostra il periodo corrente dell&#39;anno del contratto in base alla data di inizio del contratto di Agent Orchestrator. Seleziona **[!UICONTROL Scarica]** per esportare il report mensile per il periodo selezionato. La generazione del report è asincrona: quando il file è pronto, si riceve una notifica e un’e-mail in-app.
+Below the Gen AI Features table, a **Monthly Credits Usage** chart shows credits consumed per feature per month. By default, the chart shows the current contract year period based on the Agent Orchestrator contract start date. Select **[!UICONTROL Download]** to export the monthly report for the selected period. Report generation is asynchronous — you receive an in-app notification and email when the file is ready.
 
-### Report di utilizzo Gen AI
+### Gen AI usage reports
 
-Adobe Learning Manager fornisce due report sull&#39;utilizzo dell&#39;intelligenza artificiale di generazione in **[!UICONTROL Report]** > **[!UICONTROL Report IA]**.
+Adobe Learning Manager provides two Gen AI usage reports under **[!UICONTROL Reports]** > **[!UICONTROL AI Reports]**.
 
-**Report sull&#39;utilizzo dei crediti mensili**
+**Monthly credits usage report**
 
-Mostra i crediti utilizzati per ogni funzione al mese. Utile per la pianificazione del budget e il rinnovo del contratto.
+Shows credits consumed per feature per month. Useful for budget planning and contract renewal.
 
-- **Colonne:** Mese | Funzione | Crediti utilizzati
-- **Filtro:** Selezionare un intervallo di date che si estenda su uno o più periodi del contratto
-- **Download:** asincrono: quando il file è pronto, riceverai una notifica e un&#39;e-mail in-app
+- **Columns:** Month | Feature | Credits Used
+- **Filter:** Select a date range spanning one or more contract periods
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-**Report sull’utilizzo dei crediti dell’intelligenza artificiale generazione degli Allievi**
+**Learner Gen AI credits usage report**
 
-Un audit trail che mostra gli Allievi che hanno utilizzato determinate funzioni e quanti crediti hanno utilizzato ciascuna interazione.
+An audit trail showing which learners used which features and how many credits each interaction consumed.
 
-- **Colonne:** Data | Nome Allievo | E-mail Allievo | Funzione | Crediti utilizzati
-- **Filtro:** Selezionare l&#39;intervallo di date che si desidera controllare
-- **Download:** asincrono: quando il file è pronto, riceverai una notifica e un&#39;e-mail in-app
+- **Columns:** Date | Learner Name | Learner Email | Feature | Credits Used
+- **Filter:** Select the date range you want to audit
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-### Avvisi sull&#39;utilizzo del credito
+### Credit usage alerts
 
-Adobe Learning Manager invia automaticamente una notifica quando il consumo del credito supera le soglie chiave. Le notifiche vengono inviate sia in-app che tramite e-mail.
+Adobe Learning Manager automatically notifies you when credit consumption crosses key thresholds. Notifications are delivered both in-app and by email.
 
-| Attivazione | Notifica |
+| Trigger | Notification |
 |---|---|
-| I crediti dell’account raggiungono il 90% del totale acquistato | Avviso: i crediti sono quasi esauriti a livello di account |
-| I crediti dell&#39;account raggiungono il 100% del totale acquistato | Avviso: tutti i crediti vengono utilizzati e le funzioni di intelligenza artificiale generale si interrompono per gli Allievi |
-| Una funzione raggiunge il limite massimo di utilizzo dei singoli crediti | Avviso: assegna un nome alla caratteristica specifica, che si interrompe per gli Allievi |
+| Account credits reach 90% of total purchased | Warning — credits are nearly exhausted at the account level |
+| Account credits reach 100% of total purchased | Alert — all credits are consumed and Gen AI features stop for learners |
+| A feature reaches its individual Max Credits Usage Limit | Alert — names the specific feature; that feature stops for learners |
 
-Quando ricevi un avviso del 90%, contatta il tuo team per l’account Adobe per acquistare crediti aggiuntivi prima che venga raggiunta la soglia del 100%.
+When you receive a 90% warning, contact your Adobe account team to purchase additional credits before the 100% threshold is reached.
+-->
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
