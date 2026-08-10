@@ -2,9 +2,9 @@
 description: Carica documenti, policy o videoregistratori esistenti per consolidare l'intelligenza artificiale nei contenuti dell'organizzazione. Scegliete se limitare la generazione solo a quei file o consentire all'intelligenza artificiale di integrarsi con le sue conoscenze generali.
 jcr-language: en_us
 title: Gestire i file sorgente
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,6 @@ I documenti sorgente possono non essere più aggiornati dopo che un corso è gi�
 
 ### Conferma il caricamento del file
 
-    ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
+![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
 Una volta allegato un file, l’icona del file nella barra degli strumenti mostra un numero di badge. L&#39;assistente conferma il caricamento e offre una scelta rapida **Genera struttura**. Selezionalo o seleziona **Genera struttura** nella barra degli strumenti superiore.
