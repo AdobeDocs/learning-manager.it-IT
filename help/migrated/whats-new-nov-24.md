@@ -3,7 +3,7 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di novemb
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni di novembre 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
@@ -151,7 +151,8 @@ Per scaricare il report dalla sezione Amministratore e istruttore, fai riferimen
 
 ## Accessibilità nella pagina principale dell’Allievo
 
-Adobe Learning Manager ora supporta il testo alternativo per tutti i masthead per migliorare l’accessibilità per gli Allievi. Ciò consente agli Allievi con esigenze particolari di utilizzare gli assistenti vocali per leggere il testo alternativo e comprendere l’immagine. Potete selezionare più lingue e fornire testo alternativo per ogni lingua. Assicurati di aggiungere il testo alternativo nelle rispettive lingue. Assicurati che il logo aziendale nel tuo account includa anche testo alternativo con il nome dell’azienda.Per ulteriori informazioni, fai riferimento a questo articolo [Annuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead).
+Adobe Learning Manager ora supporta il testo alternativo per tutti i masthead per migliorare l’accessibilità per gli Allievi. Ciò consente agli Allievi con esigenze particolari di utilizzare gli assistenti vocali per leggere il testo alternativo e comprendere l’immagine. Potete selezionare più lingue e fornire testo alternativo per ogni lingua. Assicurati di aggiungere il testo alternativo nelle rispettive lingue. Assicurati che il logo aziendale nel tuo account includa anche testo alternativo con il nome dell’azienda.
+Per ulteriori informazioni, fai riferimento a questo articolo [Annuncio](/help/migrated/administrators/feature-summary/announcements.md#masthead).
 
 ## Supporto per hindi
 
@@ -227,7 +228,7 @@ La colonna della cartella utilizza il tipo di dati stringa ed è facoltativa. Di
 * Se aggiungi un nuovo nome di cartella per un modulo già presente in un’altra cartella, il nuovo valore non sovrascriverà né sostituirà la cartella assegnata. Il modulo verrà aggiunto alla nuova cartella e rimarrà disponibile anche nella cartella esistente.
 * Se il valore è vuoto, per impostazione predefinita la cartella sarà **[!UICONTROL Pubblica]**.
 
-Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/4-module_version.xlsx) di module_version_csv.
+Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/module_version.csv) di module_version_csv.
 
 ### Modifiche alla migrazione dei moduli - Criteri di completamento
 
@@ -238,10 +239,10 @@ Di seguito sono riportate le condizioni per le nuove colonne:
 1. `completionCriteria`:
 
    * Il tipo di dati deve essere una stringa e i valori supportati sono:
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
+     * `LAUNCH_CONTENT`
+     * `VIEW_PERCENT`
+     * `QUIZ`
+     * `MARK_COMPLETE`
    * Aggiungi i criteri di completamento a livello di modulo solo per i tipi di modulo a ritmo personalizzato.
    * I valori supportati per il contenuto statico sono `LAUNCH_CONTENT` e `VIEW_PERCENT`.
    * I valori supportati per il contenuto interattivo sono `LAUNCH_CONTENT`, `VIEW_PERCENT` e `QUIZ`.
@@ -257,7 +258,7 @@ Di seguito sono riportate le condizioni per le nuove colonne:
    * Il tipo di dati deve essere una stringa e i valori supportati sono `QUIZ_ATTEMPTED`, `QUIZ_PASSED` e `QUIZPASSED_OR_LIMITREACHED`.
    * Quando `completionCriteria` è impostato su `QUIZ`, immetti il valore del quiz appropriato nella colonna `quizData`.
 
-Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/4-module_version.xlsx) di module_version_csv.
+Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/module_version.csv) di module_version_csv.
 
 ### Modifiche nella migrazione del corso - Criteri di completamento
 
@@ -271,27 +272,27 @@ Di seguito sono riportate le condizioni per la colonna `completionCriteria`:
 * Se imposti `completionCriteria` su `SELECTEDMODULES`, devi contrassegnare i moduli obbligatori nel file [course_module.csv](assets/course_module.csv).
 * Nella colonna `optionalCriteria`, immettere `TRUE` o `FALSE`. Se imposti il valore come `TRUE`, il modulo sarà obbligatorio.
 
-Per ulteriori informazioni, fai riferimento alle [specifiche csv del corso](assets/3-course.xlsx) e al file delle [specifiche csv del modulo_corso](assets/6-course_module.xlsx).
+Per ulteriori informazioni, fai riferimento alle [specifiche csv del corso](assets/course.csv) e al file delle [specifiche csv del modulo_corso](assets/course_module.csv).
 
 ## Modifiche API
 
 Di seguito sono riportate le modifiche apportate alle API:
 
 * **API di ricerca**:
-   * Nuovo filtro modalità con opzioni: classicSearch e advanceSearch.
-   * Nuova opzione loMetadata per snippetTypes.
+  * Nuovo filtro modalità con opzioni: classicSearch e advanceSearch.
+  * Nuova opzione loMetadata per snippetTypes.
 * **API annuncio**:
-   * Include l&#39;attributo altText per le descrizioni masthead.
+  * Include l&#39;attributo altText per le descrizioni masthead.
 * **API istanza**:
-   * Nuovo attributo locale per recuperare i dettagli delle impostazioni locali.
+  * Nuovo attributo locale per recuperare i dettagli delle impostazioni locali.
 * **Controllo di propagazione**:
-   * Aggiornamento delle API per verificare la presenza di parole vietate nei commenti e nelle risposte ai post social:
+  * Aggiornamento delle API per verificare la presenza di parole vietate nei commenti e nelle risposte ai post social:
 * **Limitazione RPM e burst**:
-   * Sono stati aggiunti i limiti RPM (Richieste al minuto) e burst per tutte le API.
+  * Sono stati aggiunti i limiti RPM (Richieste al minuto) e burst per tutte le API.
 * **API badge**:
-   * Nuovo attributo externalProvider per recuperare informazioni sui distintivi esterni.
+  * Nuovo attributo externalProvider per recuperare informazioni sui distintivi esterni.
 * **API processo**:
-   * Scarica il report Gruppo utenti e il report di audit dei ruoli personalizzati utilizzando l’API dei processi.
+  * Scarica il report Gruppo utenti e il report di audit dei ruoli personalizzati utilizzando l’API dei processi.
 
 ### Modifiche all’API di ricerca
 

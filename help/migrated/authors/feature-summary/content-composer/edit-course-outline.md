@@ -2,9 +2,9 @@
 description: Prima di iniziare la generazione completa del corso, rivedi la lezione e la struttura dell’argomento generate dall’intelligenza artificiale. Richiedi modifiche tramite il pannello Chat. Rinomina, aggiungi, rimuovi, dividi o unisci lezioni e argomenti con conversazione.
 jcr-language: en_us
 title: Modificare la struttura del corso
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modificare la struttura del corso
 
-    ![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager Content Composer genera una struttura di lezioni e argomenti a partire dal file breve e dal file di origine. Il contorno viene visualizzato nell’area di lavoro in cui sono mostrate tutte le lezioni e i relativi argomenti.
 

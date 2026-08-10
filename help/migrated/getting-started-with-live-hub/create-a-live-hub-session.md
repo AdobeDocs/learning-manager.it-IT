@@ -1,7 +1,7 @@
 ---
 title: Creazione di una sessione di Hub live
 description: Scopri come creare un corso Hub dal vivo, aggiungere istanze del corso, assegnare Istruttori con Finder Istruttori, iscrivere Allievi e personalizzare il branding della sala.
-source-git-commit: 398fb6d707983fd021604396113c0f2af574dc17
+source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Per creare un corso Hub dal vivo:
 
    1. Immetti i nomi degli istruttori nel campo **Istruttori**.
 
-   1. Seleziona **Trova istruttori che utilizzano l&#39;IA** per visualizzare gli istruttori consigliati dall&#39;IA. Per ulteriori informazioni, vedere [Aggiungere Istruttori tramite il Finder Istruttori](#add-instructors-using-instructor-finder).
+   1. Seleziona **Trova istruttori che utilizzano l&#39;IA** per visualizzare gli istruttori consigliati dall&#39;IA. Per ulteriori informazioni, consulta [Aggiungere istruttori tramite il Finder istruttori](#add-instructors-using-instructor-finder).
 
 1. Seleziona **Aggiungi** > **Salva**.
 
@@ -109,7 +109,7 @@ Per creare un’istanza di corso:
    ![Pannello di configurazione della sessione](assets/session-configuration-panel.png)
    *Configurare la pianificazione, l&#39;istruttore e il percorso per un&#39;istanza di sessione specifica.*
 
-1. Nel campo **Istruttori**, immettete manualmente i nomi o selezionate **Trova istruttori utilizzando l&#39;intelligenza artificiale** per gli Istruttori consigliati dall&#39;intelligenza artificiale. Per ulteriori informazioni, vedere [Aggiungere Istruttori tramite il Finder Istruttori](#add-instructors-using-instructor-finder).
+1. Nel campo **Istruttori**, immettete manualmente i nomi o selezionate **Trova istruttori utilizzando l&#39;intelligenza artificiale** per gli Istruttori consigliati dall&#39;intelligenza artificiale. Per ulteriori informazioni, consulta [Aggiungere istruttori tramite il Finder istruttori](#add-instructors-using-instructor-finder).
 
 1. Immetti i dettagli della **Posizione**, quindi seleziona **Salva**. La sessione viene aggiornata con gli orari configurati, l’Istruttore e i dettagli sulla posizione.
 

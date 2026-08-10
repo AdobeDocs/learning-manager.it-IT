@@ -2,9 +2,9 @@
 description: L’editor del corso si apre automaticamente dopo la generazione. Verifica tutti i contenuti, il testo, le immagini, i controlli delle conoscenze e i quiz prima della condivisione o della pubblicazione. L'output dell'intelligenza artificiale può variare e richiede la verifica dell'autore.
 jcr-language: en_us
 title: Rivedi il corso generato
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Rivedi il corso generato
 
-    ![](../assets/11_course_view_generated_topic_content_updated.png)
+![](../assets/11_course_view_generated_topic_content_updated.png)
 
 Adobe Learning Manager Content Composer genera l’intero corso con testo, immagini, verifiche della conoscenza e un quiz, in un unico passaggio. L&#39;editor **Corso** si apre automaticamente al termine della generazione.
 
