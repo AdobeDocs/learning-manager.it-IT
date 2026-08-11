@@ -1,15 +1,15 @@
 ---
-title: Domande frequenti sull'hub live
+title: Domande frequenti sull’Hub live (Beta)
 description: Domande frequenti sull’Hub live in Adobe Learning Manager, organizzate per ruolo per Amministratori, Autori, Istruttori e Allievi.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '4473'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
 
 
-# Domande frequenti per Hub live
+# Domande frequenti per Hub live (Beta)
 
 <table>
  <tbody>
