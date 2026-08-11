@@ -1,15 +1,15 @@
 ---
-title: Informazioni sul layout Hub dal vivo
+title: Informazioni sul layout Hub dinamico (Beta)
 description: Scopri i pannelli e i controlli che compongono la sala sessioni dell’Hub dal vivo, tra cui la barra di controllo, il pannello Partecipanti, il pannello Chat e il pannello Breakouts.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
 
-# Informazioni sul layout Hub dal vivo
+# Informazioni sul layout Hub dinamico (Beta)
 
 In Adobe Learning Manager Live Hub, la sala sessioni è progettata per consentire a Istruttori e Allievi di collaborare in modo efficace durante le sessioni dal vivo. Il layout include più pannelli e controlli che consentono di gestire audio, video, partecipanti e interazioni in tempo reale.
 

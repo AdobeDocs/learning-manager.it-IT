@@ -1,15 +1,15 @@
 ---
 title: Partecipare a una sessione Hub dal vivo come Allievo
 description: Scopri come gli Allievi partecipano a una sessione Hub dal vivo dal corso a cui sono iscritti, incluso testare le impostazioni dell’audio e della videocamera prima di entrare nella stanza.
-source-git-commit: 83b1509610f1923424db1797c6e85d1f32422ce7
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
 
 
-# Partecipare a una sessione Hub dal vivo come Allievo
+# Partecipa a una sessione di Hub live (Beta) come Allievo
 
 Gli Allievi partecipano a una sessione Hub dal vivo direttamente dal corso a cui sono iscritti. Una volta unitevi, prendete parte al training dal vivo tramite chat, sondaggi, quiz, lavagne e breakout room.
 

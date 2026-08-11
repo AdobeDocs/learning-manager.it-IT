@@ -1,9 +1,9 @@
 ---
-title: Configurazione della schermata di pre-accesso in Hub dal vivo
+title: Configurazione della schermata di pre-accesso in Hub dal vivo (Beta)
 description: Scopri come funziona la schermata di pre-join dell'Hub live, come consentire le autorizzazioni del browser e come configurare i controlli audio e della videocamera prima di partecipare a una sessione.
-source-git-commit: 99ec553a973ea24ab185e471a79e19fe159738d3
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
