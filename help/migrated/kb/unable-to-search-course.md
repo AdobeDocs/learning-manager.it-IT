@@ -4,10 +4,10 @@ title: Non è possibile cercare un corso in Learning Manager
 description: Un Allievo non riesce a cercare un corso in Learning Manager.
 contentowner: nluke
 exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 55%
+source-wordcount: '308'
+ht-degree: 61%
 
 ---
 
@@ -29,7 +29,7 @@ In Learning Manager, quando un Allievo si iscrive tramite un programma di appren
 
 Pertanto, l’allievo non è in grado di cercare i corsi autonomi in **Il mio apprendimento**.
 
-Tuttavia, l’Allievo non può visualizzare i corsi all’interno del programma di apprendimento o della certificazione.
+Tuttavia, l’Allievo può visualizzare i corsi all’interno del programma di apprendimento o della certificazione.
 
 ## Scenario 2: l’Allievo non ha accesso al catalogo che contiene il corso.
 
@@ -59,7 +59,7 @@ Questo problema si verifica se:
 
    * L’Allievo non fa parte del catalogo
 
-     Per condividere il catalogo, fai clic su **[!UICONTROL Aggiungi]** e aggiungi il gruppo di cui fa parte l&#39;utente. Fai clic su **[!UICONTROL Salva]**.
+     Per condividere il catalogo, fai clic su **[!UICONTROL Aggiungi]** e aggiungi il gruppo di cui fa parte l’utente. Fai clic su **[!UICONTROL Salva]**.
 
      ![](assets/cp-add-user-group.png)
 

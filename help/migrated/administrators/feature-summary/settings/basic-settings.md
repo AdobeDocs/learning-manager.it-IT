@@ -3,9 +3,9 @@ description: Ulteriori informazioni su come le impostazioni di base consentono d
 jcr-language: en_us
 title: Impostazioni di base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
-source-wordcount: '5921'
+source-wordcount: '6363'
 ht-degree: 3%
 
 ---
@@ -106,7 +106,7 @@ Per ottimizzare i tassi di risposta, è buona norma configurare i promemoria aut
 2. **Definire la pianificazione del promemoria**: nel pannello **Impostazioni promemoria** visualizzato, utilizza i menu a discesa e i campi di input per configurare il promemoria:
 
    a. **[!UICONTROL Quando inviare]**: seleziona se il promemoria viene inviato **[!UICONTROL Al completamento del corso]** o **[!UICONTROL Dopo il completamento del corso]**.
-   b. **[!UICONTROL Ricorrenza]**: seleziona la frequenza del promemoria (ad esempio, Ogni settimana).
+   b. **[!UICONTROL Ricorrenza]**: seleziona la frequenza del promemoria, ad esempio Ogni settimana.
    c. **[!UICONTROL Per]**: specifica la durata totale (in settimane) per cui verranno inviati i promemoria, ad esempio 4 settimane.
 
 3. **[!UICONTROL Salvare il promemoria]**: seleziona l&#39;icona del segno di spunta blu per salvare la nuova configurazione del promemoria. Puoi ripetere questa procedura per aggiungere altri promemoria, se necessario.
@@ -140,7 +140,7 @@ Per garantire che i manager forniscano feedback tempestivi, è necessario impost
 1. **[!UICONTROL Aggiungi un nuovo promemoria]**: per creare un nuovo promemoria, seleziona il collegamento **[!UICONTROL Aggiungi nuovo promemoria]**.
 2. **[!UICONTROL Definire la pianificazione del promemoria]**: nel pannello **[!UICONTROL Impostazioni promemoria]**, seleziona i menu a discesa e i campi di input per configurare il promemoria:
 a. **[!UICONTROL Quando inviare]**: seleziona quando inviare il promemoria. Le opzioni disponibili sono: **[!UICONTROL Al completamento del corso]** e **[!UICONTROL Dopo il completamento del corso]**.
-b. **[!UICONTROL Ricorrenza]**: seleziona la frequenza del promemoria. Se la ricorrenza è **[!UICONTROL Once]**, significa che il manager riceverà una notifica per fornire feedback. Le opzioni disponibili sono: Una volta, Ogni giorno, Ogni settimana e Ogni mese.
+b. **[!UICONTROL Ricorrenza]**: seleziona la frequenza del promemoria. Se la ricorrenza è **[!UICONTROL Una volta]**, significa che il manager riceverà una notifica per fornire feedback. Le opzioni disponibili sono: Una volta, Ogni giorno, Ogni settimana e Ogni mese.
 3. Dopo aver impostato la pianificazione, seleziona l’icona del segno di spunta blu per salvare la configurazione del promemoria. Il promemoria viene visualizzato nell’elenco dei promemoria esistenti.
 
    ![testo alternativo](../settings/assets/Picture9.png)
@@ -268,6 +268,8 @@ Questa opzione elimina gli utenti che non accedono a Adobe Learning Manager per 
 ### Rimozione automatica utenti eliminati
 
 Rimuovi automaticamente e definitivamente gli utenti dal sistema che si trovano nello stato Eliminato per un periodo di tempo specificato. Una volta rimossi, tutti i dati utente associati vengono rimossi definitivamente e non possono essere recuperati.
+
+Se questa opzione è attivata, rimuove i dati per gli utenti che sono già stati eliminati in ALM dopo il numero di giorni specificato.
 
 ### Mostra Etichette catalogo
 
@@ -623,9 +625,9 @@ I Manager possono contrassegnare il completamento del corso tramite:
 
 * Modulo Elenco di controllo: il modulo Elenco di controllo consente ai Manager di valutare le prestazioni degli Allievi in base a task o criteri specifici. Gli Autori devono abilitare questo modulo durante la creazione del corso e assegnare i Manager come revisori.
 * Pagina del corso: Nella pagina del corso:
-a. Seleziona la scheda **[!UICONTROL Allievi]** nel riquadro a sinistra.
-b. Seleziona l’Allievo di cui desideri contrassegnare la partecipazione.
-c. Seleziona **[!UICONTROL Azioni]** > **[!UICONTROL Contrassegna completamento]**.
+a.    Seleziona la scheda **[!UICONTROL Allievi]** nel riquadro a sinistra.
+b.    Seleziona l’Allievo di cui desideri contrassegnare la partecipazione.
+c.    Selezionare **[!UICONTROL Azioni]** > **[!UICONTROL Contrassegna Completamento]**.
 
 **Note aggiuntive:**
 
@@ -639,16 +641,16 @@ Questa opzione consente agli Autori di ritirare i contenuti di formazione (corsi
 1. Una volta ritirati, gli Allievi iscritti saranno in grado di visualizzare ed eseguire azioni, ma gli Allievi non ancora iscritti perderanno l’accesso:
 a. Allievi iscritti:
 i. Gli Allievi già iscritti al corso o al percorso di apprendimento ritirato possono ancora accedere al contenuto.
-ii. Possono continuare a eseguire azioni quali il completamento del corso o la visualizzazione del materiale.
+ii. Possono continuare a eseguire azioni come il completamento del corso o la visualizzazione del materiale.
 b. Allievi non ancora iscritti:
-i. Gli Allievi che non si sono iscritti al corso o al percorso di apprendimento prima del ritiro non vedranno più il contenuto nel catalogo.
-ii. Perderanno interamente l&#39;accesso ai contenuti ritirati.
+i. Gli Allievi che non si sono iscritti al corso o al percorso di apprendimento prima del ritiro non potranno più visualizzare i contenuti nel catalogo.
+ii. Perderanno completamente l&#39;accesso ai contenuti ritirati.
 2. Una volta ritirati, sia gli Allievi iscritti che quelli non ancora iscritti perderanno l’accesso:
 a. Allievi iscritti:
-i. Gli Allievi già iscritti al corso o al percorso di apprendimento perderanno l’accesso al contenuto una volta ritirato.
+i. Gli Allievi già iscritti al corso o al percorso di apprendimento perderanno l’accesso ai contenuti una volta ritirati.
 ii. Non potranno più visualizzare o eseguire azioni sui contenuti ritirati.
 b. Allievi non ancora iscritti:
-i. Anche gli Allievi che non si sono iscritti al corso o al percorso di apprendimento perderanno l’accesso poiché il contenuto non sarà più visualizzato nel catalogo.
+i. Anche gli Allievi che non si sono iscritti al corso o al percorso di apprendimento perderanno l’accesso poiché i contenuti non verranno più visualizzati nel catalogo.
 
 ### Ritira automaticamente
 
