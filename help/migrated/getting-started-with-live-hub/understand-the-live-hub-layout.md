@@ -1,15 +1,15 @@
 ---
-title: Informazioni sul layout Hub dal vivo
+title: Informazioni sul layout Hub dinamico (Beta)
 description: Scopri i pannelli e i controlli che compongono la sala sessioni dell’Hub dal vivo, tra cui la barra di controllo, il pannello Partecipanti, il pannello Chat e il pannello Breakouts.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
 
-# Informazioni sul layout Hub dal vivo
+# Informazioni sul layout Hub dinamico (Beta)
 
 In Adobe Learning Manager Live Hub, la sala sessioni è progettata per consentire a Istruttori e Allievi di collaborare in modo efficace durante le sessioni dal vivo. Il layout include più pannelli e controlli che consentono di gestire audio, video, partecipanti e interazioni in tempo reale.
 
@@ -108,7 +108,7 @@ Apri **Altre app** per accedere a strumenti integrati che estendono la collabora
 
 * Collabora visivamente con tutti i partecipanti senza uscire dalla sessione.
 
-Visualizza[Informazioni sulla lavagna](./about-the-whiteboard.md) per ulteriori informazioni.
+Per ulteriori informazioni, vedere [Informazioni sulla lavagna](./about-the-whiteboard.md).
 
 ### Coinvolgimento dei partecipanti
 
@@ -120,4 +120,4 @@ Il coinvolgimento dei partecipanti consente di tenere traccia dell’attività e
 
 * Identifica se gli Allievi sono attivamente coinvolti o hanno bisogno di attenzione.
 
-Visualizza[Tieni traccia del coinvolgimento dei partecipanti](./track-the-participant-engagement.md) per ulteriori informazioni.
+Per ulteriori informazioni, visualizza [Tieni traccia del coinvolgimento dei partecipanti](./track-the-participant-engagement.md).

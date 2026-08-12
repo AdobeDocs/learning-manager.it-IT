@@ -1,15 +1,15 @@
 ---
-title: Guida alla risoluzione dei problemi per Live Hub
+title: Guida alla risoluzione dei problemi per Live Hub (Beta)
 description: Messaggi di errore e notifiche comuni che potresti incontrare durante una sessione di Live Hub, loro cause e passaggi per risolverli.
-source-git-commit: 02de0cee632d34c99e1cba12cddb846f7e6cae81
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1011'
 ht-degree: 2%
 
 ---
 
 
-# Guida alla risoluzione dei problemi per Live Hub
+# Guida alla risoluzione dei problemi per Live Hub (Beta)
 
 Durante una sessione Hub dal vivo, gli Istruttori potrebbero ricevere messaggi di errore o notifiche che impediscono il completamento previsto di determinate azioni. Questo articolo descrive gli errori comuni relativi agli istruttori, le loro possibili cause e i passaggi da eseguire per risolverli.
 

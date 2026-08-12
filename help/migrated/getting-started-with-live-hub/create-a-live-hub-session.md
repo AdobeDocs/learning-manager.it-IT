@@ -1,15 +1,15 @@
 ---
-title: Creazione di una sessione di Hub live
+title: Creare una sessione di Hub live (Beta)
 description: Scopri come creare un corso Hub dal vivo, aggiungere istanze del corso, assegnare Istruttori con Finder Istruttori, iscrivere Allievi e personalizzare il branding della sala.
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# Creazione di una sessione di Hub live
+# Creare una sessione di Hub live (Beta)
 
 Utilizza Live Hub per offrire corsi di formazione in diretta guidati da istruttori all’interno di un corso Adobe Learning Manager. Puoi combinare le sessioni Live Hub con contenuti autonomi per creare un&#39;esperienza di apprendimento mista.
 
