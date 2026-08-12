@@ -2,9 +2,9 @@
 description: Tutte le informazioni necessarie per abilitare il Gradebook e renderlo visibile ad autori e allievi
 jcr-language: en_us
 title: Gradebook per l'amministratore
-source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
+source-git-commit: 2f1a64abe8be62bfc23da052232d6ceb1202ebad
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,10 @@ Puoi scaricare una Trascrizione Allievo filtrata per questo corso direttamente d
 * Nell’**Active Feedback Gradebook**, seleziona **Scarica trascrizione Allievo** nell’angolo superiore destro della pagina.
 * Nella home page dell&#39;amministratore, seleziona **Report**, quindi seleziona **Report personalizzati**. Seleziona **Trascrizioni Allievi** dall’elenco dei report disponibili.
 
-Per ulteriori informazioni, consulta Segnalazione delle modifiche nella versione.
+>[!NOTE]
+>
+>Per le trascrizioni degli allievi (API per report CSV e processi), la ponderazione verrà aggiunta come colonna quando il libro paga è abilitato a livello di corso.
+
 
 ## Eventi di prova di verifica del contenuto
 
