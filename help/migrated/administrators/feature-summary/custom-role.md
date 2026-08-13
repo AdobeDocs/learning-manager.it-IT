@@ -4,7 +4,7 @@ title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
+source-git-commit: f8473c0bfd1de5591d858e657dcc67c71c50ecd5
 workflow-type: tm+mt
 source-wordcount: '5467'
 ht-degree: 24%
@@ -524,7 +524,7 @@ Dopo aver assegnato gli utenti a un ruolo personalizzato aggiuntivo, è possibil
 
 >[!NOTE]
 >
->Puoi assegnare fino a 50 ruoli a ciascun utente e aggiungere fino a 500 utenti a ciascun ruolo.
+>Puoi assegnare fino a 50 ruoli a ciascun utente e aggiungere fino a 3500 utenti a ciascun ruolo.
 
 ### Assegnazione di più ruoli personalizzati mediante CSV
 
@@ -539,7 +539,7 @@ Il file user_role.csv include i campi Ruolo personalizzato e ID utente.
 
 Il file role.csv include i campi, il ruolo personalizzato, l’origine della creazione e informazioni dettagliate per cataloghi, utenti, corsi, percorsi di apprendimento e altro ancora.
 
-Se il file CSV contiene dati errati o supera i limiti (50 ruoli per utente e 500 utenti per ruolo), verrà visualizzato un messaggio che mostra gli errori.
+Se il file CSV contiene dati errati o supera i limiti (50 ruoli per utente e 3500 utenti per ruolo), verrà visualizzato un messaggio che mostra gli errori.
 
 ![](assets/error-custom-role.png)
 _Notifica di errore per ruoli personalizzati_
