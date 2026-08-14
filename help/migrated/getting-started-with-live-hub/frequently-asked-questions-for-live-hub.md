@@ -1,9 +1,9 @@
 ---
 title: Domande frequenti sull’Hub live (Beta)
 description: Domande frequenti sull’Hub live in Adobe Learning Manager, organizzate per ruolo per Amministratori, Autori, Istruttori e Allievi.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 318e902efea08f9c728813ff5d43293f91b6d46d
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4473'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-L’Hub live include i ruoli di Amministratore, Autore, Istruttore e Allievo, ciascuno responsabile di una parte diversa del flusso di lavoro di formazione. Questo documento riorganizza il contenuto originale delle domande frequenti su Live Hub in base al ruolo, in modo che ogni pubblico possa trovare rapidamente le domande più pertinenti.
+L’Hub live include i ruoli di Amministratore, Autore, Istruttore e Allievo, ciascuno responsabile di una parte diversa del flusso di lavoro di formazione. Questo documento organizza le domande frequenti sull&#39;Hub dal vivo per ruolo, in modo che ogni pubblico possa trovare rapidamente le domande più pertinenti.
 
 ## L’Amministratore
 
