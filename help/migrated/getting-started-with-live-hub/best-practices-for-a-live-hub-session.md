@@ -1,9 +1,9 @@
 ---
 title: Procedure consigliate per una sessione Hub live (Beta)
 description: Segui queste procedure consigliate per preparare, eseguire e seguire una sessione di Hub dal vivo in Adobe Learning Manager, per Autori, Amministratori, Istruttori e Allievi.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: e48747e8c9c520396b608dfae9aee2425815bad5
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1885'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Procedure consigliate per una sessione Hub live (Beta)
 
-Un corso Hub dal vivo in Adobe Learning Manager riunisce istruttori e allievi per formazione in tempo reale, completo di chat, sondaggi, quiz, lavagne, sale stampa, registrazione e analisi. Questo articolo spiega come eseguire ogni attività. Questo documento è il suo compagno: spiega come farli bene.
+Un corso Hub dal vivo in Adobe Learning Manager riunisce Istruttori e Allievi per la formazione in tempo reale, con funzionalità interattive come chat, sondaggi, quiz, lavagne, sale stampa, registrazioni e analisi. Questa guida complementare si concentra sulle pratiche che Amministratori, Autori e Istruttori possono adottare per creare un’esperienza di apprendimento uniforme, coinvolgente ed efficace.
 
 Ogni sessione di Live Hub si sposta in tre fasi. Questa guida segue lo stesso ritmo e la maggior parte dell&#39;impegno che determina il successo di una sessione avviene prima che chiunque entri nella stanza.
 
