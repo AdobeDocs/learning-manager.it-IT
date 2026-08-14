@@ -1,7 +1,7 @@
 ---
 title: Utilizzo dell’Hub live (Beta) su dispositivi mobili come Allievo
 description: Scopri quali funzionalità dell’Hub dal vivo sono disponibili per gli Allievi nell’app mobile Adobe Learning Manager, dall’iscrizione a una sessione all’uscita da una sessione.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
