@@ -1,9 +1,9 @@
 ---
 title: Informazioni sul pannello Chat in Hub dal vivo
 description: Scopri come il pannello Chat consente una comunicazione strutturata in tempo reale tra Istruttori e Allievi durante una sessione Hub dal vivo.
-source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Il pannello Chat include più schede che consentono di gestire diversi tipi di c
 
 ## Ruoli e autorizzazioni
 
-Il pannello Chat è disponibile per Istruttori e Allievi. Le azioni e i controlli disponibili nel pannello variano in base al ruolo dell&#39;utente all&#39;interno della classe virtuale.
+Il pannello Chat è disponibile per Istruttori e Allievi durante una sessione Hub dal vivo. Le azioni e i controlli disponibili variano in base al ruolo dell&#39;utente.
 
 | **Istruttori** | **Allievi** |
 |----|----|

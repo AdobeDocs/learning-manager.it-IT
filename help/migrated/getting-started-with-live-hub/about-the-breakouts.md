@@ -1,9 +1,9 @@
 ---
 title: Informazioni sulle breakout in Hub live
 description: Scopri come le breakout room consentono agli Istruttori di dividere una sessione di Hub live in gruppi più piccoli per discussioni, attività e collaborazione.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,12 @@ Al termine della sessione di breakout, tutti i partecipanti vengono automaticame
 
 In questo modo viene contrassegnato il completamento dell&#39;attività di breakout e viene abilitata la revisione post-sessione.
 
-![Interfaccia Distribuzione sala Breakout](assets/breakout-room-distribution.png "Hub dal vivo che mostra la distribuzione degli Allievi nelle sale breakout.")
+![Distribuzione sala di scomposizione](assets/breakout-room-distribution.png)
+*Interfaccia Hub dal vivo che mostra il layout della sessione di breakout*
 
 ## Ruoli e autorizzazioni
 
-Le stanze Breakout sono disponibili sia per Istruttori che per Allievi. Le azioni e i controlli disponibili nel pannello variano in base al ruolo dell&#39;utente all&#39;interno della classe virtuale.
+Le interruzioni sono disponibili sia per gli Istruttori che per gli Allievi durante una sessione dell’Hub dal vivo. Le azioni e i controlli disponibili variano in base al ruolo dell&#39;utente.
 
 | **Istruttori** | **Allievi** |
 |----|----|

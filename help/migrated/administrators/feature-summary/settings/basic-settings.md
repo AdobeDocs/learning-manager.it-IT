@@ -3,9 +3,9 @@ description: Ulteriori informazioni su come le impostazioni di base consentono d
 jcr-language: en_us
 title: Impostazioni di base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
+source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
 workflow-type: tm+mt
-source-wordcount: '6363'
+source-wordcount: '6386'
 ht-degree: 3%
 
 ---
@@ -431,6 +431,8 @@ Quando questa opzione è attivata, gli Allievi possono inviare e tenere traccia 
 
 Attiva la funzione di apprendimento esterno per tutti gli Allievi dell’account. Una volta abilitato, un modulo di invio diventa disponibile sulla dashboard Allievo. Gli Allievi possono immettere dettagli quali il nome del corso di formazione, la durata, la data, il punteggio e la prova di completamento. L&#39;invio viene inviato al proprio manager per la revisione e l&#39;approvazione. Gli invii approvati vengono visualizzati nella Trascrizione Allievo e nei report dell’Amministratore. Gli invii rifiutati non vengono registrati nella trascrizione.
 
+![Seleziona Abilita per abilitare l’invio di contenuti di apprendimento esterni da un Allievo](../assets/external-learning-enable.png)
+
 >[!NOTE]
 >
 >L’attivazione di questa impostazione aggiunge nuove colonne alla Trascrizione Allievo per gli invii di apprendimento esterni. Se la tua organizzazione utilizza flussi di lavoro automatizzati o integrazioni per l’elaborazione dei dati di trascrizione degli Allievi, prima di abilitare questa opzione rivedi tali flussi di lavoro automatizzati per garantire la compatibilità con la struttura di trascrizione aggiornata.
@@ -502,6 +504,8 @@ Gli amministratori possono aggiungere fino a 10 campi personalizzati per acquisi
 | Numero | Ingresso numerico. |
 | Casella di controllo | Alternare un singolo sì/no. |
 | A discesa | Selezione singola da un elenco di opzioni definito dall&#39;amministratore. |
+
+![Selezionare i campi principali e personalizzati utilizzati da un Allievo per sottomettere l’apprendimento esterno](../assets/external-learning-fields.png)
 
 ### Prove di completamento dei requisiti dei file
 

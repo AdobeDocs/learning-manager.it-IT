@@ -1,9 +1,9 @@
 ---
 title: Creare una sessione di Hub live (Beta)
 description: Scopri come creare un corso Hub dal vivo, aggiungere istanze del corso, assegnare Istruttori con Finder Istruttori, iscrivere Allievi e personalizzare il branding della sala.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Per aggiungere Istruttori tramite il Finder Istruttori:
    ![Recommendations Istruttore pannello Assistente intelligenza artificiale](assets/ai-assistant-panel-instructor-recommendations.png)
    *Utilizzare il pannello Assistente intelligenza artificiale per ottenere consigli sull&#39;istruttore e sulle fasce orarie in base ai dettagli della sessione.*
 
-1. Consulta l’elenco degli Istruttori consigliati. Il Finder istruttori consiglia gli Istruttori in base alle abilità del corso e ai requisiti della sessione. Recommendations considera anche la disponibilità, l’utilizzo e il calendario delle vacanze dell’Istruttore. Per ulteriori informazioni, consulta **Gestione Istruttori**.
+1. Consulta l’elenco degli Istruttori consigliati.
 
 1. Passa all’Istruttore che desideri assegnare, quindi seleziona **Aggiungi**. <br> L’istruttore selezionato viene aggiunto al campo **Istruttori** come tag.
 
