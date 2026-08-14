@@ -1,9 +1,9 @@
 ---
 title: Guida introduttiva a Live Hub (Beta)
 description: Scopri come Live Hub in Adobe Learning Manager ti consente di organizzare sessioni di formazione dirette da istruttori direttamente all’interno della piattaforma.
-source-git-commit: 8078e00844d3b2d757e37d65b6b4c99ff04ab1b6
+source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ esperienza di apprendimento fluida.
 
 | **Fase** | **Attività chiave** |
 |---|---|
-| **Pre-sessione** | L&#39;amministratore verifica che i [requisiti di sistema](./system-requirements-for-live-hub.md) siano soddisfatti e [abilita Live Hub](../administrators/feature-summary/enable-live-hub.md) per l&#39;account. Possono inoltre iscrivere gli Allievi a un corso. L’Autore [crea il corso Hub dal vivo](create-a-live-hub-session.md) e l’Istruttore prepara la stanza [configurando layout](./understand-the-live-hub-layout.md), contenuti e attività interattive per la sessione successiva. |
+| **Pre-sessione** | L&#39;amministratore verifica che i [requisiti di sistema](./system-requirements-for-live-hub.md) siano soddisfatti e [abilita Live Hub](../administrators/feature-summary/enable-live-hub.md) per l&#39;account. L’Autore [crea il corso Hub dal vivo](create-a-live-hub-session.md) e gli Allievi possono iscriversi autonomamente al corso oppure l’Amministratore può iscriverli. L’Istruttore prepara la sala [configurando i layout](./understand-the-live-hub-layout.md), il contenuto e le attività interattive per la prossima sessione. |
 | **Durante la sessione** | L’Istruttore organizza la sessione dal vivo e coinvolge gli Allievi utilizzando funzionalità quali [chat](about-the-chat-panel.md), [sondaggi](./about-the-polls.md), [quiz](./about-the-quiz.md), [lavagne](./about-the-whiteboard.md), [condivisione dello schermo](./about-the-screen-sharing.md) e [sale riunioni](./about-the-breakouts.md). Gli Allievi partecipano a queste attività per tutta la sessione. L’Istruttore può [registrare la sessione](./record-a-session.md) per renderla disponibile agli Allievi per la visualizzazione in un secondo momento. |
 | **Post-sessione** | L’Istruttore esamina le registrazioni delle sessioni, i report di partecipazione e le [analisi del coinvolgimento](./view-the-session-dashboard.md) per valutare la partecipazione degli Allievi e l’efficacia della sessione. Gli Allievi possono rivedere la sessione tramite una visualizzazione [Registrazione basata su argomenti](./view-recordings-as-a-learner.md) che suddivide la registrazione in argomenti navigabili, ciascuno con un titolo, una panoramica e note, in modo che possano passare a qualsiasi argomento o leggerlo invece di guardarlo. |
 
