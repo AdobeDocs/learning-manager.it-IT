@@ -1,10 +1,10 @@
 ---
-description: Prima di iniziare la generazione completa del corso, rivedi la lezione e la struttura dell’argomento generate dall’intelligenza artificiale. Richiedi modifiche tramite il pannello Chat. Rinomina, aggiungi, rimuovi, dividi o unisci lezioni e argomenti con conversazione.
+description: 'Scopri come modificare il profilo di un corso di Content Composer: rinominare, aggiungere, rimuovere, dividere o unire lezioni e argomenti tramite il pannello Chat.'
 jcr-language: en_us
 title: Modificare la struttura del corso
-source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---

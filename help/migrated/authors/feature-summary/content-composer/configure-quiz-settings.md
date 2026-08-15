@@ -1,10 +1,10 @@
 ---
-description: Impostate i tentativi di quiz, i limiti di tempo, l’ordine delle domande e i punteggi superati in Composizione contenuti. Scopri in che modo l’impostazione di ogni quiz influisce sull’esperienza dell’Allievo e come vengono riportati i punteggi al tuo LMS.
+description: Scoprite come configurare le impostazioni per i nuovi quiz, i limiti di tempo, l’ordine delle domande, lo slittamento delle pagine e il punteggio SCORM in Composizione contenuti.
 jcr-language: en_us
 title: Configurare le impostazioni del quiz
-source-git-commit: 4adddf525ba27f9e0c3c3234cfde2c472102a9db
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

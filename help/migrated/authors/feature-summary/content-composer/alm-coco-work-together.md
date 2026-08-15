@@ -1,10 +1,10 @@
 ---
-description: Scopri come Composizione contenuti e Adobe Learning Manager dividono le responsabilità di authoring e distribuzione, come un corso completato passa da Composizione contenuti a Libreria dei contenuti ALM e come funzionano il tracciamento degli Allievi e la creazione di report dopo la pubblicazione.
+description: Scoprite come Content Composer gestisce la creazione di contenuti e Adobe Learning Manager gestisce la distribuzione, il tracciamento e il reporting dopo la pubblicazione.
 jcr-language: en_us
 title: Collaborazione tra Composizione contenuti e Adobe Learning Manager
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---

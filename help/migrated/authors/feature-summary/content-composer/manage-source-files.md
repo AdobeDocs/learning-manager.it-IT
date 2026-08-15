@@ -1,10 +1,10 @@
 ---
-description: Carica documenti, policy o videoregistratori esistenti per consolidare l'intelligenza artificiale nei contenuti dell'organizzazione. Scegliete se limitare la generazione solo a quei file o consentire all'intelligenza artificiale di integrarsi con le sue conoscenze generali.
+description: Scoprite come caricare i file sorgente in Content Composer, limitare l'output dell'intelligenza artificiale ai contenuti e aggiornare i file sorgente quando il materiale viene modificato.
 jcr-language: en_us
 title: Gestire i file sorgente
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---

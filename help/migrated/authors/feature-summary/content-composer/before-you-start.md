@@ -1,10 +1,10 @@
 ---
-description: È necessario l'accesso tramite l'abbonamento a una versione di Creative Cloud per provare Composizione contenuti, un'idea generale di cosa deve includere il corso e, facoltativamente, documenti di origine per supportare l'intelligenza artificiale nei contenuti specifici dell'organizzazione.
+description: 'Scoprite cosa vi serve prima di avviare Composizione contenuto: un account di Creative Cloud, Google Chrome e documenti di origine opzionali per guidare l''intelligenza artificiale.'
 jcr-language: en_us
 title: Cosa serve prima di iniziare
-source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

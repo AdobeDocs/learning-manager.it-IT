@@ -2,9 +2,9 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+source-git-commit: 3fa2129d55276bf566149b0616e48ae77939d1a7
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1669'
 ht-degree: 36%
 
 ---
@@ -233,12 +233,14 @@ ht-degree: 36%
       * [Modifica o aggiungi un’immagine](authors/feature-summary/content-composer/edit-add-image.md)
       * [Aggiungi un componente contenuto](authors/feature-summary/content-composer/add-content-component.md)
       * [Anteprima del corso](authors/feature-summary/content-composer/preview-course.md)
+    * Scrivi prompt validi {#write-effective-prompt}
+      * [Scrivi messaggi efficaci in Composizione contenuti](authors/feature-summary/content-composer/write-effective-prompts.md)
     * Condividere e collaborare {#share}
-      * [Condivisione e collaborazione su un corso di Content Composer](authors/feature-summary/content-composer/share-collaborate.md)
-      * {hide-from-toc}[Condividere un corso per la revisione](authors/feature-summary/content-composer/share-course-review.md)
-      * {hide-from-toc}[Condivisione di un corso con gli Allievi](authors/feature-summary/content-composer/share-course-learners.md)
-      * {hide-from-toc}[Rivedi il corso condiviso](authors/feature-summary/content-composer/review-shared-course.md)
-      * {hide-from-toc}[Visualizzare e aggiungere commenti a un corso](authors/feature-summary/content-composer/view-add-comments-course.md)
+      * [Condividere e collaborare a un progetto Content Composer](authors/feature-summary/content-composer/share-collaborate.md)
+      * {hide-from-toc}[Condividere un progetto per la revisione](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[Condividere un progetto con gli Allievi](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[Rivedi il progetto condiviso](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[Gestire e rispondere ai commenti di revisione](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * Configurare le impostazioni del corso {#settings}
       * [Impostazioni generali del corso](authors/feature-summary/content-composer/general-course-settings.md)
       * [Impostare i criteri di completamento e di successo](authors/feature-summary/content-composer/set-completion-success-criteria.md)

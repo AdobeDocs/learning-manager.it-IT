@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a3b1824c68247b73038b3226188f2b4b3fd9f8e6
 workflow-type: tm+mt
 source-wordcount: '34007'
 ht-degree: 65%
@@ -37,7 +37,7 @@ Sul fronte dell’IA, l’Assistente all’intelligenza artificiale per gli Alli
 
 La gestione dei contenuti è rafforzata dal generatore di modelli e-mail basati su componenti WYSIWYG, dalla struttura gerarchica delle cartelle dei contenuti con accesso basato sui ruoli, dalla funzione di apprendimento esterno per l’invio e l’approvazione di corsi di formazione off-platform e dalla nuova funzione Canali che aggrega i contenuti video dalle pagine Web aziendali e dalle pagine Confluence.
 
-Per ulteriori informazioni, consulta [Novità e modifiche nella versione di agosto 2026 di Adobe Learning Manager](/help/migrated/whats-new.md).
+Ulteriori informazioni sulle [novità e modifiche nella versione di agosto 2026 di Adobe Learning Manager](/help/migrated/whats-new.md).
 
 ## Modifiche rivoluzionarie nella versione
 

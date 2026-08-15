@@ -1,10 +1,10 @@
 ---
-description: Scoprite come modificare i font per intestazione e corpo in Composizione contenuti modificando un tema. Selezionate una delle opzioni di font disponibili e salvatela come nuovo tema personalizzato oppure sovrascrivete quello esistente.
+description: Scoprite come modificare i font per intestazione e corpo in Composizione contenuti modificando un tema, quindi salvate le modifiche o create un nuovo tema personalizzato.
 jcr-language: en_us
 title: Cambia font
-source-git-commit: 93f8c8fd1fd9c9f708ba0085a268be53906d26f9
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

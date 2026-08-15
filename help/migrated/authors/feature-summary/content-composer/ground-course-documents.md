@@ -1,10 +1,10 @@
 ---
-description: Carica le policy, le procedure o i deck e limita l'IA solo a quel contenuto. Ciò garantisce che i corsi generati riflettano esattamente la lingua dell’organizzazione, che è essenziale per la conformità, la regolamentazione e la formazione basata sulle procedure.
+description: Scopri come creare corsi per Content Composer nei tuoi documenti limitando l'output dell'intelligenza artificiale solo alle tue policy, procedure o deck.
 jcr-language: en_us
 title: Metti a terra il tuo corso nei tuoi documenti
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

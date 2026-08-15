@@ -1,10 +1,10 @@
 ---
-description: Scopri come aggiungere un’intestazione e un piè di pagina a un corso di Content Composer, caricare un logo per l’intestazione e visualizzare in anteprima le modifiche nell’area di lavoro prima di salvare il tema aggiornato.
+description: Scopri come aggiungere un’intestazione e un piè di pagina a un corso di Content Composer, caricare un logo, attivare gli interruttori e visualizzare in anteprima le modifiche apportate al tema dal vivo nell’area di lavoro.
 jcr-language: en_us
 title: Aggiungere un’intestazione e un piè di pagina
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---

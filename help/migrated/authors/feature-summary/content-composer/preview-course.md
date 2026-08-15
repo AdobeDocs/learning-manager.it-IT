@@ -1,10 +1,10 @@
 ---
-description: L’anteprima mostra il corso esattamente come gli Allievi lo sperimenteranno, con il tema applicato, i componenti interattivi attivi e il quiz in modalità di risposta. Usalo per verificare contenuti e interazioni prima della pubblicazione.
+description: Scoprite come visualizzare in anteprima un corso di Content Composer esattamente come gli allievi lo vedranno, con il tema applicato, i componenti e il quiz attivo.
 jcr-language: en_us
 title: Anteprima del corso
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

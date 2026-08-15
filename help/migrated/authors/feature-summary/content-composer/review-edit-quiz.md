@@ -1,10 +1,10 @@
 ---
-description: Alla fine del corso viene visualizzato un quiz con i punteggi, in cui ogni domanda è associata all’argomento di prova. Modifica il testo della domanda, modifica la risposta corretta, assegna punteggi o chiedi all'IA di rigenerare le domande.
+description: 'Scoprite come modificare le domande dei quiz in Content Composer: modificare le risposte corrette, assegnare punteggi, eliminare domande o chiedere all’intelligenza artificiale di rigenerarle.'
 jcr-language: en_us
 title: Revisione e modifica del quiz
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
