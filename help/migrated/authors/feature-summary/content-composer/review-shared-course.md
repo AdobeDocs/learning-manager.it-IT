@@ -1,8 +1,9 @@
 ---
 description: Scoprite come aprire e rivedere un corso di Content Composer condiviso per ricevere feedback, incluso come navigare nel corso, aggiungere commenti, rispondere ad altri revisori e assegnare tag ad altri revisori.
 jcr-language: en_us
-title: Rivedi il corso condiviso
-source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
+title: Verifica il progetto condiviso
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
