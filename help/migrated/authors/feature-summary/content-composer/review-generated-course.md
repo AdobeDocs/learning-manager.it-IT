@@ -1,10 +1,10 @@
 ---
-description: L’editor del corso si apre automaticamente dopo la generazione. Verifica tutti i contenuti, il testo, le immagini, i controlli delle conoscenze e i quiz prima della condivisione o della pubblicazione. L'output dell'intelligenza artificiale può variare e richiede la verifica dell'autore.
+description: Scopri come rivedere i contenuti dei corsi generati dall’intelligenza artificiale nell’editor del corso di Content Composer prima di condividerli o pubblicarli, poiché l’output dell’intelligenza artificiale potrebbe variare.
 jcr-language: en_us
 title: Rivedi il corso generato
-source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---

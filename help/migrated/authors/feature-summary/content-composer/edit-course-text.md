@@ -1,10 +1,10 @@
 ---
-description: Selezionate un elemento di testo per attivare la barra degli strumenti di formattazione in linea. Modifica il corpo del testo, i titoli e le etichette direttamente nell'area di lavoro. Rinomina le lezioni e gli argomenti tramite l’assistente, non selezionando i titoli.
+description: Scoprite come modificare il testo del corso in Composizione contenuti utilizzando la barra degli strumenti di formattazione in linea e come rinominare lezioni e argomenti tramite l’assistente.
 jcr-language: en_us
 title: Modificare il testo del corso
-source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---

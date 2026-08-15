@@ -1,10 +1,10 @@
 ---
-description: La fase Breve acquisisce tre input (titolo del corso, profilo dell’Allievo e obiettivo di apprendimento) attraverso la conversazione guidata. Tutti e tre i campi devono essere completi prima che l'IA possa generare un profilo.
+description: 'Scoprite come completare la fase Breve di Composizione dei contenuti: impostate il titolo del corso, definite gli Allievi e scrivete un obiettivo prima di generare un contorno.'
 jcr-language: en_us
 title: Completare la descrizione del corso
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---

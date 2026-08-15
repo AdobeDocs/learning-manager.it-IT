@@ -1,10 +1,10 @@
 ---
-description: Consulta le procedure consigliate per connettere Composizione contenuti a Adobe Learning Manager, tra cui quando configurare i criteri di completamento, come assegnare un nome ai moduli per l’individuazione e come gestire il controllo delle versioni negli aggiornamenti dei corsi.
+description: 'Best practice per la generazione di corsi in Composizione contenuti: scrittura di obiettivi di apprendimento, revisione dei contorni, limitazione dell’output dell’intelligenza artificiale e utilizzo dei componenti.'
 jcr-language: en_us
 title: Procedure consigliate per la pubblicazione da Content Composer ad ALM
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: Inserite blocchi interattivi e multimediali tra elementi esistenti, Paragrafo, Immagine, Video, Flip Card, Pannello a soffietto, Linea temporale, Scheda, Sequenza grafica, MCQ e Vero/Falso, utilizzando il selettore di componenti.
+description: 'Scoprite come aggiungere blocchi di contenuto in Composizione contenuto: Paragrafo, Immagine, Video, Flip Card, Accordion, Timeline, Tab, Carousel, MCQ e True/False.'
 jcr-language: en_us
 title: Aggiungi un componente contenuto
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

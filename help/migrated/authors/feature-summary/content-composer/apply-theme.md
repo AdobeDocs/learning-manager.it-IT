@@ -1,10 +1,10 @@
 ---
-description: Scoprite come applicare un tema del corso in Composizione contenuti. Sfoglia i temi predefiniti e personalizzati, utilizza la barra di ricerca per trovare un tema per nome e applicalo a livello di corso con una singola selezione.
+description: Scoprite come applicare un tema del corso in Composizione contenuti. Sfoglia i temi predefiniti e personalizzati, cerca per nome e applica istantaneamente il corso a livello globale.
 jcr-language: en_us
 title: Applicare un tema
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---

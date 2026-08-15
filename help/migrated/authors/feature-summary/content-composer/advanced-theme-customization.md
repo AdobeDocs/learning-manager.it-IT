@@ -1,10 +1,10 @@
 ---
-description: Scoprite come utilizzare le proprietà avanzate del tema in Composizione contenuto per personalizzare i singoli elementi di testo, inclusi i nomi di lezioni, argomenti, intestazioni di blocchi, didascalie e paragrafi, con controlli granulari per font e stili.
+description: Scoprite come utilizzare le proprietà avanzate del tema in Composizione contenuto per personalizzare font, colori, spaziatura e layout per intestazioni ed elementi di testo.
 jcr-language: en_us
 title: Personalizzazione avanzata del tema
-source-git-commit: 1fad4a773bfc5c32e47c034e6bf69d6c511b4920
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

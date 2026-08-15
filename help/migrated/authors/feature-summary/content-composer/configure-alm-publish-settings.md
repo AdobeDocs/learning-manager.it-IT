@@ -1,10 +1,10 @@
 ---
-description: Scopri come collegare Composizione contenuti a Adobe Learning Manager, configurare i dettagli di pubblicazione e distribuire il corso completato direttamente nella libreria dei contenuti ALM come modulo, senza un'esportazione SCORM manuale.
+description: Scopri come connettere Composizione contenuti a Adobe Learning Manager, configurare i dettagli di pubblicazione e distribuire il corso nella libreria dei contenuti ALM.
 jcr-language: en_us
 title: Connetti e pubblica su Adobe Learning Manager
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---

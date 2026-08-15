@@ -1,10 +1,10 @@
 ---
-description: Esaminate le limitazioni correnti della versione beta di Content Composer, inclusi i vincoli relativi alla modifica del profilo, ai tipi di valutazione, alla personalizzazione del tema e alla collaborazione, con le soluzioni alternative disponibili e lo stato della roadmap per ciascuno di essi.
+description: 'Limitazioni della versione beta di Review Content Composer: modifica solo a livello di conversazione, quiz MCQ/True-False-only, profili fissi con soluzioni alternative per ciascuno di essi.'
 jcr-language: en_us
 title: Limitazioni di Content Composer beta
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
