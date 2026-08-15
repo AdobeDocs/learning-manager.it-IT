@@ -2,7 +2,7 @@
 description: Scopri come condividere un corso di Composizione dei contenuti per la revisione con i colleghi o direttamente con gli Allievi. Scopri la differenza tra i due flussi di condivisione, i controlli di accesso e le implicazioni di tracciamento.
 jcr-language: en_us
 title: Condivisione e collaborazione su un corso di Content Composer
-source-git-commit: c2e76c6c3e343b571c257c6287eaa1c6b6342e84
+source-git-commit: c9c3345c11cae687ec2c1192129bf941e24160f4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Disponibile a breve!
+>DISPONIBILE A BREVE!
 
 Prima della pubblicazione, puoi inviare il corso ai revisori per ricevere feedback. I revisori aprono il collegamento condiviso in un browser, aggiungono commenti su qualsiasi componente del corso e tentano di eseguire il quiz per visualizzare in anteprima l’esperienza completa dell’Allievo. Gli Autori controllano l’accesso, raccolgono feedback e aggiornano il corso senza modificare l’URL di revisione. Puoi gestire il feedback, aggiornare il corso e avviare cicli di revisione aggiuntivi in base alle esigenze.
 
