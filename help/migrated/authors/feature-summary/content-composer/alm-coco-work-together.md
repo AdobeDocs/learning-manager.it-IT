@@ -59,14 +59,14 @@ Per ulteriori informazioni, consulta [Configurare le impostazioni del corso](#se
 
 4.**Publish del corso ALM:** Un autore ALM assembla il modulo in un corso ALM, aggiunge immagini e impostazioni del corso e lo pubblica. Gli Allievi possono essere iscritti solo dopo questo passaggio.
 
-Per ulteriori informazioni, consulta [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author).
+Per ulteriori informazioni, consulta [Adobe Learning Manager](https://experienceleague.adobe.com/it/docs/learning-manager/using/get-started/getting-started-author).
 ![&#x200B; Libreria dei contenuti in Adobe Learning Manager, che mostra i moduli pubblicati ed elaborati](../assets/51_alm_content_library_list_view_updated.png)
 
-Per ulteriori informazioni, consulta [Creazione del corso come autore su ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses).
+Per ulteriori informazioni, consulta [Creazione del corso come autore su ALM](https://experienceleague.adobe.com/it/docs/learning-manager/using/authors/courses).
 
 5.**Gli Allievi completano il corso:** accedono al corso tramite Adobe Learning Manager, avviano il modulo Content Composer, completano le lezioni e i quiz e ricevono i punteggi in base ai criteri di completamento e di successo configurati nel passaggio 1.
 
-Per ulteriori informazioni, consulta [Accedere al corso come Allievo](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-learner).
+Per ulteriori informazioni, consulta [Accedere al corso come Allievo](https://experienceleague.adobe.com/it/docs/learning-manager/using/get-started/getting-started-learner).
 
 &#x200B;6. ALM registra i progressi degli allievi: lo stato di completamento, i punteggi dei quiz e i dati degli allievi vengono registrati in ALM e resi disponibili tramite le trascrizioni degli allievi e i report amministrativi.
 
