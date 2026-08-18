@@ -2,13 +2,13 @@
 description: Scopri come creare e aggiungere una sequenza di riproduzione Go1 a un percorso di apprendimento in Adobe Learning Manager. Questa guida descrive le istruzioni dettagliate e le procedure consigliate per l'integrazione di sequenze di riproduzione.
 jcr-language: en_us
 title: Curare la sequenza di riproduzione Go1 nel percorso di apprendimento Adobe Learning Manager
-source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
+exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
 
 ---
-
 
 # Correggere i corsi Go1 in un percorso di apprendimento
 
@@ -44,8 +44,8 @@ Per creare un percorso di apprendimento con corsi Go1:
 
    * Utilizzo di **[!UICONTROL Go1 AI Assistant]**. Per ulteriori informazioni, vedere [Go1 AI Assistant](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant).
    * Nella **[!UICONTROL Libreria]**, seleziona **[!UICONTROL Crea playlist]** e scegli una delle seguenti opzioni:
-a. **[!UICONTROL con IA]**: crea una playlist con l&#39;aiuto dell&#39;IA. Per ulteriori informazioni, visualizzare la [sezione](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai).
-b. **[!UICONTROL da solo]**: crea una sequenza di riproduzione aggiungendo manualmente i corsi. Per ulteriori informazioni, visualizzare la [sezione](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually).
+     a. **[!UICONTROL con IA]**: crea una playlist con l&#39;aiuto dell&#39;IA. Per ulteriori informazioni, visualizzare la [sezione](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai).
+     b. **[!UICONTROL da solo]**: crea una sequenza di riproduzione aggiungendo manualmente i corsi. Per ulteriori informazioni, visualizzare la [sezione](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually).
 
 ### Go1 AI Assistant
 

@@ -5,7 +5,7 @@ description: Recommendations in Adobe Learning Manager.
 contentowner: saghosh
 source-git-commit: 78957f8dc3bba39c9bb53c6ac8f888d86e18fc95
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '412'
 ht-degree: 52%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 52%
 
 # Panoramica
 
-Adobe Learning Manager ha introdotto un nuovo e rinnovato sistema di consigli per i corsi. Questa funzione di consigli utilizza algoritmi di intelligenza artificiale e gli interessi degli utenti come Prodotti, Ruoli e Livelli per fornire consigli sui contenuti personalizzati.
+Adobe Learning Manager ha introdotto un sistema nuovo e rinnovato di suggerimenti per i corsi. Questa funzione di consigli utilizza algoritmi di intelligenza artificiale e gli interessi degli utenti come Prodotti, Ruoli e Livelli per fornire consigli sui contenuti personalizzati.
 
 Il nuovo sistema di consigli ti consente di creare parametri personalizzati che gli allievi possono selezionare per ricevere consigli personalizzati. Questi consigli veranno visualizzati dagli Allievi come Corsi, Percorsi di apprendimento e Certificazioni nel loro feed della pagina principale.
 

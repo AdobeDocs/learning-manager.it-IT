@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
 source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 62%
+source-wordcount: '502'
+ht-degree: 65%
 
 ---
 
@@ -45,7 +45,7 @@ Un’istantanea rappresentativa della vista Allievo nell’app Adobe Learning Ma
 
 ## Disconnessione dall’app {#disconnectfromtheapp}
 
-Puoi fare clic sul collegamento di disconnessione nella parte inferiore della pagina degli Allievi, come indicato nell’istantanea sopra, per eseguire la **disconnessione** dall’app Adobe Learning Manager. Dopo la disconnessione, verrai reindirizzato alla pagina di benvenuto dell&#39;app Adobe Learning Manager.
+Puoi fare clic sul collegamento di disconnessione nella parte inferiore della pagina degli Allievi, come indicato nell’istantanea sopra, per eseguire la **disconnessione** dall’app Adobe Learning Manager. Dopo la disconnessione, verrai reindirizzato alla pagina di benvenuto dell’app Adobe Learning Manager.
 
 Puoi eseguire la connessione o la disconnessione dall’app ogni volta che vuoi.
 
