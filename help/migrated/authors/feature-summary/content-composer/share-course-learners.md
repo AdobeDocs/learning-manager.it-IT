@@ -2,8 +2,7 @@
 description: Scoprite come generare un collegamento dell’Allievo in Composizione contenuti, a cosa gli allievi possono accedere tramite tale collegamento e perché il recapito tracciato richiede la pubblicazione su Adobe Learning Manager anziché la condivisione di un collegamento diretto.
 jcr-language: en_us
 title: Condivisione di un corso con gli Allievi
-hide: true
-source-git-commit: babcf60fe3c1a8dddcd9f0c5871e406727c5ddf7
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
