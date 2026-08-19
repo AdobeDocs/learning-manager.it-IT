@@ -1,9 +1,9 @@
 ---
 title: Crea canali (beta)
 description: Scopri come abilitare, creare e modificare i canali in Adobe Learning Manager per portare i contenuti di apprendimento basati su video da pagine Web e pagine Confluence Cloud in un’unica posizione ricercabile per gli Allievi.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 Le organizzazioni spesso memorizzano sessioni di condivisione della conoscenza, registrazioni di formazione e altri contenuti video su contenuti di apprendimento informali, esclusivi per il Web e le pagine di Confluence Cloud. I canali collegano Adobe Learning Manager a queste origini di contenuto, semplificando la ricerca e l’utilizzo dei video senza richiedere agli Allievi di navigare in più sistemi. I canali consentono di organizzare e condividere contenuti di apprendimento basati su video da pagine Web aziendali e pagine di Confluence Cloud in un&#39;unica posizione ricercabile. Invece di effettuare ricerche all’interno di più siti, gli Allievi possono scoprire e accedere alle registrazioni pertinenti direttamente da Adobe Learning Manager. Per ulteriori informazioni, visualizza [Scopri e interagisci con i canali](../../learners/feature-summary/discover-and-engage-with-channels.md).
 
-In qualità di Amministratore, puoi creare e gestire i canali, configurare le impostazioni di visibilità, sincronizzare i contenuti con la relativa sorgente e verificare che i video siano disponibili prima di rendere il canale accessibile agli Allievi. Questo articolo spiega come eseguire queste attività di gestione dei canali.
+In qualità di Amministratore, puoi creare e gestire i canali, configurare le impostazioni di visibilità, sincronizzare i contenuti con la relativa origine e verificare che i video siano disponibili prima di rendere il canale accessibile agli Allievi. I formati video supportati sono **MP4** e **WebM**.
+
+Questo articolo spiega come eseguire queste attività di gestione dei canali.
 
 **Vantaggi principali**
 
