@@ -2,8 +2,7 @@
 description: Scoprite come visualizzare e gestire i commenti nel pannello Commenti di Content Composer, incluso come rispondere, risolvere, citare un revisore utilizzando @, filtrare per revisore, ora o stato e contrassegnare i commenti come risolti.
 jcr-language: en_us
 title: Gestire e rispondere ai commenti
-hide: true
-source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
