@@ -1,15 +1,19 @@
 ---
 title: Scopri e interagisci con i canali
 description: Scopri come trovare, abbonarsi, guardare, aggiungere Mi piace e partecipare alle discussioni sui contenuti video disponibili tramite i canali in Adobe Learning Manager.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 1%
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
 
 # Scopri e interagisci con i canali (Beta)
+
+>[!IMPORTANT]
+>
+>Le funzioni beta possono contenere difetti e sono fornite &quot;COSÌ COME SONO&quot; senza alcuna garanzia. Adobe ha la sola discrezione di rendere generalmente disponibili le funzionalità beta. Adobe non ha alcun obbligo di mantenere, correggere, aggiornare, modificare o altrimenti supportare (tramite i Servizi di supporto Adobe o in altro modo) le funzionalità beta. Se una funzione beta diventa generalmente disponibile, potrebbe essere soggetta a termini e condizioni aggiuntivi, incluse le commissioni applicabili. Le funzioni beta sono soggette a modifiche senza preavviso, inclusa l’interruzione. Si consiglia ai clienti di prestare attenzione e di non fare affidamento in alcun modo sul funzionamento o sulle prestazioni ininterrotti o privi di errori delle funzionalità beta. Di conseguenza, qualsiasi utilizzo delle funzionalità beta è interamente a rischio del Cliente. Le funzionalità del prodotto e la relativa documentazione possono cambiare con l&#39;evolversi della funzionalità. Questa documentazione riflette l&#39;attuale esperienza beta e non deve essere considerata una documentazione finale o completa del prodotto.
 
 I canali aiutano gli Allievi a scoprire e accedere a contenuti di apprendimento informale basati su video, selezionati nelle pagine Web e Cloud Confluence all’interno di Adobe Learning Manager. Gli amministratori creano i canali collegandoli alle pagine Web aziendali o alle pagine Cloud Confluence che ospitano sessioni di condivisione e trasferimento delle conoscenze registrate.
 
