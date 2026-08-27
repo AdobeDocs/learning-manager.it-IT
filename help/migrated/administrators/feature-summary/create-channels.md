@@ -1,9 +1,9 @@
 ---
 title: Crea canali (beta)
 description: Scopri come abilitare, creare e modificare i canali in Adobe Learning Manager per portare i contenuti di apprendimento basati su video da pagine Web e pagine Confluence Cloud in un’unica posizione ricercabile per gli Allievi.
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: 819dd240ab33369c6cb5050b1b354d632aabd62f
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Per abilitare la funzionalità **Canali**:
 
    ![Abilita funzionalità canali](assets/enable-channels-feature.png)
 
-   *Abilita la funzione Canale nella scheda **Impostazioni**&#x200B;per consentire agli amministratori di creare canali per l&#39;account.*
+   *Abilita la funzione Canale nella scheda **Impostazioni**per consentire agli amministratori di creare canali per l&#39;account.*
 
 1. Abilita **funzione Canale**.
 
@@ -86,11 +86,15 @@ Create un canale per definire la sorgente di contenuto da sottoporre alla scansi
 
    1. **Visibile agli Allievi**: abilita questa opzione per rendere il canale disponibile agli Allievi. Disattivalo per nascondere il canale mentre continui a configurarlo o a testarlo.
 
+      >[!NOTE]
+      >
+      >La scheda Canali è visibile agli Allievi solo quando questa impostazione è abilitata e contiene almeno un video.
+
    1. **Sincronizza automaticamente**: attivate questa opzione per aggiornare automaticamente il canale quando vengono aggiunti nuovi video all&#39;origine. Disattivalo se desideri sincronizzare manualmente il canale.
 
 1. (Facoltativo) Selezionare **Mostra impostazioni avanzate**, quindi configurare le seguenti opzioni in base alle esigenze:
 
-   1. **Colore tema canale**: seleziona un colore per personalizzare l’aspetto visivo del canale.
+   1. **Colore tema canale**: seleziona un colore dall&#39;elenco a discesa per personalizzare l&#39;aspetto visivo del canale.
 
    1. **profondità di ricerca per indicizzazione**: immettere la profondità di ricerca per indicizzazione per le pagine collegate per ricercare il contenuto video. Supporta una profondità massima di ricerca per indicizzazione di **2**.
 
@@ -104,7 +108,7 @@ Create un canale per definire la sorgente di contenuto da sottoporre alla scansi
 
    ![Verifica connessione origine canale](assets/test-channel-source-connection.png)
 
-   *Utilizza **Prova ora**&#x200B;per verificare che i video siano stati recuperati dall&#39;origine prima di creare il canale.*
+   *Utilizza **Prova ora**per verificare che i video siano stati recuperati dall&#39;origine prima di creare il canale.*
 
 1. Seleziona **Crea canale**. Il canale viene creato e aggiunto all&#39;elenco **Canali**.
 

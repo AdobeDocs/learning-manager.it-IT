@@ -2,9 +2,9 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1670'
 ht-degree: 36%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 36%
   * [Modifiche e deprecazioni delle API in Adobe Learning Manager](api-deprecations-list.md)
   * [Consigli in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
   * [Assegnazione di etichette bianche in Adobe Learning Manager](white-label.md)
+* Disponibilità delle funzioni nelle versioni {#feature-availability}
+  * [Disponibilità delle funzioni nella versione di agosto 2026](/help/migrated/feature-availability-aug-2026.md)
 * Guida introduttiva {#get-started}
   * [Accedi a Adobe Learning Manager con OpenID Connect](/help/migrated/oidc.md)
   * [Guida introduttiva come Amministratore](administrators/feature-summary/getting-started-admin.md)
@@ -158,7 +160,8 @@ ht-degree: 36%
   * [Programmi di apprendimento](administrators/feature-summary/learning-programs.md)
   * [Terminologia del prodotto](administrators/feature-summary/product-terminology.md)
 * Amministratore dell’integrazione {#integration}
-  * [Manuale per sviluppatori di applicazioni](integration-admin/feature-summary/developer-manual.md)
+  * [Manuale per sviluppatori di applicazioni](/help/migrated/integration-admin/feature-summary/developer-manual.md)
+  * [Integrazione di Assistente Allievo tramite iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [Manuale di migrazione](integration-admin/feature-summary/migration-manual.md)
   * Connettori Learning Manager {#connectors}
     * [Panoramica sui connettori](integration-admin/feature-summary/connectors.md)
@@ -271,6 +274,7 @@ ht-degree: 36%
   * [Impostazioni profilo](learners/feature-summary/settings.md)
   * [Cataloghi](learners/feature-summary/catalogs.md)
   * [Iscrizione con un clic](learners/feature-summary/learner-one-click-enrollment.md)
+  * {hide-from-toc}[Widget salvato dall&#39;utente](learners/feature-summary/saved-by-me-widget.md)
   * [Il mio apprendimento](learners/feature-summary/courses.md)
   * {hide-from-toc}[Corso adattivo](learners/feature-summary/adaptive-course-learner.md)
   * [Lettore Fluidic](learners/feature-summary/fluidic-player.md)

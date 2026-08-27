@@ -1,10 +1,10 @@
 ---
 title: Guida alla risoluzione dei problemi per Live Hub (Beta)
 description: Messaggi di errore e notifiche comuni che potresti incontrare durante una sessione di Live Hub, loro cause e passaggi per risolverli.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: a454fbcdfc37a139245d925dd01bb931d6f83432
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 2%
+source-wordcount: '1072'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ I messaggi seguenti possono essere visualizzati quando un Istruttore tenta di av
 |---|---|---|
 | Impossibile avviare l&#39;interruzione. Connessione interrotta. Riprova quando ti sarai riconnesso. | Un Istruttore tenta di avviare le breakout room mentre la connessione è attualmente interrotta o si riconnette. | Attendi che la connessione si stabilizzi (controlla un indicatore di riconnessione), quindi avvia di nuovo le sale d&#39;attesa. |
 | Impossibile avviare l&#39;interruzione. Riprova. | Un Istruttore avvia le breakout room e la richiesta di avviarle non riesce. | Riprovate ad avviare le sale stampa. Se il problema persiste, chiudere il pannello Breakouts e riprovare. |
-| Impossibile generare il riepilogo. | Ciò può verificarsi nelle seguenti situazioni: <ul><li>Nessun utente ha parlato durante la sessione, quindi non ci sono contenuti audio da riepilogare.</li><li>Discussione inferiore a 60 secondi.</li></ul> | Assicurati che i partecipanti parlino attivamente per almeno 60 secondi durante la sessione prima di generare il riepilogo. Se il problema persiste, attendi qualche istante e riprova. |
+| Impossibile generare il riepilogo. | Questo errore può essere visualizzato in tre posizioni: il riepilogo in tempo reale della **sala di controllo**, un riepilogo **specifico della stanza** nel report Breakout e il **riepilogo generale** nel report Breakout a seconda della causa: <ul><li>Nessun partecipante ha parlato durante la discussione della room.</li><li>La discussione della sala è durata meno di 60 secondi.</li><li>Solo una breakout room ha generato il riepilogo.</li></ul> | Corrispondenza della correzione alla causa precedente: <ul><li>Assicurare che i partecipanti parlino attivamente durante la discussione della sala.</li><li>Assicurati che la discussione duri almeno 60 secondi prima di controllare o generare il riepilogo.</li><li>Assicurati che almeno 2 breakout room abbiano generato riepiloghi individuali prima che sia possibile generare il riepilogo complessivo.</li><li>Se il problema persiste dopo aver affrontato la causa pertinente, attendi qualche istante e riprova.</li></ul> |
 
 ## Rispondere ai problemi relativi ai messaggi pubblicitari
 
