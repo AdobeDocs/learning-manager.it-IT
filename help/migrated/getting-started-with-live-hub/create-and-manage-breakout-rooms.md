@@ -1,9 +1,9 @@
 ---
 title: Creare e gestire le sessioni di breakout in Live Hub
 description: Scopri come gli Istruttori creano, configurano, avviano, monitorano e gestiscono le breakout room in una sessione Hub dal vivo, inclusi i report e i riepiloghi delle room generati dall'intelligenza artificiale.
-source-git-commit: f16239fb4a169f22e03a23d11c43f9accfbb72ec
+source-git-commit: 0da79f36c305889cb70831f7791fddbd1f470da0
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Gli istruttori possono visualizzare i riepiloghi delle discussioni generati dall
 
 >[!NOTE]
 >
->Prima di generare un riepilogo, è necessario che in una room siano necessari almeno 60 secondi di discussione. Le room con meno attività di questa non visualizzeranno un riepilogo nella finestra Check Room.
+>Prima di poter generare un riepilogo, è necessario che una sala di analisi si occupi di almeno 60 secondi. Le room con meno attività di questa non visualizzeranno un riepilogo nella finestra Check Room.
 
 Per visualizzare i riepiloghi:
 
@@ -184,20 +184,24 @@ Dopo essere entrati in una breakout room, gli Istruttori possono utilizzare gli 
 
 ## Visualizzare un report di sessione di breakout
 
-Al termine della sessione di breakout, è possibile accedere al report della sessione di breakout per esaminare l&#39;attività e la partecipazione della sessione. Il report include i dettagli dei partecipanti, riepiloghi specifici della sala delle discussioni di breakout, istruzioni condivise con i partecipanti e una panoramica sulla durata e sul coinvolgimento della sessione.
+Al termine della sessione di breakout, è possibile accedere al report della sessione di breakout per esaminare l&#39;attività e la partecipazione della sessione. Il report include i dettagli dei partecipanti, un riepilogo generale e specifico della sala delle discussioni di breakout, le istruzioni condivise con i partecipanti e una panoramica sulla durata e sul coinvolgimento della sessione.
 
 >[!NOTE]
 >
->Nelle stanze con meno di 60 secondi di discussione non è incluso un riepilogo nel report.
+>Le sale d&#39;attesa con meno di 60 secondi di discussione non dispongono di un riepilogo incluso nel report.
 
 Per visualizzare un report di sessione di breakout:
 
 1. Passare alla sessione di breakout chiusa nel pannello **Breakouts**.
 
-1. Seleziona **Visualizza report**. <br> Viene visualizzata la finestra a comparsa del rapporto Breakouts con il rapporto room.
+1. Seleziona **Visualizza report**. <br> Viene visualizzata la finestra a comparsa del report Breakouts con il riepilogo della sessione.
 
    ![Report sessione di analisi stratificata](assets/breakout-session-report.png)
    *Finestra popup dei report delle interruzioni che mostra il report delle interruzioni.*
+
+1. Effettua una delle seguenti operazioni:
+   * Seleziona **Tutte le stanze** per visualizzare il **Riepilogo generale** della sessione di breakout.
+   * Selezionare la scheda di una room per visualizzare il riepilogo della room.
 
 Tutti gli approfondimenti sulle sessioni di breakout sono disponibili anche nel **dashboard sessione**, dove è possibile rivedere i riepiloghi, analizzare la partecipazione e tenere traccia degli esiti della sessione dopo la sessione. Per ulteriori informazioni, vedere [Componenti del dashboard di sessione](./components-of-the-session-dashboard.md).
 

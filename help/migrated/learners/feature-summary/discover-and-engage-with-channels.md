@@ -1,9 +1,9 @@
 ---
 title: Scopri e interagisci con i canali
 description: Scopri come trovare, abbonarsi, guardare, aggiungere Mi piace e partecipare alle discussioni sui contenuti video disponibili tramite i canali in Adobe Learning Manager.
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ Utilizza la pagina **Canali** per scoprire nuovi contenuti, accedere ai canali a
 1. Accedi ad Adobe Learning Manager.
 
 1. Seleziona **Canali** dalla barra di navigazione superiore.
+
+   >[!NOTE]
+   >
+   >Se non riesci a visualizzare la scheda **Canali** nella barra di navigazione, contatta il tuo amministratore.
 
    <br> La pagina **Canali** viene aperta con la scheda **Tutti** visualizzata per impostazione predefinita.
 

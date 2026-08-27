@@ -2,13 +2,13 @@
 title: Aggiungere e configurare i widget in Experience Builder
 description: Scopri come aggiungere, personalizzare e configurare vari widget in Experience Builder in Adobe Learning Manager. Questa guida descrive i widget di uso comune come calendari, categorie, stato di conformità, corsi e percorsi, gamification, contenuti HTML, IFrames, apprendimento sociale e altro ancora.
 jcr-language: en-us
-source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
+exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
+source-git-commit: 30372b696921be9e896f947e96683b72587f1323
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2495'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungere e configurare i widget
 
@@ -187,7 +187,7 @@ Per configurare il widget Casella dei contenuti:
     * **[!UICONTROL Colore]**: selezionare il colore dal selettore colore o digitare il codice colore nel campo di testo.
     * **[!UICONTROL Immagine]**: individua e carica un&#39;immagine.
 
-11. Regolare l&#39;altezza della casella utilizzando l&#39;opzione **[!UICONTROL Altezza casella contenuto]**.
+11. Regolare il height di caselle utilizzando l&#39;opzione **[!UICONTROL height di caselle contenuto]**.
 12. Selezionate le opzioni di formattazione del testo.
 
     ![](assets/configure-content-box.png)
@@ -273,10 +273,10 @@ Per configurare il widget Iframe:
    _Schermata di selezione del widget che evidenzia il widget Iframe per incorporare applicazioni o pagine Web esterne all&#39;interno di una sezione selezionata_
 
 8. Digitare l&#39;URL nell&#39;opzione **[!UICONTROL Pagina collegata al pulsante Azione]**.
-9. Regola l&#39;altezza dell&#39;Iframe utilizzando l&#39;opzione **[!UICONTROL Altezza Iframe]**.
+9. Regola il height Iframe utilizzando l&#39;opzione **[!UICONTROL height Iframe]**.
 
    ![](assets/configure-iframe.png)
-   _Schermata di personalizzazione del widget Iframe, in cui gli amministratori possono immettere un URL di pagina e specificare l&#39;altezza dell&#39;iFrame per incorporare contenuto esterno_
+   _Schermata di personalizzazione del widget Iframe, in cui gli amministratori possono immettere un URL di pagina e specificare il height iFrame per incorporare il contenuto esterno_
 
 10. Seleziona **[!UICONTROL Aggiungi widget]**.
 
@@ -314,6 +314,58 @@ Per configurare il widget Il mio apprendimento:
 9. Seleziona **[!UICONTROL Aggiungi widget]**.
 
 Il mio widget di apprendimento verrà aggiunto alla pagina. Gli amministratori possono aggiungere altri widget e pubblicare la pagina.
+
+<!--
+
+## Saved by me widget {#bookmark-widget}
+
+The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+
+As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+
+Adding this widget to a page can help: 
+
+* Streamline learner workflows by providing single-click access to frequently accessed content 
+
+* Reduce repetitive navigation and time spent searching for resources 
+
+* Create a more personalized learning experience that increases satisfaction and engagement 
+
+### Add a Saved by me widget 
+
+Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+
+Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+
+To configure the **Saved by me** widget: 
+
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **Branding** in the left navigation pane. 
+3. Select **Custom Pages**. 
+4. Select the required page and then select **Page Design**. 
+5. Select the layout. 
+6. Select **Add Widget**. 
+7. Select **Saved by me** and then select **Proceed**. 
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
+
+8. Type a **Widget title** and **Widget description**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
+
+9. Select **Add widget**. 
+
+The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+
+![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
+
+>[!NOTE]
+>
+>If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+
+Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
+
+-->
 
 ## Widget Apprendimento sociale
 
