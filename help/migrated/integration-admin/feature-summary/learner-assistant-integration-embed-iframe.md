@@ -32,7 +32,7 @@ Quando viene incorporato tramite iFrame, l’Assistente Allievo fornisce accesso
 Prima di iniziare, si assicuri di avere:
 
 * Un tenant ALM con l’Assistente Allievo abilitato. Configura i cataloghi richiesti dalla pagina delle impostazioni dell’amministratore.
-* Un accessToken valido per l’autenticazione della sessione dell’Allievo (o dell’Amministratore). Per generare un token di accesso, segui le istruzioni riportate nella pagina [Autenticazione tramite OAuth 2.0](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20). La pagina include i passaggi necessari per autenticarsi e generare il token di accesso necessario per procedere.
+* Un accessToken valido per l’autenticazione della sessione dell’Allievo (o dell’Amministratore). Per generare un token di accesso, segui le istruzioni riportate nella pagina [Autenticazione tramite OAuth 2.0](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20). La pagina include i passaggi necessari per autenticarsi e generare il token di accesso necessario per procedere.
 * Possibilità di incorporare un `<iframe>` nell&#39;applicazione e comunicare con esso tramite l&#39;API postMessage del browser.
 * Proprietà del codice front-end dell&#39;applicazione padre, poiché l&#39;applicazione deve ascoltare e rispondere ai messaggi dall&#39;iFrame incorporato.
 
