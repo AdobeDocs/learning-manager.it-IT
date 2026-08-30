@@ -3,9 +3,9 @@ description: Il prompt è l’input più importante in Composizione contenuti. U
 jcr-language: en_us
 title: Scrivi messaggi efficaci in Composizione contenuti
 hide: true
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: fad98839f06f2e9cea2e78621bbb7e2e52444e9e
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -21,21 +21,21 @@ Il modulo di composizione dei contenuti è interattivo. La qualità di ciò che 
 
 Il prompt di apertura è il punto di partenza. Non deve essere perfetto. Composizione contenuti legge il prompt e lo utilizza per aprire una conversazione. Anche un messaggio di prova mette in moto il processo; l&#39;assistente porrà domande di follow-up nella fase Breve per completare ciò che manca.
 
-Detto questo, un messaggio più specifico significa che l&#39;IA precompila il Brief in modo più accurato, riducendo l&#39;avanzamento prima di generare il contorno. Se hai una chiara idea di pubblico, argomenti e obiettivo, mettilo nel messaggio.
-
-Un messaggio vago genera un messaggio vago. Una descrizione vaga produce un contorno generico. Un profilo generico genera un corso che richiede modifiche significative. La specificità nella fase iniziale scorre in avanti in ogni fase successiva.
+Detto questo, un messaggio più specifico significa che l&#39;IA precompila il Brief in modo più accurato, riducendo l&#39;avanzamento prima di generare il contorno. Se hai un&#39;idea chiara di pubblico, titolo e obiettivo, inseriscilo nel messaggio.
 
 ### Cosa ci si aspetta da Content Composer
 
-In Content Composer sono previste le seguenti operazioni in una o due frasi:
+In Content Composer sono previsti i seguenti elementi:
 
-- **Chi** sono gli Allievi? Assegna un nome al ruolo e al livello di esperienza.
-  - **Che cosa** coprirà il corso? Descrivi 2-3 aree tematiche specifiche anziché un ambito ampio. Ad esempio, &quot;il riconoscimento del phishing, l&#39;igiene della password e la configurazione MFA&quot; è più utile della &quot;sicurezza IT&quot;.
-- **Qual è l&#39;obiettivo di apprendimento?** Descrivi il risultato o il cambiamento comportamentale che desideri che gli allievi ottengano dopo aver completato il corso.
+- **Di cosa si tratta**? Descrivi l&#39;area dell&#39;oggetto in una o due frasi. Questo diventa il titolo del corso.
+- **Chi** sono gli Allievi? Assegna un nome al ruolo e al livello di esperienza. Questo diventa il profilo dell’Allievo.
+- **Qual è l&#39;obiettivo di apprendimento?** Descrivi il risultato o il cambiamento comportamentale che desideri che gli allievi ottengano dopo aver completato il corso. Questo diventa l&#39;obiettivo di apprendimento nel Brief.
 
 ### Anatomia di un prompt effettivo
 
-**[Livello di pubblico + esperienza]** + **[2-3 argomenti specifici]** + **[obiettivo di apprendimento]**
+**[Allievi + livello di esperienza]** + **[un titolo specifico]** + **[obiettivo di apprendimento]**
+
+Un prompt efficace consente di eseguire tre operazioni: descrive l’oggetto del corso, i suoi destinatari e ciò che gli allievi dovrebbero essere in grado di fare dopo averlo completato.
 
 **Esempio**:
 
@@ -43,29 +43,28 @@ Desidero creare un corso per nuovi rappresentanti commerciali che copra i nostri
 
 Suddivisione in base a:
 
-- **Pubblico:** nuovi rappresentanti commerciali
-
-- **Argomenti:** livelli di prezzo enterprise, flusso di lavoro di approvazione degli sconti, tre obiezioni comuni
-  - **Obiettivo di apprendimento**: gestire con sicurezza le tre obiezioni più comuni dei clienti: un risultato comportamentale misurabile, non un argomento da trattare
+- **Titolo:** Corso sui prezzi aziendali, sulle approvazioni degli sconti e sulla gestione delle obiezioni dei clienti per i nuovi rappresentanti commerciali
+- **Allievo:** nuovi rappresentanti commerciali nei primi 90 giorni, non hanno familiarità con le strutture dei prezzi aziendali
+- **Obiettivo:** gestire con sicurezza le tre obiezioni più comuni dei clienti utilizzando il framework di messaggistica approvato
 
 Dopo aver selezionato **Introduzione**, Content Composer apre la fase **Breve**. Verifica i campi precompilati, il titolo, il profilo dell’Allievo e l’obiettivo che l’intelligenza artificiale ha generato dal tuo messaggio e perfeziona tutto ciò che non corrisponde alle tue intenzioni prima di generare la struttura.
 
 ### Proposte efficaci da fare e da non fare
 
-| **Includi** | **Evitare** |
-|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| Un ruolo di pubblico specifico (&quot;nuovi rappresentanti commerciali&quot;, &quot;responsabili in prima linea&quot;) | Gruppi di destinatari vaghi (&quot;tutto il personale&quot;, &quot;tutti&quot;, &quot;utenti&quot;) |
-| 2-3 aree tematiche concrete | Più di 6 argomenti in un unico messaggio: si ottengono contorni sovraccarichi; al loro posto, vengono suddivisi in corsi separati |
-| Un segnale ambito: durata, profondità o risultato dell’Allievo | Obiettivi generici (&quot;insegnare loro tutto su X&quot;, &quot;coprire tutti gli aspetti di&quot;) |
-| Contesto che forma il tono o la profondità (&quot;per conformità&quot;, &quot;per un pubblico non tecnico&quot;, &quot;basato su scenari&quot;) | Fare domande all&#39;intelligenza artificiale. Il messaggio è breve, non una conversazione |
-| Cosa potranno fare gli Allievi dopo il corso | Contenuto del corso (lasciare la struttura alla fase di struttura) |
+| Includi | Evitare |
+|---|---|
+| Un titolo o un’area dell’oggetto chiari per il corso | Argomenti vaghi (&quot;qualcosa sulla sicurezza&quot;, &quot;una formazione generale&quot;) |
+| Ruolo dell’Allievo o dati demografici (&quot;nuovi agenti di vendita&quot;, &quot;personale di magazzino in prima linea&quot;) | Pubblico ampio (&quot;tutto il personale&quot;, &quot;tutti&quot;, &quot;utenti&quot;) |
+| Livello di esperienza dell’Allievo (&quot;inizio carriera&quot;, &quot;familiare con X ma non Y&quot;) | Supponendo che l&#39;intelligenza artificiale conosca il background del tuo pubblico |
+| Con cosa gli Allievi lottano o non sanno al momento | Eliminazione delle lacune di apprendimento. L&#39;intelligenza artificiale li utilizza per modellare vocabolario e scenari |
+| Un obiettivo di apprendimento chiaro: cosa saranno in grado di fare gli Allievi dopo il corso | Obiettivi generici (&quot;insegnare loro tutto su X&quot;, &quot;coprire tutti gli aspetti di&quot;) |
 
 ### Suggerimenti per il corso in base al tipo di corso
 
 | **Tipo di corso** | **Messaggio per iniziare** |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Corso di formazione sulla conformità** | &quot;Desidero creare un corso per tutti i dipendenti sulla gestione dei dati GDPR, che copra ciò che è considerato come un dato personale, come archiviarlo e condividerlo correttamente e cosa fare in caso di violazione&quot;. |
-| **Onboarding** | &quot;Creare un modulo di onboarding per il nuovo \[ruolo\] che copra \[argomento 1\], \[argomento 2\] e \[argomento 3\]. |
+| **Onboarding** | &quot;Voglio creare un modulo di onboarding per i nuovi agenti dell&#39;assistenza clienti che copra le modalità di registrazione di un biglietto, l&#39;inasprimento di un problema e la chiusura di un caso nel nostro sistema di helpdesk&quot;. |
 | **Abilità tecniche** | &quot;Voglio creare un corso per i tecnici informatici junior sulle pratiche di codifica sicura, come la prevenzione dell&#39;iniezione SQL, la convalida dell&#39;input e come leggere un report SAST&quot;. |
 | **Capacità relazionali** | &quot;Voglio creare un corso per i responsabili della vendita al dettaglio in prima linea sul feedback costruttivo, ad esempio sul modello SBI, su come prepararsi a una conversazione sul feedback e su come dare seguito alle richieste&quot;. |
 | **Criteri e procedura** | &quot;Voglio creare un corso per il personale del magazzino sulle procedure di movimentazione manuale, come la corretta tecnica di sollevamento, quando utilizzare le attrezzature e come segnalare un incidente.&quot; |
@@ -83,11 +82,9 @@ Questa è una fase di conversazione. La qualità delle vostre risposte alle doma
 
 ### Titolo del corso
 
-L&#39;intelligenza artificiale suggerisce due opzioni per i titoli. Selezionate quello adatto o digitatene uno personalizzato. Se nessuna delle due è corretta, descrivere la lacuna:
+L’IA precompila il titolo del corso in base al tuo messaggio. Esaminatelo e selezionatelo, digitatene uno personalizzato o specificate una descrizione:
 
 &quot;Nemmeno. Il corso tratta in modo specifico del flusso di lavoro di approvazione, non dei prezzi generali&quot;.
-
-Un buon titolo è rivolto agli Allievi. Descrive ciò che l’Allievo sarà in grado di fare, non ciò che copre il corso.
 
 ### Profilo Allievo
 
@@ -115,28 +112,30 @@ Scrivere l&#39;obiettivo come comportamento che inizia con un verbo di azione:
 >
 >**Prima di generare la struttura:** La struttura viene creata interamente a partire dalla Breve, non dal prompt originale. Prima di selezionare **Genera struttura**, verifica che il titolo sia rivolto agli Allievi, che il profilo Allievo nomini un ruolo e un livello di esperienza specifici e che l’obiettivo di apprendimento descriva un comportamento misurabile sul lavoro. Un Brief ben definito produce un contorno ben strutturato. Se un campo risulta ancora generico, perfezionalo ora.  In seguito, si risparmierà una notevole quantità di modifiche.
 
+Hai sempre il controllo. In Composizione contenuto verranno poste delle domande di follow-up per aiutarvi a rifinire il Brief, ma voi decidete cosa fare in ogni campo. Un Brief ben definito produce un contorno ben strutturato. Più specifici sono gli input, minore sarà l’editing necessario in un secondo momento.
+
 ### Segnala che il Brief richiede più lavoro
 
 - Il profilo dell’Allievo afferma &quot;Dipendenti che desiderano conoscere X&quot; invece di assegnare un ruolo specifico e un livello di esperienza
 - L’obiettivo di apprendimento descrive un’area tematica piuttosto che un comportamento misurabile sul lavoro
-- Il titolo è un’etichetta per argomento (&quot;Sicurezza IT&quot;) piuttosto che un risultato rivolto all’Allievo (&quot;Identificare e rispondere ai tentativi di phishing&quot;)
+- Il titolo è vago (&quot;Sicurezza IT&quot;) piuttosto che un risultato rivolto agli Allievi (&quot;Identificare e rispondere ai tentativi di phishing&quot;)
 
 ## Fase 3: modifica del profilo attraverso la conversazione
 
 Dopo aver confermato la descrizione, Composizione contenuti genera una struttura di lezioni e argomenti. Lo rivedi e richiedi modifiche tramite il pannello Chat prima di generare il corso completo.
 
-La modifica dei contorni nella versione corrente è interamente a scopo di conversazione. Non è possibile selezionare una lezione o un argomento nell&#39;area di lavoro per rinominarlo o riordinarlo. Tutte le modifiche vengono apportate digitando richieste in linguaggio semplice.
+La modifica dei contorni nella versione corrente è interamente a scopo di conversazione. Non è possibile selezionare una lezione o un titolo nell’area di lavoro per rinominarlo o riordinarlo. Tutte le modifiche vengono apportate digitando richieste in linguaggio semplice.
 
-Questa è anche la fase più efficiente per apportare modifiche strutturali. La modifica della struttura richiede alcuni secondi. La ristrutturazione di un corso generato richiede molto più tempo.
+Questa è anche la fase più efficace per apportare modifiche strutturali. La modifica della struttura richiede alcuni secondi. La ristrutturazione di un corso generato richiede molto più tempo.
 
 ### Come formulare le richieste di modifica del profilo
 
-Sii diretto e specifico. Assegnare un nome alla lezione o all&#39;argomento in base al titolo corrente, descrivere la modifica desiderata e, facoltativamente, spiegarne il motivo.
+Sii diretto e specifico. Denominare la lezione in base al titolo corrente, descrivere la modifica desiderata e, se necessario, spiegarne il motivo.
 
 **Rinomina:**
 
 - &quot;Rinominare la lezione 1 in &#39;Funzionamento degli attacchi di phishing&#39;.&quot;
-- &quot;Rinominare l’argomento 2.3 in &quot;Tracciati e linee temporali di escalation&quot;.&quot;
+- &quot;Rinominare title 2.3 in &#39;Percorsi e timeline di escalation&#39;.&quot;
 
 **Aggiungi:**
 
@@ -169,16 +168,17 @@ Sii diretto e specifico. Assegnare un nome alla lezione o all&#39;argomento in b
 ### Cosa non può fare la fase di struttura
 
 - La gerarchia è fissa come Lezioni > Argomenti. Non è possibile creare sottoargomenti o strutture a tre livelli.
-- In questa fase non è possibile impostare obiettivi individuali per le lezioni: l’obiettivo di apprendimento generale del Brief si applica a tutto il corso.
 - In questa fase non è possibile aggiungere componenti o file multimediali. che vengono aggiunti nell’editor del corso.
 
-### Quando rigenerare e quando modificare
+<!--
+### When to regenerate versus when to edit
 
-| Usa modifica a livello di conversazione quando... | Rigenera quando... |
+| Use conversational editing when... | Regenerate when... |
 |---|---|
-| La struttura complessiva è corretta, ma i singoli nomi o argomenti devono essere modificati | La struttura generale non corrisponde affatto alle tue intenzioni |
-| Desideri aggiungere o rimuovere elementi specifici | Il Brief è stato rifinito in modo significativo dopo la generazione del primo contorno |
-| È necessario dividere o unire una lezione | Il contorno sembra generico e manca del contesto specifico dell&#39;organizzazione |
+| The overall structure is right but individual names or topics need adjusting | The overall structure doesn't match your intent at all |
+| You want to add or remove specific items | The Brief was refined significantly after the first outline was generated |
+| One lesson needs splitting or merging | The outline feels generic and lacks your organisation's specific context |
+-->
 
 ## Fase 4: Corso - Perfezionamento dei contenuti tramite l&#39;assistente
 
