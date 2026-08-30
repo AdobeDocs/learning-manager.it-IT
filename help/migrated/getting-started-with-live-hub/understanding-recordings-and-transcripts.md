@@ -1,9 +1,9 @@
 ---
 title: Comprendere le registrazioni e le trascrizioni nell’Hub live
 description: Scopri come le registrazioni delle sessioni dell’Hub dal vivo, le trascrizioni generate dall’intelligenza artificiale, gli argomenti e i riepiloghi aiutano Istruttori e Allievi a estendere l’apprendimento oltre la sessione dal vivo.
-source-git-commit: 83b1509610f1923424db1797c6e85d1f32422ce7
+source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,20 @@ ht-degree: 0%
 Le registrazioni delle sessioni nell’Hub dal vivo consentono agli Allievi di rivedere le sessioni e agli Istruttori di estendere l’apprendimento oltre la sessione dal vivo. Ogni registrazione acquisisce l&#39;esperienza principale della classe e la migliora con funzionalità basate sull&#39;intelligenza artificiale per facilitare la navigazione e l&#39;individuazione dei contenuti.
 
 Al termine di una sessione, la registrazione viene elaborata automaticamente e resa disponibile nella pagina del corso, in genere entro pochi minuti. Oltre al video, il sistema genera argomenti, riepiloghi e trascrizioni basati sull’intelligenza artificiale, consentendo agli Allievi di individuare e rivedere rapidamente le sezioni pertinenti senza guardare l’intera registrazione.
+
+## Navigazione basata su argomenti nelle registrazioni
+
+Live Hub organizza le registrazioni per argomento anziché per capitoli fissi basati sul tempo. Al termine di una sessione, l&#39;agente di registrazione analizza la trascrizione e identifica gli argomenti in base al significato, anche quando le discussioni sullo stesso argomento si verificano in punti diversi durante la sessione.
+
+Gli argomenti vengono generati solo quando **Generatore di argomenti per l&#39;agente di registrazione** è abilitato per l&#39;account.Per ulteriori informazioni, visualizza [Abilita Hub dal vivo](../administrators/feature-summary/enable-live-hub.md).
+
+Ad esempio, se un argomento viene introdotto all&#39;inizio di una sessione, rivisitato durante una discussione e menzionato di nuovo durante una sessione di domande e risposte, Live Hub riconosce questi riferimenti come parte dello stesso argomento e li raggruppa sotto un unico argomento. Per ogni argomento rilevato, Live Hub genera:
+
+* Un titolo
+* Breve descrizione
+* Ulteriori dettagli
+
+Queste informazioni aiutano gli Allievi a determinare rapidamente se un argomento è rilevante prima di riprodurre la registrazione.
 
 ## Vantaggi principali
 

@@ -1,9 +1,9 @@
 ---
 title: Abilita Hub live (Beta) in Adobe Learning Manager
 description: Scopri come gli amministratori abilitano l'hub dinamico per un account, lo impostano come provider di classi virtuali predefinito e attivano gli assistenti dell'hub dinamico basati sull'intelligenza artificiale.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -45,15 +45,15 @@ Per abilitare Live Hub:
 
 1. Abilita gli assistenti dagli agenti Live Hub:
 
-   1. Assistente sondaggio
+   1. **Poll Assistant**: genera i sondaggi dal contenuto del corso e dalla trascrizione della sessione dal vivo, creando rompighiaccio o controlli delle conoscenze pronti per la revisione e l&#39;avvio con un clic. Visualizza [Crea e avvia un sondaggio](../../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-using-ai) per ulteriori informazioni.
 
-   1. Assistente domande e risposte
+   1. **Assistente domande e risposte**: rileva le domande dei partecipanti nella chat di sessione e redige le risposte in base al contenuto caricato e alla trascrizione della sessione, per consentire agli istruttori di rivedere, perfezionare e condividere. Per ulteriori informazioni, visualizza [Utilizza il pannello Chat come Istruttore](../../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai).
 
-   1. Assistente monitoraggio Breakout
+   1. **Breakout Monitoring Assistant**: legge le trascrizioni di ogni breakout room in base all&#39;obiettivo dell&#39;istruttore, pubblica una scheda di stato a intervalli di pochi minuti e fornisce riepiloghi delle discussioni in ogni sala oltre a una singola sintesi in più stanze di temi, decisioni e spazi vuoti per una descrizione immediata. Per ulteriori informazioni, visualizzare [Creare e gestire sessioni di interruzione](../../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#view-ai-generated-summaries-of-breakout-rooms).
 
-   1. Generatore di argomenti per le registrazioni
+   1. **Generatore di argomenti per le registrazioni**: suddivide automaticamente le registrazioni delle sessioni in argomenti denominati con marche temporali e note strutturate, in modo che un partecipante possa accedere direttamente a ciò di cui ha bisogno o imparare dalle note senza guardare la registrazione completa. Per ulteriori informazioni, consulta [Informazioni sulle registrazioni e le trascrizioni](../../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording).
 
-   1. Assistente Finder Istruttore
+   1. **Assistente Finder Istruttori**: consiglia gli istruttori per una sessione valutando abilità, disponibilità, utilizzo, ore di istruzione preferite e altri criteri. Per ulteriori informazioni, consulta [Creare una sessione di Hub live](../../getting-started-with-live-hub/create-a-live-hub-session.md#add-instructors-using-instructor-finder).
 
 >[!NOTE]
 >

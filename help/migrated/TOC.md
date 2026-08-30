@@ -2,10 +2,10 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
+source-git-commit: 17b1e6574e031d5dda944c2c2701f9a876057e14
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 36%
+source-wordcount: '1679'
+ht-degree: 35%
 
 ---
 
@@ -225,6 +225,8 @@ ht-degree: 36%
       * [Cosa serve prima di iniziare](authors/feature-summary/content-composer/before-you-start.md)
       * [Metti a terra il tuo corso nei tuoi documenti](authors/feature-summary/content-composer/ground-course-documents.md)
       * [Elementi non inclusi in Composizione contenuto](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * Scrivi prompt validi {#write-effective-prompt}
+      * [Scrivi messaggi efficaci in Composizione contenuti](authors/feature-summary/content-composer/write-effective-prompts.md)
     * Creazione di un corso {#create-course}
       * [Scrivi un messaggio](authors/feature-summary/content-composer/write-a-prompt.md)
       * [Completare la descrizione del corso](authors/feature-summary/content-composer/complete-course-brief.md)
