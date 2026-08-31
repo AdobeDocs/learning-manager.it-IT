@@ -155,7 +155,7 @@ Per configurare il widget Corsi e percorsi:
 
 ![](assets/configure-course-paths.png)
 _Widget Corsi e percorsi in cui gli amministratori impostano il titolo e la descrizione del widget e selezionano Corsi o Percorsi di apprendimento da visualizzare come schede interattive_
-11. Seleziona **[!UICONTROL Aggiungi widget]**.
+&#x200B;11. Seleziona **[!UICONTROL Aggiungi widget]**.
 
 Il widget Corsi e percorsi verrà aggiunto alla pagina. Gli amministratori possono aggiungere altri widget e pubblicare la pagina.
 
