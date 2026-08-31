@@ -3,9 +3,9 @@ title: Aggiungere e configurare i widget in Experience Builder
 description: Scopri come aggiungere, personalizzare e configurare vari widget in Experience Builder in Adobe Learning Manager. Questa guida descrive i widget di uso comune come calendari, categorie, stato di conformità, corsi e percorsi, gamification, contenuti HTML, IFrames, apprendimento sociale e altro ancora.
 jcr-language: en-us
 exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
-source-git-commit: 30372b696921be9e896f947e96683b72587f1323
+source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Per configurare il widget Corsi e percorsi:
 
 ![](assets/configure-course-paths.png)
 _Widget Corsi e percorsi in cui gli amministratori impostano il titolo e la descrizione del widget e selezionano Corsi o Percorsi di apprendimento da visualizzare come schede interattive_
-&#x200B;11. Seleziona **[!UICONTROL Aggiungi widget]**.
+11. Seleziona **[!UICONTROL Aggiungi widget]**.
 
 Il widget Corsi e percorsi verrà aggiunto alla pagina. Gli amministratori possono aggiungere altri widget e pubblicare la pagina.
 
@@ -315,57 +315,53 @@ Per configurare il widget Il mio apprendimento:
 
 Il mio widget di apprendimento verrà aggiunto alla pagina. Gli amministratori possono aggiungere altri widget e pubblicare la pagina.
 
-<!--
+## Widget Salvato dall&#39;utente {#bookmark-widget}
 
-## Saved by me widget {#bookmark-widget}
+Il widget **Salvato da me** mostra corsi, percorsi di apprendimento, certificazioni e risorse formative contrassegnate per un Allievo in un secondo momento. Offre agli Allievi un’unica posizione in cui trovare i contenuti che hanno contrassegnato come salvati senza dover cercare nuovamente nel catalogo.
 
-The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+In qualità di amministratore, puoi aggiungere il widget **Salvato da me** a una pagina per consentire agli Allievi di accedere rapidamente ai contenuti contrassegnati con segnalibro. Gli allievi possono utilizzare il widget per rivedere i corsi salvati durante la navigazione, senza ripetere la ricerca o la navigazione originali.
 
-As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+L&#39;aggiunta di questo widget a una pagina consente di:
 
-Adding this widget to a page can help: 
+* Semplifica i flussi di lavoro degli Allievi fornendo l’accesso con un solo clic ai contenuti più utilizzati
 
-* Streamline learner workflows by providing single-click access to frequently accessed content 
+* Riduzione della navigazione ripetitiva e del tempo impiegato per la ricerca delle risorse
 
-* Reduce repetitive navigation and time spent searching for resources 
+* Creare un&#39;esperienza di apprendimento più personalizzata che aumenti la soddisfazione e il coinvolgimento
 
-* Create a more personalized learning experience that increases satisfaction and engagement 
+### Aggiungi un widget Salvato da me
 
-### Add a Saved by me widget 
+Consideriamo l&#39;eventualità di una società finanziaria che implementi un nuovo curriculum di oltre 50 corsi per i team Sales and Customer Success Manager (CSM).  Mentre sfogliano il catalogo, gli Allievi appongono un segnalibro ai cinque o sei corsi più pertinenti per il proprio ruolo.
 
-Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+I corsi salvati vengono visualizzati automaticamente nel widget Salvato da me nella home page personalizzata dell’Allievo. Anziché navigare di nuovo nel catalogo, possono accedere direttamente al widget o iscriversi ai contenuti che hanno messo da parte.
 
-Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+Per configurare il widget **Salvato da me**:
 
-To configure the **Saved by me** widget: 
-
-1. Log in to Adobe Learning Manager as an administrator. 
-2. Select **Branding** in the left navigation pane. 
-3. Select **Custom Pages**. 
-4. Select the required page and then select **Page Design**. 
-5. Select the layout. 
-6. Select **Add Widget**. 
-7. Select **Saved by me** and then select **Proceed**. 
+1. Accedi a Adobe Learning Manager come amministratore.
+2. Seleziona **Branding** nel riquadro di navigazione a sinistra.
+3. Seleziona **Pagine personalizzate**.
+4. Seleziona la pagina richiesta, quindi seleziona **Progettazione pagina**.
+5. Selezionate il layout.
+6. Seleziona **Aggiungi widget**.
+7. Seleziona **Salvato da me** e quindi seleziona **Procedi**.
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
 
-8. Type a **Widget title** and **Widget description**.
+8. Digitare un **titolo del widget** e una **descrizione del widget**.
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
 
-9. Select **Add widget**. 
+9. Seleziona **Aggiungi widget**.
 
-The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+Il widget **Salvato da me** verrà aggiunto alla pagina. Gli amministratori possono aggiungere altri widget e pubblicare la pagina.
 
 ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
 
 >[!NOTE]
 >
->If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+>Se un Allievo non ha aggiunto alcun segnalibro al contenuto, il widget Salvato da me visualizza uno stato vuoto nella pagina. Quando l’Allievo contrassegna corsi, percorsi di apprendimento, certificazioni o risorse formative, tali elementi vengono visualizzati automaticamente nel widget.
 
-Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
-
--->
+Il titolo e la descrizione del widget supportano la localizzazione allo stesso modo degli altri widget in Experience Builder. Se per il tuo account sono configurate più lingue, fornisci un titolo e una descrizione per ogni lingua, in modo che gli allievi possano visualizzare il widget nelle impostazioni internazionali preferite.
 
 ## Widget Apprendimento sociale
 
