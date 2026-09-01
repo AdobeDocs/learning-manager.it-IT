@@ -4,9 +4,9 @@ title: Ruoli personalizzati
 description: La funzione Percorsi di apprendimento consente di definire ruoli personalizzati e di assegnare responsabilità specifiche a un gruppo di utenti. Questa funzione consente di assegnare responsabilità al di fuori dell'ambito del ruolo esistente della persona.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: c5e687ff55fa9c174fd9b1587e25f88d7e23638d
+source-git-commit: a45822a6aa320440243fd93855fff88766391372
 workflow-type: tm+mt
-source-wordcount: '5571'
+source-wordcount: '5511'
 ht-degree: 23%
 
 ---
@@ -84,16 +84,12 @@ _Filtra ruoli personalizzati_
 
    *Imposta l&#39;ambito*
 
-   &#x200B;### Il layout del modello e-mail richiede i privilegi dell’account per i modelli e-mail
+   ### Il layout del modello e-mail richiede i privilegi dell’account per i modelli e-mail
 
    Per visualizzare un modello e-mail a livello di corso con il rendering corretto del layout, un ruolo personalizzato richiede **entrambi** dei seguenti elementi:
 
    * Accesso completo a **corsi** in Privilegi funzionalità - Oggetti di apprendimento
    * Accesso a **Modelli e-mail** con privilegi di account
-
-   Se un ruolo personalizzato ha accesso completo ai corsi, ma non ha accesso ai modelli e-mail in Privilegi account, il modello e-mail viene caricato senza il relativo layout.
-
-   Questa limitazione verrà rimossa una volta reso disponibile il layout e-mail a livello di oggetto di apprendimento. A questo punto, il layout verrà caricato correttamente indipendentemente dal fatto che l’accesso ai modelli e-mail sia concesso a livello di account.
 
 5. **Privilegi sulle funzionalità - Funzionalità di base**: utilizzato per concedere l’accesso a funzionalità specifiche per la gestione delle attività di apprendimento. tramite questa opzione possono essere concesse le autorizzazioni per le seguenti funzionalità.
 
