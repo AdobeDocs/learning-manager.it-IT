@@ -3,9 +3,9 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: a375032d49a8f566ba075205bcb2d8ae87d8f4b1
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '6094'
+source-wordcount: '6083'
 ht-degree: 33%
 
 ---
@@ -287,7 +287,7 @@ Il supporto delle tracce di testo video (VTT) multilingue in Adobe Learning Mana
 #### Funzioni principali
 
 * Generazione VTT automatica: carica un file video o audio e genera automaticamente i sottotitoli VTT nella lingua originale.
-* Traduzione multilingue: traduci i sottotitoli in una delle 10 lingue supportate non in inglese.
+* Traduzione multilingue: traduci i sottotitoli in una delle 39 lingue non inglesi supportate.
 * Revisione e modifica in-app: revisione, modifica e download dei file VTT prima della pubblicazione.
 * Notifiche: ricevi notifiche in-app al termine della generazione e della traduzione VTT.
 * Pubblicazione fluida: Publish ha finalizzato i sottotitoli in modo che gli allievi possano accedervi nella lingua scelta.
@@ -298,7 +298,7 @@ Il supporto delle tracce di testo video (VTT) multilingue in Adobe Learning Mana
 2. Carica il file MP3 o MP4.
 3. Nella finestra di dialogo di caricamento, seleziona l&#39;opzione per **Generare la traduzione**.
 4. Selezionare la lingua del contenuto originale (l&#39;impostazione predefinita è la lingua del file).
-5. Selezionare altre lingue di destinazione per la traduzione (fino a 10 supportate).
+5. Seleziona altre lingue di destinazione per la traduzione (fino a 39 supportate).
 6. Seleziona [!UICONTROL Salva]. Il sistema inizia a generare e a tradurre i file VTT.
 
 #### Monitorare l’avanzamento
@@ -323,7 +323,7 @@ Il supporto delle tracce di testo video (VTT) multilingue in Adobe Learning Mana
 
 #### Informazioni aggiuntive
 
-* **Lingue supportate:** Dieci lingue non inglesi (francese, tedesco, spagnolo, italiano, portoghese, olandese, svedese, indonesiano, norvegese Bokmal e danese) sono supportate da Adobe Learning Manager.
+* **Lingue supportate:** tutte le 39 lingue non inglesi sono supportate da Adobe Learning Manager.
 * **Notifiche:** gli autori ricevono una notifica al termine della generazione e della traduzione VTT.
 * Flessibilità di modifica: i sottotitoli possono essere modificati in-app o offline e ricaricati.
 * **Scalabilità:** progettata per esigenze di localizzazione e accessibilità su scala aziendale.
