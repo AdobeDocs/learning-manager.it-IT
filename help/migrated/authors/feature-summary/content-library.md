@@ -3,9 +3,9 @@ description: Scopri come creare contenuti da allineare ai corsi come contenuti a
 jcr-language: en_us
 title: Libreria dei contenuti
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '6082'
+source-wordcount: '6083'
 ht-degree: 33%
 
 ---
@@ -323,11 +323,11 @@ Il supporto delle tracce di testo video (VTT) multilingue in Adobe Learning Mana
 
 #### Informazioni aggiuntive
 
-* Lingue supportate: tutte le 39 lingue non inglesi supportate da Adobe Learning Manager.
-* Notifiche: gli autori ricevono una notifica al termine della generazione e della traduzione VTT.
+* **Lingue supportate:** tutte le 39 lingue non inglesi sono supportate da Adobe Learning Manager.
+* **Notifiche:** gli autori ricevono una notifica al termine della generazione e della traduzione VTT.
 * Flessibilità di modifica: i sottotitoli possono essere modificati in-app o offline e ricaricati.
-* Scalabilità: progettata per esigenze di localizzazione e accessibilità su scala aziendale.
-* Non è necessario caricare manualmente il VTT: il sistema può generare file VTT da zero utilizzando il video/audio caricato.
+* **Scalabilità:** progettata per esigenze di localizzazione e accessibilità su scala aziendale.
+* **Nessuna necessità di caricamento manuale VTT:** il sistema può generare file VTT da zero utilizzando il video/audio caricato.
 
 #### Procedure consigliate
 
@@ -798,7 +798,7 @@ Questo aiuterà gli Allievi a ottenere la versione più recente del contenuto.
 
 Per ulteriori informazioni, vedere questo [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
 
-### Controllo della versione dei contenuti per gli Allievi che hanno completato un corso
+### Controllo versione di contenuti per gli Allievi che hanno completato un corso
 
 Adobe Learning Manager ora offre agli autori opzioni più chiare per gestire gli aggiornamenti dei contenuti. Gli Autori possono aggiornare i contenuti già disponibili in un corso. Quando viene aggiunta una nuova versione, il numero di versione viene visualizzato accanto al contenuto.
 
