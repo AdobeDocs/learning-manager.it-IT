@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 278ab3d4028881d372f5b4896a336177a51e3e05
+source-git-commit: bad5de6025494320a863e58d1b0bd95ae6e10038
 workflow-type: tm+mt
-source-wordcount: '34469'
+source-wordcount: '34464'
 ht-degree: 64%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 64%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -27,8 +27,6 @@ ht-degree: 64%
 -->
 
 +++Aggiornamento 111: versione di Adobe Learning Manager del 31 agosto 2026
-
-Data di pubblicazione: 31 agosto 2026
 
 ## Miglioramenti in questa versione
 
@@ -171,8 +169,8 @@ Quando un Istruttore condivide una finestra di Chrome riproducendo un video e qu
 
 Il video continua a essere riprodotto localmente per l’istruttore, ma i partecipanti remoti potrebbero non vedere l’aggiornamento del contenuto mentre la finestra condivisa non è a fuoco. Il comportamento varia a seconda del sistema operativo:
 
-&#x200B;- In Windows, i partecipanti visualizzano una schermata nera.
-&#x200B;- In macOS, i partecipanti visualizzano l’ultimo fotogramma video visualizzato.
+- In Windows, i partecipanti visualizzano una schermata nera.
+- In macOS, i partecipanti visualizzano l’ultimo fotogramma video visualizzato.
 
 La riproduzione del video per i partecipanti in genere riprende quando torna lo stato attivo nella finestra del browser condiviso.
 
@@ -569,7 +567,7 @@ Se l’intento è inviare e-mail agli Allievi ma non ai Manager (ad esempio, per
 
 Per ulteriori informazioni, consulta questo [articolo](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level).
 
-## Controllo migliorato della versione dei contenuti per gli Allievi che hanno completato un corso
+## Controllo versione di contenuti migliorato per gli Allievi che hanno completato un corso
 
 ### Panoramica
 
@@ -641,7 +639,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2121,7 +2119,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -2499,7 +2497,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -3125,7 +3123,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -3635,7 +3633,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**&#x200B;** veniva **&#x200B;**&#x200B;rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**** veniva **** rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L’URL non è cliccabile nell’e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** venivano modificati. Questo problema è stato risolto.
