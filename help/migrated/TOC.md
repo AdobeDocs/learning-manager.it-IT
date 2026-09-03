@@ -2,7 +2,7 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 17b1e6574e031d5dda944c2c2701f9a876057e14
+source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
 workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 35%
@@ -276,7 +276,7 @@ ht-degree: 35%
   * [Impostazioni profilo](learners/feature-summary/settings.md)
   * [Cataloghi](learners/feature-summary/catalogs.md)
   * [Iscrizione con un clic](learners/feature-summary/learner-one-click-enrollment.md)
-  * {hide-from-toc}[Widget salvato dall&#39;utente](learners/feature-summary/saved-by-me-widget.md)
+  * [Widget Salvato dall&#39;utente](learners/feature-summary/saved-by-me-widget.md)
   * [Il mio apprendimento](learners/feature-summary/courses.md)
   * {hide-from-toc}[Corso adattivo](learners/feature-summary/adaptive-course-learner.md)
   * [Lettore Fluidic](learners/feature-summary/fluidic-player.md)
