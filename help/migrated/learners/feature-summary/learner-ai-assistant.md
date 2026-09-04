@@ -3,9 +3,9 @@ description: Ottieni risposte rapide e precise dai tuoi contenuti di apprendimen
 jcr-language: en_us
 title: Assistente all’intelligenza artificiale per gli Allievi in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
+source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
 workflow-type: tm+mt
-source-wordcount: '3167'
+source-wordcount: '3236'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Adobe elabora in modo sicuro i contenuti di apprendimento utilizzando servizi af
 
 ### Limitazioni del catalogo e dell&#39;origine dei contenuti
 
-L&#39;Assistente AI utilizza solo il contenuto dei cataloghi **interni** configurati in modo esplicito dagli amministratori.
+L&#39;Assistente AI utilizza solo contenuti di cataloghi interni, cataloghi esterni e librerie di contenuti di terze parti. Le risposte alle domande degli Allievi provengono solo dai cataloghi a cui hanno accesso.
 
 Le seguenti origini di contenuto non sono supportate nella versione corrente:
 
@@ -357,7 +357,7 @@ L’Assistente all’apprendimento di Adobe Learning Manager può rispondere all
 
 >[!IMPORTANT]
 >
->Come prerequisito, un Amministratore deve aggiungere i cataloghi richiesti all’Assistente Allievo. Per ulteriori informazioni, vedere[Configurare l&#39;accesso all&#39;Assistente all&#39;intelligenza artificiale](https://experienceleague.adobe.com/it/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Come prerequisito, un Amministratore deve aggiungere i cataloghi richiesti all’Assistente Allievo. Per ulteriori informazioni, vedere[Configurare l&#39;accesso all&#39;Assistente all&#39;intelligenza artificiale](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Quando un Amministratore aggiunge un catalogo Go1 o LinkedIn Learning a Adobe Learning Manager, il contenuto del catalogo passa attraverso un processo di acquisizione pianificato. Al termine dell’acquisizione, gli oggetti di apprendimento del catalogo diventano disponibili per l’esecuzione di query da parte di Learning Assistant.
@@ -380,7 +380,7 @@ Per consentire a Learning Assistant di eseguire una query sul contenuto Go1 o Li
 ## Risoluzione dei problemi relativi a AI Assistant
 
 > **NOTA**
-> Dopo aver configurato un nuovo catalogo, attendete 4-5 ore prima che il contenuto sia indicizzato e disponibile per le risposte dell&#39;Assistente AI.
+> Dopo aver configurato un nuovo catalogo, attendi 4-5 ore prima che i contenuti vengano indicizzati e siano disponibili per le risposte dell&#39;Assistente AI.
 
 ### Nessun accesso ai contenuti
 
