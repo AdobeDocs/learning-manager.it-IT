@@ -92,4 +92,4 @@ Verifica che l&#39;utente disponga dell&#39;autorizzazione all&#39;archiviazione
 
 Se l&#39;amministratore di Adobe Admin Console riscontra un problema durante l&#39;assegnazione dello spazio di archiviazione Creative Cloud o il debug di problemi relativi all&#39;accesso, il problema potrebbe richiedere il supporto a livello di account aziendale. In questi casi, contatta il supporto Adobe Enterprise tramite le opzioni di supporto disponibili in Admin Console.
 
-Per ulteriori informazioni, consulta [Opzioni di supporto Enterprise](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)
+Per ulteriori informazioni, consulta [Opzioni di supporto Enterprise](https://helpx.adobe.com/it/business/enterprise/get-help/support-options/support-for-enterprise.html)
