@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 71%
+source-wordcount: '858'
+ht-degree: 81%
 
 ---
 
@@ -29,13 +29,13 @@ Verifica che siano stati creati i tuoi account per i servizi FTP e Box. Quando c
 
 * Assicurati che i nomi dei file CSV siano conformi ai nomi delle specifiche CSV:
 
-   * course.csv
-   * course_instance.csv
-   * course_module.csv
-   * enrollment.csv
-   * module.csv
-   * module_version.csv
-   * user_course_grade.csv
+  * course.csv
+  * course_instance.csv
+  * course_module.csv
+  * enrollment.csv
+  * module.csv
+  * module_version.csv
+  * user_course_grade.csv
 
 ### Visualizzazione di errori per processi con record di errori {#failuresareshownforjobswitherrorrecords}
 
@@ -43,7 +43,7 @@ Verifica che siano stati creati i tuoi account per i servizi FTP e Box. Quando c
 1. Correggi i file CSV originali in base agli errori segnalati ed
 1. esegui nuovamente lo sprint con i file CSV modificati.
 
-È consigliabile eseguire i file CSV modificati in un nuovo sprint quando il numero di modifiche è inferiore al numero totale di record.
+È consigliabile eseguire i file CSV modificati in un nuovo sprint quando il numero di modifiche è inferiore al numero totale di errori registrati.
 
 ### Impossibilità di accedere all’applicazione Learning Manager anche dopo l’interruzione della migrazione sprint {#unabletologintocaptivateprimeapplicationevenafterstoppingthesprintmigration}
 
@@ -65,19 +65,19 @@ Assicurati che lo sprint corrente sia contrassegnato come completato prima di co
 
 ### La migrazione del file module_version.csv non va a buon fine e la migrazione dei contenuti non è ancora avvenuta. {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Assicurati che i contenuti siano disponibili nella cartella Contenuto (account Box nel progetto di migrazione specificato, percorso sprint). Assicurati inoltre di aver selezionato l&#39;opzione **Sì** per **Vuoi migrare contenuti per questo sprint?Domanda** nella pagina di creazione dello sprint.
+Assicurati che i contenuti siano disponibili nella cartella Contenuto (account Box nel progetto di migrazione specificato, percorso sprint). Assicurati inoltre di aver selezionato l&#39;opzione **Sì** per **Vuoi migrare contenuti per questo sprint?** nella pagina di creazione dello sprint.
 
 Se dimentichi di selezionare **Sì** e procedi con lo sprint, dovrai aspettare fino al completamento dello sprint. Crea un altro sprint e assicurati di fare clic su **[!UICONTROL Sì]**.
 
 ### I record enrollment.csv o user_course_grade.csv non vanno a buon fine e restituiscono il messaggio di errore &quot;ID Learning Manager non valido&quot; {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
-Assicurati che l’ID e-mail fornito nei campi userId, assignedByUserID appartenga a utenti validi di Learning Manager. In caso contrario, aggiungi l’utente e crea un nuovo sprint con l’opzione **Sincronizza utenti** selezionata. Nel caso in cui l’utente non faccia parte dell’organizzazione, aggiungilo come utente eliminato in Learning Manager utilizzando la specifica CSV Aggiungi utenti. Di seguito è fornita una specifica CSV di esempio per aggiungere utenti eliminati come riferimento.
+Assicurati che l’ID e-mail fornito nei campi userId, assignedByUserID appartenga a utenti validi di Learning Manager. In caso contrario, aggiungi l’utente e crea un nuovo sprint con l’opzione **Sincronizza utenti** selezionata. Nel caso in cui l’utente non faccia parte dell’organizzazione, aggiungilo come utente eliminato in Learning Manager utilizzando la specifica CSV Aggiungi utenti. Di seguito ti forniamo una specifica CSV di esempio per aggiungere utenti eliminati.
 
 [Utenti.csv](assets/users.zip) Per scaricare un set completo di specifiche CSV e file CSV di esempio, consulta la sezione **Specifiche CSV e CSV di esempio** nel [Manuale di migrazione](../integration-admin/feature-summary/migration-manual.md).
 
 ### Corsi all’apparenza vuoti o riproduzione di moduli errati per un corso migrato {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Assicurati che il valore chiave **moduleOrderInCourse** di un corso inizi con **0** e che sia in ordine continuo. L’ordine in termini di courseModuleType deve essere PRETEST, TESTOUT, CONTENT
+Assicurati che il key value **moduleOrderInCourse** di un corso inizi con **0** e che sia in ordine continuo. L’ordine in termini di courseModuleType deve essere PRETEST, TESTOUT, CONTENT
 
 Inoltre, assicurati che due versioni di Attività, Classe e VC non siano collegate al corso esistente.
 
