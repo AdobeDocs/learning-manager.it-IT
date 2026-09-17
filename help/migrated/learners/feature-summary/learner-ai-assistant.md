@@ -3,13 +3,11 @@ description: Ottieni risposte rapide e precise dai tuoi contenuti di apprendimen
 jcr-language: en_us
 title: Assistente all’intelligenza artificiale per gli Allievi in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3245'
 ht-degree: 0%
-
 ---
-
 # Assistente AI per gli Allievi
 
 ## Introduzione
@@ -81,15 +79,14 @@ Adobe elabora in modo sicuro i contenuti di apprendimento utilizzando servizi af
 
 ### Limitazioni del catalogo e dell&#39;origine dei contenuti
 
-L&#39;Assistente AI utilizza solo contenuti di cataloghi interni, cataloghi esterni e librerie di contenuti di terze parti. Le risposte alle domande degli Allievi provengono solo dai cataloghi a cui hanno accesso.
+L&#39;Assistente all&#39;intelligenza artificiale utilizza solo contenuti di cataloghi interni e librerie di contenuti di terze parti. Le risposte alle domande degli Allievi provengono solo dai cataloghi a cui hanno accesso.
 
 Le seguenti origini di contenuto non sono supportate nella versione corrente:
 
-- **Cataloghi condivisi**
-- **Cataloghi acquisiti**
-- **Cataloghi esterni**
-- **Cataloghi predefiniti**
-- Librerie di contenuti di terze parti (ad esempio, LinkedIn Learning o Go1)
+- Cataloghi esterni condivisi
+- Cataloghi predefiniti
+
+Sono supportati i cataloghi acquisiti e le risposte dai metadati disponibili nelle librerie di contenuti di terze parti (ad esempio, LinkedIn Learning o Go1).
 
 Se non hai accesso a un corso o a una risorsa formativa, l&#39;Assistente AI non presenterà informazioni da quel contenuto e i collegamenti alle citazioni non saranno accessibili.
 
@@ -357,7 +354,7 @@ L’Assistente all’apprendimento di Adobe Learning Manager può rispondere all
 
 >[!IMPORTANT]
 >
->Come prerequisito, un Amministratore deve aggiungere i cataloghi richiesti all’Assistente Allievo. Per ulteriori informazioni, vedere[Configurare l&#39;accesso all&#39;Assistente all&#39;intelligenza artificiale](https://experienceleague.adobe.com/it/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Come prerequisito, un Amministratore deve aggiungere i cataloghi richiesti all’Assistente Allievo. Per ulteriori informazioni, vedere[Configurare l&#39;accesso all&#39;Assistente all&#39;intelligenza artificiale](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Quando un Amministratore aggiunge un catalogo Go1 o LinkedIn Learning a Adobe Learning Manager, il contenuto del catalogo passa attraverso un processo di acquisizione pianificato. Al termine dell’acquisizione, gli oggetti di apprendimento del catalogo diventano disponibili per l’esecuzione di query da parte di Learning Assistant.

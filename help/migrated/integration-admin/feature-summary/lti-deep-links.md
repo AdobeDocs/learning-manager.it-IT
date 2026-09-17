@@ -3,13 +3,11 @@ description: Scopri come integrare il connettore LinkedIn Learning con Adobe Lea
 jcr-language: en_us
 title: Incorporare collegamenti profondi in uno strumento LTI da ALM
 contentowner: mmanuel
-source-git-commit: ce25b5982c86695352029e22e427b4e85274a1cb
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 
 # Collegamento avanzato LTI in Adobe Learning Manager
 
@@ -87,20 +85,24 @@ Il collegamento profondo scambia i seguenti parametri tra ALM e la piattaforma L
 
 ## Creare un collegamento profondo
 
+>[!IMPORTANT]
+>
+>I passaggi indicati nella sezione seguente e nella sezione per gli Autori devono essere eseguiti sulla piattaforma che utilizza i corsi e non sul lato ALM.
+
 ### Prerequisiti
 
 1. Dovresti aver effettuato l’accesso come Amministratore dell’integrazione.
-2. Durante la configurazione dell’integrazione LTI, seleziona la casella di controllo Supporta il collegamento profondo.
+2. Durante la configurazione dell&#39;integrazione LTI, seleziona la casella di controllo **Supporta il collegamento profondo**. Scopri come configurare l&#39;[integrazione LTI](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md).
 3. Specifica l’URL nel campo per portare l’utente o l’autore alla selezione.
-4. Seleziona Salva modifiche.
+4. Seleziona **Salva modifiche**.
 
    Lo stesso URL di avvio viene riutilizzato per semplificare la configurazione e l’utilizzo.
 
-   Il comportamento è determinato dal tipo di messaggio LTI. Quando il tipo di messaggio è `content_consumption`, l’utente viene indirizzato al lettore del corso. Quando il tipo di messaggio è `content_selection`, l’utente viene indirizzato attraverso il flusso di collegamento profondo, in cui l’autore può selezionare direttamente il contenuto desiderato senza copiare manualmente gli identificatori specifici del corso.
+   Il comportamento è determinato dal tipo di messaggio LTI. Quando il tipo di messaggio è `content_consumption`, l’utente viene indirizzato al lettore del corso. Quando il tipo di messaggio è `content_selection`, l’utente viene indirizzato attraverso il flusso di collegamento profondo, in cui l’autore può selezionare direttamente il contenuto desiderato senza copiare manualmente identificatori specifici del corso.
 
    Dopo aver salvato le modifiche, seleziona la scheda **Seleziona contenuto**. La scheda **Seleziona contenuto** diventa attiva solo dopo aver selezionato questa casella di controllo.
 
-**La seguente sezione è destinata agli autori.**
+**Per gli autori**
 
 In qualità di autore, puoi selezionare i contenuti dalla finestra **Seleziona contenuto**. Nella finestra **Seleziona contenuto** sono visualizzati **Catalogo**, **Numero corsi** e **Data esportazione**.
 
