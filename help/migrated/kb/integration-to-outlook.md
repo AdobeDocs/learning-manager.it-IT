@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Visualizza la risposta dell’Allievo in formazione a un invito del calendario di Outlook in Learning Manager
 contentowner: kuppan
 preview: true
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 0df7284f-20c1-410d-b985-3d031744deaf
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 36%
-
+source-wordcount: '523'
+ht-degree: 43%
 ---
-
-
-
 # Visualizza la risposta dell&#39;Allievo a un invito del calendario di Outlook in [!DNL Learning Manager]
 
 Scopri in che modo amministratori e istruttori possono visualizzare le risposte di un Allievo in formazione agli inviti del calendario.
@@ -25,7 +22,7 @@ Se un utente in formazione risponde allo stesso invito più di una volta, viene 
 
 ## Abilitazione della funzione di tracciamento delle risposte agli inviti {#enablingtheinvitereplytrackingfeature}
 
-* Contatta il supporto di Adobe Learning Manager per abilitare la funzione di tracciamento delle risposte agli inviti.
+* Contatta il supporto Adobe Learning Manager per abilitare la funzione di tracciamento delle risposte agli inviti.
 * Una volta abilitata la funzione per l’account, tutte le future sessioni di aula virtuale create da un autore possono registrare la risposta dell’utente in formazione all’invito del calendario.
 
 Se gli utenti in formazione sono iscritti a una sessione di aula virtuale creata prima dell’attivazione della funzione di tracciamento delle risposte agli inviti, le loro risposte all’invito del calendario non vengono registrate.
@@ -64,4 +61,3 @@ Se la funzione di tracciamento delle risposte agli inviti è abilitata per l’a
    Per inviare e-mail a tutti gli utenti in formazione indicati nella tabella visualizzata, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Invia e-mail a tutti]**.
 
    ![](assets/instructor-actions1.png)
-

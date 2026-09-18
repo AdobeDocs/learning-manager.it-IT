@@ -2,14 +2,12 @@
 description: Informazioni sul metodo di accesso OIDC
 jcr-language: en_us
 title: Accedi a Adobe Learning Manager con OpenID Connect
-source-git-commit: 7c430e3fbb2716455310f2130d73af10ce2e56c7
+exl-id: 7f85f359-0f4c-428f-a104-c4ae3071793a
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
-
 ---
-
-
 # Accedi a Adobe Learning Manager con OpenID Connect (OIDC)
 
 Scopri come funziona l’accesso a OpenID Connect in Adobe Learning Manager per Allievi, Autori e Amministratori. Questo articolo riguarda l&#39;esperienza, non l&#39;attuazione.
@@ -31,7 +29,7 @@ Le organizzazioni spesso scelgono OIDC per i seguenti motivi:
 
 * Gli utenti visualizzano la stessa esperienza di identità aziendale o cloud che utilizzano per altre applicazioni.
 * Le policy per le password, l&#39;autenticazione a più fattori e il ciclo di vita dell&#39;account sono gestiti nel provider di identità, in modo coerente con le altre app aziendali.
-* OIDC segue pattern simili ad altri flussi di accesso moderni da una prospettiva utente e IT, senza lo scambio di documenti più pesante associato ad alcune configurazioni solo SAML.
+* OIDC segue pattern simili ad altri flussi di accesso moderni da un utente e da una versione di Prospettiva IT, senza lo scambio di documenti più pesante associato ad alcune configurazioni solo SAML.
 
 La tua esperienza è ancora: accedi a Learning Manager, accedi dove ti dice la tua organizzazione e accedi all’app.
 
@@ -50,7 +48,7 @@ Se il tuo account utilizza OIDC, l&#39;avvio dell&#39;accesso in genere reindiri
 
 ### Accedi con la tua organizzazione
 
-Nella pagina del provider di identità, immetti le tue credenziali e completa tutti i passaggi aggiuntivi richiesti dalla tua organizzazione, ad esempio l&#39;autenticazione a più fattori. Questo passaggio si verifica all&#39;esterno del modulo di accesso di Adobe Learning Manager quando OIDC è il metodo in uso. Dal tuo punto di vista, ti sembra di accedere al tuo account aziendale o scolastico. Durante questo passaggio potresti non visualizzare termini tecnici come *OIDC* o *OAuth*.
+Nella pagina del provider di identità, immetti le tue credenziali e completa tutti i passaggi aggiuntivi richiesti dalla tua organizzazione, ad esempio l&#39;autenticazione a più fattori. Questo passaggio si verifica all&#39;esterno del modulo di accesso di Adobe Learning Manager quando OIDC è il metodo in uso. Dalla tua Prospettiva, sembra di accedere al tuo account aziendale o scolastico. Durante questo passaggio potresti non visualizzare termini tecnici come *OIDC* o *OAuth*.
 
 ### Torna a Adobe Learning Manager
 
