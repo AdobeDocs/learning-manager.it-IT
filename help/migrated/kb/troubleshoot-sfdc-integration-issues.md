@@ -3,14 +3,12 @@ jcr-language: en_us
 title: Risoluzione dei problemi di integrazione di Salesforce (SFDC) con Adobe Learning Manager
 description: risoluzione dei problemi comuni di integrazione di Salesforce (SFDC) con Adobe Learning Manager (ALM), tra cui esportazioni non riuscite, problemi di autorizzazione dei campi negli oggetti personalizzati SFDC e note importanti sulla compatibilità SFDC-ALM.
 contentowner: saghosh
-source-git-commit: cedb4acc89e7d972a4752e10c4fb6930c4633f6a
+exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
-
 # Risoluzione dei problemi di integrazione di Salesforce (SFDC) con Adobe Learning Manager
 
 ## Risoluzione dei problemi relativi agli errori di esportazione di SFDC (nessuna esportazione per più di 2-3 ore)
@@ -66,9 +64,9 @@ Tenete presenti queste specifiche SFDC-ALM durante la progettazione o la risoluz
 
 - Il connettore **SFDC non crea nuovi oggetti o campi in Salesforce**.
 - Se in ALM **viene aggiunto un** nuovo campo e si desidera che venga visualizzato in SFDC:
-   - **Creare manualmente il campo personalizzato corrispondente** in SFDC.
-   - **Associare** il campo personalizzato SFDC al **campo ALM appropriato** nella configurazione del connettore.
-   - Assicurati che il nuovo campo disponga di **autorizzazioni a livello di campo corrette** (utilizza la sezione 2).
+  - **Creare manualmente il campo personalizzato corrispondente** in SFDC.
+  - **Associare** il campo personalizzato SFDC al **campo ALM appropriato** nella configurazione del connettore.
+  - Assicurati che il nuovo campo disponga di **autorizzazioni a livello di campo corrette** (utilizza la sezione 2).
 
 ### URL di richiamata per gli account ALM con domini personalizzati
 

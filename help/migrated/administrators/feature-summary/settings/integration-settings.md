@@ -2,14 +2,12 @@
 description: Ulteriori informazioni su come le impostazioni di integrazione collegano Adobe Learning Manager a soluzioni di terze parti
 jcr-language: en_us
 title: Impostazioni di integrazione in Adobe Learning Manager
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%
-
 ---
-
-
 # Impostazioni di integrazione in Adobe Learning Manager
 
 ## Metodi di accesso
@@ -84,8 +82,3 @@ Per ulteriori informazioni, vedere [Connettori in Adobe Learning Manager](/help/
 Gli account condivisi tra pari in Adobe Learning Manager consentono di condividere le postazioni acquistate e visualizzare i report tra gli account associati. Questa funzione è utile per le organizzazioni che devono collaborare o condividere risorse tra account diversi.
 
 Per ulteriori informazioni, consulta [Account condivisi tra pari](/help/migrated/administrators/feature-summary/peer-account.md) in Adobe Learning Manager.
-
-
-
-
-

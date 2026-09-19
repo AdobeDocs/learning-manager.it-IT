@@ -3,15 +3,12 @@ description: Questo documento consente di configurare l’autenticazione SSO per
 jcr-language: en_us
 title: Accesso a Learning Manager tramite autenticazione SSO
 contentowner: dvenkate
-source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
+exl-id: ef5ab232-0a87-4f76-8dfd-b2497f360cbe
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 70%
-
+source-wordcount: '135'
+ht-degree: 68%
 ---
-
-
-
 # Accesso a Learning Manager tramite autenticazione SSO
 
 Questo documento consente di configurare l’autenticazione SSO per accedere all’account Learning Manager.
@@ -38,4 +35,3 @@ Per configurare l’autenticazione SSO, esegui i passaggi seguenti:
    L’SSO configurato in Learning Manager deve supportare SAML 2.0.
 
    Ora puoi accedere a Learning Manager tramite l’autenticazione SSO.
-

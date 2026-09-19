@@ -2,14 +2,12 @@
 title: Ruolo personalizzato con autorizzazioni di annuncio con ambito
 jcr-language: en_us
 description: Scopri come creare un ruolo personalizzato in Adobe Learning Manager che consenta gli annunci solo per cataloghi e gruppi di utenti selezionati.
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: e038033c-ce06-454a-922b-ba0b0c894ac0
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
-
 ---
-
-
 # Ruolo personalizzato con autorizzazioni di annuncio con ambito
 
 Gli amministratori possono creare ruoli personalizzati con autorizzazioni di annuncio limitate a cataloghi e gruppi di utenti specifici. In questo modo, gli annunci sono mirati, pertinenti e visibili solo agli Allievi interessati. Gli annunci con ambito garantiscono che gli utenti corretti ricevano annunci pertinenti senza inviare dettagli ad altri.

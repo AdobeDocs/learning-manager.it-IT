@@ -2,14 +2,12 @@
 title: Ciclo di vita dell'account amministrativo Adobe Learning Manager
 description: Questo documento fornisce una guida completa sulla gestione sicura degli account amministrativi di primo livello in Adobe Learning Manager (ALM) per soddisfare la conformità FedRAMP e le migliori procedure di sicurezza.
 jcr-language: en-us
-source-git-commit: db3ed4dc44da75b418e923999bdf3776bf81b11f
+exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
+source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
-
 ---
-
-
 # Tipi di account amministrativi in Adobe Learning Manager
 
 ## Mapping ruoli ALM
@@ -240,7 +238,7 @@ Ulteriori informazioni sulle procedure di sicurezza di Adobe Learning Manager so
 
 ## Manutenzione dei documenti
 
-Questo documento può essere aggiornato periodicamente per riflettere le modifiche alle funzionalità di Adobe Learning Manager o alle procedure consigliate di amministrazione. La versione e la data dell’ultimo aggiornamento vengono mantenute nei metadati del documento e nel pacchetto di autorizzazione FedRAMP. I clienti devono fare riferimento alla versione pubblicamente disponibile su Adobe Experience League per assicurarsi di utilizzare le indicazioni più aggiornate.
+Questo documento può essere aggiornato periodicamente per riflettere le modifiche alle funzionalità di Adobe Learning Manager o alle procedure consigliate di amministrazione. La versione e la data dell’ultimo aggiornamento vengono mantenute nei metadati del documento e nel pacchetto di autorizzazione FedRAMP. I clienti devono fare riferimento alla versione pubblicamente disponibile su Adobe Experience League per assicurarsi di utilizzare le linee guida più aggiornate.
 
 ## Copertura avanzata delle funzionalità di sicurezza
 

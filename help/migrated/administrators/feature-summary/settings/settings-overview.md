@@ -2,14 +2,12 @@
 description: Scopri le impostazioni dell’amministratore che puoi configurare in Adobe Learning Manager per gestire gli utenti, controllare l’accesso, personalizzare l’ambiente di apprendimento e personalizzare la piattaforma in base alle esigenze dell’organizzazione.
 jcr-language: en_us
 title: Panoramica delle impostazioni
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
-
 ---
-
-
 # Impostazioni
 
 ## Panoramica
@@ -39,4 +37,3 @@ Per ulteriori informazioni, consultate le impostazioni di Adobe Learning Manager
 * Configurare i dashboard di conformità e successo del gruppo.
 
 Per ulteriori informazioni, consultate le impostazioni di Adobe Learning Manager.
-

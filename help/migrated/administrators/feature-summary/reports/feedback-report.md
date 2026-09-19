@@ -2,14 +2,12 @@
 description: Scopri come accedere, scaricare e interpretare il Report di feedback in Adobe Learning Manager. Informazioni sulle colonne dei report, sui tipi di domande, sulle risposte dei manager e degli allievi e su come le informazioni sul feedback supportano la valutazione dei corsi di formazione e il miglioramento continuo.
 jcr-language: en_us
 title: Report di feedback in Adobe Learning Manager
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: 6a54b5eb-f79d-406f-8125-1f18fdc0cbd3
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '916'
 ht-degree: 7%
-
 ---
-
-
 # Report di feedback
 
 ## Panoramica
@@ -57,7 +55,7 @@ Di seguito sono riportate le colonne predefinite del report a livello di account
 | Tipo di feedback | Indica se il feedback proviene dall’Allievo (L1) o dal Manager (L3) |
 | Nome utente | Nome dell’Allievo che ha completato il corso di formazione |
 | E-mail utente | Indirizzo e-mail dell’allievo |
-| ID del corso di formazione | Un identificatore univoco generato dal sistema assegnato a ciascun oggetto di apprendimento (corso, certificazione o percorso di apprendimento) |
+| ID del corso di formazione | Identificatore univoco generato dal sistema assegnato a ciascun oggetto di apprendimento (corso, certificazione o percorso di apprendimento) |
 | Nome formazione | Nome dell’elemento di apprendimento per il quale viene inviato il feedback |
 | Istanza del corso di formazione | Nome dell’istanza del corso di formazione (per corsi a più istanze) |
 | Tipo di formazione | Tipo di corso di formazione (corso, certificazione, percorso di apprendimento) |

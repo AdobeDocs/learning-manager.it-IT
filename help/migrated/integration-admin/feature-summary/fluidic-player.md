@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Lettore Fluidic incorporato
 contentowner: dvenkate
 preview: true
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 31%
-
+source-wordcount: '1693'
+ht-degree: 32%
 ---
-
-
-
 # Lettore Fluidic incorporato
 
 Leggi questo articolo per scoprire come incorporare il lettore Fluidic in un’applicazione personalizzata.
@@ -75,7 +72,7 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-Qui **[!UICONTROL ID client]** è l&#39;ID applicazione ottenuto al passaggio 1.
+Qui **[!UICONTROL ID client]** è l’ID applicazione ottenuto al passaggio 1.
 **[!UICONTROL redirect_url]** è il redirect_url impostato nel passaggio 1.
 **[!UICONTROL state]** è qualsiasi dato fittizio in base al quale dobbiamo filtrare l&#39;URL di reindirizzamento per ottenere il codice OAuth. L’ambito è l’ambito Allievo impostato nel passaggio 1.
 **[!UICONTROL response_typ]**&#x200B;e è sempre &quot;CODE&quot;.\
@@ -179,7 +176,7 @@ Si tratta di un&#39;operazione che deve essere eseguita da un team IT o da un co
 
 1. Utilizza il token di accesso come parametro obbligatorio.
 
-   * access_token : Parametro di sicurezza. Utilizzare l&#39;API oauth pubblica.   token di accesso
+   * access_token : Parametro di sicurezza. Utilizzare il token di accesso oauth dell&#39;API pubblica.
 
    Puoi ottenere il token configurando il lettore Fluidic incorporabile nell’amministratore dell’integrazione. Puoi ottenere il token di autenticazione che puoi utilizzare come token di accesso.
 
@@ -224,7 +221,7 @@ Uno qualsiasi di questi parametri può essere utilizzato per avviare un corso:
 
 Parametro obbligatorio:
 
-* access_token : Parametro di sicurezza. Utilizzare l&#39;API oauth pubblica.   token di accesso
+* access_token : Parametro di sicurezza. Utilizzare il token di accesso oauth dell&#39;API pubblica.
 
 Effettua chiamate API di Learning Manager per recuperare i parametri sopra indicati. Queste chiamate API devono essere effettuate dall&#39;applicazione che il team IT/consulente scriverà e ospiterà sul sito.
 
@@ -235,5 +232,3 @@ API V1 di Learning Manager - [https://learningmanager.adobe.com/docs/primeapi/v1
 
 
 API di Learning Manager V2 - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
-

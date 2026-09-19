@@ -2,14 +2,12 @@
 description: Scopri come i menu in Experience Builder di Adobe Learning Manager ti aiutano a organizzare la navigazione attraverso il portale di apprendimento. Crea e personalizza le voci di menu, collegale a pagine o risorse esterne e personalizza la struttura dei menu per diversi gruppi di utenti in modo da offrire un’esperienza di apprendimento uniforme e personalizzata.
 jcr-language: en_us
 title: Menu in Experience Builder
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: aaf4cbe1-91ca-40de-809c-4a7d183a9276
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
-
 # Panoramica
 
 I menu in Experience Builder sono strutture di navigazione personalizzabili che puoi creare per organizzare le pagine e offrire un’esperienza di apprendimento personalizzata a gruppi di destinatari specifici. Sono un componente fondamentale di Experience Builder, insieme a pagine e widget, e rappresentano il meccanismo principale per controllare ciò che i diversi Allievi vedono e come navigano nel portale.

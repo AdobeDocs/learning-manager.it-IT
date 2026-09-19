@@ -3,13 +3,12 @@ description: Impostare una finestra temporale durante la quale agli Allievi è c
 jcr-language: en_us
 title: Controllo del tempo di accesso al modulo
 contentowner: mmanuel
-source-git-commit: 6423fd5c0853705a28c6c67b6936d93e68cbca20
+exl-id: b99b1c98-57a0-4201-bf1f-f85bacb0d00e
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '603'
 ht-degree: 1%
-
 ---
-
 # Controllo del tempo di accesso al modulo
 
 ## Panoramica
@@ -33,7 +32,7 @@ Ciò migliora l’esperienza dell’Allievo: invece di affrontare moduli a cui �
 
 **Programma di abilitazione basato su coorte**: in questo programma, ogni settimana viene aperto un nuovo modulo. Il contenuto per la Settimana 1 è disponibile immediatamente, mentre la Settimana 2 è visibile ma non può essere avviata fino a una data specificata. La Settimana 3 segue lo stesso processo di controllo. Gli Allievi possono visualizzare l’intero percorso di apprendimento, ma il sistema controlla quando possono effettivamente iniziare ciascun passaggio.
 **Corso di formazione su prodotti o campagne in scadenza**: i team di marketing o di prodotto possono creare un modulo di formazione a cui accedere solo quando è attiva una campagna o quando è ancora disponibile una versione specifica di un prodotto. Questa finestra iniziale assicura che gli allievi non inizino un modulo su una versione del prodotto fuori produzione dopo l’ora di fine specificata.
-**Ambienti di valutazione o esame**: le organizzazioni possono aprire un modulo (ad esempio un test) per una breve finestra ben definita (ad esempio, &quot;è possibile avviare l&#39;esame in qualsiasi momento tra il 9:00 e il 12:00 in una data specifica&quot;). Gli Allievi non possono iniziare l’esame al di fuori di tale finestra, il che supporta una pianificazione equa per fusi orari e coorti.
+**Ambienti di valutazione o esame**: le organizzazioni possono aprire un modulo (ad esempio un test) per una breve finestra ben definita (ad esempio, &quot;è possibile avviare l&#39;esame in qualsiasi momento tra le 9.00 e le 12.00 in una data specifica&quot;). Gli Allievi non possono iniziare l’esame al di fuori di tale finestra, il che supporta una pianificazione equa per fusi orari e coorti.
 
 ## Impostazione del tempo di accesso del modulo
 
@@ -45,13 +44,3 @@ Ciò migliora l’esperienza dell’Allievo: invece di affrontare moduli a cui �
 6. Seleziona **Modifica**. Le sezioni pertinenti relative al modulo si aprono verso la parte inferiore della pagina.![alt-text](/help/migrated/administrators/feature-summary/assets/module-access-time4.png)
 7. Per ogni sezione, selezionare una data iniziale, un&#39;ora iniziale, una data finale e un&#39;ora finale.
 8. Seleziona **Salva**. In ALM viene visualizzato il messaggio &quot;Mapping salvato correttamente&quot;.
-
-
-
-
-
-
-
-
-
-
