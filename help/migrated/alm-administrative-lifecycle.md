@@ -202,7 +202,7 @@ Quando un amministratore di sistema lascia l&#39;organizzazione o modifica i ruo
 Per ulteriori informazioni, consultate i seguenti riferimenti:
 
 * [Creazione, aggiornamento o rimozione di account utente nell&#39;Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-users-individually.html)
-* [Come lasciare l&#39;account di proprietà dell&#39;organizzazione](https://helpx.adobe.com/enterprise/using/leave-organization.html)
+* [Come lasciare l&#39;account di proprietà dell&#39;organizzazione](https://helpx.adobe.com/it/enterprise/using/leave-organization.html)
 
 ### Rimuovi il ruolo di amministratore ALM
 
