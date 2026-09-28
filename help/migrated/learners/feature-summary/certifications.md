@@ -7,10 +7,8 @@ exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 62%
-
+ht-degree: 74%
 ---
-
 # Certificazioni
 
 Scopri come ottenere certificazioni tramite l’app per Allievi di Learning Manager.
@@ -35,11 +33,11 @@ Viene visualizzata una pagina con un elenco di tutte le certificazioni per te ri
 
 1. Visualizza le certificazioni in varie modalità:
 
-   1. Fai clic su Widget in sospeso per visualizzare tutte le certificazioni che devi completare.
+   1. Fai clic sul widget In sospeso per visualizzare tutte le certificazioni che è necessario completare.
    1. Fai clic su Il mio apprendimento dal riquadro a sinistra e seleziona Certificazioni per visualizzare tutte le certificazioni.
    1. Ordina e visualizza l’elenco delle certificazioni per rilevanza e data di pubblicazione.
 
-1. In Widget In sospeso dalla pagina Home, fai clic sulla certificazione interna che devi accettare.\
+1. Nel widget In sospeso nella home page, fai clic sul certificato interno che desideri ottenere.\
    Le certificazioni in sospeso vengono visualizzate sotto il widget.
 
 1. Fai clic su Avvia per accettare la certificazione.
