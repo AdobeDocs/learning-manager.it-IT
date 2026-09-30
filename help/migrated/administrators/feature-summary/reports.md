@@ -4,13 +4,11 @@ jcr-language: en_us
 title: Report
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 10d3de1a5a537bd6132f4d350ddd7a8612689bde
 workflow-type: tm+mt
 source-wordcount: '7677'
 ht-degree: 63%
-
 ---
-
 # Report {#reports}
 
 Informazioni sui report associati al ruolo di amministratore nell’applicazione Learning Manager.
