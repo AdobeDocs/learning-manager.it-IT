@@ -7,10 +7,8 @@ exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 50%
-
+ht-degree: 59%
 ---
-
 # Non è possibile visualizzare i file inviati su Adobe Learning Manager
 
 ## Problema
@@ -21,7 +19,7 @@ L’istruttore non è in grado di vedere i file inviati e caricati da un allievo
 
 Gli istruttori non sono in grado di visualizzare i file caricati dagli allievi nel **Modulo attività di invio**.
 
-Ad esempio, un Allievo si è iscritto a un’istanza denominata **Istanza di test** di un corso, come illustrato di seguito:
+Ad esempio, un allievo si è iscritto a un’istanza denominata **Istanza di prova** di un corso, come illustrato di seguito:
 
 ![](assets/test-instance.png)
 
