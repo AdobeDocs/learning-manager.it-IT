@@ -6,11 +6,9 @@ contentowner: dvenkate
 exl-id: 966d163d-7878-44f4-afdc-38eb95996229
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 85%
-
+source-wordcount: '333'
+ht-degree: 94%
 ---
-
 # Etichette del catalogo
 
 Le etichette del catalogo consentono di taggare gli oggetti di apprendimento con campi specifici e applicare uno o più valori. Se questa opzione è attivata, gli amministratori e gli autori possono impostare etichette del catalogo e valori e collegarli agli oggetti di apprendimento.
@@ -31,7 +29,7 @@ Per aggiungere etichette del catalogo, segui questa procedura:
    ![](assets/catalog-labels-page.png)
 
 1. Fai clic su **[!UICONTROL Aggiungi etichetta del catalogo]** o **[!UICONTROL Aggiungi]** nell’angolo in alto a destra. Viene visualizzata la finestra di dialogo **[!UICONTROL Aggiungi etichetta del catalogo]**.
-1. Aggiungi etichetta del catalogo e i relativi valori nei campi. Un campo personalizzato può avere più valori. Gli autori possono scegliere tra questi valori durante la creazione del corso.
+1. Aggiungi etichetta del catalogo e relativi valori nei campi. Un campo personalizzato può avere più valori. Gli autori possono scegliere tra questi valori durante la creazione del corso.
 
    ![](assets/add-labels.png)
 
@@ -47,7 +45,7 @@ Dopo aver creato le etichette, è possibile applicarle a cataloghi specifici seg
 1. Apri **[!UICONTROL Cataloghi]** dal riquadro a sinistra. Si apre la pagina del catalogo che mostra l’elenco di cataloghi.
 1. Seleziona il catalogo desiderato e applica l’etichetta.
 1. Apri Etichette del catalogo nel riquadro a sinistra.
-1. Fai clic su **[!UICONTROL Modifica]** nell&#39;angolo in alto a destra. La pagina mostra l’elenco delle etichette del catalogo disponibili.
+1. Fai clic su **[!UICONTROL Modifica]** nell’angolo in alto a destra. La pagina mostra l’elenco delle etichette del catalogo disponibili.
 1. Fai clic su **[!UICONTROL Aggiungi al catalogo]** per aggiungere un’etichetta al catalogo.
 1. Per rimuovere etichette esistenti aggiunte a un catalogo, fai clic su **[!UICONTROL Rimuovi]**.
 

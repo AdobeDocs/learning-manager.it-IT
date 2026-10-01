@@ -7,10 +7,8 @@ exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 50%
-
+ht-degree: 70%
 ---
-
 # Impossibile effettuare la registrazione come utente esterno
 
 ## Problema
@@ -39,7 +37,7 @@ Questo problema si verifica in uno dei seguenti scenari:
 
 ## Risoluzione:
 
-**Scenario 1:** L&#39;utente è già registrato con un altro profilo esterno.
+**Scenario 1:** l’utente è già registrato con un altro profilo esterno.
 
 1. Accedi come Amministratore.
 1. In **Gestisci**, fai clic su **[!UICONTROL Utenti]** > **[!UICONTROL Esterni]**.
@@ -63,7 +61,7 @@ Questo problema si verifica in uno dei seguenti scenari:
 
 1. Una volta selezionato, fai clic su **[!UICONTROL Modifica]**.
 
-**Scenario 2:** L’utente è presente come Allievo interno.
+**Scenario 2:** l’utente è presente come Allievo interno.
 
 1. Accedi come Amministratore.
 1. In **Gestisci**, fai clic su **[!UICONTROL Utenti]** > **[!UICONTROL Interni]**.
@@ -73,7 +71,7 @@ Questo problema si verifica in uno dei seguenti scenari:
 
    *Aprire un profilo Allievo interno*
 
-1. Modifica l’indirizzo e-mail dell’Allievo o aggiungi *_old* all’indirizzo e-mail esistente. In questo modo l’indirizzo e-mail sarà gratuito.
+1. Modifica l’indirizzo e-mail dell’Allievo o aggiungi *_old* all’indirizzo e-mail esistente. In questo modo l’indirizzo e-mail potrà essere utilizzato.
 
    Ad esempio, se l’indirizzo e-mail dell’Allievo è *<abc@adobe.com>,* modificalo in *<abc_old@adobe.com>*
 
@@ -89,6 +87,6 @@ Questo problema si verifica in uno dei seguenti scenari:
 
    *Modifica indirizzo e-mail utente*
 
-1. Modifica l’indirizzo e-mail dell’Allievo o aggiungi *_old* all’indirizzo e-mail esistente. In questo modo l’indirizzo e-mail sarà gratuito.
+1. Modifica l’indirizzo e-mail dell’Allievo o aggiungi *_old* all’indirizzo e-mail esistente. In questo modo l’indirizzo e-mail potrà essere utilizzato.
 
    Ad esempio, se l’indirizzo e-mail dell’Allievo è **<abc@adobe.com>**, modificalo in **<abc_old@adobe.com>**.

@@ -2,17 +2,17 @@
 user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
-source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
+nudge: true
+source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 35%
-
+source-wordcount: '1786'
+ht-degree: 34%
 ---
 
-
-# Guida di Learning Manager {#using}
+# Guida utente di Adobe Learning Manager {#using}
 
 * [Guida utente di Adobe Learning Manager](user-guide.md)
+* {hide-from-toc}[Guida utente di Adobe Learning Manager](user-guide-redesign.md)
 * Introduzione {#introduction}
   * [Riepilogo delle nuove funzioni agosto 2026](whats-new.md)
   * [Riepilogo delle nuove funzioni aprile 2026](whats-new-april-2026.md)
@@ -114,7 +114,11 @@ ht-degree: 35%
   * [Alternative e equivalenza](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
   * [Piani di apprendimento](administrators/feature-summary/learning-plans.md)
   * [Gestione degli ordini e della fatturazione di Learning Manager](administrators/feature-summary/billing-management.md)
+  * [Condivisione di posti e piani account in Adobe Learning Manager](administrators/feature-summary/tiering-seat-sharing.md)
   * [Risorse formative](administrators/feature-summary/job-aids.md)
+  * Vitual Coach {#virtualcoachadmin}
+    * [Gestire l’utilizzo e la fatturazione degli allenatori virtuali](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
+    * [Report degli allenatori virtuali](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
   * [Crea canali (beta)](administrators/feature-summary/create-channels.md)
   * [Certificazioni](administrators/feature-summary/certifications.md)
   * [Creare e personalizzare un certificato](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
@@ -207,6 +211,15 @@ ht-degree: 35%
   * [Creazione, modifica e pubblicazione di corsi](authors/feature-summary/courses.md)
   * [Cataloghi](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[Corso adattivo](authors/feature-summary/adaptive-course-author.md)
+  * Coach virtuale {#virtual-coach}
+    * [Che cos’è l’istruzione virtuale](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+    * [Raccogliere i materiali per un ruolo di istruttore virtuale](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
+    * [Progettazione di un coach virtuale](authors/feature-summary/virtual-coach/role-play-design.md)
+    * Creazione di un istruttore virtuale {#create-virtual-coach}
+      * [Creare un ruolo utilizzando un modello di istruzioni virtuale](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md)
+      * [Creazione e pubblicazione di un ruolo di istruttore virtuale](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)
+    * [Aggiunta di un ruolo di istruttore virtuale a un corso](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)
+    * [Domande frequenti su Virtual Coach](authors/feature-summary/virtual-coach/virtual-coach-faq.md)
   * [Risorse formative](authors/feature-summary/job-aids.md)
   * [Gradebook](authors/feature-summary/alm-author-gradebook.md)
   * [Utenti di iPad e tablet Android](authors/feature-summary/ipad-android-tablet-users.md)
@@ -276,6 +289,9 @@ ht-degree: 35%
   * [Accesso](learners/feature-summary/user-login.md)
   * [Impostazioni profilo](learners/feature-summary/settings.md)
   * [Cataloghi](learners/feature-summary/catalogs.md)
+  * [Allenatore virtuale] {#virtualcoach}
+    * [Esercitati un ruolo con Virtual Coach](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
+    * [Informazioni sul report delle prestazioni dell&#39;istruttore virtuale](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [Iscrizione con un clic](learners/feature-summary/learner-one-click-enrollment.md)
   * [Widget Salvato dall&#39;utente](learners/feature-summary/saved-by-me-widget.md)
   * [Il mio apprendimento](learners/feature-summary/courses.md)
@@ -389,6 +405,7 @@ ht-degree: 35%
   * [Creazione di un account di prova in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * Modifiche API {#api-changes}
   * [Report utente incrementale (API dei processi)](/help/migrated/incremental-user-report.md)
+  * [Modifiche alle API nella versione di settembre 2026](/help/migrated/api-changes-sep-2026.md)
   * [Modifiche alle API nella versione di agosto 2026](/help/migrated/api-changes-august-2026.md)
   * [Modifiche alle API nella versione di aprile 2026](/help/migrated/api-changes-alm.md)
   * [Modifiche alle API nella versione di maggio 2026](/help/migrated/api-changes-alm-may.md)

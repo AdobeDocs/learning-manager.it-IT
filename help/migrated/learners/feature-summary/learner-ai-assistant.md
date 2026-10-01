@@ -3,9 +3,9 @@ description: Ottieni risposte rapide e precise dai tuoi contenuti di apprendimen
 jcr-language: en_us
 title: Assistente all’intelligenza artificiale per gli Allievi in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
+source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3245'
 ht-degree: 0%
 ---
 # Assistente AI per gli Allievi
@@ -81,7 +81,7 @@ Adobe elabora in modo sicuro i contenuti di apprendimento utilizzando servizi af
 
 L&#39;Assistente all&#39;intelligenza artificiale utilizza solo contenuti di cataloghi interni e librerie di contenuti di terze parti. Le risposte alle domande degli Allievi provengono solo dai cataloghi a cui hanno accesso.
 
-Le seguenti origini di contenuto non sono supportate:
+Le seguenti origini di contenuto non sono supportate nella versione corrente:
 
 - Cataloghi esterni condivisi
 - Cataloghi predefiniti

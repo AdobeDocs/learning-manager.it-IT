@@ -6,11 +6,9 @@ contentowner: kuppan
 exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 76%
-
+source-wordcount: '648'
+ht-degree: 81%
 ---
-
 # Condivisione su Apprendimento sociale
 
 Impara a utilizzare il bookmarklet Social per condividere istantaneamente i programmi di apprendimento online di un utente sul social Web.
@@ -57,7 +55,7 @@ Aggiungi una descrizione al tuo post, seleziona la bacheca in cui desideri pubbl
 ## Internet Explorer {#internetexplorer}
 
 * Fai clic con il pulsante destro del mouse sull’icona delle impostazioni nell’angolo in alto a destra del browser. Oppure utilizza **Alt + C** sulla tastiera per aprire la finestra della barra dei preferiti.
-* Per rendere visibile la barra Preferiti nel browser, fare clic su **[!UICONTROL Barra Preferiti]**.
+* Per fare in modo che la barra dei preferiti venga visualizzata sul browser, fai clic su **[!UICONTROL Barra dei Preferiti]**.
 
 ## Microsoft Edge {#microsoftedge}
 
@@ -82,7 +80,7 @@ Per aggiungere manualmente i segnalibri alla barra dei segnalibri, fai clic con 
 ## Microsoft Edge in Windows {#microsoftedgeinwindows}
 
 1. Assicurati che la barra dei preferiti sia visibile. Fai clic con il pulsante destro del mouse sulla barra dei preferiti > **Crea nuova cartella**.
-1. Per aggiungere l’URL alla cartella della barra dei preferiti che ti piace, fai clic sull’icona **Hub dei segnalibri** > **Icona dei segnalibri**.
+1. Per aggiungere l’URL alla cartella della barra Preferiti desiderata, fai clic sull’icona **Hub segnalibri** > **icona Segnalibri**.
 1. Salva qualsiasi pagina online nella cartella e rinominala come Condividi sul social.
 1. Seleziona l’icona hub dei segnalibri > Condividi sui social > Modifica URL.
 1. Incolla l’indirizzo del collegamento e fai clic sul pulsante Invio.

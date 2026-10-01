@@ -3,13 +3,11 @@ title: Linee guida e limitazioni di Experience Builder in Adobe Learning Manager
 description: Le linee guida e le limitazioni di Experience Builder forniscono suggerimenti personalizzati su contenuti e corsi agli Allievi utilizzando algoritmi basati sull’intelligenza artificiale.
 jcr-language: en-us
 exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: 1830489f446d0071604b0d8102d54d7ed800bc27
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '815'
 ht-degree: 0%
-
 ---
-
 # Linee guida e limitazioni di Experience Builder
 
 Experience Builder è un potente strumento progettato per aiutare gli utenti a creare facilmente pagine Web dinamiche e coinvolgenti. Per garantire prestazioni, usabilità e sicurezza ottimali, è essenziale seguire determinate linee guida e raccomandazioni durante la configurazione delle pagine, l’utilizzo dei widget e la personalizzazione dei layout. Questo documento fornisce una panoramica dettagliata di note e punti importanti che gli utenti devono considerare quando utilizzano Experience Builder.
@@ -81,7 +79,7 @@ I menu possono essere posizionati nella parte superiore o sinistra della pagina.
 
 ### Dichiarazione di non responsabilità
 
-* Il codice personalizzato potrebbe non funzionare come previsto con le versioni future, che richiedono regolazioni. Preparati ad aggiornare il codice dopo ogni versione.
+* Sono supportate personalizzazioni personalizzate di HTML, CSS e JavaScript; tuttavia, gli aggiornamenti della piattaforma potrebbero talvolta richiedere piccole modifiche al codice personalizzato. Ti consigliamo di testare le personalizzazioni dopo le versioni principali come parte della manutenzione regolare.
 
 ## Raccomandazioni generali
 

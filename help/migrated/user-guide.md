@@ -3,13 +3,11 @@ title: Ti diamo il benvenuto nella guida utente di Adobe Learning Manager
 description: Scopri le offerte più recenti di Adobe Learning Manager (in precedenza, Adobe Captivate Prime). Parti dall’inizio, visita ogni sezione singolarmente o mettiti in contatto con la community per prepararti per un progetto.
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 45a8a3fda16025d9a34d7614c899132a2b3d7922
+source-git-commit: 3d72e5ad28f5d57090d40914a983b5c665a2e7df
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 29%
-
 ---
-
 # Ti diamo il benvenuto nella guida utente di Adobe Learning Manager
 
 Continua a leggere per scoprire cosa ti offre Adobe Learning Manager (in precedenza Adobe Captivate Prime). Inizia dal principio, esplora ogni sezione secondo i tuoi ritmi o entra in contatto con la community mentre lavori al progetto.

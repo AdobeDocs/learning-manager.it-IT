@@ -2,13 +2,11 @@
 description: L’agente del percorso di apprendimento in Adobe Learning Manager è un assistente basato sull’intelligenza artificiale che genera un piano di apprendimento personalizzato e in sequenza in base a obiettivi, background e tempo disponibile.
 jcr-language: en_us
 title: Learning Path Agent (beta) in Adobe Learning Manager
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 94b05fbec63577cd7441ff91d7d6015f4423f745
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2201'
 ht-degree: 0%
-
 ---
-
 
 # Che cos’è Learning Path Agent
 
@@ -23,7 +21,7 @@ I percorsi di apprendimento personalizzati sono progettati per due casi d&#39;us
 
 ## Come funziona l&#39;approccio basato sulla conversazione
 
-L&#39;agente ti incontra dove sei. Si inizia descrivendo ciò che si desidera apprendere in un linguaggio semplice, con tutti i dettagli che si hanno. L&#39;agente quindi pone domande di follow-up per comprendere il tuo ruolo, le tue sfide specifiche e quanto tempo puoi dedicare all&#39;apprendimento ogni settimana.
+L’agente genera quindi un percorso di apprendimento denominato che mostra ogni corso, la sua descrizione, la durata e il conteggio dei moduli. Prima di salvare, puoi chiedere all’agente di aggiungere, rimuovere o sostituire i singoli corsi nel percorso utilizzando il linguaggio naturale.&quot;
 
 Dalle tue risposte, l’agente identifica 3-5 argomenti di apprendimento con livelli di esperienza consigliati. Puoi esaminare questi argomenti, richiedere modifiche o confermarli prima che l’agente cerchi corsi corrispondenti. L’agente genera quindi un percorso di apprendimento denominato che mostra ogni corso, la sua descrizione, la durata e il conteggio dei moduli. Potete regolare ulteriormente il tracciato prima di salvarlo.
 
@@ -47,6 +45,7 @@ Una volta salvato un percorso di apprendimento personalizzato, è possibile cond
 - Assicura in anticipo il tuo impegno di tempo, in modo che il percorso generato si adatti al tuo programma effettivo. L&#39;agente comprende il linguaggio naturale: &quot;due serate a settimana&quot; o &quot;30 minuti al giorno&quot; sono entrambi validi.
 - Consulta gli argomenti suggeriti prima di chiedere all’agente di generare corsi. La conferma o la regolazione degli argomenti in questa fase consente di risparmiare tempo rispetto alla successiva revisione dell’elenco dei corsi.
 - Se in un argomento non viene visualizzato contenuto corrispondente, prendi nota dell’argomento e contatta l’amministratore per richiedere che i corsi pertinenti vengano aggiunti al catalogo.
+- Utilizza il linguaggio naturale per perfezionare il percorso prima di salvarlo. Ad esempio, chiedi di rimuovere un corso già completato o di sostituirne uno che ti sembra troppo avanzato.
 
 ## Configurazione dell’agente del percorso di apprendimento personalizzato
 
@@ -84,7 +83,7 @@ Utilizza l’assistente dell’intelligenza artificiale dell’Allievo in Adobe 
 2. Digita il tuo obiettivo di apprendimento nel campo di testo. Sii il più specifico possibile. Ad esempio:
    - *Sono uno sviluppatore di software e desidero creare un agente di intelligenza artificiale utilizzando il cursore.*
    - *Sono appena stato promosso a manager e desidero imparare a gestire conversazioni difficili.*
-   - *Desidero padroneggiare la modellazione finanziaria come analista.*
+   - *Desidero utilizzare la modellazione finanziaria come analista.*
      ![](assets/ai-assistant.png)
 
 3. Facoltativamente, seleziona _+ Nuova chat_ per avviare una nuova conversazione se hai sessioni precedenti aperte.
@@ -120,10 +119,10 @@ Continuare la conversazione finché l&#39;agente non presenta gli argomenti sugg
 
 ### Rivedi gli argomenti suggeriti
 
-Dopo aver raccolto un contesto sufficiente, l’agente presenta un elenco di 3-5 argomenti di apprendimento, ciascuno con un titolo, una breve descrizione e un livello di esperienza consigliato.
+Dalle tue risposte, l’agente identifica 3-5 argomenti di apprendimento. Puoi esaminare questi argomenti, richiedere modifiche o confermarli prima che l’agente cerchi corsi corrispondenti. L’agente genera quindi un percorso di apprendimento denominato che mostra ogni corso, la sua descrizione, la durata e il conteggio dei moduli. Potete regolare ulteriormente il tracciato prima di salvarlo.
 
-1. Leggete attentamente l&#39;elenco degli argomenti. L&#39;agente seleziona i livelli di esperienza in base a ciò che hai condiviso, ma puoi richiedere le modifiche.
-2. Per modificare un argomento, ad esempio per cambiare il livello di esperienza o scambiare un argomento, digita il tuo feedback nella chat. Per esempio, ho già una certa conoscenza del primo argomento. Puoi impostarlo su intermedio?
+1. Esamina gli argomenti suggeriti per assicurarti che si allineino con il tuo obiettivo di apprendimento.
+2. Per regolare gli argomenti, digita il tuo feedback nella chat. È possibile chiedere all&#39;agente di aggiungere, rimuovere o sostituire un argomento.
 3. Se sei soddisfatto degli argomenti suggeriti, confermali rispondendo nella chat o selezionando la richiesta di conferma suggerita se ne viene visualizzata una.
 
 ### Revisione del percorso di apprendimento
@@ -141,7 +140,27 @@ L’agente informa l’utente che non è stato possibile trovare corsi per tali 
 <!-- - Review the path. If you want to change something, for example, remove a course, adjust the scope, or explore different topics. Type your request in the chat\. For example, Can you remove the first course and replace it with something shorter? -->
 Quando sei soddisfatto del percorso, chiedi all’agente di salvarlo digitando salva il percorso di apprendimento.
 
+<!--
 ![](assets/create-lp.png)
+-->
+
+### Regolare il percorso di apprendimento prima di salvarlo
+
+Prima di salvare il percorso, puoi chiedere all’agente di aggiungere, rimuovere o sostituire un corso. Descrivi la modifica in linguaggio semplice. L&#39;agente aggiorna solo il corso che hai menzionato. Il resto del tracciato resta lo stesso.
+
+Ad esempio:
+
+- Ho già completato il secondo corso. Rimuovilo.
+- Aggiungi un corso sull&#39;[argomento]. Non ne vedo uno nell&#39;elenco.
+- Il quarto corso sembra troppo avanzato. Puoi sostituirlo con qualcosa di più fondamentale?
+
+L&#39;agente applica la modifica e visualizza il percorso aggiornato. Continuate a regolare finché non siete soddisfatti, quindi salvate il tracciato.
+
+>[!NOTE]
+>
+>Un percorso di apprendimento può contenere un massimo di cinque corsi. Se chiedi di aggiungere un corso quando il percorso è già pieno, l’agente ti chiede quale corso esistente desideri sostituire.
+
+Se la tua richiesta non è chiara, l&#39;agente pone una domanda chiarificatrice prima di apportare una modifica. Se non esiste un sostituto adeguato per un corso che desideri sostituire, l’agente spiega il motivo e suggerisce invece il corso corrispondente più simile.
 
 ### Salvare e accedere al percorso di apprendimento
 
@@ -177,7 +196,7 @@ Tutti i percorsi salvati vengono visualizzati nella striscia _Percorsi di appren
 
 _Quanti percorsi di apprendimento personalizzati è possibile salvare?_
 
-La striscia _Percorsi di apprendimento personalizzati_ nella home page mostra un massimo di 10 percorsi.
+La striscia _Percorsi di apprendimento personalizzati_ nella home page mostra un massimo di 20 percorsi.
 
 _Quali informazioni è necessario fornire per ottenere un percorso di apprendimento pertinente?_
 
@@ -201,9 +220,13 @@ Sì. Durante la conversazione, puoi chiedere all&#39;agente di aggiungere, rimuo
 
 _È possibile modificare i singoli corsi in un percorso generato?_
 
-N. Una volta che l’agente genera un percorso, la selezione del corso viene corretta. Non è possibile scambiare, rimuovere o sostituire singoli corsi. Ciò che l&#39;agente consiglia è ciò che il percorso contiene.
+Sì. Prima di salvare il percorso, puoi chiedere all’agente di aggiungere, rimuovere o sostituire un corso utilizzando il linguaggio naturale. Ad esempio, &quot;rimuovi il secondo corso&quot; o &quot;sostituisci il quarto corso con qualcosa di più fondamentale&quot;. L&#39;agente aggiorna solo il corso menzionato e lascia invariato il resto del percorso.
 
-Se i corsi suggeriti non sono adatti, l’approccio migliore è tornare indietro e regolare i tuoi argomenti prima di generare. L’agente seleziona i corsi in base agli argomenti che confermi, quindi se si cambia l’ambito dell’argomento o il livello di esperienza, viene generato un set di corsi diverso.
+Se desideri una modifica più ampia per diversi argomenti, è più veloce regolare gli argomenti prima che l’agente generi il percorso, poiché la selezione del corso si basa sugli argomenti che confermi.
+
+_Cosa accade se si tenta di aggiungere un corso ma il percorso è già pieno?_
+
+Un percorso di apprendimento può includere un massimo di cinque corsi. Se si richiede di aggiungere un nuovo corso mentre il percorso è pieno, l’agente chiede quale corso esistente si desidera sostituire con quello nuovo.
 
 _Perché l&#39;agente continua a porre domande di follow-up?_
 
