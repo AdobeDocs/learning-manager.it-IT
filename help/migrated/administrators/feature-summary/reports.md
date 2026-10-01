@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Report
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: d8c811bdfc4f41ef354a8563ab59070db436bd1d
+source-git-commit: 6142d938c3bd8758cf4c592a0f343e920ae8b0d7
 workflow-type: tm+mt
-source-wordcount: '8746'
+source-wordcount: '8793'
 ht-degree: 55%
 ---
 # Report {#reports}
@@ -1016,7 +1016,7 @@ Il foglio di report del dashboard esportato fornisce informazioni dettagliate an
    *Assi per i report*
 
 1. Scegli l’intervallo/il criterio **[!UICONTROL asse Y]** secondario per il report dalle opzioni a discesa. Ad esempio, per un’opzione di iscrizione al programma di apprendimento, scegli uno o più stati dal menu a discesa Stati. I dati dell’intervallo secondario sono rappresentati sotto forma di grafici a linea.
-1. Scegli i criteri dell’asse X&#x200B;**&#x200B;** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
+1. Scegli i criteri dell’asse X**** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
 1. Nella sezione Intervallo di tempo, scegli l’opzione appropriata dal menu a discesa. Le opzioni disponibili sono:
 
    * Ultimo mese
@@ -1251,9 +1251,10 @@ Il report è di tipo additivo: i nuovi record di modifica vengono aggiunti nel t
 
 Il report è disponibile per tutti gli utenti con privilegi Report, inclusi gli amministratori completi e gli amministratori personalizzati a cui è stato concesso l&#39;accesso al report, non solo i proprietari dell&#39;account.
 
->[!NOTE]
->
->I record sono disponibili a partire dall’aggiornamento 112, settembre 2026. Le modifiche apportate prima di questo aggiornamento non vengono incluse nel report. Consulta [note sulla versione](/help/migrated/release-note/release-notes.md) aggiornamento 112.
+## Registrazioni e modifiche {#recordschanges}
+
+* I record sono disponibili a partire dall’aggiornamento 112, settembre 2026. Le modifiche apportate prima di questo aggiornamento non vengono incluse nel report. Consulta [note sulla versione](/help/migrated/release-note/release-notes.md) aggiornamento 112.
+* Le modifiche apportate a una delle impostazioni possono richiedere fino a un’ora per essere riportate nel report.
 
 ## Perché questo report è importante per la conformità
 
@@ -1326,7 +1327,7 @@ Il file `.csv` scaricato include le colonne seguenti.
 
 ## Accedi a questo report a livello di programmazione
 
-È possibile recuperare il report di prova di verifica dell’amministratore a livello di programmazione utilizzando l’API dei processi, anziché generarlo manualmente dall’app di amministrazione. Questa funzione è utile per pianificare esportazioni regolari o inserire il report in un sistema di monitoraggio a valle o di avviso. Ulteriori informazioni sull&#39;API dei [processi per il report di prova di verifica dell&#39;amministratore](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)
+È possibile recuperare il report di prova di verifica dell’amministratore a livello di programmazione utilizzando l’API dei processi, anziché generarlo manualmente dall’app di amministrazione. Questa funzione è utile per pianificare esportazioni regolari o inserire il report in un sistema di monitoraggio a valle o di avviso. Ulteriori informazioni sull&#39;[API dei processi per il report di prova di verifica dell&#39;amministratore](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report).
 
 ## Limitazioni
 
@@ -1345,6 +1346,9 @@ Il file `.csv` scaricato include le colonne seguenti.
 
 **Nessun record visualizzato prima di una determinata data**
 I record sono disponibili solo dall’aggiornamento 112 (settembre 2026) in poi. Le modifiche apportate prima di tale aggiornamento non vengono incluse nel report. Consulta [note sulla versione](/help/migrated/release-note/release-notes.md)
+
+**Le mie modifiche, che ho apportato alcuni minuti fa, non vengono riportate nel report**
+Consulta il secondo punto elenco in [Record e modifiche](#recordschanges) sopra.
 
 **La colonna UUID è vuota per alcuni o tutti i record**
 La colonna UUID viene compilata solo se UUID è abilitato a livello di account. Se non è attivata, questa colonna non sarà presente.
