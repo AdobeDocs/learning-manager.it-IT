@@ -4,13 +4,11 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: bad5de6025494320a863e58d1b0bd95ae6e10038
+source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
 workflow-type: tm+mt
-source-wordcount: '34464'
-ht-degree: 64%
-
+source-wordcount: '35308'
+ht-degree: 63%
 ---
-
 # Note sulla versione di Adobe Learning Manager
 
 <!--
@@ -19,12 +17,129 @@ ht-degree: 64%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 
 -->
+
++++Aggiornamento 112: versione di Adobe Learning Manager del 30 settembre 2026
+
+## Funzioni in questa versione
+
+**Virtual Coach:** Virtual Coach è una soluzione di coaching basata sull&#39;intelligenza artificiale in Adobe Learning Manager che aiuta gli Allievi a sviluppare competenze attraverso scenari di gioco di ruolo realistici, feedback personalizzati e pratiche on-demand prima di applicare tali competenze in situazioni reali. [Ulteriori informazioni](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
+
+**Condivisione postazioni:** La condivisione di postazioni consente a un account di condividere una parte delle postazioni con licenza con un altro account, consentendo agli Allievi nell&#39;account di destinazione di accedere a Adobe Learning Manager utilizzando le postazioni condivise. La condivisione di postazioni è disponibile solo per gli account Ultimate; gli account Prime non possono condividere né ricevere postazioni e gli account con carta di credito fatturati sono nel piano Prime per impostazione predefinita. Gli account di prova sono un’eccezione e possono ricevere postazioni condivise da un account Ultimate. Durante una relazione attiva di condivisione di posti, l’account di prova riceve l’accesso alle funzioni di livello Ultimate. [Ulteriori informazioni](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Report di prova di verifica dell&#39;amministratore:** Il report di prova di verifica dell&#39;amministratore fornisce un record cronologico delle modifiche alla configurazione in modo che sia possibile determinare:
+
+* Chi ha apportato il cambiamento
+* Quando è stata effettuata la modifica
+* Che cosa era l’impostazione prima della modifica
+* Che cosa è l’impostazione dopo la modifica
+
+La relazione riguarda le modifiche apportate:
+
+* Nozioni di base
+* Avanzate
+* Integrazioni
+
+Per visualizzare l’intero elenco delle impostazioni e i relativi dettagli in ogni categoria, puoi selezionare il collegamento **Scarica elenco impostazioni** dal menu a comparsa Audit trail dell’amministratore che viene visualizzato prima di generare il report.
+
+Di seguito sono riportate le opzioni disponibili per ciascuna categoria:
+
+Nozioni di base
+
+* Informazioni di base
+* Moderazione del corso
+* Forum di discussione
+* Tentativi multipli
+* Visibilità di abilità, tag, prodotti e ruoli
+* ID univoci degli oggetti di apprendimento → Abilita
+* Mostra pannelli filtri
+* Visualizzazione predefinita (ruolo Allievo) → Visualizzazione elenco
+* Gestione Istruttori
+* Anteprima modulo
+* Abilita i prezzi per corsi/percorsi di apprendimento/certificazioni
+* Abilita carrello SKU articoli multipli
+* Impostazioni del lettore
+* I Manager possono contrassegnare il corso come completo
+* Registra automaticamente utenti
+* Elimina automaticamente gli utenti interni (se non accedono al sistema per (numero configurabile) giorni)
+* Mostra Etichette catalogo
+* Tipo di conformità personalizzata
+* Gli allievi possono visualizzare i propri punteggi
+* E-mail di riepilogo
+* Abilita icone di corso/percorso di apprendimento/certificazione/risorsa formativa
+* Collegamenti a piè di pagina
+* Report fuso orario
+* Integrazione con Badgr
+* Mostra valutazioni
+* Mostra la finestra a comparsa della valutazione a stelle nel lettore
+* Terminologia del prodotto
+* Aggiornamento della versione del modulo
+* Ritiro (Corso, Percorso di apprendimento o Certificazione)
+* Rimozione automatica (corso, percorso di apprendimento o certificazione)
+* Mostra tutti i corsi iscritti nei risultati della ricerca
+* Importazione di abilità
+* Gradebook (visibilità Allievo)
+* Rimozione automatica utenti eliminati
+* Crediti
+* Corsi/percorsi alternativi
+* Apprendimento esterno
+
+Integrazioni
+
+* Metodi di accesso (interni ed esterni)
+* Configurazione Single Sign-On (SSO)
+* Origini dati — (Origini + Sincronizza impostazioni)
+* Aggiungi informazioni peer
+
+Avanzate
+
+* Etichette del catalogo → tutte le etichette del catalogo
+* Impostazioni → etichette del catalogo (accesso ai valori)
+* Cartella dei contenuti
+* Elenco ed editor → aule
+* Aule → Autori (impostazioni)
+* Importazione in blocco → aule
+* Aule → Migrazione del formato aula
+* Calendario festivo
+* Report — Impostazioni (dashboard di conformità e successo del gruppo)
+
+Questo report può essere generato anche dall’API dei processi. Consulta [Report di prova di verifica dell’amministratore](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) e [API dei processi per Report di prova di verifica dell’amministratore](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
+
+## Miglioramenti in questa versione
+
+### Agente Insights
+
+Sono stati apportati due miglioramenti a Insights Agent. :
+
+* **Supporto della terminologia del prodotto:** se l&#39;amministratore ha personalizzato i termini standard utilizzando la terminologia del prodotto in Impostazioni > Generale, Insights Agent riconosce e utilizza tali termini anziché la terminologia predefinita. Ad esempio, se la tua organizzazione ha rinominato Corso in Capitolo, puoi chiedere, &quot;Quanti capitoli sono stati completati il mese scorso?&quot; Insights Agent interpreta il termine personalizzato e utilizza &quot;chapter&quot; nelle intestazioni di risposta e colonna.
+
+* **Iscrizione al corso, esclusa la lista d’attesa per impostazione predefinita:** Per le query di iscrizione diretta e indiretta senza filtri, il conteggio di iscrizioni dirette include gli Allievi con stato In attesa, anche se sono in lista d’attesa e non partecipano attivamente. Per impostazione predefinita, il pannello Approccio non indica che nel conteggio siano inclusi gli Allievi in lista d’attesa. Gli Allievi in lista d’attesa vengono esclusi solo quando l’Amministratore ne richiede esplicitamente l’esclusione, nel qual caso viene divulgata la regola applicata.
+
+[Ulteriori informazioni](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+## API
+
+* **API per l’accesso al catalogo per gli oggetti di apprendimento:** L’API per l’accesso al catalogo degli oggetti di apprendimento consente di determinare se uno o più oggetti di apprendimento sono direttamente accessibili a un Allievo tramite un catalogo assegnato. Utilizza la risposta per controllare gli elementi dell&#39;interfaccia utente correlati alla registrazione. Ad esempio, mostra l’opzione Iscrizione solo quando è confermato l’accesso diretto al catalogo, consentendo allo stesso tempo agli Allievi di visualizzare la pagina del corso indipendentemente dall’accesso al catalogo.
+Ulteriori informazioni.
+
+* **API dei processi per il report di prova di verifica dell&#39;amministratore:** Questa API viene utilizzata per l&#39;utilizzo dei processi dei report di prova di verifica, creando un processo che genera un report di prova di verifica della modifica della configurazione per un determinato intervallo di date e set di tipi di impostazioni.
+
+[Ulteriori informazioni](/help/migrated/api-changes-sep-2026.md).
+
+## Correzioni
+
+**Le date di inizio e di fine del percorso di apprendimento** non venivano visualizzate correttamente quando il fuso orario dell&#39;istanza del percorso di apprendimento differiva dal fuso orario del sistema o del browser dell&#39;amministratore. La modifica delle date ha causato la visualizzazione della data di inizio nel giorno di calendario errato e lo stesso problema di conversione del fuso orario ha influito sugli avvisi di notifica nel calendario.
+
+**App per dispositivi mobili:** il lettore non è stato ridimensionato correttamente in Safari e Edge quando gli Allievi sono passati dall’orientamento orizzontale a quello verticale, causando problemi di visualizzazione come una linea bianca nella sezione Panoramica e impedendo l’accesso al sommario e alle note.
+
+**Gamification:** gli Allievi non hanno ricevuto punti di gamification durante la revisione di un corso completato dalla sezione Segnalibri.
+
++++
 
 +++Aggiornamento 111: versione di Adobe Learning Manager del 31 agosto 2026
 
@@ -169,8 +284,8 @@ Quando un Istruttore condivide una finestra di Chrome riproducendo un video e qu
 
 Il video continua a essere riprodotto localmente per l’istruttore, ma i partecipanti remoti potrebbero non vedere l’aggiornamento del contenuto mentre la finestra condivisa non è a fuoco. Il comportamento varia a seconda del sistema operativo:
 
-&#x200B;- In Windows, i partecipanti visualizzano una schermata nera.
-&#x200B;- In macOS, i partecipanti visualizzano l’ultimo fotogramma video visualizzato.
+- In Windows, i partecipanti visualizzano una schermata nera.
+- In macOS, i partecipanti visualizzano l’ultimo fotogramma video visualizzato.
 
 La riproduzione del video per i partecipanti in genere riprende quando torna lo stato attivo nella finestra del browser condiviso.
 
@@ -452,7 +567,7 @@ Adobe Learning Manager (ALM) non incrementa la versione delle risorse di Second 
 
 Second Nature non supporta la gestione delle versioni nel sistema di origine. Quando un Autore aggiorna i dati dello scenario nel portale SN, le risorse ALM e gli oggetti di apprendimento associati fanno riferimento automaticamente al contenuto aggiornato senza creare una nuova versione.
 
-Al contrario, ALM supporta il controllo delle versioni per le risorse basate su file e su LTI, in cui gli autori possono sostituire i file o aggiornare i collegamenti di avvio. Poiché questi controlli non sono disponibili per le integrazioni SN, ALM non supporta il bumping delle versioni per il contenuto di Second Nature.
+Al contrario, ALM supporta il controllo versione per risorse basate su file e su LTI, in cui gli autori possono sostituire i file o aggiornare i collegamenti di avvio. Poiché questi controlli non sono disponibili per le integrazioni SN, ALM non supporta il bumping delle versioni per il contenuto di Second Nature.
 
 
 +++
@@ -639,7 +754,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1889,7 +2004,7 @@ La notifica push è ora supportata anche per gli annunci.
 
 ### Feedback L1 obbligatorio {#mandatoryl1feedback}
 
-Nell’ultima versione di agosto 2020, Learning Manager consente agli amministratori di configurare il feedback L1 in modo che tutte le domande diventino obbligatorie. La stessa funzione è ora supportata per gli Allievi nell’app mobile.
+Nell’ultima versione di agosto 2020, Learning Manager consente agli amministratori di configurare il feedback L1 in modo che tutte le domande diventino obbligatorie. La stessa funzione è ora supportata per gli Allievi nella Prospettiva nell’app mobile.
 
 ### Miglioramenti all’interfaccia utente {#userinterfaceenhancements}
 
@@ -2119,7 +2234,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -2497,7 +2612,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -3123,7 +3238,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -3633,7 +3748,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**&#x200B;** veniva **&#x200B;**&#x200B;rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**** veniva **** rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L’URL non è cliccabile nell’e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** venivano modificati. Questo problema è stato risolto.
