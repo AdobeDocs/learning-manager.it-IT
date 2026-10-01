@@ -2,15 +2,13 @@
 description: Insights Agent è una funzione basata sull'intelligenza artificiale in Adobe Learning Manager che consente agli amministratori di eseguire query sui dati degli Allievi utilizzando il linguaggio naturale.
 jcr-language: en_us
 title: Agente Insights (beta) in Adobe Learning Manager
-source-git-commit: ed7e51ce51aa57144b8e519cb24a95ffbc436504
+source-git-commit: a599b117a000c83105fd258c307fedd6a99b6f96
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2929'
 ht-degree: 0%
-
 ---
 
-
-# Che cos&#39;è Insights Agent
+# Che cos&#39;è Insights Agent?
 
 Insights Agent è una funzione basata sull&#39;intelligenza artificiale in Adobe Learning Manager che consente agli amministratori di eseguire query sui dati di apprendimento utilizzando il linguaggio naturale. Invece di scaricare report e manipolare fogli di calcolo, digita una domanda, come ad esempio: &quot;Quanti corsi sono stati creati negli ultimi 3 mesi nell’account? Dammi un rapporto mensile&quot;. E Insights Agent recupera e presenta direttamente i dati. È possibile visualizzare i risultati come testo, punti elenco o tabelle oppure scaricarli come file CSV.
 
@@ -28,7 +26,7 @@ Ogni query restituisce una tabella formattata o un file CSV scaricabile, insieme
 
 ## Elementi non supportati da Data Insights Agent
 
-I seguenti tipi di dati non rientrano nell&#39;ambito di questa versione:
+I seguenti tipi di dati non sono attualmente inclusi nell&#39;ambito di Insights Agent:
 
 - Feedback e dati dei sondaggi
 - Punti di gamification e distintivi
@@ -61,6 +59,7 @@ L’agente di Insights è disponibile per gli amministratori dal pannello Assist
 Quando la modalità **Ottieni informazioni dettagliate** è selezionata per impostazione predefinita, puoi iniziare immediatamente a eseguire query sui dati di apprendimento senza dover regolare la modalità ogni volta che accedi all&#39;assistente. Tuttavia, se passate alla modalità **Apprendimento** per domande istruttive, assicuratevi di selezionare nuovamente **Ottieni informazioni** prima di inviare una query.
 
 1. Seleziona l’icona Assistente AI in Learning Manager per aprire il pannello Assistente. L&#39;opzione **Get Insights** è già selezionata per impostazione predefinita.
+
    ![](assets/ask-question.png)
 
 2. Digita la domanda nel campo di testo. Usa un linguaggio semplice. Ad esempio: **Quanti corsi sono stati creati negli ultimi 3 mesi?**
@@ -71,13 +70,16 @@ Quando la modalità **Ottieni informazioni dettagliate** è selezionata per impo
 
 Dopo aver inviato la tua domanda, Insights Agent elabora la tua richiesta e restituisce una risposta con un massimo di quattro parti:
 
-1. **Disambiguazione (se necessario):** se la domanda contiene un termine ambiguo, ad esempio &quot;attività di apprendimento&quot; o &quot;prestazioni&quot; o &quot;Assegnami dati sulle prestazioni degli ultimi 3 mesi&quot;, l&#39;assistente visualizza un elenco di opzioni e richiede di selezionarne una prima di procedere. Seleziona l’opzione che corrisponde meglio a ciò che stai cercando. Dopo la domanda iniziale, non è possibile digitare istruzioni aggiuntive. La selezione dalle opzioni fornite rappresenta l&#39;unica interazione disponibile fino a quando non si avvia una nuova query utilizzando l&#39;interfaccia query. Puoi rispondere alla rimozione delle ambiguità solo selezionando una delle opzioni fornite; il follow-up a testo libero non è disponibile in questa versione.
+1. **Disambiguazione (se necessario):** se la domanda contiene un termine ambiguo, ad esempio &quot;attività di apprendimento&quot; o &quot;prestazioni&quot; o &quot;Assegnami dati sulle prestazioni degli ultimi tre mesi&quot;, l&#39;assistente visualizza un elenco di opzioni e richiede di selezionarne una prima di procedere. Seleziona l’opzione che corrisponde meglio a ciò che stai cercando. Dopo la domanda iniziale, non è possibile digitare istruzioni aggiuntive. La selezione dalle opzioni fornite rappresenta l&#39;unica interazione disponibile fino a quando non si avvia una nuova query utilizzando l&#39;interfaccia query. Puoi rispondere alla rimozione delle ambiguità solo selezionando una delle opzioni fornite; il follow-up a testo libero non è disponibile in questa versione.
+
    ![](assets/disambiguation.png)
 
 2. **Approccio:** La sezione **Approccio** descrive i passaggi eseguiti dall&#39;agente per recuperare i dati. Viene visualizzato come pannello scorrevole sotto la domanda. Seleziona l’icona Espandi per visualizzare l’approccio completo. L&#39;analisi di questa sezione consente di confermare che la logica corrisponde all&#39;intento, in particolare per le query complesse. Ad esempio, se chiedi &quot;tutti gli Allievi iscritti nell’ultimo anno&quot;, l’agente potrebbe restituire l’iscrizione più recente di ogni Allievo anziché ogni record di iscrizione. Nella sezione **Approccio** vengono illustrate le decisioni prese dall&#39;agente durante il recupero dei dati. Se la logica non corrisponde all&#39;intento, avviare una nuova query con termini più specifici.
+
    ![](assets/approach.png)
 
 3. **Risultati:** L&#39;agente Insights genera i risultati come testo o tabella. Per le coordinate interpretate in modo ottimale in formato tabulare, l&#39;agente Insights restituisce una tabella. Insights Agent non genera grafici o grafici. Per visualizzare i dati, scarica il file CSV e aprilo nello strumento che preferisci. Con i risultati viene incluso un riepilogo in linguaggio semplice. Quando i risultati contengono un massimo di 50 righe, il riepilogo include informazioni analitiche sui dati. Quando i risultati contengono più di 50 righe, il riepilogo fornisce statistiche a livello di colonna. Ad esempio, &quot;Quali corsi non hanno meno di 5 iscrizioni create nell’ultimo anno e chi sono gli autori?&quot;
+
    ![](assets/results.png)
 
 La risposta contiene il seguente riepilogo:
@@ -95,11 +97,9 @@ La risposta contiene il seguente riepilogo:
 >
 >Il formato del riepilogo varia in base alla natura dei dati. Di seguito è riportato un esempio di risposta di riepilogo. Il riepilogo effettivo sarà diverso a seconda della query.
 
-
 >[!NOTE]
 >
 >L&#39;agente di Insights è probabilistico. Se si esegue la stessa query due volte, la formulazione delle risposte o l&#39;ordinamento dei risultati potrebbe essere leggermente diverso.
-
 
 ### Scarica il report
 
@@ -108,7 +108,8 @@ Seleziona **Scarica report** per esportare i risultati come file CSV. Per set di
 ## Avvia una nuova query
 
 Ogni sessione di Insights Agent gestisce una domanda alla volta. Dopo aver esaminato i risultati, seleziona **Nuova domanda** per porre un&#39;altra domanda. Puoi anche selezionare **Nuova chat** in qualsiasi momento, anche prima di aver ricevuto una risposta, se desideri abbandonare la query corrente e ricominciare. Non è possibile digitare una domanda di follow-up nella stessa sessione o chiedere all&#39;agente di perfezionare o espandere i risultati restituiti.
-![](assets/new-question.png)
+
+![](/help/migrated/administrators/feature-summary/assets/new-question.png)
 
 >[!TIP]
 >
@@ -117,7 +118,8 @@ Ogni sessione di Insights Agent gestisce una domanda alla volta. Dopo aver esami
 ## Invia feedback
 
 Dopo ogni risposta, seleziona l’icona con il pollice in alto o il pollice in basso per valutare il risultato. Potete anche specificare se l’output era impreciso, difficile da capire o richiedeva troppo tempo per essere restituito. Questo feedback consente di migliorare l’agente nel tempo.
-![](assets/feedback.png)
+
+![](/help/migrated/administrators/feature-summary/assets/feedback.png)
 
 ## Procedure ottimali
 
@@ -125,9 +127,11 @@ Dopo ogni risposta, seleziona l’icona con il pollice in alto o il pollice in b
 - Utilizza i termini Adobe Learning Manager esatti per denominare contenuto e gruppi di Allievi. Nella guida per la scrittura di query sono elencati i termini corretti da utilizzare.
 - Se l&#39;agente fa una domanda chiarificatrice, trattala come un segnale per perfezionare la tua query originale la prossima volta. Più specifica è la domanda, meno sono necessari i chiarimenti.
 - Prima di intervenire sui risultati, esaminare la sezione **Approccio** per verificare che la logica dell&#39;agente corrisponda alle proprie intenzioni.
-- **Specificare se includere o escludere gli Allievi in lista d&#39;attesa**. Per impostazione predefinita, le query sul conteggio delle iscrizioni includono sia gli Allievi in lista d’attesa che le iscrizioni confermate attive. Se sono necessari solo partecipanti attivi, escludi esplicitamente gli Allievi in lista d’attesa nella query. Ad esempio: &quot;Quanti Allievi sono iscritti direttamente al corso di formazione sulla sicurezza, esclusi gli Allievi inseriti in lista d’attesa?&quot; L&#39;agente comunicherà nella sezione Approccio che l&#39;esclusione è stata applicata. Senza questa istruzione, i totali dell’iscrizione possono includere una percentuale significativa di Allievi in lista d’attesa che non hanno ancora iniziato il contenuto.
+- **Specificare se includere gli Allievi in lista d’attesa.** Per impostazione predefinita, le query sul conteggio delle iscrizioni restituiscono solo gli Allievi con un’iscrizione attiva confermata: gli Allievi in lista d’attesa vengono esclusi, coerentemente con l’elenco di Allievi iscritti disponibile dalla pagina del corso o del percorso di apprendimento. Se desideri che gli Allievi nella lista d’attesa siano inclusi nel conteggio, lo dica esplicitamente nella query. Ad esempio: &quot;Quanti Allievi sono iscritti direttamente al corso di formazione sulla sicurezza, compresi gli Allievi inseriti in lista d’attesa?&quot; La sezione Approccio indicherà se gli Allievi in lista d’attesa sono stati inclusi nei risultati.
+<!--
+- **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
+-->
 - **Numero di iscrizioni dirette e indirette**: quando si eseguono query sui dati di iscrizione o completamento di un corso o di un percorso di apprendimento, Insights Agent distingue tra iscrizioni dirette (allievi iscritti in modo specifico a quel corso o percorso di apprendimento) e indirette (allievi che hanno effettuato l’accesso allo stesso contenuto come parte di un percorso di apprendimento o di una certificazione). Se si richiedono iscrizioni dirette o indirette in modo specifico, l&#39;agente restituisce il conteggio corretto per ogni tipo. Se la query non specifica l&#39;opzione diretta o indiretta, l&#39;agente potrebbe restituire un conteggio combinato. Per ottenere conteggi separati, includere la distinzione esplicitamente nella query. Ad esempio: &quot;Quanti Allievi sono iscritti direttamente o indirettamente al corso di formazione sulla sicurezza?&quot;
-
 
 ## Differenze tra Agente Insights e Report Builder
 
@@ -176,6 +180,36 @@ L&#39;agente di Insights confronta la query con il modello di dati di Adobe Lear
 | **Etichetta catalogo** | Categoria/gruppo di tag |
 
 Insights Agent non fa distinzione tra maiuscole e minuscole, ma la corrispondenza esatta dei termini migliora la precisione.
+
+### Eseguire una query utilizzando la terminologia personalizzata dell&#39;organizzazione
+
+Se l&#39;amministratore ha rinominato i termini standard utilizzando la terminologia del prodotto in **Impostazioni > Generale**, Insights Agent riconosce i termini personalizzati della tua organizzazione al posto dei valori predefiniti sopra elencati. Ad esempio, se la tua organizzazione ha rinominato **Corso** in **Capitolo**, puoi chiedere &quot;Quanti capitoli sono stati completati il mese scorso?&quot; e Insights Agent comprende la domanda e assegna un&#39;etichetta ai risultati utilizzando **capitoli** nelle intestazioni di risposta e colonna.
+
+La terminologia personalizzata si applica ovunque all&#39;interno della finestra di chat di Insights Agent, incluso il modo in cui la query viene interpretata, la spiegazione dell&#39;approccio, il riepilogo dei risultati e le intestazioni di tabella o colonna visualizzate nella chat. **Il file CSV scaricato non riflette la terminologia personalizzata.** Le intestazioni di colonna e il contenuto nel file esportato utilizzano i termini predefiniti di Adobe Learning Manager, indipendentemente da come sono stati personalizzati dall’organizzazione.
+
+- Insights Agent riconosce sia la forma singolare che la forma plurale di un termine personalizzato, come configurato nel file CSV di terminologia del prodotto.
+- Puoi comunque utilizzare il termine predefinito di Adobe Learning Manager nella query anche dopo che la tua organizzazione lo ha personalizzato. Insights Agent riconosce il termine predefinito e risponde utilizzando il termine personalizzato dell&#39;organizzazione. Ad esempio, se la tua organizzazione ha rinominato **Corso** in **Capitolo**, puoi comunque chiedere &quot;Quanti capitoli sono stati completati il mese scorso?&quot; utilizzando il termine originale. Insights Agent comprende la domanda e risponde utilizzando il termine personalizzato della tua organizzazione, **capitoli**, nella risposta.
+- Se la tua query include un termine errato o non riconosciuto, Insights Agent pone una domanda chiarificatrice e suggerisce il termine o i termini corrispondenti più vicini disponibili nel tuo account.
+- Se l&#39;amministratore reimposta la terminologia personalizzata, Insights Agent non riconosce più i termini precedentemente personalizzati e torna ai termini predefiniti.
+
+>[!NOTE]
+>
+>Il supporto per la terminologia personalizzata non si estende ai moduli e alle schede su cui Insights Agent non esegue attualmente query, ad esempio Apprendimento sociale, Risorse formative, Forum di discussione, Gamification e Annunci.
+
+<!--
+### Query using your organization's custom terminology
+
+If your administrator has renamed standard terms using **Product Terminology** in **Settings** > **General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Module** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+
+- Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term.
+- If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term available in your account.
+- If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
+
+>[!NOTE]
+>
+>Custom terminology support does not extend to modules and tabs that Insights Agent does not currently query, such as Social Learning, Job Aids, Discussion Forum, Gamification, and Announcements.
+-->
 
 ### Ancorare il contenuto
 
@@ -237,7 +271,7 @@ Utilizzatele come punti di partenza. Adattali sostituendo i nomi dei contenuti, 
 
 **Avanzamento del programma e del corso**
 
-- &quot;Qual è l’analisi stratificata dello stato di completamento del percorso di apprendimento Leadership Development? Visualizza i conteggi completati, in corso e non avviati.&quot;
+- &quot;Qual è la suddivisione dello stato di completamento del percorso di apprendimento per lo sviluppo della leadership? Visualizza conteggi completati, in corso e non avviati.&quot;
 - &quot;Quanti Allievi hanno completato il corso sulla Privacy il mese scorso?&quot;
 
 **Visualizzazioni organizzative**
@@ -260,4 +294,4 @@ Utilizzatele come punti di partenza. Adattali sostituendo i nomi dei contenuti, 
 
 **Le query inviate con script non latini non sono supportate**
 
-Insights Agent supporta le query scritte in inglese e in lingue dell&#39;alfabeto latino come francese e spagnolo. Non è possibile elaborare le query inviate utilizzando alfabeti diversi dall’alfabeto latino, inclusi giapponese, cinese, arabo, coreano, hindi e russo. L’agente visualizzerà un messaggio che indica che la query non è stata completata. Se si invia una query in una di queste lingue, avviare una nuova query e riformulare la query in inglese.
+Insights Agent supporta le query scritte in inglese e in lingue dell&#39;alfabeto latino come francese e spagnolo. Le query inviate utilizzando alfabeti non latini, inclusi giapponese, cinese, arabo, coreano, hindi e russo non vengono elaborate. L&#39;agente visualizzerà un messaggio che indica che la query non è stata completata. Se si invia una query in una di queste lingue, avviare una nuova query e riformulare la query in inglese.
