@@ -6,11 +6,9 @@ contentowner: kuppan
 exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '375'
 ht-degree: 90%
-
 ---
-
 # Mappare abilità con domini di abilità
 
 Per fare in modo che il motore di cura basato su intelligenza artificiale esegua la cura automatica di un post pubblicato da un utente per un particolare dominio di abilità, l’azienda dell’utente deve disporre delle proprie abilità personalizzate da mappare ai domini di abilità supportati presenti in LMS di Learning Manager.
