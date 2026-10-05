@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Report
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '8793'
-ht-degree: 55%
+source-wordcount: '9042'
+ht-degree: 54%
 ---
 # Report {#reports}
 
@@ -1016,7 +1016,7 @@ Il foglio di report del dashboard esportato fornisce informazioni dettagliate an
    *Assi per i report*
 
 1. Scegli l’intervallo/il criterio **[!UICONTROL asse Y]** secondario per il report dalle opzioni a discesa. Ad esempio, per un’opzione di iscrizione al programma di apprendimento, scegli uno o più stati dal menu a discesa Stati. I dati dell’intervallo secondario sono rappresentati sotto forma di grafici a linea.
-1. Scegli i criteri dell’asse X&#x200B;**&#x200B;** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
+1. Scegli i criteri dell’asse X**** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
 1. Nella sezione Intervallo di tempo, scegli l’opzione appropriata dal menu a discesa. Le opzioni disponibili sono:
 
    * Ultimo mese
@@ -1246,6 +1246,69 @@ La relazione riguarda le modifiche apportate:
 - Impostazioni **Nozioni di base**
 - Impostazioni **avanzate**
 - Impostazioni **Integrazioni**
+
+Per visualizzare l’intero elenco delle impostazioni e i relativi dettagli in ogni categoria, puoi selezionare il collegamento **Scarica elenco impostazioni** dal menu a comparsa Audit trail dell’amministratore che viene visualizzato prima di generare il report.
+
+Di seguito sono riportate le opzioni disponibili per ciascuna categoria:
+
+**Nozioni di base**
+
+* Informazioni di base
+* Moderazione del corso
+* Forum di discussione
+* Tentativi multipli
+* Visibilità di abilità, tag, prodotti e ruoli
+* ID univoci degli oggetti di apprendimento → Abilita
+* Mostra pannelli filtri
+* Visualizzazione predefinita (ruolo Allievo) → Visualizzazione elenco
+* Gestione Istruttori
+* Anteprima modulo
+* Abilita i prezzi per corsi/percorsi di apprendimento/certificazioni
+* Abilita carrello SKU articoli multipli
+* Impostazioni del lettore
+* I Manager possono contrassegnare il corso come completo
+* Registra automaticamente utenti
+* Elimina automaticamente gli utenti interni (se non accedono al sistema per (numero configurabile) giorni)
+* Mostra Etichette catalogo
+* Tipo di conformità personalizzata
+* Gli allievi possono visualizzare i propri punteggi
+* E-mail di riepilogo
+* Abilita icone di corso/percorso di apprendimento/certificazione/risorsa formativa
+* Collegamenti a piè di pagina
+* Report fuso orario
+* Integrazione con Badgr
+* Mostra valutazioni
+* Mostra la finestra a comparsa della valutazione a stelle nel lettore
+* Terminologia del prodotto
+* Aggiornamento della versione del modulo
+* Ritiro (Corso, Percorso di apprendimento o Certificazione)
+* Rimozione automatica (corso, percorso di apprendimento o certificazione)
+* Mostra tutti i corsi iscritti nei risultati della ricerca
+* Importazione di abilità
+* Gradebook (visibilità Allievo)
+* Rimozione automatica utenti eliminati
+* Crediti
+* Corsi/percorsi alternativi
+* Apprendimento esterno
+
+**Integrazioni**
+
+* Metodi di accesso (interni ed esterni)
+* Configurazione Single Sign-On (SSO)
+* Origini dati — (Origini + Sincronizza impostazioni)
+* Aggiungi informazioni peer
+
+**Avanzate**
+
+* Etichette del catalogo → tutte le etichette del catalogo
+* Impostazioni → etichette del catalogo (accesso ai valori)
+* Cartella dei contenuti
+* Elenco ed editor → aule
+* Aule → Autori (impostazioni)
+* Importazione in blocco → aule
+* Aule → Migrazione del formato aula
+* Calendario festivo
+* Report — Impostazioni (dashboard di conformità e successo del gruppo)
 
 Il report è di tipo additivo: i nuovi record di modifica vengono aggiunti nel tempo e le voci registrate in precedenza non vengono mai rimosse. In questo modo è possibile esaminare la cronologia completa di un&#39;impostazione tra più modifiche, non solo il suo valore corrente.
 
