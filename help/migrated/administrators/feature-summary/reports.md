@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Report
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
 source-wordcount: '8793'
 ht-degree: 55%
@@ -1016,7 +1016,7 @@ Il foglio di report del dashboard esportato fornisce informazioni dettagliate an
    *Assi per i report*
 
 1. Scegli l’intervallo/il criterio **[!UICONTROL asse Y]** secondario per il report dalle opzioni a discesa. Ad esempio, per un’opzione di iscrizione al programma di apprendimento, scegli uno o più stati dal menu a discesa Stati. I dati dell’intervallo secondario sono rappresentati sotto forma di grafici a linea.
-1. Scegli i criteri dell’asse X&#x200B;**&#x200B;** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
+1. Scegli i criteri dell’asse X**** appropriati per il report dalle opzioni a discesa. Se l’asse X viene scelto come data, è disponibile un’opzione per raggruppare i criteri dell’asse X per giorno, mese, trimestre e anno.
 1. Nella sezione Intervallo di tempo, scegli l’opzione appropriata dal menu a discesa. Le opzioni disponibili sono:
 
    * Ultimo mese
@@ -1249,7 +1249,7 @@ La relazione riguarda le modifiche apportate:
 
 Il report è di tipo additivo: i nuovi record di modifica vengono aggiunti nel tempo e le voci registrate in precedenza non vengono mai rimosse. In questo modo è possibile esaminare la cronologia completa di un&#39;impostazione tra più modifiche, non solo il suo valore corrente.
 
-Il report è disponibile per tutti gli utenti con privilegi Report, inclusi gli amministratori completi e gli amministratori personalizzati a cui è stato concesso l&#39;accesso al report, non solo i proprietari dell&#39;account.
+Il report è disponibile per tutti gli utenti con privilegi Report. Sono inclusi gli amministratori completi e gli amministratori personalizzati a cui è stato concesso l’accesso al report, non solo i proprietari degli account.
 
 ### Registrazioni e modifiche {#recordschanges}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35479'
 ht-degree: 63%
 ---
 # Note sulla versione di Adobe Learning Manager
@@ -17,7 +17,7 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -31,6 +31,15 @@ ht-degree: 63%
 **Virtual Coach:** Virtual Coach è una soluzione di coaching basata sull&#39;intelligenza artificiale in Adobe Learning Manager che aiuta gli Allievi a sviluppare competenze attraverso scenari di gioco di ruolo realistici, feedback personalizzati e pratiche on-demand prima di applicare tali competenze in situazioni reali. [Ulteriori informazioni](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
 
 **Condivisione postazioni:** La condivisione di postazioni consente a un account di condividere una parte delle postazioni con licenza con un altro account, consentendo agli Allievi nell&#39;account di destinazione di accedere a Adobe Learning Manager utilizzando le postazioni condivise. La condivisione di postazioni è disponibile solo per gli account Ultimate; gli account Prime non possono condividere né ricevere postazioni e gli account con carta di credito fatturati sono nel piano Prime per impostazione predefinita. Gli account di prova sono un’eccezione e possono ricevere postazioni condivise da un account Ultimate. Durante una relazione attiva di condivisione di posti, l’account di prova riceve l’accesso alle funzioni di livello Ultimate. [Ulteriori informazioni](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Miglioramenti di Learning Path Agent:** Learning Path Agent offre ora maggiore flessibilità per creare e perfezionare percorsi di apprendimento personalizzati prima di salvarli.
+
+* **Crea altri percorsi di apprendimento:** gli Allievi possono ora creare fino a 20 percorsi di apprendimento, aumentati rispetto al limite precedente di 10.
+* **Perfezionare un percorso prima di salvarlo:** gli Allievi possono chiedere all&#39;agente in lingua originale di aggiungere, rimuovere o sostituire i corsi prima di salvare un percorso di apprendimento. L’agente aggiorna solo il corso richiesto mantenendo invariato il resto del percorso, consentendo agli Allievi di continuare a perfezionare il percorso fino a quando non soddisfa le loro esigenze.
+* **Gestione migliorata dei percorsi di apprendimento completi:** un percorso di apprendimento può contenere fino a cinque corsi. Se un Allievo chiede di aggiungere un altro corso a un percorso completo, l’Agente gli chiede di scegliere un corso esistente da sostituire.
+* **Guida più intelligente per le modifiche al corso:** Se la richiesta di un Allievo non è chiara, l&#39;agente richiede chiarimenti prima di modificare il percorso. Se non è disponibile un corso sostitutivo adeguato, l&#39;agente spiega la limitazione e consiglia l&#39;alternativa più simile.
+
+[Ulteriori informazioni](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 **Report di prova di verifica dell&#39;amministratore:** Il report di prova di verifica dell&#39;amministratore fornisce un record cronologico delle modifiche alla configurazione in modo che sia possibile determinare:
 
@@ -754,7 +763,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2234,7 +2243,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -2612,7 +2621,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -3238,7 +3247,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -3748,7 +3757,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**&#x200B;** veniva **&#x200B;**&#x200B;rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**** veniva **** rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L’URL non è cliccabile nell’e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** venivano modificati. Questo problema è stato risolto.
