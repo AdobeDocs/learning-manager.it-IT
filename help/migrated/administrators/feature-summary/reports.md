@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Report
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '8793'
-ht-degree: 55%
+source-wordcount: '9042'
+ht-degree: 54%
 ---
 # Report {#reports}
 
@@ -1247,9 +1247,72 @@ La relazione riguarda le modifiche apportate:
 - Impostazioni **avanzate**
 - Impostazioni **Integrazioni**
 
+Per visualizzare l’intero elenco delle impostazioni e i relativi dettagli in ogni categoria, puoi selezionare il collegamento **Scarica elenco impostazioni** dal menu a comparsa Audit trail dell’amministratore che viene visualizzato prima di generare il report.
+
+Di seguito sono riportate le opzioni disponibili per ciascuna categoria:
+
+**Nozioni di base**
+
+* Informazioni di base
+* Moderazione del corso
+* Forum di discussione
+* Tentativi multipli
+* Visibilità di abilità, tag, prodotti e ruoli
+* ID univoci degli oggetti di apprendimento → Abilita
+* Mostra pannelli filtri
+* Visualizzazione predefinita (ruolo Allievo) → Visualizzazione elenco
+* Gestione Istruttori
+* Anteprima modulo
+* Abilita i prezzi per corsi/percorsi di apprendimento/certificazioni
+* Abilita carrello SKU articoli multipli
+* Impostazioni del lettore
+* I Manager possono contrassegnare il corso come completo
+* Registra automaticamente utenti
+* Elimina automaticamente gli utenti interni (se non accedono al sistema per (numero configurabile) giorni)
+* Mostra Etichette catalogo
+* Tipo di conformità personalizzata
+* Gli allievi possono visualizzare i propri punteggi
+* E-mail di riepilogo
+* Abilita icone di corso/percorso di apprendimento/certificazione/risorsa formativa
+* Collegamenti a piè di pagina
+* Report fuso orario
+* Integrazione con Badgr
+* Mostra valutazioni
+* Mostra la finestra a comparsa della valutazione a stelle nel lettore
+* Terminologia del prodotto
+* Aggiornamento della versione del modulo
+* Ritiro (Corso, Percorso di apprendimento o Certificazione)
+* Rimozione automatica (corso, percorso di apprendimento o certificazione)
+* Mostra tutti i corsi iscritti nei risultati della ricerca
+* Importazione di abilità
+* Gradebook (visibilità Allievo)
+* Rimozione automatica utenti eliminati
+* Crediti
+* Corsi/percorsi alternativi
+* Apprendimento esterno
+
+**Integrazioni**
+
+* Metodi di accesso (interni ed esterni)
+* Configurazione Single Sign-On (SSO)
+* Origini dati — (Origini + Sincronizza impostazioni)
+* Aggiungi informazioni peer
+
+**Avanzate**
+
+* Etichette del catalogo → tutte le etichette del catalogo
+* Impostazioni → etichette del catalogo (accesso ai valori)
+* Cartella dei contenuti
+* Elenco ed editor → aule
+* Aule → Autori (impostazioni)
+* Importazione in blocco → aule
+* Aule → Migrazione del formato aula
+* Calendario festivo
+* Report — Impostazioni (dashboard di conformità e successo del gruppo)
+
 Il report è di tipo additivo: i nuovi record di modifica vengono aggiunti nel tempo e le voci registrate in precedenza non vengono mai rimosse. In questo modo è possibile esaminare la cronologia completa di un&#39;impostazione tra più modifiche, non solo il suo valore corrente.
 
-Il report è disponibile per tutti gli utenti con privilegi Report, inclusi gli amministratori completi e gli amministratori personalizzati a cui è stato concesso l&#39;accesso al report, non solo i proprietari dell&#39;account.
+Il report è disponibile per tutti gli utenti con privilegi Report. Sono inclusi gli amministratori completi e gli amministratori personalizzati a cui è stato concesso l’accesso al report, non solo i proprietari degli account.
 
 ### Registrazioni e modifiche {#recordschanges}
 

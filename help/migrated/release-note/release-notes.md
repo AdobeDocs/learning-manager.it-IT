@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Note sulla versione di Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35230'
 ht-degree: 63%
 ---
 # Note sulla versione di Adobe Learning Manager
@@ -32,6 +32,15 @@ ht-degree: 63%
 
 **Condivisione postazioni:** La condivisione di postazioni consente a un account di condividere una parte delle postazioni con licenza con un altro account, consentendo agli Allievi nell&#39;account di destinazione di accedere a Adobe Learning Manager utilizzando le postazioni condivise. La condivisione di postazioni è disponibile solo per gli account Ultimate; gli account Prime non possono condividere né ricevere postazioni e gli account con carta di credito fatturati sono nel piano Prime per impostazione predefinita. Gli account di prova sono un’eccezione e possono ricevere postazioni condivise da un account Ultimate. Durante una relazione attiva di condivisione di posti, l’account di prova riceve l’accesso alle funzioni di livello Ultimate. [Ulteriori informazioni](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
 
+**Miglioramenti di Learning Path Agent:** Learning Path Agent offre ora maggiore flessibilità per creare e perfezionare percorsi di apprendimento personalizzati prima di salvarli.
+
+* **Crea altri percorsi di apprendimento:** gli Allievi possono ora creare fino a 20 percorsi di apprendimento, aumentati rispetto al limite precedente di 10.
+* **Perfezionare un percorso prima di salvarlo:** gli Allievi possono chiedere all&#39;agente in lingua originale di aggiungere, rimuovere o sostituire i corsi prima di salvare un percorso di apprendimento. L’agente aggiorna solo il corso richiesto mantenendo invariato il resto del percorso, consentendo agli Allievi di continuare a perfezionare il percorso fino a quando non soddisfa le loro esigenze.
+* **Gestione migliorata dei percorsi di apprendimento completi:** un percorso di apprendimento può contenere fino a cinque corsi. Se un Allievo chiede di aggiungere un altro corso a un percorso completo, l’Agente gli chiede di scegliere un corso esistente da sostituire.
+* **Guida più intelligente per le modifiche al corso:** Se la richiesta di un Allievo non è chiara, l&#39;agente richiede chiarimenti prima di modificare il percorso. Se non è disponibile un corso sostitutivo adeguato, l&#39;agente spiega la limitazione e consiglia l&#39;alternativa più simile.
+
+[Ulteriori informazioni](/help/migrated/learners/feature-summary/learning-path-agent.md).
+
 **Report di prova di verifica dell&#39;amministratore:** Il report di prova di verifica dell&#39;amministratore fornisce un record cronologico delle modifiche alla configurazione in modo che sia possibile determinare:
 
 * Chi ha apportato il cambiamento
@@ -44,69 +53,6 @@ La relazione riguarda le modifiche apportate:
 * Nozioni di base
 * Avanzate
 * Integrazioni
-
-Per visualizzare l’intero elenco delle impostazioni e i relativi dettagli in ogni categoria, puoi selezionare il collegamento **Scarica elenco impostazioni** dal menu a comparsa Audit trail dell’amministratore che viene visualizzato prima di generare il report.
-
-Di seguito sono riportate le opzioni disponibili per ciascuna categoria:
-
-Nozioni di base
-
-* Informazioni di base
-* Moderazione del corso
-* Forum di discussione
-* Tentativi multipli
-* Visibilità di abilità, tag, prodotti e ruoli
-* ID univoci degli oggetti di apprendimento → Abilita
-* Mostra pannelli filtri
-* Visualizzazione predefinita (ruolo Allievo) → Visualizzazione elenco
-* Gestione Istruttori
-* Anteprima modulo
-* Abilita i prezzi per corsi/percorsi di apprendimento/certificazioni
-* Abilita carrello SKU articoli multipli
-* Impostazioni del lettore
-* I Manager possono contrassegnare il corso come completo
-* Registra automaticamente utenti
-* Elimina automaticamente gli utenti interni (se non accedono al sistema per (numero configurabile) giorni)
-* Mostra Etichette catalogo
-* Tipo di conformità personalizzata
-* Gli allievi possono visualizzare i propri punteggi
-* E-mail di riepilogo
-* Abilita icone di corso/percorso di apprendimento/certificazione/risorsa formativa
-* Collegamenti a piè di pagina
-* Report fuso orario
-* Integrazione con Badgr
-* Mostra valutazioni
-* Mostra la finestra a comparsa della valutazione a stelle nel lettore
-* Terminologia del prodotto
-* Aggiornamento della versione del modulo
-* Ritiro (Corso, Percorso di apprendimento o Certificazione)
-* Rimozione automatica (corso, percorso di apprendimento o certificazione)
-* Mostra tutti i corsi iscritti nei risultati della ricerca
-* Importazione di abilità
-* Gradebook (visibilità Allievo)
-* Rimozione automatica utenti eliminati
-* Crediti
-* Corsi/percorsi alternativi
-* Apprendimento esterno
-
-Integrazioni
-
-* Metodi di accesso (interni ed esterni)
-* Configurazione Single Sign-On (SSO)
-* Origini dati — (Origini + Sincronizza impostazioni)
-* Aggiungi informazioni peer
-
-Avanzate
-
-* Etichette del catalogo → tutte le etichette del catalogo
-* Impostazioni → etichette del catalogo (accesso ai valori)
-* Cartella dei contenuti
-* Elenco ed editor → aule
-* Aule → Autori (impostazioni)
-* Importazione in blocco → aule
-* Aule → Migrazione del formato aula
-* Calendario festivo
-* Report — Impostazioni (dashboard di conformità e successo del gruppo)
 
 Questo report può essere generato anche dall’API dei processi. Consulta [Report di prova di verifica dell’amministratore](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) e [API dei processi per Report di prova di verifica dell’amministratore](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
 
