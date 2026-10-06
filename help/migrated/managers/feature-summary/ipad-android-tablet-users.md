@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 72%
-
+source-wordcount: '261'
+ht-degree: 89%
 ---
-
 # Utenti di iPad e tablet Android
 
 Nell’app Learning Manager per iPad o tablet Android, dopo aver effettuato l’accesso come Allievo, puoi visualizzare la seguente schermata **Home**:
@@ -25,7 +23,7 @@ Per accedere alle funzionalità di apprendimento e del catalogo, tocca il menu a
 
 Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non sei in linea. Scarica e segui i corsi in modalità non in linea e sincronizza il contenuto nell’app online appena sei connesso alla rete.
 
-1. Tocca Menu a discesa in alto e tocca Opzione di apprendimento. Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
+1. Tocca il menu a discesa°Menu°nella sezione superiore, quindi tocca l’opzione°Apprendimento. Viene visualizzato un elenco di tutti i corsi disponibili all’interno di riquadri.
 1. Tocca l’icona di download nella parte inferiore di ogni riquadro relativo agli oggetti di apprendimento per scaricare il contenuto di apprendimento.
 
 ![](assets/download-ipad.png)
@@ -36,7 +34,7 @@ Puoi accedere all’app di Learning Manager per iPad e tablet Android quando non
 
 È possibile controllare periodicamente l’archiviazione del dispositivo.
 
-Tocca l’icona profilo nell’angolo superiore destro dell’app, quindi tocca l’opzione di menu **Archiviazione dispositivo**.
+Tocca l’icona profilo nell’angolo superiore destro dell’app, quindi tocca l’opzione di menu°**Archiviazione dispositivo**.
 
 ![](assets/app-device-storage.png)
 
