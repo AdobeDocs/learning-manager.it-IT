@@ -4,13 +4,14 @@ title: Contenuti del marketplace
 description: Learning Manager ora offre la possibilità di esplorare i contenuti del marketplace e acquistare corsi di formazione. Esplora oltre 70.000 corsi che trattano un’ampia gamma di argomenti, disponibili in più formati. Scegli tra playlist selezionate che rispondono a una vasta gamma di ruoli e soddisfano le tue esigenze di apprendimento e aggiornamento delle competenze.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
-
 ---
-
 # Contenuti del marketplace
 
 Gli Amministratori dell’apprendimento spesso si trovano ad affrontare sfide legate all’approvvigionamento e al caricamento di contenuti di qualità. I Contenuti del marketplace in Adobe Learning Manager semplificano questa operazione consentendo la concessione di licenze per corsi premium da fornitori affidabili, consentendo una distribuzione dell&#39;apprendimento più rapida e scalabile. Utilizzando il marketplace dei contenuti, l’amministratore può sfogliare, visualizzare in anteprima e concedere in licenza corsi di terze parti dai provider.

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Moduli
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 61%
-
 ---
-
 # Moduli
 
 Leggi questo articolo per scoprire come gestire i moduli come Istruttore in Learning Manager.
@@ -173,11 +174,11 @@ Per aggiungere punteggi e commenti ai moduli di attività inviati, procedi come 
 
 Per le sessioni create utilizzando Live Hub, la sezione **Live Hub** nella pagina **Panoramica della sessione** consente di accedere rapidamente alle attività principali della sessione.
 
-&#x200B;- **Accedi a un&#39;aula virtuale**: seleziona **Accedi a un&#39;aula** per entrare a far parte dell&#39;aula virtuale o configurarla prima dell&#39;inizio della sessione. Puoi anche selezionare **Copia URL** per copiare il collegamento della sessione e condividerlo con i partecipanti.
+- **Accedi a un&#39;aula virtuale**: seleziona **Accedi a un&#39;aula** per entrare a far parte dell&#39;aula virtuale o configurarla prima dell&#39;inizio della sessione. Puoi anche selezionare **Copia URL** per copiare il collegamento della sessione e condividerlo con i partecipanti.
 
-&#x200B;- **Visualizza analisi sessione**: selezionare la **pagina Visualizza analisi** per aprire il dashboard di analisi sessione al termine della sessione. Il dashboard fornisce informazioni dettagliate su partecipazione, coinvolgimento, partecipazione degli Allievi e altre metriche delle sessioni.
+- **Visualizza analisi sessione**: selezionare la **pagina Visualizza analisi** per aprire il dashboard di analisi sessione al termine della sessione. Il dashboard fornisce informazioni dettagliate su partecipazione, coinvolgimento, partecipazione degli Allievi e altre metriche delle sessioni.
 
-&#x200B;- **Visualizza registrazione**: se la sessione è stata registrata, selezionare **Visualizza registrazione** per accedere alla registrazione direttamente dalla pagina **Panoramica sessione**. Se non è disponibile alcuna registrazione, la scheda ne indica lo stato.
+- **Visualizza registrazione**: se la sessione è stata registrata, selezionare **Visualizza registrazione** per accedere alla registrazione direttamente dalla pagina **Panoramica sessione**. Se non è disponibile alcuna registrazione, la scheda ne indica lo stato.
 
 ![Pagina della panoramica della sessione](../../getting-started-with-live-hub/assets/session-overview-page.png)
 *Pagina della panoramica della sessione che mostra la sezione Hub live con accesso alle attività dell&#39;Hub live.*

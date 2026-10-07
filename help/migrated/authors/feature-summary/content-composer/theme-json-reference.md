@@ -2,17 +2,18 @@
 description: Riferimento completo per ogni proprietà nello schema JSON del tema di Content Composer, tra cui token di tavolozza, pile di font, token di raggio e spaziatura, valori del ruolo del testo, proprietà dei componenti e stile di valutazione.
 jcr-language: en_us
 title: Riferimento della proprietà JSON del tema di Adobe Learning Manager Content Composer
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 5%
-
 ---
-
 
 # Riferimento della proprietà JSON del tema di Adobe Learning Manager Content Composer
 
-Riferimento completo per ogni proprietà in un file JSON tema di Content Composer, con descrizioni e valori di esempio.
+Riferimento completo per ogni proprietà in un File JSON di temi di Content Composer, con descrizioni e valori di esempio.
 
 Campi di livello superiore che identificano e descrivono il tema.
 

@@ -3,13 +3,14 @@ description: Scopri come integrare Harvard ManageMentor con Adobe Learning Manag
 jcr-language: en_us
 title: Connettore Harvard ManageMentor
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
-
 ---
-
 
 # Connettore Harvard ManageMentor in Adobe Learning Manager
 
@@ -144,5 +145,5 @@ Assicurati che nella cartella FTP Harvard ManageMentor siano presenti i seguenti
 
 **File di esempio**
 
-- [File dei metadati del corso per il connettore Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=it)
-- [File feed utente per il connettore Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=it)
+- [File dei metadati del corso per il connettore Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
+- [File feed utente per il connettore Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)

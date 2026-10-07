@@ -4,13 +4,14 @@ title: Credendo
 description: Informazioni sull'integrazione Creded con ALM per gestire e condividere distintivi esterni dalla piattaforma su vari canali di social media
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # Credendo
 
 [Creded](https://info.credly.com/) è una piattaforma di credenziale digitale che consente agli Allievi e alle organizzazioni di ottenere, condividere e verificare i risultati professionali, ad esempio distintivi o certificazioni. Gli Allievi possono gestire e condividere i distintivi tramite il proprio profilo Crely sui social media e in altri luoghi.
@@ -45,11 +46,11 @@ Il file badge.csv di Adobe Learning Manager consente di migrare i distintivi dai
 * externalBadgeId
 * externalBadgeProvider
 
-L’ID del badge esterno si riferisce all’ID del modello di badge nella piattaforma Creded e il provider del badge esterno è Creded. Aggiungi questi valori in badge.csv e segui i passaggi indicati nel [Manuale di migrazione](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/migration-manual#migrationprocedure) per migrare il file csv.
+L’ID del badge esterno si riferisce all’ID del modello di badge nella piattaforma Creded e il provider del badge esterno è Creded. Aggiungi questi valori in badge.csv e segui i passaggi indicati nel [Manuale di migrazione](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) per migrare il file csv.
 
 ## Creare un’abilità - Amministratore
 
-Una volta importato in Adobe Learning Manager, l’amministratore può creare questi distintivi come un’abilità. Per informazioni su come creare un’abilità, consulta [Creare e modificare abilità](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/skills-levels).
+Una volta importato in Adobe Learning Manager, l’amministratore può creare questi distintivi come un’abilità. Per informazioni su come creare un’abilità, consulta [Creare e modificare abilità](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels).
 
 ### Assegnare l’abilità/badge all’oggetto di apprendimento: Autore
 

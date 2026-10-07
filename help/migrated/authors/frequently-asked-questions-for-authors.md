@@ -1,17 +1,18 @@
 ---
 jcr-language: en_us
-title: Domande frequenti per gli autori
+title: Domande frequenti per gli Autori
 description: Domande frequenti per gli autori di Adobe Learning Manager
 contentowner: admin
 exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 51%
-
+source-wordcount: '1729'
+ht-degree: 77%
 ---
-
-# Domande frequenti per gli autori
+# Domande frequenti per gli Autori
 
 <table>
  <tbody>
@@ -29,7 +30,7 @@ Il ciclo di vita tipico di un corso è il seguente:
 
 **Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli allievi.
 
-**Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli Allievi.
+**Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli allievi.
 
 **Ritirato** - Dopo aver pubblicato un corso, puoi attribuirgli lo stato Ritirato se desideri che il corso non venga più visualizzato nel catalogo dei corsi per gli Allievi.
 
@@ -37,22 +38,22 @@ Il ciclo di vita tipico di un corso è il seguente:
 
 +++
 
-+++Come si pubblica un progetto di Captivate in Learning Manager?
++++Come posso pubblicare un progetto Captivate in Learning Manager?
 
 Puoi pubblicare il tuo progetto Captivate 9 completato in Adobe Learning Manager come modulo. In un progetto Captivate 9 aperto, utilizza **Publish** > **Publish in Adobe Learning Manager** e segui le istruzioni per pubblicare un modulo.
 
 Per ulteriori informazioni, fai riferimento a [Adobe Learning Manager: Moduli Publish di Adobe Captivate 9](http://primehelp.adobe.com/it/publish-modules-from-adobe-captivate9/)video.
 
-Per una procedura dettagliata, è inoltre possibile fare riferimento al [contenuto della guida](http://helpx.adobe.com/it/captivate/using/publish-project-to-captivate-prime.html) di Adobe Captivate 9.
+Per una procedura dettagliata, è inoltre possibile fare riferimento al [contenuto della guida](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) di Adobe Captivate 9.
 
 Nota\
-Il [contenuto della guida](http://helpx.adobe.com/it/captivate/using/publish-project-to-captivate-prime.html) di Adobe Captivate 9 è esterno all’applicazione Guida di Learning Manager.
+Il [contenuto della guida](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) di Adobe Captivate 9 è esterno all’applicazione Guida di Learning Manager.
 
 +++
 
 +++Come scegliere i moduli del corso in Learning Manager?
 
-Fai clic [qui](https://helpx.adobe.com/content/help/it/captivate-prime/authors/how-to-choose-modules.html) per informazioni su come scegliere i moduli del corso.
+Fai clic [qui](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html) per informazioni su come scegliere i moduli del corso.
 
 +++
 
@@ -62,7 +63,7 @@ Durante la creazione del corso, puoi scegliere il tipo di iscrizione come corsi 
 
 **Assegnato dal manager** Questi corsi possono essere assegnati solo dai manager. L’Allievo non può effettuare l’iscrizione a questo tipo di corsi.
 
-**Approvazione del manager richiesta** Questi corsi devono essere approvati dai manager. Gli Allievi possono registrarsi a questi corsi, ma non vengono iscritti direttamente senza l’approvazione del Manager. Una richiesta di notifica viene inviata ai manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del manager, gli allievi risulteranno iscritti ai corsi.
+**Approvazione del manager necessaria** Questi corsi devono essere approvati dai manager. Gli Allievi possono registrarsi a questi corsi, ma non vengono iscritti direttamente senza l’approvazione del Manager. Una richiesta di notifica viene inviata ai manager quando gli allievi si iscrivono a questo tipo di corsi. In seguito all’approvazione del manager, gli allievi risulteranno iscritti ai corsi.
 
 **Iscrizione autonoma** Gli allievi possono iscriversi direttamente a questo tipo di corsi.
 
@@ -79,7 +80,7 @@ Sì. In modalità Autore, i corsi vengono visualizzati in base alle pagine nelle
 Gli autori possono eliminare corsi non pubblicati o ritirati. Dopo aver pubblicato un corso, puoi ritirare un corso e spostarlo di nuovo nello stato Pubblicato. Per eliminare i corsi non pubblicati, segui la procedura descritta di seguito:
 
 1. Dopo aver creato un corso, fai clic su Corsi personali nel riquadro sinistro.
-1. Passa il mouse sul corso da eliminare e fai clic su Elimina corso.
+1. Posiziona il mouse sul corso che desideri eliminare e fai clic su Elimina corso.
 1. Rispondi alla finestra di dialogo di conferma facendo clic su OK.
 
 >[!NOTE]
@@ -92,7 +93,7 @@ Il ciclo di vita tipico di un corso è il seguente:
 
 **Bozza** - Quando un Autore completa la creazione di un corso e lo salva. A questo punto, il corso non è ancora disponibile per gli allievi.
 
-**Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli Allievi.
+**Pubblicato** - Quando un Autore completa la pubblicazione di un corso. A questo punto, il corso è disponibile per l’iscrizione da parte degli allievi.
 
 **Ritirato** - Dopo aver pubblicato un corso, puoi attribuirgli lo stato Ritirato se desideri che il corso non venga più visualizzato nel catalogo dei corsi per gli Allievi.
 
@@ -100,13 +101,13 @@ Il ciclo di vita tipico di un corso è il seguente:
 
 +++
 
-+++Come si creano i moduli per i corsi?
++++Come posso creare moduli dei corsi?
 
 Crea una libreria di contenuti che possa essere allineata ai corsi come moduli autonomi. Gli autori possono creare moduli seguendo la procedura indicata di seguito:
 
-1. Fai clic su Libreria moduli nel riquadro a sinistra dopo aver effettuato l’accesso come Autore.
+1. Fai clic su Libreria moduli nel riquadro sinistro dopo l’accesso come Autore.
 1. Fai clic su Aggiungi nell’angolo in alto a destra nella pagina.
-1. Inserisci il nome, la descrizione e i tag del modulo.
+1. Inserisci il nome del modulo, la descrizione e i tag.
 1. Scegli il tipo di modulo **Condiviso** se desideri condividere il modulo con tutti gli autori. Altrimenti scegli il tipo Privato.
 1. Fai clic sull’icona Carica modulo e carica il contenuto del modulo.
 1. Fai clic su Salva.
@@ -121,13 +122,13 @@ L’Autore durante la creazione dei corsi incontrerà questi due termini.
 
 **I moduli di verifica** rappresentano i moduli principali del corso. Se un Allievo completa questo importante modulo, può essere considerato completamento del corso anche se l’Allievo non completa il contenuto effettivo del corso.
 
-**I moduli dei contenuti** rappresentano il programma effettivo del corso. L’Allievo può capire meglio i contenuti completi del corso studiando tali contenuti.
+I **moduli dei contenuti** rappresentano il programma effettivo del corso. L’Allievo può capire meglio i contenuti completi del corso studiando tali contenuti.
 
-I **moduli di preparazione** aiutano gli allievi a comprendere le nozioni di base e a prepararsi per il corso.
+I **moduli di preparazione** aiutano gli Allievi a capire i fondamenti e a prepararsi al corso.
 
 +++
 
-+++Qual è la differenza tra un lavoro preliminare e un prerequisito?
++++Qual è la differenza tra preparazione e prerequisito?
 
 L’Autore durante la creazione dei corsi incontrerà questi due termini.
 
@@ -155,7 +156,7 @@ L’Autore non può visualizzare l’elenco degli Allievi che frequentano il cor
 
 +++
 
-+++Posso sequenziare i moduli di qualsiasi corso? Come?
++++Posso sequenziare i moduli di uno dei corsi? Come?
 
 L’Autore può modificare la sequenza dei moduli trascinandoli. Può inoltre obbligare gli Allievi a seguire i moduli in sequenza selezionando l’opzione **Ordinati** in sequenza per i moduli durante la creazione del corso.
 
@@ -163,17 +164,17 @@ L’Autore può modificare la sequenza dei moduli trascinandoli. Può inoltre ob
 
 +++Come posso filtrare per visualizzare un set specifico di corsi?
 
-Puoi utilizzare l’opzione Filtra corsi per stato per filtrare i corsi. Per ulteriori informazioni, consulta [Come posso cercare i corsi?](https://helpx.adobe.com/content/help/it/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
+Puoi utilizzare l’opzione Filtra corsi per stato per filtrare i corsi. Per ulteriori informazioni, consulta [Come posso cercare i corsi?](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 
-+++A quale tipo di report posso accedere?
++++A quali tipo di report posso accedere?
 
 In qualità di Autore, non puoi accedere ad alcun report. Solo l’Amministratore dispone dei diritti per visualizzare/generare vari report. Contatta l&#39;amministratore della tua azienda per i report.
 
 +++
 
-+++Come posso cercare i corsi?
++++In che modo posso cercare i corsi?
 
 Puoi cercare i corsi in due modi:
 
@@ -186,18 +187,18 @@ Puoi cercare i corsi in due modi:
 
 +++
 
-+++Posso aggiungere moduli del corso di altri Autori ai miei corsi? Come?
++++È possibile aggiungere moduli del corso di altri autori ai miei corsi? Come?
 
 Esistono due tipi di moduli:
 
 1. Condiviso: disponibile per tutti gli autori
 1. Privato: disponibile solo per l’autore che l’ha creato.
 
-Pertanto, puoi aggiungere ai corsi solo moduli condivisi di altri Autori.
+Puoi quindi aggiungere solo moduli condivisi di altri Autori ai tuoi corsi.
 
 +++
 
-+++Come si aggiungono i moduli a un corso?
++++In che modo posso aggiungere moduli a un corso?
 
 Puoi aggiungere moduli del corso a un nuovo corso o al corso bozza esistente. Per aggiungere moduli a un nuovo corso, fai riferimento a [Come si crea un corso?](http://primehelp.adobe.com/questions/how-do-i-create-a-new-course/)
 
@@ -213,7 +214,7 @@ L’Autore non viene informato quando gli Allievi seguono i corsi. L’Autore pu
 
 +++
 
-+++È possibile creare report per i corsi? Come?
++++Posso creare report per i corsi? Come?
 
 In Adobe Learning Manager 1.0, solo gli Amministratori e i manager possono visualizzare o creare report.
 
@@ -227,7 +228,7 @@ Il quiz è un contenuto SCORM/AICC o Captivate o Presenter, che può essere aggi
 
 +++
 
-+++Come si crea un programma di apprendimento?
++++Come posso creare un programma di apprendimento?
 
 Gli Autori non devono creare un programma di apprendimento per i corsi. I programmi di apprendimento sono definiti dall’Amministratore dell’azienda.
 
@@ -244,11 +245,11 @@ Per creare un corso, procedi nel seguente modo:
 1. Fornisci le informazioni di base richieste per il corso. Segui le istruzioni indicate nella Guida statica disponibile.
 1. Fai clic su **[!UICONTROL Aggiungi moduli]** al corso e scegli un modulo dall’elenco dei quattro moduli: Fornisci le informazioni di base richieste per ciascun modulo e fai clic su **[!UICONTROL Fine]**.
 
-Una volta completata la creazione del corso, fai clic su Salva. Per impostazione predefinita, il corso viene salvato come bozza. Fai clic su **[!UICONTROL Publish]** per pubblicare il corso.
+Una volta completata la creazione del corso, fai clic su Salva. Il corso viene salvato come bozza per impostazione predefinita. Fai clic su **[!UICONTROL Pubblica]** per pubblicare il corso.
 
 Per rendere il corso idoneo alla pubblicazione, devi aggiungere nome del corso, almeno un modulo, tipo di iscrizione, competenza, livello di competenza e crediti.
 
-Puoi anche pubblicare una bozza di corso elencato seguendo i passaggi riportati di seguito:
+Puoi anche pubblicare una bozza di corso elencato seguendo la procedura seguente:
 
 1. Fai clic sulla scheda Corsi personali > Bozze
 1. Posiziona il mouse sul corso e fai clic su Pubblica corso.

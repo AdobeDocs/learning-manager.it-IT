@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Admin AI Assistant (beta) in Adobe Learning Manager
 description: Ulteriori informazioni sull'Assistente AI di Adobe Learning Manager Admin (Beta)
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
-
 ---
-
 # Admin AI Assistant (beta) in Adobe Learning Manager
 
 ## Introduzione
@@ -86,19 +87,19 @@ Per utilizzare Admin AI Assistant (Beta):
 Di seguito sono riportati alcuni esempi di prompt che gli amministratori possono utilizzare per utilizzare in modo efficace Admin AI Assistant (Beta):
 
 * **Assegnare un corso a un utente**
-   * **Messaggio**: &quot;Come si assegna un corso a un utente?&quot;
+  * **Messaggio**: &quot;Come si assegna un corso a un utente?&quot;
 
   ![](assets/prompt-1.png)
   _Risposta alla richiesta Come si assegna un corso a un utente_
 
 * **Ultimo report di iscrizione**
-   * **Richiedi**: visualizza il report di iscrizione più recente.
+  * **Richiedi**: visualizza il report di iscrizione più recente.
 
   ![](assets/prompt-2.png)
   _Risposta al prompt Visualizza il report di iscrizione più recente_
 
 * **Eliminare un utente**
-   * **Messaggio**: &quot;Come posso eliminare un utente?&quot;
+  * **Messaggio**: &quot;Come posso eliminare un utente?&quot;
 
   ![](assets/prompt-3.png)
   _Risposta al prompt Come posso eliminare un utente_

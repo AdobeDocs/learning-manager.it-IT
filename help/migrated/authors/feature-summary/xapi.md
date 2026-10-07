@@ -3,13 +3,14 @@ jcr-language: en_us
 title: xAPI in Learning Manager
 description: L’API Experience (xAPI) è una specifica del software di e-learning che consente ai contenuti di apprendimento e ai sistemi di apprendimento di comunicare tra loro in modo da registrare e tenere traccia di tutti i tipi di esperienze di apprendimento.
 exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 77%
-
 ---
-
 # xAPI in Learning Manager
 
 ## Cosa si intende per xAPI? {#whatisxapi}
@@ -65,7 +66,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Come autore, ora puoi scegliere il modulo xAPI durante la creazione di corsi per monitorare l’esperienza degli utenti al di fuori di Learning Manager. Ad esempio, è possibile utilizzare questa funzione per valutare le attività degli utenti su una piattaforma di terze parti utilizzata per usufruire del corso.
 
-1. Durante la creazione di un **[!UICONTROL modulo attività]**, nell&#39;opzione **[!UICONTROL Tipo]**&#x200B;utilizzare il menu a comparsa per selezionare **[!UICONTROL modulo basato su xAPI.]**
+1. Durante la creazione di un **[!UICONTROL modulo attività]**, nell&#39;opzione **[!UICONTROL Tipo]**utilizzare il menu a comparsa per selezionare **[!UICONTROL modulo basato su xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -85,7 +86,7 @@ Come autore, ora puoi scegliere il modulo xAPI durante la creazione di corsi per
 
 **Punti da tenere presenti:**
 
-* Learning Manager attualmente supporta solo mbox come identificatore. Gli altri identificatori inclusi mboz_sha1, openid e account non sono supportati.
+* Learning Manager attualmente supporta solo mbox come identificatore. Altri identificatori, tra cui mboz_sha1, openid e account non sono supportati.
 
 * L’elemento stateId e profileId è un UUID se utilizzato con Learning Manager.
 * La richiesta PUT non sovrascrive il documento per agenti/profilo, attività/profilo e attività/stato di xAPI

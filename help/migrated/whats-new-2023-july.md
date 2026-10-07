@@ -1,15 +1,16 @@
 ---
 title: Novità di questa versione (luglio 2023)
 description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
-source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2091'
 ht-degree: 74%
-
 ---
-
 # Novità di questa versione (luglio 2023)
 
 ## Consigli migliorati

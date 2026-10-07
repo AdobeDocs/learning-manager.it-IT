@@ -3,18 +3,19 @@ jcr-language: en_us
 title: Annunci
 description: Un annuncio è un messaggio multimediale (testo, immagine o video) che un Amministratore trasmette a un insieme di utenti definito.
 exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 61%
-
+ht-degree: 84%
 ---
-
 # Annunci
 
 Un annuncio è un messaggio multimediale (testo, immagine o video) che un Amministratore trasmette a un insieme di utenti definito.
 
-L’Amministratore può trasmettere gli annunci agli Allievi informandoli dell’occorrenza di un evento o di un’attività. Quando un annuncio viene trasmesso a un determinato gruppo o utenti di oggetti di apprendimento, tutti gli allievi associati al gruppo di destinazione ricevono notifiche.
+L’Amministratore può trasmettere gli annunci agli Allievi informandoli di un evento o un’attività. Quando un annuncio viene trasmesso a un gruppo specifico o a utenti dell’oggetto di apprendimento, tutti gli Allievi associati al gruppo di destinazione ricevono notifiche.
 
 ## Notifica annunci {#announcementsnotification}
 

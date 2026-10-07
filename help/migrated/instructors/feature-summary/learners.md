@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Gestione degli Allievi per la sessione
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
-
 ---
-
 # Gestione degli Allievi per la sessione
 
 Leggi questo articolo per scoprire come gestire i partecipanti, inviare e-mail relative al corso e promemoria delle sessioni.
@@ -123,8 +124,8 @@ Il codice QR viene scaricato come PDF e può essere condiviso digitalmente o vis
 * Gli Allievi acquisiscono il codice QR tramite un dispositivo mobile.
 * Adobe Learning Manager convalida l’Allievo e la sessione.
 * In base al tipo di codice QR:
-   * Gli Allievi sono iscritti all’istanza del corso oppure
-   * La partecipazione e il completamento vengono registrati per la sessione
+  * Gli Allievi sono iscritti all’istanza del corso oppure
+  * La partecipazione e il completamento vengono registrati per la sessione
 
 Tutti gli aggiornamenti vengono riportati automaticamente nei record, nelle trascrizioni e nei report degli Allievi.
 
@@ -147,9 +148,9 @@ Tutti gli aggiornamenti vengono riportati automaticamente nei record, nelle tras
 * Quando un Allievo o un Istruttore è iscritto a una sessione di un’aula o di un’aula virtuale, Learning Manager invia un invito nel calendario (file ICS).
 * L&#39;invito del calendario include:
 
-   * Data e ora della sessione
-   * Dettagli della sessione
-   * **Collegamento diretto alla sessione** nella descrizione del calendario
+  * Data e ora della sessione
+  * Dettagli della sessione
+  * **Collegamento diretto alla sessione** nella descrizione del calendario
 
   ![](assets/calendar-invite-session.png)
 

@@ -4,16 +4,17 @@ title: Domande frequenti per i Manager
 description: Domande frequenti per i manager Adobe Learning Manager
 contentowner: admin
 exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 57%
-
+source-wordcount: '802'
+ht-degree: 85%
 ---
-
 # Domande frequenti per i Manager
 
-+++In che modo un Manager può accedere ai corsi?
++++In che modo posso accedere ai corsi come Manager?
 
 Nella modalità di accesso come Manager, non è possibile accedere ai corsi. È necessario passare all’accesso come Allievo per frequentare i corsi.
 
@@ -25,13 +26,13 @@ Gli Amministratori possono attivare/disattivare il feedback L3 per alcuni corsi 
 
 1. Fai clic su Notifiche nel riquadro a sinistra.
 1. Fai clic sulla scheda Attività in sospeso.
-1. Fai clic sulle notifiche nella pagina sotto Fornisci categoria di feedback e fornisci feedback L3.
+1. Fai clic sulle notifiche nella pagina della categoria Invia feedback e fornisci il feedback L3.
 
 +++
 
 +++Ricevo una notifica quando il mio team completa i corsi?
 
-L’icona delle notifiche è evidenziata dal numero di messaggi in sospeso. Quando il membro del team si iscrive o completa un corso, viene visualizzato come notifica. Quando si fa clic su Mostra tutte le notifiche nel menu a comparsa, è possibile visualizzare tutte le notifiche e le attività in sospeso in una pagina.
+Puoi visualizzare l’icona delle notifiche evidenziata con il numero di messaggi in sospeso. Quando un membro del team si iscrive o completa un corso, viene visualizzata una notifica. Quando fai clic su Mostra tutte le notifiche nel menu a comparsa, puoi visualizzare tutte le notifiche e le attività in sospeso in una pagina.
 
 +++
 
@@ -50,7 +51,7 @@ Nel riquadro sinistro dell’applicazione, fai clic su Notifiche.
 
 +++
 
-+++È possibile configurare le notifiche per gli Allievi? Come?
++++Posso configurare le notifiche per gli Allievi? Come?
 
 Quando assegni i corsi agli Allievi, questi ricevono una notifica tramite l’applicazione Learning Manager.
 
@@ -68,13 +69,13 @@ Puoi fare clic sull’icona a discesa per modificare l’intervallo di date, sal
 
 +++Posso visualizzare i livelli di abilità correnti dei membri del team?
 
-Puoi creare report per i membri del team per visualizzare l’elenco delle abilità assegnate e acquisite da ciascuno di essi. Fai clic su Report nel riquadro a sinistra e sulla scheda Report di esempio per visualizzare un report di esempio su Abilità e Manager.
+Puoi creare report per i membri del team per visualizzare l’elenco di abilità assegnate e raggiunte da ognuno. Fai clic su Report nel riquadro sinistro e fai clic sulla scheda Report di esempio per visualizzare un report di esempio di confronto tra abilità e Manager.
 
 Per ulteriori informazioni, fai riferimento alla funzionalità [Report](feature-summary/reports.md) nella Guida di Learning Manager.
 
 +++
 
-+++Come si visualizzano le richieste in sospeso dei membri del team?
++++Come visualizzo le richieste in sospeso dei membri del mio team?
 
 Quando un membro del team richiede un corso, puoi visualizzare l’icona delle notifiche evidenziata con il numero di messaggi in sospeso.
 
@@ -82,7 +83,7 @@ Per visualizzare le richieste in sospeso, fai clic su questa icona di notifica.
 
 +++
 
-+++Come si aggiungono o modificano i report?
++++Come aggiungo o modifico i report?
 
 Puoi aggiungere nuovi report selezionando Report e quindi facendo clic su Aggiungi nell’angolo superiore destro della pagina.
 
@@ -135,7 +136,7 @@ Quando utilizzi Learning Manager per la prima volta, disponi di tre opzioni:
 
 +++
 
-+++Come si assegnano i corsi ai membri del team?
++++Come assegno i corsi ai membri del team?
 
 I Manager possono assegnare direttamente i membri del team a un determinato corso solo quando un Amministratore ha richiesto la nomina di Manager per tale corso.
 

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Dashboard per i Manager
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 50%
-
 ---
-
 # Dashboard per i Manager
 
 Scopri come visualizzare e tenere traccia degli apprendimenti dal dashboard per i Manager.
@@ -234,7 +235,7 @@ Per prevedere la % di completamento di un’abilità da parte del team, procedi 
 
    *Selezionare il collegamento ipertestuale Configura*
 
-1. Dalla finestra di dialogo di configurazione a comparsa, inserisci un valore percentuale per l’abilità che desideri configurare nel campo **% di completamento prevista** e la data entro la quale desideri venga raggiunta la % di completamento stabilita nel campo **Data stabilita**.**&#x200B;**
+1. Dalla finestra di dialogo di configurazione a comparsa, inserisci un valore percentuale per l’abilità che desideri configurare nel campo **% di completamento prevista** e la data entro la quale desideri venga raggiunta la % di completamento stabilita nel campo **Data stabilita**.****
 
    ![](assets/configure-tracker.png)
 

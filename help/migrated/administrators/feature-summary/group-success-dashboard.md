@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Dashboard di Group Success
 description: Ulteriori informazioni sulla dashboard di Group Success in Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 1%
-
 ---
-
 # Dashboard di Group Success
 
 ## Introduzione
@@ -26,9 +27,9 @@ Il dashboard Group Success offre quanto segue:
 
 * **Semplifica il monitoraggio dell’avanzamento degli Allievi**: la dashboard Gruppi riusciti offre una visualizzazione semplice e in tempo reale dei dati degli Allievi, riducendo la necessità di trascrizioni basate su Excel. Manager e amministratori possono visualizzare rapidamente le iscrizioni degli Allievi e l’avanzamento dei corsi per supportare scenari chiave quali:
 
-   * **Preparazione alla revisione delle prestazioni**: i manager possono valutare lo stato di avanzamento del corso per i membri del team prima dei cicli di valutazione.
-   * **Monitoraggio della conformità**: identifica gli Allievi che non hanno completato i corsi di formazione obbligatori.
-   * **Monitoraggio a livello di team**: i manager di affiliazione, punto vendita o locali possono garantire che i team completino il corso richiesto in tempo.
+  * **Preparazione alla revisione delle prestazioni**: i manager possono valutare lo stato di avanzamento del corso per i membri del team prima dei cicli di valutazione.
+  * **Monitoraggio della conformità**: identifica gli Allievi che non hanno completato i corsi di formazione obbligatori.
+  * **Monitoraggio a livello di team**: i manager di affiliazione, punto vendita o locali possono garantire che i team completino il corso richiesto in tempo.
 
 * **Facilita la gestione del team**: la dashboard di successo del gruppo è utile per i manager con piccoli team (meno di 50 persone), come i manager di punti vendita, i manager di franchising, i manager di concessionari o i team interni. Fornisce una visualizzazione del team e consente ai manager di verificare rapidamente se il proprio team ha completato il set di corsi richiesto per raggiungere gli obiettivi aziendali.
 
@@ -41,7 +42,7 @@ Un amministratore può abilitare e creare i dashboard assegnando un nome, selezi
 L’Amministratore deve abilitare la Dashboard di successo del gruppo per l’account. Per abilitare la Dashboard di Group Success, effettua le seguenti operazioni:
 
 1. Accedi come amministratore.
-2. Seleziona **[!UICONTROL Impostazioni]**&#x200B;quindi seleziona **[!UICONTROL Report]**.
+2. Seleziona **[!UICONTROL Impostazioni]**quindi seleziona **[!UICONTROL Report]**.
 3. Selezionare l&#39;interruttore **[!UICONTROL Visibilità dashboard]**.
 4. Digitare il nome del dashboard, ad esempio **[!UICONTROL Dashboard di Gestione archivi]**.
    ![](assets/enable-gsd.png)

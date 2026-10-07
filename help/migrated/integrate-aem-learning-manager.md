@@ -4,13 +4,14 @@ title: Integrazione di Adobe Learning Manager con AEM
 description: Learning Manager è un sistema di gestione dell’apprendimento con un sistema di gestione dei contenuti di apprendimento integrato. Gli utenti gestiscono i propri contenuti di apprendimento caricandoli su Learning Manager, in modo che Learning Manager esegua il controllo delle versioni, l’assegnazione ai corsi, la definizione della visibilità agli Allievi, il monitoraggio della frequenza e la segnalazione agli amministratori.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3817'
 ht-degree: 45%
-
 ---
-
 
 # Integrazione di Adobe Learning Manager con AEM
 
@@ -52,7 +53,7 @@ Installa il pacchetto dei contenuti Learning Manager utilizzando il gestore pacc
 
 >[!NOTE]
 >
->Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=it#how-to-work-with-packages).
+>Per informazioni sull&#39;installazione dei pacchetti, vedere [***Come utilizzare i pacchetti***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Come Autore AEM, apri il gestore pacchetti AEM.
 1. Fai clic sul pulsante **[!UICONTROL Carica pacchetto]**.
@@ -115,7 +116,7 @@ Per approvare l’applicazione, fai clic su **[!UICONTROL Approva]**.
 ## Configurazione dell’account ALM in AEM
 
 1. Avvia l’istanza AEM.
-1. Fai clic su **Impostazioni** > **Cloud Service**.
+1. Fai clic su **Impostazioni** > **Cloud Services**.
 1. Fai clic su **Configurazione di Adobe Learning Manager**.
 
    ![](assets/alm-configuration.png)
@@ -361,7 +362,7 @@ Per la configurazione del widget, l’autore AEM richiede solo il token di aggio
 
 Puoi anche impostare più configurazioni di account in più pagine.
 
-1. Fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configurazione widget Learning Manager]**.
+1. Fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Configurazione widget Learning Manager]**.
 1. Fai clic su **[!UICONTROL Crea]**.
 1. Immetti qui il token di aggiornamento. Configura altre impostazioni.
 1. Il nome host deve essere modificato in **learningmanagereu** per le aree dell’UE.
@@ -419,19 +420,19 @@ Le opzioni del catalogo contengono le seguenti opzioni:
 
 * **[!UICONTROL ID catalogo]:** ID catalogo separati da virgole per i quali è necessario visualizzare i corsi di formazione.
 * **[!UICONTROL Ordinamento]:** Ordinamento per il corso di formazione. Di seguito sono riportate le opzioni di ordinamento:
-   * name: ordina gli oggetti di apprendimento in ordine alfabetico dalla A alla Z.
-   * -name: ordina gli oggetti di apprendimento alfabeticamente da Z ad A.
-   * data: ordina per data in ordine crescente.
-   * -date: ordina per data in ordine decrescente (la prima più recente).
-   * dateCreated: ordina in base alla data di creazione dell’oggetto di apprendimento (prima il meno recente).
-   * -dateCreated: ordina in base alla data di creazione (prima la più recente).
-   * dateEnrolled: ordina in base alla data di iscrizione dell’Allievo (prima).
-   * -dateEnrolled: ordina in base alla data di iscrizione (la prima più recente).
-   * valutazione: ordina in base alle valutazioni dell’Allievo (dalla più bassa alla più alta).
-   * -rating: ordina in base alle valutazioni (dal più alto al più basso).
-   * dueDate: ordina in base alla data di scadenza del corso (prima scadenza).
-   * efficacia: ordina in base ai punteggi di efficacia in base al feedback degli allievi.
-   * avanzamento: ordina in base all’avanzamento dell’Allievo (avanzamento minimo fino alla maggior parte).
+  * name: ordina gli oggetti di apprendimento in ordine alfabetico dalla A alla Z.
+  * -name: ordina gli oggetti di apprendimento alfabeticamente da Z ad A.
+  * data: ordina per data in ordine crescente.
+  * -date: ordina per data in ordine decrescente (la prima più recente).
+  * dateCreated: ordina in base alla data di creazione dell’oggetto di apprendimento (prima il meno recente).
+  * -dateCreated: ordina in base alla data di creazione (prima la più recente).
+  * dateEnrolled: ordina in base alla data di iscrizione dell’Allievo (prima).
+  * -dateEnrolled: ordina in base alla data di iscrizione (la prima più recente).
+  * valutazione: ordina in base alle valutazioni dell’Allievo (dalla più bassa alla più alta).
+  * -rating: ordina in base alle valutazioni (dal più alto al più basso).
+  * dueDate: ordina in base alla data di scadenza del corso (prima scadenza).
+  * efficacia: ordina in base ai punteggi di efficacia in base al feedback degli allievi.
+  * avanzamento: ordina in base all’avanzamento dell’Allievo (avanzamento minimo fino alla maggior parte).
 * **[!UICONTROL Stato dell’Allievo]:** restituisce tutti i corsi di formazione che utilizzano i seguenti filtri: enrolled, started, completed, and not enrolled. I risultati della ricerca non verranno visualizzati se l’ opzione di ordinamento è dateEnrolled, dueDate o dateEnrolled.
 * **[!UICONTROL Nome dell’abilità]:** Abilità utilizzata per filtrare il corso di formazione esatto.
 * **[!UICONTROL Nome del tag]:** Il tag utilizzato per filtrare i risultati esatti.

@@ -3,13 +3,14 @@ description: L’Assistente AI (Beta) per gli Allievi è un compagno di chat bas
 jcr-language: en_us
 title: Assistente all’intelligenza artificiale per gli Allievi in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 0%
-
 ---
-
 # Assistente AI per gli Allievi
 
 L’Assistente AI (Beta) per gli Allievi consente loro di trovare rapidamente le risposte dai contenuti di apprendimento assegnati senza sfogliare l’intero corso. Puoi porre domande in un linguaggio semplice e ricevere risposte accurate e mirate con collegamenti sorgente al contenuto del corso pertinente.

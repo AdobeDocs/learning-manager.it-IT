@@ -4,13 +4,14 @@ title: Personalizzazione della pagina principale dell’Allievo
 description: Un Amministratore può personalizzare la pagina principale dell’Allievo e renderla più moderna, basata sui contenuti e personalizzata.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 63%
-
 ---
-
 # Personalizzazione della pagina principale dell’Allievo
 
 ## Panoramica {#overview}
@@ -157,7 +158,7 @@ Per gli account esistenti, l&#39;opzione **Immersiva** sarà **DISATTIVATA**. È
    <td>
     <p>Consigliato dall’organizzazione</p></td>
    <td>
-    <p>Quando questa opzione è attiva, il widget consiglia corsi di formazione per gruppi di utenti specifici. Ogni gruppo di utenti può essere indirizzato a uno o più corsi di formazione e il piano di destinazione deve essere basato su un periodo di tempo. <br></p>
+    <p>Quando questa opzione è attiva, il widget consiglia corsi di formazione per gruppi di utenti specifici. Ogni gruppo di utenti può essere indirizzato a uno o più corsi di formazione e il piano di destinazione si basa su un fotogramma di tempo. <br></p>
     <ul>
      <li>
       <p>Innanzitutto, l’Amministratore <a href="announcements.md#recommendation">crea un annuncio</a> di tipo <b>Come consiglio</b>, quindi seleziona il corso di formazione richiesto e utilizza i gruppi. Un Allievo appartenente a un gruppo di utenti vedrà il corso di formazione consigliato.</p></li>

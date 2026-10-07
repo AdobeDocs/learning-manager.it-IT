@@ -1,13 +1,14 @@
 ---
 title: Utilizzo dell’Hub live (Beta) su dispositivi mobili come Allievo
 description: Scopri quali funzionalità dell’Hub dal vivo sono disponibili per gli Allievi nell’app mobile Adobe Learning Manager, dall’iscrizione a una sessione all’uscita da una sessione.
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
-
 ---
-
 
 # Utilizzo dell’Hub live (Beta) su dispositivi mobili come Allievo
 
@@ -47,7 +48,7 @@ Prima di partecipare, puoi verificare le impostazioni di videocamera, microfono 
 
 >[!NOTE]
 >
-> Gli sfondi virtuali e gli effetti di sfocatura dello sfondo non sono supportati nell’app per dispositivi mobili.
+> Gli sfondi virtuali e gli effetti di sfocatura di sfondo non sono supportati nell&#39;app per dispositivi mobili.
 
 ## Esplorazione dell&#39;interfaccia della sessione
 

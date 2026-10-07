@@ -2,13 +2,14 @@
 description: 'Scopri come Content Composer gestisce gli aggiornamenti dei corsi in Adobe Learning Manager: come la ripubblicazione crea una nuova versione del modulo e come gli autori di ALM aggiornano i corsi esistenti per utilizzare la versione più recente.'
 jcr-language: en_us
 title: Controllo delle versioni dei moduli in Adobe Learning Manager
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # Controllo delle versioni dei moduli in Adobe Learning Manager
 

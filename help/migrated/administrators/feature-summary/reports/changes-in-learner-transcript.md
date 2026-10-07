@@ -3,13 +3,14 @@ description: Informazioni sulle Trascrizioni Allievi
 jcr-language: en_us
 title: Modifiche alle Trascrizioni Allievi
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
-
 ---
-
 # Modifiche alle Trascrizioni Allievi nella versione di aprile
 
 ## Colonna Metodo di completamento

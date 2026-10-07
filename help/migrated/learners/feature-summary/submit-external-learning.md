@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Invio di corsi di formazione esterni in Adobe Learning Manager
 description: Utilizza l’apprendimento esterno per registrare i corsi di formazione completati al di fuori di Adobe Learning Manager, come workshop, seminari, certificazioni o corsi online. Dopo aver inviato i dettagli per la revisione del Manager, le attività approvate vengono aggiunte alla Trascrizione Allievo.
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 2%
-
+source-wordcount: '604'
+ht-degree: 1%
 ---
-
 
 # Invia apprendimento esterno come Allievo
 

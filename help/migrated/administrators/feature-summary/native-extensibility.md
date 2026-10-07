@@ -1,14 +1,15 @@
 ---
 title: Estendibilità nativa
-description: Configura esperienze personalizzate nella versione nativa di Adobe Learning Manager, consentendo di non utilizzare headless per casi meno complicati.
+description: La configurazione di esperienze personalizzate nella versione nativa di Adobe Learning Manager consente di evitare di usare l’approccio headless per i casi meno complicati.
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 48%
-
+source-wordcount: '760'
+ht-degree: 51%
 ---
-
 # Estendibilità nativa
 
 Puoi configurare esperienze personalizzate all’interno della versione nativa di Adobe Learning Manager, per evitare di usare l’approccio headless per i casi meno complicati. Puoi anche creare app personalizzate e inserirle in vari punti nella versione nativa dei flussi di lavoro di Allievo, Manager, Amministratore, Autore o Istruttore.
@@ -79,7 +80,7 @@ Adobe Learning Manager supporta 15 punti di chiamata nell’app per Amministrato
 
 In qualità di Amministratore, puoi visualizzare tutte le estensioni nella pagina Estensioni native. Per visualizzare l’elenco, seleziona Estensioni native nel pannello a sinistra dell’app.
 
-![visualizza l&#39;immagine delle estensioni](assets/view-extensions.png)
+![visualizza immagine estensioni](assets/view-extensions.png)
 *Visualizza tutte le estensioni*
 
 ## Abilitare o disabilitare un’estensione
@@ -122,11 +123,11 @@ Nella scheda Impostazioni, genera la chiave.
 
    Il report contiene i seguenti campi:
 
-   * Nome dell’estensione
-   * Punto di invocazione
+   * Nome estensione
+   * Punto di chiamata
    * Etichetta
    * Apri in URL
-   * Ambito
+   * Ambito di applicabilità
    * Attiva
    * ID univoco LO
    * ID del corso di formazione

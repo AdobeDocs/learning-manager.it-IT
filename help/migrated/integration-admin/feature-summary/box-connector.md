@@ -3,13 +3,14 @@ description: Connettore Box in Adobe Learning Manager
 jcr-language: en_us
 title: Connettore Box
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 1%
-
 ---
-
 
 # Connettore Box in Adobe Learning Manager
 
@@ -75,7 +76,7 @@ Per mappare gli attributi:
 3. Nella pagina **Mappa attributi**:
    - Il lato sinistro mostra i campi obbligatori in Adobe Learning Manager.
    - Sul lato destro sono riportati i nomi delle colonne CSV. Inizialmente, questo lato contiene menu a discesa vuoti.
-   - Seleziona **Scegli CSV** per caricare un file CSV di esempio. In questo modo viene compilato il menu a discesa di destra con i nomi delle colonne del file CSV. Per ottenere file CSV di esempio, consulta [questo articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/integration/migration-manual#csv).
+   - Seleziona **Scegli CSV** per caricare un file CSV di esempio. In questo modo viene compilato il menu a discesa di destra con i nomi delle colonne del file CSV. Per ottenere file CSV di esempio, consulta [questo articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv).
    - Associa ciascun campo Adobe Learning Manager alla colonna CSV corrispondente.
 
    ![](assets/box-connector2.png)
@@ -98,7 +99,7 @@ Per configurare un&#39;origine:
 1. Passa alla sezione di configurazione xAPI.
 2. Selezionare **Aggiungi nuova configurazione** nell&#39;elenco di configurazione.
 3. Digitare **Nome** e **Nome file di origine**.
-   - Nome: identificatore descrittivo per questa origine xAPI (ad esempio, Integrazione LMS o Sistema di formazione esterno).
+   - Nome: identificatore descrittivo per questa origine xAPI (ad esempio, Integrazione LMS o External Training System).
    - Nome file di origine: nome esatto del file che verrà caricato nella cartella Box (deve corrispondere esattamente, compresa l’estensione del file).
 
    ![](assets/box-connector3.png)
@@ -174,6 +175,6 @@ Per visualizzare lo stato di esecuzione:
    - **Durata:** Tempo totale richiesto per l&#39;elaborazione
    - **Tipo di importazione:** Indica se l&#39;importazione è stata pianificata o su richiesta
    - **Stato corrente:** informazioni sullo stato in tempo reale
-      - **In corso:** importazione attualmente in esecuzione
-      - **Completato:** Completato con conteggi record
-      - **Errore:** errore con informazioni di diagnostica
+     - **In corso:** importazione attualmente in esecuzione
+     - **Completato:** Completato con conteggi record
+     - **Errore:** errore con informazioni di diagnostica

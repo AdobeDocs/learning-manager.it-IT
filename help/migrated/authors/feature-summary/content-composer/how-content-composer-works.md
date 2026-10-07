@@ -2,13 +2,14 @@
 description: 'Il modulo di composizione dei contenuti si articola in quattro fasi: Chiedi conferma, Breve, Contorno e Corso. L''intelligenza artificiale conversazionale guida ogni fase, generando contenuti che rivedi e modifichi prima di pubblicarli direttamente in Adobe Learning Manager.'
 jcr-language: en_us
 title: Funzionamento di Composizione contenuti
-source-git-commit: 90969a10aa9246a4c1cfd2e02641f79f5101f0cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 1%
-
 ---
-
 
 # Funzionamento di Composizione contenuti
 

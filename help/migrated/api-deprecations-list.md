@@ -4,13 +4,14 @@ title: Rimozione delle API da Adobe Learning Manager
 description: Con l’evoluzione delle API in Adobe Learning Manager, le API vengono periodicamente riorganizzate o aggiornate. Quando le API si evolvono, le API precedenti sono obsolete e alla fine rimosse. Questa pagina contiene le informazioni necessarie per eseguire la migrazione da versioni API obsolete a versioni API più recenti e stabili.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 34%
-
 ---
-
 # Modifiche e deprecazioni delle API in Adobe Learning Manager
 
 ## Rimozione delle API nella versione di marzo 2024 di Adobe Learning Manager
@@ -76,30 +77,30 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 I percorsi seguenti sono obsoleti:
 
 * /learningObjects
-   * Percorsi obsoleti:
-      * enrollment.loInstance.loResources.resources
-      * instance.loResources.resources
-   * Nuovi tracciati:
-      * enrollment.loInstance.loResources
-      * instance.loResources
+  * Percorsi obsoleti:
+    * enrollment.loInstance.loResources.resources
+    * instance.loResources.resources
+  * Nuovi tracciati:
+    * enrollment.loInstance.loResources
+    * instance.loResources
 
 * /learningObjects/{id}
-   * Percorso obsoleto:
-      * enrollment.instance.subLoInstances.learningObject
-   * Nuovo percorso:
-      * enrollment.instance.subLoInstances
+  * Percorso obsoleto:
+    * enrollment.instance.subLoInstances.learningObject
+  * Nuovo percorso:
+    * enrollment.instance.subLoInstances
 
 * /enrollments
-   * Percorso obsoleto:
-      * loInstance.learningObject.enrollment
-   * Nuovo percorso:
-      * loInstance.learningObject
+  * Percorso obsoleto:
+    * loInstance.learningObject.enrollment
+  * Nuovo percorso:
+    * loInstance.learningObject
 
 * /learningObjects/{id}
-   * Percorso obsoleto:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Nuovo percorso:
-      * instance.subLoInstances
+  * Percorso obsoleto:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Nuovo percorso:
+    * instance.subLoInstances
 
 <!--
 ### Instance summary count changes 

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Applicazione desktop Adobe Learning Manager
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 79%
-
 ---
-
 # Applicazione desktop Adobe Learning Manager
 
 Scopri come utilizzare l’applicazione desktop Adobe Learning Manager per creare e arricchire i contenuti condivisibili in Apprendimento sociale.
@@ -199,7 +200,7 @@ Per modificare o eliminare un file dalla galleria, fai clic sui tre punti nella 
 
 Le notifiche in Learning Manager vengono visualizzate nella finestra delle notifiche anche se l’Allievo non ha effettuato l’accesso all’applicazione Web Learning Manager. Le notifiche includono post o bacheche creati o seguiti dagli utenti o a cui gli utenti hanno partecipato. Facendo clic sulla notifica, l’utente accede al Web di Apprendimento sociale di Learning Manager.
 
-Per disattivare l&#39;audio delle notifiche, fare clic sul menu **[!UICONTROL Profilo*]* > &#x200B;** [!UICONTROL Impostazioni] > **[!UICONTROL Disattiva audio notifiche]**.
+Per disattivare l&#39;audio delle notifiche, fare clic sul menu **[!UICONTROL Profilo*]* > **[!UICONTROL Impostazioni] > **[!UICONTROL Disattiva audio notifiche]**.
 
 ## Impostazioni dell’applicazione desktop Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
 

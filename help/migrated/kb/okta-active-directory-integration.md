@@ -4,13 +4,14 @@ title: Integrazione di Okta Active Directory con Adobe Learning Manager
 description: Integrazione di Okta Active Directory con Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 60%
-
 ---
-
 # Integrazione di Okta Active Directory con Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
 Questo documento descrive come integrare Adobe Learning Manager con Okta Active Directory (AD). Quando si integra Adobe Learning Manager con Okta AD, è possibile:
@@ -89,41 +90,41 @@ Adobe Learning Manager supporta l’SSO avviato dal provider di identità (Ident
 
    Una volta completata la procedura, fai clic su **[!UICONTROL Avanti]**.
 
-1. La scheda **Feedback** è facoltativa. Once you have selected the options and given your feedback, click **[!UICONTROL Finish]**.
+1. La scheda **Feedback** è facoltativa. Dopo aver selezionato le opzioni e fornito il tuo feedback, fai clic su **[!UICONTROL Fine]**.
 
    ![](assets/cp-saml-integration-step3.png)
 
-   *Complete SAML setup*
+   *Completare la configurazione SAML*
 
 ## Estrai l’URL e il file di metadati avviati da IDP
 
 Per visualizzare l’URL e il file di metadati avviati da IdP/SP, esegui la procedura riportata di seguito:
 
 1. Apri l’applicazione creata.
-1. Under the **Single Sign-On** tab, click **[!UICONTROL View Instructions]**.
+1. Nella scheda **Single Sign-On**, fai clic su **[!UICONTROL Visualizza istruzioni]**.
 
    ![](assets/cp-prime-sso.png)
 
-   *Select SSO tab*
+   *Selezionare la scheda SSO*
 
-   **For IDP:**
+   **Per IDP:**
 
    1. L’URL Single Sign-On del provider di identità è l’URL avviato da IdP.
-   1. Copy all the text that is present under the **Optional** field.
+   1. Copia tutto il testo presente nel campo **Facoltativo**.
    1. Apri un nuovo documento di blocco note e incolla il testo copiato.
-   1. Click **[!UICONTROL File]** > **[!UICONTROL Save as]** > &quot;filename.xml&quot;. Questo sarà il file di metadati.
+   1. Fai clic su **[!UICONTROL File]** > **[!UICONTROL Salva con nome]** > &quot;filename.xml&quot;. Questo sarà il file di metadati.
 
-   **For SP:**
+   **Per SP:**
 
    1. L’URL Single Sign-On del provider di identità è l’URL avviato da IdP.
    1. L’emittente del provider di identità è l’ID entità.
-   1. Copy all the text that is present under the **Optional** field.
+   1. Copia tutto il testo presente nel campo **Facoltativo**.
    1. Apri un nuovo documento di blocco note e incolla il testo copiato.
-   1. Click **[!UICONTROL File]** > **[!UICONTROL Save as]** > **[!UICONTROL filename.xml]**. Questo sarà il file di metadati.
+   1. Fai clic su **[!UICONTROL File]** > **[!UICONTROL Salva con nome]** > **[!UICONTROL nomefile.xml]**. Questo sarà il file di metadati.
 
    ![](assets/cp-saml-integration-step4.png)
 
-   *Save SP XML file*
+   *Salva file XML SP*
 
    È necessario salvare il file in formato XML.
 

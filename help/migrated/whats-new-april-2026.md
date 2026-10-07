@@ -3,13 +3,14 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di aprile
 jcr-language: en_us
 title: Novità della versione di aprile 2026 di Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 87edde0d142a151322869fd967a8b17d9871fdc2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
-
 ---
-
 # Novità della versione di aprile 2026 di Adobe Learning Manager
 
 **Per gli Allievi:** il lettore Fluidic ora mostra il nome del modulo successivo e un pulsante Esci chiaro.

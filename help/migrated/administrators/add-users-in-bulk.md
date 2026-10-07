@@ -4,13 +4,14 @@ title: Aggiunta di utenti in blocco
 description: Scopri come aggiungere più utenti alla volta.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 22%
-
+source-wordcount: '369'
+ht-degree: 36%
 ---
-
 # Aggiunta di utenti in blocco
 
 >[!INFO]
@@ -29,9 +30,9 @@ Puoi aggiungere più utenti alla volta procedendo come segue:
 
 1. Dopo aver importato il file, mappa il contenuto del file .csv con le etichette dell’applicazione quando carichi per la prima volta il suddetto file.
 
-   Per tutti i caricamenti successivi, vengono considerate le impostazioni precedenti per le etichette. Dopo aver completato la mappatura dei dati, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Aggiungi]** per caricare il file .csv mappato.
+   Per tutti i caricamenti successivi, vengono considerate le impostazioni precedenti per le etichette. Una volta completata la mappatura dei dati, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Aggiungi]** per caricare il file .csv mappato.
 
-1. Dopo aver completato la mappatura dei dati, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Aggiungi]** per caricare il file .csv mappato.
+1. Una volta completata la mappatura dei dati, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Aggiungi]** per caricare il file .csv mappato.
 
 ## Caricamento di file CSV con campi obbligatori {#csvuploadwithmandatoryfields}
 

@@ -4,13 +4,14 @@ title: Guida all’utilizzo dei webhook
 description: Scopri l’utilizzo dei webhook, le best practice e le limitazioni
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 1%
-
 ---
-
 # Guida all’utilizzo dei webhook
 
 I webhook sono un modo per le applicazioni Web di comunicare tra loro automaticamente e in tempo reale.
@@ -192,7 +193,8 @@ Poiché Adobe Learning Manager non esporrà direttamente i record e lo schema de
 
 ### Creazione di un database dagli eventi dell’oggetto di apprendimento
 
-Gli eventi oggetto di apprendimento espongono `loId` e `loType` per identificare un&#39;entità. Tuttavia, questi attributi da soli non sono sufficienti per creare un database esterno di oggetti di apprendimento. I clienti avranno bisogno di campi aggiuntivi per descrivere ulteriormente l’oggetto di apprendimento.Esistono due metodi per recuperare i dati aggiuntivi:
+Gli eventi oggetto di apprendimento espongono `loId` e `loType` per identificare un&#39;entità. Tuttavia, questi attributi da soli non sono sufficienti per creare un database esterno di oggetti di apprendimento. I clienti avranno bisogno di campi aggiuntivi per descrivere ulteriormente l’oggetto di apprendimento.
+Esistono due metodi per recuperare i dati aggiuntivi:
 
 #### Genera un report dei dati di formazione per recuperare tutti i dati
 
@@ -238,7 +240,8 @@ ALM ha un timeout di connessione configurato su 10 secondi e un timeout del sock
 
 ### Conservazione dei dati
 
-Gli eventi sono conservati per 7 giorni. Se non vengono elaborati entro questo periodo di tempo, vengono persi definitivamente. Se il ripristino avviene nell&#39;ultimo giorno e occorre più tempo, il sistema non estenderà il periodo di conservazione.Se gli eventi vengono prodotti più velocemente di quanto vengono utilizzati, alcuni eventi potrebbero andare perduti. Sebbene ciò sia raro, gli abbonati devono monitorare per evitare che diventi un problema a lungo termine.
+Gli eventi sono conservati per 7 giorni. Se non vengono elaborati entro questo periodo di tempo, vengono persi definitivamente. Se il ripristino avviene nell&#39;ultimo giorno e occorre più tempo, il sistema non estenderà il periodo di conservazione.
+Se gli eventi vengono prodotti più velocemente di quanto vengono utilizzati, alcuni eventi potrebbero andare perduti. Sebbene ciò sia raro, gli abbonati devono monitorare per evitare che diventi un problema a lungo termine.
 
 ### Webhook disabilitati
 
@@ -248,7 +251,7 @@ Il processo di nuovo tentativo inizia con un intervallo iniziale di 5 secondi. S
 
 ### Eventi duplicati
 
-Se un sottoscrittore impiega più di 5 secondi per rispondere dopo aver elaborato un evento, il sistema potrebbe tentare di elaborare nuovamente lo stesso evento. Si consiglia di utilizzare gli ID evento per tenere traccia degli eventi che sono già stati elaborati. Inoltre, se il webhook si arresta in modo anomalo dopo l’invio dell’evento ma prima del salvataggio che è stato elaborato, è possibile che venga eseguito un nuovo tentativo per lo stesso gruppo di eventi. Si consiglia di utilizzare ID batch o singoli ID evento per riconoscere e ignorare eventuali duplicati.
+Se un sottoscrittore impiega più di 5 secondi per rispondere dopo aver elaborato un evento, il sistema potrebbe tentare di elaborare nuovamente lo stesso evento. Si consiglia di utilizzare gli ID evento per tenere traccia degli eventi che sono già stati elaborati. Inoltre, se il webhook si arresto anomalo dopo l’invio dell’evento ma prima del salvataggio che è stato elaborato, è possibile che venga eseguito un nuovo tentativo per lo stesso gruppo di eventi. Si consiglia di utilizzare ID batch o singoli ID evento per riconoscere e ignorare eventuali duplicati.
 
 ### Raccomandazione per la tolleranza agli errori
 

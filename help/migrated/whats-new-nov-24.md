@@ -3,13 +3,14 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di novemb
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni di novembre 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
-
 ---
-
 # Riepilogo delle nuove funzioni di novembre 2024 {#new-features-summary}
 
 Scopri le nuove funzioni e i miglioramenti nella versione di novembre 2024 di Adobe Learning Manager.
@@ -228,7 +229,7 @@ La colonna della cartella utilizza il tipo di dati stringa ed è facoltativa. Di
 * Se aggiungi un nuovo nome di cartella per un modulo già presente in un’altra cartella, il nuovo valore non sovrascriverà né sostituirà la cartella assegnata. Il modulo verrà aggiunto alla nuova cartella e rimarrà disponibile anche nella cartella esistente.
 * Se il valore è vuoto, per impostazione predefinita la cartella sarà **[!UICONTROL Pubblica]**.
 
-Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/module_version.csv) di module_version_csv.
+Per ulteriori informazioni, fai riferimento al file della specifica ](assets/module_version.csv) di [module_version_csv.
 
 ### Modifiche alla migrazione dei moduli - Criteri di completamento
 
@@ -258,7 +259,7 @@ Di seguito sono riportate le condizioni per le nuove colonne:
    * Il tipo di dati deve essere una stringa e i valori supportati sono `QUIZ_ATTEMPTED`, `QUIZ_PASSED` e `QUIZPASSED_OR_LIMITREACHED`.
    * Quando `completionCriteria` è impostato su `QUIZ`, immetti il valore del quiz appropriato nella colonna `quizData`.
 
-Per ulteriori informazioni, fai riferimento al file della specifica [&#128279;](assets/module_version.csv) di module_version_csv.
+Per ulteriori informazioni, fai riferimento al file della specifica ](assets/module_version.csv) di [module_version_csv.
 
 ### Modifiche nella migrazione del corso - Criteri di completamento
 

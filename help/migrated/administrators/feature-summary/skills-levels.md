@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Creazione e modifica di abilità e livelli
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: 7f7e7d04943ce65fee3fa9ea801ab832e7c040fe
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 84%
-
 ---
-
 # Creazione e modifica di abilità e livelli
 
 Crea, assegna e modifica abilità e livelli.
@@ -276,7 +277,7 @@ In altre parole, ogni volta che iscrivi nuovamente un gruppo di utenti per avvia
 
 +++Come posso assegnare un’abilità a un corso?
 
-Consulta la sezione [Assegnazione di abilità a un corso &#x200B;](skills-levels.md#assignskilltocourse) per ulteriori informazioni sulla procedura.
+Consulta la sezione [Assegnazione di abilità a un corso ](skills-levels.md#assignskilltocourse) per ulteriori informazioni sulla procedura.
 +++
 
 +++Come posso modificare un livello di abilità?

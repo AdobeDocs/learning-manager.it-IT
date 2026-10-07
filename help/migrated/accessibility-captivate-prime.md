@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Accessibilità in Adobe Learning Manager
 description: Questo documento descrive il supporto dell’accessibilità del sistema di gestione dell’apprendimento Learning Manager per gli Allievi con disabilità. Fornisce inoltre agli utenti le opzioni di navigazione e le funzioni di accessibilità della piattaforma.
 contentowner: saghosh
-source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 71%
-
+source-wordcount: '959'
+ht-degree: 78%
 ---
-
 
 # Accessibilità in Adobe Learning Manager
 
@@ -17,12 +18,12 @@ Questo documento descrive il supporto dell’accessibilità del sistema di gesti
 
 Learning Manager rispetta gli standard di accessibilità WCAG 2.1 di livello A e AA di W3C per la piattaforma.
 
-Il ruolo Allievo di Adobe Learning Manager consente agli Allievi di navigare nella piattaforma e di sfruttare le seguenti funzionalità chiave di accessibilità:
+Il ruolo Allievo di Adobe Learning Manager consente agli utenti di navigare nella piattaforma e di trarre vantaggio dalle seguenti funzioni chiave di accessibilità:
 
 * Assistente vocale
 * Tastiera
 * Sottotitoli codificati
-* Altri
+* Altro
 
 ## Supporto per assistenti vocali {#supportforscreenreaders}
 
@@ -219,7 +220,7 @@ Utilizzare il tasto `kbd Tab` per spostarsi tra gli elementi della pagina. Utili
 
 ## Seguire un corso di formazione in Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. Una volta identificato un corso di formazione, utilizza `kbd Tab` o `kbd Shift + Tab` per accedere al pulsante Iscrizione/Avvia. Lo stato del pulsante dipende dallo stato di iscrizione a quel corso di formazione.
+1. Una volta identificato un corso di formazione, utilizza `kbd Tab` o `kbd Shift + Tab` per accedere al pulsante Iscrizione/Avvia. Lo stato del pulsante dipende dal tuo stato di iscrizione per il corso di formazione.
 
 1. Premi `kbd ENTER` per iniziare il corso di formazione.
 1. Di seguito sono riportati i controlli che vengono visualizzati indipendentemente dal tipo di contenuto:
@@ -228,7 +229,7 @@ Utilizzare il tasto `kbd Tab` per spostarsi tra gli elementi della pagina. Utili
    * Note
    * Pulsante Riproduci/Pausa
    * Schermo intero
-   * Chiudi pulsante
+   * Pulsante Chiudi
    * Impostazioni
    * Etichetta nome del modulo
 

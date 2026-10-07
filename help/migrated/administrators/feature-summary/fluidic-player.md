@@ -4,7 +4,10 @@ title: Lettore Fluidic
 description: Il lettore Fluidic è una piattaforma che consente agli Allievi di visualizzare i contenuti senza interruzioni, per un’esperienza di apprendimento davvero integrata. Tutti i formati supportati vengono riprodotti in modo coerente nel lettore. Gli Autori e gli Amministratori possono visualizzare in anteprima il contenuto mediante il lettore.
 contentowner: manochan
 exl-id: 4cd7197d-d4be-4755-b364-48f9e713c7e2
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 73%

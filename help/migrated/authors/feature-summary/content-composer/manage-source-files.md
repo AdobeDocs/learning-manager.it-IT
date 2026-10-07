@@ -2,13 +2,14 @@
 description: Scoprite come caricare i file sorgente in Content Composer, limitare l'output dell'intelligenza artificiale ai contenuti e aggiornare i file sorgente quando il materiale viene modificato.
 jcr-language: en_us
 title: Gestire i file sorgente
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
-
 ---
-
 
 # Gestire i file sorgente
 
@@ -65,4 +66,4 @@ I documenti sorgente possono non essere più aggiornati dopo che un corso è gi�
 
 ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
-Una volta allegato un file, l’icona del file nella barra degli strumenti mostra un numero di badge. L&#39;assistente conferma il caricamento e offre una scelta rapida **Genera struttura**. Selezionalo o seleziona **Genera struttura** nella barra degli strumenti superiore.
+Una volta allegato un file, l’icona del file nella barra degli strumenti mostra un numero di badge. L&#39;assistente conferma il caricamento e offre una scelta rapida da tastiera **Genera profilo**. Selezionalo o seleziona **Genera struttura** nella barra degli strumenti superiore.

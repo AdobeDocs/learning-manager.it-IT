@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Risoluzione dei problemi con l’app desktop Adobe Learning Manager
 contentowner: kuppan
 exl-id: 68d40a52-e048-43af-a7aa-917b569b583d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 54%
-
+source-wordcount: '1448'
+ht-degree: 61%
 ---
-
 # Risoluzione dei problemi con l’app desktop Adobe Learning Manager
 
 Questo documento contiene suggerimenti di base per risolvere alcuni dei problemi tipici che si presentano durante l’installazione e l’uso dell’applicazione desktop Adobe Learning Manager
@@ -26,7 +27,7 @@ Questo documento contiene suggerimenti di base per risolvere alcuni dei problemi
 
 +++
 
-+++Impossibile installare l’applicazione desktop Adobe Learning Manager
++++Non riesco a istallare l’applicazione desktop Adobe Learning Manager
 
 1. Verifica che il sistema in uso soddisfi i requisiti minimi di sistema. Vedi [Requisiti di sistema per l’app Adobe Learning Manager per desktop](../learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md).
 1. Rimuovi tutte le precedenti installazioni dell’applicazione desktop Adobe Learning Manager. Per ulteriori informazioni, vedere [Come pulire le installazioni precedenti](#howtocleanuppreviousinstallationsofadobelearningmanagerdesktopapp).
@@ -34,7 +35,7 @@ Questo documento contiene suggerimenti di base per risolvere alcuni dei problemi
 
 +++
 
-+++Impossibile avviare l’applicazione desktop Adobe Learning Manager
++++Non riesco ad avviare l’applicazione desktop Adobe Learning Manager
 
 1. Assicurati che l’applicazione desktop Adobe Learning Manager sia stata scaricata e installata.
 1. In Apprendimento social, fai clic su **[!UICONTROL Nuovo Post]** (se non disponi di una bacheca, creane una). Fai clic su una delle seguenti opzioni del pulsante di pubblicazione visualizzate: Scatta una schermata, Registrazione audio, Registrazione video, Galleria Adobe Learning Manager. Viene eseguito il reindirizzamento a una pagina da cui puoi avviare l’applicazione desktop Adobe Learning Manager.
@@ -51,7 +52,7 @@ Questo documento contiene suggerimenti di base per risolvere alcuni dei problemi
 
 +++
 
-+++Non riesco a visualizzare la webcam/il microfono elencato nell’applicazione desktop Adobe Learning Manager
++++Non riesco a vedere la webcam/il microfono elencato nell’applicazione desktop Adobe Learning Manager
 
 1. Assicurati che la tua webcam/microfono sia correttamente inserita nel sistema e funzioni correttamente.
 1. Assicurati di aver installato i driver più recenti della webcam/microfono. Alcuni dispositivi non funzionano correttamente senza driver dedicati.
@@ -60,7 +61,7 @@ Questo documento contiene suggerimenti di base per risolvere alcuni dei problemi
 
 +++
 
-+++Non riesco a pubblicare i miei post dall&#39;applicazione desktop Adobe Learning Manager
++++Non riesco a pubblicare i miei post dall’applicazione desktop Adobe Learning Manager
 
 1. Assicurati di avere un account valido Allievo in formazione di Adobe Learning Manager con Apprendimento social abilitato da parte dell’amministratore di Adobe Learning Manager.
 1. Ripristina le preferenze dell’applicazione, quindi riavvia l’applicazione desktop Adobe Learning Manager e riprova. Per ulteriori informazioni, consulta [Come reimpostare le preferenze dell&#39;applicazione](#howtoresetapplicationpreferences).
@@ -68,7 +69,7 @@ Questo documento contiene suggerimenti di base per risolvere alcuni dei problemi
 
 +++
 
-+++Non riesco a visualizzare o aprire i miei progetti precedenti
++++Impossibile vedere o aprire progetti precedenti
 
 1. Puoi vedere solo i progetti creati con il tuo account Adobe Learning Manager sullo stesso computer su cui li hai realizzati.
 1. Ripristina le preferenze dell’applicazione, quindi riavvia l’applicazione desktop Adobe Learning Manager e riprova. Per assistenza, consulta [Come reimpostare le preferenze dell&#39;applicazione](#howtoresetapplicationpreferences).
@@ -105,15 +106,15 @@ Questo documento contiene suggerimenti di base per risolvere alcuni dei problemi
 1. Per aprire la finestra di dialogo **Vai alla cartella**, premi i tasti **Comando + Maiusc + G**.
 1. Digita &quot;**/var/folders**&quot; (senza virgolette) e premi Invio.
 1. Cerca &quot;**elthor**&quot; nella barra di ricerca e apri la cartella.
-1. Ordinare le cartelle in base alla **&#x200B; &#x200B;**&#x200B;Data di modificae aprire la cartella più recente. Questa cartella contiene i registri dell&#39;applicazione più recenti.
+1. Ordinare le cartelle in base alla ** **Data di modificae aprire la cartella più recente. Questa cartella contiene i registri dell&#39;applicazione più recenti.
 
 ## Come abilitare la registrazione avanzata? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. Per aprire la finestra di dialogo Esegui, premi **il tasto Windows + R**.**&#x200B;**
-1. Digita &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (senza virgolette) e premi Invio.**&#x200B;**
-1. Esegui un backup del file **preferences.json** e aprilo in un editor di testo.**&#x200B;**
+1. Per aprire la finestra di dialogo Esegui, premi **il tasto Windows + R**.****
+1. Digita &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (senza virgolette) e premi Invio.****
+1. Esegui un backup del file **preferences.json** e aprilo in un editor di testo.****
 1. Cercare la chiave **debugMode** e modificare la proprietà del valore di questa chiave in &quot;**true**&quot; (senza virgolette).
 
 ### Mac OS X {#MacOSX-2}

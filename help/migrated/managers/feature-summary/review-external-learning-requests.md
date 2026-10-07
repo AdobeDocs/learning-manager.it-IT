@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Invio di corsi di formazione esterni in Adobe Learning Manager
 description: I Manager possono esaminare le richieste di apprendimento esterno inviate dai membri del team, verificare i dettagli e qualsiasi prova di completamento e approvare o rifiutare ogni richiesta con un commento facoltativo. Gli invii approvati vengono aggiunti alla Trascrizione Allievo.
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 1%
-
 ---
-
 
 # Rivedi le richieste di apprendimento esterne come Manager
 

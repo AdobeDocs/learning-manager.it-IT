@@ -2,13 +2,14 @@
 description: Questo documento riassume le modifiche alla segnalazione di agosto 2026 in Adobe Learning Manager. Include colonne nuove e aggiornate in Trascrizione Allievo, Formazione, Iscrizione, Lista d’attesa, Partecipazione, Controllo del contenuto e Report utente. Spiega inoltre il comportamento adattivo dei corsi, il punteggio dei gradebook, i record di apprendimento esterni, i report sui crediti dell’intelligenza artificiale generale, il tracciamento della certificazione root, la standardizzazione delle marche temporali e gli aggiornamenti degli autori delle API.
 jcr-language: en_us
 title: Segnalazione delle modifiche nella versione di agosto 2026 di Adobe Learning Manager
-source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 2%
-
 ---
-
 
 # Segnalazione delle modifiche nella versione di agosto 2026 di Adobe Learning Manager
 
@@ -109,7 +110,7 @@ Due nuovi eventi acquisiscono le modifiche alla configurazione dei gradebook.
 | **Evento** | **Attivato quando** | **Dati acquisiti** |
 |-----------------------|-----------------------------------------------------------------|----------------------------------------------------------|
 | Gradebook aggiornato | Gradebook è abilitato, disabilitato o modificato a livello di corso | Modifica dello stato del grafico; aggiornamenti della configurazione delle scarpate |
-| Peso del modulo aggiornato | La ponderazione assegnata a un modulo viene modificata | Identificatore del modulo; valore di ponderazione aggiornato |
+| Peso del modulo aggiornato | La ponderazione assegnata a un modulo viene modificata | Identificatore modulo; valore di ponderazione aggiornato |
 
 La Trascrizione Allievo riflette il peso più recente. Il report di controllo del contenuto tiene traccia delle modifiche cronologiche. Insieme, danno un quadro completo della logica di punteggio corrente e di come si è evoluta.
 

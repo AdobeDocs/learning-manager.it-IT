@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Impossibile accedere a Learning Manager
 contentowner: saghosh
 exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 72%
-
+source-wordcount: '306'
+ht-degree: 95%
 ---
-
 # Impossibile accedere a Learning Manager
 
 ## Problema
@@ -45,7 +46,7 @@ Usa la modalità di navigazione in incognito del browser e accedi ad Adobe Learn
 
 Se ancora non riesci ad accedere, contatta l’amministratore dell’account. L’amministratore può verificare se sei uno studente registrato nell’account.
 
-Se fai parte dell’account e ancora non riesci ad accedere, l’amministratore deve verificare se il tuo Adobe ID è lo stesso con cui stai tentando di accedere.
+Se fai parte dell’account e ancora non riesci ad accedere, l’amministratore dovrà verificare se il tuo Adobe ID è lo stesso con cui stai tentando di accedere.
 
 A volte l’Adobe ID è diverso dall’ID Adobe Learning Manager presente nell’account.
 

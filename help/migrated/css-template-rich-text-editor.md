@@ -4,13 +4,14 @@ title: Modello CSS per Editor di testo RTF
 description: Modello CSS per Editor di testo RTF
 contentowner: saghosh
 preview: true
-source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 70%
-
+source-wordcount: '231'
+ht-degree: 72%
 ---
-
 
 
 # Modello CSS per Editor di testo RTF
@@ -21,7 +22,7 @@ Il testo RTF è composto da markup HTML. Senza CSS, il rendering del markup caus
 
 ## Stile predefinito
 
-Il foglio di stile CSS allegato contiene lo stile applicato da Learning Manager. Lo stile è adattato in base alla maggioranza dei casi d’uso. Scarica il file CSS allegato e importalo nell’app web in base alle tue convenzioni e al tuo sistema di compilazione. Le classi CSS definite hanno lo spazio dei nomi ql-editor e non interferiscono con gli stili esistenti.
+Il foglio di stile CSS allegato contiene lo stile applicato da Learning Manager. Lo stile è adattato in base alla maggioranza dei casi d’uso. Scarica il file CSS allegato e importalo nell’app web in base alle tue convenzioni e al tuo sistema di compilazione. Le classi CSS definite utilizzano lo spazio dei nomi ql-editor e non interferiscono con i tuoi stili esistenti.
 
 ## Personalizzare gli stili
 

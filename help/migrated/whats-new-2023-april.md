@@ -1,15 +1,16 @@
 ---
 title: Novità di questa versione (aprile 2023)
 description: Scopri le nuove funzioni e i miglioramenti in Adobe Learning Manager
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 69%
-
 ---
-
 # Novità di questa versione (aprile 2023)
 
 ## App Adobe Learning Manager per Microsoft Teams

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Applicazione Allievo per dispositivi mobili e tablet
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 77%
-
 ---
-
 # Applicazione Allievo per dispositivi mobili e tablet
 
 Leggi questo articolo per scoprire come scaricare l’applicazione Allievo di Learning Manager per smartphone e tablet. Scopri come seguire i corsi tramite il tuo dispositivo mobile o tablet.
@@ -217,7 +218,7 @@ In questo aggiornamento, le seguenti funzionalità non sono supportate. Non è p
 
 * Creare o seguire una bacheca.
 * Copiare un URL in un post.
-* Aggiungi un post come storia o aggiungi come post preferito o aggiungi in alto.
+* Aggiungi post come storia o aggiungi come post come preferito o segnaposto all&#39;inizio.
 * Visualizza una bacheca di leader social.
 
 Apprendimento sociale è una piattaforma nell’app mobile Learning Manager che consente agli utenti di condividere idee e informazioni significative in un ambiente informale. Si tratta di una metodologia che integra il concetto di apprendimento tradizionale.
@@ -346,7 +347,7 @@ Nell’app mobile non è possibile creare una bacheca. Per creare una bacheca, �
 * Modifica o elimina i commenti in una bacheca.
 * Modifica o elimina un post in base alle autorizzazioni.
 * Segnala un abuso relativo a un post se quest’ultimo viola la loro privacy o se il suo contenuto è inappropriato. Una volta che un post è stato segnalato, viene inviata una notifica all’Amministratore e ai moderatori della bacheca per consentire loro di intraprendere ulteriori azioni.
-* Metti Mi piace a ![](assets/prime-like.png) o Non mi piace a ![](assets/prime-dislike.png)   un posto.
+* Metti Mi piace a ![](assets/prime-like.png) o Non mi piace a ![](assets/prime-dislike.png) un post.
 * Metti Mi piace a ![](assets/prime-like.png) o non mi piace a ![](assets/prime-dislike.png) un commento.
 
 ## Creare un post su altre bacheche {#createapostinotherboards}

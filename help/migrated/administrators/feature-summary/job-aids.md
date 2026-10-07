@@ -4,18 +4,19 @@ jcr-language: en_us
 title: Risorse formative
 contentowner: jayakarr
 exl-id: 4881f7d0-27da-4c41-a8cd-ad937f913157
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 39%
-
+source-wordcount: '314'
+ht-degree: 62%
 ---
-
 # Risorse formative
 
 Risorse formative per gli Amministratori in Learning Manager.
 
-Risorse formative è un archivio del contenuto di formazione accessibile agli Allievi senza alcun requisito di completamento o di iscrizione. Gli allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
+Risorse formative è un archivio del contenuto di formazione accessibile agli allievi senza alcun requisito di completamento o di iscrizione. Gli Allievi possono fare riferimento a queste risorse formative per ottenere assistenza relativa all’esecuzione di qualsiasi attività o attività in un’organizzazione.
 
 Le risorse formative possono essere utilizzate in modo indipendente o mentre segui un corso in Learning Manager.
 
@@ -31,7 +32,7 @@ In Accesso come Amministratore, fai clic su **[!UICONTROL Risorse formative]** n
 
 *Gestione risorse formative*
 
-Per visualizzare le risorse formative ritirate, fai clic sulla scheda Ritirato. È possibile ripubblicare i processi ritirati facendo clic sull&#39;icona delle impostazioni e scegliendo Publish. Fai clic su Anteprima nelle impostazioni per visualizzare in anteprima la risorsa formativa nel lettore.
+Visualizza le risorse formative ritirate facendo clic sulla scheda Ritirate. Puoi ripubblicare risorse ritirate facendo clic sull’icona delle impostazioni e scegliendo Pubblica. Fai clic su Anteprima nelle impostazioni per visualizzare in anteprima la risorsa formativa nel lettore.
 
 ## Gestione dell’assegnazione delle risorse formative {#managejobaidassignments}
 
@@ -46,19 +47,19 @@ Per visualizzare le risorse formative ritirate, fai clic sulla scheda Ritirato. 
 
    *Visualizza la finestra di dialogo Iscrivi Allievi*
 
-1. Nel campo **[!UICONTROL Allievi]**, inizia a digitare il nome degli Allievi e scegli gli Allievi dall’elenco a discesa. Puoi anche trovare gli Allievi per nome, profilo e così via.
+1. Nel campo **[!UICONTROL Allievi]**, inizia a digitare il nome degli Allievi e scegli gli Allievi dall’elenco a discesa. Puoi anche trovare gli Allievi in base al nome, al profilo e così via.
 1. Fai clic su **[!UICONTROL Aggiungi].**
 1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Domande frequenti {#frequentlyaskedquestions}
 
-+++Come si esportano i report delle risorse formative?
++++Come si trovano i report di Risorse formative?
 
 Nell&#39;angolo superiore destro dello schermo, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Esporta report]**.
 
 +++
 
-+++Come gestire le assegnazioni delle risorse formative?
++++Come si gestiscono le assegnazioni delle Risorse formative?
 
 Nella scheda **[!UICONTROL Pubblicato]**, fai clic sull&#39;icona delle impostazioni accanto a una risorsa formativa. Aggiungi un Allievo e fai clic su **[!UICONTROL Aggiungi]**.
 

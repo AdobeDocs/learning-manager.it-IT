@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Riepilogo delle nuove funzioni
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3960'
 ht-degree: 1%
-
 ---
-
 # Riepilogo delle nuove funzioni {#new-features-summary}
 
 Scopri le nuove funzioni e i miglioramenti nella versione di marzo 2024 di Adobe Learning Manager.
@@ -266,7 +267,9 @@ Durante la ricerca di qualsiasi utente, le opzioni **Scarica Allievo** e **Espor
 
 * Le colonne Tag e Abilità nel report dei corsi di formazione vengono modificate in Tag e Abilità.
 * Report [Prova di verifica della gamification](administrators/feature-summary/reports.md#gamification-audit-trail) aggiunto.
-* Se un account contiene più di 280000 Allievi assegnati a un’abilità, il report Allievo dell’abilità viene scaricato come un file CSV compresso.Se l’account contiene meno di 250000 Allievi, lo stesso report viene scaricato come file CSV.Nella pagina Amministratore, seleziona **Amministratore** > **Abilità** > **Abilità** > **Allievi**. Il report viene scaricato come CSV.
+* Se un account contiene più di 280000 Allievi assegnati a un’abilità, il report Allievo dell’abilità viene scaricato come un file CSV compresso.
+Se l’account contiene meno di 250000 Allievi, lo stesso report viene scaricato come file CSV.
+Nella pagina Amministratore, seleziona **Amministratore** > **Abilità** > **Abilità** > **Allievi**. Il report viene scaricato come CSV.
 * Il [report di riepilogo della sessione](administrators/feature-summary/reports.md#session-summary-report) contiene due nuove colonne: Informazioni sulla posizione e Area geografica.
 
 ## Modifiche alla creazione di classi
@@ -281,7 +284,8 @@ In qualità di Amministratore, puoi applicare restrizioni a un Autore per modifi
 
 ## Modifiche a un percorso di apprendimento flessibile
 
-Tutti gli account (vecchi e nuovi) in inizieranno a includere Scadenza iscrizione, Scadenza annullamento iscrizione e Limite di posti nell’app per Allievi per un percorso di apprendimento flessibile.Gli Allievi ora potranno iscriversi a un percorso di apprendimento flessibile senza selezionare alcuna istanza del corso.
+Tutti gli account (vecchi e nuovi) in inizieranno a includere Scadenza iscrizione, Scadenza annullamento iscrizione e Limite di posti nell’app per Allievi per un percorso di apprendimento flessibile.
+Gli Allievi ora potranno iscriversi a un percorso di apprendimento flessibile senza selezionare alcuna istanza del corso.
 
 ## Nuovo attivatore per i piani di apprendimento
 
@@ -339,9 +343,9 @@ Nelle versioni precedenti di Adobe Learning Manager, un Allievo non riceveva e-m
 Nella versione di marzo 2024 di Adobe Learning Manager, sono state introdotte le seguenti nuove modifiche:
 
 * Dettagli della sessione aggiornati e Invito alla sessione (per Allievo e Istruttore)
-   * Per le sessioni future, i messaggi e-mail per **Dettagli della sessione aggiornati**, **Invito alla sessione** per gli Allievi iscritti e gli Istruttori correnti diventeranno obsoleti. Per le sessioni passate, i messaggi e-mail per **Dettagli della sessione aggiornati** e **Invito alla sessione** per gli Allievi iscritti e gli Istruttori correnti rimarranno invariati.
+  * Per le sessioni future, i messaggi e-mail per **Dettagli della sessione aggiornati**, **Invito alla sessione** per gli Allievi iscritti e gli Istruttori correnti diventeranno obsoleti. Per le sessioni passate, i messaggi e-mail per **Dettagli della sessione aggiornati** e **Invito alla sessione** per gli Allievi iscritti e gli Istruttori correnti rimarranno invariati.
 * E-mail di promemoria (per Amministratore e Allievo)
-   * Per le sessioni future, verranno inviati solo **Promemoria sessione** e-mail.
+  * Per le sessioni future, verranno inviati solo **Promemoria sessione** e-mail.
 
 >[!NOTE]
 >
@@ -369,7 +373,8 @@ In questa versione dell’app per dispositivi mobili, gli Allievi possono pianif
 * Ricordamelo tra 3 giorni
 * Ricordamelo tra una settimana
 
-Su Android: se fai clic sulla notifica push verrai indirizzato alla pagina **Panoramica del corso**.Su iOS: facendo clic sulla notifica push verrai indirizzato alla pagina Home dell’app. Si tratta di una limitazione nota in iOS.
+Su Android: se fai clic sulla notifica push verrai indirizzato alla pagina **Panoramica del corso**.
+Su iOS: facendo clic sulla notifica push verrai indirizzato alla pagina Home dell’app. Si tratta di una limitazione nota in iOS.
 
 ### Modifiche all’elenco di controllo nell’app per Allievi in Salesforce
 
@@ -452,8 +457,8 @@ Un nuovo attributo, isExpiredSubmission, in learningObjectResource, che indica s
 
 * API /account: restituisce il nuovo attributo **expireSubmissionDuration** X, dove X è il numero di giorni impostato. Se non impostato, verrà restituito 0
 * L&#39;API GET /LO con risorsa include il nuovo attributo **isExpiredSubmission**&quot; True o False.
-   * True se l&#39;inoltro è scaduto e &quot;submissionUrl&quot; non viene visualizzato.
-   * Se è False, l&#39;invio non è scaduto e &quot;submissionUrl&quot; viene recuperato.
+  * True se l&#39;inoltro è scaduto e &quot;submissionUrl&quot; non viene visualizzato.
+  * Se è False, l&#39;invio non è scaduto e &quot;submissionUrl&quot; viene recuperato.
 
 ### Modifiche API nell’elenco di controllo
 
@@ -486,27 +491,27 @@ Si consiglia a tutti i clienti nuovi ed esistenti di effettuare chiamate di picc
 I percorsi seguenti sono obsoleti:
 
 * /learningObjects
-   * Percorsi obsoleti:
-      * enrollment.loInstance.loResources.resources
-      * instance.loResources.resources
-   * Percorsi esistenti:
-      * enrollment.loInstance
-      * instance.loResources
+  * Percorsi obsoleti:
+    * enrollment.loInstance.loResources.resources
+    * instance.loResources.resources
+  * Percorsi esistenti:
+    * enrollment.loInstance
+    * instance.loResources
 * /learningObjects/{id}
-   * Percorso obsoleto:
-      * enrollment.instance.subLoInstances.learningObject
-   * Percorso esistente:
-      * enrollment.instance.subLoInstances
+  * Percorso obsoleto:
+    * enrollment.instance.subLoInstances.learningObject
+  * Percorso esistente:
+    * enrollment.instance.subLoInstances
 * /enrollments
-   * Percorso obsoleto:
-      * loInstance.learningObject.enrollment
-   * Nuovo percorso:
-      * loInstance.learningObject
+  * Percorso obsoleto:
+    * loInstance.learningObject.enrollment
+  * Nuovo percorso:
+    * loInstance.learningObject
 * /learningObjects/{id}
-   * Percorso obsoleto:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Nuovo percorso:
-      * instance.subLoInstances
+  * Percorso obsoleto:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Nuovo percorso:
+    * instance.subLoInstances
 
 ### Modifiche relative all’archiviazione dei report di accesso e di audit degli utenti per l’API dei processi
 

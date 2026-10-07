@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Connettori Learning Manager
 preview: true
 exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6146'
+source-wordcount: '6186'
 ht-degree: 82%
-
 ---
-
 # Connettori Learning Manager
 
 Scopri come integrare Salesforce con Learning Manager utilizzando i connettori e come integrare FTP con Learning Manager e caricare automaticamente CSV utilizzando il connettore FTP.
@@ -300,7 +301,7 @@ Il connettore getAbstract può essere utilizzato dai clienti enterprise di getAb
 
    Per consentire la corretta esecuzione di qualsiasi tipo di sincronizzazione, devi assicurarti che nella cartella FTP getAbstract sia presente il feed dell’utente per le date specificate nella sincronizzazione.
 
-   Consulta il foglio di calcolo Excel riportato di seguito, che è un file di esempio di feed utente di getAbstract. Il nome del file deve seguire il formato:**report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.
+   Consulta il foglio di calcolo Excel riportato di seguito, che è un file di esempio di un feed utente di getAbstract. Il nome del file deve seguire il formato:**report_export_yyyy_MM_dd_HHmmss.xlsx** o **report_export_yyyy_MM_dd.xlsx**.
    [foglio Excel di esempio del feed utente getAbstract](assets/report-export-20170401175342.xlsx)
 
 ## Connettore Harvard ManageMentor {#hmmconnector}
@@ -383,8 +384,8 @@ L’Amministratore può impostare le attività di pianificazione secondo i requi
 
 ## Configurazione del connettore Workday {#configureworkdayconnector}
 
-**Prerequisito**: richiedi all’amministratore Workday della tua organizzazione di creare un utente del sistema di integrazione (ISU) con le autorizzazioni definite nel documento ISU_Permissions. Scarica una copia dal collegamento riportato di seguito.
-[Scarica una copia della sicurezza dell’utente del sistema di integrazione (ISU).](assets/isu-permissions-v1.pdf) Scopri il processo di integrazione di Learning Manager con il connettore Workday.
+**Prerequisito**: richiedi all’Amministratore Workday della tua organizzazione di creare un utente del sistema di integrazione (ISU) con le autorizzazioni definite nel documento ISU_Permissions. Scarica una copia dal collegamento riportato di seguito.
+[Scarica una copia della protezione dell&#39;utente del sistema di integrazione (ISU).](assets/isu-permissions-v1.pdf) Scopri il processo per integrare Learning Manager con il connettore Workday.
 
 1. Nella home page di Learning Manager, posiziona il mouse sul riquadro di Workday. Viene visualizzato un menu. Fai clic sulla voce **[!UICONTROL Connetti]** nel menu.
 

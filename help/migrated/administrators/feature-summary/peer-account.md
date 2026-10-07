@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Account condivisi tra pari
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 51%
-
 ---
-
 # Account condivisi tra pari
 
 Leggi questo articolo per sapere come creare e gestire account condivisi tra pari in Learning Manager.
@@ -110,8 +111,8 @@ In precedenza, i corsi acquisiti da account condivisi tra pari venivano spesso v
 
 * Quando un corso viene condiviso da un account condiviso tra pari, Learning Manager ora risolve e visualizza il **nome effettivo dell’autore** dall’account di origine.
 * Questo comportamento si applica a:
-   * Corsi condivisi di recente
-   * Corsi acquisiti prima dell’introduzione di questo miglioramento
+  * Corsi condivisi di recente
+  * Corsi acquisiti prima dell’introduzione di questo miglioramento
 
 ### Comportamento retroattivo
 

@@ -1,13 +1,14 @@
 ---
 title: Ruolo degli Istruttori in una sessione Hub dal vivo
 description: 'Scopri i flussi di lavoro degli Istruttori nell’Hub live: dalla preparazione di una sessione e la gestione delle interazioni degli Allievi alla revisione dei risultati in seguito.'
-source-git-commit: bed5e19d010b24f328c0368c251d39be3dc29af2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 
 # Ruolo degli Istruttori in una sessione Hub dal vivo
 

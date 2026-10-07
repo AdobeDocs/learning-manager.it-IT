@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Monitoraggio dell’utilizzo della Virtual Coach
 description: Monitora l’utilizzo dell’istruttore virtuale da parte dell’account.
 contentowner: mmanuel
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '733'
 ht-degree: 2%
-
 ---
-
 
 # Monitoraggio dell’utilizzo della Virtual Coach
 

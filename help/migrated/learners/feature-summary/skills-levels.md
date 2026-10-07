@@ -4,20 +4,21 @@ jcr-language: en_us
 title: Abilità e livelli
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 86%
-
+source-wordcount: '327'
+ht-degree: 94%
 ---
-
 # Abilità e livelli
 
 Leggi questo articolo per scoprire come ottenere abilità in Learning Manager, come Allievo.
 
 La mappa delle abilità racchiude i set di abilità, le conoscenze e le caratteristiche di un dipendente in un’organizzazione. Queste abilità aiutano le aziende/organizzazioni a impostare o incrementare le prestazioni previste per i dipendenti. Le abilità consentono ai dipendenti di allineare i loro comportamenti alle aspettative dell’organizzazione.
 
-Adobe Learning Manager consente di mappare le prestazioni degli Allievi in base ai relativi set di abilità tramite il widget delle abilità. Quando gli Allievi completano l’accettazione di alcuni corsi, possono verificare la loro posizione rispetto a ciascuna abilità facendo clic su Abilità nella home page Allievi.
+Adobe Learning Manager consente di mappare le prestazioni degli Allievi in base ai relativi set di abilità tramite il widget delle abilità. Quando gli Allievi completano l’accettazione di alcuni corsi, possono verificare la loro reputazione in relazione a ciascuna abilità facendo clic sulle abilità nella pagina principale dell’Allievo.
 
 ## Visualizzazione delle abilità {#viewskills}
 

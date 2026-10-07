@@ -3,13 +3,14 @@ description: Scopri come integrare il connettore Adobe Connect con Adobe Learnin
 jcr-language: en_us
 title: Connettore Adobe Connect
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 2%
-
 ---
-
 
 # Connettore Adobe Connect in Adobe Learning Manager
 
@@ -117,5 +118,5 @@ L’Amministratore può quindi esaminare i risultati importati:
 
 - **Frequenza e punteggi:** Visualizzare i punteggi finali dei quiz e la partecipazione.
 - **Punteggio quiz L2:**
-   - **Per utente:** mostra i singoli punteggi in punti e percentuali.
-   - **Per domanda:** mostra i risultati del quiz in un grafico.
+  - **Per utente:** mostra i singoli punteggi in punti e percentuali.
+  - **Per domanda:** mostra i risultati del quiz in un grafico.

@@ -4,13 +4,14 @@ title: xAPI in Learning Manager
 description: L’API Experience (xAPI) è una specifica del software di e-learning che consente ai contenuti di apprendimento e ai sistemi di apprendimento di comunicare tra loro in modo da registrare e tenere traccia di tutti i tipi di esperienze di apprendimento. Le esperienze di apprendimento sono registrate in un Learning Record Store (LRS). I Learning Record Store possono essere autonomi o esistere all’interno di sistemi LMS (Learning Management System) tradizionali.
 contentowner: dvenkate
 preview: true
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 67%
-
 ---
-
 
 
 # xAPI in Learning Manager
@@ -75,7 +76,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Come autore, ora puoi scegliere il modulo xAPI durante la creazione di corsi per monitorare l’esperienza degli utenti al di fuori di Learning Manager. Ad esempio, è possibile utilizzare questa funzione per valutare le attività degli utenti su una piattaforma di terze parti utilizzata per usufruire del corso.
 
-1. Durante la creazione di un **[!UICONTROL modulo attività]**, nell&#39;opzione **[!UICONTROL Tipo]**&#x200B;utilizzare il menu a comparsa per selezionare **[!UICONTROL modulo basato su xAPI.]**
+1. Durante la creazione di un **[!UICONTROL modulo attività]**, nell&#39;opzione **[!UICONTROL Tipo]**utilizzare il menu a comparsa per selezionare **[!UICONTROL modulo basato su xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +98,7 @@ Come autore, ora puoi scegliere il modulo xAPI durante la creazione di corsi per
 
 **Punti da tenere presenti:**
 
-* Learning Manager attualmente supporta solo mbox come identificatore. Gli altri identificatori, inclusi mboz_sha1, openid e account non sono supportati.
+* Learning Manager attualmente supporta solo mbox come identificatore. Altri identificatori, tra cui mboz_sha1, openid e account non sono supportati.
 
 * L’elemento stateId e profileId è un UUID se utilizzato con Learning Manager.
 * La richiesta PUT non sovrascrive il documento per agenti/profilo, attività/profilo e attività/stato di xAPI

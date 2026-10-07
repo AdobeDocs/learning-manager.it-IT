@@ -1,13 +1,14 @@
 ---
 title: Tenere traccia del coinvolgimento dei partecipanti
 description: Scopri come gli Istruttori utilizzano l’indicatore del coinvolgimento dei partecipanti in tempo reale nell’Hub dal vivo per monitorare l’attività del browser, la chat e la partecipazione al sondaggio.
-source-git-commit: cec3c8d82406bc0fed4de9db02b8328dbb228303
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 2%
-
 ---
-
 
 # Tenere traccia del coinvolgimento dei partecipanti
 

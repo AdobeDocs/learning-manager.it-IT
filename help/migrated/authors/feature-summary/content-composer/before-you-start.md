@@ -2,13 +2,14 @@
 description: 'Scoprite cosa vi serve prima di avviare Composizione contenuto: un account di Creative Cloud, Google Chrome e documenti di origine opzionali per guidare l''intelligenza artificiale.'
 jcr-language: en_us
 title: Cosa serve prima di iniziare
-source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # Prima di iniziare
 
@@ -16,7 +17,7 @@ Prima di avviare Adobe Learning Manager Content Composer, verificate quanto segu
 
 >[!IMPORTANT]
 >
->Devi accedere con un account Adobe Creative Cloud valido. Se non ne hai già uno, puoi creare un account gratuito tramite l&#39;Adobe Express. Per ulteriori informazioni, consulta [Creazione di un account di Adobe Express gratuito](https://helpx.adobe.com/it/express/web/adobe-express-subscription/free.html). Dopo aver creato le credenziali di Adobe, avvia Content Composer e accedi per iniziare a creare i corsi. Se l’organizzazione dispone già di un abbonamento Creative Cloud, prima di accedere a Content Composer contattate l’amministratore per richiedere un account Creative Cloud.
+>Devi accedere con un account Adobe Creative Cloud valido. Se non ne hai già uno, puoi creare un account gratuito tramite l&#39;Adobe Express. Per ulteriori informazioni, consulta [Creazione di un account di Adobe Express gratuito](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Dopo aver creato le credenziali di Adobe, avvia Content Composer e accedi per iniziare a creare i corsi. Se l’organizzazione dispone già di un abbonamento Creative Cloud, prima di accedere a Content Composer contattate l’amministratore per richiedere un account Creative Cloud.
 
 Per un’esperienza ottimale con Composizione contenuti, **Google Chrome è il browser consigliato**. Firefox e Safari possono mostrare differenze nelle funzionalità o nel comportamento.
 

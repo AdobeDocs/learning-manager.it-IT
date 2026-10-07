@@ -4,13 +4,14 @@ title: Importa abilità da origini esterne
 description: Importa le abilità dai provider di contenuti, come LinkedIn e Go1, utilizzando i rispettivi connettori.  Le abilità importate verranno aggiunte alle abilità definite dall’amministratore in Learning Manager e saranno disponibili per gli Autori durante il flusso di lavoro di creazione del corso.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
-
 # Importa abilità da origini esterne
 
 Importa le abilità dai provider di contenuti, come LinkedIn e Go1, utilizzando i rispettivi connettori. Questo miglioramento fa parte dell’obiettivo verso la capacità di Learning Manager di integrarsi con cloud di abilità e sistemi di gestione dei talenti esterni. Le abilità importate verranno aggiunte alle abilità definite dall’amministratore in Learning Manager e saranno disponibili per gli Autori durante il flusso di lavoro di creazione del corso. Sono stati apportati miglioramenti anche alla funzionalità di ricerca delle abilità su tutta la piattaforma, per offrire un’esperienza di ricerca migliore quando l’account dispone di un numero elevato di abilità.
