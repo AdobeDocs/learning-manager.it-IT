@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Trascrizioni Allievi
 contentowner: jayakarr
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1912'
-ht-degree: 66%
-
+source-wordcount: '1928'
+ht-degree: 81%
 ---
-
 # Trascrizioni Allievi
 
 Scarica la trascrizione Allievo e gestisci i report utilizzando Learning Manager.
@@ -42,7 +43,7 @@ Adobe Learning Manager consente agli Amministratori di un’organizzazione di ge
 
    *Aggiungi altri Allievi*
 
-1. Per scegliere cataloghi specifici, attiva la casella di controllo. Transcript viene scaricato solo per i cataloghi specificati. Puoi scegliere cataloghi specifici selezionando il catalogo dall&#39;elenco a discesa **[!UICONTROL Seleziona cataloghi]**.
+1. Puoi scegliere cataloghi specifici attivando la casella di controllo. Transcript viene scaricato solo per i cataloghi specificati. Puoi scegliere cataloghi specifici selezionando il catalogo dall&#39;elenco a discesa **[!UICONTROL Seleziona cataloghi]**.
 
    ![](assets/select-catalogs-lt.png)
 
@@ -58,16 +59,16 @@ Adobe Learning Manager consente agli Amministratori di un’organizzazione di ge
 
    *Selezionare il catalogo*
 
-1. Puoi anche scaricare le trascrizioni per gli Allievi eliminati da un account.
+1. Puoi scaricare le trascrizioni per Allievi che sono stati eliminati da un account.
 
-   Per scaricare le Trascrizioni allievi degli utenti eliminati, fai clic sulla freccia **[!UICONTROL Opzioni avanzate]** e abilita la casella di controllo **[!UICONTROL Includi dati degli allievi eliminati]**.
+   Per scaricare le trascrizioni Allievi degli utenti eliminati, fai clic sulla freccia **[!UICONTROL Opzioni avanzate]** e abilita la casella di controllo **[!UICONTROL Includi i dati degli Allievi eliminati]**.
 
    ![](assets/data-deleted-learners.png)
 
    *Scarica le trascrizioni degli Allievi per gli Allievi eliminati*
 
-1. Puoi scegliere di scaricare le informazioni a livello di modulo nella trascrizione Allievo abilitando la casella di controllo &quot;**[!UICONTROL Abilita informazioni a livello di modulo]**&quot;. I nomi dei moduli e il tempo trascorso su ciascun modulo vengono recuperati come parte della trascrizione se questa opzione è abilitata.
-1. Puoi scegliere di scaricare i dati sulle abilità e i fogli di riepilogo attivando la casella di controllo &quot;**[!UICONTROL Includi dati sulle abilità e fogli di riepilogo]**&quot;.
+1. Puoi scegliere di scaricare le informazioni sul livello di modulo nella trascrizione Allievo abilitando la casella di controllo “**[!UICONTROL Abilita informazioni sul livello di modulo]**”. I nomi dei moduli e il tempo trascorso su ciascun modulo vengono recuperati come parte della trascrizione se questa opzione è abilitata.
+1. Puoi scegliere di scaricare i dati sulle abilità e i fogli di riepilogo abilitando l’opzione “**[!UICONTROL Includi dati sulle abilità e fogli di riepilogo]**”.
 
    Le trascrizioni vengono generate e scaricate nel computer come file .zip quando i dati sulle abilità non sono inclusi. Se la casella di controllo dei dati sulle abilità è selezionata, le trascrizioni vengono generate e scaricate come file .xls.
 
@@ -77,15 +78,15 @@ Per acquisire le trascrizioni degli Allievi può volerci molto tempo, perché qu
 
 1. Accedi come **[!UICONTROL Amministratore]** o **[!UICONTROL Manager]**.
 1. Vai a **[!UICONTROL Report]** in **[!UICONTROL Gestisci]**. Viene caricata la pagina **[!UICONTROL Attività utente]**.
-1. Fai clic su **[!UICONTROL Report personalizzati]** nel riquadro a sinistra e seleziona **[!UICONTROL Trascrizioni allievi]** dall’elenco.
-1. Nella pagina **[!UICONTROL Trascrizioni Allievi]**, fai clic sul pulsante **[!UICONTROL Genera nuovo]** nell’angolo in alto a sinistra.
-1. Seleziona le date desiderate dal menu a discesa **[!UICONTROL Seleziona intervallo di date]**. Fai clic sulla scheda **[!UICONTROL ID e-mail]** per immettere l’elenco copiato di ID e-mail univoci.
+1. Fai clic su **[!UICONTROL Report personalizzati]** nel pannello a sinistra e seleziona **[!UICONTROL Trascrizioni allievi]** dall’elenco.
+1. Nella pagina **[!UICONTROL Trascrizioni allievi]**, clicca sul pulsante **[!UICONTROL Genera nuova]** nell’angolo in alto a sinistra.
+1. Seleziona le date desiderate dal menu a discesa **[!UICONTROL Seleziona periodo]**. Fai clic sulla scheda **[!UICONTROL ID e-mail]** per inserire la lista copiata di ID e-mail unici.
 
    ![](assets/cp-copy-paste-feature.png)
 
    *Copia e incolla ID e-mail*
 
-1. Utilizza **[!UICONTROL Convalida ID e-mail]** per verificare che l&#39;ID immesso sia corretto.
+1. Utilizza **[!UICONTROL Convalida ID e-mail]** per verificare che l’ID inserito sia corretto.
 
    ![](assets/cp-learnertran-gdpr.png)
 
@@ -138,7 +139,7 @@ Nell’elenco dei download vengono visualizzati i seguenti attributi:
 * **Stato:** scaricato, in coda o in corso.
 * **Da** e **A:** intervallo di tempo delle trascrizioni da scaricare.
 * **Filtri applicati:** se hai applicato dei filtri per lo stato di iscrizione.
-* **Generato da:** ID utente dell’utente Learning Manager che ha richiesto il download.
+* **Generato da:** ID dell’utente Learning Manager che ha richiesto il download.
 * **Stato:** scaricato, in coda o in corso.
 
 Puoi annullare il download in qualsiasi momento. Se un processo viene annullato dall’Amministratore, Learning Manager invia una notifica in-app all’utente che ha attivato la trascrizione Allievo.
@@ -163,7 +164,7 @@ Dopo aver attivato l’opzione e fatto clic su **[!UICONTROL Genera]**, i dati d
 
 L’Amministratore può personalizzare le colonne esportate in un report di trascrizione Allievi. Amministratori, Amministratori personalizzati e Manager possono configurare le colonne prima di esportare il report.
 
-Nella finestra di dialogo **[!UICONTROL Trascrizioni Allievi]**, fai clic su **[!UICONTROL Opzioni avanzate]**. Nella sezione **[!UICONTROL Configura il formato dell&#39;esportazione]**, scegli le colonne da esportare.
+Nella finestra di dialogo **[!UICONTROL Trascrizioni Allievo]**, fai clic su **[!UICONTROL Opzioni avanzate]**. Nella sezione **[!UICONTROL Configura il formato dell’esportazione]** scegli le colonne da esportare.
 
 ![](assets/image024.png)
 
@@ -173,11 +174,11 @@ La personalizzazione è consentita solo quando l’utente scarica la trascrizion
 
 ## Contenuto del file di trascrizione Allievo {#learnertranscriptfilecontent}
 
-Un file tipico di trascrizione Allievo consiste in sei fogli in un singolo file. I fogli di trascrizione Allievo forniscono un’analisi complessiva dei dati, tra cui il numero di Allievi coinvolti per corso, le loro abilità, la percentuale di completamento in base al corso o all’Allievo e un dashboard di conformità. Di seguito sono riportati i dashboard disponibili nelle trascrizioni Allievo:
+Un file tipico di trascrizione Allievo consiste in sei fogli in un singolo file. I fogli di trascrizione Allievo offrono una panoramica completa sui dati, compreso il numero di Allievi coinvolti per corso, le loro abilità, la percentuale di completamento basata su corso o Allievo e un dashboard di conformità. Di seguito sono riportati i dashboard disponibili nelle trascrizioni Allievo:
 
 **Trascrizione Allievo**
 
-Nel file Excel di trascrizione Allievo, insieme ai dettagli di profilo dell’Allievo, vengono forniti dettagli di consumo relativi all’oggetto di apprendimento, come data di iscrizione, di avvio, valutazione raggiunta, punteggio quiz ottenuto. Se i corsi fanno parte di un programma di apprendimento, vengono elencati separatamente oltre ai dettagli sulla fruizione dei singoli corsi.
+Nel file Excel di trascrizione Allievo, insieme ai dettagli di profilo dell’Allievo, vengono forniti dettagli di consumo relativi all’oggetto di apprendimento, come data di iscrizione, di avvio, valutazione raggiunta, punteggio quiz ottenuto. Se i corsi fanno parte di un programma di apprendimento, vengono elencati separatamente dai singoli dettagli di completamento corso.
 
 **1 - Dashboard di attività di apprendimento**
 
@@ -245,6 +246,6 @@ La Trascrizione Allievo mostra anche le colonne **[!UICONTROL Durata modulo]** e
 | Numero di abilità di ogni utente | Numero di abilità acquisite dall’allievo |
 | Numero di abilità che devono essere aggiornate | Numero di Allievi la cui competenza deve essere aggiornata |
 | Percentuale di conformità | Percentuale di avanzamento dell’abilità assegnata |
-| Percorso incorporato | In queste righe sarà mostrato il nome del programma di apprendimento incorporato. |
-| ID percorso incorporato | In queste righe saranno mostrati gli ID del programma di apprendimento incorporato. |
+| Percorso incorporato | In queste righe ci sarà il nome del programma di apprendimento incorporato. |
+| ID percorso incorporato | In queste righe ci saranno gli ID del programma di apprendimento incorporato |
 | Lingua del percorso incorporato | In queste righe ci sarà la lingua di creazione del programma di apprendimento. |
