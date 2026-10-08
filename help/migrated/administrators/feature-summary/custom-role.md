@@ -85,7 +85,7 @@ _Filtra ruoli personalizzati_
 
    *Imposta l&#39;ambito*
 
-   &#x200B;### Il layout del modello e-mail richiede i privilegi dell’account per i modelli e-mail
+   ### Il layout del modello e-mail richiede i privilegi dell’account per i modelli e-mail
 
    Per visualizzare un modello e-mail a livello di corso con il rendering corretto del layout, un ruolo personalizzato richiede **entrambi** dei seguenti elementi:
 
