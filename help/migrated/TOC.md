@@ -3,7 +3,7 @@ user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
 nudge: true
-source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
+source-git-commit: 29900b65ff6bf5b598bbba27d2691f75f544211f
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 34%
@@ -289,7 +289,7 @@ ht-degree: 34%
   * [Accesso](learners/feature-summary/user-login.md)
   * [Impostazioni profilo](learners/feature-summary/settings.md)
   * [Cataloghi](learners/feature-summary/catalogs.md)
-  * [Allenatore virtuale] {#virtualcoach}
+  * Coach virtuale {#virtualcoach}
     * [Esercitati un ruolo con Virtual Coach](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
     * [Informazioni sul report delle prestazioni dell&#39;istruttore virtuale](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [Iscrizione con un clic](learners/feature-summary/learner-one-click-enrollment.md)
