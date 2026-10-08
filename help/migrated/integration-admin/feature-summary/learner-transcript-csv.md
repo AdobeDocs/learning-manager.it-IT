@@ -4,13 +4,14 @@ title: Interpretazione del CSV Trascrizione Allievo
 description: Interpretazione del CSV Trascrizione Allievo
 contentowner: saghosh
 preview: true
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 88%
-
+source-wordcount: '2996'
+ht-degree: 93%
 ---
-
 
 
 # Interpretazione del CSV Trascrizione Allievo
@@ -41,19 +42,19 @@ La Trascrizione Allievo generata tramite l’interfaccia utente sarà un file Ex
 
 ## Esportazione di Trascrizione Allievo {#exportlearnertranscript}
 
-Quando la Trascrizione Allievo deve essere utilizzata da un sistema esterno, Learning Manager fornisce una funzione denominata Esporta dati, in cui Trascrizione Allievo è uno dei tipi di dati che è possibile esportare. Come spiegato nel Preambolo, ciò è necessario per l’integrazione di Learning Manager con un sistema esterno che deve elaborare i dati relativi al comportamento di apprendimento o per popolare un data warehouse aziendale con i dati sul comportamento di apprendimento.
+Quando la Trascrizione Allievo deve essere utilizzata da un sistema esterno, Learning Manager fornisce una funzione denominata Esporta dati, in cui Trascrizione Allievo è uno dei tipi di dati che è possibile esportare. Come spiegato nel preambolo, questo è necessario per l’integrazione di Learning Manager con un sistema esterno che deve elaborare i dati sul comportamento dell’apprendimento o per popolare un data warehouse aziendale con i dati sul comportamento dell’apprendimento.
 
 Per informazioni dettagliate sui connettori che supportano l’esportazione della Trascrizione Allievo, consultare la sezione [Esportazione di dati](/help/migrated/integration-admin/feature-summary/connectors.md) in connettori FTP, Box e PowerBI.
 
 Lo scopo di questi connettori è quello di esportare periodicamente i dati in un’applicazione downstream (una volta in N giorni). Quindi, questi connettori esportano solo i dati del comportamento di apprendimento incrementale in ogni fase. Tieni presente che questi connettori non consentono di recuperare i record relativi a un sottoinsieme specifico di utenti o oggetti di apprendimento: si tratta sempre di dati su tutti gli utenti e su tutti gli oggetti di apprendimento in quell’account.
 
-Nel caso di Power BI, il cliente deve fornire un’area di lavoro in cui Learning Manager possa continuare a esportare questi dati in modo incrementale in un set di dati creato dinamicamente. Questo connettore esporta solo i dati e i clienti devono creare i propri report/dashboard in base a questo set di dati.
+Nel caso di PowerBI, il cliente deve fornire un’area di lavoro in cui Learning Manager possa continuare a esportare i dati in modo incrementale in un set di dati creato dinamicamente. Questo connettore esporta solo i dati e i clienti devono creare i propri report/dashboard in base a questo set di dati.
 
 La sezione seguente fornisce i dettagli su come un sistema downstream deve interpretare i record della Trascrizione Allievo.
 
 ## Interpretazione della Trascrizione Allievo {#interpretthelearnertranscript}
 
-Ogni riga di una Trascrizione Allievo può essere considerata come un comportamento di apprendimento acquisito in Learning Manager in un periodo di tempo specifico. In genere, i connettori esportano &quot;dati incrementali&quot; e quindi le righe rappresentano le attività di apprendimento che si sono svolte tra l’ultima esecuzione del connettore e l’esecuzione corrente.
+Ogni riga di una Trascrizione Allievo può essere considerata un comportamento di apprendimento acquisito in Learning Manager in un periodo di tempo specifico. In genere, i connettori esportano &quot;dati incrementali&quot; e quindi le righe rappresentano le attività di apprendimento che si sono svolte tra l’ultima esecuzione del connettore e l’esecuzione corrente.
 
 Naturalmente, i connettori consentono anche di recuperare la trascrizione allievo su richiesta e, in questo caso, l’utente può specificare una data di avvio mentre la data di fine si presume sia quella corrente. Di solito si esegue questa operazione solo inizialmente, quindi si imposta il connettore per l’esportazione della trascrizione allievo incrementale a un’ora specifica del giorno, una volta in N giorni (il valore predefinito N è 1).
 
@@ -61,7 +62,7 @@ Definiamo ora cosa si intende per trascrizione allievo incrementale
 
 Nella Trascrizione Allievo, ogni riga rappresenta un’attività specifica che coinvolge un allievo specifico e un oggetto di apprendimento specifico. Siamo interessati principalmente allo stato di un Allievo in relazione all’oggetto di apprendimento: **Iscritto**, **Avviato**, **In corso** e **Completato**. Pertanto, la Trascrizione Allievo cattura anche quattro date corrispondenti.
 
-Ora esistono tre tipi di oggetti di apprendimento, in cui Learning Manager tiene traccia dell’avanzamento dell’Allievo, e i dati esportati contengono informazioni sull’avanzamento a livello di modulo, che è l’unità di contenuto più granulare che un Allievo può provare in Learning Manager.
+Ora esistono tre tipi di oggetti di apprendimento, in cui Learning Manager traccia i progressi degli allievi. I dati esportati contengono informazioni sullo stato di avanzamento a livello di modulo, che è l’unità di contenuto più granulare che un allievo può osservare in Prime.
 
 * **Corso** - una composizione di uno o più moduli
 * **Programma di apprendimento** - una composizione di uno o più corsi

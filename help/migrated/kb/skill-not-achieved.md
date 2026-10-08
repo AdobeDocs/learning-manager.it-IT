@@ -4,22 +4,23 @@ title: Non è possibile ottenere un’abilità dopo aver completato un corso
 description: Un Allievo, anche dopo aver completato un corso, non ottiene un’abilità. Le abilità dell’Allievo assegnate a tale corso rimangono sullo stato In corso.
 contentowner: nluke
 exl-id: d9c1e2a2-351d-4d6f-b2e6-f9e9278e6523
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 52%
-
+ht-degree: 72%
 ---
-
 # Non è possibile ottenere un’abilità dopo aver completato un corso
 
 ## Il problema
 
-Un Allievo, anche dopo aver completato un corso, non ottiene un’abilità. Le abilità dell’Allievo assegnate a tale corso rimangono **In corso**.
+Un Allievo, anche dopo aver completato un corso, non ottiene un’abilità. Le abilità dell’Allievo assegnate a tale corso rimangono sullo stato **In corso**.
 
 ## Causa
 
-Questo problema si verifica se i **crediti richiesti** per raggiungere questa abilità sono maggiori dei **crediti guadagnati** dall&#39;Allievo dopo aver completato il corso.
+Questo problema si verifica se i **crediti richiesti** per raggiungere questa abilità sono maggiori dei **crediti guadagnati** dall’Allievo dopo aver completato il corso.
 
 ## Soluzione
 

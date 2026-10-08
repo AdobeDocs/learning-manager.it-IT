@@ -3,13 +3,14 @@ title: Equivalenti e alternative in Adobe Learning Manager
 description: Offre un'esperienza di apprendimento senza problemi ed elimina i corsi di formazione ridondanti con Equivalenti e Alternative in ALM. Questa nuova funzionalità consente agli amministratori di configurare regole unidirezionali (alternative) o bidirezionali (equivalenti), in cui il completamento di un corso di formazione garantisce automaticamente il completamento alternativo per un altro
 jcr-language: en-us
 exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3474'
 ht-degree: 0%
-
 ---
-
 # Alternative ed equivalenti
 
 ## Introduzione

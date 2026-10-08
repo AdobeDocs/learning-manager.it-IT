@@ -3,13 +3,14 @@ description: Ulteriori informazioni sulla configurazione delle impostazioni avan
 jcr-language: en_us
 title: Impostazioni avanzate in Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 1%
-
 ---
-
 # Impostazioni avanzate in Adobe Learning Manager
 
 ## Etichette del catalogo
@@ -244,7 +245,7 @@ Le seguenti procedure consentono di creare una struttura di cartelle che si adat
 
    * Livello 3: Risorse PDF
 
-3. **I nomi devono essere brevi, descrittivi e univoci all&#39;interno dell&#39;elemento padre.** Evita nomi generici come &quot;Modulo 1&quot; o &quot;Contenuto&quot;. Utilizza identificatori sensati per gli autori che esplorano la libreria.
+3. **I nomi devono essere brevi, descrittivi e univoci all&#39;interno dell&#39;elemento padre.** Evita nomi generici come &quot;Modulo 1&quot; o &quot;Contenuto&quot;. Utilizza identificatori utili per gli autori che esplorano la libreria.
 
 4. **Assegna l&#39;accesso al ruolo personalizzato solo al livello 1.** Poiché l&#39;accesso si sovrappone automaticamente, l&#39;assegnazione al livello 1 è sufficiente e consente di gestire l&#39;accesso in modo semplice. Non è necessario aggiornare l&#39;accesso quando si aggiungono sottocartelle di livello 2 o 3.
 
@@ -302,17 +303,17 @@ Sessioni hub.
 
 Le festività sono un insieme di giorni non lavorativi gestiti a livello di account, con le seguenti proprietà:
 
-&#x200B;- Solo l’Amministratore può aggiungere, modificare o eliminare festività.
+- Solo l’Amministratore può aggiungere, modificare o eliminare festività.
 
-&#x200B;- Le festività si applicano a tutta l’organizzazione e vengono visualizzate nel calendario di ogni istruttore come giorni non lavorativi.
+- Le festività si applicano a tutta l’organizzazione e vengono visualizzate nel calendario di ogni istruttore come giorni non lavorativi.
 
-&#x200B;- Poiché le festività contrassegnano gli istruttori come non disponibili, le sessioni Live Hub non possono essere pianificate in tali date.
+- Poiché le festività contrassegnano gli istruttori come non disponibili, le sessioni Live Hub non possono essere pianificate in tali date.
 
-&#x200B;- Per ogni festività sono necessari una data e un nome. La descrizione è facoltativa.
+- Per ogni festività sono necessari una data e un nome. La descrizione è facoltativa.
 
-&#x200B;- Puoi aggiungere le festività una alla volta o importare più festività contemporaneamente utilizzando un file CSV.
+- Puoi aggiungere le festività una alla volta o importare più festività contemporaneamente utilizzando un file CSV.
 
-&#x200B;- Una volta aggiunte, le festività vengono visualizzate nella pagina **Vacanze**, in cui è possibile visualizzarle, cercarle e gestirle.
+- Una volta aggiunte, le festività vengono visualizzate nella pagina **Vacanze**, in cui è possibile visualizzarle, cercarle e gestirle.
 
 Per ulteriori informazioni, visualizzare [Gestione festività](../../../getting-started-with-live-hub/manage-holidays.md).
 

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Creazione di istanze di corsi e percorsi di apprendimento
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6105'
+source-wordcount: '6113'
 ht-degree: 58%
-
 ---
-
 # Creazione di istanze di corsi e percorsi di apprendimento
 
 Il presente documento illustra la procedura da seguire per creare moduli di corso, istanze e corsi per il ruolo di Amministratore.

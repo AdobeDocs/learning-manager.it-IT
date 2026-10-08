@@ -4,13 +4,14 @@ title: Credendo
 description: Informazioni sull'integrazione Creded con ALM per gestire e condividere distintivi esterni dalla piattaforma su vari canali di social media
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # Credendo
 
 [Creded](https://info.credly.com/) è una piattaforma di credenziale digitale che consente agli Allievi e alle organizzazioni di ottenere, condividere e verificare i risultati professionali, ad esempio distintivi o certificazioni. Gli Allievi possono gestire e condividere i distintivi tramite il proprio profilo Crely sui social media e in altri luoghi.

@@ -4,13 +4,14 @@ title: Gestione delle liste di attesa e di frequenza
 description: Gli Amministratori possono gestire le liste di attesa e di frequenza per i corsi degli Allievi.
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 72%
-
 ---
-
 # Gestione delle liste di attesa e di frequenza
 
 Gli Amministratori possono gestire le liste di attesa e di frequenza per i corsi degli Allievi.

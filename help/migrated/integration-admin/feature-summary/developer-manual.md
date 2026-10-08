@@ -4,13 +4,14 @@ title: Manuale per sviluppatori di applicazioni
 description: Scopri come integrare e personalizzare le applicazioni utilizzando le API RESTful, affrontando argomenti essenziali come l’autenticazione OAuth 2.0, gli scenari di utilizzo delle API e i modelli di dati. Migliora le tue applicazioni aziendali con funzionalità come la creazione di corsi, il tracciamento dei progressi degli Allievi, la mappatura delle abilità, la certificazione, la gamification e altro ancora. Questa guida fornisce istruzioni dettagliate ed esempi reali per aiutare gli sviluppatori a creare flussi di lavoro diretti ed efficienti. Ideale per gli sviluppatori che desiderano sfruttare le funzionalità di Adobe Learning Manager per la creazione di applicazioni incentrate sugli Allievi.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4415'
+source-wordcount: '4577'
 ht-degree: 6%
-
 ---
-
 
 # Manuale per sviluppatori Adobe Learning Manager
 
@@ -54,14 +55,14 @@ Integrazione di Adobe Learning Manager con applicazioni esterne per una maggiore
    * **[!UICONTROL Descrizione]**: breve descrizione delle operazioni eseguite dall&#39;applicazione.
    * **[!UICONTROL Ambiti]**: selezionare una delle sei opzioni disponibili per definire l&#39;ambito dell&#39;applicazione. In base alla scelta indicata qui, gli endpoint API di Learning Manager sono accessibili per l’applicazione. Ad esempio, se scegli l’accesso in lettura al ruolo di Allievo, tutti gli endpoint API da Allievo di Learning Manager sono accessibili all’applicazione in sola lettura.
 
-      * Accesso in lettura/scrittura al ruolo di amministratore: consente all’applicazione di accedere o modificare i dati come amministratore.
-      * Accesso in lettura/scrittura al ruolo Allievo: consente all’applicazione di accedere o modificare i dati per gli Allievi.
-      * Accesso in lettura/scrittura xAPI: consente all’applicazione di accedere e inviare istruzioni Experience API (xAPI).
+     * Accesso in lettura/scrittura al ruolo di amministratore: consente all’applicazione di accedere o modificare i dati come amministratore.
+     * Accesso in lettura/scrittura al ruolo Allievo: consente all’applicazione di accedere o modificare i dati per gli Allievi.
+     * Accesso in lettura/scrittura xAPI: consente all’applicazione di accedere e inviare istruzioni Experience API (xAPI).
 
    * **[!UICONTROL Solo per questo account?]**
 
-      * **[!UICONTROL Sì]**: se scegli Sì, l’applicazione non sarà visibile ad altri amministratori account.
-      * **[!UICONTROL No]** - se scegli No, anche altri amministratori account potranno accedere a questa applicazione, ma dovranno usare l&#39;ID dell&#39;applicazione. L’ID dell’applicazione viene generato e visualizzato nella modalità di modifica dell’applicazione di Learning Manager.
+     * **[!UICONTROL Sì]**: se scegli Sì, l’applicazione non sarà visibile ad altri amministratori account.
+     * **[!UICONTROL No]** - se scegli No, anche altri amministratori account potranno accedere a questa applicazione, ma dovranno usare l&#39;ID dell&#39;applicazione. L’ID dell’applicazione viene generato e visualizzato nella modalità di modifica dell’applicazione di Learning Manager.
 
      ![testo alternativo](assets/register-an-app.png)
 
@@ -413,8 +414,8 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instance.loResources.resources.room</br><br>subLOs.instance.loResources.room</br><br>subLOs.additionalResources</br><br>subrollLOs.enrollements ment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.additionalLOs.instance.loResources.resources</br>
   </td>
   <td>
-  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades 3&rbrace;
-  </br></td>
+  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instance.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades</br>
+  </td>
   </tr>
   </table>
 

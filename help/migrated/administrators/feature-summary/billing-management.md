@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Gestione degli ordini e della fatturazione di Learning Manager
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 52%
-
 ---
-
 
 # Gestione degli ordini e della fatturazione di Learning Manager
 
@@ -44,7 +45,7 @@ Nella scheda **Dettagli account** nella parte superiore della scheda **Abbonamen
 | Campo | Descrizione |
 |---|---|
 | **ECCID** | Numero di riferimento di Adobe per il tuo account. Fai clic qui per contattare l’assistenza tecnica di Adobe. |
-| **ID account** | L&#39;identificatore univoco dell&#39;account Adobe Learning Manager. |
+| **ID account** | Il tuo identificatore univoco dell&#39;account Adobe Learning Manager. |
 | **Nome account** | Nome visualizzato dell&#39;account Adobe Learning Manager. |
 | **ID organizzazione IMS** | L’organizzazione Adobe Admin Console collegata a questo account. Vuoto se non ancora collegato. |
 
@@ -97,7 +98,7 @@ Se il tuo account è stato configurato in modo indipendente e il campo **ID orga
 1. Seleziona **[!UICONTROL Fatturazione]**, quindi seleziona la scheda **[!UICONTROL Abbonamento]**.
 2. Nella scheda **Dettagli account**, seleziona **[!UICONTROL Collega organizzazione IMS]**.
 3. Viene visualizzata una finestra di accesso. Immetti le credenziali del tuo account di Adobe e seleziona la tua organizzazione dall&#39;elenco. Adobe Learning Manager conferma che l’account che accede ha il ruolo di amministratore di sistema nell’organizzazione Adobe Admin Console e che lo stesso account ha il ruolo di amministratore in Adobe Learning Manager.
-4. Se entrambi i controlli vengono superati, il collegamento viene stabilito. Il campo **ID organizzazione IMS** viene aggiornato con l&#39;identificatore dell&#39;organizzazione e il saldo del credito viene visualizzato nella sezione **Licenze**.
+4. Se entrambi i controlli vengono superati, il collegamento viene stabilito. Il campo **ID organizzazione IMS** viene aggiornato con l&#39;identificatore della tua organizzazione e il saldo del credito viene visualizzato nella sezione **Licenze**.
 5. Se uno dei due controlli ha esito negativo, viene visualizzato un messaggio di errore. Confermare i prerequisiti precedenti e riprovare.
 
 ### Scollegare l’account

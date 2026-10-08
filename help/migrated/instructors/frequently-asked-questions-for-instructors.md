@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Domande frequenti per gli Istruttori
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 70%
-
+source-wordcount: '382'
+ht-degree: 74%
 ---
-
 # Domande frequenti per gli Istruttori
 
 Continua a leggere per consultare le domande frequenti per gli Istruttori su Learning Manager.
@@ -25,19 +26,19 @@ Se hai già effettuato l’accesso all’app Learning Manager con un altro ruolo
 
 +++Quali sono le funzionalità di un Istruttore su Learning Manager?
 
-Gli istruttori di moduli o sessioni possono gestire la data, l’ora e la sede della sessione. Gli istruttori possono anche gestire il limite di partecipanti per i moduli e il limite della lista d’attesa. Possono far scorrere la lista d’attesa e confermare l’elenco dei partecipanti di una sessione. Gli istruttori possono inoltre approvare gli elementi inviati dagli Allievi e configurare promemoria per i corsi che ospitano le sessioni dell’Istruttore.
+Gli istruttori di moduli o sessioni possono gestire la data, l’ora e la sede della sessione. Gli istruttori possono anche gestire il limite di partecipanti per i moduli e il limite della lista d’attesa. Possono cancellare la lista d’attesa e confermare l’elenco dei partecipanti per una sessione.Gli Istruttori possono inoltre approvare gli invii degli Allievi e impostare promemoria per i corsi che ospitano le sessioni dell’Istruttore.
 
 Una volta terminata la sessione, gli istruttori possono anche prendere le presenze e approvare eventuali compiti e altri file di risorse relativi alla sessione. Per informazioni dettagliate sulle funzionalità dell’Istruttore, consulta [Riepilogo delle funzionalità](feature-summary/modules.md).
 
 +++
 
-+++Quali sono i tipi di corso a cui un Autore può assegnare un Istruttore?
++++A quali tipi di corsi un autore può assegnare un istruttore?
 
 Un autore può assegnare solo un Istruttore ai moduli in classe.
 
 +++
 
-+++A un modulo possono essere assegnati più Istruttori?
++++Possono essere assegnati più Istruttori a un unico modulo?
 
 Sì, un autore può assegnare più Istruttori a un singolo modulo. In questo caso, ogni istruttore può gestire la sessione. Se più istruttori modificano contemporaneamente gli stessi dettagli della sessione, sono quelli salvati per ultimi a essere salvati definitivamente.
 

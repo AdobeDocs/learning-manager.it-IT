@@ -4,13 +4,14 @@ title: Etichettatura bianca nell’app mobile Adobe Learning Manager
 description: L'etichettatura bianca è una pratica per rinominare un'app o un servizio con il proprio marchio e personalizzarlo come se fossi il creatore originale. In Adobe Learning Manager, puoi applicare l'etichettatura bianca all'app per dispositivi mobili, in modo da rinominare l'app e renderla disponibile agli utenti con il tuo marchio.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 0%
-
 ---
-
 # Etichettatura bianca nell’app mobile Adobe Learning Manager
 
 L’app per dispositivi mobili Adobe Learning Manager ora supporta l’etichettatura bianca, il che significa che ora puoi rilasciare l’app con il tuo marchio.
@@ -151,7 +152,7 @@ L&#39;etichettatura bianca è una pratica per rinominare un&#39;app o un servizi
 
    <td>
 
-    <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato da assegnare al nome è account-id_appIcon.png. Le dimensioni dell'icona dell'app sono di 512 × 512 pixel.<div>Tieni presente che Apple non consente il canale di Alpha nelle icone delle app. Assicurati quindi di rimuovere il canale di Alpha dalla risorsa prima di inviarla.</div></p>
+    <p>L'icona dell'app come png. Questa icona viene visualizzata nell'app. Il formato da assegnare al nome è account-id_appIcon.png. Le dimensioni dell'icona dell'app sono di 512 × 512 pixel.<div>Tieni presente che Apple non consente il Canale alfa nelle icone delle app. Quindi assicurati di rimuovere il Canale alfa dalla risorsa prima di inviarla.</div></p>
 
    </td>
 
@@ -355,12 +356,12 @@ Per scaricare il file services.json, effettua le seguenti operazioni:
    >   Il formato di immissione del progetto sarà &lt;-accountname->@appspot.gserviceaccount.com.
 
 1. Passa alla scheda **Tasti** e seleziona **Aggiungi chiave**.
-1. Se non è presente alcuna chiave, selezionare **Crea nuova chiave** e selezionare **JSON** come tipo di chiave. Questo genererà e scaricherà il file JSON.
-1. Se è già presente una chiave, seleziona **Carica chiave esistente**, incolla la chiave e caricala. Questo genererà e scaricherà il file JSON.
+1. Se non è presente alcuna chiave, selezionare **Crea nuova chiave** e selezionare **JSON** come tipo di chiave. Questo genererà e scaricherà il File JSON.
+1. Se è già presente una chiave, seleziona **Carica chiave esistente**, incolla la chiave e caricala. Questo genererà e scaricherà il File JSON.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
-Contatta il team CSM e condividi il file JSON per aggiungere la voce ai servizi SNS in AWS. Gli utenti dovranno registrare la voce nel servizio SNS per la notifica push, che richiederà loro di condividere i certificati generati sopra per la convalida.
+Contatta il team CSM e condividi il File JSON per aggiungere la voce ai servizi SNS in AWS. Gli utenti dovranno registrare la voce nel servizio SNS per la notifica push, che richiederà loro di condividere i certificati generati sopra per la convalida.
 
 ## Crea progetto in Firebase {#create-project-in-firebase}
 

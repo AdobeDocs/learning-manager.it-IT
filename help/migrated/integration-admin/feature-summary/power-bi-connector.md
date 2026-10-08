@@ -3,13 +3,14 @@ description: Scopri come integrare il connettore Power BI con Adobe Learning Man
 jcr-language: en_us
 title: Connettore Power BI
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 4%
-
 ---
-
 
 # Connettore Power BI in Adobe Learning Manager
 
@@ -212,18 +213,18 @@ La modalità di visualizzazione di **percorsi di apprendimento** nei report dipe
 
 - **Connessioni esistenti:**
 
-   - Se **Percorso di apprendimento** è disabilitato, non verranno incluse righe o colonne correlate.
-   - Se questa opzione è attivata, il report include il percorso di apprendimento (livello superiore) per gli Allievi iscritti.
+  - Se **Percorso di apprendimento** è disabilitato, non verranno incluse righe o colonne correlate.
+  - Se questa opzione è attivata, il report include il percorso di apprendimento (livello superiore) per gli Allievi iscritti.
 
 - **Nuove connessioni:**
 
-   - Se Percorso di apprendimento è disattivato, le colonne mostrano:
+  - Se Percorso di apprendimento è disattivato, le colonne mostrano:
 
-      - **Percorso incorporato:** nome del programma di apprendimento.
-      - **ID percorso incorporato:** ID per il programma di apprendimento.
-      - **ID corso incorporato:** ID dei corsi all’interno del percorso di apprendimento.
-   - Se questa opzione è attivata, la colonna **Tipo** utilizza il percorso di apprendimento (livello superiore), se pertinente.
-   - Per le nuove connessioni, le modifiche vengono applicate dopo 30 giorni.
+    - **Percorso incorporato:** nome del programma di apprendimento.
+    - **ID percorso incorporato:** ID per il programma di apprendimento.
+    - **ID corso incorporato:** ID dei corsi all’interno del percorso di apprendimento.
+  - Se questa opzione è attivata, la colonna **Tipo** utilizza il percorso di apprendimento (livello superiore), se pertinente.
+  - Per le nuove connessioni, le modifiche vengono applicate dopo 30 giorni.
 
 ### Dove visualizzare i dati**
 

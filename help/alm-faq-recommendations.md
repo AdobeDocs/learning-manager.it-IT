@@ -2,13 +2,14 @@
 title: Ciclo di vita dell'account amministrativo Adobe Learning Manager
 description: Questo documento fornisce un riepilogo completo delle funzionalità di gestione, configurazione e conformità dell'account di sicurezza ALM (Adobe Learning Manager) in linea con i consigli FedRAMP.
 jcr-language: en-us
-source-git-commit: 06051e44c0a6bc8ae60e44272ba088f2f6ff281f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
-
 ---
-
 
 # Consigli sulla sicurezza di Adobe Learning Manager
 
@@ -119,16 +120,16 @@ Adobe Learning Manager fornisce un’API REST v2 completa che consente la visual
 ### Recupero configurazione account
 
 * `GET /account`: restituisce la configurazione a livello di account, inclusi i dati delle impostazioni dell&#39;account in formato JSON, inclusi i seguenti campi:
-   * `complianceLabelDefaultID`
-   * `showComplianceLabel`
-   * `custom_injections`
+  * `complianceLabelDefaultID`
+  * `showComplianceLabel`
+  * `custom_injections`
 
 ### API di gestione utenti Adobe (livello Admin Console)
 
 * L&#39;API UMAPI (User Management API) di Adobe consente l&#39;accesso a livello di codice alle operazioni di Admin Console:
-   * Provisioning utente
-   * Assegnazione autorizzazione prodotto
-   * Assegnazione del ruolo di amministratore di sistema a livello di organizzazione
+  * Provisioning utente
+  * Assegnazione autorizzazione prodotto
+  * Assegnazione del ruolo di amministratore di sistema a livello di organizzazione
 * UMAPI è separata dall’API REST ALM e opera a livello di organizzazione dell’Adobe. Utilizzalo per automatizzare le assegnazioni dei ruoli di Admin Console e il provisioning degli utenti.
 
 ## Adobe Learning Manager pubblica la propria guida alla configurazione sicura, ovvero le impostazioni predefinite consigliate, in un formato leggibile da un computer come OSCAL, JSON o YAML?
@@ -152,29 +153,29 @@ Per ogni aggiornamento del prodotto, Adobe Learning Manager mantiene a disposizi
 
 * Adobe pubblica le note sulla versione numerate per ogni aggiornamento di Adobe Learning Manager (ad esempio, *Aggiornamento 100*, *Aggiornamento 99*).
 * Questi sono pubblicati nell&#39;**Experience League** e nel documento:
-   * Nuove funzioni
-   * Modifiche alle impostazioni esistenti
-   * Aggiunte e rimozioni API
-   * Modifiche al connettore
-   * Funzionalità obsolete
+  * Nuove funzioni
+  * Modifiche alle impostazioni esistenti
+  * Aggiunte e rimozioni API
+  * Modifiche al connettore
+  * Funzionalità obsolete
 * Ogni nota sulla versione include una sezione dedicata per **modifiche API**, che elenca:
-   * Nuovi endpoint
-   * Campi di risposta modificati
-   * Obsoleti
-   * Queste sono direttamente rilevanti per le capacità di configurazione relative alla sicurezza.
+  * Nuovi endpoint
+  * Campi di risposta modificati
+  * Obsoleti
+  * Queste sono direttamente rilevanti per le capacità di configurazione relative alla sicurezza.
 
 ### Pagine &quot;Novità&quot;: riepiloghi delle funzioni per ogni versione
 
 * Ogni versione principale dispone di una pagina **&quot;Novità&quot;** dedicata che documenta le nuove funzionalità relative alla sicurezza con il contesto.
 * Esempi di aggiornamenti documentati relativi alla sicurezza includono:
-   * Modifiche alla gestione delle autorizzazioni dei ruoli personalizzati
-   * Aggiunta della visibilità delle autorizzazioni create con CSV per i ruoli personalizzati
-   * Modifiche per la limitazione della velocità API
+  * Modifiche alla gestione delle autorizzazioni dei ruoli personalizzati
+  * Aggiunta della visibilità delle autorizzazioni create con CSV per i ruoli personalizzati
+  * Modifiche per la limitazione della velocità API
 
 ### Elenco deprecazioni API: record autorevole delle funzionalità API rimosse
 
 * Adobe gestisce una pagina dedicata **API obsolete** che elenca tutti gli endpoint API ALM obsoleti e rimossi, inclusa la versione di rilascio in cui si è verificata ciascuna interruzione.
 * Esempi di deprecazioni relative alla sicurezza includono:
-   * Modifiche al comportamento di ordinamento e sostituzione dell&#39;endpoint `GET /users`
-   * Requisiti di notifica, filtro data report
+  * Modifiche al comportamento di ordinamento e sostituzione dell&#39;endpoint `GET /users`
+  * Requisiti di notifica, filtro data report
 

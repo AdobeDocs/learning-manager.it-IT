@@ -4,16 +4,17 @@ jcr-language: en_us
 title: Impersonificazione dell’Allievo e del Manager
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 56%
-
+source-wordcount: '518'
+ht-degree: 59%
 ---
-
 # Impersonificazione dell’Allievo e del Manager {#impersonation-of-learner-and-manager}
 
-Nelle grandi organizzazioni, il personale dell’assistenza clienti necessita della capacità di impersonificazione per risolvere i problemi riscontrati dagli Allievi.
+Nelle grandi organizzazioni, il personale del servizio di assistenza clienti necessita della capacità di impersonificazione per risolvere i problemi riscontrati dagli Allievi.
 
 Grazie a questa capacità di impersonare altri utenti, gli Amministratori possono identificare ed eseguire tutte le attività svolte da Allievi e Manager della propria organizzazione.
 
@@ -78,17 +79,17 @@ Nel report, ogni accesso viene conteggiato separatamente.
 
 ## Domande frequenti
 
-+++È possibile accedere a Adobe Learning Manager anche durante la rappresentazione?
++++Posso accedere a Adobe Learning Manager anche quando vengo impersonato?
 
 Sì, l’accesso di un utente è indipendente dall’impersonificazione.
 +++
 
-+++Gli eventi di rappresentazione vengono conteggiati in modo univoco?
++++Gli eventi di impersonificazione vengono conteggiati in modo univoco?
 
 Sì, ogni accesso/visita da parte dell’amministratore durante l’impersonificazione verrà conteggiato/a separatamente.
 +++
 
-+++Qual è il timeout dell’impersonificazione?
++++Qual è il timeout di rappresentazione?  
 
 60 minuti. Se un utente che esegue l’impersonificazione chiude la finestra del browser e passa a un URL principale entro 60 minuti, l&#39;attività di impersonificazione continua e il messaggio del banner deve essere visualizzato.
 +++

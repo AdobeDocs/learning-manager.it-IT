@@ -3,13 +3,14 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di novemb
 jcr-language: en_us
 title: Riepilogo delle nuove funzioni di novembre 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
-
 ---
-
 # Riepilogo delle nuove funzioni di novembre 2024 {#new-features-summary}
 
 Scopri le nuove funzioni e i miglioramenti nella versione di novembre 2024 di Adobe Learning Manager.

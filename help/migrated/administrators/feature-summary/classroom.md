@@ -1,13 +1,14 @@
 ---
 title: Aggiungi aule
 description: Scopri come gli Amministratori possono configurare le impostazioni e aggiungere, migrare, modificare ed eliminare aule in Adobe Learning Manager e come aggiungere traduzioni per un’aula.
-source-git-commit: 6f2b9abf305665fe0b66007411455bd2210ee248
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1641'
-ht-degree: 3%
-
+source-wordcount: '1740'
+ht-degree: 4%
 ---
-
 
 # Aggiungi aule
 
@@ -67,8 +68,8 @@ Puoi aggiungere un’aula utilizzando il formato a campo singolo:
    1. Inserisci la descrizione dell’aula nel campo **Informazioni aula**. Questo campo è facoltativo.
    1. Inserisci l’**URL dell’aula**. Gli Allievi possono visualizzare queste informazioni nei dettagli dell’aula. L’URL può anche essere una posizione su una mappa, se necessario. Questo campo è opzionale.
    1. Digitare e selezionare l&#39;**area geografica**. Questo campo è facoltativo.
-   1. Digitare il numero di posti disponibili nel campo **Limite partecipanti**. Indica la capacità dell’aula. Questo valore può essere modificato durante la creazione dell’evento di formazione vero e proprio guidato da un istruttore.
-      ![Aggiungi un’aula in formato campo singolo](assets/add-classroom-location-single-field-format.jpeg)
+   1. Inserisci il numero di posti disponibili nel campo **Limite partecipanti**. Indica la capacità dell’aula. Quando si crea l’evento di formazione vero e proprio, questo valore può essere modificato.
+      ![Aggiungere un&#39;aula utilizzando il formato a campo singolo](assets/add-classroom-location-single-field-format.jpeg)
       *Aggiungi un’aula in formato campo singolo.*
 
 ### Migrare le aule nel formato a quattro campi
@@ -253,8 +254,8 @@ Per eliminare un’aula, effettua le seguenti operazioni:
 1. **Cosa succede alle aule esistenti dopo il completamento della migrazione?**<br>
 Puoi abilitare il formato di percorso a quattro campi solo dopo che tutte le posizioni esistenti sono state migrate, manualmente o tramite caricamento CSV. Una volta attivato il formato a quattro campi, tutti i corsi esistenti che utilizzano Aule visualizzano le posizioni nel nuovo formato.
 
-1. **È necessario ristrutturare manualmente il file CSV esportato in modo che corrisponda al formato della posizione dei quattro campi?**<br>
-No. Il file CSV esportato utilizza sempre il formato di posizione a quattro campi, indipendentemente dal fatto che sia attualmente abilitato. È sufficiente aggiornare i valori mancanti prima di importare il file.
+1. **È necessario ristrutturare manualmente il file CSV esportato in modo che corrisponda al formato di percorso a quattro campi?**<br>
+N. Il file CSV esportato utilizza sempre il formato di percorso a quattro campi, indipendentemente dal fatto che sia attualmente abilitato o meno. È sufficiente aggiornare i valori mancanti prima di importare il file.
 
 1. **La migrazione influisce sui report di Adobe Learning Manager?**<br>
 Sì. Dopo la migrazione, i report che includono le informazioni sull’aula visualizzano le aule nel seguente formato:

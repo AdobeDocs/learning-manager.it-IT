@@ -3,13 +3,14 @@ description: Manuale di riferimento per gli Amministratori di integrazione che d
 jcr-language: en_us
 title: Manuale di migrazione
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '8322'
+source-wordcount: '8327'
 ht-degree: 39%
-
 ---
-
 # Manuale di migrazione
 
 Manuale di riferimento per gli Amministratori di integrazione che desiderano eseguire la migrazione di un LMS esistente all’LMS di Learning Manager
@@ -785,7 +786,7 @@ GET /bulkimport/runStatus
 
 * **migrationProjectId**: (obbligatorio). Identificatore univoco di un progetto di migrazione. Un progetto di migrazione viene utilizzato per trasferire dati e contenuti da un sistema di gestione dell’apprendimento (LMS) esistente a Adobe Learning Manager. Ogni progetto di migrazione può essere costituito da più sprint, ovvero unità più piccole delle attività di migrazione.
 
-* **sprintId**: (obbligatorio). Identificatore univoco di uno sprint all&#39;interno di un progetto di migrazione. Uno sprint è un sottoinsieme delle attività di migrazione che include elementi di apprendimento specifici (ad esempio, corsi, moduli, record dell’Allievo) da migrare da un LMS esistente a Adobe Learning Manager. Ogni sprint può essere eseguito in modo indipendente, consentendo una migrazione graduale.
+* **sprintId**: (obbligatorio). Identificatore univoco di uno sprint all’interno di un progetto di migrazione. Uno sprint è un sottoinsieme delle attività di migrazione che include elementi di apprendimento specifici (ad esempio, corsi, moduli, record dell’Allievo) da migrare da un LMS esistente a Adobe Learning Manager. Ogni sprint può essere eseguito in modo indipendente, consentendo una migrazione graduale.
 
 * **sprintRunId**: (obbligatorio). Identificatore univoco utilizzato per tenere traccia dell&#39;esecuzione di uno sprint specifico in un progetto di migrazione. È associato al processo di migrazione effettivo per gli elementi definiti in uno sprint. Lo sprintRunId consente di monitorare, risolvere e gestire il processo di migrazione.
 
@@ -862,7 +863,7 @@ Di seguito sono riportate le specifiche CSV aggiornate che puoi utilizzare per m
 
 3-learning_program_enrollment.xlsx contiene le descrizioni dei metadati richiesti per il file retrofit_learning_program_enrollment.csv.
 
-4-user_course_grades.xlsx-contiene le descrizioni dei metadati richiesti per il file retrofit_user_course_grades.csv.
+4-user_course_grades.xlsx contiene le descrizioni dei metadati richiesti per il file retrofit_user_course_grades.csv.
 [csv-specific.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -938,7 +939,7 @@ Quattro file CSV sono coinvolti nella migrazione delle sessioni VILT:
 
 Scarica i file sopra riportati [qui](assets/csv-and-xlsx-migration-files.zip).
 
-Tutti e quattro i file CSV accettano `almCourseID` come riferimento ai corsi e `almModuleID` come riferimento ai moduli. Questi ID sono gli identificatori univoci assegnati da ALM quando viene creato un corso o un modulo.
+Tutti e quattro i file CSV accettano `almCourseID` come riferimento ai corsi e `almModuleID` come riferimento ai moduli. Questi ID sono gli identificatori univoci assegnati da ALM durante la creazione di un corso o modulo.
 
 ### Impostare la data di inizio per le istanze del corso e del percorso di apprendimento
 
@@ -1193,7 +1194,7 @@ La fase 2 non richiede un file CSV separato: aggiungi una colonna del percorso d
 
 #### Pianificare prima la gerarchia delle cartelle
 
-Prima di preparare il file CSV, mappa la struttura di cartelle o categorie del sistema di origine alla gerarchia a tre livelli di Adobe Learning Manager. Adobe Learning Manager supporta una profondità massima di tre livelli (Livello 1 → Livello 2 → Livello 3). Se il sistema di origine ha una nidificazione più profonda, uniscilo a tre livelli prima di eseguire la migrazione.
+Prima di preparare il file CSV, mappa la struttura di cartelle o categorie del sistema di origine alla gerarchia a tre livelli di Adobe Learning Manager. Adobe Learning Manager supporta una profondità massima di tre livelli (livello 1 → livello 2 → livello 3). Se il sistema di origine ha una nidificazione più profonda, uniscilo a tre livelli prima di eseguire la migrazione.
 
 >[!NOTE]
 >
@@ -1234,7 +1235,7 @@ In questo esempio:
 **Regole di convalida:**
 
 * Una cartella non può essere un proprio predecessore. Non sono consentiti riferimenti circolari
-* La profondità massima delle cartelle è di 3 livelli (Livello 1 → Livello 2 → Livello 3)
+* La profondità massima di cartelle è di 3 livelli (Livello 1 → Livello 2 → Livello 3)
 * Due cartelle con lo stesso elemento padre non possono avere lo stesso nome
 * `parentExternalId` deve fare riferimento a un&#39;altra riga nello stesso file CSV o a una cartella esistente già presente nel tuo account
 * Le cartelle principali devono essere elencate prima delle relative cartelle secondarie nel file
@@ -1302,7 +1303,7 @@ Adobe Learning Manager convalida ogni riga in `content_folder.csv` prima dell&#3
 | Il nome di una cartella contiene una barra (`/`) | Riga rifiutata | Sostituisci `/` con `-` o `_` nel nome della cartella |
 | Due cartelle con lo stesso elemento padre hanno lo stesso nome | Riga rifiutata | Rinominare una delle cartelle duplicate |
 | `parentExternalId` fa riferimento a un ID non trovato nel file o nell&#39;account | Riga rifiutata | Verificare che l&#39;ID della cartella principale sia corretto e che la riga principale sia stata elaborata correttamente |
-| La profondità della cartella supera i 3 livelli | Riga rifiutata | Unico livello gerarchico fino a un massimo di 3 livelli prima della migrazione |
+| La profondità di cartelle supera i 3 livelli | Riga rifiutata | Unico livello gerarchico fino a un massimo di 3 livelli prima della migrazione |
 | Rilevato riferimento circolare (la cartella A è predecessore della cartella B e B è elencata come padre di A) | Rifiutato intero CSV | Verifica la catena `parentExternalId` e rimuovi il riferimento circolare |
 | `action` non è `CREATE_FOLDER`, `UPDATE_FOLDER` o `DELETE_FOLDER` | Riga rifiutata | Correggi il valore `action`: vengono accettati solo questi tre valori |
 | `DELETE_FOLDER` per una cartella che contiene ancora file di contenuto | Riga rifiutata | Sposta i file di contenuto in un’altra cartella prima di eliminarli o rimuovi la riga di eliminazione e la gestione manualmente nell’interfaccia di amministrazione |

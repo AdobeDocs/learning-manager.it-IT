@@ -2,7 +2,10 @@
 description: Endpoint API pubblici rivolti agli Allievi per elencare, recuperare, iscrivere ed eliminare percorsi di apprendimento personalizzati in Adobe Learning Manager ed endpoint API per verificare se uno o più oggetti di apprendimento sono direttamente accessibili a un determinato Allievo tramite un catalogo ad essi assegnato.
 jcr-language: en_us
 title: Modifiche alle API di settembre 2026
-source-git-commit: 328d899c05384ff522f7f6413d2a451139f066ee
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 3%

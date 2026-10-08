@@ -2,13 +2,14 @@
 title: Esperienza senza accesso per gli Allievi
 description: Il portale nativo di Adobe Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili. L’esperienza senza accesso consente agli Allievi di esplorare i corsi senza accedere a un portale.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 38%
-
 ---
-
 # Esperienza senza accesso per gli Allievi
 
 Il portale nativo di Adobe Learning Manager supporterà la modalità di accesso al sito di formazione senza necessità di effettuare l’accesso. Abilitando questa modalità, gli Allievi possono scoprire e accedere al sito di formazione e consultare i vari corsi e contenuti disponibili.

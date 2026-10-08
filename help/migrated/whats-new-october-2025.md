@@ -3,13 +3,14 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di ottobr
 jcr-language: en_us
 title: Novità della versione di ottobre 2025 di Adobe Learning Manager
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '5644'
 ht-degree: 0%
-
 ---
-
 
 # Novità della versione di ottobre 2025 di Adobe Learning Manager
 
@@ -284,7 +285,7 @@ GET /bulkimport/runStatus
 
 * **migrationProjectId**: (obbligatorio). Identificatore univoco di un progetto di migrazione. Un progetto di migrazione viene utilizzato per trasferire dati e contenuti da un sistema di gestione dell’apprendimento (LMS) esistente a Adobe Learning Manager. Ogni progetto di migrazione può essere costituito da più sprint, ovvero unità più piccole delle attività di migrazione.
 
-* **sprintId**: (obbligatorio). Identificatore univoco di uno sprint all&#39;interno di un progetto di migrazione. Uno sprint è un sottoinsieme delle attività di migrazione che include elementi di apprendimento specifici (ad esempio, corsi, moduli, record dell’Allievo) da migrare da un LMS esistente a Adobe Learning Manager. Ogni sprint può essere eseguito in modo indipendente, consentendo una migrazione graduale.
+* **sprintId**: (obbligatorio). Identificatore univoco di uno sprint all’interno di un progetto di migrazione. Uno sprint è un sottoinsieme delle attività di migrazione che include elementi di apprendimento specifici (ad esempio, corsi, moduli, record dell’Allievo) da migrare da un LMS esistente a Adobe Learning Manager. Ogni sprint può essere eseguito in modo indipendente, consentendo una migrazione graduale.
 
 * **sprintRunId**: (obbligatorio). Identificatore univoco utilizzato per tenere traccia dell&#39;esecuzione di uno sprint specifico in un progetto di migrazione. È associato al processo di migrazione effettivo per gli elementi definiti in uno sprint. Lo sprintRunId consente di monitorare, risolvere e gestire il processo di migrazione.
 
@@ -668,7 +669,7 @@ In precedenza, l’API pubblica non supportava il contrassegno di completamento 
 
 ### Impostare la preferenza ID utente per il reporting SCORM
 
-Alcuni clienti richiedono l’UUID (Universally Unique Identifier) dell’Allievo invece dell’user_id predefinito per il completamento del contenuto SCORM. L’utilizzo dell’UUID fornisce un tracciamento più accurato tra i programmi di apprendimento e impedisce la duplicazione dell’utilizzo delle licenze negli account MAU (Monthly Active User, Utente attivo mensile).
+Alcuni clienti richiedono l’UUID dell’Allievo (Identificatore univoco universale) invece dell’ID utente predefinito per il completamento del contenuto SCORM. L’utilizzo dell’UUID fornisce un tracciamento più accurato tra i programmi di apprendimento e impedisce la duplicazione dell’utilizzo delle licenze negli account MAU (Monthly Active User, Utente attivo mensile).
 
 Per supportare questa operazione, è stata aggiunta una nuova impostazione a livello di account, `reporting_userid_preference`. Quando attivata, questa impostazione invia l’UUID al posto di user_id ogni volta che gli Allievi completano il contenuto SCORM.
 

@@ -1,15 +1,16 @@
 ---
-description: Adobe Learning Manager supporta più metodi di accesso tramite più configurazioni SSO per utenti interni ed esterni.
+description: Adobe Learning Manager supporta più metodi di accesso attraverso più configurazioni SSO per utenti interni ed esterni.
 title: Accessi SSO multipli
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 38%
-
+source-wordcount: '806'
+ht-degree: 43%
 ---
-
 # Accessi SSO multipli {#multiple-sso-logins}
 
 Un Amministratore può configurare più metodi di accesso per utenti interni ed esterni. Adobe Learning Manager supporta accessi SSO multipli per aiutare gli amministratori a configurare il metodo di accesso più adatto in base alle proprie esigenze e ai casi di utilizzo.
@@ -20,7 +21,7 @@ L’intento è consentire agli amministratori di configurare SSO diversi per i d
 
 >[!NOTE]
 >
->Quando attivi Multi-SSO, puoi scegliere i valori o i gruppi di utenti nel profilo di registrazione autonoma. Quando si sceglie un valore, viene creato un gruppo di utenti con zero utenti. Un gruppo di utenti di questo tipo non dispone di alcun utente. Quando il prossimo file CSV verrà importato, questo gruppo di utenti verrà rimosso.
+>Quando attivi Multi-SSO, puoi scegliere i valori o i gruppi di utenti nel profilo di registrazione autonoma. Dopo aver scelto un valore, viene creato un gruppo di utenti contenente zero utenti. Un gruppo di utenti di questo tipo non dispone di alcun utente. Quando il prossimo file CSV verrà importato, questo gruppo di utenti verrà rimosso.
 
 ## Abilita SSO multipli
 
@@ -44,10 +45,10 @@ Per configurare un SSO, segui i passaggi riportati di seguito:
    * Inserisci il nome dell’SSO.
    * Seleziona il tipo di SSO: avviato da IDP o avviato da SP.
 
-      * Se hai selezionato avviato IDP, immetti l&#39;URL IDP. Si tratta dell&#39;URL che sarà l&#39;identificatore univoco dell&#39;applicazione e delle informazioni fornite dal provider di servizi IDP. URL a cui verranno reindirizzati tutti gli utenti di Adobe Learning Manager dopo l&#39;accesso.
-      * Carica il file XML dei metadati IDP dal provider IDP. Questo file contiene informazioni sull’IdP che consente ad Adobe Learning Manager di accettare le asserzioni SAML da esso
-      * Se hai selezionato avviato SP, immetti l&#39;ID entità. L’ID entità è un URL fornito dal provider di servizi (SP).
-      * Immetti l&#39;URL di accesso dell’SP. Questo URL viene utilizzato dagli utenti per accedere all&#39;applicazione.
+     * Se hai selezionato avviato IDP, immetti l&#39;URL IDP. Si tratta dell&#39;URL che sarà l&#39;identificatore univoco dell&#39;applicazione e delle informazioni fornite dal provider di servizi IDP. URL a cui verranno reindirizzati tutti gli utenti di Adobe Learning Manager dopo l&#39;accesso.
+     * Carica il file XML dei metadati IDP dal provider IDP. Questo file contiene informazioni sull’IdP che consente ad Adobe Learning Manager di accettare le asserzioni SAML da esso
+     * Se hai selezionato avviato SP, immetti l&#39;ID entità. L’ID entità è un URL fornito dal provider di servizi (SP).
+     * Immetti l&#39;URL di accesso dell’SP. Questo URL viene utilizzato dagli utenti per accedere all&#39;applicazione.
 
 1. La configurazione SSO viene aggiunta all&#39;elenco.
 
@@ -120,7 +121,7 @@ No, questo non influirà sulla configurazione degli SSO. Gli utenti verranno rei
 Sì, un amministratore può aggiungere nuovi valori ai campi attivi.
 +++
 
-+++Posso disattivare o eliminare i campi collegati a SSO?
++++Posso disabilitare o eliminare i campi collegati a SSO?
 
 Sì, puoi disabilitare o eliminare i campi collegati a SSO fino a quando non scolleghi i campi dalla pagina di configurazione SSO.
 +++

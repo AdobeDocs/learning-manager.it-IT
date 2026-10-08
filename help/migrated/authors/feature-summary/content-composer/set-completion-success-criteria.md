@@ -2,13 +2,14 @@
 description: Scoprite la differenza tra i criteri di completamento e i criteri di successo in Composizione contenuti, come configurarli ciascuno e perché la distinzione è importante per il tracciamento e il reporting accurati degli Allievi in Adobe Learning Manager.
 jcr-language: en_us
 title: Impostare i criteri di completamento e di successo
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 
 # Imposta criteri di completamento e successo
 

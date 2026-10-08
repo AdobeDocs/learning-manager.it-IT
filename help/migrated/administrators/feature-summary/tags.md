@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Tag
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 71%
-
 ---
-
 # Tag
 
 Gli Amministratori ora possono gestire i tag su Learning Manager. Utilizza una migliore codifica e una base di dati gestibile per aiutare gli allievi a effettuare ricerche migliori e ottenere rapidamente i risultati appropriati. Puoi gestire le etichette ridondanti, errate e irrilevanti utilizzando questa funzione. Puoi anche aggiungere, modificare, eliminare, accodare o sostituire le etichette.

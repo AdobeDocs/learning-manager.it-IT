@@ -1,13 +1,14 @@
 ---
 title: Procedure consigliate per una sessione Hub live (Beta)
 description: Segui queste procedure consigliate per preparare, eseguire e seguire una sessione di Hub dal vivo in Adobe Learning Manager, per Autori, Amministratori, Istruttori e Allievi.
-source-git-commit: e48747e8c9c520396b608dfae9aee2425815bad5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 0%
-
 ---
-
 
 # Procedure consigliate per una sessione Hub live (Beta)
 

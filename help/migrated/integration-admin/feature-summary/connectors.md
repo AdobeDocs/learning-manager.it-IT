@@ -3,13 +3,14 @@ description: Panoramica di ciascun connettore supportato ALM
 jcr-language: en_us
 title: Panoramica dei connettori in Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 6%
-
 ---
-
 
 # Connettori Adobe Learning Manager
 
@@ -92,7 +93,7 @@ Questi connettori integrano Adobe Learning Manager con le più diffuse piattafor
 
 ### Connettore Microsoft Teams
 
-Il connettore Microsoft Teams trasforma Adobe Learning Manager in una soluzione completa per aula virtuale integrandosi direttamente con le funzionalità di riunione di Teams. Questo connettore è essenziale per le organizzazioni che utilizzano l’ecosistema Microsoft 365.
+Il connettore Microsoft Teams Trasforma Adobe Learning Manager in una soluzione completa per aula virtuale integrandosi direttamente con le funzionalità di riunione di Teams. Questo connettore è essenziale per le organizzazioni che utilizzano l’ecosistema Microsoft 365.
 
 #### Funzionalità principali:
 
@@ -221,7 +222,7 @@ Questi connettori consentono funzionalità avanzate di reporting, visualizzazion
 
 ### Connettore Power BI
 
-Il connettore Power BI trasforma i dati di apprendimento in informazioni aziendali attuabili sincronizzando automaticamente le metriche di apprendimento con la potente piattaforma di business intelligence di Microsoft.
+Il connettore Power BI Trasforma i dati di apprendimento in insights aziendali attuabili sincronizzando automaticamente le metriche di apprendimento con la potente piattaforma di business intelligence di Microsoft.
 
 #### Funzionalità principali:
 
@@ -251,7 +252,7 @@ Questi connettori consentono la monetizzazione dei contenuti di apprendimento e 
 
 ### Connettore Adobe Commerce
 
-Il connettore Adobe Commerce trasforma Adobe Learning Manager in una piattaforma di e-commerce di apprendimento completa, consentendo alle organizzazioni di vendere corsi, certificazioni e programmi di formazione attraverso un&#39;esperienza di e-commerce completamente integrata.
+Il connettore Adobe Commerce Trasforma Adobe Learning Manager in una piattaforma di e-commerce di apprendimento completa, consentendo alle organizzazioni di vendere corsi, certificazioni e programmi di formazione attraverso un&#39;esperienza di e-commerce completamente integrata.
 
 **Funzionalità chiave:**
 

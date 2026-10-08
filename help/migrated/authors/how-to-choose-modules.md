@@ -4,13 +4,14 @@ title: Come scegliere i moduli del corso?
 description: Adobe Learning Manager supporta quattro tipi di moduli del corso. Se sei responsabile della creazione di un programma di apprendimento, potresti chiederti quale tipo di modulo è adatto a soddisfare le esigenze della tua organizzazione. Puoi scegliere i moduli del corso in base al budget della tua organizzazione e alle esigenze del pubblico. Alcuni esempi di utilizzo per ogni tipo di modulo sono spiegati come riferimento qui di seguito.
 contentowner: jayakarr
 exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
-source-git-commit: fcbe70fb0eef5aae891f6a222112804707dfe626
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 75%
-
 ---
-
 # Come scegliere i moduli del corso?
 
 Learning Manager supporta quattro tipi di moduli del corso. Se sei responsabile della creazione di un programma di apprendimento, potresti chiederti quale tipo di modulo è adatto a soddisfare le esigenze della tua organizzazione. Puoi scegliere i moduli del corso in base al budget della tua organizzazione e alle esigenze del pubblico. Alcuni esempi di utilizzo per ogni tipo di modulo sono spiegati come riferimento qui di seguito.

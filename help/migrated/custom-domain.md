@@ -4,13 +4,14 @@ title: Supporto per il dominio personalizzato
 description: I domini personalizzati non sono supportati in un’istanza Azure di Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 66%
-
+source-wordcount: '457'
+ht-degree: 78%
 ---
-
 # Supporto per il dominio personalizzato
 
 I domini personalizzati non sono supportati in un’istanza Azure di Learning Manager.
@@ -25,10 +26,10 @@ Ad esempio, vorresti personalizzare il tuo dominio in modo che i tuoi utenti ott
 
 >[!NOTE]
 >
->Come prerequisito, è necessario registrare il dominio e quindi Adobe ti guiderà nella personalizzazione dell&#39;URL.
+>Come prerequisito, devi registrare il dominio e poi Adobe ti guiderà nella personalizzazione dell’URL.
 
 
-La funzione di dominio personalizzato è disponibile a un costo aggiuntivo. Per saperne di più, contatta il tuo Customer Success Manager.
+La funzione del dominio personalizzato è disponibile a un costo aggiuntivo. Contatta il tuo Customer Success Manager per saperne di più.
 
 * Per il ruolo Allievo, il dominio inizierà con `https://cdn.<customer_custom_domain>/` Ad esempio, `https://cdn.elearningstage1.cpdomaintest.in/`
 * Per tutti gli altri ruoli, il dominio inizierà con `https://<customer_custom_domain>/`. Ad esempio: `https://elearningstage1.cpdomaintest.in/`
@@ -40,7 +41,7 @@ La funzione di dominio personalizzato è disponibile a un costo aggiuntivo. Per 
 
 ## Come configurare un dominio personalizzato in un account {#howtosetupacustomdomainonanaccount}
 
-Come prerequisito, un cliente deve possedere un nome di dominio e acquistare il dominio da un provider.
+Come prerequisito, un cliente deve disporre di un nome di dominio e acquistare il dominio da un fornitore.
 
 Ad esempio, supponiamo che un cliente possieda un dominio fittizio, **acme.com**. Il cliente desidera che i contenuti di Learning Manager vengano forniti da **learning.acme.com**.
 

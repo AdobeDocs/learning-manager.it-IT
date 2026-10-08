@@ -1,13 +1,14 @@
 ---
 title: Creare e gestire un quiz nell’Hub live
 description: Scopri come gli Istruttori creano, modificano, avviano e gestiscono i quiz con più domande con punteggio in una sessione Hub dal vivo e condividono i risultati con gli Allievi.
-source-git-commit: 40728879f022d9504f6a0013c8da86365afc7709
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
-
 ---
-
 
 # Creare e gestire un quiz
 

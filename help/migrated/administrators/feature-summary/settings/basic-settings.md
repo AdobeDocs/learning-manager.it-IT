@@ -3,13 +3,14 @@ description: Ulteriori informazioni su come le impostazioni di base consentono d
 jcr-language: en_us
 title: Impostazioni di base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6386'
+source-wordcount: '6326'
 ht-degree: 3%
-
 ---
-
 # Impostazioni di base in Adobe Learning Manager
 
 ## Panoramica
@@ -204,7 +205,7 @@ Gli Allievi quindi esplorano le abilità e i tag loro visibili e si iscrivono al
 
 ### ID univoci degli oggetti di apprendimento
 
-L’opzione consente di assegnare un identificatore univoco a ciascun oggetto di apprendimento (ad esempio, corsi, percorsi di apprendimento, certificazioni o risorse formative). In questo modo, ogni oggetto di apprendimento ha un ID distinto, che può essere utile per il tracciamento, la creazione di report e l’integrazione con sistemi esterni.
+L’opzione consente di assegnare un identificatore univoco a ciascun oggetto di apprendimento (ad esempio corsi, percorsi di apprendimento, certificazioni o risorse formative). In questo modo, ogni oggetto di apprendimento ha un ID distinto, che può essere utile per il tracciamento, la creazione di report e l’integrazione con sistemi esterni.
 
 Quando questa opzione è attivata, gli Autori visualizzano un campo per aggiungere l’ID dell’oggetto di apprendimento durante la creazione. Possono aggiungere gli ID di conseguenza. Gli ID univoci sono adatti per l’integrazione con sistemi di terze parti, inclusi i Learning Record Store (LRS) e i Sistemi di gestione dell’apprendimento (LMS). Gli ID univoci consentono inoltre a te o a un Autore di cercare più facilmente oggetti di apprendimento specifici e di tenerne traccia tramite le Trascrizioni allievi.
 

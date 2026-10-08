@@ -4,13 +4,14 @@ title: Problemi di accesso in Learning Manager
 description: Problemi di accesso in Adobe Learning Manager
 contentowner: nluke
 exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '249'
 ht-degree: 87%
-
 ---
-
 # Problemi di accesso in Learning Manager
 
 ## Il problema
@@ -45,4 +46,4 @@ Ci sono altre cause per cui si verifica questo errore, ma questa è quella più 
 
 ## Collegamenti di riferimento:
 
-[Microsoft: sessione di accesso condizionale nell&#39;arco di una vita](https://docs.microsoft.com/it-it/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft: sessione di accesso condizionale nel corso della vita](https://docs.microsoft.com/it-it/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

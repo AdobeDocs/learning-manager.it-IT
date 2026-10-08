@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Temi colore
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1327'
 ht-degree: 51%
-
 ---
-
 # Temi colore
 
 Temi colore e branding in Learning Manager
@@ -165,7 +166,7 @@ Nell’elenco seguente vengono visualizzati i componenti personalizzabili. Per p
   <tr>
    <td>
     <p>Immagine dell’icona di avanzamento</p></td>
-   <td>Visualizzato durante lo spostamento tra le pagine. Presente dove viene visualizzato il file gif di avanzamento di 4 quadrati. 
+   <td>Visualizzata durante lo spostamento da una pagina all’altra. Presente dove viene visualizzato il file gif di avanzamento di 4 quadrati. 
     <ul>
      <li>Dimensioni consigliate: inferiore o uguale a 32x32 px</li>
      <li>Formato immagine consigliato: GIF, PNG, JPG</li>

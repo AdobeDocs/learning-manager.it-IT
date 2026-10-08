@@ -4,13 +4,14 @@ title: Limiti di velocità delle API in Learning Manager
 description: Adobe Learning Manager espone una ricca suite di API REST che aiuta i clienti a creare applicazioni che si integrano con Learning Manager o persino esperienze utente ed estensioni personalizzate ai flussi di lavoro che aiutano la loro azienda.
 contentowner: saghosh
 preview: true
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 80%
-
 ---
-
 
 
 # Limiti di velocità delle API in Learning Manager

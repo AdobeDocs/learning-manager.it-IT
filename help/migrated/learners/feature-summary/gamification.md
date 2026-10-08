@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 83%
-
 ---
-
 # Gamification
 
 Coinvolgi gli utenti che utilizzano le tecniche di gamification in Learning Manager.

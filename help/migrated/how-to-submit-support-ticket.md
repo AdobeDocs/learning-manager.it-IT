@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Come inviare un ticket di supporto su Experience League
 description: Scopri come inviare una richiesta di supporto su Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # Come inviare un ticket di supporto all&#39;Experience League
 
 La procedura di invio dei ticket di supporto Adobe Learning Manager è ora direttamente integrata con la piattaforma di supporto per gli Experienci League. Questo è un portale self-service che è stato recentemente riprogettato per offrire maggiore personalizzazione e facilità d&#39;uso per i clienti autorizzati. Consulta questa guida di seguito per ulteriori informazioni su come accedere al portale di supporto degli Experienci League e registrare un ticket.

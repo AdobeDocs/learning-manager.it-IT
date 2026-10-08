@@ -1,13 +1,14 @@
 ---
 title: Partecipa a una breakout room come Allievo
 description: Scopri cosa succede come Allievo durante una sessione di breakout dell’Hub dal vivo, ad esempio quando si entra nella stanza, si visualizzano le istruzioni, si collabora con il gruppo, si chiede aiuto all’Istruttore e si visualizza il riepilogo della stanza.
-source-git-commit: 225b1f20930eb5acd8d6aa30d8448305b33adaa1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
-
 ---
-
 
 # Partecipare a una sessione di breakout
 

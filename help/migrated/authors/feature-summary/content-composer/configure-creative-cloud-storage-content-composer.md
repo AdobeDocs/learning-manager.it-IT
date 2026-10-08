@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Configurazione dello spazio di archiviazione Creative Cloud per Adobe Learning Manager Content Composer
 description: Scopri come configurare l’archiviazione Creative Cloud per Adobe Learning Manager Content Composer. Questa guida spiega perché è richiesto lo spazio di archiviazione di Creative Cloud, come gli amministratori possono assegnare l'offerta di iscrizione gratuita in Adobe Admin Console e come risolvere i problemi di accesso relativi allo spazio di archiviazione.
 contentowner: saghosh
-source-git-commit: 15e1f5c383442fb93706acdf68eb889c16511859
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 
 # Configurazione dello spazio di archiviazione Creative Cloud per Adobe Learning Manager Content Composer
 

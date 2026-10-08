@@ -4,13 +4,14 @@ title: Impossibile assegnare un badge
 description: Dopo che un allievo completa un corso, un programma di apprendimento o una certificazione, non gli viene assegnato il badge.
 contentowner: nluke
 exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 74%
-
+ht-degree: 97%
 ---
-
 # Impossibile assegnare un badge
 
 ## Problema
@@ -23,7 +24,7 @@ Dopo che un allievo completa un corso, un programma di apprendimento o una certi
 
 ## Causa
 
-Il badge assegnato all’oggetto di apprendimento viene aggiunto dopo che l’Allievo ha completato l’oggetto di apprendimento.
+Il badge assegnato all&#39;oggetto di apprendimento viene aggiunto dopo che l’allievo ha completato tale oggetto di apprendimento.
 
 Nella versione precedente, non era possibile aggiungere un badge in un secondo momento se non era stato assegnato alcun badge a un oggetto di apprendimento nel momento in cui l’allievo aveva completato l’oggetto di apprendimento.
 

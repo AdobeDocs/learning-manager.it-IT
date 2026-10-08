@@ -4,13 +4,14 @@ title: Requisiti di sistema | Applicazione desktop Adobe Learning Manager
 description: Requisiti di sistema per l'applicazione desktop Adobe Learning Manager
 contentowner: kuppan
 exl-id: 31455c7e-f642-451b-968a-8a6f75131fda
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 70%
-
+source-wordcount: '149'
+ht-degree: 89%
 ---
-
 # Requisiti di sistema per l&#39;applicazione desktop Adobe Learning Manager
 
 ## Windows {#windows}
@@ -28,7 +29,7 @@ ht-degree: 70%
 
 ### Authoring
 
-* Sistema operativo: Mac OSX 10.12, 10.13, 10.14 (solo versione a 64 bit)
+* Sistema operativo: Mac OS X 10.12, 10.13, 10.14 (solo versione a 64 bit)
 * Processore: Intel® CoreTM i5 e versioni successive
 * Ram: minimo 8 GB
 * Display: risoluzione minima 1024 x 768, consigliata 1366 x 768

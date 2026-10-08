@@ -2,13 +2,14 @@
 title: Novità di questa versione
 description: Scopri le nuove funzioni e i miglioramenti nella versione di novembre 2023 di Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2372'
 ht-degree: 73%
-
 ---
-
 # Novità di questa versione
 
 ## Interfaccia utente rinnovata

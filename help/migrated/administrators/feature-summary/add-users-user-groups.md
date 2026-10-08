@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Aggiungere utenti in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 2%
-
 ---
-
 
 # Aggiungere utenti in Adobe Learning Manager
 
@@ -38,7 +39,7 @@ Gli amministratori possono aggiungere utenti interni utilizzando i seguenti meto
 
 ### Aggiungere manualmente un utente interno
 
-Gli amministratori possono aggiungere manualmente un utente fornendo il proprio nome, e-mail, identificatore univoco e nome del manager. L’identificatore univoco in Adobe Learning Manager è un identificatore obbligatorio assegnato dagli amministratori durante la creazione di un utente. Deve essere univoco per ogni utente e fungere da riferimento coerente in tutto il sistema.
+Gli amministratori possono aggiungere manualmente un utente fornendo il proprio nome, e-mail, identificatore univoco e nome del manager. L’Identificatore univoco in Adobe Learning Manager è un identificatore obbligatorio che gli amministratori assegnano durante la creazione di un utente. Deve essere univoco per ogni utente e fungere da riferimento coerente in tutto il sistema.
 
 >[!INFO]
 >
@@ -55,9 +56,10 @@ Per aggiungere un singolo utente a Adobe Learning Manager:
 4. Nella finestra di dialogo **Aggiungi utente**, digita il **Nome**, l&#39;**E-mail** e il **Profilo** (titolo del processo) dell&#39;utente.
 
    ![](assets/add-a-user-prompt.png)
-   _Campi per immettere nome, e-mail, identificatore univoco e profilo per un nuovo utente_
+   _Campi per inserire nome, e-mail, identificatore univoco e profilo per un nuovo utente_
 5. Cerca il manager dell’utente e seleziona il nome dall’elenco dei manager.
-6. Seleziona **Aggiungi**.L’utente riceve un’e-mail di benvenuto contenente un URL di accesso.
+6. Seleziona **Aggiungi**.
+L’utente riceve un’e-mail di benvenuto contenente un URL di accesso.
 
 
 ### Consenti registrazione autonoma per utenti interni

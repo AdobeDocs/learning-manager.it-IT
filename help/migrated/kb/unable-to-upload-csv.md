@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Impossibile caricare il file CSV
 contentowner: saghosh
 exl-id: 10458499-1038-4c62-971f-f950d383e970
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 71%
-
+source-wordcount: '545'
+ht-degree: 77%
 ---
-
 # Impossibile caricare il file CSV
 
 ## Errore: dati troncati (lunghezza dei dati eccessiva per la colonna specificata)
@@ -47,13 +48,13 @@ Il problema si verifica quando il file CSV viene salvato in formato UTF-8 in Exc
 
 * **A:** Salvataggio tramite Excel:
 
-   1. Apri il file CSV in Excel.
-   1. Salva il file come file CSV normale.
+  1. Apri il file CSV in Excel.
+  1. Salva il file come file CSV normale.
 
 * **B:** Salvataggio tramite Blocco note o Blocco note++:
 
-   * Apri il file CSV in Notepad o Notepad++.
-   * Salva il file in formato UTF-8.
+  * Apri il file CSV in Notepad o Notepad++.
+  * Salva il file in formato UTF-8.
 
 ## Errore: indirizzo e-mail dell’utente già presente nel sistema
 
@@ -76,7 +77,7 @@ Questo problema si verifica se un utente è già presente nel sistema con lo ste
 In questo scenario, l’errore può essere dovuto a due motivi:
 
 1. L’utente che stai tentando di aggiungere è un Manager di un profilo esterno. Per risolvere questo problema, apri il profilo esterno di cui fa parte l’utente, selezionalo, fai clic su **[!UICONTROL Azioni]** > **[!UICONTROL Assegna ruolo]** > **[!UICONTROL Manager]** e modifica il Manager del profilo.
-1. L’utente che stai tentando di aggiungere è stato eliminato. In questo scenario, non potrai aggiungere l’utente con lo stesso indirizzo e-mail fino al completamento del processo di rimozione. Come soluzione alternativa&#x200B;**, a**&#x200B;ggiungi all’utente un indirizzo e-mail secondario per fornire accesso alla piattaforma. Una volta completata la procedura di eliminazione, modifica l’utente e modifica l’indirizzo e-mail con l’indirizzo e-mail corretto.
+1. L’utente che stai tentando di aggiungere è stato eliminato. In questo scenario, non potrai aggiungere l’utente con lo stesso indirizzo e-mail fino al completamento del processo di eliminazione. Come soluzione alternativa&#x200B;**, a**&#x200B;ggiungi all’utente un indirizzo e-mail secondario per fornire accesso alla piattaforma. Una volta completata la procedura di eliminazione, modifica l’utente e modifica l’indirizzo e-mail con l’indirizzo e-mail corretto.
 
 ### Scenario 2
 

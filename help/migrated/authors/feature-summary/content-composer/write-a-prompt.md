@@ -2,13 +2,14 @@
 description: Passare da un prompt in una lingua semplice a un corso completamente strutturato e modificabile utilizzando il flusso di lavoro guidato dall’intelligenza artificiale di Content Composer.
 jcr-language: en_us
 title: Scrivi un messaggio per generare un corso
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
-
 ---
-
 
 # Scrivi un messaggio
 

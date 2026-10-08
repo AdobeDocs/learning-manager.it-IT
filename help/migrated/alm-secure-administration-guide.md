@@ -3,13 +3,14 @@ title: Adobe Learning Manager - guida all'amministrazione sicura
 description: Questa guida descrive le impostazioni di protezione, i ruoli e le procedure consigliate per la gestione della sicurezza amministrativa e del controllo degli accessi in Adobe Learning Manager al fine di garantire la conformità e la sicurezza.
 jcr-language: en-us
 exl-id: 67dd9334-9718-4b2a-841e-5d8bd5c42714
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
-
 ---
-
 # Impostazioni di protezione amministrativa e implicazioni per la protezione
 
 ## Ruoli amministrativi con impatto sulla sicurezza
@@ -168,8 +169,8 @@ Le impostazioni amministrative di Adobe Learning Manager sono configurabili dai 
 
 Ulteriori informazioni sulle procedure di sicurezza di Adobe Learning Manager sono disponibili in:
 
-**Riferimento:** [Panoramica sulla sicurezza di Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=it)
+**Riferimento:** [Panoramica sulla sicurezza di Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## Manutenzione documento
 
-Questo documento può essere aggiornato periodicamente per riflettere le modifiche apportate alle funzionalità di Adobe Learning Manager o alle linee guida sulla sicurezza. La versione e la data dell’ultimo aggiornamento vengono mantenute nei metadati del documento e nel pacchetto di autorizzazione FedRAMP. I clienti devono fare riferimento alla versione pubblicamente disponibile su Adobe Experience League per assicurarsi di utilizzare le indicazioni più aggiornate.
+Questo documento può essere aggiornato periodicamente per riflettere le modifiche apportate alle funzionalità di Adobe Learning Manager o alle linee guida sulla sicurezza. La versione e la data dell’ultimo aggiornamento vengono mantenute nei metadati del documento e nel pacchetto di autorizzazione FedRAMP. I clienti devono fare riferimento alla versione pubblicamente disponibile su Adobe Experience League per assicurarsi di utilizzare le linee guida più aggiornate.

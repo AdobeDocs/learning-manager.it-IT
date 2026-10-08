@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Lingue supportate in Adobe Learning Manager
 description: Esplorate le lingue dell'interfaccia e dei contenuti supportate in Adobe Learning Manager (ALM)
 exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
-source-git-commit: 45ac256894b9c5808fd80c488eb8571f330df435
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 48%
-
+source-wordcount: '326'
+ht-degree: 38%
 ---
-
 # Lingue supportate in Adobe Learning Manager
 
 Adobe Learning Manager supporta le seguenti lingue per l’interfaccia e i contenuti.

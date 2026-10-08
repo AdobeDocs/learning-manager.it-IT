@@ -3,13 +3,14 @@ description: Scopri come scaricare la trascrizione dell’Allievo basata su uten
 jcr-language: en_us
 title: Trascrizioni Allievi
 exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 85%
-
+source-wordcount: '920'
+ht-degree: 91%
 ---
-
 # Trascrizioni Allievi
 
 Scopri come scaricare la trascrizione dell’Allievo basata su utenti, oggetti di apprendimento o abilità in Learning Manager.
@@ -36,13 +37,13 @@ Adobe Learning Manager consente ai Manager di un’organizzazione di generare le
 
 Puoi scegliere un singolo Allievo o gruppi di Allievi. Per aggiungere più di un Allievo, fai clic su Aggiungi altri Allievi.
 
-Le trascrizioni sono generate e scaricate nel computer come file .xls. Ogni file .xls excel ha sette fogli, i dettagli dei quali sono menzionati di seguito:
+Le trascrizioni sono generate e scaricate nel computer come file .xls. Ogni file Excel .xls ha sette fogli, i dettagli dei quali sono menzionati di seguito:
 
 ## Download della trascrizione degli Allievi in base al fuso orario {#lt-timezone}
 
-Allo stesso modo di un Amministratore, anche un Manager può scegliere le colonne da esportare. Inoltre, un Manager può scaricare la Trascrizione Allievo in base al fuso orario selezionato nelle impostazioni del profilo.
+Allo stesso modo di un Amministratore, anche un Manager può scegliere le colonne da esportare. Inoltre, un Manager può scaricare la trascrizione degli Allievi in base al fuso orario selezionato nelle impostazioni del profilo.
 
-Se il Manager abilita questa opzione, il fuso orario viene selezionato da quello impostato nella pagina delle impostazioni del profilo, come illustrato di seguito.
+Se il Manager abilita questa opzione, il fuso orario viene selezionato da quello configurato nella pagina delle impostazioni del profilo, come illustrato di seguito.
 
 >[!NOTE]
 >

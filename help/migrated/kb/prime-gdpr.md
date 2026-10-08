@@ -4,13 +4,14 @@ title: Conformità di Learning Manager al GDPR
 description: Conformità di Adobe Learning Manager al GDPR
 contentowner: dvenkate
 exl-id: 8ea31464-b4ce-49e8-b471-5630f0216aa4
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 39%
-
+source-wordcount: '698'
+ht-degree: 69%
 ---
-
 # Conformità di Learning Manager al GDPR
 
 >[!IMPORTANT]
@@ -29,7 +30,7 @@ Il GDPR è un nuovo regolamento dell’Unione europea che entrerà in vigore il 
 
 +++Come o perché vale per te in quanto cliente di Adobe Learning Manager?
 
-Sebbene il GDPR sia un regolamento dell’UE, è applicabile alle entità aziendali di tutto il mondo, che raccoglie informazioni personali per qualsiasi utente che può essere residente nell’UE.  In qualità di cliente Learning Manager, valuta se il GDPR è applicabile alla tua organizzazione.
+Sebbene il GDPR sia un regolamento dell’UE, è applicabile alle entità aziendali di tutto il mondo, che raccoglie informazioni personali per qualsiasi utente che può essere residente nell’UE.  Essere cliente Learning Manager implica valutare se il GDPR sia applicabile alla propria organizzazione.
 
 +++
 
@@ -37,20 +38,20 @@ Sebbene il GDPR sia un regolamento dell’UE, è applicabile alle entità aziend
 
 In conformità con il GDPR, se l&#39;azienda fornisce un prodotto o un servizio ai residenti dell&#39;UE e determina modalità e motivazione di raccolta, tracciamento e monitoraggio dei dati, l&#39;utente è considerato un [data controller](https://gdpr-info.eu/art-24-gdpr/). Se sei cliente Adobe Learning Manager ed esegui una di queste attività, sei anche responsabile del trattamento dei dati.
 
-Le aziende che elaborano i dati per conto di controller sono considerate [processori dati](https://gdpr-info.eu/art-28-gdpr/). In qualità di fornitore di Adobe Learning Manager LMS ospitato nel cloud, Adobe svolge il ruolo di responsabile del trattamento dei dati. Di seguito sono riportati ulteriori dettagli su [GDPR e azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Le aziende che elaborano i dati per conto di controller sono considerate [processori dati](https://gdpr-info.eu/art-28-gdpr/). Adobe è il fornitore di Adobe Learning Manager LMS gestito nel cloud, pertanto riveste il ruolo di responsabile del trattamento dei dati. Di seguito sono riportati ulteriori dettagli su [GDPR e azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
 +++
 
 +++In che modo Learning Manager ti garantisce la conformità al GDPR?
 
-Learning Manager dispone dei seguenti processi e strumenti integrati per semplificare il rispetto della conformità al GDPR. Per supportare la piena conformità al regolamento di qualsiasi processo che vada oltre il prodotto, potrebbe essere necessario valutare il problema con il team di conformità.
+Learning Manager dispone dei seguenti processi e strumenti integrati per semplificare il rispetto della conformità al GDPR. Per supportare la piena conformità al regolamento di qualsiasi processo che vada oltre il prodotto, potrebbe essere necessario dover valutare la situazione con il proprio team di conformità.
 
-**Diritto all&#39;oblio - Per raggiungere il titolare del trattamento:** il GDPR richiede ai titolari del trattamento di supportare una funzionalità di Diritto all&#39;oblio per gli utenti. Ciò significa che ogni utente ha il diritto di richiedere al titolare del trattamento di eliminare definitivamente qualsiasi dato personale memorizzato per quell&#39;utente. Se ricevi tale richiesta e ne confermi la validità, questa funzionalità viene fornita in Learning Manager tramite la funzione di [rimozione degli utenti](../administrators/feature-summary/purge-users.md). Questa funzione consente all’amministratore di avviare una cancellazione permanente di tutti i dati relativi a una persona specifica, in base alla richiesta dei singoli individui. Nello stesso momento, Learning Manager cancella immediatamente i dati dal database e viene eseguita automaticamente la rimozione dei registri di backup (destinati al recupero del sistema).
+**Diritto all’oblio - Dedicato al titolare del trattamento:** il GDPR richiede ai titolari del trattamento di supportare una funzionalità di Diritto all’oblio per gli utenti. Ciò significa che ogni utente ha il diritto di richiedere al titolare del trattamento di eliminare definitivamente qualsiasi dato personale memorizzato per quell’utente. Se ricevi tale richiesta e ne confermi la validità, questa funzionalità viene fornita in Learning Manager tramite la funzione di [rimozione degli utenti](../administrators/feature-summary/purge-users.md). Questa funzione consente all’amministratore di avviare una cancellazione permanente di tutti i dati relativi a una persona specifica, in base alla richiesta dei singoli individui. Nello stesso momento, Learning Manager cancella immediatamente i dati dal database e viene eseguita automaticamente la rimozione dei registri di backup (destinati al recupero del sistema).
 
-**Diritto all’oblio - Dedicato al responsabile del trattamento dei dati:** l’utente finale può inoltre contattare Adobe in modo autonomo per eliminare i dati identificativi. In questo caso, Learning Manager rileva automaticamente gli account contenenti i dati identificativi di tale utente e Adobe notifica immediatamente l’amministratore di tale richiesta. L’Amministratore può quindi valutare la validità della richiesta e rispondere alla stessa tramite la funzione di rimozione degli utenti.
+**Diritto all’oblio - Dedicato al responsabile del trattamento dei dati:** l’utente finale può inoltre contattare Adobe in modo autonomo per eliminare i dati identificativi. In questo caso, Learning Manager rileva automaticamente gli account contenenti i dati identificativi di tale utente e Adobe notifica immediatamente l’amministratore di tale richiesta. L’amministratore può quindi valutare la validità della richiesta e gestire la richiesta tramite la funzione di rimozione degli utenti.
 
-**Diritto di accesso:** GDPR consente all&#39;utente finale di richiedere i dati archiviati da un controller per tale utente finale. Per supportare questa richiesta, Learning Manager consente all’Amministratore di generare automaticamente la Trascrizione Allievo che può essere condivisa con l’utente.
+**Diritto di accesso:** il GDPR consente all’utente finale di richiedere i propri dati memorizzati da parte del titolare del trattamento. Per supportare questa richiesta, Learning Manager consente all’amministratore di generare automaticamente la trascrizione Allievo da condividere con l’utente.
 
-**Privacy by Design, crittografia dei dati:** Il trattamento dei dati, sia in transito che non, viene eseguito utilizzando i migliori standard di crittografia per garantire la sicurezza dei dati. Gli algoritmi di crittografia utilizzati sono SHA-256. Ciò garantisce che tutti i dati archiviati siano adeguatamente protetti, in modo che non cadano nelle mani sbagliate.
+**Privacy by Design, crittografia dei dati:** il trattamento dei dati, in transito e non, viene eseguito utilizzando i migliori standard di crittografia per garantire la sicurezza dei dati. Gli algoritmi di crittografia utilizzati sono SHA-256. Ciò garantisce che tutti i dati archiviati siano adeguatamente protetti, in modo che non cadano nelle mani sbagliate.
 
 +++

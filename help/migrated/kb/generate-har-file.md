@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Generazione di un file HAR
 contentowner: dvenkate
 exl-id: 99fe78e8-b5e7-40a7-b9a5-efc2382de993
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 57%
-
+source-wordcount: '161'
+ht-degree: 72%
 ---
-
 # Generazione di un file HAR
 
 Continua a scoprire come generare file HAR in Google Chrome.
@@ -19,7 +20,7 @@ Per generare un file HAR, attieniti alla seguente procedura:
 
 1. Apri una finestra di Google Chrome e apri una nuova scheda.
 1. Apri gli strumenti per sviluppatori per la pagina e fai clic con il tasto destro del mouse su Ispeziona Elemento.
-1. Apri la scheda **[!UICONTROL Rete]**. Assicurati che il pulsante di registrazione rosso sia attivo. Abilita la casella di controllo **[!UICONTROL Mantieni registro]**.
+1. Apri la scheda **[!UICONTROL Rete]**. Assicurati che il pulsante di registrazione rosso sia attivo. Attiva la casella di controllo **[!UICONTROL Conserva registro]**.
 
    ![](assets/preserve-log-checkbox.png)
 
@@ -34,4 +35,4 @@ Per generare un file HAR, attieniti alla seguente procedura:
 
    *Copia tutti i file HAR*
 
-1. Incolla il contenuto copiato in un file di blocco note. Salvalo sul desktop come **logs.har** e invialo tramite e-mail all&#39;Adobe.
+1. Incolla il contenuto copiato in un file di blocco note. Salvalo sul desktop come **logs.har** e invialo tramite e-mail ad Adobe.

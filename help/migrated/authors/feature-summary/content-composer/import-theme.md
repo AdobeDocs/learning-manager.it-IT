@@ -1,31 +1,32 @@
 ---
-description: Scopri come importare un file JSON con tema personalizzato in Composizione contenuti e come salvarlo come nuovo tema personalizzato disponibile nel pannello Temi del corso.
+description: Scopri come importare un File JSON di temi personalizzato in Composizione contenuti e come salvarlo come nuovo tema personalizzato disponibile nel pannello Temi del corso.
 jcr-language: en_us
 title: Importare un tema
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
-
 ---
-
 
 # Importare un tema
 
-Importa un file JSON personalizzato per applicare le modifiche come nuovo tema in Composizione contenuti.
+Importate un File JSON personalizzato per applicare le modifiche come nuovo tema in Composizione contenuto.
 
 1. Seleziona **Temi** dalla barra degli strumenti.
 
 2. Seleziona **Importa** dalle opzioni **Tema del corso**.
    ![](../assets/48_course_themes_import_button_updated.png)
 
-3. Scegli il file JSON personalizzato dal tuo computer.
+3. Scegliete il File JSON personalizzato dal computer.
 
 4. Seleziona **Salva come nuovo** per creare un nuovo tema personalizzato.
 
 ## Panoramica della struttura JSON del tema
 
-Un file JSON tema ha cinque aree principali:
+Un File JSON tematico si articola in cinque aree principali:
 
 | Sezione | Controlli |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -4,13 +4,14 @@ title: Problemi relativi al ritiro di un programma di apprendimento
 description: Problemi relativi al ritiro di un programma di apprendimento in Adobe Learning Manager
 contentowner: nluke
 exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 55%
-
+ht-degree: 61%
 ---
-
 # Problemi relativi al ritiro di un programma di apprendimento
 
 ## Problema
@@ -29,7 +30,7 @@ Per controllare il corso che include un&#39;istanza ritirata, procedi come segue
 
 1. Accedi come amministratore e avvia il programma di apprendimento pertinente.
 
-1. Fai clic su **[!UICONTROL Istanze]** > **Ccorsi**. Nella pagina sono elencati tutti i corsi inclusi in questo programma di apprendimento. Potrai visualizzare il corso che contiene un’istanza ritirata.
+1. Fai clic su **[!UICONTROL Istanze]** > **Ccorsi**. Nella pagina sono elencati tutti i corsi inclusi in questo programma di apprendimento. Potrai visualizzare il corso che include un&#39;istanza ritirata.
 
    ![](assets/retired-instance.png)
 

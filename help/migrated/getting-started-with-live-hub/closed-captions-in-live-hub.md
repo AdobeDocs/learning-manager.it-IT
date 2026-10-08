@@ -1,13 +1,14 @@
 ---
 title: Sottotitoli codificati nelle sessioni Live Hub
 description: Scopri come i sottotitoli codificati visualizzano il contenuto vocale in tempo reale, in modo che Istruttori e Allievi possano seguire durante le sessioni dell’Hub dal vivo.
-source-git-commit: e5c05e030c1254b41d8a3197a168b6cd1aafb18b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
-
 ---
-
 
 I sottotitoli codificati trascrivono i contenuti vocali in tempo reale durante una sessione di Hub dal vivo. I partecipanti visualizzano il testo parlato sullo schermo durante la conversazione. I sottotitoli sono utili quando l’audio non è chiaro, ad esempio in ambienti rumorosi o quando i partecipanti preferiscono continuare a leggere. I sottotitoli codificati sono utili soprattutto in situazioni in cui l’audio non è chiaro, ad esempio in ambienti rumorosi o quando i partecipanti preferiscono leggere la discussione.
 

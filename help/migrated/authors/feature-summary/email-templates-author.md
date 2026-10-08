@@ -3,13 +3,14 @@ description: Leggi questo articolo per scoprire come configurare i modelli e-mai
 jcr-language: en_us
 title: Modelli e-mail
 exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 72%
-
 ---
-
 # Modelli e-mail
 
 Leggi questo articolo per scoprire come configurare i modelli e-mail per gli eventi correlati a tutti gli oggetti di apprendimento.

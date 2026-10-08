@@ -2,13 +2,14 @@
 description: Scopri come connettere Composizione contenuti a Adobe Learning Manager, configurare i dettagli di pubblicazione e distribuire il corso nella libreria dei contenuti ALM.
 jcr-language: en_us
 title: Connetti e pubblica su Adobe Learning Manager
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 
 # Connetti e pubblica su Adobe Learning Manager
 

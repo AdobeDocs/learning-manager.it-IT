@@ -4,13 +4,14 @@ title: Accesso utente
 description: Quando utilizzi Adobe Learning Manager per la prima volta, devi creare il tuo account.
 contentowner: manochan
 exl-id: f8f0ac74-606e-40ac-81c7-1c3d2fa9a0bf
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 42%
-
+source-wordcount: '149'
+ht-degree: 52%
 ---
-
 # Accesso utente
 
 Quando utilizzi Adobe Learning Manager per la prima volta, devi creare l’account procedendo come segue:
@@ -27,9 +28,9 @@ Quando utilizzi Adobe Learning Manager per la prima volta, devi creare l’accou
 
 1. Immetti Adobe ID, password e fai clic su **[!UICONTROL Accedi]**.
 
-   Se hai dimenticato la password, fai clic su **[!UICONTROL Password dimenticata?Collegamento]** e fornisci l’ID e-mail utilizzato per la creazione di Adobe ID.
+   Se hai dimenticato la password, fai clic su **[!UICONTROL Password dimenticata?]** e fornisci l’id e-mail utilizzato per la creazione di Adobe ID.
 
-1. In alternativa, puoi utilizzare l&#39;Enterprise ID facendo clic su **[!UICONTROL Accedi con un collegamento di Enterprise ID]**.
+1. In alternativa, puoi utilizzare l’Enterprise ID facendo clic sul collegamento **[!UICONTROL Accedi con un Enterprise ID]**.
 
 >[!NOTE]
 >

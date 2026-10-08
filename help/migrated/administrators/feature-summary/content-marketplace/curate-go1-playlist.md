@@ -3,13 +3,14 @@ description: Scopri come creare e aggiungere una sequenza di riproduzione Go1 a 
 jcr-language: en_us
 title: Curare la sequenza di riproduzione Go1 nel percorso di apprendimento Adobe Learning Manager
 exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
-
 ---
-
 # Correggere i corsi Go1 in un percorso di apprendimento
 
 Gli amministratori spesso devono gestire i corsi da più repository o cataloghi, il che rende difficile identificare le opzioni migliori. Ciò è particolarmente difficile con Go1, dove sono disponibili migliaia di corsi. Per semplificare questo aspetto, forniamo una funzione di cura basata sull’intelligenza artificiale direttamente all’interno del flusso di creazione del percorso di apprendimento. Questo consente agli amministratori di individuare e selezionare rapidamente i corsi più pertinenti

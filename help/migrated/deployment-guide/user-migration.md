@@ -5,13 +5,14 @@ title: Guida alla distribuzione di Learning Manager - Sezione 2
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 63%
-
 ---
-
 # Guida alla distribuzione di Learning Manager - Sezione 2
 
 ## Configurazione tecnica {#technicalsetup}
@@ -74,7 +75,7 @@ Per eseguire il flusso di lavoro di migrazione, è necessario disporre dei privi
 
 Prima di avviare il processo di migrazione, è necessario eseguire i seguenti prerequisiti:
 
-* Estrazione di dati e contenuti dall’LMS in uso e trasformazione dei dati nei formati di file definiti da Learning Manager.
+* Estrazione di dati e contenuti dall’LMS in uso e Trasforma i dati nei formati di file definiti da Learning Manager.
 * Importazione di utenti che utilizzano connettori FTP e BOX. L’Amministratore dell’integrazione deve assicurarsi che i connettori siano configurati prima del processo di migrazione.
 
 

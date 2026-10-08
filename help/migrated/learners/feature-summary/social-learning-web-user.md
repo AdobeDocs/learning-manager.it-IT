@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Apprendimento sociale in Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3455'
 ht-degree: 76%
-
 ---
-
 # Apprendimento sociale in Learning Manager
 
 Scopri come utilizzare il Web di Apprendimento sociale come Allievo
@@ -245,7 +246,8 @@ Gli Allievi con accesso alla bacheca social possono assegnare tag ad altri utent
 
 ### Applicare tag agli utenti nei post delle bacheche social
 
-Puoi assegnare tag a specifici membri della bacheca in post o commenti utilizzando @username. L’assegnazione di tag è limitata ai membri con accesso a quella bacheca.Per assegnare tag agli utenti in una bacheca social:
+Puoi assegnare tag a specifici membri della bacheca in post o commenti utilizzando @username. L’assegnazione di tag è limitata ai membri con accesso a quella bacheca.
+Per assegnare tag agli utenti in una bacheca social:
 
 1. Accedi a Adobe Learning Manager come Allievo.
 2. Seleziona **[!UICONTROL Apprendimento sociale]** nel riquadro di navigazione a sinistra.
