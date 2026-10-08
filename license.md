@@ -1,13 +1,12 @@
 ---
 source-git-commit: 1fa0c183744117c134d3194c24fd306f98e97e1a
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
-
 ---
 # Licenza MIT
 
-© Adobe del Copyright 2021. All rights reserved.
+© Adobe del Copyright 2021. .
 
 Con il presente documento viene concessa, a titolo gratuito, a chiunque ottenga una copia del presente Software e dei relativi file di documentazione (il &quot;Software&quot;), l’autorizzazione a trattare il Software senza restrizioni, inclusi, a titolo esemplificativo ma non esaustivo, i diritti di utilizzo, copia, modifica, unione, pubblicazione, distribuzione, sublicenza e/o vendita di copie del Software, e a consentire alle persone a cui il Software viene fornito di farlo, alle seguenti condizioni:
 
