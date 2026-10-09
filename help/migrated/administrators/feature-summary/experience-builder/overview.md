@@ -3,13 +3,11 @@ description: Scopri di più su Experience Builder, uno strumento senza codice o 
 jcr-language: en_us
 title: Experience Builder in Adobe Learning Manager
 exl-id: 8d06c2cf-816e-4ad5-85f7-bc26e9d70d51
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: a32d8ccf872aa77202bc1660b76e66c12466f8e6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '943'
 ht-degree: 0%
-
 ---
-
 # Panoramica
 
 Experience Builder è uno strumento senza codice o a basso codice in Adobe Learning Manager che consente di creare portali di apprendimento personalizzati. Consente di progettare portali di apprendimento di marca e intuitivi senza dover possedere competenze tecniche o conoscenze approfondite in materia di codifica.
@@ -17,8 +15,6 @@ Experience Builder è uno strumento senza codice o a basso codice in Adobe Learn
 Con Experience Builder, gli amministratori possono creare facilmente pagine, menu e widget per offrire esperienze di apprendimento personalizzate per il proprio pubblico
 
 Molte organizzazioni hanno difficoltà a personalizzare i portali di apprendimento senza assistenza tecnica o costosi integratori di sistema. Desiderano portali che corrispondano al proprio marchio, forniscano contenuti mirati e si adattino a diversi gruppi di Allievi pur rimanendo veloci e facili da creare.
-
-Experience Builder è uno strumento senza codice o a basso codice in Adobe Learning Manager che consente di creare portali di apprendimento personalizzati. Consente di progettare portali di apprendimento di marca e intuitivi senza dover possedere competenze tecniche o conoscenze approfondite in materia di codifica.Con Experience Builder, puoi creare nuove pagine, menu e widget per offrire esperienze di apprendimento personalizzate per il tuo pubblico in modo semplice e veloce. Con Experience Builder, puoi creare rapidamente nuove pagine, menu e widget per offrire esperienze di apprendimento personalizzate per il tuo pubblico.
 
 ## Il problema che Experience Builder risolve
 
