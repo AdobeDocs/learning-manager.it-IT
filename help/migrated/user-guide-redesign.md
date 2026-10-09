@@ -2,15 +2,15 @@
 description: Dalla creazione di contenuti alle esperienze live e on-demand, Adobe Learning Manager combina accademie con marchio, percorsi adattivi e agenti di intelligenza artificiale per offrire un apprendimento personalizzato che dia i suoi frutti.
 jcr-language: en_us
 title: Benvenuti nella documentazione di Adobe Learning Manager
-exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a211121
 contentowner: saghosh
 hide: true
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 1d3ece3eefea47e3f4da30579941f9069d2b4431
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1292'
 ht-degree: 1%
 ---
 
@@ -36,7 +36,7 @@ Accedi direttamente ai flussi di lavoro e ai concetti che corrispondono a ciò c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="L’Amministratore">Amministratore</a>
+                        <b><a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="L’Amministratore">Amministratore</a></b>
                     </p>
                     <p class="is-size-6">Configura account, utenti, accesso e percorsi di apprendimento.</p>
                 </div>
@@ -59,7 +59,7 @@ Accedi direttamente ai flussi di lavoro e ai concetti che corrispondono a ciò c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="Autore">Autore</a>
+                        <b><a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="Autore">Autore</a></b>
                     </p>
                     <p class="is-size-6">Creazione di corsi, certificazioni, contenuti e percorsi di apprendimento.</p>
                 </div>
@@ -82,7 +82,7 @@ Accedi direttamente ai flussi di lavoro e ai concetti che corrispondono a ciò c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Allievo">Allievo</a>
+                        <b><a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Allievo">Allievo</a></b>
                     </p>
                     <p class="is-size-6">Scopri, riprendi e tieni traccia dell’apprendimento assegnato.</p>
                 </div>
@@ -105,7 +105,7 @@ Accedi direttamente ai flussi di lavoro e ai concetti che corrispondono a ciò c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="Manager">Manager</a>
+                        <b><a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="Manager">Manager</a></b>
                     </p>
                     <p class="is-size-6">Assegna l’apprendimento e monitora l’avanzamento del team.</p>
                 </div>
@@ -128,7 +128,7 @@ Accedi direttamente ai flussi di lavoro e ai concetti che corrispondono a ciò c
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="Amministratore di integrazione">Amministratore dell’integrazione</a>
+                        <b><a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="Amministratore di integrazione">Amministratore dell’integrazione</a></b>
                     </p>
                     <p class="is-size-6">Connessione di sistemi, API, dati e flussi di lavoro.</p>
                 </div>
@@ -150,10 +150,10 @@ Sviluppa le competenze necessarie per configurare e gestire Adobe Learning Manag
 <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="Gestione dei corsi e dei contenuti" target="_blank" rel="referrer">
+                    <b><a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="Gestione dei corsi e dei contenuti" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-course-new.png" alt="Gestione dei corsi e dei contenuti"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
+                    </a></b>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
@@ -278,16 +278,20 @@ Sviluppa le competenze necessarie per configurare e gestire Adobe Learning Manag
 
 Scegli corsi mirati per le funzionalità chiave o segui i percorsi di apprendimento guidato. I collegamenti dell’Accademia si aprono in una nuova scheda e potrebbero richiedere l’accesso.
 
+[**Esplora Accademia ALM**](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
+
+<!--
 <div style="margin-top: 1rem;">
     <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            Esplora Accademia ALM
+            Explore ALM Academy
         </span>
     </a>
 </div>
+-->
 
 ## Esplora Adobe Learning Manager
 
@@ -299,36 +303,31 @@ Scopri le novità, esplora le funzionalità chiave e sviluppa le tue competenze.
 <tr style="border: 0;">
    <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="Scopri le novità" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
 
-<p><strong>Scopri le novità</strong>
+<p><strong>Novità di Adobe Learning Manager</strong>
     </p>
-    <p>Esplora le funzionalità più recenti<br>e gli aggiornamenti delle versioni.</p>
+    <p>Scoprite le funzioni e gli aggiornamenti più recenti della versione di agosto 2026.</p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/whats-new.md">Ulteriori informazioni</a>
-                    </strong>
+                    <a href="/help/migrated/whats-new.md">Riepilogo delle nuove funzioni</a>
                 </p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Composizione contenuto (Beta)</a>
-                    </strong>
+                    <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Composizione contenuto (Beta)</a>
     </p>
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/explore-ai-new.png" alt="Controlla novità" style="width: 100%; rapporto di formato: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/explore-ai-new.png" alt="Scopri le novità" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>Funzioni basate su IA</strong></p>
 
 <p>
-                    <strong>Agente Insights (Beta)</strong><br>
+                    Agente Insights (Beta)<br>
                     <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Ulteriori informazioni</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">Avvia corso</a>
 </p>
 <p>
-                    <strong>Agente percorso di apprendimento (Beta)</strong><br>
+                    Agente percorso di apprendimento (Beta)<br>
                     <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Ulteriori informazioni</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">Avvia corso</a>
-
 </p>
-
 <p>
-                    <strong>Hub live (Beta)</strong><br>
+                    Hub live (Beta)<br>
                     <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Ulteriori informazioni</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">Avvia corso</a>
 
 </p>
@@ -337,17 +336,19 @@ Scopri le novità, esplora le funzionalità chiave e sviluppa le tue competenze.
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/learning-experience-new.png" alt="Controlla novità" style="width: 100%; rapporto di formato: 16 / 9; object-fit: cover;"
+   <td><img src="./help/assets/overview/learning-experience-new.png" alt="Scopri le novità" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>Strumenti di amministrazione</strong>
+    </p>
    <p>
-                    <strong>Experience Builder</strong><br>
+                    Experience Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Ulteriori informazioni</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Avvia corso</a>
     </p>
     <p>
-                    <strong>Report Builder</strong><br>
+                    Report Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Ulteriori informazioni</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">Avvia corso</a>
     </p>
 <p>
-                    <strong>Generatore e-mail</strong><br>
+                    Generatore e-mail<br>
                     <a href="/help/migrated/administrators/feature-summary/email-builder.md">Ulteriori informazioni</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">Avvia corso</a>
     </p>
     </td>
@@ -358,16 +359,20 @@ Scopri le novità, esplora le funzionalità chiave e sviluppa le tue competenze.
 
 Scopri come ALM può aiutarti a creare, gestire e fornire esperienze di apprendimento coinvolgenti. Registrati subito per una demo personalizzata.
 
+[**Registrati**](https://business.adobe.com/it/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
+
+<!--
 <div>
     <a href="https://business.adobe.com/it/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            Registrati
+            <strong>Sign up</strong>
         </span>
     </a>
 </div>
+-->
 
 ## Risorse aggiuntive {#additional-resources}
 
