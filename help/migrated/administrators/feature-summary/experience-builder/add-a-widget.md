@@ -7,9 +7,7 @@ source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 0%
-
 ---
-
 # Aggiungere e configurare i widget
 
 ## Widget Calendario
@@ -155,7 +153,7 @@ Per configurare il widget Corsi e percorsi:
 
 ![](assets/configure-course-paths.png)
 _Widget Corsi e percorsi in cui gli amministratori impostano il titolo e la descrizione del widget e selezionano Corsi o Percorsi di apprendimento da visualizzare come schede interattive_
-&#x200B;11. Seleziona **[!UICONTROL Aggiungi widget]**.
+11. Seleziona **[!UICONTROL Aggiungi widget]**.
 
 Il widget Corsi e percorsi verrà aggiunto alla pagina. Gli amministratori possono aggiungere altri widget e pubblicare la pagina.
 
@@ -253,7 +251,7 @@ Il widget HTML verrà aggiunto alla pagina. Gli amministratori possono aggiunger
 
 ## Widget IFrame
 
-Il widget Iframe visualizza il contenuto di un URL esterno direttamente all’interno di una pagina sulla piattaforma di apprendimento. All’interno di un frame viene incorporato un sito Web, uno strumento o un’applicazione esterna che consente agli Allievi di visualizzare e interagire con tale contenuto senza uscire dall’LMS.
+Il widget Iframe visualizza il contenuto di un URL esterno direttamente all’interno di una pagina sulla piattaforma di apprendimento. Incorpora un sito Web, uno strumento o un’applicazione esterni all’interno di un fotogramma, consentendo agli Allievi di visualizzare e interagire con tale contenuto senza uscire dall’LMS.
 
 ### Aggiungere un widget Iframe
 
@@ -285,7 +283,7 @@ Il widget Iframe verrà aggiunto alla pagina. Gli amministratori possono aggiung
 Per recuperare i dettagli corretti, gli amministratori devono includere il token di accesso come parametro di query nell’URL iframe. Ad esempio, per visualizzare informazioni da Adobe Learning Manager all’interno di un iframe, l’URL deve includere i seguenti parametri:
 
 * userId: identificatore univoco dell’Allievo
-* accountId: identificatore dell’account associato all’Allievo
+* accountId: l’identificatore di account associato all’Allievo
 * token: token di autenticazione richiesto per le chiamate API
 * locale: la lingua o la preferenza locale dell’Allievo
 
