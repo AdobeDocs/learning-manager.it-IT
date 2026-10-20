@@ -38,7 +38,7 @@ Sebbene il GDPR sia un regolamento dell’UE, è applicabile alle entità aziend
 
 In conformità con il GDPR, se l&#39;azienda fornisce un prodotto o un servizio ai residenti dell&#39;UE e determina modalità e motivazione di raccolta, tracciamento e monitoraggio dei dati, l&#39;utente è considerato un [data controller](https://gdpr-info.eu/art-24-gdpr/). Se sei cliente Adobe Learning Manager ed esegui una di queste attività, sei anche responsabile del trattamento dei dati.
 
-Le aziende che elaborano i dati per conto di controller sono considerate [processori dati](https://gdpr-info.eu/art-28-gdpr/). Adobe è il fornitore di Adobe Learning Manager LMS gestito nel cloud, pertanto riveste il ruolo di responsabile del trattamento dei dati. Di seguito sono riportati ulteriori dettagli su [GDPR e azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Le aziende che elaborano i dati per conto di controller sono considerate [processori dati](https://gdpr-info.eu/art-28-gdpr/). Adobe è il fornitore di Adobe Learning Manager LMS gestito nel cloud, pertanto riveste il ruolo di responsabile del trattamento dei dati. Di seguito sono riportati ulteriori dettagli su [GDPR e azienda](https://www.adobe.com/it/privacy/general-data-protection-regulation.html).
 
 +++
 
