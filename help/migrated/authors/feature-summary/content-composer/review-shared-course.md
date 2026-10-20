@@ -38,7 +38,7 @@ Quando un progetto viene condiviso per la revisione, puoi accedere al corso come
 
 ## Segnala contenuti offensivi
 
-Se durante la revisione di un corso di Composizione contenuto condiviso si riscontrano contenuti che violano le [Condizioni d’uso](https://www.adobe.com/legal/terms.html) di Adobe, è possibile segnalarli.
+Se durante la revisione di un corso di Composizione contenuto condiviso si riscontrano contenuti che violano le [Condizioni d’uso](https://www.adobe.com/it/legal/terms.html) di Adobe, è possibile segnalarli.
 
 Seleziona **Report** in alto a destra e compila il modulo. In alternativa, puoi segnalare un abuso tramite e-mail all&#39;indirizzo [abuse@adobe.com](mailto:abuse@adobe.com). 
 
