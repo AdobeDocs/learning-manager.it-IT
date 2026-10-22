@@ -3,13 +3,11 @@ description: Illustra come Experience Builder può pubblicare pagine di apprendi
 jcr-language: en_us
 title: Configurare e gestire le pagine senza accesso in Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
+source-git-commit: 1098caed370839d7adad2abf564e8f6ed137d10b
 workflow-type: tm+mt
-source-wordcount: '6058'
+source-wordcount: '6051'
 ht-degree: 1%
-
 ---
-
 
 # Esperienza senza accesso in Experience Builder
 
@@ -356,15 +354,16 @@ La parte critica sta dicendo allo stack ES non connesso che academy.yourcompany.
 
 1. **Riattivare il connettore TDA (semplice, self-service)**
 
-Il wiki Experience Builder M45 spiega che gli utenti nativi esistenti non connessi dovranno eliminare e riattivare la connessione TDA in modo che il nuovo dominio venga automaticamente inserito nell’elenco dei domini consentiti. In questo modo si ottengono due risultati:
-1. Il JSON dell’account non connesso viene rigenerato.
-2. I domini consentiti vengono aggiornati per includere il nuovo dominio CDN non connesso e il dominio personalizzato.
+   Gli attuali utenti nativi non connessi dovranno eliminare e riattivare la connessione TDA in modo che il nuovo dominio venga automaticamente inserito nell’elenco dei domini consentiti. In questo modo si ottengono due risultati:
 
-Questa opzione è consigliata quando si dispone di un numero limitato di account e si può tollerare la disattivazione temporanea e la riattivazione del connettore.
+   * Il JSON dell’account non connesso viene rigenerato.
+   * I domini consentiti vengono aggiornati per includere il nuovo dominio CDN non connesso e il dominio personalizzato.
 
-1. **Verificare che il dominio sia effettivamente consentito**
+   Questa opzione è consigliata quando si dispone di un numero limitato di account e si può tollerare la disattivazione temporanea e la riattivazione del connettore.
 
-Dopo aver consentito l&#39;inserimento nell&#39;elenco, apri il sito non connesso nel dominio personalizzato e analizza le chiamate di rete del browser.
+2. **Verificare che il dominio sia effettivamente consentito**
+
+   Dopo aver consentito l&#39;inserimento nell&#39;elenco, apri il sito non connesso nel dominio personalizzato e analizza le chiamate di rete del browser.
 
 Desideri visualizzare:
 
@@ -532,7 +531,7 @@ Nello stack non connesso, la ricerca e l’elenco degli oggetti di apprendimento
 La modifica introduce il supporto per l&#39;LO **breve descrizione** nelle API di ricerca ed elenco non registrate:
 
 - Per **corsi**, la semantica dell&#39;interfaccia utente esistente è:
-   - Le schede per l’accesso mostrano una &quot;Breve descrizione&quot; (campo di 140 caratteri), se presente, altrimenti tornano alla lunga &quot;Panoramica dettagliata&quot;.
+  - Le schede per l’accesso mostrano una &quot;Breve descrizione&quot; (campo di 140 caratteri), se presente, altrimenti tornano alla lunga &quot;Panoramica dettagliata&quot;.
 - Per i **percorsi di apprendimento**, l’interfaccia utente che ha effettuato l’accesso utilizza il campo &quot;Benefici&quot; come descrizione breve, se definita, e torna alla panoramica in caso contrario.
 - Per le **certificazioni** viene utilizzata una breve &quot;Descrizione&quot;, con una &quot;Panoramica certificazioni&quot; più lunga come fallback.
 - Per **risorse formative**, viene utilizzato il campo di descrizione principale.
