@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
 workflow-type: tm+mt
-source-wordcount: '35230'
+source-wordcount: '35301'
 ht-degree: 63%
 ---
 # Note sulla versione di Adobe Learning Manager
@@ -70,6 +70,10 @@ Sono stati apportati due miglioramenti a Insights Agent. :
 * **Iscrizione al corso, esclusa la lista d’attesa per impostazione predefinita:** Per le query di iscrizione diretta e indiretta senza filtri, il conteggio di iscrizioni dirette include gli Allievi con stato In attesa, anche se sono in lista d’attesa e non partecipano attivamente. Per impostazione predefinita, il pannello Approccio non indica che nel conteggio siano inclusi gli Allievi in lista d’attesa. Gli Allievi in lista d’attesa vengono esclusi solo quando l’Amministratore ne richiede esplicitamente l’esclusione, nel qual caso viene divulgata la regola applicata.
 
 [Ulteriori informazioni](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+### Certificato personalizzato - Designer certificati
+
+Quando un badge è stato aggiunto alla progettazione di un certificato, il sistema di generazione dei certificati supportava solo il campo del badge basato su testo. Di conseguenza, l’immagine del badge dell’Allievo risultava mancante o visualizzata in modo errato in PDF generato. Con questa correzione, il sistema ora riconosce il segnaposto immagine badge e lo sostituisce con l’immagine badge guadagnata dell’Allievo, mantenendo la posizione e le dimensioni configurate nel designer del certificato.
 
 ## API
 
