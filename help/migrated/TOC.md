@@ -3,9 +3,9 @@ user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
 nudge: true
-source-git-commit: 29900b65ff6bf5b598bbba27d2691f75f544211f
+source-git-commit: add4cde9d61b2ad004f8092a1ad7172a8da997fe
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1791'
 ht-degree: 34%
 ---
 
@@ -188,6 +188,7 @@ ht-degree: 34%
   * [API senza accesso](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhook {#webhooks}
     * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
+    * [Monitoraggio del completamento Go1 con i webhook](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
     * [Guida all’utilizzo dei webhook](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
   * [Credendo](integration-admin/feature-summary/credly-integration.md)
   * [Interoperabilità degli strumenti di apprendimento](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)

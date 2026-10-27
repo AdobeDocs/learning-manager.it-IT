@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
+source-git-commit: add4cde9d61b2ad004f8092a1ad7172a8da997fe
 workflow-type: tm+mt
-source-wordcount: '35301'
+source-wordcount: '35530'
 ht-degree: 63%
 ---
 # Note sulla versione di Adobe Learning Manager
@@ -20,12 +20,28 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 
 -->
+
++++Aggiornamento 113: versione di Adobe Learning Manager del 27 ottobre 2026
+
+## Miglioramenti in questa versione
+
+**Integrazione Go1:** l&#39;integrazione Go1 in Adobe Learning Manager è stata migliorata per rendere più affidabile il tracciamento del completamento del corso. I completamenti Go1 degli Allievi ora vengono registrati con precisione, anche se lasciano il lettore del corso subito dopo aver terminato. Questa correzione assicura che le trascrizioni degli Allievi e i report degli Amministratori rimangano completi e aggiornati. Non è necessaria alcuna configurazione e i corsi Go1 esistenti continuano a funzionare come prima. [Ulteriori informazioni](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
+
+## Bug corretti
+
+**Dispositivo mobile:** su iPhone con iOS Safari, all’avvio di un corso con orientamento verticale dal catalogo o dal CTA di ricerca, viene visualizzato il messaggio &quot;Ruota il dispositivo&quot;. Il prompt rimase anche dopo aver ruotato in orizzontale, impedendo l&#39;inizio del corso. Questo problema è stato risolto e ora il lettore si riprende con la rotazione e avvia il corso come previsto.
+
+**Allievo:** gli allievi non sono riusciti a inviare file di Excel, PowerPoint, video, ZIP e altri tipi di file nei moduli di invio file e hanno ricevuto un errore generico. Questo problema è stato risolto e gli allievi ora possono caricare e inviare questi tipi di file come previsto.
+
+**Modello e-mail:** le e-mail di invito del calendario mostravano un corpo vuoto e una descrizione dell&#39;evento .ics vuota quando i modelli di sessione erano scollegati dal layout globale. Questo problema è stato risolto e i modelli non collegati ora visualizzano i dettagli della sessione configurata e il contenuto del layout sia nell’e-mail che nella descrizione dell’evento del calendario come previsto.
+
++++
 
 +++Aggiornamento 112: versione di Adobe Learning Manager del 30 settembre 2026
 
@@ -707,7 +723,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2187,7 +2203,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -2565,7 +2581,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -3191,7 +3207,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -3701,7 +3717,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**&#x200B;** veniva **&#x200B;**&#x200B;rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**** veniva **** rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L’URL non è cliccabile nell’e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** venivano modificati. Questo problema è stato risolto.
