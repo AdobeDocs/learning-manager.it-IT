@@ -4,7 +4,7 @@ description: Messaggi di errore e notifiche comuni che potresti incontrare duran
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Durante una sessione Hub dal vivo, gli Istruttori potrebbero ricevere messaggi di errore o notifiche che impediscono il completamento previsto di determinate azioni. Questo articolo descrive gli errori comuni relativi agli istruttori, le loro possibili cause e i passaggi da eseguire per risolverli.
 
-## Problemi di connessione
+## Problemi di connessione {#connection-issues}
 
 | Messaggio di errore | Scenario | Suggerimenti per superare l&#39;errore |
 |---|---|---|
@@ -61,7 +61,7 @@ I messaggi seguenti vengono visualizzati come notifiche di tipo avviso popup qua
 | &quot;FileName.pdf&quot; supera il limite di 1 MB. | Un Istruttore carica un file PDF che supera il limite di 1 MB per le dimensioni del file. | Comprimi o riduci le dimensioni del file PDF a meno di 1 MB, quindi ricarica. |
 | &quot;FileName.pptx&quot; supera il limite di 3 MB. | Un Istruttore carica un file PPT che supera il limite di 3 MB per le dimensioni del file. | Comprimi o riduci le dimensioni del file PPT a meno di 3 MB, quindi ricarica. |
 
-## Problemi della sessione di analisi
+## Problemi della sessione di analisi {#breakout-issues}
 
 I messaggi seguenti possono essere visualizzati quando un Istruttore tenta di avviare una sessione di breakout.
 
