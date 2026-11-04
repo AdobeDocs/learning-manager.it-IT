@@ -4,7 +4,7 @@ description: Scopri come funziona la schermata di pre-join dell'Hub live, come c
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2e198c9edfedc804db6a52b79b50372fb4875203
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Quando richiesto dal browser, seleziona **Consenti** per abilitare l&#39;accesso
 ![Richiesta autorizzazioni browser consentite](assets/allow-browser-permissions-prompt.png)
 *Seleziona Consenti quando il browser richiede l&#39;accesso a microfono e fotocamera.*
 
-### Configurare i controlli audio
+### Configurare i controlli audio {#audio-controls}
 
 Il microfono e l&#39;altoparlante vengono selezionati automaticamente. Usate il controllo audio nella schermata di pre-join per confermare che funzionano o passate a un dispositivo diverso.
 
