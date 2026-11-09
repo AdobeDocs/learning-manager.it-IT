@@ -5,9 +5,9 @@ title: Pubblica su Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 9941036e5221aa8cc1deb4d5d05d1fd76bd4e66b
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '437'
 ht-degree: 1%
 ---
 
@@ -48,3 +48,23 @@ Dopo aver collegato il tuo account, configura i dettagli di pubblicazione nella 
 - Immetti una **Descrizione**: un breve riepilogo del corso visualizzato accanto ad esso nella libreria dei contenuti ALM per aiutare Allievi e Amministratori a comprenderne lo scopo.
 
 - Seleziona **Publish** per inviare il corso alla libreria dei contenuti ALM come modulo.
+
+## Navigazione dell’Allievo nei corsi pubblicati di Content Composer
+
+Scopri come gli Allievi utilizzano i corsi di Content Composer pubblicati su Adobe Learning Manager o esportati come pacchetti SCORM, inclusi il sommario comprimibile e la navigazione da dispositivo mobile.
+
+## Sommario comprimibile
+
+I corsi pubblicati su Adobe Learning Manager o esportati come pacchetti SCORM includono una lezione e un pannello di navigazione per argomenti comprimibili.
+
+Gli Allievi possono:
+
+- **Espandete** il pannello di navigazione per sfogliare lezioni e argomenti e passare a qualsiasi sezione.
+- **Comprimi** il pannello di navigazione per concentrarsi sul contenuto del corso senza che il pannello occupi spazio sullo schermo.
+Lo stato del pannello viene mantenuto man mano che gli allievi si spostano nel corso.
+
+## Navigazione mobile
+
+Sui dispositivi mobili, la lezione e la navigazione degli argomenti si aprono come una sovrapposizione a schermo intero anziché come un pannello laterale. Gli Allievi selezionano l’icona di navigazione per aprire la sovrapposizione, individuano la lezione o l’argomento desiderato e selezionano il percorso.
+
+La sovrapposizione si chiude automaticamente dopo che l’Allievo ha selezionato una destinazione, restituendola al contenuto del corso.
