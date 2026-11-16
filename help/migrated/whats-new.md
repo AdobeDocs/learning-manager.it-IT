@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
+source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -258,7 +258,6 @@ I visitatori della tua accademia pubblica possono ora riprodurre i contenuti sel
 
 Gli amministratori ora possono scegliere i cataloghi specifici che appaiono nell&#39;accademia pubblica. Solo questi cataloghi possono essere sfogliati da visitatori anonimi e indicizzati da motori di ricerca e assistenti di intelligenza artificiale, quindi i corsi di prova o i contenuti interni rimangono privati.
  
-
 ### Trova in motori di ricerca e assistenti AI (Beta)
 
 Adobe Learning Manager può ora rendere la tua accademia pubblica reperibile da motori di ricerca come Google e da assistenti AI come ChatGPT, Claude e Gemini. I tuoi corsi possono quindi essere visualizzati nei risultati della ricerca e nelle risposte generate dall&#39;intelligenza artificiale, attribuite alla tua accademia.
@@ -326,7 +325,7 @@ Questo offre ai partecipanti globali un’esperienza uniforme su tutta la piatta
 
 ## Sessioni Hub live fino a 5000 partecipanti
 
-Live Hub ora supporta sessioni su larga scala con un massimo di 5000 partecipanti, consentendo alle organizzazioni di condurre sessioni di formazione di grandi dimensioni. Gli Autori possono scegliere una capacità di 5.000 partecipanti quando aggiungono un modulo Classe virtuale a un corso. L’Hub live configura automaticamente la sala in base alle dimensioni del pubblico e applica specifiche restrizioni di interazione.
+Live Hub ora supporta sessioni su larga scala con un massimo di 5000 partecipanti, consentendo alle organizzazioni di condurre sessioni di formazione di grandi dimensioni. Gli Autori possono scegliere una capacità di 5000 partecipanti quando aggiungono un modulo Classe virtuale a un corso. L’Hub live configura automaticamente la sala in base alle dimensioni del pubblico e applica specifiche restrizioni di interazione.
 
 Nelle sessioni di grandi dimensioni, si applicano le funzionalità e i comportamenti seguenti:
 
@@ -402,9 +401,9 @@ Questa versione include nuove API che supportano le notifiche per gli Istruttori
 
 L’API delle iscrizioni ora supporta le istanze con iscrizione multipla nell’app per Allievi. Aggiungere il parametro facoltativo `includeMultiInstanceEnrollments=true` a `GET /enrollments` per includerli. Il valore predefinito è `false`, pertanto le integrazioni esistenti, incluse le implementazioni headless, continuano a funzionare senza modifiche.
 
-### Ultima data di accesso per l’iscrizione al percorso di apprendimento
+### Ultima data di accesso per l’iscrizione ai percorsi di apprendimento
 
-Ora puoi archiviare i metadati personalizzati, ad esempio la data dell’ultimo accesso, in un percorso di apprendimento per l’iscrizione e impostarli e leggerli tramite l’API. Ciò consente di tenere traccia dell’accesso in base al tempo ai percorsi di apprendimento assegnati.
+Ora puoi archiviare i metadati personalizzati, ad esempio la data dell’ultimo accesso, in un’iscrizione al percorso di apprendimento e impostarli e leggerli tramite l’API. Ciò consente di tenere traccia dell’accesso in base al tempo ai percorsi di apprendimento assegnati.
 
 * Imposta i metadati su un’iscrizione esistente o al momento dell’iscrizione di un Allievo, utilizzando un token di amministrazione.
 * Leggilo con un token Amministratore o Allievo.
