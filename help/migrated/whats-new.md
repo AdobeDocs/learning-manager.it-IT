@@ -6,15 +6,15 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
 workflow-type: tm+mt
-source-wordcount: '4685'
+source-wordcount: '4684'
 ht-degree: 0%
 ---
 
 # Novità della versione di dicembre 2026 di Adobe Learning Manager
 
-La prossima versione di Adobe Learning Manager introduce una serie di nuove funzioni e miglioramenti volti a semplificare la piattaforma e ampliarne le funzionalità. Questi aggiornamenti semplificano i flussi di lavoro quotidiani, migliorano l’organizzazione e la distribuzione dei contenuti di apprendimento e rendono l’esperienza complessiva più coerente e intuitiva.
+Questa versione di Adobe Learning Manager introduce una serie di nuove funzioni e miglioramenti volti a semplificare la piattaforma e ad ampliarne le funzionalità. Questi aggiornamenti semplificano i flussi di lavoro quotidiani, migliorano l’organizzazione e la distribuzione dei contenuti di apprendimento e rendono l’esperienza complessiva più coerente e intuitiva.
 
 ## Grafici e dashboard dei Report Builder
 
@@ -92,7 +92,7 @@ Gli amministratori possono modificare la descrizione di ogni strumento per aggiu
 
 Gli allievi ora possono rimuovere gli argomenti o i corsi suggeriti in un unico passaggio, oltre all’opzione esistente per perfezionare gli argomenti e gli elenchi dei corsi tramite chat.
 
-Gli Amministratori ora possono riposizionare la striscia dei percorsi di apprendimento personalizzati nella home page dell’Allievo tramite la pagina di branding.
+Gli Amministratori ora possono riposizionare la striscia Percorsi di apprendimento personalizzati nella home page dell’Allievo tramite la pagina di branding.
 
 ## Esercitarsi con il ruolo di istruttore virtuale
 
@@ -258,7 +258,6 @@ I visitatori della tua accademia pubblica possono ora riprodurre i contenuti sel
 
 Gli amministratori ora possono scegliere i cataloghi specifici che appaiono nell&#39;accademia pubblica. Solo questi cataloghi possono essere sfogliati da visitatori anonimi e indicizzati da motori di ricerca e assistenti di intelligenza artificiale, quindi i corsi di prova o i contenuti interni rimangono privati.
  
-
 ### Trova in motori di ricerca e assistenti AI (Beta)
 
 Adobe Learning Manager può ora rendere la tua accademia pubblica reperibile da motori di ricerca come Google e da assistenti AI come ChatGPT, Claude e Gemini. I tuoi corsi possono quindi essere visualizzati nei risultati della ricerca e nelle risposte generate dall&#39;intelligenza artificiale, attribuite alla tua accademia.
@@ -283,9 +282,9 @@ I profili di registrazione autonoma consentono agli utenti esterni, come partner
 
 Quando gli utenti selezionano **Registrati** da una pagina raggiunta tramite tale URL, questi vengono aggiunti al profilo a cui appartiene l&#39;URL. In questo modo gli utenti di organizzazioni diverse, ad esempio agenzie o società partner separate, vengono mantenuti in profili separati.
 
-## Memorizza le ultime date di accesso per le iscrizioni al percorso di apprendimento
+## Archivia le date dell’ultimo accesso per le iscrizioni al percorso di apprendimento
 
-Adobe Learning Manager ora consente di allegare metadati personalizzati, ad esempio la data dell’ultimo accesso, a un’iscrizione a un percorso di apprendimento. L’impostazione e la lettura avviene tramite l’API, che consente di tenere traccia dell’accesso in base al tempo ai percorsi di apprendimento assegnati.
+Adobe Learning Manager consente ora di allegare metadati personalizzati, ad esempio la data dell’ultimo accesso, a un’iscrizione a un percorso di apprendimento. L’impostazione e la lettura avviene tramite l’API, che consente di tenere traccia dell’accesso in base al tempo ai percorsi di apprendimento assegnati.
 
 Le iscrizioni ai corsi supportano già una data di ultimo accesso tramite l’API, che controlla la durata di accesso di un Allievo al corso. Le iscrizioni al percorso di apprendimento ora offrono un campo di metadati generico, che consente di memorizzare la data dell’ultimo accesso o qualsiasi altro valore di cui desideri tenere traccia.
 
@@ -302,7 +301,7 @@ I tipi di processo esistenti, inclusi `generateQuizReport`, rimangono invariati.
 
 ## Modifiche all’intestazione di colonna nei report scaricati
 
-Il Report Builder ora include il nome del set di dati nelle intestazioni di colonna predefinite dei report scaricati, pertanto il nome del set di dati dell’oggetto di apprendimento viene visualizzato come **Oggetto di apprendimento - Nome** anziché come **Nome**. Per le colonne aggregate, l’intestazione include anche la funzione, ad esempio &quot;**Numero di oggetti di apprendimento - ID**&quot;. Se si immette un nome personalizzato nel campo **Alias** di una colonna, tale alias verrà utilizzato come intestazione e rimarrà invariato.
+Il Report Builder ora include il nome del set di dati nelle intestazioni di colonna predefinite dei report scaricati, pertanto il nome del set di dati dell’oggetto di apprendimento viene visualizzato come **Oggetto di apprendimento - Nome** anziché come **Nome**. Per le colonne aggregate, l’intestazione include anche la funzione, ad esempio **Numero di oggetti di apprendimento - ID**. Se si immette un nome personalizzato nel campo **Alias** di una colonna, tale alias verrà utilizzato come intestazione e rimarrà invariato.
 
 Dopo l’aggiornamento, i report esistenti senza alias personalizzati mostrano le intestazioni aggiornate, mentre i dati, i filtri e le pianificazioni dei report non sono interessati. Se gli script, i fogli di calcolo, i dashboard di business intelligence o le integrazioni fanno riferimento a colonne per intestazione, aggiornarli in base ai nuovi nomi o impostare un alias personalizzato per mantenere un&#39;intestazione specifica.
 
@@ -324,9 +323,9 @@ L’interfaccia Hub live ora viene visualizzata nella lingua selezionata per l�
 
 Questo offre ai partecipanti globali un’esperienza uniforme su tutta la piattaforma e nelle registrazioni delle sessioni.
 
-## Sessioni Hub live fino a 5.000 partecipanti
+## Sessioni Hub live fino a 5000 partecipanti
 
-Live Hub ora supporta sessioni su larga scala con un massimo di 5.000 partecipanti, consentendo alle organizzazioni di condurre sessioni di formazione di grandi dimensioni. Gli Autori possono scegliere una capacità di 5.000 partecipanti quando aggiungono un modulo Classe virtuale a un corso. L’Hub live configura automaticamente la sala in base alle dimensioni del pubblico e applica specifiche restrizioni di interazione.
+Live Hub ora supporta sessioni su larga scala con un massimo di 5000 partecipanti, consentendo alle organizzazioni di condurre sessioni di formazione di grandi dimensioni. Gli Autori possono scegliere una capacità di 5.000 partecipanti quando aggiungono un modulo Classe virtuale a un corso. L’Hub live configura automaticamente la sala in base alle dimensioni del pubblico e applica specifiche restrizioni di interazione.
 
 Nelle sessioni di grandi dimensioni, si applicano le funzionalità e i comportamenti seguenti:
 
