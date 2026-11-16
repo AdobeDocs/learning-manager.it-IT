@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
+source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -102,9 +102,9 @@ Gli autori creano scenari dai propri materiali di riferimento utilizzando modell
 
 Virtual Coach supporta nove lingue e può essere utilizzato come risorsa formativa autonoma o incorporato in un corso.
 
-## Citazioni del percorso di apprendimento in Assistente Allievo
+## Citazioni del percorso di apprendimento nell’Assistente Allievo
 
-Le risposte dell’Assistente Allievo ora citano il percorso di apprendimento che contiene un corso di origine, insieme al corso stesso. Gli Allievi aprono la panoramica del corso o la pagina del percorso di apprendimento dalla citazione. Le risposte tratte da una risorsa formativa includono un collegamento per il download. Questo aiuta gli Allievi a trovare il corso di formazione che risponde alla loro domanda.
+Le risposte dell’Allievo ora citano il percorso di apprendimento che contiene un corso di origine, insieme al corso stesso. Gli Allievi aprono la panoramica del corso o la pagina del percorso di apprendimento dalla citazione. Le risposte tratte da una risorsa formativa includono un collegamento per il download. Questo aiuta gli Allievi a trovare il corso di formazione che risponde alla loro domanda.
 
 ## Configurazioni Assistente AI
 
@@ -236,7 +236,7 @@ Per visualizzare il nome completo, passa il mouse sopra il nome abbreviato.
 
 ## Informazioni sui distintivi per corsi e percorsi di apprendimento
 
-Quando gli Autori aggiungono un corso o un percorso di apprendimento, una finestra elenca i corsi e i percorsi di apprendimento esistenti con le informazioni sul distintivo. Nella finestra sono visualizzati il nome, il tipo (corso o percorso di apprendimento), lo stato della pubblicazione e il formato del corso, ad esempio autonomo, virtuale, in aula o misto.
+Quando gli Autori aggiungono un corso o un percorso di apprendimento, una finestra elenca i corsi e i percorsi di apprendimento esistenti con le informazioni sul badge. Nella finestra sono visualizzati il nome, il tipo (corso o percorso di apprendimento), lo stato della pubblicazione e il formato del corso, ad esempio autonomo, virtuale, in aula o misto.
 
 ## Miglioramenti senza accesso
 
@@ -258,7 +258,6 @@ I visitatori della tua accademia pubblica possono ora riprodurre i contenuti sel
 
 Gli amministratori ora possono scegliere i cataloghi specifici che appaiono nell&#39;accademia pubblica. Solo questi cataloghi possono essere sfogliati da visitatori anonimi e indicizzati da motori di ricerca e assistenti di intelligenza artificiale, quindi i corsi di prova o i contenuti interni rimangono privati.
  
-
 ### Trova in motori di ricerca e assistenti AI (Beta)
 
 Adobe Learning Manager può ora rendere la tua accademia pubblica reperibile da motori di ricerca come Google e da assistenti AI come ChatGPT, Claude e Gemini. I tuoi corsi possono quindi essere visualizzati nei risultati della ricerca e nelle risposte generate dall&#39;intelligenza artificiale, attribuite alla tua accademia.
@@ -275,7 +274,7 @@ Adobe Learning Manager può ora rendere la tua accademia pubblica reperibile da 
 
 ## Ritiro di un corso senza rendere inaccessibile un percorso di apprendimento
 
-Un corso ritirato o un percorso di apprendimento nidificato viene rimosso dall’oggetto di apprendimento di livello superiore, che rimane aperto per nuove iscrizioni. Se un corso viene ritirato, non sarà più possibile accedere al percorso di apprendimento.
+Un corso ritirato o un percorso di apprendimento nidificato viene rimosso dall’oggetto di apprendimento di livello superiore, che resta aperto per nuove iscrizioni. Se un corso viene ritirato, il percorso di apprendimento non sarà più accessibile.
 
 ## URL della pagina senza accesso per i profili di registrazione autonoma
 
