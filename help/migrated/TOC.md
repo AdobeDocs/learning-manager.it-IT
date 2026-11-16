@@ -3,9 +3,9 @@ user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
 nudge: true
-source-git-commit: add4cde9d61b2ad004f8092a1ad7172a8da997fe
+source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1796'
 ht-degree: 34%
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 34%
 * [Guida utente di Adobe Learning Manager](user-guide.md)
 * {hide-from-toc}[Guida utente di Adobe Learning Manager](user-guide-redesign.md)
 * Introduzione {#introduction}
-  * [Riepilogo delle nuove funzioni agosto 2026](whats-new.md)
+  * [Riepilogo delle nuove funzioni dicembre 2026](whats-new.md)
+  * [Riepilogo delle nuove funzioni agosto 2026](whats-new-aug-2026.md)
   * [Riepilogo delle nuove funzioni aprile 2026](whats-new-april-2026.md)
   * [Riepilogo delle nuove funzioni ottobre 2025](/help/migrated/whats-new-october-2025.md)
   * [Riepilogo delle nuove funzioni maggio 2025](/help/migrated/whats-new-may-2025.md)
