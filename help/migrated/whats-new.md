@@ -6,13 +6,17 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
+source-git-commit: 6fe06d8c4a60f611b3ceb243079daad28a48a710
 workflow-type: tm+mt
-source-wordcount: '4684'
+source-wordcount: '4832'
 ht-degree: 0%
 ---
 
 # Novità della versione di dicembre 2026 di Adobe Learning Manager
+
+>[!IMPORTANT]
+>
+>Le funzioni beta possono contenere difetti e sono fornite &quot;COSÌ COME SONO&quot; senza alcuna garanzia. Adobe ha la sola discrezione di rendere generalmente disponibili le funzionalità beta. Adobe non ha alcun obbligo di mantenere, correggere, aggiornare, modificare o altrimenti supportare (tramite i Servizi di supporto Adobe o in altro modo) le funzionalità beta. Se una funzione beta diventa generalmente disponibile, potrebbe essere soggetta a termini e condizioni aggiuntivi, incluse le commissioni applicabili. Le funzioni beta sono soggette a modifiche senza preavviso, inclusa l’interruzione. Si consiglia ai clienti di prestare attenzione e di non fare affidamento in alcun modo sul funzionamento o sulle prestazioni ininterrotti o privi di errori delle funzionalità beta. Di conseguenza, qualsiasi utilizzo delle funzionalità beta è interamente a rischio del Cliente. Le funzionalità del prodotto e la relativa documentazione possono cambiare con l&#39;evolversi della funzionalità. Questa documentazione riflette l&#39;attuale esperienza beta e non deve essere considerata una documentazione finale o completa del prodotto.
 
 Questa versione di Adobe Learning Manager introduce una serie di nuove funzioni e miglioramenti volti a semplificare la piattaforma e ad ampliarne le funzionalità. Questi aggiornamenti semplificano i flussi di lavoro quotidiani, migliorano l’organizzazione e la distribuzione dei contenuti di apprendimento e rendono l’esperienza complessiva più coerente e intuitiva.
 
@@ -258,7 +262,6 @@ I visitatori della tua accademia pubblica possono ora riprodurre i contenuti sel
 
 Gli amministratori ora possono scegliere i cataloghi specifici che appaiono nell&#39;accademia pubblica. Solo questi cataloghi possono essere sfogliati da visitatori anonimi e indicizzati da motori di ricerca e assistenti di intelligenza artificiale, quindi i corsi di prova o i contenuti interni rimangono privati.
  
-
 ### Trova in motori di ricerca e assistenti AI (Beta)
 
 Adobe Learning Manager può ora rendere la tua accademia pubblica reperibile da motori di ricerca come Google e da assistenti AI come ChatGPT, Claude e Gemini. I tuoi corsi possono quindi essere visualizzati nei risultati della ricerca e nelle risposte generate dall&#39;intelligenza artificiale, attribuite alla tua accademia.
