@@ -7,10 +7,10 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
 workflow-type: tm+mt
-source-wordcount: '2471'
-ht-degree: 52%
+source-wordcount: '3562'
+ht-degree: 36%
 ---
 
 # Gestione degli ordini e della fatturazione di Learning Manager
@@ -51,7 +51,11 @@ Nella scheda **Dettagli account** nella parte superiore della scheda **Abbonamen
 
 **Licenze**
 
-Nella sezione **Licenze** sono elencate tutte le licenze o le autorizzazioni attive per l&#39;account. Ogni blocco mostra il nome della licenza, una descrizione del piano, se applicabile, e una riga di statistiche che mostra i dati di consumo per il periodo corrente del contratto.
+La sezione **Licenze** elenca tutte le licenze attive o le autorizzazioni dell&#39;account, inclusi gli orari di formazione per Hub live per i piani Ultimate. Ogni blocco mostra il nome della licenza, una descrizione del piano, se applicabile, e una riga di statistiche che mostra i dati di consumo per il periodo corrente del contratto.
+
+>[!IMPORTANT]
+>
+> Live Hub è disponibile in versione beta per i clienti Prime.
 
 Le colonne delle righe di stato variano in base al tipo di licenza:
 
@@ -66,6 +70,7 @@ Selezionare **[!UICONTROL Visualizza dettagli utilizzo]** sotto la riga di stato
 - Tabella **Utilizzo complessivo** con colonne: Acquistato/Utilizzato da questo account / Utilizzato da account condivisi tra pari / Rimanente
 - Un collegamento **Visualizza interruzione account** per visualizzare l&#39;utilizzo distribuito tra singoli account condivisi tra pari
 - Un collegamento **Scarica report dettagliato** per esportare i dati di utilizzo come file
+- Nella scheda Hub live, l&#39;utilizzo di ore di formazione su Live Hub è espresso in ore. Per ulteriori informazioni, consulta [Orari di formazione dell&#39;hub live](#live-hub-training-hours).
 
 **Blocco licenza di Agent Orchestrator**
 
@@ -274,6 +279,91 @@ Qualsiasi utente che effettui le seguenti azioni o ottenga completamenti a causa
    - **Utilizzo generale:** puoi controllare il numero totale di utenti attivi, gli utenti che utilizzano Learning Manager in un determinato mese e il numero di utenti che non si sono iscritti ad alcun corso.
    - **Utilizzo mensile:** è possibile visualizzare una tabella di utenti attivi univoci al mese.
 
+## Orari del corso di formazione per Hub live {#live-hub-training-hours}
+
+Live Hub è incluso nei piani di abbonamento di Ultimate e non richiede una licenza di base o un&#39;attivazione separata per Live Hub. L’utilizzo dell’Hub live viene misurato in ore di formazione, che gli Amministratori possono tracciare dalla pagina **Fatturazione**.
+
+### Orari dei corsi di formazione per il piano di abbonamento {#subscription-plan-training-hours}
+
+Il numero di ore di formazione su Live Hub disponibili dipende dal tuo piano di abbonamento.
+
+| Piano | Ore di formazione incluse |
+|---|---|
+| Ultimate | Illimitato. L’utilizzo è ancora registrato e visualizzato. |
+| Versione di prova gratuita | 100 ore per l’intera prova. Il saldo non viene ripristinato durante la versione di prova. |
+
+### Limiti delle sessioni di Live Hub {#live-hub-session-limits}
+
+I piani Ultimate forniscono le stesse funzionalità e gli stessi limiti di sessione di Live Hub:
+
+* Solo gli Amministratori, gli Autori e gli Istruttori possono avviare sessioni Hub dal vivo.
+* I partecipanti devono essere utenti autenticati di Adobe Learning Manager, tramite autenticazione nativa o Single Sign-On (SSO).
+* Una sessione può durare fino a otto ore. Puoi estendere la sessione due volte, con incrementi di 15 minuti, fino a 30 minuti aggiuntivi.
+
+### Come vengono calcolate le ore di formazione {#how-training-hours-are-calculated}
+
+Le ore di formazione vengono calcolate in base alla durata pianificata di una sessione di Hub live, non al tempo effettivo di esecuzione della sessione.
+
+Quando si calcola l&#39;utilizzo delle ore di formazione, tenere presente quanto segue:
+
+* Se una sessione termina in anticipo, viene conteggiata l’intera durata programmata.
+* Una sessione annullata prima dell&#39;ora di avvio pianificata non viene conteggiata. Se annulli la sessione dopo l’avvio, la durata pianificata viene conteggiata anche se non vi partecipano partecipanti.
+* Ogni occorrenza di una sessione ricorrente viene conteggiata separatamente.
+* Una sessione duplicata viene conteggiata come sessione separata.
+* Se modificate l&#39;ora di inizio o di fine di una sessione recapitata e la riutilizzate, la sessione riutilizzata viene conteggiata come un&#39;occorrenza separata.
+* Le stanze di analisi e le estensioni di sessione non aumentano l&#39;utilizzo delle ore di formazione.
+* Le sessioni erogate tramite altri connettori, ad esempio Zoom o Microsoft Teams, non vengono conteggiate nelle ore di formazione degli Hub live.
+* Se una sessione pianificata viene spostata in un anno di licenza diverso, le ore di formazione vengono conteggiate per l&#39;anno di licenza in cui è ora pianificata.
+* Le ore di formazione non sono arrotondate. Ad esempio, una sessione di 90 minuti equivale a 1,5 ore di formazione.
+
+#### Sessioni che si estendono su più giorni {#sessions-spanning-multiple-days}
+
+Per le sessioni che durano più di un giorno, ogni periodo completo di 24 ore conta come **otto ore di formazione**. L&#39;eventuale durata residua viene calcolata in base alla durata effettiva, fino a otto ore.
+
+Ad esempio:
+
+* Una sessione di 30 ore distribuita su due giorni equivale a 14 ore di allenamento, di cui otto conteggiate per il primo periodo di 24 ore e sei per la durata rimanente.
+* Una sessione di 10 ore distribuita su due giorni equivale a otto ore di formazione.
+
+### Visualizzare l’utilizzo dell’Hub live {#view-live-hub-usage}
+
+1. Accedi a Adobe Learning Manager come Amministratore.
+1. Selezionare **Fatturazione**.
+1. Seleziona **Licenze** nella scheda **Abbonamento**.
+1. Selezionare **Visualizza dettagli utilizzo**.
+
+   Viene visualizzata la sezione **Dettagli utilizzo**.
+
+   ![Sezione Dettagli utilizzo nella pagina Fatturazione](assets/billing-usage-details.png "Sezione Dettagli utilizzo nella pagina Fatturazione")
+
+1. Seleziona la scheda **Hub live**.
+
+   La sezione **Utilizzo hub dinamico (in ore)** mostra quanto segue:
+
+   | Campo | Descrizione |
+   |---|---|
+   | **Acquistato** | Gli orari di formazione disponibili per l’account, che sono illimitati per i clienti Ultimate. |
+   | **Utilizzato da questo account** | Le ore di formazione conteggiate finora nel periodo di licenza corrente. |
+   | **Rimanenti** | Ore di formazione rimanenti. Mostra Illimitato per gli account Ultimate. |
+   | **Ripristino successivo** | Data di reimpostazione del saldo per l&#39;anno di licenza successivo. |
+
+### Quando vengono utilizzate tutte le ore del corso di formazione {#when-all-training-hours-are-used}
+
+Il raggiungimento del limite di ore di formazione non ti impedisce di utilizzare Live Hub. Gli account di prova gratuiti possono anche continuare a utilizzare Live Hub dopo aver trascorso le 100 ore di formazione.
+
+* **Amministratori:** nella pagina **Fatturazione** viene visualizzato un avviso di abuso insieme ad altri avvisi di licenza.
+* **Autori:** Durante la pianificazione delle sessioni di Live Hub non viene visualizzato alcun avviso relativo alle ore di formazione.
+* **Account Ultimate:** Non viene visualizzato alcun avviso di utilizzo eccessivo perché le ore di formazione sono illimitate.
+* **Account principale MAU e account secondari:** Viene visualizzato un solo avviso a livello di account principale. Per ulteriori informazioni, vedere [account principali e secondari MAU](#mau-parent-and-sub-accounts).
+
+Per acquistare ore di formazione aggiuntive, contatta learningmanagersales@adobe.com.
+
+### Conti principali e secondari MAU {#mau-parent-and-sub-accounts}
+
+Per gli account utente attivi mensili (MAU) con una relazione consolidata con un account principale secondario, l&#39;intera autorizzazione oraria di formazione dell&#39;account principale Live Hub è disponibile per i suoi account secondari. Questo pool condiviso include le ore di formazione incluse dell&#39;utente padre e tutte le ore di componenti aggiuntivi acquistate. Gli account secondari non ricevono un&#39;allocazione separata o un limite massimo di ore dell&#39;hub dinamico.
+
+Le ore di Hub live utilizzate dall&#39;utente padre e dai relativi account figlio MAU vengono detratte dallo stesso pool padre. La pagina **Fatturazione** dell&#39;elemento padre mostra le autorizzazioni in pool, il consumo, le ore rimanenti e l&#39;utilizzo per conto secondario. Per ulteriori informazioni, vedere [Account condivisi tra pari](../feature-summary/peer-account.md).
+
 ## Scaricare il report sull’utilizzo {#downloadusagereport}
 
 Puoi anche scaricare i dati del numero di utenti attivi su base mensile e annuale. Per scaricare, fai clic su **[!UICONTROL Scarica report dettagliato]**.
@@ -422,6 +512,38 @@ Per ottenere una fattura per i tuoi pagamenti, contatta [FastSpring](https://fas
 
 - Crea una richiesta di servizio con FastSpring utilizzando il collegamento `https://questionacharge.com`.
 - Invia un&#39;e-mail a FastSpring il `orders@fastspring.com` richiedendo la fattura.
+
+**La licenza Live Hub è valida per i clienti Prime?**
+
+N. Live Hub è attualmente disponibile in versione beta per gli account Prime, pertanto la licenza per le ore di formazione e il tracciamento dell’utilizzo non si applicano ai clienti Prime durante il periodo beta. Questi requisiti verranno applicati agli account Prime una volta che Live Hub esce dalla versione beta. Per gli account Ultimate, sono applicabili le licenze per le ore di formazione e il tracciamento dell’utilizzo.
+
+**È necessario acquistare Live Hub separatamente?**
+
+N. Live Hub è incluso nei piani di abbonamento di Ultimate e non richiede un&#39;attivazione separata. Il piano Ultimate include un numero illimitato di ore di formazione.
+
+**Una sessione di Live Hub annullata viene conteggiata nelle ore di formazione?**
+
+Dipende da quando annulli la sessione. Una sessione annullata prima dell&#39;ora di avvio pianificata non viene conteggiata. Se annulli una sessione dopo l’avvio, viene conteggiata l’intera durata programmata, anche se non vi partecipano partecipanti.
+
+**Cosa succede quando utilizzo tutti gli orari di formazione di Live Hub?**
+
+Live Hub rimane disponibile dopo aver utilizzato tutte le ore di formazione. Gli account di prova gratuiti possono continuare a pianificare e condurre sessioni Live Hub. Gli amministratori visualizzano un avviso di utilizzo eccessivo nella pagina **Fatturazione**. Per acquistare ore di formazione aggiuntive, contatta learningmanagersales@adobe.com.
+
+**Le ore di formazione o le ore aggiuntive inutilizzate vengono riportate?**
+
+N. Le ore di formazione incluse non utilizzate non vengono riportate all&#39;anno di licenza successivo. Le ore di formazione aggiuntive scadono anche alla fine del periodo di licenza corrente per il piano base.
+
+**È possibile acquistare il componente aggiuntivo orario del corso di formazione con carta di credito?**
+
+N. I componenti aggiuntivi ore di formazione sono disponibili solo tramite Adobe Sales. Per acquistare ore di formazione aggiuntive, contatta learningmanagersales@adobe.com.
+
+**Quante ore di formazione aggiuntive fornisce un Hub live?**
+
+Al momento non puoi acquistare ore di formazione aggiuntive.
+
+**Gli account secondari MAU possono utilizzare gli orari di formazione dell&#39;Hub live del proprio account principale?**
+
+Sì. Gli account secondari MAU condividono il pool di ore di formazione dell&#39;Hub live dell&#39;account principale. Ciascun conto secondario può accedere all’intero pool disponibile senza allocazioni separate. Le ore di formazione utilizzate dai conti secondari vengono detratte dal saldo condiviso del conto padre.
 
 
 <!--
