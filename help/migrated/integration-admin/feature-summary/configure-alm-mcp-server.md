@@ -218,7 +218,7 @@ Claude e ChatGPT li scoprono automaticamente. Sono elencati qui per i clienti o 
 | URL autorizzazione | [https://\[alm-host\]/oauth/o/authorization](https://[alm-host]/oauth/o/authorization) |
 | URL token | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | Aggiorna URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| Base server di autorizzazione | [https://\[alm-host](https://[alm-host)\] |
+| Base server di autorizzazione | &lbrack;https://\[alm-host](https://[alm-host)\] |
 | Risorsa | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | Ambito | Allievo:write |
 

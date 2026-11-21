@@ -63,7 +63,7 @@ Il digest include nuovi post, commenti e risposte quando l&#39;impostazione corr
 
 ### Eventi esclusi
 
-Il digest esclude gli eventi la cui impostazione corrispondente nell&#39;API ](api-changes-dec-2026.md#api-create-settings) di [`boardSubscriptionSettings` (ad esempio `notifyComment`) è `false`. Non viene inviato alcun digest quando non è presente alcuna attività idonea.
+Il digest esclude gli eventi la cui impostazione corrispondente nell&#39;API [&#128279;](api-changes-dec-2026.md#api-create-settings) di `boardSubscriptionSettings` (ad esempio `notifyComment`) è `false`. Non viene inviato alcun digest quando non è presente alcuna attività idonea.
 
 ### Esempio di layout e-mail di riepilogo
 
