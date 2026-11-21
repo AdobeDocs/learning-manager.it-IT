@@ -7,10 +7,10 @@ exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 463f53a7b0a6ca5a9ee8d2926ffe341acc29c91c
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 61%
+source-wordcount: '1483'
+ht-degree: 59%
 ---
 # Percorsi di apprendimento
 
@@ -78,9 +78,9 @@ Se selezioni Ordinati, i corsi vengono visualizzati nell’ordine in cui sono st
 
 Per aggiungere un corso al percorso di apprendimento, fai clic su **[!UICONTROL Aggiungi corsi o percorsi di apprendimento]**.
 
-Nella finestra di dialogo visualizzata, scegli il corso di formazione che desideri aggiungere al percorso di apprendimento.
+Nella finestra visualizzata, seleziona il corso di formazione che desideri aggiungere al percorso di apprendimento. Ogni voce mostra il nome, il tipo (corso o percorso di apprendimento), lo stato della pubblicazione e il formato del corso, ad esempio autonomo, virtuale, in aula o misto.
 
-![](assets/choose-training.png)
+![](assets/LP_4.png)
 
 *Aggiungere corsi di formazione al percorso di apprendimento*
 

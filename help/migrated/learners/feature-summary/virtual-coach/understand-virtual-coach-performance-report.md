@@ -6,9 +6,9 @@ exl-id: 57607597-3949-4787-b71d-39c80d22a1ae
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 0723ac982ace844ac74b1b9ffbaa66b6520231f7
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1351'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,41 @@ ht-degree: 0%
 La scheda di report dell’istruttore virtuale mostra come hai svolto un ruolo, inclusi gli argomenti trattati, il modo in cui hai comunicato e le aree specifiche da migliorare prima del prossimo tentativo.
 
 Ogni sessione completata genera automaticamente un report. È possibile accedervi subito dopo una sessione selezionando **Visualizza analisi** oppure tornare in qualsiasi momento dalla cronologia della sessione in **I miei insegnamenti**. Puoi anche scaricare il report come PDF da conservare per i tuoi record o da condividere con un Manager.
+
+## Scaricare l&#39;analisi della sessione dell&#39;allenatore virtuale
+
+Scarica la tua analisi della sessione di Virtual Coach come PDF firmato in Adobe Learning Manager e condividila con il tuo manager o istruttore.
+
+Al termine di una sessione di formazione virtuale, Adobe Learning Manager genera un&#39;analisi delle prestazioni. Puoi visualizzarlo di nuovo dopo aver chiuso il lettore, riprendere la sessione e scaricare l&#39;analisi come PDF firmato.
+
+1. Apri il corso o la risorsa formativa che contiene la sessione dell’Allenatore virtuale.
+
+1. Selezionare **Analisi sessione**.
+
+   ![Opzione di analisi della sessione per una sessione di coach virtuale](assets/vc-enhancements-image1.png "Analisi della sessione")
+
+1. Esaminare l&#39;analisi. La generazione dell&#39;analisi può richiedere alcuni minuti.
+
+1. Selezionare **Scarica** per salvare il PDF firmato dell&#39;analisi.
+
+Condividi il PDF con il tuo manager o istruttore come prova delle tue prestazioni. Il file include una firma C2PA. Per i dettagli, vedere [Informazioni sulle firme C2PA nei PDF di analisi delle sessioni](#c2pa-signatures).
+
+### Informazioni sulle firme C2PA nei PDF di analisi delle sessioni {#c2pa-signatures}
+
+L&#39;intelligenza artificiale genera l&#39;analisi della sessione di istruzione virtuale. Per aiutare altri utenti a considerare attendibile una copia scaricata, Learning Manager firma il PDF con una firma [C2PA](https://c2pa.org/).
+
+C2PA è uno standard aperto del settore per l’autenticità dei contenuti. Adobe Learning Manager utilizza lo stesso servizio di firma Adobe utilizzato dagli altri prodotti Adobe.
+
+#### Cosa contiene la firma
+
+La firma è un manifesto con firma crittografica incorporato nel PDF. Essa constata che:
+
+* Analisi generata da Adobe Learning Manager
+* L&#39;analisi è stata generata in una data specifica
+
+#### Perché la firma è importante
+
+Quando condividi il PDF con un manager o un istruttore, la firma fornisce la prova che il file è autentico e non è stato modificato dopo il download.
 
 ## Come viene calcolato il punteggio complessivo
 

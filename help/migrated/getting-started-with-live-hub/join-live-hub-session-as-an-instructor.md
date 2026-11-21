@@ -1,16 +1,16 @@
 ---
-title: Partecipare a una sessione di Hub live (Beta) come Istruttore
+title: Partecipare a una sessione di Hub live come Istruttore
 description: Scopri come gli Istruttori partecipano a una sessione Hub dal vivo prima dell’ora di inizio pianificata per preparare la sala e configurare le impostazioni prima dell’arrivo degli Allievi.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 2%
 ---
 
-# Partecipare a una sessione di Hub live (Beta) come Istruttore
+# Partecipare a una sessione di Hub live come Istruttore
 
 Gli istruttori possono entrare nell’aula virtuale prima dell’ora di inizio pianificata per preparare la stanza, configurare le autorizzazioni degli Allievi, i sottotitoli, i sondaggi, i quiz e le interruzioni e configurare l’audio e il video prima dell’arrivo degli Allievi.
 

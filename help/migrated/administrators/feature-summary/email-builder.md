@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Generatore e-mail basato su componenti
 description: Crea la tua e-mail in base ai diversi componenti disponibili.
 contentowner: mmanuel
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3470'
 ht-degree: 1%
-
 ---
-
 
 ## Generatore e-mail basato su componenti
 
@@ -67,7 +65,7 @@ Il layout globale definisce l’intestazione, il piè di pagina e il wrapper str
 
 ### Configurare il contenitore e-mail
 
-Il contenitore e-mail è il wrapper più esterno per ogni e-mail. Le impostazioni influiscono sulla cornice visiva intorno a tutto il contenuto.
+Il contenitore e-mail è il wrapper più esterno per ogni e-mail. Le relative impostazioni influiscono sul fotogramma visivo attorno a tutto il contenuto.
 
 1. Seleziona **Modifica** accanto a **Layout e-mail globale**
 2. Seleziona il contenitore e-mail nell’area di lavoro.
@@ -230,7 +228,30 @@ Configura quanto segue:
 
 3. Seleziona **Salva**.
 
-## Aggiunta e configurazione di singoli componenti
+## Opzioni di formattazione di Generatore e-mail
+
+Cerca le opzioni relative a font, colore, righe e pulsanti che puoi impostare in Adobe Learning Manager Email Builder e come vengono applicate le modifiche locali alla formattazione.
+
+Usate queste opzioni per assegnare uno stile a un intero messaggio e-mail, a singole righe, al contenuto dinamico e ai pulsanti.
+
+### Opzioni di formattazione e-mail
+
+| **Opzione** | **Applicabile a** | **Elementi che è possibile impostare** |
+|----|----|----|
+| Proprietà a livello di e-mail | L’intero indirizzo e-mail | Famiglia di font, dimensione del font, colore di sfondo e stile del contenitore |
+| Proprietà a livello di riga | Ogni riga, con stile indipendente | Stile che evidenzia le sezioni relative agli annunci, distingue le aree di intervento o mette in risalto informazioni importanti |
+| Contenuto dinamico | Sezioni di contenuto dinamico | Formattazione che eredita dal contenitore padre |
+| Pulsanti | Pulsanti di azione | Testo, stile e aspetto dei pulsanti |
+
+### Priorità di formattazione
+
+La formattazione impostata a un livello inferiore sostituisce la formattazione di un livello superiore. Ad esempio, una modifica in un modello di corso sostituisce l’impostazione predefinita che un amministratore imposta nel modello di account.
+
+| **Livello** | **Utilizzo tipico** | **Sostituito da** |
+|----|----|----|
+| Modello di account | Font e colori predefiniti per l’intero account | Modelli di corso e di istanza |
+| Modello di corso | Modifiche specifiche di un corso | Modello di istanza |
+| Modello di istanza | Modifiche a livello di coorte, sessione specifica o area geografica | Niente, perché questo è il massimo livello di personalizzazione |
 
 ### Componente di testo
 
@@ -249,7 +270,7 @@ Il componente di testo supporta la modifica full-text.
    * **Apice** e **Pedice**
    * **Colore testo** e **Colore sfondo** (evidenziazione testo)
    * **Allineamento:** a sinistra, al centro, a destra o giustificato
-   * **Interlinea:** moltiplicatore altezza riga
+   * **Interlinea:** moltiplicatore height di righe
    * **Spaziatura interna orizzontale e verticale:** spaziatura interna all&#39;interno del blocco di testo
 5. Per aggiungere un collegamento ipertestuale:
    * Selezionare il testo da collegare
@@ -274,7 +295,7 @@ Il componente di testo supporta la modifica full-text.
    * **Tipo bordo:** Definisce lo stile del bordo dell&#39;immagine. Le opzioni disponibili sono Nessuno, Solido e Punteggiato.
    * **Colore bordo:** imposta il colore del bordo dell&#39;immagine quando viene applicato uno stile di bordo.
    * **Raggio angolo:** controlla la rotondità degli angoli dell&#39;immagine. Valori più alti creano angoli più arrotondati.
-   * **Linea del bordo:** regola lo spessore (larghezza) del bordo dell&#39;immagine.
+   * **Linea del bordo:** regola il thickness (larghezza) del bordo dell&#39;immagine.
    * **Spaziatura superiore:** aggiunge spazio sopra l&#39;immagine.
    * **Spaziatura inferiore:** aggiunge spazio sotto l&#39;immagine.
    * **Spaziatura sinistra:** aggiunge spazio sul lato sinistro dell&#39;immagine.
@@ -293,7 +314,7 @@ Il componente di testo supporta la modifica full-text.
    * **Font:** famiglia di font e dimensione per l&#39;etichetta del pulsante
    * **Colore testo:** colore etichetta
    * **Colore di sfondo:** colore di riempimento pulsante
-   * **Dimensioni:** larghezza e altezza del pulsante
+   * **Dimensioni:** larghezza e height del pulsante
    * **Stile angolo:** arrotondato, quadrato o circolare
    * **Allineamento:** a sinistra, al centro o a destra nella colonna
    * **Spaziatura interna:** tra il testo dell&#39;etichetta e i bordi del pulsante
@@ -303,11 +324,11 @@ Il componente di testo supporta la modifica full-text.
 **Divisore:** aggiunge una linea orizzontale visibile tra le sezioni di contenuto.
 
 1. Trascinate un componente **Divisore** in una colonna.
-2. Impostate **Stile linea** (continua, tratteggiata e punteggiata), **Colore**, **Larghezza** e **Altezza** (spazio verticale sopra e sotto la linea) nel pannello Proprietà.
+2. Impostate lo **stile linea** (uniforme, tratteggiato e punteggiato), **colore**, **larghezza** e **Height** (spazio verticale sopra e sotto la linea) nel pannello Proprietà.
 
    **Spaziatura:** aggiunge uno spazio verticale invisibile tra gli elementi senza una linea visibile.
 
-3. Trascinate un componente **Spaziatore** e impostatene **Altezza** nel pannello Proprietà.
+3. Trascinate un componente **Spaziatore** e impostatene il **Height** nel pannello Proprietà.
 
 ## Inserire e gestire le variabili
 

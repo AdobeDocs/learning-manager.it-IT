@@ -7,10 +7,10 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
 workflow-type: tm+mt
-source-wordcount: '10239'
-ht-degree: 56%
+source-wordcount: '12332'
+ht-degree: 47%
 ---
 # Creazione, modifica e pubblicazione di corsi
 
@@ -53,7 +53,7 @@ Per creare un corso, procedi nel seguente modo:
 1. Accedi ad Adobe Learning Manager come Autore, poiché solo gli Autori hanno i diritti per creare corsi. Nella pagina Home, seleziona **[!UICONTROL Crea corsi]**. Si apre la pagina Catalogo corsi e viene visualizzato un elenco di corsi.
 2. Seleziona **Aggiungi** in alto a destra. Viene aperta una pagina per creare un nuovo corso.
 3. Immetti un nome per il corso e una breve descrizione. Questa descrizione viene visualizzata nella scheda del corso. La descrizione non deve superare i 140 caratteri. Quindi inserisci la panoramica dettagliata del corso, che verrà visualizzata nella pagina dei dettagli del corso. Questa descrizione non deve superare i 1500 caratteri.
-4. Per rendere il tuo corso disponibile in altre lingue, fai clic su Aggiungi nuova lingua nell’angolo in alto a sinistra della pagina. Seleziona la lingua o le lingue in cui desideri rendere disponibile il tuo corso. Fai clic su **[!UICONTROL Salva]**. Per ulteriori informazioni, consulta [Aggiunta di contenuto per lingue diverse](/help/migrated/authors/feature-summary/content-library.md).
+4. Per rendere il tuo corso disponibile in altre lingue, seleziona **Aggiungi nuova lingua** nell&#39;angolo superiore sinistro della pagina. Seleziona la lingua o le lingue in cui desideri rendere disponibile il tuo corso. **Selezionare** **[!UICONTROL Salva]**. Per ulteriori informazioni, consulta [Aggiunta di contenuto per lingue diverse](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modifica delle impostazioni corsi**-
 
    a. Nella pagina Impostazioni corso, scegli un’abilità per il corso. Dall’elenco a discesa Abilità, scegli l’abilità richiesta. Dall’elenco a discesa Livello, scegli il livello richiesto.
@@ -151,6 +151,124 @@ Dopo aver abilitato Gradebook, aggiungi i moduli di contenuto e assegna una perc
 >
 >Non è necessario che la scala di punteggio corrisponda tra i tipi di recapito. Una sessione in classe con un punteggio su 100 e un modulo SCORM con un punteggio su 10 possono coesistere nello stesso Gradebook. La formula normalizza automaticamente ogni contributo.
 
+### Aggiungere un modulo di invio basato su team in Adobe Learning Manager
+
+Aggiungi un modulo di invio di file basato su team in modo che un membro del team possa caricare un file per l’intero team e scegliere come rivederlo e classificarlo.
+
+Un modulo di invio di file basato su team consente a un Allievo di inviare un file per conto di un team. L’istruttore la valuta una volta e il risultato si applica a ogni membro del team. È necessario aggiungere il modulo prima di pubblicare il corso.
+
+### Aggiungere il modulo a un corso
+
+1. Accedi a Adobe Learning Manager come autore.
+
+1. Nell’app Autore, crea un corso o apri un corso non pubblicato.
+
+1. Aggiungi un nuovo modulo attività.
+
+1. Selezionare il tipo di attività di invio file.
+
+1. Seleziona l’opzione basata sul team. L’opzione Individuale è il precedente modulo di invio dei file per singoli Allievi.
+
+   ![Opzione basata su team per il modulo di invio file](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Opzione basata su team")
+
+1. Seleziona l’istruttore o gli istruttori.
+
+1. Imposta la durata del modulo.
+
+Un corso può includere moduli di invio singoli e basati su team. Tutti i moduli basati sul team in un’istanza del corso condividono gli stessi team.
+
+### Scegliere le opzioni di revisione e punteggio
+
+1. Apri il modulo di invio file basato su team.
+
+1. Scegliere se **È richiesta l&#39;approvazione del revisore**.
+
+   * Se la attivi, un istruttore deve approvare o rifiutare ogni invio prima che il modulo venga completato.
+   * Se lo disattivi, il modulo viene completato per tutti i membri del team non appena il team lo invia.
+
+1. Scegliere un metodo di assegnazione punteggio:
+
+   * Seleziona l’assegnazione manuale dei punteggi per consentire all’istruttore di inserire un punteggio complessivo.
+   * Selezionare il punteggio basato su criteri per calcolare il punteggio in base ai punti di ogni opzione del piano di valutazione. Questo metodo richiede un piano di valutazione.
+
+     ![Opzioni di revisione e punteggio per il modulo di invio dei file basato su team](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+
+>[!CAUTION]
+>
+>Dopo aver pubblicato il corso, non puoi rimuovere il modulo, modificarne le impostazioni o utilizzare più tipi di distribuzione.
+
+### Aggiungere un piano di valutazione a un modulo di invio di file
+
+Creare un piano di valutazione per gli invii di singoli utenti o team aggiungendo domande oggettive e soggettive a un modulo di invio di file.
+
+Un piano di valutazione è la serie di domande che gli istruttori usano per valutare un invio. Ogni modulo dispone di un piano di valutazione e non è possibile riutilizzarlo in un altro modulo. È possibile aggiungere un piano di valutazione a un singolo modulo di invio di file o a un modulo di invio basato su team. Aggiungilo prima di pubblicare il corso.
+
+#### Attiva il piano di valutazione
+
+1. Attivare il piano di valutazione.
+
+1. Inserire una descrizione della valutazione.
+
+1. Scegli se gli Allievi possono visualizzare il piano di valutazione prima di inviarlo. Questa opzione è disattivata per impostazione predefinita. Gli Allievi visualizzano la descrizione della valutazione e quella di ogni criterio. Non visualizzano le opzioni di risposta, i punti o il peso.
+
+   ![Impostazioni del piano di valutazione per un modulo di invio di file](assets/Group-Team-submission-and-rubric-based-assessments-image6.png "Impostazioni del piano di valutazione")
+
+#### Aggiungere i parametri di valutazione al piano di valutazione
+
+È possibile aggiungere fino a 100 parametri di valutazione. Ogni parametro può essere obiettivo o soggettivo.
+
+1. Selezionare **Definisci parametri**. Immettere il testo del parametro nel campo Parametro/Domanda.
+
+   ![Definire l&#39;opzione dei parametri con il campo Parametro/Domanda](assets/Group-Team-submission-and-rubric-based-assessments-image7.png "Definire i parametri")
+
+1. Selezionare il tipo di parametro:
+
+   * **Obiettivo:** l&#39;istruttore seleziona le opzioni di risposta. Aggiungi le opzioni.
+
+     ![Parametro obiettivo con opzioni di risposta](assets/Group-Team-submission-and-rubric-based-assessments-image8.png "Parametro obiettivo")
+
+   * **Soggetto:** l&#39;istruttore scrive una risposta descrittiva.
+
+     ![Parametro soggettivo con risposta descrittiva](assets/Group-Team-submission-and-rubric-based-assessments-image9.png "Parametro soggettivo")
+
+1. Per un parametro obiettivo con punteggio basato su criteri, immettere punti a numero intero per ogni opzione. Sono consentiti numeri negativi. Ogni opzione richiede un valore in punti.
+
+1. Scegliete le impostazioni dei parametri:
+
+   * **Obbligatorio:** l&#39;istruttore deve rispondere al parametro. I parametri che non sono obbligatori mostrano un tag facoltativo per l’istruttore.
+   * **Consenti commenti revisore:** L&#39;istruttore può aggiungere commenti al parametro. Questa opzione viene visualizzata solo per i parametri degli obiettivi.
+
+1. Per consentire agli istruttori di aggiungere un commento per l’intero piano di valutazione, attiva i commenti generali.
+
+1. Ripetere per ogni domanda.
+
+1. Seleziona **Salva**.
+
+>[!NOTE]
+>
+>I parametri soggettivi non hanno punti.
+
+#### Calcolare il punteggio complessivo
+
+Quando scegli un punteggio basato su criteri, Adobe Learning Manager calcola il punteggio complessivo in base ai punti delle opzioni selezionate dall’istruttore. Vengono conteggiati solo i parametri di valutazione oggettivi. I parametri di valutazione soggettiva non contribuiscono al punteggio.
+
+* **Senza tetto:** Il punteggio complessivo è la somma dei punti per le opzioni selezionate.
+* **Con un tetto massimo:** Il punteggio complessivo è dato dalla somma dei punti, divisa per il numero massimo di punti possibile, moltiplicata per il tetto massimo e arrotondata a un numero intero. Il massimale può essere un numero intero compreso tra 1 e 100. Il valore predefinito è 100.
+
+Poiché un&#39;opzione può avere punti negativi, il calcolo può produrre un numero inferiore a 0. In tal caso, Adobe Learning Manager imposta il punteggio complessivo su 0. Il punteggio complessivo non è mai inferiore a 0.
+
+Ad esempio, supponiamo che il numero massimo di punti possibili sia 12 e che il tetto sia 10. Se la somma delle opzioni selezionate raggiunge 6, il punteggio complessivo è 5. Se sommano fino a 10, il punteggio complessivo è 8, che è arrotondato a 8,33. Se sommano fino a −3, il calcolo dà un numero inferiore a 0, quindi il punteggio complessivo è 0.
+
+Per scegliere tra punteggio manuale e basato su criteri, seguire i passaggi relativi al punteggio disponibili in Aggiungere un modulo di invio basato su team.
+
+#### Aggiungi parametri di valutazione per ogni lingua
+
+Le lingue di un modulo seguono le lingue del corso. Aggiungere manualmente i parametri di valutazione per ogni lingua utilizzata dal corso. Gli istruttori visualizzano i parametri di valutazione nelle impostazioni internazionali del contenuto.
+
+#### Publish del corso
+
+Publish il corso al termine del piano. Le nuove istanze del corso ottengono lo stesso piano. Dopo la pubblicazione, è possibile modificare solo il testo dei parametri e delle opzioni di valutazione. Non puoi modificare la configurazione, aggiungere impostazioni o attivare o disattivare il piano.
+
 ### Imposta il punteggio minimo di superamento
 
 * Nell’editor del corso, individua la sezione **Criteri di superamento**.
@@ -194,6 +312,142 @@ Dopo aver configurato tutte le impostazioni del Gradebook, pubblica il corso uti
 * Usa **Massimo** per l’impostazione a tentativi multipli quando i moduli sono valutazioni che gli Allievi devono riprovare. Utilizza **Ultime** per acquisire il livello di conoscenza corrente anziché le prestazioni migliori.
 * Verifica che l&#39;indicatore **Peso totale** mostri esattamente il 100% prima di salvare.
 
+## Configurare la creazione automatica del team in Adobe Learning Manager
+
+Imposta le regole di creazione automatica del team per un corso in modo che Adobe Learning Manager divida gli Allievi iscritti in team prima dell’avvio di un’istanza.
+
+La creazione automatica dei team funge da fallback quando gli istruttori non creano i team manualmente. Puoi attivare la formazione automatica del team per qualsiasi corso con un modulo di invio di file basato su team, anche se l’impostazione dell’account è disattivata. Se l’amministratore ha attivato l’impostazione dell’account, i nuovi corsi iniziano con la pianificazione dell’account ed è possibile modificarla durante la configurazione del corso.
+
+Il corso deve includere un modulo di invio basato su team. Ogni istanza deve avere una data di inizio.
+
+## Impostare le regole del team per un corso
+
+1. Nell’app Autore, apri un corso che abbia un modulo di invio basato su team.
+
+1. Apri le impostazioni del corso, quindi trova l&#39;impostazione **Formazione automatica del team per gli invii di team**. Viene visualizzato solo quando il corso dispone di almeno un modulo di invio di file basato su team.
+
+1. Seleziona **Abilita**.
+
+   ![Abilita opzione per la formazione automatica del team nelle impostazioni del corso](assets/Group-Team-submission-and-rubric-based-assessments-image10.png "Abilita formazione automatica del team")
+
+1. Verifica la **pianificazione della formazione del team**. Se l’amministratore ha attivato l’impostazione dell’account, viene visualizzato il numero di giorni impostati. I team vengono creati molti giorni prima della data di inizio dell’istanza.
+
+1. Facoltativo: per modificare il numero di giorni per questo corso, selezionare **Modifica**, selezionare **Sì** nell&#39;avviso, quindi immettere un nuovo numero.
+
+   ![Avviso visualizzato durante la modifica della pianificazione della formazione del team](assets/Group-Team-submission-and-rubric-based-assessments-image11.png "Avviso di modifica")
+
+1. Modificate il valore in un valore diverso.
+
+   ![Campo valore pianificazione formazione team](assets/Group-Team-submission-and-rubric-based-assessments-image12.png "Valore pianificazione formazione team")
+
+1. Verifica la **pianificazione della formazione del team**. Inizia con il valore dell’account. Per utilizzare un lead time diverso, immettere un nuovo numero di giorni.
+
+1. Scegli come formare i team. Immetti 1 o versione successiva. Un team può avere fino a 100 membri.
+
+   * Seleziona **Membri per team** e immetti il numero di Allievi per ogni team.
+
+     ![Membri per opzione team](assets/Group-Team-submission-and-rubric-based-assessments-image13.png "Membri per team")
+
+   * Seleziona **Numero di team** e inserisci il numero totale di team.
+
+     ![Opzione Numero di team](assets/Group-Team-submission-and-rubric-based-assessments-image14.png "Numero di team")
+
+1. Salva le modifiche e quindi pubblica il corso.
+
+>[!WARNING]
+>
+>Dopo la pubblicazione, non puoi attivare o disattivare la formazione automatica del team per il corso e non puoi modificare il lead time. Puoi comunque modificare la regola per formare i team e il suo valore.
+
+![Corso pubblicato con impostazioni automatiche di formazione del team](assets/Group-Team-submission-and-rubric-based-assessments-image15.png "Impostazioni del corso pubblicato")
+
+## Impostare la data di inizio dell&#39;istanza
+
+1. Apri l’istanza del corso.
+
+1. Immetti una data di inizio e seleziona **Salva**.
+
+   ![Campo data di inizio istanza](assets/Group-Team-submission-and-rubric-based-assessments-image16.png "Data di inizio istanza")
+
+I team vengono creati alle ore 12:00 del giorno di lead time, nel fuso orario dell’istanza. Ad esempio, con un lead time di 3 giorni, i team vengono creati alle ore 12:00 di tre giorni prima della data di inizio. La data di inizio imposta solo questa ora. Non blocca l&#39;iscrizione.
+
+## Modificare le regole del team dopo la pubblicazione
+
+Puoi modificare la regola, **Membri per team** o **Numero di team** in qualsiasi momento. La modifica si applica a tutte le istanze, ma ha effetto solo se i team non sono ancora stati creati. I team già esistenti non vengono mai raggruppati.
+
+## Utilizzo di corsi basati su team nei percorsi di apprendimento
+
+I team appartengono all’istanza del corso. Se aggiungi un corso basato su team a un percorso di apprendimento, imposta il lead time e la data di inizio sull’istanza del corso e non sul percorso di apprendimento. Per informazioni sulla divisione degli Allievi, consulta Impostazioni e limiti del team.
+
+## Risoluzione dei problemi
+
+**I team non sono stati creati per un&#39;istanza.** Verifica che l’istanza abbia una data di inizio. La creazione automatica non viene eseguita senza. Verifica anche che la formazione automatica del team sia attivata per il corso. Non sono stati creati team per un&#39;istanza che inizia a breve.
+
+**Impossibile trovare l&#39;impostazione a livello di corso.** L’impostazione viene visualizzata solo quando il corso dispone di almeno un modulo basato su team. Aggiungetene uno prima di pubblicarlo.
+
+**Le regole sono state modificate, ma i team non sono stati modificati.** Le regole vengono applicate solo se i team non sono stati creati per l&#39;istanza. Per modificare i team esistenti, chiedi all&#39;istruttore di modificarli.
+
+## Configurare la finestra di iscrizione e l’assegnazione dei posti per un corso in aula
+
+È possibile definire quando diversi gruppi di Allievi possono iscriversi, assegnare un numero specifico di postazioni a gruppi di utenti selezionati e promuovere automaticamente gli Allievi idonei dalla lista d’attesa quando diventano disponibili postazioni.
+
+Gli autori possono allocare postazioni ai gruppi di utenti solo dopo che un amministratore ha abilitato l&#39;impostazione **Iscrizione ai gruppi**. Per ulteriori informazioni, consulta l’articolo sulle impostazioni generali.
+
+Per configurare l&#39;allocazione delle postazioni per i gruppi di utenti:
+
+1. Accedi a Adobe Learning Manager come Autore.
+1. Seleziona **Corsi** dalla barra di navigazione a sinistra.
+1. Crea un corso per **classi**. Per ulteriori informazioni, consulta i moduli del corso.
+1. Configura le seguenti impostazioni:
+
+   | Impostazione | Descrizione |
+   |---|---|
+   | **Limite di posti** | Visualizza il limite di partecipanti più basso configurato nei moduli Aula o Aula virtuale. Questo campo è di sola lettura. Per allocare posti a gruppi di utenti, imposta prima un limite di posti nel modulo Aula o Aula virtuale. |
+   | **Data di apertura iscrizione** | Seleziona la data in cui tutti gli utenti, inclusi i gruppi di utenti selezionati, possono iscriversi. |
+   | **Allocare postazioni per gruppo di utenti** | Abilita questa opzione per riservare postazioni per gruppi di utenti specifici.<p>**Nota:**<ul><li>Riserva il 100% dei posti disponibili per specifici gruppi di utenti per garantire che solo gli Allievi di tali gruppi possano iscriversi al corso.</li><li>Non è possibile abilitare o disabilitare questa opzione una volta pubblicato il corso.</li></ul> |
+   | **Posti non allocati** | Visualizza il numero di postazioni che restano disponibili agli Allievi al di fuori dei gruppi di utenti selezionati. |
+   | **Data di iscrizione aperta per i gruppi** | Seleziona la data a partire dalla quale i membri dei gruppi di utenti selezionati possono iniziare l’iscrizione. |
+
+
+1. Seleziona **Aggiungi allocazione gruppo** e configura quanto segue:
+
+   1. **Gruppo utenti**: seleziona il gruppo di utenti per il quale desideri prenotare postazioni.
+   1. **Posti assegnati**: immetti il numero di posti da riservare per il gruppo di utenti selezionato.
+
+   ![Allocazione di posti e impostazioni automatiche di cancellazione della lista d’attesa in un corso in aula](assets/seat-allocation-and-waitlist-clearance-settings.png "Allocazione di posti e impostazioni automatiche di cancellazione della lista d’attesa in un corso in aula")
+
+1. Seleziona **Salva**.
+
+### Gestire le allocazioni dei gruppi di utenti
+
+Dopo aver aggiunto un gruppo di utenti, il gruppo e le postazioni assegnate vengono visualizzati nell&#39;elenco di allocazione. Usa le azioni disponibili per modificare l&#39;allocazione.
+
+![Elenco di allocazione gruppi di utenti con azioni di modifica ed eliminazione](assets/user-group-allocation-list.png "Elenco di allocazione gruppi di utenti con azioni di modifica ed eliminazione")
+
+| **Azione** | **Descrizione** |
+|---|---|
+| **Modifica** | Modifica il numero di postazioni allocate al gruppo di utenti. |
+| **Elimina** | Rimuovi l’assegnazione dei posti per il gruppo di utenti. |
+
+>[!NOTE]
+>
+>Il numero totale di postazioni allocate tra i gruppi di utenti non può superare il limite di postazioni.
+
+### Configurare la cancellazione automatica della lista d&#39;attesa
+
+Quando un Amministratore abilita l’iscrizione a un gruppo, il nulla osta automatico della lista d’attesa promuove il successivo Allievo in lista d’attesa idoneo all’apertura di una postazione. Questa opzione è attivata per impostazione predefinita.
+
+Per configurare la cancellazione automatica della lista d&#39;attesa:
+
+1. Abilita **Consenti sdoganamento automatico della lista d&#39;attesa** nella pagina **Panoramica del corso**.
+1. (Facoltativo) Selezionare una data dal selettore **Promuovi automaticamente taglio**.
+1. Seleziona **Salva**.
+La promozione automatica si interrompe dopo il cut-off.
+
+>[!NOTE]
+>
+>* Se si allocano anche postazioni per gruppo di utenti, solo i membri di un gruppo vengono promossi nelle postazioni di quel gruppo.
+>* La data del **limite per la promozione automatica** è valida sia per il gruppo di utenti che per le liste di attesa aperte. Le promozioni automatiche si interrompono per entrambe le liste di attesa dopo questa data.
+
 ## Aggiungi etichette di conformità a corso/percorso di apprendimento/certificazione {#add-custom-compliance-label}
 
 Per aggiungere le etichette di conformità ai corsi, segui questi passaggi:
@@ -233,8 +487,10 @@ Per creare un’istanza, effettuate le seguenti operazioni:
    * Nel campo **[!UICONTROL Nome istanza]**, immetti il nome dell’istanza che desideri associare al corso. Assicurati di utilizzare un nome univoco per l’istanza.
    * **Data di inizio:** Questa è la data di inizio del corso. Due e-mail di promemoria possono essere inviate all’Allievo in due date diverse, selezionate, prima di questa data di inizio. La data di inizio deve essere una data precedente alla data di completamento. Una volta selezionata la data di inizio, questa data verrà evidenziata in blu nel calendario nella sezione **Avvisi di notifica** dell&#39;istanza.
      ![](assets/start-date-instance.png)
-     ![](assets/start-date-highlighted-instance.png)
    * Specifica la scadenza per il completamento dell’istanza. Gli Allievi devono ottenere lo stato di completamento del corso entro questa data.
+     ![](assets/start-date-highlighted-instance.png)
+   * **Data di apertura iscrizione** (facoltativo): data a partire dalla quale gli Allievi possono iscriversi. Se le postazioni vengono assegnate a gruppi di utenti, questa data si applica agli Allievi al di fuori di tali gruppi.
+   * **Taglio avanzamento automatico** (facoltativo): dopo questa data, la promozione automatica della lista d&#39;attesa si interrompe per l&#39;istanza. Questo campo viene visualizzato quando è abilitata la cancellazione automatica della lista d&#39;attesa.
    * Selezionare **[!UICONTROL Mostra più opzioni]** per visualizzare altre opzioni di scadenza.
    * **[!UICONTROL Scadenza iscrizione]:** Data entro la quale un Allievo deve iscriversi a un oggetto di apprendimento in caso di iscrizione autonoma.
    * **[!UICONTROL Scadenza annullamento iscrizione]:** Puoi scegliere di limitare l’annullamento dell’iscrizione da parte dello stesso Allievo fissando una scadenza per l’annullamento dell’iscrizione.

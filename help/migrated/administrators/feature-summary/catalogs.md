@@ -7,10 +7,10 @@ exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 68acc921d6c2d027ef6df082cb31389b1760f0f5
 workflow-type: tm+mt
-source-wordcount: '3238'
-ht-degree: 63%
+source-wordcount: '3588'
+ht-degree: 57%
 ---
 # Cataloghi
 
@@ -26,6 +26,49 @@ In questo corso imparerai come creare e gestire i cataloghi.
 
 Se non è possibile avviare il corso di formazione, scrivere a <almacademy@adobe.com>.
 
+## Cercare i cataloghi {#search-catalogs}
+
+La ricerca nel catalogo classifica i risultati per pertinenza. Nella parte superiore dell&#39;elenco viene visualizzata una corrispondenza esatta del termine di ricerca, seguita dalle successive corrispondenze più vicine. In questo modo è possibile trovare il catalogo desiderato senza scorrere lunghi elenchi di nomi simili.
+
+### Informazioni sulla ricerca del catalogo basata sulla pertinenza
+
+La ricerca nel catalogo restituisce risultati in ordine decrescente di pertinenza. Utilizza lo stesso tipo di classificazione della ricerca e corrispondenza a livello di frase già disponibile nelle altre esperienze di ricerca di Adobe Learning Manager per Allievi e Amministratori.
+
+Prima del dicembre 2026 di Adobe Learning Manager, i risultati della ricerca non sono stati ordinati per pertinenza. Se nel tuo account sono presenti molti cataloghi con nomi simili, ad esempio un prefisso condiviso seguito da una data, un mese o un ID, il catalogo desiderato potrebbe essere visualizzato in fondo all’elenco.
+
+Con la ricerca basata sulla pertinenza:
+
+* Viene visualizzata per prima una corrispondenza esatta del termine di ricerca.
+* Viene visualizzata la seconda corrispondenza più vicina successiva.
+* I restanti risultati sono riportati in ordine decrescente di rilevanza.
+
+### Cercare un catalogo
+
+1. Accedi a Adobe Learning Manager come amministratore.
+
+1. Seleziona **Cataloghi** nel riquadro di navigazione a sinistra.
+
+1. Nella casella di ricerca, immettete il nome del catalogo o di parte di esso.
+
+Esaminate i risultati. La corrispondenza più simile viene visualizzata nella parte superiore dell’elenco. Selezionate il catalogo richiesto dall’elenco.
+
+### Esempio di risultato della ricerca
+
+Supponiamo che il tuo account includa cataloghi con nomi che differiscono solo per pochi caratteri. Nella tabella seguente viene illustrato l&#39;ordine dei risultati durante la ricerca del termine 5 marzo.
+
+| Termine di ricerca | Posizione risultato | Tipo corrispondente |
+|---|---|---|
+| 5 marzo | I primi | Corrispondenza esatta |
+| 5 marzo seguito da caratteri aggiuntivi, ad esempio 52 marzo | Secondo | Corrispondenza successiva più vicina |
+| Altri cataloghi che contengono testo simile | Dopo le corrispondenze più simili | Minore rilevanza |
+
+Se invece cerchi il 52 marzo, viene visualizzato per primo il catalogo denominato 52 marzo, seguito dalle successive corrispondenze più vicine.
+
+La ricerca basata sulla pertinenza è particolarmente utile se l’organizzazione gestisce centinaia o migliaia di cataloghi. Ti aiuta a:
+
+* Individua un catalogo specifico senza scorrere o eseguire ricerche manuali.
+* Consente di distinguere i cataloghi con pattern di denominazione comuni.
+* Ottieni un comportamento di ricerca coerente con altre esperienze di ricerca di Adobe Learning Manager.
 
 ## Creazione di un catalogo {#createacatalog}
 

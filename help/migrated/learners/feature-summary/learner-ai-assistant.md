@@ -6,9 +6,9 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3457'
 ht-degree: 0%
 ---
 # Assistente AI per gli Allievi
@@ -26,48 +26,72 @@ Utilizza l’Assistente all’intelligenza artificiale per ottenere risposte rap
 >Questa funzione non è disponibile negli ambienti autorizzati da FedRAMP. Per informazioni dettagliate, consulta [Disponibilità delle funzioni negli ambienti FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 
-## Che cos’è l’Assistente all’intelligenza artificiale per gli Allievi
+## Citazioni e agenti del percorso di apprendimento in Assistente Allievo {#learning-path-citations}
 
-L&#39;Assistente all&#39;intelligenza artificiale è un compagno di chat generativo in Adobe Learning Manager basato sull&#39;intelligenza artificiale che fornisce risposte rapide e precise utilizzando i contenuti di apprendimento affidabili. Include citazioni in modo da conoscere sempre la fonte delle informazioni.
+L’Assistente Allievo ora cita i percorsi di apprendimento pertinenti insieme ai corsi, in modo che gli Allievi possano trovare un apprendimento strutturato più ampio sul proprio argomento. Gli Amministratori possono inoltre attivare o disattivare singoli agenti dell’Assistente Allievo per controllare quali funzionalità di intelligenza artificiale possono essere utilizzate dagli Allievi in Adobe Learning Manager.
 
-### Funzionalità
+### Citazioni del percorso di apprendimento nelle risposte dell’Allievo
 
-- **Risposta intelligente alle domande**
-  - Conversazioni a turno singolo e a turni multipli
-  - Conoscenza della lingua naturale in inglese
-  - Risposte derivate da corsi, certificazioni, percorsi di apprendimento e risorse formative
-  - Chiarire le domande quando le query sono ambigue
+L’Assistente Allievo ora cita i percorsi di apprendimento pertinenti insieme ai corsi, in modo che gli Allievi possano trovare un apprendimento strutturato più ampio sul proprio argomento.
 
-- **Origini contenuto e citazioni**
-  - Recupera le risposte dalle risorse disponibili nei cataloghi supportati
-  - Fornisce citazioni con collegamenti diretti ai materiali di origine
-  - Supporta tutti i formati di contenuto Learning Manager (statico e interattivo): PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), video (MP4, MOV, WMV), HTML, SCORM 2004 e SCORM 1.2
+### Come funzionano le citazioni del percorso di apprendimento in Assistente Allievo
 
-- **Esperienza utente**
-  - Interfaccia del pannello laterale accessibile da tutte le pagine dell’Allievo
-  - Design reattivo che si adatta all&#39;area dei contenuti
-  - Cronologia chat gestita nella sessione del browser
-  - Pulisci la lavagna al nuovo accesso o all&#39;aggiornamento della pagina
-  - Tono amichevole, chiaro e pedagogicamente sonoro
+Quando l’Assistente Allievo risponde a una domanda, elenca il contenuto di apprendimento utilizzato come citazioni. Le versioni precedenti citavano solo i corsi. L’Assistente Allievo ora cita anche i percorsi di apprendimento e le certificazioni rilevanti per la domanda. Gli Allievi possono aprire una citazione del percorso di apprendimento per visualizzare l’apprendimento strutturato relativo al loro argomento.
 
-- **Controlli amministratore**
-  - Attivare o disattivare la funzione a livello di account
-  - Seleziona i cataloghi inclusi per le risposte basate su IA
-  - Requisito di accettazione delle Condizioni d’uso in base alle linee guida di Adobe AI
+### Elementi che determinano le citazioni visualizzate
 
-## Quali operazioni può eseguire l&#39;Assistente AI
+* Assistente Allievo mostra una citazione solo quando il contenuto di apprendimento è pertinente alla domanda e visibile all’Allievo nel catalogo.
+* Se un corso o un percorso di apprendimento non è visibile all’Allievo, l’Assistente Allievo non lo visualizza.
+* Se un corso e un percorso di apprendimento pertinente sono entrambi visibili, l’Assistente Allievo può visualizzarli entrambi in formato gerarchia.
+* Quando si seleziona una citazione del percorso di apprendimento, si apre tale percorso.
 
-L’Assistente all’intelligenza artificiale è un compagno di chat generativo basato sull’intelligenza artificiale che risponde alle domande utilizzando i contenuti di apprendimento assegnati. Ogni risposta include citazioni con collegamenti diretti al materiale sorgente in modo da poter verificare le informazioni e continuare l’apprendimento nel contesto.
+### Trovare un percorso di apprendimento tramite l’Assistente Allievo
 
-Oltre a rispondere alle domande, l&#39;Assistente all&#39;intelligenza artificiale può:
+1. Apri **Assistente Allievo** e fai una domanda su un argomento.
 
-- **Riepilogo degli oggetti di apprendimento**: genera una rapida panoramica di qualsiasi corso, risorsa formativa, percorso di apprendimento o certificazione nel catalogo senza aprirlo
-- **Confronto degli oggetti di apprendimento**: identificazione delle differenze tra due corsi affiancati per decidere quale soddisfa i tuoi obiettivi di apprendimento
-- **Rispondere alle domande sulle procedure** — trova le risposte da Adobe Experience League, la documentazione ufficiale della guida di Adobe, per domande sull’utilizzo di Adobe Learning Manager come Allievo
-- **Eseguire una query sui contenuti di terze parti**: porre domande sui corsi Go1 o LinkedIn Learning se l’amministratore ha aggiunto tali cataloghi
-- **Crea un percorso di apprendimento personalizzato**: fai una conversazione guidata con l&#39;Assistente all&#39;intelligenza artificiale per creare un piano di apprendimento personalizzato e in sequenza in base ai tuoi obiettivi, allo sfondo e al tempo disponibile.
+1. Rivedere la risposta e le citazioni elencate con essa.
 
-L&#39;amministratore controlla i cataloghi utilizzati dall&#39;Assistente AI. Se non hai accesso a un corso, l&#39;Assistente all&#39;intelligenza artificiale non presenterà informazioni al riguardo.
+1. Seleziona un corso o una citazione del percorso di apprendimento per aprirlo.
+
+### Risoluzione dei problemi relativi alle citazioni del percorso di apprendimento
+
+**Un percorso di apprendimento non viene visualizzato come citazione**
+
+Conferma che il percorso di apprendimento è pertinente alla domanda e visibile all’Allievo nel catalogo. L’Assistente Allievo non mostra i contenuti nascosti all’Allievo.
+
+## Configurazione degli agenti dell’Assistente Allievo
+
+Attiva o disattiva i singoli agenti dell’Assistente Allievo per controllare quali funzionalità di intelligenza artificiale possono essere utilizzate dagli Allievi in Adobe Learning Manager.
+
+### Cosa sono gli Allievi?
+
+Gli Amministratori possono abilitare o disabilitare Assistente Allievo per l’intero account. A partire da questa versione, gli amministratori possono anche controllare i singoli agenti che compongono l’Assistente Allievo. Puoi abilitare qualsiasi combinazione di agenti.
+
+| Agente | Cosa fornisce | Crediti IA |
+|---|---|---|
+| **Agente conoscenza** | L&#39;agente predefinito. Disponibile ogni volta che l’Assistente all’intelligenza artificiale dell’Allievo è abilitato. | Nessun credito utilizzato |
+| **Agente di risposta** | Risposte alle domande con dai contenuti disponibili nel catalogo | Utilizza i crediti di intelligenza artificiale acquistati per query |
+| **Agente percorso di apprendimento** | Crea percorsi di apprendimento personalizzati per gli Allievi. | Utilizza i crediti di intelligenza artificiale acquistati per query |
+
+>[!NOTE]
+>
+>L&#39;Assistente AI dell&#39;amministratore dispone degli stessi controlli a livello di agente, con **Agente conoscenza** e **Agente Insights**.
+
+### Attivazione o disattivazione degli agenti dell’Assistente Allievo
+
+1. Accedi a Adobe Learning Manager come amministratore.
+
+1. Seleziona **IA in Learning** nel riquadro di navigazione a sinistra.
+
+   ![Opzione AI in Learning nel riquadro di navigazione a sinistra](assets/Learning-paths-in-Learner-Assistant-citations-image1.png "IA in Learning")
+
+1. Nella sezione Assistente intelligenza artificiale dell’Allievo, seleziona **Modifica** e attiva o disattiva ciascun agente in base alle esigenze.
+
+   ![La sezione dell’assistente dell’intelligenza artificiale degli Allievi con l’agente attiva/disattiva](assets/Learning-paths-in-Learner-Assistant-citations-image2.png "Gli agenti dell’Assistente Allievo")
+
+1. Salva le modifiche.
+
+L’Assistente Allievo ora dispone di tutti gli agenti abilitati che un Allievo può iniziare a utilizzare.
 
 ## Tipi di contenuto supportati
 
@@ -379,8 +403,9 @@ Per consentire a Learning Assistant di eseguire una query sul contenuto Go1 o Li
 
 ## Risoluzione dei problemi relativi a AI Assistant
 
-> **NOTA**
-> Dopo aver configurato un nuovo catalogo, attendi 4-5 ore prima che i contenuti vengano indicizzati e siano disponibili per le risposte dell&#39;Assistente AI.
+>[!NOTE]
+>
+>Dopo aver configurato un nuovo catalogo, attendi 4-5 ore prima che i contenuti vengano indicizzati e siano disponibili per le risposte dell&#39;Assistente AI.
 
 ### Nessun accesso ai contenuti
 
@@ -429,10 +454,14 @@ Per consentire a Learning Assistant di eseguire una query sul contenuto Go1 o Li
 
 L’Assistente AI è progettato per rispondere alle domande solo in base ai contenuti di apprendimento assegnati e non risponde alle domande che esulano dall’ambito.
 
-### I corsi Go1 o LinkedIn Learning non vengono visualizzati nella ricerca di Learning Assistant
-
+**I corsi Go1 o LinkedIn Learning non vengono visualizzati nella ricerca di Learning Assistant**
 Conferma con il tuo amministratore che il catalogo Go1 o LinkedIn Learning è stato aggiunto a Adobe Learning Manager e che l’acquisizione del catalogo è stata completata. L’ingestione può richiedere fino a una o due ore dopo l’aggiunta del catalogo.
 
-### Un corso aggiunto di recente non è ancora disponibile
-
+**Un corso aggiunto di recente non è ancora disponibile**
 Attendi il completamento della sincronizzazione del catalogo pianificata. Se il corso non viene visualizzato dopo due ore, contatta l’amministratore per confermare che la connessione al catalogo è attiva.
+
+**Un percorso di apprendimento non viene visualizzato come citazione**
+Conferma che il percorso di apprendimento è pertinente alla domanda e visibile all’Allievo nel catalogo. L’Assistente Allievo non mostra i contenuti nascosti all’Allievo.
+
+**Cosa visualizzano gli Allievi quando un agente viene disattivato?**
+L’Assistente Allievo non esegue un agente disabilitato. Ad esempio, se disattivi **l’agente di risposta** e un Allievo fa una domanda che ne ha bisogno, l’Assistente Allievo non restituisce un riepilogo basato sul corso. Offre opzioni dagli agenti che sono ancora abilitati.

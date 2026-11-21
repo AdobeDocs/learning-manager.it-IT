@@ -8,10 +8,10 @@ exl-id: 9cf893a5-9282-40fa-a12a-1d7078f0b98a
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 68acc921d6c2d027ef6df082cb31389b1760f0f5
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 70%
+source-wordcount: '2233'
+ht-degree: 59%
 ---
 # Configurazione degli utenti in Learning Manager
 
@@ -169,8 +169,6 @@ L’aggiunta di utenti singoli è il terzo metodo che consente di aggiungere ute
    * **[!UICONTROL **&#x200B; DOJ &#x200B;**:]** Specificare la data di adesione del dipendente.
    * **[!UICONTROL **&#x200B; Posizione**:]**&#x200B;Specificare la posizione del dipendente. Ad esempio, se l&#39;organizzazione è ubicata in diverse località geografiche, specifica la località in cui si trova il dipendente.
 
-
-
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
 1. Fai clic su **[!UICONTROL Aggiungi]**.
@@ -203,3 +201,61 @@ Puoi anche creare gruppi personalizzati con un elenco selezionato di utenti in L
 1. Aggiungere utenti al gruppo di utenti personalizzato immettendo il nome utente o il profilo dell&#39;utente nel campo **[!UICONTROL **&#x200B; Aggiungi utenti &#x200B;**.]**
 1. Per aggiungere altri utenti al gruppo personalizzato, fare clic su **[!UICONTROL **&#x200B; Aggiungi altri utenti &#x200B;**.]**
 1. Dopo aver aggiunto tutti gli utenti, fai clic su **[!UICONTROL Salva]**&#x200B;per salvare il gruppo di utenti personalizzato.
+
+## Limiti di caratteri per i nomi utente {#character-limit-username}
+
+Adobe Learning Manager supporta nomi utente più lunghi, in modo da poter inserire nel tuo account utenti con nomi lunghi senza doverli tagliare. Ciò è particolarmente utile quando si esegue la migrazione degli utenti da un sistema esterno o si automatizza la creazione degli utenti.
+
+A partire dalla versione di dicembre 2026, il campo del nome accetta fino a 255 caratteri. Le versioni precedenti accettavano un massimo di 63 caratteri.
+
+>[!NOTE]
+>
+>Il limite si applica a tutti gli utenti del tuo account, indipendentemente dal loro ruolo. Gli utenti esistenti e i loro nomi non sono interessati da questa modifica.
+
+È possibile immettere nomi lunghi quando si aggiungono o si modificano utenti nei modi seguenti:
+
+* Aggiunta di un singolo utente nell’interfaccia di amministrazione
+* Modificare un utente esistente
+* Importare gli utenti con un file CSV
+* Registra gli utenti tramite registrazione autonoma
+* Aggiungi utenti esterni
+
+I nomi lunghi possono essere più ampi dello spazio disponibile in alcune parti dell’interfaccia. Per mantenere il layout leggibile, Adobe Learning Manager abbrevia i nomi lunghi in aree compatte, ad esempio:
+
+* Celle di tabella
+* Elementi elenco a discesa
+* Risultati di ricerca
+
+Per visualizzare il nome completo, passa il mouse sopra il nome abbreviato.
+
+## Aggiungere un utente con un nome lungo
+
+Se il nome di un utente supera i 63 caratteri, ora puoi aggiungere l’utente al tuo account senza abbreviarlo. Il campo del nome può contenere un massimo di 255 caratteri.
+
+### Aggiunta di un singolo utente
+
+1. Accedi a Adobe Learning Manager come amministratore.
+
+1. Nel riquadro di navigazione a sinistra, seleziona **Utenti**.
+
+1. Seleziona **Aggiungi** > **Utente singolo**.
+
+1. Nel campo **Nome**, immetti il nome e cognome. Il campo accetta un massimo di 255 caratteri.
+
+1. Immetti i dettagli obbligatori rimanenti, ad esempio l’identificatore univoco e l’indirizzo e-mail.
+
+1. Seleziona **Salva**.
+
+L’utente viene aggiunto al tuo account con il nome e cognome. Nelle viste compatte, il nome appare abbreviato. Passate il mouse sopra il nome per visualizzarlo completamente.
+
+## Importazione di utenti con nomi lunghi
+
+Se aggiungi utenti in blocco, puoi includere nomi lunghi nel file CSV. La colonna del nome può contenere un massimo di 255 caratteri.
+
+1. Prepara il file CSV dell’utente. Assicurati che ogni nome non superi i 255 caratteri.
+
+1. Accedi a Adobe Learning Manager come Amministratore.
+
+1. Importa il file CSV utilizzando l&#39;opzione **Carica un file CSV**.
+
+1. Esaminare i risultati dell&#39;importazione per confermare che tutti gli utenti sono stati aggiunti.

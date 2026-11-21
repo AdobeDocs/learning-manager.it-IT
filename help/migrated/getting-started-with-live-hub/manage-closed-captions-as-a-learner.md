@@ -4,15 +4,19 @@ description: Scopri come gli Allievi visualizzano i sottotitoli codificati e per
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 ---
 
 # Gestire i sottotitoli codificati come Allievo
 
 I sottotitoli codificati visualizzano il contenuto parlato come testo su schermo, semplificando il seguito di una sessione Hub dal vivo, ad esempio, se sei in un ambiente rumoroso o preferisci la lettura insieme all&#39;audio. Puoi controllare i sottotitoli mediante il pulsante CC (Closed Captions) nella barra di controllo. Questa guida spiega come visualizzare, regolare e nascondere i sottotitoli come Allievo.
+
+>[!NOTE]
+>
+>I sottotitoli vengono visualizzati nella lingua selezionata dall’Istruttore per la sessione.
 
 ## Visualizza sottotitoli codificati
 

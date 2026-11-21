@@ -6,9 +6,9 @@ contentowner: mmanuel
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 6c26277dfbd20374e57273f8371b360ee770a0df
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '747'
 ht-degree: 1%
 ---
 
@@ -46,7 +46,24 @@ In questo esempio, identificherai gli Allievi a rischio di corsi sulla conformit
    ![](assets/report-builder-0014.png)
 
 7. Riordinate le colonne trascinandole nell&#39;area di lavoro.
-8. Per rinominare una colonna, immettere un nome nel campo alias della colonna. L&#39;alias viene visualizzato come intestazione di colonna nel file scaricato.
+8. Per rinominare una colonna, immettere un nome nel campo **Alias** della colonna. Se si specifica un alias, l&#39;alias viene utilizzato come intestazione di colonna. Se non si specifica un alias, l&#39;intestazione di colonna predefinita include il nome del set di dati. Ad esempio, il nome del set di dati dell’oggetto di apprendimento viene visualizzato come Oggetto di apprendimento - Nome.
+
+   **Intestazioni colonna**
+
+   Report Builder include il nome del set di dati nelle intestazioni di colonna predefinite per consentire di distinguere le colonne con nomi simili tra i set di dati. Ad esempio, se selezioni Nome dal set di dati dell’oggetto di apprendimento, l’intestazione di colonna viene visualizzata come Oggetto di apprendimento - Nome.
+
+   Se si specifica un alias personalizzato per una colonna, Report Builder utilizza l&#39;alias anziché l&#39;intestazione di colonna predefinita.
+
+   **Impatto sui report esistenti**
+
+   Dopo l&#39;aggiornamento, i report esistenti che utilizzano nomi di colonna predefiniti senza alias personalizzati visualizzano le intestazioni di colonna aggiornate. Ad esempio, il nome del set di dati dell’oggetto di apprendimento passa da Nome a Oggetto di apprendimento - Nome.
+
+   I dati dei report, i filtri e le pianificazioni non sono interessati.
+
+   Se si utilizza l&#39;output del report in script, fogli di calcolo, dashboard BI o integrazioni che fanno riferimento a colonne per intestazione, controllare i sistemi downstream e aggiornare i riferimenti alle intestazioni di colonna precedenti in base alle esigenze.
+
+   Per mantenere un&#39;intestazione di colonna specifica, impostare un alias personalizzato per la colonna.
+
 9. Seleziona **Salva report**.
 
 ## Scarica il report
@@ -106,6 +123,10 @@ Raggruppa i record per responsabile in modo da:
 4. Selezionare **Count** come funzione di aggregazione per le colonne.
 
    ![](assets/report-builder-0019.png)
+
+   **Intestazioni di colonna per le colonne aggregate:**
+
+   Quando si applica una funzione di aggregazione, l&#39;intestazione di colonna predefinita include la funzione di aggregazione. Ad esempio, quando applichi **Count** a **Oggetto di apprendimento - ID**, l’intestazione di colonna viene visualizzata come **Count** di **Oggetto di apprendimento - ID**. Se è stato specificato un alias personalizzato, l&#39;alias rimane invariato.
 
 5. Ripeti per Oggetto di apprendimento - Nome oggetto di apprendimento.
 
