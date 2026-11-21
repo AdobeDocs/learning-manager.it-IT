@@ -1,16 +1,16 @@
 ---
-title: Abilita Hub live (Beta) in Adobe Learning Manager
+title: Abilita Hub dal vivo in Adobe Learning Manager
 description: Scopri come gli amministratori abilitano l'hub dinamico per un account, lo impostano come provider di classi virtuali predefinito e attivano gli assistenti dell'hub dinamico basati sull'intelligenza artificiale.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 7f444eeaf1c3ca10df7ab4f8452b9c89747436a3
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '508'
 ht-degree: 0%
 ---
 
-# Abilita Hub live (Beta) in Adobe Learning Manager
+# Abilita Hub dal vivo in Adobe Learning Manager
 
 Gli amministratori possono abilitare Live Hub per un account Adobe Learning Manager e configurare gli assistenti basati sull&#39;intelligenza artificiale per supportare gli istruttori durante le sessioni dal vivo. Una volta abilitato l’Hub live, gli Autori possono utilizzare gli strumenti di formazione virtuale dell’Hub live per creare e gestire i moduli aula virtuale per i corsi.
 

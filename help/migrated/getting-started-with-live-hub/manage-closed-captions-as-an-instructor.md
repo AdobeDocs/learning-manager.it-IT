@@ -4,9 +4,9 @@ description: Scopri come gli Istruttori abilitano, visualizzano e personalizzano
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '353'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,26 @@ ht-degree: 0%
 
 I sottotitoli codificati visualizzano il contenuto parlato come testo su schermo, rendendo più facile seguire una sessione dell’Hub dal vivo, ad esempio, durante le presentazioni, le risposte alle domande dei partecipanti o le attività in un ambiente rumoroso. In qualità di Istruttore, puoi gestire i tuoi sottotitoli codificati dal menu della room **Altre azioni**.
 
-Questo articolo spiega come visualizzare, personalizzare e nascondere i sottotitoli codificati durante una sessione di Hub live.
+Questo articolo spiega come selezionare la lingua per i sottotitoli, visualizzare i sottotitoli codificati e modificarne l’aspetto durante una sessione di Hub dal vivo.
+
+## Seleziona la lingua dei sottotitoli
+
+Seleziona la lingua utilizzata per visualizzare i sottotitoli durante la sessione. Tutti i partecipanti visualizzano i sottotitoli nella lingua selezionata.
+
+>[!NOTE]
+>
+>Le funzioni basate sull&#39;intelligenza artificiale sono disponibili solo per i corsi in inglese. Se la lingua del corso è impostata su un&#39;altra lingua, la scheda **Sottotitoli** indica che le funzioni basate sull&#39;intelligenza artificiale non sono disponibili.
+
+Per selezionare la lingua dei sottotitoli:
+
+1. Selezionare **Altre azioni** dalla barra di controllo.
+1. Selezionare **Impostazioni**.
+
+   Viene visualizzata la finestra di dialogo Impostazioni room.
+
+1. Seleziona **Sottotitoli**.
+1. Seleziona una lingua dal menu a discesa Lingua di visualizzazione sottotitoli.
+1. Seleziona **Fine**.
 
 ## Visualizza sottotitoli codificati
 

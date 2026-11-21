@@ -4,9 +4,9 @@ description: Scopri come gli Istruttori accedono e configurano le impostazioni n
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '584'
 ht-degree: 0%
 ---
 
@@ -31,9 +31,11 @@ In una sessione Hub dal vivo, gli Istruttori possono controllare le autorizzazio
 
    1. **Registrazione**: scegli ciò che viene acquisito nella registrazione, inclusi i feed video dei partecipanti, i sondaggi e la trascrizione della chat.
 
+   1. **Sottotitoli**: seleziona la lingua in cui vengono generati i sottotitoli durante la sessione.
+
    1. **AI**: attivate o disattivate gli assistenti AI della sessione, inclusi l&#39;assistente domande e risposte, l&#39;assistente al sondaggio, l&#39;agente di monitoraggio breakout e la generazione di argomenti di registrazione.
 
-   1. **Privacy**: mostra o nascondi i partecipanti iscritti che non si sono ancora iscritti alla sessione.
+   1. **Privacy**: mostra o nascondi i partecipanti iscritti che non si sono ancora iscritti alla sessione.Seleziona la scheda pertinente dal pannello a sinistra:
 
 1. Modificate le impostazioni richieste.
 
@@ -94,6 +96,12 @@ Le seguenti impostazioni consentono di gestire la sessione controllando cosa pos
 <td>Aggiunge la trascrizione della chat alla registrazione.</td>
 </tr>
 <tr>
+<tr>
+<td><p><strong>Sottotitoli</strong></p>
+<p><strong>Impostazione predefinita</strong>: inglese</p></td>
+<td>Lingua di visualizzazione sottotitoli</td>
+<td>Imposta la lingua in cui vengono generati i sottotitoli per tutti i partecipanti. I sottotitoli non vengono tradotti, quindi la lingua selezionata deve corrispondere alla lingua parlata dall’Istruttore.</td>
+</tr>
 <td rowspan="4"><p><strong>AI</strong></p>
 <p><strong>Impostazione predefinita</strong>: tutti gli assistenti AI sono abilitati se sono stati abilitati dagli amministratori.</p></td>
 <td>Abilita assistente domande e risposte e generazione risposte</td>

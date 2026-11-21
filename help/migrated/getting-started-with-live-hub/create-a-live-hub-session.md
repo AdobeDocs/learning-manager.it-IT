@@ -1,16 +1,16 @@
 ---
-title: Creare una sessione di Hub live (Beta)
+title: Creazione di una sessione di Hub live
 description: Scopri come creare un corso Hub dal vivo, aggiungere istanze del corso, assegnare Istruttori con Finder Istruttori, iscrivere Allievi e personalizzare il branding della sala.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 9d05ad4a059bd1fec6e64f050070dae336ba2d1b
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1617'
 ht-degree: 0%
 ---
 
-# Creare una sessione di Hub live (Beta)
+# Creazione di una sessione di Hub live
 
 Utilizza Live Hub per offrire corsi di formazione in diretta guidati da istruttori all’interno di un corso Adobe Learning Manager. Puoi combinare le sessioni Live Hub con contenuti autonomi per creare un&#39;esperienza di apprendimento mista.
 
@@ -135,13 +135,53 @@ Per aggiungere Istruttori tramite il Finder Istruttori:
 
 1. Passa all’Istruttore che desideri assegnare, quindi seleziona **Aggiungi**. <br> L’istruttore selezionato viene aggiunto al campo **Istruttori** come tag.
 
+## Creazione di un corso per una sessione di grandi dimensioni {#create-large-session}
+
+Live Hub supporta sessioni di grandi dimensioni con un massimo di 5.000 partecipanti. Quando crei un corso con questa capacità, Live Hub configura automaticamente la stanza per un pubblico numeroso e applica le relative limitazioni alle funzioni.
+
+Per creare una sessione di grandi dimensioni:
+
+1. Accedi ad ALM come **Autore**.
+1. Seleziona **Aggiungi** nella pagina **Catalogo corsi**.
+1. Immetti il nome e la descrizione del corso.
+1. Seleziona **Contenuto** > **Aggiungi moduli** nella sezione **Moduli**. Viene visualizzata la finestra a comparsa **Seleziona tipo di modulo**.
+1. Seleziona **Aula virtuale** e immetti i dettagli del corso, inclusi titolo, descrizione, fuso orario, data di inizio e di fine e ora di inizio e di fine.
+1. Seleziona **Hub live** in **Strumenti di formazione virtuale live**.
+1. Seleziona **Abilita capacità 5000 partecipanti**. Se non attivi questa opzione, la sessione supporta fino a 1100 partecipanti.
+
+   ![Finestra di dialogo Aula virtuale con Hub live selezionato e opzione Abilita capacità 5000 partecipanti](assets/virtual-classroom-enable-5000-attendee-capacity.png "Finestra di dialogo Aula virtuale con Hub live selezionato e opzione Abilita capacità 5000 partecipanti")
+
+1. Seleziona **Salva** > **Publish**.
+
+### Funzioni disponibili in sessioni di grandi dimensioni
+
+Quando un Istruttore apre la sessione, le impostazioni della sala mostrano che si applicano restrizioni per sessioni di grandi dimensioni.
+
+| Funzionalità | Comportamento in una sessione di grandi dimensioni |
+|---|---|
+| **Partecipanti** | Una sessione di grandi dimensioni supporta fino a 5.000 partecipanti. Una volta che la sessione ha raggiunto questo limite, gli altri partecipanti non possono partecipare. |
+| **Fotocamere** | Fino a 10 istruttori possono accendere le videocamere contemporaneamente. Gli Allievi non possono accendere le fotocamere. Se viene raggiunto il limite di fotocamere, quando un altro Istruttore tenta di accendere la fotocamera, viene visualizzato un messaggio.<p>Le richieste della fotocamera effettuate allo stesso tempo vengono elaborate come batch. Di conseguenza, il numero di videocamere attive potrebbe superare il limite configurato. Tuttavia, nella descrizione del pulsante della fotocamera continua a essere visualizzato il limite configurato. |
+| **Microfoni** | Fino a 20 partecipanti possono riattivare simultaneamente l&#39;audio dei microfoni. Se viene raggiunto il limite di microfoni consentiti, quando un altro partecipante tenta di riattivare l’audio viene visualizzato un messaggio.<p>Le richieste di microfoni effettuate contemporaneamente vengono elaborate in batch. Di conseguenza, il numero di partecipanti senza audio può superare temporaneamente il limite configurato. |
+| **Sale riunioni** | L’icona della sala conferenze rimane visibile, ma gli istruttori non possono avviare le sale conferenze. Quando tentano di avviarne uno, viene visualizzato un messaggio. |
+| **Condivisione dello schermo e lavagna** | Solo gli Istruttori possono condividere gli schermi e utilizzare la lavagna. Gli Istruttori non possono fornire queste autorizzazioni agli Allievi. |
+| **Chat privata** | Gli allievi possono inviare messaggi privati agli Istruttori, ma non possono inviare messaggi privati ad altri allievi. |
+| **Indicatore di digitazione** | L&#39;indicatore di digitazione non viene visualizzato nelle sessioni di grandi dimensioni. |
+| **Chat, reazioni, domande e alzate la mano** | Il sistema elabora queste interazioni in batch, in modo che possano apparire dopo un breve ritardo. L’Hub live raggruppa anche le reazioni e ne mostra un numero limitato alla volta. |
+| **Cronologia chat** | Il sistema rimuove automaticamente i messaggi chat meno recenti quando la cronologia chat diventa troppo grande per mantenere la stabilità della sessione. |
+| **Sondaggi, quiz, registrazione e partecipazione** | Queste funzioni funzionano allo stesso modo delle sessioni normali. |
+| **Funzioni basate su IA** | <ul><li>Il sistema rileva le domande nella chat e le visualizza nel pannello **Domande**, anche se possono apparire dopo un breve ritardo.</li><li>Le funzioni dell&#39;intelligenza artificiale associate alle sale d&#39;attesa non sono disponibili perché le sessioni di grandi dimensioni non supportano le sale d&#39;attesa.</li><li>Altre funzioni dell&#39;intelligenza artificiale funzionano allo stesso modo delle sessioni regolari.</li></ul> |
+
+>[!NOTE]
+>
+>Senza l&#39;opzione **Abilita capacità 5000 partecipanti**, una sessione regolare supporta fino a 1.100 partecipanti, 50 videocamere e 20 partecipanti con audio attivato.
+
 ## Iscrizione degli Allievi al corso
 
 Gli Allievi possono essere iscritti a un corso Hub dal vivo nei due modi seguenti:
 
-1. Un **Amministratore** iscrive gli Allievi al corso in base ai requisiti dell’organizzazione. Per ulteriori informazioni, visualizza [Creare istanze del corso e percorsi di apprendimento](https://experienceleague.adobe.com/it/docs/learning-manager/using/admin/courses).
+1. Un **Amministratore** iscrive gli Allievi al corso in base ai requisiti dell’organizzazione. Per ulteriori informazioni, visualizza [Creare istanze del corso e percorsi di apprendimento](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses).
 
-1. Gli Allievi possono iscriversi direttamente al corso dalla pagina **Catalogo**. Se il corso è configurato per l’iscrizione autonoma, gli Allievi vengono iscritti immediatamente e possono accedere al corso da **I miei Allievi**. Per ulteriori informazioni, consulta [I miei insegnamenti](https://experienceleague.adobe.com/it/docs/learning-manager/using/learner/courses).
+1. Gli Allievi possono iscriversi direttamente al corso dalla pagina **Catalogo**. Se il corso è configurato per l’iscrizione autonoma, gli Allievi vengono iscritti immediatamente e possono accedere al corso da **I miei Allievi**. Per ulteriori informazioni, consulta [I miei insegnamenti](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses).
 
 Dopo l’iscrizione, gli Allievi vengono aggiunti al corso e ricevono una notifica nel proprio account Adobe Learning Manager. A seconda delle impostazioni di notifica e-mail dell’account, gli Allievi possono anche ricevere un invito a partecipare al corso tramite e-mail.
 

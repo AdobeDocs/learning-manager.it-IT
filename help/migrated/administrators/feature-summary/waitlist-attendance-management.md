@@ -7,10 +7,10 @@ exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 72%
+source-wordcount: '430'
+ht-degree: 38%
 ---
 # Gestione delle liste di attesa e di frequenza
 
@@ -18,21 +18,43 @@ Gli Amministratori possono gestire le liste di attesa e di frequenza per i corsi
 
 ## Gestione delle liste di attesa {#waitlistmanagement}
 
-Gli Allievi vengono inseriti in liste di attesa per ogni corso in aula che prevede un numero chiuso, in base all’ordine di iscrizione. Gli Amministratori possono selezionare gli Allievi nella lista d’attesa e assegnare i posti, ignorando il limite, per qualsiasi corso in aula. Gli Allievi verranno iscritti ai corsi man mano che l’Amministratore assegna un posto.
+Gli Allievi vengono inseriti in lista d’attesa per un corso in aula quando i posti sono limitati, in base all’ordine di iscrizione. Quando tutte le postazioni riservate a un gruppo di utenti vengono occupate, gli altri membri del gruppo vengono inseriti nella lista d’attesa del gruppo. Gli Allievi esterni ai gruppi di utenti vengono inseriti nella **lista d’attesa aperta**.
 
-1. Dopo aver effettuato l’accesso come Amministratore, fai clic su **[!UICONTROL Corsi]** nel riquadro a sinistra.
-1. Dall’elenco dei corsi disponibili, fai clic sul nome di un corso in aula a tua scelta. Viene visualizzata una nuova pagina contenente informazioni dettagliate sul corso.
+Gli Amministratori possono rivedere la lista d’attesa e gestire gli Allievi in lista d’attesa. Adobe Learning Manager può inoltre promuovere automaticamente gli Allievi inseriti in lista d’attesa quando diventa disponibile un posto.
 
-![](assets/waitlist-and-attendance-mgmnt.png)
+Per gestire gli Allievi nella lista d’attesa:
 
-*Selezionare l&#39;opzione della lista d&#39;attesa*
+1. Seleziona **Corsi** nel riquadro a sinistra.
+1. Seleziona il nome di un corso in aula dai corsi disponibili.
 
-1. Fai clic su **[!UICONTROL Lista d’attesa]** nel riquadro a sinistra della pagina dei dettagli del corso. L’elenco degli Allievi nella lista d’attesa viene visualizzato nella pagina.
-1. Seleziona gli Allievi, quindi fai clic su **[!UICONTROL Assegna posti]** per iscriverli direttamente ai corsi, ignorando il limite.
+   Viene visualizzata una nuova pagina contenente informazioni dettagliate sul corso.
 
->[!NOTE]
->
->Gli Allievi iscritti non possono essere spostati nella lista d’attesa e le loro postazioni non possono essere riassegnate ad altri Allievi.
+1. Seleziona **Lista d’attesa** nel riquadro a sinistra della pagina dei dettagli del corso.
+
+   Viene aperta la pagina della lista d&#39;attesa con il seguente **stato della lista d&#39;attesa**:
+
+   * **Limite partecipanti:** Numero totale di partecipanti disponibili per la sessione.
+   * **Pieno:** numero di posti attualmente occupati.
+   * **In lista d’attesa:** numero di allievi in attesa di iscrizione.
+
+1. Selezionare le schede seguenti nella pagina **Lista d&#39;attesa**:
+
+   1. **Lista d’attesa per gruppo di utenti**: elenca gli Allievi in lista d’attesa in ciascun gruppo di utenti.
+
+   >[!NOTE]
+   >
+   >Questa scheda viene visualizzata solo se l&#39;impostazione **Registrazione gruppo** è abilitata.
+
+   1. **Apri lista d’attesa**: elenca gli Allievi in lista d’attesa non riservati ad alcun gruppo di utenti.
+
+   ![Pagina della lista d&#39;attesa che mostra la scheda Lista d&#39;attesa per gruppo di utenti](assets/waitlist-by-user-group-tab.png "Pagina della lista d&#39;attesa che mostra la scheda Lista d&#39;attesa per gruppo di utenti")
+
+1. Accanto a un Allievo, seleziona una delle seguenti azioni:
+
+   | **Azione** | **Descrizione** |
+   |---|---|
+   | **Conferma** | Iscrive l’Allievo in lista d’attesa nella sessione e lo rimuove dalla lista d’attesa. |
+   | **Annulla iscrizione** | Rimuove l’Allievo dalla lista d’attesa e aggiorna le posizioni degli Allievi rimanenti nella lista d’attesa. |
 
 ## Gestione della frequenza {#attendancemanagement}
 

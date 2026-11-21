@@ -7,10 +7,10 @@ exl-id: 2f4f8589-2350-4683-a141-809084d6309a
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a56c810d5222b6ab6f128db9661ff7fb6d2c93
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 47%
+source-wordcount: '3424'
+ht-degree: 26%
 ---
 # Gestione degli Allievi per la sessione
 
@@ -270,3 +270,230 @@ Se gli Allievi hanno caricato documenti come assegnazioni, report o valutazioni 
    Se hai già impostato promemoria per le sessioni, puoi visualizzarli nelle sezioni relative ai promemoria esistenti. Inoltre, puoi aggiungere ulteriori promemoria ai promemoria esistenti.
 
    Per eliminare un promemoria esistente, selezionalo. Nella finestra a comparsa visualizzata, fai clic sull’icona di eliminazione (icona del cestino) per eliminare il promemoria.
+
+## Creazione e gestione dei team in Adobe Learning Manager
+
+Crea i team manualmente dagli Allievi in un’istanza del corso, quindi aggiungi, sposta, rimuovi, rinomina o elimina i team fino a quando un team non si blocca.
+
+In qualità di Istruttore, puoi creare team per ogni istanza di un corso che dispone di un modulo di invio basato su team. Qualsiasi istruttore assegnato all’istanza può gestire i propri team. Adobe Learning Manager può anche creare i team automaticamente. Una volta formati i team, gli allievi possono inviare il lavoro ed è possibile valutare gli invii dei team.
+
+### Apri la pagina di gestione di Teams
+
+1. Nell’app dell’Istruttore, seleziona **Teams** nel riquadro di navigazione a sinistra. Nella pagina sono elencate le istanze del corso basate sul team a cui sono assegnati gli allievi.
+
+   ![Opzione Teams nel riquadro di navigazione a sinistra](assets/Group-Team-submission-and-rubric-based-assessments-image17.png "Pagina di gestione Teams")
+
+1. Per trovare un corso, cercalo oppure ordina l’elenco in base alla data dell’ultimo aggiornamento.
+
+1. Seleziona l’istanza del corso. La pagina dell’istanza mostra gli Allievi non assegnati e i team.
+
+### Creare team con una regola
+
+1. Nella pagina dell’istanza, seleziona gli Allievi non assegnati da dividere in team.
+
+1. Scegli una regola. Seleziona **Azione** > **Crea un singolo team** o **Crea più team**.
+
+   ![Menu Azioni con regole di formazione team](assets/Group-Team-submission-and-rubric-based-assessments-image18.png "Menu Azioni")
+
+1. Se selezioni **Più team**, immetti il numero di Allievi per ogni team. Il valore deve essere maggiore o uguale a 1. La pagina mostra il numero di team che verranno creati. Ad esempio, con 94 Allievi e 2 Allievi per team, vengono creati 47 team. Se il numero è maggiore del numero di allievi iscritti, viene visualizzato un messaggio di errore. Immettete un numero più piccolo.
+
+   ![Numero di Allievi per team e numero di team risultante](assets/Group-Team-submission-and-rubric-based-assessments-image19.png "Allievi per team")
+
+   Se immetti un valore maggiore del numero di Allievi iscritti, viene visualizzato un messaggio di errore.
+
+   ![Messaggio di errore per un valore maggiore del numero di Allievi iscritti](assets/Group-Team-submission-and-rubric-based-assessments-image20.png "Messaggio di errore")
+
+1. Seleziona **Crea team**. I team vengono visualizzati nella scheda **Team**.
+
+   ![Scheda Team che mostra i team creati](assets/Group-Team-submission-and-rubric-based-assessments-image21.png "team creati")
+
+1. Conferma e salva. I team vengono visualizzati nella scheda **Team**.
+
+La regola si applica solo agli Allievi non assegnati selezionati. Per raggruppare tutti, elimina prima i team esistenti. I loro Allievi tornano all’elenco dei non assegnati.
+
+![Opzione Elimina per team esistenti](assets/Group-Team-submission-and-rubric-based-assessments-image22.png "Elimina team")
+
+Dopo aver selezionato **Elimina**, viene visualizzata la seguente finestra di dialogo di conferma:
+
+![Finestra di dialogo per la conferma dell&#39;eliminazione dei team](assets/Group-Team-submission-and-rubric-based-assessments-image23.png "Conferma dell&#39;eliminazione")
+
+Seleziona **Elimina team**. Tutti gli Allievi tornano all’elenco dei non assegnati.
+
+### Crea un singolo team
+
+1. Seleziona gli Allievi non assegnati da includere nel team.
+
+1. Seleziona **Azione** > **Crea un singolo team**. Viene creato un team con il numero specificato di Allievi.
+
+   ![Opzione per un singolo team](assets/Group-Team-submission-and-rubric-based-assessments-image24.png "Per un singolo team")
+
+1. Salva il team. Un team richiede almeno un Allievo e un Allievo può appartenere a un solo team nell’istanza.
+
+1. Ripeti i passaggi per creare i team uno alla volta.
+
+### Aggiungere Allievi a un team esistente
+
+1. Seleziona gli Allievi non assegnati da aggiungere.
+
+1. Scegli di assegnarli a un team esistente, quindi seleziona il team.
+
+   ![Assegnazione di Allievi non assegnati a un team esistente](assets/Group-Team-submission-and-rubric-based-assessments-image25.png "Assegnazione a un team esistente")
+
+1. Conferma la tua scelta. Seleziona **Assegna Allievo**.
+
+### Spostare o rimuovere gli Allievi
+
+1. Apri la scheda **Team**, quindi espandi un team per visualizzarne i membri.
+
+1. Seleziona gli Allievi da spostare.
+
+   ![Membri del gruppo selezionati per lo spostamento](assets/Group-Team-submission-and-rubric-based-assessments-image26.png "Sposta allievi")
+
+1. Scegli per spostarli, quindi seleziona il team di destinazione.
+
+1. Per rimuovere un Allievo da un team, selezionalo e rimuovilo. L’Allievo ritorna all’elenco dei non assegnati.
+
+Quando un team non ha allievi rimanenti, il team viene eliminato automaticamente.
+
+### Rinominare un team
+
+1. Nella scheda **Team**, seleziona il team, quindi scegli di rinominarlo.
+
+1. Selezionare **Azione** > **Rinomina**.
+
+   ![Opzione Rinomina nel menu Azione](assets/Group-Team-submission-and-rubric-based-assessments-image27.png "Opzione Rinomina")
+
+1. Immetti un nome univoco, ad esempio Alpha team.
+
+   ![Finestra di dialogo Rinomina team](assets/Group-Team-submission-and-rubric-based-assessments-image28.png "Finestra di dialogo Rinomina team")
+
+1. Seleziona **Rinomina team**.
+
+I nomi non possono essere ripetuti e non puoi utilizzare il formato generato dal sistema, ad esempio Team-1.
+
+### Elimina team
+
+1. Nella scheda **Team**, seleziona uno o più team.
+
+1. Selezionare **Azione** > **Elimina**.
+
+1. Seleziona **Elimina team**.
+
+   ![Finestra di dialogo Elimina team di conferma](assets/Group-Team-submission-and-rubric-based-assessments-image29.png "Elimina team")
+
+1. Conferma. Gli Allievi dei team eliminati tornano all’elenco dei non assegnati.
+
+### Gestire le iscrizioni in ritardo e le iscrizioni annullate
+
+* Un Allievo che si iscrive dopo aver formato i team viene visualizzato nell’elenco non assegnato. Aggiungi l’Allievo a un team.
+* Se tutti i team sono bloccati, crea un nuovo team per l’Allievo.
+* Un Allievo che annulla l’iscrizione viene rimosso automaticamente dal team. Il team continua e viene eliminato un team vuoto.
+
+### Risoluzione dei problemi
+
+**Non puoi selezionare un team o spostarne i membri.** Un team si blocca dopo il primo invio e il blocco si applica a ogni modulo team nell’istanza. Per sbloccare il team, annulla l&#39;invio. Visualizza **Valuta e annulla l&#39;invio di invii di team**.
+
+**Impossibile rinominare un team.** Il nome è già in uso o corrisponde al formato generato dal sistema. Immetti un nome diverso.
+
+**Viene visualizzato un errore durante la creazione dei team.** Un team non può avere più di 100 membri. Riduci il numero di membri per team.
+
+**Non puoi aprire Gestione team per un&#39;istanza.** È possibile che la creazione automatica del team sia in esecuzione. Al termine dell&#39;operazione verrà restituito Access.
+
+**Il salvataggio è stato rifiutato e la pagina viene ricaricata.** Un altro istruttore o il lavoro automatico salvato cambia prima. Verifica i team aggiornati, quindi ripristina le modifiche.
+
+**Un team è scomparso.** Un team senza allievi viene eliminato automaticamente.
+
+## Valutare e annullare l&#39;invio degli invii del team
+
+Rivedere il file inviato di un team, completare il piano di valutazione, approvare o rifiutare il lavoro o annullarne l&#39;invio in modo che il team possa inviarlo nuovamente.
+
+Quando si valuta l&#39;invio di un team, il risultato si applica a ogni membro del team e ogni membro riceve una notifica. Solo gli istruttori assegnati all’istanza possono valutarla. I passaggi sono gli stessi per i singoli invii, a eccezione del fatto che i singoli invii non hanno dettagli sul team. Assicurati che i team esistano per primi. Visualizza **Crea e gestisci team**.
+
+I team creati automaticamente possono essere modificati come i team manuali.
+
+### Trovare un inoltro
+
+1. Nell&#39;app dell&#39;Istruttore, apri l&#39;area degli invii, quindi seleziona **Invii team**. Seleziona **Invii singoli** per i moduli per singolo Allievo.
+
+1. Per trovare un modulo, cerca per nome di sessione o modulo.
+
+1. Seleziona il nome del modulo.
+
+   ![Elenco moduli nell&#39;area di invio](assets/Group-Team-submission-and-rubric-based-assessments-image35.png "Elenco moduli")
+
+1. Per restringere l&#39;elenco, filtrare in base allo stato: **Invio in sospeso**, **Revisione in sospeso**, **Approvato**, **Rifiutato** o **Completato**.
+
+1. Per visualizzare i membri del team, espandere il team. Vengono visualizzati i nomi e gli indirizzi e-mail e l’Allievo che ha inviato il file ha un tag **Mittente**.
+
+1. Per scaricare il file inviato, seleziona l’opzione di download per il team.
+
+### Valutare un inoltro
+
+1. Trova il team con lo stato **Revisione in sospeso**.
+
+1. Apri il file inviato ed esamina il contenuto.
+
+1. Selezionare **Azione** > **Valuta**.
+
+   ![Opzione Valuta nel menu Azione](assets/Group-Team-submission-and-rubric-based-assessments-image36.png "Opzione Valuta")
+
+1. Completare il piano di valutazione:
+
+   * Rispondi a ogni domanda richiesta.
+   * Per domande oggettive, selezionare un&#39;opzione. Con il punteggio basato su criteri, il punteggio viene aggiornato man mano che si seleziona.
+   * Per domande soggettive, inserisci la tua risposta.
+   * Se sono consentite osservazioni, aggiungere osservazioni alla domanda o all&#39;intera valutazione.
+
+   ![Piano di valutazione con domande oggettive e soggettive](assets/Group-Team-submission-and-rubric-based-assessments-image37.png "Piano di valutazione")
+
+1. Se il modulo richiede l&#39;approvazione del revisore, selezionare **Approva** o **Rifiuta**. Aggiungi un commento quando rifiuti, in modo che il team sappia cosa correggere.
+
+   ![Approvare e rifiutare le opzioni](assets/Group-Team-submission-and-rubric-based-assessments-image38.png "Approvare o rifiutare")
+
+1. Se il modulo utilizza lo scoring manuale, inserire il punteggio complessivo.
+
+   ![Campo Punteggio complessivo per il punteggio manuale](assets/Group-Team-submission-and-rubric-based-assessments-image39.png "Punteggio complessivo")
+
+   **Facoltativo**: immettere una nota privata selezionando l&#39;interruttore **Aggiungi una nota privata al punteggio**. Una nota privata è visibile solo agli istruttori assegnati all’istanza. Gli Allievi non possono visualizzarlo, nemmeno quando selezioni **Mostra commento**.
+
+1. Presentare la valutazione. Seleziona **Invia**. Lo stato dell&#39;invio cambia in **Approvato**.
+
+   ![Opzione di invio per la valutazione](assets/Group-Team-submission-and-rubric-based-assessments-image40.png "Invio della valutazione")
+
+Anche altri istruttori possono valutare lo stesso invio, a condizione che non sia già stato approvato. Una valutazione successiva sostituisce una precedente fino all&#39;approvazione della presentazione.
+
+Se il modulo non richiede l&#39;approvazione del revisore, il modulo viene completato per tutti i membri del team al momento dell&#39;invio. Viene visualizzata solo l&#39;opzione di invio e non è possibile modificare il punteggio o le note in seguito.
+
+Dopo aver approvato o rifiutato l’invio di un team, un Allievo può visualizzare lo stato dell’invio e il risultato della valutazione.
+
+![Visualizzazione dello stato di invio e dei risultati della valutazione da parte dell’Allievo](assets/Group-Team-submission-and-rubric-based-assessments-image41.png "Visualizzazione dello stato da parte dell’Allievo")
+
+Selezionando il risultato della valutazione vengono visualizzati i parametri di valutazione e i commenti dell’istruttore.
+
+![Parametri di valutazione e commenti nel risultato della valutazione](assets/Group-Team-submission-and-rubric-based-assessments-image42.png "Risultato della valutazione")
+
+## Rivedere o modificare una valutazione
+
+1. Trovare un team con lo stato **Rifiutato**.
+
+1. Per aprire la valutazione completata, selezionare **Visualizza valutazione**.
+
+1. Per eseguire nuovamente la valutazione, selezionare l&#39;opzione di rivalutazione e inviare le modifiche. Questa operazione può essere eseguita solo per gli invii rifiutati. **Impossibile modificare gli invii approvati**.
+
+### Annulla invio di un inoltro
+
+Annullare l&#39;invio quando il team deve inviarlo di nuovo, quando la valutazione deve ricominciare o quando è necessario modificare un team bloccato. Per un singolo inoltro, puoi anche utilizzarlo per correggere una valutazione inserita per l’Allievo errato.
+
+1. Trova un team o un Allievo che ha un invio.
+
+1. Seleziona **Annulla invio**.
+
+   ![Annulla invio per un&#39;opzione di invio](assets/Group-Team-submission-and-rubric-based-assessments-image43.png "Annulla invio")
+
+1. Immetti i tuoi commenti, quindi seleziona **Annulla invio**.
+
+   ![Annulla l&#39;invio della finestra di dialogo di invio con un campo di note](assets/Group-Team-submission-and-rubric-based-assessments-image44.png "Annulla l&#39;invio della finestra di dialogo")
+
+L&#39;invio è stato rimosso e lo stato torna a **Invio in sospeso**. Il team si sblocca, in modo che sia possibile modificarne i membri. I membri del gruppo ricevono una notifica e un&#39;e-mail. Qualsiasi membro può quindi inviare di nuovo e il nuovo file sostituisce quello precedente. La nuova valutazione sostituisce quella precedente e non viene conservata alcuna cronologia.
+
+Non puoi annullare l’invio dopo che il corso è stato completato per un membro del team, perché il completamento non può essere annullato.

@@ -7,10 +7,10 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: d3f02c23826e56305a160eab428a50406a837184
+source-git-commit: 078d9e7c6d0422027818541965135865cc761c20
 workflow-type: tm+mt
-source-wordcount: '35530'
-ht-degree: 63%
+source-wordcount: '39568'
+ht-degree: 56%
 ---
 # Note sulla versione di Adobe Learning Manager
 
@@ -20,18 +20,245 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 
 -->
 
++++ Aggiornamento 114: versione del 5 dicembre 2026 di Adobe Learning Manager
+
+## Rilascia evidenziazioni
+
+La versione di dicembre 2026 di Adobe Learning Manager introduce grafici e dashboard in Report Builder, l’integrazione con Adobe Experience Manager Assets e funzionalità estese di invio dei file, inclusi gli invii di team e il piano di valutazione. La versione aggiunge anche il supporto di Email Builder per le e-mail a livello di corso e di istanza, l’integrazione del browser per esami sicuri per i quiz, un server MCP (Model Context Protocol) per l’Assistente Allievo e l’accesso controllato ai contenuti di apprendimento senza che gli utenti debbano accedere.
+
+L’Hub live ora supporta sessioni con un massimo di 5.000 partecipanti, sottotitoli codificati multilingue e un’interfaccia localizzata. Live Hub è ora generalmente disponibile per i clienti Ultimate, mentre Canali sono generalmente disponibili per tutti i clienti.
+
+## Funzioni in questa versione
+
+**Grafici e dashboard dei Report Builder:** gli amministratori possono ora visualizzare i dati dei report nel Report Builder. Creare grafici a numeri, a linee, a barre e a torta e tabelle pivot dalle colonne del report, con aggregazione e filtro in ogni grafico. Un dashboard di report contiene grafici creati da un report. Un dashboard personalizzato combina grafici di diversi report e supporta fino a 20 widget. I grafici che appartengono a un report vengono condivisi quando si condivide il report. Impossibile esportare i dashboard. [Ulteriori informazioni](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+
+**I report di Insights Agent nel Report Builder:** gli amministratori possono aprire, rivedere, modificare e salvare una risposta di Insights Agent come report di Report Builder e quindi utilizzare le funzionalità di Report Builder, ad esempio le sottoscrizioni. Se una parte di una domanda non può essere espressa con campi di Report Builder, il report elenca tale parte come spazio vuoto.[Ulteriori informazioni](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
+
+**Integrazione con Adobe Experience Manager Assets:** gli autori possono sfogliare e selezionare contenuti di apprendimento e risorse di immagini approvati da Experience Manager Assets senza uscire da Adobe Learning Manager. Quando una risorsa cambia in Digital Asset Manager, l’aggiornamento può fluire nei corsi che la utilizzano. Gli autori visualizzano solo le risorse a cui hanno già accesso in Experience Manager Assets.[Ulteriori informazioni](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
+
+**Miglioramenti per l&#39;invio dei file:** I moduli per l&#39;invio dei file ora supportano quanto segue:
+
+* **Invii team:** gli istruttori creano team composti da un massimo di 100 membri. Ogni team invia un file e la valutazione dell’Istruttore si applica a ogni membro. Gli istruttori gestiscono i team nella nuova pagina **Gestione team**.
+* **Valutazioni del piano di valutazione:** gli autori definiscono un piano di valutazione, con domande oggettive che hanno opzioni di punteggio e domande soggettive che hanno una revisione scritta. Un piano di valutazione contiene fino a 100 domande.
+* **Approvazione dell&#39;istruttore o completamento automatico:** Gli autori scelgono se un invio richiede l&#39;approvazione dell&#39;istruttore o se viene completato automaticamente. Questa impostazione è indipendente dal piano di valutazione.
+
+[Ulteriori informazioni]
+
+**Server Model Context Protocol per l’Assistente Allievo:** gli Allievi possono accedere a Learning Manager da strumenti già in uso, quali ChatGPT, Claude e agenti personalizzati, tramite un server Model Context Protocol (MCP). Gli amministratori configurano il server nell’app Amministratore di integrazione. Offre funzionalità di ricerca, elenco delle iscrizioni, acquisizione di oggetti di apprendimento, acquisizione di profili utente, risposta a domande sui contenuti di apprendimento e possibilità di ottenere percorsi di apprendimento personalizzati. [Ulteriori informazioni](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
+
+**Generatore di e-mail per corsi e istanze:** L&#39;esperienza completa di Generatore di e-mail è ora disponibile per le e-mail a livello di corso e di istanza. Gli Amministratori definiscono i layout e i modelli dell’account e gli Autori personalizzano le e-mail relative a corsi e istanze ereditandone il layout e la formattazione. Un modello si collega al layout disponibile più vicino ed è possibile scollegare un modello per modificarlo in modo indipendente. Le impostazioni **Banner** e **Firma** sono state spostate dalla scheda **Impostazioni**, che è stata rimossa, a **Layout globale**. Se Email Builder è già abilitato per il tuo account, riceverai automaticamente queste modifiche. [Ulteriori informazioni](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+**Integrazione del browser degli esami sicuri per i quiz:** Gli amministratori possono abilitare l&#39;integrazione a livello di account e caricare un file di configurazione del browser degli esami sicuri (.seb) per definire le restrizioni di valutazione. Gli Autori scelgono i quiz che richiedono un browser per esami sicuro. Agli Allievi che tentano di svolgere un quiz di questo tipo viene richiesto di avviare o scaricare il browser per esami sicuri. [Ulteriori informazioni](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
+
+**Miglioramenti senza accesso:** Learning Manager ora consente l’accesso controllato ai contenuti di apprendimento senza richiedere agli utenti di accedere.
+
+* **Utilizzo dei contenuti senza accesso:** Gli amministratori attivano o disattivano l&#39;accesso senza accesso per l&#39;account. Gli Autori rendono disponibile un intero corso, o moduli specifici, senza effettuare l’accesso. I percorsi di apprendimento e le certificazioni seguono le impostazioni dei corsi al loro interno. È supportato solo il contenuto a ritmo personalizzato.
+* **Cataloghi pubblici:** Gli amministratori scelgono quali cataloghi visualizzare nell&#39;Accademia pubblica.
+* **Individuazione da parte di motori di ricerca e assistenti di intelligenza artificiale (Beta):** Le accademie pubbliche possono essere scoperte da motori di ricerca e assistenti di intelligenza artificiale. Ogni accademia ottiene la propria sitemap e robots.txt, e Learning Manager genera automaticamente metotitoli, meta descrizioni e dati strutturati. Questa funzionalità richiede un dominio personalizzato su Adobe Learning Manager nativo.
+
+>[!NOTE]
+>
+>La documentazione relativa a questa funzione sarà disponibile a breve.
+
+**Virtual Coach:** Virtual Coach è una soluzione di gioco di ruolo e coaching basata sull&#39;intelligenza artificiale che consente agli Allievi di praticare conversazioni realistiche sul posto di lavoro. Supporta nove lingue e può essere utilizzato come risorsa formativa autonoma o incorporato in un corso. [Ulteriori informazioni](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+
+**Live Hub:** Live Hub è ora generalmente disponibile per i clienti Ultimate e rimane in versione beta per i clienti Prime. [Ulteriori informazioni](../administrators/feature-summary/billing-management.md)
+
+**Supporto per un massimo di 5000 partecipanti nell’hub live**: gli autori possono ora selezionare una capacità massima di 5.000 partecipanti quando aggiungono un modulo aula virtuale. Per le sessioni di grandi dimensioni, l’accesso alla videocamera, la condivisione dello schermo e la funzionalità della lavagna sono limitati agli istruttori. Le sale d&#39;attesa non sono disponibili per queste sessioni. [Ulteriori informazioni](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+
+**Sottotitoli codificati multilingue nell&#39;hub live**: gli istruttori possono ora selezionare la lingua dei sottotitoli codificati dalle **impostazioni della stanza**. Tutti i partecipanti visualizzano i sottotitoli nella lingua selezionata dall’Istruttore. [Ulteriori informazioni](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+
+**Prenotazione dell’iscrizione a un gruppo e gestione della lista d’attesa:** gli autori possono assegnare posti nei corsi in aula e in aula virtuale a gruppi di utenti specifici, impostare date di apertura separate per l’iscrizione a tali gruppi e per tutti gli altri Allievi e attivare la promozione automatica della lista d’attesa con data limite. [Ulteriori informazioni](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+
+**Supporto per più connessioni Zoom:** gli amministratori dell&#39;integrazione possono configurare più connessioni Zoom in un singolo account e assegnarle a ruoli o gruppi di utenti specifici. Gli autori possono scegliere tra le connessioni disponibili per la creazione o la modifica di una sessione. [Ulteriori informazioni](../integration-admin/feature-summary/zoom-connector.md)
+
+**Canali:** canali sono generalmente disponibili per tutti i clienti. [Ulteriori informazioni](../administrators/feature-summary/create-channels.md)
+
+## Miglioramenti in questa versione
+
+**Modifiche e branding personalizzate del percorso di apprendimento:** gli Allievi possono rimuovere argomenti o corsi suggeriti in un unico passaggio. Gli Amministratori possono riposizionare l’area Percorsi di apprendimento personalizzati nella home page dell’Allievo tramite la pagina **Branding**. [Ulteriori informazioni](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
+
+**Le citazioni del percorso di apprendimento nell&#39;Assistente Allievo:** Risposte ora citano il percorso di apprendimento che contiene un corso di origine, insieme al corso. Le risposte tratte da una risorsa formativa includono un collegamento per il download. [Ulteriori informazioni](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+
+**Configurazioni dell&#39;Assistente AI:** L&#39;Assistente amministratore offre due agenti, l&#39;Agente Insights e l&#39;Agente conoscenza. L’Assistente Allievo offre tre agenti: Knowledge Agent, Answer Agent e Learning Path Agent. È possibile configurare ciascun agente singolarmente. [Ulteriori informazioni](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
+
+**Inviare nuovamente gli inviti alla sessione in aula virtuale:** gli amministratori con autorizzazione di modifica del corso possono inviare nuovamente un invito alla sessione dalla pagina dell’istanza. L’opzione è disponibile per le sessioni correnti e future. [Ulteriori informazioni](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
+**Partecipazione automatica dalle visualizzazioni di registrazione di Adobe Connect:** Learning Manager contrassegna la partecipazione quando un Allievo riproduce la registrazione di una sessione in aula virtuale persa. Un’integrazione pianificata confronta il tempo di visualizzazione effettivo con i criteri di completamento impostati per l’account. [Ulteriori informazioni](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
+
+**Modifiche alle intestazioni delle colonne nei report Report Builder scaricati:** Le intestazioni delle colonne predefinite nei report Report Builder scaricati ora includono il nome del set di dati. Ad esempio, **Nome** dal set di dati dell’oggetto di apprendimento viene visualizzato come **Oggetto di apprendimento - Nome**. Per le colonne aggregate, l’intestazione include anche la funzione, ad esempio **Numero di oggetti di apprendimento - ID**. Le intestazioni che utilizzano un nome personalizzato nel campo **Alias** rimangono invariate.
+
+**Corsi con più iscrizioni nel widget di conformità:** Il widget di conformità elenca tutte le istanze di un corso con più iscrizioni che un Allievo deve completare. Se un’istanza ha una scadenza, le istanze senza una scadenza vengono nascoste. [Ulteriori informazioni](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
+
+**La classificazione di pertinenza nella ricerca del catalogo dell&#39;amministratore:** la ricerca del catalogo nella visualizzazione Amministratore classifica i risultati in base alla pertinenza. Le corrispondenze esatte vengono visualizzate per prime, seguite da quelle parziali. [Ulteriori informazioni](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
+
+**Ritiro di un corso senza rendere inaccessibile un percorso di apprendimento:** Un corso ritirato o un percorso di apprendimento nidificato viene rimosso dall&#39;oggetto di apprendimento di livello superiore, che rimane aperto per nuove iscrizioni.  [Ulteriori informazioni](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+
+**Sincronizzazione dell’annullamento della sessione da Adobe Workfront:** Le sessioni annullate in Adobe Workfront vengono trasferite a Learning Manager tramite migrazione. La migrazione aggiunge una colonna facoltativa **Stato** che accetta **Attivo** o **Annullato**. [Ulteriori informazioni](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+
+**Limite di caratteri per i nomi:** Il campo del nome ora accetta fino a 255 caratteri, fino a un massimo di 63. Questo limite si applica agli utenti aggiunti nell’interfaccia, tramite importazione CSV, registrazione autonoma e come utenti esterni. Gli utenti esistenti non sono interessati. I nomi lunghi vengono abbreviati nelle celle di tabella, nelle voci di elenco a discesa e nei risultati della ricerca. Passate il mouse su un nome abbreviato per visualizzarlo completamente. [Ulteriori informazioni](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+
+**Interfaccia Live Hub localizzata e lettore di registrazione**: Live Hub ora visualizza la sua interfaccia nella lingua selezionata per Adobe Learning Manager, supportando le stesse 18 lingue. Il lettore di registrazione viene localizzato in base alla lingua del corso.
+
+**Informazioni sui distintivi per corsi e percorsi di apprendimento:** quando gli autori aggiungono un corso o un percorso di apprendimento, nella finestra vengono elencati i corsi e i percorsi di apprendimento esistenti con le informazioni sul distintivo, lo stato della pubblicazione e il formato del corso. [Ulteriori informazioni](/help/migrated/authors/feature-summary/create-learning-path.md)
+
+**URL della pagina senza accesso per i profili di registrazione autonoma:** Ogni profilo di registrazione autonoma può avere il proprio URL di menu condivisibile non connesso, incorporato in Experience Builder. Gli utenti che selezionano **Registrati** da tale URL vengono aggiunti al profilo a cui appartiene. [Ulteriori informazioni](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+
+**Attributi Allievo personalizzati in Interoperabilità strumenti di apprendimento:** Learning Manager legge gli attributi personalizzati dell’Allievo tramite l’endpoint opzionale dei servizi di provisioning dei nomi e dei ruoli e dalla richiesta di avvio. Alcuni sistemi di apprendimento, come Moodle, non supportano questo endpoint.
+
+**Notifiche Istruttore bacheca di discussione:** I clienti headless possono inviare agli Istruttori e ai responsabili della coorte un riepilogo delle attività dell&#39;area discussioni tramite l&#39;API. [Ulteriori informazioni](/help/migrated/discussion-board-instructor-notifications.md)
+
+**Webhook per le modifiche degli Istruttori alle istanze degli oggetti di apprendimento:** Il webhook di modifica delle istanze degli oggetti di apprendimento ora viene attivato anche quando un Istruttore modifica una sessione in aula virtuale. [Ulteriori informazioni](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
+**Ultima data di accesso per le iscrizioni al percorso di apprendimento:** È possibile allegare metadati personalizzati, ad esempio la data dell’ultimo accesso, a un’iscrizione al percorso di apprendimento tramite API. [Ulteriori informazioni](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
+
+## Modifiche API
+
+* **Ordinamento delle API dei segnalibri e gestione dei contenuti ritirati:** i segnalibri sono ora restituiti come prima cosa e i segnalibri per gli oggetti di apprendimento ritirati non vengono più restituiti. Non vengono aggiunti endpoint, parametri o attributi di risposta.
+* **API per l&#39;area discussioni Notifiche per gli istruttori:** nuove API consentono agli istruttori e ai responsabili della coorte di iscriversi alle aree discussioni e di controllare l&#39;attività visualizzata nelle e-mail di riepilogo.
+* **Supporto API per istanze con iscrizione multipla nell&#39;app Allievo:** Aggiungere il parametro facoltativo `includeMultiInstanceEnrollments=true` a `GET /enrollments` per includere istanze con iscrizione multipla. Il valore predefinito è `false`.
+* **Ultima data di accesso per l&#39;iscrizione ai percorsi di apprendimento:** impostare metadati personalizzati per l&#39;iscrizione a un percorso di apprendimento con un token di amministratore. Leggilo con un token Amministratore o Allievo.
+* **Tipo di processo API processo per esportazioni Report Builder:** Il nuovo tipo di processo `generateCustomReport` esporta un report Report Builder salvato in base all&#39;ID report. I tipi di processo esistenti, inclusi `generateQuizReport`, rimangono invariati.
+* **API per il connettore Zoom:** Le nuove API recuperano e gestiscono le connessioni Zoom, salvano le credenziali Zoom e impostano i gruppi di utenti e i ruoli personalizzati che possono utilizzare una connessione. Le API utilizzano l’autenticazione basata su sessione e richiedono l’accesso di un Amministratore di integrazione. [Ulteriori informazioni](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
+
+## Interruzione delle modifiche in questa versione
+
+### Flusso di lavoro per l’esportazione del connettore Salesforce per Trascrizione Allievo
+
+La chiave primaria per la tabella Trascrizione Allievo (LT) nel connettore Salesforce viene aggiornata per supportare più scenari di iscrizione. Si tratta di una modifica rivoluzionaria che richiede lo scaricamento dei dati LT esistenti nell’oggetto cliente Salesforce con la versione di dicembre 2026. Il mancato scaricamento dei dati può causare record duplicati.
+
+### Implementazione di Email Builder per tutti i clienti
+
+La funzione Email Builder, introdotta nella versione di agosto 2026, è ora in fase di implementazione per tutti i clienti. I clienti sono incoraggiati a esplorare la funzionalità nei loro account sandbox o di produzione.
+
+>[!NOTE]
+>
+> Una volta migrato un account al nuovo editor e-mail Builder, non sarà più possibile ripristinarlo al precedente editor e-mail. Se Email Builder non è ancora abilitato per l’account di produzione o sandbox, contatta il Customer Success Manager (CSM) o il supporto Adobe per richiedere assistenza.
+
+### Le modifiche apportate alla selezione del catalogo senza accesso causano interruzioni
+
+A partire dalla versione del 5 dicembre 2026, Adobe Learning Manager non esporterà più i cataloghi disattivati tramite il connettore TDA. In precedenza, i clienti potevano utilizzare i cataloghi disabilitati per creare esperienze senza accesso.
+
+Questa modifica interessa i clienti che utilizzano cataloghi disabilitati per esperienze senza accesso. Il contenuto di questi cataloghi non sarà più disponibile tramite il connettore TDA.
+
+**Soluzione**: abilita i cataloghi disabilitati utilizzati per esperienze senza accesso prima del 5 dicembre 2026 per garantire l&#39;accesso continuo ai contenuti.
+
+## Bug corretti in questa release
+
+**Il ridimensionamento video del modulo attività:** i video Vimeo o YouTube incorporati in un modulo attività non sono stati ridimensionati quando l’Allievo ha modificato le dimensioni della finestra del browser sul Web. Il video presentava delle bande nere attorno ad esso, oppure i controlli video erano nascosti dietro la barra degli strumenti del lettore, fino a quando il modulo non veniva riaperto. Gli Allievi possono ora visualizzare i video del modulo Attività con l’immagine completa e i controlli visibili in qualsiasi dimensione della finestra.
+
+**Stato di completamento del modulo SCORM 2004:** Gli Allievi che hanno superato un modulo SCORM 2004 (ad esempio, contenuti creati in Articola trama) a volte sono stati registrati come superati ma non completati. Di conseguenza, il corso e qualsiasi percorso di apprendimento associato sono rimasti in corso. Ciò si è verificato quando il contenuto ha segnalato il suo stato passato e completato quasi nello stesso momento. I corsi e i percorsi di apprendimento ora vengono spostati su Completati una volta che gli Allievi hanno completato tutti i moduli richiesti.
+
+**Widget AEM:** Il widget Corsi e percorsi non mostrava i corsi a cui era iscritto un Allievo tramite un percorso di apprendimento, anche quando era attivata l’impostazione dell’account per mostrare tutti i corsi a cui era iscritto. Gli Allievi iscritti a un percorso di apprendimento non seguivano i corsi previsti o li seguivano in numero limitato. Gli Allievi ora possono vedere tutti i corsi a cui sono iscritti, inclusi quelli assegnati tramite un percorso di apprendimento.
+
+**Autore:** nella pagina Panoramica di corsi, percorsi di apprendimento, certificazioni e risorse formative, il catalogo predefinito è visualizzato sotto il nome archiviato in origine anziché il nome localizzato. Questo interessava gli account creati in una lingua diversa dall’inglese. Ad esempio, nel campo Seleziona cataloghi è visualizzato &quot;Catalogo standard&quot; anziché &quot;Catalogo predefinito&quot;. Il nome del catalogo predefinito viene visualizzato nella lingua dell’utente che ha effettuato l’accesso, in linea con la pagina Cataloghi in Amministratore.
+
+**Report:** i report filtrati in base a un nome di gruppo di utenti contenente caratteri non inglesi, ad esempio il giapponese, non sono stati scaricati e hanno visualizzato l&#39;errore &quot;Impossibile caricare l&#39;anteprima. Riprovare&quot;. La generazione di report ora utilizza la codifica dei caratteri UTF-8. I report con filtri su gruppi di utenti che hanno caratteri non inglesi nel nome ora vengono scaricati correttamente.
+
+**Report:** nel report Trascrizione Allievo, la colonna Crediti era vuota a livello di corso, percorso di apprendimento e certificazione quando il report è stato generato senza informazioni a livello di modulo. I crediti vengono calcolati correttamente per tutti i livelli, indipendentemente dal fatto che nel report siano inclusi o meno i dettagli a livello di modulo.
+
+**Generali:** errori della console sono stati visualizzati quando gli utenti hanno effettuato l&#39;accesso a flussi di lavoro e funzionalità specifici di Adobe Learning Manager, ad esempio le bacheche social. Questi flussi di lavoro ora vengono caricati senza errori della console.
+
+**Percorsi di apprendimento:** Nella pagina Allievi di un percorso di apprendimento, l’opzione Annulla iscrizione era disponibile quando era selezionato un corso o un percorso di apprendimento secondario. Selezionandola, l’iscrizione dell’Allievo veniva rimossa dall’intero percorso di apprendimento anziché dal singolo corso. L’annullamento dell’iscrizione è ora disabilitato quando viene selezionato un corso o percorso di apprendimento per bambini, in linea con il comportamento delle certificazioni.
+
+**Abilità:** Le abilità eliminate continuavano a essere visualizzate nelle schede di formazione per allievi, nel catalogo e nei risultati della ricerca con un nome modificato, ad esempio &quot;Eliminate in generale&quot;. Le abilità eliminate vengono escluse ogni volta che vengono mostrate agli Allievi. Ora gli Allievi vedono solo le abilità attive.
+
+**Percorsi di apprendimento:** gli Allievi non sono stati in grado di inviare il modulo di feedback di livello 1 dopo aver completato un corso incluso in un percorso di apprendimento. La selezione di **Invia** non ha comportato alcuna operazione e non è stato visualizzato alcun errore. Ciò si verificava quando il feedback era abilitato per il corso ma non per il percorso di apprendimento. Gli Allievi possono inviare feedback in base alle impostazioni a livello di corso e qualsiasi errore di invio viene ora segnalato all’Allievo.
+
+**Modelli e-mail:** Nella pagina Modelli e-mail, in Promemoria e aggiornamenti, i canali di notifica dell’apprendimento esterno a volte venivano visualizzati come chiavi di localizzazione non elaborate, ad esempio &quot;notification.externalLearning::submissionApproved.name&quot;. Questi canali sono solo in-app e non inviano e-mail. I canali solo in-app non vengono più visualizzati nella pagina Modelli e-mail.
+
+**Frequenza e punteggio:** quando si contrassegna la partecipazione in blocco incollando gli ID e-mail, le e-mail contenenti lettere maiuscole sono state rifiutate con l’errore &quot;al numero di riga null non è un indirizzo e-mail utente valido per contrassegnare la partecipazione&quot; e nessun Allievo era contrassegnato come partecipante. Gli ID e-mail vengono abbinati a prescindere da maiuscole e minuscole, spazi aggiuntivi o duplicati. I messaggi di errore ora mostrano il numero di riga corretto. Per contrassegnare la partecipazione in blocco con gli ID e-mail incollati, ora si agisce come l’opzione di caricamento dei file CSV.
+
+**Generatore e-mail:** le righe vuote aggiunte tra i paragrafi in un blocco di testo sono state rimosse quando il modello è stato salvato, visualizzato in anteprima o inviato. Le righe vuote intenzionali vengono mantenute. Le e-mail ora mostrano la spaziatura dei paragrafi esattamente come creata in Generatore e-mail.
+
+**Allievo:** la formattazione in grassetto nella sezione Panoramica dettagliata di un corso era visibile nell’anteprima Autore e Amministratore, ma è scomparsa nella vista Allievo dopo la pubblicazione. Il testo in grassetto viene visualizzato agli Allievi così come è stato creato e le formattazioni corsivo e sottolineato non sono interessate.
+
+**Corsi:** quando un Autore modificava un modulo esistente per supportare un tipo di distribuzione aggiuntivo, ad esempio la modifica di un modulo da Aula virtuale a Aula virtuale e Aula, la vista dell’Allievo continuava a mostrare il tipo di distribuzione precedente. Le visualizzazioni Amministratore e Autore mostravano correttamente Fusione. Il tipo di distribuzione mostrato agli Allievi viene aggiornato quando il modulo viene modificato. Gli Allievi ora vedono lo stesso tipo di distribuzione di amministratori e autori.
+
+**Ricerca:** quando è stato applicato un filtro catalogo, i risultati della ricerca non includevano corsi a cui l’Allievo era iscritto indirettamente, ad esempio tramite un percorso di apprendimento, un gruppo o un’assegnazione di manager. La ricerca non ha restituito risultati anche se i corsi erano disponibili per l’Allievo. La ricerca filtrata per catalogo ora include iscrizioni dirette e indirette.
+
+**Certificati personalizzati:** Quando un corso, un percorso di apprendimento o una certificazione è stato eliminato, la relativa associazione con un modello struttura certificato personalizzato non è stata rimossa. Di conseguenza, l’eliminazione del modello non è riuscita con l’errore &quot;Impossibile eliminare questo certificato perché è associato a un oggetto di apprendimento o a un’istanza&quot;, anche se l’oggetto di apprendimento non esiste più. Le associazioni vengono rimosse quando l’oggetto di apprendimento viene eliminato. Gli amministratori ora possono eliminare i modelli di certificato personalizzati inutilizzati senza errori.
+
+**Ruoli personalizzati:** gli utenti con un ruolo personalizzato configurato hanno ricevuto l&#39;errore &quot;Impossibile caricare il file dei sottotitoli&quot; all&#39;apertura della finestra di dialogo Rivedi sottotitoli per un file di sottotitoli generato automaticamente (VTT). Il download del file ha funzionato come previsto e gli utenti senza un ruolo personalizzato non sono stati interessati. Gli utenti con un ruolo personalizzato possono aprire e rivedere i sottotitoli generati automaticamente.
+
+**Codici QR:** dopo l’aggiornamento dell’URL personalizzato dell’Allievo per un account, i codici QR generati per i corsi esistenti hanno continuato a reindirizzare all’URL configurato in precedenza. I codici QR per l’iscrizione, il completamento e l’elenco di Allievi esportato utilizzano l’URL di Allievo personalizzato corrente.
+
+**App mobile:** moduli bloccati tra un tentativo e l&#39;altro anche se i criteri di completamento non sono stati soddisfatti. Questo si verificava quando un Allievo chiudeva un quiz in modalità immersiva prima di completarlo. I moduli non sono più bloccati quando i criteri di completamento non sono soddisfatti. Gli Allievi possono ora ritentare il quiz.
+
+**Accessibilità dell&#39;Hub dal vivo:** i miglioramenti dell&#39;accessibilità risolvono problemi relativi agli screen reader, alla navigazione da tastiera, ai sottotitoli codificati, al contrasto dei colori, allo zoom e alla ridisposizione, migliorando la fruibilità per i partecipanti.
+
+## Problemi noti nella versione
+
+**La pagina della panoramica del corso mostra i dettagli dell’istanza errati per i corsi a più istanze**
+La pagina della panoramica del corso può mostrare la scadenza, le sessioni o il conteggio delle iscrizioni di un’istanza precedente anziché dell’istanza attiva corrente.
+
+Questo può verificarsi per i corsi che hanno due o più istanze attive quando il visualizzatore non è iscritto al corso, ad esempio quando un autore visualizza in anteprima il corso come Allievo o quando un Allievo sfoglia un corso prima di iscriversi. Di conseguenza, gli Allievi potrebbero notare una scadenza già trascorsa o una sessione già interrotta o annullata. Gli Allievi iscritti visualizzano i dettagli della propria istanza e non sono interessati. È prevista una correzione per una versione futura.
+
+**Le modifiche a un modello e-mail a livello di corso possono anche modificare il modello a livello di account**
+Modifica del modello e-mail di iscrizione autonoma a livello di corso può anche modificare il modello a livello di account.
+
+Ciò può verificarsi quando le impostazioni e-mail del corso vengono salvate per la prima volta da un amministratore la cui lingua di interfaccia è diversa dalla lingua in cui è stato personalizzato il modello a livello di account. Le successive modifiche al modello a livello di corso vengono applicate anche al modello a livello di account. È prevista una correzione per una versione futura.
+
+**Il conteggio delle iscrizioni dirette include le iscrizioni al piano di apprendimento**
+Nella sezione Allievi di un corso, gli Allievi iscritti tramite un piano di apprendimento sono inclusi nel conteggio delle iscrizioni dirette. Tuttavia, la descrizione sulla scheda Istanze elenca le iscrizioni al piano di apprendimento come indirette.
+
+Il conteggio e la descrizione della descrizione sono incoerenti. La descrizione verrà aggiornata in modo che corrisponda al conteggio in una versione futura.
+
+**I video YouTube incorporati nel contenuto SCORM non vengono riprodotti in Chrome**
+Un video YouTube incorporato nel contenuto SCORM potrebbe non essere riprodotto nell’esperienza dell’Allievo quando il contenuto viene aperto in Google Chrome.
+
+Questa versione non include alcuna correzione e il problema è in fase di valutazione per una versione futura.
+
+**La pagina Autore nell’app per Allievi non carica altri corsi su schermi ad alta risoluzione**
+Nella pagina dell’Autore nell’app per Allievi, solo i primi sei corsi vengono visualizzati in vista griglia su schermi ad alta risoluzione e gli Allievi non possono caricare altri corsi.
+
+Altri corsi vengono caricati quando l’Allievo scorre fino alla fine della pagina. Su schermi ad alta risoluzione il primo gruppo di corsi viene visualizzato interamente sullo schermo, quindi non c’è nulla da scorrere e il gruppo successivo non viene mai richiesto. È prevista una correzione per una versione futura.
+
+**Il report dei quiz di livello 2 esportato dall’interfaccia utente contiene meno righe rispetto al report dell’API dei processi**
+Quando un report quiz di livello 2 viene esportato dall’interfaccia utente, il file esportato contiene un numero limitato di righe, ad esempio 3.000 utenti. Lo stesso report generato tramite l’API dei processi include tutte le righe.
+
+L’esportazione dell’interfaccia utente ha un limite di righe inferiore rispetto all’API del processo. Questo problema verrà affrontato in una versione futura. Nel frattempo, utilizza l’API dei processi per esportare il report completo.
+
+**Il dashboard e il report di Excel scaricato differiscono per un corso eliminato**
+Quando un corso viene ritirato ed eliminato, in un report del dashboard in cui è selezionata l’opzione Mostra dati per i valori correnti l’Allievo risulta ancora iscritto e completato. Il report Excel scaricato dalla stessa dashboard non include i dettagli dell’Allievo.
+
+La dashboard e il report scaricato non sono coerenti per i corsi eliminati. È prevista una correzione per una versione futura.
+
+**I nomi delle colonne non sono localizzati nel file CSV delle aule esportato**
+Quando le impostazioni internazionali dell’interfaccia utente sono impostate su una lingua diversa dall’inglese, il file CSV esportato dalla pagina Aule visualizza i nomi delle colonne (riga di intestazione) in inglese anziché nella lingua selezionata.
+
+Questo comportamento si verifica durante l’esportazione delle aule dal profilo Amministratore > Impostazioni > Aule. Anche se i dati della posizione all’interno del file vengono restituiti correttamente, le intestazioni di colonna non vengono tradotte in modo da corrispondere alle impostazioni internazionali dell’interfaccia utente scelte dall’Amministratore. Di conseguenza, un Amministratore che utilizza impostazioni internazionali diverse dall’inglese visualizza i nomi delle colonne in inglese in un ambiente altrimenti localizzato.
+
+Viene interessata solo la riga di intestazione; i dati della posizione sottostante nel file esportato non sono interessati. Questa versione non include alcuna correzione e il problema è in fase di valutazione per una versione futura.
+
+**Limiti di qualità dei sottotitoli nell&#39;hub live**
+
+I sottotitoli nell’Hub live possono avere diversi livelli di precisione nelle lingue supportate. La qualità dei sottotitoli dipende dalla lingua e può influire sull’accuratezza del testo generato durante le sessioni dal vivo.
+
+Adobe Learning Manager supporta i sottotitoli dinamici in più lingue, con diversi tassi di errore di Word (WER). La precisione dei sottotitoli varia nelle seguenti lingue:
+
+| Tasso di errore | Qualità sottotitoli | Lingue |
+|---|---|---|
+| Fino al 5% | Buona precisione | Inglese, spagnolo, giapponese, tedesco, italiano, coreano, portoghese |
+| Superiore al 5% e inferiore al 10% | Inesattezze minori | Francese, olandese, russo, turco, cinese, svedese, finlandese |
+| 10% e oltre | Precisione ridotta | Norvegese, Danese |
+
+Si tratta di una limitazione nota nella versione corrente. In una versione futura verranno introdotti miglioramenti per migliorare l’accuratezza e la qualità dei sottotitoli nelle lingue supportate.
+
++++
+
 +++Aggiornamento 113: versione di Adobe Learning Manager del 27 ottobre 2026
 
 ## Miglioramenti in questa versione
 
-**Integrazione Go1:** l&#39;integrazione Go1 in Adobe Learning Manager è stata migliorata per rendere più affidabile il tracciamento del completamento del corso. I completamenti Go1 degli Allievi ora vengono registrati con precisione, anche se lasciano il lettore del corso subito dopo aver terminato. Questa correzione assicura che le trascrizioni degli Allievi e i report degli Amministratori rimangano completi e aggiornati. Non è necessaria alcuna configurazione e i corsi Go1 esistenti continuano a funzionare come prima. [Ulteriori informazioni](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
+Integrazione con Go1: l’integrazione Go1 in Adobe Learning Manager è stata migliorata per rendere più affidabile il tracciamento del completamento del corso. I completamenti Go1 degli Allievi ora vengono registrati con precisione, anche se lasciano il lettore del corso subito dopo aver terminato. Questa correzione assicura che le trascrizioni degli Allievi e i report degli Amministratori rimangano completi e aggiornati. Non è necessaria alcuna configurazione e i corsi Go1 esistenti continuano a funzionare come prima. [Ulteriori informazioni](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
 
 ## Bug corretti
 
@@ -557,7 +784,7 @@ Uno strumento di conversazione basato su GenAI progettato per aiutare gli Alliev
 * Consente agli Allievi di richiedere script personalizzati, punti di discussione e riepiloghi personalizzati in base alle proprie esigenze di apprendimento.
 * Esegue la ricerca in tutti i formati di contenuto supportati, inclusi PDF, DOCX, PPTX, Audio, Video e SCORM 1.2 &amp; 2004.
 
-Per ulteriori informazioni, visualizza [Assistente IA per gli Allievi](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
+[Ulteriori informazioni](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
 
 +++
 
@@ -723,7 +950,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2203,7 +2430,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -2581,7 +2808,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -3207,7 +3434,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -3717,7 +3944,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**&#x200B;** veniva **&#x200B;**&#x200B;rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**** veniva **** rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L’URL non è cliccabile nell’e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** venivano modificati. Questo problema è stato risolto.

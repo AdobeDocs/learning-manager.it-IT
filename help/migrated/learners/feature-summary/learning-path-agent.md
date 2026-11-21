@@ -5,9 +5,9 @@ title: Learning Path Agent (beta) in Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: b01b116a2edd22350d0d20eb53984f1a66d494e3
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2336'
 ht-degree: 0%
 ---
 
@@ -147,23 +147,34 @@ Quando sei soddisfatto del percorso, chiedi all’agente di salvarlo digitando s
 ![](assets/create-lp.png)
 -->
 
-### Regolare il percorso di apprendimento prima di salvarlo
+### Regolare un percorso di apprendimento prima di salvarlo {#adjust-lp-before-saving}
 
-Prima di salvare il percorso, puoi chiedere all’agente di aggiungere, rimuovere o sostituire un corso. Descrivi la modifica in linguaggio semplice. L&#39;agente aggiorna solo il corso che hai menzionato. Il resto del tracciato resta lo stesso.
+Rimuovi, aggiungi o sostituisci argomenti e corsi in un percorso di apprendimento generato utilizzando l’icona Elimina o la chat, prima di salvarlo.
 
-Ad esempio:
+Quando chiedi all’agente del percorso di apprendimento in Adobe Learning Manager di creare un percorso personalizzato, in primo luogo propone gli argomenti e poi associa i corsi ad essi. Prima di salvare il tracciato, puoi perfezionarlo entrambi, in modo che il tracciato finale si adatti ai tuoi obiettivi.
 
-- Ho già completato il secondo corso. Rimuovilo.
-- Aggiungi un corso sull&#39;[argomento]. Non ne vedo uno nell&#39;elenco.
-- Il quarto corso sembra troppo avanzato. Puoi sostituirlo con qualcosa di più fondamentale?
-
-L&#39;agente applica la modifica e visualizza il percorso aggiornato. Continuate a regolare finché non siete soddisfatti, quindi salvate il tracciato.
+Puoi regolare il percorso selezionando l’icona Elimina su una scheda o digitando una richiesta nella chat.
 
 >[!NOTE]
 >
->Un percorso di apprendimento può contenere un massimo di cinque corsi. Se chiedi di aggiungere un corso quando il percorso è già pieno, l’agente ti chiede quale corso esistente desideri sostituire.
+>Learning Path Agent è disponibile per il livello Ultimate o come componente aggiuntivo per il livello Prime. Ogni richiesta utilizza crediti IA. Se l&#39;agente non è visualizzato, contattare l&#39;amministratore.
 
-Se la tua richiesta non è chiara, l&#39;agente pone una domanda chiarificatrice prima di apportare una modifica. Se non esiste un sostituto adeguato per un corso che desideri sostituire, l’agente spiega il motivo e suggerisce invece il corso corrispondente più simile.
+1. In Assistente Allievo, chiedi all’Agente del percorso di apprendimento di generare un percorso di apprendimento. Rispondere alle domande più chiare poste dall&#39;agente. Ad esempio, immetti Aiuto per creare un percorso di apprendimento per passare dal coordinatore marketing all’analista dati.
+2. Rispondere alle domande più chiare poste dall&#39;agente. L&#39;agente genera quindi un elenco di argomenti.
+3. Esaminare gli argomenti e quindi modificarli in base alle esigenze:
+
+   * Per rimuovere un argomento, selezionare l&#39;icona Elimina sulla scheda corrispondente oppure digitare una richiesta quale &quot;Rimuovi questo argomento&quot;.
+   * Per aggiungere un argomento, digitare una richiesta che descriva l&#39;argomento desiderato.
+
+4. Conferma gli argomenti. L’agente confronta i corsi del tuo account con ciascun argomento.
+5. Esamina i corsi suggeriti e modificali in base alle esigenze:
+
+   * Per rimuovere un corso, seleziona l’icona Elimina nella relativa scheda o chiedi all’agente di rimuoverlo.
+   * Per aggiungere un corso, digita una richiesta che descriva ciò che desideri apprendere.
+   * Per scambiare un corso, chiedi all’agente di sostituirlo. L&#39;agente suggerisce un&#39;alternativa in base alla tua richiesta originale.
+
+6. Ripetete i punti 3 e 5 fino a ottenere la corrispondenza desiderata.
+7. Salva il percorso di apprendimento.
 
 ### Salvare e accedere al percorso di apprendimento
 

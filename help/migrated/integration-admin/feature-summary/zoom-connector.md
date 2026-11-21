@@ -6,9 +6,9 @@ contentowner: mmanuel
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3628dd3701949da127b138e0e1ffc2db8e84eab1
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '914'
 ht-degree: 2%
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 ## Introduzione
 
-Il connettore Zoom in Adobe Learning Manager consente l’integrazione diretta con Zoom per realizzare sessioni in aula virtuale. Grazie a questa integrazione, gli istruttori possono ospitare riunioni con Zoom direttamente da Learning Manager, iscrivere gli Allievi e tenere traccia dei dati di partecipazione e completamento. Gli Allievi ricevono inviti automatici e possono partecipare alle sessioni tramite i loro account Adobe Learning Manager. Al termine della sessione, i dati su presenze e prestazioni vengono sincronizzati in Adobe Learning Manager per la creazione di report e il tracciamento.
+Il connettore Zoom in Adobe Learning Manager consente alle organizzazioni di offrire sessioni in aula virtuale in diretta, gestire l’iscrizione degli Allievi e tenere traccia della partecipazione e del completamento. Supporta anche più connessioni Zoom all’interno di un singolo account, consentendo agli Amministratori dell’integrazione di gestire l’accesso in base ai ruoli o ai gruppi di utenti e agli Autori di selezionare le connessioni disponibili per le sessioni del corso. Al termine della sessione, i dati su presenze e prestazioni vengono sincronizzati in Adobe Learning Manager per la creazione di report e il tracciamento.
 
 ## Configurazione del connettore Zoom
 
 Per configurare il connettore Zoom:
 
-1. Accedi a Adobe Learning Manager come amministratore di integrazione.
+1. Accedi a Adobe Learning Manager come Amministratore di integrazione.
 2. Passa il mouse sul riquadro **Zoom**.
 
    ![](assets/zoom-connector1.png)
@@ -36,6 +36,7 @@ Per configurare il connettore Zoom:
    * ID client
    * Segreto del client
    * Indirizzo e-mail amministratore privilegiato
+   * Ruoli o gruppi che possono utilizzare questo connettore (facoltativo)
 
    ![](assets/zoom-connector2.png)
    _Digitare i dettagli di configurazione per configurare il connettore Zoom_
@@ -46,15 +47,83 @@ Per configurare il connettore Zoom:
 >
 >Quando si abilita il connettore, **gli Allievi devono utilizzare lo stesso indirizzo e-mail** sia per gli account Zoom che per quelli Adobe Learning Manager, in modo da garantire la corretta sincronizzazione dei dati utente.
 
+## Aggiungere più connessioni Zoom
+
+Puoi aggiungere più connessioni Zoom a Adobe Learning Manager, con ogni connessione collegata a un account Zoom diverso. Ad esempio, è possibile creare connessioni separate per diversi partner o team e specificare quali ruoli o gruppi di utenti possono utilizzare ciascuna connessione.
+
+Il numero di connessioni che è possibile aggiungere dipende dal livello dell&#39;account Adobe Learning Manager:
+
+| **Account di livello** | **Numero massimo di connessioni Zoom** |
+|---|---|
+| l’applicazione Prime | 6 |
+| Ultimate | 50 |
+
 ## Creazione di corsi Zoom
 
 Una volta stabilita la connessione:
 
 1. Accedi come **Autore** e crea un nuovo corso Classe virtuale.
-2. Seleziona **Zoom** come sistema di conferenza durante la creazione del corso.
+2. Selezionare **Zoom** come sistema di conferenza, quindi selezionare la connessione Zoom che si desidera utilizzare dall&#39;elenco.
+   >[!NOTE]
+   >
+   >Nell&#39;elenco vengono visualizzate solo le connessioni disponibili per il ruolo o il gruppo di utenti e una sessione utilizza una connessione alla volta.
 3. Assegnare gli Allievi al corso tramite amministratori, manager o iscrizione autonoma.
 4. Al momento dell’iscrizione, gli allievi ricevono un’e-mail con i dettagli del corso.
 5. Gli Allievi possono accedere al proprio account Adobe Learning Manager per accedere al corso e partecipare alla sessione Zoom.
+
+## Connessioni di zoom disponibili per gli Autori
+
+Quando crei o modifichi una sessione del corso, puoi scegliere tra le connessioni Zoom disponibili per il tuo ruolo o gruppo di utenti. L’Amministratore dell’integrazione definisce i ruoli o i gruppi di utenti che possono accedere a ciascuna connessione Zoom.
+
+Si supponga, ad esempio, che un Amministratore dell’integrazione configuri due connessioni Zoom, **Zoom partner A** e **Zoom partner B**, e assegni ciascuna connessione a un gruppo di utenti diverso:
+
+* Se si appartiene a entrambi i gruppi Partner A e Partner B, è possibile selezionare una delle due connessioni.
+* Se si appartiene solo al gruppo Partner A, è possibile selezionare **Partner A Zoom**.
+* Se non appartieni a nessuno dei gruppi, queste connessioni non sono disponibili per la selezione.
+
+>[!NOTE]
+>
+>È possibile utilizzare una sola connessione Zoom per una sessione. Se sono disponibili più connessioni, selezionare la connessione che si desidera utilizzare per la sessione.
+
+## Gestire le connessioni Zoom
+
+Nella pagina **Gestisci connessioni** sono visualizzate le connessioni Zoom configurate per l&#39;account. La colonna **Visibile a** indica i ruoli o i gruppi di utenti che possono utilizzare ogni connessione. Da questa pagina è possibile modificare, attivare o disattivare ed eliminare le connessioni Zoom esistenti.
+
+![Connessione zoom Pagina Configura con Abilita impostazioni connessione, Credenziali e Ruoli o gruppi](assets/zoom-connection-configure-page.png "Connessione zoom Pagina Configura con Abilita impostazioni connessione, Credenziali e Ruoli o gruppi")
+
+### Modificare una connessione Zoom
+
+Per modificare una connessione Zoom esistente:
+
+1. Nella pagina **Gestisci connessioni** selezionare la connessione che si desidera modificare.
+1. Nella scheda Configura, aggiorna una delle seguenti opzioni:
+
+   1. Per aggiornare le credenziali dell&#39;account Zoom, seleziona **Modifica** accanto a **Credenziali** e aggiorna i dettagli richiesti.
+   1. Per modificare gli utenti autorizzati a utilizzare la connessione, aggiornare **Ruoli o gruppi** che possono utilizzare questo connettore.
+
+1. Seleziona **Salva**.
+
+### Attivare o disattivare una connessione Zoom
+
+Le nuove connessioni Zoom sono attivate per impostazione predefinita. È possibile disattivare una connessione per impedire agli autori di utilizzarla senza eliminare la connessione.
+
+Per disattivare una connessione:
+
+1. Nella pagina **Gestisci connessioni**, selezionare la connessione che si desidera disabilitare.
+1. Attiva **Abilita connessione**.
+1. Seleziona **Salva**.
+
+   La connessione disabilitata non è più disponibile per gli utenti nei ruoli o gruppi associati.
+
+Per abilitare nuovamente la connessione, seleziona **Abilita connessione**, quindi seleziona **Salva**.
+
+### Eliminare una connessione Zoom
+
+Per eliminare una connessione Zoom:
+
+1. Nella pagina **Gestisci connessioni**, seleziona la connessione che desideri eliminare.
+1. Seleziona l&#39;icona **Elimina** accanto alla connessione.
+1. Selezionare **Elimina**.
 
 ## Monitoraggio di partecipazione e completamento
 

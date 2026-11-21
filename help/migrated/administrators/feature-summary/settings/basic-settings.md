@@ -6,9 +6,9 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
 workflow-type: tm+mt
-source-wordcount: '6326'
+source-wordcount: '7201'
 ht-degree: 3%
 ---
 # Impostazioni di base in Adobe Learning Manager
@@ -243,6 +243,14 @@ Per ulteriori informazioni, consultate Terminologia del prodotto in Adobe Learni
 
 Quando questa opzione è attivata, gli Autori e gli Istruttori possono registrare il numero di crediti di istruzione per ogni sessione o modulo. I crediti rappresentano il tempo di istruzione in cui un Allievo riceve un credito per aver completato l’attività. I valori dei crediti vengono visualizzati nelle trascrizioni degli Allievi e nei report di apprendimento e contribuiscono al calcolo della durata totale per i percorsi di apprendimento. Se si disattiva questa impostazione, i valori di credito immessi in precedenza vengono mantenuti e ripristinati se l&#39;impostazione viene riattivata.
 
+### Iscrizione di gruppo
+
+Abilita questa impostazione per consentire agli Autori di impostare le date di apertura delle iscrizioni e riservare postazioni per gruppi di utenti specifici in un’istanza di corso prima che si apra l’iscrizione generale. Se questa impostazione è disabilitata, l’opzione Alloca postazioni per gruppo di utenti non è disponibile durante la configurazione di un’istanza del corso.
+
+### Integrazione con Safe Exam Browser
+
+Abilita questa impostazione per consentire agli Autori di configurare i quiz con l’integrazione del browser per esami sicuri. Per abilitare questa integrazione, gli amministratori devono caricare il file di configurazione Safe Exam Browser per il cluster o l&#39;ambiente. Se questa impostazione è disattivata, l’opzione Browser esami sicuri non è disponibile per gli Autori durante la configurazione dei quiz.
+
 ### Aggiornamento della versione del modulo
 
 Questa opzione consente agli Amministratori di aggiornare il contenuto di un modulo senza interrompere l’avanzamento degli Allievi già iscritti ai corsi contenenti tale modulo. Ciò garantisce che gli Allievi possano continuare il loro percorso di apprendimento senza problemi, mentre gli Autori possono mantenere aggiornati i contenuti. Con l’opzione attivata, gli autori possono caricare una nuova versione di un modulo (ad esempio, pacchetti SCORM, AICC o xAPI) per sostituire quella esistente.
@@ -311,7 +319,7 @@ Questa opzione consente di personalizzare la sezione piè di pagina dell’app p
 
 Ecco come personalizzare i collegamenti a piè di pagina:
 
-1. **[!UICONTROL Aggiungi collegamenti]**: seleziona **[!UICONTROL Aggiungi altro]** e immetti il nome e l&#39;URL o l&#39;ID e-mail nei campi specificati. Assicurati che l’URL abbia il prefisso http:// o https://.
+1. **[!UICONTROL Aggiungi collegamenti]**: seleziona **[!UICONTROL Aggiungi altro]** e immetti il nome e l&#39;URL o l&#39;ID e-mail nei campi specificati. Assicurati che l&#39;URL abbia il prefisso `http://` o `https://`.
 2. **[!UICONTROL Replica in più lingue]**: seleziona **[!UICONTROL Replica]** per applicare le modifiche in tutte le lingue in modo che tutte le lingue ricevano lo stesso nome e URL.
 3. Seleziona **[!UICONTROL Salva]** per applicare le modifiche.
 
@@ -394,6 +402,48 @@ Quando i corsi sono a pagamento, gli Autori possono specificare il prezzo del co
 >
 >Alcuni tipi di corso di formazione, come certificazioni ricorrenti e corsi approvati dal manager, non possono essere acquistati.
 
+## Attivare la formazione automatica del team in Adobe Learning Manager
+
+Attiva la formazione automatica del team nelle impostazioni dell’Amministratore, in modo che Adobe Learning Manager raggruppi gli Allievi iscritti in team prima dell’avvio di ogni istanza del corso.
+
+Questa impostazione è facoltativa. Gli invii dei team funzionano senza tale strumento e gli istruttori possono creare i team manualmente.
+
+Quando attivi questa impostazione dell’account, Adobe Learning Manager raggruppa automaticamente gli Allievi iscritti nei team un determinato numero di giorni prima dell’inizio di ogni istanza del corso. L&#39;impostazione è disattivata per impostazione predefinita. Gli Autori possono modificare la pianificazione dei propri corsi e gli Istruttori possono comunque creare i team manualmente.
+
+### Attivare la formazione automatica del team
+
+1. Nell&#39;app di amministrazione, seleziona **Impostazioni** > **Generali**.
+
+1. Nella **sezione Formazione automatica del team per gli invii basati su team**, seleziona **Modifica**. L’opzione rimane disattivata per impostazione predefinita.
+
+   ![Sezione Formazione automatica team in Impostazioni generali](assets/Group-Team-submission-and-rubric-based-assessments-image1.png "Sezione Formazione automatica team")
+
+1. Seleziona la casella di controllo **Abilita**.
+
+   ![Abilita la casella di controllo per la formazione automatica del team](assets/Group-Team-submission-and-rubric-based-assessments-image2.png "Abilita la casella di controllo")
+
+1. In **Pianificazione della formazione del team**, immetti il numero di giorni nel campo **Creazione di team**. Il valore deve essere maggiore o uguale a 0. Questo campo è obbligatorio.
+
+   ![Creare un campo teams nella pianificazione della formazione del team](assets/Group-Team-submission-and-rubric-based-assessments-image3.png "Pianificazione della formazione del team")
+
+1. Seleziona **Salva**.
+
+L’impostazione funziona solo per i corsi che dispongono di un modulo di invio di file basato su team e di una data di inizio dell’istanza.
+
+## Effetto delle modifiche sui corsi
+
+Quando si modifica questa impostazione, la modifica si applica solo ai corsi creati dopo il salvataggio. I corsi già esistenti mantengono la configurazione con cui erano stati pubblicati, indipendentemente dal fatto che la formazione automatica del team fosse attiva o meno, e mantengono la pianificazione. Ad esempio, se attivi l’impostazione a marzo, i corsi creati a febbraio non la ottengono e quelli creati a marzo o versioni successive.
+
+Adobe Learning Manager non applica la modifica ai corsi esistenti perché ciò potrebbe interrompere gli Autori, gli Istruttori e gli Allievi che stanno già lavorando con quei corsi. Autori e istruttori possono continuare con la configurazione con cui è stato pubblicato il corso. Se qualcuno ha bisogno di una configurazione diversa, può creare un nuovo corso e far sapere alle persone coinvolte cosa sta cambiando.
+
+È possibile modificare l&#39;impostazione in qualsiasi momento. Qualunque cosa tu scelga, si applica a tutti i corsi creati successivamente, fino a quando non lo modifichi nuovamente. In questo modo è possibile impostare le policy adatte alla propria organizzazione.
+
+* Se disattivi l’impostazione, i corsi che utilizzano già la formazione automatica del team continuano a funzionare come configurati.
+* I team già formati rimangono al loro posto e gli istruttori possono ancora modificarli.
+* Quando gli Autori creano un nuovo corso, possono modificare la pianificazione di tale corso. Visualizza il modo in cui gli autori impostano le regole del team.
+
+Dopo aver disattivato l&#39;impostazione, le squadre già formate rimarranno al loro posto. Gli Istruttori possono comunque modificarli.
+
 ### Abilita carrello SKU articoli multipli
 
 Questa opzione consente agli Allievi di aggiungere più elementi di formazione (corsi, percorsi di apprendimento, certificazioni) a un carrello e di acquistarli insieme. Questa funzione fa parte della funzionalità di e-commerce integrata con Adobe Commerce.
@@ -403,7 +453,7 @@ Questa funzione è particolarmente utile per le organizzazioni che vendono più 
 **Funzioni principali:**
 
 * Acquisti multipli: gli Allievi possono aggiungere più articoli al carrello e acquistarli in un’unica transazione. Per ulteriori informazioni, consulta carrello per più articoli.
-*Checkpoint semplificato: riduce la necessità per gli Allievi di effettuare acquisti separati per ogni elemento del corso di formazione.
+* Checkpoint semplificato: riduce la necessità per gli Allievi di effettuare acquisti separati per ogni elemento del corso di formazione.
 * Gestione delle SKU: gli Amministratori possono gestire le SKU per corsi, percorsi di apprendimento e certificazioni per garantire il tracciamento e la creazione di report corretti.
 
 ### Corsi/percorsi alternativi
@@ -574,7 +624,9 @@ Dopo aver attivato la funzione, configura i campi da visualizzare nel modulo di 
 
 5. Seleziona **Salva**.
 
-**Nota:** il campo **Titolo** è sempre obbligatorio e non può essere nascosto o reso facoltativo.
+>[!NOTE]
+>
+>Il campo **Titolo** è sempre obbligatorio e non può essere nascosto o reso facoltativo.
 
 Il modulo di invio per gli Allievi riflette immediatamente le modifiche. Gli invii esistenti non sono interessati dalle modifiche alla configurazione dei moduli.
 
@@ -634,10 +686,10 @@ a.    Seleziona la scheda **[!UICONTROL Allievi]** nel riquadro a sinistra.
 b.    Seleziona l’Allievo di cui desideri contrassegnare la partecipazione.
 c.    Selezionare **[!UICONTROL Azioni]** > **[!UICONTROL Contrassegna Completamento]**.
 
-**Note aggiuntive:**
-
-* I Manager possono anche esportare l’elenco degli Allievi per scopi di reporting.
-* Se un corso include più istanze, i Manager possono visualizzare e gestire gli Allievi separatamente per ciascuna istanza.
+>[!NOTE]
+>
+> I Manager possono anche esportare l’elenco degli Allievi per scopi di reporting.
+> Se un corso include più istanze, i Manager possono visualizzare e gestire gli Allievi separatamente per ciascuna istanza.
 
 ### Ritiro
 
@@ -656,6 +708,24 @@ i. Gli Allievi già iscritti al corso o al percorso di apprendimento perderanno 
 ii. Non potranno più visualizzare o eseguire azioni sui contenuti ritirati.
 b. Allievi non ancora iscritti:
 i. Anche gli Allievi che non si sono iscritti al corso o al percorso di apprendimento perderanno l’accesso poiché i contenuti non verranno più visualizzati nel catalogo.
+
+### Impatto del ritiro sugli oggetti di apprendimento di ordine superiore {#retiral-impact-ho-lo}
+
+L&#39;impostazione **Impatto del ritiro sugli oggetti di apprendimento di ordine superiore** controlla l&#39;effetto su un percorso di apprendimento o una certificazione quando uno dei relativi corsi o percorsi di apprendimento nidificati viene ritirato. Si applica solo agli oggetti di apprendimento di ordine superiore: percorsi di apprendimento e certificazioni. Selezionate una delle seguenti opzioni:
+
+* **Blocca le nuove iscrizioni agli oggetti di apprendimento di ordine superiore che contengono l’oggetto di apprendimento ritirato.**
+
+  Quando un oggetto di apprendimento di ordine inferiore viene ritirato, qualsiasi percorso di apprendimento o certificazione che lo contiene non diventa disponibile per nuove iscrizioni. Gli Allievi già iscritti conservano l’accesso all’oggetto di apprendimento ritirato all’interno dell’oggetto di apprendimento di ordine superiore e possono continuare e completarlo.
+
+* **Rimuovi l’oggetto di apprendimento ritirato dai percorsi di apprendimento e dalle certificazioni che lo contengono, mantenendoli disponibili per nuove iscrizioni.**
+
+  Quando un oggetto di apprendimento di ordine inferiore viene ritirato, viene rimosso dai percorsi di apprendimento e dalle certificazioni che lo contengono, esattamente come se fosse stato rimosso manualmente. L’oggetto di apprendimento di ordine superiore rimane disponibile per le nuove iscrizioni e i nuovi allievi lo vedono come se l’oggetto ritirato non ne facesse mai parte. Gli Allievi già iscritti continuano senza l’oggetto ritirato, il loro avanzamento esistente viene mantenuto nella Trascrizione Allievo e le percentuali di completamento vengono ricalcolate di conseguenza. Gli Allievi che hanno già completato l’oggetto di apprendimento di ordine superiore conservano il completamento e la valutazione finale.
+
+  Se il ritiro di un oggetto di apprendimento comporta l’eliminazione del contenuto dell’oggetto di apprendimento di livello superiore (ad esempio, quando tutti i suoi oggetti di apprendimento o tutti gli oggetti di apprendimento necessari vengono ritirati), l’oggetto non viene rimosso e l’oggetto di apprendimento di livello superiore viene bloccato dalle nuove iscrizioni.
+
+>[!NOTE]
+>
+>La rimozione non si applica alle certificazioni ricorrenti, che rimangono invariate al momento del ritiro.
 
 ### Ritira automaticamente
 

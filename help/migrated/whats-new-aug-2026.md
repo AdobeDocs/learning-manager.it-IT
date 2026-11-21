@@ -3,10 +3,7 @@ description: Scopri le nuove funzioni e i miglioramenti nella versione di agosto
 jcr-language: en_us
 title: Novità della versione di agosto 2026 di Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-product_v2:
-  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
-    internal-label: Learning Manager
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 123ab618e2e052ef63800463be939de93b5eb99f
 workflow-type: tm+mt
 source-wordcount: '2644'
 ht-degree: 0%
