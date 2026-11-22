@@ -428,5 +428,5 @@ Confermare che il collegamento Anteprima pubblica sia attivo, che il contenuto s
 **Collegamenti correlati:**
 
 * [Gestire i contenuti nella libreria dei contenuti](/help/migrated/authors/feature-summary/content-library.md)
-* [Documentazione di Adobe Admin Console](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
-* [Documentazione di Adobe Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
+* [Documentazione di Adobe Admin Console](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Documentazione di Adobe Experience Manager Assets](https://experienceleague.adobe.com/it/docs/experience-manager-learn/assets/overview)
