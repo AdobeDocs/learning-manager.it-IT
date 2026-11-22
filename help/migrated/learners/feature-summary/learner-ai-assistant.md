@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Quando l’Assistente Allievo risponde a una domanda, elenca il contenuto di app
 
 Conferma che il percorso di apprendimento è pertinente alla domanda e visibile all’Allievo nel catalogo. L’Assistente Allievo non mostra i contenuti nascosti all’Allievo.
 
-## Configurazione degli agenti dell’Assistente Allievo
+## Configurazione degli agenti dell’Assistente Allievo {#configure-la-agents}
 
 Attiva o disattiva i singoli agenti dell’Assistente Allievo per controllare quali funzionalità di intelligenza artificiale possono essere utilizzate dagli Allievi in Adobe Learning Manager.
 
@@ -381,7 +381,7 @@ L’Assistente all’apprendimento di Adobe Learning Manager può rispondere all
 
 >[!IMPORTANT]
 >
->Come prerequisito, un Amministratore deve aggiungere i cataloghi richiesti all’Assistente Allievo. Per ulteriori informazioni, vedere[Configurare l&#39;accesso all&#39;Assistente all&#39;intelligenza artificiale](https://experienceleague.adobe.com/it/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Come prerequisito, un Amministratore deve aggiungere i cataloghi richiesti all’Assistente Allievo. Per ulteriori informazioni, vedere[Configurare l&#39;accesso all&#39;Assistente all&#39;intelligenza artificiale](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Quando un Amministratore aggiunge un catalogo Go1 o LinkedIn Learning a Adobe Learning Manager, il contenuto del catalogo passa attraverso un processo di acquisizione pianificato. Al termine dell’acquisizione, gli oggetti di apprendimento del catalogo diventano disponibili per l’esecuzione di query da parte di Learning Assistant.

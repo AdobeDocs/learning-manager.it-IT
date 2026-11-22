@@ -5,9 +5,9 @@ title: Agente Insights (beta) in Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4259'
 ht-degree: 0%
 ---
 
@@ -55,7 +55,7 @@ La sezione **Approccio** è particolarmente utile per le query complesse. Viene 
 
 Utilizza Insights Agent in Adobe Learning Manager per eseguire query sui dati di apprendimento con domande in linguaggio semplice e ottenere risultati come testo, tabelle o file CSV scaricabili.
 
-L’agente di Insights è disponibile per gli amministratori dal pannello Assistente intelligenza artificiale in Learning Manager. Il pannello è ridimensionabile. Puoi espanderlo per rendere i risultati più leggibili. Per impostazione predefinita, la modalità **Ottieni informazioni dettagliate** è selezionata all&#39;apertura del pannello. È disponibile anche una modalità **Scopri** separata per domande su come utilizzare il prodotto. La modalità **Scopri** risponde alle domande delle istruzioni su come utilizzare Learning Manager. Ad esempio, &quot;Come si crea un percorso di apprendimento?&quot; Non esegue query sui dati dell’Allievo.
+L’agente di Insights è disponibile per gli amministratori dal pannello Assistente intelligenza artificiale in Learning Manager. Il pannello è ridimensionabile. Puoi espanderlo per rendere i risultati più leggibili. Per impostazione predefinita, la modalità **Ottieni informazioni dettagliate** è selezionata all&#39;apertura del pannello. È disponibile anche una modalità **Scopri** separata per domande su come utilizzare il prodotto. La modalità **Scopri** risponde alle domande delle istruzioni su come utilizzare Learning Manager. Ad esempio, &quot;Come si crea un percorso di apprendimento?&quot; Non esegue query sui dati dell’Allievo. [Ulteriori informazioni](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ### Fai una domanda
 
@@ -299,7 +299,7 @@ Utilizzatele come punti di partenza. Adattali sostituendo i nomi dei contenuti, 
 
 Insights Agent supporta le query scritte in inglese e in lingue dell&#39;alfabeto latino come francese e spagnolo. Le query inviate utilizzando alfabeti non latini, inclusi giapponese, cinese, arabo, coreano, hindi e russo non vengono elaborate. L&#39;agente visualizzerà un messaggio che indica che la query non è stata completata. Se si invia una query in una di queste lingue, avviare una nuova query e riformulare la query in inglese.
 
-## Creare un report da una risposta di Insights Agent
+## Creare un report da una risposta di Insights Agent {#create-report-insights-agent}
 
 In Adobe Learning Manager, puoi porre una domanda all&#39;agente Insights in un linguaggio semplice e aprire la risposta come report in Report Builder. Puoi quindi modificare il report e riutilizzarlo, in modo da non doverlo ricostruire da zero.
 
