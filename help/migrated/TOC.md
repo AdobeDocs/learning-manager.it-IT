@@ -3,9 +3,9 @@ user-guide-title: Guida su Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentazione di Adobe Learning Manager
 nudge: true
-source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
+source-git-commit: b41600793d54a08999e5e4aacf29840dd4365b33
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1946'
 ht-degree: 31%
 ---
 
@@ -305,7 +305,6 @@ ht-degree: 31%
   * [Impostazioni](authors/feature-summary/settings.md)
 * Istruttore {#instructor}
   * [Moduli](/help/migrated/instructors/feature-summary/modules.md)
-  * [Valutare e annullare l&#39;invio di un team](/help/migrated/instructors/feature-summary/learners.md)
   * [Gestione degli Allievi per la sessione](instructors/feature-summary/learners.md)
   * [Invia di nuovo l’invito alla sessione](instructors/feature-summary/resend-session-invite.md)
 * Allievo {#learner}
@@ -443,7 +442,7 @@ ht-degree: 31%
 * Segnalazione modifiche {#reporting-changes}
   * [Segnalazione delle modifiche nella versione di agosto 2026](/help/migrated/reporting-changes-august-2026.md)
 * Knowledge base {#knowledge-base}
-  * [Guida alla risoluzione dei problemi per Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Guida alla risoluzione dei problemi per Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
   * [Impossibile accedere a Learning Manager](kb/unable-log-in-learning-manager.md)
   * [In Riepilogo apprendimento non vengono visualizzati i dati correnti](kb/learning-summary-not-display-data.md)
   * [Impossibile caricare il file CSV](kb/unable-to-upload-csv.md)
