@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # Creazione, modifica e pubblicazione di corsi
@@ -159,7 +159,7 @@ Un modulo di invio di file basato su team consente a un Allievo di inviare un fi
 
 ### Aggiungere il modulo a un corso
 
-1. Accedi a Adobe Learning Manager come autore.
+1. Accedi a Adobe Learning Manager come Autore.
 
 1. Nell’app Autore, crea un corso o apri un corso non pubblicato.
 
@@ -169,7 +169,7 @@ Un modulo di invio di file basato su team consente a un Allievo di inviare un fi
 
 1. Seleziona l’opzione basata sul team. L’opzione Individuale è il precedente modulo di invio dei file per singoli Allievi.
 
-   ![Opzione basata su team per il modulo di invio file](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Opzione basata su team")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. Seleziona l’istruttore o gli istruttori.
 
@@ -191,7 +191,7 @@ Un corso può includere moduli di invio singoli e basati su team. Tutti i moduli
    * Seleziona l’assegnazione manuale dei punteggi per consentire all’istruttore di inserire un punteggio complessivo.
    * Selezionare il punteggio basato su criteri per calcolare il punteggio in base ai punti di ogni opzione del piano di valutazione. Questo metodo richiede un piano di valutazione.
 
-     ![Opzioni di revisione e punteggio per il modulo di invio dei file basato su team](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
@@ -1497,7 +1497,7 @@ Per ulteriori informazioni, consulta [Annullamento dell’iscrizione degli alli
 1. Accedi con le credenziali Adobe. Se non disponi di un Adobe ID, fai clic su **[!UICONTROL Crea account]**. In seguito all’autorizzazione verrai indirizzato alla pagina di pubblicazione del modulo.
 1. Fornisci tutte le informazioni di base sul modulo e fai clic su Pubblica.
 
-Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/it/captivate/classic/publish-project-to-captivate-prime.html).
+Il modulo pubblicato viene visualizzato sulla pagina dei moduli Learning Manager. Per ulteriori informazioni, consulta [Pubblicare progetti in Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacia del corso {#courseeffectiveness}
 

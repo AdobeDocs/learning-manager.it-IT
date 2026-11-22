@@ -1,9 +1,9 @@
 ---
 title: Browser per esami sicuri
 description: Abilita l’integrazione del browser per esami sicuri a livello di account in Adobe Learning Manager in modo che gli Autori possano richiedere un ambiente browser sicuro per i quiz nativi.
-source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ Questo articolo spiega come abilitare l&#39;integrazione Safe Exam Browser per i
 
 ## Abilita l’integrazione del browser per esami sicuri
 
-Abilita l’integrazione Safe Exam Browser per rendere l’opzione disponibile agli Autori durante la configurazione dei quiz. Prima di iniziare, assicurati di disporre del file Browser esami sicuri per il tuo account.
+Configura l’integrazione del browser per esami sicuri per rendere l’opzione disponibile agli Autori durante la configurazione dei quiz. Prima di iniziare, assicurati di disporre del file Browser esami sicuri per il tuo account.
 
 Per abilitare l’integrazione del browser per esami sicuri:
 
@@ -36,6 +36,8 @@ Per abilitare l’integrazione del browser per esami sicuri:
 1. Seleziona **Salva**.
 
    Il browser per esami sicuri è ora disponibile per gli Autori, da attivare durante la configurazione dei quiz supportati.
+
+Per ulteriori informazioni sulla configurazione del browser per esami sicuri come **Autore**, vedere [Creare un corso con SEB](../../authors/feature-summary/create-a-course-with-safe-exam-browser.md).
 
 ### Configurare il file .seb per macOS {#configure-the-seb-file-for-macos}
 

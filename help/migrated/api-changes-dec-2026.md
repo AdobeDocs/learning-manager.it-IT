@@ -3,7 +3,7 @@ description: Scopri come utilizzare le impostazioni di iscrizione alla bacheca e
 jcr-language: en_us
 title: Modifiche alle API in novembre 2026
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # Modifiche alle API di dicembre 2026
 
-## API per le notifiche degli istruttori dell&#39;area discussioni
+## API per le notifiche degli istruttori dell&#39;area discussioni {#api-discussion-board-instructors}
 
 Questo articolo descrive le nuove API che supportano le notifiche per gli istruttori nell’area discussioni. Utilizzali per iscrivere istruttori e manager di coorte alle aree discussioni e per controllare quale attività viene visualizzata nelle e-mail di riepilogo.
 
@@ -585,7 +585,7 @@ La risposta è priva di corpo.
 | 401 | Nella richiesta mancano credenziali valide oppure l&#39;accesso è stato negato a causa di credenziali non valide. |
 | 404 | Impossibile trovare la risorsa richiesta, ad esempio la bacheca o la sottoscrizione. |
 
-## Ordinamento delle API dei segnalibri e gestione dei contenuti ritirati
+## Ordinamento delle API dei segnalibri e gestione dei contenuti ritirati {#bookmark-api-ordering-retired-content}
 
 ### Scopo dell’API
 
@@ -721,7 +721,7 @@ Un caso di utilizzo comune è un elenco &quot;Salvato per versioni successive&qu
 3. Rimuovi qualsiasi ordinamento sul lato client o filtro dei contenuti ritirati aggiunto come soluzione alternativa.
 4. Mostra un conteggio dei segnalibri utilizzando il numero di elementi nella risposta. I segnalibri per gli oggetti di apprendimento ritirati non sono più inclusi.
 
-### Supporto API per istanze con più iscrizioni nel widget Conformità allievi nell’app per allievi
+### Supporto API per istanze con più iscrizioni nel widget Conformità allievi nell’app per allievi {#api-multienrolled-instances-lc-widget}
 
 L’API pubblica supporta questo comportamento tramite un parametro di query opzionale sull’endpoint di registrazione esistente. Se ometti il parametro, l’API restituisce gli stessi risultati di prima, in modo che le integrazioni esistenti, incluse le implementazioni headless, continuino a funzionare senza modifiche.
 
@@ -743,25 +743,25 @@ vero. Impostazione predefinita: False.
 
 **Corpo della risposta**
 
-&lbrace;
+{
 
-&quot;links&quot;: &lbrace;
+&quot;links&quot;: {
 
 &quot;self&quot;: &quot;[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true)&quot;,
 
 &quot;avanti&quot;: &quot;[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true&amp;page\[cursor\]=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2ZdyYas0iYi&quot;](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page%5bcursor%5d=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9)
 
-&rbrace;,
+},
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:15067_30122_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;completionDeadline&quot;: &quot;2026-02-24T10:50:45.000Z&quot;,
 
@@ -775,73 +775,73 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:15067&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:15067_30122&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:15067_30122_41715_1_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:1108800_1997400_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;SELF_ENROLL&quot;,
 
@@ -853,73 +853,73 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:1108800&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:1108800_1997400&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:1108800_1997400_2174574_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2027668_3707328_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -931,73 +931,73 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2027668&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2027668_3707328&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2027668_3707328_2665897_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2030067_3709862_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1009,73 +1009,73 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2030067&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2030067_3709862&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2030067_3709862_2668467_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3081896_5749155_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1087,81 +1087,81 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:3081896&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:3081896_5749155&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3081896_5749155_3737554_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3081896_5749155_3737555_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037893_3717940_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1173,73 +1173,73 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037893&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037893_3717940&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037893_3717940_3676856_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3049434_5713130_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;completionDeadline&quot;: &quot;2020-05-05T18:29:59.000Z&quot;,
 
@@ -1253,73 +1253,73 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:3049434&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:3049434_5713130&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:3049434_5713130_3693595_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2001397_3679403_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1331,73 +1331,73 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2001397&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2001397_3679403&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2001397_3679403_2635974_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037862_3717900_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;enrollmentSource&quot;: &quot;MGR_APPROVAL&quot;,
 
@@ -1409,73 +1409,73 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;PENDING_APPROVAL&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037862&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037862_3717900&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037862_3717900_3676816_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037837_3717863_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstanceEnrollment&quot;,
 
-&quot;attributes&quot;: &lbrace;
+&quot;attributes&quot;: {
 
 &quot;completionDeadline&quot;: &quot;2020-02-29T18:29:59.000Z&quot;,
 
@@ -1489,71 +1489,71 @@ vero. Impostazione predefinita: False.
 
 &quot;state&quot;: &quot;OTHER&quot;
 
-&rbrace;,
+},
 
-&quot;relations&quot;: &lbrace;
+&quot;relations&quot;: {
 
-&quot;Allievo&quot;: &lbrace;
+&quot;Allievo&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;3400468&quot;,
 
 &quot;type&quot;: &quot;user&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;learningObject&quot;: &lbrace;
+&quot;learningObject&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037837&quot;,
 
 &quot;type&quot;: &quot;learningObject&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loInstance&quot;: &lbrace;
+&quot;loInstance&quot;: {
 
-&quot;data&quot;: &lbrace;
+&quot;data&quot;: {
 
 &quot;id&quot;: &quot;course:2037837_3717863&quot;,
 
 &quot;type&quot;: &quot;learningObjectInstance&quot;
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&quot;loResourceGrades&quot;: &lbrace;
+&quot;loResourceGrades&quot;: {
 
-&quot;data&quot;: \&lbrack;
+&quot;data&quot;: \[
 
-&lbrace;
+{
 
 &quot;id&quot;: &quot;course:2037837_3717863_3597363_0_3400468&quot;,
 
 &quot;type&quot;: &quot;learningObjectResourceGrade&quot;
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-## Ultima data di accesso per l’iscrizione al percorso di apprendimento {#last-access-date-lp-enrollment}
+## Ultima data di accesso per l’iscrizione al percorso di apprendimento {#api-last-access-date-lp-enrollment}
 
 Adobe Learning Manager consente di archiviare metadati personalizzati, ad esempio la data dell’ultimo accesso, in un’iscrizione a un percorso di apprendimento. I metadati vengono impostati e letti tramite l’API. Ciò consente di tenere traccia dell’accesso in base al tempo ai percorsi di apprendimento assegnati.
 
@@ -1638,7 +1638,7 @@ I portali e le integrazioni esterni utilizzano le stesse chiamate API. Utilizza 
 * **Mostra il valore nel portale:** Inviare la richiesta di GET per il tipo di token dalla tabella precedente e leggere l&#39;oggetto `metadata` dalla risposta.
 * **Aggiornare il valore da un sistema esterno, ad esempio una piattaforma di e-commerce:** Inviare la richiesta PATCH con un token di amministrazione.
 
-## API processo: esportazione di report di Report Builder con generateCustomReport
+## API processo: esportazione di report di Report Builder con generateCustomReport {#api-job-report-builder-exports}
 
 La versione di dicembre 2026 di Adobe Learning Manager aggiunge un nuovo tipo di processo, `generateCustomReport`, all&#39;API del processo. Usalo per esportare qualsiasi report creato nel Report Builder, in modo automatico, passando l’ID del report.
 
