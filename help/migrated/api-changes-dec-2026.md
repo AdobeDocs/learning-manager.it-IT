@@ -3,7 +3,7 @@ description: Scopri come utilizzare le impostazioni di iscrizione alla bacheca e
 jcr-language: en_us
 title: Modifiche alle API in novembre 2026
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # Modifiche alle API di dicembre 2026
 
-## API per le notifiche degli istruttori dell&#39;area discussioni
+## API per le notifiche degli istruttori dell&#39;area discussioni {#api-discussion-board-instructors}
 
 Questo articolo descrive le nuove API che supportano le notifiche per gli istruttori nell’area discussioni. Utilizzali per iscrivere istruttori e manager di coorte alle aree discussioni e per controllare quale attività viene visualizzata nelle e-mail di riepilogo.
 
@@ -585,7 +585,7 @@ La risposta è priva di corpo.
 | 401 | Nella richiesta mancano credenziali valide oppure l&#39;accesso è stato negato a causa di credenziali non valide. |
 | 404 | Impossibile trovare la risorsa richiesta, ad esempio la bacheca o la sottoscrizione. |
 
-## Ordinamento delle API dei segnalibri e gestione dei contenuti ritirati
+## Ordinamento delle API dei segnalibri e gestione dei contenuti ritirati {#bookmark-api-ordering-retired-content}
 
 ### Scopo dell’API
 
@@ -721,7 +721,7 @@ Un caso di utilizzo comune è un elenco &quot;Salvato per versioni successive&qu
 3. Rimuovi qualsiasi ordinamento sul lato client o filtro dei contenuti ritirati aggiunto come soluzione alternativa.
 4. Mostra un conteggio dei segnalibri utilizzando il numero di elementi nella risposta. I segnalibri per gli oggetti di apprendimento ritirati non sono più inclusi.
 
-### Supporto API per istanze con più iscrizioni nel widget Conformità allievi nell’app per allievi
+### Supporto API per istanze con più iscrizioni nel widget Conformità allievi nell’app per allievi {#api-multienrolled-instances-lc-widget}
 
 L’API pubblica supporta questo comportamento tramite un parametro di query opzionale sull’endpoint di registrazione esistente. Se ometti il parametro, l’API restituisce gli stessi risultati di prima, in modo che le integrazioni esistenti, incluse le implementazioni headless, continuino a funzionare senza modifiche.
 
@@ -1553,7 +1553,7 @@ vero. Impostazione predefinita: False.
 
 &rbrace;
 
-## Ultima data di accesso per l’iscrizione al percorso di apprendimento {#last-access-date-lp-enrollment}
+## Ultima data di accesso per l’iscrizione al percorso di apprendimento {#api-last-access-date-lp-enrollment}
 
 Adobe Learning Manager consente di archiviare metadati personalizzati, ad esempio la data dell’ultimo accesso, in un’iscrizione a un percorso di apprendimento. I metadati vengono impostati e letti tramite l’API. Ciò consente di tenere traccia dell’accesso in base al tempo ai percorsi di apprendimento assegnati.
 
@@ -1638,7 +1638,7 @@ I portali e le integrazioni esterni utilizzano le stesse chiamate API. Utilizza 
 * **Mostra il valore nel portale:** Inviare la richiesta di GET per il tipo di token dalla tabella precedente e leggere l&#39;oggetto `metadata` dalla risposta.
 * **Aggiornare il valore da un sistema esterno, ad esempio una piattaforma di e-commerce:** Inviare la richiesta PATCH con un token di amministrazione.
 
-## API processo: esportazione di report di Report Builder con generateCustomReport
+## API processo: esportazione di report di Report Builder con generateCustomReport {#api-job-report-builder-exports}
 
 La versione di dicembre 2026 di Adobe Learning Manager aggiunge un nuovo tipo di processo, `generateCustomReport`, all&#39;API del processo. Usalo per esportare qualsiasi report creato nel Report Builder, in modo automatico, passando l’ID del report.
 

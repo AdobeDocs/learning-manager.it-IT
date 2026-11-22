@@ -1,9 +1,9 @@
 ---
 title: Creare un corso con un browser per esami sicuro
 description: Creare un quiz con la modalità Browser esami sicuro e aggiungerlo a un corso come modulo di autoapprendimento in Adobe Learning Manager per fornire un ambiente di valutazione limitato.
-source-git-commit: 6629e193116a8c2de12606277986811b20bbdf90
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ Per creare un quiz con la modalità Browser per esami sicuri:
 
    >[!NOTE]
    >
-   > Se l’Amministratore abilita questa opzione, puoi abilitare o disabilitare il requisito del browser per esami sicuri (SEB) per un modulo del quiz sul corso. Se l’Amministratore disattiva questa opzione, SEB diventa obbligatorio per il quiz e non è possibile modificare questo requisito.
+   > Se l’Amministratore abilita questa opzione, puoi abilitare o disabilitare il requisito del browser per esami sicuri (SEB) per un modulo del quiz sul corso. Se l’Amministratore disattiva questa opzione, SEB diventa obbligatorio per il quiz e non è possibile modificare questo requisito. Per ulteriori informazioni, vedere [Abilitare l&#39;integrazione del browser per esami sicuri](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration).
 
 1. Seleziona **Publish**.
 
@@ -68,3 +68,5 @@ Per aggiungere il quiz a un corso:
 1. Seleziona **Salva** > **Publish**.
 
    Il corso ora include una valutazione che richiede agli Allievi di utilizzare il browser degli esami sicuro.
+
+Visualizza [Avvia un quiz nel browser per esami sicuri](../../learners/feature-summary/launch-safe-exam-browser.md) per scoprire come gli Allievi possono accedere e rispondere ai quiz utilizzando il browser per esami sicuri.

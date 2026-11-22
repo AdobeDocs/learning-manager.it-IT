@@ -1,21 +1,19 @@
 ---
-description: Scopri come gli Autori personalizzano le e-mail a livello di corso e di istanza in Email Builder con un layout di amministratore e risolvono i problemi comuni
+description: Personalizza le e-mail a livello di corso e di istanza in Adobe Learning Manager con Email Builder e un layout fornito dall’amministratore.
 jcr-language: en_us
 title: Personalizzazione delle e-mail relative a corsi e istanze in Email Builder
 exl-id: 06499e3f-0610-4983-83f2-3e8b578fc8bf
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: 172889a4ff67e54c8e7b9a39ef5f393af0a1d703
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 
-## Personalizzazione delle e-mail relative a corsi e istanze in Email Builder
-
-Personalizza le e-mail a livello di corso e di istanza in Adobe Learning Manager con Email Builder e un layout fornito dall’amministratore.
+# Personalizzazione delle e-mail relative a corsi e istanze in Email Builder
 
 In qualità di Autore, puoi personalizzare le e-mail per un corso o per un’istanza specifica di un corso. Entrambe le procedure iniziano da un layout fornito dall&#39;amministratore.
 
-### Personalizzazione dell’e-mail a livello di corso
+## Personalizzazione dell’e-mail a livello di corso
 
 1. Apri il corso.
 2. Seleziona **Modelli e-mail**.
@@ -24,7 +22,7 @@ In qualità di Autore, puoi personalizzare le e-mail per un corso o per un’ist
 5. Salva il modello.
 6. Publish il corso.
 
-### Personalizzazione di un’e-mail a livello di istanza
+## Personalizzazione di un’e-mail a livello di istanza
 
 Utilizza un&#39;e-mail a livello di istanza quando diverse coorti richiedono messaggi diversi. Puoi gestire queste coorti tramite le istanze del corso.
 
@@ -38,7 +36,7 @@ Utilizza un&#39;e-mail a livello di istanza quando diverse coorti richiedono mes
 >
 >Quando entrambe esistono, le e-mail a livello di istanza hanno la precedenza sui modelli a livello di corso.
 
-### Usare la variabile Title e un’immagine per le intestazioni e-mail
+## Usare la variabile Title e un’immagine per le intestazioni e-mail
 
 Utilizzare la variabile Title con un componente Image per creare l&#39;intestazione e-mail anziché il componente Banner. L&#39;immagine del componente Banner non viene visualizzata in alcuni client di posta elettronica, ad esempio Outlook.
 
@@ -50,14 +48,14 @@ Per aggiungere un&#39;intestazione del titolo:
 2. Aggiungi un componente di testo e inserisci la variabile del titolo dal menu a discesa delle variabili nel riquadro di configurazione del componente.
 3. Allinea al centro il componente Testo. Nel layout globale, posizionalo nell&#39;intestazione superiore.
 
-Per impostazione predefinita, le singole e-mail utilizzano l’intestazione del layout globale. In un singolo messaggio e-mail, puoi modificare il componente Testo in:
+   Per impostazione predefinita, le singole e-mail utilizzano l’intestazione del layout globale. In un singolo messaggio e-mail, puoi modificare il componente Testo in:
 
-1. Sostituire la variabile con testo personalizzato
-2. Aggiungi il testo prima o dopo la variabile e mantieni `EmailTitle`
+4. Sostituire la variabile con testo personalizzato
+5. Aggiungi il testo prima o dopo la variabile e mantieni `EmailTitle`
 
 Se aggiungi un&#39;immagine al componente Banner, Email Builder visualizza un avviso che l&#39;immagine potrebbe non essere visualizzata correttamente in alcuni client e-mail. L&#39;avviso suggerisce invece di utilizzare un componente Immagine e la variabile titolo.
 
-### Risoluzione dei problemi
+## Risoluzione dei problemi
 
 **Impossibile selezionare un layout.**
 L’ereditarietà dei layout dipende dai layout principali disponibili. Chiedi all’amministratore di creare un layout dell’account.
