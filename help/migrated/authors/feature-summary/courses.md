@@ -7,7 +7,7 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: f752ede2a7b2980bad014fcbcaa2d7028d695321
 workflow-type: tm+mt
 source-wordcount: '12311'
 ht-degree: 47%
@@ -312,7 +312,7 @@ Dopo aver configurato tutte le impostazioni del Gradebook, pubblica il corso uti
 * Usa **Massimo** per l’impostazione a tentativi multipli quando i moduli sono valutazioni che gli Allievi devono riprovare. Utilizza **Ultime** per acquisire il livello di conoscenza corrente anziché le prestazioni migliori.
 * Verifica che l&#39;indicatore **Peso totale** mostri esattamente il 100% prima di salvare.
 
-## Configurare la creazione automatica del team in Adobe Learning Manager
+## Configurare la creazione automatica del team in Adobe Learning Manager {#enable-automatic-team-formation}
 
 Imposta le regole di creazione automatica del team per un corso in modo che Adobe Learning Manager divida gli Allievi iscritti in team prima dell’avvio di un’istanza.
 

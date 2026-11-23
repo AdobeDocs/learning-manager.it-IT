@@ -1,9 +1,9 @@
 ---
 title: Visualizzazioni nel Report Builder
 description: Crea grafici e dashboard dai report salvati nel Report Builder Adobe Learning Manager per confrontare gruppi, individuare le tendenze e condividere i risultati.
-source-git-commit: 8354c2285602189dd7c8211b8b44900385dc6c8b
+source-git-commit: 27a1b9f6669097ce85d1c4994537fb8cdf571abe
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3975'
 ht-degree: 0%
 ---
 
@@ -64,6 +64,7 @@ Conferma quanto segue:
 * **Salvare il report.** L&#39;opzione per aggiungere un grafico viene visualizzata nella pagina Report Builder dopo il salvataggio del report.
 * **Utilizza il tuo report.** Duplicare un report condiviso per creare una copia personalizzata e quindi utilizzarlo per creare grafici.
 * **Controllare le dimensioni.** Impossibile tracciare un report con più di 10 milioni di righe. Un report riepilogativo con più di 10.000 punti dati non viene tracciato. Consulta Limiti del grafico e del dashboard.
+* **Ottimizzare i dati per la visualizzazione.** Applica filtri appropriati a livello di report o grafico per limitare la quantità di dati tracciati. Il tempo necessario per caricare un grafico dipende da fattori quali il volume dei dati del report, l&#39;intervallo di date selezionato e la combinazione di set di dati e tabelle utilizzate nel report. Il caricamento dei report che elaborano volumi di dati di grandi dimensioni o combinazioni complesse di dataset potrebbe richiedere più tempo o potrebbe richiedere più tempo. In tal caso, restringere i filtri o l&#39;intervallo di date e riprovare.
 * **Conoscere le colonne.** L&#39;asse X (dimensione) e l&#39;asse Y (misura) del grafico derivano dalle colonne del report. Per riepilogare il report stesso, utilizzare **Raggruppa per** e aggregare. Per ulteriori informazioni, vedere Applicare raggruppamenti e aggregazioni.
 
 ### Configurare un grafico {#configure-chart}

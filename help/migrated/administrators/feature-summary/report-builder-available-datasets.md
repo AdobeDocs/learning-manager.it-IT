@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Set di dati disponibili nel Report Builder
 description: Guida di riferimento ai set di dati, ai campi e ai campi derivati disponibili in Adobe Learning Manager Report Builder.
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 12%
-
+source-wordcount: '1478'
+ht-degree: 13%
 ---
-
 
 # Set di dati disponibili nel Report Builder
 
@@ -53,7 +51,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 
 ### Campo personalizzato (oggetto di apprendimento)
 
-* % completamento oggetto di apprendimento
+* % di completamento degli oggetti di apprendimento
 * % conformità oggetto di apprendimento
 
 ### Campo personalizzato (utente)
@@ -61,10 +59,31 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * % completamento utente
 * % conformità utente
 
+### Quiz L2 dopo campo personalizzato (utente)
+
+* Numero di tentativi
+* ID corso
+* ID istanza del corso
+* Nome del corso
+* Tipo di interazione
+* ID modulo
+* Nome del modulo
+* Versione modulo
+* Domanda - Risposta corretta
+* Domanda - ID
+* Domanda - Punteggio massimo possibile
+* Domanda - Testo
+* Risposta - Punteggio ottenuto
+* Risposta - Risposta
+* Risposta corretta
+* Risposta - Timestamp
+* ID utente
+
 ### Oggetto di apprendimento
 
 * Nomi degli autori
 * Data smobilizzo automatico
+* Validità certificato (mesi)
 * Conteggio completamento
 * Data creazione
 * Durata (minuti)
@@ -135,6 +154,8 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * Data di iscrizione
 * Origine iscrizione
 * Stato iscrizione
+* Iscrizione primaria
+* Metadati
 * ID oggetto di apprendimento
 * Nome dell’oggetto di apprendimento
 * ID istanza oggetto di apprendimento
@@ -156,6 +177,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * ID corso
 * ID modulo
 * Nome del modulo
+* Stato completamento modulo
 * Data di superamento
 * Percentuale avanzamento
 * Punteggio totale del modulo del quiz
@@ -218,7 +240,10 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 
 ### Gruppo di utenti (personalizzato)
 
+* Creato dall&#39;utente e-mail
+* Creato da nome utente
 * Data creazione
+* Descrizione
 * ID
 * Conteggio membri
 * Nome
@@ -227,6 +252,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 ### Gruppo di utenti (team diretto)
 
 * Data creazione
+* Descrizione
 * ID
 * Conteggio membri
 * Nome
@@ -239,6 +265,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 ### Gruppo di utenti (incorporato)
 
 * Data creazione
+* Descrizione
 * ID
 * Conteggio membri
 * Nome
@@ -247,6 +274,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 ### Gruppo utenti (team)
 
 * Data creazione
+* Descrizione
 * ID
 * Conteggio membri
 * Descrizione
