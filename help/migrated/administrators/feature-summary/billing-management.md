@@ -7,7 +7,7 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
+source-git-commit: 53804a4311b741e87f06d497a866552995a521b2
 workflow-type: tm+mt
 source-wordcount: '3562'
 ht-degree: 36%
@@ -266,7 +266,7 @@ Qualsiasi utente che effettui le seguenti azioni o ottenga completamenti a causa
 - Partecipazione all’apprendimento sociale creando bacheche, post o commenti.
 - Ottenimento di completamenti grazie alle approvazioni di invio di certificati esterni o alla partecipazione a sessioni in aula/aula virtuale.
 
-## Visualizzare i dettagli di utilizzo {#viewusagedetails}
+## Visualizzare i dettagli di utilizzo {#view-usage-details}
 
 1. Per visualizzare il numero di utenti attivi al mese, fai clic su **[!UICONTROL Visualizza dettagli di utilizzo]**.
 

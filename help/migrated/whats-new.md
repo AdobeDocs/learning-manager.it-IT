@@ -6,9 +6,9 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: b05fc0d33acf0b594a64f3ad4aa9a5c8e570ab30
 workflow-type: tm+mt
-source-wordcount: '4846'
+source-wordcount: '4748'
 ht-degree: 1%
 ---
 
@@ -106,10 +106,10 @@ Gli amministratori possono modificare la descrizione di ogni strumento per aggiu
 
 [Ulteriori informazioni](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-## Modifiche e branding del percorso di apprendimento personalizzato
+## Modifica e branding del percorso di apprendimento personalizzato
 
 * Gli allievi ora possono rimuovere gli argomenti o i corsi suggeriti in un unico passaggio, oltre all’opzione esistente per perfezionare gli argomenti e gli elenchi dei corsi tramite chat.
-* Gli Amministratori ora possono riposizionare la striscia dei percorsi di apprendimento personalizzati nella home page dell’Allievo tramite la pagina di branding.
+* Gli Amministratori ora possono riposizionare la striscia Percorsi di apprendimento personalizzati nella home page dell’Allievo tramite la pagina di branding.
 
 [Ulteriori informazioni](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
@@ -121,7 +121,7 @@ Gli autori creano scenari dai propri materiali di riferimento utilizzando modell
 
 Virtual Coach supporta nove lingue e può essere utilizzato come risorsa formativa autonoma o incorporato in un corso.
 
-[Ulteriori informazioni](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[Ulteriori informazioni](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## Citazioni del percorso di apprendimento in Assistente Allievo
 
@@ -161,7 +161,7 @@ Adobe Learning Manager ora contrassegna la partecipazione quando un Allievo ripr
 
 ## Email Builder per corsi e istanze
 
-Email Builder in Adobe Learning Manager consente agli amministratori e agli autori di creare modelli di comunicazione con marchio per gli allievi. Nella versione di dicembre 2026 di ALM, l’esperienza completa di Generatore di e-mail è disponibile per e-mail a livello di corso e di istanza. Gli Autori possono personalizzare questi messaggi e-mail ereditando i layout e la formattazione definiti dagli Amministratori.
+Email Builder in Adobe Learning Manager consente ad Amministratori e Autori di creare modelli di comunicazione con il marchio dell’Allievo. Nella versione di dicembre 2026 di ALM, l’esperienza completa di Generatore di e-mail è disponibile per e-mail a livello di corso e di istanza. Gli Autori possono personalizzare questi messaggi e-mail ereditando i layout e la formattazione definiti dagli Amministratori.
 
 Con Email Builder, puoi:
 
@@ -338,14 +338,6 @@ Quando gli utenti selezionano **Registrati** da una pagina raggiunta tramite tal
 
 [Ulteriori informazioni](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## Memorizza le ultime date di accesso per le iscrizioni al percorso di apprendimento
-
-Adobe Learning Manager ora consente di allegare metadati personalizzati, ad esempio la data dell’ultimo accesso, a un’iscrizione a un percorso di apprendimento. L’impostazione e la lettura avviene tramite l’API, che consente di tenere traccia dell’accesso in base al tempo ai percorsi di apprendimento assegnati.
-
-Le iscrizioni ai corsi supportano già una data di ultimo accesso tramite l’API, che controlla la durata di accesso di un Allievo al corso. Le iscrizioni al percorso di apprendimento ora offrono un campo di metadati generico, che consente di memorizzare la data dell’ultimo accesso o qualsiasi altro valore di cui desideri tenere traccia.
-
-[Ulteriori informazioni](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## Modifiche all’intestazione di colonna nei report scaricati
 
 Il Report Builder ora include il nome del set di dati nelle intestazioni di colonna predefinite dei report scaricati, pertanto il nome del set di dati dell’oggetto di apprendimento viene visualizzato come **Oggetto di apprendimento - Nome** anziché come **Nome**. Per le colonne aggregate, l’intestazione include anche la funzione, ad esempio &quot;**Numero di oggetti di apprendimento - ID**&quot;. Se si immette un nome personalizzato nel campo **Alias** di una colonna, tale alias verrà utilizzato come intestazione e rimarrà invariato.
@@ -356,7 +348,7 @@ Dopo l’aggiornamento, i report esistenti senza alias personalizzati mostrano l
 
 Live Hub è ora generalmente disponibile per i clienti Ultimate e rimane in versione beta per i clienti Prime.
 
-[Ulteriori informazioni](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[Ulteriori informazioni](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## Supporto multilingue per sottotitoli codificati nell’Hub live
 
@@ -387,7 +379,7 @@ Nelle sessioni di grandi dimensioni, si applicano le funzionalità e i comportam
 
 Ciò consente alle organizzazioni di eseguire sessioni di formazione di grandi dimensioni all&#39;interno della stessa piattaforma, con una sala che può essere impostata sulle dimensioni del pubblico previste.
 
-[Ulteriori informazioni](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[Ulteriori informazioni](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## Canali
 
