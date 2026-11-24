@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Set di dati disponibili nel Report Builder
 description: Guida di riferimento ai set di dati, ai campi e ai campi derivati disponibili in Adobe Learning Manager Report Builder.
 contentowner: mmanuel
-source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
+source-git-commit: 3cb434b8a4eeebab140981b71da72fad380ded24
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1493'
 ht-degree: 13%
 ---
 
@@ -59,7 +59,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * % completamento utente
 * % conformità utente
 
-### Quiz L2 dopo campo personalizzato (utente)
+### Quiz L2
 
 * Numero di tentativi
 * ID corso
@@ -108,6 +108,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * Tag
 * Tipo
 * ID univoco
+* Validità certificato (mesi)
 
 ### Istanza dell’oggetto di apprendimento
 
@@ -170,6 +171,8 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * Punteggio più alto utente
 * ID utente
 * Punteggio più recente utente
+* Iscrizione primaria
+* Metadati
 
 ### Trascrizione (Modulo)
 
@@ -189,6 +192,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * ID utente
 * Punteggio più recente utente
 * Nome utente
+* Stato completamento modulo
 
 ### Utente
 
@@ -229,6 +233,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * Conteggio membri
 * Nome
 * Stato
+* Conteggio membri
 
 ### Gruppo di utenti (campo attivo)
 
@@ -237,6 +242,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * Conteggio membri
 * Nome
 * Stato
+* Conteggio membri
 
 ### Gruppo di utenti (personalizzato)
 
@@ -261,6 +267,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * Nome proprietario
 * ID univoco proprietario
 * Stato
+* Descrizione
 
 ### Gruppo di utenti (incorporato)
 
@@ -270,6 +277,7 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * Conteggio membri
 * Nome
 * Stato
+* Descrizione
 
 ### Gruppo utenti (team)
 
@@ -285,6 +293,8 @@ Le informazioni nella tabella non sono esaustive. Per un elenco completo di tutt
 * Stato proprietario
 * ID univoco proprietario
 * Stato
+* Descrizione
+* Conteggio membri
 
 ## Come unire i set di dati
 
