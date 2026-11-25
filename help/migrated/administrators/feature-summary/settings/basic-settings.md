@@ -6,9 +6,9 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
+source-git-commit: be7170bc8e384e0084eaa62b6f31ac0332bac6b5
 workflow-type: tm+mt
-source-wordcount: '7201'
+source-wordcount: '7194'
 ht-degree: 3%
 ---
 # Impostazioni di base in Adobe Learning Manager
@@ -402,15 +402,13 @@ Quando i corsi sono a pagamento, gli Autori possono specificare il prezzo del co
 >
 >Alcuni tipi di corso di formazione, come certificazioni ricorrenti e corsi approvati dal manager, non possono essere acquistati.
 
-## Attivare la formazione automatica del team in Adobe Learning Manager
+### Formazione automatica del team per gli invii basati su team {#enable-auto-team-formation}
 
 Attiva la formazione automatica del team nelle impostazioni dell’Amministratore, in modo che Adobe Learning Manager raggruppi gli Allievi iscritti in team prima dell’avvio di ogni istanza del corso.
 
 Questa impostazione è facoltativa. Gli invii dei team funzionano senza tale strumento e gli istruttori possono creare i team manualmente.
 
 Quando attivi questa impostazione dell’account, Adobe Learning Manager raggruppa automaticamente gli Allievi iscritti nei team un determinato numero di giorni prima dell’inizio di ogni istanza del corso. L&#39;impostazione è disattivata per impostazione predefinita. Gli Autori possono modificare la pianificazione dei propri corsi e gli Istruttori possono comunque creare i team manualmente.
-
-### Attivare la formazione automatica del team
 
 1. Nell&#39;app di amministrazione, seleziona **Impostazioni** > **Generali**.
 
@@ -430,7 +428,7 @@ Quando attivi questa impostazione dell’account, Adobe Learning Manager raggrup
 
 L’impostazione funziona solo per i corsi che dispongono di un modulo di invio di file basato su team e di una data di inizio dell’istanza.
 
-## Effetto delle modifiche sui corsi
+#### Effetto delle modifiche sui corsi
 
 Quando si modifica questa impostazione, la modifica si applica solo ai corsi creati dopo il salvataggio. I corsi già esistenti mantengono la configurazione con cui erano stati pubblicati, indipendentemente dal fatto che la formazione automatica del team fosse attiva o meno, e mantengono la pianificazione. Ad esempio, se attivi l’impostazione a marzo, i corsi creati a febbraio non la ottengono e quelli creati a marzo o versioni successive.
 
