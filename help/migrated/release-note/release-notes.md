@@ -7,10 +7,10 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
 workflow-type: tm+mt
-source-wordcount: '39583'
-ht-degree: 56%
+source-wordcount: '40345'
+ht-degree: 55%
 ---
 # Note sulla versione di Adobe Learning Manager
 
@@ -20,7 +20,7 @@ ht-degree: 56%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/it/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -316,6 +316,46 @@ Quando le impostazioni internazionali dell’interfaccia utente sono impostate s
 Questo comportamento si verifica durante l’esportazione delle aule dal profilo Amministratore > Impostazioni > Aule. Anche se i dati della posizione all’interno del file vengono restituiti correttamente, le intestazioni di colonna non vengono tradotte in modo da corrispondere alle impostazioni internazionali dell’interfaccia utente scelte dall’Amministratore. Di conseguenza, un Amministratore che utilizza impostazioni internazionali diverse dall’inglese visualizza i nomi delle colonne in inglese in un ambiente altrimenti localizzato.
 
 Viene interessata solo la riga di intestazione; i dati della posizione sottostante nel file esportato non sono interessati. Questa versione non include alcuna correzione e il problema è in fase di valutazione per una versione futura.
+
+**L’istruttore non può unirsi all’aula virtuale tra i moduli**
+Gli istruttori non possono entrare nell’aula virtuale quando tentano di entrare in una stanza al di fuori dell’orario pianificato del modulo del corso assegnato.
+
+Adobe Learning Manager utilizza un’unica aula virtuale per tutti i moduli di un corso. Quando un Istruttore avvia la sala, la sessione è associata al modulo collegato all’URL di accesso dell’Istruttore. Qualsiasi richiesta di join successiva deve corrispondere al modulo attivo associato alla room. Se un altro istruttore tenta di partecipare utilizzando un collegamento di join di un modulo diverso mentre un altro modulo è attivo, l’accesso alla room viene negato. Nella sala condivisa può essere attivo un solo modulo alla volta.
+
+Questo comportamento è previsto nella versione corrente. I miglioramenti per consentire agli Istruttori del corso di entrare nella stanza indipendentemente dal modulo attivo sono pianificati per una versione futura.
+
+**L&#39;audio si interrompe quando il microfono e l&#39;altoparlante differiscono su macOS**
+L’audio può interrompersi in modo intermittente o il suono si inceppa durante una sessione aula virtuale su macOS quando il microfono e l’altoparlante selezionati sono dispositivi diversi. Questo comportamento può verificarsi quando vengono utilizzati dispositivi diversi per l’ingresso e l’uscita audio, ad esempio AirPods per il microfono e l’altoparlante incorporato per la riproduzione. Poiché ogni dispositivo introduce un proprio ritardo audio, la cancellazione dell’eco è meno efficace e la soppressione del rumore di fondo può occasionalmente sviare l’identificazione di parti del parlato come rumore. Ciò può causare brevi interruzioni audio. Il problema è più evidente quando la voce dell&#39;altoparlante viene acquisita a un volume basso, ad esempio quando il microfono è posizionato più lontano.
+
+Si tratta di una limitazione nota della piattaforma e non è specifica di Adobe Learning Manager. Un comportamento simile è stato osservato in altre applicazioni per conferenze. Questa versione non include alcuna correzione e il problema è in fase di valutazione per una versione futura.
+
+Utilizzare lo stesso dispositivo sia per il microfono che per gli altoparlanti per evitare questo comportamento.
+
+**Il video condiviso si blocca in Chrome dopo aver perso lo stato attivo**
+Quando un Istruttore condivide una finestra di Chrome riproducendo un video e quindi sposta lo stato attivo su di esso, i partecipanti potrebbero vedere il contenuto condiviso congelarsi o visualizzare una schermata nera. Il video continua a essere riprodotto localmente per l’istruttore, ma i partecipanti remoti potrebbero non vedere l’aggiornamento del contenuto mentre la finestra condivisa non è a fuoco. Il comportamento varia a seconda del sistema operativo:
+
+* In Windows, i partecipanti visualizzano una schermata nera.
+* In macOS, i partecipanti visualizzano l’ultimo fotogramma video visualizzato.
+
+La riproduzione del video per i partecipanti in genere riprende quando torna lo stato attivo nella finestra del browser condiviso.
+
+Si tratta di una limitazione del browser e del sistema operativo e non è specifica di Adobe Learning Manager. Non è disponibile alcuna correzione specifica per il prodotto per questa versione.
+
+Durante la presentazione dei contenuti video, la finestra del browser condiviso resta a fuoco. Evita di tornare alla finestra Aula virtuale durante la riproduzione.
+
+**Gli Allievi possono partecipare a una sessione Hub live prima della finestra di 15 minuti consentita utilizzando un URL diretto**
+In Adobe Learning Manager, gli Allievi possono partecipare a una sessione Hub dal vivo tramite il portale solo entro 15 minuti dall’ora di inizio pianificata. Tuttavia, gli Allievi con un URL di sessione diretta, ad esempio uno condiviso da un Istruttore, possono partecipare alla sessione in precedenza, a condizione che abbiano effettuato l’accesso a Adobe Learning Manager. Questa è una limitazione nota e potrebbe essere risolta in una versione futura.
+
+**L’istruttore non può partecipare a un modulo già in uso**
+Quando gli Istruttori tentano di avviare due moduli di corso che utilizzano contemporaneamente la stessa aula virtuale, solo il primo Istruttore può entrare correttamente nella stanza.
+
+Adobe Learning Manager utilizza una singola classe virtuale condivisa per un’istanza del corso. Quando il primo Istruttore entra nella stanza, questa viene associata al modulo dell’Istruttore. Le richieste di join aggiuntive vengono convalidate rispetto al modulo attivo. Se un altro Istruttore tenta di partecipare utilizzando un collegamento di modulo diverso, l’accesso viene negato. Di conseguenza, le sessioni simultanee tenute da Istruttori non possono essere condotte all’interno della stessa istanza di corso utilizzando moduli separati che condividono una stanza.
+
+Questo comportamento è previsto nella versione corrente ed è coerente con l’architettura della sala esistente. La funzionalità è in fase di revisione per essere migliorata in futuro in base al feedback dei clienti.
+
+**La modalità a schermo intero non funziona in Firefox su iPad**
+Quando i partecipanti accedono a una sessione Hub dal vivo utilizzando il browser Firefox su un iPad, la selezione del pulsante Schermo intero non comporta il passaggio alla modalità a schermo intero. La sessione rimane nella visualizzazione standard del browser invece di espandersi per riempire lo schermo.
+Si tratta di una limitazione nota del browser specifica per Firefox su iPad. La funzionalità a schermo intero non è disponibile in questa combinazione di browser e dispositivi. Questa è una limitazione nota e potrebbe essere risolta in una versione futura.
 
 **Limiti di qualità dei sottotitoli nell&#39;hub live**
 
@@ -1029,7 +1069,7 @@ Per ulteriori informazioni sul lettore Fluidic, consulta questo [articolo](/help
 
 * È stato risolto un problema a causa del quale gli Allievi che avevano completato un corso visualizzavano una schermata bianca durante la revisione dopo l’aggiornamento del modulo dei contenuti a una nuova versione.
 
-Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/it/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Inoltre, per i dettagli sulle imminenti modifiche a Adobe Learning Manager, consulta questo [articolo](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2509,7 +2549,7 @@ In questo aggiornamento, un Allievo può caricare risorse come prova di completa
 
 Un Allievo può aprire un certificato esterno e caricare risorse quali file PDF, di testo o di immagine.
 
-Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Per ulteriori informazioni, consulta [***Caricamento di risorse in un certificato esterno***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problemi risolti in questa versione {#issuesfixedinthisrelease}
 
@@ -2887,7 +2927,7 @@ Data di pubblicazione: 20 giugno 2019
 
 **Cura automatica di contenuti**
 
-L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[**&#x200B; Cura auto-assistita &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’Apprendimento sociale consente ai contenuti pubblicati dagli allievi di essere selezionati in due modi: **Nessuna cura** e **Cura manuale**. In questa versione, Adobe Learning Manager migliora l’apprendimento sociale fornendo funzionalità di cura automatica basate su intelligenza artificiale. Una volta pubblicato, il contenuto viene analizzato per identificare se appartiene all’abilità per cui è stato pubblicato. In base al punteggio di confidenza, il contenuto viene pubblicato in diretta o inviato per la cura manuale. Per ulteriori informazioni, consulta *[** Cura auto-assistita **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappare abilità con domini di abilità**
 
@@ -3513,7 +3553,7 @@ Data di pubblicazione: 06 dicembre 2016.
 
 ### Miglioramento {#enhancement}
 
-Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando&#x200B;**&#x200B;**&#x200B;questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
+Nell’ambito di questo aggiornamento, Learning Manager fornisce un endpoint <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> per aggiornare gli utenti in un’applicazione. Puoi accedere a questo endpoint API nel ruolo di Amministratore. Utilizzando****questo endpoint puoi aggiornare le seguenti informazioni degli utenti di Learning Manager:
 
 * Nome
 * E-mail
@@ -4023,7 +4063,7 @@ L’esportazione di dati di iscrizione non riusciva se uno degli allievi iscritt
 
 **Modelli e-mail**
 
-* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**&#x200B;** veniva **&#x200B;**&#x200B;rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
+* La parola **partner,** che veniva utilizzata per rappresentare gruppi esterni,**** veniva **** rimossa dal corpo e dal titolo dei modelli e-mail. I gruppi esterni non vengono necessariamente chiamati partner.\
   **Nota:** questo modello aggiornato non viene visualizzato se il modello predefinito è già stato modificato. Per visualizzare il modello aggiornato, fare clic su **Torna all&#39;originale** nella finestra di dialogo **Anteprima modello**.
 
 * L’URL non è cliccabile nell’e-mail ricevuta dagli Amministratori ogni volta che i modelli e-mail **Profilo creato (registrazione autonoma)** e **Profilo creato (Esterni/Partner)** venivano modificati. Questo problema è stato risolto.
