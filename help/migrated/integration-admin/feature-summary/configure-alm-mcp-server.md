@@ -3,9 +3,9 @@ description: Configura il server MCP (Model Context Protocol) una volta per l'or
 jcr-language: en_us
 title: Configurare il server Adobe Learning Manager MCP
 exl-id: b5d2c08e-a11e-4f55-9ba5-a652a9575678
-source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
+source-git-commit: 47770f784e9f88684c19d6c72cf08b1f36e859fe
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2089'
 ht-degree: 1%
 ---
 
@@ -182,30 +182,30 @@ Il server MCP espone i seguenti strumenti. Tutte vengono eseguite con le autoriz
 </thead>
 <tbody>
 <tr>
-<td>search_learning_itemsread-only</td>
+<td>search_learning_items</td>
 <td>Cerca nel catalogo corsi, percorsi di apprendimento, certificazioni, risorse formative, distintivi, abilità, cataloghi e tag. Filtri: tipo, stato dell’Allievo, abilità, tag, catalogo, formato di consegna, prezzo e lingua. Restituisce fino a 10 risultati per pagina.</td>
 <td>"Corsi per principianti Python"<br />
 "Corsi di formazione gratuiti in classe in francese"</td>
 </tr>
 <tr>
-<td>list_my_learning_enrollssola lettura</td>
+<td>list_my_learning_enrollments</td>
 <td>Elenca l’apprendimento registrato, in corso e completato dell’Allievo, con stato, avanzamento e scadenza. L’ultima iscrizione è stata effettuata per impostazione predefinita.</td>
 <td>"A cosa sono iscritto?"<br />
 "Cosa sarà presto?"<br />
 "I miei corsi di formazione completati"</td>
 </tr>
 <tr>
-<td>get_learning_objectread-only</td>
+<td>get_learning_object</td>
 <td>Ottiene i dettagli completi di un corso, un percorso di apprendimento, una certificazione o una risorsa formativa in base all'ID, incluse facoltativamente istanze, abilità ed elementi secondari.</td>
 <td>"Ulteriori informazioni sul secondo corso"</td>
 </tr>
 <tr>
-<td>get_my_learning_profileread-only</td>
+<td>get_my_learning_profile</td>
 <td>Ottiene il profilo ALM dell’Allievo, inclusi l’account e il Manager.</td>
 <td>"Chi è il mio manager in ALM?"</td>
 </tr>
 <tr>
-<td>response_learning_content_questionuses crediti IA</td>
+<td>response_learning_content_question</td>
 <td>Risponde alle domande sull'argomento del corso utilizzando ALM Learning Assistant, basato sul contenuto del corso con le citazioni. Restituisce un ID di conversazione utilizzato dall'assistente per le domande di completamento.</td>
 <td>"Descrizione di TCP e UDP come descritto nel corso sulla rete"</td>
 </tr>
@@ -238,7 +238,7 @@ Claude e ChatGPT li scoprono automaticamente. Sono elencati qui per i clienti o 
 | URL autorizzazione | [https://\[alm-host\]/oauth/o/authorization](https://[alm-host]/oauth/o/authorization) |
 | URL token | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | Aggiorna URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| Base server di autorizzazione | &lbrack;https://\[alm-host](https://[alm-host)\] |
+| Base server di autorizzazione | [https://\[alm-host\]](https://[alm-host]) |
 | Risorsa | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | Ambito | Allievo:write |
 
