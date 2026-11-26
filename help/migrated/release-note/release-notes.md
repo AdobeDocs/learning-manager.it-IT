@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
+source-git-commit: ba51f210cd63e074c009aa167173cfee35a44fe1
 workflow-type: tm+mt
-source-wordcount: '40345'
+source-wordcount: '40347'
 ht-degree: 55%
 ---
 # Note sulla versione di Adobe Learning Manager
@@ -355,6 +355,7 @@ Questo comportamento è previsto nella versione corrente ed è coerente con l’
 
 **La modalità a schermo intero non funziona in Firefox su iPad**
 Quando i partecipanti accedono a una sessione Hub dal vivo utilizzando il browser Firefox su un iPad, la selezione del pulsante Schermo intero non comporta il passaggio alla modalità a schermo intero. La sessione rimane nella visualizzazione standard del browser invece di espandersi per riempire lo schermo.
+
 Si tratta di una limitazione nota del browser specifica per Firefox su iPad. La funzionalità a schermo intero non è disponibile in questa combinazione di browser e dispositivi. Questa è una limitazione nota e potrebbe essere risolta in una versione futura.
 
 **Limiti di qualità dei sottotitoli nell&#39;hub live**
