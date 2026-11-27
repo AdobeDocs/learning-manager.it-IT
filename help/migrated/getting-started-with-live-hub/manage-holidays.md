@@ -4,7 +4,7 @@ description: Scopri come gli Amministratori definiscono le festività a livello 
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: d0b166a48876f5dcb7268c9c956d624cff55fae1
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 3%
@@ -58,7 +58,7 @@ Per aggiungere manualmente una festività:
 
 1. Seleziona **Salva**. La festività viene aggiunta all&#39;elenco.
 
-### Aggiungere festività in blocco
+### Aggiungere festività in blocco {#holidays-in-bulk}
 
 Usa un file CSV per aggiungere più festività contemporaneamente.
 
